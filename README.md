@@ -1,4 +1,4 @@
-[![logo](icon.png "lizmap")][3liz]Lizmap Web Application Locales
+[![logo](icon.png "lizmap")][lizmap]Lizmap Web Application Locales
 ===================================================================
 
 Lizmap web application, by 3LIZ.
