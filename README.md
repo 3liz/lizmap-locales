@@ -13,6 +13,12 @@ Lizmap Web Application generates dynamically a web map application (php/html/css
 
 The Original Code is 3liz code.
 
+Transifex
+------------
+
+You can contribute with Transifex. You'll find the project here: https://www.transifex.com/3liz-1/lizmap-locales/
+
+
 Web Client locales
 ------------------------
 
