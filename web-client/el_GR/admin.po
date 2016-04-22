@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client admin 3.0beta4\n"
 "Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2016-04-04 22:23+0200\n"
+"POT-Creation-Date: 2016-04-22 18:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: el_GR\n"
@@ -138,7 +138,7 @@ msgstr "URL του server WMS"
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
-msgid "WMS subdomain URLs list (optionnal)"
+msgid "WMS subdomain URLs list (optional)"
 msgstr "Λίστα URLs WMS για τα sub-domain"
 
 #: admin~admin.configuration.services.onlyMaps.label
@@ -168,7 +168,7 @@ msgstr "Φάκελος του cache"
 
 #: admin~admin.configuration.services.cacheExpiration.label
 msgctxt "admin~admin.configuration.services.cacheExpiration.label"
-msgid "Server cache expiration time (s)"
+msgid "Server cache expiration time(s)"
 msgstr "Διάρκεια ζωής του cache (δλ)"
 
 #: admin~admin.configuration.services.proxyMethod.label
@@ -213,7 +213,7 @@ msgstr "Διαγραφή"
 
 #: admin~admin.configuration.button.remove.repository.confirm.label
 msgctxt "admin~admin.configuration.button.remove.repository.confirm.label"
-msgid "Would you like to remove this repository ?"
+msgid "Would you like to remove this repository?"
 msgstr "Είστε σίγουροι για τη διαγραφή του φάκελου"
 
 #: admin~admin.configuration.button.add.repository.label
@@ -238,7 +238,7 @@ msgstr "URL του WMS"
 
 #: admin~admin.form.admin_services.wmsPublicUrlList.label
 msgctxt "admin~admin.form.admin_services.wmsPublicUrlList.label"
-msgid "WMS subdomain URLs list (optionnal)"
+msgid "WMS subdomain URLs list (optional)"
 msgstr "Λίστα URLs WMS για τα sub-domain"
 
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
@@ -261,6 +261,11 @@ msgctxt "admin~admin.form.admin_services.cacheStorageType.file.label"
 msgid "Files"
 msgstr "Εγγραφα"
 
+#: admin~admin.form.admin_services.cacheStorageType.redis.label
+msgctxt "admin~admin.form.admin_services.cacheStorageType.redis.label"
+msgid "Redis"
+msgstr ""
+
 #: admin~admin.form.admin_services.cacheRootDirectory.label
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.label"
 msgid "Cache root directory"
@@ -278,7 +283,7 @@ msgstr "Δεν υπάρχει φάκελο ή δεν είναι διαθέσιμ
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
-msgid "Server cache expiration time (s)"
+msgid "Server cache expiration time(s)"
 msgstr "Διάρκεια ζωής του cache (δλ)"
 
 #: admin~admin.form.admin_services.cacheExpiration.help
@@ -338,7 +343,7 @@ msgstr ""
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
-msgid "Allow visitors to request an account ?"
+msgid "Allow visitors to request an account?"
 msgstr "Επιτρέπει τους επισκέπτες να ζητήσουν ένα λογαριασμό ;"
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.help
@@ -468,7 +473,7 @@ msgstr "Αδειάσε το cache για το στρώμα %s ."
 
 #: admin~admin.cache.button.remove.repository.cache.confirm.label
 msgctxt "admin~admin.cache.button.remove.repository.cache.confirm.label"
-msgid "Would you like to empty the cache for this repository ?"
+msgid "Would you like to empty the cache for this repository?"
 msgstr "Είστε σίγουρει να θέλετε να αδειάσε αυτό cache του φάκελου"
 
 #: admin~admin.cache.button.remove.repository.cache.label
@@ -513,7 +518,7 @@ msgstr "Άδειασμα"
 
 #: admin~admin.logs.empty.confirm
 msgctxt "admin~admin.logs.empty.confirm"
-msgid "Are you sure to want to empty the log content ?"
+msgid "Are you sure to want to empty the log content?"
 msgstr "Είστε σίγουρει να θέλετε να αδειάσε αυτό περιεχόμενο του log ;"
 
 #: admin~admin.logs.empty.ok

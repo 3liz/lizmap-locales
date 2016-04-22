@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client admin 3.0beta4\n"
 "Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2016-04-04 22:22+0200\n"
+"POT-Creation-Date: 2016-04-22 18:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr_FR\n"
@@ -138,7 +138,7 @@ msgstr "URL du serveur WMS"
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
-msgid "WMS subdomain URLs list (optionnal)"
+msgid "WMS subdomain URLs list (optional)"
 msgstr "Liste d'URLs WMS de sous-domaine (optionnel)"
 
 #: admin~admin.configuration.services.onlyMaps.label
@@ -168,7 +168,7 @@ msgstr "Répertoire racine du cache"
 
 #: admin~admin.configuration.services.cacheExpiration.label
 msgctxt "admin~admin.configuration.services.cacheExpiration.label"
-msgid "Server cache expiration time (s)"
+msgid "Server cache expiration time(s)"
 msgstr "Durée de vie du cache (s)"
 
 #: admin~admin.configuration.services.proxyMethod.label
@@ -213,7 +213,7 @@ msgstr "Supprimer"
 
 #: admin~admin.configuration.button.remove.repository.confirm.label
 msgctxt "admin~admin.configuration.button.remove.repository.confirm.label"
-msgid "Would you like to remove this repository ?"
+msgid "Would you like to remove this repository?"
 msgstr "Êtes-vous sûr de vouloir supprimer ce répertoire ?"
 
 #: admin~admin.configuration.button.add.repository.label
@@ -238,7 +238,7 @@ msgstr "URL du serveur WMS"
 
 #: admin~admin.form.admin_services.wmsPublicUrlList.label
 msgctxt "admin~admin.form.admin_services.wmsPublicUrlList.label"
-msgid "WMS subdomain URLs list (optionnal)"
+msgid "WMS subdomain URLs list (optional)"
 msgstr "Liste d'URLs WMS de sous-domaine (optionnel)"
 
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
@@ -261,6 +261,11 @@ msgctxt "admin~admin.form.admin_services.cacheStorageType.file.label"
 msgid "Files"
 msgstr "Fichiers"
 
+#: admin~admin.form.admin_services.cacheStorageType.redis.label
+msgctxt "admin~admin.form.admin_services.cacheStorageType.redis.label"
+msgid "Redis"
+msgstr ""
+
 #: admin~admin.form.admin_services.cacheRootDirectory.label
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.label"
 msgid "Cache root directory"
@@ -278,7 +283,7 @@ msgstr "Le répertoire n'existe pas où n'est pas accessible en écriture. Vous 
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
-msgid "Server cache expiration time (s)"
+msgid "Server cache expiration time(s)"
 msgstr "Durée de vie du cache (s)"
 
 #: admin~admin.form.admin_services.cacheExpiration.help
@@ -338,7 +343,7 @@ msgstr "Projet par défaut"
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
-msgid "Allow visitors to request an account ?"
+msgid "Allow visitors to request an account?"
 msgstr "Autoriser les visiteurs à demander un compte ?"
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.help
@@ -468,7 +473,7 @@ msgstr "Le cache pour la couche %s a bien été vidé."
 
 #: admin~admin.cache.button.remove.repository.cache.confirm.label
 msgctxt "admin~admin.cache.button.remove.repository.cache.confirm.label"
-msgid "Would you like to empty the cache for this repository ?"
+msgid "Would you like to empty the cache for this repository?"
 msgstr "Êtes-vous sûr de vouloir vider le cache pour ce répertoire ?"
 
 #: admin~admin.cache.button.remove.repository.cache.label
@@ -513,7 +518,7 @@ msgstr "Vider"
 
 #: admin~admin.logs.empty.confirm
 msgctxt "admin~admin.logs.empty.confirm"
-msgid "Are you sure to want to empty the log content ?"
+msgid "Are you sure to want to empty the log content?"
 msgstr "Êtes-vous certain de vouloir vider le contenu du log ?"
 
 #: admin~admin.logs.empty.ok

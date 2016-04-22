@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client jelix 3.0beta4\n"
 "Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2016-04-06 11:09+0200\n"
+"POT-Creation-Date: 2016-04-22 18:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: el_GR\n"
@@ -851,6 +851,16 @@ msgctxt "jelix~cache.error.memcache.extension.badversion.2"
 msgid "(913) profile '%s' : bad version of the memcache php extension, this plugin requires less than 3.0"
 msgstr ""
 
+#: jelix~cache.error.driver.nohost
+msgctxt "jelix~cache.error.driver.nohost"
+msgid "(914) No 'host' parameter for the driver jCache  \"%s\""
+msgstr ""
+
+#: jelix~cache.error.driver.noport
+msgctxt "jelix~cache.error.driver.noport"
+msgid "(915) No 'port' parameter for the driver jCache  \"%s\""
+msgstr ""
+
 #: jelix~date_time.month.01.label
 msgctxt "jelix~date_time.month.01.label"
 msgid "January"
@@ -1254,136 +1264,6 @@ msgstr ""
 #: jelix~db.error.invalid.param
 msgctxt "jelix~db.error.invalid.param"
 msgid "(413) An invalid argument was supplied to the query"
-msgstr ""
-
-#: jelix~format.date
-msgctxt "jelix~format.date"
-msgid "m/d/Y"
-msgstr ""
-
-#: jelix~format.datetime
-msgctxt "jelix~format.datetime"
-msgid "m/d/Y H:i:s"
-msgstr ""
-
-#: jelix~format.time
-msgctxt "jelix~format.time"
-msgid "H:i:s"
-msgstr ""
-
-#: jelix~format.short_time
-msgctxt "jelix~format.short_time"
-msgid "H:i"
-msgstr ""
-
-#: jelix~format.short_datetime
-msgctxt "jelix~format.short_datetime"
-msgid "m/d/Y H:i"
-msgstr ""
-
-#: jelix~format.date_full
-msgctxt "jelix~format.date_full"
-msgid "%1$s, %4$s %2$d%3$s, %5$d"
-msgstr ""
-
-#: jelix~format.format.monetary
-msgctxt "jelix~format.format.monetary"
-msgid "$ %d"
-msgstr ""
-
-#: jelix~format.decimal_point
-msgctxt "jelix~format.decimal_point"
-msgid "."
-msgstr ""
-
-#: jelix~format.thousands_sep
-msgctxt "jelix~format.thousands_sep"
-msgid ","
-msgstr ""
-
-#: jelix~format.int_curr_symbol
-msgctxt "jelix~format.int_curr_symbol"
-msgid "USD"
-msgstr ""
-
-#: jelix~format.currency_symbol
-msgctxt "jelix~format.currency_symbol"
-msgid "$"
-msgstr ""
-
-#: jelix~format.mon_decimal_point
-msgctxt "jelix~format.mon_decimal_point"
-msgid ","
-msgstr ""
-
-#: jelix~format.mon_thousands_sep
-msgctxt "jelix~format.mon_thousands_sep"
-msgid " "
-msgstr ""
-
-#: jelix~format.mon_grouping
-msgctxt "jelix~format.mon_grouping"
-msgid ""
-msgstr ""
-
-#: jelix~format.positive_sign
-msgctxt "jelix~format.positive_sign"
-msgid ""
-msgstr ""
-
-#: jelix~format.negative_sign
-msgctxt "jelix~format.negative_sign"
-msgid "-"
-msgstr ""
-
-#: jelix~format.int_frac_digits
-msgctxt "jelix~format.int_frac_digits"
-msgid "2"
-msgstr ""
-
-#: jelix~format.frac_digits
-msgctxt "jelix~format.frac_digits"
-msgid ""
-msgstr ""
-
-#: jelix~format.p_cs_precedes
-msgctxt "jelix~format.p_cs_precedes"
-msgid ""
-msgstr ""
-
-#: jelix~format.p_sep_by_space
-msgctxt "jelix~format.p_sep_by_space"
-msgid ""
-msgstr ""
-
-#: jelix~format.n_cs_precedes
-msgctxt "jelix~format.n_cs_precedes"
-msgid ""
-msgstr ""
-
-#: jelix~format.n_sep_by_space
-msgctxt "jelix~format.n_sep_by_space"
-msgid ""
-msgstr ""
-
-#: jelix~format.p_sign_posn
-msgctxt "jelix~format.p_sign_posn"
-msgid ""
-msgstr ""
-
-#: jelix~format.n_sign_posn
-msgctxt "jelix~format.n_sign_posn"
-msgid ""
-msgstr ""
-
-#: jelix~format.url_escape_from
-msgctxt "jelix~format.url_escape_from"
-msgid "à â ä é è ê ë ï î ô ö ù ü û À Â Ä É È Ê Ë Ï Î Ô Ö Ù Ü Û ç Ç"
-msgstr ""
-
-#: jelix~format.url_escape_to
-msgctxt "jelix~format.url_escape_to"
-msgid "a a a e e e e i i o o u u u A A A E E E E I I O O U U U c c"
 msgstr ""
 
 #: jelix~errors.unknown
