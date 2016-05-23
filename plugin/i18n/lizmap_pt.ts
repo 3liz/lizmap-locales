@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" sourcelanguage="" version="2.0">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" sourcelanguage="" version="2.0">
 <context>
     <name>lizmap</name>
     <message>
@@ -24,181 +24,181 @@
     <message>
         <location filename="ui_lizmap.ui" line="1425"/>
         <source>Key</source>
-        <translation>Clé</translation>
+        <translation>Chave</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1301"/>
         <source>Streets</source>
-        <translation>Rues</translation>
+        <translation>Ruas</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1308"/>
         <source>Satellite</source>
-        <translation>Satellite</translation>
+        <translation>Satélite</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1315"/>
         <source>Hybrid</source>
-        <translation>Hybride</translation>
+        <translation>Híbrido</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1235"/>
         <source>Terrain</source>
-        <translation>Relief</translation>
+        <translation>Terreno</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="2529"/>
         <source>Lizmap Error</source>
-        <translation>Lizmap - Erreur</translation>
+        <translation>Erro no Lizmap</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="1693"/>
         <source>Errors encountered while reading the last layer tree state. Please re-configure the options in the Layers tab completely</source>
-        <translation>Erreurs rencontrées lors de la lecture de la configuration précédente. Vous devez reconfigurer complètement les options des couches</translation>
+        <translation>Foram encontrados erros na leitura do último estado da árvore da camada. Por favor faça a re-configuração completa das opções no separador das Camadas</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="1562"/>
         <source>Lizmap - Refresh layer tree?</source>
-        <translation>Lizmap - Raffraîchir l&apos;arbre ?</translation>
+        <translation>Lizmap - Actualizar árvore das camadas?</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="1562"/>
         <source>ui.msg.question.refresh.content</source>
-        <translation>Vous pouvez raffraîchir l&apos;arbre des couches suite en cliquant sur Oui
-Vous perdrez alors toutes les modifications réalisées depuis le dernier enregistrement.
-Si vous avez renommé une couche ou un groupe, vous devrez aussi reconfigurer ces objets.
+        <translation>Pode actualizar a árvore da camada clicando em &quot;Sim&quot;.
+Tenha em atenção que irá perder todas as alterações feitas no separador Camadas (grupo ou metadados da camada e opções) desde o seu último &quot;Guardar&quot;.
+Se renomeou um ou mais grupos ou camadas, irá também perder a informação associada.
 
-Raffraîchir l&apos;arbre des couches ?</translation>
+Actualizar a árvore da camada?</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="1675"/>
         <source>List of layers</source>
-        <translation>Liste des couches</translation>
+        <translation>Lista de camadas</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="2341"/>
         <source>You need to open a qgis project before using Lizmap</source>
-        <translation>Vous devez d&apos;abord ouvrir un projet Qgis avant de lancer Lizmap</translation>
+        <translation>Necessita de abrir um projecto qgis antes de usar o Lizmap</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="2362"/>
         <source>The project layer paths must be set to relative. Please change this options in the project settings.</source>
-        <translation>Les chemins des fichiers doivent être configurés en &quot;relatif&quot; dans les options du projet QGIS.</translation>
+        <translation>O caminho da camada no projecto tem de ser definido como relativo. Por favor altere esta opção nas configurações do projecto.</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="2682"/>
         <source>Lizmap - Warning</source>
-        <translation>Lizmap - Attention</translation>
+        <translation>Lizmap - Aviso</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="2472"/>
         <source>Map - options</source>
-        <translation>Carte - options</translation>
+        <translation>Mapa - opções</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="729"/>
         <source>Map scales: Write down integer scales separated by comma. You must enter at least 2 min and max values.</source>
-        <translation>Échelles : Écrire une liste d&apos;entiers séparés par une virgule. Il faut au moins écrire les 2 valeurs d&apos;échelle minimale et maximale.</translation>
+        <translation>Escalas do mapa: Escreve escalar inteiras separadas por vírgulas. Deve introduzir pelo menos 2 valores min e máx.</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="2518"/>
         <source>All the map parameters are correctly set</source>
-        <translation>Tous les paramètres de l&apos;onglet Carte sont corrects</translation>
+        <translation>Todos os parâmetros do mapa foram correctamente configurados</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="2542"/>
         <source>Lizmap configuration file has been updated</source>
-        <translation>Le fichier de configuration de Lizmap a bien été enregistré</translation>
+        <translation>O ficheiro de configuração do Lizmap foi actualizado</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="2682"/>
         <source>A Lizmap window is already opened</source>
-        <translation>Une fenêtre Lizmap est déjà ouverte</translation>
+        <translation>A janela do Lizmap já se encontra aberto</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="56"/>
         <source>Layers</source>
-        <translation>Couches</translation>
+        <translation>Camadas</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1623"/>
         <source>Title</source>
-        <translation>Titre</translation>
+        <translation>Título</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="148"/>
         <source>Abstract</source>
-        <translation>Résumé</translation>
+        <translation>Resumo</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="165"/>
         <source>Link</source>
-        <translation>Lien</translation>
+        <translation>Link</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="285"/>
         <source>Base layer?</source>
-        <translation>Fond de carte ?</translation>
+        <translation>Tema Base?</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="278"/>
         <source>Group as layer?</source>
-        <translation>Groupe comme une couche ?</translation>
+        <translation>Grupo como camada?</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="188"/>
         <source>Toggled?</source>
-        <translation>Activée ?</translation>
+        <translation>Activar?</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="302"/>
         <source>Single Tile?</source>
-        <translation>Image non tuilée ?</translation>
+        <translation>Mosaico Único?</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="373"/>
         <source>Server cache?</source>
-        <translation>Cache Server?</translation>
+        <translation>Cache no servidor?</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="577"/>
         <source>Map</source>
-        <translation>Carte</translation>
+        <translation>Mapa</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="314"/>
         <source>Image format</source>
-        <translation>Format d&apos;image</translation>
+        <translation>Formato da imagem</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="819"/>
         <source>Scales</source>
-        <translation>Échelles</translation>
+        <translation>Escalas</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="830"/>
         <source>Min Scale</source>
-        <translation>Échelle min.</translation>
+        <translation>Escala Mín.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="853"/>
         <source>Max Scale</source>
-        <translation>Échelle max.</translation>
+        <translation>Escala Máx.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="893"/>
         <source>Map Scales</source>
-        <translation>Échelles de la carte</translation>
+        <translation>Escalas do Mapa</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1120"/>
         <source>Public baselayers</source>
-        <translation>Fonds externes</translation>
+        <translation>Temas base públicas</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1126"/>
         <source>You can add baselayers from public sources. If so, you must add the SCR &quot;Pseudo Mercator&quot; (EPSG:3857) in your WMS project OWS settings.</source>
-        <translation>Vous pouvez ajouter des fonds de carte provenant de ressources externes. Vous devez ajouter la projection &quot;Pseudo Mercator&quot; (EPSG:3857) dans les propriétés du projet (onglet OWS Server).</translation>
+        <translation>Pode adicionar camadasbase de fontes públicas. Se o adicionar, deve adicionar o SCR &quot;Pseudo Mercator&quot; (ESPG:3857) nas configurações OWS do seu projecto.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2972"/>
@@ -208,17 +208,17 @@ Raffraîchir l&apos;arbre des couches ?</translation>
     <message>
         <location filename="ui_lizmap.ui" line="3007"/>
         <source>Log</source>
-        <translation>Log</translation>
+        <translation>Log </translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3023"/>
         <source>Clear log</source>
-        <translation>Effacer le log</translation>
+        <translation>Limpar log</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="2529"/>
         <source>Wrong or missing map parameters: please read the log and correct the printed errors.</source>
-        <translation>Des paramètres sont manquants ou erronés dans l&apos;onglet Carte. Veuillez lire le log et corriger ces erreurs avant de relancer l&apos;action.</translation>
+        <translation>Parâmetros do mapa errados ou em falta: por favor leia o log e corrija os erros exibidos.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1144"/>
@@ -233,17 +233,17 @@ Raffraîchir l&apos;arbre des couches ?</translation>
     <message>
         <location filename="ui_lizmap.ui" line="40"/>
         <source>Save</source>
-        <translation>Enregistrer</translation>
+        <translation>Guardar</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3050"/>
         <source>Help</source>
-        <translation>Aide</translation>
+        <translation>Ajuda</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="332"/>
         <source>png; mode=8bit</source>
-        <translation>png; mode=8bit</translation>
+        <translation>png; modo=8bit</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="337"/>
@@ -253,7 +253,7 @@ Raffraîchir l&apos;arbre des couches ?</translation>
     <message>
         <location filename="ui_lizmap.ui" line="382"/>
         <source>Expiration (seconds)</source>
-        <translation>Expiration (secondes)</translation>
+        <translation>Expiração (segundos)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="399"/>
@@ -263,7 +263,7 @@ Raffraîchir l&apos;arbre des couches ?</translation>
     <message>
         <location filename="ui_lizmap.ui" line="249"/>
         <source>Configure</source>
-        <translation>Configurer</translation>
+        <translation>Configurar</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="406"/>
@@ -273,92 +273,92 @@ Raffraîchir l&apos;arbre des couches ?</translation>
     <message>
         <location filename="ui_lizmap.ui" line="197"/>
         <source>Activate popup</source>
-        <translation>Activer les popup</translation>
+        <translation>Activar popup</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1738"/>
         <source>Tools</source>
-        <translation>Outils</translation>
+        <translation>Ferramentas</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1759"/>
         <source>Locate by Layer</source>
-        <translation>Localiser par couche</translation>
+        <translation>Localizar por Camada</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1765"/>
         <source>You can add up to 3 layers as a source of the locating tool</source>
-        <translation>Vous pouvez ajouter jusqu&apos;à 3 couches comme source pour l&apos;outil Localisation</translation>
+        <translation>Pode adicionar até 3 camadas como fonte para a ferramenta de localização</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2834"/>
         <source>Layer</source>
-        <translation>Couche</translation>
+        <translation>Camada</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2565"/>
         <source>Field</source>
-        <translation>Champ</translation>
+        <translation>Campo</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1979"/>
         <source>Display the geometry</source>
-        <translation>Afficher la géométrie</translation>
+        <translation>Exibir a geometria</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2912"/>
         <source>Add layer</source>
-        <translation>Ajouter la couche</translation>
+        <translation>Adicionar camada</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2919"/>
         <source>Remove layer</source>
-        <translation>Enlever la couche</translation>
+        <translation>Remover camada</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2422"/>
         <source>Layer id</source>
-        <translation>Id de la couche</translation>
+        <translation>Id da camada</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="62"/>
         <source>Project layers</source>
-        <translation>Arbre des couches</translation>
+        <translation>Camadas do projecto</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="102"/>
         <source>Selected item settings</source>
-        <translation>Options de l&apos;item sélectionné</translation>
+        <translation>Configurações do item seleccionado</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="614"/>
         <source>Map tools</source>
-        <translation>Outils de la carte</translation>
+        <translation>Ferramentas do mapa</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="645"/>
         <source>Zoom history</source>
-        <translation>Zoom précédent/suivant</translation>
+        <translation>Histórico de Zoom</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="655"/>
         <source>Automatic geolocation</source>
-        <translation>Positionnement automatique</translation>
+        <translation>Geolocalização automática</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="625"/>
         <source>Print</source>
-        <translation>Impression</translation>
+        <translation>Imprimir</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="635"/>
         <source>Measure tools</source>
-        <translation>Outils de mesure</translation>
+        <translation>Ferramentas de medição</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="679"/>
         <source>Address search</source>
-        <translation>Recherche d&apos;adresse</translation>
+        <translation>Pesquisa por endereço</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="692"/>
@@ -370,66 +370,65 @@ Raffraîchir l&apos;arbre des couches ?</translation>
         <source>Write down integer scales separated by coma.
 You must enter at least 2 min and max values.
 Ex: 1000, 250000</source>
-        <translation>Écrire une liste d&apos;entiers séparés par une virgule.
-Il faut au moins écrire les 2 valeurs d&apos;échelle minimale et maximale.
-Ex: 1000, 250000</translation>
+        <translation>Escalas do mapa: Escreve escalar inteiras separadas por vírgulas. 
+Deve introduzir pelo menos 2 valores min e máx. Ex: 1000, 250000</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="417"/>
         <source>Browser client cache?</source>
-        <translation>Cache client navigateur ?</translation>
+        <translation>Cache no Browser Client?</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2719"/>
         <source>seconds</source>
-        <translation>secondes</translation>
+        <translation>segundos</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2362"/>
         <source>Layer editing</source>
-        <translation>Édition de couches</translation>
+        <translation>Edição de camada</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2368"/>
         <source>You can add up to 5 layers in the list and choose editing capabilities for each one.</source>
-        <translation>Vous pouvez ajouter jusqu&apos;à 5 couches d&apos;éditions dans la liste et choisir les droits pour chacune.</translation>
+        <translation>Pode adicionar até 5 camadas na lista e escolher capacidades de edição para cada uma.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2449"/>
         <source>Create</source>
-        <translation>Créer</translation>
+        <translation>Criar</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2456"/>
         <source>Modify attributes</source>
-        <translation>Modifier les attributs</translation>
+        <translation>Modificar atributos</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2463"/>
         <source>Modify geometry</source>
-        <translation>Modifier la géométrie</translation>
+        <translation>Modificar geometria</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2470"/>
         <source>Delete</source>
-        <translation>Supprimer</translation>
+        <translation>Apagar</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="2396"/>
         <source>ui.msg.error.project.layers.path.relative {}</source>
-        <translation>Les fichiers des couches doivent être situés dans le répertoire du projet ou dans un des sous-répertoires. Veuillez copier les couches dans
+        <translation>Os caminhos das camadas devem ser relativos ao ficheiro do projecto. Por favor copie as camadas para dentro
 {}
-ou dans un répertoire au-dessus ou à côté</translation>
+ou numa pasta acima ou ao lado</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2528"/>
         <source>Filter layer by user</source>
-        <translation>Filtrer les données par utilisateur</translation>
+        <translation>Filtrar camada por utilizador</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2534"/>
         <source>tools.loginFilteredLayers.description</source>
-        <translation>L&apos;utilisateur connecté ne verra que les données pour lesquelles la colonne choisie comporte le groupe auquel il appartient. Si l&apos;option &quot;Filtrer par utilisateur&quot; est cochée, alors l&apos;utilisateur ne verra que les données qui ont son login comme valeur pour la colonne choisie.</translation>
+        <translation>O utilizador autenticado apenas irá ver os dados respeitantes ao seu grupo de utilizador, ou apenas com o seu login de utilizador se a opção &quot;Filtrar por utilizador&quot; estiver activada</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2575"/>
@@ -439,224 +438,224 @@ ou dans un répertoire au-dessus ou à côté</translation>
     <message>
         <location filename="ui_lizmap.ui" line="925"/>
         <source>Initial map extent</source>
-        <translation>Emprise initiale</translation>
+        <translation>Extensão inicial do mapa</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="931"/>
         <source>You can define here the initial extent of the map.
 This is different to the map maximum extent (defined in QGIS project properties, &quot;OWS Server&quot; tab).</source>
-        <translation>Vous pouvez définir ici l&apos;emprise initiale de la carte.
-(Ceci est différent de l&apos;emprise maximale définie dans les propriétés du projet QGIS)</translation>
+        <translation>Pode definir aqui a extensão inicial do mapa.
+Isto é diferente da extensão máxima do mapa (definida nas propriedades do projecto, separador &quot;Servidor OWS&quot;).</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="941"/>
         <source>Extent</source>
-        <translation>Emprise</translation>
+        <translation>Extensão</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="959"/>
         <source>Set from project properties</source>
-        <translation>Définir à partir des propriétés du projet</translation>
+        <translation>Definir a partir das propriedades do projecto</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="966"/>
         <source>Set from map canvas</source>
-        <translation>Définir à partir de la vue courante</translation>
+        <translation>Definir a partir do enquadramento do mapa</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1828"/>
         <source>Display field</source>
-        <translation>Attribut à afficher</translation>
+        <translation>Exibir campo</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1781"/>
         <source>Optionnal group by field</source>
-        <translation>Regroupement optionnel</translation>
+        <translation>Campo opcional para agrupar por</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1974"/>
         <source>Group field</source>
-        <translation>Regroupement</translation>
+        <translation>Campo de agrupamento</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1099"/>
         <source>Baselayers</source>
-        <translation>Fonds</translation>
+        <translation>TemaBase</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1165"/>
         <source>OSM CycleMap</source>
-        <translation>Cycle Map</translation>
+        <translation>Mapa de Ciclovias</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1294"/>
         <source>Bing Map</source>
-        <translation>Bing Map</translation>
+        <translation>Mapa Bing</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1374"/>
         <source>IGN (France)</source>
-        <translation>IGN Géoportail</translation>
+        <translation>IGN (França)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1395"/>
         <source>Scans</source>
-        <translation>Scans</translation>
+        <translation>Ruas</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1388"/>
         <source>Orthophoto</source>
-        <translation>Orthophoto</translation>
+        <translation>Satélite</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1381"/>
         <source>Plan</source>
-        <translation>Plan</translation>
+        <translation>Plano</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1510"/>
         <source>External Lizmap layers</source>
-        <translation>Couches Lizmap externes</translation>
+        <translation>Camadas Externas Lizmap</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1599"/>
         <source>Repository</source>
-        <translation>Répertoire Lizmap</translation>
+        <translation>Repositório</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1606"/>
         <source>Project</source>
-        <translation>Projet</translation>
+        <translation>Projeto</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1630"/>
         <source>QGIS Layer</source>
-        <translation>Couche QGIS</translation>
+        <translation>Camada QGIS</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1566"/>
         <source>Layer title</source>
-        <translation>Titre</translation>
+        <translation>Título da camada</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1516"/>
         <source>You can add baselayers which come from another published Lizmap project. To do so, write down the repository id (not label), the project id (QGIS filename with no extension), QGIS layer name (as appearing in QGIS legend widget) and a chosen title.</source>
-        <translation>Vous pouvez ajouter des couches de fonds provenant d&apos;autres projets QGIS publiés dans Lizmap. Pour cela, spécifiez le code du répertoire Lizmap (et non le titre), le code du projet (le nom du projet QGIS sans l&apos;extension), le nom de la couche QGIS (telle qu&apos;il apparaît dans la légende de QGIS) et un titre au choix.</translation>
+        <translation>Pode adicionar camadasbase que vêm de outros projectos Lizmap publicados. Para isso, escreva o id do repositório (não o rótulo), o projecto id (nome do ficheiro QGIS sem extensão), o nome da camada QGIS (como aparece no widget de legenda QGIS) e escolha um título.</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="1493"/>
         <source>Please check that all input fields have been filled: repository, project, layer name and title</source>
-        <translation>Il manque des informations. Vérifiez que vous avez bien rempli tous les champs : répertoire, projet, couche QGIS et titre</translation>
+        <translation>Por favor confira se todos os campos de entradas foram preenchidos: repositório, projecto, nome da camada e título</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="598"/>
         <source>Generic options</source>
-        <translation>Options générales</translation>
+        <translation>Opções genéricas</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="604"/>
         <source>Hide project in Lizmap Web Client</source>
-        <translation>Masquer le projet dans Lizmap Web Client</translation>
+        <translation>Esconder o projecto no Lizmap Web Client</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2656"/>
         <source>Time Manager</source>
-        <translation>Time Manager</translation>
+        <translation>Série Temporal</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2662"/>
         <source>Add layers here to let the user play an animation based on an date or date/time attribute value. Similar to QGIS Timemanager plugin, but web based.</source>
-        <translation>Ajouter des couches ici pour afficher sur l&apos;interface Web une animation basée sur un attribut temporel (similaire au plugin QGIS TimeManager )</translation>
+        <translation>Adicione camadas aqui para que o utilizador possa usar a animação tendo em conta um valor de atributo de data ou data/hora. Semelhante ao módulo QGIS Timemananger, mas em formato web.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2674"/>
         <source>Frame type</source>
-        <translation>Unité du pas</translation>
+        <translation>Tipo de frame</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2684"/>
         <source>Time frame size</source>
-        <translation>Taille du pas de temps</translation>
+        <translation>Tamanho do tempo do frame</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2701"/>
         <source>Animation frame length (milliseconds)</source>
-        <translation>Durée d&apos;affichage du pas (millisecondes)</translation>
+        <translation>Comprimento da animação do frame (milisegundos)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2724"/>
         <source>minutes</source>
-        <translation>minutes</translation>
+        <translation>minutos</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2729"/>
         <source>hours</source>
-        <translation>hours</translation>
+        <translation>horas</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2734"/>
         <source>days</source>
-        <translation>days</translation>
+        <translation>dias</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2739"/>
         <source>weeks</source>
-        <translation>weeks</translation>
+        <translation>semanas</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2744"/>
         <source>months</source>
-        <translation>months</translation>
+        <translation>meses</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2749"/>
         <source>years</source>
-        <translation>years</translation>
+        <translation>anos</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2850"/>
         <source>Start attribute</source>
-        <translation>Champ de début</translation>
+        <translation>Atributo de ínicio</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2870"/>
         <source>Group id (optionnal)</source>
-        <translation>Identifiant du groupe (optionnel)</translation>
+        <translation>id do Grupo (opcional)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2860"/>
         <source>Group title (optionnal)</source>
-        <translation>Titre du groupe (optionnel)</translation>
+        <translation>Título do Grupo (opcional)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2813"/>
         <source>LayerId</source>
-        <translation>Id de la couche</translation>
+        <translation>id da camada</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2880"/>
         <source>Hover label</source>
-        <translation>Étiquette au survol</translation>
+        <translation>Rótulo flutuante</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="271"/>
         <source>Hide legend image?</source>
-        <translation>Cacher l&apos;image de légende ?</translation>
+        <translation>Esconder a imagem da legenda?</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="542"/>
         <source>Get images directly from WMS Server</source>
-        <translation>Demander les images directement au serveur WMS </translation>
+        <translation>Obter imagens directamente a partir do Servidor WMS</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="471"/>
         <source>Source repository</source>
-        <translation>Répertoire source</translation>
+        <translation>Repositório fonte</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="488"/>
         <source>Source project</source>
-        <translation>Projet source</translation>
+        <translation>Fonte do projecto</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="697"/>
@@ -666,52 +665,52 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="702"/>
         <source>ign</source>
-        <translation>IGN (France)</translation>
+        <translation>IGN (França)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1453"/>
         <source>Add an empty base layer (with project background color)</source>
-        <translation>Ajouter un fond vide (avec la couleur de fond du projet)</translation>
+        <translation>Adicionar uma camada base vazia (com cor de fundo do projecto)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="327"/>
         <source>png; mode=16bit</source>
-        <translation>png; mode=16bit</translation>
+        <translation>png; modo=16bit</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1667"/>
         <source>Image format (png, jpeg)</source>
-        <translation>Format d&apos;image (png, jpeg)</translation>
+        <translation>Formato da imagem (png, jpeg)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="292"/>
         <source>Display in Legend tree</source>
-        <translation>Afficher dans la légende</translation>
+        <translation>Exibir na árvore da legenda</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1984"/>
         <source>Autocompletion after</source>
-        <translation>Nombre caractères pour autocomplétion</translation>
+        <translation>Auto-preenchiment após</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1838"/>
         <source>If you set a value above 0, autocompletion will be used after this amount of characters while the user types. The classical combobox will be replaced by a editable text input</source>
-        <translation>Si vous entrez une valeur supérieure à 0, une liste de choix sera automatiquement proposée avec des valeurs filtrées à partir du nombre de caractères configurés (autocomplétion)</translation>
+        <translation>Se definir o valor acima de 0, o auto-preenchimento será usado após a quantidade de caracteres que o utilizador digita. A combobox clássica será substituída por uma caixa de texto editável </translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2818"/>
         <source>order</source>
-        <translation>ordre</translation>
+        <translation>ordenar</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="131"/>
         <source>Metadata</source>
-        <translation>Métadonnées</translation>
+        <translation>Metadados</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="181"/>
         <source>Map options</source>
-        <translation>Options de carte</translation>
+        <translation>Opções de mapa</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="366"/>
@@ -721,176 +720,176 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="462"/>
         <source>Embedded layers and groups</source>
-        <translation>Couches et groupes intégrés</translation>
+        <translation>Camadas e grupos embebidos</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="526"/>
         <source>Third-party WMS layers</source>
-        <translation>WMS tiers</translation>
+        <translation>Camadas WMS de terceiros</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="2356"/>
         <source>ui.msg.error.project.option.capitalizeLayerName</source>
-        <translation>Veuillez désactiver l&apos;option &quot;Nom de couches en majuscules&quot; dans l&apos;onglet &quot;Canevas et légende&quot; des options de QGIS. Cela peut créer des problèmes avec Lizmap</translation>
+        <translation>Por favor desactive a opção &quot;Nomes maiúsculos nas camadas&quot; no separador &quot;Enquadramento e legenda&quot; na opção janela de diálogo do QGIS, pois pode causar problemas no Lizmap</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="92"/>
         <source>Hide checkboxes for groups</source>
-        <translation>Cacher les cases à cocher des groupes</translation>
+        <translation>Esconder caixas de verificação para os grupos</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="991"/>
         <source>Map interface</source>
-        <translation>Interface</translation>
+        <translation>Interface do Mapa</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="997"/>
         <source>Hide header</source>
-        <translation>Masquer le bandeau du haut</translation>
+        <translation>Esconder cabeçalho</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1004"/>
         <source>Hide menu bar</source>
-        <translation>Masque la barre de menu</translation>
+        <translation>Esconder barra do menu</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1011"/>
         <source>Hide legend panel at startup</source>
-        <translation>Masque la légende à l&apos;ouverture</translation>
+        <translation>Esconder painel de legenda ao iniciar</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1018"/>
         <source>Hide scale and overview map</source>
-        <translation>Masquer l&apos;échelle et la carte miniature</translation>
+        <translation>Esconder escala e mapa de enquadramento</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1025"/>
         <source>Hide navigation tools</source>
-        <translation>Masquer les outils de navigation</translation>
+        <translation>Esconder ferramentas de navegação</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2010"/>
         <source>Attribute table</source>
-        <translation>Table attributaire</translation>
+        <translation>Tabela de atributos</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2016"/>
         <source>The attribute table of the chosen layers can be displayed in Lizmap Web Client. Add any vector layers here and publish them as WFS (QGIS project properties, tab OWS Server)</source>
-        <translation>En ajoutant des couches vecteur dans ce tableau, l&apos;utilisateur pourra afficher la table attributaire. Elles doivent être publiées en WFS (Propriétés du projet, onglet Serveur OWS) et vous pouvez choisir les champs à publier dans les propriétés de chaque couche, onglet Champs, et cases à cocher &quot;WFS&quot;</translation>
+        <translation>A tabela de atributos das camadas escolhidas podem ser exibidas no Lizmap Web Client. Adicione qualquer camada vectorial aqui e publique-as como WFS (Propriedades do projecto QGIS, separador Servidor OWS)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2061"/>
         <source>attribute layer id</source>
-        <translation>attribute layer id</translation>
+        <translation>id do atributo da camada</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2598"/>
         <source>Filter by user</source>
-        <translation>Filtrer par utilisateur</translation>
+        <translation>Filtrar por utilizador</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2092"/>
         <source>primary_key</source>
-        <translation>Identifiant unique</translation>
+        <translation>ID Único</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2051"/>
         <source>Pivot table</source>
-        <translation>Table pivot</translation>
+        <translation>Tabela dinâmica</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2109"/>
         <source>Pivot table?</source>
-        <translation>Table pivot ?</translation>
+        <translation>Tabela dinâmica?</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2099"/>
         <source>Fields to hide</source>
-        <translation>Champs à masquer</translation>
+        <translation>Campos a serem ocultados</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2056"/>
         <source>Hide in children</source>
-        <translation>Masquer comme fils</translation>
+        <translation>Esconder nos filhos</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2126"/>
         <source>Hide in child subpanels</source>
-        <translation>Masquer dans les tables filles</translation>
+        <translation>Esconder nos subpainéis filho</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1989"/>
         <source>Filter layer on zoom</source>
-        <translation>Filtrer la couche via le zoom</translation>
+        <translation>Filtrar camada no zoom</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1881"/>
         <source>If the layer is published via the attribute layers tool below, and this checkbox is checked,
 zooming on a feature with the locate tool will trigger the filter of the layer for the selected feature.
 Only the selected feature will be visible on the map.</source>
-        <translation>Si la couche est publiée avec l&apos;outil &quot;Table attributaire&quot; ci-dessous et que cette case est cochée,
-zoomer sur un objet via l&apos;outil &quot;Localiser par couche&quot; appliquera également un filtre sur cette couche.
-Seul l&apos;objet sélectionné sera alors visible.</translation>
+        <translation>Se a camada é publicada através da ferramenta de atributos da camada em baixo, e esta caixa de verificação estiver activa,
+o zoom no elemento com a ferramenta de localização irá activar o filtro da camada para o elemento seleccionado.
+Apenas o elemento seleccionado será visível no mapa.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2979"/>
         <source>The FTP sync tool has been removed. Please use a FTP client like Filezilla, WinSCP or FireFTP to synchronize your local data with the Lizmap Web Client server. This is safer because you can then have a look at the remote data, and decide precisely which files you need to synchronize. Documentation: http://docs.3liz.com/en/publisher_guide/publish_with_ftp.html</source>
-        <translation>Les outils de l&apos;onglet FTP ont été retirés du plugin Lizmap. Vous pouvez utiliser un client FTP comme Filezilla, FireFTP ou WinSCP pour synchroniser vos fichiers locaux vers le serveur Lizmap Web Client. Cela vous donnera plus de contrôle sur les données distantes, et vous pourrez choisir précisément quels fichiers doivent être synchronisés. Documentation : http://docs.3liz.com/fr/publisher_guide/publish_with_ftp.html</translation>
+        <translation>A ferramenta de sincronização FTP foi removida. Por favor utilize um FTP client como o Filezilla, WinSCP ou FireFTP para sincronizar os seus dados locais com o servidor do LizMap Web Client. Este processo é mais seguro porque pode ver os dados remotos, e decidir de forma precisa que ficheiros necessita de sincronizar. Documentação http://docs.3liz.com/en/publisher_guide/publish_with_ftp.html</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2187"/>
         <source>Tooltip layers</source>
-        <translation>Infobulles</translation>
+        <translation>Camadas Tooltip</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2196"/>
         <source>You can let the user activate map tooltips when hovering features. Choose a layer, add a coma separated list of field names to display in the tooltip, and optionnaly choose to display the geometry. You can also choose the geometry color (use an HTML color code)</source>
-        <translation>Vous pouvez permettre à l&apos;utilisateur d&apos;activer une infobulle au survol des objets d&apos;une couche. Choisissez une couche, ajoutez une liste de nom de champs séparés par virgule, et autorisez en option l&apos;affichage de la géométrie (et sa couleur, en écrivant un code HTML)</translation>
+        <translation>Pode deixar o utilizador activar as tooltips do mapa quando passa por cima dos elementos. Escolha a camada, adicione uma lista separada por vírgulas dos nomes dos campos a serem exibidos na tooltip, e opcionalmente escolha a exibição de geometria. Pode também escolher a cor da geometria (use o código de cor HTML)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2255"/>
         <source>Fields</source>
-        <translation>Champs</translation>
+        <translation>Campos</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2312"/>
         <source>Display geometry</source>
-        <translation>Afficher la géométrie</translation>
+        <translation>Exibir geometria</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2222"/>
         <source>Geometry color</source>
-        <translation>Couleur de la géométrie</translation>
+        <translation>Cor da geometria</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2272"/>
         <source>Color (HTML)</source>
-        <translation>Couleur (HTML)</translation>
+        <translation>Cor (HTML)</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="2509"/>
         <source>ui.msg.warning.toolLayer.notInWfs</source>
-        <translation>Les couches pour cet outil doivent être cochées dans l&apos;option &quot;Capacités WFS&quot; de l&apos;onglet &quot;Serveur OWS&quot; dans les options du projet QGIS</translation>
+        <translation>As camadas que escolheu para esta ferramenta devem ser activadas na opção &quot;Capacidades WFS&quot; no separador OWS na janela de diálogo das &quot;Propriedades do Projecto&quot;</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1405"/>
         <source>Cadastre</source>
-        <translation>Cadastre</translation>
+        <translation>Cadastro</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="30"/>
         <source>Options in blue background are only usable with Lizmap Web Client 3</source>
-        <translation>Les options sur un fond bleu sont compatibles uniquement avec Lizmap Web Client 3</translation>
+        <translation>As opções com a cor azul são apenas aplicáveis no Lizmap Web Client 3</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1037"/>
         <source>Information popup container</source>
-        <translation>Zone d&apos;affichage des popups</translation>
+        <translation>Informação do conteúdo do popup</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="220"/>
         <source>source</source>
-        <translation>source</translation>
+        <translation>fonte</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="231"/>
@@ -920,37 +919,37 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     <message>
         <location filename="ui_lizmap.ui" line="1055"/>
         <source>map</source>
-        <translation>map</translation>
+        <translation>mapa</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="736"/>
         <source>Popup click tolerance (pixels)</source>
-        <translation>Tolérance pour l&apos;interrogation des popups (pixels)</translation>
+        <translation>Tolerância de click do popup (pixéis)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="756"/>
         <source>Points</source>
-        <translation>Points</translation>
+        <translation>Pontos</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="770"/>
         <source>Lines</source>
-        <translation>Lignes</translation>
+        <translation>Linhas</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="784"/>
         <source>Polygons</source>
-        <translation>Polygones</translation>
+        <translation>Polígonos</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1447"/>
         <source>Baselayers options</source>
-        <translation>Options des fonds de carte</translation>
+        <translation>Opções das CamadasBase</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1465"/>
         <source>Active baselayer at startup</source>
-        <translation>Fond de carte actif au démarrage</translation>
+        <translation>Camadabase activa ao iniciar</translation>
     </message>
 </context>
 <context>
@@ -958,17 +957,17 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     <message>
         <location filename="ui_lizmap_popup.py" line="66"/>
         <source>Lizmap - Popup</source>
-        <translation>Lizmap - Configurer la popup de la couche</translation>
+        <translation>Lizmap - Configurar popup da camada</translation>
     </message>
     <message>
         <location filename="ui_lizmap_popup.py" line="67"/>
         <source>Template for the popup</source>
-        <translation>Modèle de la popup</translation>
+        <translation>Modelo para o popup</translation>
     </message>
     <message>
         <location filename="ui_lizmap_popup.py" line="68"/>
         <source>Preview</source>
-        <translation>Prévisualisation</translation>
+        <translation>Pré-visualização</translation>
     </message>
 </context>
 </TS>
