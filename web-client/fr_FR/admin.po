@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client admin 3.0beta4\n"
 "Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2016-05-23 10:23+0200\n"
+"POT-Creation-Date: 2016-05-25 18:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr_FR\n"
@@ -171,6 +171,11 @@ msgctxt "admin~admin.configuration.services.cacheExpiration.label"
 msgid "Server cache expiration time(s)"
 msgstr "Durée de vie du cache (s)"
 
+#: admin~admin.configuration.services.rootRepositories.label
+msgctxt "admin~admin.configuration.services.rootRepositories.label"
+msgid "Root folder of repositories"
+msgstr "Dossier racine des répertoires"
+
 #: admin~admin.configuration.services.proxyMethod.label
 msgctxt "admin~admin.configuration.services.proxyMethod.label"
 msgid "Send request to QGIS Server with"
@@ -336,6 +341,16 @@ msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid "Server cache expiration time must be an integer between 0 and 2592000 seconds."
 msgstr "La durée de vie du cache doit être un entier entre 0 et 2592000 secondes."
 
+#: admin~admin.form.admin_services.rootRepositories.label
+msgctxt "admin~admin.form.admin_services.rootRepositories.label"
+msgid "Root folder of repositories"
+msgstr "Dossier racine des répertoires"
+
+#: admin~admin.form.admin_services.rootRepositories.help
+msgctxt "admin~admin.form.admin_services.rootRepositories.help"
+msgid "The root folder of repositories can limit the Lizmap directory to 1 folder. If a path is set here, it is no longer possible to define the path of a Lizmap directory."
+msgstr "Le dossier racine des répertoires permet de limiter à 1 dossier les répertoires Lizmap. Si un chemin est défini ici, il n'est plus possible de définir le chemin d'un répertoire Lizmap."
+
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
 msgid "Send request to QGIS Server with"
@@ -500,6 +515,11 @@ msgstr "L'identifiant de répertoire donné n'existe pas."
 msgctxt "admin~admin.form.admin_section.message.path.wrong"
 msgid "The path given for the repository does not exists on the server."
 msgstr "Le chemin donné pour le répertoire n'existe pas sur le serveur."
+
+#: admin~admin.form.admin_section.message.path.not_authorized
+msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
+msgid "The path given for the repository is not authorized."
+msgstr "Le chemin donné pour le répertoire n'est pas autorisé."
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"

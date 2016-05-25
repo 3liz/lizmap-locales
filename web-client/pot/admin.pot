@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client admin 3.0beta4\n"
 "Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2016-05-23 10:17++0200\n"
+"POT-Creation-Date: 2016-05-25 18:39++0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -168,6 +168,11 @@ msgstr ""
 #: admin~admin.configuration.services.cacheExpiration.label
 msgctxt "admin~admin.configuration.services.cacheExpiration.label"
 msgid "Server cache expiration time(s)"
+msgstr ""
+
+#: admin~admin.configuration.services.rootRepositories.label
+msgctxt "admin~admin.configuration.services.rootRepositories.label"
+msgid "Root folder of repositories"
 msgstr ""
 
 #: admin~admin.configuration.services.proxyMethod.label
@@ -335,6 +340,16 @@ msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid "Server cache expiration time must be an integer between 0 and 2592000 seconds."
 msgstr ""
 
+#: admin~admin.form.admin_services.rootRepositories.label
+msgctxt "admin~admin.form.admin_services.rootRepositories.label"
+msgid "Root folder of repositories"
+msgstr ""
+
+#: admin~admin.form.admin_services.rootRepositories.help
+msgctxt "admin~admin.form.admin_services.rootRepositories.help"
+msgid "The root folder of repositories can limit the Lizmap directory to 1 folder. If a path is set here, it is no longer possible to define the path of a Lizmap directory."
+msgstr ""
+
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
 msgid "Send request to QGIS Server with"
@@ -498,6 +513,11 @@ msgstr ""
 #: admin~admin.form.admin_section.message.path.wrong
 msgctxt "admin~admin.form.admin_section.message.path.wrong"
 msgid "The path given for the repository does not exists on the server."
+msgstr ""
+
+#: admin~admin.form.admin_section.message.path.not_authorized
+msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
+msgid "The path given for the repository is not authorized."
 msgstr ""
 
 #: admin~admin.cache.repository.removed
