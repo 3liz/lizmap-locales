@@ -469,7 +469,7 @@ Isto é diferente da extensão máxima do mapa (definida nas propriedades do pro
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1781"/>
-        <source>Optionnal group by field</source>
+        <source>Optional group by field</source>
         <translation>Campo opcional para agrupar por</translation>
     </message>
     <message>
@@ -619,12 +619,12 @@ Isto é diferente da extensão máxima do mapa (definida nas propriedades do pro
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2870"/>
-        <source>Group id (optionnal)</source>
+        <source>Group id (optional)</source>
         <translation>id do Grupo (opcional)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2860"/>
-        <source>Group title (optionnal)</source>
+        <source>Group title (optional)</source>
         <translation>Título do Grupo (opcional)</translation>
     </message>
     <message>
@@ -843,7 +843,7 @@ Apenas o elemento seleccionado será visível no mapa.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2196"/>
-        <source>You can let the user activate map tooltips when hovering features. Choose a layer, add a coma separated list of field names to display in the tooltip, and optionnaly choose to display the geometry. You can also choose the geometry color (use an HTML color code)</source>
+        <source>You can let the user activate map tooltips when hovering features. Choose a layer, add a coma separated list of field names to display in the tooltip, and optionaly choose to display the geometry. You can also choose the geometry color (use an HTML color code)</source>
         <translation>Pode deixar o utilizador activar as tooltips do mapa quando passa por cima dos elementos. Escolha a camada, adicione uma lista separada por vírgulas dos nomes dos campos a serem exibidos na tooltip, e opcionalmente escolha a exibição de geometria. Pode também escolher a cor da geometria (use o código de cor HTML)</translation>
     </message>
     <message>

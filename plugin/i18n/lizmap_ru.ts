@@ -467,7 +467,7 @@ This is different to the map maximum extent (defined in QGIS project properties,
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1781"/>
-        <source>Optionnal group by field</source>
+        <source>Optional group by field</source>
         <translation>Доп. группа</translation>
     </message>
     <message>
@@ -617,12 +617,12 @@ This is different to the map maximum extent (defined in QGIS project properties,
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2870"/>
-        <source>Group id (optionnal)</source>
+        <source>Group id (optional)</source>
         <translation>ID группы (необязательно)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2860"/>
-        <source>Group title (optionnal)</source>
+        <source>Group title (optional)</source>
         <translation>Название группы (необязательно)</translation>
     </message>
     <message>
@@ -839,7 +839,7 @@ Only the selected feature will be visible on the map.</source>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2196"/>
-        <source>You can let the user activate map tooltips when hovering features. Choose a layer, add a coma separated list of field names to display in the tooltip, and optionnaly choose to display the geometry. You can also choose the geometry color (use an HTML color code)</source>
+        <source>You can let the user activate map tooltips when hovering features. Choose a layer, add a coma separated list of field names to display in the tooltip, and optionaly choose to display the geometry. You can also choose the geometry color (use an HTML color code)</source>
         <translation>Вы можете разрешить пользователям просматривать атрибутивную информацию при наведении указателя на атрибут. Для этого выберите слой и добавьте через запятую поля для отображения. Также вы можете включить отображение геометрии и выбрать ее цвет в формате HTML.</translation>
     </message>
     <message>

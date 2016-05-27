@@ -93,7 +93,7 @@ Odświeżyć drzewo warstw?</translation>
     <message>
         <location filename="lizmap.py" line="2472"/>
         <source>Map - options</source>
-        <translation type="unfinished"/>
+        <translation>Mapa - opcje</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="729"/>
@@ -123,7 +123,7 @@ Odświeżyć drzewo warstw?</translation>
     <message>
         <location filename="ui_lizmap.ui" line="1623"/>
         <source>Title</source>
-        <translation type="unfinished"/>
+        <translation>Tytuł</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="148"/>
@@ -188,7 +188,7 @@ Odświeżyć drzewo warstw?</translation>
     <message>
         <location filename="ui_lizmap.ui" line="893"/>
         <source>Map Scales</source>
-        <translation type="unfinished"/>
+        <translation>Skale mapy</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1120"/>
@@ -208,7 +208,7 @@ Odświeżyć drzewo warstw?</translation>
     <message>
         <location filename="ui_lizmap.ui" line="3007"/>
         <source>Log</source>
-        <translation type="unfinished"/>
+        <translation>Log</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3023"/>
@@ -451,7 +451,7 @@ To jest inna wartość, niż w przypadku maksymalnego zasięgu (zdefiniowanego w
     <message>
         <location filename="ui_lizmap.ui" line="941"/>
         <source>Extent</source>
-        <translation type="unfinished"/>
+        <translation>Zasięg</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="959"/>
@@ -470,7 +470,7 @@ To jest inna wartość, niż w przypadku maksymalnego zasięgu (zdefiniowanego w
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1781"/>
-        <source>Optionnal group by field</source>
+        <source>Optional group by field</source>
         <translation>Opcjonalne grupowanie według pola</translation>
     </message>
     <message>
@@ -620,12 +620,12 @@ To jest inna wartość, niż w przypadku maksymalnego zasięgu (zdefiniowanego w
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2870"/>
-        <source>Group id (optionnal)</source>
+        <source>Group id (optional)</source>
         <translation>Id Grupy (opcjonalne)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2860"/>
-        <source>Group title (optionnal)</source>
+        <source>Group title (optional)</source>
         <translation>Nazwa grupy (opcjonalne)</translation>
     </message>
     <message>
@@ -844,28 +844,28 @@ Tylko zaznaczone obiekty będą widoczne na mapie</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2196"/>
-        <source>You can let the user activate map tooltips when hovering features. Choose a layer, add a coma separated list of field names to display in the tooltip, and optionnaly choose to display the geometry. You can also choose the geometry color (use an HTML color code)</source>
+        <source>You can let the user activate map tooltips when hovering features. Choose a layer, add a coma separated list of field names to display in the tooltip, and optionaly choose to display the geometry. You can also choose the geometry color (use an HTML color code)</source>
         <translation>Możesz pozwolić użytkownikowi aktywować podpowiedzi mapy poprzez najechanie kursorem na obiekt. Wybierz warstwę, dodaj oddzielone przecinkiem nazwy pól, jaie mają się wyświetlić w dymku i opcjonalnie wybierz geometrię do wyświetlenia. Możesz również wybrać kolor podświetlenia (użyj kodu HTML)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2255"/>
         <source>Fields</source>
-        <translation type="unfinished"/>
+        <translation>Pola</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2312"/>
         <source>Display geometry</source>
-        <translation type="unfinished"/>
+        <translation>Wyświetl geometrię</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2222"/>
         <source>Geometry color</source>
-        <translation type="unfinished"/>
+        <translation>Kolor geometrii</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2272"/>
         <source>Color (HTML)</source>
-        <translation type="unfinished"/>
+        <translation>Kolor (HTML)</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="2509"/>
@@ -963,12 +963,12 @@ Tylko zaznaczone obiekty będą widoczne na mapie</translation>
     <message>
         <location filename="ui_lizmap_popup.py" line="67"/>
         <source>Template for the popup</source>
-        <translation type="unfinished"/>
+        <translation>Szablon okienka</translation>
     </message>
     <message>
         <location filename="ui_lizmap_popup.py" line="68"/>
         <source>Preview</source>
-        <translation type="unfinished"/>
+        <translation>Podgląd</translation>
     </message>
 </context>
 </TS>
