@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client jelix 3.0beta4\n"
 "Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2016-05-25 18:39++0200\n"
+"POT-Creation-Date: 2016-05-27 17:54++0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -187,7 +187,7 @@ msgstr ""
 
 #: jelix~kvstore.error.connection
 msgctxt "jelix~kvstore.error.connection"
-msgid "(931) jKVDb: impossible to connect to  %s (bad host, login or password ?)"
+msgid "(931) jKVDb: impossible to connect to  %s (bad host, login or password?)"
 msgstr ""
 
 #: jelix~kvstore.error.feature.unsupported
@@ -222,12 +222,12 @@ msgstr ""
 
 #: jelix~kvstore.error.serialize.data
 msgctxt "jelix~kvstore.error.serialize.data"
-msgid "(939) jKVDb '%s' : error during data serialisation ( %s )"
+msgid "(939) jKVDb '%s': error during data serialisation ( %s )"
 msgstr ""
 
 #: jelix~kvstore.error.unserialize.data
 msgctxt "jelix~kvstore.error.unserialize.data"
-msgid "(940) jKVDb '%s' : error during data unserialisation ( %s )"
+msgid "(940) jKVDb '%s': error during data unserialisation ( %s )"
 msgstr ""
 
 #: jelix~kvstore.error.memcache.server.unavailabled
@@ -787,7 +787,7 @@ msgstr ""
 
 #: jelix~cache.error.driver.missing
 msgctxt "jelix~cache.error.driver.missing"
-msgid "(900) profile name '%s' : cache driver %s not found"
+msgid "(900) profile name '%s': cache driver %s not found"
 msgstr ""
 
 #: jelix~cache.error.invalid.key
@@ -797,12 +797,12 @@ msgstr ""
 
 #: jelix~cache.error.serialize.data
 msgctxt "jelix~cache.error.serialize.data"
-msgid "(902) profile name '%s' : error during data serialisation for cache purpose ( %s )"
+msgid "(902) profile name '%s': error during data serialisation for cache purpose ( %s )"
 msgstr ""
 
 #: jelix~cache.error.unserialize.data
 msgctxt "jelix~cache.error.unserialize.data"
-msgid "(903) profile name '%s' : error during data unserialisation for cache purpose ( %s )"
+msgid "(903) profile name '%s': error during data unserialisation for cache purpose ( %s )"
 msgstr ""
 
 #: jelix~cache.error.wrong.date.value
@@ -812,22 +812,22 @@ msgstr ""
 
 #: jelix~cache.directory.not.writable
 msgctxt "jelix~cache.directory.not.writable"
-msgid "(906) profile '%s' : cache directory not writable"
+msgid "(906) profile '%s': cache directory not writable"
 msgstr ""
 
 #: jelix~cache.driver.object.invalid
 msgctxt "jelix~cache.driver.object.invalid"
-msgid "(907) profile '%s' : object interface for the driver %s unknown"
+msgid "(907) profile '%s': object interface for the driver %s unknown"
 msgstr ""
 
 #: jelix~cache.error.memcache.extension.missing
 msgctxt "jelix~cache.error.memcache.extension.missing"
-msgid "(908) profile '%s' : Memcache extension not installed (%s)"
+msgid "(908) profile '%s': Memcache extension not installed (%s)"
 msgstr ""
 
 #: jelix~cache.error.no.memcache.server.available
 msgctxt "jelix~cache.error.no.memcache.server.available"
-msgid "(909) profile '%s' : no servers available for Memcache"
+msgid "(909) profile '%s': no servers available for Memcache"
 msgstr ""
 
 #: jelix~cache.error.function.not.callable
@@ -837,17 +837,17 @@ msgstr ""
 
 #: jelix~cache.error.call.function
 msgctxt "jelix~cache.error.call.function"
-msgid "(911) error when calling function %s : %s"
+msgid "(911) error when calling function %s: %s"
 msgstr ""
 
 #: jelix~cache.error.memcache.extension.badversion.3
 msgctxt "jelix~cache.error.memcache.extension.badversion.3"
-msgid "(912) profile '%s' : bad version of the memcache php extension, this plugin requires 3.0.1 or more"
+msgid "(912) profile '%s': bad version of the memcache php extension, this plugin requires 3.0.1 or more"
 msgstr ""
 
 #: jelix~cache.error.memcache.extension.badversion.2
 msgctxt "jelix~cache.error.memcache.extension.badversion.2"
-msgid "(913) profile '%s' : bad version of the memcache php extension, this plugin requires less than 3.0"
+msgid "(913) profile '%s': bad version of the memcache php extension, this plugin requires less than 3.0"
 msgstr ""
 
 #: jelix~cache.error.driver.nohost
@@ -1237,12 +1237,12 @@ msgstr ""
 
 #: jelix~db.error.feature.unsupported
 msgctxt "jelix~db.error.feature.unsupported"
-msgid "(404)JDb : the %s driver doesn't support this feature \"%s\""
+msgid "(404)JDb: the %s driver doesn't support this feature \"%s\""
 msgstr ""
 
 #: jelix~db.error.nofunction
 msgctxt "jelix~db.error.nofunction"
-msgid "(405)jDb :  %s extension is not installed in PHP"
+msgid "(405)jDb:  %s extension is not installed in PHP"
 msgstr ""
 
 #: jelix~db.error.driver.notfound
@@ -1282,7 +1282,7 @@ msgstr ""
 
 #: jelix~errors.selector.invalid.target
 msgctxt "jelix~errors.selector.invalid.target"
-msgid "(17)The selector \"%s\" doesn't correspond to a resource of type : \"%s\""
+msgid "(17)The selector \"%s\" doesn't correspond to a resource of type: \"%s\""
 msgstr ""
 
 #: jelix~errors.selector.module.unknown
@@ -1367,7 +1367,7 @@ msgstr ""
 
 #: jelix~errors.xml.loading.document.error
 msgctxt "jelix~errors.xml.loading.document.error"
-msgid "(61) Error(s) while loading the XML document : %s"
+msgid "(61) Error(s) while loading the XML document: %s"
 msgstr ""
 
 #: jelix~errors.jsession.name.invalid
@@ -1377,42 +1377,42 @@ msgstr ""
 
 #: jelix~errors.ad.controller.file.unknown
 msgctxt "jelix~errors.ad.controller.file.unknown"
-msgid "(100)Action %s : controller file %s doesn't exists"
+msgid "(100)Action %s: controller file %s doesn't exists"
 msgstr ""
 
 #: jelix~errors.ad.controller.class.unknown
 msgctxt "jelix~errors.ad.controller.class.unknown"
-msgid "(101)Action %s :  controller class %s doesn't exists (file : %s)"
+msgid "(101)Action %s:  controller class %s doesn't exists (file: %s)"
 msgstr ""
 
 #: jelix~errors.ad.controller.method.unknown
 msgctxt "jelix~errors.ad.controller.method.unknown"
-msgid "(102)Action %s : method %s of the controller class %s doesn't exists (file : %s)"
+msgid "(102)Action %s: method %s of the controller class %s doesn't exists (file: %s)"
 msgstr ""
 
 #: jelix~errors.ad.response.unknown
 msgctxt "jelix~errors.ad.response.unknown"
-msgid "(110)Action %s : response %s doesn't exists (file : %s)"
+msgid "(110)Action %s: response %s doesn't exists (file: %s)"
 msgstr ""
 
 #: jelix~errors.ad.response.type.unknown
 msgctxt "jelix~errors.ad.response.type.unknown"
-msgid "(111)Action %s : the response type \"%s\" is unknown (file : %s)"
+msgid "(111)Action %s: the response type \"%s\" is unknown (file: %s)"
 msgstr ""
 
 #: jelix~errors.ad.response.not.loaded
 msgctxt "jelix~errors.ad.response.not.loaded"
-msgid "(112)Action %s : the class for the response type \"%s\" can't be loaded (file : %s)"
+msgid "(112)Action %s: the class for the response type \"%s\" can't be loaded (file: %s)"
 msgstr ""
 
 #: jelix~errors.ad.response.type.notallowed
 msgctxt "jelix~errors.ad.response.type.notallowed"
-msgid "(113)Action %s : the response type \"%s\" is not allowed for the current request (file : %s)"
+msgid "(113)Action %s: the response type \"%s\" is not allowed for the current request (file: %s)"
 msgstr ""
 
 #: jelix~errors.ltx2pdf.exec
 msgctxt "jelix~errors.ltx2pdf.exec"
-msgid "(120) %s has returned : %s"
+msgid "(120) %s has returned: %s"
 msgstr ""
 
 #: jelix~errors.module.untrusted
@@ -1452,7 +1452,7 @@ msgstr ""
 
 #: jelix~errors.includer.source.missing
 msgctxt "jelix~errors.includer.source.missing"
-msgid "(140)Includer : the selector \"%s\" doesn't point to a source file"
+msgid "(140)Includer: the selector \"%s\" doesn't point to a source file"
 msgstr ""
 
 #: jelix~errors.includer.source.compile
@@ -1477,7 +1477,7 @@ msgstr ""
 
 #: jelix~errors.repredirect.empty.url
 msgctxt "jelix~errors.repredirect.empty.url"
-msgid "(153) Impossible to do redirection : empty url"
+msgid "(153) Impossible to do redirection: empty url"
 msgstr ""
 
 #: jelix~errors.rep.bad.request.method
@@ -1622,32 +1622,32 @@ msgstr ""
 
 #: jelix~errors.mail.provide_address
 msgctxt "jelix~errors.mail.provide_address"
-msgid "(350)jMailer : You must provide at least one recipient email address."
+msgid "(350)jMailer: You must provide at least one recipient email address."
 msgstr ""
 
 #: jelix~errors.mail.mailer_not_supported
 msgctxt "jelix~errors.mail.mailer_not_supported"
-msgid "(351)jMailer : mailer is not supported (%s)"
+msgid "(351)jMailer: mailer is not supported (%s)"
 msgstr ""
 
 #: jelix~errors.mail.execute
 msgctxt "jelix~errors.mail.execute"
-msgid "(352)jMailer : Could not execute: %s"
+msgid "(352)jMailer: Could not execute: %s"
 msgstr ""
 
 #: jelix~errors.mail.instantiate
 msgctxt "jelix~errors.mail.instantiate"
-msgid "(353)jMailer : Could not instantiate mail function.."
+msgid "(353)jMailer: Could not instantiate mail function.."
 msgstr ""
 
 #: jelix~errors.mail.authenticate
 msgctxt "jelix~errors.mail.authenticate"
-msgid "(354)jMailer : SMTP Error: Could not authenticate."
+msgid "(354)jMailer: SMTP Error: Could not authenticate."
 msgstr ""
 
 #: jelix~errors.mail.from_failed
 msgctxt "jelix~errors.mail.from_failed"
-msgid "(355)jMailer : The following From address failed: %s"
+msgid "(355)jMailer: The following From address failed: %s"
 msgstr ""
 
 #: jelix~errors.mail.recipients_failed
@@ -1667,17 +1667,17 @@ msgstr ""
 
 #: jelix~errors.mail.file_access
 msgctxt "jelix~errors.mail.file_access"
-msgid "(359)jMailer : Could not access file: %s"
+msgid "(359)jMailer: Could not access file: %s"
 msgstr ""
 
 #: jelix~errors.mail.file_open
 msgctxt "jelix~errors.mail.file_open"
-msgid "(360)jMailer : File Error: Could not open file:  %s"
+msgid "(360)jMailer: File Error: Could not open file:  %s"
 msgstr ""
 
 #: jelix~errors.mail.encoding
 msgctxt "jelix~errors.mail.encoding"
-msgid "(361)jMailer : Unknown encoding: %s"
+msgid "(361)jMailer: Unknown encoding: %s"
 msgstr ""
 
 #: jelix~errors.mail.signing
@@ -1727,7 +1727,7 @@ msgstr ""
 
 #: jelix~captcha.question.1
 msgctxt "jelix~captcha.question.1"
-msgid "How much 2+3 ?"
+msgid "How much 2+3?"
 msgstr ""
 
 #: jelix~captcha.response.1
@@ -1787,7 +1787,7 @@ msgstr ""
 
 #: jelix~captcha.question.7
 msgctxt "jelix~captcha.question.7"
-msgid "What is the capital of United States ?"
+msgid "What is the capital of United States?"
 msgstr ""
 
 #: jelix~captcha.response.7
@@ -1837,7 +1837,7 @@ msgstr ""
 
 #: jelix~captcha.question.12
 msgctxt "jelix~captcha.question.12"
-msgid "What is the firstname of Jules Verne ?"
+msgid "What is the firstname of Jules Verne?"
 msgstr ""
 
 #: jelix~captcha.response.12
@@ -1847,7 +1847,7 @@ msgstr ""
 
 #: jelix~captcha.question.13
 msgctxt "jelix~captcha.question.13"
-msgid "What is the year when the first world war 14-18 has began ?"
+msgid "What is the year when the first world war 14-18 has began?"
 msgstr ""
 
 #: jelix~captcha.response.13
@@ -1932,7 +1932,7 @@ msgstr ""
 
 #: jelix~crud.confirm.deletion
 msgctxt "jelix~crud.confirm.deletion"
-msgid "Are you sure to want to delete this record ?"
+msgid "Are you sure to want to delete this record?"
 msgstr ""
 
 #: jelix~auth.error.plugin.missing
@@ -2192,7 +2192,7 @@ msgstr ""
 
 #: jelix~daoxml.method.condition.valueexpr.together
 msgctxt "jelix~daoxml.method.condition.valueexpr.together"
-msgid "(549)DAO %1$s, method %3$s, condition %4$s : no value and expression at the same time (file %2$s)"
+msgid "(549)DAO %1$s, method %3$s, condition %4$s: no value and expression at the same time (file %2$s)"
 msgstr ""
 
 #: jelix~daoxml.method.condition.valueexpr.notallowed
