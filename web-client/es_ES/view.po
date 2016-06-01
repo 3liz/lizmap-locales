@@ -1,15 +1,20 @@
-#
+# 
+# Translators:
+# rldhont <rldhont@gmail.com>, 2016
+# Víctor Herreros <vherreros@ucm.es>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client view 3.0beta4\n"
-"Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2016-04-22 18:57+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es_ES\n"
+"Project-Id-Version: Lizmap locales\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-27 09:01++0200\n"
+"PO-Revision-Date: 2016-05-31 14:47+0000\n"
+"Last-Translator: Víctor Herreros <vherreros@ucm.es>\n"
+"Language-Team: Spanish (http://www.transifex.com/3liz-1/lizmap-locales/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: view~map.title.h1
 msgctxt "view~map.title.h1"
@@ -29,7 +34,7 @@ msgstr "Mapa"
 #: view~map.layers
 msgctxt "view~map.layers"
 msgid "Layers"
-msgstr ""
+msgstr "Capas"
 
 #: view~map.legend
 msgctxt "view~map.legend"
@@ -64,7 +69,7 @@ msgstr "Imprimir"
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"
 msgid "Tooltip"
-msgstr ""
+msgstr "Herramienta de ayuda"
 
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"
@@ -84,7 +89,7 @@ msgstr "Longitud"
 #: view~map.measure.navbar.title.area
 msgctxt "view~map.measure.navbar.title.area"
 msgid "Area"
-msgstr ""
+msgstr "Area"
 
 #: view~map.measure.navbar.title.perimeter
 msgctxt "view~map.measure.navbar.title.perimeter"
@@ -119,12 +124,12 @@ msgstr "Escala"
 #: view~map.tooltip.toolbar.title
 msgctxt "view~map.tooltip.toolbar.title"
 msgid "Tooltip"
-msgstr ""
+msgstr "Herramienta de ayuda"
 
 #: view~map.tooltip.toolbar.layer
 msgctxt "view~map.tooltip.toolbar.layer"
 msgid "Highlight layer"
-msgstr ""
+msgstr "Resaltar capa"
 
 #: view~map.geolocate.toolbar.title
 msgctxt "view~map.geolocate.toolbar.title"
@@ -174,7 +179,7 @@ msgstr "Localización"
 #: view~map.switchermenu.title
 msgctxt "view~map.switchermenu.title"
 msgid "Layers"
-msgstr ""
+msgstr "Capas"
 
 #: view~map.legendmenu.title
 msgctxt "view~map.legendmenu.title"
@@ -299,32 +304,32 @@ msgstr "Enlace permanente"
 #: view~map.permalink.geobookmark.title
 msgctxt "view~map.permalink.geobookmark.title"
 msgid "Bookmarks"
-msgstr ""
+msgstr "Marcadores"
 
 #: view~map.permalink.geobookmark.button.add
 msgctxt "view~map.permalink.geobookmark.button.add"
 msgid "Add a bookmark"
-msgstr ""
+msgstr "Añadir un marcador"
 
 #: view~map.permalink.geobookmark.button.del
 msgctxt "view~map.permalink.geobookmark.button.del"
 msgid "Remove this bookmark"
-msgstr ""
+msgstr "Eliminar este marcador"
 
 #: view~map.permalink.geobookmark.button.run
 msgctxt "view~map.permalink.geobookmark.button.run"
 msgid "Use this bookmark"
-msgstr ""
+msgstr "Utilice este marcador"
 
 #: view~map.permalink.geobookmark.none
 msgctxt "view~map.permalink.geobookmark.none"
 msgid "No bookmark yet."
-msgstr ""
+msgstr "Sin marcadores aún"
 
 #: view~map.permalink.geobookmark.name.placeholder
 msgctxt "view~map.permalink.geobookmark.name.placeholder"
 msgid "Bookmark name"
-msgstr ""
+msgstr "Nombre del marcador"
 
 #: view~map.message.zoominmax
 msgctxt "view~map.message.zoominmax"
@@ -404,7 +409,7 @@ msgstr "Extensión espacial"
 #: view~map.metadata.properties.wmsGetCapabilitiesUrl
 msgctxt "view~map.metadata.properties.wmsGetCapabilitiesUrl"
 msgid "Web Map Service"
-msgstr ""
+msgstr "Servicios de Mapa Web"
 
 #: view~map.metadata.contact.organization
 msgctxt "view~map.metadata.contact.organization"
@@ -419,7 +424,7 @@ msgstr "Persona"
 #: view~map.metadata.contact.email
 msgctxt "view~map.metadata.contact.email"
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #: view~map.metadata.contact.phone
 msgctxt "view~map.metadata.contact.phone"
@@ -499,17 +504,19 @@ msgstr "Datos"
 #: view~map.attributeLayers.toolbar.help
 msgctxt "view~map.attributeLayers.toolbar.help"
 msgid "Help"
-msgstr ""
+msgstr "Ayuda"
 
 #: view~map.attributeLayers.toolbar.summary
 msgctxt "view~map.attributeLayers.toolbar.summary"
-msgid "Choose among the following layers and click on the table button to display its data."
-msgstr ""
+msgid ""
+"Choose among the following layers and click on the table button to display "
+"its data."
+msgstr "Elija de entre las siguientes capas y haga click en el botón de la tabla para mostrar sus datos"
 
 #: view~map.attributeLayers.options.input.cascade.label
 msgctxt "view~map.attributeLayers.options.input.cascade.label"
 msgid "Cascade filter to children"
-msgstr ""
+msgstr "Propagar el filtro a los hijos"
 
 #: view~map.switcher.layer.metadata.title
 msgctxt "view~map.switcher.layer.metadata.title"
@@ -519,22 +526,22 @@ msgstr "Información"
 #: view~map.switcher.layer.zoomToExtent.title
 msgctxt "view~map.switcher.layer.zoomToExtent.title"
 msgid "Zoom to layer extent"
-msgstr ""
+msgstr "Ajustar el zoom a la extensión de la capa"
 
 #: view~map.switcher.layer.style.title
 msgctxt "view~map.switcher.layer.style.title"
 msgid "Change layer style"
-msgstr ""
+msgstr "Cambiar el estilo de la capa"
 
 #: view~map.switcher.layer.export.title
 msgctxt "view~map.switcher.layer.export.title"
 msgid "Export"
-msgstr ""
+msgstr "Exportar"
 
 #: view~map.switcher.layer.unfilter.title
 msgctxt "view~map.switcher.layer.unfilter.title"
 msgid "Deactivate current filter"
-msgstr ""
+msgstr "Desactivar el filtro actual"
 
 #: view~default.repository.access.denied
 msgctxt "view~default.repository.access.denied"
@@ -629,7 +636,7 @@ msgstr "Este apodo será utilizado para conectarse a su cuenta."
 #: view~user.form.email.label
 msgctxt "view~user.form.email.label"
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #: view~user.form.password.label
 msgctxt "view~user.form.password.label"
@@ -693,7 +700,9 @@ msgstr "¿Por qué solicita una cuenta?"
 
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
-msgid "Please write a small text to explain why you would like to have an access to the maps."
+msgid ""
+"Please write a small text to explain why you would like to have an access to"
+" the maps."
 msgstr "Por favor, describa brevemente por qué querría tener acceso a los mapas."
 
 #: view~user.form.antispam.label
@@ -708,7 +717,9 @@ msgstr "Enviar petición"
 
 #: view~user.form.message.saved
 msgctxt "view~user.form.message.saved"
-msgid "Your request has been successfully sent. An e-mail has been sent to the administrator for validation."
+msgid ""
+"Your request has been successfully sent. An e-mail has been sent to the "
+"administrator for validation."
 msgstr "Su petición ha sido enviada con éxito. Se ha mandado un e-mail al administrador para su validación."
 
 #: view~user.form.message.not.saved
@@ -723,7 +734,9 @@ msgstr "Lizmap - Alguien solicitó una cuenta"
 
 #: view~user.email.admin.body
 msgctxt "view~user.email.admin.body"
-msgid "Someone has requested a Lizmap account to be able to access the maps, with the login %s and the e-mail %s."
+msgid ""
+"Someone has requested a Lizmap account to be able to access the maps, with "
+"the login %s and the e-mail %s."
 msgstr "Alguien ha solicitado una cuenta de Lizmap para poder acceder a los mapas, con el login %s y el e-mail %s."
 
 #: view~edition.access.denied
@@ -894,77 +907,83 @@ msgstr "¡El elemento ha sido borrado!"
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
 msgid "An error occured while creating the object!"
-msgstr "An error occured while creating the object !"
+msgstr "¡Ocurrió un error al crear el objeto!"
 
 #: view~edition.message.success.create
 msgctxt "view~edition.message.success.create"
 msgid "Object successfully created!"
-msgstr "Object successfully created !"
+msgstr "¡Objeto creado con éxito!"
 
 #: view~edition.message.error.no.geometry
 msgctxt "view~edition.message.error.no.geometry"
-msgid "You cannot save this object without a geomtetry. Please draw the geometry on the map."
-msgstr ""
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
+msgstr "No puede salvar este objeto sin una geometria. Por favor, especifique la geometría en el mapa."
 
 #: view~edition.upload.choice.keep
 msgctxt "view~edition.upload.choice.keep"
 msgid "Keep"
-msgstr ""
+msgstr "Guardar"
 
 #: view~edition.upload.choice.update
 msgctxt "view~edition.upload.choice.update"
 msgid "Update"
-msgstr ""
+msgstr "Actualizar"
 
 #: view~edition.upload.choice.delete
 msgctxt "view~edition.upload.choice.delete"
 msgid "Delete"
-msgstr ""
+msgstr "Borrar"
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
 msgid "The pivot, features1 and features2 parameters are mandatory!"
-msgstr "The pivot, features1 and features2 parameters are mandatory !"
+msgstr "¡Los parámtetros de pivote, características1 y características2 son obligatorios!"
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
 msgid "The layer does not exists!"
-msgstr "The layer does not exists !"
+msgstr "La capa no existe!"
 
 #: view~edition.link.error.multiple.ids
 msgctxt "view~edition.link.error.multiple.ids"
-msgid "You cannot link multiple objects for both layers! Please elect only one object for one of the layers and retry."
-msgstr "You cannot link multiple objects for both layers ! Please elect only one object for one of the layers and retry."
+msgid ""
+"You cannot link multiple objects for both layers! Please select only one "
+"object for one of the layers and retry."
+msgstr "¡No puede enlazar múltiples objetos en ambas capas! Por favor, seleccione sólo un objeto para una de las capas y vuelva a intentarlo."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
-msgid "There must be at least one object selected for each layer to create the link!"
-msgstr "There must be at least one object selected for each layer to create the link !"
+msgid ""
+"There must be at least one object selected for each layer to create the "
+"link!"
+msgstr "¡Debe haber al menos un objeto seleccionado para cada capa para crear el enlace!"
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table!"
-msgstr "The layers have not be configured to have an attribute table !"
+msgstr "¡No se han configurado las capas para que tengan una tabla de atributo!"
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
 msgid "An error occured while adding linked data!"
-msgstr "An error occured while adding linked data !"
+msgstr "¡Ocurrió un error al añadir datos enlazados!"
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
 msgid "Selected features have been correctly linked!"
-msgstr "Selected features have been correctly linked !"
+msgstr "¡Las características seleccionadas han sido enlazadas correctamente!"
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
 msgid "The child feature has correctly been unlinked!"
-msgstr "The child feature has correctly been unlinked !"
+msgstr "¡La característica hijo ha sido desenlazada correctamente!"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
 msgid "An error occured while removing link!"
-msgstr "An error occured while removing link !"
+msgstr "¡Ocurrió un error al eliminar el enlace!"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -1038,13 +1057,17 @@ msgstr "¿Seguro que quiere borrar la característica seleccionada?"
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
-msgid "Are you sure you want to cancel edition? You will lose any modifications made on the currently edited object."
-msgstr ""
+msgid ""
+"Are you sure you want to cancel edition? You will lose any modifications "
+"made on the currently edited object."
+msgstr "¿Seguro que quiere cancelar la edición? Perderá cualquier modificación hecha al objeto actualmente editado."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
-msgid "You cannot save this object without a geomtetry. Please draw the geometry on the map."
-msgstr ""
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
+msgstr "No puede salvar este objeto sin una geometría. Por favor, especifique la geometría en el mapa."
 
 #: view~dictionnary.externalsearch.search
 msgctxt "view~dictionnary.externalsearch.search"
@@ -1104,57 +1127,60 @@ msgstr "Obtener datos"
 #: view~dictionnary.attributeLayers.toolbar.cb.data.detail.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.cb.data.detail.title"
 msgid "Display info"
-msgstr ""
+msgstr "Mostrar info"
 
 #: view~dictionnary.attributeLayers.toolbar.input.search.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.title"
 msgid "Search"
-msgstr ""
+msgstr "Buscar"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
 msgid "Select searched line"
-msgstr ""
+msgstr "Seleccionar línea buscada"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title"
 msgid "Unselect all"
-msgstr ""
+msgstr "Deseleccionar todo"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
 msgid "Move selected to top"
-msgstr ""
+msgstr "Mover lo seleccionado arriba del todo"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
 msgid "Filter"
-msgstr ""
+msgstr "Filtrar"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
 msgid "Export"
-msgstr ""
+msgstr "Exportar"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
 msgid "Create feature"
-msgstr ""
+msgstr "Crear característica"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
 msgid "Create a child"
-msgstr ""
+msgstr "Crear un hijo"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
 msgid "Toggle children tables"
-msgstr ""
+msgstr "Marcar tablas hijo"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title"
 msgid "Link selected features"
-msgstr ""
+msgstr "Enlazar características seleccionadas"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.hide.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.hide.title"
@@ -1184,94 +1210,94 @@ msgstr "en el ámbito actual"
 #: view~dictionnary.attributeLayers.btn.info.title
 msgctxt "view~dictionnary.attributeLayers.btn.info.title"
 msgid "Info"
-msgstr ""
+msgstr "Info"
 
 #: view~dictionnary.attributeLayers.btn.edit.title
 msgctxt "view~dictionnary.attributeLayers.btn.edit.title"
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: view~dictionnary.attributeLayers.btn.delete.title
 msgctxt "view~dictionnary.attributeLayers.btn.delete.title"
 msgid "Delete"
-msgstr ""
+msgstr "Borrar"
 
 #: view~dictionnary.attributeLayers.btn.remove.link.title
 msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
 msgid "Unlink child"
-msgstr ""
+msgstr "Desenlazar hijo"
 
 #: view~dictionnary.attributeLayers.btn.select.title
 msgctxt "view~dictionnary.attributeLayers.btn.select.title"
 msgid "Select"
-msgstr ""
+msgstr "Seleccionar"
 
 #: view~dictionnary.attributeLayers.btn.unselect.title
 msgctxt "view~dictionnary.attributeLayers.btn.unselect.title"
 msgid "Unselect"
-msgstr ""
+msgstr "Deseleccionar"
 
 #: view~dictionnary.attributeLayers.btn.zoom.title
 msgctxt "view~dictionnary.attributeLayers.btn.zoom.title"
 msgid "Zoom"
-msgstr ""
+msgstr "Zoom"
 
 #: view~dictionnary.attributeLayers.btn.center.title
 msgctxt "view~dictionnary.attributeLayers.btn.center.title"
 msgid "Center"
-msgstr ""
+msgstr "Centrar"
 
 #: view~dictionnary.layer.metadata.title
 msgctxt "view~dictionnary.layer.metadata.title"
 msgid "Information"
-msgstr ""
+msgstr "Información"
 
 #: view~dictionnary.layer.metadata.layer.name
 msgctxt "view~dictionnary.layer.metadata.layer.name"
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #: view~dictionnary.layer.metadata.layer.type
 msgctxt "view~dictionnary.layer.metadata.layer.type"
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: view~dictionnary.layer.metadata.layer.type.group
 msgctxt "view~dictionnary.layer.metadata.layer.type.group"
 msgid "Group"
-msgstr ""
+msgstr "Grupo"
 
 #: view~dictionnary.layer.metadata.layer.type.layer
 msgctxt "view~dictionnary.layer.metadata.layer.type.layer"
 msgid "Layer"
-msgstr ""
+msgstr "Capa"
 
 #: view~dictionnary.layer.metadata.layer.abstract
 msgctxt "view~dictionnary.layer.metadata.layer.abstract"
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: view~dictionnary.layer.metadata.layer.link
 msgctxt "view~dictionnary.layer.metadata.layer.link"
 msgid "Information"
-msgstr ""
+msgstr "Información"
 
 #: view~dictionnary.layer.metadata.layer.info.see
 msgctxt "view~dictionnary.layer.metadata.layer.info.see"
 msgid "Documentation"
-msgstr ""
+msgstr "Documentación"
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
-msgstr ""
+msgstr "Se precisa permiso para exportar capa."
 
 #: view~dictionnary.geobookmark.name.required
 msgctxt "view~dictionnary.geobookmark.name.required"
 msgid "A name is required to create a bookmark."
-msgstr ""
+msgstr "Se requiere un nombre para crear un marcador."
 
 #: view~dictionnary.geobookmark.confirm.delete
 msgctxt "view~dictionnary.geobookmark.confirm.delete"
 msgid "Are you sure you want to delete this bookmark?"
-msgstr "Are you sure you want to delete this bookmark ?"
+msgstr "¿Seguro que quiere borrar este marcador?"
