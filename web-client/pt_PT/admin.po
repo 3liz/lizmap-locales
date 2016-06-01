@@ -1,15 +1,20 @@
-#
+# 
+# Translators:
+# João Gaspar <joao.f.r.gaspar@gmail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client admin 3.0beta4\n"
-"Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2016-04-22 18:57+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: pt_PT\n"
+"Project-Id-Version: Lizmap locales\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-27 12:15++0200\n"
+"PO-Revision-Date: 2016-05-27 10:20+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>\n"
+"Language-Team: Portuguese (http://www.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: admin~user.form.comment.label
 msgctxt "admin~user.form.comment.label"
@@ -84,12 +89,12 @@ msgstr "Mostrar links dos serviços WMS dos projetos"
 #: admin~jacl2.lizmap.tools.layer.export
 msgctxt "admin~jacl2.lizmap.tools.layer.export"
 msgid "Allow export of layers"
-msgstr ""
+msgstr "Permitir exportação de camadas"
 
 #: admin~admin.menu.configuration.main.label
 msgctxt "admin~admin.menu.configuration.main.label"
-msgid "LizMap configuration"
-msgstr "Configuração LizMap"
+msgid "Lizmap configuration"
+msgstr "Configuração Lizmap"
 
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
@@ -113,8 +118,8 @@ msgstr "Versão"
 
 #: admin~admin.configuration.h1
 msgctxt "admin~admin.configuration.h1"
-msgid "LizMap configuration"
-msgstr "Configuração LizMap"
+msgid "Lizmap configuration"
+msgstr "Configuração Lizmap"
 
 #: admin~admin.configuration.repository.label
 msgctxt "admin~admin.configuration.repository.label"
@@ -139,7 +144,7 @@ msgstr "URL do serviço WMS"
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
 msgid "WMS subdomain URLs list (optional)"
-msgstr "Lista dos URLs WMS (opcional)"
+msgstr "Lista dos suddomínios URLs WMS (opcional)"
 
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
@@ -170,6 +175,11 @@ msgstr "Directório raiz da cache"
 msgctxt "admin~admin.configuration.services.cacheExpiration.label"
 msgid "Server cache expiration time(s)"
 msgstr "Tempo(s) de expiração da Cache no servidor"
+
+#: admin~admin.configuration.services.rootRepositories.label
+msgctxt "admin~admin.configuration.services.rootRepositories.label"
+msgid "Root folder of repositories"
+msgstr "Pasta root dos repositórios"
 
 #: admin~admin.configuration.services.proxyMethod.label
 msgctxt "admin~admin.configuration.services.proxyMethod.label"
@@ -214,7 +224,7 @@ msgstr "Eliminar"
 #: admin~admin.configuration.button.remove.repository.confirm.label
 msgctxt "admin~admin.configuration.button.remove.repository.confirm.label"
 msgid "Would you like to remove this repository?"
-msgstr "Deseja eleminar este repositório?"
+msgstr "Deseja eliminar este repositório?"
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -223,8 +233,8 @@ msgstr "Criar um repositório"
 
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"
-msgid "Modify LizMap generic configuration"
-msgstr "Modificar a configuração genérica do LizMap"
+msgid "Modify Lizmap generic configuration"
+msgstr "Modificar a configuração genérica do Lizmap"
 
 #: admin~admin.form.admin_services.appName.label
 msgctxt "admin~admin.form.admin_services.appName.label"
@@ -239,7 +249,7 @@ msgstr "URL do servidor WMS"
 #: admin~admin.form.admin_services.wmsPublicUrlList.label
 msgctxt "admin~admin.form.admin_services.wmsPublicUrlList.label"
 msgid "WMS subdomain URLs list (optional)"
-msgstr "Lista dos URLs WMS (opcional)"
+msgstr "Lista dos suddomínios URLs WMS (opcional)"
 
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
 msgctxt "admin~admin.form.admin_services.message.wmsPublicUrlList.wrong"
@@ -264,7 +274,51 @@ msgstr "Arquivos"
 #: admin~admin.form.admin_services.cacheStorageType.redis.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.redis.label"
 msgid "Redis"
-msgstr ""
+msgstr "Redis"
+
+#: admin~admin.form.admin_services.cacheRedisHost.label
+msgctxt "admin~admin.form.admin_services.cacheRedisHost.label"
+msgid "Redis host"
+msgstr "Servidor Redis"
+
+#: admin~admin.form.admin_services.cacheRedisPort.label
+msgctxt "admin~admin.form.admin_services.cacheRedisPort.label"
+msgid "Redis port"
+msgstr "Porta Redis"
+
+#: admin~admin.form.admin_services.cacheRedisDb.label
+msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
+msgid "Redis database index"
+msgstr "Índice da base de dados Redis"
+
+#: admin~admin.form.admin_services.cacheRedisKeyPrefix.label
+msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.label"
+msgid "Redis key prefix"
+msgstr "Prefixo da chave Redis"
+
+#: admin~admin.form.admin_services.cacheRedisHost.help
+msgctxt "admin~admin.form.admin_services.cacheRedisHost.help"
+msgid "Redis host (used if Redis is chosen for the cache storage)"
+msgstr "Servidor Redis (será utilizado se o Redis for escolhido para armazenar a cache)"
+
+#: admin~admin.form.admin_services.cacheRedisPort.help
+msgctxt "admin~admin.form.admin_services.cacheRedisPort.help"
+msgid "Redis port (used if Redis is chosen for the cache storage)"
+msgstr "Porta Redis (será utilizado se o Redis for escolhido para armazenar a cache)"
+
+#: admin~admin.form.admin_services.cacheRedisDb.help
+msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
+msgid ""
+"Redis database index: integer >= 0 , optional (used if Redis is chosen for "
+"the cache storage)"
+msgstr "Índice da base de dados Redis: inteiro>=0 (será utilizado se o Redis for escolhido para armazenar a cache)"
+
+#: admin~admin.form.admin_services.cacheRedisKeyPrefix.help
+msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
+msgid ""
+"Redis key prefix: string, optional (used if Redis is chosen for the cache "
+"storage)"
+msgstr "Prefixo da chave Redis: string, opcional (será utilizado se o Redis for escolhido para armazenar a cache)"
 
 #: admin~admin.form.admin_services.cacheRootDirectory.label
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.label"
@@ -284,17 +338,34 @@ msgstr "O diretório não existe ou não é gravável. Pode utilizar: %s"
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
 msgid "Server cache expiration time(s)"
-msgstr "Tempo (s) de expiração da Cache no servidor"
+msgstr "Tempo(s) de expiração da Cache no servidor"
 
 #: admin~admin.form.admin_services.cacheExpiration.help
 msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
-msgid "0 means no expiration, else give an integer in seconds (max : 2592000 s = 30 days)"
-msgstr "0 significa sem expiração, caso contrário dê um número inteiro em segundos (máx : 2592000 s = 30 días)"
+msgid ""
+"0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
+"days)"
+msgstr "0 significa sem expiração, caso contrário dê um número inteiro em segundos (máx: 2592000 s = 30 días)"
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
-msgid "Server cache expiration time must be an integer between 0 and 2592000 seconds."
+msgid ""
+"Server cache expiration time must be an integer between 0 and 2592000 "
+"seconds."
 msgstr "O tempo de expiração da cache no servidor deve ser um número inteiro entre 0 e 2592000 segundos."
+
+#: admin~admin.form.admin_services.rootRepositories.label
+msgctxt "admin~admin.form.admin_services.rootRepositories.label"
+msgid "Root folder of repositories"
+msgstr "Pasta root dos repositórios"
+
+#: admin~admin.form.admin_services.rootRepositories.help
+msgctxt "admin~admin.form.admin_services.rootRepositories.help"
+msgid ""
+"The root folder of repositories can limit the Lizmap directory to 1 folder. "
+"If a path is set here, it is no longer possible to define the path of a "
+"Lizmap directory."
+msgstr "A pasta root dos repositórios pode limitar o directório do Lizmap a 1 pasta. Se o caminho for definido aqui, não será possível definir o novo caminho para o directório Lizmap."
 
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
@@ -304,12 +375,12 @@ msgstr "Enviar pedido ao servidor QGIS com"
 #: admin~admin.form.admin_services.proxyMethod.php.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
 msgid "PHP"
-msgstr ""
+msgstr "PHP"
 
 #: admin~admin.form.admin_services.proxyMethod.curl.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.curl.label"
 msgid "Curl"
-msgstr ""
+msgstr "Curl"
 
 #: admin~admin.form.admin_services.debugMode.label
 msgctxt "admin~admin.form.admin_services.debugMode.label"
@@ -324,7 +395,7 @@ msgstr "Desactivado"
 #: admin~admin.form.admin_services.debugMode.1.label
 msgctxt "admin~admin.form.admin_services.debugMode.1.label"
 msgid "Log"
-msgstr ""
+msgstr "Log"
 
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
@@ -344,7 +415,7 @@ msgstr "Projeto padrão"
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
 msgid "Allow visitors to request an account?"
-msgstr "Permitir que os visitantes solicitem uma conta ?"
+msgstr "Permitir que os visitantes solicitem uma conta?"
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.help
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
@@ -368,7 +439,9 @@ msgstr "ID Google Analytics"
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
-msgid "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the \"tracking ID\"."
+msgid ""
+"The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
+"\"tracking ID\"."
 msgstr "O ID Google Analytics é na forma 'UA-XXXX-Y'. É chamado também \"tracking ID\"."
 
 #: admin~admin.form.admin_services.submit.label
@@ -402,7 +475,8 @@ msgid "Local folder path"
 msgstr "Percurso da pasta local"
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
-msgctxt "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
+msgctxt ""
+"admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
 msgid "Allow repository themes"
 msgstr "Permitir temas para os repositórios"
 
@@ -461,6 +535,11 @@ msgctxt "admin~admin.form.admin_section.message.path.wrong"
 msgid "The path given for the repository does not exists on the server."
 msgstr "O caminho facultado para o repositório não existe no servidor."
 
+#: admin~admin.form.admin_section.message.path.not_authorized
+msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
+msgid "The path given for the repository is not authorized."
+msgstr "O caminho dado para o repositório não está autorizado."
+
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
 msgid "The cache for the repository %s has been sucessfully emptied."
@@ -474,7 +553,7 @@ msgstr "O cache da camada% s foi esvaziada com sucesso."
 #: admin~admin.cache.button.remove.repository.cache.confirm.label
 msgctxt "admin~admin.cache.button.remove.repository.cache.confirm.label"
 msgid "Would you like to empty the cache for this repository?"
-msgstr "Gostaria de esvaziar a cache para este repositório? ?"
+msgstr "Gostaria de esvaziar a cache para este repositório?"
 
 #: admin~admin.cache.button.remove.repository.cache.label
 msgctxt "admin~admin.cache.button.remove.repository.cache.label"
@@ -539,7 +618,7 @@ msgstr "Contagem"
 #: admin~admin.logs.timestamp
 msgctxt "admin~admin.logs.timestamp"
 msgid "Timestamp"
-msgstr ""
+msgstr "Timestamp"
 
 #: admin~admin.logs.user
 msgctxt "admin~admin.logs.user"
@@ -564,4 +643,4 @@ msgstr "Projeto"
 #: admin~admin.logs.ip
 msgctxt "admin~admin.logs.ip"
 msgid "IP"
-msgstr ""
+msgstr "IP"
