@@ -1,15 +1,21 @@
-#
+# 
+# Translators:
+# Felix Kuehne <felixdemern@googlemail.com>, 2016
+# Felix Kuehne <felixdemern@googlemail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client admin 3.0beta4\n"
-"Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2016-04-22 18:57+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de_DE\n"
+"Project-Id-Version: Lizmap locales\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-27 12:15++0200\n"
+"PO-Revision-Date: 2016-06-01 07:39+0000\n"
+"Last-Translator: Felix Kuehne <felixdemern@googlemail.com>\n"
+"Language-Team: German (http://www.transifex.com/3liz-1/lizmap-locales/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: admin~user.form.comment.label
 msgctxt "admin~user.form.comment.label"
@@ -84,17 +90,17 @@ msgstr "WMS Links des Projektes anzeigen"
 #: admin~jacl2.lizmap.tools.layer.export
 msgctxt "admin~jacl2.lizmap.tools.layer.export"
 msgid "Allow export of layers"
-msgstr ""
+msgstr "Layerexport erlauben"
 
 #: admin~admin.menu.configuration.main.label
 msgctxt "admin~admin.menu.configuration.main.label"
-msgid "LizMap configuration"
-msgstr "LizMap Konfiguration"
+msgid "Lizmap configuration"
+msgstr "Lizmap Konfiguration"
 
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
 msgid "Lizmap Logs"
-msgstr ""
+msgstr "Lizmaps Logs"
 
 #: admin~admin.menu.lizmap.logs.view.label
 msgctxt "admin~admin.menu.lizmap.logs.view.label"
@@ -113,8 +119,8 @@ msgstr "Version"
 
 #: admin~admin.configuration.h1
 msgctxt "admin~admin.configuration.h1"
-msgid "LizMap configuration"
-msgstr "LizMap Konfiguration"
+msgid "Lizmap configuration"
+msgstr "Lizmap Konfiguration"
 
 #: admin~admin.configuration.repository.label
 msgctxt "admin~admin.configuration.repository.label"
@@ -171,6 +177,11 @@ msgctxt "admin~admin.configuration.services.cacheExpiration.label"
 msgid "Server cache expiration time(s)"
 msgstr "Server Cache Lebensdauer (s)"
 
+#: admin~admin.configuration.services.rootRepositories.label
+msgctxt "admin~admin.configuration.services.rootRepositories.label"
+msgid "Root folder of repositories"
+msgstr "Wurzelordner der Verzeichnisse"
+
 #: admin~admin.configuration.services.proxyMethod.label
 msgctxt "admin~admin.configuration.services.proxyMethod.label"
 msgid "Send request to QGIS Server with"
@@ -223,8 +234,8 @@ msgstr "Ein Verzeichnis anlegen"
 
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"
-msgid "Modify LizMap generic configuration"
-msgstr "LizMap's generische Konfiguration anpassen"
+msgid "Modify Lizmap generic configuration"
+msgstr "Lizmap's generische Konfiguration anpassen"
 
 #: admin~admin.form.admin_services.appName.label
 msgctxt "admin~admin.form.admin_services.appName.label"
@@ -264,7 +275,51 @@ msgstr "Dateien"
 #: admin~admin.form.admin_services.cacheStorageType.redis.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.redis.label"
 msgid "Redis"
-msgstr ""
+msgstr "Redis"
+
+#: admin~admin.form.admin_services.cacheRedisHost.label
+msgctxt "admin~admin.form.admin_services.cacheRedisHost.label"
+msgid "Redis host"
+msgstr "Redis Host"
+
+#: admin~admin.form.admin_services.cacheRedisPort.label
+msgctxt "admin~admin.form.admin_services.cacheRedisPort.label"
+msgid "Redis port"
+msgstr "Redis Port"
+
+#: admin~admin.form.admin_services.cacheRedisDb.label
+msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
+msgid "Redis database index"
+msgstr "Redis Datenbank Index"
+
+#: admin~admin.form.admin_services.cacheRedisKeyPrefix.label
+msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.label"
+msgid "Redis key prefix"
+msgstr "Redis Schlüsselprefix"
+
+#: admin~admin.form.admin_services.cacheRedisHost.help
+msgctxt "admin~admin.form.admin_services.cacheRedisHost.help"
+msgid "Redis host (used if Redis is chosen for the cache storage)"
+msgstr "Redis host (used if Redis is chosen for the cache storage)"
+
+#: admin~admin.form.admin_services.cacheRedisPort.help
+msgctxt "admin~admin.form.admin_services.cacheRedisPort.help"
+msgid "Redis port (used if Redis is chosen for the cache storage)"
+msgstr "Redis Port (used if Redis is chosen for the cache storage)"
+
+#: admin~admin.form.admin_services.cacheRedisDb.help
+msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
+msgid ""
+"Redis database index: integer >= 0 , optional (used if Redis is chosen for "
+"the cache storage)"
+msgstr "Redis Datenbankindex: Ganzzahl >=0, optional (used if Redis is chosen for the cache storage)"
+
+#: admin~admin.form.admin_services.cacheRedisKeyPrefix.help
+msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
+msgid ""
+"Redis key prefix: string, optional (used if Redis is chosen for the cache "
+"storage)"
+msgstr "Redis Schlüsselprefix: Zeichenkette, optional (used if Redis is chosen for the cache storage)"
 
 #: admin~admin.form.admin_services.cacheRootDirectory.label
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.label"
@@ -288,13 +343,30 @@ msgstr "Server Cache Lebensdauer (s)"
 
 #: admin~admin.form.admin_services.cacheExpiration.help
 msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
-msgid "0 means no expiration, else give an integer in seconds (max : 2592000 s = 30 days)"
+msgid ""
+"0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
+"days)"
 msgstr "0 bedeutet unbegrenzte Lebenszeit, geben Sie andernfalls eine Ganzzahl in Sekunden an (max : 2592000 s = 30 Tage)"
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
-msgid "Server cache expiration time must be an integer between 0 and 2592000 seconds."
+msgid ""
+"Server cache expiration time must be an integer between 0 and 2592000 "
+"seconds."
 msgstr "Server Cache Lebensdauer muss eine Ganzzahl zwischen 0 und 2592000 Sekunden sein."
+
+#: admin~admin.form.admin_services.rootRepositories.label
+msgctxt "admin~admin.form.admin_services.rootRepositories.label"
+msgid "Root folder of repositories"
+msgstr "Wurzelordner der Verzeichnisse"
+
+#: admin~admin.form.admin_services.rootRepositories.help
+msgctxt "admin~admin.form.admin_services.rootRepositories.help"
+msgid ""
+"The root folder of repositories can limit the Lizmap directory to 1 folder. "
+"If a path is set here, it is no longer possible to define the path of a "
+"Lizmap directory."
+msgstr "Der Wurzelordner der Verzeichnisse kann das Lizmap Verzeichnis auf 1 Ordner limitieren. Wenn hier ein Pfad gesetzt ist, ist es nicht länger möglich den Pfad eines Lizmap Verzeichnisses zu setzen."
 
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
@@ -304,12 +376,12 @@ msgstr "Anfrage an QGIS Server senden mit"
 #: admin~admin.form.admin_services.proxyMethod.php.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
 msgid "PHP"
-msgstr ""
+msgstr "PHP"
 
 #: admin~admin.form.admin_services.proxyMethod.curl.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.curl.label"
 msgid "Curl"
-msgstr ""
+msgstr "CURL"
 
 #: admin~admin.form.admin_services.debugMode.label
 msgctxt "admin~admin.form.admin_services.debugMode.label"
@@ -324,7 +396,7 @@ msgstr "Aus"
 #: admin~admin.form.admin_services.debugMode.1.label
 msgctxt "admin~admin.form.admin_services.debugMode.1.label"
 msgid "Log"
-msgstr ""
+msgstr "Log"
 
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
@@ -364,11 +436,13 @@ msgstr "E-Mail, an die Benachrichtigungen gesendet werden."
 #: admin~admin.form.admin_services.googleAnalyticsID.label
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
 msgid "Google Analytics ID"
-msgstr ""
+msgstr "Google Anaytics ID"
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
-msgid "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the \"tracking ID\"."
+msgid ""
+"The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
+"\"tracking ID\"."
 msgstr "Die Google Analytics-ID hat die Form 'UA-XXXX-Y'. Sie wird auch die \"tracking ID\" genannt."
 
 #: admin~admin.form.admin_services.submit.label
@@ -402,7 +476,8 @@ msgid "Local folder path"
 msgstr "Lokaler Ordnerpfad"
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
-msgctxt "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
+msgctxt ""
+"admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
 msgid "Allow repository themes"
 msgstr "Verzeichnisthemen zulassen"
 
@@ -461,6 +536,11 @@ msgctxt "admin~admin.form.admin_section.message.path.wrong"
 msgid "The path given for the repository does not exists on the server."
 msgstr "Der angegebene Pfad für das Verzeichnis existiert nicht auf dem Server."
 
+#: admin~admin.form.admin_section.message.path.not_authorized
+msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
+msgid "The path given for the repository is not authorized."
+msgstr "Der für das Verzeichnis angegebene Pfad ist nicht authentifiziert."
+
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
 msgid "The cache for the repository %s has been sucessfully emptied."
@@ -509,7 +589,7 @@ msgstr "Anzeigen"
 #: admin~admin.logs.export.button
 msgctxt "admin~admin.logs.export.button"
 msgid "Export"
-msgstr ""
+msgstr "Export"
 
 #: admin~admin.logs.empty.button
 msgctxt "admin~admin.logs.empty.button"
@@ -564,4 +644,4 @@ msgstr "Projekt"
 #: admin~admin.logs.ip
 msgctxt "admin~admin.logs.ip"
 msgid "IP"
-msgstr ""
+msgstr "IP"
