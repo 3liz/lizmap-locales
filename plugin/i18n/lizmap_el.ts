@@ -268,7 +268,7 @@
     <message>
         <location filename="ui_lizmap.ui" line="406"/>
         <source>0,0;_</source>
-        <translation type="unfinished"/>
+        <translation>0,0;_</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="197"/>
@@ -293,7 +293,7 @@
     <message>
         <location filename="ui_lizmap.ui" line="2834"/>
         <source>Layer</source>
-        <translation type="unfinished"/>
+        <translation>Στρώμα</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2565"/>
@@ -318,7 +318,7 @@
     <message>
         <location filename="ui_lizmap.ui" line="2422"/>
         <source>Layer id</source>
-        <translation type="unfinished"/>
+        <translation>Id του στρώματος</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="62"/>
@@ -469,7 +469,7 @@ This is different to the map maximum extent (defined in QGIS project properties,
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1781"/>
-        <source>Optionnal group by field</source>
+        <source>Optional group by field</source>
         <translation>Ένωση κατ&apos;επιλογήν</translation>
     </message>
     <message>
@@ -619,12 +619,12 @@ This is different to the map maximum extent (defined in QGIS project properties,
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2870"/>
-        <source>Group id (optionnal)</source>
+        <source>Group id (optional)</source>
         <translation>Αναγνωριστικό κωδικό για το σύνολο (προτίμηση)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2860"/>
-        <source>Group title (optionnal)</source>
+        <source>Group title (optional)</source>
         <translation>Τίτλος για το σύνολο (προτίμηση)</translation>
     </message>
     <message>
@@ -843,7 +843,7 @@ Only the selected feature will be visible on the map </translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2196"/>
-        <source>You can let the user activate map tooltips when hovering features. Choose a layer, add a coma separated list of field names to display in the tooltip, and optionnaly choose to display the geometry. You can also choose the geometry color (use an HTML color code)</source>
+        <source>You can let the user activate map tooltips when hovering features. Choose a layer, add a coma separated list of field names to display in the tooltip, and optionaly choose to display the geometry. You can also choose the geometry color (use an HTML color code)</source>
         <translation type="unfinished"/>
     </message>
     <message>
