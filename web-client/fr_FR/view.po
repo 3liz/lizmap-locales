@@ -1,20 +1,25 @@
-#
+# 
+# Translators:
+# Michael Douchin <kimaidou@gmail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client view 3.0beta4\n"
-"Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2016-05-25 18:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr_FR\n"
+"Project-Id-Version: Lizmap locales\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-27 09:01++0200\n"
+"PO-Revision-Date: 2016-05-27 07:15+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: view~map.title.h1
 msgctxt "view~map.title.h1"
 msgid "Lizmap Web Client"
-msgstr ""
+msgstr "Lizmap Web Client"
 
 #: view~map.title.h2
 msgctxt "view~map.title.h2"
@@ -284,12 +289,12 @@ msgstr "Degrées"
 #: view~map.mouseposition.units.dm
 msgctxt "view~map.mouseposition.units.dm"
 msgid "Deg. Min."
-msgstr ""
+msgstr "Deg. Min."
 
 #: view~map.mouseposition.units.dms
 msgctxt "view~map.mouseposition.units.dms"
 msgid "D. M. S."
-msgstr ""
+msgstr "D. M. S."
 
 #: view~map.permalink.title
 msgctxt "view~map.permalink.title"
@@ -349,12 +354,12 @@ msgstr "Valeur"
 #: view~map.metadata.link.label
 msgctxt "view~map.metadata.link.label"
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 #: view~map.metadata.h2.illustration
 msgctxt "view~map.metadata.h2.illustration"
 msgid "Illustration"
-msgstr ""
+msgstr "Information"
 
 #: view~map.metadata.h2.description
 msgctxt "view~map.metadata.h2.description"
@@ -374,7 +379,7 @@ msgstr "Propriétés"
 #: view~map.metadata.h2.contact
 msgctxt "view~map.metadata.h2.contact"
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: view~map.metadata.description.title
 msgctxt "view~map.metadata.description.title"
@@ -384,7 +389,7 @@ msgstr "Titre"
 #: view~map.metadata.description.abstract
 msgctxt "view~map.metadata.description.abstract"
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: view~map.metadata.resources.website
 msgctxt "view~map.metadata.resources.website"
@@ -394,7 +399,7 @@ msgstr "Site internet"
 #: view~map.metadata.properties.projection
 msgctxt "view~map.metadata.properties.projection"
 msgid "Projection"
-msgstr ""
+msgstr "Projection"
 
 #: view~map.metadata.properties.extent
 msgctxt "view~map.metadata.properties.extent"
@@ -434,12 +439,12 @@ msgstr "Masquer les informations"
 #: view~map.timemanager.toolbar.title
 msgctxt "view~map.timemanager.toolbar.title"
 msgid "Time Manager"
-msgstr ""
+msgstr "Time Manager"
 
 #: view~map.timemanager.navbar.title
 msgctxt "view~map.timemanager.navbar.title"
 msgid "Time Manager"
-msgstr ""
+msgstr "Time Manager"
 
 #: view~map.timemanager.toolbar.play
 msgctxt "view~map.timemanager.toolbar.play"
@@ -449,7 +454,7 @@ msgstr "Lecture"
 #: view~map.timemanager.toolbar.pause
 msgctxt "view~map.timemanager.toolbar.pause"
 msgid "Pause"
-msgstr ""
+msgstr "Pause"
 
 #: view~map.timemanager.toolbar.next
 msgctxt "view~map.timemanager.toolbar.next"
@@ -503,7 +508,9 @@ msgstr "Aide"
 
 #: view~map.attributeLayers.toolbar.summary
 msgctxt "view~map.attributeLayers.toolbar.summary"
-msgid "Choose among the following layers and click on the table button to display its data."
+msgid ""
+"Choose among the following layers and click on the table button to display "
+"its data."
 msgstr "Choisissez une des données suivantes et cliquez sur le bouton \"Données\" pour afficher les données."
 
 #: view~map.attributeLayers.options.input.cascade.label
@@ -514,7 +521,7 @@ msgstr "Filtrer les couches filles en cascade"
 #: view~map.switcher.layer.metadata.title
 msgctxt "view~map.switcher.layer.metadata.title"
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 #: view~map.switcher.layer.zoomToExtent.title
 msgctxt "view~map.switcher.layer.zoomToExtent.title"
@@ -564,7 +571,7 @@ msgstr "Résumé"
 #: view~default.project.projection.label
 msgctxt "view~default.project.projection.label"
 msgid "Projection"
-msgstr ""
+msgstr "Projection"
 
 #: view~default.project.bbox.label
 msgctxt "view~default.project.bbox.label"
@@ -629,7 +636,7 @@ msgstr "Ce pseudo sera utilisé pour se connecter."
 #: view~user.form.email.label
 msgctxt "view~user.form.email.label"
 msgid "E-mail"
-msgstr ""
+msgstr "Courriel"
 
 #: view~user.form.password.label
 msgctxt "view~user.form.password.label"
@@ -693,7 +700,9 @@ msgstr "Pourquoi demandez vous un compte ?"
 
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
-msgid "Please write a small text to explain why you would like to have an access to the maps."
+msgid ""
+"Please write a small text to explain why you would like to have an access to"
+" the maps."
 msgstr "Vous pouvez décrire les raisons pour lesquelles vous souhaitez accéder aux cartes."
 
 #: view~user.form.antispam.label
@@ -708,7 +717,9 @@ msgstr "Demander un compte"
 
 #: view~user.form.message.saved
 msgctxt "view~user.form.message.saved"
-msgid "Your request has been successfully sent. An e-mail has been sent to the administrator for validation."
+msgid ""
+"Your request has been successfully sent. An e-mail has been sent to the "
+"administrator for validation."
 msgstr "Votre demande de compte a bien été enregistrée. Un email a été envoyé à l'administrateur pour validation."
 
 #: view~user.form.message.not.saved
@@ -723,7 +734,9 @@ msgstr "Lizmap - une personne a demandé un accès aux cartes."
 
 #: view~user.email.admin.body
 msgctxt "view~user.email.admin.body"
-msgid "Someone has requested a Lizmap account to be able to access the maps, with the login %s and the e-mail %s."
+msgid ""
+"Someone has requested a Lizmap account to be able to access the maps, with "
+"the login %s and the e-mail %s."
 msgstr "Une personne a souhaité avoir un accès aux cartes Lizmap avec le login %s et le courriel %s."
 
 #: view~edition.access.denied
@@ -903,7 +916,9 @@ msgstr "L'objet a bien été créé !"
 
 #: view~edition.message.error.no.geometry
 msgctxt "view~edition.message.error.no.geometry"
-msgid "You cannot save this object without a geomtetry. Please draw the geometry on the map."
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
 msgstr "Vous ne pouvez pas enregistrer cet objet sans géométrie. Veuillez la dessiner sur la carte."
 
 #: view~edition.upload.choice.keep
@@ -933,12 +948,16 @@ msgstr "Une des couches n'existe pas !"
 
 #: view~edition.link.error.multiple.ids
 msgctxt "view~edition.link.error.multiple.ids"
-msgid "You cannot link multiple objects for both layers! Please elect only one object for one of the layers and retry."
+msgid ""
+"You cannot link multiple objects for both layers! Please select only one "
+"object for one of the layers and retry."
 msgstr "Vous ne pouvez pas lier plusieurs objets en même temps dans chaque couche. Vous devez sélectionner un seul objet pour une couche, et plusieurs pour l'autre."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
-msgid "There must be at least one object selected for each layer to create the link!"
+msgid ""
+"There must be at least one object selected for each layer to create the "
+"link!"
 msgstr "Il doit y avoir au moins un objet sélectionné dans les 2 couches pour pouvoir créer le lien !"
 
 #: view~edition.link.error.not.attribute.layer
@@ -1038,12 +1057,16 @@ msgstr "Êtes-vous certain de vouloir supprimer cet objet ?"
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
-msgid "Are you sure you want to cancel edition? You will lose any modifications made on the currently edited object."
+msgid ""
+"Are you sure you want to cancel edition? You will lose any modifications "
+"made on the currently edited object."
 msgstr "Êtes-vous certain de vouloir annuler l'édition de cet objet ? Les modifications faites sur l'objet en cours d'édition seront perdues."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
-msgid "You cannot save this object without a geomtetry. Please draw the geometry on the map."
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
 msgstr "Vous ne pouvez pas enregistrer cet objet sans géométrie. Veuillez la dessiner sur la carte."
 
 #: view~dictionnary.externalsearch.search
@@ -1064,7 +1087,7 @@ msgstr "Lecture"
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
 msgid "Pause"
-msgstr ""
+msgstr "Pause"
 
 #: view~dictionnary.baselayer.empty.title
 msgctxt "view~dictionnary.baselayer.empty.title"
@@ -1122,7 +1145,8 @@ msgid "Unselect all"
 msgstr "Tout désélectionner"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
 msgid "Move selected to top"
 msgstr "Déplacer la sélection en haut"
 
@@ -1137,12 +1161,14 @@ msgid "Export"
 msgstr "Exporter"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
 msgid "Create feature"
 msgstr "Créer un objet"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
 msgid "Create a child"
 msgstr "Créer un fils"
 
@@ -1234,7 +1260,7 @@ msgstr "Nom"
 #: view~dictionnary.layer.metadata.layer.type
 msgctxt "view~dictionnary.layer.metadata.layer.type"
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: view~dictionnary.layer.metadata.layer.type.group
 msgctxt "view~dictionnary.layer.metadata.layer.type.group"
@@ -1249,17 +1275,17 @@ msgstr "Couche"
 #: view~dictionnary.layer.metadata.layer.abstract
 msgctxt "view~dictionnary.layer.metadata.layer.abstract"
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: view~dictionnary.layer.metadata.layer.link
 msgctxt "view~dictionnary.layer.metadata.layer.link"
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 #: view~dictionnary.layer.metadata.layer.info.see
 msgctxt "view~dictionnary.layer.metadata.layer.info.see"
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
