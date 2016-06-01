@@ -1,30 +1,35 @@
-#
+# 
+# Translators:
+# Alessandro Fanna <alex@rospus.org>, 2016
+# Paolo Cavallini <cavallini@faunalia.it>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.0beta4\n"
-"Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2016-04-22 18:55+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: it_IT\n"
+"Project-Id-Version: Lizmap locales\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-25 18:39++0200\n"
+"PO-Revision-Date: 2016-05-27 08:40+0000\n"
+"Last-Translator: Paolo Cavallini <cavallini@faunalia.it>\n"
+"Language-Team: Italian (http://www.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: jacl2db_admin~acl2.menu.item.groups
 msgctxt "jacl2db_admin~acl2.menu.item.groups"
 msgid "Groups of users for rights"
-msgstr "Permessi Gruppi"
+msgstr "Permessi gruppi"
 
 #: jacl2db_admin~acl2.menu.item.rights
 msgctxt "jacl2db_admin~acl2.menu.item.rights"
 msgid "Rights of users"
-msgstr "Permessi Utenti"
+msgstr "Permessi utenti"
 
 #: jacl2db_admin~acl2.groups.title
 msgctxt "jacl2db_admin~acl2.groups.title"
 msgid "Groups of users for rights"
-msgstr "Gestione permessi dei Gruppi"
+msgstr "Gestione permessi dei gruppi"
 
 #: jacl2db_admin~acl2.groups.change.rights.link
 msgctxt "jacl2db_admin~acl2.groups.change.rights.link"
@@ -123,23 +128,27 @@ msgstr "\"-\": permesso non definito, può essere definito in altri gruppi dell'
 
 #: jacl2db_admin~acl2.group.help.rights.yes
 msgctxt "jacl2db_admin~acl2.group.help.rights.yes"
-msgid "\"yes\": indicate that the right is set, but can be canceled (\"no\") in an other group"
+msgid ""
+"\"yes\": indicate that the right is set, but can be canceled (\"no\") in an "
+"other group"
 msgstr "\"yes\": indica che il diritto è impostato, ma può essere annullato (\"no\") in un altro gruppo"
 
 #: jacl2db_admin~acl2.group.help.rights.no
 msgctxt "jacl2db_admin~acl2.group.help.rights.no"
-msgid "\"no\": the right is not assign to this group, and to any other groups of the user."
+msgid ""
+"\"no\": the right is not assign to this group, and to any other groups of "
+"the user."
 msgstr "\"no\": il diritto non viene assegnato a questo gruppo, e a qualsiasi altro gruppo dell'utente."
 
 #: jacl2db_admin~acl2.global.rights
 msgctxt "jacl2db_admin~acl2.global.rights"
 msgid "global"
-msgstr ""
+msgstr "globale"
 
 #: jacl2db_admin~acl2.special.rights
 msgctxt "jacl2db_admin~acl2.special.rights"
 msgid "special"
-msgstr ""
+msgstr "speciale"
 
 #: jacl2db_admin~acl2.message.group.rights.ok
 msgctxt "jacl2db_admin~acl2.message.group.rights.ok"
@@ -149,12 +158,12 @@ msgstr "Permessi salvati"
 #: jacl2db_admin~acl2.group.rightres.title
 msgctxt "jacl2db_admin~acl2.group.rightres.title"
 msgid "Rights on resources for the group"
-msgstr "Permessi sulle risorse per i gruppi"
+msgstr "Permessi sulle risorse per il gruppo"
 
 #: jacl2db_admin~acl2.users.title
 msgctxt "jacl2db_admin~acl2.users.title"
 msgid "Rights of users"
-msgstr "Gestione permessi degli Utenti"
+msgstr "Gestione permessi degli utenti"
 
 #: jacl2db_admin~acl2.filter.title
 msgctxt "jacl2db_admin~acl2.filter.title"
@@ -189,7 +198,7 @@ msgstr "Pagine:"
 #: jacl2db_admin~acl2.anonymous.group.name
 msgctxt "jacl2db_admin~acl2.anonymous.group.name"
 msgid "Anonymous"
-msgstr ""
+msgstr "Anonimo"
 
 #: jacl2db_admin~acl2.all.users.option
 msgctxt "jacl2db_admin~acl2.all.users.option"
@@ -239,7 +248,7 @@ msgstr "Gruppi"
 #: jacl2db_admin~acl2.col.resulting
 msgctxt "jacl2db_admin~acl2.col.resulting"
 msgid "Resulting rights"
-msgstr ""
+msgstr "Permessi derivati"
 
 #: jacl2db_admin~acl2.col.subjects
 msgctxt "jacl2db_admin~acl2.col.subjects"
@@ -274,7 +283,7 @@ msgstr "Permessi"
 #: jacl2db_admin~acl2.rightres.title
 msgctxt "jacl2db_admin~acl2.rightres.title"
 msgid "Rights on resources"
-msgstr "Permessi e risorse"
+msgstr "Permessi sulle risorse"
 
 #: jacl2db_admin~acl2.link.return.to.rights
 msgctxt "jacl2db_admin~acl2.link.return.to.rights"
@@ -283,13 +292,16 @@ msgstr "Torna ai permessi globali"
 
 #: jacl2db_admin~acl2.warning.deleting.rightres
 msgctxt "jacl2db_admin~acl2.warning.deleting.rightres"
-msgid "Warning! To remove this rights, you should use the interfaces provided by business modules corresponding to this rights. Use this page only if you know what you do!"
+msgid ""
+"Warning! To remove this rights, you should use the interfaces provided by "
+"business modules corresponding to this rights. Use this page only if you "
+"know what you do!"
 msgstr "Attenzione! Per rimuovere questo diritto, è necessario utilizzare le interfacce fornite dai moduli di business corrispondenti a questo diritto. Utilizzare questa pagina solo se sai quello che fai!"
 
 #: jacl2db_admin~acl2.no.rightres
 msgctxt "jacl2db_admin~acl2.no.rightres"
 msgid "No special rights"
-msgstr ""
+msgstr "Nessun permesso speciale"
 
 #: jacl2db_admin~acl2.save.button
 msgctxt "jacl2db_admin~acl2.save.button"
