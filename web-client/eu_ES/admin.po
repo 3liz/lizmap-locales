@@ -1,15 +1,20 @@
-#
+# 
+# Translators:
+# Aitor Gil <nofunat88@hotmail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client admin 3.0beta4\n"
-"Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2016-04-22 18:57+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: eu_ES\n"
+"Project-Id-Version: Lizmap locales\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-27 12:15++0200\n"
+"PO-Revision-Date: 2016-05-27 10:17+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>\n"
+"Language-Team: Basque (http://www.transifex.com/3liz-1/lizmap-locales/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: admin~user.form.comment.label
 msgctxt "admin~user.form.comment.label"
@@ -84,12 +89,12 @@ msgstr "Proiektuen WMS esteka erakutsi"
 #: admin~jacl2.lizmap.tools.layer.export
 msgctxt "admin~jacl2.lizmap.tools.layer.export"
 msgid "Allow export of layers"
-msgstr ""
+msgstr "Geruzak esportatzea baimendu"
 
 #: admin~admin.menu.configuration.main.label
 msgctxt "admin~admin.menu.configuration.main.label"
-msgid "LizMap configuration"
-msgstr "LizMapen Konfigurazioa"
+msgid "Lizmap configuration"
+msgstr "Lizmapen Konfigurazioa"
 
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
@@ -113,8 +118,8 @@ msgstr "Bertsio zenbakia"
 
 #: admin~admin.configuration.h1
 msgctxt "admin~admin.configuration.h1"
-msgid "LizMap configuration"
-msgstr "Configuración LizMapen Konfigurazioa"
+msgid "Lizmap configuration"
+msgstr "Lizmapen Konfigurazioa"
 
 #: admin~admin.configuration.repository.label
 msgctxt "admin~admin.configuration.repository.label"
@@ -139,7 +144,7 @@ msgstr "WMS zerbitzariaren URLa"
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
 msgid "WMS subdomain URLs list (optional)"
-msgstr "Azpidomeinuaren WMS URL-en zerrenda (aukerakoa)"
+msgstr "WMS subdominioen URL zerrendatu (aukeran)"
 
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
@@ -169,7 +174,12 @@ msgstr "Cachearen erro direktorioa"
 #: admin~admin.configuration.services.cacheExpiration.label
 msgctxt "admin~admin.configuration.services.cacheExpiration.label"
 msgid "Server cache expiration time(s)"
-msgstr "Cachearen amaiketa epea"
+msgstr "Zerbitzariaren cache denboraren iraungitze denbora(k)"
+
+#: admin~admin.configuration.services.rootRepositories.label
+msgctxt "admin~admin.configuration.services.rootRepositories.label"
+msgid "Root folder of repositories"
+msgstr ""
 
 #: admin~admin.configuration.services.proxyMethod.label
 msgctxt "admin~admin.configuration.services.proxyMethod.label"
@@ -214,7 +224,7 @@ msgstr "Ezabatu"
 #: admin~admin.configuration.button.remove.repository.confirm.label
 msgctxt "admin~admin.configuration.button.remove.repository.confirm.label"
 msgid "Would you like to remove this repository?"
-msgstr "Biltegia ezabatu?"
+msgstr "Errepositorio hau ezabatu nahi duzu?"
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -223,8 +233,8 @@ msgstr "Biltegi berria sortu"
 
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"
-msgid "Modify LizMap generic configuration"
-msgstr "LizMapen kongigurazio generikoa aldatu"
+msgid "Modify Lizmap generic configuration"
+msgstr "Lizmapen kongigurazio generikoa aldatu"
 
 #: admin~admin.form.admin_services.appName.label
 msgctxt "admin~admin.form.admin_services.appName.label"
@@ -239,7 +249,7 @@ msgstr "WMS zerbitzariaren URLa"
 #: admin~admin.form.admin_services.wmsPublicUrlList.label
 msgctxt "admin~admin.form.admin_services.wmsPublicUrlList.label"
 msgid "WMS subdomain URLs list (optional)"
-msgstr "Azpidomeinuaren WMS URL-en zerrenda (aukerakoa)"
+msgstr "WMS subdominioen URL zerrendatu (aukeran)"
 
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
 msgctxt "admin~admin.form.admin_services.message.wmsPublicUrlList.wrong"
@@ -264,6 +274,50 @@ msgstr "Fitxategiak"
 #: admin~admin.form.admin_services.cacheStorageType.redis.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.redis.label"
 msgid "Redis"
+msgstr "Redis"
+
+#: admin~admin.form.admin_services.cacheRedisHost.label
+msgctxt "admin~admin.form.admin_services.cacheRedisHost.label"
+msgid "Redis host"
+msgstr ""
+
+#: admin~admin.form.admin_services.cacheRedisPort.label
+msgctxt "admin~admin.form.admin_services.cacheRedisPort.label"
+msgid "Redis port"
+msgstr ""
+
+#: admin~admin.form.admin_services.cacheRedisDb.label
+msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
+msgid "Redis database index"
+msgstr ""
+
+#: admin~admin.form.admin_services.cacheRedisKeyPrefix.label
+msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.label"
+msgid "Redis key prefix"
+msgstr ""
+
+#: admin~admin.form.admin_services.cacheRedisHost.help
+msgctxt "admin~admin.form.admin_services.cacheRedisHost.help"
+msgid "Redis host (used if Redis is chosen for the cache storage)"
+msgstr ""
+
+#: admin~admin.form.admin_services.cacheRedisPort.help
+msgctxt "admin~admin.form.admin_services.cacheRedisPort.help"
+msgid "Redis port (used if Redis is chosen for the cache storage)"
+msgstr ""
+
+#: admin~admin.form.admin_services.cacheRedisDb.help
+msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
+msgid ""
+"Redis database index: integer >= 0 , optional (used if Redis is chosen for "
+"the cache storage)"
+msgstr ""
+
+#: admin~admin.form.admin_services.cacheRedisKeyPrefix.help
+msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
+msgid ""
+"Redis key prefix: string, optional (used if Redis is chosen for the cache "
+"storage)"
 msgstr ""
 
 #: admin~admin.form.admin_services.cacheRootDirectory.label
@@ -284,17 +338,34 @@ msgstr "Direktorioa ez da existitzen edo ez dauka idazteko baimenik. Erabili dez
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
 msgid "Server cache expiration time(s)"
-msgstr "Zerbitzariaren cachearen iraungi denbora"
+msgstr "Zerbitzariaren cache denboraren iraungitze denbora(k)"
 
 #: admin~admin.form.admin_services.cacheExpiration.help
 msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
-msgid "0 means no expiration, else give an integer in seconds (max : 2592000 s = 30 days)"
-msgstr "0 amaigabeko denbora esan nahi du, bestela zenbaki oso bat eman segundotan (gehienez: 2592000 s=30 egun)"
+msgid ""
+"0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
+"days)"
+msgstr ""
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
-msgid "Server cache expiration time must be an integer between 0 and 2592000 seconds."
+msgid ""
+"Server cache expiration time must be an integer between 0 and 2592000 "
+"seconds."
 msgstr "Zerbitzariaren cachearen iraungi denbora 0 eta 2,592 milioi segundo arteko zenbaki oso bat izan behar du."
+
+#: admin~admin.form.admin_services.rootRepositories.label
+msgctxt "admin~admin.form.admin_services.rootRepositories.label"
+msgid "Root folder of repositories"
+msgstr ""
+
+#: admin~admin.form.admin_services.rootRepositories.help
+msgctxt "admin~admin.form.admin_services.rootRepositories.help"
+msgid ""
+"The root folder of repositories can limit the Lizmap directory to 1 folder. "
+"If a path is set here, it is no longer possible to define the path of a "
+"Lizmap directory."
+msgstr ""
 
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
@@ -304,12 +375,12 @@ msgstr "Bidali eskaera QGIS zerbitzariari"
 #: admin~admin.form.admin_services.proxyMethod.php.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
 msgid "PHP"
-msgstr ""
+msgstr "PHP-a"
 
 #: admin~admin.form.admin_services.proxyMethod.curl.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.curl.label"
 msgid "Curl"
-msgstr ""
+msgstr "Curl-a"
 
 #: admin~admin.form.admin_services.debugMode.label
 msgctxt "admin~admin.form.admin_services.debugMode.label"
@@ -344,7 +415,7 @@ msgstr "Proiektu lehenetsia"
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
 msgid "Allow visitors to request an account?"
-msgstr "Baimendu bisitariak kontu bat eskatu ahal dezaten?"
+msgstr "Bisitariei kontua eskatzea baimendu?"
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.help
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
@@ -368,7 +439,9 @@ msgstr "Google Analytics-aren IDa"
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
-msgid "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the \"tracking ID\"."
+msgid ""
+"The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
+"\"tracking ID\"."
 msgstr "The Google Analytics-aren IDa 'UA-XXXX-Y' egitura du. \"tracking ID\"-a bezala ere ezagutzen da."
 
 #: admin~admin.form.admin_services.submit.label
@@ -389,12 +462,12 @@ msgstr "Aldatu denean biltegia"
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
 msgid "Id"
-msgstr ""
+msgstr "Id-a"
 
 #: admin~admin.form.admin_section.repository.label.label
 msgctxt "admin~admin.form.admin_section.repository.label.label"
 msgid "Label"
-msgstr ""
+msgstr "Etiketa"
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -402,7 +475,8 @@ msgid "Local folder path"
 msgstr "Direktorio lokalaren bideak"
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
-msgctxt "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
+msgctxt ""
+"admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
 msgid "Allow repository themes"
 msgstr "Onartu biltegira elementuak"
 
@@ -461,6 +535,11 @@ msgctxt "admin~admin.form.admin_section.message.path.wrong"
 msgid "The path given for the repository does not exists on the server."
 msgstr "biltegira emandako ez da zerbitzarian existitzen bidea."
 
+#: admin~admin.form.admin_section.message.path.not_authorized
+msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
+msgid "The path given for the repository is not authorized."
+msgstr ""
+
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
 msgid "The cache for the repository %s has been sucessfully emptied."
@@ -474,7 +553,7 @@ msgstr "%s geruzaren cachea hustu da."
 #: admin~admin.cache.button.remove.repository.cache.confirm.label
 msgctxt "admin~admin.cache.button.remove.repository.cache.confirm.label"
 msgid "Would you like to empty the cache for this repository?"
-msgstr "Biltegi honen cachea hustu nahi duzu?"
+msgstr "Errepositorio honetan cachea garbitu nahi duzu?"
 
 #: admin~admin.cache.button.remove.repository.cache.label
 msgctxt "admin~admin.cache.button.remove.repository.cache.label"
@@ -519,7 +598,7 @@ msgstr "Hustu"
 #: admin~admin.logs.empty.confirm
 msgctxt "admin~admin.logs.empty.confirm"
 msgid "Are you sure to want to empty the log content?"
-msgstr "Ziur zaude logaren edukia hustu nahi duzula?"
+msgstr "Ziur zaude log-a garbitu nahi duzula?"
 
 #: admin~admin.logs.empty.ok
 msgctxt "admin~admin.logs.empty.ok"

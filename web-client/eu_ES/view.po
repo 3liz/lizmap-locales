@@ -1,15 +1,20 @@
-#
+# 
+# Translators:
+# Aitor Gil <nofunat88@hotmail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client view 3.0beta4\n"
-"Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2016-04-22 18:57+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: eu_ES\n"
+"Project-Id-Version: Lizmap locales\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-27 09:01++0200\n"
+"PO-Revision-Date: 2016-05-27 07:15+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>\n"
+"Language-Team: Basque (http://www.transifex.com/3liz-1/lizmap-locales/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: view~map.title.h1
 msgctxt "view~map.title.h1"
@@ -29,7 +34,7 @@ msgstr "Mapa"
 #: view~map.layers
 msgctxt "view~map.layers"
 msgid "Layers"
-msgstr ""
+msgstr "Geruzak"
 
 #: view~map.legend
 msgctxt "view~map.legend"
@@ -64,7 +69,7 @@ msgstr "Imprimatu"
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"
 msgid "Tooltip"
-msgstr ""
+msgstr "Tooltip-a"
 
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"
@@ -84,7 +89,7 @@ msgstr "Luzera"
 #: view~map.measure.navbar.title.area
 msgctxt "view~map.measure.navbar.title.area"
 msgid "Area"
-msgstr ""
+msgstr "Area"
 
 #: view~map.measure.navbar.title.perimeter
 msgctxt "view~map.measure.navbar.title.perimeter"
@@ -94,7 +99,7 @@ msgstr "Perimetroa"
 #: view~map.permalink.navbar.title
 msgctxt "view~map.permalink.navbar.title"
 msgid "Permalink"
-msgstr ""
+msgstr "Permaesteka"
 
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
@@ -119,12 +124,12 @@ msgstr "Eskala"
 #: view~map.tooltip.toolbar.title
 msgctxt "view~map.tooltip.toolbar.title"
 msgid "Tooltip"
-msgstr ""
+msgstr "Tooltip-a"
 
 #: view~map.tooltip.toolbar.layer
 msgctxt "view~map.tooltip.toolbar.layer"
 msgid "Highlight layer"
-msgstr ""
+msgstr "Marradura duen geruza"
 
 #: view~map.geolocate.toolbar.title
 msgctxt "view~map.geolocate.toolbar.title"
@@ -179,7 +184,7 @@ msgstr "Legenda"
 #: view~map.legendmenu.title
 msgctxt "view~map.legendmenu.title"
 msgid "Legend"
-msgstr ""
+msgstr "Legenda"
 
 #: view~map.baselayermenu.title
 msgctxt "view~map.baselayermenu.title"
@@ -299,32 +304,32 @@ msgstr "Esteka iraunkorra"
 #: view~map.permalink.geobookmark.title
 msgctxt "view~map.permalink.geobookmark.title"
 msgid "Bookmarks"
-msgstr ""
+msgstr "Bookmark-ak"
 
 #: view~map.permalink.geobookmark.button.add
 msgctxt "view~map.permalink.geobookmark.button.add"
 msgid "Add a bookmark"
-msgstr ""
+msgstr "Bookmark-a gehitu"
 
 #: view~map.permalink.geobookmark.button.del
 msgctxt "view~map.permalink.geobookmark.button.del"
 msgid "Remove this bookmark"
-msgstr ""
+msgstr "Bookmark-a ezabatu"
 
 #: view~map.permalink.geobookmark.button.run
 msgctxt "view~map.permalink.geobookmark.button.run"
 msgid "Use this bookmark"
-msgstr ""
+msgstr "Bookmark-a erabili"
 
 #: view~map.permalink.geobookmark.none
 msgctxt "view~map.permalink.geobookmark.none"
 msgid "No bookmark yet."
-msgstr ""
+msgstr "Ez dago bookmarik"
 
 #: view~map.permalink.geobookmark.name.placeholder
 msgctxt "view~map.permalink.geobookmark.name.placeholder"
 msgid "Bookmark name"
-msgstr ""
+msgstr "Bookmarkaren izena"
 
 #: view~map.message.zoominmax
 msgctxt "view~map.message.zoominmax"
@@ -464,27 +469,27 @@ msgstr "Aurrekoa"
 #: view~map.bottomdock.toolbar.btn.clear.title
 msgctxt "view~map.bottomdock.toolbar.btn.clear.title"
 msgid "Close"
-msgstr ""
+msgstr "Itxi"
 
 #: view~map.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~map.bottomdock.toolbar.btn.glue.activate.title"
 msgid "Pin"
-msgstr ""
+msgstr "Markatu"
 
 #: view~map.bottomdock.toolbar.btn.glue.deactivate.title
 msgctxt "view~map.bottomdock.toolbar.btn.glue.deactivate.title"
 msgid "Unpin"
-msgstr ""
+msgstr "Desmarkatu"
 
 #: view~map.bottomdock.toolbar.btn.size.maximize.title
 msgctxt "view~map.bottomdock.toolbar.btn.size.maximize.title"
 msgid "Maximize"
-msgstr ""
+msgstr "Maximizatu"
 
 #: view~map.bottomdock.toolbar.btn.size.minimize.title
 msgctxt "view~map.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
-msgstr ""
+msgstr "Minimizatu"
 
 #: view~map.attributeLayers.navbar.title
 msgctxt "view~map.attributeLayers.navbar.title"
@@ -499,42 +504,44 @@ msgstr "Datuak"
 #: view~map.attributeLayers.toolbar.help
 msgctxt "view~map.attributeLayers.toolbar.help"
 msgid "Help"
-msgstr ""
+msgstr "Laguntza"
 
 #: view~map.attributeLayers.toolbar.summary
 msgctxt "view~map.attributeLayers.toolbar.summary"
-msgid "Choose among the following layers and click on the table button to display its data."
-msgstr ""
+msgid ""
+"Choose among the following layers and click on the table button to display "
+"its data."
+msgstr "Hurrengo geruzen artean aukeratu eta egin klik botoian datuak ikusteko"
 
 #: view~map.attributeLayers.options.input.cascade.label
 msgctxt "view~map.attributeLayers.options.input.cascade.label"
 msgid "Cascade filter to children"
-msgstr ""
+msgstr "Semeentzako filtroa kaskadan"
 
 #: view~map.switcher.layer.metadata.title
 msgctxt "view~map.switcher.layer.metadata.title"
 msgid "Information"
-msgstr ""
+msgstr "Informazioa"
 
 #: view~map.switcher.layer.zoomToExtent.title
 msgctxt "view~map.switcher.layer.zoomToExtent.title"
 msgid "Zoom to layer extent"
-msgstr ""
+msgstr "Zoom-a geruzaren hedaduran"
 
 #: view~map.switcher.layer.style.title
 msgctxt "view~map.switcher.layer.style.title"
 msgid "Change layer style"
-msgstr ""
+msgstr "Aldatu geruzaren estiloa"
 
 #: view~map.switcher.layer.export.title
 msgctxt "view~map.switcher.layer.export.title"
 msgid "Export"
-msgstr ""
+msgstr "Exportatu"
 
 #: view~map.switcher.layer.unfilter.title
 msgctxt "view~map.switcher.layer.unfilter.title"
 msgid "Deactivate current filter"
-msgstr ""
+msgstr "Oraingo filtroa ezabatu"
 
 #: view~default.repository.access.denied
 msgctxt "view~default.repository.access.denied"
@@ -689,11 +696,13 @@ msgstr "Herria"
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"
 msgid "Why do you request an account?"
-msgstr "Zergatik eskatuko duzu kontu bat?"
+msgstr "Zergatik behar duzu akontua?"
 
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
-msgid "Please write a small text to explain why you would like to have an access to the maps."
+msgid ""
+"Please write a small text to explain why you would like to have an access to"
+" the maps."
 msgstr "Deskribatu laburki zergatik mapetara sartzeko baimena izan nahi zenukeen."
 
 #: view~user.form.antispam.label
@@ -708,7 +717,9 @@ msgstr "Kontsulta bidali"
 
 #: view~user.form.message.saved
 msgctxt "view~user.form.message.saved"
-msgid "Your request has been successfully sent. An e-mail has been sent to the administrator for validation."
+msgid ""
+"Your request has been successfully sent. An e-mail has been sent to the "
+"administrator for validation."
 msgstr "Zure eskaera bidali da. Hau alioztatzeko administratzaileri email bat bidali zaio."
 
 #: view~user.form.message.not.saved
@@ -723,7 +734,9 @@ msgstr "Lizmap - Norbaitek kontu bat eskatu du"
 
 #: view~user.email.admin.body
 msgctxt "view~user.email.admin.body"
-msgid "Someone has requested a Lizmap account to be able to access the maps, with the login %s and the e-mail %s."
+msgid ""
+"Someone has requested a Lizmap account to be able to access the maps, with "
+"the login %s and the e-mail %s."
 msgstr "Norbaitek Lizmap kontu bat eskatu du mapak sar ahal izateko,s% loginarekin eta s% emailarekin."
 
 #: view~edition.access.denied
@@ -754,7 +767,7 @@ msgstr "Itxi"
 #: view~edition.form.cancel.confirm.message
 msgctxt "view~edition.form.cancel.confirm.message"
 msgid "Cancel edition?"
-msgstr "Cancel edition ?"
+msgstr "Edizioa ezeztatu"
 
 #: view~edition.navbar.title
 msgctxt "view~edition.navbar.title"
@@ -809,12 +822,12 @@ msgstr "Ezabatu"
 #: view~edition.toolbar.delete.title
 msgctxt "view~edition.toolbar.delete.title"
 msgid "Delete"
-msgstr ""
+msgstr "Ezabatu"
 
 #: view~edition.toolbar.cancel.title
 msgctxt "view~edition.toolbar.cancel.title"
 msgid "Cancel"
-msgstr ""
+msgstr "Ezeztatu"
 
 #: view~edition.toolbar.draw.tooltip
 msgctxt "view~edition.toolbar.draw.tooltip"
@@ -859,7 +872,7 @@ msgstr "Aukeratutako objektua ezabatu."
 #: view~edition.toolbar.cancel.tooltip
 msgctxt "view~edition.toolbar.cancel.tooltip"
 msgid "Cancel current edition."
-msgstr ""
+msgstr "Oraingo edizio ezeztatu"
 
 #: view~edition.modal.title.default
 msgctxt "view~edition.modal.title.default"
@@ -894,77 +907,83 @@ msgstr "Elementua ezabatua izan da!"
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
 msgid "An error occured while creating the object!"
-msgstr "An error occured while creating the object !"
+msgstr "Errorea jazo da objektua sortzerakoan!"
 
 #: view~edition.message.success.create
 msgctxt "view~edition.message.success.create"
 msgid "Object successfully created!"
-msgstr "Object successfully created !"
+msgstr "Objektua ondo sortu da!"
 
 #: view~edition.message.error.no.geometry
 msgctxt "view~edition.message.error.no.geometry"
-msgid "You cannot save this object without a geomtetry. Please draw the geometry on the map."
-msgstr ""
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
+msgstr "Ezin duzu objektu hau geometriarik gabe gorde. Mesedez, marraztu geometria mapan."
 
 #: view~edition.upload.choice.keep
 msgctxt "view~edition.upload.choice.keep"
 msgid "Keep"
-msgstr ""
+msgstr "Mantendu"
 
 #: view~edition.upload.choice.update
 msgctxt "view~edition.upload.choice.update"
 msgid "Update"
-msgstr ""
+msgstr "Berritu"
 
 #: view~edition.upload.choice.delete
 msgctxt "view~edition.upload.choice.delete"
 msgid "Delete"
-msgstr ""
+msgstr "Ezabatu"
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
 msgid "The pivot, features1 and features2 parameters are mandatory!"
-msgstr "The pivot, features1 and features2 parameters are mandatory !"
+msgstr "Pivota, ezaugarri1 eta ezaugarri2 parametroak beharrezkoa dira!"
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
 msgid "The layer does not exists!"
-msgstr "The layer does not exists !"
+msgstr "Geruza ez da existitzen!"
 
 #: view~edition.link.error.multiple.ids
 msgctxt "view~edition.link.error.multiple.ids"
-msgid "You cannot link multiple objects for both layers! Please elect only one object for one of the layers and retry."
-msgstr "You cannot link multiple objects for both layers ! Please elect only one object for one of the layers and retry."
+msgid ""
+"You cannot link multiple objects for both layers! Please select only one "
+"object for one of the layers and retry."
+msgstr "Ezin duzu hainbat objetu estekatu geruza bietan! Mesedez, aukeratu objektu bakarra geruza bakarrean."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
-msgid "There must be at least one object selected for each layer to create the link!"
-msgstr "There must be at least one object selected for each layer to create the link !"
+msgid ""
+"There must be at least one object selected for each layer to create the "
+"link!"
+msgstr "Objektu bat beharrezkoa da esteka sortzeko!"
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table!"
-msgstr "The layers have not be configured to have an attribute table !"
+msgstr "Geruza ez dira konfiguratu ezaugarrien taula izateko!"
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
 msgid "An error occured while adding linked data!"
-msgstr "An error occured while adding linked data !"
+msgstr "Errorea jazo da estekatutako datuak gehitzerakoan!"
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
 msgid "Selected features have been correctly linked!"
-msgstr "Selected features have been correctly linked !"
+msgstr "Aukeraturtako elementuak ondo estekatu dira!"
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
 msgid "The child feature has correctly been unlinked!"
-msgstr "The child feature has correctly been unlinked !"
+msgstr "Seme-elementua ondo estekatu da!"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
 msgid "An error occured while removing link!"
-msgstr "An error occured while removing link !"
+msgstr "Errorea jazo da esteka kentzerakoan!"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -1038,13 +1057,17 @@ msgstr "Seguru zaude aukeratutako ezaugarria ezabatu nahi duzula?"
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
-msgid "Are you sure you want to cancel edition? You will lose any modifications made on the currently edited object."
-msgstr ""
+msgid ""
+"Are you sure you want to cancel edition? You will lose any modifications "
+"made on the currently edited object."
+msgstr "Ziur zuade edizioa eten nahi duzula? Egindako aldaketak galduko dira."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
-msgid "You cannot save this object without a geomtetry. Please draw the geometry on the map."
-msgstr ""
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
+msgstr "Objektua ezin duzu gorde geometria barik. Mesedez, geometria bat marraztu mapan."
 
 #: view~dictionnary.externalsearch.search
 msgctxt "view~dictionnary.externalsearch.search"
@@ -1074,27 +1097,27 @@ msgstr "Oinarri geruzarik gabe"
 #: view~dictionnary.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.activate.title"
 msgid "Pin"
-msgstr ""
+msgstr "Markatu"
 
 #: view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title"
 msgid "Unpin"
-msgstr ""
+msgstr "Desmarkatu"
 
 #: view~dictionnary.bottomdock.toolbar.btn.glue.glued.title
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.glued.title"
 msgid "Pined"
-msgstr ""
+msgstr "Markatua"
 
 #: view~dictionnary.bottomdock.toolbar.btn.size.maximize.title
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.maximize.title"
 msgid "Maximize"
-msgstr ""
+msgstr "Maximizatu"
 
 #: view~dictionnary.bottomdock.toolbar.btn.size.minimize.title
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
-msgstr ""
+msgstr "Minimizatu"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
@@ -1104,57 +1127,60 @@ msgstr "Datuak eskuratu"
 #: view~dictionnary.attributeLayers.toolbar.cb.data.detail.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.cb.data.detail.title"
 msgid "Display info"
-msgstr ""
+msgstr "Informazioa erakutsi"
 
 #: view~dictionnary.attributeLayers.toolbar.input.search.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.title"
 msgid "Search"
-msgstr ""
+msgstr "Bilatu"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
 msgid "Select searched line"
-msgstr ""
+msgstr "Bilatutako linea aukeratu"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title"
 msgid "Unselect all"
-msgstr ""
+msgstr "Delekzionatu dana"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
 msgid "Move selected to top"
-msgstr ""
+msgstr "Selekzioa gora eraman"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
 msgid "Filter"
-msgstr ""
+msgstr "Filtratu"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
 msgid "Export"
-msgstr ""
+msgstr "Exportatu"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
 msgid "Create feature"
-msgstr ""
+msgstr "Elementua sortu"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
 msgid "Create a child"
-msgstr ""
+msgstr "Semea sortu"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
 msgid "Toggle children tables"
-msgstr ""
+msgstr "Semeen taulak eragin"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title"
 msgid "Link selected features"
-msgstr ""
+msgstr "Aukeratutako elementuak estekatu"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.hide.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.hide.title"
@@ -1184,94 +1210,94 @@ msgstr "Oraingo eremuan"
 #: view~dictionnary.attributeLayers.btn.info.title
 msgctxt "view~dictionnary.attributeLayers.btn.info.title"
 msgid "Info"
-msgstr ""
+msgstr "Informazioa"
 
 #: view~dictionnary.attributeLayers.btn.edit.title
 msgctxt "view~dictionnary.attributeLayers.btn.edit.title"
 msgid "Edit"
-msgstr ""
+msgstr "Editatu"
 
 #: view~dictionnary.attributeLayers.btn.delete.title
 msgctxt "view~dictionnary.attributeLayers.btn.delete.title"
 msgid "Delete"
-msgstr ""
+msgstr "Ezabatu"
 
 #: view~dictionnary.attributeLayers.btn.remove.link.title
 msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
 msgid "Unlink child"
-msgstr ""
+msgstr "Semearen esteka ezabatu"
 
 #: view~dictionnary.attributeLayers.btn.select.title
 msgctxt "view~dictionnary.attributeLayers.btn.select.title"
 msgid "Select"
-msgstr ""
+msgstr "Aukeratu"
 
 #: view~dictionnary.attributeLayers.btn.unselect.title
 msgctxt "view~dictionnary.attributeLayers.btn.unselect.title"
 msgid "Unselect"
-msgstr ""
+msgstr "Desaukeratu"
 
 #: view~dictionnary.attributeLayers.btn.zoom.title
 msgctxt "view~dictionnary.attributeLayers.btn.zoom.title"
 msgid "Zoom"
-msgstr ""
+msgstr "Zoom-a"
 
 #: view~dictionnary.attributeLayers.btn.center.title
 msgctxt "view~dictionnary.attributeLayers.btn.center.title"
 msgid "Center"
-msgstr ""
+msgstr "Zentratu"
 
 #: view~dictionnary.layer.metadata.title
 msgctxt "view~dictionnary.layer.metadata.title"
 msgid "Information"
-msgstr ""
+msgstr "Informazioa"
 
 #: view~dictionnary.layer.metadata.layer.name
 msgctxt "view~dictionnary.layer.metadata.layer.name"
 msgid "Name"
-msgstr ""
+msgstr "izena"
 
 #: view~dictionnary.layer.metadata.layer.type
 msgctxt "view~dictionnary.layer.metadata.layer.type"
 msgid "Type"
-msgstr ""
+msgstr "Mota"
 
 #: view~dictionnary.layer.metadata.layer.type.group
 msgctxt "view~dictionnary.layer.metadata.layer.type.group"
 msgid "Group"
-msgstr ""
+msgstr "Grupoa"
 
 #: view~dictionnary.layer.metadata.layer.type.layer
 msgctxt "view~dictionnary.layer.metadata.layer.type.layer"
 msgid "Layer"
-msgstr ""
+msgstr "Geruza"
 
 #: view~dictionnary.layer.metadata.layer.abstract
 msgctxt "view~dictionnary.layer.metadata.layer.abstract"
 msgid "Description"
-msgstr ""
+msgstr "Deskripzioa"
 
 #: view~dictionnary.layer.metadata.layer.link
 msgctxt "view~dictionnary.layer.metadata.layer.link"
 msgid "Information"
-msgstr ""
+msgstr "Informazioa"
 
 #: view~dictionnary.layer.metadata.layer.info.see
 msgctxt "view~dictionnary.layer.metadata.layer.info.see"
 msgid "Documentation"
-msgstr ""
+msgstr "Documentazioa"
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
-msgstr ""
+msgstr "Baimena behar da geruza esportatzeko"
 
 #: view~dictionnary.geobookmark.name.required
 msgctxt "view~dictionnary.geobookmark.name.required"
 msgid "A name is required to create a bookmark."
-msgstr ""
+msgstr "Izena behar da bookmark-a sortzeko"
 
 #: view~dictionnary.geobookmark.confirm.delete
 msgctxt "view~dictionnary.geobookmark.confirm.delete"
 msgid "Are you sure you want to delete this bookmark?"
-msgstr "Are you sure you want to delete this bookmark ?"
+msgstr "Ziur zaude bookmark-a ezabatu nahi duzula?"
