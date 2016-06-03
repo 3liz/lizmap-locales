@@ -1,15 +1,19 @@
-#
+# 
+# Translators:
+# rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client view 3.0beta4\n"
-"Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2016-04-22 18:57+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: el_GR\n"
+"Project-Id-Version: Lizmap locales\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-27 09:01++0200\n"
+"PO-Revision-Date: 2016-05-28 11:23+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>\n"
+"Language-Team: Greek (http://www.transifex.com/3liz-1/lizmap-locales/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: view~map.title.h1
 msgctxt "view~map.title.h1"
@@ -29,7 +33,7 @@ msgstr "Χάρτης"
 #: view~map.layers
 msgctxt "view~map.layers"
 msgid "Layers"
-msgstr ""
+msgstr "Στρώματα"
 
 #: view~map.legend
 msgctxt "view~map.legend"
@@ -179,7 +183,7 @@ msgstr "Υπόμνημα"
 #: view~map.legendmenu.title
 msgctxt "view~map.legendmenu.title"
 msgid "Legend"
-msgstr ""
+msgstr "Υπόμνημα"
 
 #: view~map.baselayermenu.title
 msgctxt "view~map.baselayermenu.title"
@@ -499,11 +503,13 @@ msgstr "Δεδομένα"
 #: view~map.attributeLayers.toolbar.help
 msgctxt "view~map.attributeLayers.toolbar.help"
 msgid "Help"
-msgstr ""
+msgstr "Βοήθεια"
 
 #: view~map.attributeLayers.toolbar.summary
 msgctxt "view~map.attributeLayers.toolbar.summary"
-msgid "Choose among the following layers and click on the table button to display its data."
+msgid ""
+"Choose among the following layers and click on the table button to display "
+"its data."
 msgstr ""
 
 #: view~map.attributeLayers.options.input.cascade.label
@@ -693,7 +699,9 @@ msgstr "Γιατί αναζητήστε ένα λογαριασμό ;"
 
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
-msgid "Please write a small text to explain why you would like to have an access to the maps."
+msgid ""
+"Please write a small text to explain why you would like to have an access to"
+" the maps."
 msgstr "Περιγράψτε γιατί θέλετε να έχετε πρόσβαση στους χάρτες."
 
 #: view~user.form.antispam.label
@@ -708,7 +716,9 @@ msgstr "Ζήτηση λογαριασμού"
 
 #: view~user.form.message.saved
 msgctxt "view~user.form.message.saved"
-msgid "Your request has been successfully sent. An e-mail has been sent to the administrator for validation."
+msgid ""
+"Your request has been successfully sent. An e-mail has been sent to the "
+"administrator for validation."
 msgstr "έγινε δεχτή η ζήτησή σας λογαριασμού. Θα λάβετε ένα email για επικύρωση."
 
 #: view~user.form.message.not.saved
@@ -723,7 +733,9 @@ msgstr "Lizmap - κάποιος ζήτησε μια πρόσβαση στους 
 
 #: view~user.email.admin.body
 msgctxt "view~user.email.admin.body"
-msgid "Someone has requested a Lizmap account to be able to access the maps, with the login %s and the e-mail %s."
+msgid ""
+"Someone has requested a Lizmap account to be able to access the maps, with "
+"the login %s and the e-mail %s."
 msgstr "Κάποιος ζήτησε μια πρόσβαση στους χάρτες Lizmap με login %s και το courriel %s."
 
 #: view~edition.access.denied
@@ -754,7 +766,7 @@ msgstr "Κλείσιμο"
 #: view~edition.form.cancel.confirm.message
 msgctxt "view~edition.form.cancel.confirm.message"
 msgid "Cancel edition?"
-msgstr "Cancel edition ?"
+msgstr ""
 
 #: view~edition.navbar.title
 msgctxt "view~edition.navbar.title"
@@ -809,12 +821,12 @@ msgstr "Διαγραφή"
 #: view~edition.toolbar.delete.title
 msgctxt "view~edition.toolbar.delete.title"
 msgid "Delete"
-msgstr ""
+msgstr "Διαγραφή"
 
 #: view~edition.toolbar.cancel.title
 msgctxt "view~edition.toolbar.cancel.title"
 msgid "Cancel"
-msgstr ""
+msgstr "Ακύρωση"
 
 #: view~edition.toolbar.draw.tooltip
 msgctxt "view~edition.toolbar.draw.tooltip"
@@ -894,16 +906,18 @@ msgstr "Το γεωγραφικό αντικείμεο έχει σβήσει !"
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
 msgid "An error occured while creating the object!"
-msgstr "An error occured while creating the object !"
+msgstr ""
 
 #: view~edition.message.success.create
 msgctxt "view~edition.message.success.create"
 msgid "Object successfully created!"
-msgstr "Object successfully created !"
+msgstr ""
 
 #: view~edition.message.error.no.geometry
 msgctxt "view~edition.message.error.no.geometry"
-msgid "You cannot save this object without a geomtetry. Please draw the geometry on the map."
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
 msgstr ""
 
 #: view~edition.upload.choice.keep
@@ -919,52 +933,56 @@ msgstr ""
 #: view~edition.upload.choice.delete
 msgctxt "view~edition.upload.choice.delete"
 msgid "Delete"
-msgstr ""
+msgstr "Διαγραφή"
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
 msgid "The pivot, features1 and features2 parameters are mandatory!"
-msgstr "The pivot, features1 and features2 parameters are mandatory !"
+msgstr ""
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
 msgid "The layer does not exists!"
-msgstr "The layer does not exists !"
+msgstr ""
 
 #: view~edition.link.error.multiple.ids
 msgctxt "view~edition.link.error.multiple.ids"
-msgid "You cannot link multiple objects for both layers! Please elect only one object for one of the layers and retry."
-msgstr "You cannot link multiple objects for both layers ! Please elect only one object for one of the layers and retry."
+msgid ""
+"You cannot link multiple objects for both layers! Please select only one "
+"object for one of the layers and retry."
+msgstr ""
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
-msgid "There must be at least one object selected for each layer to create the link!"
-msgstr "There must be at least one object selected for each layer to create the link !"
+msgid ""
+"There must be at least one object selected for each layer to create the "
+"link!"
+msgstr ""
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table!"
-msgstr "The layers have not be configured to have an attribute table !"
+msgstr ""
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
 msgid "An error occured while adding linked data!"
-msgstr "An error occured while adding linked data !"
+msgstr ""
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
 msgid "Selected features have been correctly linked!"
-msgstr "Selected features have been correctly linked !"
+msgstr ""
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
 msgid "The child feature has correctly been unlinked!"
-msgstr "The child feature has correctly been unlinked !"
+msgstr ""
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
 msgid "An error occured while removing link!"
-msgstr "An error occured while removing link !"
+msgstr ""
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -1038,12 +1056,16 @@ msgstr "Είστε σίγουροι που θέλετε να σβήσετε το
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
-msgid "Are you sure you want to cancel edition? You will lose any modifications made on the currently edited object."
+msgid ""
+"Are you sure you want to cancel edition? You will lose any modifications "
+"made on the currently edited object."
 msgstr ""
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
-msgid "You cannot save this object without a geomtetry. Please draw the geometry on the map."
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
 msgstr ""
 
 #: view~dictionnary.externalsearch.search
@@ -1122,7 +1144,8 @@ msgid "Unselect all"
 msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
 msgid "Move selected to top"
 msgstr ""
 
@@ -1137,12 +1160,14 @@ msgid "Export"
 msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
 msgid "Create feature"
 msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
 msgid "Create a child"
 msgstr ""
 
@@ -1194,7 +1219,7 @@ msgstr ""
 #: view~dictionnary.attributeLayers.btn.delete.title
 msgctxt "view~dictionnary.attributeLayers.btn.delete.title"
 msgid "Delete"
-msgstr ""
+msgstr "Διαγραφή"
 
 #: view~dictionnary.attributeLayers.btn.remove.link.title
 msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
@@ -1204,7 +1229,7 @@ msgstr ""
 #: view~dictionnary.attributeLayers.btn.select.title
 msgctxt "view~dictionnary.attributeLayers.btn.select.title"
 msgid "Select"
-msgstr ""
+msgstr "Επιλογή"
 
 #: view~dictionnary.attributeLayers.btn.unselect.title
 msgctxt "view~dictionnary.attributeLayers.btn.unselect.title"
@@ -1219,12 +1244,12 @@ msgstr ""
 #: view~dictionnary.attributeLayers.btn.center.title
 msgctxt "view~dictionnary.attributeLayers.btn.center.title"
 msgid "Center"
-msgstr ""
+msgstr "Κέντρο"
 
 #: view~dictionnary.layer.metadata.title
 msgctxt "view~dictionnary.layer.metadata.title"
 msgid "Information"
-msgstr ""
+msgstr "Πληροφορία"
 
 #: view~dictionnary.layer.metadata.layer.name
 msgctxt "view~dictionnary.layer.metadata.layer.name"
@@ -1244,17 +1269,17 @@ msgstr ""
 #: view~dictionnary.layer.metadata.layer.type.layer
 msgctxt "view~dictionnary.layer.metadata.layer.type.layer"
 msgid "Layer"
-msgstr ""
+msgstr "Στρώμα"
 
 #: view~dictionnary.layer.metadata.layer.abstract
 msgctxt "view~dictionnary.layer.metadata.layer.abstract"
 msgid "Description"
-msgstr ""
+msgstr "Περιγραφή"
 
 #: view~dictionnary.layer.metadata.layer.link
 msgctxt "view~dictionnary.layer.metadata.layer.link"
 msgid "Information"
-msgstr ""
+msgstr "Πληροφορία"
 
 #: view~dictionnary.layer.metadata.layer.info.see
 msgctxt "view~dictionnary.layer.metadata.layer.info.see"
@@ -1274,4 +1299,4 @@ msgstr ""
 #: view~dictionnary.geobookmark.confirm.delete
 msgctxt "view~dictionnary.geobookmark.confirm.delete"
 msgid "Are you sure you want to delete this bookmark?"
-msgstr "Are you sure you want to delete this bookmark ?"
+msgstr ""
