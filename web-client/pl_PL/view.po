@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-09 14:50++0100\n"
-"PO-Revision-Date: 2016-11-12 23:12+0000\n"
+"POT-Creation-Date: 2016-12-09 16:47++0100\n"
+"PO-Revision-Date: 2016-12-31 12:38+0000\n"
 "Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -81,21 +81,6 @@ msgctxt "view~map.measure.navbar.title"
 msgid "Measure"
 msgstr "Pomiary"
 
-#: view~map.measure.navbar.title.length
-msgctxt "view~map.measure.navbar.title.length"
-msgid "Length"
-msgstr "Długość"
-
-#: view~map.measure.navbar.title.area
-msgctxt "view~map.measure.navbar.title.area"
-msgid "Area"
-msgstr "Powierzchnia"
-
-#: view~map.measure.navbar.title.perimeter
-msgctxt "view~map.measure.navbar.title.perimeter"
-msgid "Perimeter"
-msgstr "Obwód"
-
 #: view~map.permalink.navbar.title
 msgctxt "view~map.permalink.navbar.title"
 msgid "Permalink"
@@ -146,20 +131,25 @@ msgctxt "view~map.geolocate.toolbar.bind"
 msgid "Stay centered"
 msgstr "Pozostaw wycentrowaną"
 
-#: view~map.measure.toolbar.title.length
-msgctxt "view~map.measure.toolbar.title.length"
-msgid "Length measure"
-msgstr "Pomiar długości"
+#: view~map.measure.toolbar.title
+msgctxt "view~map.measure.toolbar.title"
+msgid "Measures"
+msgstr "Pomiary"
 
-#: view~map.measure.toolbar.title.area
-msgctxt "view~map.measure.toolbar.title.area"
-msgid "Area measure"
-msgstr "Pomiar powierzchni"
+#: view~map.measure.toolbar.length
+msgctxt "view~map.measure.toolbar.length"
+msgid "Length"
+msgstr "Długość"
 
-#: view~map.measure.toolbar.title.perimeter
-msgctxt "view~map.measure.toolbar.title.perimeter"
-msgid "Perimeter measure"
-msgstr "Pomiar obwodu"
+#: view~map.measure.toolbar.area
+msgctxt "view~map.measure.toolbar.area"
+msgid "Area"
+msgstr "Powierzchnia"
+
+#: view~map.measure.toolbar.perimeter
+msgctxt "view~map.measure.toolbar.perimeter"
+msgid "Perimeter"
+msgstr "Obwód"
 
 #: view~map.menu.close.hover
 msgctxt "view~map.menu.close.hover"
@@ -345,6 +335,11 @@ msgstr "Ładowanie mapy"
 msgctxt "view~map.popup.table.th.data"
 msgid "Field"
 msgstr "Pole"
+
+#: view~map.popup.table.th.band
+msgctxt "view~map.popup.table.th.band"
+msgid "Band"
+msgstr "Pasmo"
 
 #: view~map.popup.table.th.value
 msgctxt "view~map.popup.table.th.value"
