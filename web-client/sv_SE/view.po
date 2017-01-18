@@ -1,12 +1,12 @@
 # 
 # Translators:
-# Rasmus Johansson <rasmus@demosgis.net>, 2016
+# Rasmus Johansson <rasmus@demosgis.net>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-27 09:01++0200\n"
-"PO-Revision-Date: 2016-10-17 09:32+0000\n"
+"POT-Creation-Date: 2017-01-04 17:05++0100\n"
+"PO-Revision-Date: 2017-01-13 12:34+0000\n"
 "Last-Translator: Rasmus Johansson <rasmus@demosgis.net>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/3liz-1/lizmap-locales/language/sv_SE/)\n"
 "MIME-Version: 1.0\n"
@@ -80,21 +80,6 @@ msgctxt "view~map.measure.navbar.title"
 msgid "Measure"
 msgstr "Mät"
 
-#: view~map.measure.navbar.title.length
-msgctxt "view~map.measure.navbar.title.length"
-msgid "Length"
-msgstr "Längd"
-
-#: view~map.measure.navbar.title.area
-msgctxt "view~map.measure.navbar.title.area"
-msgid "Area"
-msgstr "Area"
-
-#: view~map.measure.navbar.title.perimeter
-msgctxt "view~map.measure.navbar.title.perimeter"
-msgid "Perimeter"
-msgstr "Omkrets"
-
 #: view~map.permalink.navbar.title
 msgctxt "view~map.permalink.navbar.title"
 msgid "Permalink"
@@ -145,20 +130,25 @@ msgctxt "view~map.geolocate.toolbar.bind"
 msgid "Stay centered"
 msgstr "Förbli centrerad"
 
-#: view~map.measure.toolbar.title.length
-msgctxt "view~map.measure.toolbar.title.length"
-msgid "Length measure"
-msgstr "Längdmätning"
+#: view~map.measure.toolbar.title
+msgctxt "view~map.measure.toolbar.title"
+msgid "Measures"
+msgstr "Mätningar"
 
-#: view~map.measure.toolbar.title.area
-msgctxt "view~map.measure.toolbar.title.area"
-msgid "Area measure"
-msgstr "Mäta area"
+#: view~map.measure.toolbar.length
+msgctxt "view~map.measure.toolbar.length"
+msgid "Length"
+msgstr "Längd"
 
-#: view~map.measure.toolbar.title.perimeter
-msgctxt "view~map.measure.toolbar.title.perimeter"
-msgid "Perimeter measure"
-msgstr "Mäta omkrets"
+#: view~map.measure.toolbar.area
+msgctxt "view~map.measure.toolbar.area"
+msgid "Area"
+msgstr "Area"
+
+#: view~map.measure.toolbar.perimeter
+msgctxt "view~map.measure.toolbar.perimeter"
+msgid "Perimeter"
+msgstr "Omkrets"
 
 #: view~map.menu.close.hover
 msgctxt "view~map.menu.close.hover"
@@ -344,6 +334,11 @@ msgstr "Laddar kartdata"
 msgctxt "view~map.popup.table.th.data"
 msgid "Field"
 msgstr "Fält"
+
+#: view~map.popup.table.th.band
+msgctxt "view~map.popup.table.th.band"
+msgid "Band"
+msgstr "Band"
 
 #: view~map.popup.table.th.value
 msgctxt "view~map.popup.table.th.value"
@@ -611,6 +606,11 @@ msgstr "Registrera"
 msgctxt "view~user.already.logged"
 msgid "You are already a authenticated user."
 msgstr "Du är redan en verifierad användare. "
+
+#: view~user.title
+msgctxt "view~user.title"
+msgid "Registration"
+msgstr "Registrering"
 
 #: view~user.form.button.back.label
 msgctxt "view~user.form.button.back.label"
@@ -1300,3 +1300,8 @@ msgstr "Ett namn behövs för att skapa ett bokmärke."
 msgctxt "view~dictionnary.geobookmark.confirm.delete"
 msgid "Are you sure you want to delete this bookmark?"
 msgstr "Är du säker på att du vill ta bort detta bokmärke?"
+
+#: view~dictionnary.popup.msg.no.result
+msgctxt "view~dictionnary.popup.msg.no.result"
+msgid "No object has been found at this location."
+msgstr "Inget objekt hittades på denna plats"
