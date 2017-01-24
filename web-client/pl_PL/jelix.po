@@ -1,12 +1,12 @@
 # 
 # Translators:
-# Sławomir Bienias <slawomir.bienias@gmail.com>, 2016
+# Sławomir Bienias <slawomir.bienias@gmail.com>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-09 14:50++0100\n"
-"PO-Revision-Date: 2016-11-14 23:28+0000\n"
+"PO-Revision-Date: 2017-01-19 23:00+0000\n"
 "Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -279,22 +279,22 @@ msgstr "property %s is missing"
 #: jelix~dao.check.badtype
 msgctxt "jelix~dao.check.badtype"
 msgid "bad type on the property %s"
-msgstr ""
+msgstr "zły typ właściwości %s"
 
 #: jelix~dao.check.badformat
 msgctxt "jelix~dao.check.badformat"
 msgid "bad format on the property %s"
-msgstr ""
+msgstr "zły format właściwości %s"
 
 #: jelix~dao.check.maxlength.overflow
 msgctxt "jelix~dao.check.maxlength.overflow"
 msgid "property %s value is to high"
-msgstr ""
+msgstr "wartość właściwości %s jest zbyt wysoka"
 
 #: jelix~dao.check.minlength.overflow
 msgctxt "jelix~dao.check.minlength.overflow"
 msgid "property %s value is to low"
-msgstr ""
+msgstr "wartość właściwości %s jest za niska"
 
 #: jelix~dao.error.keys.missing
 msgctxt "jelix~dao.error.keys.missing"
@@ -1314,12 +1314,12 @@ msgstr "(1) nieznany błąd"
 msgctxt "jelix~errors.tech"
 msgid ""
 "(2)There is a technic error on the site. Please try connect to it later."
-msgstr ""
+msgstr "(2) Wystąpił błąd techniczny na stronie. Proszę spróbować połączyć się później."
 
 #: jelix~errors.selector.invalid.syntax
 msgctxt "jelix~errors.selector.invalid.syntax"
 msgid "(16)Invalid Syntax in the \"%1$s\" selector (type:%2$s)"
-msgstr ""
+msgstr "(16)Błędna składnia w \"%1$s\" selektora (type:%2$s)"
 
 #: jelix~errors.selector.invalid.target
 msgctxt "jelix~errors.selector.invalid.target"
@@ -1329,7 +1329,7 @@ msgstr ""
 #: jelix~errors.selector.module.unknown
 msgctxt "jelix~errors.selector.module.unknown"
 msgid "(18)Unknown module in the selector \"%s\""
-msgstr ""
+msgstr "(18)Nieznany moduł w selektorze \"%s\""
 
 #: jelix~errors.selector.method.invalid
 msgctxt "jelix~errors.selector.method.invalid"
@@ -1339,32 +1339,32 @@ msgstr ""
 #: jelix~errors.file.directory.notexists
 msgctxt "jelix~errors.file.directory.notexists"
 msgid "(20)The given directory [%s] does not exists"
-msgstr ""
+msgstr "(20)Podana lokalizacja [%s] nie istnieje"
 
 #: jelix~errors.file.directory.notwritable
 msgctxt "jelix~errors.file.directory.notwritable"
 msgid "(21)Unable to write %s, make sure %s is writable"
-msgstr ""
+msgstr "(21)Nie można zapisać %s, upewnij się, że %s jest zapisywalne"
 
 #: jelix~errors.file.write.error
 msgctxt "jelix~errors.file.write.error"
 msgid "(22)Error while writing file %s using temporary %s"
-msgstr ""
+msgstr "(22)Błąd podczas zapisywania pliku %s używanie tymczasowego %s"
 
 #: jelix~errors.file.notexists
 msgctxt "jelix~errors.file.notexists"
 msgid "(23)The file %s doesn't exists"
-msgstr ""
+msgstr "(23)Plik %s nie istnieje"
 
 #: jelix~errors.inifile.write.error
 msgctxt "jelix~errors.inifile.write.error"
 msgid "(24)Error while writing ini file %s"
-msgstr ""
+msgstr "(24)Błąd podczas zapisywania pliku %s ini"
 
 #: jelix~errors.file.directory.cannot.remove.fs.root
 msgctxt "jelix~errors.file.directory.cannot.remove.fs.root"
 msgid "(25)Can't delete the filesystem's root directory"
-msgstr ""
+msgstr "(25)Nie można usunąć katalogu root'a z systemu plików"
 
 #: jelix~errors.urls.engine.notfound
 msgctxt "jelix~errors.urls.engine.notfound"

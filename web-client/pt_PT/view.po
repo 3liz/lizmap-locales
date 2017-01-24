@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-04 17:05++0100\n"
-"PO-Revision-Date: 2017-01-18 10:21+0000\n"
+"POT-Creation-Date: 2017-01-20 11:34++0100\n"
+"PO-Revision-Date: 2017-01-20 11:44+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -92,7 +92,7 @@ msgstr "Endereço"
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
 msgid "Underway..."
-msgstr "Pesquisa..."
+msgstr "Em curso..."
 
 #: view~map.toolbar.content.stop
 msgctxt "view~map.toolbar.content.stop"
@@ -201,8 +201,8 @@ msgstr "Aproximar por retângulo"
 
 #: view~map.navbar.zoomextent.hover
 msgctxt "view~map.navbar.zoomextent.hover"
-msgid "Zoom to map extent"
-msgstr "Aproximar aos limites do mapa"
+msgid "Zoom to initial map extent"
+msgstr "Zoom para a extensão inicial do mapa"
 
 #: view~map.navbar.zoomin.hover
 msgctxt "view~map.navbar.zoomin.hover"
@@ -237,7 +237,7 @@ msgstr "Mova o retângulo para percorrer o mapa"
 #: view~map.overviewbar.scaleline.hover
 msgctxt "view~map.overviewbar.scaleline.hover"
 msgid "Scale bar"
-msgstr "Barra de Escalas"
+msgstr "Escala gráfica"
 
 #: view~map.overviewbar.scaletext.hover
 msgctxt "view~map.overviewbar.scaletext.hover"
@@ -252,12 +252,12 @@ msgstr "Escala"
 #: view~map.overviewbar.displayoverview.hover
 msgctxt "view~map.overviewbar.displayoverview.hover"
 msgid "Display/Hide Overview"
-msgstr "Mostrar/Esconder enquadramento"
+msgstr "Mostrar/Ocultar enquadramento"
 
 #: view~map.mouseposition.hover
 msgctxt "view~map.mouseposition.hover"
 msgid "Mouse position"
-msgstr "Posicação do rato"
+msgstr "Posição do rato"
 
 #: view~map.mouseposition.select
 msgctxt "view~map.mouseposition.select"
@@ -312,7 +312,7 @@ msgstr "Remover este marcador"
 #: view~map.permalink.geobookmark.button.run
 msgctxt "view~map.permalink.geobookmark.button.run"
 msgid "Use this bookmark"
-msgstr "Usar este marcador"
+msgstr "Utilizar este marcador"
 
 #: view~map.permalink.geobookmark.none
 msgctxt "view~map.permalink.geobookmark.none"
@@ -377,7 +377,7 @@ msgstr "Propriedades"
 #: view~map.metadata.h2.contact
 msgctxt "view~map.metadata.h2.contact"
 msgid "Contact"
-msgstr "Contatos"
+msgstr "Contactos"
 
 #: view~map.metadata.description.title
 msgctxt "view~map.metadata.description.title"
@@ -432,7 +432,7 @@ msgstr "Telefone"
 #: view~map.metadata.hide
 msgctxt "view~map.metadata.hide"
 msgid "Hide information"
-msgstr "Esconder Informação"
+msgstr "Ocultar Informação"
 
 #: view~map.timemanager.toolbar.title
 msgctxt "view~map.timemanager.toolbar.title"
@@ -509,12 +509,27 @@ msgctxt "view~map.attributeLayers.toolbar.summary"
 msgid ""
 "Choose among the following layers and click on the table button to display "
 "its data."
-msgstr "Escolher entre as seguintes camadas e clicar no icon da tabela para visualizar os dados"
+msgstr "Escolher entre as seguintes camadas e clicar no ícone da tabela para visualizar os dados."
+
+#: view~map.attributeLayers.options.title
+msgctxt "view~map.attributeLayers.options.title"
+msgid "Options"
+msgstr "Opções"
 
 #: view~map.attributeLayers.options.input.cascade.label
 msgctxt "view~map.attributeLayers.options.input.cascade.label"
 msgid "Cascade filter to children"
 msgstr "Aplicar o filtro aos filhos"
+
+#: view~map.switcher.layers.expand.title
+msgctxt "view~map.switcher.layers.expand.title"
+msgid "Expand all"
+msgstr "Expandir tudo"
+
+#: view~map.switcher.layers.collapse.title
+msgctxt "view~map.switcher.layers.collapse.title"
+msgid "Collapse all"
+msgstr "Fechar tudo"
 
 #: view~map.switcher.layer.metadata.title
 msgctxt "view~map.switcher.layer.metadata.title"
@@ -544,7 +559,7 @@ msgstr "Remover filtro da camada"
 #: view~default.repository.access.denied
 msgctxt "view~default.repository.access.denied"
 msgid "You cannot access this repository."
-msgstr "Sem permissões para aceder ao repositório"
+msgstr "Sem permissões para aceder ao repositório."
 
 #: view~default.repository.list.title
 msgctxt "view~default.repository.list.title"
@@ -554,7 +569,7 @@ msgstr "Projetos"
 #: view~default.project.access.denied
 msgctxt "view~default.project.access.denied"
 msgid "Access denied for this project."
-msgstr "Acesso negado a este projeto"
+msgstr "Acesso negado a este projeto."
 
 #: view~default.project.title.label
 msgctxt "view~default.project.title.label"
@@ -569,7 +584,7 @@ msgstr "Resumo"
 #: view~default.project.projection.label
 msgctxt "view~default.project.projection.label"
 msgid "Projection"
-msgstr "Projecção"
+msgstr "Projeção"
 
 #: view~default.project.bbox.label
 msgctxt "view~default.project.bbox.label"
@@ -599,7 +614,7 @@ msgstr "Iniciar sessão"
 #: view~default.header.disconnect
 msgctxt "view~default.header.disconnect"
 msgid "Disconnect"
-msgstr "Sair da sessão"
+msgstr "Terminar sessão"
 
 #: view~default.header.createAccount
 msgctxt "view~default.header.createAccount"
@@ -609,7 +624,7 @@ msgstr "Registar"
 #: view~user.already.logged
 msgctxt "view~user.already.logged"
 msgid "You are already a authenticated user."
-msgstr "Já está autenticado"
+msgstr "Já se encontra autenticado."
 
 #: view~user.title
 msgctxt "view~user.title"
@@ -629,12 +644,12 @@ msgstr "Solicite uma conta"
 #: view~user.form.login.label
 msgctxt "view~user.form.login.label"
 msgid "Nickname"
-msgstr "Nome utilizador"
+msgstr "Nome de utilizador"
 
 #: view~user.form.login.help
 msgctxt "view~user.form.login.help"
 msgid "This nickname will be used to connect to your account."
-msgstr "Este nome de utilizador será usado para ligar à sua conta"
+msgstr "Este nome de utilizador será usado para ligar à sua conta."
 
 #: view~user.form.email.label
 msgctxt "view~user.form.email.label"
@@ -723,7 +738,7 @@ msgctxt "view~user.form.message.saved"
 msgid ""
 "Your request has been successfully sent. An e-mail has been sent to the "
 "administrator for validation."
-msgstr "O seu pedido foi enviado com sucesso. Um e-mail foi enviado para o administrador para validação."
+msgstr "O seu pedido foi enviado com sucesso. Foi enviado um e-mail para o administrador para validação."
 
 #: view~user.form.message.not.saved
 msgctxt "view~user.form.message.not.saved"
@@ -755,7 +770,7 @@ msgstr "Guardar"
 #: view~edition.form.data.saved
 msgctxt "view~edition.form.data.saved"
 msgid "Data has been saved."
-msgstr "Dados gravados com sucesso"
+msgstr "Dados gravados com sucesso."
 
 #: view~edition.form.cancel.label
 msgctxt "view~edition.form.cancel.label"
@@ -835,42 +850,42 @@ msgstr "Cancelar"
 #: view~edition.toolbar.draw.tooltip
 msgctxt "view~edition.toolbar.draw.tooltip"
 msgid "Activate the tool for creating new objects."
-msgstr "Ativar a ferramenta para criar novos objetos"
+msgstr "Ativar a ferramenta para criar novos objetos."
 
 #: view~edition.toolbar.draw.clear.tooltip
 msgctxt "view~edition.toolbar.draw.clear.tooltip"
 msgid "Cancel the current drawing."
-msgstr "Anular edição"
+msgstr "Anular geometria."
 
 #: view~edition.toolbar.draw.save.tooltip
 msgctxt "view~edition.toolbar.draw.save.tooltip"
 msgid "Finalize the current drawing."
-msgstr "Finalizar edição"
+msgstr "Finalizar geometria."
 
 #: view~edition.toolbar.select.tooltip
 msgctxt "view~edition.toolbar.select.tooltip"
 msgid "Activate the selection tool."
-msgstr "Ativar a ferramenta de seleção"
+msgstr "Ativar a ferramenta de seleção."
 
 #: view~edition.toolbar.select.unselect.tooltip
 msgctxt "view~edition.toolbar.select.unselect.tooltip"
 msgid "Unselect the selected object."
-msgstr "Desmarcar o geometria selecionada"
+msgstr "Desmarcar o geometria selecionada."
 
 #: view~edition.toolbar.select.attr.tooltip
 msgctxt "view~edition.toolbar.select.attr.tooltip"
 msgid "Validate the geometry and/or open the attribute form."
-msgstr "Validar a geometria e/ou abrir o formulário de atributos"
+msgstr "Validar a geometria e/ou abrir o formulário de atributos."
 
 #: view~edition.toolbar.select.undo.tooltip
 msgctxt "view~edition.toolbar.select.undo.tooltip"
 msgid "Revert into initial geometry state."
-msgstr "Reverter para o estado inicial da geometria"
+msgstr "Reverter para o estado inicial da geometria."
 
 #: view~edition.toolbar.select.delete.tooltip
 msgctxt "view~edition.toolbar.select.delete.tooltip"
 msgid "Delete the selected object."
-msgstr "Apagar a geometria selecionada"
+msgstr "Apagar a geometria selecionada."
 
 #: view~edition.toolbar.cancel.tooltip
 msgctxt "view~edition.toolbar.cancel.tooltip"
@@ -885,7 +900,7 @@ msgstr "Edição"
 #: view~edition.modal.message.no.feature.found
 msgctxt "view~edition.modal.message.no.feature.found"
 msgid "No feature has been found here."
-msgstr "Nenhuma geometria encontrada"
+msgstr "Nenhuma geometria encontrada."
 
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"
@@ -910,19 +925,19 @@ msgstr "A geometria foi apagada!"
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
 msgid "An error occured while creating the object!"
-msgstr "Ocorreu um erro ao criar o objecto!"
+msgstr "Ocorreu um erro ao criar o objeto!"
 
 #: view~edition.message.success.create
 msgctxt "view~edition.message.success.create"
 msgid "Object successfully created!"
-msgstr "Objecto criado com sucesso!"
+msgstr "Objeto criado com sucesso!"
 
 #: view~edition.message.error.no.geometry
 msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Não pode gravar objectos sem geometria. Por favor desenhe a geometria."
+msgstr "Não pode gravar objetos sem geometria. Por favor desenhe a geometria."
 
 #: view~edition.upload.choice.keep
 msgctxt "view~edition.upload.choice.keep"
@@ -932,7 +947,7 @@ msgstr "Manter"
 #: view~edition.upload.choice.update
 msgctxt "view~edition.upload.choice.update"
 msgid "Update"
-msgstr "Actualizar"
+msgstr "Atualizar"
 
 #: view~edition.upload.choice.delete
 msgctxt "view~edition.upload.choice.delete"
@@ -954,14 +969,14 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers! Please select only one "
 "object for one of the layers and retry."
-msgstr "Não pode juntar objectos múltiplos em ambas as camadas! Por favor seleccione um objecto em camada camada e tente de novo."
+msgstr "Não pode ligar objetos múltiplos em ambas as camadas! Por favor selecione apenas um objeto por camada e tente de novo."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link!"
-msgstr "É necessário ter seleccionado pelo menos um objecto em camada camada para puder criar a ligação!"
+msgstr "É necessário ter selecionado pelo menos um objeto em cada camada para puder criar a ligação!"
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
@@ -976,22 +991,22 @@ msgstr "Ocorreu um erro ao acrescentar dados numa ligação!"
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
 msgid "Selected features have been correctly linked!"
-msgstr "Os objectos seleccionados foram correctamente unidos!"
+msgstr "Os objetos selecionados foram corretamente ligados!"
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
 msgid "The child feature has correctly been unlinked!"
-msgstr "O objecto filho foi correctamente removido da união!"
+msgstr "O objeto filho foi corretamente removido da ligação!"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
 msgid "An error occured while removing link!"
-msgstr "Ocorreu um erro ao remover a união!"
+msgstr "Ocorreu um erro ao remover a ligação!"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
 msgid "Display/Hide"
-msgstr "Mostrar/Esconder"
+msgstr "Mostrar/Ocultar"
 
 #: view~dictionnary.tree.button.link
 msgctxt "view~dictionnary.tree.button.link"
@@ -1006,22 +1021,22 @@ msgstr "Remover a cache para esta camada"
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
 msgid "Place the rectangle for printing"
-msgstr "Coloque o retângulo na área que pretende imprimir"
+msgstr "Coloque o retângulo na área que pretende imprimir."
 
 #: view~dictionnary.measure.activate.length
 msgctxt "view~dictionnary.measure.activate.length"
 msgid "Click on the map to start measuring a length."
-msgstr "Clique no mapa para começar a medir a distância"
+msgstr "Clique no mapa para começar a medir a distância."
 
 #: view~dictionnary.measure.activate.area
 msgctxt "view~dictionnary.measure.activate.area"
 msgid "Click on the map to start measuring an area."
-msgstr "Clique no mapa para começar a medir a área"
+msgstr "Clique no mapa para começar a medir a área."
 
 #: view~dictionnary.measure.activate.perimeter
 msgctxt "view~dictionnary.measure.activate.perimeter"
 msgid "Click on the map to start measuring a perimeter."
-msgstr "Clique no mapa para começar a medir do perímetro"
+msgstr "Clique no mapa para começar a medir do perímetro."
 
 #: view~dictionnary.measure.handle
 msgctxt "view~dictionnary.measure.handle"
@@ -1041,17 +1056,17 @@ msgstr "Edição"
 #: view~dictionnary.edition.draw.activate
 msgctxt "view~dictionnary.edition.draw.activate"
 msgid "Draw the feature you want to create on the map."
-msgstr "Desenhe o elemento que deseja criar no mapa"
+msgstr "Desenhe o elemento que deseja criar no mapa."
 
 #: view~dictionnary.edition.select.activate
 msgctxt "view~dictionnary.edition.select.activate"
 msgid "Click on one of the layer's features to select it."
-msgstr "Clique em um dos elementos da camada para selecioná-lo"
+msgstr "Clique num dos elementos da camada para selecioná-lo."
 
 #: view~dictionnary.edition.select.modify.activate
 msgctxt "view~dictionnary.edition.select.modify.activate"
 msgid "You can modify the feature you have selected, then submit."
-msgstr "Você pode modificar o elemento selecionado a enviar"
+msgstr "Pode modificar o elemento selecionado e enviar."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -1095,7 +1110,7 @@ msgstr "Pausa"
 #: view~dictionnary.baselayer.empty.title
 msgctxt "view~dictionnary.baselayer.empty.title"
 msgid "No base map"
-msgstr "Mapa Base Vazio"
+msgstr "Sem Mapa Base"
 
 #: view~dictionnary.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.activate.title"
@@ -1122,6 +1137,11 @@ msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
 msgstr "Minimizar"
 
+#: view~dictionnary.attributeLayers.toolbar.btn.detail
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
+msgid "Detail"
+msgstr "Detalhe"
+
 #: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
 msgid "Get data"
@@ -1145,13 +1165,13 @@ msgstr "Seleccionar a linha pesquisada"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title"
 msgid "Unselect all"
-msgstr "Remover a selecção"
+msgstr "Remover a seleção"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
 msgid "Move selected to top"
-msgstr "Mover a selecção para o topo"
+msgstr "Mover a seleção para o topo"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
@@ -1183,12 +1203,12 @@ msgstr "Activar tabelas filhas"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title"
 msgid "Link selected features"
-msgstr "Ligar elementos seleccionados"
+msgstr "Ligar elementos selecionados"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.hide.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.hide.title"
 msgid "Hide"
-msgstr "Esconder resultados"
+msgstr "Ocultar resultados"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.show.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
@@ -1203,12 +1223,12 @@ msgstr "registros encontrados"
 #: view~dictionnary.attributeLayers.toolbar.msg.data.nodata
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.nodata"
 msgid "No result for this layer"
-msgstr "Nenhum resultado nesta camada"
+msgstr "Nenhum resultado para esta camada"
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.extent
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.extent"
 msgid "in the current extent"
-msgstr "na parte visível do mapaattributeLayers.btn.info.title=Info"
+msgstr "na extensão visível do mapa"
 
 #: view~dictionnary.attributeLayers.btn.info.title
 msgctxt "view~dictionnary.attributeLayers.btn.info.title"
@@ -1228,17 +1248,17 @@ msgstr "Apagar"
 #: view~dictionnary.attributeLayers.btn.remove.link.title
 msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
 msgid "Unlink child"
-msgstr "Remover ligação elementos filhos"
+msgstr "Remover ligação dos elementos filhos"
 
 #: view~dictionnary.attributeLayers.btn.select.title
 msgctxt "view~dictionnary.attributeLayers.btn.select.title"
 msgid "Select"
-msgstr "Seleccionar"
+msgstr "Selecionar"
 
 #: view~dictionnary.attributeLayers.btn.unselect.title
 msgctxt "view~dictionnary.attributeLayers.btn.unselect.title"
 msgid "Unselect"
-msgstr "Remover seleccção"
+msgstr "Remover seleção"
 
 #: view~dictionnary.attributeLayers.btn.zoom.title
 msgctxt "view~dictionnary.attributeLayers.btn.zoom.title"
@@ -1293,7 +1313,7 @@ msgstr "Documentação"
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
-msgstr "É necessário permissão para exportar a camada."
+msgstr "É necessária permissão para exportar a camada."
 
 #: view~dictionnary.geobookmark.name.required
 msgctxt "view~dictionnary.geobookmark.name.required"
@@ -1308,4 +1328,4 @@ msgstr "Tem certeza que quer apagar este marcador?"
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
 msgid "No object has been found at this location."
-msgstr "Não foi encontrado nenhum objecto neste local."
+msgstr "Não foi encontrado nenhum objeto neste local."

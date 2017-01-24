@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-04 17:05++0100\n"
-"PO-Revision-Date: 2017-01-09 15:07+0000\n"
+"POT-Creation-Date: 2017-01-20 11:34++0100\n"
+"PO-Revision-Date: 2017-01-20 20:52+0000\n"
 "Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -198,8 +198,8 @@ msgstr "Powiększ przez zaznaczenie"
 
 #: view~map.navbar.zoomextent.hover
 msgctxt "view~map.navbar.zoomextent.hover"
-msgid "Zoom to map extent"
-msgstr "Powiększ do zasięgu mapy"
+msgid "Zoom to initial map extent"
+msgstr "Oddal do początkowego zasięgu mapy"
 
 #: view~map.navbar.zoomin.hover
 msgctxt "view~map.navbar.zoomin.hover"
@@ -508,10 +508,25 @@ msgid ""
 "its data."
 msgstr "Wybierz spomiędzy dostępnych warstw i kliknij przycisk tabeli, by wyświetlić tabelę atrybutów"
 
+#: view~map.attributeLayers.options.title
+msgctxt "view~map.attributeLayers.options.title"
+msgid "Options"
+msgstr "Opcje"
+
 #: view~map.attributeLayers.options.input.cascade.label
 msgctxt "view~map.attributeLayers.options.input.cascade.label"
 msgid "Cascade filter to children"
 msgstr "Filtr kaskadowy"
+
+#: view~map.switcher.layers.expand.title
+msgctxt "view~map.switcher.layers.expand.title"
+msgid "Expand all"
+msgstr "Rozwiń wszystkie"
+
+#: view~map.switcher.layers.collapse.title
+msgctxt "view~map.switcher.layers.collapse.title"
+msgid "Collapse all"
+msgstr "Zwiń wszystkie"
 
 #: view~map.switcher.layer.metadata.title
 msgctxt "view~map.switcher.layer.metadata.title"
@@ -1118,6 +1133,11 @@ msgstr "Maksymalizuj"
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
 msgstr "Minimalizuj"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.detail
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
+msgid "Detail"
+msgstr "Szczegóły"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
