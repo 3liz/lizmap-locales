@@ -1,15 +1,15 @@
 # 
 # Translators:
 # Alessandro Fanna <alex@rospus.org>, 2016
-# Paolo Cavallini <cavallini@faunalia.it>, 2016
+# Paolo Cavallini <cavallini@faunalia.it>, 2016-2017
 # rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-09 14:50++0100\n"
-"PO-Revision-Date: 2016-11-09 14:04+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
+"POT-Creation-Date: 2017-01-20 11:34++0100\n"
+"PO-Revision-Date: 2017-01-24 14:56+0000\n"
+"Last-Translator: Paolo Cavallini <cavallini@faunalia.it>\n"
 "Language-Team: Italian (http://www.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,21 +82,6 @@ msgctxt "view~map.measure.navbar.title"
 msgid "Measure"
 msgstr "Misura"
 
-#: view~map.measure.navbar.title.length
-msgctxt "view~map.measure.navbar.title.length"
-msgid "Length"
-msgstr "Lunghezza"
-
-#: view~map.measure.navbar.title.area
-msgctxt "view~map.measure.navbar.title.area"
-msgid "Area"
-msgstr "Area"
-
-#: view~map.measure.navbar.title.perimeter
-msgctxt "view~map.measure.navbar.title.perimeter"
-msgid "Perimeter"
-msgstr "Perimetro"
-
 #: view~map.permalink.navbar.title
 msgctxt "view~map.permalink.navbar.title"
 msgid "Permalink"
@@ -147,20 +132,25 @@ msgctxt "view~map.geolocate.toolbar.bind"
 msgid "Stay centered"
 msgstr "Rimani centrato"
 
-#: view~map.measure.toolbar.title.length
-msgctxt "view~map.measure.toolbar.title.length"
-msgid "Length measure"
-msgstr "Misura lunghezza"
+#: view~map.measure.toolbar.title
+msgctxt "view~map.measure.toolbar.title"
+msgid "Measures"
+msgstr "Misure"
 
-#: view~map.measure.toolbar.title.area
-msgctxt "view~map.measure.toolbar.title.area"
-msgid "Area measure"
-msgstr "Misura area"
+#: view~map.measure.toolbar.length
+msgctxt "view~map.measure.toolbar.length"
+msgid "Length"
+msgstr "Lunghezza"
 
-#: view~map.measure.toolbar.title.perimeter
-msgctxt "view~map.measure.toolbar.title.perimeter"
-msgid "Perimeter measure"
-msgstr "Misura perimetro"
+#: view~map.measure.toolbar.area
+msgctxt "view~map.measure.toolbar.area"
+msgid "Area"
+msgstr "Area"
+
+#: view~map.measure.toolbar.perimeter
+msgctxt "view~map.measure.toolbar.perimeter"
+msgid "Perimeter"
+msgstr "Perimetro"
 
 #: view~map.menu.close.hover
 msgctxt "view~map.menu.close.hover"
@@ -209,8 +199,8 @@ msgstr "Zoom con un rettangolo"
 
 #: view~map.navbar.zoomextent.hover
 msgctxt "view~map.navbar.zoomextent.hover"
-msgid "Zoom to map extent"
-msgstr "Zoom all'estensione massima"
+msgid "Zoom to initial map extent"
+msgstr "Zoom all'estensione iniziale"
 
 #: view~map.navbar.zoomin.hover
 msgctxt "view~map.navbar.zoomin.hover"
@@ -346,6 +336,11 @@ msgstr "Caricamento mappa"
 msgctxt "view~map.popup.table.th.data"
 msgid "Field"
 msgstr "Campo"
+
+#: view~map.popup.table.th.band
+msgctxt "view~map.popup.table.th.band"
+msgid "Band"
+msgstr "Banda"
 
 #: view~map.popup.table.th.value
 msgctxt "view~map.popup.table.th.value"
@@ -514,10 +509,25 @@ msgid ""
 "its data."
 msgstr "Scegli uno dei layer qui di seguito e clicca sul pulsante tabella per mostrare i suoi dati."
 
+#: view~map.attributeLayers.options.title
+msgctxt "view~map.attributeLayers.options.title"
+msgid "Options"
+msgstr "Opzioni"
+
 #: view~map.attributeLayers.options.input.cascade.label
 msgctxt "view~map.attributeLayers.options.input.cascade.label"
 msgid "Cascade filter to children"
 msgstr "Propaga il filtro alla tabella figlio"
+
+#: view~map.switcher.layers.expand.title
+msgctxt "view~map.switcher.layers.expand.title"
+msgid "Expand all"
+msgstr "Espandi tutto"
+
+#: view~map.switcher.layers.collapse.title
+msgctxt "view~map.switcher.layers.collapse.title"
+msgid "Collapse all"
+msgstr "Riduci tutto"
 
 #: view~map.switcher.layer.metadata.title
 msgctxt "view~map.switcher.layer.metadata.title"
@@ -613,6 +623,11 @@ msgstr "Registrati"
 msgctxt "view~user.already.logged"
 msgid "You are already a authenticated user."
 msgstr "Sei un utente già autenticato."
+
+#: view~user.title
+msgctxt "view~user.title"
+msgid "Registration"
+msgstr "Registrazione"
 
 #: view~user.form.button.back.label
 msgctxt "view~user.form.button.back.label"
@@ -1120,6 +1135,11 @@ msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
 msgstr "Minimizza"
 
+#: view~dictionnary.attributeLayers.toolbar.btn.detail
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
+msgid "Detail"
+msgstr "Dettaglio"
+
 #: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
 msgid "Get data"
@@ -1306,4 +1326,4 @@ msgstr "Sei sicuro di voler eliminare questo segnalibro?"
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
 msgid "No object has been found at this location."
-msgstr ""
+msgstr "Non c'è nessuna geometria qui."
