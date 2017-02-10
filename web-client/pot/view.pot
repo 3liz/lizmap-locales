@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client view 3.1beta3\n"
 "Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2017-01-25 13:03++0100\n"
+"POT-Creation-Date: 2017-02-10 10:55++0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -618,11 +618,6 @@ msgstr ""
 #: view~map.switcher.layer.export.title
 msgctxt "view~map.switcher.layer.export.title"
 msgid "Export"
-msgstr ""
-
-#: view~map.switcher.layer.opacity.title
-msgctxt "view~map.switcher.layer.opacity.title"
-msgid "Opacity"
 msgstr ""
 
 #: view~map.switcher.layer.unfilter.title
@@ -1280,6 +1275,21 @@ msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
 msgid "Show"
 msgstr ""
 
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
+msgid "Refresh"
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
+msgid "Refresh the table data."
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
+msgid "The map extent has changed since the last time data were fetched."
+msgstr ""
+
 #: view~dictionnary.attributeLayers.toolbar.msg.data.lines
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
 msgid "lines returned"
@@ -1333,6 +1343,11 @@ msgstr ""
 #: view~dictionnary.attributeLayers.btn.center.title
 msgctxt "view~dictionnary.attributeLayers.btn.center.title"
 msgid "Center"
+msgstr ""
+
+#: view~dictionnary.attributeLayers.msg.layer.not.visible
+msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
+msgid "The layer is not visible. Please zoom at a scale in which the features are visible."
 msgstr ""
 
 #: view~dictionnary.selectiontool.results.none
