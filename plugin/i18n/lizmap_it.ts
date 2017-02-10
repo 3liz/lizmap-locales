@@ -978,7 +978,7 @@ Only the selected feature will be visible on the map.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2144"/>
-        <source>The attribute table will only show the data for the map extent, and only if the layer if visible at current map scale. Usefull for big datasets.</source>
+        <source>The attribute table will only show the data for the map extent, and only if the layer if visible at current map scale. Useful for big datasets.</source>
         <translation>La tabella degli attributi mostrerà solo i dati relativi all&apos;estensione della mappa, e solo se il layer è visibile alla scala attuale. Utile per dati molto numerosi.</translation>
     </message>
     <message>

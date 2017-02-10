@@ -979,7 +979,7 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2144"/>
-        <source>The attribute table will only show the data for the map extent, and only if the layer if visible at current map scale. Usefull for big datasets.</source>
+        <source>The attribute table will only show the data for the map extent, and only if the layer if visible at current map scale. Useful for big datasets.</source>
         <translation>La table attributaire montrera seulement les données visibles dans l&apos;emprise de la carte, et seulement si la couche est visible à l&apos;échelle courante. Utile pour les données volumineuses.</translation>
     </message>
     <message>
