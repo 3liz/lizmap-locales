@@ -1,6 +1,6 @@
 # 
 # Translators:
-# João Gaspar <joao.f.r.gaspar@gmail.com>, 2016
+# João Gaspar <joao.f.r.gaspar@gmail.com>, 2016-2017
 # Ze Macau <jose.macau@gmail.com>, 2017
 # rldhont <rldhont@gmail.com>, 2016
 # Ze Macau <jose.macau@gmail.com>, 2017
@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-25 13:03++0100\n"
-"PO-Revision-Date: 2017-02-05 15:42+0000\n"
-"Last-Translator: Ze Macau <jose.macau@gmail.com>\n"
+"POT-Creation-Date: 2017-02-10 10:55++0100\n"
+"PO-Revision-Date: 2017-02-10 13:37+0000\n"
+"Last-Translator: João Gaspar <joao.f.r.gaspar@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -237,6 +237,16 @@ msgstr "Criar um repositório"
 msgctxt "admin~admin.form.admin_services.h1"
 msgid "Modify Lizmap generic configuration"
 msgstr "Modificar a configuração genérica do Lizmap"
+
+#: admin~admin.form.admin_services.on.label
+msgctxt "admin~admin.form.admin_services.on.label"
+msgid "On"
+msgstr "Ligado"
+
+#: admin~admin.form.admin_services.off.label
+msgctxt "admin~admin.form.admin_services.off.label"
+msgid "Off"
+msgstr "Desligado"
 
 #: admin~admin.form.admin_services.appName.label
 msgctxt "admin~admin.form.admin_services.appName.label"
@@ -565,7 +575,7 @@ msgstr "Cabeçalho - logotipo"
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
 msgid "The image to be used for the header logo (200ko Maximum)."
-msgstr "A imagem a ser utilizada para o logotipo do cabeçalho (máximo 200kb )."
+msgstr "A imagem a ser utilizada para o logotipo do cabeçalho (máximo 200kb)."
 
 #: admin~admin.form.admin_theme.headerLogoWidth.label
 msgctxt "admin~admin.form.admin_theme.headerLogoWidth.label"

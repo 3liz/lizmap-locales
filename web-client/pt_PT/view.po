@@ -1,6 +1,6 @@
 # 
 # Translators:
-# João Gaspar <joao.f.r.gaspar@gmail.com>, 2016
+# João Gaspar <joao.f.r.gaspar@gmail.com>, 2016-2017
 # Ze Macau <jose.macau@gmail.com>, 2016-2017
 # rldhont <rldhont@gmail.com>, 2016-2017
 # rldhont <rldhont@gmail.com>, 2016
@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-25 13:03++0100\n"
-"PO-Revision-Date: 2017-02-03 17:09+0000\n"
-"Last-Translator: Ze Macau <jose.macau@gmail.com>\n"
+"POT-Creation-Date: 2017-02-10 10:55++0100\n"
+"PO-Revision-Date: 2017-02-10 13:39+0000\n"
+"Last-Translator: João Gaspar <joao.f.r.gaspar@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -630,11 +630,6 @@ msgstr "Mudar estilo da camada"
 msgctxt "view~map.switcher.layer.export.title"
 msgid "Export"
 msgstr "Exportar"
-
-#: view~map.switcher.layer.opacity.title
-msgctxt "view~map.switcher.layer.opacity.title"
-msgid "Opacity"
-msgstr "Opacidade"
 
 #: view~map.switcher.layer.unfilter.title
 msgctxt "view~map.switcher.layer.unfilter.title"
@@ -1311,6 +1306,22 @@ msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
 msgid "Show"
 msgstr "Mostrar"
 
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
+msgid "Refresh the table data."
+msgstr "Actualizar dados da tabela"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
+msgid "The map extent has changed since the last time data were fetched."
+msgstr "A extensão do mapa foi alterada desde a última vez que foi obtida."
+
 #: view~dictionnary.attributeLayers.toolbar.msg.data.lines
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
 msgid "lines returned"
@@ -1365,6 +1376,13 @@ msgstr "Zoom"
 msgctxt "view~dictionnary.attributeLayers.btn.center.title"
 msgid "Center"
 msgstr "Centrar"
+
+#: view~dictionnary.attributeLayers.msg.layer.not.visible
+msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
+msgid ""
+"The layer is not visible. Please zoom at a scale in which the features are "
+"visible."
+msgstr "A camada não está visível. Faça zoom à escala que permite visualizar os elementos."
 
 #: view~dictionnary.selectiontool.results.none
 msgctxt "view~dictionnary.selectiontool.results.none"
