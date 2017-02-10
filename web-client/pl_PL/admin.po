@@ -1,14 +1,14 @@
 # 
 # Translators:
 # rldhont <rldhont@gmail.com>, 2016
-# Sławomir Bienias <slawomir.bienias@gmail.com>, 2016
+# Sławomir Bienias <slawomir.bienias@gmail.com>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-09 14:50++0100\n"
-"PO-Revision-Date: 2016-05-27 10:18+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
+"POT-Creation-Date: 2017-01-25 13:03++0100\n"
+"PO-Revision-Date: 2017-01-25 14:10+0000\n"
+"Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -539,6 +539,116 @@ msgstr "Podana ścieżka dla tego repozytorium nie istnieje na serwerze."
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
 msgid "The path given for the repository is not authorized."
 msgstr "Podana ścieżka dla tego repozytorium nie jest dostępna."
+
+#: admin~admin.menu.lizmap.theme.label
+msgctxt "admin~admin.menu.lizmap.theme.label"
+msgid "Theme"
+msgstr "Motyw"
+
+#: admin~admin.configuration.button.modify.theme.label
+msgctxt "admin~admin.configuration.button.modify.theme.label"
+msgid "Modify"
+msgstr "Modyfikuj"
+
+#: admin~admin.form.admin_theme.h1
+msgctxt "admin~admin.form.admin_theme.h1"
+msgid "Theme"
+msgstr "Motyw"
+
+#: admin~admin.form.admin_theme.headerLogo.label
+msgctxt "admin~admin.form.admin_theme.headerLogo.label"
+msgid "Header - logo"
+msgstr "Nagłówek - logo"
+
+#: admin~admin.form.admin_theme.headerLogo.help
+msgctxt "admin~admin.form.admin_theme.headerLogo.help"
+msgid "The image to be used for the header logo (200ko Maximum)."
+msgstr "Obrazek, który ma być użyty jako logo (maksymalnie 200ko)."
+
+#: admin~admin.form.admin_theme.headerLogoWidth.label
+msgctxt "admin~admin.form.admin_theme.headerLogoWidth.label"
+msgid "Header - logo width"
+msgstr "Nagłówek - szerokość logo"
+
+#: admin~admin.form.admin_theme.headerLogoWidth.help
+msgctxt "admin~admin.form.admin_theme.headerLogoWidth.help"
+msgid "The width taken by the logo before the title (in pixels)."
+msgstr "Szerokość zabrana przez logo przed tytułem (w pikselach)."
+
+#: admin~admin.form.admin_theme.headerBackgroundColor.label
+msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.label"
+msgid "Header - background color"
+msgstr "Nagłówek - kolor tła"
+
+#: admin~admin.form.admin_theme.headerBackgroundColor.help
+msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.help"
+msgid "The color of the header background."
+msgstr "Kolor tła nagłówka."
+
+#: admin~admin.form.admin_theme.headerTitleColor.label
+msgctxt "admin~admin.form.admin_theme.headerTitleColor.label"
+msgid "Header - title color"
+msgstr "Nagłówek - kolor tytułu"
+
+#: admin~admin.form.admin_theme.headerTitleColor.help
+msgctxt "admin~admin.form.admin_theme.headerTitleColor.help"
+msgid "The color of the header title text."
+msgstr "Kolor tekstu nagłówka."
+
+#: admin~admin.form.admin_theme.headerSubtitleColor.label
+msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.label"
+msgid "Header - subtitle color"
+msgstr "Nagłówek - kolor podtytułu"
+
+#: admin~admin.form.admin_theme.headerSubtitleColor.help
+msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.help"
+msgid "The color of the header subtitle text."
+msgstr "Kolor tekstu podtytułu."
+
+#: admin~admin.form.admin_theme.menuBackgroundColor.label
+msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.label"
+msgid "Menu bar - background color"
+msgstr "Pasek menu - kolor tła"
+
+#: admin~admin.form.admin_theme.menuBackgroundColor.help
+msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.help"
+msgid "The color of the menu left bar background."
+msgstr "Kolor tła lewego menu."
+
+#: admin~admin.form.admin_theme.dockBackgroundColor.label
+msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.label"
+msgid "Docks - background color"
+msgstr "Okna dokowane - kolor tła"
+
+#: admin~admin.form.admin_theme.dockBackgroundColor.help
+msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.help"
+msgid "The color of the docks background."
+msgstr "Kolor tła okien dokowanych."
+
+#: admin~admin.form.admin_theme.navbarColor.label
+msgctxt "admin~admin.form.admin_theme.navbarColor.label"
+msgid "Navigation bar - background color"
+msgstr "Pasek nawigacji - kolor tła"
+
+#: admin~admin.form.admin_theme.navbarColor.help
+msgctxt "admin~admin.form.admin_theme.navbarColor.help"
+msgid "The background color of the navigation bar (zoom tools)."
+msgstr "Kolor tła paska nawigacji (narzędzi skali)."
+
+#: admin~admin.theme.detail.title
+msgctxt "admin~admin.theme.detail.title"
+msgid "Theme configuration"
+msgstr "Konfiguracja motywu"
+
+#: admin~admin.theme.button.remove.logo.label
+msgctxt "admin~admin.theme.button.remove.logo.label"
+msgid "Remove"
+msgstr "Usuń"
+
+#: admin~admin.theme.button.remove.logo.confirm.label
+msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
+msgid "Remove this logo (and use default one) ?"
+msgstr "Usunąć obecne logo (i użyć domyślnego)?"
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"

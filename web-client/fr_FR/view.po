@@ -1,14 +1,14 @@
 # 
 # Translators:
 # Michael Douchin <kimaidou@gmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2016-2017
 # rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-09 14:50++0100\n"
-"PO-Revision-Date: 2016-11-09 14:09+0000\n"
+"POT-Creation-Date: 2017-01-25 13:03++0100\n"
+"PO-Revision-Date: 2017-01-25 13:50+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -54,8 +54,8 @@ msgstr "Légende/Carte"
 
 #: view~map.search.nominatim.placeholder
 msgctxt "view~map.search.nominatim.placeholder"
-msgid "Street, City"
-msgstr "Rue, Ville"
+msgid "Search"
+msgstr "Rechercher"
 
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"
@@ -80,27 +80,17 @@ msgstr "Géolocalisation"
 #: view~map.measure.navbar.title
 msgctxt "view~map.measure.navbar.title"
 msgid "Measure"
-msgstr "Mesure"
-
-#: view~map.measure.navbar.title.length
-msgctxt "view~map.measure.navbar.title.length"
-msgid "Length"
-msgstr "Longueur"
-
-#: view~map.measure.navbar.title.area
-msgctxt "view~map.measure.navbar.title.area"
-msgid "Area"
-msgstr "Aire"
-
-#: view~map.measure.navbar.title.perimeter
-msgctxt "view~map.measure.navbar.title.perimeter"
-msgid "Perimeter"
-msgstr "Périmètre"
+msgstr "Mesurer"
 
 #: view~map.permalink.navbar.title
 msgctxt "view~map.permalink.navbar.title"
 msgid "Permalink"
 msgstr "Permalien"
+
+#: view~map.selectiontool.navbar.title
+msgctxt "view~map.selectiontool.navbar.title"
+msgid "Selection"
+msgstr "Sélection"
 
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
@@ -121,6 +111,21 @@ msgstr "Imprimer"
 msgctxt "view~map.print.toolbar.scale"
 msgid "Scale"
 msgstr "Échelle"
+
+#: view~map.print.toolbar.dpi
+msgctxt "view~map.print.toolbar.dpi"
+msgid "DPI"
+msgstr "DPI"
+
+#: view~map.print.toolbar.format
+msgctxt "view~map.print.toolbar.format"
+msgid "Format"
+msgstr "Format"
+
+#: view~map.print.toolbar.template
+msgctxt "view~map.print.toolbar.template"
+msgid "Template"
+msgstr "Modèle"
 
 #: view~map.tooltip.toolbar.title
 msgctxt "view~map.tooltip.toolbar.title"
@@ -147,20 +152,85 @@ msgctxt "view~map.geolocate.toolbar.bind"
 msgid "Stay centered"
 msgstr "Rester centré"
 
-#: view~map.measure.toolbar.title.length
-msgctxt "view~map.measure.toolbar.title.length"
-msgid "Length measure"
-msgstr "Mesure de longueur"
+#: view~map.measure.toolbar.title
+msgctxt "view~map.measure.toolbar.title"
+msgid "Measures"
+msgstr "Mesures"
 
-#: view~map.measure.toolbar.title.area
-msgctxt "view~map.measure.toolbar.title.area"
-msgid "Area measure"
-msgstr "Mesure d'aire"
+#: view~map.measure.toolbar.length
+msgctxt "view~map.measure.toolbar.length"
+msgid "Length"
+msgstr "Longueur"
 
-#: view~map.measure.toolbar.title.perimeter
-msgctxt "view~map.measure.toolbar.title.perimeter"
-msgid "Perimeter measure"
-msgstr "Mesure de périmètre"
+#: view~map.measure.toolbar.area
+msgctxt "view~map.measure.toolbar.area"
+msgid "Area"
+msgstr "Aire"
+
+#: view~map.measure.toolbar.perimeter
+msgctxt "view~map.measure.toolbar.perimeter"
+msgid "Perimeter"
+msgstr "Périmètre"
+
+#: view~map.selectiontool.toolbar.title
+msgctxt "view~map.selectiontool.toolbar.title"
+msgid "Selection"
+msgstr "Sélection"
+
+#: view~map.selectiontool.toolbar.layer
+msgctxt "view~map.selectiontool.toolbar.layer"
+msgid "Selection layer"
+msgstr "Couche de sélection"
+
+#: view~map.selectiontool.toolbar.query.deactivate
+msgctxt "view~map.selectiontool.toolbar.query.deactivate"
+msgid "Deactivate"
+msgstr "Désactivé"
+
+#: view~map.selectiontool.toolbar.query.box
+msgctxt "view~map.selectiontool.toolbar.query.box"
+msgid "Box"
+msgstr "Carré"
+
+#: view~map.selectiontool.toolbar.query.circle
+msgctxt "view~map.selectiontool.toolbar.query.circle"
+msgid "Circle"
+msgstr "Cercle"
+
+#: view~map.selectiontool.toolbar.query.polygon
+msgctxt "view~map.selectiontool.toolbar.query.polygon"
+msgid "Polygon"
+msgstr "Polygone"
+
+#: view~map.selectiontool.toolbar.query.freehand
+msgctxt "view~map.selectiontool.toolbar.query.freehand"
+msgid "Free hand"
+msgstr "Main levé"
+
+#: view~map.selectiontool.toolbar.action.type.refresh
+msgctxt "view~map.selectiontool.toolbar.action.type.refresh"
+msgid "New selection"
+msgstr "Nouvelle sélection"
+
+#: view~map.selectiontool.toolbar.action.type.plus
+msgctxt "view~map.selectiontool.toolbar.action.type.plus"
+msgid "Add to selection"
+msgstr "Ajouter à la sélection"
+
+#: view~map.selectiontool.toolbar.action.type.minus
+msgctxt "view~map.selectiontool.toolbar.action.type.minus"
+msgid "Remove from selection"
+msgstr "Supprimer de la sélection"
+
+#: view~map.selectiontool.toolbar.action.unselect
+msgctxt "view~map.selectiontool.toolbar.action.unselect"
+msgid "Unselect all"
+msgstr "Tout désélectionner"
+
+#: view~map.selectiontool.toolbar.action.filter
+msgctxt "view~map.selectiontool.toolbar.action.filter"
+msgid "Filter"
+msgstr "Filtrer"
 
 #: view~map.menu.close.hover
 msgctxt "view~map.menu.close.hover"
@@ -209,8 +279,8 @@ msgstr "Zoomer par rectangle"
 
 #: view~map.navbar.zoomextent.hover
 msgctxt "view~map.navbar.zoomextent.hover"
-msgid "Zoom to map extent"
-msgstr "Zoomer sur l'étendue globale"
+msgid "Zoom to initial map extent"
+msgstr "Zoomer sur l'étendue initiale"
 
 #: view~map.navbar.zoomin.hover
 msgctxt "view~map.navbar.zoomin.hover"
@@ -346,6 +416,11 @@ msgstr "Chargement des données"
 msgctxt "view~map.popup.table.th.data"
 msgid "Field"
 msgstr "Champ"
+
+#: view~map.popup.table.th.band
+msgctxt "view~map.popup.table.th.band"
+msgid "Band"
+msgstr "Bande"
 
 #: view~map.popup.table.th.value
 msgctxt "view~map.popup.table.th.value"
@@ -514,10 +589,25 @@ msgid ""
 "its data."
 msgstr "Choisissez une des données suivantes et cliquez sur le bouton \"Données\" pour afficher les données."
 
+#: view~map.attributeLayers.options.title
+msgctxt "view~map.attributeLayers.options.title"
+msgid "Options"
+msgstr "Options"
+
 #: view~map.attributeLayers.options.input.cascade.label
 msgctxt "view~map.attributeLayers.options.input.cascade.label"
 msgid "Cascade filter to children"
 msgstr "Filtrer les couches filles en cascade"
+
+#: view~map.switcher.layers.expand.title
+msgctxt "view~map.switcher.layers.expand.title"
+msgid "Expand all"
+msgstr "Tout déployer"
+
+#: view~map.switcher.layers.collapse.title
+msgctxt "view~map.switcher.layers.collapse.title"
+msgid "Collapse all"
+msgstr "Tout réduire"
 
 #: view~map.switcher.layer.metadata.title
 msgctxt "view~map.switcher.layer.metadata.title"
@@ -538,6 +628,11 @@ msgstr "Changer le style de la couche"
 msgctxt "view~map.switcher.layer.export.title"
 msgid "Export"
 msgstr "Exporter"
+
+#: view~map.switcher.layer.opacity.title
+msgctxt "view~map.switcher.layer.opacity.title"
+msgid "Opacity"
+msgstr "Opacité"
 
 #: view~map.switcher.layer.unfilter.title
 msgctxt "view~map.switcher.layer.unfilter.title"
@@ -613,6 +708,11 @@ msgstr "Inscription"
 msgctxt "view~user.already.logged"
 msgid "You are already a authenticated user."
 msgstr "Vous êtes déjà authentifié."
+
+#: view~user.title
+msgctxt "view~user.title"
+msgid "Registration"
+msgstr "Inscription"
 
 #: view~user.form.button.back.label
 msgctxt "view~user.form.button.back.label"
@@ -1080,6 +1180,11 @@ msgctxt "view~dictionnary.externalsearch.notfound"
 msgid "No results"
 msgstr "Aucuns résultats"
 
+#: view~dictionnary.externalsearch.mapdata
+msgctxt "view~dictionnary.externalsearch.mapdata"
+msgid "Map data"
+msgstr "Données de la carte"
+
 #: view~dictionnary.timemanager.toolbar.play
 msgctxt "view~dictionnary.timemanager.toolbar.play"
 msgid "Play"
@@ -1093,7 +1198,7 @@ msgstr "Pause"
 #: view~dictionnary.baselayer.empty.title
 msgctxt "view~dictionnary.baselayer.empty.title"
 msgid "No base map"
-msgstr "Pas de fond carte"
+msgstr "Pas de fond de carte"
 
 #: view~dictionnary.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.activate.title"
@@ -1119,6 +1224,11 @@ msgstr "Agrandir"
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
 msgstr "Réduire"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.detail
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
+msgid "Detail"
+msgstr "Détail"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
@@ -1172,6 +1282,12 @@ msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
 msgid "Create a child"
 msgstr "Créer un fils"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived"
+msgid "Activated line needed!"
+msgstr "Une ligne activée est nécessaire!"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
@@ -1248,6 +1364,21 @@ msgctxt "view~dictionnary.attributeLayers.btn.center.title"
 msgid "Center"
 msgstr "Centrer"
 
+#: view~dictionnary.selectiontool.results.none
+msgctxt "view~dictionnary.selectiontool.results.none"
+msgid "No object selected"
+msgstr "Aucun objet sélectionné"
+
+#: view~dictionnary.selectiontool.results.one
+msgctxt "view~dictionnary.selectiontool.results.one"
+msgid "1 selected object"
+msgstr "1 objet sélectionné"
+
+#: view~dictionnary.selectiontool.results.more
+msgctxt "view~dictionnary.selectiontool.results.more"
+msgid "%s selected objects"
+msgstr "%s objets sélectionnés"
+
 #: view~dictionnary.layer.metadata.title
 msgctxt "view~dictionnary.layer.metadata.title"
 msgid "Information"
@@ -1288,6 +1419,26 @@ msgctxt "view~dictionnary.layer.metadata.layer.info.see"
 msgid "Documentation"
 msgstr "Documentation"
 
+#: view~dictionnary.layer.metadata.zoomToExtent.title
+msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
+msgid "Zoom to layer extent"
+msgstr "Zoomer sur la couche"
+
+#: view~dictionnary.layer.metadata.style.title
+msgctxt "view~dictionnary.layer.metadata.style.title"
+msgid "Change layer style"
+msgstr "Changer le style de la couche"
+
+#: view~dictionnary.layer.metadata.export.title
+msgctxt "view~dictionnary.layer.metadata.export.title"
+msgid "Export"
+msgstr "Exporter"
+
+#: view~dictionnary.layer.metadata.opacity.title
+msgctxt "view~dictionnary.layer.metadata.opacity.title"
+msgid "Opacity"
+msgstr "Opacité"
+
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
@@ -1307,3 +1458,8 @@ msgstr "Êtes-vous sûr de vouloir supprimer ce géosignet ?"
 msgctxt "view~dictionnary.popup.msg.no.result"
 msgid "No object has been found at this location."
 msgstr "Aucun objet n'a été identifié à cet endroit."
+
+#: view~dictionnary.generic.btn.close.title
+msgctxt "view~dictionnary.generic.btn.close.title"
+msgid "Close"
+msgstr "Fermer"

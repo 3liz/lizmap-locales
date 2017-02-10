@@ -1,14 +1,16 @@
 # 
 # Translators:
 # João Gaspar <joao.f.r.gaspar@gmail.com>, 2016
+# Ze Macau <jose.macau@gmail.com>, 2017
 # rldhont <rldhont@gmail.com>, 2016
+# Ze Macau <jose.macau@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-09 14:50++0100\n"
-"PO-Revision-Date: 2016-05-27 10:20+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
+"POT-Creation-Date: 2017-01-25 13:03++0100\n"
+"PO-Revision-Date: 2017-02-05 15:42+0000\n"
+"Last-Translator: Ze Macau <jose.macau@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +26,7 @@ msgstr "Comentários"
 #: admin~jacl2.lizmap.admin.grp
 msgctxt "admin~jacl2.lizmap.admin.grp"
 msgid "Lizmap Administration Management"
-msgstr "Gestão de Administração do Lizmap"
+msgstr "Gestão da Administração do Lizmap"
 
 #: admin~jacl2.lizmap.grp
 msgctxt "admin~jacl2.lizmap.grp"
@@ -74,12 +76,12 @@ msgstr "Ver repositórios"
 #: admin~jacl2.lizmap.tools.edition.use
 msgctxt "admin~jacl2.lizmap.tools.edition.use"
 msgid "Use the Edition tool"
-msgstr "Utilizar a ferramenta de edição"
+msgstr "Utilizar a ferramenta de Edição"
 
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "Always see complete layers data, even if filtered by login"
-msgstr "Ver sempre os dados completos das camadas, mesmo que filtrados por utilizador"
+msgstr "Ver sempre os dados completos das camadas, mesmo que filtrados por login"
 
 #: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
 msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
@@ -264,7 +266,7 @@ msgstr "Tipo de armazenamento de cache do servidor"
 #: admin~admin.form.admin_services.cacheStorageType.sqlite.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.sqlite.label"
 msgid "Sqlite database"
-msgstr "Base de dados Sqlite"
+msgstr "Base de dados SQLite"
 
 #: admin~admin.form.admin_services.cacheStorageType.file.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.file.label"
@@ -472,7 +474,7 @@ msgstr "Etiqueta"
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
 msgid "Local folder path"
-msgstr "Percurso da pasta local"
+msgstr "Caminho da pasta local"
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
 msgctxt ""
@@ -508,7 +510,7 @@ msgstr "Os dados do repositório foram guardados."
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
 msgid "You can now configure the rights for this repository."
-msgstr "Agora você pode configurar os direitos para este repositório."
+msgstr "Agora pode configurar as permissões para este repositório."
 
 #: admin~admin.form.admin_section.message.data.removed
 msgctxt "admin~admin.form.admin_section.message.data.removed"
@@ -533,12 +535,122 @@ msgstr "O ID do repositório facultado não existe."
 #: admin~admin.form.admin_section.message.path.wrong
 msgctxt "admin~admin.form.admin_section.message.path.wrong"
 msgid "The path given for the repository does not exists on the server."
-msgstr "O caminho facultado para o repositório não existe no servidor."
+msgstr "O caminho fornecido para o repositório não existe no servidor."
 
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
 msgid "The path given for the repository is not authorized."
 msgstr "O caminho dado para o repositório não está autorizado."
+
+#: admin~admin.menu.lizmap.theme.label
+msgctxt "admin~admin.menu.lizmap.theme.label"
+msgid "Theme"
+msgstr "Tema"
+
+#: admin~admin.configuration.button.modify.theme.label
+msgctxt "admin~admin.configuration.button.modify.theme.label"
+msgid "Modify"
+msgstr "Modificar"
+
+#: admin~admin.form.admin_theme.h1
+msgctxt "admin~admin.form.admin_theme.h1"
+msgid "Theme"
+msgstr "Tema"
+
+#: admin~admin.form.admin_theme.headerLogo.label
+msgctxt "admin~admin.form.admin_theme.headerLogo.label"
+msgid "Header - logo"
+msgstr "Cabeçalho - logotipo"
+
+#: admin~admin.form.admin_theme.headerLogo.help
+msgctxt "admin~admin.form.admin_theme.headerLogo.help"
+msgid "The image to be used for the header logo (200ko Maximum)."
+msgstr "A imagem a ser utilizada para o logotipo do cabeçalho (máximo 200kb )."
+
+#: admin~admin.form.admin_theme.headerLogoWidth.label
+msgctxt "admin~admin.form.admin_theme.headerLogoWidth.label"
+msgid "Header - logo width"
+msgstr "Cabeçalho - largura do logotipo"
+
+#: admin~admin.form.admin_theme.headerLogoWidth.help
+msgctxt "admin~admin.form.admin_theme.headerLogoWidth.help"
+msgid "The width taken by the logo before the title (in pixels)."
+msgstr "A largura ocupada pelo logotipo antes do título (em píxeis)."
+
+#: admin~admin.form.admin_theme.headerBackgroundColor.label
+msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.label"
+msgid "Header - background color"
+msgstr "Cabeçalho - cor de fundo"
+
+#: admin~admin.form.admin_theme.headerBackgroundColor.help
+msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.help"
+msgid "The color of the header background."
+msgstr "A cor de fundo do cabeçalho."
+
+#: admin~admin.form.admin_theme.headerTitleColor.label
+msgctxt "admin~admin.form.admin_theme.headerTitleColor.label"
+msgid "Header - title color"
+msgstr "Cabeçalho - cor do título"
+
+#: admin~admin.form.admin_theme.headerTitleColor.help
+msgctxt "admin~admin.form.admin_theme.headerTitleColor.help"
+msgid "The color of the header title text."
+msgstr "A cor do título do cabeçalho."
+
+#: admin~admin.form.admin_theme.headerSubtitleColor.label
+msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.label"
+msgid "Header - subtitle color"
+msgstr "Cabeçalho - cor do subtítulo"
+
+#: admin~admin.form.admin_theme.headerSubtitleColor.help
+msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.help"
+msgid "The color of the header subtitle text."
+msgstr "A cor do subtítulo do cabeçalho."
+
+#: admin~admin.form.admin_theme.menuBackgroundColor.label
+msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.label"
+msgid "Menu bar - background color"
+msgstr "Barra de menu - cor de fundo"
+
+#: admin~admin.form.admin_theme.menuBackgroundColor.help
+msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.help"
+msgid "The color of the menu left bar background."
+msgstr "A cor do fundo da barra de menu esquerda."
+
+#: admin~admin.form.admin_theme.dockBackgroundColor.label
+msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.label"
+msgid "Docks - background color"
+msgstr "Painéis - cor de fundo"
+
+#: admin~admin.form.admin_theme.dockBackgroundColor.help
+msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.help"
+msgid "The color of the docks background."
+msgstr "A cor do fundo dos painéis."
+
+#: admin~admin.form.admin_theme.navbarColor.label
+msgctxt "admin~admin.form.admin_theme.navbarColor.label"
+msgid "Navigation bar - background color"
+msgstr "Barra de navegação - cor de fundo"
+
+#: admin~admin.form.admin_theme.navbarColor.help
+msgctxt "admin~admin.form.admin_theme.navbarColor.help"
+msgid "The background color of the navigation bar (zoom tools)."
+msgstr "A cor de fundo da barra de navegação (ferramentas de zoom)."
+
+#: admin~admin.theme.detail.title
+msgctxt "admin~admin.theme.detail.title"
+msgid "Theme configuration"
+msgstr "Configuração do tema"
+
+#: admin~admin.theme.button.remove.logo.label
+msgctxt "admin~admin.theme.button.remove.logo.label"
+msgid "Remove"
+msgstr "Eliminar"
+
+#: admin~admin.theme.button.remove.logo.confirm.label
+msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
+msgid "Remove this logo (and use default one) ?"
+msgstr "Eliminar este logotipo (e utilizar o padrão)?"
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
