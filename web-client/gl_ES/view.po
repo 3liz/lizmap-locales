@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-25 13:03++0100\n"
-"PO-Revision-Date: 2017-01-26 22:11+0000\n"
+"POT-Creation-Date: 2017-02-10 10:55++0100\n"
+"PO-Revision-Date: 2017-02-11 06:08+0000\n"
 "Last-Translator: xanvieiro <gallaecia6@gmail.com>\n"
 "Language-Team: Galician (http://www.transifex.com/3liz-1/lizmap-locales/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -629,11 +629,6 @@ msgstr "Cambiar estilo da capa"
 msgctxt "view~map.switcher.layer.export.title"
 msgid "Export"
 msgstr "Exportar"
-
-#: view~map.switcher.layer.opacity.title
-msgctxt "view~map.switcher.layer.opacity.title"
-msgid "Opacity"
-msgstr "Opacidade"
 
 #: view~map.switcher.layer.unfilter.title
 msgctxt "view~map.switcher.layer.unfilter.title"
@@ -1310,6 +1305,22 @@ msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
 msgid "Show"
 msgstr "Amosar"
 
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
+msgid "Refresh"
+msgstr "Recargar"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
+msgid "Refresh the table data."
+msgstr "Recargar os datos da táboa."
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
+msgid "The map extent has changed since the last time data were fetched."
+msgstr "Cambiou a extensión do mapa dende a última vez que se actualizaron os datos."
+
 #: view~dictionnary.attributeLayers.toolbar.msg.data.lines
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
 msgid "lines returned"
@@ -1364,6 +1375,13 @@ msgstr "Achegar"
 msgctxt "view~dictionnary.attributeLayers.btn.center.title"
 msgid "Center"
 msgstr "Centrar"
+
+#: view~dictionnary.attributeLayers.msg.layer.not.visible
+msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
+msgid ""
+"The layer is not visible. Please zoom at a scale in which the features are "
+"visible."
+msgstr "A capa non é visible. Faga zoom ata a escala na que as entidades sexan visibles."
 
 #: view~dictionnary.selectiontool.results.none
 msgctxt "view~dictionnary.selectiontool.results.none"

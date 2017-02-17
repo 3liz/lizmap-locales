@@ -1,13 +1,13 @@
 # 
 # Translators:
 # rldhont <rldhont@gmail.com>, 2016
-# Víctor Herreros <vherreros@ucm.es>, 2016
+# Víctor Herreros <vherreros@ucm.es>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-27 12:15++0200\n"
-"PO-Revision-Date: 2016-05-31 14:39+0000\n"
+"POT-Creation-Date: 2017-02-10 10:55++0100\n"
+"PO-Revision-Date: 2017-02-14 09:39+0000\n"
 "Last-Translator: Víctor Herreros <vherreros@ucm.es>\n"
 "Language-Team: Spanish (http://www.transifex.com/3liz-1/lizmap-locales/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -235,6 +235,16 @@ msgstr "Crear un repositorio"
 msgctxt "admin~admin.form.admin_services.h1"
 msgid "Modify Lizmap generic configuration"
 msgstr "Modificar la configuración genérica de LizMap"
+
+#: admin~admin.form.admin_services.on.label
+msgctxt "admin~admin.form.admin_services.on.label"
+msgid "On"
+msgstr "Activado"
+
+#: admin~admin.form.admin_services.off.label
+msgctxt "admin~admin.form.admin_services.off.label"
+msgid "Off"
+msgstr "Desactivado"
 
 #: admin~admin.form.admin_services.appName.label
 msgctxt "admin~admin.form.admin_services.appName.label"
@@ -539,6 +549,116 @@ msgstr "La ruta proporcionada para el repositorio no existe en el servidor."
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
 msgid "The path given for the repository is not authorized."
 msgstr "La ruta proporcionada para el repositorio no existe en el servidor."
+
+#: admin~admin.menu.lizmap.theme.label
+msgctxt "admin~admin.menu.lizmap.theme.label"
+msgid "Theme"
+msgstr "Tema"
+
+#: admin~admin.configuration.button.modify.theme.label
+msgctxt "admin~admin.configuration.button.modify.theme.label"
+msgid "Modify"
+msgstr "Modificar"
+
+#: admin~admin.form.admin_theme.h1
+msgctxt "admin~admin.form.admin_theme.h1"
+msgid "Theme"
+msgstr "Tema"
+
+#: admin~admin.form.admin_theme.headerLogo.label
+msgctxt "admin~admin.form.admin_theme.headerLogo.label"
+msgid "Header - logo"
+msgstr "Cabecera - logo"
+
+#: admin~admin.form.admin_theme.headerLogo.help
+msgctxt "admin~admin.form.admin_theme.headerLogo.help"
+msgid "The image to be used for the header logo (200ko Maximum)."
+msgstr "Imagen a utilizar para el logo de cabecera (200kb máximo)."
+
+#: admin~admin.form.admin_theme.headerLogoWidth.label
+msgctxt "admin~admin.form.admin_theme.headerLogoWidth.label"
+msgid "Header - logo width"
+msgstr "Cabecera - anchura del logo"
+
+#: admin~admin.form.admin_theme.headerLogoWidth.help
+msgctxt "admin~admin.form.admin_theme.headerLogoWidth.help"
+msgid "The width taken by the logo before the title (in pixels)."
+msgstr "Anchura del logo antes del título (en píxeles)."
+
+#: admin~admin.form.admin_theme.headerBackgroundColor.label
+msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.label"
+msgid "Header - background color"
+msgstr "Cabecera - color de fondo"
+
+#: admin~admin.form.admin_theme.headerBackgroundColor.help
+msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.help"
+msgid "The color of the header background."
+msgstr "Color de fondo de la cabecera."
+
+#: admin~admin.form.admin_theme.headerTitleColor.label
+msgctxt "admin~admin.form.admin_theme.headerTitleColor.label"
+msgid "Header - title color"
+msgstr "Cabecera - color del título"
+
+#: admin~admin.form.admin_theme.headerTitleColor.help
+msgctxt "admin~admin.form.admin_theme.headerTitleColor.help"
+msgid "The color of the header title text."
+msgstr "Color del texto del título de la cabecera."
+
+#: admin~admin.form.admin_theme.headerSubtitleColor.label
+msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.label"
+msgid "Header - subtitle color"
+msgstr "Cabecera - color del subtítulo"
+
+#: admin~admin.form.admin_theme.headerSubtitleColor.help
+msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.help"
+msgid "The color of the header subtitle text."
+msgstr "Color del texto del subtítulo de la cabecera."
+
+#: admin~admin.form.admin_theme.menuBackgroundColor.label
+msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.label"
+msgid "Menu bar - background color"
+msgstr "Barra de menú - color de fondo"
+
+#: admin~admin.form.admin_theme.menuBackgroundColor.help
+msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.help"
+msgid "The color of the menu left bar background."
+msgstr "Color de fondo de la barra de menú izquierda."
+
+#: admin~admin.form.admin_theme.dockBackgroundColor.label
+msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.label"
+msgid "Docks - background color"
+msgstr "Contenedores - color de fondo"
+
+#: admin~admin.form.admin_theme.dockBackgroundColor.help
+msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.help"
+msgid "The color of the docks background."
+msgstr "Color de fondo de los contenedores."
+
+#: admin~admin.form.admin_theme.navbarColor.label
+msgctxt "admin~admin.form.admin_theme.navbarColor.label"
+msgid "Navigation bar - background color"
+msgstr "Barra de navegación - color de fondo"
+
+#: admin~admin.form.admin_theme.navbarColor.help
+msgctxt "admin~admin.form.admin_theme.navbarColor.help"
+msgid "The background color of the navigation bar (zoom tools)."
+msgstr "Color de fondo de la barra de navegación (herramientas de zoom)."
+
+#: admin~admin.theme.detail.title
+msgctxt "admin~admin.theme.detail.title"
+msgid "Theme configuration"
+msgstr "Configuración del tema"
+
+#: admin~admin.theme.button.remove.logo.label
+msgctxt "admin~admin.theme.button.remove.logo.label"
+msgid "Remove"
+msgstr "Eliminar"
+
+#: admin~admin.theme.button.remove.logo.confirm.label
+msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
+msgid "Remove this logo (and use default one) ?"
+msgstr "¿Eliminar este logo (y utilizar el de por defecto)?"
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
