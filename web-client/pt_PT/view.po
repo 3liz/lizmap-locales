@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 10:03++0100\n"
-"PO-Revision-Date: 2017-02-24 09:01+0000\n"
+"POT-Creation-Date: 2017-03-02 17:26++0100\n"
+"PO-Revision-Date: 2017-03-02 16:58+0000\n"
 "Last-Translator: Ze Macau <jose.macau@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -1153,6 +1153,16 @@ msgctxt "view~dictionnary.edition.select.modify.activate"
 msgid "You can modify the feature you have selected, then submit."
 msgstr "Pode modificar o elemento selecionado e enviar."
 
+#: view~dictionnary.edition.datepicker.open
+msgctxt "view~dictionnary.edition.datepicker.open"
+msgid "Open the calendar"
+msgstr "Abrir o calendário"
+
+#: view~dictionnary.edition.datepicker.reset
+msgctxt "view~dictionnary.edition.datepicker.reset"
+msgid "Reset the date"
+msgstr "Apagar a data"
+
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
@@ -1482,7 +1492,7 @@ msgstr "Tem certeza que quer eliminar este marcador?"
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
 msgid "No object has been found at this location."
-msgstr "Não foi encontrado nenhum objeto neste local."
+msgstr "Local sem informação."
 
 #: view~dictionnary.generic.btn.close.title
 msgctxt "view~dictionnary.generic.btn.close.title"
