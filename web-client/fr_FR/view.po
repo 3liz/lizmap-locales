@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-25 13:03++0100\n"
-"PO-Revision-Date: 2017-02-10 13:58+0000\n"
+"POT-Creation-Date: 2017-02-17 10:03++0100\n"
+"PO-Revision-Date: 2017-02-17 09:06+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -367,10 +367,15 @@ msgctxt "view~map.mouseposition.units.dms"
 msgid "D. M. S."
 msgstr "D. M. S."
 
-#: view~map.permalink.title
-msgctxt "view~map.permalink.title"
+#: view~map.permalink.toolbar.title
+msgctxt "view~map.permalink.toolbar.title"
 msgid "Permalink"
 msgstr "Permalien"
+
+#: view~map.permalink.toolbar.link
+msgctxt "view~map.permalink.toolbar.link"
+msgid "Link to current map"
+msgstr "Lien de la carte actuelle"
 
 #: view~map.permalink.geobookmark.title
 msgctxt "view~map.permalink.geobookmark.title"
@@ -628,11 +633,6 @@ msgstr "Changer le style de la couche"
 msgctxt "view~map.switcher.layer.export.title"
 msgid "Export"
 msgstr "Exporter"
-
-#: view~map.switcher.layer.opacity.title
-msgctxt "view~map.switcher.layer.opacity.title"
-msgid "Opacity"
-msgstr "Opacité"
 
 #: view~map.switcher.layer.unfilter.title
 msgctxt "view~map.switcher.layer.unfilter.title"
@@ -1320,7 +1320,8 @@ msgid "Refresh the table data."
 msgstr "Rafraichir la table des données."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
 msgstr "L'étendue de la carte a changé depuis la dernière fois où les données ont été extraites."
 
@@ -1381,7 +1382,9 @@ msgstr "Centrer"
 
 #: view~dictionnary.attributeLayers.msg.layer.not.visible
 msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
-msgid "The layer is not visible. Please zoom at a scale in which the features are visible."
+msgid ""
+"The layer is not visible. Please zoom at a scale in which the features are "
+"visible."
 msgstr "La couche n'est pas visible. Veuillez zoomer à une échelle dans laquelle les entités sont visibles."
 
 #: view~dictionnary.selectiontool.results.none

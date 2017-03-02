@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-10 10:55++0100\n"
-"PO-Revision-Date: 2017-02-11 15:50+0000\n"
+"POT-Creation-Date: 2017-02-17 10:03++0100\n"
+"PO-Revision-Date: 2017-02-23 22:42+0000\n"
 "Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -366,9 +366,14 @@ msgctxt "view~map.mouseposition.units.dms"
 msgid "D. M. S."
 msgstr "St. Min. Sek."
 
-#: view~map.permalink.title
-msgctxt "view~map.permalink.title"
+#: view~map.permalink.toolbar.title
+msgctxt "view~map.permalink.toolbar.title"
 msgid "Permalink"
+msgstr "Permalink"
+
+#: view~map.permalink.toolbar.link
+msgctxt "view~map.permalink.toolbar.link"
+msgid "Link to current map"
 msgstr "Link do widoku mapy"
 
 #: view~map.permalink.geobookmark.title
@@ -479,7 +484,7 @@ msgstr "Układ współrzędnych"
 #: view~map.metadata.properties.extent
 msgctxt "view~map.metadata.properties.extent"
 msgid "Extent"
-msgstr "Zasięŋ"
+msgstr "Zasięg"
 
 #: view~map.metadata.properties.wmsGetCapabilitiesUrl
 msgctxt "view~map.metadata.properties.wmsGetCapabilitiesUrl"

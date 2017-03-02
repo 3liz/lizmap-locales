@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-10 10:55++0100\n"
-"PO-Revision-Date: 2017-02-10 15:27+0000\n"
+"POT-Creation-Date: 2017-02-17 10:03++0100\n"
+"PO-Revision-Date: 2017-02-24 09:01+0000\n"
 "Last-Translator: Ze Macau <jose.macau@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -282,7 +282,7 @@ msgstr "Aproximar por retângulo"
 #: view~map.navbar.zoomextent.hover
 msgctxt "view~map.navbar.zoomextent.hover"
 msgid "Zoom to initial map extent"
-msgstr "Zoom para a extensão inicial do mapa"
+msgstr "Extensão inicial do mapa"
 
 #: view~map.navbar.zoomin.hover
 msgctxt "view~map.navbar.zoomin.hover"
@@ -369,10 +369,15 @@ msgctxt "view~map.mouseposition.units.dms"
 msgid "D. M. S."
 msgstr "G. M. S."
 
-#: view~map.permalink.title
-msgctxt "view~map.permalink.title"
+#: view~map.permalink.toolbar.title
+msgctxt "view~map.permalink.toolbar.title"
 msgid "Permalink"
 msgstr "Endereço"
+
+#: view~map.permalink.toolbar.link
+msgctxt "view~map.permalink.toolbar.link"
+msgid "Link to current map"
+msgstr "Endereço para o mapa atual"
 
 #: view~map.permalink.geobookmark.title
 msgctxt "view~map.permalink.geobookmark.title"
@@ -689,12 +694,12 @@ msgstr "Fechar"
 #: view~default.header.connect
 msgctxt "view~default.header.connect"
 msgid "Connect"
-msgstr "Iniciar sessão"
+msgstr "Ligar"
 
 #: view~default.header.disconnect
 msgctxt "view~default.header.disconnect"
 msgid "Disconnect"
-msgstr "Terminar sessão"
+msgstr "Desligar"
 
 #: view~default.header.createAccount
 msgctxt "view~default.header.createAccount"
@@ -1165,7 +1170,7 @@ msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Não pode gravar objectos sem geometria. Por favor desenhe a geometria."
+msgstr "Não pode gravar objetos sem geometria. Por favor desenhe a geometria."
 
 #: view~dictionnary.externalsearch.search
 msgctxt "view~dictionnary.externalsearch.search"
@@ -1195,7 +1200,7 @@ msgstr "Pausa"
 #: view~dictionnary.baselayer.empty.title
 msgctxt "view~dictionnary.baselayer.empty.title"
 msgid "No base map"
-msgstr "Nenhum Tema Base "
+msgstr "Vazio"
 
 #: view~dictionnary.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.activate.title"
