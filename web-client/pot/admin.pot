@@ -1,9 +1,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client admin 3.1.1\n"
+"Project-Id-Version: Lizmap Web Client admin 3.1.2\n"
 "Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2017-04-18 20:33++0200\n"
+"POT-Creation-Date: 2017-06-14 17:03++0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -130,6 +130,11 @@ msgctxt "admin~admin.configuration.services.label"
 msgid "Services"
 msgstr ""
 
+#: admin~admin.configuration.services.qgisServerVersion.label
+msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
+msgid "QGIS server version"
+msgstr ""
+
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
 msgid "WMS server URL"
@@ -253,6 +258,21 @@ msgstr ""
 #: admin~admin.form.admin_services.appName.label
 msgctxt "admin~admin.form.admin_services.appName.label"
 msgid "Application name"
+msgstr ""
+
+#: admin~admin.form.admin_services.qgisServerVersion.label
+msgctxt "admin~admin.form.admin_services.qgisServerVersion.label"
+msgid "QGIS server version"
+msgstr ""
+
+#: admin~admin.form.admin_services.qgisServerVersion.214.label
+msgctxt "admin~admin.form.admin_services.qgisServerVersion.214.label"
+msgid "≤ 2.14"
+msgstr ""
+
+#: admin~admin.form.admin_services.qgisServerVersion.218.label
+msgctxt "admin~admin.form.admin_services.qgisServerVersion.218.label"
+msgid "≥ 2.18"
 msgstr ""
 
 #: admin~admin.form.admin_services.wmsServerURL.label
