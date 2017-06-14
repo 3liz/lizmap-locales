@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2016
+# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2016-2017
 # rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-27 09:01++0200\n"
-"PO-Revision-Date: 2016-07-30 11:10+0000\n"
+"POT-Creation-Date: 2017-03-02 17:26++0100\n"
+"PO-Revision-Date: 2017-05-03 07:54+0000\n"
 "Last-Translator: Petr Tsymbarovich <petr@tsymbarovich.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/3liz-1/lizmap-locales/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -53,8 +53,8 @@ msgstr "Легенда/карта"
 
 #: view~map.search.nominatim.placeholder
 msgctxt "view~map.search.nominatim.placeholder"
-msgid "Street, City"
-msgstr "Улица, город"
+msgid "Search"
+msgstr "Поиск"
 
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"
@@ -69,7 +69,7 @@ msgstr "Печать"
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"
 msgid "Tooltip"
-msgstr "Подсказка"
+msgstr "Всплывающее описание"
 
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"
@@ -81,25 +81,15 @@ msgctxt "view~map.measure.navbar.title"
 msgid "Measure"
 msgstr "Измерение"
 
-#: view~map.measure.navbar.title.length
-msgctxt "view~map.measure.navbar.title.length"
-msgid "Length"
-msgstr "Длина"
-
-#: view~map.measure.navbar.title.area
-msgctxt "view~map.measure.navbar.title.area"
-msgid "Area"
-msgstr "Площадь"
-
-#: view~map.measure.navbar.title.perimeter
-msgctxt "view~map.measure.navbar.title.perimeter"
-msgid "Perimeter"
-msgstr "Периметр"
-
 #: view~map.permalink.navbar.title
 msgctxt "view~map.permalink.navbar.title"
 msgid "Permalink"
 msgstr "Постоянная ссылка"
+
+#: view~map.selectiontool.navbar.title
+msgctxt "view~map.selectiontool.navbar.title"
+msgid "Selection"
+msgstr "Выбор"
 
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
@@ -121,10 +111,25 @@ msgctxt "view~map.print.toolbar.scale"
 msgid "Scale"
 msgstr "Масштаб"
 
+#: view~map.print.toolbar.dpi
+msgctxt "view~map.print.toolbar.dpi"
+msgid "DPI"
+msgstr "DPI"
+
+#: view~map.print.toolbar.format
+msgctxt "view~map.print.toolbar.format"
+msgid "Format"
+msgstr "Формат"
+
+#: view~map.print.toolbar.template
+msgctxt "view~map.print.toolbar.template"
+msgid "Template"
+msgstr "Шаблон"
+
 #: view~map.tooltip.toolbar.title
 msgctxt "view~map.tooltip.toolbar.title"
 msgid "Tooltip"
-msgstr "Подсказка"
+msgstr "Всплывающее описание"
 
 #: view~map.tooltip.toolbar.layer
 msgctxt "view~map.tooltip.toolbar.layer"
@@ -139,27 +144,92 @@ msgstr "Геолокация"
 #: view~map.geolocate.toolbar.center
 msgctxt "view~map.geolocate.toolbar.center"
 msgid "Center"
-msgstr "Центр"
+msgstr "Центрировать"
 
 #: view~map.geolocate.toolbar.bind
 msgctxt "view~map.geolocate.toolbar.bind"
 msgid "Stay centered"
-msgstr ""
+msgstr "Следить"
 
-#: view~map.measure.toolbar.title.length
-msgctxt "view~map.measure.toolbar.title.length"
-msgid "Length measure"
-msgstr "Измерение длины"
+#: view~map.measure.toolbar.title
+msgctxt "view~map.measure.toolbar.title"
+msgid "Measures"
+msgstr "Измерения"
 
-#: view~map.measure.toolbar.title.area
-msgctxt "view~map.measure.toolbar.title.area"
-msgid "Area measure"
-msgstr "Измерение площади"
+#: view~map.measure.toolbar.length
+msgctxt "view~map.measure.toolbar.length"
+msgid "Length"
+msgstr "Длина"
 
-#: view~map.measure.toolbar.title.perimeter
-msgctxt "view~map.measure.toolbar.title.perimeter"
-msgid "Perimeter measure"
-msgstr "Измерение периметра"
+#: view~map.measure.toolbar.area
+msgctxt "view~map.measure.toolbar.area"
+msgid "Area"
+msgstr "Площадь"
+
+#: view~map.measure.toolbar.perimeter
+msgctxt "view~map.measure.toolbar.perimeter"
+msgid "Perimeter"
+msgstr "Периметр"
+
+#: view~map.selectiontool.toolbar.title
+msgctxt "view~map.selectiontool.toolbar.title"
+msgid "Selection"
+msgstr "Выделение"
+
+#: view~map.selectiontool.toolbar.layer
+msgctxt "view~map.selectiontool.toolbar.layer"
+msgid "Selection layer"
+msgstr "Слой выделения"
+
+#: view~map.selectiontool.toolbar.query.deactivate
+msgctxt "view~map.selectiontool.toolbar.query.deactivate"
+msgid "Deactivate"
+msgstr "Отключить"
+
+#: view~map.selectiontool.toolbar.query.box
+msgctxt "view~map.selectiontool.toolbar.query.box"
+msgid "Box"
+msgstr "Квадрат"
+
+#: view~map.selectiontool.toolbar.query.circle
+msgctxt "view~map.selectiontool.toolbar.query.circle"
+msgid "Circle"
+msgstr "Окружность"
+
+#: view~map.selectiontool.toolbar.query.polygon
+msgctxt "view~map.selectiontool.toolbar.query.polygon"
+msgid "Polygon"
+msgstr "Полигон"
+
+#: view~map.selectiontool.toolbar.query.freehand
+msgctxt "view~map.selectiontool.toolbar.query.freehand"
+msgid "Free hand"
+msgstr "Свободное выделение"
+
+#: view~map.selectiontool.toolbar.action.type.refresh
+msgctxt "view~map.selectiontool.toolbar.action.type.refresh"
+msgid "New selection"
+msgstr "Новое выделение"
+
+#: view~map.selectiontool.toolbar.action.type.plus
+msgctxt "view~map.selectiontool.toolbar.action.type.plus"
+msgid "Add to selection"
+msgstr "Добавить к выделенным"
+
+#: view~map.selectiontool.toolbar.action.type.minus
+msgctxt "view~map.selectiontool.toolbar.action.type.minus"
+msgid "Remove from selection"
+msgstr "Убрать из выделенных"
+
+#: view~map.selectiontool.toolbar.action.unselect
+msgctxt "view~map.selectiontool.toolbar.action.unselect"
+msgid "Unselect all"
+msgstr "Снять выделение"
+
+#: view~map.selectiontool.toolbar.action.filter
+msgctxt "view~map.selectiontool.toolbar.action.filter"
+msgid "Filter"
+msgstr "Фильтр"
 
 #: view~map.menu.close.hover
 msgctxt "view~map.menu.close.hover"
@@ -208,8 +278,8 @@ msgstr "Увеличить до зоны"
 
 #: view~map.navbar.zoomextent.hover
 msgctxt "view~map.navbar.zoomextent.hover"
-msgid "Zoom to map extent"
-msgstr "Полный охват"
+msgid "Zoom to initial map extent"
+msgstr "Масштаб к исходному охвату"
 
 #: view~map.navbar.zoomin.hover
 msgctxt "view~map.navbar.zoomin.hover"
@@ -296,10 +366,15 @@ msgctxt "view~map.mouseposition.units.dms"
 msgid "D. M. S."
 msgstr "Гр. м. с."
 
-#: view~map.permalink.title
-msgctxt "view~map.permalink.title"
+#: view~map.permalink.toolbar.title
+msgctxt "view~map.permalink.toolbar.title"
 msgid "Permalink"
 msgstr "Постоянная ссылка"
+
+#: view~map.permalink.toolbar.link
+msgctxt "view~map.permalink.toolbar.link"
+msgid "Link to current map"
+msgstr ""
 
 #: view~map.permalink.geobookmark.title
 msgctxt "view~map.permalink.geobookmark.title"
@@ -345,6 +420,11 @@ msgstr "Загрузка данных карты"
 msgctxt "view~map.popup.table.th.data"
 msgid "Field"
 msgstr "Поле"
+
+#: view~map.popup.table.th.band
+msgctxt "view~map.popup.table.th.band"
+msgid "Band"
+msgstr ""
 
 #: view~map.popup.table.th.value
 msgctxt "view~map.popup.table.th.value"
@@ -513,10 +593,25 @@ msgid ""
 "its data."
 msgstr "Выберите слой для отображения таблицы атрибутов."
 
+#: view~map.attributeLayers.options.title
+msgctxt "view~map.attributeLayers.options.title"
+msgid "Options"
+msgstr ""
+
 #: view~map.attributeLayers.options.input.cascade.label
 msgctxt "view~map.attributeLayers.options.input.cascade.label"
 msgid "Cascade filter to children"
-msgstr ""
+msgstr "Применить фильтр к дочерним объектам"
+
+#: view~map.switcher.layers.expand.title
+msgctxt "view~map.switcher.layers.expand.title"
+msgid "Expand all"
+msgstr "Развернуть все"
+
+#: view~map.switcher.layers.collapse.title
+msgctxt "view~map.switcher.layers.collapse.title"
+msgid "Collapse all"
+msgstr "Свернуть все"
 
 #: view~map.switcher.layer.metadata.title
 msgctxt "view~map.switcher.layer.metadata.title"
@@ -612,6 +707,11 @@ msgstr "Регистрация"
 msgctxt "view~user.already.logged"
 msgid "You are already a authenticated user."
 msgstr "Вы уже вошли."
+
+#: view~user.title
+msgctxt "view~user.title"
+msgid "Registration"
+msgstr "Регистрация"
 
 #: view~user.form.button.back.label
 msgctxt "view~user.form.button.back.label"
@@ -1028,7 +1128,7 @@ msgstr "Результат:"
 #: view~dictionnary.geolocation.failed
 msgctxt "view~dictionnary.geolocation.failed"
 msgid "Location detection failed"
-msgstr ""
+msgstr "Определение местоположения не выполнено"
 
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
@@ -1049,6 +1149,16 @@ msgstr "Кликните на объекте слоя для выделения.
 msgctxt "view~dictionnary.edition.select.modify.activate"
 msgid "You can modify the feature you have selected, then submit."
 msgstr ""
+
+#: view~dictionnary.edition.datepicker.open
+msgctxt "view~dictionnary.edition.datepicker.open"
+msgid "Open the calendar"
+msgstr "Открыть календарь"
+
+#: view~dictionnary.edition.datepicker.reset
+msgctxt "view~dictionnary.edition.datepicker.reset"
+msgid "Reset the date"
+msgstr "Сбросить дату"
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -1078,6 +1188,11 @@ msgstr "Поиск"
 msgctxt "view~dictionnary.externalsearch.notfound"
 msgid "No results"
 msgstr "Нет результатов"
+
+#: view~dictionnary.externalsearch.mapdata
+msgctxt "view~dictionnary.externalsearch.mapdata"
+msgid "Map data"
+msgstr ""
 
 #: view~dictionnary.timemanager.toolbar.play
 msgctxt "view~dictionnary.timemanager.toolbar.play"
@@ -1118,6 +1233,11 @@ msgstr "Развернуть"
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
 msgstr "Свернуть"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.detail
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
+msgid "Detail"
+msgstr "Подробно"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
@@ -1172,6 +1292,12 @@ msgctxt ""
 msgid "Create a child"
 msgstr ""
 
+#: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived"
+msgid "Activated line needed!"
+msgstr ""
+
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
 msgid "Toggle children tables"
@@ -1191,6 +1317,22 @@ msgstr "Скрыть"
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
 msgid "Show"
 msgstr "Показать"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
+msgid "Refresh"
+msgstr "Обновить"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
+msgid "Refresh the table data."
+msgstr "Обновить табличные данные."
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
+msgid "The map extent has changed since the last time data were fetched."
+msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.lines
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
@@ -1247,6 +1389,28 @@ msgctxt "view~dictionnary.attributeLayers.btn.center.title"
 msgid "Center"
 msgstr "Центр"
 
+#: view~dictionnary.attributeLayers.msg.layer.not.visible
+msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
+msgid ""
+"The layer is not visible. Please zoom at a scale in which the features are "
+"visible."
+msgstr "Слой не отображается. Измените масштаб для отображения объектов слоя."
+
+#: view~dictionnary.selectiontool.results.none
+msgctxt "view~dictionnary.selectiontool.results.none"
+msgid "No object selected"
+msgstr "Объекты не выделены"
+
+#: view~dictionnary.selectiontool.results.one
+msgctxt "view~dictionnary.selectiontool.results.one"
+msgid "1 selected object"
+msgstr "1 выделенный объект"
+
+#: view~dictionnary.selectiontool.results.more
+msgctxt "view~dictionnary.selectiontool.results.more"
+msgid "%s selected objects"
+msgstr "%s выделенных объект(а,ов)"
+
 #: view~dictionnary.layer.metadata.title
 msgctxt "view~dictionnary.layer.metadata.title"
 msgid "Information"
@@ -1287,6 +1451,26 @@ msgctxt "view~dictionnary.layer.metadata.layer.info.see"
 msgid "Documentation"
 msgstr "Документация"
 
+#: view~dictionnary.layer.metadata.zoomToExtent.title
+msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
+msgid "Zoom to layer extent"
+msgstr "Увеличить до слоя"
+
+#: view~dictionnary.layer.metadata.style.title
+msgctxt "view~dictionnary.layer.metadata.style.title"
+msgid "Change layer style"
+msgstr "Изменить стиль слоя"
+
+#: view~dictionnary.layer.metadata.export.title
+msgctxt "view~dictionnary.layer.metadata.export.title"
+msgid "Export"
+msgstr "Экспорт"
+
+#: view~dictionnary.layer.metadata.opacity.title
+msgctxt "view~dictionnary.layer.metadata.opacity.title"
+msgid "Opacity"
+msgstr "Непрозрачность"
+
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
@@ -1301,3 +1485,13 @@ msgstr "Для добавления закладки необходимо ука
 msgctxt "view~dictionnary.geobookmark.confirm.delete"
 msgid "Are you sure you want to delete this bookmark?"
 msgstr "Удалить данную закладку?"
+
+#: view~dictionnary.popup.msg.no.result
+msgctxt "view~dictionnary.popup.msg.no.result"
+msgid "No object has been found at this location."
+msgstr "Объекты в этом местоположении не найдены"
+
+#: view~dictionnary.generic.btn.close.title
+msgctxt "view~dictionnary.generic.btn.close.title"
+msgid "Close"
+msgstr "Закрыть"

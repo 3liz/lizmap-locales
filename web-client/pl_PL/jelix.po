@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-25 13:03++0100\n"
-"PO-Revision-Date: 2017-03-07 13:25+0000\n"
+"PO-Revision-Date: 2017-04-20 08:07+0000\n"
 "Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -289,12 +289,12 @@ msgstr "zły format właściwości %s"
 #: jelix~dao.check.maxlength.overflow
 msgctxt "jelix~dao.check.maxlength.overflow"
 msgid "property %s value is too high"
-msgstr ""
+msgstr "wartość właściwości %s jest zbyt wysoka"
 
 #: jelix~dao.check.minlength.overflow
 msgctxt "jelix~dao.check.minlength.overflow"
 msgid "property %s value is too low"
-msgstr ""
+msgstr "wartość właściwości %s jest za niska"
 
 #: jelix~dao.error.keys.missing
 msgctxt "jelix~dao.error.keys.missing"
@@ -1324,7 +1324,7 @@ msgstr "(16)Błędna składnia w \"%1$s\" selektora (type:%2$s)"
 #: jelix~errors.selector.invalid.target
 msgctxt "jelix~errors.selector.invalid.target"
 msgid "(17)The selector \"%s\" doesn't correspond to a resource of type: \"%s\""
-msgstr ""
+msgstr "(17)Selektor \"%s\" nie koresponduje z typem zasobu: \"%s\""
 
 #: jelix~errors.selector.module.unknown
 msgctxt "jelix~errors.selector.module.unknown"
@@ -1334,7 +1334,7 @@ msgstr "(18)Nieznany moduł w selektorze \"%s\""
 #: jelix~errors.selector.method.invalid
 msgctxt "jelix~errors.selector.method.invalid"
 msgid "(19)Invalid method in the selector \"%s\""
-msgstr ""
+msgstr "(19)Błędna metoda w selektorze \"%s\""
 
 #: jelix~errors.file.directory.notexists
 msgctxt "jelix~errors.file.directory.notexists"
@@ -1369,7 +1369,7 @@ msgstr "(25)Nie można usunąć katalogu root'a z systemu plików"
 #: jelix~errors.urls.engine.notfound
 msgctxt "jelix~errors.urls.engine.notfound"
 msgid "(30)Url engine \"%s\" is not found"
-msgstr ""
+msgstr "(30)Nie znaleziono silnika URL \"%s\""
 
 #: jelix~errors.urls.domain.void
 msgctxt "jelix~errors.urls.domain.void"
@@ -1380,12 +1380,12 @@ msgstr ""
 #: jelix~errors.cli.unknown.command
 msgctxt "jelix~errors.cli.unknown.command"
 msgid "(40)Unknown command \"%s\""
-msgstr ""
+msgstr "(40)Nieznane polecenie \"%s\""
 
 #: jelix~errors.cli.param.missing
 msgctxt "jelix~errors.cli.param.missing"
 msgid "(41)Missing parameter \"%s\""
-msgstr ""
+msgstr "(41)Brakujący parametr \"%s\""
 
 #: jelix~errors.cli.option.value.missing
 msgctxt "jelix~errors.cli.option.value.missing"
@@ -1395,32 +1395,32 @@ msgstr ""
 #: jelix~errors.cli.unknown.option
 msgctxt "jelix~errors.cli.unknown.option"
 msgid "(43)Unknown option \"%s\""
-msgstr ""
+msgstr "(43)Nieznana opcja \"%s\""
 
 #: jelix~errors.cli.two.many.parameters
 msgctxt "jelix~errors.cli.two.many.parameters"
 msgid "(44)Too many parameters"
-msgstr ""
+msgstr "(44)Zbyt dużo parametrów"
 
 #: jelix~errors.xml.remote.feed.error
 msgctxt "jelix~errors.xml.remote.feed.error"
 msgid "(60) Error while reading the remote feed"
-msgstr ""
+msgstr "(60)Błąd podczas odczytywania zdalnej zawartości"
 
 #: jelix~errors.xml.loading.document.error
 msgctxt "jelix~errors.xml.loading.document.error"
 msgid "(61) Error(s) while loading the XML document: %s"
-msgstr ""
+msgstr "(61) Błąd (błędy) podczas ładowania dokumentu XML: %s"
 
 #: jelix~errors.jsession.name.invalid
 msgctxt "jelix~errors.jsession.name.invalid"
 msgid "(90)Session name cannot be empty and only accepts alpha-numeric chars."
-msgstr ""
+msgstr "(90)Nazwa sesji nie może być pusta oraz nie może zawierać znaków innych niż aflanumeryczne."
 
 #: jelix~errors.ad.controller.file.unknown
 msgctxt "jelix~errors.ad.controller.file.unknown"
 msgid "(100)Action %s: controller file %s doesn't exists"
-msgstr ""
+msgstr "(100)Akcja %s: plik kontrolera %s nie istnieje"
 
 #: jelix~errors.ad.controller.class.unknown
 msgctxt "jelix~errors.ad.controller.class.unknown"

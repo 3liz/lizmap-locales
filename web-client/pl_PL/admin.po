@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-10 10:55++0100\n"
-"PO-Revision-Date: 2017-02-11 15:45+0000\n"
+"POT-Creation-Date: 2017-04-18 20:33++0200\n"
+"PO-Revision-Date: 2017-04-20 08:03+0000\n"
 "Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -146,6 +146,16 @@ msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
 msgid "WMS subdomain URLs list (optional)"
 msgstr "Lista subdomen adresów WMS (opcjonalne)"
 
+#: admin~admin.configuration.services.wmsMaxWidth.label
+msgctxt "admin~admin.configuration.services.wmsMaxWidth.label"
+msgid "Maximum Witdh for GetMap request"
+msgstr "Maksymalna szerokość dla zapytania GetMap"
+
+#: admin~admin.configuration.services.wmsMaxHeight.label
+msgctxt "admin~admin.configuration.services.wmsMaxHeight.label"
+msgid "Maximum Height for GetMap request"
+msgstr "Maksymalna wysokość dla zapytania GetMap"
+
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
 msgid "Only maps"
@@ -265,6 +275,16 @@ msgstr "Lista subdomen adresów WMS (opcjonalne)"
 msgctxt "admin~admin.form.admin_services.message.wmsPublicUrlList.wrong"
 msgid "The WMS subdomain URLs structure is not valide."
 msgstr "Struktura subdomeny serwera WMS nie jest poprawna."
+
+#: admin~admin.form.admin_services.wmsMaxWidth.label
+msgctxt "admin~admin.form.admin_services.wmsMaxWidth.label"
+msgid "Default max. Witdh for GetMap request"
+msgstr "Domyślna maks. szerokość dla zapytania GetMap"
+
+#: admin~admin.form.admin_services.wmsMaxHeight.label
+msgctxt "admin~admin.form.admin_services.wmsMaxHeight.label"
+msgid "Default max. Height for GetMap request"
+msgstr "Domyślna maks. wysokość dla zapytania GetMap"
 
 #: admin~admin.form.admin_services.cacheStorageType.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.label"
