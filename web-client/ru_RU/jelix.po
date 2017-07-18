@@ -1,12 +1,12 @@
 # 
 # Translators:
-# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2016
+# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-27 17:54++0200\n"
-"PO-Revision-Date: 2016-09-27 13:42+0000\n"
+"POT-Creation-Date: 2017-01-25 13:03++0100\n"
+"PO-Revision-Date: 2017-06-30 08:45+0000\n"
 "Last-Translator: Petr Tsymbarovich <petr@tsymbarovich.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/3liz-1/lizmap-locales/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -114,17 +114,17 @@ msgstr ""
 #: jelix~formserr.content.missing
 msgctxt "jelix~formserr.content.missing"
 msgid "(816) content of %1$s tag is missing (file %2$s)"
-msgstr ""
+msgstr "(816) отсутствует содержимое тега %1$s (файл %2$s)"
 
 #: jelix~formserr.notunique.tag
 msgctxt "jelix~formserr.notunique.tag"
 msgid "(817) tag %1$s must be unique (file %2$s)"
-msgstr ""
+msgstr "(817) тег %1$s должен быть уникальным (файл %2$s)"
 
 #: jelix~formserr.control.not.allowed
 msgctxt "jelix~formserr.control.not.allowed"
 msgid "(818) The tag %1$s is not allowed in %2$s (file %3$s)"
-msgstr ""
+msgstr "(818) тег %1$s не допустим в %2$s (файл %3$s)"
 
 #: jelix~formserr.no.child.control
 msgctxt "jelix~formserr.no.child.control"
@@ -288,13 +288,13 @@ msgstr "неверный формат свойства %s"
 
 #: jelix~dao.check.maxlength.overflow
 msgctxt "jelix~dao.check.maxlength.overflow"
-msgid "property %s value is to high"
-msgstr "слишком высокое значение свойства %s"
+msgid "property %s value is too high"
+msgstr "значение свойства %s слишком высокое"
 
 #: jelix~dao.check.minlength.overflow
 msgctxt "jelix~dao.check.minlength.overflow"
-msgid "property %s value is to low"
-msgstr "слишком низкое значение свойства %s"
+msgid "property %s value is too low"
+msgstr "значение свойства %s слишком низкое"
 
 #: jelix~dao.error.keys.missing
 msgctxt "jelix~dao.error.keys.missing"
@@ -356,7 +356,7 @@ msgstr "Сохранить"
 #: jelix~ui.buttons.ok
 msgctxt "jelix~ui.buttons.ok"
 msgid "Ok"
-msgstr ""
+msgstr "Ок"
 
 #: jelix~ui.buttons.cancel
 msgctxt "jelix~ui.buttons.cancel"
@@ -781,27 +781,27 @@ msgstr ""
 #: jelix~ui.messages.title
 msgctxt "jelix~ui.messages.title"
 msgid "Title"
-msgstr ""
+msgstr "Заголовок"
 
 #: jelix~ui.messages.desc
 msgctxt "jelix~ui.messages.desc"
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #: jelix~ui.messages.name
 msgctxt "jelix~ui.messages.name"
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 #: jelix~ui.messages.author
 msgctxt "jelix~ui.messages.author"
 msgid "Author"
-msgstr ""
+msgstr "Автор"
 
 #: jelix~ui.messages.comment
 msgctxt "jelix~ui.messages.comment"
 msgid "Comment"
-msgstr ""
+msgstr "Комментарий"
 
 #: jelix~ui.messages.none
 msgctxt "jelix~ui.messages.none"
@@ -811,68 +811,68 @@ msgstr ""
 #: jelix~ui.messages.error
 msgctxt "jelix~ui.messages.error"
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 #: jelix~cache.error.driver.missing
 msgctxt "jelix~cache.error.driver.missing"
 msgid "(900) profile name '%s': cache driver %s not found"
-msgstr ""
+msgstr "(900) профиль \"%s\": не найден драйвер кэша %s"
 
 #: jelix~cache.error.invalid.key
 msgctxt "jelix~cache.error.invalid.key"
 msgid ""
 "(901) error key %s, use only alphanumeric characters and the character '_' "
 "and maximum length 255"
-msgstr ""
+msgstr "(901) ошибка в ключе %s, допустимы только буквенно-цифровые символы и символ \"_\", длина не должна превышать 255 символов"
 
 #: jelix~cache.error.serialize.data
 msgctxt "jelix~cache.error.serialize.data"
 msgid ""
 "(902) profile name '%s': error during data serialisation for cache purpose ("
 " %s )"
-msgstr ""
+msgstr "(902) профиль \"%s\": ошибка сериализации данных при кэшировании (%s)"
 
 #: jelix~cache.error.unserialize.data
 msgctxt "jelix~cache.error.unserialize.data"
 msgid ""
 "(903) profile name '%s': error during data unserialisation for cache purpose"
 " ( %s )"
-msgstr ""
+msgstr "(903) профиль \"%s\": ошибка десериализации данных при кэшировании (%s)"
 
 #: jelix~cache.error.wrong.date.value
 msgctxt "jelix~cache.error.wrong.date.value"
 msgid "(904) wrong date value"
-msgstr ""
+msgstr "(904) неправильное значение даты"
 
 #: jelix~cache.directory.not.writable
 msgctxt "jelix~cache.directory.not.writable"
 msgid "(906) profile '%s': cache directory not writable"
-msgstr ""
+msgstr "(906) профиль \"%s\": каталог кэша недоступен для записи"
 
 #: jelix~cache.driver.object.invalid
 msgctxt "jelix~cache.driver.object.invalid"
 msgid "(907) profile '%s': object interface for the driver %s unknown"
-msgstr ""
+msgstr "(907) профиль \"%s\": неизвестен интерфейс объекта для драйвера %s"
 
 #: jelix~cache.error.memcache.extension.missing
 msgctxt "jelix~cache.error.memcache.extension.missing"
 msgid "(908) profile '%s': Memcache extension not installed (%s)"
-msgstr ""
+msgstr "(908) профиль \"%s\": расширение Memcache не установлено (%s)"
 
 #: jelix~cache.error.no.memcache.server.available
 msgctxt "jelix~cache.error.no.memcache.server.available"
 msgid "(909) profile '%s': no servers available for Memcache"
-msgstr ""
+msgstr "(909) профиль \"%s\": нет доступных серверов для Memcache"
 
 #: jelix~cache.error.function.not.callable
 msgctxt "jelix~cache.error.function.not.callable"
 msgid "(910) function %s is not callable"
-msgstr ""
+msgstr "(910) невозможно вызвать функцию %s"
 
 #: jelix~cache.error.call.function
 msgctxt "jelix~cache.error.call.function"
 msgid "(911) error when calling function %s: %s"
-msgstr ""
+msgstr "(911) ошибка при вызове функции %s: %s"
 
 #: jelix~cache.error.memcache.extension.badversion.3
 msgctxt "jelix~cache.error.memcache.extension.badversion.3"
@@ -901,347 +901,347 @@ msgstr ""
 #: jelix~date_time.month.01.label
 msgctxt "jelix~date_time.month.01.label"
 msgid "January"
-msgstr ""
+msgstr "Январь"
 
 #: jelix~date_time.month.01.shortlabel
 msgctxt "jelix~date_time.month.01.shortlabel"
 msgid "Jan"
-msgstr ""
+msgstr "янв."
 
 #: jelix~date_time.month.02.label
 msgctxt "jelix~date_time.month.02.label"
 msgid "February"
-msgstr ""
+msgstr "Февраль"
 
 #: jelix~date_time.month.02.shortlabel
 msgctxt "jelix~date_time.month.02.shortlabel"
 msgid "Feb"
-msgstr ""
+msgstr "фев."
 
 #: jelix~date_time.month.03.label
 msgctxt "jelix~date_time.month.03.label"
 msgid "March"
-msgstr ""
+msgstr "Март"
 
 #: jelix~date_time.month.03.shortlabel
 msgctxt "jelix~date_time.month.03.shortlabel"
 msgid "Mar"
-msgstr ""
+msgstr "мар."
 
 #: jelix~date_time.month.04.label
 msgctxt "jelix~date_time.month.04.label"
 msgid "April"
-msgstr ""
+msgstr "Апрель"
 
 #: jelix~date_time.month.04.shortlabel
 msgctxt "jelix~date_time.month.04.shortlabel"
 msgid "Apr"
-msgstr ""
+msgstr "апр."
 
 #: jelix~date_time.month.05.label
 msgctxt "jelix~date_time.month.05.label"
 msgid "May"
-msgstr ""
+msgstr "Май"
 
 #: jelix~date_time.month.05.shortlabel
 msgctxt "jelix~date_time.month.05.shortlabel"
 msgid "May"
-msgstr ""
+msgstr "май"
 
 #: jelix~date_time.month.06.label
 msgctxt "jelix~date_time.month.06.label"
 msgid "June"
-msgstr ""
+msgstr "Июнь"
 
 #: jelix~date_time.month.06.shortlabel
 msgctxt "jelix~date_time.month.06.shortlabel"
 msgid "Jun"
-msgstr ""
+msgstr "июн."
 
 #: jelix~date_time.month.07.label
 msgctxt "jelix~date_time.month.07.label"
 msgid "July"
-msgstr ""
+msgstr "Июль"
 
 #: jelix~date_time.month.07.shortlabel
 msgctxt "jelix~date_time.month.07.shortlabel"
 msgid "Jul"
-msgstr ""
+msgstr "июл"
 
 #: jelix~date_time.month.08.label
 msgctxt "jelix~date_time.month.08.label"
 msgid "August"
-msgstr ""
+msgstr "Август"
 
 #: jelix~date_time.month.08.shortlabel
 msgctxt "jelix~date_time.month.08.shortlabel"
 msgid "Aug"
-msgstr ""
+msgstr "авг."
 
 #: jelix~date_time.month.09.label
 msgctxt "jelix~date_time.month.09.label"
 msgid "September"
-msgstr ""
+msgstr "Сентябрь"
 
 #: jelix~date_time.month.09.shortlabel
 msgctxt "jelix~date_time.month.09.shortlabel"
 msgid "Sep"
-msgstr ""
+msgstr "сен."
 
 #: jelix~date_time.month.10.label
 msgctxt "jelix~date_time.month.10.label"
 msgid "October"
-msgstr ""
+msgstr "Октябрь"
 
 #: jelix~date_time.month.10.shortlabel
 msgctxt "jelix~date_time.month.10.shortlabel"
 msgid "Oct"
-msgstr ""
+msgstr "окт."
 
 #: jelix~date_time.month.11.label
 msgctxt "jelix~date_time.month.11.label"
 msgid "November"
-msgstr ""
+msgstr "Ноябрь"
 
 #: jelix~date_time.month.11.shortlabel
 msgctxt "jelix~date_time.month.11.shortlabel"
 msgid "Nov"
-msgstr ""
+msgstr "ноя."
 
 #: jelix~date_time.month.12.label
 msgctxt "jelix~date_time.month.12.label"
 msgid "December"
-msgstr ""
+msgstr "Декабрь"
 
 #: jelix~date_time.month.12.shortlabel
 msgctxt "jelix~date_time.month.12.shortlabel"
 msgid "Dec"
-msgstr ""
+msgstr "дек."
 
 #: jelix~date_time.day.0.label
 msgctxt "jelix~date_time.day.0.label"
 msgid "Sunday"
-msgstr ""
+msgstr "Воскресенье"
 
 #: jelix~date_time.day.0.shortlabel
 msgctxt "jelix~date_time.day.0.shortlabel"
 msgid "Sun"
-msgstr ""
+msgstr "Вск"
 
 #: jelix~date_time.day.1.label
 msgctxt "jelix~date_time.day.1.label"
 msgid "Monday"
-msgstr ""
+msgstr "Понедельник"
 
 #: jelix~date_time.day.1.shortlabel
 msgctxt "jelix~date_time.day.1.shortlabel"
 msgid "Mon"
-msgstr ""
+msgstr "Пнд"
 
 #: jelix~date_time.day.2.label
 msgctxt "jelix~date_time.day.2.label"
 msgid "Tuesday"
-msgstr ""
+msgstr "Вторник"
 
 #: jelix~date_time.day.2.shortlabel
 msgctxt "jelix~date_time.day.2.shortlabel"
 msgid "Tue"
-msgstr ""
+msgstr "Втр"
 
 #: jelix~date_time.day.3.label
 msgctxt "jelix~date_time.day.3.label"
 msgid "Wednesday"
-msgstr ""
+msgstr "Среда"
 
 #: jelix~date_time.day.3.shortlabel
 msgctxt "jelix~date_time.day.3.shortlabel"
 msgid "Wed"
-msgstr ""
+msgstr "Срд"
 
 #: jelix~date_time.day.4.label
 msgctxt "jelix~date_time.day.4.label"
 msgid "Thursday"
-msgstr ""
+msgstr "Четверг"
 
 #: jelix~date_time.day.4.shortlabel
 msgctxt "jelix~date_time.day.4.shortlabel"
 msgid "Thu"
-msgstr ""
+msgstr "Чтв"
 
 #: jelix~date_time.day.5.label
 msgctxt "jelix~date_time.day.5.label"
 msgid "Friday"
-msgstr ""
+msgstr "Пятница"
 
 #: jelix~date_time.day.5.shortlabel
 msgctxt "jelix~date_time.day.5.shortlabel"
 msgid "Fri"
-msgstr ""
+msgstr "Птн"
 
 #: jelix~date_time.day.6.label
 msgctxt "jelix~date_time.day.6.label"
 msgid "Saturday"
-msgstr ""
+msgstr "Суббота"
 
 #: jelix~date_time.day.6.shortlabel
 msgctxt "jelix~date_time.day.6.shortlabel"
 msgid "Sat"
-msgstr ""
+msgstr "Сбт"
 
 #: jelix~date_time.day.1.ordinal
 msgctxt "jelix~date_time.day.1.ordinal"
 msgid "st"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.2.ordinal
 msgctxt "jelix~date_time.day.2.ordinal"
 msgid "nd"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.3.ordinal
 msgctxt "jelix~date_time.day.3.ordinal"
 msgid "rd"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.4.ordinal
 msgctxt "jelix~date_time.day.4.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.5.ordinal
 msgctxt "jelix~date_time.day.5.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.6.ordinal
 msgctxt "jelix~date_time.day.6.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.7.ordinal
 msgctxt "jelix~date_time.day.7.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.8.ordinal
 msgctxt "jelix~date_time.day.8.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.9.ordinal
 msgctxt "jelix~date_time.day.9.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.10.ordinal
 msgctxt "jelix~date_time.day.10.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.11.ordinal
 msgctxt "jelix~date_time.day.11.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.12.ordinal
 msgctxt "jelix~date_time.day.12.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.13.ordinal
 msgctxt "jelix~date_time.day.13.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.14.ordinal
 msgctxt "jelix~date_time.day.14.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.15.ordinal
 msgctxt "jelix~date_time.day.15.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.16.ordinal
 msgctxt "jelix~date_time.day.16.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.17.ordinal
 msgctxt "jelix~date_time.day.17.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.18.ordinal
 msgctxt "jelix~date_time.day.18.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.19.ordinal
 msgctxt "jelix~date_time.day.19.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.20.ordinal
 msgctxt "jelix~date_time.day.20.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.21.ordinal
 msgctxt "jelix~date_time.day.21.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.22.ordinal
 msgctxt "jelix~date_time.day.22.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.23.ordinal
 msgctxt "jelix~date_time.day.23.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.24.ordinal
 msgctxt "jelix~date_time.day.24.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.25.ordinal
 msgctxt "jelix~date_time.day.25.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.26.ordinal
 msgctxt "jelix~date_time.day.26.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.27.ordinal
 msgctxt "jelix~date_time.day.27.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.28.ordinal
 msgctxt "jelix~date_time.day.28.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.29.ordinal
 msgctxt "jelix~date_time.day.29.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.30.ordinal
 msgctxt "jelix~date_time.day.30.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~date_time.day.31.ordinal
 msgctxt "jelix~date_time.day.31.ordinal"
 msgid "th"
-msgstr ""
+msgstr "​"
 
 #: jelix~common.none
 msgctxt "jelix~common.none"
@@ -1261,60 +1261,60 @@ msgstr ""
 #: jelix~db.error.database.unknown
 msgctxt "jelix~db.error.database.unknown"
 msgid "(401)jDb: unknown database %s"
-msgstr ""
+msgstr "(401) jDb: неизвестная база данных %s"
 
 #: jelix~db.error.connection
 msgctxt "jelix~db.error.connection"
 msgid "(402)error during the connection %s"
-msgstr ""
+msgstr "(402) ошибка соединения %s"
 
 #: jelix~db.error.query.bad
 msgctxt "jelix~db.error.query.bad"
 msgid "(403)invalid query (%s)"
-msgstr ""
+msgstr "(403) неверный запрос (%s)"
 
 #: jelix~db.error.feature.unsupported
 msgctxt "jelix~db.error.feature.unsupported"
 msgid "(404)JDb: the %s driver doesn't support this feature \"%s\""
-msgstr ""
+msgstr "(404) jDb: драйвер %s не поддерживает функцию \"%s\""
 
 #: jelix~db.error.nofunction
 msgctxt "jelix~db.error.nofunction"
 msgid "(405)jDb:  %s extension is not installed in PHP"
-msgstr ""
+msgstr "(405) jDb: расширение PHP %s не установлено"
 
 #: jelix~db.error.driver.notfound
 msgctxt "jelix~db.error.driver.notfound"
 msgid "(408)jDb driver \"%s\" is not found"
-msgstr ""
+msgstr "(408) jDb: драйвер \"%s\" не найден"
 
 #: jelix~db.error.connection.closed
 msgctxt "jelix~db.error.connection.closed"
 msgid ""
 "(409) Connection to database is not valid anymore: timeout, server down... "
 "(profile %s)"
-msgstr ""
+msgstr "(409) Соединение с базой данных больше недействительно: таймаут, отключение сервера... (профиль %s)"
 
 #: jelix~db.error.no.database.name
 msgctxt "jelix~db.error.no.database.name"
 msgid "(412) No database defined in the profile \"%s\"?"
-msgstr ""
+msgstr "(412) База данных не определена в профиле \"%s\"?"
 
 #: jelix~db.error.invalid.param
 msgctxt "jelix~db.error.invalid.param"
 msgid "(413) An invalid argument was supplied to the query"
-msgstr ""
+msgstr "(413) В запросе присутствует недопустимый аргумент"
 
 #: jelix~errors.unknown
 msgctxt "jelix~errors.unknown"
 msgid "(1)unknown error"
-msgstr ""
+msgstr "(1) Неизвестная ошибка"
 
 #: jelix~errors.tech
 msgctxt "jelix~errors.tech"
 msgid ""
 "(2)There is a technic error on the site. Please try connect to it later."
-msgstr ""
+msgstr "(2) На сайте произошла техническая ошибка. Попробуйте подключиться позже."
 
 #: jelix~errors.selector.invalid.syntax
 msgctxt "jelix~errors.selector.invalid.syntax"
@@ -1400,7 +1400,7 @@ msgstr ""
 #: jelix~errors.cli.two.many.parameters
 msgctxt "jelix~errors.cli.two.many.parameters"
 msgid "(44)Too many parameters"
-msgstr ""
+msgstr "(44) Слишком много параметров"
 
 #: jelix~errors.xml.remote.feed.error
 msgctxt "jelix~errors.xml.remote.feed.error"
@@ -1410,7 +1410,7 @@ msgstr ""
 #: jelix~errors.xml.loading.document.error
 msgctxt "jelix~errors.xml.loading.document.error"
 msgid "(61) Error(s) while loading the XML document: %s"
-msgstr ""
+msgstr "(61) Ошибка при загрузке документа XML: %s"
 
 #: jelix~errors.jsession.name.invalid
 msgctxt "jelix~errors.jsession.name.invalid"
@@ -2051,22 +2051,22 @@ msgstr ""
 #: jelix~auth.ldap.search.base.missing
 msgctxt "jelix~auth.ldap.search.base.missing"
 msgid "(610)ldap configuration: search base missing"
-msgstr ""
+msgstr "(610) конфигурация ldap: отсутствует база поиска"
 
 #: jelix~auth.ldap.search.filter.missing
 msgctxt "jelix~auth.ldap.search.filter.missing"
 msgid "(611)ldap configuration: search filter missing"
-msgstr ""
+msgstr "(611) конфигурация ldap: отсутствует фильтр поиска"
 
 #: jelix~auth.ldap.extension.unloaded
 msgctxt "jelix~auth.ldap.extension.unloaded"
 msgid "(612)ldap extension unloaded"
-msgstr ""
+msgstr "(612) расширение ldap выгружено"
 
 #: jelix~auth.ldap.object.user.unknown
 msgctxt "jelix~auth.ldap.object.user.unknown"
 msgid "(613)user object unknown"
-msgstr ""
+msgstr "(613) неизвестный объект пользователя"
 
 #: jelix~auth.ldap.user.login.unset
 msgctxt "jelix~auth.ldap.user.login.unset"
@@ -2076,52 +2076,52 @@ msgstr ""
 #: jelix~auth.acl.users.list
 msgctxt "jelix~auth.acl.users.list"
 msgid "View list of users"
-msgstr ""
+msgstr "Просмотр списка пользователей"
 
 #: jelix~auth.acl.users.view
 msgctxt "jelix~auth.acl.users.view"
 msgid "View informations about a user"
-msgstr ""
+msgstr "Просмотр деталей учетной записи"
 
 #: jelix~auth.acl.users.modify
 msgctxt "jelix~auth.acl.users.modify"
 msgid "Modify informations of a user"
-msgstr ""
+msgstr "Изменение деталей учетной записи"
 
 #: jelix~auth.acl.users.create
 msgctxt "jelix~auth.acl.users.create"
 msgid "Create a new user"
-msgstr ""
+msgstr "Добавить пользователя"
 
 #: jelix~auth.acl.users.delete
 msgctxt "jelix~auth.acl.users.delete"
 msgid "Delete a user"
-msgstr ""
+msgstr "Удалить пользователя"
 
 #: jelix~auth.acl.users.change.password
 msgctxt "jelix~auth.acl.users.change.password"
 msgid "Change the password of a user"
-msgstr ""
+msgstr "Изменить пароль пользователя"
 
 #: jelix~auth.acl.user.view
 msgctxt "jelix~auth.acl.user.view"
 msgid "The user can view his informations"
-msgstr ""
+msgstr "Пользователь может видеть свою информацию"
 
 #: jelix~auth.acl.user.modify
 msgctxt "jelix~auth.acl.user.modify"
 msgid "The user can modify his informations"
-msgstr ""
+msgstr "Пользователь может изменять свою информацию"
 
 #: jelix~auth.acl.user.change.password
 msgctxt "jelix~auth.acl.user.change.password"
 msgid "The user can change his password"
-msgstr ""
+msgstr "Пользователь может менять свой пароль"
 
 #: jelix~auth.acl.grp.user.management
 msgctxt "jelix~auth.acl.grp.user.management"
 msgid "Users management"
-msgstr ""
+msgstr "Управление пользователями"
 
 #: jelix~daoxml.file.unknown
 msgctxt "jelix~daoxml.file.unknown"

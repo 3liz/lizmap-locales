@@ -1,14 +1,14 @@
 # 
 # Translators:
-# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2016
+# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2016-2017
 # rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-18 20:33++0200\n"
-"PO-Revision-Date: 2017-04-18 18:37+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
+"POT-Creation-Date: 2017-06-14 17:03++0200\n"
+"PO-Revision-Date: 2017-06-29 08:13+0000\n"
+"Last-Translator: Petr Tsymbarovich <petr@tsymbarovich.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/3liz-1/lizmap-locales/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,7 +74,7 @@ msgstr "Просмотр репозиториев"
 #: admin~jacl2.lizmap.tools.edition.use
 msgctxt "admin~jacl2.lizmap.tools.edition.use"
 msgid "Use the Edition tool"
-msgstr ""
+msgstr "Использование инструментов редактирования"
 
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
@@ -136,6 +136,11 @@ msgctxt "admin~admin.configuration.services.label"
 msgid "Services"
 msgstr "Служебные"
 
+#: admin~admin.configuration.services.qgisServerVersion.label
+msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
+msgid "QGIS server version"
+msgstr "Версия сервера QGIS"
+
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
 msgid "WMS server URL"
@@ -149,12 +154,12 @@ msgstr "Список URL поддоменов WMS (дополнительно)"
 #: admin~admin.configuration.services.wmsMaxWidth.label
 msgctxt "admin~admin.configuration.services.wmsMaxWidth.label"
 msgid "Maximum Witdh for GetMap request"
-msgstr ""
+msgstr "Максимальная ширина для запроса GetMap"
 
 #: admin~admin.configuration.services.wmsMaxHeight.label
 msgctxt "admin~admin.configuration.services.wmsMaxHeight.label"
 msgid "Maximum Height for GetMap request"
-msgstr ""
+msgstr "Максимальная высота для запроса GetMap"
 
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
@@ -249,17 +254,32 @@ msgstr "Изменение основных настроек Lizmap "
 #: admin~admin.form.admin_services.on.label
 msgctxt "admin~admin.form.admin_services.on.label"
 msgid "On"
-msgstr ""
+msgstr "Да"
 
 #: admin~admin.form.admin_services.off.label
 msgctxt "admin~admin.form.admin_services.off.label"
 msgid "Off"
-msgstr ""
+msgstr "Нет"
 
 #: admin~admin.form.admin_services.appName.label
 msgctxt "admin~admin.form.admin_services.appName.label"
 msgid "Application name"
 msgstr "Имя приложения"
+
+#: admin~admin.form.admin_services.qgisServerVersion.label
+msgctxt "admin~admin.form.admin_services.qgisServerVersion.label"
+msgid "QGIS server version"
+msgstr "Версия сервера QGIS"
+
+#: admin~admin.form.admin_services.qgisServerVersion.214.label
+msgctxt "admin~admin.form.admin_services.qgisServerVersion.214.label"
+msgid "≤ 2.14"
+msgstr "≤ 2.14"
+
+#: admin~admin.form.admin_services.qgisServerVersion.218.label
+msgctxt "admin~admin.form.admin_services.qgisServerVersion.218.label"
+msgid "≥ 2.18"
+msgstr "≥ 2.18"
 
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
@@ -279,12 +299,12 @@ msgstr "Структура URL поддоменов WMS недействител
 #: admin~admin.form.admin_services.wmsMaxWidth.label
 msgctxt "admin~admin.form.admin_services.wmsMaxWidth.label"
 msgid "Default max. Witdh for GetMap request"
-msgstr ""
+msgstr "Максимальная ширина для запроса GetMap"
 
 #: admin~admin.form.admin_services.wmsMaxHeight.label
 msgctxt "admin~admin.form.admin_services.wmsMaxHeight.label"
 msgid "Default max. Height for GetMap request"
-msgstr ""
+msgstr "Максимальная высота для запроса GetMap"
 
 #: admin~admin.form.admin_services.cacheStorageType.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.label"
@@ -568,117 +588,117 @@ msgstr "Указанный путь к репозиторию не сущест�
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
 msgid "The path given for the repository is not authorized."
-msgstr ""
+msgstr "Путь, указанный для хранилища, не доступен."
 
 #: admin~admin.menu.lizmap.theme.label
 msgctxt "admin~admin.menu.lizmap.theme.label"
 msgid "Theme"
-msgstr ""
+msgstr "Тема"
 
 #: admin~admin.configuration.button.modify.theme.label
 msgctxt "admin~admin.configuration.button.modify.theme.label"
 msgid "Modify"
-msgstr ""
+msgstr "Изменить"
 
 #: admin~admin.form.admin_theme.h1
 msgctxt "admin~admin.form.admin_theme.h1"
 msgid "Theme"
-msgstr ""
+msgstr "Тема"
 
 #: admin~admin.form.admin_theme.headerLogo.label
 msgctxt "admin~admin.form.admin_theme.headerLogo.label"
 msgid "Header - logo"
-msgstr ""
+msgstr "Шапка - логотип"
 
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
 msgid "The image to be used for the header logo (200ko Maximum)."
-msgstr ""
+msgstr "Изображение для использования в качестве логотипа в шапке сайта (максимум 200 KB)."
 
 #: admin~admin.form.admin_theme.headerLogoWidth.label
 msgctxt "admin~admin.form.admin_theme.headerLogoWidth.label"
 msgid "Header - logo width"
-msgstr ""
+msgstr "Шапка - ширина логотипа"
 
 #: admin~admin.form.admin_theme.headerLogoWidth.help
 msgctxt "admin~admin.form.admin_theme.headerLogoWidth.help"
 msgid "The width taken by the logo before the title (in pixels)."
-msgstr ""
+msgstr "Отступ по ширине, отводящийся для логотипа перед заголовком, px."
 
 #: admin~admin.form.admin_theme.headerBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.label"
 msgid "Header - background color"
-msgstr ""
+msgstr "Шапка - цвет фона"
 
 #: admin~admin.form.admin_theme.headerBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.help"
 msgid "The color of the header background."
-msgstr ""
+msgstr "Цвет фона заголовка."
 
 #: admin~admin.form.admin_theme.headerTitleColor.label
 msgctxt "admin~admin.form.admin_theme.headerTitleColor.label"
 msgid "Header - title color"
-msgstr ""
+msgstr "Шапка - цвет заголовка"
 
 #: admin~admin.form.admin_theme.headerTitleColor.help
 msgctxt "admin~admin.form.admin_theme.headerTitleColor.help"
 msgid "The color of the header title text."
-msgstr ""
+msgstr "Цвет текста заголовка в шапке."
 
 #: admin~admin.form.admin_theme.headerSubtitleColor.label
 msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.label"
 msgid "Header - subtitle color"
-msgstr ""
+msgstr "Шапка - цвет подзаголовка"
 
 #: admin~admin.form.admin_theme.headerSubtitleColor.help
 msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.help"
 msgid "The color of the header subtitle text."
-msgstr ""
+msgstr "Цвет текста подзаголовка в шапке."
 
 #: admin~admin.form.admin_theme.menuBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.label"
 msgid "Menu bar - background color"
-msgstr ""
+msgstr "Панель меню - цвет фона"
 
 #: admin~admin.form.admin_theme.menuBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.help"
 msgid "The color of the menu left bar background."
-msgstr ""
+msgstr "Цвет фона левой панели меню."
 
 #: admin~admin.form.admin_theme.dockBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.label"
 msgid "Docks - background color"
-msgstr ""
+msgstr "Прикрепляемые панели - цвет фона"
 
 #: admin~admin.form.admin_theme.dockBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.help"
 msgid "The color of the docks background."
-msgstr ""
+msgstr "Цвет фона прикрепляемых панелей."
 
 #: admin~admin.form.admin_theme.navbarColor.label
 msgctxt "admin~admin.form.admin_theme.navbarColor.label"
 msgid "Navigation bar - background color"
-msgstr ""
+msgstr "Панель навигации - цвет фона"
 
 #: admin~admin.form.admin_theme.navbarColor.help
 msgctxt "admin~admin.form.admin_theme.navbarColor.help"
 msgid "The background color of the navigation bar (zoom tools)."
-msgstr ""
+msgstr "Цвет фона панели навигации (масштабирования)."
 
 #: admin~admin.theme.detail.title
 msgctxt "admin~admin.theme.detail.title"
 msgid "Theme configuration"
-msgstr ""
+msgstr "Настройки темы"
 
 #: admin~admin.theme.button.remove.logo.label
 msgctxt "admin~admin.theme.button.remove.logo.label"
 msgid "Remove"
-msgstr ""
+msgstr "Удалить"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
 msgid "Remove this logo (and use default one) ?"
-msgstr ""
+msgstr "Удалить логотип и использовать стандартный?"
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
