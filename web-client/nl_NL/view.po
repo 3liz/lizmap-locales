@@ -2,13 +2,14 @@
 # Translators:
 # Jean-Louis Stanus <rammstan@msn.com>, 2017
 # Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2017
+# Thierry <thierry.chavalle@gate-16.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-14 17:03++0200\n"
-"PO-Revision-Date: 2017-09-07 09:53+0000\n"
-"Last-Translator: Jean-Louis Stanus <rammstan@msn.com>\n"
+"PO-Revision-Date: 2017-09-29 06:57+0000\n"
+"Last-Translator: Thierry <thierry.chavalle@gate-16.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/3liz-1/lizmap-locales/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -681,7 +682,7 @@ msgstr "Laad de kaart op"
 #: view~default.project.open.map.metadata
 msgctxt "view~default.project.open.map.metadata"
 msgid "View metadata"
-msgstr ""
+msgstr "Bekijk metagegevens"
 
 #: view~default.project.close.map.metadata
 msgctxt "view~default.project.close.map.metadata"
@@ -706,12 +707,12 @@ msgstr "Registreren"
 #: view~user.already.logged
 msgctxt "view~user.already.logged"
 msgid "You are already a authenticated user."
-msgstr ""
+msgstr "U bent al een geverifieerde gebruiker"
 
 #: view~user.title
 msgctxt "view~user.title"
 msgid "Registration"
-msgstr ""
+msgstr "Inschrijving"
 
 #: view~user.form.button.back.label
 msgctxt "view~user.form.button.back.label"
@@ -721,7 +722,7 @@ msgstr "Terug"
 #: view~user.form.createAccount.h1
 msgctxt "view~user.form.createAccount.h1"
 msgid "Request an account"
-msgstr ""
+msgstr "Vraag een account aan"
 
 #: view~user.form.login.label
 msgctxt "view~user.form.login.label"
@@ -813,19 +814,19 @@ msgstr "Anti-spam controle"
 #: view~user.form.submit.label
 msgctxt "view~user.form.submit.label"
 msgid "Send request"
-msgstr ""
+msgstr "Verzend verzoek"
 
 #: view~user.form.message.saved
 msgctxt "view~user.form.message.saved"
 msgid ""
 "Your request has been successfully sent. An e-mail has been sent to the "
 "administrator for validation."
-msgstr ""
+msgstr "Uw verzoek is succesvol verzonden. Er is een e-mail naar de beheerder gestuurd voor validatie."
 
 #: view~user.form.message.not.saved
 msgctxt "view~user.form.message.not.saved"
 msgid "An error occured while sending your request. Please try again."
-msgstr ""
+msgstr "Er is een fout opgetreden tijdens het verzenden van uw aanvraag. Probeer het opnieuw."
 
 #: view~user.email.admin.subject
 msgctxt "view~user.email.admin.subject"
@@ -842,7 +843,7 @@ msgstr "Iemand heeft een Lizmap account aangevraagd om toegang te krijgen tot de
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
 msgid "You have not the right to use the edition tools."
-msgstr ""
+msgstr "U hebt geen recht om de editie tools te gebruiken."
 
 #: view~edition.form.submit.label
 msgctxt "view~edition.form.submit.label"
@@ -887,7 +888,7 @@ msgstr "Toevoegen"
 #: view~edition.toolbar.draw.clear.title
 msgctxt "view~edition.toolbar.draw.clear.title"
 msgid "Clear"
-msgstr ""
+msgstr "Vrijmaken"
 
 #: view~edition.toolbar.draw.save.title
 msgctxt "view~edition.toolbar.draw.save.title"
@@ -932,7 +933,7 @@ msgstr "Annuleer"
 #: view~edition.toolbar.draw.tooltip
 msgctxt "view~edition.toolbar.draw.tooltip"
 msgid "Activate the tool for creating new objects."
-msgstr ""
+msgstr "Activeer het gereedschap voor het maken van nieuwe objecten."
 
 #: view~edition.toolbar.draw.clear.tooltip
 msgctxt "view~edition.toolbar.draw.clear.tooltip"
@@ -947,7 +948,7 @@ msgstr "Finaliseer de huidige tekening."
 #: view~edition.toolbar.select.tooltip
 msgctxt "view~edition.toolbar.select.tooltip"
 msgid "Activate the selection tool."
-msgstr ""
+msgstr "Activeer het selectievakje."
 
 #: view~edition.toolbar.select.unselect.tooltip
 msgctxt "view~edition.toolbar.select.unselect.tooltip"
@@ -957,12 +958,12 @@ msgstr "Verwijder het geselecteerde object uit."
 #: view~edition.toolbar.select.attr.tooltip
 msgctxt "view~edition.toolbar.select.attr.tooltip"
 msgid "Validate the geometry and/or open the attribute form."
-msgstr ""
+msgstr "Valideer de geometrie en / of open het attribuutformulier."
 
 #: view~edition.toolbar.select.undo.tooltip
 msgctxt "view~edition.toolbar.select.undo.tooltip"
 msgid "Revert into initial geometry state."
-msgstr ""
+msgstr "Ga terug naar de eerste geometrische toestand."
 
 #: view~edition.toolbar.select.delete.tooltip
 msgctxt "view~edition.toolbar.select.delete.tooltip"
@@ -987,12 +988,12 @@ msgstr "Geen functie is hier te vinden."
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"
 msgid "The bbox has to be 4 floats separated by ','!"
-msgstr ""
+msgstr "De bbox moet 4 floats zijn gescheiden door ','!"
 
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
 msgid "crs is mandatory and has to be an integer or EPSG:*!"
-msgstr ""
+msgstr "crs is verplicht en moet een geheel getal of EPSG zijn: *!"
 
 #: view~edition.message.error.delete
 msgctxt "view~edition.message.error.delete"
@@ -1007,7 +1008,7 @@ msgstr "De functie is verwijderd!"
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
 msgid "An error occured while creating the object!"
-msgstr ""
+msgstr "Er is een fout opgetreden tijdens het maken van het object!"
 
 #: view~edition.message.success.create
 msgctxt "view~edition.message.success.create"
@@ -1024,7 +1025,7 @@ msgstr "U kunt dit object zonder een geometrie opslaan. Gelieve de geometrie op 
 #: view~edition.upload.choice.keep
 msgctxt "view~edition.upload.choice.keep"
 msgid "Keep"
-msgstr ""
+msgstr "Houden"
 
 #: view~edition.upload.choice.update
 msgctxt "view~edition.upload.choice.update"
@@ -1051,14 +1052,14 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers! Please select only one "
 "object for one of the layers and retry."
-msgstr ""
+msgstr "U kunt meerdere objecten niet verbinden voor beide lagen! Selecteer slechts één object voor één van de lagen en probeer het opnieuw."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link!"
-msgstr ""
+msgstr "Er moet ten minste één object zijn geselecteerd voor elke laag om de link te maken!"
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
@@ -1073,12 +1074,12 @@ msgstr "Er is een fout opgetreden tijdens het toevoegen van gekoppelde gegevens!
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
 msgid "Selected features have been correctly linked!"
-msgstr ""
+msgstr "Geselecteerde functies zijn correct gekoppeld!"
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
 msgid "The child feature has correctly been unlinked!"
-msgstr ""
+msgstr "De kinderfunctie is correct ontkoppeld!"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
@@ -1098,17 +1099,17 @@ msgstr "Open documentatie"
 #: view~dictionnary.tree.button.removeCache
 msgctxt "view~dictionnary.tree.button.removeCache"
 msgid "Remove cache server for this layer"
-msgstr ""
+msgstr "Verwijder cachtserver voor deze laag"
 
 #: view~dictionnary.tree.button.expand
 msgctxt "view~dictionnary.tree.button.expand"
 msgid "Expand"
-msgstr ""
+msgstr "Uitbreiden"
 
 #: view~dictionnary.tree.button.collapse
 msgctxt "view~dictionnary.tree.button.collapse"
 msgid "Collapse"
-msgstr ""
+msgstr "Ineenstorting"
 
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
@@ -1123,22 +1124,22 @@ msgstr "Klik op de kaart om een lengte te meten."
 #: view~dictionnary.measure.activate.area
 msgctxt "view~dictionnary.measure.activate.area"
 msgid "Click on the map to start measuring an area."
-msgstr ""
+msgstr "Klik op de kaart om een ​​gebied te meten."
 
 #: view~dictionnary.measure.activate.perimeter
 msgctxt "view~dictionnary.measure.activate.perimeter"
 msgid "Click on the map to start measuring a perimeter."
-msgstr ""
+msgstr "Klik op de kaart om een ​​omtrek te meten."
 
 #: view~dictionnary.measure.handle
 msgctxt "view~dictionnary.measure.handle"
 msgid "Measure:"
-msgstr ""
+msgstr "Maat"
 
 #: view~dictionnary.geolocation.failed
 msgctxt "view~dictionnary.geolocation.failed"
 msgid "Location detection failed"
-msgstr ""
+msgstr "Locatie detectie mislukt"
 
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
@@ -1148,17 +1149,17 @@ msgstr "Editie"
 #: view~dictionnary.edition.draw.activate
 msgctxt "view~dictionnary.edition.draw.activate"
 msgid "Draw the feature you want to create on the map."
-msgstr ""
+msgstr "Teken de functie die u op de kaart wilt maken."
 
 #: view~dictionnary.edition.select.activate
 msgctxt "view~dictionnary.edition.select.activate"
 msgid "Click on one of the layer's features to select it."
-msgstr ""
+msgstr "Klik op een van de functies van de laag om het te selecteren."
 
 #: view~dictionnary.edition.select.modify.activate
 msgctxt "view~dictionnary.edition.select.modify.activate"
 msgid "You can modify the feature you have selected, then submit."
-msgstr ""
+msgstr "U kunt de functie die u hebt geselecteerd wijzigen en vervolgens indienen."
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -1168,7 +1169,7 @@ msgstr "Open de kalender"
 #: view~dictionnary.edition.datepicker.reset
 msgctxt "view~dictionnary.edition.datepicker.reset"
 msgid "Reset the date"
-msgstr ""
+msgstr "Stel de datum opnieuw in"
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -1272,13 +1273,13 @@ msgstr "Selecteer gezochte lijn"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title"
 msgid "Unselect all"
-msgstr ""
+msgstr "Schakel alles uit"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
 msgid "Move selected to top"
-msgstr ""
+msgstr "Beweeg geselecteerd naar boven"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
@@ -1294,29 +1295,29 @@ msgstr "Exporteren"
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
 msgid "Create feature"
-msgstr ""
+msgstr "Creëer functie"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
 msgid "Create a child"
-msgstr ""
+msgstr "Maak een kind aan"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived"
 msgid "Activated line needed!"
-msgstr ""
+msgstr "Geactiveerde lijn nodig!"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
 msgid "Toggle children tables"
-msgstr ""
+msgstr "Wissel kinderen tafels"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title"
 msgid "Link selected features"
-msgstr ""
+msgstr "Link geselecteerde functies"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.hide.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.hide.title"
@@ -1331,12 +1332,12 @@ msgstr "Bekijken"
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
 msgid "Refresh"
-msgstr ""
+msgstr "verversen"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
 msgid "Refresh the table data."
-msgstr ""
+msgstr "Vernieuw de tabelgegevens."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
 msgctxt ""
@@ -1352,7 +1353,7 @@ msgstr "Speld"
 #: view~dictionnary.attributeLayers.toolbar.msg.data.nodata
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.nodata"
 msgid "No result for this layer"
-msgstr ""
+msgstr "Geen resultaat voor deze laag"
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.extent
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.extent"
@@ -1377,7 +1378,7 @@ msgstr "Verwijderen"
 #: view~dictionnary.attributeLayers.btn.remove.link.title
 msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
 msgid "Unlink child"
-msgstr ""
+msgstr "Ontkoppel kind"
 
 #: view~dictionnary.attributeLayers.btn.select.title
 msgctxt "view~dictionnary.attributeLayers.btn.select.title"
@@ -1387,7 +1388,7 @@ msgstr "Selecteer"
 #: view~dictionnary.attributeLayers.btn.unselect.title
 msgctxt "view~dictionnary.attributeLayers.btn.unselect.title"
 msgid "Unselect"
-msgstr ""
+msgstr "unselect"
 
 #: view~dictionnary.attributeLayers.btn.zoom.title
 msgctxt "view~dictionnary.attributeLayers.btn.zoom.title"
@@ -1397,7 +1398,7 @@ msgstr "Zoomen"
 #: view~dictionnary.attributeLayers.btn.center.title
 msgctxt "view~dictionnary.attributeLayers.btn.center.title"
 msgid "Center"
-msgstr ""
+msgstr "In het midden plaatsen"
 
 #: view~dictionnary.attributeLayers.msg.layer.not.visible
 msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"

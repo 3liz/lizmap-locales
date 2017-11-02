@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-10 10:55++0100\n"
-"PO-Revision-Date: 2017-02-10 11:50+0000\n"
+"POT-Creation-Date: 2017-10-09 14:55++0200\n"
+"PO-Revision-Date: 2017-10-09 12:59+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/3liz-1/lizmap-locales/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -90,6 +90,11 @@ msgctxt "admin~jacl2.lizmap.tools.layer.export"
 msgid "Allow export of layers"
 msgstr "Permitir exportação do Plano de Informação"
 
+#: admin~admin.header.admin
+msgctxt "admin~admin.header.admin"
+msgid "Administration"
+msgstr ""
+
 #: admin~admin.menu.configuration.main.label
 msgctxt "admin~admin.menu.configuration.main.label"
 msgid "Lizmap configuration"
@@ -135,6 +140,11 @@ msgctxt "admin~admin.configuration.services.label"
 msgid "Services"
 msgstr "Serviços"
 
+#: admin~admin.configuration.services.qgisServerVersion.label
+msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
+msgid "QGIS server version"
+msgstr ""
+
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
 msgid "WMS server URL"
@@ -144,6 +154,16 @@ msgstr "URL do serviço WMS"
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
 msgid "WMS subdomain URLs list (optional)"
 msgstr "Lista de URLs dos subdomínios WMS (opcional)"
+
+#: admin~admin.configuration.services.wmsMaxWidth.label
+msgctxt "admin~admin.configuration.services.wmsMaxWidth.label"
+msgid "Maximum Witdh for GetMap request"
+msgstr ""
+
+#: admin~admin.configuration.services.wmsMaxHeight.label
+msgctxt "admin~admin.configuration.services.wmsMaxHeight.label"
+msgid "Maximum Height for GetMap request"
+msgstr ""
 
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
@@ -250,6 +270,21 @@ msgctxt "admin~admin.form.admin_services.appName.label"
 msgid "Application name"
 msgstr ""
 
+#: admin~admin.form.admin_services.qgisServerVersion.label
+msgctxt "admin~admin.form.admin_services.qgisServerVersion.label"
+msgid "QGIS server version"
+msgstr ""
+
+#: admin~admin.form.admin_services.qgisServerVersion.214.label
+msgctxt "admin~admin.form.admin_services.qgisServerVersion.214.label"
+msgid "≤ 2.14"
+msgstr ""
+
+#: admin~admin.form.admin_services.qgisServerVersion.218.label
+msgctxt "admin~admin.form.admin_services.qgisServerVersion.218.label"
+msgid "≥ 2.18"
+msgstr ""
+
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
 msgid "WMS server URL"
@@ -263,6 +298,16 @@ msgstr ""
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
 msgctxt "admin~admin.form.admin_services.message.wmsPublicUrlList.wrong"
 msgid "The WMS subdomain URLs structure is not valide."
+msgstr ""
+
+#: admin~admin.form.admin_services.wmsMaxWidth.label
+msgctxt "admin~admin.form.admin_services.wmsMaxWidth.label"
+msgid "Default max. Witdh for GetMap request"
+msgstr ""
+
+#: admin~admin.form.admin_services.wmsMaxHeight.label
+msgctxt "admin~admin.form.admin_services.wmsMaxHeight.label"
+msgid "Default max. Height for GetMap request"
 msgstr ""
 
 #: admin~admin.form.admin_services.cacheStorageType.label

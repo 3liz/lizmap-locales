@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-27 09:01++0200\n"
-"PO-Revision-Date: 2016-06-03 15:33+0000\n"
+"POT-Creation-Date: 2017-06-14 17:03++0200\n"
+"PO-Revision-Date: 2017-09-22 22:08+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/3liz-1/lizmap-locales/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -52,8 +52,8 @@ msgstr "Υπόμνημα με χάρτης"
 
 #: view~map.search.nominatim.placeholder
 msgctxt "view~map.search.nominatim.placeholder"
-msgid "Street, City"
-msgstr "Οδος, πόλη"
+msgid "Search"
+msgstr ""
 
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"
@@ -80,24 +80,14 @@ msgctxt "view~map.measure.navbar.title"
 msgid "Measure"
 msgstr "Μέτρηση"
 
-#: view~map.measure.navbar.title.length
-msgctxt "view~map.measure.navbar.title.length"
-msgid "Length"
-msgstr "Μήκος"
-
-#: view~map.measure.navbar.title.area
-msgctxt "view~map.measure.navbar.title.area"
-msgid "Area"
-msgstr "Έκταση"
-
-#: view~map.measure.navbar.title.perimeter
-msgctxt "view~map.measure.navbar.title.perimeter"
-msgid "Perimeter"
-msgstr "Περίμετρο"
-
 #: view~map.permalink.navbar.title
 msgctxt "view~map.permalink.navbar.title"
 msgid "Permalink"
+msgstr ""
+
+#: view~map.selectiontool.navbar.title
+msgctxt "view~map.selectiontool.navbar.title"
+msgid "Selection"
 msgstr ""
 
 #: view~map.toolbar.content.underway
@@ -119,6 +109,21 @@ msgstr "Εκτύπωση"
 msgctxt "view~map.print.toolbar.scale"
 msgid "Scale"
 msgstr "Κλίμακα"
+
+#: view~map.print.toolbar.dpi
+msgctxt "view~map.print.toolbar.dpi"
+msgid "DPI"
+msgstr ""
+
+#: view~map.print.toolbar.format
+msgctxt "view~map.print.toolbar.format"
+msgid "Format"
+msgstr ""
+
+#: view~map.print.toolbar.template
+msgctxt "view~map.print.toolbar.template"
+msgid "Template"
+msgstr ""
 
 #: view~map.tooltip.toolbar.title
 msgctxt "view~map.tooltip.toolbar.title"
@@ -145,20 +150,85 @@ msgctxt "view~map.geolocate.toolbar.bind"
 msgid "Stay centered"
 msgstr "Νε μένει στο κέντρο"
 
-#: view~map.measure.toolbar.title.length
-msgctxt "view~map.measure.toolbar.title.length"
-msgid "Length measure"
-msgstr "Μέτρηση αποστάσης"
+#: view~map.measure.toolbar.title
+msgctxt "view~map.measure.toolbar.title"
+msgid "Measures"
+msgstr ""
 
-#: view~map.measure.toolbar.title.area
-msgctxt "view~map.measure.toolbar.title.area"
-msgid "Area measure"
-msgstr "Μέτρηση έκτασης"
+#: view~map.measure.toolbar.length
+msgctxt "view~map.measure.toolbar.length"
+msgid "Length"
+msgstr ""
 
-#: view~map.measure.toolbar.title.perimeter
-msgctxt "view~map.measure.toolbar.title.perimeter"
-msgid "Perimeter measure"
-msgstr "Μέτρηση περιμέτρου"
+#: view~map.measure.toolbar.area
+msgctxt "view~map.measure.toolbar.area"
+msgid "Area"
+msgstr ""
+
+#: view~map.measure.toolbar.perimeter
+msgctxt "view~map.measure.toolbar.perimeter"
+msgid "Perimeter"
+msgstr ""
+
+#: view~map.selectiontool.toolbar.title
+msgctxt "view~map.selectiontool.toolbar.title"
+msgid "Selection"
+msgstr ""
+
+#: view~map.selectiontool.toolbar.layer
+msgctxt "view~map.selectiontool.toolbar.layer"
+msgid "Selection layer"
+msgstr ""
+
+#: view~map.selectiontool.toolbar.query.deactivate
+msgctxt "view~map.selectiontool.toolbar.query.deactivate"
+msgid "Deactivate"
+msgstr ""
+
+#: view~map.selectiontool.toolbar.query.box
+msgctxt "view~map.selectiontool.toolbar.query.box"
+msgid "Box"
+msgstr ""
+
+#: view~map.selectiontool.toolbar.query.circle
+msgctxt "view~map.selectiontool.toolbar.query.circle"
+msgid "Circle"
+msgstr ""
+
+#: view~map.selectiontool.toolbar.query.polygon
+msgctxt "view~map.selectiontool.toolbar.query.polygon"
+msgid "Polygon"
+msgstr ""
+
+#: view~map.selectiontool.toolbar.query.freehand
+msgctxt "view~map.selectiontool.toolbar.query.freehand"
+msgid "Free hand"
+msgstr ""
+
+#: view~map.selectiontool.toolbar.action.type.refresh
+msgctxt "view~map.selectiontool.toolbar.action.type.refresh"
+msgid "New selection"
+msgstr ""
+
+#: view~map.selectiontool.toolbar.action.type.plus
+msgctxt "view~map.selectiontool.toolbar.action.type.plus"
+msgid "Add to selection"
+msgstr ""
+
+#: view~map.selectiontool.toolbar.action.type.minus
+msgctxt "view~map.selectiontool.toolbar.action.type.minus"
+msgid "Remove from selection"
+msgstr ""
+
+#: view~map.selectiontool.toolbar.action.unselect
+msgctxt "view~map.selectiontool.toolbar.action.unselect"
+msgid "Unselect all"
+msgstr ""
+
+#: view~map.selectiontool.toolbar.action.filter
+msgctxt "view~map.selectiontool.toolbar.action.filter"
+msgid "Filter"
+msgstr ""
 
 #: view~map.menu.close.hover
 msgctxt "view~map.menu.close.hover"
@@ -207,8 +277,8 @@ msgstr "Zoom με τετράγωνο"
 
 #: view~map.navbar.zoomextent.hover
 msgctxt "view~map.navbar.zoomextent.hover"
-msgid "Zoom to map extent"
-msgstr "Zoom σε όλο το χάρτη"
+msgid "Zoom to initial map extent"
+msgstr ""
 
 #: view~map.navbar.zoomin.hover
 msgctxt "view~map.navbar.zoomin.hover"
@@ -295,9 +365,14 @@ msgctxt "view~map.mouseposition.units.dms"
 msgid "D. M. S."
 msgstr ""
 
-#: view~map.permalink.title
-msgctxt "view~map.permalink.title"
+#: view~map.permalink.toolbar.title
+msgctxt "view~map.permalink.toolbar.title"
 msgid "Permalink"
+msgstr ""
+
+#: view~map.permalink.toolbar.link
+msgctxt "view~map.permalink.toolbar.link"
+msgid "Link to current map"
 msgstr ""
 
 #: view~map.permalink.geobookmark.title
@@ -344,6 +419,11 @@ msgstr "Φόρτωση δεδομένων"
 msgctxt "view~map.popup.table.th.data"
 msgid "Field"
 msgstr "Στήλη"
+
+#: view~map.popup.table.th.band
+msgctxt "view~map.popup.table.th.band"
+msgid "Band"
+msgstr ""
 
 #: view~map.popup.table.th.value
 msgctxt "view~map.popup.table.th.value"
@@ -512,9 +592,24 @@ msgid ""
 "its data."
 msgstr ""
 
+#: view~map.attributeLayers.options.title
+msgctxt "view~map.attributeLayers.options.title"
+msgid "Options"
+msgstr ""
+
 #: view~map.attributeLayers.options.input.cascade.label
 msgctxt "view~map.attributeLayers.options.input.cascade.label"
 msgid "Cascade filter to children"
+msgstr ""
+
+#: view~map.switcher.layers.expand.title
+msgctxt "view~map.switcher.layers.expand.title"
+msgid "Expand all"
+msgstr ""
+
+#: view~map.switcher.layers.collapse.title
+msgctxt "view~map.switcher.layers.collapse.title"
+msgid "Collapse all"
 msgstr ""
 
 #: view~map.switcher.layer.metadata.title
@@ -611,6 +706,11 @@ msgstr "Εγγραφή"
 msgctxt "view~user.already.logged"
 msgid "You are already a authenticated user."
 msgstr "Είστε ήδη ειδοποιημένο."
+
+#: view~user.title
+msgctxt "view~user.title"
+msgid "Registration"
+msgstr ""
 
 #: view~user.form.button.back.label
 msgctxt "view~user.form.button.back.label"
@@ -999,6 +1099,16 @@ msgctxt "view~dictionnary.tree.button.removeCache"
 msgid "Remove cache server for this layer"
 msgstr "Να σβήσουμε το server cache  για αυτό το στρώμα δεδομένων"
 
+#: view~dictionnary.tree.button.expand
+msgctxt "view~dictionnary.tree.button.expand"
+msgid "Expand"
+msgstr ""
+
+#: view~dictionnary.tree.button.collapse
+msgctxt "view~dictionnary.tree.button.collapse"
+msgid "Collapse"
+msgstr ""
+
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
 msgid "Place the rectangle for printing"
@@ -1049,6 +1159,16 @@ msgctxt "view~dictionnary.edition.select.modify.activate"
 msgid "You can modify the feature you have selected, then submit."
 msgstr "Μπορείτε να αλλάζετε το αντικείμεο που επιλέξατε."
 
+#: view~dictionnary.edition.datepicker.open
+msgctxt "view~dictionnary.edition.datepicker.open"
+msgid "Open the calendar"
+msgstr ""
+
+#: view~dictionnary.edition.datepicker.reset
+msgctxt "view~dictionnary.edition.datepicker.reset"
+msgid "Reset the date"
+msgstr ""
+
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
@@ -1077,6 +1197,11 @@ msgstr "Αναζήτηση"
 msgctxt "view~dictionnary.externalsearch.notfound"
 msgid "No results"
 msgstr "Χώρις αποτέλεσμα"
+
+#: view~dictionnary.externalsearch.mapdata
+msgctxt "view~dictionnary.externalsearch.mapdata"
+msgid "Map data"
+msgstr ""
 
 #: view~dictionnary.timemanager.toolbar.play
 msgctxt "view~dictionnary.timemanager.toolbar.play"
@@ -1116,6 +1241,11 @@ msgstr ""
 #: view~dictionnary.bottomdock.toolbar.btn.size.minimize.title
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.btn.detail
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
+msgid "Detail"
 msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
@@ -1171,6 +1301,12 @@ msgctxt ""
 msgid "Create a child"
 msgstr ""
 
+#: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived"
+msgid "Activated line needed!"
+msgstr ""
+
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
 msgid "Toggle children tables"
@@ -1190,6 +1326,22 @@ msgstr "Κρυμμένο"
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
 msgid "Show"
 msgstr "Παρουσίαση"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
+msgid "Refresh"
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
+msgid "Refresh the table data."
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
+msgid "The map extent has changed since the last time data were fetched."
+msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.lines
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
@@ -1246,6 +1398,28 @@ msgctxt "view~dictionnary.attributeLayers.btn.center.title"
 msgid "Center"
 msgstr "Κέντρο"
 
+#: view~dictionnary.attributeLayers.msg.layer.not.visible
+msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
+msgid ""
+"The layer is not visible. Please zoom at a scale in which the features are "
+"visible."
+msgstr ""
+
+#: view~dictionnary.selectiontool.results.none
+msgctxt "view~dictionnary.selectiontool.results.none"
+msgid "No object selected"
+msgstr ""
+
+#: view~dictionnary.selectiontool.results.one
+msgctxt "view~dictionnary.selectiontool.results.one"
+msgid "1 selected object"
+msgstr ""
+
+#: view~dictionnary.selectiontool.results.more
+msgctxt "view~dictionnary.selectiontool.results.more"
+msgid "%s selected objects"
+msgstr ""
+
 #: view~dictionnary.layer.metadata.title
 msgctxt "view~dictionnary.layer.metadata.title"
 msgid "Information"
@@ -1286,6 +1460,26 @@ msgctxt "view~dictionnary.layer.metadata.layer.info.see"
 msgid "Documentation"
 msgstr ""
 
+#: view~dictionnary.layer.metadata.zoomToExtent.title
+msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
+msgid "Zoom to layer extent"
+msgstr ""
+
+#: view~dictionnary.layer.metadata.style.title
+msgctxt "view~dictionnary.layer.metadata.style.title"
+msgid "Change layer style"
+msgstr ""
+
+#: view~dictionnary.layer.metadata.export.title
+msgctxt "view~dictionnary.layer.metadata.export.title"
+msgid "Export"
+msgstr ""
+
+#: view~dictionnary.layer.metadata.opacity.title
+msgctxt "view~dictionnary.layer.metadata.opacity.title"
+msgid "Opacity"
+msgstr ""
+
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
@@ -1299,4 +1493,14 @@ msgstr ""
 #: view~dictionnary.geobookmark.confirm.delete
 msgctxt "view~dictionnary.geobookmark.confirm.delete"
 msgid "Are you sure you want to delete this bookmark?"
+msgstr ""
+
+#: view~dictionnary.popup.msg.no.result
+msgctxt "view~dictionnary.popup.msg.no.result"
+msgid "No object has been found at this location."
+msgstr ""
+
+#: view~dictionnary.generic.btn.close.title
+msgctxt "view~dictionnary.generic.btn.close.title"
+msgid "Close"
 msgstr ""

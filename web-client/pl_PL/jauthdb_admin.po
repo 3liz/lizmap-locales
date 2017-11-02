@@ -1,28 +1,28 @@
 # 
 # Translators:
-# Sławomir Bienias <slawomir.bienias@gmail.com>, 2016
+# Sławomir Bienias <slawomir.bienias@gmail.com>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-09 14:50++0100\n"
-"PO-Revision-Date: 2016-04-19 20:48+0000\n"
+"POT-Creation-Date: 2017-01-25 13:03++0100\n"
+"PO-Revision-Date: 2017-09-22 22:41+0000\n"
 "Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl_PL\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: jauthdb_admin~user.title.update
 msgctxt "jauthdb_admin~user.title.update"
-msgid "Edit your profil"
-msgstr "Edytuj profil"
+msgid "Edit your profile"
+msgstr "Edytuj swój profil"
 
 #: jauthdb_admin~user.title.view
 msgctxt "jauthdb_admin~user.title.view"
-msgid "Details of your profil"
+msgid "Details of your profile"
 msgstr "Szczegółowe informacje Twojego profilu"
 
 #: jauthdb_admin~user.title.password
@@ -32,7 +32,7 @@ msgstr "Zmień swoje hasło"
 
 #: jauthdb_admin~user.link.return.to.view
 msgctxt "jauthdb_admin~user.link.return.to.view"
-msgid "Return to your profil summary"
+msgid "Return to your profile summary"
 msgstr "Powróć do podsumowania profilu"
 
 #: jauthdb_admin~user.link.view.record
@@ -129,7 +129,7 @@ msgstr "Inne informacje"
 
 #: jauthdb_admin~user.view.primaryinfo
 msgctxt "jauthdb_admin~user.view.primaryinfo"
-msgid "Information on your profil"
+msgid "Information on your profile"
 msgstr "Informacje Twojego profilu"
 
 #: jauthdb_admin~crud.title.list
