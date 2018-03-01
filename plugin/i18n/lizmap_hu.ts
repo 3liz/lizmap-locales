@@ -54,7 +54,7 @@
     <message>
         <location filename="lizmap.py" line="1729"/>
         <source>Errors encountered while reading the last layer tree state. Please re-configure the options in the Layers tab completely</source>
-        <translation type="unfinished"/>
+        <translation>Hiba történt a réteg-fa állapotának olvasásakor. Kérjük, hogy állítsa be újra a teljes rétegek részleteit.</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="1598"/>
@@ -64,7 +64,11 @@
     <message>
         <location filename="lizmap.py" line="1598"/>
         <source>ui.msg.question.refresh.content</source>
-        <translation type="unfinished"/>
+        <translation>Az &quot;Igen&quot;-re való kattintással frissítheti a rétegszerkezetet.
+Az utolsó mentés óta végzett összes módosítás el fog veszni (csoport vagy réteg metaadatok és beállítások)
+Ha bármely csoport vagy réteg átnevezésre került, az említett információk szintén elvesznek.
+
+Frissítsük a rétegszerkezetet?</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="1711"/>
@@ -79,7 +83,7 @@
     <message>
         <location filename="lizmap.py" line="2404"/>
         <source>The project layer paths must be set to relative. Please change this options in the project settings.</source>
-        <translation type="unfinished"/>
+        <translation>A projekt rétegeinek elérését relatív elérési útra kell állítani. Kérjük állítsa át a projekt beállításaiban.</translation>
     </message>
     <message>
         <location filename="lizmap.py" line="2723"/>
@@ -149,7 +153,7 @@
     <message>
         <location filename="ui_lizmap.ui" line="512"/>
         <source>Single Tile?</source>
-        <translation type="unfinished"/>
+        <translation>Csempék generálása egyesével?</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="533"/>
@@ -194,7 +198,7 @@
     <message>
         <location filename="ui_lizmap.ui" line="1247"/>
         <source>You can add baselayers from public sources. If so, you must add the SCR &quot;Pseudo Mercator&quot; (EPSG:3857) in your WMS project OWS settings.</source>
-        <translation type="unfinished"/>
+        <translation>Megadhat publikus háttérrétegeket. Ha így tesz, adja meg az SCR &quot;Pseudo Mercator&quot; (EPSG:3857) vetületet a WMS projekt OWS beállításaiban.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3142"/>
@@ -214,7 +218,7 @@
     <message>
         <location filename="lizmap.py" line="2570"/>
         <source>Wrong or missing map parameters: please read the log and correct the printed errors.</source>
-        <translation type="unfinished"/>
+        <translation>Hibás vagy hiányzó térkép-paraméterek. Kérem ellenórizze a log-ot és javítsa a hibákat. </translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1265"/>
@@ -254,7 +258,7 @@
     <message>
         <location filename="ui_lizmap.ui" line="557"/>
         <source>Metatile</source>
-        <translation type="unfinished"/>
+        <translation>Metatile</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="350"/>
@@ -284,7 +288,7 @@
     <message>
         <location filename="ui_lizmap.ui" line="1882"/>
         <source>You can add up to 3 layers as a source of the locating tool</source>
-        <translation type="unfinished"/>
+        <translation>Megadhat 3 réteget a lokátor eszközhöz</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3004"/>
@@ -319,12 +323,12 @@
     <message>
         <location filename="ui_lizmap.ui" line="86"/>
         <source>Project layers</source>
-        <translation type="unfinished"/>
+        <translation>Projekt-rétegek</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="126"/>
         <source>Selected item settings</source>
-        <translation type="unfinished"/>
+        <translation>A kiválasztott elem beállításai</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="735"/>
@@ -349,7 +353,7 @@
     <message>
         <location filename="ui_lizmap.ui" line="756"/>
         <source>Measure tools</source>
-        <translation>Mérési eszköz</translation>
+        <translation>Mérési eszközök</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="800"/>
@@ -366,7 +370,7 @@
         <source>Write down integer scales separated by coma.
 You must enter at least 2 min and max values.
 Ex: 1000, 250000</source>
-        <translation type="unfinished"/>
+        <translation>Adja meg a méreteket egész számmal, vesszővel elválasztva. Legalább 2 értéket -minimum és maximum- kell megadnia. pl: 1000,250000</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="433"/>
@@ -386,7 +390,7 @@ Ex: 1000, 250000</source>
     <message>
         <location filename="ui_lizmap.ui" line="2516"/>
         <source>You can add up to 5 layers in the list and choose editing capabilities for each one.</source>
-        <translation type="unfinished"/>
+        <translation>Megadhat 5 réteget és kiválaszthatja a szerkesztési lehetőségeket mindegyikre egyesével.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2602"/>
@@ -411,7 +415,9 @@ Ex: 1000, 250000</source>
     <message>
         <location filename="lizmap.py" line="2438"/>
         <source>ui.msg.error.project.layers.path.relative {}</source>
-        <translation type="unfinished"/>
+        <translation>A rétegek útvonalát relatív útvonalra kell beállítani a projektfájlhoz. Kérem másolja a rétegeket ide:
+{}
+vagy a felül illetve oldalt lévő könyvtárak egyikébe</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2698"/>
@@ -421,7 +427,7 @@ Ex: 1000, 250000</source>
     <message>
         <location filename="ui_lizmap.ui" line="2704"/>
         <source>tools.loginFilteredLayers.description</source>
-        <translation type="unfinished"/>
+        <translation>Az bejelentkezett felhasználók csak akkor fogják látni az adatokat, ha a megfelelő csoport tagjai, vagy ha a &quot;Szűrés felhasználó alapján&quot; engedélyezve van.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2745"/>
@@ -431,43 +437,44 @@ Ex: 1000, 250000</source>
     <message>
         <location filename="ui_lizmap.ui" line="1046"/>
         <source>Initial map extent</source>
-        <translation type="unfinished"/>
+        <translation>A térkép széleinek megadása megnyitáskor</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1052"/>
         <source>You can define here the initial extent of the map.
 This is different to the map maximum extent (defined in QGIS project properties, &quot;OWS Server&quot; tab).</source>
-        <translation type="unfinished"/>
+        <translation>Itt adhatja meg a térkép láthatóságának széleit a betöltődéskor.
+Ez eltér a térkép maximális láthatóságának széleitől (QGIS/Projekt tulajdonságok/OWS Server szekció).</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1062"/>
         <source>Extent</source>
-        <translation type="unfinished"/>
+        <translation>Külső határ</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1080"/>
         <source>Set from project properties</source>
-        <translation type="unfinished"/>
+        <translation>Beállítás a projekt-tulajdonságokból</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1087"/>
         <source>Set from map canvas</source>
-        <translation type="unfinished"/>
+        <translation>Beállítás a térkép szélei alapján</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1945"/>
         <source>Display field</source>
-        <translation type="unfinished"/>
+        <translation>Megjelenített mező</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1898"/>
         <source>Optional group by field</source>
-        <translation type="unfinished"/>
+        <translation>Csoportosítás mező alapján /Nem kötelező/</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2091"/>
         <source>Group field</source>
-        <translation type="unfinished"/>
+        <translation>Csoport mező</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1220"/>
@@ -497,7 +504,7 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="1498"/>
         <source>Plan</source>
-        <translation type="unfinished"/>
+        <translation>Plan</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1627"/>
@@ -552,12 +559,12 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="2832"/>
         <source>Add layers here to let the user play an animation based on an date or date/time attribute value. Similar to QGIS Timemanager plugin, but web based.</source>
-        <translation type="unfinished"/>
+        <translation>Az itt megadott rétegekre, a felhasználók animációt láthatnak a beállított dátum/idő értékek alapján. Hasonló a QGIS Timemanager kiegészítőjéhez, de web alapú.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2844"/>
         <source>Frame type</source>
-        <translation type="unfinished"/>
+        <translation>Keret típusa</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2854"/>
@@ -567,7 +574,7 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="2871"/>
         <source>Animation frame length (milliseconds)</source>
-        <translation type="unfinished"/>
+        <translation>Animációs keret hossza (ezredmásodperc)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2894"/>
@@ -602,7 +609,7 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="3020"/>
         <source>Start attribute</source>
-        <translation type="unfinished"/>
+        <translation>Kezdő attribútum</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3040"/>
@@ -622,7 +629,7 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="3050"/>
         <source>Hover label</source>
-        <translation type="unfinished"/>
+        <translation>Címke</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="234"/>
@@ -632,7 +639,7 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="490"/>
         <source>Get images directly from WMS Server</source>
-        <translation type="unfinished"/>
+        <translation>Képek közvetlen letöltése WMS szerverről</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="604"/>
@@ -657,7 +664,7 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="1570"/>
         <source>Add an empty base layer (with project background color)</source>
-        <translation type="unfinished"/>
+        <translation>Üres háttérréteg hozzáadása (a projekt háttérszínével)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="415"/>
@@ -672,37 +679,37 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="224"/>
         <source>Display in Legend tree</source>
-        <translation type="unfinished"/>
+        <translation>Mutassa a jelmagyarázatban</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2101"/>
         <source>Autocompletion after</source>
-        <translation type="unfinished"/>
+        <translation>Automatikus kiegészítés</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1955"/>
         <source>If you set a value above 0, autocompletion will be used after this amount of characters while the user types. The classical combobox will be replaced by a editable text input</source>
-        <translation type="unfinished"/>
+        <translation>Ha az értéket 0-tól eltérőre változtatja az automatikus kiegészítés a megadott számú karakter leütése után működésbe lép. A szokásos &quot;combobox&quot; egy szerkeszthető beviteli mezőre cserélődik.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2988"/>
         <source>order</source>
-        <translation type="unfinished"/>
+        <translation>sorrend</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="147"/>
         <source>Metadata</source>
-        <translation type="unfinished"/>
+        <translation>Metaadat</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="388"/>
         <source>Map options</source>
-        <translation type="unfinished"/>
+        <translation>Térkép-beállítások</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="594"/>
         <source>Embedded layers and groups</source>
-        <translation type="unfinished"/>
+        <translation>Kapcsolt rétegek és csoportok</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="480"/>
@@ -712,17 +719,17 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="lizmap.py" line="2398"/>
         <source>ui.msg.error.project.option.capitalizeLayerName</source>
-        <translation type="unfinished"/>
+        <translation>Kérem kapcsolja ki a QGIS/Beállítások/Beállítások/Térkép és jelmagyarázat szekciójában a &quot;Nagybetűs rétegnevek&quot; beállítást, mert problémákat okozhat a Lizmap működésében.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="116"/>
         <source>Hide checkboxes for groups</source>
-        <translation>A csoportok jelülőnégyzeteinek elrejtése</translation>
+        <translation>A csoportok jelölőnégyzeteinek elrejtése</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1112"/>
         <source>Map interface</source>
-        <translation type="unfinished"/>
+        <translation>Térkép felület</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1118"/>
@@ -742,7 +749,7 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="1139"/>
         <source>Hide scale and overview map</source>
-        <translation type="unfinished"/>
+        <translation>A méretezés és az áttekintő térkép elrejtése</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1146"/>
@@ -757,12 +764,12 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="2133"/>
         <source>The attribute table of the chosen layers can be displayed in Lizmap Web Client. Add any vector layers here and publish them as WFS (QGIS project properties, tab OWS Server)</source>
-        <translation type="unfinished"/>
+        <translation>A kiválasztott rétegek attribútumtáblája megjeleníthető a Lizmap Webkliensben. Adja meg a kívánt rétegeket  és engedélyezze a WFS képességeket a QGIS/Projekt tulajdonságok/OWS szerver szekcióban (a kívánt rétegekre)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2196"/>
         <source>attribute layer id</source>
-        <translation type="unfinished"/>
+        <translation>attribútum réteg id</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2768"/>
@@ -777,12 +784,12 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="2181"/>
         <source>Pivot table</source>
-        <translation type="unfinished"/>
+        <translation>Pivot tábla</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2244"/>
         <source>Pivot table?</source>
-        <translation type="unfinished"/>
+        <translation>Pivot tábla?</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2234"/>
@@ -802,19 +809,21 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="2106"/>
         <source>Filter layer on zoom</source>
-        <translation type="unfinished"/>
+        <translation>Réteg szűrése zoom alapján</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1998"/>
         <source>If the layer is published via the attribute layers tool below, and this checkbox is checked,
 zooming on a feature with the locate tool will trigger the filter of the layer for the selected feature.
 Only the selected feature will be visible on the map.</source>
-        <translation type="unfinished"/>
+        <translation>Ha a jelölőnégyzet ki van pipálva a megadott rétegek esetén 
+az elemekre való közelítés automatikusan szűri látható elemeket
+Csak a megadott elemek lesznek láthatóak a térképen.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3149"/>
         <source>The FTP sync tool has been removed. Please use a FTP client like Filezilla, WinSCP or FireFTP to synchronize your local data with the Lizmap Web Client server. This is safer because you can then have a look at the remote data, and decide precisely which files you need to synchronize. Documentation: http://docs.3liz.com/en/publisher_guide/publish_with_ftp.html</source>
-        <translation type="unfinished"/>
+        <translation>Az FTP szinkronizálás eszköz eltávolításra került. Használjon FTP kliensalkalmazást pl: Filezilla, WinSCP vagy FireFTP a helyi adatok, Lizmap Webkliens szerverével történő szinkronizálására. Ez a megoldás biztonságosabb, mert így pontosan megadható, hogy melyik file-ok kerüljenek szinkronizálásra. Dokumentáció: http://docs.3liz.com/en/publisher_guide/publish_with_ftp.html</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2335"/>
@@ -824,7 +833,7 @@ Only the selected feature will be visible on the map.</source>
     <message>
         <location filename="ui_lizmap.ui" line="2344"/>
         <source>You can let the user activate map tooltips when hovering features. Choose a layer, add a coma separated list of field names to display in the tooltip, and optionaly choose to display the geometry. You can also choose the geometry color (use an HTML color code)</source>
-        <translation type="unfinished"/>
+        <translation>A felhasználók bekapcsolhatják a térképen a tooltip-eket, ha a térképelemek fölé húzzák az egér mutatóját. Válassza ki a réteget, adja meg a megjelenítendő mezők neveit vesszővel elválasztva. Van lehetősége a geometria mutatására is. Megadhatja a geometria jelölésének színét is (HTML színkóddal) </translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2403"/>
@@ -849,17 +858,17 @@ Only the selected feature will be visible on the map.</source>
     <message>
         <location filename="lizmap.py" line="2550"/>
         <source>ui.msg.warning.toolLayer.notInWfs</source>
-        <translation type="unfinished"/>
+        <translation>Az eszköz használatához kérem engedélyezze a &quot;Projekt tulajdonságok&quot;  &quot;OWS szerver&quot; szekciójának &quot;WCS képességek&quot; beállítást a megadott rétegekre.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1522"/>
         <source>Cadastre</source>
-        <translation type="unfinished"/>
+        <translation>Cadastre</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1158"/>
         <source>Information popup container</source>
-        <translation type="unfinished"/>
+        <translation>Popup-ok megjelenítése</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="321"/>
@@ -884,22 +893,22 @@ Only the selected feature will be visible on the map.</source>
     <message>
         <location filename="ui_lizmap.ui" line="1166"/>
         <source>dock</source>
-        <translation type="unfinished"/>
+        <translation>dokkoló</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1171"/>
         <source>minidock</source>
-        <translation type="unfinished"/>
+        <translation>minidokkoló</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1176"/>
         <source>map</source>
-        <translation type="unfinished"/>
+        <translation>térkép</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="857"/>
         <source>Popup click tolerance (pixels)</source>
-        <translation type="unfinished"/>
+        <translation>Popup kattintási tolerancia (pixel)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="877"/>
@@ -924,7 +933,7 @@ Only the selected feature will be visible on the map.</source>
     <message>
         <location filename="ui_lizmap.ui" line="1582"/>
         <source>Active baselayer at startup</source>
-        <translation>Háttérréteg bekapcsolása induléskor</translation>
+        <translation>Háttérréteg bekapcsolása induláskor</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="209"/>
@@ -939,32 +948,32 @@ Only the selected feature will be visible on the map.</source>
     <message>
         <location filename="ui_lizmap.ui" line="378"/>
         <source>Display related children under each object (use relations)</source>
-        <translation type="unfinished"/>
+        <translation>Mutassa a származtatott gyermekeket minden objektumra (függőségek használata)</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="525"/>
         <source>Server tile cache</source>
-        <translation type="unfinished"/>
+        <translation>Csempék gyorsítótárazása a szerveren</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="713"/>
         <source>Restrict access to the following groups</source>
-        <translation type="unfinished"/>
+        <translation>Hozzáférés tiltása a következő csoportoknak:</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="720"/>
         <source>List of group id separated by comma. Leave empty if access is not restricted.</source>
-        <translation type="unfinished"/>
+        <translation>Csoportazonosítók listája vesszővel elválasztva. Hagyja üresen, ha nincs tiltott csoport.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2143"/>
         <source>The attribute table will only show the data for the map extent, and only if the layer if visible at current map scale. Useful for big datasets.</source>
-        <translation type="unfinished"/>
+        <translation>Az attribútumtábla csak a térképen látható adatokat mutatja és csak azokra a téregekre, melyek az aktuális közelítésben láthatók. Hasznos nagy adatállományok esetén.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2149"/>
         <source>Limit fetched data to the current map extent and layer visibility</source>
-        <translation type="unfinished"/>
+        <translation>Szűrje a leválogatott adatokat a térképnézet és a rétegek láthatósága alapján</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2191"/>
@@ -984,22 +993,22 @@ Only the selected feature will be visible on the map.</source>
     <message>
         <location filename="ui_lizmap.ui" line="30"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Options in blue background are only usable with Lizmap Web Client &lt;span style=&quot; font-weight:600;&quot;&gt;3.1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A kék háttérrel jelölt beállítások csak a Lizmap Webkliens felsorolt verzióiban elérhetők:  &lt;span style=&quot; font-weight:600;&quot;&gt;3.1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="372"/>
         <source>When checked, Lizmap will show children data under each parent popup. You should activate popup for parent and child layers.</source>
-        <translation type="unfinished"/>
+        <translation>Ha ki van pipálva, a Lizmap meg fogja jeleníteni a gyermekek adatait minden szülő popup-jában. Engedélyezze a popup-okat a szülő és a gyermek rétegeken is.</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2271"/>
         <source>No button &quot;Detail&quot; will be shown in Lizmap to open the attribute table, but related features such as selection and filter will be available.</source>
-        <translation type="unfinished"/>
+        <translation>A &quot;részletek&quot; gomb nem fog megjelenni a Lizmap-ban az attribútumtábla megnyitásához, de a kapcsolódó funkciók, mint a szelekció vagy szűrés elérhetőek lesznek. </translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2637"/>
         <source>Use a comma separated list of Lizmap groups ids to restrict access to this layer editing.</source>
-        <translation type="unfinished"/>
+        <translation>Sorolja fel a csoportazonosítókat vesszővel elválasztva. A felsorolt csoportok tagjai nem használhatják a szerkesztő eszközt erre a rétegre.</translation>
     </message>
 </context>
 <context>
@@ -1007,7 +1016,7 @@ Only the selected feature will be visible on the map.</source>
     <message>
         <location filename="ui_lizmap_popup.py" line="66"/>
         <source>Lizmap - Popup</source>
-        <translation type="unfinished"/>
+        <translation>Lizmap - a réteg popup beállításai</translation>
     </message>
     <message>
         <location filename="ui_lizmap_popup.py" line="67"/>

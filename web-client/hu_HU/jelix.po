@@ -1,13 +1,14 @@
 # 
 # Translators:
-# kasza jozsef <kasza.nkataszri@gmail.com>, 2018
+# Kasza József <kasza.nkataszri@gmail.com>, 2018
+# Kasza József <kasza.nkataszri@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-25 13:03++0100\n"
-"PO-Revision-Date: 2018-01-12 20:17+0000\n"
-"Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>\n"
+"PO-Revision-Date: 2018-03-01 11:19+0000\n"
+"Last-Translator: Kasza József <kasza.nkataszri@gmail.com>\n"
 "Language-Team: Hungarian (Hungary) (http://www.transifex.com/3liz-1/lizmap-locales/language/hu_HU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -69,14 +70,14 @@ msgstr "(808) csak egy kiválasztott példány lehet a/az <listbox multiple=\"fa
 #: jelix~formserr.namespace.wrong
 msgctxt "jelix~formserr.namespace.wrong"
 msgid "(809)The document \"%s\" is not a form or the namespace is invalid"
-msgstr ""
+msgstr "(809)A \"%s\" dokumentum nem form, vagy a névtér hibás"
 
 #: jelix~formserr.bad.formid.for.dao
 msgctxt "jelix~formserr.bad.formid.for.dao"
 msgid ""
 "(810)Impossible to get the dao  record %s corresponding to the formid %s of "
 "%s form"
-msgstr ""
+msgstr "(810)A %s dao rekord elérése nem lehetséges a %s form-azonosító alapján a %s form-ban"
 
 #: jelix~formserr.control.not.container
 msgctxt "jelix~formserr.control.not.container"
@@ -90,7 +91,7 @@ msgctxt "jelix~formserr.formid.undefined.for.dao"
 msgid ""
 "(812) Impossible to use the control \"%s\" with a dao because the form %s "
 "has not an id"
-msgstr ""
+msgstr "(812) A/az \"%s\" vezérlő nem használható  dao-val, mert a/az %s form-nak nincs azonosítója"
 
 #: jelix~formserr.value.not.array
 msgctxt "jelix~formserr.value.not.array"
@@ -102,7 +103,7 @@ msgstr ""
 #: jelix~formserr.invalid.form.builder
 msgctxt "jelix~formserr.invalid.form.builder"
 msgid "(814) The type \"%s\" of form constructor is invalid (form=%s)"
-msgstr ""
+msgstr "(814) A  \"%s\"  form kostruktor típusa hibás (form=%s)"
 
 #: jelix~formserr.invalid.upload.control.name
 msgctxt "jelix~formserr.invalid.upload.control.name"
@@ -219,32 +220,32 @@ msgstr "(931) jKVDb: nem lehet kapcsolódni a következőhöz:  %s (hibás host,
 #: jelix~kvstore.error.feature.unsupported
 msgctxt "jelix~kvstore.error.feature.unsupported"
 msgid "(932) jKVDb: the driver %s doesn't support the feature \"%s\""
-msgstr ""
+msgstr "(932) jKVDb: A %s driver nem támogatja a \"%s\" tulajdonságot"
 
 #: jelix~kvstore.error.profile.type.unknown
 msgctxt "jelix~kvstore.error.profile.type.unknown"
 msgid "(933) The connection profile type \"%s\" for jKVDb is unknown"
-msgstr ""
+msgstr "(933) a  jKVDb csatlakozási profil: \"%s\"  típusa ismeretlen"
 
 #: jelix~kvstore.error.driver.notfound
 msgctxt "jelix~kvstore.error.driver.notfound"
 msgid "(935) The driver \"%s\" for jKVDb is unknown"
-msgstr ""
+msgstr "(935) A \"%s\"  jKVDb driver ismeretlen"
 
 #: jelix~kvstore.error.driver.notset
 msgctxt "jelix~kvstore.error.driver.notset"
 msgid "(936) No jKVDb driver specified for the profile \"%s\""
-msgstr ""
+msgstr "(936) Nincs jKVDb driver megadva a profilban %s\""
 
 #: jelix~kvstore.error.driver.nohost
 msgctxt "jelix~kvstore.error.driver.nohost"
 msgid "(937) No 'host' parameter for the driver jKVDb  \"%s\""
-msgstr ""
+msgstr "(937) Nincs 'host' paraméter megadva jKVDb driver-hez \"%s\""
 
 #: jelix~kvstore.error.driver.noport
 msgctxt "jelix~kvstore.error.driver.noport"
 msgid "(938) No 'port' parameter for the driver jKVDb  \"%s\""
-msgstr ""
+msgstr "(938) Nincs 'port' paraméter megadva jKVDb driver-hez  \"%s\""
 
 #: jelix~kvstore.error.serialize.data
 msgctxt "jelix~kvstore.error.serialize.data"
@@ -264,12 +265,12 @@ msgstr ""
 #: jelix~kvstore.error.no.host
 msgctxt "jelix~kvstore.error.no.host"
 msgid "(942) jKVDb '%s': no host in the profile"
-msgstr ""
+msgstr "(942) jKVDb '%s': nincs kiszolgáló a profilban "
 
 #: jelix~kvstore.error.no.port
 msgctxt "jelix~kvstore.error.no.port"
 msgid "(943) jKVDb '%s': no port in the profile"
-msgstr ""
+msgstr "(943) jKVDb '%s': nincs port a profilban"
 
 #: jelix~dao.check.required
 msgctxt "jelix~dao.check.required"
@@ -316,12 +317,12 @@ msgstr "(503)Érvénytelen átadott operátor \"%s\""
 #: jelix~dao.error.property.unknown
 msgctxt "jelix~dao.error.property.unknown"
 msgid "(504) unknown property (%s) in a jDaoConditions object"
-msgstr ""
+msgstr "(504) ismeretlen tulajdonság (%s)  a jDaoConditions objektumban"
 
 #: jelix~ui.title.confirm
 msgctxt "jelix~ui.title.confirm"
 msgid "Confirmed"
-msgstr ""
+msgstr "Megerősítve"
 
 #: jelix~ui.title.help
 msgctxt "jelix~ui.title.help"
@@ -411,7 +412,7 @@ msgstr "Publikál"
 #: jelix~ui.buttons.propose
 msgctxt "jelix~ui.buttons.propose"
 msgid "Propose"
-msgstr ""
+msgstr "Kezdeményez"
 
 #: jelix~ui.buttons.trash
 msgctxt "jelix~ui.buttons.trash"
@@ -496,12 +497,12 @@ msgstr "Letilt"
 #: jelix~ui.buttons.moveup
 msgctxt "jelix~ui.buttons.moveup"
 msgid "Move up"
-msgstr "Fel"
+msgstr "Mozgatás felfelé"
 
 #: jelix~ui.buttons.movedown
 msgctxt "jelix~ui.buttons.movedown"
 msgid "Move down"
-msgstr "Le"
+msgstr "Mozgatás lefelé"
 
 #: jelix~ui.buttons.warning
 msgctxt "jelix~ui.buttons.warning"
@@ -531,12 +532,12 @@ msgstr "Tiltott"
 #: jelix~ui.buttons.moveleft
 msgctxt "jelix~ui.buttons.moveleft"
 msgid "Move left"
-msgstr "Balra"
+msgstr "Mozgatás balra"
 
 #: jelix~ui.buttons.moveright
 msgctxt "jelix~ui.buttons.moveright"
 msgid "Move right"
-msgstr "Jobbra"
+msgstr "Mozgatás jobbra"
 
 #: jelix~ui.buttons.help
 msgctxt "jelix~ui.buttons.help"
@@ -721,42 +722,42 @@ msgstr "Feltöltés"
 #: jelix~ui.buttons.move_10_up
 msgctxt "jelix~ui.buttons.move_10_up"
 msgid "Move by 10 to the top"
-msgstr ""
+msgstr "Mozgatás 10-zel felfelé"
 
 #: jelix~ui.buttons.move_10_down
 msgctxt "jelix~ui.buttons.move_10_down"
 msgid "Move by 10 to the bottom"
-msgstr ""
+msgstr "Mozgatás 10-zel lefelé"
 
 #: jelix~ui.buttons.move_10_left
 msgctxt "jelix~ui.buttons.move_10_left"
 msgid "Move by 10 to the left"
-msgstr ""
+msgstr "Mozgatás 10-zel balra"
 
 #: jelix~ui.buttons.move_10_right
 msgctxt "jelix~ui.buttons.move_10_right"
 msgid "Move by 10 to the right"
-msgstr ""
+msgstr "Mozgatás 10-zel jobbra"
 
 #: jelix~ui.buttons.way_up
 msgctxt "jelix~ui.buttons.way_up"
 msgid "Way up"
-msgstr ""
+msgstr "Fel"
 
 #: jelix~ui.buttons.way_down
 msgctxt "jelix~ui.buttons.way_down"
 msgid "Way down"
-msgstr ""
+msgstr "Le"
 
 #: jelix~ui.buttons.way_left
 msgctxt "jelix~ui.buttons.way_left"
 msgid "Way left"
-msgstr ""
+msgstr "Balra"
 
 #: jelix~ui.buttons.way_right
 msgctxt "jelix~ui.buttons.way_right"
 msgid "Way right"
-msgstr ""
+msgstr "Jobbra"
 
 #: jelix~ui.buttons.left
 msgctxt "jelix~ui.buttons.left"
@@ -816,7 +817,7 @@ msgstr "Hiba"
 #: jelix~cache.error.driver.missing
 msgctxt "jelix~cache.error.driver.missing"
 msgid "(900) profile name '%s': cache driver %s not found"
-msgstr ""
+msgstr "(900) profilnév '%s': cache driver %s nem található"
 
 #: jelix~cache.error.invalid.key
 msgctxt "jelix~cache.error.invalid.key"
@@ -842,12 +843,12 @@ msgstr ""
 #: jelix~cache.error.wrong.date.value
 msgctxt "jelix~cache.error.wrong.date.value"
 msgid "(904) wrong date value"
-msgstr ""
+msgstr "(904) hibás dátum"
 
 #: jelix~cache.directory.not.writable
 msgctxt "jelix~cache.directory.not.writable"
 msgid "(906) profile '%s': cache directory not writable"
-msgstr ""
+msgstr "(906) profil'%s': a gyorsítótár könyvtára nem írható"
 
 #: jelix~cache.driver.object.invalid
 msgctxt "jelix~cache.driver.object.invalid"
@@ -857,22 +858,22 @@ msgstr ""
 #: jelix~cache.error.memcache.extension.missing
 msgctxt "jelix~cache.error.memcache.extension.missing"
 msgid "(908) profile '%s': Memcache extension not installed (%s)"
-msgstr ""
+msgstr "(908) profil'%s': Memcache kiegészítő nincs telepítve (%s)"
 
 #: jelix~cache.error.no.memcache.server.available
 msgctxt "jelix~cache.error.no.memcache.server.available"
 msgid "(909) profile '%s': no servers available for Memcache"
-msgstr ""
+msgstr "(909) profil '%s': nincs elérhető szerver a Memcache számára"
 
 #: jelix~cache.error.function.not.callable
 msgctxt "jelix~cache.error.function.not.callable"
 msgid "(910) function %s is not callable"
-msgstr ""
+msgstr "(910) A/az %s eljárás nem hívható meg."
 
 #: jelix~cache.error.call.function
 msgctxt "jelix~cache.error.call.function"
 msgid "(911) error when calling function %s: %s"
-msgstr ""
+msgstr "(911) hiba az eljárás hívásakor %s: %s"
 
 #: jelix~cache.error.memcache.extension.badversion.3
 msgctxt "jelix~cache.error.memcache.extension.badversion.3"
@@ -891,12 +892,12 @@ msgstr ""
 #: jelix~cache.error.driver.nohost
 msgctxt "jelix~cache.error.driver.nohost"
 msgid "(914) No 'host' parameter for the driver jCache  \"%s\""
-msgstr ""
+msgstr "(914) Nincs 'host' paraméter megadva jCache driver-hez  \"%s\""
 
 #: jelix~cache.error.driver.noport
 msgctxt "jelix~cache.error.driver.noport"
 msgid "(915) No 'port' parameter for the driver jCache  \"%s\""
-msgstr ""
+msgstr "(915) Nincs 'port' paraméter megadva jCache driver-hez  \"%s\""
 
 #: jelix~date_time.month.01.label
 msgctxt "jelix~date_time.month.01.label"
@@ -1091,157 +1092,157 @@ msgstr "Szo"
 #: jelix~date_time.day.1.ordinal
 msgctxt "jelix~date_time.day.1.ordinal"
 msgid "st"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.2.ordinal
 msgctxt "jelix~date_time.day.2.ordinal"
 msgid "nd"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.3.ordinal
 msgctxt "jelix~date_time.day.3.ordinal"
 msgid "rd"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.4.ordinal
 msgctxt "jelix~date_time.day.4.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.5.ordinal
 msgctxt "jelix~date_time.day.5.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.6.ordinal
 msgctxt "jelix~date_time.day.6.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.7.ordinal
 msgctxt "jelix~date_time.day.7.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.8.ordinal
 msgctxt "jelix~date_time.day.8.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.9.ordinal
 msgctxt "jelix~date_time.day.9.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.10.ordinal
 msgctxt "jelix~date_time.day.10.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.11.ordinal
 msgctxt "jelix~date_time.day.11.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.12.ordinal
 msgctxt "jelix~date_time.day.12.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.13.ordinal
 msgctxt "jelix~date_time.day.13.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.14.ordinal
 msgctxt "jelix~date_time.day.14.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.15.ordinal
 msgctxt "jelix~date_time.day.15.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.16.ordinal
 msgctxt "jelix~date_time.day.16.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.17.ordinal
 msgctxt "jelix~date_time.day.17.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.18.ordinal
 msgctxt "jelix~date_time.day.18.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.19.ordinal
 msgctxt "jelix~date_time.day.19.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.20.ordinal
 msgctxt "jelix~date_time.day.20.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.21.ordinal
 msgctxt "jelix~date_time.day.21.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.22.ordinal
 msgctxt "jelix~date_time.day.22.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.23.ordinal
 msgctxt "jelix~date_time.day.23.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.24.ordinal
 msgctxt "jelix~date_time.day.24.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.25.ordinal
 msgctxt "jelix~date_time.day.25.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.26.ordinal
 msgctxt "jelix~date_time.day.26.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.27.ordinal
 msgctxt "jelix~date_time.day.27.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.28.ordinal
 msgctxt "jelix~date_time.day.28.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.29.ordinal
 msgctxt "jelix~date_time.day.29.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.30.ordinal
 msgctxt "jelix~date_time.day.30.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~date_time.day.31.ordinal
 msgctxt "jelix~date_time.day.31.ordinal"
 msgid "th"
-msgstr ""
+msgstr "."
 
 #: jelix~common.none
 msgctxt "jelix~common.none"
@@ -1261,49 +1262,49 @@ msgstr "verzió"
 #: jelix~db.error.database.unknown
 msgctxt "jelix~db.error.database.unknown"
 msgid "(401)jDb: unknown database %s"
-msgstr ""
+msgstr "(401)jDb: ismeretlen adatbázis %s"
 
 #: jelix~db.error.connection
 msgctxt "jelix~db.error.connection"
 msgid "(402)error during the connection %s"
-msgstr ""
+msgstr "(402)hiba a csatlakozásban %s"
 
 #: jelix~db.error.query.bad
 msgctxt "jelix~db.error.query.bad"
 msgid "(403)invalid query (%s)"
-msgstr ""
+msgstr "(403)érvénytelen lekérdezés (%s)"
 
 #: jelix~db.error.feature.unsupported
 msgctxt "jelix~db.error.feature.unsupported"
 msgid "(404)JDb: the %s driver doesn't support this feature \"%s\""
-msgstr ""
+msgstr "(404)JDb: a%s driver nem támogatja ezt az elemet: \"%s\""
 
 #: jelix~db.error.nofunction
 msgctxt "jelix~db.error.nofunction"
 msgid "(405)jDb:  %s extension is not installed in PHP"
-msgstr ""
+msgstr "(405)jDb: a %s kiegészítő nincs telepítve a PHP-hez"
 
 #: jelix~db.error.driver.notfound
 msgctxt "jelix~db.error.driver.notfound"
 msgid "(408)jDb driver \"%s\" is not found"
-msgstr ""
+msgstr "(408)jDb driver \"%s\" nem található"
 
 #: jelix~db.error.connection.closed
 msgctxt "jelix~db.error.connection.closed"
 msgid ""
 "(409) Connection to database is not valid anymore: timeout, server down... "
 "(profile %s)"
-msgstr ""
+msgstr "(409) Az adatbázishoz való csatlakozás nem lehetséges: időtúllépés, szerver nem elérhető... (profil %s)"
 
 #: jelix~db.error.no.database.name
 msgctxt "jelix~db.error.no.database.name"
 msgid "(412) No database defined in the profile \"%s\"?"
-msgstr ""
+msgstr "(412) Lehetséges, hogy nincs adatbázis megadva a következő profilban: \"%s\"?"
 
 #: jelix~db.error.invalid.param
 msgctxt "jelix~db.error.invalid.param"
 msgid "(413) An invalid argument was supplied to the query"
-msgstr ""
+msgstr "(413) A lekérdezés érvénytelen argumentumot kapott."
 
 #: jelix~errors.unknown
 msgctxt "jelix~errors.unknown"
@@ -1314,12 +1315,12 @@ msgstr "(1)ismeretlen hiba"
 msgctxt "jelix~errors.tech"
 msgid ""
 "(2)There is a technic error on the site. Please try connect to it later."
-msgstr ""
+msgstr "(2)Technikai hiba az oldalon, kérem próbálkozzon később."
 
 #: jelix~errors.selector.invalid.syntax
 msgctxt "jelix~errors.selector.invalid.syntax"
 msgid "(16)Invalid Syntax in the \"%1$s\" selector (type:%2$s)"
-msgstr ""
+msgstr "(16)Ismeretlen szintaxis a \"%1$s\" selector-ban (típus:%2$s)"
 
 #: jelix~errors.selector.invalid.target
 msgctxt "jelix~errors.selector.invalid.target"
@@ -1329,22 +1330,22 @@ msgstr ""
 #: jelix~errors.selector.module.unknown
 msgctxt "jelix~errors.selector.module.unknown"
 msgid "(18)Unknown module in the selector \"%s\""
-msgstr ""
+msgstr "(18)Ismeretlen modul a selector-ban \"%s\""
 
 #: jelix~errors.selector.method.invalid
 msgctxt "jelix~errors.selector.method.invalid"
 msgid "(19)Invalid method in the selector \"%s\""
-msgstr ""
+msgstr "(19)Érvénytelen eljárás a selector-ban \"%s\""
 
 #: jelix~errors.file.directory.notexists
 msgctxt "jelix~errors.file.directory.notexists"
 msgid "(20)The given directory [%s] does not exists"
-msgstr ""
+msgstr "(20)A megadott könyvtár: [%s] nem található"
 
 #: jelix~errors.file.directory.notwritable
 msgctxt "jelix~errors.file.directory.notwritable"
 msgid "(21)Unable to write %s, make sure %s is writable"
-msgstr ""
+msgstr "(21) %s írása nem sikerült, ellenőrizze, hogy  %s írható-e"
 
 #: jelix~errors.file.write.error
 msgctxt "jelix~errors.file.write.error"
@@ -1354,22 +1355,22 @@ msgstr ""
 #: jelix~errors.file.notexists
 msgctxt "jelix~errors.file.notexists"
 msgid "(23)The file %s doesn't exists"
-msgstr ""
+msgstr "(23)A %s fájl nem létezik"
 
 #: jelix~errors.inifile.write.error
 msgctxt "jelix~errors.inifile.write.error"
 msgid "(24)Error while writing ini file %s"
-msgstr ""
+msgstr "(24)Hiba az ini file írásakor %s"
 
 #: jelix~errors.file.directory.cannot.remove.fs.root
 msgctxt "jelix~errors.file.directory.cannot.remove.fs.root"
 msgid "(25)Can't delete the filesystem's root directory"
-msgstr ""
+msgstr "(25)A fájlrendszer gyökérkönyvtára nem törölhető"
 
 #: jelix~errors.urls.engine.notfound
 msgctxt "jelix~errors.urls.engine.notfound"
 msgid "(30)Url engine \"%s\" is not found"
-msgstr ""
+msgstr "(30)Url motor\"%s\" nem található"
 
 #: jelix~errors.urls.domain.void
 msgctxt "jelix~errors.urls.domain.void"
@@ -1380,27 +1381,27 @@ msgstr ""
 #: jelix~errors.cli.unknown.command
 msgctxt "jelix~errors.cli.unknown.command"
 msgid "(40)Unknown command \"%s\""
-msgstr ""
+msgstr "(40)Ismeretlen parancs \"%s\""
 
 #: jelix~errors.cli.param.missing
 msgctxt "jelix~errors.cli.param.missing"
 msgid "(41)Missing parameter \"%s\""
-msgstr ""
+msgstr "(41)Hiányzó paraméter \"%s\""
 
 #: jelix~errors.cli.option.value.missing
 msgctxt "jelix~errors.cli.option.value.missing"
 msgid "(42)value for option \"%s\" is missing"
-msgstr ""
+msgstr "(42)a beállításhoz tartozó \"%s\" érték hiányzik"
 
 #: jelix~errors.cli.unknown.option
 msgctxt "jelix~errors.cli.unknown.option"
 msgid "(43)Unknown option \"%s\""
-msgstr ""
+msgstr "(43)Ismeretlen beállítás \"%s\""
 
 #: jelix~errors.cli.two.many.parameters
 msgctxt "jelix~errors.cli.two.many.parameters"
 msgid "(44)Too many parameters"
-msgstr ""
+msgstr "(44)Túl sok paraméter"
 
 #: jelix~errors.xml.remote.feed.error
 msgctxt "jelix~errors.xml.remote.feed.error"
@@ -1461,27 +1462,27 @@ msgstr ""
 #: jelix~errors.ltx2pdf.exec
 msgctxt "jelix~errors.ltx2pdf.exec"
 msgid "(120) %s has returned: %s"
-msgstr ""
+msgstr "(120) %s visszaadott értéke: %s"
 
 #: jelix~errors.module.untrusted
 msgctxt "jelix~errors.module.untrusted"
 msgid "(130)Module \"%s\" is unknown or disabled"
-msgstr ""
+msgstr "(130)A \"%s\" modul ismeretlen, vagy le van tiltva"
 
 #: jelix~errors.action.unknown
 msgctxt "jelix~errors.action.unknown"
 msgid "(131)Unknown action \"%s\""
-msgstr ""
+msgstr "(131)Is Ismeretlen művelet \"%s\""
 
 #: jelix~errors.response.missing
 msgctxt "jelix~errors.response.missing"
 msgid "(132)response is missing (action %s)"
-msgstr ""
+msgstr "(132)nincs válasz (művelet%s)"
 
 #: jelix~errors.default.response.type.unknown
 msgctxt "jelix~errors.default.response.type.unknown"
 msgid "(133)Action %s: unknown default type \"%s\""
-msgstr ""
+msgstr "(133)Művelet%s: ismeretlen alapértelmezett típus \"%s\""
 
 #: jelix~errors.default.response.not.loaded
 msgctxt "jelix~errors.default.response.not.loaded"
@@ -1511,12 +1512,12 @@ msgstr ""
 #: jelix~errors.repxml.no.content
 msgctxt "jelix~errors.repxml.no.content"
 msgid "(150) Undefined content for xml response"
-msgstr ""
+msgstr "(150) Nem definiált tartalom az xml válaszban"
 
 #: jelix~errors.repxml.invalid.content
 msgctxt "jelix~errors.repxml.invalid.content"
 msgid "(151) Invalid xml content for xml response"
-msgstr ""
+msgstr "(151) Érvénytelen xml tartalom az xml válaszban"
 
 #: jelix~errors.repbin.unknown.file
 msgctxt "jelix~errors.repbin.unknown.file"
@@ -1691,12 +1692,12 @@ msgstr ""
 #: jelix~errors.mail.mailer_not_supported
 msgctxt "jelix~errors.mail.mailer_not_supported"
 msgid "(351)jMailer: mailer is not supported (%s)"
-msgstr ""
+msgstr "(351)jMailer: a levelező nem támogatott (%s)"
 
 #: jelix~errors.mail.execute
 msgctxt "jelix~errors.mail.execute"
 msgid "(352)jMailer: Could not execute: %s"
-msgstr ""
+msgstr "(352)jMailer: Nem lehet végrehajtani: %s"
 
 #: jelix~errors.mail.instantiate
 msgctxt "jelix~errors.mail.instantiate"
@@ -1706,12 +1707,12 @@ msgstr ""
 #: jelix~errors.mail.authenticate
 msgctxt "jelix~errors.mail.authenticate"
 msgid "(354)jMailer: SMTP Error: Could not authenticate."
-msgstr ""
+msgstr "(354)Levelezés: SMTP hiba: A bejelentkezés nem sikerült."
 
 #: jelix~errors.mail.from_failed
 msgctxt "jelix~errors.mail.from_failed"
 msgid "(355)jMailer: The following From address failed: %s"
-msgstr ""
+msgstr "(355)jMailer: A feladó e-mail cím hibás: %s"
 
 #: jelix~errors.mail.recipients_failed
 msgctxt "jelix~errors.mail.recipients_failed"
@@ -1726,22 +1727,22 @@ msgstr "(357)SMTP Hiba: az adat nem fogadható el."
 #: jelix~errors.mail.connect_host
 msgctxt "jelix~errors.mail.connect_host"
 msgid "(358)SMTP Error: Could not connect to SMTP host."
-msgstr ""
+msgstr "(358)SMTP hiba: A csatlakozás sikertelen az SMTP kiszolgálóhoz."
 
 #: jelix~errors.mail.file_access
 msgctxt "jelix~errors.mail.file_access"
 msgid "(359)jMailer: Could not access file: %s"
-msgstr ""
+msgstr "(359)jMailer: A %s file nem elérhető"
 
 #: jelix~errors.mail.file_open
 msgctxt "jelix~errors.mail.file_open"
 msgid "(360)jMailer: File Error: Could not open file:  %s"
-msgstr ""
+msgstr "(360)jMailer: File Hiba: A %s fájl nem nyitható meg"
 
 #: jelix~errors.mail.encoding
 msgctxt "jelix~errors.mail.encoding"
 msgid "(361)jMailer: Unknown encoding: %s"
-msgstr ""
+msgstr "(361)jMailer: Ismeretlen kódolás: %s"
 
 #: jelix~errors.mail.signing
 msgctxt "jelix~errors.mail.signing"
@@ -1756,7 +1757,7 @@ msgstr ""
 #: jelix~errors.datetime.invalid
 msgctxt "jelix~errors.datetime.invalid"
 msgid "(400)jDateTime: invalid date/time (%d-%d-%d %d:%d:%d)"
-msgstr ""
+msgstr "(400)jDateTime: érvénytelen dátum/idő (%d-%d-%d %d:%d:%d)"
 
 #: jelix~errors.profile.unknown
 msgctxt "jelix~errors.profile.unknown"
@@ -1774,7 +1775,7 @@ msgstr ""
 #: jelix~errors.profile.default.unknown
 msgctxt "jelix~errors.profile.default.unknown"
 msgid "(502)No default profile for \"%s\""
-msgstr ""
+msgstr "(502)Nincs beállított profil erre: \"%s\""
 
 #: jelix~errors.profile.virtual.no.name
 msgctxt "jelix~errors.profile.virtual.no.name"
@@ -1904,7 +1905,7 @@ msgstr "2"
 #: jelix~captcha.question.12
 msgctxt "jelix~captcha.question.12"
 msgid "What is the firstname of Jules Verne?"
-msgstr ""
+msgstr "Mi Jules Verne vezetékneve?"
 
 #: jelix~captcha.response.12
 msgctxt "jelix~captcha.response.12"
@@ -1924,7 +1925,7 @@ msgstr "1914"
 #: jelix~captcha.question.14
 msgctxt "jelix~captcha.question.14"
 msgid "Write the number fifty three"
-msgstr ""
+msgstr "Írja be az ötvenhármas számot"
 
 #: jelix~captcha.response.14
 msgctxt "jelix~captcha.response.14"
@@ -1939,7 +1940,7 @@ msgstr "Jelix"
 #: jelix~jelix.framework.slogan
 msgctxt "jelix~jelix.framework.slogan"
 msgid "Jelix, a framework for PHP"
-msgstr ""
+msgstr "Jelix, a framework for PHP"
 
 #: jelix~jelix.newapp.h1
 msgctxt "jelix~jelix.newapp.h1"
@@ -1964,7 +1965,7 @@ msgstr "Rekord létrehozása"
 #: jelix~crud.title.view
 msgctxt "jelix~crud.title.view"
 msgid "Record details"
-msgstr ""
+msgstr "Rekord részletei"
 
 #: jelix~crud.title.pages
 msgctxt "jelix~crud.title.pages"
@@ -1979,7 +1980,7 @@ msgstr "Vissza a listához"
 #: jelix~crud.link.view.record
 msgctxt "jelix~crud.link.view.record"
 msgid "View"
-msgstr ""
+msgstr "Megtekint"
 
 #: jelix~crud.link.create.record
 msgctxt "jelix~crud.link.create.record"
@@ -2004,7 +2005,7 @@ msgstr "Biztosan törli a bejegyzést?"
 #: jelix~auth.error.plugin.missing
 msgctxt "jelix~auth.error.plugin.missing"
 msgid "(601)Auth plugin is required"
-msgstr ""
+msgstr "(601)Azonosító plugin szükséges"
 
 #: jelix~auth.error.driver.notfound
 msgctxt "jelix~auth.error.driver.notfound"
@@ -2014,17 +2015,17 @@ msgstr ""
 #: jelix~auth.error.lds.request.not.send
 msgctxt "jelix~auth.error.lds.request.not.send"
 msgid "(605)Error while trying to send request to LDS server"
-msgstr ""
+msgstr "(605)Hiba az LDS szerver-kérés küldése közben."
 
 #: jelix~auth.error.lds.unreachable.server
 msgctxt "jelix~auth.error.lds.unreachable.server"
 msgid "(606)Impossible to connect to LDS server"
-msgstr ""
+msgstr "(606)Az LDS szerverhez történő csatlakozás nem lehetséges"
 
 #: jelix~auth.error.key.tooshort
 msgctxt "jelix~auth.error.key.tooshort"
 msgid "(607)Key is too short (at least %s characters)"
-msgstr ""
+msgstr "(607)A kulcs túl rövid (legalább %s karakter)"
 
 #: jelix~auth.error.key.empty
 msgctxt "jelix~auth.error.key.empty"
@@ -2039,7 +2040,7 @@ msgstr ""
 #: jelix~auth.error.bcrypt.inexistant
 msgctxt "jelix~auth.error.bcrypt.inexistant"
 msgid "(610) Bcrypt (BlowFish) does not exist on this system"
-msgstr ""
+msgstr "(610) Bcrypt (BlowFish) nem létezik a rendszerben"
 
 #: jelix~auth.error.bcrypt.bad.salt
 msgctxt "jelix~auth.error.bcrypt.bad.salt"
@@ -2051,17 +2052,17 @@ msgstr ""
 #: jelix~auth.ldap.search.base.missing
 msgctxt "jelix~auth.ldap.search.base.missing"
 msgid "(610)ldap configuration: search base missing"
-msgstr ""
+msgstr "(610)ldap beállítás: a keresési cél hiányzik"
 
 #: jelix~auth.ldap.search.filter.missing
 msgctxt "jelix~auth.ldap.search.filter.missing"
 msgid "(611)ldap configuration: search filter missing"
-msgstr ""
+msgstr "(611)ldap beállítás: a keresési szűrő hiányzik"
 
 #: jelix~auth.ldap.extension.unloaded
 msgctxt "jelix~auth.ldap.extension.unloaded"
 msgid "(612)ldap extension unloaded"
-msgstr ""
+msgstr "(612)az ldap kiterjesztés nincs betöltve"
 
 #: jelix~auth.ldap.object.user.unknown
 msgctxt "jelix~auth.ldap.object.user.unknown"
@@ -2071,7 +2072,7 @@ msgstr "(613)ismeretlen felhasználó-objektum"
 #: jelix~auth.ldap.user.login.unset
 msgctxt "jelix~auth.ldap.user.login.unset"
 msgid "(614)user identification unset"
-msgstr ""
+msgstr "(614)a felhasználó-azonosítás nincs beállítva"
 
 #: jelix~auth.acl.users.list
 msgctxt "jelix~auth.acl.users.list"
@@ -2173,22 +2174,22 @@ msgstr ""
 #: jelix~daoxml.datasource.missing
 msgctxt "jelix~daoxml.datasource.missing"
 msgid "(520)DAO %1$s, table is missing (file %2$s)"
-msgstr ""
+msgstr "(520)DAO %1$s, tábla nem található (file %2$s)"
 
 #: jelix~daoxml.table.two.many
 msgctxt "jelix~daoxml.table.two.many"
 msgid "(521)DAO %1$s, too much table (file %2$s)"
-msgstr ""
+msgstr "(521)DAO %1$s, túl sok tábla (file %2$s)"
 
 #: jelix~daoxml.table.name
 msgctxt "jelix~daoxml.table.name"
 msgid "(522)DAO %1$s, table name is missing (fichier %2$s)"
-msgstr ""
+msgstr "(522)DAO %1$s, a tábla neve nincs megadva (file%2$s)"
 
 #: jelix~daoxml.primarykey.missing
 msgctxt "jelix~daoxml.primarykey.missing"
 msgid "(523)DAO %1$s, primary key name is missing (file %2$s)"
-msgstr ""
+msgstr "(523)DAO %1$s, az elsődleges kulcs neve hiányzik (file %2$s)"
 
 #: jelix~daoxml.foreignkey.missing
 msgctxt "jelix~daoxml.foreignkey.missing"
@@ -2256,17 +2257,17 @@ msgstr ""
 #: jelix~daoxml.method.duplicate
 msgctxt "jelix~daoxml.method.duplicate"
 msgid "(545)DAO %1$s, method %3$s is already defined (file %2$s)"
-msgstr ""
+msgstr "(545)DAO %1$s, eljárás %3$s is már definiált (file %2$s)"
 
 #: jelix~daoxml.method.condition.unknown
 msgctxt "jelix~daoxml.method.condition.unknown"
 msgid "(546)DAO %1$s, method %3$s, unknown condition %4$s (file %2$s)"
-msgstr ""
+msgstr "(546)DAO %1$s, eljárás%3$s, ismeretlen állapot %4$s (file %2$s)"
 
 #: jelix~daoxml.method.property.unknown
 msgctxt "jelix~daoxml.method.property.unknown"
 msgid "(547)DAO %1$s, method %3$s, unknown property (%4$s) (file %2$s)"
-msgstr ""
+msgstr "(547)DAO %1$s, eljárás %3$s, ismeretlen tulajdonság (%4$s) (file %2$s)"
 
 #: jelix~daoxml.method.property.forbidden
 msgctxt "jelix~daoxml.method.property.forbidden"
@@ -2381,4 +2382,4 @@ msgctxt "jelix~daoxml.method.parameter.invalidname"
 msgid ""
 "(565) DAO, in the method %1$s, the sign $ in the parameter name %4$s is no "
 "authorized"
-msgstr ""
+msgstr "(565) DAO, a %1$seljárásban , a $ jel a %4$s nevű paraméterben nem engedélyezett"
