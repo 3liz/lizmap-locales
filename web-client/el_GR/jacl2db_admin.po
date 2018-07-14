@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-25 13:03++0100\n"
-"PO-Revision-Date: 2017-09-22 22:08+0000\n"
+"POT-Creation-Date: 2018-06-02 14:48++0200\n"
+"PO-Revision-Date: 2018-06-02 12:55+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/3liz-1/lizmap-locales/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -104,6 +104,16 @@ msgctxt "jacl2db_admin~acl2.message.group.delete.ok"
 msgid "Group deleted"
 msgstr "Επιτυχία στη διαγραφή της ομάδας !"
 
+#: jacl2db_admin~acl2.message.group.delete.error.noacl.yourself
+msgctxt "jacl2db_admin~acl2.message.group.delete.error.noacl.yourself"
+msgid "The group cannot be deleted, else you couldn't manage rights"
+msgstr ""
+
+#: jacl2db_admin~acl2.message.group.delete.error.noacl.anybody
+msgctxt "jacl2db_admin~acl2.message.group.delete.error.noacl.anybody"
+msgid "The group cannot be deleted, else nobody couldn't manage rights"
+msgstr ""
+
 #: jacl2db_admin~acl2.groups.rights.title
 msgctxt "jacl2db_admin~acl2.groups.rights.title"
 msgid "Rights of groups"
@@ -148,6 +158,17 @@ msgctxt "jacl2db_admin~acl2.special.rights"
 msgid "special"
 msgstr "Ειδικώς"
 
+#: jacl2db_admin~acl2.message.savegrouprights.error.noacl.yourself
+msgctxt "jacl2db_admin~acl2.message.savegrouprights.error.noacl.yourself"
+msgid "Changes cannot be applied else you won't be able to change some rights"
+msgstr ""
+
+#: jacl2db_admin~acl2.message.savegrouprights.error.noacl.anybody
+msgctxt "jacl2db_admin~acl2.message.savegrouprights.error.noacl.anybody"
+msgid ""
+"Changes cannot be applied else nobody won't be able to change some rights"
+msgstr ""
+
 #: jacl2db_admin~acl2.message.group.rights.ok
 msgctxt "jacl2db_admin~acl2.message.group.rights.ok"
 msgid "Rights saved"
@@ -165,8 +186,18 @@ msgstr "Δικαιώματα χρηστών"
 
 #: jacl2db_admin~acl2.filter.title
 msgctxt "jacl2db_admin~acl2.filter.title"
-msgid "Filter on the group"
-msgstr "Φίλτρο στην ομάδα"
+msgid "Filter"
+msgstr ""
+
+#: jacl2db_admin~acl2.filter.group
+msgctxt "jacl2db_admin~acl2.filter.group"
+msgid "Group:"
+msgstr ""
+
+#: jacl2db_admin~acl2.filter.word
+msgctxt "jacl2db_admin~acl2.filter.word"
+msgid "(part of) name:"
+msgstr ""
 
 #: jacl2db_admin~acl2.show.button
 msgctxt "jacl2db_admin~acl2.show.button"
@@ -227,6 +258,31 @@ msgstr "Προβολή των διακιώματων"
 msgctxt "jacl2db_admin~acl2.message.user.rights.ok"
 msgid "Rights saved"
 msgstr "Επιτυχία στη αποθήκευση των δικαιώματων  !"
+
+#: jacl2db_admin~acl2.message.saveuserrights.error.noacl.yourself
+msgctxt "jacl2db_admin~acl2.message.saveuserrights.error.noacl.yourself"
+msgid "Changes cannot be applied else you won't be able to change some rights"
+msgstr ""
+
+#: jacl2db_admin~acl2.message.saveuserrights.error.noacl.anybody
+msgctxt "jacl2db_admin~acl2.message.saveuserrights.error.noacl.anybody"
+msgid ""
+"Changes cannot be applied else nobody won't be able to change some rights"
+msgstr ""
+
+#: jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.yourself
+msgctxt "jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.yourself"
+msgid ""
+"You cannot be removed from this group else you won't be able to change some "
+"rights"
+msgstr ""
+
+#: jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.anybody
+msgctxt "jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.anybody"
+msgid ""
+"The user cannot be removed from this group else nobody won't be able to "
+"change some rights"
+msgstr ""
 
 #: jacl2db_admin~acl2.col.personnal.rights
 msgctxt "jacl2db_admin~acl2.col.personnal.rights"
@@ -305,3 +361,8 @@ msgstr "Δεν υπάρχει συγκεκριμένο δικαίωμα"
 msgctxt "jacl2db_admin~acl2.save.button"
 msgid "Save"
 msgstr "Αποθήκευση"
+
+#: jacl2db_admin~acl2.error.invalid.user
+msgctxt "jacl2db_admin~acl2.error.invalid.user"
+msgid "Invalid user"
+msgstr ""

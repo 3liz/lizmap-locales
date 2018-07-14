@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-09 14:55++0200\n"
-"PO-Revision-Date: 2017-10-09 12:59+0000\n"
+"POT-Creation-Date: 2018-06-02 14:48++0200\n"
+"PO-Revision-Date: 2018-06-02 12:54+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -20,6 +20,43 @@ msgstr ""
 msgctxt "admin~user.form.comment.label"
 msgid "Comments"
 msgstr "Commenti"
+
+#: admin~user.email.admin.subject
+msgctxt "admin~user.email.admin.subject"
+msgid "Lizmap - Someone requested an account"
+msgstr ""
+
+#: admin~user.email.admin.body
+msgctxt "admin~user.email.admin.body"
+msgid ""
+"Someone has requested a Lizmap account to be able to access the maps, with "
+"the login %s and the e-mail %s."
+msgstr ""
+
+#: admin~user.acl.no.group
+msgctxt "admin~user.acl.no.group"
+msgid "The user is not in any group"
+msgstr ""
+
+#: admin~user.acl.form.title
+msgctxt "admin~user.acl.form.title"
+msgid "Groups the user belongs to"
+msgstr ""
+
+#: admin~user.acl.form.remove.from.group
+msgctxt "admin~user.acl.form.remove.from.group"
+msgid "Remove him from this group"
+msgstr ""
+
+#: admin~user.acl.form.add.to.group
+msgctxt "admin~user.acl.form.add.to.group"
+msgid "Add him to this group"
+msgstr ""
+
+#: admin~user.acl.form.add
+msgctxt "admin~user.acl.form.add"
+msgid "Add"
+msgstr ""
 
 #: admin~jacl2.lizmap.admin.grp
 msgctxt "admin~jacl2.lizmap.admin.grp"
@@ -65,6 +102,11 @@ msgstr "Modifica repository"
 msgctxt "admin~jacl2.lizmap.admin.repositories.delete"
 msgid "Delete repositories"
 msgstr "Elimina repository"
+
+#: admin~jacl2.lizmap.admin.grp.default
+msgctxt "admin~jacl2.lizmap.admin.grp.default"
+msgid "default group"
+msgstr ""
 
 #: admin~jacl2.lizmap.repositories.view
 msgctxt "admin~jacl2.lizmap.repositories.view"
@@ -201,6 +243,11 @@ msgctxt "admin~admin.configuration.services.rootRepositories.label"
 msgid "Root folder of repositories"
 msgstr "Cartella radice dei repository"
 
+#: admin~admin.configuration.services.relativeWMSPath.label
+msgctxt "admin~admin.configuration.services.relativeWMSPath.label"
+msgid "Does the server use relative path from root folder?"
+msgstr ""
+
 #: admin~admin.configuration.services.proxyMethod.label
 msgctxt "admin~admin.configuration.services.proxyMethod.label"
 msgid "Send request to QGIS Server with"
@@ -265,6 +312,16 @@ msgstr "Acceso"
 msgctxt "admin~admin.form.admin_services.off.label"
 msgid "Off"
 msgstr "Spento"
+
+#: admin~admin.form.admin_services.yes.label
+msgctxt "admin~admin.form.admin_services.yes.label"
+msgid "Yes"
+msgstr ""
+
+#: admin~admin.form.admin_services.no.label
+msgctxt "admin~admin.form.admin_services.no.label"
+msgid "No"
+msgstr ""
 
 #: admin~admin.form.admin_services.appName.label
 msgctxt "admin~admin.form.admin_services.appName.label"
@@ -422,6 +479,11 @@ msgid ""
 "Lizmap directory."
 msgstr "La directory radice dei repository può limitare la directory di Lizmap ad 1 sola. Se scegli un percorso qui, non sarà più possibile definire il percorso di una directory Lizmap."
 
+#: admin~admin.form.admin_services.relativeWMSPath.label
+msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
+msgid "Does the server use relative path from root folder?"
+msgstr ""
+
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
 msgid "Send request to QGIS Server with"
@@ -474,18 +536,42 @@ msgstr "Consentire ai visitatori di richiedere un account?"
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.help
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
-msgid "If set to on, the visitors can fill a form to request an account."
-msgstr "Se impostato su ON, i visitatori possono compilare il modulo per richiedere un account."
+msgid ""
+"If set to on, the visitors can fill a form to request an account. Sender "
+"address for e-mails should be set."
+msgstr ""
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
-msgid "Administrator e-mail"
-msgstr "E-mail amministratore"
+msgid "E-mail for notifications"
+msgstr ""
 
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
-msgid "E-mail to which notifications will be sent"
-msgstr "E-mail a cui inviare le notifiche"
+msgid "E-mail address to which notifications will be sent"
+msgstr ""
+
+#: admin~admin.form.admin_services.adminSenderEmail.label
+msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
+msgid "Sender address of e-mails"
+msgstr ""
+
+#: admin~admin.form.admin_services.adminSenderEmail.help
+msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
+msgid ""
+"E-mail address used to send e-mails. If empty, no emails will be sent by "
+"Lizmap. Be sure your server is allowed to send email with this address."
+msgstr ""
+
+#: admin~admin.form.admin_services.adminSenderName.label
+msgctxt "admin~admin.form.admin_services.adminSenderName.label"
+msgid "Sender name of e-mails"
+msgstr ""
+
+#: admin~admin.form.admin_services.adminSenderName.help
+msgctxt "admin~admin.form.admin_services.adminSenderName.help"
+msgid "Name of the sender used to send e-mails."
+msgstr ""
 
 #: admin~admin.form.admin_services.googleAnalyticsID.label
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
@@ -630,6 +716,16 @@ msgctxt "admin~admin.form.admin_theme.headerLogoWidth.help"
 msgid "The width taken by the logo before the title (in pixels)."
 msgstr "La larghezza occupata dal logo prima del titolo (in pixel)."
 
+#: admin~admin.form.admin_theme.headerBackgroundImage.label
+msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
+msgid "Header - background image"
+msgstr ""
+
+#: admin~admin.form.admin_theme.headerBackgroundImage.help
+msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
+msgid "The image to be used for the header background (400ko Maximum)."
+msgstr ""
+
 #: admin~admin.form.admin_theme.headerBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.label"
 msgid "Header - background color"
@@ -690,6 +786,17 @@ msgctxt "admin~admin.form.admin_theme.navbarColor.help"
 msgid "The background color of the navigation bar (zoom tools)."
 msgstr "Il colore di sfondo della barra di navigazione (strumenti di zoom)."
 
+#: admin~admin.form.admin_theme.additionalCss.label
+msgctxt "admin~admin.form.admin_theme.additionalCss.label"
+msgid "Additional CSS properties"
+msgstr ""
+
+#: admin~admin.form.admin_theme.additionalCss.help
+msgctxt "admin~admin.form.admin_theme.additionalCss.help"
+msgid ""
+"You can write any CSS syntax to override Lizmap style (for advanced users)"
+msgstr ""
+
 #: admin~admin.theme.detail.title
 msgctxt "admin~admin.theme.detail.title"
 msgid "Theme configuration"
@@ -702,8 +809,8 @@ msgstr "Rimuovi"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
-msgid "Remove this logo (and use default one) ?"
-msgstr "Rimuovi questo logo (e usa quello di default)?"
+msgid "Remove this image (and use default one) ?"
+msgstr ""
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
@@ -809,3 +916,85 @@ msgstr "Progetto"
 msgctxt "admin~admin.logs.ip"
 msgid "IP"
 msgstr "Indirizzo IP"
+
+#: admin~admin.logs.first_page
+msgctxt "admin~admin.logs.first_page"
+msgid "First"
+msgstr ""
+
+#: admin~admin.logs.previous_page
+msgctxt "admin~admin.logs.previous_page"
+msgid "Previous"
+msgstr ""
+
+#: admin~admin.logs.next_page
+msgctxt "admin~admin.logs.next_page"
+msgid "Next"
+msgstr ""
+
+#: admin~admin.logs.email.subject
+msgctxt "admin~admin.logs.email.subject"
+msgid "A new log item has been recorded."
+msgstr ""
+
+#: admin~admin.logs.email.login.body
+msgctxt "admin~admin.logs.email.login.body"
+msgid "A user has logged in."
+msgstr ""
+
+#: admin~admin.logs.email.viewmap.body
+msgctxt "admin~admin.logs.email.viewmap.body"
+msgid "A user has accessed a map."
+msgstr ""
+
+#: admin~admin.logs.email.print.body
+msgctxt "admin~admin.logs.email.print.body"
+msgid "A user has used the print tool."
+msgstr ""
+
+#: admin~admin.logs.email.popup.body
+msgctxt "admin~admin.logs.email.popup.body"
+msgid "A user has opened a feature information popup."
+msgstr ""
+
+#: admin~admin.logs.email.editionSaveFeature.body
+msgctxt "admin~admin.logs.email.editionSaveFeature.body"
+msgid "A feature has been created or modified by a user."
+msgstr ""
+
+#: admin~admin.logs.email.editionDeleteFeature.body
+msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
+msgid "A feature has been deleted by a user."
+msgstr ""
+
+#: admin~admin.logs.error.title
+msgctxt "admin~admin.logs.error.title"
+msgid "Error log"
+msgstr ""
+
+#: admin~admin.logs.error.sentence
+msgctxt "admin~admin.logs.error.sentence"
+msgid "Last lines of the Lizmap Web Client application error log file"
+msgstr ""
+
+#: admin~admin.logs.error.file.too.big
+msgctxt "admin~admin.logs.error.file.too.big"
+msgid ""
+"The error log file is too big. Consider using log rotation for Lizmap Web "
+"Client logs."
+msgstr ""
+
+#: admin~admin.logs.error.file.erase
+msgctxt "admin~admin.logs.error.file.erase"
+msgid "Erase the error log file"
+msgstr ""
+
+#: admin~admin.logs.error.file.erase.confirm
+msgctxt "admin~admin.logs.error.file.erase.confirm"
+msgid "Are you sure you want to erase the error log file ?"
+msgstr ""
+
+#: admin~admin.logs.error.file.erase.ok
+msgctxt "admin~admin.logs.error.file.erase.ok"
+msgid "The error log file has successfully been erased."
+msgstr ""

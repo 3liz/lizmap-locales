@@ -1,6 +1,6 @@
 # 
 # Translators:
-# xanvieiro <gallaecia6@gmail.com>, 2016-2017
+# xanvieiro <gallaecia6@gmail.com>, 2016-2018
 # rldhont <rldhont@gmail.com>, 2016
 # rldhont <rldhont@gmail.com>, 2016
 # xanvieiro <gallaecia6@gmail.com>, 2016
@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 17:03++0200\n"
-"PO-Revision-Date: 2017-09-22 23:40+0000\n"
+"POT-Creation-Date: 2018-06-02 14:48++0200\n"
+"PO-Revision-Date: 2018-06-18 20:57+0000\n"
 "Last-Translator: xanvieiro <gallaecia6@gmail.com>\n"
 "Language-Team: Galician (http://www.transifex.com/3liz-1/lizmap-locales/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -152,6 +152,11 @@ msgstr "Centrar"
 msgctxt "view~map.geolocate.toolbar.bind"
 msgid "Stay centered"
 msgstr "Permanecer centrado"
+
+#: view~map.geolocate.toolbar.stop
+msgctxt "view~map.geolocate.toolbar.stop"
+msgid "Stop"
+msgstr "Parar"
 
 #: view~map.measure.toolbar.title
 msgctxt "view~map.measure.toolbar.title"
@@ -373,10 +378,50 @@ msgctxt "view~map.permalink.toolbar.title"
 msgid "Permalink"
 msgstr "Enlace permanente"
 
-#: view~map.permalink.toolbar.link
-msgctxt "view~map.permalink.toolbar.link"
+#: view~map.permalink.share.tab
+msgctxt "view~map.permalink.share.tab"
+msgid "Share"
+msgstr "Compartir"
+
+#: view~map.permalink.share.tab.title
+msgctxt "view~map.permalink.share.tab.title"
+msgid "Share the link to current map"
+msgstr "Compartir o enlace ó mapa actual"
+
+#: view~map.permalink.share.link
+msgctxt "view~map.permalink.share.link"
 msgid "Link to current map"
 msgstr "Enlace ó mapa actual"
+
+#: view~map.permalink.embed.tab
+msgctxt "view~map.permalink.embed.tab"
+msgid "Embed"
+msgstr "Integrar"
+
+#: view~map.permalink.embed.tab.title
+msgctxt "view~map.permalink.embed.tab.title"
+msgid "Embed the current map"
+msgstr "Integrar o mapa actual"
+
+#: view~map.permalink.embed.size.small
+msgctxt "view~map.permalink.embed.size.small"
+msgid "Small"
+msgstr "Pequeno"
+
+#: view~map.permalink.embed.size.medium
+msgctxt "view~map.permalink.embed.size.medium"
+msgid "Medium"
+msgstr "Medio"
+
+#: view~map.permalink.embed.size.large
+msgctxt "view~map.permalink.embed.size.large"
+msgid "Large"
+msgstr "Grande"
+
+#: view~map.permalink.embed.size.personalized
+msgctxt "view~map.permalink.embed.size.personalized"
+msgid "Personalized"
+msgstr "Personalizado"
 
 #: view~map.permalink.geobookmark.title
 msgctxt "view~map.permalink.geobookmark.title"
@@ -583,18 +628,6 @@ msgctxt "view~map.attributeLayers.toolbar.title"
 msgid "Data"
 msgstr "Datos"
 
-#: view~map.attributeLayers.toolbar.help
-msgctxt "view~map.attributeLayers.toolbar.help"
-msgid "Help"
-msgstr "Axuda"
-
-#: view~map.attributeLayers.toolbar.summary
-msgctxt "view~map.attributeLayers.toolbar.summary"
-msgid ""
-"Choose among the following layers and click on the table button to display "
-"its data."
-msgstr "Escolla entre as seguintes capas e prema no botón da táboa para amosar os seus datos."
-
 #: view~map.attributeLayers.options.title
 msgctxt "view~map.attributeLayers.options.title"
 msgid "Options"
@@ -705,56 +738,6 @@ msgctxt "view~default.header.createAccount"
 msgid "Register"
 msgstr "Rexistrar"
 
-#: view~user.already.logged
-msgctxt "view~user.already.logged"
-msgid "You are already a authenticated user."
-msgstr "Xa é un usuario autenticado."
-
-#: view~user.title
-msgctxt "view~user.title"
-msgid "Registration"
-msgstr "Rexistro"
-
-#: view~user.form.button.back.label
-msgctxt "view~user.form.button.back.label"
-msgid "Back"
-msgstr "Volver"
-
-#: view~user.form.createAccount.h1
-msgctxt "view~user.form.createAccount.h1"
-msgid "Request an account"
-msgstr "Solicitar unha conta"
-
-#: view~user.form.login.label
-msgctxt "view~user.form.login.label"
-msgid "Nickname"
-msgstr "Alcume"
-
-#: view~user.form.login.help
-msgctxt "view~user.form.login.help"
-msgid "This nickname will be used to connect to your account."
-msgstr "Este alcume usarase para conectar coa súa conta."
-
-#: view~user.form.email.label
-msgctxt "view~user.form.email.label"
-msgid "E-mail"
-msgstr "Correo electrónico"
-
-#: view~user.form.password.label
-msgctxt "view~user.form.password.label"
-msgid "Password"
-msgstr "Contrasinal"
-
-#: view~user.form.password.confirm.label
-msgctxt "view~user.form.password.confirm.label"
-msgid "Re-type this password"
-msgstr "Teclee de novo o contrasinal"
-
-#: view~user.form.password.help
-msgctxt "view~user.form.password.help"
-msgid "The password length must be above 8 letters."
-msgstr "A lonxitude do contrasinal debe ser de máis de 8 letras."
-
 #: view~user.form.firstname.label
 msgctxt "view~user.form.firstname.label"
 msgid "First name"
@@ -807,44 +790,30 @@ msgid ""
 " the maps."
 msgstr "Escriba un texto breve para explicar por que querería ter acceso ós mapas."
 
-#: view~user.form.antispam.label
-msgctxt "view~user.form.antispam.label"
-msgid "Anti-spam checking"
-msgstr "Comprobación anti-spam"
-
-#: view~user.form.submit.label
-msgctxt "view~user.form.submit.label"
-msgid "Send request"
-msgstr "Enviar solicitude"
-
-#: view~user.form.message.saved
-msgctxt "view~user.form.message.saved"
-msgid ""
-"Your request has been successfully sent. An e-mail has been sent to the "
-"administrator for validation."
-msgstr "A súa solicitude foi enviada satisfactoriamente. Envióuselle un correo electrónico ó administrador para validación."
-
-#: view~user.form.message.not.saved
-msgctxt "view~user.form.message.not.saved"
-msgid "An error occured while sending your request. Please try again."
-msgstr "Houbo un erro no envío da solicitude. Ténteo de novo."
-
-#: view~user.email.admin.subject
-msgctxt "view~user.email.admin.subject"
-msgid "Lizmap - Someone requested an account"
-msgstr "Lizmap - Alguén solicitou unha conta"
-
-#: view~user.email.admin.body
-msgctxt "view~user.email.admin.body"
-msgid ""
-"Someone has requested a Lizmap account to be able to access the maps, with "
-"the login %s and the e-mail %s."
-msgstr "Alguén solicitou unha conta Lizmap para ser capaz de acceder ós mapas, co alcume %s e o correo electrónico %s."
-
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
 msgid "You have not the right to use the edition tools."
 msgstr "Non ten permiso para utilizar as ferramentas de edición."
+
+#: view~edition.form.action.future.label
+msgctxt "view~edition.form.action.future.label"
+msgid "After saved"
+msgstr "Despois de gardados"
+
+#: view~edition.form.action.future.close
+msgctxt "view~edition.form.action.future.close"
+msgid "Close form"
+msgstr "Pechar formulario"
+
+#: view~edition.form.action.future.create
+msgctxt "view~edition.form.action.future.create"
+msgid "Create new feature"
+msgstr "Crear unha nova entidade"
+
+#: view~edition.form.action.future.edit
+msgctxt "view~edition.form.action.future.edit"
+msgid "Reopen form"
+msgstr "Abrir de novo o formulario"
 
 #: view~edition.form.submit.label
 msgctxt "view~edition.form.submit.label"
@@ -860,6 +829,11 @@ msgstr "Gardáronse os datos."
 msgctxt "view~edition.form.cancel.label"
 msgid "Cancel"
 msgstr "Cancelar"
+
+#: view~edition.form.reset.label
+msgctxt "view~edition.form.reset.label"
+msgid "Reset"
+msgstr "Restablecer"
 
 #: view~edition.form.btn.clear.title
 msgctxt "view~edition.form.btn.clear.title"
@@ -931,6 +905,66 @@ msgctxt "view~edition.toolbar.cancel.title"
 msgid "Cancel"
 msgstr "Cancelar"
 
+#: view~edition.geomtool.nodetool.title
+msgctxt "view~edition.geomtool.nodetool.title"
+msgid "Node tool"
+msgstr "Ferramenta de nodos"
+
+#: view~edition.geomtool.drag.title
+msgctxt "view~edition.geomtool.drag.title"
+msgid "Drag"
+msgstr "Arrastrar"
+
+#: view~edition.geomtool.rotate.title
+msgctxt "view~edition.geomtool.rotate.title"
+msgid "Rotate"
+msgstr "Rotar"
+
+#: view~edition.geomtool.reshape.title
+msgctxt "view~edition.geomtool.reshape.title"
+msgid "Reshape"
+msgstr "Cambiar forma"
+
+#: view~edition.point.coord.title
+msgctxt "view~edition.point.coord.title"
+msgid "Manage point/vertex coordinates"
+msgstr "Administrar coordenadas do punto/vértice"
+
+#: view~edition.point.coord.crs.label
+msgctxt "view~edition.point.coord.crs.label"
+msgid "CRS:"
+msgstr "SRC:"
+
+#: view~edition.point.coord.x.label
+msgctxt "view~edition.point.coord.x.label"
+msgid "X:"
+msgstr "X:"
+
+#: view~edition.point.coord.y.label
+msgctxt "view~edition.point.coord.y.label"
+msgid "Y:"
+msgstr "Y:"
+
+#: view~edition.point.coord.geolocation.label
+msgctxt "view~edition.point.coord.geolocation.label"
+msgid "linked to geolocation"
+msgstr "enlazado á xeolocalización"
+
+#: view~edition.point.coord.add.label
+msgctxt "view~edition.point.coord.add.label"
+msgid "Add"
+msgstr "Engadir"
+
+#: view~edition.point.coord.finalize.label
+msgctxt "view~edition.point.coord.finalize.label"
+msgid "Finalize"
+msgstr "Finalizar"
+
+#: view~edition.geolocate.toolbar.title
+msgctxt "view~edition.geolocate.toolbar.title"
+msgid "Edition:"
+msgstr "Edición:"
+
 #: view~edition.toolbar.draw.tooltip
 msgctxt "view~edition.toolbar.draw.tooltip"
 msgid "Activate the tool for creating new objects."
@@ -986,6 +1020,48 @@ msgctxt "view~edition.modal.message.no.feature.found"
 msgid "No feature has been found here."
 msgstr "Non se atopou ningunha entidade aquí."
 
+#: view~edition.message.error.parameter.project
+msgctxt "view~edition.message.error.parameter.project"
+msgid "The 'project' parameter is mandatory!"
+msgstr "É obrigatorio o parámetro 'proxecto'!"
+
+#: view~edition.message.error.parameter.featureId
+msgctxt "view~edition.message.error.parameter.featureId"
+msgid "The 'featureId' parameter is mandatory!"
+msgstr "É obrigatorio o parámetro 'featureId'!"
+
+#: view~edition.message.error.layer.editable
+msgctxt "view~edition.message.error.layer.editable"
+msgid "The layer is not editable!"
+msgstr "Non se pode editar a capa!"
+
+#: view~edition.message.error.layer.editable.create
+msgctxt "view~edition.message.error.layer.editable.create"
+msgid "Create feature for the layer is not available!"
+msgstr "Non está dispoñible a creación de entidades para a capa!"
+
+#: view~edition.message.error.layer.editable.delete
+msgctxt "view~edition.message.error.layer.editable.delete"
+msgid "Delete feature for the layer is not available!"
+msgstr "Non está dispoñible a eliminación de entidades para a capa!"
+
+#: view~edition.message.error.primary.keys
+msgctxt "view~edition.message.error.primary.keys"
+msgid ""
+"Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
+" defined primary key on the table."
+msgstr "Lizmap non pode atopar as claves primarias da capa \"%s\". A ferramenta de edición precisa unha clave primaria definida na táboa."
+
+#: view~edition.message.error.feature.get
+msgctxt "view~edition.message.error.feature.get"
+msgid "Lizmap cannot get the feature data with WFS"
+msgstr "Lizmap non pode obter os datos da entidade con WFS"
+
+#: view~edition.message.error.form.get
+msgctxt "view~edition.message.error.form.get"
+msgid "An error has been raised when getting the form"
+msgstr "Produciuse un erro ó obter o formulario"
+
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"
 msgid "The bbox has to be 4 floats separated by ','!"
@@ -995,6 +1071,16 @@ msgstr "A caixa delimitadora ten que ter 4 decimais separados por ','!"
 msgctxt "view~edition.message.error.crs"
 msgid "crs is mandatory and has to be an integer or EPSG:*!"
 msgstr "o src é obrigatorio e ten que ser un número enteiro ou EPSG:*!"
+
+#: view~edition.message.error.save
+msgctxt "view~edition.message.error.save"
+msgid "An error has been raised when saving the form!"
+msgstr "Produciuse un erro ó gardar o formulario!"
+
+#: view~edition.message.error.save.fields
+msgctxt "view~edition.message.error.save.fields"
+msgid "No fields available for saving the form!"
+msgstr "Non hai campos dispoñibles para gardar o formulario!"
 
 #: view~edition.message.error.delete
 msgctxt "view~edition.message.error.delete"
@@ -1022,6 +1108,18 @@ msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
 msgstr "Non pode gardar este obxecto sen unha xeometría. Debuxe a xeometría no mapa."
+
+#: view~edition.message.error.upload.layer
+msgctxt "view~edition.message.error.upload.layer"
+msgid "The layer \"%s\" directory for uploading media is not writable!"
+msgstr "Non se pode escribir no directorio da capa \"%s\" para subir ficheiros!"
+
+#: view~edition.message.error.upload.layer.field
+msgctxt "view~edition.message.error.upload.layer.field"
+msgid ""
+"The field \"%s\" directory of the layer \"%s\" for uploading media is not "
+"writable!"
+msgstr "Non se pode escribir no directorio do campo \"%s\" da capa \"%s\" para subir ficheiros!"
 
 #: view~edition.upload.choice.keep
 msgctxt "view~edition.upload.choice.keep"
@@ -1066,6 +1164,21 @@ msgstr "Debe haber polo menos un obxecto seleccionado para cada capa para crear 
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table!"
 msgstr "As capas non se poden configurar para ter unha táboa de atributos!"
+
+#: view~edition.link.error.no.create.feature
+msgctxt "view~edition.link.error.no.create.feature"
+msgid "Create feature for the layer \"%s\" is not available!"
+msgstr "Non está dispoñible a creación de entidades para a capa \"%s\"!"
+
+#: view~edition.link.error.no.modify.attributes
+msgctxt "view~edition.link.error.no.modify.attributes"
+msgid "Modify attributes for the layer \"%s\" is not available!"
+msgstr "Non está dispoñible a modificación de atributos para a capa \"%s\"!"
+
+#: view~edition.link.error.no.given.fields
+msgctxt "view~edition.link.error.no.given.fields"
+msgid "Given fields do not exists!"
+msgstr "Os campos indicados non existen!"
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
@@ -1190,6 +1303,16 @@ msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
 msgstr "Non pode gardar este obxecto sen unha xeometría. Debuxe a xeometría no mapa."
+
+#: view~dictionnary.edition.point.coord.crs.layer
+msgctxt "view~dictionnary.edition.point.coord.crs.layer"
+msgid "Layer"
+msgstr "Capa"
+
+#: view~dictionnary.edition.point.coord.crs.map
+msgctxt "view~dictionnary.edition.point.coord.crs.map"
+msgid "Map"
+msgstr "Mapa"
 
 #: view~dictionnary.externalsearch.search
 msgctxt "view~dictionnary.externalsearch.search"
@@ -1507,3 +1630,43 @@ msgstr "Non se atopou ningún obxecto nesta localización"
 msgctxt "view~dictionnary.generic.btn.close.title"
 msgid "Close"
 msgstr "Pechar"
+
+#: view~dictionnary.atlas.toolbar.title
+msgctxt "view~dictionnary.atlas.toolbar.title"
+msgid "Atlas"
+msgstr "Atlas"
+
+#: view~dictionnary.atlas.navbar.title
+msgctxt "view~dictionnary.atlas.navbar.title"
+msgid "Atlas"
+msgstr "Atlas"
+
+#: view~dictionnary.atlas.toolbar.play
+msgctxt "view~dictionnary.atlas.toolbar.play"
+msgid "Play"
+msgstr "Reproducir"
+
+#: view~dictionnary.atlas.toolbar.stop
+msgctxt "view~dictionnary.atlas.toolbar.stop"
+msgid "Stop"
+msgstr "Parar"
+
+#: view~dictionnary.atlas.toolbar.pause
+msgctxt "view~dictionnary.atlas.toolbar.pause"
+msgid "Pause"
+msgstr "Pausa"
+
+#: view~dictionnary.atlas.toolbar.next
+msgctxt "view~dictionnary.atlas.toolbar.next"
+msgid "Next"
+msgstr "Seguinte"
+
+#: view~dictionnary.atlas.toolbar.prev
+msgctxt "view~dictionnary.atlas.toolbar.prev"
+msgid "Previous"
+msgstr "Previo"
+
+#: view~dictionnary.embed.open.map
+msgctxt "view~dictionnary.embed.open.map"
+msgid "Open the map in full screen"
+msgstr "Abrir o mapa a pantalla completa"
