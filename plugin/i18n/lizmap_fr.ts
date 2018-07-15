@@ -995,12 +995,12 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     <message>
         <location filename="ui_lizmap.ui" line="3231"/>
         <source>bottomdock</source>
-        <translation type="unfinished"/>
+        <translation>panneau du bas</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3236"/>
         <source>right-dock</source>
-        <translation type="unfinished"/>
+        <translation>panneau de droite</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3444"/>
@@ -1015,17 +1015,17 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     <message>
         <location filename="ui_lizmap.ui" line="3409"/>
         <source>bar</source>
-        <translation type="unfinished"/>
+        <translation>graphique en barre</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3419"/>
         <source>pie</source>
-        <translation type="unfinished"/>
+        <translation>camembert</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3399"/>
         <source>scatter</source>
-        <translation type="unfinished"/>
+        <translation>nuage de points</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="204"/>
@@ -1105,7 +1105,7 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     <message>
         <location filename="ui_lizmap.ui" line="3368"/>
         <source>Plot Id</source>
-        <translation type="unfinished"/>
+        <translation>Id graphique</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3381"/>
@@ -1115,7 +1115,7 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     <message>
         <location filename="ui_lizmap.ui" line="3404"/>
         <source>box</source>
-        <translation type="unfinished"/>
+        <translation>boîte à moustache</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3414"/>
@@ -1125,12 +1125,12 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     <message>
         <location filename="ui_lizmap.ui" line="3424"/>
         <source>histogram2d</source>
-        <translation type="unfinished"/>
+        <translation>Histogramme 2d</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3429"/>
         <source>polar</source>
-        <translation type="unfinished"/>
+        <translation>graphique polair</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3481"/>
@@ -1140,47 +1140,47 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     <message>
         <location filename="ui_lizmap.ui" line="3494"/>
         <source>avg</source>
-        <translation type="unfinished"/>
+        <translation>moyenne</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3499"/>
         <source>sum</source>
-        <translation type="unfinished"/>
+        <translation>somme</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3504"/>
         <source>count</source>
-        <translation type="unfinished"/>
+        <translation>décompte</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3509"/>
         <source>median</source>
-        <translation type="unfinished"/>
+        <translation>médiane</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3514"/>
         <source>stddev</source>
-        <translation type="unfinished"/>
+        <translation>écart-type</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3519"/>
         <source>min</source>
-        <translation type="unfinished"/>
+        <translation>min</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3524"/>
         <source>max</source>
-        <translation type="unfinished"/>
+        <translation>max</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3529"/>
         <source>first</source>
-        <translation type="unfinished"/>
+        <translation>premier</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3534"/>
         <source>last</source>
-        <translation type="unfinished"/>
+        <translation>dernier</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3595"/>
@@ -1195,7 +1195,7 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     <message>
         <location filename="ui_lizmap.ui" line="3618"/>
         <source>Display filtered plot in popups of parent layer</source>
-        <translation type="unfinished"/>
+        <translation>Afficher le graphique filtré dans les popups de la couche parent</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3992"/>
@@ -1205,12 +1205,12 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     <message>
         <location filename="ui_lizmap.ui" line="4002"/>
         <source>Please use a vector layer with reasonable number of features !</source>
-        <translation type="unfinished"/>
+        <translation>Veuillez utiliser une couche vectorielle contenant un nombre raisonnable d&apos;objets !</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="4009"/>
         <source>Layer options</source>
-        <translation type="unfinished"/>
+        <translation>Options de la couche</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="4020"/>
@@ -1220,7 +1220,7 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     <message>
         <location filename="ui_lizmap.ui" line="4027"/>
         <source>Trigger filter</source>
-        <translation type="unfinished"/>
+        <translation>Déclencher le filtre</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="4044"/>
@@ -1230,7 +1230,7 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     <message>
         <location filename="ui_lizmap.ui" line="4051"/>
         <source>Feature label</source>
-        <translation type="unfinished"/>
+        <translation>Étiquette des objets</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="4058"/>
@@ -1265,7 +1265,7 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     <message>
         <location filename="ui_lizmap.ui" line="4144"/>
         <source>center</source>
-        <translation type="unfinished"/>
+        <translation>centrer</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="4152"/>
@@ -1295,7 +1295,7 @@ Seul l&apos;objet sélectionné sera alors visible.</translation>
     <message>
         <location filename="ui_lizmap.ui" line="4223"/>
         <source>Right dock max-width (%)</source>
-        <translation type="unfinished"/>
+        <translation>Largeur max du panneau de droite (%)</translation>
     </message>
 </context>
 <context>
