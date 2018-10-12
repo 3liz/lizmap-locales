@@ -1,5 +1,6 @@
 # 
 # Translators:
+# Laurent Jouanneau <dev@ljouanneau.com>, 2018
 # Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2018
 # Michael Douchin <kimaidou@gmail.com>, 2017
 # rldhont <rldhont@gmail.com>, 2016-2018
@@ -7,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-02 14:48++0200\n"
-"PO-Revision-Date: 2018-06-02 16:54+0000\n"
-"Last-Translator: Mathieu Bossaert <mathieu.bossaert@gmail.com>\n"
+"POT-Creation-Date: 2018-10-12 17:44++0200\n"
+"PO-Revision-Date: 2018-10-12 15:55+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
 "Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,81 +59,6 @@ msgstr "Ajouter l'utilisateur dans le groupe"
 msgctxt "admin~user.acl.form.add"
 msgid "Add"
 msgstr "Ajouter"
-
-#: admin~jacl2.lizmap.admin.grp
-msgctxt "admin~jacl2.lizmap.admin.grp"
-msgid "Lizmap Administration Management"
-msgstr "Gestion de l'administration de Lizmap"
-
-#: admin~jacl2.lizmap.grp
-msgctxt "admin~jacl2.lizmap.grp"
-msgid "Lizmap Client Management"
-msgstr "Gestion du client Lizmap"
-
-#: admin~jacl2.lizmap.admin.access
-msgctxt "admin~jacl2.lizmap.admin.access"
-msgid "Lizmap Admin access"
-msgstr "Accéder à l'admin Lizmap"
-
-#: admin~jacl2.lizmap.admin.services.view
-msgctxt "admin~jacl2.lizmap.admin.services.view"
-msgid "View services"
-msgstr "Voir les services"
-
-#: admin~jacl2.lizmap.admin.services.update
-msgctxt "admin~jacl2.lizmap.admin.services.update"
-msgid "Modify services"
-msgstr "Modifier les services"
-
-#: admin~jacl2.lizmap.admin.repositories.view
-msgctxt "admin~jacl2.lizmap.admin.repositories.view"
-msgid "View repositories"
-msgstr "Voir les cartes de ce répertoire"
-
-#: admin~jacl2.lizmap.admin.repositories.create
-msgctxt "admin~jacl2.lizmap.admin.repositories.create"
-msgid "Create repositories"
-msgstr "Créer des répertoires"
-
-#: admin~jacl2.lizmap.admin.repositories.update
-msgctxt "admin~jacl2.lizmap.admin.repositories.update"
-msgid "Modify repositories"
-msgstr "Modifier des répertoires"
-
-#: admin~jacl2.lizmap.admin.repositories.delete
-msgctxt "admin~jacl2.lizmap.admin.repositories.delete"
-msgid "Delete repositories"
-msgstr "Supprimer des répertoires"
-
-#: admin~jacl2.lizmap.admin.grp.default
-msgctxt "admin~jacl2.lizmap.admin.grp.default"
-msgid "default group"
-msgstr "groupe par défaut"
-
-#: admin~jacl2.lizmap.repositories.view
-msgctxt "admin~jacl2.lizmap.repositories.view"
-msgid "View repositories"
-msgstr "Voir les répertoires"
-
-#: admin~jacl2.lizmap.tools.edition.use
-msgctxt "admin~jacl2.lizmap.tools.edition.use"
-msgid "Use the Edition tool"
-msgstr "Utiliser l'outil Édition"
-
-#: admin~jacl2.lizmap.tools.loginFilteredLayers.override
-msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
-msgid "Always see complete layers data, even if filtered by login"
-msgstr "Afficher toutes les données, mêmes si filtrées par login"
-
-#: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
-msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
-msgid "Display projects WMS links"
-msgstr "Afficher les liens WMS des projets"
-
-#: admin~jacl2.lizmap.tools.layer.export
-msgctxt "admin~jacl2.lizmap.tools.layer.export"
-msgid "Allow export of layers"
-msgstr "Permettre l'export de couches"
 
 #: admin~admin.header.admin
 msgctxt "admin~admin.header.admin"
@@ -244,11 +170,6 @@ msgctxt "admin~admin.configuration.services.rootRepositories.label"
 msgid "Root folder of repositories"
 msgstr "Dossier racine des répertoires"
 
-#: admin~admin.configuration.services.relativeWMSPath.label
-msgctxt "admin~admin.configuration.services.relativeWMSPath.label"
-msgid "Does the server use relative path from root folder?"
-msgstr "Le serveur utilise-t-il des chemins relatifs au dossier racine ?"
-
 #: admin~admin.configuration.services.proxyMethod.label
 msgctxt "admin~admin.configuration.services.proxyMethod.label"
 msgid "Send request to QGIS Server with"
@@ -263,6 +184,12 @@ msgstr "Mode de débogage"
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
 msgid "Allow visitors to request an account"
 msgstr "Autoriser les visiteurs à demander un compte"
+
+#: admin~admin.configuration.services.allowUserAccountRequests.help.deactivated
+msgctxt ""
+"admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
+msgid "This option is deactivated because of the use of Ldap authentication"
+msgstr "Cette option est désactivée parce que l'authentification ldap est utilisée"
 
 #: admin~admin.configuration.services.adminContactEmail.label
 msgctxt "admin~admin.configuration.services.adminContactEmail.label"
@@ -483,7 +410,7 @@ msgstr "Le dossier racine des répertoires permet de limiter à 1 dossier les r�
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use relative path from root folder?"
-msgstr "Le serveur utilise-t-il des chemins relatifs au dossier racine ?"
+msgstr "Le serveur QGIS utilise-t-il des chemins relatifs au dossier racine ?"
 
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
@@ -544,8 +471,8 @@ msgstr "Si ce paramètre est mis sur on, alors les visiteurs peuvent remplir un 
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
-msgid "E-mail for notifications"
-msgstr "Courriel pour les notifications"
+msgid "E-mail where to send notifications"
+msgstr "Courriel où envoyer les notifications"
 
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
@@ -563,6 +490,13 @@ msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
 msgstr "Adresse de l'expéditeur utilisé pour l'envoi des courriels par Lizmap. Si il n'est pas indiqué, aucun mail ne sera envoyé par Lizmap. Assurez-vous que le serveur web est autorisé à envoyer des courriels avec cette adresse."
+
+#: admin~admin.form.admin_services.adminSenderEmail.error.required
+msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
+msgid ""
+"A sender e-mail address is required to send notification or requests for "
+"account creation"
+msgstr "Une adresse mail d'expéditeur est nécessaire pour envoyer les mails de notification ou de demande de création de compte"
 
 #: admin~admin.form.admin_services.adminSenderName.label
 msgctxt "admin~admin.form.admin_services.adminSenderName.label"
@@ -999,3 +933,78 @@ msgstr "Êtes-vous sûr de vouloir écraser le fichier de logs d'erreurs ?"
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
 msgstr "Le fichier de logs d'erreurs a été écrasé avec succès."
+
+#: admin~jacl2.lizmap.admin.grp
+msgctxt "admin~jacl2.lizmap.admin.grp"
+msgid "Lizmap Administration Management"
+msgstr "Gestion de l'administration de Lizmap"
+
+#: admin~jacl2.lizmap.grp
+msgctxt "admin~jacl2.lizmap.grp"
+msgid "Lizmap Client Management"
+msgstr "Gestion du client Lizmap"
+
+#: admin~jacl2.lizmap.admin.access
+msgctxt "admin~jacl2.lizmap.admin.access"
+msgid "Lizmap Admin access"
+msgstr "Accéder à l'admin Lizmap"
+
+#: admin~jacl2.lizmap.admin.services.view
+msgctxt "admin~jacl2.lizmap.admin.services.view"
+msgid "View services"
+msgstr "Voir les services"
+
+#: admin~jacl2.lizmap.admin.services.update
+msgctxt "admin~jacl2.lizmap.admin.services.update"
+msgid "Modify services"
+msgstr "Modifier les services"
+
+#: admin~jacl2.lizmap.admin.repositories.view
+msgctxt "admin~jacl2.lizmap.admin.repositories.view"
+msgid "View repositories"
+msgstr "Voir les cartes de ce répertoire"
+
+#: admin~jacl2.lizmap.admin.repositories.create
+msgctxt "admin~jacl2.lizmap.admin.repositories.create"
+msgid "Create repositories"
+msgstr "Créer des répertoires"
+
+#: admin~jacl2.lizmap.admin.repositories.update
+msgctxt "admin~jacl2.lizmap.admin.repositories.update"
+msgid "Modify repositories"
+msgstr "Modifier des répertoires"
+
+#: admin~jacl2.lizmap.admin.repositories.delete
+msgctxt "admin~jacl2.lizmap.admin.repositories.delete"
+msgid "Delete repositories"
+msgstr "Supprimer des répertoires"
+
+#: admin~jacl2.lizmap.admin.grp.default
+msgctxt "admin~jacl2.lizmap.admin.grp.default"
+msgid "default group"
+msgstr "groupe par défaut"
+
+#: admin~jacl2.lizmap.repositories.view
+msgctxt "admin~jacl2.lizmap.repositories.view"
+msgid "View repositories"
+msgstr "Voir les répertoires"
+
+#: admin~jacl2.lizmap.tools.edition.use
+msgctxt "admin~jacl2.lizmap.tools.edition.use"
+msgid "Use the Edition tool"
+msgstr "Utiliser l'outil Édition"
+
+#: admin~jacl2.lizmap.tools.loginFilteredLayers.override
+msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
+msgid "Always see complete layers data, even if filtered by login"
+msgstr "Afficher toutes les données, mêmes si filtrées par login"
+
+#: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
+msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
+msgid "Display projects WMS links"
+msgstr "Afficher les liens WMS des projets"
+
+#: admin~jacl2.lizmap.tools.layer.export
+msgctxt "admin~jacl2.lizmap.tools.layer.export"
+msgid "Allow export of layers"
+msgstr "Permettre l'export de couches"
