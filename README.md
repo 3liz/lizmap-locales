@@ -1,6 +1,10 @@
 [![logo](icon.png "lizmap")][lizmap]Lizmap Web Application Locales
 ===================================================================
 
+You'll find here the localization files for the web application 
+[Lizmap Web Client](https://github.com/3liz/lizmap-web-client/) (the web-client directory)
+and the [Lizmap plugin](https://github.com/3liz/lizmap-plugin) for Qgis (the plugin directory).
+
 Lizmap web application, by 3LIZ.
 
     begin       : 2011-11-01
@@ -9,34 +13,34 @@ Lizmap web application, by 3LIZ.
     email       : info@3liz.com
     website     : http://www.3liz.com
 
-Lizmap Web Application generates dynamically a web map application (php/html/css/js) with the help of Qgis Server ( [QGIS Server Tutorial] ). You can configure one web map per Qgis project with the QGIS LizMap Plugin. The Lizmap web application must be installed on the server.
 
-The Original Code is 3liz code.
+Contributing
+============
 
-Transifex
-------------
+We are using [Transifex](https://www.transifex.com/3liz-1/lizmap-locales/) to
+translate our application. So we prefer you contribute on Transifex instead
+of modifying directly this repository.
 
-You can contribute with Transifex. You'll find the project here: https://www.transifex.com/3liz-1/lizmap-locales/
+On transifex, you can help to translate existing strings, or you can create a new
+language and translate into this language. When you are finished to create your
+localization, open an issue on github to inform us the new language, and
+we will update localization strings into lizmap. 
 
 
 Web Client locales
-------------------------
+-------------------
 
 All the locales for the Web Client is in the web-client directory.
 
-You can contribute by update or add your own locale:
-* Add a directory for your langage
-* Transform \*.pot files from the *pot* directory to \*.po files in your langage directory
-* Translate the \*.po files with your favorite localize software
+Files are .po file, but there are not used directly by Lizmap, as Lizmap is
+using an other file format (properties). We are using a script to convert po files 
+to properties files and vice-versa.  
 
 Plugin locales
 ----------------------------
 
 All the locales for the Web Client is in the plugin directory.
 
-You can contribute by update or add your own locale:
-* copy file lizmap_en.ts from i18n directory, change name to lizmap_*.ts with your langage and paste it in i18n directory
-* Translate the lizmap_*.ts file with your favorite localize software
 
 Lizmap sources
 ---------------------------
@@ -44,3 +48,8 @@ Lizmap sources
 Lizmap web client: https://github.com/3liz/lizmap-web-client/
 
 Lizmap plugin: https://github.com/3liz/lizmap-plugin/
+
+For core contributor
+--------------------
+
+See DEV.md to see instructions to push and pull translated files to/from Transifex.

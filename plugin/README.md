@@ -1,5 +1,15 @@
-Add local
-============
 
-* copy file lizmap_en.ts from i18n directory, change name to lizmap_*.ts with your langage and paste it in i18n directory
-* Translate the lizmap_*.ts file with your favorite localize software
+It is not recommended to modify by hand, `ts` files into `plugin/`!
+We prefer to translate strings with Transifex, and then translation are imported
+into Lizmap plugin.
+
+Updating the list of strings to translate for Lizmap plugin
+-----------------------------------------------------------
+
+TODO
+
+
+Updating translated strings
+---------------------------
+
+TODO
