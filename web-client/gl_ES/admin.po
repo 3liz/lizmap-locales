@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-02 14:48++0200\n"
-"PO-Revision-Date: 2018-06-18 20:39+0000\n"
-"Last-Translator: xanvieiro <gallaecia6@gmail.com>\n"
+"POT-Creation-Date: 2018-10-17 11:50++0200\n"
+"PO-Revision-Date: 2018-10-17 09:52+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: Galician (http://www.transifex.com/3liz-1/lizmap-locales/language/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -243,11 +243,6 @@ msgctxt "admin~admin.configuration.services.rootRepositories.label"
 msgid "Root folder of repositories"
 msgstr "Cartafol raíz de repositorios"
 
-#: admin~admin.configuration.services.relativeWMSPath.label
-msgctxt "admin~admin.configuration.services.relativeWMSPath.label"
-msgid "Does the server use relative path from root folder?"
-msgstr "Utiliza o servidor rutas relativas ó directorio raíz?"
-
 #: admin~admin.configuration.services.proxyMethod.label
 msgctxt "admin~admin.configuration.services.proxyMethod.label"
 msgid "Send request to QGIS Server with"
@@ -262,6 +257,12 @@ msgstr "Modo depuración"
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
 msgid "Allow visitors to request an account"
 msgstr "Permitir ós visitantes solicitar unha conta"
+
+#: admin~admin.configuration.services.allowUserAccountRequests.help.deactivated
+msgctxt ""
+"admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
+msgid "This option is deactivated because of the use of Ldap authentication"
+msgstr "Esta opción está desactivada debido ó uso da autenticación Ldap"
 
 #: admin~admin.configuration.services.adminContactEmail.label
 msgctxt "admin~admin.configuration.services.adminContactEmail.label"
@@ -486,8 +487,8 @@ msgstr "Utiliza o servidor rutas relativas ó directorio raíz?"
 
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
-msgid "Send request to QGIS Server with"
-msgstr "Enviar petición ó Servidor QGIS con"
+msgid "Send request to QGIS Server or request to external services with"
+msgstr ""
 
 #: admin~admin.form.admin_services.proxyMethod.php.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
@@ -498,6 +499,51 @@ msgstr "PHP"
 msgctxt "admin~admin.form.admin_services.proxyMethod.curl.label"
 msgid "Curl"
 msgstr "Curl"
+
+#: admin~admin.form.admin_services.requestProxy.label
+msgctxt "admin~admin.form.admin_services.requestProxy.label"
+msgid "Use a proxy server to do requests to external services"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxy.enabled
+msgctxt "admin~admin.form.admin_services.requestProxy.enabled"
+msgid "Use a proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxy.disabled
+msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
+msgid "No proxy"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyHost.label
+msgctxt "admin~admin.form.admin_services.requestProxyHost.label"
+msgid "Host of the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyPort.label
+msgctxt "admin~admin.form.admin_services.requestProxyPort.label"
+msgid "Port of the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyType.label
+msgctxt "admin~admin.form.admin_services.requestProxyType.label"
+msgid "Type of the proxy"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyUser.label
+msgctxt "admin~admin.form.admin_services.requestProxyUser.label"
+msgid "Login to access to the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyPassword.label
+msgctxt "admin~admin.form.admin_services.requestProxyPassword.label"
+msgid "Password to access to the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyNotForDomain.label
+msgctxt "admin~admin.form.admin_services.requestProxyNotForDomain.label"
+msgid "Domains for which the proxy will not be used"
+msgstr ""
 
 #: admin~admin.form.admin_services.debugMode.label
 msgctxt "admin~admin.form.admin_services.debugMode.label"
@@ -543,8 +589,8 @@ msgstr "De establecerse en aceso, os visitantes poden encher un formulario para 
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
-msgid "E-mail for notifications"
-msgstr "Correo electrónico para notificacións"
+msgid "E-mail where to send notifications"
+msgstr "Correo electrónico ó que enviar as notificacións"
 
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
@@ -562,6 +608,13 @@ msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
 msgstr "Enderezo de correo electrónico utilizado para enviar correos electrónicos. De estar baleiro, non se enviará ningún correo por parte de Lizmap. Asegúrese de que o servidor lle permite enviar correo electrónico a este enderezo."
+
+#: admin~admin.form.admin_services.adminSenderEmail.error.required
+msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
+msgid ""
+"A sender e-mail address is required to send notification or requests for "
+"account creation"
+msgstr "É necesaria unha dirección de correo electrónico dun remitente para enviar notificacións ou solicitudes para a creación dunha conta"
 
 #: admin~admin.form.admin_services.adminSenderName.label
 msgctxt "admin~admin.form.admin_services.adminSenderName.label"

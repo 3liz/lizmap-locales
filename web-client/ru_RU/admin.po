@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-02 14:48++0200\n"
-"PO-Revision-Date: 2018-06-02 12:54+0000\n"
+"POT-Creation-Date: 2018-10-17 11:50++0200\n"
+"PO-Revision-Date: 2018-10-17 09:52+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/3liz-1/lizmap-locales/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -24,14 +24,14 @@ msgstr "Комментарии"
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"
 msgid "Lizmap - Someone requested an account"
-msgstr ""
+msgstr "LizMap - кто-то запросил регистрацию"
 
 #: admin~user.email.admin.body
 msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr ""
+msgstr "Кто-то запросил регистрацию в LizMap для доступа к картам.\nЛогин: %s.\nE-Mail: %s."
 
 #: admin~user.acl.no.group
 msgctxt "admin~user.acl.no.group"
@@ -56,7 +56,7 @@ msgstr ""
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
 msgid "Add"
-msgstr ""
+msgstr "Добавить"
 
 #: admin~jacl2.lizmap.admin.grp
 msgctxt "admin~jacl2.lizmap.admin.grp"
@@ -136,7 +136,7 @@ msgstr "Разрешить экспорт слоев"
 #: admin~admin.header.admin
 msgctxt "admin~admin.header.admin"
 msgid "Administration"
-msgstr ""
+msgstr "Администрирование"
 
 #: admin~admin.menu.configuration.main.label
 msgctxt "admin~admin.menu.configuration.main.label"
@@ -243,11 +243,6 @@ msgctxt "admin~admin.configuration.services.rootRepositories.label"
 msgid "Root folder of repositories"
 msgstr "Корневой каталог репозиториев"
 
-#: admin~admin.configuration.services.relativeWMSPath.label
-msgctxt "admin~admin.configuration.services.relativeWMSPath.label"
-msgid "Does the server use relative path from root folder?"
-msgstr ""
-
 #: admin~admin.configuration.services.proxyMethod.label
 msgctxt "admin~admin.configuration.services.proxyMethod.label"
 msgid "Send request to QGIS Server with"
@@ -262,6 +257,12 @@ msgstr "Режим отладки"
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
 msgid "Allow visitors to request an account"
 msgstr "Разрешить посетителям запрашивать регистрацию"
+
+#: admin~admin.configuration.services.allowUserAccountRequests.help.deactivated
+msgctxt ""
+"admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
+msgid "This option is deactivated because of the use of Ldap authentication"
+msgstr ""
 
 #: admin~admin.configuration.services.adminContactEmail.label
 msgctxt "admin~admin.configuration.services.adminContactEmail.label"
@@ -316,12 +317,12 @@ msgstr "Нет"
 #: admin~admin.form.admin_services.yes.label
 msgctxt "admin~admin.form.admin_services.yes.label"
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
 #: admin~admin.form.admin_services.no.label
 msgctxt "admin~admin.form.admin_services.no.label"
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #: admin~admin.form.admin_services.appName.label
 msgctxt "admin~admin.form.admin_services.appName.label"
@@ -486,8 +487,8 @@ msgstr ""
 
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
-msgid "Send request to QGIS Server with"
-msgstr "Использовать для обращения к серверу QGIS"
+msgid "Send request to QGIS Server or request to external services with"
+msgstr ""
 
 #: admin~admin.form.admin_services.proxyMethod.php.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
@@ -498,6 +499,51 @@ msgstr "PHP"
 msgctxt "admin~admin.form.admin_services.proxyMethod.curl.label"
 msgid "Curl"
 msgstr "Curl"
+
+#: admin~admin.form.admin_services.requestProxy.label
+msgctxt "admin~admin.form.admin_services.requestProxy.label"
+msgid "Use a proxy server to do requests to external services"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxy.enabled
+msgctxt "admin~admin.form.admin_services.requestProxy.enabled"
+msgid "Use a proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxy.disabled
+msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
+msgid "No proxy"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyHost.label
+msgctxt "admin~admin.form.admin_services.requestProxyHost.label"
+msgid "Host of the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyPort.label
+msgctxt "admin~admin.form.admin_services.requestProxyPort.label"
+msgid "Port of the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyType.label
+msgctxt "admin~admin.form.admin_services.requestProxyType.label"
+msgid "Type of the proxy"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyUser.label
+msgctxt "admin~admin.form.admin_services.requestProxyUser.label"
+msgid "Login to access to the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyPassword.label
+msgctxt "admin~admin.form.admin_services.requestProxyPassword.label"
+msgid "Password to access to the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyNotForDomain.label
+msgctxt "admin~admin.form.admin_services.requestProxyNotForDomain.label"
+msgid "Domains for which the proxy will not be used"
+msgstr ""
 
 #: admin~admin.form.admin_services.debugMode.label
 msgctxt "admin~admin.form.admin_services.debugMode.label"
@@ -543,7 +589,7 @@ msgstr ""
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
-msgid "E-mail for notifications"
+msgid "E-mail where to send notifications"
 msgstr ""
 
 #: admin~admin.form.admin_services.adminContactEmail.help
@@ -561,6 +607,13 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
+msgstr ""
+
+#: admin~admin.form.admin_services.adminSenderEmail.error.required
+msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
+msgid ""
+"A sender e-mail address is required to send notification or requests for "
+"account creation"
 msgstr ""
 
 #: admin~admin.form.admin_services.adminSenderName.label
@@ -925,12 +978,12 @@ msgstr ""
 #: admin~admin.logs.previous_page
 msgctxt "admin~admin.logs.previous_page"
 msgid "Previous"
-msgstr ""
+msgstr "Назад"
 
 #: admin~admin.logs.next_page
 msgctxt "admin~admin.logs.next_page"
 msgid "Next"
-msgstr ""
+msgstr "Далее"
 
 #: admin~admin.logs.email.subject
 msgctxt "admin~admin.logs.email.subject"

@@ -1,5 +1,6 @@
 # 
 # Translators:
+# Hernan Jesus Gonzalez Carmona <hjgonzalezc@gmail.com>, 2018
 # rldhont <rldhont@gmail.com>, 2016
 # Samuel Mesa <samuelmesa@gmail.com>, 2018
 # Víctor Herreros <vherreros@ucm.es>, 2016-2017
@@ -7,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-02 14:48++0200\n"
-"PO-Revision-Date: 2018-06-02 12:54+0000\n"
+"POT-Creation-Date: 2018-10-17 11:50++0200\n"
+"PO-Revision-Date: 2018-10-17 09:52+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/3liz-1/lizmap-locales/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -25,39 +26,39 @@ msgstr "Comentarios"
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"
 msgid "Lizmap - Someone requested an account"
-msgstr ""
+msgstr "Lizmap - Alguien solicitó una cuenta"
 
 #: admin~user.email.admin.body
 msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr ""
+msgstr "Alguien ha solicitado una cuenta Lizmap para poder acceder a los mapas, con el inicio de sesión %s y el e-mail"
 
 #: admin~user.acl.no.group
 msgctxt "admin~user.acl.no.group"
 msgid "The user is not in any group"
-msgstr ""
+msgstr "El usuario no pertenece a ningún grupo"
 
 #: admin~user.acl.form.title
 msgctxt "admin~user.acl.form.title"
 msgid "Groups the user belongs to"
-msgstr ""
+msgstr "Grupos a los que pertenece el usuario"
 
 #: admin~user.acl.form.remove.from.group
 msgctxt "admin~user.acl.form.remove.from.group"
 msgid "Remove him from this group"
-msgstr ""
+msgstr "Eliminarlo de este grupo"
 
 #: admin~user.acl.form.add.to.group
 msgctxt "admin~user.acl.form.add.to.group"
 msgid "Add him to this group"
-msgstr ""
+msgstr "Agregarlo a este grupo"
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
 msgid "Add"
-msgstr ""
+msgstr "Agregar"
 
 #: admin~jacl2.lizmap.admin.grp
 msgctxt "admin~jacl2.lizmap.admin.grp"
@@ -107,7 +108,7 @@ msgstr "Borrar repositorios"
 #: admin~jacl2.lizmap.admin.grp.default
 msgctxt "admin~jacl2.lizmap.admin.grp.default"
 msgid "default group"
-msgstr ""
+msgstr "Grupo por defecto"
 
 #: admin~jacl2.lizmap.repositories.view
 msgctxt "admin~jacl2.lizmap.repositories.view"
@@ -244,11 +245,6 @@ msgctxt "admin~admin.configuration.services.rootRepositories.label"
 msgid "Root folder of repositories"
 msgstr "Carpeta raíz de repositorios"
 
-#: admin~admin.configuration.services.relativeWMSPath.label
-msgctxt "admin~admin.configuration.services.relativeWMSPath.label"
-msgid "Does the server use relative path from root folder?"
-msgstr ""
-
 #: admin~admin.configuration.services.proxyMethod.label
 msgctxt "admin~admin.configuration.services.proxyMethod.label"
 msgid "Send request to QGIS Server with"
@@ -263,6 +259,12 @@ msgstr "Modo depuración"
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
 msgid "Allow visitors to request an account"
 msgstr "Permitir a los visitantes solicitar una cuenta"
+
+#: admin~admin.configuration.services.allowUserAccountRequests.help.deactivated
+msgctxt ""
+"admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
+msgid "This option is deactivated because of the use of Ldap authentication"
+msgstr ""
 
 #: admin~admin.configuration.services.adminContactEmail.label
 msgctxt "admin~admin.configuration.services.adminContactEmail.label"
@@ -317,12 +319,12 @@ msgstr "Desactivado"
 #: admin~admin.form.admin_services.yes.label
 msgctxt "admin~admin.form.admin_services.yes.label"
 msgid "Yes"
-msgstr ""
+msgstr "Si"
 
 #: admin~admin.form.admin_services.no.label
 msgctxt "admin~admin.form.admin_services.no.label"
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: admin~admin.form.admin_services.appName.label
 msgctxt "admin~admin.form.admin_services.appName.label"
@@ -483,12 +485,12 @@ msgstr "La carpeta raíz de repositorios puede limitar el directorio de Lizmap a
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use relative path from root folder?"
-msgstr ""
+msgstr "¿El servidor usa la ruta relativa desde la carpeta raíz?"
 
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
-msgid "Send request to QGIS Server with"
-msgstr "Enviar petición al servidor QGIS con"
+msgid "Send request to QGIS Server or request to external services with"
+msgstr ""
 
 #: admin~admin.form.admin_services.proxyMethod.php.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
@@ -499,6 +501,51 @@ msgstr "PHP"
 msgctxt "admin~admin.form.admin_services.proxyMethod.curl.label"
 msgid "Curl"
 msgstr "Curl"
+
+#: admin~admin.form.admin_services.requestProxy.label
+msgctxt "admin~admin.form.admin_services.requestProxy.label"
+msgid "Use a proxy server to do requests to external services"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxy.enabled
+msgctxt "admin~admin.form.admin_services.requestProxy.enabled"
+msgid "Use a proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxy.disabled
+msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
+msgid "No proxy"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyHost.label
+msgctxt "admin~admin.form.admin_services.requestProxyHost.label"
+msgid "Host of the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyPort.label
+msgctxt "admin~admin.form.admin_services.requestProxyPort.label"
+msgid "Port of the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyType.label
+msgctxt "admin~admin.form.admin_services.requestProxyType.label"
+msgid "Type of the proxy"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyUser.label
+msgctxt "admin~admin.form.admin_services.requestProxyUser.label"
+msgid "Login to access to the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyPassword.label
+msgctxt "admin~admin.form.admin_services.requestProxyPassword.label"
+msgid "Password to access to the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyNotForDomain.label
+msgctxt "admin~admin.form.admin_services.requestProxyNotForDomain.label"
+msgid "Domains for which the proxy will not be used"
+msgstr ""
 
 #: admin~admin.form.admin_services.debugMode.label
 msgctxt "admin~admin.form.admin_services.debugMode.label"
@@ -540,11 +587,11 @@ msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
 msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
-msgstr ""
+msgstr "Si está activado, los visitantes pueden completar un formulario para solicitar una cuenta. Se debe configurar la dirección del remitente para los correos electrónicos."
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
-msgid "E-mail for notifications"
+msgid "E-mail where to send notifications"
 msgstr ""
 
 #: admin~admin.form.admin_services.adminContactEmail.help
@@ -562,6 +609,13 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
+msgstr ""
+
+#: admin~admin.form.admin_services.adminSenderEmail.error.required
+msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
+msgid ""
+"A sender e-mail address is required to send notification or requests for "
+"account creation"
 msgstr ""
 
 #: admin~admin.form.admin_services.adminSenderName.label
@@ -921,17 +975,17 @@ msgstr "IP"
 #: admin~admin.logs.first_page
 msgctxt "admin~admin.logs.first_page"
 msgid "First"
-msgstr ""
+msgstr "Primero"
 
 #: admin~admin.logs.previous_page
 msgctxt "admin~admin.logs.previous_page"
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: admin~admin.logs.next_page
 msgctxt "admin~admin.logs.next_page"
 msgid "Next"
-msgstr ""
+msgstr "Siguiente"
 
 #: admin~admin.logs.email.subject
 msgctxt "admin~admin.logs.email.subject"
