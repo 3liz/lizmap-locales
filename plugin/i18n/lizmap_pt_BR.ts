@@ -452,12 +452,12 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="1882"/>
         <source>Scans</source>
-        <translation type="unfinished"/>
+        <translation>Rua</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1875"/>
         <source>Orthophoto</source>
-        <translation type="unfinished"/>
+        <translation>Por satélite</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1868"/>
@@ -472,7 +472,7 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="2073"/>
         <source>Repository</source>
-        <translation type="unfinished"/>
+        <translation>Repositório</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="2080"/>
@@ -512,7 +512,7 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="193"/>
         <source>Time Manager</source>
-        <translation type="unfinished"/>
+        <translation>Série Temporal</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3752"/>
@@ -612,7 +612,7 @@ This is different to the map maximum extent (defined in QGIS project properties,
     <message>
         <location filename="ui_lizmap.ui" line="420"/>
         <source>google</source>
-        <translation type="unfinished"/>
+        <translation>Google</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="425"/>
@@ -889,7 +889,7 @@ Only the selected feature will be visible on the map.</source>
     <message>
         <location filename="ui_lizmap.ui" line="997"/>
         <source>Legend</source>
-        <translation type="unfinished"/>
+        <translation>Legenda</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="1078"/>
@@ -994,7 +994,7 @@ Only the selected feature will be visible on the map.</source>
     <message>
         <location filename="ui_lizmap.ui" line="3511"/>
         <source>Type</source>
-        <translation type="unfinished"/>
+        <translation>Tipo</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3655"/>
