@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-12 17:44++0200\n"
-"PO-Revision-Date: 2018-10-12 17:44++0200\n"
+"POT-Creation-Date: 2018-10-17 11:50++0200\n"
+"PO-Revision-Date: 2018-10-17 11:50++0200\n"
 "Language: \n"
 
 #: admin~user.form.comment.label
@@ -49,6 +49,81 @@ msgstr ""
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
 msgid "Add"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.grp
+msgctxt "admin~jacl2.lizmap.admin.grp"
+msgid "Lizmap Administration Management"
+msgstr ""
+
+#: admin~jacl2.lizmap.grp
+msgctxt "admin~jacl2.lizmap.grp"
+msgid "Lizmap Client Management"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.access
+msgctxt "admin~jacl2.lizmap.admin.access"
+msgid "Lizmap Admin access"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.services.view
+msgctxt "admin~jacl2.lizmap.admin.services.view"
+msgid "View services"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.services.update
+msgctxt "admin~jacl2.lizmap.admin.services.update"
+msgid "Modify services"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.repositories.view
+msgctxt "admin~jacl2.lizmap.admin.repositories.view"
+msgid "View repositories"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.repositories.create
+msgctxt "admin~jacl2.lizmap.admin.repositories.create"
+msgid "Create repositories"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.repositories.update
+msgctxt "admin~jacl2.lizmap.admin.repositories.update"
+msgid "Modify repositories"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.repositories.delete
+msgctxt "admin~jacl2.lizmap.admin.repositories.delete"
+msgid "Delete repositories"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.grp.default
+msgctxt "admin~jacl2.lizmap.admin.grp.default"
+msgid "default group"
+msgstr ""
+
+#: admin~jacl2.lizmap.repositories.view
+msgctxt "admin~jacl2.lizmap.repositories.view"
+msgid "View repositories"
+msgstr ""
+
+#: admin~jacl2.lizmap.tools.edition.use
+msgctxt "admin~jacl2.lizmap.tools.edition.use"
+msgid "Use the Edition tool"
+msgstr ""
+
+#: admin~jacl2.lizmap.tools.loginFilteredLayers.override
+msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
+msgid "Always see complete layers data, even if filtered by login"
+msgstr ""
+
+#: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
+msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
+msgid "Display projects WMS links"
+msgstr ""
+
+#: admin~jacl2.lizmap.tools.layer.export
+msgctxt "admin~jacl2.lizmap.tools.layer.export"
+msgid "Allow export of layers"
 msgstr ""
 
 #: admin~admin.header.admin
@@ -393,7 +468,7 @@ msgstr ""
 
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
-msgid "Send request to QGIS Server with"
+msgid "Send request to QGIS Server or request to external services with"
 msgstr ""
 
 #: admin~admin.form.admin_services.proxyMethod.php.label
@@ -404,6 +479,51 @@ msgstr ""
 #: admin~admin.form.admin_services.proxyMethod.curl.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.curl.label"
 msgid "Curl"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxy.label
+msgctxt "admin~admin.form.admin_services.requestProxy.label"
+msgid "Use a proxy server to do requests to external services"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxy.enabled
+msgctxt "admin~admin.form.admin_services.requestProxy.enabled"
+msgid "Use a proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxy.disabled
+msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
+msgid "No proxy"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyHost.label
+msgctxt "admin~admin.form.admin_services.requestProxyHost.label"
+msgid "Host of the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyPort.label
+msgctxt "admin~admin.form.admin_services.requestProxyPort.label"
+msgid "Port of the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyType.label
+msgctxt "admin~admin.form.admin_services.requestProxyType.label"
+msgid "Type of the proxy"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyUser.label
+msgctxt "admin~admin.form.admin_services.requestProxyUser.label"
+msgid "Login to access to the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyPassword.label
+msgctxt "admin~admin.form.admin_services.requestProxyPassword.label"
+msgid "Password to access to the proxy server"
+msgstr ""
+
+#: admin~admin.form.admin_services.requestProxyNotForDomain.label
+msgctxt "admin~admin.form.admin_services.requestProxyNotForDomain.label"
+msgid "Domains for which the proxy will not be used"
 msgstr ""
 
 #: admin~admin.form.admin_services.debugMode.label
@@ -899,79 +1019,4 @@ msgstr ""
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
-msgstr ""
-
-#: admin~jacl2.lizmap.admin.grp
-msgctxt "admin~jacl2.lizmap.admin.grp"
-msgid "Lizmap Administration Management"
-msgstr ""
-
-#: admin~jacl2.lizmap.grp
-msgctxt "admin~jacl2.lizmap.grp"
-msgid "Lizmap Client Management"
-msgstr ""
-
-#: admin~jacl2.lizmap.admin.access
-msgctxt "admin~jacl2.lizmap.admin.access"
-msgid "Lizmap Admin access"
-msgstr ""
-
-#: admin~jacl2.lizmap.admin.services.view
-msgctxt "admin~jacl2.lizmap.admin.services.view"
-msgid "View services"
-msgstr ""
-
-#: admin~jacl2.lizmap.admin.services.update
-msgctxt "admin~jacl2.lizmap.admin.services.update"
-msgid "Modify services"
-msgstr ""
-
-#: admin~jacl2.lizmap.admin.repositories.view
-msgctxt "admin~jacl2.lizmap.admin.repositories.view"
-msgid "View repositories"
-msgstr ""
-
-#: admin~jacl2.lizmap.admin.repositories.create
-msgctxt "admin~jacl2.lizmap.admin.repositories.create"
-msgid "Create repositories"
-msgstr ""
-
-#: admin~jacl2.lizmap.admin.repositories.update
-msgctxt "admin~jacl2.lizmap.admin.repositories.update"
-msgid "Modify repositories"
-msgstr ""
-
-#: admin~jacl2.lizmap.admin.repositories.delete
-msgctxt "admin~jacl2.lizmap.admin.repositories.delete"
-msgid "Delete repositories"
-msgstr ""
-
-#: admin~jacl2.lizmap.admin.grp.default
-msgctxt "admin~jacl2.lizmap.admin.grp.default"
-msgid "default group"
-msgstr ""
-
-#: admin~jacl2.lizmap.repositories.view
-msgctxt "admin~jacl2.lizmap.repositories.view"
-msgid "View repositories"
-msgstr ""
-
-#: admin~jacl2.lizmap.tools.edition.use
-msgctxt "admin~jacl2.lizmap.tools.edition.use"
-msgid "Use the Edition tool"
-msgstr ""
-
-#: admin~jacl2.lizmap.tools.loginFilteredLayers.override
-msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
-msgid "Always see complete layers data, even if filtered by login"
-msgstr ""
-
-#: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
-msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
-msgid "Display projects WMS links"
-msgstr ""
-
-#: admin~jacl2.lizmap.tools.layer.export
-msgctxt "admin~jacl2.lizmap.tools.layer.export"
-msgid "Allow export of layers"
 msgstr ""
