@@ -6,10 +6,23 @@ into Lizmap plugin.
 Updating the list of strings to translate for Lizmap plugin
 -----------------------------------------------------------
 
-TODO
+You must copy the `i18n/lizmap_en.ts` file from lizmap-plugin source.
+Then you push it to Transifex:
+
+```
+tx push -s
+```
 
 
 Updating translated strings
 ---------------------------
 
-TODO
+When some new translations are available in Transifex, you can import them.
+
+First retrieve translated string from Transifex:
+
+```
+tx pull
+```
+
+Then copy all files to lizmap-plugin locales directory `i18n`.
