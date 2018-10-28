@@ -1003,7 +1003,7 @@ Csak a megadott elemek lesznek láthatóak a térképen.</translation>
     <message>
         <location filename="ui_lizmap.ui" line="3511"/>
         <source>Type</source>
-        <translation type="unfinished"/>
+        <translation>Típus</translation>
     </message>
     <message>
         <location filename="ui_lizmap.ui" line="3655"/>
