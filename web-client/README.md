@@ -7,6 +7,8 @@ into Lizmap.
 pot files must be generated directly from Lizmap properties files.
 
 
+Be sure you have installed Transifex cli, but also PHP-cli and its mbstring extension
+(`apt-get install php7.2-mbstring`).
 
 Updating the list of strings to translate (pot files)
 -----------------------------------------------------
