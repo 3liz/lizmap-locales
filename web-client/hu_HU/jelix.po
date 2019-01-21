@@ -1,14 +1,14 @@
 # 
 # Translators:
-# Kasza József <kasza.nkataszri@gmail.com>, 2018
-# Kasza József <kasza.nkataszri@gmail.com>, 2018
+# kasza jozsef <kasza.nkataszri@gmail.com>, 2018-2019
+# kasza jozsef <kasza.nkataszri@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-17 11:50++0200\n"
-"PO-Revision-Date: 2018-10-11 07:51+0000\n"
-"Last-Translator: Kasza József <kasza.nkataszri@gmail.com>\n"
+"POT-Creation-Date: 2018-10-23 15:35++0200\n"
+"PO-Revision-Date: 2019-01-17 07:16+0000\n"
+"Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>\n"
 "Language-Team: Hungarian (Hungary) (http://www.transifex.com/3liz-1/lizmap-locales/language/hu_HU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,7 +84,7 @@ msgctxt "jelix~formserr.control.not.container"
 msgid ""
 "(811) Impossible to use the control \"%s\" with a dao because it isn't a "
 "control with a datasource (form=%s)"
-msgstr ""
+msgstr "(811) A/Az \"%s\" vezérlőt nem lehet dao-val használni, ment ez nem egy adatforrással rendelkező vezérlő (form=%s)"
 
 #: jelix~formserr.formid.undefined.for.dao
 msgctxt "jelix~formserr.formid.undefined.for.dao"
@@ -98,7 +98,7 @@ msgctxt "jelix~formserr.value.not.array"
 msgid ""
 "(813) Impossible de save datas of control \"%s\" (form=%s) because it is not"
 " an array"
-msgstr ""
+msgstr "(813) A/az \"%s\" vezérlő adatai nem menthetők, (form=%s) mert a vezérlő nem tömb"
 
 #: jelix~formserr.invalid.form.builder
 msgctxt "jelix~formserr.invalid.form.builder"
@@ -142,12 +142,12 @@ msgstr ""
 #: jelix~formserr.unknown.control
 msgctxt "jelix~formserr.unknown.control"
 msgid "(830) The control \"%1$s\" doesn't exist in the form \"%2$s\" (template %3$s)"
-msgstr ""
+msgstr "(830) A/az \"%1$s\" vezérlő nem létezik a/az \"%2$s\" form-ban (template %3$s)"
 
 #: jelix~formserr.unknown.control2
 msgctxt "jelix~formserr.unknown.control2"
 msgid "(831) The control \"%1$s\" doesn't exist in the form \"%2$s\""
-msgstr ""
+msgstr "(831) A/Az \"%1$s\" vezérlő nem létezik a/az \"%2$s\" form-ban."
 
 #: jelix~formserr.invalid.token
 msgctxt "jelix~formserr.invalid.token"
@@ -322,7 +322,7 @@ msgstr "(504) ismeretlen tulajdonság (%s)  a jDaoConditions objektumban"
 #: jelix~ui.title.confirm
 msgctxt "jelix~ui.title.confirm"
 msgid "Confirmed"
-msgstr "Megerősítve"
+msgstr "Jóváhagyott"
 
 #: jelix~ui.title.help
 msgctxt "jelix~ui.title.help"
@@ -824,7 +824,7 @@ msgctxt "jelix~cache.error.invalid.key"
 msgid ""
 "(901) error key %s, use only alphanumeric characters and the character '_' "
 "and maximum length 255"
-msgstr ""
+msgstr "(901) A/az %s kulcs hibás , csak alfanumerikus és a '_' karakter használata engedélyezett, a maximális hossz 255 karakter."
 
 #: jelix~cache.error.serialize.data
 msgctxt "jelix~cache.error.serialize.data"
@@ -853,7 +853,7 @@ msgstr "(906) profil'%s': a gyorsítótár könyvtára nem írható"
 #: jelix~cache.driver.object.invalid
 msgctxt "jelix~cache.driver.object.invalid"
 msgid "(907) profile '%s': object interface for the driver %s unknown"
-msgstr ""
+msgstr "(907) profil '%s': a/az %s driver-hez tartozó objektum-felület ismeretlen"
 
 #: jelix~cache.error.memcache.extension.missing
 msgctxt "jelix~cache.error.memcache.extension.missing"
@@ -880,7 +880,7 @@ msgctxt "jelix~cache.error.memcache.extension.badversion.3"
 msgid ""
 "(912) profile '%s': bad version of the memcache php extension, this plugin "
 "requires 3.0.1 or more"
-msgstr ""
+msgstr "(912) Profil '%s':  A memcahche php kiegészítőjének verziója nem megfelelő , legalább 3.0.1 vagy magasabb verziószám szükséges."
 
 #: jelix~cache.error.memcache.extension.badversion.2
 msgctxt "jelix~cache.error.memcache.extension.badversion.2"
@@ -1345,7 +1345,7 @@ msgstr "(20)A megadott könyvtár: [%s] nem található"
 #: jelix~errors.file.directory.notwritable
 msgctxt "jelix~errors.file.directory.notwritable"
 msgid "(21)Unable to write %s, make sure %s is writable"
-msgstr "(21) %s írása nem sikerült, ellenőrizze, hogy  %s írható-e"
+msgstr "(21) A/Az%s írása nem sikerült, ellenőrizze, hogy a/az %s írható-e"
 
 #: jelix~errors.file.write.error
 msgctxt "jelix~errors.file.write.error"
@@ -1406,7 +1406,7 @@ msgstr "(44)Túl sok paraméter"
 #: jelix~errors.xml.remote.feed.error
 msgctxt "jelix~errors.xml.remote.feed.error"
 msgid "(60) Error while reading the remote feed"
-msgstr ""
+msgstr "(60) Hiba a távoli adatfolyam olvasása közben"
 
 #: jelix~errors.xml.loading.document.error
 msgctxt "jelix~errors.xml.loading.document.error"
@@ -1502,12 +1502,12 @@ msgstr "(136)Ismeretlen modul \"%s\""
 #: jelix~errors.includer.source.missing
 msgctxt "jelix~errors.includer.source.missing"
 msgid "(140)Includer: the selector \"%s\" doesn't point to a source file"
-msgstr ""
+msgstr "(140)Includer: a/az \"%s\" selector nem a forrásfájlra mutat"
 
 #: jelix~errors.includer.source.compile
 msgctxt "jelix~errors.includer.source.compile"
 msgid "(141)Includer: the compiler for the selector \"%s\" has failed"
-msgstr ""
+msgstr "(141)Includer: a/az \"%s\" selector fordítója hibát eredményezett."
 
 #: jelix~errors.repxml.no.content
 msgctxt "jelix~errors.repxml.no.content"
@@ -1522,7 +1522,7 @@ msgstr "(151) Érvénytelen xml tartalom az xml válaszban"
 #: jelix~errors.repbin.unknown.file
 msgctxt "jelix~errors.repbin.unknown.file"
 msgid "(152) Unknown file for binary response (%s)"
-msgstr ""
+msgstr "(152)ismeretlen file a bináris válaszhoz (%s)"
 
 #: jelix~errors.repredirect.empty.url
 msgctxt "jelix~errors.repredirect.empty.url"
@@ -1532,12 +1532,12 @@ msgstr "(153) Az átirányítás nem lehetséges: üres url"
 #: jelix~errors.rep.bad.request.method
 msgctxt "jelix~errors.rep.bad.request.method"
 msgid "(155) Impossible to use cache on other request type that GET or HEAD"
-msgstr ""
+msgstr "(155) A GET vagy HEAD típusú kéréseken kívül nem használható a gyorsítótár."
 
 #: jelix~errors.locale.key.selector.invalid
 msgctxt "jelix~errors.locale.key.selector.invalid"
 msgid "(200)The given locale key \"%s\" is invalid  ( charset %s, lang %s)"
-msgstr ""
+msgstr "(200)A/az \"%s\" nyelvi kulcs érvénytelen  ( karakterkészlet /charset/ %s, nyelv /lang/ %s)"
 
 #: jelix~errors.locale.key.unknown
 msgctxt "jelix~errors.locale.key.unknown"
@@ -1566,7 +1566,7 @@ msgstr ""
 #: jelix~errors.tpl.tag.function.unknown
 msgctxt "jelix~errors.tpl.tag.function.unknown"
 msgid "(302)In the template %2$s, unknown fonction %1$s"
-msgstr ""
+msgstr "(302)A/az %2$s sablonban, ismeretlen %1$s funkció."
 
 #: jelix~errors.tpl.tag.modifier.invalid
 msgctxt "jelix~errors.tpl.tag.modifier.invalid"
@@ -1612,12 +1612,12 @@ msgstr ""
 #: jelix~errors.tpl.not.found
 msgctxt "jelix~errors.tpl.not.found"
 msgid "(311)The %s template file doesn't exist"
-msgstr ""
+msgstr "(311) A %s sablon nem létezik"
 
 #: jelix~errors.tpl.tag.meta.unknown
 msgctxt "jelix~errors.tpl.tag.meta.unknown"
 msgid "(312)In the template %2$s, the meta tag %1$s is unknown"
-msgstr ""
+msgstr "(312)A %2$ssablonban, a meta tag %1$s ismeretlen"
 
 #: jelix~errors.tpl.tag.meta.invalid
 msgctxt "jelix~errors.tpl.tag.meta.invalid"
@@ -1687,7 +1687,7 @@ msgstr ""
 #: jelix~errors.mail.provide_address
 msgctxt "jelix~errors.mail.provide_address"
 msgid "(350)jMailer: You must provide at least one recipient email address."
-msgstr ""
+msgstr "(350)jMailer: Legalább egy címzettet meg kell adnia."
 
 #: jelix~errors.mail.mailer_not_supported
 msgctxt "jelix~errors.mail.mailer_not_supported"
@@ -1785,7 +1785,7 @@ msgstr "(503) A virtuális profil neve üres ehhez: \"%s\""
 #: jelix~errors.profile.virtual.invalid.params
 msgctxt "jelix~errors.profile.virtual.invalid.params"
 msgid "(504) Invalid parameters for the virtual profile \"%s\" for \"%s\""
-msgstr ""
+msgstr "(504) Érvénytelen paraméter a virtuális profilhoz \"%s\"  ehhez: \"%s\""
 
 #: jelix~captcha.number
 msgctxt "jelix~captcha.number"
@@ -2375,7 +2375,7 @@ msgctxt "jelix~daoxml.method.update.forbidden"
 msgid ""
 "(564)DAO %1$s, update method %3$s is forbidden because the main table "
 "contains only primary keys (file %2$s)"
-msgstr ""
+msgstr "(564)DAO %1$s, a/az %3$s frissítő eljárás le van tiltva, mert a főtáblában csak elsődleges kulcsok vannak (file %2$s)"
 
 #: jelix~daoxml.method.parameter.invalidname
 msgctxt "jelix~daoxml.method.parameter.invalidname"

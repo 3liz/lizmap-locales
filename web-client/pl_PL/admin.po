@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-23 15:35++0200\n"
-"PO-Revision-Date: 2018-10-23 13:35+0000\n"
+"PO-Revision-Date: 2018-12-19 11:32+0000\n"
 "Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,7 @@ msgstr "domyślna grupa"
 #: admin~jacl2.lizmap.repositories.view
 msgctxt "admin~jacl2.lizmap.repositories.view"
 msgid "View projects in the repository"
-msgstr ""
+msgstr "Zobacz projekty w repozytorium"
 
 #: admin~jacl2.lizmap.tools.edition.use
 msgctxt "admin~jacl2.lizmap.tools.edition.use"
@@ -262,7 +262,7 @@ msgstr "Zezwól odwiedzającym na zakładanie kont"
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of Ldap authentication"
-msgstr ""
+msgstr "Ta opcja nie jest aktywna z powodu uwierzyteniania LDAP"
 
 #: admin~admin.configuration.services.adminContactEmail.label
 msgctxt "admin~admin.configuration.services.adminContactEmail.label"
@@ -488,7 +488,7 @@ msgstr "Czy serwer używa ścieżki względnej z folderu roota?"
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
 msgid "Send request to QGIS Server or request to external services with"
-msgstr ""
+msgstr "Wyślij zapytanie do QGIS Server lub zapytanie do zewnętrznych serwisów przy pomocy"
 
 #: admin~admin.form.admin_services.proxyMethod.php.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
@@ -503,47 +503,47 @@ msgstr "Curl"
 #: admin~admin.form.admin_services.requestProxy.label
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
 msgid "Use a proxy server to do requests to external services"
-msgstr ""
+msgstr "Użyj serwera proxy, by wykonywać zapytania do zewnętrznych serwisów"
 
 #: admin~admin.form.admin_services.requestProxy.enabled
 msgctxt "admin~admin.form.admin_services.requestProxy.enabled"
 msgid "Use a proxy server"
-msgstr ""
+msgstr "Użyj serwera proxy"
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
 msgid "No proxy"
-msgstr ""
+msgstr "Bez proxy"
 
 #: admin~admin.form.admin_services.requestProxyHost.label
 msgctxt "admin~admin.form.admin_services.requestProxyHost.label"
 msgid "Host of the proxy server"
-msgstr ""
+msgstr "Host serwera proxy"
 
 #: admin~admin.form.admin_services.requestProxyPort.label
 msgctxt "admin~admin.form.admin_services.requestProxyPort.label"
 msgid "Port of the proxy server"
-msgstr ""
+msgstr "Port serwera proxy"
 
 #: admin~admin.form.admin_services.requestProxyType.label
 msgctxt "admin~admin.form.admin_services.requestProxyType.label"
 msgid "Type of the proxy"
-msgstr ""
+msgstr "Typ proxy"
 
 #: admin~admin.form.admin_services.requestProxyUser.label
 msgctxt "admin~admin.form.admin_services.requestProxyUser.label"
 msgid "Login to access to the proxy server"
-msgstr ""
+msgstr "Zaloguj się, by mieć dostęp do serwera proxy"
 
 #: admin~admin.form.admin_services.requestProxyPassword.label
 msgctxt "admin~admin.form.admin_services.requestProxyPassword.label"
 msgid "Password to access to the proxy server"
-msgstr ""
+msgstr "Hasło dostępu do serwera proxy"
 
 #: admin~admin.form.admin_services.requestProxyNotForDomain.label
 msgctxt "admin~admin.form.admin_services.requestProxyNotForDomain.label"
 msgid "Domains for which the proxy will not be used"
-msgstr ""
+msgstr "Domeny, dla których proxy nie będzie używane"
 
 #: admin~admin.form.admin_services.debugMode.label
 msgctxt "admin~admin.form.admin_services.debugMode.label"
@@ -590,7 +590,7 @@ msgstr "Jeśli włączone, odwiedzający może wypełnić formularz pozwalający
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
 msgid "E-mail where to send notifications"
-msgstr ""
+msgstr "E-mail, na który mają być wysyłane powiadomienia"
 
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
@@ -614,7 +614,7 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
 msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
-msgstr ""
+msgstr "Adres e-mail wysyłającego jest wymagany, by wysyłać powiadomienia lub zapytania o utworzenie nowego konta"
 
 #: admin~admin.form.admin_services.adminSenderName.label
 msgctxt "admin~admin.form.admin_services.adminSenderName.label"

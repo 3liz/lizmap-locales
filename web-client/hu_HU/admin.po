@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Kasza József <kasza.nkataszri@gmail.com>, 2018
+# kasza jozsef <kasza.nkataszri@gmail.com>, 2018-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-23 15:35++0200\n"
-"PO-Revision-Date: 2018-10-23 13:35+0000\n"
-"Last-Translator: Kasza József <kasza.nkataszri@gmail.com>\n"
+"PO-Revision-Date: 2019-01-01 17:48+0000\n"
+"Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>\n"
 "Language-Team: Hungarian (Hungary) (http://www.transifex.com/3liz-1/lizmap-locales/language/hu_HU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,22 +35,22 @@ msgstr "Valaki hozzáférést igényelt, hogy elérje a térképeket. Felhaszná
 #: admin~user.acl.no.group
 msgctxt "admin~user.acl.no.group"
 msgid "The user is not in any group"
-msgstr ""
+msgstr "A felhasználó nem tagja egy csoportnak sem."
 
 #: admin~user.acl.form.title
 msgctxt "admin~user.acl.form.title"
 msgid "Groups the user belongs to"
-msgstr ""
+msgstr "A felhasználó csoport-tagságai"
 
 #: admin~user.acl.form.remove.from.group
 msgctxt "admin~user.acl.form.remove.from.group"
 msgid "Remove him from this group"
-msgstr ""
+msgstr "Felhasználó eltávolítása a csoportból."
 
 #: admin~user.acl.form.add.to.group
 msgctxt "admin~user.acl.form.add.to.group"
 msgid "Add him to this group"
-msgstr ""
+msgstr "Felhasználó hozzáadása a csoporthoz."
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
@@ -105,12 +105,12 @@ msgstr "Gyűjtemény törlése"
 #: admin~jacl2.lizmap.admin.grp.default
 msgctxt "admin~jacl2.lizmap.admin.grp.default"
 msgid "default group"
-msgstr ""
+msgstr "alapértelmezett csoport"
 
 #: admin~jacl2.lizmap.repositories.view
 msgctxt "admin~jacl2.lizmap.repositories.view"
 msgid "View projects in the repository"
-msgstr ""
+msgstr "A gyűjtemény projektjeinek megtekintése"
 
 #: admin~jacl2.lizmap.tools.edition.use
 msgctxt "admin~jacl2.lizmap.tools.edition.use"
@@ -261,7 +261,7 @@ msgstr "A látogatók kérhetnek hozzáférést"
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of Ldap authentication"
-msgstr ""
+msgstr "Ez a lehetőség kikapcsolásra került az Ldap azonosítás miatt."
 
 #: admin~admin.configuration.services.adminContactEmail.label
 msgctxt "admin~admin.configuration.services.adminContactEmail.label"
@@ -482,12 +482,12 @@ msgstr "A gyűjtemények gyökérkönyvtára 1 könyvtárra korlátozza a Lizmap
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use relative path from root folder?"
-msgstr ""
+msgstr "A szerver relatív elérési utat használ a gyökérkönyvtárhoz?"
 
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
 msgid "Send request to QGIS Server or request to external services with"
-msgstr ""
+msgstr "Kérések küldése QGIS szerver vagy külső szolgáltatások felé a következővel:"
 
 #: admin~admin.form.admin_services.proxyMethod.php.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
@@ -502,47 +502,47 @@ msgstr "Curl"
 #: admin~admin.form.admin_services.requestProxy.label
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
 msgid "Use a proxy server to do requests to external services"
-msgstr ""
+msgstr "Proxy szerver használata a külső szolgáltatásokhoz"
 
 #: admin~admin.form.admin_services.requestProxy.enabled
 msgctxt "admin~admin.form.admin_services.requestProxy.enabled"
 msgid "Use a proxy server"
-msgstr ""
+msgstr "Proxy szerver használatának engedélyezése"
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
 msgid "No proxy"
-msgstr ""
+msgstr "Nincs proxy szerver"
 
 #: admin~admin.form.admin_services.requestProxyHost.label
 msgctxt "admin~admin.form.admin_services.requestProxyHost.label"
 msgid "Host of the proxy server"
-msgstr ""
+msgstr "Proxy szervez hosztja"
 
 #: admin~admin.form.admin_services.requestProxyPort.label
 msgctxt "admin~admin.form.admin_services.requestProxyPort.label"
 msgid "Port of the proxy server"
-msgstr ""
+msgstr "Proxy szerver portja"
 
 #: admin~admin.form.admin_services.requestProxyType.label
 msgctxt "admin~admin.form.admin_services.requestProxyType.label"
 msgid "Type of the proxy"
-msgstr ""
+msgstr "Proxy szerver típusa"
 
 #: admin~admin.form.admin_services.requestProxyUser.label
 msgctxt "admin~admin.form.admin_services.requestProxyUser.label"
 msgid "Login to access to the proxy server"
-msgstr ""
+msgstr "Bejelentkezés a proxy szerver eléréséhez"
 
 #: admin~admin.form.admin_services.requestProxyPassword.label
 msgctxt "admin~admin.form.admin_services.requestProxyPassword.label"
 msgid "Password to access to the proxy server"
-msgstr ""
+msgstr "Jelszó a proxy szerver eléréséhez"
 
 #: admin~admin.form.admin_services.requestProxyNotForDomain.label
 msgctxt "admin~admin.form.admin_services.requestProxyNotForDomain.label"
 msgid "Domains for which the proxy will not be used"
-msgstr ""
+msgstr "Azon domain-ek listája melyekhez nem használunk proxy szervert"
 
 #: admin~admin.form.admin_services.debugMode.label
 msgctxt "admin~admin.form.admin_services.debugMode.label"
@@ -584,46 +584,46 @@ msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
 msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
-msgstr ""
+msgstr "Ha be van kapcsolva, a látogatók kitölthetnek egy adatlapot a hozzáférés igényléséhez. A küldő e-mail címének megadása szükséges"
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
 msgid "E-mail where to send notifications"
-msgstr ""
+msgstr "Értesítési e-mail /ide küld értesítéseket/"
 
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
 msgid "E-mail address to which notifications will be sent"
-msgstr ""
+msgstr "Értesítési e-mail"
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
 msgid "Sender address of e-mails"
-msgstr ""
+msgstr "Küldő e-mail címe"
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr ""
+msgstr "A küldéshez használt e-mail cím. Ha nincs megadva, a Lizmap nem tud leveleket küldeni. Győződjön meg róla, hogy a szerver képes e-maileket küldeni a megadott címről."
 
 #: admin~admin.form.admin_services.adminSenderEmail.error.required
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
 msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
-msgstr ""
+msgstr "A küldő e-mail címe szükséges az értesítések küldéséhez vagy a felhasználói fiók létrehozásához."
 
 #: admin~admin.form.admin_services.adminSenderName.label
 msgctxt "admin~admin.form.admin_services.adminSenderName.label"
 msgid "Sender name of e-mails"
-msgstr ""
+msgstr "Feladó neve az e-mailekben"
 
 #: admin~admin.form.admin_services.adminSenderName.help
 msgctxt "admin~admin.form.admin_services.adminSenderName.help"
 msgid "Name of the sender used to send e-mails."
-msgstr ""
+msgstr "Az e-mailekben használt feladónév"
 
 #: admin~admin.form.admin_services.googleAnalyticsID.label
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
@@ -776,12 +776,12 @@ msgstr "A cím előtti logó szélessége (pixel)."
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
 msgid "Header - background image"
-msgstr ""
+msgstr "Fejléc - háttérkép"
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
 msgid "The image to be used for the header background (400ko Maximum)."
-msgstr ""
+msgstr "A háttérként használt kép (400ko Maximum)"
 
 #: admin~admin.form.admin_theme.headerBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.label"
@@ -846,13 +846,13 @@ msgstr "A navigációs mező (zoom eszköz) háttérszíne."
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
 msgid "Additional CSS properties"
-msgstr ""
+msgstr "További CSS részletek"
 
 #: admin~admin.form.admin_theme.additionalCss.help
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
-msgstr ""
+msgstr "Bármilyen CSS szintaxis használható a Lizmap stílus változtatásához (haladó felhasználóknak)"
 
 #: admin~admin.theme.detail.title
 msgctxt "admin~admin.theme.detail.title"
@@ -867,7 +867,7 @@ msgstr "Eltávolít"
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
 msgid "Remove this image (and use default one) ?"
-msgstr ""
+msgstr "Kép eltávolítása (és az alapbeállítás használata)?"
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
@@ -992,66 +992,66 @@ msgstr "Következő"
 #: admin~admin.logs.email.subject
 msgctxt "admin~admin.logs.email.subject"
 msgid "A new log item has been recorded."
-msgstr ""
+msgstr "Új bejegyzés keletkezett a log-ban."
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
 msgid "A user has logged in."
-msgstr ""
+msgstr "Egy felhasználó bejelentkezett."
 
 #: admin~admin.logs.email.viewmap.body
 msgctxt "admin~admin.logs.email.viewmap.body"
 msgid "A user has accessed a map."
-msgstr ""
+msgstr "Egy felhasználó megnyitott egy térképet."
 
 #: admin~admin.logs.email.print.body
 msgctxt "admin~admin.logs.email.print.body"
 msgid "A user has used the print tool."
-msgstr ""
+msgstr "Egy felhasználó használta a nyomtatási eszközt."
 
 #: admin~admin.logs.email.popup.body
 msgctxt "admin~admin.logs.email.popup.body"
 msgid "A user has opened a feature information popup."
-msgstr ""
+msgstr "Egy felhasználó megnyitotta valamelyik elem információs felugró-ablakát."
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
 msgid "A feature has been created or modified by a user."
-msgstr ""
+msgstr "Egy felhasználó új elemet hozott létre, vagy módosított egyet."
 
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
 msgid "A feature has been deleted by a user."
-msgstr ""
+msgstr "Egy elemet törölt egy felhasználó ."
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
 msgid "Error log"
-msgstr ""
+msgstr "Hibajegyzék"
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the Lizmap Web Client application error log file"
-msgstr ""
+msgstr "A Lizmap Webkliens hibajegyzékének utolsó sora."
 
 #: admin~admin.logs.error.file.too.big
 msgctxt "admin~admin.logs.error.file.too.big"
 msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
-msgstr ""
+msgstr "A hibajegyzék tárolására használt file túl nagy. Fontolja meg a jegyzékek automatikus kezelésének beállítását a Lizmap Webkliens jegyzékekhez."
 
 #: admin~admin.logs.error.file.erase
 msgctxt "admin~admin.logs.error.file.erase"
 msgid "Erase the error log file"
-msgstr ""
+msgstr "A hibajegyzék törlése"
 
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
 msgid "Are you sure you want to erase the error log file ?"
-msgstr ""
+msgstr "Biztosan törölni szeretné a hibajegyzéket?"
 
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
-msgstr ""
+msgstr "A hibajegyzék sikeresen törölve."
