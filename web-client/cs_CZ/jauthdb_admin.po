@@ -1,12 +1,13 @@
 # 
 # Translators:
+# trendspotter <j.podhorecky@volny.cz>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-17 11:50++0200\n"
-"PO-Revision-Date: 2018-10-11 07:51+0000\n"
-"Last-Translator: Jiří Sobotík <jiri.sobotik@centrum.cz>\n"
+"POT-Creation-Date: 2019-01-29 18:11++0100\n"
+"PO-Revision-Date: 2019-03-01 14:42+0000\n"
+"Last-Translator: trendspotter <j.podhorecky@volny.cz>\n"
 "Language-Team: Czech (http://www.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,172 +15,55 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
-#: jauthdb_admin~user.title.update
-msgctxt "jauthdb_admin~user.title.update"
-msgid "Edit your profile"
-msgstr ""
-
-#: jauthdb_admin~user.title.view
-msgctxt "jauthdb_admin~user.title.view"
-msgid "Details of your profile"
-msgstr ""
-
-#: jauthdb_admin~user.title.password
-msgctxt "jauthdb_admin~user.title.password"
-msgid "Change your password"
-msgstr ""
-
-#: jauthdb_admin~user.link.return.to.view
-msgctxt "jauthdb_admin~user.link.return.to.view"
-msgid "Return to your profile summary"
-msgstr ""
-
-#: jauthdb_admin~user.link.view.record
-msgctxt "jauthdb_admin~user.link.view.record"
-msgid "View"
-msgstr ""
-
-#: jauthdb_admin~user.link.edit.record
-msgctxt "jauthdb_admin~user.link.edit.record"
-msgid "Edit"
-msgstr "Editace"
-
-#: jauthdb_admin~user.link.change.password
-msgctxt "jauthdb_admin~user.link.change.password"
-msgid "Change your password"
-msgstr ""
-
-#: jauthdb_admin~user.confirm
-msgctxt "jauthdb_admin~user.confirm"
-msgid "Confirm"
-msgstr ""
-
-#: jauthdb_admin~user.confirmation
-msgctxt "jauthdb_admin~user.confirmation"
-msgid "Confirmation"
-msgstr ""
-
-#: jauthdb_admin~user.message.update.ok
-msgctxt "jauthdb_admin~user.message.update.ok"
-msgid "Your profile has been updated."
-msgstr ""
-
-#: jauthdb_admin~user.message.change.password.ok
-msgctxt "jauthdb_admin~user.message.change.password.ok"
-msgid "Your password has been changed."
-msgstr ""
-
-#: jauthdb_admin~user.message.change.password.notok
-msgctxt "jauthdb_admin~user.message.change.password.notok"
-msgid "Error during the change of the password"
-msgstr ""
-
-#: jauthdb_admin~user.message.bad.password
-msgctxt "jauthdb_admin~user.message.bad.password"
-msgid ""
-"The password is bad, or the second password does not correspond to the first"
-" one"
-msgstr ""
-
-#: jauthdb_admin~user.list.col.login
-msgctxt "jauthdb_admin~user.list.col.login"
-msgid "Login"
-msgstr ""
-
-#: jauthdb_admin~user.form.login
-msgctxt "jauthdb_admin~user.form.login"
-msgid "Login"
-msgstr ""
-
-#: jauthdb_admin~user.form.email
-msgctxt "jauthdb_admin~user.form.email"
-msgid "E-Mail"
-msgstr ""
-
-#: jauthdb_admin~user.form.password
-msgctxt "jauthdb_admin~user.form.password"
-msgid "Password"
-msgstr ""
-
-#: jauthdb_admin~user.form.password.confirm
-msgctxt "jauthdb_admin~user.form.password.confirm"
-msgid "Re-type the password"
-msgstr ""
-
-#: jauthdb_admin~user.form.submit
-msgctxt "jauthdb_admin~user.form.submit"
-msgid "Save"
-msgstr "Uložit"
-
-#: jauthdb_admin~user.form.random.password
-msgctxt "jauthdb_admin~user.form.random.password"
-msgid "Example of a password:"
-msgstr ""
-
-#: jauthdb_admin~user.form.new.password
-msgctxt "jauthdb_admin~user.form.new.password"
-msgid "Type the new password"
-msgstr ""
-
-#: jauthdb_admin~user.view.otherinfo
-msgctxt "jauthdb_admin~user.view.otherinfo"
-msgid "Other informations"
-msgstr ""
-
-#: jauthdb_admin~user.view.primaryinfo
-msgctxt "jauthdb_admin~user.view.primaryinfo"
-msgid "Information on your profile"
-msgstr ""
-
 #: jauthdb_admin~crud.title.list
 msgctxt "jauthdb_admin~crud.title.list"
 msgid "Users List"
-msgstr ""
+msgstr "Seznam uživatelů"
 
 #: jauthdb_admin~crud.title.update
 msgctxt "jauthdb_admin~crud.title.update"
 msgid "Edit of a user"
-msgstr ""
+msgstr "Úprava uživatele"
 
 #: jauthdb_admin~crud.title.create
 msgctxt "jauthdb_admin~crud.title.create"
 msgid "Create a new user"
-msgstr ""
+msgstr "Vytvořit nového uživatele"
 
 #: jauthdb_admin~crud.title.view
 msgctxt "jauthdb_admin~crud.title.view"
 msgid "Details of the user"
-msgstr ""
+msgstr "Podrobnosti o uživateli"
 
 #: jauthdb_admin~crud.title.delete
 msgctxt "jauthdb_admin~crud.title.delete"
 msgid "Delete the user:"
-msgstr ""
+msgstr "Smazání uživatele:"
 
 #: jauthdb_admin~crud.title.password
 msgctxt "jauthdb_admin~crud.title.password"
 msgid "Change the password of"
-msgstr ""
+msgstr "Změňte heslo"
 
 #: jauthdb_admin~crud.link.return.to.list
 msgctxt "jauthdb_admin~crud.link.return.to.list"
 msgid "Return to the list"
-msgstr ""
+msgstr "Zpět do seznamu"
 
 #: jauthdb_admin~crud.link.return.to.view
 msgctxt "jauthdb_admin~crud.link.return.to.view"
 msgid "Return to the user summary"
-msgstr ""
+msgstr "Zpět do souhrnu uživatelů"
 
 #: jauthdb_admin~crud.link.view.record
 msgctxt "jauthdb_admin~crud.link.view.record"
 msgid "View"
-msgstr ""
+msgstr "Zobrazit"
 
 #: jauthdb_admin~crud.link.create.record
 msgctxt "jauthdb_admin~crud.link.create.record"
 msgid "Create a new user"
-msgstr ""
+msgstr "Vytvořit nového uživatele"
 
 #: jauthdb_admin~crud.link.edit.record
 msgctxt "jauthdb_admin~crud.link.edit.record"
@@ -194,104 +78,104 @@ msgstr "Smazat"
 #: jauthdb_admin~crud.link.change.password
 msgctxt "jauthdb_admin~crud.link.change.password"
 msgid "Change his password"
-msgstr ""
+msgstr "Změňte jeho heslo"
 
 #: jauthdb_admin~crud.confirm
 msgctxt "jauthdb_admin~crud.confirm"
 msgid "Confirm"
-msgstr ""
+msgstr "Potvrdit"
 
 #: jauthdb_admin~crud.confirmation
 msgctxt "jauthdb_admin~crud.confirmation"
 msgid "Confirmation"
-msgstr ""
+msgstr "Potvrzení"
 
 #: jauthdb_admin~crud.confirm.deletion
 msgctxt "jauthdb_admin~crud.confirm.deletion"
 msgid "Are you sure to want to delete this user ?"
-msgstr ""
+msgstr "Opravdu chcete smazat tohoto uživatele?"
 
 #: jauthdb_admin~crud.confirm.password
 msgctxt "jauthdb_admin~crud.confirm.password"
 msgid "Type your password to confirm"
-msgstr ""
+msgstr "Zadejte své heslo pro potvrzení"
 
 #: jauthdb_admin~crud.message.delete.ok
 msgctxt "jauthdb_admin~crud.message.delete.ok"
 msgid "The user %s has been deleted."
-msgstr ""
+msgstr "Uživatel %s byl smazán."
 
 #: jauthdb_admin~crud.message.update.ok
 msgctxt "jauthdb_admin~crud.message.update.ok"
 msgid "The user %s has been updated."
-msgstr ""
+msgstr "Uživatel %s byl aktualizován."
 
 #: jauthdb_admin~crud.message.create.ok
 msgctxt "jauthdb_admin~crud.message.create.ok"
 msgid "The user %s has been created."
-msgstr ""
+msgstr "Uživatel %s byl vytvořen."
 
 #: jauthdb_admin~crud.message.delete.invalid.pwd
 msgctxt "jauthdb_admin~crud.message.delete.invalid.pwd"
 msgid "Your password is wrong, the user has not been deleted."
-msgstr ""
+msgstr "Vaše heslo je nesprávné, uživatel nebyl smazán."
 
 #: jauthdb_admin~crud.message.delete.notok
 msgctxt "jauthdb_admin~crud.message.delete.notok"
 msgid "Sorry, the user has not been deleted."
-msgstr ""
+msgstr "Omlouváme se, uživatel nebyl smazán."
 
 #: jauthdb_admin~crud.message.change.password.ok
 msgctxt "jauthdb_admin~crud.message.change.password.ok"
 msgid "The password for %s has been changed."
-msgstr ""
+msgstr "Heslo pro %s bylo změněno."
 
 #: jauthdb_admin~crud.message.change.password.notok
 msgctxt "jauthdb_admin~crud.message.change.password.notok"
 msgid "Error during the change of the password"
-msgstr ""
+msgstr "Chyba při změně hesla"
 
 #: jauthdb_admin~crud.message.bad.password
 msgctxt "jauthdb_admin~crud.message.bad.password"
 msgid ""
 "The password is bad, or the second password does not correspond to the first"
 " one"
-msgstr ""
+msgstr "Heslo je špatné nebo druhé heslo neodpovídá prvnímu"
 
 #: jauthdb_admin~crud.message.bad.id
 msgctxt "jauthdb_admin~crud.message.bad.id"
 msgid "Error, bad identifiant (%s)"
-msgstr ""
+msgstr "Chyba, špatná identifikace (%s)"
 
 #: jauthdb_admin~crud.message.bad.form
 msgctxt "jauthdb_admin~crud.message.bad.form"
 msgid "Error, no form"
-msgstr ""
+msgstr "Chyba, žádný formulář"
 
 #: jauthdb_admin~crud.list.col.login
 msgctxt "jauthdb_admin~crud.list.col.login"
 msgid "Login"
-msgstr ""
+msgstr "Přihlášení"
 
 #: jauthdb_admin~crud.form.login
 msgctxt "jauthdb_admin~crud.form.login"
 msgid "Login"
-msgstr ""
+msgstr "Přihlášení"
 
 #: jauthdb_admin~crud.form.email
 msgctxt "jauthdb_admin~crud.form.email"
 msgid "E-Mail"
-msgstr ""
+msgstr "E-mail"
 
 #: jauthdb_admin~crud.form.password
 msgctxt "jauthdb_admin~crud.form.password"
 msgid "Password"
-msgstr ""
+msgstr "Heslo"
 
 #: jauthdb_admin~crud.form.password.confirm
 msgctxt "jauthdb_admin~crud.form.password.confirm"
 msgid "Re-type the password"
-msgstr ""
+msgstr "Zadejte znovu heslo"
 
 #: jauthdb_admin~crud.form.submit
 msgctxt "jauthdb_admin~crud.form.submit"
@@ -301,24 +185,141 @@ msgstr "Uložit"
 #: jauthdb_admin~crud.form.random.password
 msgctxt "jauthdb_admin~crud.form.random.password"
 msgid "Example of a password:"
-msgstr ""
+msgstr "Příklad hesla:"
 
 #: jauthdb_admin~crud.form.new.password
 msgctxt "jauthdb_admin~crud.form.new.password"
 msgid "Type the new password"
-msgstr ""
+msgstr "Zadejte nové heslo"
 
 #: jauthdb_admin~crud.view.otherinfo
 msgctxt "jauthdb_admin~crud.view.otherinfo"
 msgid "Other informations"
-msgstr ""
+msgstr "Další informace"
 
 #: jauthdb_admin~crud.view.primaryinfo
 msgctxt "jauthdb_admin~crud.view.primaryinfo"
 msgid "Information on the user"
-msgstr ""
+msgstr "Informace o uživateli"
+
+#: jauthdb_admin~user.title.update
+msgctxt "jauthdb_admin~user.title.update"
+msgid "Edit your profile"
+msgstr "upravit profil"
+
+#: jauthdb_admin~user.title.view
+msgctxt "jauthdb_admin~user.title.view"
+msgid "Details of your profile"
+msgstr "Podrobnosti vašeho profilu"
+
+#: jauthdb_admin~user.title.password
+msgctxt "jauthdb_admin~user.title.password"
+msgid "Change your password"
+msgstr "Změnit si své heslo"
+
+#: jauthdb_admin~user.link.return.to.view
+msgctxt "jauthdb_admin~user.link.return.to.view"
+msgid "Return to your profile summary"
+msgstr "Vraťte se do souhrnu profilu"
+
+#: jauthdb_admin~user.link.view.record
+msgctxt "jauthdb_admin~user.link.view.record"
+msgid "View"
+msgstr "Zobrazit"
+
+#: jauthdb_admin~user.link.edit.record
+msgctxt "jauthdb_admin~user.link.edit.record"
+msgid "Edit"
+msgstr "Editace"
+
+#: jauthdb_admin~user.link.change.password
+msgctxt "jauthdb_admin~user.link.change.password"
+msgid "Change your password"
+msgstr "Změnit si své heslo"
+
+#: jauthdb_admin~user.confirm
+msgctxt "jauthdb_admin~user.confirm"
+msgid "Confirm"
+msgstr "Potvrdit"
+
+#: jauthdb_admin~user.confirmation
+msgctxt "jauthdb_admin~user.confirmation"
+msgid "Confirmation"
+msgstr "Potvrzení"
+
+#: jauthdb_admin~user.message.update.ok
+msgctxt "jauthdb_admin~user.message.update.ok"
+msgid "Your profile has been updated."
+msgstr "Váš profil byl aktualizován."
+
+#: jauthdb_admin~user.message.change.password.ok
+msgctxt "jauthdb_admin~user.message.change.password.ok"
+msgid "Your password has been changed."
+msgstr "Vaše heslo bylo změněno."
+
+#: jauthdb_admin~user.message.change.password.notok
+msgctxt "jauthdb_admin~user.message.change.password.notok"
+msgid "Error during the change of the password"
+msgstr "Chyba při změně hesla"
+
+#: jauthdb_admin~user.message.bad.password
+msgctxt "jauthdb_admin~user.message.bad.password"
+msgid ""
+"The password is bad, or the second password does not correspond to the first"
+" one"
+msgstr "Heslo je špatné nebo druhé heslo neodpovídá prvnímu"
+
+#: jauthdb_admin~user.list.col.login
+msgctxt "jauthdb_admin~user.list.col.login"
+msgid "Login"
+msgstr "Přihlášení"
+
+#: jauthdb_admin~user.form.login
+msgctxt "jauthdb_admin~user.form.login"
+msgid "Login"
+msgstr "Přihlášení"
+
+#: jauthdb_admin~user.form.email
+msgctxt "jauthdb_admin~user.form.email"
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: jauthdb_admin~user.form.password
+msgctxt "jauthdb_admin~user.form.password"
+msgid "Password"
+msgstr "Heslo"
+
+#: jauthdb_admin~user.form.password.confirm
+msgctxt "jauthdb_admin~user.form.password.confirm"
+msgid "Re-type the password"
+msgstr "Zadejte znovu heslo"
+
+#: jauthdb_admin~user.form.submit
+msgctxt "jauthdb_admin~user.form.submit"
+msgid "Save"
+msgstr "Uložit"
+
+#: jauthdb_admin~user.form.random.password
+msgctxt "jauthdb_admin~user.form.random.password"
+msgid "Example of a password:"
+msgstr "Příklad hesla:"
+
+#: jauthdb_admin~user.form.new.password
+msgctxt "jauthdb_admin~user.form.new.password"
+msgid "Type the new password"
+msgstr "Zadejte nové heslo"
+
+#: jauthdb_admin~user.view.otherinfo
+msgctxt "jauthdb_admin~user.view.otherinfo"
+msgid "Other informations"
+msgstr "Další informace"
+
+#: jauthdb_admin~user.view.primaryinfo
+msgctxt "jauthdb_admin~user.view.primaryinfo"
+msgid "Information on your profile"
+msgstr "Informace o vašem profilu"
 
 #: jauthdb_admin~auth.adminmenu.item.list
 msgctxt "jauthdb_admin~auth.adminmenu.item.list"
 msgid "Users"
-msgstr ""
+msgstr "Uživatelé"

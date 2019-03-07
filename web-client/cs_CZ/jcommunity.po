@@ -1,12 +1,14 @@
 # Translators:
 # Jiří Sobotík <jiri.sobotik@centrum.cz>, 2018
+# trendspotter <j.podhorecky@volny.cz>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jcommunity 3.2rc5\n"
+"Project-Id-Version: Lizmap Web Client jcommunity 3.2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-17 11:50++0200\n"
-"PO-Revision-Date: 2018-10-17 11:50++0200\n"
-"Last-Translator: Jiří Sobotík <jiri.sobotik@centrum.cz>, 2018\n"
+"POT-Creation-Date: 2019-01-29 18:11++0100\n"
+"PO-Revision-Date: 2018-06-02 13:00+0000\n"
+"Last-Translator: trendspotter <j.podhorecky@volny.cz>, 2019\n"
 "Language-Team: Czech (https://www.transifex.com/3liz-1/teams/62012/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,15 +16,135 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
+#: jcommunity~login.error.notlogged
+msgctxt "jcommunity~login.error.notlogged"
+msgid "You are not connected, you should sign in."
+msgstr "Nejste připojen, měl byste se přihlásit."
+
+#: jcommunity~login.error.no.after_login
+msgctxt "jcommunity~login.error.no.after_login"
+msgid "In the configuration of the plugin 'auth', after_login is empty"
+msgstr "V konfiguraci pluginu 'auth' je after_login prázdný"
+
+#: jcommunity~login.error.no.after_logout
+msgctxt "jcommunity~login.error.no.after_logout"
+msgid "In the configuration of the plugin 'auth', after_logout is empty"
+msgstr "V konfiguraci pluginu 'auth' je after_logout prázdný"
+
+#: jcommunity~login.form.remember.me
+msgctxt "jcommunity~login.form.remember.me"
+msgid "Remember me"
+msgstr "Zapamatuj si mě"
+
+#: jcommunity~login.form.submit
+msgctxt "jcommunity~login.form.submit"
+msgid "Sign in"
+msgstr "Přihlásit se"
+
+#: jcommunity~login.error
+msgctxt "jcommunity~login.error"
+msgid "Unknown username or wrong password"
+msgstr "Neznámé uživatelské jméno nebo nesprávné heslo"
+
+#: jcommunity~login.login.title
+msgctxt "jcommunity~login.login.title"
+msgid "Sign in"
+msgstr "Přihlásit se"
+
+#: jcommunity~login.logout
+msgctxt "jcommunity~login.logout"
+msgid "Sign out"
+msgstr "Odhlásit se"
+
+#: jcommunity~login.login.account
+msgctxt "jcommunity~login.login.account"
+msgid "Your account"
+msgstr "Váš účet"
+
+#: jcommunity~login.login.password.reset
+msgctxt "jcommunity~login.login.password.reset"
+msgid "I forgot my password"
+msgstr "Zapomněl jsem své heslo"
+
+#: jcommunity~login.access.title
+msgctxt "jcommunity~login.access.title"
+msgid "Page access"
+msgstr "Přístup na stránku"
+
+#: jcommunity~login.access.forbidden.authenticated
+msgctxt "jcommunity~login.access.forbidden.authenticated"
+msgid "You cannot access to this page because your are connected."
+msgstr "Na tuto stránku nemůžete vstoupit, protože jste připojeni."
+
+#: jcommunity~login.access.forbidden.wrong.user
+msgctxt "jcommunity~login.access.forbidden.wrong.user"
+msgid "You cannot access to this page belonging to another user."
+msgstr "Nemůžete přistupovat k této stránce, která patří jinému uživateli."
+
+#: jcommunity~login.access.not.available
+msgctxt "jcommunity~login.access.not.available"
+msgid "Page not available"
+msgstr "Stránka není k dispozici"
+
+#: jcommunity~login.startpage.connected
+msgctxt "jcommunity~login.startpage.connected"
+msgid "You are connected."
+msgstr "Jste připojen."
+
+#: jcommunity~login.startpage.not.connected
+msgctxt "jcommunity~login.startpage.not.connected"
+msgid "You are not connected."
+msgstr "Nejste připojeni."
+
+#: jcommunity~login.startpage.youcan
+msgctxt "jcommunity~login.startpage.youcan"
+msgid "You can:"
+msgstr "Můžete:"
+
+#: jcommunity~login.startpage.account.view
+msgctxt "jcommunity~login.startpage.account.view"
+msgid "View your profile"
+msgstr "Zobrazte svůj profil"
+
+#: jcommunity~login.startpage.account.create
+msgctxt "jcommunity~login.startpage.account.create"
+msgid "Create an account"
+msgstr "Vytvořit účet"
+
+#: jcommunity~login.startpage.logout
+msgctxt "jcommunity~login.startpage.logout"
+msgid "Sign out"
+msgstr "Odhlásit se"
+
+#: jcommunity~login.startpage.login
+msgctxt "jcommunity~login.startpage.login"
+msgid "Sign in"
+msgstr "Přihlásit se"
+
+#: jcommunity~login.startpage.password.reset
+msgctxt "jcommunity~login.startpage.password.reset"
+msgid "Reset your password"
+msgstr "Obnovit heslo"
+
+#: jcommunity~login.back.to.login
+msgctxt "jcommunity~login.back.to.login"
+msgid "Back to the login form"
+msgstr "Zpět na přihlašovací formulář"
+
+#: jcommunity~login.cancel.and.back.to.login
+msgctxt "jcommunity~login.cancel.and.back.to.login"
+msgid "Cancel and return to the login form"
+msgstr "Zrušit a vrátit se do přihlašovacího formuláře"
+
 #: jcommunity~register.registration.title
 msgctxt "jcommunity~register.registration.title"
 msgid "Registration"
-msgstr ""
+msgstr "Registrace"
 
 #: jcommunity~register.form.create.title
 msgctxt "jcommunity~register.form.create.title"
 msgid "Create an account"
-msgstr ""
+msgstr "Vytvořit účet"
 
 #: jcommunity~register.form.create.text.html
 msgctxt "jcommunity~register.form.create.text.html"
@@ -31,26 +153,29 @@ msgid ""
 "sent to you with a link to confirm your registration. You could then "
 "identified yourself on the web site.</p>"
 msgstr ""
+"<p>Zaregistrujte se vyplněním následujícího formuláře.</p> <p>Pošle vám "
+"e-mail s odkazem, který potvrdí vaši registraci. Mohli byste se pak na webu "
+"identifikovat.</p>"
 
 #: jcommunity~register.form.create.submit
 msgctxt "jcommunity~register.form.create.submit"
 msgid "Create the account"
-msgstr ""
+msgstr "Vytvořte účet"
 
 #: jcommunity~register.mail.new.subject
 msgctxt "jcommunity~register.mail.new.subject"
 msgid "Activating your account on the web site %s"
-msgstr ""
+msgstr "Aktivování účtu na webu %s"
 
 #: jcommunity~register.form.login.exists
 msgctxt "jcommunity~register.form.login.exists"
 msgid "This username already exists"
-msgstr ""
+msgstr "Toto uživatelské jméno již existuje"
 
 #: jcommunity~register.registration.waiting.title
 msgctxt "jcommunity~register.registration.waiting.title"
 msgid "Registration"
-msgstr ""
+msgstr "Registrace"
 
 #: jcommunity~register.registration.waiting.text.html
 msgctxt "jcommunity~register.registration.waiting.text.html"
@@ -60,158 +185,256 @@ msgid ""
 "containing a link on which you must click. Verify your spam folder if you "
 "don't see this email in your inbox.</p>"
 msgstr ""
+"<p>Váš účet je vytvořen, ale před jeho použitím musíme ověřit váš "
+"e-mail.</p> <p>Proto jsme vám poslali e-mail obsahující odkaz, na který "
+"musíte kliknout. Zkontrolujte svou složku nevyžádané pošty, pokud se tento "
+"e-mail ve vaší doručené poště nezobrazuje.</p>"
 
 #: jcommunity~register.registration.confirm.title
 msgctxt "jcommunity~register.registration.confirm.title"
 msgid "Activation of your account"
-msgstr ""
+msgstr "Aktivace účtu"
 
 #: jcommunity~register.registration.confirm.alreadydone
 msgctxt "jcommunity~register.registration.confirm.alreadydone"
 msgid ""
 "Your account is already activated. You can identify yourself on the web "
 "site."
-msgstr ""
+msgstr "Váš účet je již aktivován. Můžete se identifikovat na webu."
 
 #: jcommunity~register.registration.confirm.ok
 msgctxt "jcommunity~register.registration.confirm.ok"
 msgid "Your account is activated. You can identify yourself on the web site."
-msgstr ""
+msgstr "Váš účet je aktivován. Můžete se identifikovat na webu."
 
 #: jcommunity~register.registration.confirm.badkey
 msgctxt "jcommunity~register.registration.confirm.badkey"
 msgid "Activation is not possible: the key or the username is invalid."
-msgstr ""
+msgstr "Aktivace není možná: klíč nebo uživatelské jméno je neplatné."
 
 #: jcommunity~register.registration.confirm.badstatus
 msgctxt "jcommunity~register.registration.confirm.badstatus"
 msgid "Activation is not possible: your account is not a new one."
-msgstr ""
+msgstr "Aktivace není možná: váš účet není nový."
 
-#: jcommunity~login.error.notlogged
-msgctxt "jcommunity~login.error.notlogged"
-msgid "You are not connected, you should sign in."
-msgstr ""
+#: jcommunity~account.unknown.user
+msgctxt "jcommunity~account.unknown.user"
+msgid "Unknown user"
+msgstr "Neznámý uživatel"
 
-#: jcommunity~login.error.no.after_login
-msgctxt "jcommunity~login.error.no.after_login"
-msgid "In the configuration of the plugin 'auth', after_login is empty"
-msgstr ""
+#: jcommunity~account.error.dup.nickname
+msgctxt "jcommunity~account.error.dup.nickname"
+msgid "The displayed name is already used by another user"
+msgstr "Zobrazené jméno je již použito jiným uživatelem"
 
-#: jcommunity~login.error.no.after_logout
-msgctxt "jcommunity~login.error.no.after_logout"
-msgid "In the configuration of the plugin 'auth', after_logout is empty"
-msgstr ""
+#: jcommunity~account.form.login
+msgctxt "jcommunity~account.form.login"
+msgid "Username"
+msgstr "Uživatelské jméno"
 
-#: jcommunity~login.form.remember.me
-msgctxt "jcommunity~login.form.remember.me"
-msgid "Remember me"
-msgstr ""
+#: jcommunity~account.form.email
+msgctxt "jcommunity~account.form.email"
+msgid "Email"
+msgstr "E-mail"
 
-#: jcommunity~login.form.submit
-msgctxt "jcommunity~login.form.submit"
-msgid "Sign in"
-msgstr ""
+#: jcommunity~account.form.submit
+msgctxt "jcommunity~account.form.submit"
+msgid "Save"
+msgstr "Uložit"
 
-#: jcommunity~login.error
-msgctxt "jcommunity~login.error"
-msgid "Unknown username or wrong password"
-msgstr ""
+#: jcommunity~account.form.nickname
+msgctxt "jcommunity~account.form.nickname"
+msgid "Displayed name"
+msgstr "Zobrazený název"
 
-#: jcommunity~login.login.title
-msgctxt "jcommunity~login.login.title"
-msgid "Sign in"
-msgstr ""
+#: jcommunity~account.form.password
+msgctxt "jcommunity~account.form.password"
+msgid "Password"
+msgstr "Heslo"
 
-#: jcommunity~login.logout
-msgctxt "jcommunity~login.logout"
-msgid "Sign out"
-msgstr ""
+#: jcommunity~account.form.password.help
+msgctxt "jcommunity~account.form.password.help"
+msgid "The password length must be above 8 characters"
+msgstr "Délka hesla musí být větší než 8 znaků"
 
-#: jcommunity~login.login.account
-msgctxt "jcommunity~login.login.account"
-msgid "Your account"
-msgstr ""
+#: jcommunity~account.form.password.confirm
+msgctxt "jcommunity~account.form.password.confirm"
+msgid "Retype the password"
+msgstr "Zadejte heslo znovu"
 
-#: jcommunity~login.login.password.reset
-msgctxt "jcommunity~login.login.password.reset"
-msgid "I forgot my password"
-msgstr ""
+#: jcommunity~account.form.status
+msgctxt "jcommunity~account.form.status"
+msgid "Status"
+msgstr "Stav"
 
-#: jcommunity~login.access.title
-msgctxt "jcommunity~login.access.title"
-msgid "Page access"
-msgstr ""
+#: jcommunity~account.form.status.deleted
+msgctxt "jcommunity~account.form.status.deleted"
+msgid "Deleted"
+msgstr "Smazáno"
 
-#: jcommunity~login.access.forbidden.authenticated
-msgctxt "jcommunity~login.access.forbidden.authenticated"
-msgid "You cannot access to this page because your are connected."
-msgstr ""
+#: jcommunity~account.form.status.deactivate
+msgctxt "jcommunity~account.form.status.deactivate"
+msgid "Deactivated"
+msgstr "Deaktivováno"
 
-#: jcommunity~login.access.forbidden.wrong.user
-msgctxt "jcommunity~login.access.forbidden.wrong.user"
-msgid "You cannot access to this page belonging to another user."
-msgstr ""
+#: jcommunity~account.form.status.newuser
+msgctxt "jcommunity~account.form.status.newuser"
+msgid "New account, awaiting email validation"
+msgstr "Nový účet čeká na ověření e-mailu"
 
-#: jcommunity~login.access.not.available
-msgctxt "jcommunity~login.access.not.available"
-msgid "Page not available"
-msgstr ""
+#: jcommunity~account.form.status.valid
+msgctxt "jcommunity~account.form.status.valid"
+msgid "Account validated"
+msgstr "Účet byl ověřen"
 
-#: jcommunity~login.startpage.connected
-msgctxt "jcommunity~login.startpage.connected"
-msgid "You are connected."
-msgstr ""
+#: jcommunity~account.form.status.valid.email.changed
+msgctxt "jcommunity~account.form.status.valid.email.changed"
+msgid "Validated, awaiting new email validation"
+msgstr "Ověřeno, čeká na nové ověření e-mailu"
 
-#: jcommunity~login.startpage.not.connected
-msgctxt "jcommunity~login.startpage.not.connected"
-msgid "You are not connected."
-msgstr ""
+#: jcommunity~account.form.status.valid.password.changed
+msgctxt "jcommunity~account.form.status.valid.password.changed"
+msgid "Validated, awaiting reset password"
+msgstr "Ověřeno, čeká na obnovení hesla"
 
-#: jcommunity~login.startpage.youcan
-msgctxt "jcommunity~login.startpage.youcan"
-msgid "You can:"
-msgstr ""
+#: jcommunity~account.form.keyactivate
+msgctxt "jcommunity~account.form.keyactivate"
+msgid "Request key"
+msgstr "Klíč požadavku"
 
-#: jcommunity~login.startpage.account.view
-msgctxt "jcommunity~login.startpage.account.view"
-msgid "View your profile"
-msgstr ""
+#: jcommunity~account.form.requestdate
+msgctxt "jcommunity~account.form.requestdate"
+msgid "Request date"
+msgstr "Datum požadavku"
 
-#: jcommunity~login.startpage.account.create
-msgctxt "jcommunity~login.startpage.account.create"
-msgid "Create an account"
-msgstr ""
+#: jcommunity~account.form.createdate
+msgctxt "jcommunity~account.form.createdate"
+msgid "Date of account creation"
+msgstr "Datum vytvoření účtu"
 
-#: jcommunity~login.startpage.logout
-msgctxt "jcommunity~login.startpage.logout"
-msgid "Sign out"
-msgstr ""
+#: jcommunity~account.form.captcha
+msgctxt "jcommunity~account.form.captcha"
+msgid "Are you a human?"
+msgstr "Jste člověk?"
 
-#: jcommunity~login.startpage.login
-msgctxt "jcommunity~login.startpage.login"
-msgid "Sign in"
-msgstr ""
+#: jcommunity~account.profile.of
+msgctxt "jcommunity~account.profile.of"
+msgid "%1$s's Profile"
+msgstr "Profil %1$s"
 
-#: jcommunity~login.startpage.password.reset
-msgctxt "jcommunity~login.startpage.password.reset"
-msgid "Reset your password"
-msgstr ""
+#: jcommunity~account.link.profile.edit
+msgctxt "jcommunity~account.link.profile.edit"
+msgid "Edit your profile"
+msgstr "upravit profil"
 
-#: jcommunity~login.back.to.login
-msgctxt "jcommunity~login.back.to.login"
-msgid "Back to the login form"
-msgstr ""
+#: jcommunity~account.link.account.delete
+msgctxt "jcommunity~account.link.account.delete"
+msgid "Delete your account"
+msgstr "Smazání účtu"
 
-#: jcommunity~login.cancel.and.back.to.login
-msgctxt "jcommunity~login.cancel.and.back.to.login"
-msgid "Cancel and return to the login form"
+#: jcommunity~account.link.account.change.password
+msgctxt "jcommunity~account.link.account.change.password"
+msgid "Change your password"
+msgstr "Změnit si své heslo"
+
+#: jcommunity~account.form.edit.profile.title
+msgctxt "jcommunity~account.form.edit.profile.title"
+msgid "Editing your profile"
+msgstr "Úprava profilu"
+
+#: jcommunity~account.form.delete.account.title
+msgctxt "jcommunity~account.form.delete.account.title"
+msgid "Deleting your account"
+msgstr "Smazání účtu"
+
+#: jcommunity~account.form.delete.account.confirm.title
+msgctxt "jcommunity~account.form.delete.account.confirm.title"
+msgid "Confirm the deletion of your account"
+msgstr "Potvrďte smazání účtu"
+
+#: jcommunity~account.form.delete.account.confirm
+msgctxt "jcommunity~account.form.delete.account.confirm"
+msgid "Confirm by indicating your password."
+msgstr "Potvrďte zadáním hesla."
+
+#: jcommunity~account.form.delete.account.submit
+msgctxt "jcommunity~account.form.delete.account.submit"
+msgid "Delete"
+msgstr "Smazat"
+
+#: jcommunity~account.form.delete.account.done
+msgctxt "jcommunity~account.form.delete.account.done"
+msgid "Your account is now deleted. You are deconnected."
+msgstr "Váš účet je nyní smazán. Jste odpojeni."
+
+#: jcommunity~account.form.delete.account.error.notremoved
+msgctxt "jcommunity~account.form.delete.account.error.notremoved"
+msgid "Impossible to delete your account. Contact the site manager."
+msgstr "Účet nelze smazat. Kontaktujte správce webu."
+
+#: jcommunity~account.form.delete.account.error.badpassword
+msgctxt "jcommunity~account.form.delete.account.error.badpassword"
+msgid "Impossible to delete your account: the given password is not valid."
+msgstr "Účet nelze odstranit: zadané heslo není platné."
+
+#: jcommunity~account.form.delete.account.error.wronguser
+msgctxt "jcommunity~account.form.delete.account.error.wronguser"
+msgid "Sorry, you are not supposed to be on this page..."
+msgstr "Je nám líto, neměli byste být na této stránce ..."
+
+#: jcommunity~account.form.delete.account.error.nologout
+msgctxt "jcommunity~account.form.delete.account.error.nologout"
+msgid ""
+"Strange... Your account does not exist anymore, but your are still "
+"connected? Contact the site manager."
 msgstr ""
+"Zvláštní ... Váš účet už neexistuje, ale jste stále připojen? Kontaktujte "
+"správce webu."
+
+#: jcommunity~account.form.cancel
+msgctxt "jcommunity~account.form.cancel"
+msgid "Cancel"
+msgstr "Storno"
+
+#: jcommunity~account.cancel.and.back.to.account
+msgctxt "jcommunity~account.cancel.and.back.to.account"
+msgid "Cancel and back to your profile"
+msgstr "Zrušit a vrátit se do profilu"
+
+#: jcommunity~account.back.to.account
+msgctxt "jcommunity~account.back.to.account"
+msgid "Back to your profile"
+msgstr "Zpět na profil"
+
+#: jcommunity~prefs.group.jcommunity
+msgctxt "jcommunity~prefs.group.jcommunity"
+msgid "jCommunity"
+msgstr "jCommunity"
+
+#: jcommunity~prefs.pref.registrationEnabled
+msgctxt "jcommunity~prefs.pref.registrationEnabled"
+msgid "An unknown user can create a new account"
+msgstr "Neznámý uživatel může vytvořit nový účet"
+
+#: jcommunity~prefs.pref.resetPasswordEnabled
+msgctxt "jcommunity~prefs.pref.resetPasswordEnabled"
+msgid "A user can reset password when he forget it"
+msgstr "Uživatel může obnovit heslo, když ho zapomene"
+
+#: jcommunity~prefs.jcommunity.admin
+msgctxt "jcommunity~prefs.jcommunity.admin"
+msgid "jCommunity"
+msgstr "jCommunity"
+
+#: jcommunity~prefs.admin.prefs.change
+msgctxt "jcommunity~prefs.admin.prefs.change"
+msgid "Modify preferences of jCommunity"
+msgstr "Upravit předvolby jCommunity"
 
 #: jcommunity~password.form.title
 msgctxt "jcommunity~password.form.title"
 msgid "Resetting the password"
-msgstr ""
+msgstr "Resetování hesla"
 
 #: jcommunity~password.form.text.html
 msgctxt "jcommunity~password.form.text.html"
@@ -221,11 +444,15 @@ msgid ""
 "will be sent with a link to a page allowing you to choose a new "
 "password.</p>"
 msgstr ""
+"<p>Pokud jste zapomněli své heslo, vyplňte následující formulář s "
+"uživatelským jménem a e-mailem, který jste nastavili ve svém profilu.</p> "
+"<p>Pošleme e-mail s odkazem na stránku, která vám umožní vybrat nové "
+"heslo.</p>"
 
 #: jcommunity~password.form.submit
 msgctxt "jcommunity~password.form.submit"
 msgid "Send the email"
-msgstr ""
+msgstr "Poslat e-mail"
 
 #: jcommunity~password.waiting.text.html
 msgctxt "jcommunity~password.waiting.text.html"
@@ -236,41 +463,46 @@ msgid ""
 "link is valid only 48 hours.</p> <p>The current password is still valid as "
 "long as you don't change it.</p>"
 msgstr ""
+"<p>Na adresu, kterou jste zadali, byl odeslán e-mail. Ověřte svou složku "
+"spamu, pokud ji nevidíte během několika minut v doručené poště.</p> <p>Tento"
+" e-mail obsahuje odkaz na stránku, která vám umožní změnit heslo. Tento "
+"odkaz je platný pouze 48 hodin.</p> <p>Aktuální heslo je stále platné, dokud"
+" jej nezměníte.</p>"
 
 #: jcommunity~password.mail.pwd.change.subject
 msgctxt "jcommunity~password.mail.pwd.change.subject"
 msgid "Request about a password reset on %s"
-msgstr ""
+msgstr "Požadavek na obnovení hesla u %s"
 
 #: jcommunity~password.form.change.title
 msgctxt "jcommunity~password.form.change.title"
 msgid "Password change"
-msgstr ""
+msgstr "Změna hesla"
 
 #: jcommunity~password.form.change.current.password.label
 msgctxt "jcommunity~password.form.change.current.password.label"
 msgid "Your current password"
-msgstr ""
+msgstr "Vaše současné heslo"
 
 #: jcommunity~password.form.change.password.label
 msgctxt "jcommunity~password.form.change.password.label"
 msgid "Your new password"
-msgstr ""
+msgstr "Vaše nové heslo"
 
 #: jcommunity~password.form.change.submit
 msgctxt "jcommunity~password.form.change.submit"
 msgid "Change"
-msgstr ""
+msgstr "Změnit"
 
 #: jcommunity~password.form.change.text.html
 msgctxt "jcommunity~password.form.change.text.html"
 msgid "<p>Indicate your new password.</p>"
-msgstr ""
+msgstr "<p>Uveďte nové heslo.</p>"
 
 #: jcommunity~password.form.change.error.alreadydone
 msgctxt "jcommunity~password.form.change.error.alreadydone"
 msgid "Sorry, there is no request for a password change."
-msgstr ""
+msgstr "Je nám líto, není žádost o změnu hesla."
 
 #: jcommunity~password.form.change.error.badkey
 msgctxt "jcommunity~password.form.change.error.badkey"
@@ -278,247 +510,36 @@ msgid ""
 "Password change is not possible: the username or the request key is not "
 "valid."
 msgstr ""
+"Změna hesla není možná: uživatelské jméno nebo klíč požadavku není platný."
 
 #: jcommunity~password.form.change.error.expiredkey
 msgctxt "jcommunity~password.form.change.error.expiredkey"
 msgid ""
 "Password change is not possible: the request has expired. Do an other "
 "request."
-msgstr ""
+msgstr "Změna hesla není možná: požadavek vypršel. Proveďte další požadavek."
 
 #: jcommunity~password.form.change.error.badstatus
 msgctxt "jcommunity~password.form.change.error.badstatus"
 msgid "Password change is not allowed because of your account status."
-msgstr ""
+msgstr "Změna hesla není povolena z důvodu stavu vašeho účtu."
 
 #: jcommunity~password.form.change.error.badloginemail
 msgctxt "jcommunity~password.form.change.error.badloginemail"
 msgid "We don't know the username or the email you give"
-msgstr ""
+msgstr "Neznáme uživatelské jméno nebo e-mail, který dáváte"
 
 #: jcommunity~password.form.change.error.badcurrentpwd
 msgctxt "jcommunity~password.form.change.error.badcurrentpwd"
 msgid "The password does not match the current password"
-msgstr ""
+msgstr "Heslo neodpovídá aktuálnímu heslu"
 
 #: jcommunity~password.form.change.reset.ok
 msgctxt "jcommunity~password.form.change.reset.ok"
 msgid "The new password is now saved. You can sign in now."
-msgstr ""
+msgstr "Nové heslo je nyní uloženo. Nyní se můžete přihlásit."
 
 #: jcommunity~password.form.change.ok
 msgctxt "jcommunity~password.form.change.ok"
 msgid "The new password is now saved."
-msgstr ""
-
-#: jcommunity~prefs.group.jcommunity
-msgctxt "jcommunity~prefs.group.jcommunity"
-msgid "jCommunity"
-msgstr ""
-
-#: jcommunity~prefs.pref.registrationEnabled
-msgctxt "jcommunity~prefs.pref.registrationEnabled"
-msgid "An unknown user can create a new account"
-msgstr ""
-
-#: jcommunity~prefs.pref.resetPasswordEnabled
-msgctxt "jcommunity~prefs.pref.resetPasswordEnabled"
-msgid "A user can reset password when he forget it"
-msgstr ""
-
-#: jcommunity~prefs.jcommunity.admin
-msgctxt "jcommunity~prefs.jcommunity.admin"
-msgid "jCommunity"
-msgstr ""
-
-#: jcommunity~prefs.admin.prefs.change
-msgctxt "jcommunity~prefs.admin.prefs.change"
-msgid "Modify preferences of jCommunity"
-msgstr ""
-
-#: jcommunity~account.unknown.user
-msgctxt "jcommunity~account.unknown.user"
-msgid "Unknown user"
-msgstr ""
-
-#: jcommunity~account.error.dup.nickname
-msgctxt "jcommunity~account.error.dup.nickname"
-msgid "The displayed name is already used by another user"
-msgstr ""
-
-#: jcommunity~account.form.login
-msgctxt "jcommunity~account.form.login"
-msgid "Username"
-msgstr ""
-
-#: jcommunity~account.form.email
-msgctxt "jcommunity~account.form.email"
-msgid "Email"
-msgstr ""
-
-#: jcommunity~account.form.submit
-msgctxt "jcommunity~account.form.submit"
-msgid "Save"
-msgstr "Uložit"
-
-#: jcommunity~account.form.nickname
-msgctxt "jcommunity~account.form.nickname"
-msgid "Displayed name"
-msgstr ""
-
-#: jcommunity~account.form.password
-msgctxt "jcommunity~account.form.password"
-msgid "Password"
-msgstr ""
-
-#: jcommunity~account.form.password.help
-msgctxt "jcommunity~account.form.password.help"
-msgid "The password length must be above 8 characters"
-msgstr ""
-
-#: jcommunity~account.form.password.confirm
-msgctxt "jcommunity~account.form.password.confirm"
-msgid "Retype the password"
-msgstr ""
-
-#: jcommunity~account.form.status
-msgctxt "jcommunity~account.form.status"
-msgid "Status"
-msgstr ""
-
-#: jcommunity~account.form.status.deleted
-msgctxt "jcommunity~account.form.status.deleted"
-msgid "Deleted"
-msgstr ""
-
-#: jcommunity~account.form.status.deactivate
-msgctxt "jcommunity~account.form.status.deactivate"
-msgid "Deactivated"
-msgstr ""
-
-#: jcommunity~account.form.status.newuser
-msgctxt "jcommunity~account.form.status.newuser"
-msgid "New account, awaiting email validation"
-msgstr ""
-
-#: jcommunity~account.form.status.valid
-msgctxt "jcommunity~account.form.status.valid"
-msgid "Account validated"
-msgstr ""
-
-#: jcommunity~account.form.status.valid.email.changed
-msgctxt "jcommunity~account.form.status.valid.email.changed"
-msgid "Validated, awaiting new email validation"
-msgstr ""
-
-#: jcommunity~account.form.status.valid.password.changed
-msgctxt "jcommunity~account.form.status.valid.password.changed"
-msgid "Validated, awaiting reset password"
-msgstr ""
-
-#: jcommunity~account.form.keyactivate
-msgctxt "jcommunity~account.form.keyactivate"
-msgid "Request key"
-msgstr ""
-
-#: jcommunity~account.form.requestdate
-msgctxt "jcommunity~account.form.requestdate"
-msgid "Request date"
-msgstr ""
-
-#: jcommunity~account.form.createdate
-msgctxt "jcommunity~account.form.createdate"
-msgid "Date of account creation"
-msgstr ""
-
-#: jcommunity~account.form.captcha
-msgctxt "jcommunity~account.form.captcha"
-msgid "Are you a human?"
-msgstr ""
-
-#: jcommunity~account.profile.of
-msgctxt "jcommunity~account.profile.of"
-msgid "%1$s's Profile"
-msgstr ""
-
-#: jcommunity~account.link.profile.edit
-msgctxt "jcommunity~account.link.profile.edit"
-msgid "Edit your profile"
-msgstr ""
-
-#: jcommunity~account.link.account.delete
-msgctxt "jcommunity~account.link.account.delete"
-msgid "Delete your account"
-msgstr ""
-
-#: jcommunity~account.link.account.change.password
-msgctxt "jcommunity~account.link.account.change.password"
-msgid "Change your password"
-msgstr ""
-
-#: jcommunity~account.form.edit.profile.title
-msgctxt "jcommunity~account.form.edit.profile.title"
-msgid "Editing your profile"
-msgstr ""
-
-#: jcommunity~account.form.delete.account.title
-msgctxt "jcommunity~account.form.delete.account.title"
-msgid "Deleting your account"
-msgstr ""
-
-#: jcommunity~account.form.delete.account.confirm.title
-msgctxt "jcommunity~account.form.delete.account.confirm.title"
-msgid "Confirm the deletion of your account"
-msgstr ""
-
-#: jcommunity~account.form.delete.account.confirm
-msgctxt "jcommunity~account.form.delete.account.confirm"
-msgid "Confirm by indicating your password."
-msgstr ""
-
-#: jcommunity~account.form.delete.account.submit
-msgctxt "jcommunity~account.form.delete.account.submit"
-msgid "Delete"
-msgstr "Smazat"
-
-#: jcommunity~account.form.delete.account.done
-msgctxt "jcommunity~account.form.delete.account.done"
-msgid "Your account is now deleted. You are deconnected."
-msgstr ""
-
-#: jcommunity~account.form.delete.account.error.notremoved
-msgctxt "jcommunity~account.form.delete.account.error.notremoved"
-msgid "Impossible to delete your account. Contact the site manager."
-msgstr ""
-
-#: jcommunity~account.form.delete.account.error.badpassword
-msgctxt "jcommunity~account.form.delete.account.error.badpassword"
-msgid "Impossible to delete your account: the given password is not valid."
-msgstr ""
-
-#: jcommunity~account.form.delete.account.error.wronguser
-msgctxt "jcommunity~account.form.delete.account.error.wronguser"
-msgid "Sorry, you are not supposed to be on this page..."
-msgstr ""
-
-#: jcommunity~account.form.delete.account.error.nologout
-msgctxt "jcommunity~account.form.delete.account.error.nologout"
-msgid ""
-"Strange... Your account does not exist anymore, but your are still "
-"connected? Contact the site manager."
-msgstr ""
-
-#: jcommunity~account.form.cancel
-msgctxt "jcommunity~account.form.cancel"
-msgid "Cancel"
-msgstr "Storno"
-
-#: jcommunity~account.cancel.and.back.to.account
-msgctxt "jcommunity~account.cancel.and.back.to.account"
-msgid "Cancel and back to your profile"
-msgstr ""
-
-#: jcommunity~account.back.to.account
-msgctxt "jcommunity~account.back.to.account"
-msgid "Back to your profile"
-msgstr ""
+msgstr "Nové heslo je nyní uloženo."
