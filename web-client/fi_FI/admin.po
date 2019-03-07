@@ -5,57 +5,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-23 15:35++0200\n"
-"PO-Revision-Date: 2018-10-23 13:35+0000\n"
-"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>\n"
+"POT-Creation-Date: 2019-01-29 18:11++0100\n"
+"PO-Revision-Date: 2019-01-29 17:11+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/3liz-1/lizmap-locales/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: admin~user.form.comment.label
-msgctxt "admin~user.form.comment.label"
-msgid "Comments"
-msgstr "Kommentit"
-
-#: admin~user.email.admin.subject
-msgctxt "admin~user.email.admin.subject"
-msgid "Lizmap - Someone requested an account"
-msgstr "Lizmap - Henkilö pyysi tiliä"
-
-#: admin~user.email.admin.body
-msgctxt "admin~user.email.admin.body"
-msgid ""
-"Someone has requested a Lizmap account to be able to access the maps, with "
-"the login %s and the e-mail %s."
-msgstr "Henkilö on pyytänyt Lizmap tiliä voidakseen käyttää karttoja, sisäänkirjoitustunnuksella %s ja sähköpostilla %s."
-
-#: admin~user.acl.no.group
-msgctxt "admin~user.acl.no.group"
-msgid "The user is not in any group"
-msgstr ""
-
-#: admin~user.acl.form.title
-msgctxt "admin~user.acl.form.title"
-msgid "Groups the user belongs to"
-msgstr ""
-
-#: admin~user.acl.form.remove.from.group
-msgctxt "admin~user.acl.form.remove.from.group"
-msgid "Remove him from this group"
-msgstr ""
-
-#: admin~user.acl.form.add.to.group
-msgctxt "admin~user.acl.form.add.to.group"
-msgid "Add him to this group"
-msgstr ""
-
-#: admin~user.acl.form.add
-msgctxt "admin~user.acl.form.add"
-msgid "Add"
-msgstr "Lisää"
 
 #: admin~jacl2.lizmap.admin.grp
 msgctxt "admin~jacl2.lizmap.admin.grp"
@@ -675,8 +633,8 @@ msgstr "Paikallinen hakemistopolku"
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
-msgid "Allow repository themes"
-msgstr "Salli etäkirjastoteemat"
+msgid "Allow themes/javascript codes for this repository"
+msgstr ""
 
 #: admin~admin.form.admin_section.submit.label
 msgctxt "admin~admin.form.admin_section.submit.label"
@@ -1055,3 +1013,45 @@ msgstr ""
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
 msgstr ""
+
+#: admin~user.form.comment.label
+msgctxt "admin~user.form.comment.label"
+msgid "Comments"
+msgstr "Kommentit"
+
+#: admin~user.email.admin.subject
+msgctxt "admin~user.email.admin.subject"
+msgid "Lizmap - Someone requested an account"
+msgstr "Lizmap - Henkilö pyysi tiliä"
+
+#: admin~user.email.admin.body
+msgctxt "admin~user.email.admin.body"
+msgid ""
+"Someone has requested a Lizmap account to be able to access the maps, with "
+"the login %s and the e-mail %s."
+msgstr "Henkilö on pyytänyt Lizmap tiliä voidakseen käyttää karttoja, sisäänkirjoitustunnuksella %s ja sähköpostilla %s."
+
+#: admin~user.acl.no.group
+msgctxt "admin~user.acl.no.group"
+msgid "The user is not in any group"
+msgstr ""
+
+#: admin~user.acl.form.title
+msgctxt "admin~user.acl.form.title"
+msgid "Groups the user belongs to"
+msgstr ""
+
+#: admin~user.acl.form.remove.from.group
+msgctxt "admin~user.acl.form.remove.from.group"
+msgid "Remove him from this group"
+msgstr ""
+
+#: admin~user.acl.form.add.to.group
+msgctxt "admin~user.acl.form.add.to.group"
+msgid "Add him to this group"
+msgstr ""
+
+#: admin~user.acl.form.add
+msgctxt "admin~user.acl.form.add"
+msgid "Add"
+msgstr "Lisää"

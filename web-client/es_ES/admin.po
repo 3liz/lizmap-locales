@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-23 15:35++0200\n"
-"PO-Revision-Date: 2018-10-23 13:35+0000\n"
+"POT-Creation-Date: 2019-01-29 18:11++0100\n"
+"PO-Revision-Date: 2019-01-29 17:11+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/3liz-1/lizmap-locales/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -17,48 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: admin~user.form.comment.label
-msgctxt "admin~user.form.comment.label"
-msgid "Comments"
-msgstr "Comentarios"
-
-#: admin~user.email.admin.subject
-msgctxt "admin~user.email.admin.subject"
-msgid "Lizmap - Someone requested an account"
-msgstr "Lizmap - Alguien solicitó una cuenta"
-
-#: admin~user.email.admin.body
-msgctxt "admin~user.email.admin.body"
-msgid ""
-"Someone has requested a Lizmap account to be able to access the maps, with "
-"the login %s and the e-mail %s."
-msgstr "Alguien ha solicitado una cuenta Lizmap para poder acceder a los mapas, con el inicio de sesión %s y el e-mail"
-
-#: admin~user.acl.no.group
-msgctxt "admin~user.acl.no.group"
-msgid "The user is not in any group"
-msgstr "El usuario no pertenece a ningún grupo"
-
-#: admin~user.acl.form.title
-msgctxt "admin~user.acl.form.title"
-msgid "Groups the user belongs to"
-msgstr "Grupos a los que pertenece el usuario"
-
-#: admin~user.acl.form.remove.from.group
-msgctxt "admin~user.acl.form.remove.from.group"
-msgid "Remove him from this group"
-msgstr "Eliminarlo de este grupo"
-
-#: admin~user.acl.form.add.to.group
-msgctxt "admin~user.acl.form.add.to.group"
-msgid "Add him to this group"
-msgstr "Agregarlo a este grupo"
-
-#: admin~user.acl.form.add
-msgctxt "admin~user.acl.form.add"
-msgid "Add"
-msgstr "Agregar"
 
 #: admin~jacl2.lizmap.admin.grp
 msgctxt "admin~jacl2.lizmap.admin.grp"
@@ -678,8 +636,8 @@ msgstr "Ruta del directorio local"
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
-msgid "Allow repository themes"
-msgstr "Permitir temas para el repositorio"
+msgid "Allow themes/javascript codes for this repository"
+msgstr ""
 
 #: admin~admin.form.admin_section.submit.label
 msgctxt "admin~admin.form.admin_section.submit.label"
@@ -1058,3 +1016,45 @@ msgstr ""
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
 msgstr ""
+
+#: admin~user.form.comment.label
+msgctxt "admin~user.form.comment.label"
+msgid "Comments"
+msgstr "Comentarios"
+
+#: admin~user.email.admin.subject
+msgctxt "admin~user.email.admin.subject"
+msgid "Lizmap - Someone requested an account"
+msgstr "Lizmap - Alguien solicitó una cuenta"
+
+#: admin~user.email.admin.body
+msgctxt "admin~user.email.admin.body"
+msgid ""
+"Someone has requested a Lizmap account to be able to access the maps, with "
+"the login %s and the e-mail %s."
+msgstr "Alguien ha solicitado una cuenta Lizmap para poder acceder a los mapas, con el inicio de sesión %s y el e-mail"
+
+#: admin~user.acl.no.group
+msgctxt "admin~user.acl.no.group"
+msgid "The user is not in any group"
+msgstr "El usuario no pertenece a ningún grupo"
+
+#: admin~user.acl.form.title
+msgctxt "admin~user.acl.form.title"
+msgid "Groups the user belongs to"
+msgstr "Grupos a los que pertenece el usuario"
+
+#: admin~user.acl.form.remove.from.group
+msgctxt "admin~user.acl.form.remove.from.group"
+msgid "Remove him from this group"
+msgstr "Eliminarlo de este grupo"
+
+#: admin~user.acl.form.add.to.group
+msgctxt "admin~user.acl.form.add.to.group"
+msgid "Add him to this group"
+msgstr "Agregarlo a este grupo"
+
+#: admin~user.acl.form.add
+msgctxt "admin~user.acl.form.add"
+msgid "Add"
+msgstr "Agregar"

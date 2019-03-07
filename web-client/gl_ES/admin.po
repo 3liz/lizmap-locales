@@ -1,13 +1,13 @@
 # 
 # Translators:
 # , 2016-2017
-# xanvieiro <gallaecia6@gmail.com>, 2017-2018
+# xanvieiro <gallaecia6@gmail.com>, 2017-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-23 15:35++0200\n"
-"PO-Revision-Date: 2018-10-25 17:19+0000\n"
+"POT-Creation-Date: 2019-01-29 18:11++0100\n"
+"PO-Revision-Date: 2019-01-31 17:56+0000\n"
 "Last-Translator: xanvieiro <gallaecia6@gmail.com>\n"
 "Language-Team: Galician (http://www.transifex.com/3liz-1/lizmap-locales/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -15,48 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: gl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: admin~user.form.comment.label
-msgctxt "admin~user.form.comment.label"
-msgid "Comments"
-msgstr "Comentarios"
-
-#: admin~user.email.admin.subject
-msgctxt "admin~user.email.admin.subject"
-msgid "Lizmap - Someone requested an account"
-msgstr "Lizmap - Alguén solicitou unha conta"
-
-#: admin~user.email.admin.body
-msgctxt "admin~user.email.admin.body"
-msgid ""
-"Someone has requested a Lizmap account to be able to access the maps, with "
-"the login %s and the e-mail %s."
-msgstr "Alguén solicitou unha conta Lizmap para ser capaz de acceder ós mapas, co alcume %s e o correo electrónico %s."
-
-#: admin~user.acl.no.group
-msgctxt "admin~user.acl.no.group"
-msgid "The user is not in any group"
-msgstr "O usuario non está en ningún grupo"
-
-#: admin~user.acl.form.title
-msgctxt "admin~user.acl.form.title"
-msgid "Groups the user belongs to"
-msgstr "Grupos ós que pertence o usuario"
-
-#: admin~user.acl.form.remove.from.group
-msgctxt "admin~user.acl.form.remove.from.group"
-msgid "Remove him from this group"
-msgstr "Eliminalo deste grupo"
-
-#: admin~user.acl.form.add.to.group
-msgctxt "admin~user.acl.form.add.to.group"
-msgid "Add him to this group"
-msgstr "Engadilo a este grupo"
-
-#: admin~user.acl.form.add
-msgctxt "admin~user.acl.form.add"
-msgid "Add"
-msgstr "Engadir"
 
 #: admin~jacl2.lizmap.admin.grp
 msgctxt "admin~jacl2.lizmap.admin.grp"
@@ -676,8 +634,8 @@ msgstr "Ruta do directorio local"
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
-msgid "Allow repository themes"
-msgstr "Permitir temas do repositorio"
+msgid "Allow themes/javascript codes for this repository"
+msgstr "Permitir temas/código javascript para este repositorio"
 
 #: admin~admin.form.admin_section.submit.label
 msgctxt "admin~admin.form.admin_section.submit.label"
@@ -1056,3 +1014,45 @@ msgstr "Está seguro de querer borrar o ficheiro de rexistro de erros?"
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
 msgstr "Eliminouse con éxito o ficheiro de rexistro de erros."
+
+#: admin~user.form.comment.label
+msgctxt "admin~user.form.comment.label"
+msgid "Comments"
+msgstr "Comentarios"
+
+#: admin~user.email.admin.subject
+msgctxt "admin~user.email.admin.subject"
+msgid "Lizmap - Someone requested an account"
+msgstr "Lizmap - Alguén solicitou unha conta"
+
+#: admin~user.email.admin.body
+msgctxt "admin~user.email.admin.body"
+msgid ""
+"Someone has requested a Lizmap account to be able to access the maps, with "
+"the login %s and the e-mail %s."
+msgstr "Alguén solicitou unha conta Lizmap para ser capaz de acceder ós mapas, co alcume %s e o correo electrónico %s."
+
+#: admin~user.acl.no.group
+msgctxt "admin~user.acl.no.group"
+msgid "The user is not in any group"
+msgstr "O usuario non está en ningún grupo"
+
+#: admin~user.acl.form.title
+msgctxt "admin~user.acl.form.title"
+msgid "Groups the user belongs to"
+msgstr "Grupos ós que pertence o usuario"
+
+#: admin~user.acl.form.remove.from.group
+msgctxt "admin~user.acl.form.remove.from.group"
+msgid "Remove him from this group"
+msgstr "Eliminalo deste grupo"
+
+#: admin~user.acl.form.add.to.group
+msgctxt "admin~user.acl.form.add.to.group"
+msgid "Add him to this group"
+msgstr "Engadilo a este grupo"
+
+#: admin~user.acl.form.add
+msgctxt "admin~user.acl.form.add"
+msgid "Add"
+msgstr "Engadir"

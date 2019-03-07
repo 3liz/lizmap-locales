@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-23 15:35++0200\n"
-"PO-Revision-Date: 2019-01-01 17:48+0000\n"
+"POT-Creation-Date: 2019-01-29 18:11++0100\n"
+"PO-Revision-Date: 2019-01-31 11:59+0000\n"
 "Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>\n"
 "Language-Team: Hungarian (Hungary) (http://www.transifex.com/3liz-1/lizmap-locales/language/hu_HU/)\n"
 "MIME-Version: 1.0\n"
@@ -14,48 +14,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu_HU\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: admin~user.form.comment.label
-msgctxt "admin~user.form.comment.label"
-msgid "Comments"
-msgstr "Megjegyzések"
-
-#: admin~user.email.admin.subject
-msgctxt "admin~user.email.admin.subject"
-msgid "Lizmap - Someone requested an account"
-msgstr "Lizmap - Hozzáférés-igénylés érkezett"
-
-#: admin~user.email.admin.body
-msgctxt "admin~user.email.admin.body"
-msgid ""
-"Someone has requested a Lizmap account to be able to access the maps, with "
-"the login %s and the e-mail %s."
-msgstr "Valaki hozzáférést igényelt, hogy elérje a térképeket. Felhasználónév: %s, e-mail: %s."
-
-#: admin~user.acl.no.group
-msgctxt "admin~user.acl.no.group"
-msgid "The user is not in any group"
-msgstr "A felhasználó nem tagja egy csoportnak sem."
-
-#: admin~user.acl.form.title
-msgctxt "admin~user.acl.form.title"
-msgid "Groups the user belongs to"
-msgstr "A felhasználó csoport-tagságai"
-
-#: admin~user.acl.form.remove.from.group
-msgctxt "admin~user.acl.form.remove.from.group"
-msgid "Remove him from this group"
-msgstr "Felhasználó eltávolítása a csoportból."
-
-#: admin~user.acl.form.add.to.group
-msgctxt "admin~user.acl.form.add.to.group"
-msgid "Add him to this group"
-msgstr "Felhasználó hozzáadása a csoporthoz."
-
-#: admin~user.acl.form.add
-msgctxt "admin~user.acl.form.add"
-msgid "Add"
-msgstr "Hozzáad"
 
 #: admin~jacl2.lizmap.admin.grp
 msgctxt "admin~jacl2.lizmap.admin.grp"
@@ -675,8 +633,8 @@ msgstr "Helyi könyvtár útvonala"
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
-msgid "Allow repository themes"
-msgstr "Gyűjtemény-témák engedélyezése"
+msgid "Allow themes/javascript codes for this repository"
+msgstr "Témák/javascript kodekek engedélyezése a gyűjteményhez."
 
 #: admin~admin.form.admin_section.submit.label
 msgctxt "admin~admin.form.admin_section.submit.label"
@@ -1055,3 +1013,45 @@ msgstr "Biztosan törölni szeretné a hibajegyzéket?"
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
 msgstr "A hibajegyzék sikeresen törölve."
+
+#: admin~user.form.comment.label
+msgctxt "admin~user.form.comment.label"
+msgid "Comments"
+msgstr "Megjegyzések"
+
+#: admin~user.email.admin.subject
+msgctxt "admin~user.email.admin.subject"
+msgid "Lizmap - Someone requested an account"
+msgstr "Lizmap - Hozzáférés-igénylés érkezett"
+
+#: admin~user.email.admin.body
+msgctxt "admin~user.email.admin.body"
+msgid ""
+"Someone has requested a Lizmap account to be able to access the maps, with "
+"the login %s and the e-mail %s."
+msgstr "Valaki hozzáférést igényelt, hogy elérje a térképeket. Felhasználónév: %s, e-mail: %s."
+
+#: admin~user.acl.no.group
+msgctxt "admin~user.acl.no.group"
+msgid "The user is not in any group"
+msgstr "A felhasználó nem tagja egy csoportnak sem."
+
+#: admin~user.acl.form.title
+msgctxt "admin~user.acl.form.title"
+msgid "Groups the user belongs to"
+msgstr "A felhasználó csoport-tagságai"
+
+#: admin~user.acl.form.remove.from.group
+msgctxt "admin~user.acl.form.remove.from.group"
+msgid "Remove him from this group"
+msgstr "Felhasználó eltávolítása a csoportból."
+
+#: admin~user.acl.form.add.to.group
+msgctxt "admin~user.acl.form.add.to.group"
+msgid "Add him to this group"
+msgstr "Felhasználó hozzáadása a csoporthoz."
+
+#: admin~user.acl.form.add
+msgctxt "admin~user.acl.form.add"
+msgid "Add"
+msgstr "Hozzáad"
