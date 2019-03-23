@@ -1,5 +1,6 @@
 # 
 # Translators:
+# Arturo Lorenzo <shroomeater@gmail.com>, 2019
 # Hernan Jesus Gonzalez Carmona <hjgonzalezc@gmail.com>, 2018
 # rldhont <rldhont@gmail.com>, 2016
 # Samuel Mesa <samuelmesa@gmail.com>, 2018
@@ -8,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 18:11++0100\n"
-"PO-Revision-Date: 2019-01-29 17:11+0000\n"
+"POT-Creation-Date: 2019-03-19 15:00++0100\n"
+"PO-Revision-Date: 2019-03-19 14:07+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/3liz-1/lizmap-locales/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -71,7 +72,7 @@ msgstr "Grupo por defecto"
 #: admin~jacl2.lizmap.repositories.view
 msgctxt "admin~jacl2.lizmap.repositories.view"
 msgid "View projects in the repository"
-msgstr ""
+msgstr "Ver proyectos en el repositorio"
 
 #: admin~jacl2.lizmap.tools.edition.use
 msgctxt "admin~jacl2.lizmap.tools.edition.use"
@@ -222,7 +223,7 @@ msgstr "Permitir a los visitantes solicitar una cuenta"
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of Ldap authentication"
-msgstr ""
+msgstr "Esta opción está desactiva debido al uso de autenticación Ldap"
 
 #: admin~admin.configuration.services.adminContactEmail.label
 msgctxt "admin~admin.configuration.services.adminContactEmail.label"
@@ -301,8 +302,13 @@ msgstr "≤ 2.14"
 
 #: admin~admin.form.admin_services.qgisServerVersion.218.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.218.label"
-msgid "≥ 2.18"
-msgstr "≥ 2.18"
+msgid "2.18"
+msgstr ""
+
+#: admin~admin.form.admin_services.qgisServerVersion.300.label
+msgctxt "admin~admin.form.admin_services.qgisServerVersion.300.label"
+msgid "≥ 3.0"
+msgstr ""
 
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
@@ -550,12 +556,12 @@ msgstr "Si está activado, los visitantes pueden completar un formulario para so
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
 msgid "E-mail where to send notifications"
-msgstr ""
+msgstr "E-mail donde enviar notificaciones"
 
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
 msgid "E-mail address to which notifications will be sent"
-msgstr ""
+msgstr "Dirección de e-mail donde se enviarán las notificaciones"
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"

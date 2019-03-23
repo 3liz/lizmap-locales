@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-17 11:50++0200\n"
-"PO-Revision-Date: 2018-10-11 07:51+0000\n"
-"Last-Translator: Petr Tsymbarovich <petr@tsymbarovich.ru>\n"
+"POT-Creation-Date: 2019-03-19 15:00++0100\n"
+"PO-Revision-Date: 2019-03-19 14:07+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/3liz-1/lizmap-locales/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,170 +15,350 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: jelix~formserr.tag.missing
-msgctxt "jelix~formserr.tag.missing"
-msgid "(800) %1$s is missing (file %2$s)"
-msgstr "(800) %1$s отсутствует (файл %2$s)"
+#: jelix~date_time.month.01.label
+msgctxt "jelix~date_time.month.01.label"
+msgid "January"
+msgstr "Январь"
 
-#: jelix~formserr.unknown.tag
-msgctxt "jelix~formserr.unknown.tag"
-msgid "(801) unknown tag %1$s  (file %2$s)"
-msgstr "(801) неизвестный тег %1$s  (файл %2$s)"
+#: jelix~date_time.month.01.shortlabel
+msgctxt "jelix~date_time.month.01.shortlabel"
+msgid "Jan"
+msgstr "янв."
 
-#: jelix~formserr.attribute.missing
-msgctxt "jelix~formserr.attribute.missing"
-msgid "(802) attribut %1$s is missing on %2$s (file %3$s)"
-msgstr "(802) отсутствует атрибут %1$s в %2$s (файл %3$s)"
+#: jelix~date_time.month.02.label
+msgctxt "jelix~date_time.month.02.label"
+msgid "February"
+msgstr "Февраль"
 
-#: jelix~formserr.attribute.not.allowed
-msgctxt "jelix~formserr.attribute.not.allowed"
-msgid "(803) attribut %1$s not allowed on %2$s (file %3$s)"
-msgstr "(803) недопустимый атрибут %1$s в %2$s (файл %3$s)"
+#: jelix~date_time.month.02.shortlabel
+msgctxt "jelix~date_time.month.02.shortlabel"
+msgid "Feb"
+msgstr "фев."
 
-#: jelix~formserr.datatype.unknown
-msgctxt "jelix~formserr.datatype.unknown"
-msgid "(804) unknown datatype %1$s  on %2$s (file %3$s)"
-msgstr "(804) неизвестный тип данных %1$s  в %2$s (файл %3$s)"
+#: jelix~date_time.month.03.label
+msgctxt "jelix~date_time.month.03.label"
+msgid "March"
+msgstr "Март"
 
-#: jelix~formserr.invalid.xml.file
-msgctxt "jelix~formserr.invalid.xml.file"
-msgid "(805) invalid xml syntax in jforms file (file %s)"
-msgstr "(805) неверный синтаксис xml в файле jforms (файл %s)"
+#: jelix~date_time.month.03.shortlabel
+msgctxt "jelix~date_time.month.03.shortlabel"
+msgid "Mar"
+msgstr "мар."
 
-#: jelix~formserr.selected.attribute.not.allowed
-msgctxt "jelix~formserr.selected.attribute.not.allowed"
-msgid ""
-"(806)\"selected\" attribute on <item> is not allowed when using defaultvalue"
-" attribute or <defaultvalues> (file %s)"
-msgstr "(806) атрибут \"selected\" в <item> недопустим при использовании атрибута \"defaultvalue\" или элемента <defaultvalues> (файл %s)"
+#: jelix~date_time.month.04.label
+msgctxt "jelix~date_time.month.04.label"
+msgid "April"
+msgstr "Апрель"
 
-#: jelix~formserr.defaultvalues.not.allowed
-msgctxt "jelix~formserr.defaultvalues.not.allowed"
-msgid ""
-"(807) <defaultvalues> is not allowed in a <listbox multiple=\"false\"> "
-"element (file %s)"
-msgstr "(807) <defaultvalues> недопустим в элементе <listbox multiple=\"false\"> (файл %s)"
+#: jelix~date_time.month.04.shortlabel
+msgctxt "jelix~date_time.month.04.shortlabel"
+msgid "Apr"
+msgstr "апр."
 
-#: jelix~formserr.multiple.selected.not.allowed
-msgctxt "jelix~formserr.multiple.selected.not.allowed"
-msgid ""
-"(808)Only one selected item is allowed in <listbox multiple=\"false\">, "
-"<radiobuttons> and <menulist> elements (file %s)"
-msgstr "(808) Только один выбор возможен в элементах <listbox multiple=\"false\">, <radiobuttons> и <menulist> (файл %s)"
+#: jelix~date_time.month.05.label
+msgctxt "jelix~date_time.month.05.label"
+msgid "May"
+msgstr "Май"
 
-#: jelix~formserr.namespace.wrong
-msgctxt "jelix~formserr.namespace.wrong"
-msgid "(809)The document \"%s\" is not a form or the namespace is invalid"
-msgstr "(809) Документ \"%s\" не является формой или пространство имен недоступно"
+#: jelix~date_time.month.05.shortlabel
+msgctxt "jelix~date_time.month.05.shortlabel"
+msgid "May"
+msgstr "май"
 
-#: jelix~formserr.bad.formid.for.dao
-msgctxt "jelix~formserr.bad.formid.for.dao"
-msgid ""
-"(810)Impossible to get the dao  record %s corresponding to the formid %s of "
-"%s form"
-msgstr ""
+#: jelix~date_time.month.06.label
+msgctxt "jelix~date_time.month.06.label"
+msgid "June"
+msgstr "Июнь"
 
-#: jelix~formserr.control.not.container
-msgctxt "jelix~formserr.control.not.container"
-msgid ""
-"(811) Impossible to use the control \"%s\" with a dao because it isn't a "
-"control with a datasource (form=%s)"
-msgstr ""
+#: jelix~date_time.month.06.shortlabel
+msgctxt "jelix~date_time.month.06.shortlabel"
+msgid "Jun"
+msgstr "июн."
 
-#: jelix~formserr.formid.undefined.for.dao
-msgctxt "jelix~formserr.formid.undefined.for.dao"
-msgid ""
-"(812) Impossible to use the control \"%s\" with a dao because the form %s "
-"has not an id"
-msgstr ""
+#: jelix~date_time.month.07.label
+msgctxt "jelix~date_time.month.07.label"
+msgid "July"
+msgstr "Июль"
 
-#: jelix~formserr.value.not.array
-msgctxt "jelix~formserr.value.not.array"
-msgid ""
-"(813) Impossible de save datas of control \"%s\" (form=%s) because it is not"
-" an array"
-msgstr ""
+#: jelix~date_time.month.07.shortlabel
+msgctxt "jelix~date_time.month.07.shortlabel"
+msgid "Jul"
+msgstr "июл"
 
-#: jelix~formserr.invalid.form.builder
-msgctxt "jelix~formserr.invalid.form.builder"
-msgid "(814) The type \"%s\" of form constructor is invalid (form=%s)"
-msgstr "(814) Ошибка типа \"%s\" в конструкторе формы (форма=%s)"
+#: jelix~date_time.month.08.label
+msgctxt "jelix~date_time.month.08.label"
+msgid "August"
+msgstr "Август"
 
-#: jelix~formserr.invalid.upload.control.name
-msgctxt "jelix~formserr.invalid.upload.control.name"
-msgid ""
-"(815) The given control name \"%s\" is invalid or the corresponding control "
-"is not an upload (form=%s)"
-msgstr ""
+#: jelix~date_time.month.08.shortlabel
+msgctxt "jelix~date_time.month.08.shortlabel"
+msgid "Aug"
+msgstr "авг."
 
-#: jelix~formserr.content.missing
-msgctxt "jelix~formserr.content.missing"
-msgid "(816) content of %1$s tag is missing (file %2$s)"
-msgstr "(816) отсутствует содержимое тега %1$s (файл %2$s)"
+#: jelix~date_time.month.09.label
+msgctxt "jelix~date_time.month.09.label"
+msgid "September"
+msgstr "Сентябрь"
 
-#: jelix~formserr.notunique.tag
-msgctxt "jelix~formserr.notunique.tag"
-msgid "(817) tag %1$s must be unique (file %2$s)"
-msgstr "(817) тег %1$s должен быть уникальным (файл %2$s)"
+#: jelix~date_time.month.09.shortlabel
+msgctxt "jelix~date_time.month.09.shortlabel"
+msgid "Sep"
+msgstr "сен."
 
-#: jelix~formserr.control.not.allowed
-msgctxt "jelix~formserr.control.not.allowed"
-msgid "(818) The tag %1$s is not allowed in %2$s (file %3$s)"
-msgstr "(818) тег %1$s не допустим в %2$s (файл %3$s)"
+#: jelix~date_time.month.10.label
+msgctxt "jelix~date_time.month.10.label"
+msgid "October"
+msgstr "Октябрь"
 
-#: jelix~formserr.no.child.control
-msgctxt "jelix~formserr.no.child.control"
-msgid "(819) The tag %1$s must contain some controls (file %2$s)"
-msgstr ""
+#: jelix~date_time.month.10.shortlabel
+msgctxt "jelix~date_time.month.10.shortlabel"
+msgid "Oct"
+msgstr "окт."
 
-#: jelix~formserr.bad.root.tag
-msgctxt "jelix~formserr.bad.root.tag"
-msgid ""
-"(820) the root element %1$s is incorrect, it should have the name \"form\" "
-"(fichier %2$s)"
-msgstr ""
+#: jelix~date_time.month.11.label
+msgctxt "jelix~date_time.month.11.label"
+msgid "November"
+msgstr "Ноябрь"
 
-#: jelix~formserr.unknown.control
-msgctxt "jelix~formserr.unknown.control"
-msgid "(830) The control \"%1$s\" doesn't exist in the form \"%2$s\" (template %3$s)"
-msgstr ""
+#: jelix~date_time.month.11.shortlabel
+msgctxt "jelix~date_time.month.11.shortlabel"
+msgid "Nov"
+msgstr "ноя."
 
-#: jelix~formserr.unknown.control2
-msgctxt "jelix~formserr.unknown.control2"
-msgid "(831) The control \"%1$s\" doesn't exist in the form \"%2$s\""
-msgstr ""
+#: jelix~date_time.month.12.label
+msgctxt "jelix~date_time.month.12.label"
+msgid "December"
+msgstr "Декабрь"
 
-#: jelix~formserr.invalid.token
-msgctxt "jelix~formserr.invalid.token"
-msgid ""
-"(835) The token of the form is not valid, you should fill the form from the "
-"original web page"
-msgstr ""
+#: jelix~date_time.month.12.shortlabel
+msgctxt "jelix~date_time.month.12.shortlabel"
+msgid "Dec"
+msgstr "дек."
 
-#: jelix~formserr.js.err.invalid
-msgctxt "jelix~formserr.js.err.invalid"
-msgid "\"%s\" field is invalid"
-msgstr "Поле \"%s\" заполнено неверно"
+#: jelix~date_time.day.0.label
+msgctxt "jelix~date_time.day.0.label"
+msgid "Sunday"
+msgstr "Воскресенье"
 
-#: jelix~formserr.js.err.required
-msgctxt "jelix~formserr.js.err.required"
-msgid "\"%s\" field is required"
-msgstr "Поле \"%s\" обязательно"
+#: jelix~date_time.day.0.shortlabel
+msgctxt "jelix~date_time.day.0.shortlabel"
+msgid "Sun"
+msgstr "Вск"
 
-#: jelix~formserr.js.err.invalid.file.size
-msgctxt "jelix~formserr.js.err.invalid.file.size"
-msgid "The file given for \"%s\" has a wrong size"
-msgstr "Файл, указанный в \"%s\", имеет неверный размер"
+#: jelix~date_time.day.1.label
+msgctxt "jelix~date_time.day.1.label"
+msgid "Monday"
+msgstr "Понедельник"
 
-#: jelix~formserr.js.err.invalid.file.type
-msgctxt "jelix~formserr.js.err.invalid.file.type"
-msgid "The file given for \"%s\" has a wrong type"
-msgstr "Файл, указанный в \"%s\", имеет неверный тип"
+#: jelix~date_time.day.1.shortlabel
+msgctxt "jelix~date_time.day.1.shortlabel"
+msgid "Mon"
+msgstr "Пнд"
 
-#: jelix~formserr.js.err.file.upload
-msgctxt "jelix~formserr.js.err.file.upload"
-msgid "Technical error during the upload of \"%s\""
-msgstr "Техническая ошибка при загрузке \"%s\""
+#: jelix~date_time.day.2.label
+msgctxt "jelix~date_time.day.2.label"
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: jelix~date_time.day.2.shortlabel
+msgctxt "jelix~date_time.day.2.shortlabel"
+msgid "Tue"
+msgstr "Втр"
+
+#: jelix~date_time.day.3.label
+msgctxt "jelix~date_time.day.3.label"
+msgid "Wednesday"
+msgstr "Среда"
+
+#: jelix~date_time.day.3.shortlabel
+msgctxt "jelix~date_time.day.3.shortlabel"
+msgid "Wed"
+msgstr "Срд"
+
+#: jelix~date_time.day.4.label
+msgctxt "jelix~date_time.day.4.label"
+msgid "Thursday"
+msgstr "Четверг"
+
+#: jelix~date_time.day.4.shortlabel
+msgctxt "jelix~date_time.day.4.shortlabel"
+msgid "Thu"
+msgstr "Чтв"
+
+#: jelix~date_time.day.5.label
+msgctxt "jelix~date_time.day.5.label"
+msgid "Friday"
+msgstr "Пятница"
+
+#: jelix~date_time.day.5.shortlabel
+msgctxt "jelix~date_time.day.5.shortlabel"
+msgid "Fri"
+msgstr "Птн"
+
+#: jelix~date_time.day.6.label
+msgctxt "jelix~date_time.day.6.label"
+msgid "Saturday"
+msgstr "Суббота"
+
+#: jelix~date_time.day.6.shortlabel
+msgctxt "jelix~date_time.day.6.shortlabel"
+msgid "Sat"
+msgstr "Сбт"
+
+#: jelix~date_time.day.1.ordinal
+msgctxt "jelix~date_time.day.1.ordinal"
+msgid "st"
+msgstr "​"
+
+#: jelix~date_time.day.2.ordinal
+msgctxt "jelix~date_time.day.2.ordinal"
+msgid "nd"
+msgstr "​"
+
+#: jelix~date_time.day.3.ordinal
+msgctxt "jelix~date_time.day.3.ordinal"
+msgid "rd"
+msgstr "​"
+
+#: jelix~date_time.day.4.ordinal
+msgctxt "jelix~date_time.day.4.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.5.ordinal
+msgctxt "jelix~date_time.day.5.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.6.ordinal
+msgctxt "jelix~date_time.day.6.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.7.ordinal
+msgctxt "jelix~date_time.day.7.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.8.ordinal
+msgctxt "jelix~date_time.day.8.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.9.ordinal
+msgctxt "jelix~date_time.day.9.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.10.ordinal
+msgctxt "jelix~date_time.day.10.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.11.ordinal
+msgctxt "jelix~date_time.day.11.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.12.ordinal
+msgctxt "jelix~date_time.day.12.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.13.ordinal
+msgctxt "jelix~date_time.day.13.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.14.ordinal
+msgctxt "jelix~date_time.day.14.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.15.ordinal
+msgctxt "jelix~date_time.day.15.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.16.ordinal
+msgctxt "jelix~date_time.day.16.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.17.ordinal
+msgctxt "jelix~date_time.day.17.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.18.ordinal
+msgctxt "jelix~date_time.day.18.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.19.ordinal
+msgctxt "jelix~date_time.day.19.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.20.ordinal
+msgctxt "jelix~date_time.day.20.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.21.ordinal
+msgctxt "jelix~date_time.day.21.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.22.ordinal
+msgctxt "jelix~date_time.day.22.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.23.ordinal
+msgctxt "jelix~date_time.day.23.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.24.ordinal
+msgctxt "jelix~date_time.day.24.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.25.ordinal
+msgctxt "jelix~date_time.day.25.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.26.ordinal
+msgctxt "jelix~date_time.day.26.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.27.ordinal
+msgctxt "jelix~date_time.day.27.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.28.ordinal
+msgctxt "jelix~date_time.day.28.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.29.ordinal
+msgctxt "jelix~date_time.day.29.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.30.ordinal
+msgctxt "jelix~date_time.day.30.ordinal"
+msgid "th"
+msgstr "​"
+
+#: jelix~date_time.day.31.ordinal
+msgctxt "jelix~date_time.day.31.ordinal"
+msgid "th"
+msgstr "​"
 
 #: jelix~jforms.date.year.label
 msgctxt "jelix~jforms.date.year.label"
@@ -210,113 +390,197 @@ msgctxt "jelix~jforms.time.seconds.label"
 msgid "Seconds"
 msgstr "Секнды"
 
-#: jelix~kvstore.error.connection
-msgctxt "jelix~kvstore.error.connection"
-msgid ""
-"(931) jKVDb: impossible to connect to  %s (bad host, login or password?)"
-msgstr "(931) jKVDb: невозможно подключиться к %s (проверьте хост, логин и пароль)"
-
-#: jelix~kvstore.error.feature.unsupported
-msgctxt "jelix~kvstore.error.feature.unsupported"
-msgid "(932) jKVDb: the driver %s doesn't support the feature \"%s\""
-msgstr "(932) jKVDb: драйвер %s не поддерживает \"%s\""
-
-#: jelix~kvstore.error.profile.type.unknown
-msgctxt "jelix~kvstore.error.profile.type.unknown"
-msgid "(933) The connection profile type \"%s\" for jKVDb is unknown"
-msgstr "(933) jKVDb: неизвестный тип профиля соединения \"%s\""
-
-#: jelix~kvstore.error.driver.notfound
-msgctxt "jelix~kvstore.error.driver.notfound"
-msgid "(935) The driver \"%s\" for jKVDb is unknown"
-msgstr "(935) jKVDb: неизвестный драйвер \"%s\""
-
-#: jelix~kvstore.error.driver.notset
-msgctxt "jelix~kvstore.error.driver.notset"
-msgid "(936) No jKVDb driver specified for the profile \"%s\""
-msgstr "(936) jKVDb: для профиля \"%s\" не указан драйвер"
-
-#: jelix~kvstore.error.driver.nohost
-msgctxt "jelix~kvstore.error.driver.nohost"
-msgid "(937) No 'host' parameter for the driver jKVDb  \"%s\""
-msgstr "(937) jKVDb: для драйвера \"%s\" не указан хост"
-
-#: jelix~kvstore.error.driver.noport
-msgctxt "jelix~kvstore.error.driver.noport"
-msgid "(938) No 'port' parameter for the driver jKVDb  \"%s\""
-msgstr "(938) jKVDb: для драйвера \"%s\" не указан порт"
-
-#: jelix~kvstore.error.serialize.data
-msgctxt "jelix~kvstore.error.serialize.data"
-msgid "(939) jKVDb '%s': error during data serialisation ( %s )"
-msgstr "(939) jKVDb '%s': ошибка при сериализации данных ( %s )"
-
-#: jelix~kvstore.error.unserialize.data
-msgctxt "jelix~kvstore.error.unserialize.data"
-msgid "(940) jKVDb '%s': error during data unserialisation ( %s )"
-msgstr "(940) jKVDb '%s': ошибка при десериализации данных ( %s )"
-
-#: jelix~kvstore.error.memcache.server.unavailabled
-msgctxt "jelix~kvstore.error.memcache.server.unavailabled"
-msgid "(941) jKVDb '%s': no servers availabled for Memcache"
-msgstr "(941) jKVDb '%s': для Memcache нет доступных серверов"
-
-#: jelix~kvstore.error.no.host
-msgctxt "jelix~kvstore.error.no.host"
-msgid "(942) jKVDb '%s': no host in the profile"
-msgstr "(942) jKVDb '%s': для профиля не указан хост "
-
-#: jelix~kvstore.error.no.port
-msgctxt "jelix~kvstore.error.no.port"
-msgid "(943) jKVDb '%s': no port in the profile"
-msgstr "(943) jKVDb '%s': для профиля не указан порт"
-
-#: jelix~dao.check.required
-msgctxt "jelix~dao.check.required"
-msgid "property %s is missing"
-msgstr "отсутствует свойство %s"
-
-#: jelix~dao.check.badtype
-msgctxt "jelix~dao.check.badtype"
-msgid "bad type on the property %s"
-msgstr "неверный тип свойства %s"
-
-#: jelix~dao.check.badformat
-msgctxt "jelix~dao.check.badformat"
-msgid "bad format on the property %s"
-msgstr "неверный формат свойства %s"
-
-#: jelix~dao.check.maxlength.overflow
-msgctxt "jelix~dao.check.maxlength.overflow"
-msgid "property %s value is too high"
-msgstr "значение свойства %s слишком высокое"
-
-#: jelix~dao.check.minlength.overflow
-msgctxt "jelix~dao.check.minlength.overflow"
-msgid "property %s value is too low"
-msgstr "значение свойства %s слишком низкое"
-
-#: jelix~dao.error.keys.missing
-msgctxt "jelix~dao.error.keys.missing"
-msgid "(501) Identifier is missing"
-msgstr "(501) Не указан идентификатор"
-
-#: jelix~dao.error.update.impossible
-msgctxt "jelix~dao.error.update.impossible"
-msgid ""
-"(502)Update is impossible with this dao because table contains only primary "
-"keys (DAO: %1$s, file: %2$s)"
+#: jelix~captcha.number
+msgctxt "jelix~captcha.number"
+msgid "14"
 msgstr ""
 
-#: jelix~dao.error.bad.operator
-msgctxt "jelix~dao.error.bad.operator"
-msgid "(503)Invalid given operator \"%s\""
-msgstr "(503) Указан неверный оператор \"%s\""
+#: jelix~captcha.question.1
+msgctxt "jelix~captcha.question.1"
+msgid "How much 2+3?"
+msgstr ""
 
-#: jelix~dao.error.property.unknown
-msgctxt "jelix~dao.error.property.unknown"
-msgid "(504) unknown property (%s) in a jDaoConditions object"
-msgstr "(504) Неизвестное свойство (%s) в объекте jDaoConditions"
+#: jelix~captcha.response.1
+msgctxt "jelix~captcha.response.1"
+msgid "5"
+msgstr ""
+
+#: jelix~captcha.question.2
+msgctxt "jelix~captcha.question.2"
+msgid "Write the number 10 with lowercase letters"
+msgstr ""
+
+#: jelix~captcha.response.2
+msgctxt "jelix~captcha.response.2"
+msgid "ten"
+msgstr ""
+
+#: jelix~captcha.question.3
+msgctxt "jelix~captcha.question.3"
+msgid "Write the number 15 with lowercase letters"
+msgstr ""
+
+#: jelix~captcha.response.3
+msgctxt "jelix~captcha.response.3"
+msgid "fifteen"
+msgstr ""
+
+#: jelix~captcha.question.4
+msgctxt "jelix~captcha.question.4"
+msgid "Write the number 20 with lowercase letters"
+msgstr ""
+
+#: jelix~captcha.response.4
+msgctxt "jelix~captcha.response.4"
+msgid "twenty"
+msgstr ""
+
+#: jelix~captcha.question.5
+msgctxt "jelix~captcha.question.5"
+msgid "Write the number 30 with lowercase letters"
+msgstr ""
+
+#: jelix~captcha.response.5
+msgctxt "jelix~captcha.response.5"
+msgid "thirty"
+msgstr ""
+
+#: jelix~captcha.question.6
+msgctxt "jelix~captcha.question.6"
+msgid "What is the color of the Napoléon's white horse?"
+msgstr ""
+
+#: jelix~captcha.response.6
+msgctxt "jelix~captcha.response.6"
+msgid "white"
+msgstr ""
+
+#: jelix~captcha.question.7
+msgctxt "jelix~captcha.question.7"
+msgid "What is the capital of United States?"
+msgstr ""
+
+#: jelix~captcha.response.7
+msgctxt "jelix~captcha.response.7"
+msgid "washington"
+msgstr ""
+
+#: jelix~captcha.question.8
+msgctxt "jelix~captcha.question.8"
+msgid "How much do 5 plus 3"
+msgstr ""
+
+#: jelix~captcha.response.8
+msgctxt "jelix~captcha.response.8"
+msgid "8"
+msgstr ""
+
+#: jelix~captcha.question.9
+msgctxt "jelix~captcha.question.9"
+msgid "How much do  2 times 3"
+msgstr ""
+
+#: jelix~captcha.response.9
+msgctxt "jelix~captcha.response.9"
+msgid "6"
+msgstr ""
+
+#: jelix~captcha.question.10
+msgctxt "jelix~captcha.question.10"
+msgid "How much do 5 minus 2"
+msgstr ""
+
+#: jelix~captcha.response.10
+msgctxt "jelix~captcha.response.10"
+msgid "3"
+msgstr ""
+
+#: jelix~captcha.question.11
+msgctxt "jelix~captcha.question.11"
+msgid "How much do 8 divided by 4"
+msgstr ""
+
+#: jelix~captcha.response.11
+msgctxt "jelix~captcha.response.11"
+msgid "2"
+msgstr ""
+
+#: jelix~captcha.question.12
+msgctxt "jelix~captcha.question.12"
+msgid "What is the firstname of Jules Verne?"
+msgstr ""
+
+#: jelix~captcha.response.12
+msgctxt "jelix~captcha.response.12"
+msgid "Jules"
+msgstr ""
+
+#: jelix~captcha.question.13
+msgctxt "jelix~captcha.question.13"
+msgid "What is the year when the first world war 14-18 has began?"
+msgstr ""
+
+#: jelix~captcha.response.13
+msgctxt "jelix~captcha.response.13"
+msgid "1914"
+msgstr ""
+
+#: jelix~captcha.question.14
+msgctxt "jelix~captcha.question.14"
+msgid "Write the number fifty three"
+msgstr ""
+
+#: jelix~captcha.response.14
+msgctxt "jelix~captcha.response.14"
+msgid "53"
+msgstr ""
+
+#: jelix~db.error.database.unknown
+msgctxt "jelix~db.error.database.unknown"
+msgid "(401)jDb: unknown database %s"
+msgstr "(401) jDb: неизвестная база данных %s"
+
+#: jelix~db.error.connection
+msgctxt "jelix~db.error.connection"
+msgid "(402)error during the connection %s"
+msgstr "(402) ошибка соединения %s"
+
+#: jelix~db.error.query.bad
+msgctxt "jelix~db.error.query.bad"
+msgid "(403)invalid query (%s)"
+msgstr "(403) неверный запрос (%s)"
+
+#: jelix~db.error.feature.unsupported
+msgctxt "jelix~db.error.feature.unsupported"
+msgid "(404)JDb: the %s driver doesn't support this feature \"%s\""
+msgstr "(404) jDb: драйвер %s не поддерживает функцию \"%s\""
+
+#: jelix~db.error.nofunction
+msgctxt "jelix~db.error.nofunction"
+msgid "(405)jDb:  %s extension is not installed in PHP"
+msgstr "(405) jDb: расширение PHP %s не установлено"
+
+#: jelix~db.error.driver.notfound
+msgctxt "jelix~db.error.driver.notfound"
+msgid "(408)jDb driver \"%s\" is not found"
+msgstr "(408) jDb: драйвер \"%s\" не найден"
+
+#: jelix~db.error.connection.closed
+msgctxt "jelix~db.error.connection.closed"
+msgid ""
+"(409) Connection to database is not valid anymore: timeout, server down... "
+"(profile %s)"
+msgstr "(409) Соединение с базой данных больше недействительно: таймаут, отключение сервера... (профиль %s)"
+
+#: jelix~db.error.no.database.name
+msgctxt "jelix~db.error.no.database.name"
+msgid "(412) No database defined in the profile \"%s\"?"
+msgstr "(412) База данных не определена в профиле \"%s\"?"
+
+#: jelix~db.error.invalid.param
+msgctxt "jelix~db.error.invalid.param"
+msgid "(413) An invalid argument was supplied to the query"
+msgstr "(413) В запросе присутствует недопустимый аргумент"
 
 #: jelix~ui.title.confirm
 msgctxt "jelix~ui.title.confirm"
@@ -813,10 +1077,353 @@ msgctxt "jelix~ui.messages.error"
 msgid "Error"
 msgstr "Ошибка"
 
+#: jelix~common.none
+msgctxt "jelix~common.none"
+msgid "none"
+msgstr ""
+
+#: jelix~common.unknown
+msgctxt "jelix~common.unknown"
+msgid "unknown"
+msgstr ""
+
+#: jelix~common.version
+msgctxt "jelix~common.version"
+msgid "version"
+msgstr ""
+
+#: jelix~crud.title.list
+msgctxt "jelix~crud.title.list"
+msgid "List"
+msgstr ""
+
+#: jelix~crud.title.update
+msgctxt "jelix~crud.title.update"
+msgid "Edit of a record"
+msgstr ""
+
+#: jelix~crud.title.create
+msgctxt "jelix~crud.title.create"
+msgid "Create a new record"
+msgstr ""
+
+#: jelix~crud.title.view
+msgctxt "jelix~crud.title.view"
+msgid "Record details"
+msgstr ""
+
+#: jelix~crud.title.pages
+msgctxt "jelix~crud.title.pages"
+msgid "Pages"
+msgstr ""
+
+#: jelix~crud.link.return.to.list
+msgctxt "jelix~crud.link.return.to.list"
+msgid "Return to the list"
+msgstr "Вернуться к списку"
+
+#: jelix~crud.link.view.record
+msgctxt "jelix~crud.link.view.record"
+msgid "View"
+msgstr "Просмотр"
+
+#: jelix~crud.link.create.record
+msgctxt "jelix~crud.link.create.record"
+msgid "Create a new record"
+msgstr ""
+
+#: jelix~crud.link.edit.record
+msgctxt "jelix~crud.link.edit.record"
+msgid "Edit"
+msgstr "Изменить"
+
+#: jelix~crud.link.delete.record
+msgctxt "jelix~crud.link.delete.record"
+msgid "Delete"
+msgstr "Удалить"
+
+#: jelix~crud.confirm.deletion
+msgctxt "jelix~crud.confirm.deletion"
+msgid "Are you sure to want to delete this record?"
+msgstr ""
+
+#: jelix~formserr.tag.missing
+msgctxt "jelix~formserr.tag.missing"
+msgid "(800) %1$s is missing (file %2$s)"
+msgstr "(800) %1$s отсутствует (файл %2$s)"
+
+#: jelix~formserr.unknown.tag
+msgctxt "jelix~formserr.unknown.tag"
+msgid "(801) unknown tag %1$s  (file %2$s)"
+msgstr "(801) неизвестный тег %1$s  (файл %2$s)"
+
+#: jelix~formserr.attribute.missing
+msgctxt "jelix~formserr.attribute.missing"
+msgid "(802) attribut %1$s is missing on %2$s (file %3$s)"
+msgstr "(802) отсутствует атрибут %1$s в %2$s (файл %3$s)"
+
+#: jelix~formserr.attribute.not.allowed
+msgctxt "jelix~formserr.attribute.not.allowed"
+msgid "(803) attribut %1$s not allowed on %2$s (file %3$s)"
+msgstr "(803) недопустимый атрибут %1$s в %2$s (файл %3$s)"
+
+#: jelix~formserr.datatype.unknown
+msgctxt "jelix~formserr.datatype.unknown"
+msgid "(804) unknown datatype %1$s  on %2$s (file %3$s)"
+msgstr "(804) неизвестный тип данных %1$s  в %2$s (файл %3$s)"
+
+#: jelix~formserr.invalid.xml.file
+msgctxt "jelix~formserr.invalid.xml.file"
+msgid "(805) invalid xml syntax in jforms file (file %s)"
+msgstr "(805) неверный синтаксис xml в файле jforms (файл %s)"
+
+#: jelix~formserr.selected.attribute.not.allowed
+msgctxt "jelix~formserr.selected.attribute.not.allowed"
+msgid ""
+"(806)\"selected\" attribute on <item> is not allowed when using defaultvalue"
+" attribute or <defaultvalues> (file %s)"
+msgstr "(806) атрибут \"selected\" в <item> недопустим при использовании атрибута \"defaultvalue\" или элемента <defaultvalues> (файл %s)"
+
+#: jelix~formserr.defaultvalues.not.allowed
+msgctxt "jelix~formserr.defaultvalues.not.allowed"
+msgid ""
+"(807) <defaultvalues> is not allowed in a <listbox multiple=\"false\"> "
+"element (file %s)"
+msgstr "(807) <defaultvalues> недопустим в элементе <listbox multiple=\"false\"> (файл %s)"
+
+#: jelix~formserr.multiple.selected.not.allowed
+msgctxt "jelix~formserr.multiple.selected.not.allowed"
+msgid ""
+"(808)Only one selected item is allowed in <listbox multiple=\"false\">, "
+"<radiobuttons> and <menulist> elements (file %s)"
+msgstr "(808) Только один выбор возможен в элементах <listbox multiple=\"false\">, <radiobuttons> и <menulist> (файл %s)"
+
+#: jelix~formserr.namespace.wrong
+msgctxt "jelix~formserr.namespace.wrong"
+msgid "(809)The document \"%s\" is not a form or the namespace is invalid"
+msgstr "(809) Документ \"%s\" не является формой или пространство имен недоступно"
+
+#: jelix~formserr.bad.formid.for.dao
+msgctxt "jelix~formserr.bad.formid.for.dao"
+msgid ""
+"(810)Impossible to get the dao  record %s corresponding to the formid %s of "
+"%s form"
+msgstr ""
+
+#: jelix~formserr.control.not.container
+msgctxt "jelix~formserr.control.not.container"
+msgid ""
+"(811) Impossible to use the control \"%s\" with a dao because it isn't a "
+"control with a datasource (form=%s)"
+msgstr ""
+
+#: jelix~formserr.formid.undefined.for.dao
+msgctxt "jelix~formserr.formid.undefined.for.dao"
+msgid ""
+"(812) Impossible to use the control \"%s\" with a dao because the form %s "
+"has not an id"
+msgstr ""
+
+#: jelix~formserr.value.not.array
+msgctxt "jelix~formserr.value.not.array"
+msgid ""
+"(813) Impossible de save datas of control \"%s\" (form=%s) because it is not"
+" an array"
+msgstr ""
+
+#: jelix~formserr.invalid.form.builder
+msgctxt "jelix~formserr.invalid.form.builder"
+msgid "(814) The type \"%s\" of form constructor is invalid (form=%s)"
+msgstr "(814) Ошибка типа \"%s\" в конструкторе формы (форма=%s)"
+
+#: jelix~formserr.invalid.upload.control.name
+msgctxt "jelix~formserr.invalid.upload.control.name"
+msgid ""
+"(815) The given control name \"%s\" is invalid or the corresponding control "
+"is not an upload (form=%s)"
+msgstr ""
+
+#: jelix~formserr.content.missing
+msgctxt "jelix~formserr.content.missing"
+msgid "(816) content of %1$s tag is missing (file %2$s)"
+msgstr "(816) отсутствует содержимое тега %1$s (файл %2$s)"
+
+#: jelix~formserr.notunique.tag
+msgctxt "jelix~formserr.notunique.tag"
+msgid "(817) tag %1$s must be unique (file %2$s)"
+msgstr "(817) тег %1$s должен быть уникальным (файл %2$s)"
+
+#: jelix~formserr.control.not.allowed
+msgctxt "jelix~formserr.control.not.allowed"
+msgid "(818) The tag %1$s is not allowed in %2$s (file %3$s)"
+msgstr "(818) тег %1$s не допустим в %2$s (файл %3$s)"
+
+#: jelix~formserr.no.child.control
+msgctxt "jelix~formserr.no.child.control"
+msgid "(819) The tag %1$s must contain some controls (file %2$s)"
+msgstr ""
+
+#: jelix~formserr.bad.root.tag
+msgctxt "jelix~formserr.bad.root.tag"
+msgid ""
+"(820) the root element %1$s is incorrect, it should have the name \"form\" "
+"(fichier %2$s)"
+msgstr ""
+
+#: jelix~formserr.unknown.control
+msgctxt "jelix~formserr.unknown.control"
+msgid "(830) The control \"%1$s\" doesn't exist in the form \"%2$s\" (template %3$s)"
+msgstr ""
+
+#: jelix~formserr.unknown.control2
+msgctxt "jelix~formserr.unknown.control2"
+msgid "(831) The control \"%1$s\" doesn't exist in the form \"%2$s\""
+msgstr ""
+
+#: jelix~formserr.invalid.token
+msgctxt "jelix~formserr.invalid.token"
+msgid ""
+"(835) The token of the form is not valid, you should fill the form from the "
+"original web page"
+msgstr ""
+
+#: jelix~formserr.js.err.invalid
+msgctxt "jelix~formserr.js.err.invalid"
+msgid "\"%s\" field is invalid"
+msgstr "Поле \"%s\" заполнено неверно"
+
+#: jelix~formserr.js.err.required
+msgctxt "jelix~formserr.js.err.required"
+msgid "\"%s\" field is required"
+msgstr "Поле \"%s\" обязательно"
+
+#: jelix~formserr.js.err.invalid.file.size
+msgctxt "jelix~formserr.js.err.invalid.file.size"
+msgid "The file given for \"%s\" has a wrong size"
+msgstr "Файл, указанный в \"%s\", имеет неверный размер"
+
+#: jelix~formserr.js.err.invalid.file.type
+msgctxt "jelix~formserr.js.err.invalid.file.type"
+msgid "The file given for \"%s\" has a wrong type"
+msgstr "Файл, указанный в \"%s\", имеет неверный тип"
+
+#: jelix~formserr.js.err.file.upload
+msgctxt "jelix~formserr.js.err.file.upload"
+msgid "Technical error during the upload of \"%s\""
+msgstr "Техническая ошибка при загрузке \"%s\""
+
+#: jelix~dao.check.required
+msgctxt "jelix~dao.check.required"
+msgid "property %s is missing"
+msgstr "отсутствует свойство %s"
+
+#: jelix~dao.check.badtype
+msgctxt "jelix~dao.check.badtype"
+msgid "bad type on the property %s"
+msgstr "неверный тип свойства %s"
+
+#: jelix~dao.check.badformat
+msgctxt "jelix~dao.check.badformat"
+msgid "bad format on the property %s"
+msgstr "неверный формат свойства %s"
+
+#: jelix~dao.check.maxlength.overflow
+msgctxt "jelix~dao.check.maxlength.overflow"
+msgid "property %s value is too high"
+msgstr "значение свойства %s слишком высокое"
+
+#: jelix~dao.check.minlength.overflow
+msgctxt "jelix~dao.check.minlength.overflow"
+msgid "property %s value is too low"
+msgstr "значение свойства %s слишком низкое"
+
+#: jelix~dao.error.keys.missing
+msgctxt "jelix~dao.error.keys.missing"
+msgid "(501) Identifier is missing"
+msgstr "(501) Не указан идентификатор"
+
+#: jelix~dao.error.update.impossible
+msgctxt "jelix~dao.error.update.impossible"
+msgid ""
+"(502)Update is impossible with this dao because table contains only primary "
+"keys (DAO: %1$s, file: %2$s)"
+msgstr ""
+
+#: jelix~dao.error.bad.operator
+msgctxt "jelix~dao.error.bad.operator"
+msgid "(503)Invalid given operator \"%s\""
+msgstr "(503) Указан неверный оператор \"%s\""
+
+#: jelix~dao.error.property.unknown
+msgctxt "jelix~dao.error.property.unknown"
+msgid "(504) unknown property (%s) in a jDaoConditions object"
+msgstr "(504) Неизвестное свойство (%s) в объекте jDaoConditions"
+
+#: jelix~kvstore.error.connection
+msgctxt "jelix~kvstore.error.connection"
+msgid ""
+"(931) jKVDb: impossible to connect to  %s (bad host, login or password?)"
+msgstr "(931) jKVDb: невозможно подключиться к %s (проверьте хост, логин и пароль)"
+
+#: jelix~kvstore.error.feature.unsupported
+msgctxt "jelix~kvstore.error.feature.unsupported"
+msgid "(932) jKVDb: the driver %s doesn't support the feature \"%s\""
+msgstr "(932) jKVDb: драйвер %s не поддерживает \"%s\""
+
+#: jelix~kvstore.error.profile.type.unknown
+msgctxt "jelix~kvstore.error.profile.type.unknown"
+msgid "(933) The connection profile type \"%s\" for jKVDb is unknown"
+msgstr "(933) jKVDb: неизвестный тип профиля соединения \"%s\""
+
+#: jelix~kvstore.error.driver.notfound
+msgctxt "jelix~kvstore.error.driver.notfound"
+msgid "(935) The driver \"%s\" for jKVDb is unknown"
+msgstr "(935) jKVDb: неизвестный драйвер \"%s\""
+
+#: jelix~kvstore.error.driver.notset
+msgctxt "jelix~kvstore.error.driver.notset"
+msgid "(936) No jKVDb driver specified for the profile \"%s\""
+msgstr "(936) jKVDb: для профиля \"%s\" не указан драйвер"
+
+#: jelix~kvstore.error.driver.nohost
+msgctxt "jelix~kvstore.error.driver.nohost"
+msgid "(937) No 'host' parameter for the driver jKVDb  \"%s\""
+msgstr "(937) jKVDb: для драйвера \"%s\" не указан хост"
+
+#: jelix~kvstore.error.driver.noport
+msgctxt "jelix~kvstore.error.driver.noport"
+msgid "(938) No 'port' parameter for the driver jKVDb  \"%s\""
+msgstr "(938) jKVDb: для драйвера \"%s\" не указан порт"
+
+#: jelix~kvstore.error.serialize.data
+msgctxt "jelix~kvstore.error.serialize.data"
+msgid "(939) jKVDb '%s': error during data serialisation ( %s )"
+msgstr "(939) jKVDb '%s': ошибка при сериализации данных ( %s )"
+
+#: jelix~kvstore.error.unserialize.data
+msgctxt "jelix~kvstore.error.unserialize.data"
+msgid "(940) jKVDb '%s': error during data unserialisation ( %s )"
+msgstr "(940) jKVDb '%s': ошибка при десериализации данных ( %s )"
+
+#: jelix~kvstore.error.memcache.server.unavailabled
+msgctxt "jelix~kvstore.error.memcache.server.unavailabled"
+msgid "(941) jKVDb '%s': no servers availabled for Memcache"
+msgstr "(941) jKVDb '%s': для Memcache нет доступных серверов"
+
+#: jelix~kvstore.error.no.host
+msgctxt "jelix~kvstore.error.no.host"
+msgid "(942) jKVDb '%s': no host in the profile"
+msgstr "(942) jKVDb '%s': для профиля не указан хост "
+
+#: jelix~kvstore.error.no.port
+msgctxt "jelix~kvstore.error.no.port"
+msgid "(943) jKVDb '%s': no port in the profile"
+msgstr "(943) jKVDb '%s': для профиля не указан порт"
+
 #: jelix~cache.error.driver.missing
 msgctxt "jelix~cache.error.driver.missing"
-msgid "(900) profile name '%s': cache driver %s not found"
-msgstr "(900) профиль \"%s\": не найден драйвер кэша %s"
+msgid "(900) profile name '%s': cache driver '%s' not found"
+msgstr ""
 
 #: jelix~cache.error.invalid.key
 msgctxt "jelix~cache.error.invalid.key"
@@ -898,412 +1505,280 @@ msgctxt "jelix~cache.error.driver.noport"
 msgid "(915) No 'port' parameter for the driver jCache  \"%s\""
 msgstr ""
 
-#: jelix~date_time.month.01.label
-msgctxt "jelix~date_time.month.01.label"
-msgid "January"
-msgstr "Январь"
-
-#: jelix~date_time.month.01.shortlabel
-msgctxt "jelix~date_time.month.01.shortlabel"
-msgid "Jan"
-msgstr "янв."
-
-#: jelix~date_time.month.02.label
-msgctxt "jelix~date_time.month.02.label"
-msgid "February"
-msgstr "Февраль"
-
-#: jelix~date_time.month.02.shortlabel
-msgctxt "jelix~date_time.month.02.shortlabel"
-msgid "Feb"
-msgstr "фев."
-
-#: jelix~date_time.month.03.label
-msgctxt "jelix~date_time.month.03.label"
-msgid "March"
-msgstr "Март"
-
-#: jelix~date_time.month.03.shortlabel
-msgctxt "jelix~date_time.month.03.shortlabel"
-msgid "Mar"
-msgstr "мар."
-
-#: jelix~date_time.month.04.label
-msgctxt "jelix~date_time.month.04.label"
-msgid "April"
-msgstr "Апрель"
-
-#: jelix~date_time.month.04.shortlabel
-msgctxt "jelix~date_time.month.04.shortlabel"
-msgid "Apr"
-msgstr "апр."
-
-#: jelix~date_time.month.05.label
-msgctxt "jelix~date_time.month.05.label"
-msgid "May"
-msgstr "Май"
-
-#: jelix~date_time.month.05.shortlabel
-msgctxt "jelix~date_time.month.05.shortlabel"
-msgid "May"
-msgstr "май"
-
-#: jelix~date_time.month.06.label
-msgctxt "jelix~date_time.month.06.label"
-msgid "June"
-msgstr "Июнь"
-
-#: jelix~date_time.month.06.shortlabel
-msgctxt "jelix~date_time.month.06.shortlabel"
-msgid "Jun"
-msgstr "июн."
-
-#: jelix~date_time.month.07.label
-msgctxt "jelix~date_time.month.07.label"
-msgid "July"
-msgstr "Июль"
-
-#: jelix~date_time.month.07.shortlabel
-msgctxt "jelix~date_time.month.07.shortlabel"
-msgid "Jul"
-msgstr "июл"
-
-#: jelix~date_time.month.08.label
-msgctxt "jelix~date_time.month.08.label"
-msgid "August"
-msgstr "Август"
-
-#: jelix~date_time.month.08.shortlabel
-msgctxt "jelix~date_time.month.08.shortlabel"
-msgid "Aug"
-msgstr "авг."
-
-#: jelix~date_time.month.09.label
-msgctxt "jelix~date_time.month.09.label"
-msgid "September"
-msgstr "Сентябрь"
-
-#: jelix~date_time.month.09.shortlabel
-msgctxt "jelix~date_time.month.09.shortlabel"
-msgid "Sep"
-msgstr "сен."
-
-#: jelix~date_time.month.10.label
-msgctxt "jelix~date_time.month.10.label"
-msgid "October"
-msgstr "Октябрь"
-
-#: jelix~date_time.month.10.shortlabel
-msgctxt "jelix~date_time.month.10.shortlabel"
-msgid "Oct"
-msgstr "окт."
-
-#: jelix~date_time.month.11.label
-msgctxt "jelix~date_time.month.11.label"
-msgid "November"
-msgstr "Ноябрь"
-
-#: jelix~date_time.month.11.shortlabel
-msgctxt "jelix~date_time.month.11.shortlabel"
-msgid "Nov"
-msgstr "ноя."
-
-#: jelix~date_time.month.12.label
-msgctxt "jelix~date_time.month.12.label"
-msgid "December"
-msgstr "Декабрь"
-
-#: jelix~date_time.month.12.shortlabel
-msgctxt "jelix~date_time.month.12.shortlabel"
-msgid "Dec"
-msgstr "дек."
-
-#: jelix~date_time.day.0.label
-msgctxt "jelix~date_time.day.0.label"
-msgid "Sunday"
-msgstr "Воскресенье"
-
-#: jelix~date_time.day.0.shortlabel
-msgctxt "jelix~date_time.day.0.shortlabel"
-msgid "Sun"
-msgstr "Вск"
-
-#: jelix~date_time.day.1.label
-msgctxt "jelix~date_time.day.1.label"
-msgid "Monday"
-msgstr "Понедельник"
-
-#: jelix~date_time.day.1.shortlabel
-msgctxt "jelix~date_time.day.1.shortlabel"
-msgid "Mon"
-msgstr "Пнд"
-
-#: jelix~date_time.day.2.label
-msgctxt "jelix~date_time.day.2.label"
-msgid "Tuesday"
-msgstr "Вторник"
-
-#: jelix~date_time.day.2.shortlabel
-msgctxt "jelix~date_time.day.2.shortlabel"
-msgid "Tue"
-msgstr "Втр"
-
-#: jelix~date_time.day.3.label
-msgctxt "jelix~date_time.day.3.label"
-msgid "Wednesday"
-msgstr "Среда"
-
-#: jelix~date_time.day.3.shortlabel
-msgctxt "jelix~date_time.day.3.shortlabel"
-msgid "Wed"
-msgstr "Срд"
-
-#: jelix~date_time.day.4.label
-msgctxt "jelix~date_time.day.4.label"
-msgid "Thursday"
-msgstr "Четверг"
-
-#: jelix~date_time.day.4.shortlabel
-msgctxt "jelix~date_time.day.4.shortlabel"
-msgid "Thu"
-msgstr "Чтв"
-
-#: jelix~date_time.day.5.label
-msgctxt "jelix~date_time.day.5.label"
-msgid "Friday"
-msgstr "Пятница"
-
-#: jelix~date_time.day.5.shortlabel
-msgctxt "jelix~date_time.day.5.shortlabel"
-msgid "Fri"
-msgstr "Птн"
-
-#: jelix~date_time.day.6.label
-msgctxt "jelix~date_time.day.6.label"
-msgid "Saturday"
-msgstr "Суббота"
-
-#: jelix~date_time.day.6.shortlabel
-msgctxt "jelix~date_time.day.6.shortlabel"
-msgid "Sat"
-msgstr "Сбт"
-
-#: jelix~date_time.day.1.ordinal
-msgctxt "jelix~date_time.day.1.ordinal"
-msgid "st"
-msgstr "​"
-
-#: jelix~date_time.day.2.ordinal
-msgctxt "jelix~date_time.day.2.ordinal"
-msgid "nd"
-msgstr "​"
-
-#: jelix~date_time.day.3.ordinal
-msgctxt "jelix~date_time.day.3.ordinal"
-msgid "rd"
-msgstr "​"
-
-#: jelix~date_time.day.4.ordinal
-msgctxt "jelix~date_time.day.4.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.5.ordinal
-msgctxt "jelix~date_time.day.5.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.6.ordinal
-msgctxt "jelix~date_time.day.6.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.7.ordinal
-msgctxt "jelix~date_time.day.7.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.8.ordinal
-msgctxt "jelix~date_time.day.8.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.9.ordinal
-msgctxt "jelix~date_time.day.9.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.10.ordinal
-msgctxt "jelix~date_time.day.10.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.11.ordinal
-msgctxt "jelix~date_time.day.11.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.12.ordinal
-msgctxt "jelix~date_time.day.12.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.13.ordinal
-msgctxt "jelix~date_time.day.13.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.14.ordinal
-msgctxt "jelix~date_time.day.14.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.15.ordinal
-msgctxt "jelix~date_time.day.15.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.16.ordinal
-msgctxt "jelix~date_time.day.16.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.17.ordinal
-msgctxt "jelix~date_time.day.17.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.18.ordinal
-msgctxt "jelix~date_time.day.18.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.19.ordinal
-msgctxt "jelix~date_time.day.19.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.20.ordinal
-msgctxt "jelix~date_time.day.20.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.21.ordinal
-msgctxt "jelix~date_time.day.21.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.22.ordinal
-msgctxt "jelix~date_time.day.22.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.23.ordinal
-msgctxt "jelix~date_time.day.23.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.24.ordinal
-msgctxt "jelix~date_time.day.24.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.25.ordinal
-msgctxt "jelix~date_time.day.25.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.26.ordinal
-msgctxt "jelix~date_time.day.26.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.27.ordinal
-msgctxt "jelix~date_time.day.27.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.28.ordinal
-msgctxt "jelix~date_time.day.28.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.29.ordinal
-msgctxt "jelix~date_time.day.29.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.30.ordinal
-msgctxt "jelix~date_time.day.30.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~date_time.day.31.ordinal
-msgctxt "jelix~date_time.day.31.ordinal"
-msgid "th"
-msgstr "​"
-
-#: jelix~common.none
-msgctxt "jelix~common.none"
-msgid "none"
+#: jelix~jelix.framework.name
+msgctxt "jelix~jelix.framework.name"
+msgid "Jelix"
 msgstr ""
 
-#: jelix~common.unknown
-msgctxt "jelix~common.unknown"
-msgid "unknown"
+#: jelix~jelix.framework.slogan
+msgctxt "jelix~jelix.framework.slogan"
+msgid "Jelix, a framework for PHP"
 msgstr ""
 
-#: jelix~common.version
-msgctxt "jelix~common.version"
-msgid "version"
+#: jelix~jelix.newapp.h1
+msgctxt "jelix~jelix.newapp.h1"
+msgid "Welcome in your new jelix application"
 msgstr ""
 
-#: jelix~db.error.database.unknown
-msgctxt "jelix~db.error.database.unknown"
-msgid "(401)jDb: unknown database %s"
-msgstr "(401) jDb: неизвестная база данных %s"
+#: jelix~daoxml.file.unknown
+msgctxt "jelix~daoxml.file.unknown"
+msgid "(510)Unknown dao file (%s)"
+msgstr ""
 
-#: jelix~db.error.connection
-msgctxt "jelix~db.error.connection"
-msgid "(402)error during the connection %s"
-msgstr "(402) ошибка соединения %s"
+#: jelix~daoxml.namespace.wrong
+msgctxt "jelix~daoxml.namespace.wrong"
+msgid "(511)bad namespace in the DAO file \"%s\" (%s)"
+msgstr ""
 
-#: jelix~db.error.query.bad
-msgctxt "jelix~db.error.query.bad"
-msgid "(403)invalid query (%s)"
-msgstr "(403) неверный запрос (%s)"
+#: jelix~daoxml.missing.attr
+msgctxt "jelix~daoxml.missing.attr"
+msgid "(512)DAO %1$s, attribute \"%3$s\" is missing on tag \"%4$s\" (file %2$s)"
+msgstr ""
 
-#: jelix~db.error.feature.unsupported
-msgctxt "jelix~db.error.feature.unsupported"
-msgid "(404)JDb: the %s driver doesn't support this feature \"%s\""
-msgstr "(404) jDb: драйвер %s не поддерживает функцию \"%s\""
-
-#: jelix~db.error.nofunction
-msgctxt "jelix~db.error.nofunction"
-msgid "(405)jDb:  %s extension is not installed in PHP"
-msgstr "(405) jDb: расширение PHP %s не установлено"
-
-#: jelix~db.error.driver.notfound
-msgctxt "jelix~db.error.driver.notfound"
-msgid "(408)jDb driver \"%s\" is not found"
-msgstr "(408) jDb: драйвер \"%s\" не найден"
-
-#: jelix~db.error.connection.closed
-msgctxt "jelix~db.error.connection.closed"
+#: jelix~daoxml.tag.duplicate
+msgctxt "jelix~daoxml.tag.duplicate"
 msgid ""
-"(409) Connection to database is not valid anymore: timeout, server down... "
-"(profile %s)"
-msgstr "(409) Соединение с базой данных больше недействительно: таймаут, отключение сервера... (профиль %s)"
+"(513)DAO %1$s, only one %3$s tag is allowed in the %4$s method (file %2$s)"
+msgstr ""
 
-#: jelix~db.error.no.database.name
-msgctxt "jelix~db.error.no.database.name"
-msgid "(412) No database defined in the profile \"%s\"?"
-msgstr "(412) База данных не определена в профиле \"%s\"?"
+#: jelix~daoxml.forbidden.attr
+msgctxt "jelix~daoxml.forbidden.attr"
+msgid ""
+"(514)DAO %1$s, the \"%3$s\" attribute is not allowed on the \"%4$s\" element"
+" (file %2$s)"
+msgstr ""
 
-#: jelix~db.error.invalid.param
-msgctxt "jelix~db.error.invalid.param"
-msgid "(413) An invalid argument was supplied to the query"
-msgstr "(413) В запросе присутствует недопустимый аргумент"
+#: jelix~daoxml.forbidden.attr.context
+msgctxt "jelix~daoxml.forbidden.attr.context"
+msgid ""
+"(515)DAO %1$s, the \"%3$s\" attribute is not allowed on the \"%4$s\" element"
+" in this context (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.wrong.attr
+msgctxt "jelix~daoxml.wrong.attr"
+msgid ""
+"(516)DAO %1$s, the value \"%3$s\" of the \"%4$s\" attribute on the \"%5$s\" "
+"element is not valid (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.unknown.attr
+msgctxt "jelix~daoxml.unknown.attr"
+msgid "(517)DAO %1$s, attribute \"%3$s\" is unknown on tag \"%4$s\" (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.datasource.missing
+msgctxt "jelix~daoxml.datasource.missing"
+msgid "(520)DAO %1$s, table is missing (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.table.two.many
+msgctxt "jelix~daoxml.table.two.many"
+msgid "(521)DAO %1$s, too much table (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.table.name
+msgctxt "jelix~daoxml.table.name"
+msgid "(522)DAO %1$s, table name is missing (fichier %2$s)"
+msgstr ""
+
+#: jelix~daoxml.primarykey.missing
+msgctxt "jelix~daoxml.primarykey.missing"
+msgid "(523)DAO %1$s, primary key name is missing (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.foreignkey.missing
+msgctxt "jelix~daoxml.foreignkey.missing"
+msgid "(524)DAO %1$s, foreign key name is missing on a join (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.properties.missing
+msgctxt "jelix~daoxml.properties.missing"
+msgid "(530)DAO %1$s, no defined property (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.property.unknown.table
+msgctxt "jelix~daoxml.property.unknown.table"
+msgid "(531)DAO %1$s, unknown table name on the property %3$s (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.property.invalid.name
+msgctxt "jelix~daoxml.property.invalid.name"
+msgid ""
+"(532)DAO %1$s, invalid syntaxe in the property name \"%3$s\", it must "
+"respect php syntax (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.property.already.defined
+msgctxt "jelix~daoxml.property.already.defined"
+msgid "(533)DAO %1$s, property %3$s already defined (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.property.imported.unknown.table
+msgctxt "jelix~daoxml.property.imported.unknown.table"
+msgid ""
+"(534)DAO %1$s, unknown table name on the imported property %3$s (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.parameter.unknowname
+msgctxt "jelix~daoxml.method.parameter.unknowname"
+msgid "(540)DAO %1$s, method $3$s, parameter name is missing (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.procstock.name.missing
+msgctxt "jelix~daoxml.method.procstock.name.missing"
+msgid ""
+"(541)DAO %1$s, procedure call name is missing on method $3$s (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.body.missing
+msgctxt "jelix~daoxml.method.body.missing"
+msgid "(542)DAO %1$s, method PHP body $3$s is missing (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.values.undefine
+msgctxt "jelix~daoxml.method.values.undefine"
+msgid ""
+"(543)DAO %1$s, method %3$s of \"update\" type should contains \"value\" tag "
+"(file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.limit.forbidden
+msgctxt "jelix~daoxml.method.limit.forbidden"
+msgid ""
+"(544)DAO %1$s, method %3$s, limit tag is allowed only on select method (file"
+" %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.duplicate
+msgctxt "jelix~daoxml.method.duplicate"
+msgid "(545)DAO %1$s, method %3$s is already defined (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.condition.unknown
+msgctxt "jelix~daoxml.method.condition.unknown"
+msgid "(546)DAO %1$s, method %3$s, unknown condition %4$s (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.property.unknown
+msgctxt "jelix~daoxml.method.property.unknown"
+msgid "(547)DAO %1$s, method %3$s, unknown property (%4$s) (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.property.forbidden
+msgctxt "jelix~daoxml.method.property.forbidden"
+msgid ""
+"(548)DAO %1$s, conditions on foreign keys are not allowed on this type of "
+"method %3$s (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.condition.valueexpr.together
+msgctxt "jelix~daoxml.method.condition.valueexpr.together"
+msgid ""
+"(549)DAO %1$s, method %3$s, condition %4$s: no value and expression at the "
+"same time (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.condition.valueexpr.notallowed
+msgctxt "jelix~daoxml.method.condition.valueexpr.notallowed"
+msgid ""
+"(550)DAO %1$s, method %3$s, value or expr are not allowed on condition %4$s "
+"(file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.condition.valueexpr.missing
+msgctxt "jelix~daoxml.method.condition.valueexpr.missing"
+msgid ""
+"(551)DAO %1$s, method %3$s, value or expression is missing on condition %4$s"
+" (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.orderitem.bad
+msgctxt "jelix~daoxml.method.orderitem.bad"
+msgid ""
+"(552)DAO %1$s, method %4$s, property on item order %3$s is unknown (file "
+"%2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.orderitem.property.missing
+msgctxt "jelix~daoxml.method.orderitem.property.missing"
+msgid "(553)DAO %1$s, method %3$s, orderitem tag is missing (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.values.property.unknown
+msgctxt "jelix~daoxml.method.values.property.unknown"
+msgid ""
+"(554)DAO %1$s, method %3$s,  unknown property on a <value> tag (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.values.property.bad
+msgctxt "jelix~daoxml.method.values.property.bad"
+msgid ""
+"(555)DAO %1$s, method %3$s,  a property should be owned by the primary table"
+"  (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.values.property.pkforbidden
+msgctxt "jelix~daoxml.method.values.property.pkforbidden"
+msgid ""
+"(556)DAO %1$s, method %3$s, prmiary key properties are not allowed in value "
+"tag  (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.values.valueexpr
+msgctxt "jelix~daoxml.method.values.valueexpr"
+msgid ""
+"(557)DAO %1$s, method %3$s, value or expression is missing on a value tag "
+"(file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.limit.parameter.unknown
+msgctxt "jelix~daoxml.method.limit.parameter.unknown"
+msgid ""
+"(558)DAO %1$s, method %3$s, unknown parameter %4$s in the limit tag (file "
+"%2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.limit.badvalue
+msgctxt "jelix~daoxml.method.limit.badvalue"
+msgid ""
+"(559)DAO %1$s, method %3$s, bad value on limit tag ( %4$s ) (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.condition.innotin.bad.expr
+msgctxt "jelix~daoxml.method.condition.innotin.bad.expr"
+msgid ""
+"(560)DAO %1$s, method %3$s, condition %4$s, the expression for the in/notin "
+"operator should be a simple parameter name (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.condition.driver.notallowed
+msgctxt "jelix~daoxml.method.condition.driver.notallowed"
+msgid ""
+"(561)DAO %1$s, method %3$, the driver of the database used here is not "
+"allowed accordind to the definition of the condition (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.orderitem.parameter.unknown
+msgctxt "jelix~daoxml.method.orderitem.parameter.unknown"
+msgid ""
+"(563)DAO %1$s, method %3$,  unknown parameter %4$s in the orderitem tag "
+"(file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.update.forbidden
+msgctxt "jelix~daoxml.method.update.forbidden"
+msgid ""
+"(564)DAO %1$s, update method %3$s is forbidden because the main table "
+"contains only primary keys (file %2$s)"
+msgstr ""
+
+#: jelix~daoxml.method.parameter.invalidname
+msgctxt "jelix~daoxml.method.parameter.invalidname"
+msgid ""
+"(565) DAO, in the method %1$s, the sign $ in the parameter name %4$s is no "
+"authorized"
+msgstr ""
 
 #: jelix~errors.unknown
 msgctxt "jelix~errors.unknown"
@@ -1786,221 +2261,6 @@ msgctxt "jelix~errors.profile.virtual.invalid.params"
 msgid "(504) Invalid parameters for the virtual profile \"%s\" for \"%s\""
 msgstr ""
 
-#: jelix~captcha.number
-msgctxt "jelix~captcha.number"
-msgid "14"
-msgstr ""
-
-#: jelix~captcha.question.1
-msgctxt "jelix~captcha.question.1"
-msgid "How much 2+3?"
-msgstr ""
-
-#: jelix~captcha.response.1
-msgctxt "jelix~captcha.response.1"
-msgid "5"
-msgstr ""
-
-#: jelix~captcha.question.2
-msgctxt "jelix~captcha.question.2"
-msgid "Write the number 10 with lowercase letters"
-msgstr ""
-
-#: jelix~captcha.response.2
-msgctxt "jelix~captcha.response.2"
-msgid "ten"
-msgstr ""
-
-#: jelix~captcha.question.3
-msgctxt "jelix~captcha.question.3"
-msgid "Write the number 15 with lowercase letters"
-msgstr ""
-
-#: jelix~captcha.response.3
-msgctxt "jelix~captcha.response.3"
-msgid "fifteen"
-msgstr ""
-
-#: jelix~captcha.question.4
-msgctxt "jelix~captcha.question.4"
-msgid "Write the number 20 with lowercase letters"
-msgstr ""
-
-#: jelix~captcha.response.4
-msgctxt "jelix~captcha.response.4"
-msgid "twenty"
-msgstr ""
-
-#: jelix~captcha.question.5
-msgctxt "jelix~captcha.question.5"
-msgid "Write the number 30 with lowercase letters"
-msgstr ""
-
-#: jelix~captcha.response.5
-msgctxt "jelix~captcha.response.5"
-msgid "thirty"
-msgstr ""
-
-#: jelix~captcha.question.6
-msgctxt "jelix~captcha.question.6"
-msgid "What is the color of the Napoléon's white horse?"
-msgstr ""
-
-#: jelix~captcha.response.6
-msgctxt "jelix~captcha.response.6"
-msgid "white"
-msgstr ""
-
-#: jelix~captcha.question.7
-msgctxt "jelix~captcha.question.7"
-msgid "What is the capital of United States?"
-msgstr ""
-
-#: jelix~captcha.response.7
-msgctxt "jelix~captcha.response.7"
-msgid "washington"
-msgstr ""
-
-#: jelix~captcha.question.8
-msgctxt "jelix~captcha.question.8"
-msgid "How much do 5 plus 3"
-msgstr ""
-
-#: jelix~captcha.response.8
-msgctxt "jelix~captcha.response.8"
-msgid "8"
-msgstr ""
-
-#: jelix~captcha.question.9
-msgctxt "jelix~captcha.question.9"
-msgid "How much do  2 times 3"
-msgstr ""
-
-#: jelix~captcha.response.9
-msgctxt "jelix~captcha.response.9"
-msgid "6"
-msgstr ""
-
-#: jelix~captcha.question.10
-msgctxt "jelix~captcha.question.10"
-msgid "How much do 5 minus 2"
-msgstr ""
-
-#: jelix~captcha.response.10
-msgctxt "jelix~captcha.response.10"
-msgid "3"
-msgstr ""
-
-#: jelix~captcha.question.11
-msgctxt "jelix~captcha.question.11"
-msgid "How much do 8 divided by 4"
-msgstr ""
-
-#: jelix~captcha.response.11
-msgctxt "jelix~captcha.response.11"
-msgid "2"
-msgstr ""
-
-#: jelix~captcha.question.12
-msgctxt "jelix~captcha.question.12"
-msgid "What is the firstname of Jules Verne?"
-msgstr ""
-
-#: jelix~captcha.response.12
-msgctxt "jelix~captcha.response.12"
-msgid "Jules"
-msgstr ""
-
-#: jelix~captcha.question.13
-msgctxt "jelix~captcha.question.13"
-msgid "What is the year when the first world war 14-18 has began?"
-msgstr ""
-
-#: jelix~captcha.response.13
-msgctxt "jelix~captcha.response.13"
-msgid "1914"
-msgstr ""
-
-#: jelix~captcha.question.14
-msgctxt "jelix~captcha.question.14"
-msgid "Write the number fifty three"
-msgstr ""
-
-#: jelix~captcha.response.14
-msgctxt "jelix~captcha.response.14"
-msgid "53"
-msgstr ""
-
-#: jelix~jelix.framework.name
-msgctxt "jelix~jelix.framework.name"
-msgid "Jelix"
-msgstr ""
-
-#: jelix~jelix.framework.slogan
-msgctxt "jelix~jelix.framework.slogan"
-msgid "Jelix, a framework for PHP"
-msgstr ""
-
-#: jelix~jelix.newapp.h1
-msgctxt "jelix~jelix.newapp.h1"
-msgid "Welcome in your new jelix application"
-msgstr ""
-
-#: jelix~crud.title.list
-msgctxt "jelix~crud.title.list"
-msgid "List"
-msgstr ""
-
-#: jelix~crud.title.update
-msgctxt "jelix~crud.title.update"
-msgid "Edit of a record"
-msgstr ""
-
-#: jelix~crud.title.create
-msgctxt "jelix~crud.title.create"
-msgid "Create a new record"
-msgstr ""
-
-#: jelix~crud.title.view
-msgctxt "jelix~crud.title.view"
-msgid "Record details"
-msgstr ""
-
-#: jelix~crud.title.pages
-msgctxt "jelix~crud.title.pages"
-msgid "Pages"
-msgstr ""
-
-#: jelix~crud.link.return.to.list
-msgctxt "jelix~crud.link.return.to.list"
-msgid "Return to the list"
-msgstr "Вернуться к списку"
-
-#: jelix~crud.link.view.record
-msgctxt "jelix~crud.link.view.record"
-msgid "View"
-msgstr "Просмотр"
-
-#: jelix~crud.link.create.record
-msgctxt "jelix~crud.link.create.record"
-msgid "Create a new record"
-msgstr ""
-
-#: jelix~crud.link.edit.record
-msgctxt "jelix~crud.link.edit.record"
-msgid "Edit"
-msgstr "Изменить"
-
-#: jelix~crud.link.delete.record
-msgctxt "jelix~crud.link.delete.record"
-msgid "Delete"
-msgstr "Удалить"
-
-#: jelix~crud.confirm.deletion
-msgctxt "jelix~crud.confirm.deletion"
-msgid "Are you sure to want to delete this record?"
-msgstr ""
-
 #: jelix~auth.error.plugin.missing
 msgctxt "jelix~auth.error.plugin.missing"
 msgid "(601)Auth plugin is required"
@@ -2122,263 +2382,3 @@ msgstr "Пользователь может менять свой пароль"
 msgctxt "jelix~auth.acl.grp.user.management"
 msgid "Users management"
 msgstr "Управление пользователями"
-
-#: jelix~daoxml.file.unknown
-msgctxt "jelix~daoxml.file.unknown"
-msgid "(510)Unknown dao file (%s)"
-msgstr ""
-
-#: jelix~daoxml.namespace.wrong
-msgctxt "jelix~daoxml.namespace.wrong"
-msgid "(511)bad namespace in the DAO file \"%s\" (%s)"
-msgstr ""
-
-#: jelix~daoxml.missing.attr
-msgctxt "jelix~daoxml.missing.attr"
-msgid "(512)DAO %1$s, attribute \"%3$s\" is missing on tag \"%4$s\" (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.tag.duplicate
-msgctxt "jelix~daoxml.tag.duplicate"
-msgid ""
-"(513)DAO %1$s, only one %3$s tag is allowed in the %4$s method (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.forbidden.attr
-msgctxt "jelix~daoxml.forbidden.attr"
-msgid ""
-"(514)DAO %1$s, the \"%3$s\" attribute is not allowed on the \"%4$s\" element"
-" (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.forbidden.attr.context
-msgctxt "jelix~daoxml.forbidden.attr.context"
-msgid ""
-"(515)DAO %1$s, the \"%3$s\" attribute is not allowed on the \"%4$s\" element"
-" in this context (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.wrong.attr
-msgctxt "jelix~daoxml.wrong.attr"
-msgid ""
-"(516)DAO %1$s, the value \"%3$s\" of the \"%4$s\" attribute on the \"%5$s\" "
-"element is not valid (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.unknown.attr
-msgctxt "jelix~daoxml.unknown.attr"
-msgid "(517)DAO %1$s, attribute \"%3$s\" is unknown on tag \"%4$s\" (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.datasource.missing
-msgctxt "jelix~daoxml.datasource.missing"
-msgid "(520)DAO %1$s, table is missing (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.table.two.many
-msgctxt "jelix~daoxml.table.two.many"
-msgid "(521)DAO %1$s, too much table (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.table.name
-msgctxt "jelix~daoxml.table.name"
-msgid "(522)DAO %1$s, table name is missing (fichier %2$s)"
-msgstr ""
-
-#: jelix~daoxml.primarykey.missing
-msgctxt "jelix~daoxml.primarykey.missing"
-msgid "(523)DAO %1$s, primary key name is missing (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.foreignkey.missing
-msgctxt "jelix~daoxml.foreignkey.missing"
-msgid "(524)DAO %1$s, foreign key name is missing on a join (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.properties.missing
-msgctxt "jelix~daoxml.properties.missing"
-msgid "(530)DAO %1$s, no defined property (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.property.unknown.table
-msgctxt "jelix~daoxml.property.unknown.table"
-msgid "(531)DAO %1$s, unknown table name on the property %3$s (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.property.invalid.name
-msgctxt "jelix~daoxml.property.invalid.name"
-msgid ""
-"(532)DAO %1$s, invalid syntaxe in the property name \"%3$s\", it must "
-"respect php syntax (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.property.already.defined
-msgctxt "jelix~daoxml.property.already.defined"
-msgid "(533)DAO %1$s, property %3$s already defined (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.property.imported.unknown.table
-msgctxt "jelix~daoxml.property.imported.unknown.table"
-msgid ""
-"(534)DAO %1$s, unknown table name on the imported property %3$s (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.parameter.unknowname
-msgctxt "jelix~daoxml.method.parameter.unknowname"
-msgid "(540)DAO %1$s, method $3$s, parameter name is missing (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.procstock.name.missing
-msgctxt "jelix~daoxml.method.procstock.name.missing"
-msgid ""
-"(541)DAO %1$s, procedure call name is missing on method $3$s (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.body.missing
-msgctxt "jelix~daoxml.method.body.missing"
-msgid "(542)DAO %1$s, method PHP body $3$s is missing (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.values.undefine
-msgctxt "jelix~daoxml.method.values.undefine"
-msgid ""
-"(543)DAO %1$s, method %3$s of \"update\" type should contains \"value\" tag "
-"(file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.limit.forbidden
-msgctxt "jelix~daoxml.method.limit.forbidden"
-msgid ""
-"(544)DAO %1$s, method %3$s, limit tag is allowed only on select method (file"
-" %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.duplicate
-msgctxt "jelix~daoxml.method.duplicate"
-msgid "(545)DAO %1$s, method %3$s is already defined (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.condition.unknown
-msgctxt "jelix~daoxml.method.condition.unknown"
-msgid "(546)DAO %1$s, method %3$s, unknown condition %4$s (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.property.unknown
-msgctxt "jelix~daoxml.method.property.unknown"
-msgid "(547)DAO %1$s, method %3$s, unknown property (%4$s) (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.property.forbidden
-msgctxt "jelix~daoxml.method.property.forbidden"
-msgid ""
-"(548)DAO %1$s, conditions on foreign keys are not allowed on this type of "
-"method %3$s (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.condition.valueexpr.together
-msgctxt "jelix~daoxml.method.condition.valueexpr.together"
-msgid ""
-"(549)DAO %1$s, method %3$s, condition %4$s: no value and expression at the "
-"same time (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.condition.valueexpr.notallowed
-msgctxt "jelix~daoxml.method.condition.valueexpr.notallowed"
-msgid ""
-"(550)DAO %1$s, method %3$s, value or expr are not allowed on condition %4$s "
-"(file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.condition.valueexpr.missing
-msgctxt "jelix~daoxml.method.condition.valueexpr.missing"
-msgid ""
-"(551)DAO %1$s, method %3$s, value or expression is missing on condition %4$s"
-" (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.orderitem.bad
-msgctxt "jelix~daoxml.method.orderitem.bad"
-msgid ""
-"(552)DAO %1$s, method %4$s, property on item order %3$s is unknown (file "
-"%2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.orderitem.property.missing
-msgctxt "jelix~daoxml.method.orderitem.property.missing"
-msgid "(553)DAO %1$s, method %3$s, orderitem tag is missing (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.values.property.unknown
-msgctxt "jelix~daoxml.method.values.property.unknown"
-msgid ""
-"(554)DAO %1$s, method %3$s,  unknown property on a <value> tag (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.values.property.bad
-msgctxt "jelix~daoxml.method.values.property.bad"
-msgid ""
-"(555)DAO %1$s, method %3$s,  a property should be owned by the primary table"
-"  (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.values.property.pkforbidden
-msgctxt "jelix~daoxml.method.values.property.pkforbidden"
-msgid ""
-"(556)DAO %1$s, method %3$s, prmiary key properties are not allowed in value "
-"tag  (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.values.valueexpr
-msgctxt "jelix~daoxml.method.values.valueexpr"
-msgid ""
-"(557)DAO %1$s, method %3$s, value or expression is missing on a value tag "
-"(file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.limit.parameter.unknown
-msgctxt "jelix~daoxml.method.limit.parameter.unknown"
-msgid ""
-"(558)DAO %1$s, method %3$s, unknown parameter %4$s in the limit tag (file "
-"%2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.limit.badvalue
-msgctxt "jelix~daoxml.method.limit.badvalue"
-msgid ""
-"(559)DAO %1$s, method %3$s, bad value on limit tag ( %4$s ) (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.condition.innotin.bad.expr
-msgctxt "jelix~daoxml.method.condition.innotin.bad.expr"
-msgid ""
-"(560)DAO %1$s, method %3$s, condition %4$s, the expression for the in/notin "
-"operator should be a simple parameter name (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.condition.driver.notallowed
-msgctxt "jelix~daoxml.method.condition.driver.notallowed"
-msgid ""
-"(561)DAO %1$s, method %3$, the driver of the database used here is not "
-"allowed accordind to the definition of the condition (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.orderitem.parameter.unknown
-msgctxt "jelix~daoxml.method.orderitem.parameter.unknown"
-msgid ""
-"(563)DAO %1$s, method %3$,  unknown parameter %4$s in the orderitem tag "
-"(file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.update.forbidden
-msgctxt "jelix~daoxml.method.update.forbidden"
-msgid ""
-"(564)DAO %1$s, update method %3$s is forbidden because the main table "
-"contains only primary keys (file %2$s)"
-msgstr ""
-
-#: jelix~daoxml.method.parameter.invalidname
-msgctxt "jelix~daoxml.method.parameter.invalidname"
-msgid ""
-"(565) DAO, in the method %1$s, the sign $ in the parameter name %4$s is no "
-"authorized"
-msgstr ""

@@ -1,15 +1,15 @@
 # 
 # Translators:
 # Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2018
-# Paolo Cavallini <cavallini@faunalia.it>, 2016-2017
+# Paolo Cavallini <cavallini@faunalia.it>, 2016-2017,2019
 # rldhont <rldhont@gmail.com>, 2016
 # Stefano Campus <skampus@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 18:11++0100\n"
-"PO-Revision-Date: 2019-01-29 17:11+0000\n"
+"POT-Creation-Date: 2019-03-19 15:00++0100\n"
+"PO-Revision-Date: 2019-03-19 14:07+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -301,8 +301,13 @@ msgstr "≤ 2.14"
 
 #: admin~admin.form.admin_services.qgisServerVersion.218.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.218.label"
-msgid "≥ 2.18"
-msgstr "≥ 2.18"
+msgid "2.18"
+msgstr ""
+
+#: admin~admin.form.admin_services.qgisServerVersion.300.label
+msgctxt "admin~admin.form.admin_services.qgisServerVersion.300.label"
+msgid "≥ 3.0"
+msgstr ""
 
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
@@ -468,12 +473,12 @@ msgstr ""
 #: admin~admin.form.admin_services.requestProxy.enabled
 msgctxt "admin~admin.form.admin_services.requestProxy.enabled"
 msgid "Use a proxy server"
-msgstr ""
+msgstr "Usa un server proxy"
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
 msgid "No proxy"
-msgstr ""
+msgstr "Nessun proxy"
 
 #: admin~admin.form.admin_services.requestProxyHost.label
 msgctxt "admin~admin.form.admin_services.requestProxyHost.label"
@@ -483,12 +488,12 @@ msgstr ""
 #: admin~admin.form.admin_services.requestProxyPort.label
 msgctxt "admin~admin.form.admin_services.requestProxyPort.label"
 msgid "Port of the proxy server"
-msgstr ""
+msgstr "Porta del server proxy"
 
 #: admin~admin.form.admin_services.requestProxyType.label
 msgctxt "admin~admin.form.admin_services.requestProxyType.label"
 msgid "Type of the proxy"
-msgstr ""
+msgstr "Tipo di proxy"
 
 #: admin~admin.form.admin_services.requestProxyUser.label
 msgctxt "admin~admin.form.admin_services.requestProxyUser.label"
@@ -498,7 +503,7 @@ msgstr ""
 #: admin~admin.form.admin_services.requestProxyPassword.label
 msgctxt "admin~admin.form.admin_services.requestProxyPassword.label"
 msgid "Password to access to the proxy server"
-msgstr ""
+msgstr "Password per l'accesso al server proxy"
 
 #: admin~admin.form.admin_services.requestProxyNotForDomain.label
 msgctxt "admin~admin.form.admin_services.requestProxyNotForDomain.label"
@@ -550,7 +555,7 @@ msgstr "Se impostato su ACCESO, i visitatori possono compilare il modulo per ric
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
 msgid "E-mail where to send notifications"
-msgstr ""
+msgstr "Indirizzo email dove inviare le notifiche"
 
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
@@ -584,7 +589,7 @@ msgstr "Nome del mittente delle e-mail"
 #: admin~admin.form.admin_services.adminSenderName.help
 msgctxt "admin~admin.form.admin_services.adminSenderName.help"
 msgid "Name of the sender used to send e-mails."
-msgstr ""
+msgstr "Nome dell'utente usato per l'invio delle email."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.label
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
@@ -637,7 +642,7 @@ msgstr "Percorso alla cartella locale del repository"
 msgctxt ""
 "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
 msgid "Allow themes/javascript codes for this repository"
-msgstr ""
+msgstr "Consenti temi e codice javascript per questo repository"
 
 #: admin~admin.form.admin_section.submit.label
 msgctxt "admin~admin.form.admin_section.submit.label"
@@ -737,12 +742,12 @@ msgstr "La larghezza occupata dal logo prima del titolo (in pixel)."
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
 msgid "Header - background image"
-msgstr ""
+msgstr "Intestazione - immagine di sfondo"
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
 msgid "The image to be used for the header background (400ko Maximum)."
-msgstr ""
+msgstr "Immagine da usare per lo sfondo dell'intestazione (400 Kb max)"
 
 #: admin~admin.form.admin_theme.headerBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.label"
@@ -983,12 +988,12 @@ msgstr ""
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
 msgid "A feature has been deleted by a user."
-msgstr ""
+msgstr "Un elemento è stato eliminato da un utente."
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
 msgid "Error log"
-msgstr ""
+msgstr "Log degli errori"
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
@@ -1010,12 +1015,12 @@ msgstr "Cancella il file di log degli errori"
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
 msgid "Are you sure you want to erase the error log file ?"
-msgstr ""
+msgstr " Sei sicuro di voler cancellare il file di log degli errori? "
 
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
-msgstr ""
+msgstr "Il log degli errori è stato cancellato."
 
 #: admin~user.form.comment.label
 msgctxt "admin~user.form.comment.label"

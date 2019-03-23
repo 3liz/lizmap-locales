@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-23 15:35++0200\n"
-"PO-Revision-Date: 2019-01-29 17:03+0000\n"
+"POT-Creation-Date: 2019-03-23 15:07++0100\n"
+"PO-Revision-Date: 2019-03-23 14:11+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -738,6 +738,482 @@ msgctxt "view~default.header.createAccount"
 msgid "Register"
 msgstr "Inscription"
 
+#: view~dictionnary.tree.button.checkbox
+msgctxt "view~dictionnary.tree.button.checkbox"
+msgid "Display/Hide"
+msgstr "Afficher/Masquer"
+
+#: view~dictionnary.tree.button.link
+msgctxt "view~dictionnary.tree.button.link"
+msgid "Open documentation"
+msgstr "Voir la documentation"
+
+#: view~dictionnary.tree.button.removeCache
+msgctxt "view~dictionnary.tree.button.removeCache"
+msgid "Remove cache server for this layer"
+msgstr "Supprimer le cache serveur pour cette couche"
+
+#: view~dictionnary.tree.button.expand
+msgctxt "view~dictionnary.tree.button.expand"
+msgid "Expand"
+msgstr "Déployer"
+
+#: view~dictionnary.tree.button.collapse
+msgctxt "view~dictionnary.tree.button.collapse"
+msgid "Collapse"
+msgstr "Réduire"
+
+#: view~dictionnary.print.activate
+msgctxt "view~dictionnary.print.activate"
+msgid "Place the rectangle for printing"
+msgstr "Placez le rectangle sur la carte puis cliquez sur le bouton Imprimer"
+
+#: view~dictionnary.measure.activate.length
+msgctxt "view~dictionnary.measure.activate.length"
+msgid "Click on the map to start measuring a length."
+msgstr "Vous pouvez réaliser des mesures de distances."
+
+#: view~dictionnary.measure.activate.area
+msgctxt "view~dictionnary.measure.activate.area"
+msgid "Click on the map to start measuring an area."
+msgstr "Vous pouvez réaliser des mesures de surface."
+
+#: view~dictionnary.measure.activate.perimeter
+msgctxt "view~dictionnary.measure.activate.perimeter"
+msgid "Click on the map to start measuring a perimeter."
+msgstr "Vous pouvez réaliser des mesures de périmètre."
+
+#: view~dictionnary.measure.handle
+msgctxt "view~dictionnary.measure.handle"
+msgid "Measure:"
+msgstr "Mesure :"
+
+#: view~dictionnary.geolocation.failed
+msgctxt "view~dictionnary.geolocation.failed"
+msgid "Location detection failed"
+msgstr "La détection de la géolocalisation a échoué."
+
+#: view~dictionnary.edition.title
+msgctxt "view~dictionnary.edition.title"
+msgid "Edition"
+msgstr "Éditions"
+
+#: view~dictionnary.edition.draw.activate
+msgctxt "view~dictionnary.edition.draw.activate"
+msgid "Draw the feature you want to create on the map."
+msgstr "Dessinez sur la carte l'élément que vous souhaitez créer."
+
+#: view~dictionnary.edition.select.activate
+msgctxt "view~dictionnary.edition.select.activate"
+msgid "Click on one of the layer's features to select it."
+msgstr "Cliquez sur un des éléments de la couche pour le sélectionner."
+
+#: view~dictionnary.edition.select.modify.activate
+msgctxt "view~dictionnary.edition.select.modify.activate"
+msgid "You can modify the feature you have selected, then submit."
+msgstr "Vous pouvez modifier l'élément que vous avez sélectionné."
+
+#: view~dictionnary.edition.datepicker.open
+msgctxt "view~dictionnary.edition.datepicker.open"
+msgid "Open the calendar"
+msgstr "Ouvrir le calendrier"
+
+#: view~dictionnary.edition.datepicker.reset
+msgctxt "view~dictionnary.edition.datepicker.reset"
+msgid "Reset the date"
+msgstr "Effacer la date"
+
+#: view~dictionnary.edition.confirm.delete
+msgctxt "view~dictionnary.edition.confirm.delete"
+msgid "Are you sure you want to delete the selected feature?"
+msgstr "Êtes-vous certain de vouloir supprimer cet objet ?"
+
+#: view~dictionnary.edition.confirm.cancel
+msgctxt "view~dictionnary.edition.confirm.cancel"
+msgid ""
+"Are you sure you want to cancel edition? You will lose any modifications "
+"made on the currently edited object."
+msgstr "Êtes-vous certain de vouloir annuler l'édition de cet objet ? Les modifications faites sur l'objet en cours d'édition seront perdues."
+
+#: view~dictionnary.edition.message.error.no.geometry
+msgctxt "view~dictionnary.edition.message.error.no.geometry"
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
+msgstr "Vous ne pouvez pas enregistrer cet objet sans géométrie. Veuillez la dessiner sur la carte."
+
+#: view~dictionnary.edition.point.coord.crs.layer
+msgctxt "view~dictionnary.edition.point.coord.crs.layer"
+msgid "Layer"
+msgstr "Couche"
+
+#: view~dictionnary.edition.point.coord.crs.map
+msgctxt "view~dictionnary.edition.point.coord.crs.map"
+msgid "Map"
+msgstr "Carte"
+
+#: view~dictionnary.externalsearch.search
+msgctxt "view~dictionnary.externalsearch.search"
+msgid "Searching"
+msgstr "Recherche en cours"
+
+#: view~dictionnary.externalsearch.notfound
+msgctxt "view~dictionnary.externalsearch.notfound"
+msgid "No results"
+msgstr "Aucun résultat"
+
+#: view~dictionnary.externalsearch.mapdata
+msgctxt "view~dictionnary.externalsearch.mapdata"
+msgid "Map data"
+msgstr "Données de la carte"
+
+#: view~dictionnary.timemanager.toolbar.play
+msgctxt "view~dictionnary.timemanager.toolbar.play"
+msgid "Play"
+msgstr "Lecture"
+
+#: view~dictionnary.timemanager.toolbar.pause
+msgctxt "view~dictionnary.timemanager.toolbar.pause"
+msgid "Pause"
+msgstr "Pause"
+
+#: view~dictionnary.baselayer.empty.title
+msgctxt "view~dictionnary.baselayer.empty.title"
+msgid "No base map"
+msgstr "Pas de fond de carte"
+
+#: view~dictionnary.bottomdock.toolbar.btn.glue.activate.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.activate.title"
+msgid "Pin"
+msgstr "Épingler"
+
+#: view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title"
+msgid "Unpin"
+msgstr "Libérer"
+
+#: view~dictionnary.bottomdock.toolbar.btn.glue.glued.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.glued.title"
+msgid "Pinned"
+msgstr "Épinglé"
+
+#: view~dictionnary.bottomdock.toolbar.btn.size.maximize.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.maximize.title"
+msgid "Maximize"
+msgstr "Agrandir"
+
+#: view~dictionnary.bottomdock.toolbar.btn.size.minimize.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
+msgid "Minimize"
+msgstr "Réduire"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.detail
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
+msgid "Detail"
+msgstr "Détail"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
+msgid "Get data"
+msgstr "Récupérer"
+
+#: view~dictionnary.attributeLayers.toolbar.cb.data.detail.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.cb.data.detail.title"
+msgid "Display info"
+msgstr "Voir le détail"
+
+#: view~dictionnary.attributeLayers.toolbar.input.search.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.title"
+msgid "Search"
+msgstr "Rechercher"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
+msgid "Select searched line"
+msgstr "Sélectionner les lignes recherchées"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title"
+msgid "Unselect all"
+msgstr "Tout désélectionner"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
+msgid "Move selected to top"
+msgstr "Déplacer la sélection en haut"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
+msgid "Filter"
+msgstr "Filtrer"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
+msgid "Export"
+msgstr "Exporter"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
+msgid "Create feature"
+msgstr "Créer un objet"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
+msgid "Create a child"
+msgstr "Créer un fils"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived"
+msgid "Activated line needed!"
+msgstr "Une ligne activée est nécessaire!"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
+msgid "Toggle children tables"
+msgstr "Afficher/masquer les fils"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title"
+msgid "Link selected features"
+msgstr "Lier les objets sélectionnés"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.hide.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.hide.title"
+msgid "Hide"
+msgstr "Masquer"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.show.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
+msgid "Show"
+msgstr "Afficher"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
+msgid "Refresh"
+msgstr "Rafraichir"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
+msgid "Refresh the table data."
+msgstr "Rafraichir la table des données."
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
+msgid "The map extent has changed since the last time data were fetched."
+msgstr "L'étendue de la carte a changé depuis la dernière fois où les données ont été extraites."
+
+#: view~dictionnary.attributeLayers.toolbar.msg.data.lines
+msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
+msgid "lines returned"
+msgstr "lignes récupérées"
+
+#: view~dictionnary.attributeLayers.toolbar.msg.data.nodata
+msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.nodata"
+msgid "No result for this layer"
+msgstr "Aucune donnée récupérée pour cette couche"
+
+#: view~dictionnary.attributeLayers.toolbar.msg.data.extent
+msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.extent"
+msgid "in the current extent"
+msgstr "dans l'emprise courante"
+
+#: view~dictionnary.attributeLayers.btn.info.title
+msgctxt "view~dictionnary.attributeLayers.btn.info.title"
+msgid "Info"
+msgstr "Détail"
+
+#: view~dictionnary.attributeLayers.btn.edit.title
+msgctxt "view~dictionnary.attributeLayers.btn.edit.title"
+msgid "Edit"
+msgstr "Éditer"
+
+#: view~dictionnary.attributeLayers.btn.delete.title
+msgctxt "view~dictionnary.attributeLayers.btn.delete.title"
+msgid "Delete"
+msgstr "Supprimer l'objet"
+
+#: view~dictionnary.attributeLayers.btn.remove.link.title
+msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
+msgid "Unlink child"
+msgstr "Supprimer le lien"
+
+#: view~dictionnary.attributeLayers.btn.select.title
+msgctxt "view~dictionnary.attributeLayers.btn.select.title"
+msgid "Select"
+msgstr "Sélectionner"
+
+#: view~dictionnary.attributeLayers.btn.unselect.title
+msgctxt "view~dictionnary.attributeLayers.btn.unselect.title"
+msgid "Unselect"
+msgstr "Désélectionner"
+
+#: view~dictionnary.attributeLayers.btn.zoom.title
+msgctxt "view~dictionnary.attributeLayers.btn.zoom.title"
+msgid "Zoom"
+msgstr "Zoomer"
+
+#: view~dictionnary.attributeLayers.btn.center.title
+msgctxt "view~dictionnary.attributeLayers.btn.center.title"
+msgid "Center"
+msgstr "Centrer"
+
+#: view~dictionnary.attributeLayers.msg.layer.not.visible
+msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
+msgid ""
+"The layer is not visible. Please zoom at a scale in which the features are "
+"visible."
+msgstr "La couche n'est pas visible. Veuillez zoomer à une échelle dans laquelle les entités sont visibles."
+
+#: view~dictionnary.selectiontool.results.none
+msgctxt "view~dictionnary.selectiontool.results.none"
+msgid "No object selected"
+msgstr "Aucun objet sélectionné"
+
+#: view~dictionnary.selectiontool.results.one
+msgctxt "view~dictionnary.selectiontool.results.one"
+msgid "1 selected object"
+msgstr "1 objet sélectionné"
+
+#: view~dictionnary.selectiontool.results.more
+msgctxt "view~dictionnary.selectiontool.results.more"
+msgid "%s selected objects"
+msgstr "%s objets sélectionnés"
+
+#: view~dictionnary.layer.metadata.title
+msgctxt "view~dictionnary.layer.metadata.title"
+msgid "Information"
+msgstr "Informations"
+
+#: view~dictionnary.layer.metadata.layer.name
+msgctxt "view~dictionnary.layer.metadata.layer.name"
+msgid "Name"
+msgstr "Nom"
+
+#: view~dictionnary.layer.metadata.layer.type
+msgctxt "view~dictionnary.layer.metadata.layer.type"
+msgid "Type"
+msgstr "Type"
+
+#: view~dictionnary.layer.metadata.layer.type.group
+msgctxt "view~dictionnary.layer.metadata.layer.type.group"
+msgid "Group"
+msgstr "Groupe"
+
+#: view~dictionnary.layer.metadata.layer.type.layer
+msgctxt "view~dictionnary.layer.metadata.layer.type.layer"
+msgid "Layer"
+msgstr "Couche"
+
+#: view~dictionnary.layer.metadata.layer.abstract
+msgctxt "view~dictionnary.layer.metadata.layer.abstract"
+msgid "Description"
+msgstr "Description"
+
+#: view~dictionnary.layer.metadata.layer.link
+msgctxt "view~dictionnary.layer.metadata.layer.link"
+msgid "Information"
+msgstr "Information"
+
+#: view~dictionnary.layer.metadata.layer.info.see
+msgctxt "view~dictionnary.layer.metadata.layer.info.see"
+msgid "Documentation"
+msgstr "Documentation"
+
+#: view~dictionnary.layer.metadata.zoomToExtent.title
+msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
+msgid "Zoom to layer extent"
+msgstr "Zoomer sur la couche"
+
+#: view~dictionnary.layer.metadata.style.title
+msgctxt "view~dictionnary.layer.metadata.style.title"
+msgid "Change layer style"
+msgstr "Changer le style de la couche"
+
+#: view~dictionnary.layer.metadata.export.title
+msgctxt "view~dictionnary.layer.metadata.export.title"
+msgid "Export"
+msgstr "Exporter"
+
+#: view~dictionnary.layer.metadata.opacity.title
+msgctxt "view~dictionnary.layer.metadata.opacity.title"
+msgid "Opacity"
+msgstr "Opacité"
+
+#: view~dictionnary.layer.export.right.required
+msgctxt "view~dictionnary.layer.export.right.required"
+msgid "Right is required to export layer."
+msgstr "Une autorisation est nécessaire pour l'export de couche."
+
+#: view~dictionnary.geobookmark.name.required
+msgctxt "view~dictionnary.geobookmark.name.required"
+msgid "A name is required to create a bookmark."
+msgstr "Veuillez renseigner un nom pour le géosignet."
+
+#: view~dictionnary.geobookmark.confirm.delete
+msgctxt "view~dictionnary.geobookmark.confirm.delete"
+msgid "Are you sure you want to delete this bookmark?"
+msgstr "Êtes-vous sûr de vouloir supprimer ce géosignet ?"
+
+#: view~dictionnary.popup.msg.start
+msgctxt "view~dictionnary.popup.msg.start"
+msgid "Click to the map to get informations."
+msgstr "Cliquez sur la carte pour obtenir des informations."
+
+#: view~dictionnary.popup.msg.no.result
+msgctxt "view~dictionnary.popup.msg.no.result"
+msgid "No object has been found at this location."
+msgstr "Aucun objet n'a été identifié à cet endroit."
+
+#: view~dictionnary.generic.btn.close.title
+msgctxt "view~dictionnary.generic.btn.close.title"
+msgid "Close"
+msgstr "Fermer"
+
+#: view~dictionnary.atlas.toolbar.title
+msgctxt "view~dictionnary.atlas.toolbar.title"
+msgid "Atlas"
+msgstr "Atlas"
+
+#: view~dictionnary.atlas.navbar.title
+msgctxt "view~dictionnary.atlas.navbar.title"
+msgid "Atlas"
+msgstr "Atlas"
+
+#: view~dictionnary.atlas.toolbar.play
+msgctxt "view~dictionnary.atlas.toolbar.play"
+msgid "Play"
+msgstr "Lecture"
+
+#: view~dictionnary.atlas.toolbar.stop
+msgctxt "view~dictionnary.atlas.toolbar.stop"
+msgid "Stop"
+msgstr "Arrêter"
+
+#: view~dictionnary.atlas.toolbar.pause
+msgctxt "view~dictionnary.atlas.toolbar.pause"
+msgid "Pause"
+msgstr "Pause"
+
+#: view~dictionnary.atlas.toolbar.next
+msgctxt "view~dictionnary.atlas.toolbar.next"
+msgid "Next"
+msgstr "Suivant"
+
+#: view~dictionnary.atlas.toolbar.prev
+msgctxt "view~dictionnary.atlas.toolbar.prev"
+msgid "Previous"
+msgstr "Précédent"
+
+#: view~dictionnary.embed.open.map
+msgctxt "view~dictionnary.embed.open.map"
+msgid "Open the map in full screen"
+msgstr "Ouvrir la carte en plein écran"
+
 #: view~user.form.firstname.label
 msgctxt "view~user.form.firstname.label"
 msgid "First name"
@@ -1199,474 +1675,3 @@ msgstr "L'objet fils a bien été délié du parent."
 msgctxt "view~edition.unlink.error.sql"
 msgid "An error occured while removing link!"
 msgstr "Une erreur est survenue lors de la suppression du lien !"
-
-#: view~dictionnary.tree.button.checkbox
-msgctxt "view~dictionnary.tree.button.checkbox"
-msgid "Display/Hide"
-msgstr "Afficher/Masquer"
-
-#: view~dictionnary.tree.button.link
-msgctxt "view~dictionnary.tree.button.link"
-msgid "Open documentation"
-msgstr "Voir la documentation"
-
-#: view~dictionnary.tree.button.removeCache
-msgctxt "view~dictionnary.tree.button.removeCache"
-msgid "Remove cache server for this layer"
-msgstr "Supprimer le cache serveur pour cette couche"
-
-#: view~dictionnary.tree.button.expand
-msgctxt "view~dictionnary.tree.button.expand"
-msgid "Expand"
-msgstr "Déployer"
-
-#: view~dictionnary.tree.button.collapse
-msgctxt "view~dictionnary.tree.button.collapse"
-msgid "Collapse"
-msgstr "Réduire"
-
-#: view~dictionnary.print.activate
-msgctxt "view~dictionnary.print.activate"
-msgid "Place the rectangle for printing"
-msgstr "Placez le rectangle sur la carte puis cliquez sur le bouton Imprimer"
-
-#: view~dictionnary.measure.activate.length
-msgctxt "view~dictionnary.measure.activate.length"
-msgid "Click on the map to start measuring a length."
-msgstr "Vous pouvez réaliser des mesures de distances."
-
-#: view~dictionnary.measure.activate.area
-msgctxt "view~dictionnary.measure.activate.area"
-msgid "Click on the map to start measuring an area."
-msgstr "Vous pouvez réaliser des mesures de surface."
-
-#: view~dictionnary.measure.activate.perimeter
-msgctxt "view~dictionnary.measure.activate.perimeter"
-msgid "Click on the map to start measuring a perimeter."
-msgstr "Vous pouvez réaliser des mesures de périmètre."
-
-#: view~dictionnary.measure.handle
-msgctxt "view~dictionnary.measure.handle"
-msgid "Measure:"
-msgstr "Mesure :"
-
-#: view~dictionnary.geolocation.failed
-msgctxt "view~dictionnary.geolocation.failed"
-msgid "Location detection failed"
-msgstr "La détection de la géolocalisation a échoué."
-
-#: view~dictionnary.edition.title
-msgctxt "view~dictionnary.edition.title"
-msgid "Edition"
-msgstr "Éditions"
-
-#: view~dictionnary.edition.draw.activate
-msgctxt "view~dictionnary.edition.draw.activate"
-msgid "Draw the feature you want to create on the map."
-msgstr "Dessinez sur la carte l'élément que vous souhaitez créer."
-
-#: view~dictionnary.edition.select.activate
-msgctxt "view~dictionnary.edition.select.activate"
-msgid "Click on one of the layer's features to select it."
-msgstr "Cliquez sur un des éléments de la couche pour le sélectionner."
-
-#: view~dictionnary.edition.select.modify.activate
-msgctxt "view~dictionnary.edition.select.modify.activate"
-msgid "You can modify the feature you have selected, then submit."
-msgstr "Vous pouvez modifier l'élément que vous avez sélectionné."
-
-#: view~dictionnary.edition.datepicker.open
-msgctxt "view~dictionnary.edition.datepicker.open"
-msgid "Open the calendar"
-msgstr "Ouvrir le calendrier"
-
-#: view~dictionnary.edition.datepicker.reset
-msgctxt "view~dictionnary.edition.datepicker.reset"
-msgid "Reset the date"
-msgstr "Effacer la date"
-
-#: view~dictionnary.edition.confirm.delete
-msgctxt "view~dictionnary.edition.confirm.delete"
-msgid "Are you sure you want to delete the selected feature?"
-msgstr "Êtes-vous certain de vouloir supprimer cet objet ?"
-
-#: view~dictionnary.edition.confirm.cancel
-msgctxt "view~dictionnary.edition.confirm.cancel"
-msgid ""
-"Are you sure you want to cancel edition? You will lose any modifications "
-"made on the currently edited object."
-msgstr "Êtes-vous certain de vouloir annuler l'édition de cet objet ? Les modifications faites sur l'objet en cours d'édition seront perdues."
-
-#: view~dictionnary.edition.message.error.no.geometry
-msgctxt "view~dictionnary.edition.message.error.no.geometry"
-msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
-msgstr "Vous ne pouvez pas enregistrer cet objet sans géométrie. Veuillez la dessiner sur la carte."
-
-#: view~dictionnary.edition.point.coord.crs.layer
-msgctxt "view~dictionnary.edition.point.coord.crs.layer"
-msgid "Layer"
-msgstr "Couche"
-
-#: view~dictionnary.edition.point.coord.crs.map
-msgctxt "view~dictionnary.edition.point.coord.crs.map"
-msgid "Map"
-msgstr "Carte"
-
-#: view~dictionnary.externalsearch.search
-msgctxt "view~dictionnary.externalsearch.search"
-msgid "Searching"
-msgstr "Recherche en cours"
-
-#: view~dictionnary.externalsearch.notfound
-msgctxt "view~dictionnary.externalsearch.notfound"
-msgid "No results"
-msgstr "Aucun résultat"
-
-#: view~dictionnary.externalsearch.mapdata
-msgctxt "view~dictionnary.externalsearch.mapdata"
-msgid "Map data"
-msgstr "Données de la carte"
-
-#: view~dictionnary.timemanager.toolbar.play
-msgctxt "view~dictionnary.timemanager.toolbar.play"
-msgid "Play"
-msgstr "Lecture"
-
-#: view~dictionnary.timemanager.toolbar.pause
-msgctxt "view~dictionnary.timemanager.toolbar.pause"
-msgid "Pause"
-msgstr "Pause"
-
-#: view~dictionnary.baselayer.empty.title
-msgctxt "view~dictionnary.baselayer.empty.title"
-msgid "No base map"
-msgstr "Pas de fond de carte"
-
-#: view~dictionnary.bottomdock.toolbar.btn.glue.activate.title
-msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.activate.title"
-msgid "Pin"
-msgstr "Épingler"
-
-#: view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title
-msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title"
-msgid "Unpin"
-msgstr "Libérer"
-
-#: view~dictionnary.bottomdock.toolbar.btn.glue.glued.title
-msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.glued.title"
-msgid "Pinned"
-msgstr "Épinglé"
-
-#: view~dictionnary.bottomdock.toolbar.btn.size.maximize.title
-msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.maximize.title"
-msgid "Maximize"
-msgstr "Agrandir"
-
-#: view~dictionnary.bottomdock.toolbar.btn.size.minimize.title
-msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
-msgid "Minimize"
-msgstr "Réduire"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.detail
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
-msgid "Detail"
-msgstr "Détail"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
-msgid "Get data"
-msgstr "Récupérer"
-
-#: view~dictionnary.attributeLayers.toolbar.cb.data.detail.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.cb.data.detail.title"
-msgid "Display info"
-msgstr "Voir le détail"
-
-#: view~dictionnary.attributeLayers.toolbar.input.search.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.title"
-msgid "Search"
-msgstr "Rechercher"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
-msgid "Select searched line"
-msgstr "Sélectionner les lignes recherchées"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title"
-msgid "Unselect all"
-msgstr "Tout désélectionner"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
-msgctxt ""
-"view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
-msgid "Move selected to top"
-msgstr "Déplacer la sélection en haut"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
-msgid "Filter"
-msgstr "Filtrer"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
-msgid "Export"
-msgstr "Exporter"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title
-msgctxt ""
-"view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
-msgid "Create feature"
-msgstr "Créer un objet"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
-msgctxt ""
-"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
-msgid "Create a child"
-msgstr "Créer un fils"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
-msgctxt ""
-"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived"
-msgid "Activated line needed!"
-msgstr "Une ligne activée est nécessaire!"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
-msgid "Toggle children tables"
-msgstr "Afficher/masquer les fils"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title"
-msgid "Link selected features"
-msgstr "Lier les objets sélectionnés"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.hide.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.hide.title"
-msgid "Hide"
-msgstr "Masquer"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.show.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
-msgid "Show"
-msgstr "Afficher"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
-msgid "Refresh"
-msgstr "Rafraichir"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
-msgid "Refresh the table data."
-msgstr "Rafraichir la table des données."
-
-#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
-msgctxt ""
-"view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
-msgid "The map extent has changed since the last time data were fetched."
-msgstr "L'étendue de la carte a changé depuis la dernière fois où les données ont été extraites."
-
-#: view~dictionnary.attributeLayers.toolbar.msg.data.lines
-msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
-msgid "lines returned"
-msgstr "lignes récupérées"
-
-#: view~dictionnary.attributeLayers.toolbar.msg.data.nodata
-msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.nodata"
-msgid "No result for this layer"
-msgstr "Aucune donnée récupérée pour cette couche"
-
-#: view~dictionnary.attributeLayers.toolbar.msg.data.extent
-msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.extent"
-msgid "in the current extent"
-msgstr "dans l'emprise courante"
-
-#: view~dictionnary.attributeLayers.btn.info.title
-msgctxt "view~dictionnary.attributeLayers.btn.info.title"
-msgid "Info"
-msgstr "Détail"
-
-#: view~dictionnary.attributeLayers.btn.edit.title
-msgctxt "view~dictionnary.attributeLayers.btn.edit.title"
-msgid "Edit"
-msgstr "Éditer"
-
-#: view~dictionnary.attributeLayers.btn.delete.title
-msgctxt "view~dictionnary.attributeLayers.btn.delete.title"
-msgid "Delete"
-msgstr "Supprimer l'objet"
-
-#: view~dictionnary.attributeLayers.btn.remove.link.title
-msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
-msgid "Unlink child"
-msgstr "Supprimer le lien"
-
-#: view~dictionnary.attributeLayers.btn.select.title
-msgctxt "view~dictionnary.attributeLayers.btn.select.title"
-msgid "Select"
-msgstr "Sélectionner"
-
-#: view~dictionnary.attributeLayers.btn.unselect.title
-msgctxt "view~dictionnary.attributeLayers.btn.unselect.title"
-msgid "Unselect"
-msgstr "Désélectionner"
-
-#: view~dictionnary.attributeLayers.btn.zoom.title
-msgctxt "view~dictionnary.attributeLayers.btn.zoom.title"
-msgid "Zoom"
-msgstr "Zoomer"
-
-#: view~dictionnary.attributeLayers.btn.center.title
-msgctxt "view~dictionnary.attributeLayers.btn.center.title"
-msgid "Center"
-msgstr "Centrer"
-
-#: view~dictionnary.attributeLayers.msg.layer.not.visible
-msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
-msgid ""
-"The layer is not visible. Please zoom at a scale in which the features are "
-"visible."
-msgstr "La couche n'est pas visible. Veuillez zoomer à une échelle dans laquelle les entités sont visibles."
-
-#: view~dictionnary.selectiontool.results.none
-msgctxt "view~dictionnary.selectiontool.results.none"
-msgid "No object selected"
-msgstr "Aucun objet sélectionné"
-
-#: view~dictionnary.selectiontool.results.one
-msgctxt "view~dictionnary.selectiontool.results.one"
-msgid "1 selected object"
-msgstr "1 objet sélectionné"
-
-#: view~dictionnary.selectiontool.results.more
-msgctxt "view~dictionnary.selectiontool.results.more"
-msgid "%s selected objects"
-msgstr "%s objets sélectionnés"
-
-#: view~dictionnary.layer.metadata.title
-msgctxt "view~dictionnary.layer.metadata.title"
-msgid "Information"
-msgstr "Informations"
-
-#: view~dictionnary.layer.metadata.layer.name
-msgctxt "view~dictionnary.layer.metadata.layer.name"
-msgid "Name"
-msgstr "Nom"
-
-#: view~dictionnary.layer.metadata.layer.type
-msgctxt "view~dictionnary.layer.metadata.layer.type"
-msgid "Type"
-msgstr "Type"
-
-#: view~dictionnary.layer.metadata.layer.type.group
-msgctxt "view~dictionnary.layer.metadata.layer.type.group"
-msgid "Group"
-msgstr "Groupe"
-
-#: view~dictionnary.layer.metadata.layer.type.layer
-msgctxt "view~dictionnary.layer.metadata.layer.type.layer"
-msgid "Layer"
-msgstr "Couche"
-
-#: view~dictionnary.layer.metadata.layer.abstract
-msgctxt "view~dictionnary.layer.metadata.layer.abstract"
-msgid "Description"
-msgstr "Description"
-
-#: view~dictionnary.layer.metadata.layer.link
-msgctxt "view~dictionnary.layer.metadata.layer.link"
-msgid "Information"
-msgstr "Information"
-
-#: view~dictionnary.layer.metadata.layer.info.see
-msgctxt "view~dictionnary.layer.metadata.layer.info.see"
-msgid "Documentation"
-msgstr "Documentation"
-
-#: view~dictionnary.layer.metadata.zoomToExtent.title
-msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
-msgid "Zoom to layer extent"
-msgstr "Zoomer sur la couche"
-
-#: view~dictionnary.layer.metadata.style.title
-msgctxt "view~dictionnary.layer.metadata.style.title"
-msgid "Change layer style"
-msgstr "Changer le style de la couche"
-
-#: view~dictionnary.layer.metadata.export.title
-msgctxt "view~dictionnary.layer.metadata.export.title"
-msgid "Export"
-msgstr "Exporter"
-
-#: view~dictionnary.layer.metadata.opacity.title
-msgctxt "view~dictionnary.layer.metadata.opacity.title"
-msgid "Opacity"
-msgstr "Opacité"
-
-#: view~dictionnary.layer.export.right.required
-msgctxt "view~dictionnary.layer.export.right.required"
-msgid "Right is required to export layer."
-msgstr "Une autorisation est nécessaire pour l'export de couche."
-
-#: view~dictionnary.geobookmark.name.required
-msgctxt "view~dictionnary.geobookmark.name.required"
-msgid "A name is required to create a bookmark."
-msgstr "Veuillez renseigner un nom pour le géosignet."
-
-#: view~dictionnary.geobookmark.confirm.delete
-msgctxt "view~dictionnary.geobookmark.confirm.delete"
-msgid "Are you sure you want to delete this bookmark?"
-msgstr "Êtes-vous sûr de vouloir supprimer ce géosignet ?"
-
-#: view~dictionnary.popup.msg.no.result
-msgctxt "view~dictionnary.popup.msg.no.result"
-msgid "No object has been found at this location."
-msgstr "Aucun objet n'a été identifié à cet endroit."
-
-#: view~dictionnary.generic.btn.close.title
-msgctxt "view~dictionnary.generic.btn.close.title"
-msgid "Close"
-msgstr "Fermer"
-
-#: view~dictionnary.atlas.toolbar.title
-msgctxt "view~dictionnary.atlas.toolbar.title"
-msgid "Atlas"
-msgstr "Atlas"
-
-#: view~dictionnary.atlas.navbar.title
-msgctxt "view~dictionnary.atlas.navbar.title"
-msgid "Atlas"
-msgstr "Atlas"
-
-#: view~dictionnary.atlas.toolbar.play
-msgctxt "view~dictionnary.atlas.toolbar.play"
-msgid "Play"
-msgstr "Lecture"
-
-#: view~dictionnary.atlas.toolbar.stop
-msgctxt "view~dictionnary.atlas.toolbar.stop"
-msgid "Stop"
-msgstr "Arrêter"
-
-#: view~dictionnary.atlas.toolbar.pause
-msgctxt "view~dictionnary.atlas.toolbar.pause"
-msgid "Pause"
-msgstr "Pause"
-
-#: view~dictionnary.atlas.toolbar.next
-msgctxt "view~dictionnary.atlas.toolbar.next"
-msgid "Next"
-msgstr "Suivant"
-
-#: view~dictionnary.atlas.toolbar.prev
-msgctxt "view~dictionnary.atlas.toolbar.prev"
-msgid "Previous"
-msgstr "Précédent"
-
-#: view~dictionnary.embed.open.map
-msgctxt "view~dictionnary.embed.open.map"
-msgid "Open the map in full screen"
-msgstr "Ouvrir la carte en plein écran"

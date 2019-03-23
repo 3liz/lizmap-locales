@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-17 11:50++0200\n"
-"PO-Revision-Date: 2018-10-11 07:51+0000\n"
+"POT-Creation-Date: 2019-03-23 15:07++0100\n"
+"PO-Revision-Date: 2019-03-23 14:08+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/3liz-1/lizmap-locales/language/eu/)\n"
 "MIME-Version: 1.0\n"
@@ -736,6 +736,482 @@ msgctxt "view~default.header.createAccount"
 msgid "Register"
 msgstr "Erregistratu"
 
+#: view~dictionnary.tree.button.checkbox
+msgctxt "view~dictionnary.tree.button.checkbox"
+msgid "Display/Hide"
+msgstr "Erakutsi/Ezkutatu"
+
+#: view~dictionnary.tree.button.link
+msgctxt "view~dictionnary.tree.button.link"
+msgid "Open documentation"
+msgstr "Dokumentazioa zabaldu"
+
+#: view~dictionnary.tree.button.removeCache
+msgctxt "view~dictionnary.tree.button.removeCache"
+msgid "Remove cache server for this layer"
+msgstr "Geruza honen cache memoria hustu"
+
+#: view~dictionnary.tree.button.expand
+msgctxt "view~dictionnary.tree.button.expand"
+msgid "Expand"
+msgstr ""
+
+#: view~dictionnary.tree.button.collapse
+msgctxt "view~dictionnary.tree.button.collapse"
+msgid "Collapse"
+msgstr ""
+
+#: view~dictionnary.print.activate
+msgctxt "view~dictionnary.print.activate"
+msgid "Place the rectangle for printing"
+msgstr "Situar el rectángulo para la impresión"
+
+#: view~dictionnary.measure.activate.length
+msgctxt "view~dictionnary.measure.activate.length"
+msgid "Click on the map to start measuring a length."
+msgstr "Hacer clic en el mapa para empezar a medir una longitud."
+
+#: view~dictionnary.measure.activate.area
+msgctxt "view~dictionnary.measure.activate.area"
+msgid "Click on the map to start measuring an area."
+msgstr "Hacer clic en el mapa para empezar a medir un área."
+
+#: view~dictionnary.measure.activate.perimeter
+msgctxt "view~dictionnary.measure.activate.perimeter"
+msgid "Click on the map to start measuring a perimeter."
+msgstr "Hacer clic en el mapa para empezar a medir un perímetro."
+
+#: view~dictionnary.measure.handle
+msgctxt "view~dictionnary.measure.handle"
+msgid "Measure:"
+msgstr "Medida:"
+
+#: view~dictionnary.geolocation.failed
+msgctxt "view~dictionnary.geolocation.failed"
+msgid "Location detection failed"
+msgstr "Geokokapenak huts egin du"
+
+#: view~dictionnary.edition.title
+msgctxt "view~dictionnary.edition.title"
+msgid "Edition"
+msgstr "Edizioa"
+
+#: view~dictionnary.edition.draw.activate
+msgctxt "view~dictionnary.edition.draw.activate"
+msgid "Draw the feature you want to create on the map."
+msgstr "Mapan margotu sortu nahi duzun elementua."
+
+#: view~dictionnary.edition.select.activate
+msgctxt "view~dictionnary.edition.select.activate"
+msgid "Click on one of the layer's features to select it."
+msgstr "Geruzaren elementu batean klik egin, bera aukeratzeko."
+
+#: view~dictionnary.edition.select.modify.activate
+msgctxt "view~dictionnary.edition.select.modify.activate"
+msgid "You can modify the feature you have selected, then submit."
+msgstr "Aukeratutako elementua editatu dezakezu."
+
+#: view~dictionnary.edition.datepicker.open
+msgctxt "view~dictionnary.edition.datepicker.open"
+msgid "Open the calendar"
+msgstr ""
+
+#: view~dictionnary.edition.datepicker.reset
+msgctxt "view~dictionnary.edition.datepicker.reset"
+msgid "Reset the date"
+msgstr ""
+
+#: view~dictionnary.edition.confirm.delete
+msgctxt "view~dictionnary.edition.confirm.delete"
+msgid "Are you sure you want to delete the selected feature?"
+msgstr "Seguru zaude aukeratutako ezaugarria ezabatu nahi duzula?"
+
+#: view~dictionnary.edition.confirm.cancel
+msgctxt "view~dictionnary.edition.confirm.cancel"
+msgid ""
+"Are you sure you want to cancel edition? You will lose any modifications "
+"made on the currently edited object."
+msgstr "Ziur zuade edizioa eten nahi duzula? Egindako aldaketak galduko dira."
+
+#: view~dictionnary.edition.message.error.no.geometry
+msgctxt "view~dictionnary.edition.message.error.no.geometry"
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
+msgstr "Objektua ezin duzu gorde geometria barik. Mesedez, geometria bat marraztu mapan."
+
+#: view~dictionnary.edition.point.coord.crs.layer
+msgctxt "view~dictionnary.edition.point.coord.crs.layer"
+msgid "Layer"
+msgstr "Geruza"
+
+#: view~dictionnary.edition.point.coord.crs.map
+msgctxt "view~dictionnary.edition.point.coord.crs.map"
+msgid "Map"
+msgstr "Mapa"
+
+#: view~dictionnary.externalsearch.search
+msgctxt "view~dictionnary.externalsearch.search"
+msgid "Searching"
+msgstr "Bilaketa"
+
+#: view~dictionnary.externalsearch.notfound
+msgctxt "view~dictionnary.externalsearch.notfound"
+msgid "No results"
+msgstr "Ez dago emaitzarik"
+
+#: view~dictionnary.externalsearch.mapdata
+msgctxt "view~dictionnary.externalsearch.mapdata"
+msgid "Map data"
+msgstr ""
+
+#: view~dictionnary.timemanager.toolbar.play
+msgctxt "view~dictionnary.timemanager.toolbar.play"
+msgid "Play"
+msgstr "Erreproduzitu"
+
+#: view~dictionnary.timemanager.toolbar.pause
+msgctxt "view~dictionnary.timemanager.toolbar.pause"
+msgid "Pause"
+msgstr "Eten"
+
+#: view~dictionnary.baselayer.empty.title
+msgctxt "view~dictionnary.baselayer.empty.title"
+msgid "No base map"
+msgstr "Oinarri geruzarik gabe"
+
+#: view~dictionnary.bottomdock.toolbar.btn.glue.activate.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.activate.title"
+msgid "Pin"
+msgstr "Markatu"
+
+#: view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title"
+msgid "Unpin"
+msgstr "Desmarkatu"
+
+#: view~dictionnary.bottomdock.toolbar.btn.glue.glued.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.glued.title"
+msgid "Pinned"
+msgstr "Markatua"
+
+#: view~dictionnary.bottomdock.toolbar.btn.size.maximize.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.maximize.title"
+msgid "Maximize"
+msgstr "Maximizatu"
+
+#: view~dictionnary.bottomdock.toolbar.btn.size.minimize.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
+msgid "Minimize"
+msgstr "Minimizatu"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.detail
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
+msgid "Detail"
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
+msgid "Get data"
+msgstr "Datuak eskuratu"
+
+#: view~dictionnary.attributeLayers.toolbar.cb.data.detail.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.cb.data.detail.title"
+msgid "Display info"
+msgstr "Informazioa erakutsi"
+
+#: view~dictionnary.attributeLayers.toolbar.input.search.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.title"
+msgid "Search"
+msgstr "Bilatu"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
+msgid "Select searched line"
+msgstr "Bilatutako linea aukeratu"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title"
+msgid "Unselect all"
+msgstr "Delekzionatu dana"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
+msgid "Move selected to top"
+msgstr "Selekzioa gora eraman"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
+msgid "Filter"
+msgstr "Filtratu"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
+msgid "Export"
+msgstr "Exportatu"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
+msgid "Create feature"
+msgstr "Elementua sortu"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
+msgid "Create a child"
+msgstr "Semea sortu"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived"
+msgid "Activated line needed!"
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
+msgid "Toggle children tables"
+msgstr "Semeen taulak eragin"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title"
+msgid "Link selected features"
+msgstr "Aukeratutako elementuak estekatu"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.hide.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.hide.title"
+msgid "Hide"
+msgstr "Ezkutatu"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.show.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
+msgid "Show"
+msgstr "Erakutsi"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
+msgid "Refresh"
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
+msgid "Refresh the table data."
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
+msgid "The map extent has changed since the last time data were fetched."
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.msg.data.lines
+msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
+msgid "lines returned"
+msgstr "Eskuratutako lerroak"
+
+#: view~dictionnary.attributeLayers.toolbar.msg.data.nodata
+msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.nodata"
+msgid "No result for this layer"
+msgstr "Ez dago emaitzarik geruza honetarako"
+
+#: view~dictionnary.attributeLayers.toolbar.msg.data.extent
+msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.extent"
+msgid "in the current extent"
+msgstr "Oraingo eremuan"
+
+#: view~dictionnary.attributeLayers.btn.info.title
+msgctxt "view~dictionnary.attributeLayers.btn.info.title"
+msgid "Info"
+msgstr "Informazioa"
+
+#: view~dictionnary.attributeLayers.btn.edit.title
+msgctxt "view~dictionnary.attributeLayers.btn.edit.title"
+msgid "Edit"
+msgstr "Editatu"
+
+#: view~dictionnary.attributeLayers.btn.delete.title
+msgctxt "view~dictionnary.attributeLayers.btn.delete.title"
+msgid "Delete"
+msgstr "Ezabatu"
+
+#: view~dictionnary.attributeLayers.btn.remove.link.title
+msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
+msgid "Unlink child"
+msgstr "Semearen esteka ezabatu"
+
+#: view~dictionnary.attributeLayers.btn.select.title
+msgctxt "view~dictionnary.attributeLayers.btn.select.title"
+msgid "Select"
+msgstr "Aukeratu"
+
+#: view~dictionnary.attributeLayers.btn.unselect.title
+msgctxt "view~dictionnary.attributeLayers.btn.unselect.title"
+msgid "Unselect"
+msgstr "Desaukeratu"
+
+#: view~dictionnary.attributeLayers.btn.zoom.title
+msgctxt "view~dictionnary.attributeLayers.btn.zoom.title"
+msgid "Zoom"
+msgstr "Zoom-a"
+
+#: view~dictionnary.attributeLayers.btn.center.title
+msgctxt "view~dictionnary.attributeLayers.btn.center.title"
+msgid "Center"
+msgstr "Zentratu"
+
+#: view~dictionnary.attributeLayers.msg.layer.not.visible
+msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
+msgid ""
+"The layer is not visible. Please zoom at a scale in which the features are "
+"visible."
+msgstr ""
+
+#: view~dictionnary.selectiontool.results.none
+msgctxt "view~dictionnary.selectiontool.results.none"
+msgid "No object selected"
+msgstr ""
+
+#: view~dictionnary.selectiontool.results.one
+msgctxt "view~dictionnary.selectiontool.results.one"
+msgid "1 selected object"
+msgstr ""
+
+#: view~dictionnary.selectiontool.results.more
+msgctxt "view~dictionnary.selectiontool.results.more"
+msgid "%s selected objects"
+msgstr ""
+
+#: view~dictionnary.layer.metadata.title
+msgctxt "view~dictionnary.layer.metadata.title"
+msgid "Information"
+msgstr "Informazioa"
+
+#: view~dictionnary.layer.metadata.layer.name
+msgctxt "view~dictionnary.layer.metadata.layer.name"
+msgid "Name"
+msgstr "izena"
+
+#: view~dictionnary.layer.metadata.layer.type
+msgctxt "view~dictionnary.layer.metadata.layer.type"
+msgid "Type"
+msgstr "Mota"
+
+#: view~dictionnary.layer.metadata.layer.type.group
+msgctxt "view~dictionnary.layer.metadata.layer.type.group"
+msgid "Group"
+msgstr "Grupoa"
+
+#: view~dictionnary.layer.metadata.layer.type.layer
+msgctxt "view~dictionnary.layer.metadata.layer.type.layer"
+msgid "Layer"
+msgstr "Geruza"
+
+#: view~dictionnary.layer.metadata.layer.abstract
+msgctxt "view~dictionnary.layer.metadata.layer.abstract"
+msgid "Description"
+msgstr "Deskripzioa"
+
+#: view~dictionnary.layer.metadata.layer.link
+msgctxt "view~dictionnary.layer.metadata.layer.link"
+msgid "Information"
+msgstr "Informazioa"
+
+#: view~dictionnary.layer.metadata.layer.info.see
+msgctxt "view~dictionnary.layer.metadata.layer.info.see"
+msgid "Documentation"
+msgstr "Documentazioa"
+
+#: view~dictionnary.layer.metadata.zoomToExtent.title
+msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
+msgid "Zoom to layer extent"
+msgstr "Zoom-a geruzaren hedaduran"
+
+#: view~dictionnary.layer.metadata.style.title
+msgctxt "view~dictionnary.layer.metadata.style.title"
+msgid "Change layer style"
+msgstr "Aldatu geruzaren estiloa"
+
+#: view~dictionnary.layer.metadata.export.title
+msgctxt "view~dictionnary.layer.metadata.export.title"
+msgid "Export"
+msgstr "Exportatu"
+
+#: view~dictionnary.layer.metadata.opacity.title
+msgctxt "view~dictionnary.layer.metadata.opacity.title"
+msgid "Opacity"
+msgstr ""
+
+#: view~dictionnary.layer.export.right.required
+msgctxt "view~dictionnary.layer.export.right.required"
+msgid "Right is required to export layer."
+msgstr "Baimena behar da geruza esportatzeko"
+
+#: view~dictionnary.geobookmark.name.required
+msgctxt "view~dictionnary.geobookmark.name.required"
+msgid "A name is required to create a bookmark."
+msgstr "Izena behar da bookmark-a sortzeko"
+
+#: view~dictionnary.geobookmark.confirm.delete
+msgctxt "view~dictionnary.geobookmark.confirm.delete"
+msgid "Are you sure you want to delete this bookmark?"
+msgstr "Ziur zaude bookmark-a ezabatu nahi duzula?"
+
+#: view~dictionnary.popup.msg.start
+msgctxt "view~dictionnary.popup.msg.start"
+msgid "Click to the map to get informations."
+msgstr ""
+
+#: view~dictionnary.popup.msg.no.result
+msgctxt "view~dictionnary.popup.msg.no.result"
+msgid "No object has been found at this location."
+msgstr ""
+
+#: view~dictionnary.generic.btn.close.title
+msgctxt "view~dictionnary.generic.btn.close.title"
+msgid "Close"
+msgstr "Itxi"
+
+#: view~dictionnary.atlas.toolbar.title
+msgctxt "view~dictionnary.atlas.toolbar.title"
+msgid "Atlas"
+msgstr ""
+
+#: view~dictionnary.atlas.navbar.title
+msgctxt "view~dictionnary.atlas.navbar.title"
+msgid "Atlas"
+msgstr ""
+
+#: view~dictionnary.atlas.toolbar.play
+msgctxt "view~dictionnary.atlas.toolbar.play"
+msgid "Play"
+msgstr "Erreproduzitu"
+
+#: view~dictionnary.atlas.toolbar.stop
+msgctxt "view~dictionnary.atlas.toolbar.stop"
+msgid "Stop"
+msgstr "Gelditu"
+
+#: view~dictionnary.atlas.toolbar.pause
+msgctxt "view~dictionnary.atlas.toolbar.pause"
+msgid "Pause"
+msgstr "Eten"
+
+#: view~dictionnary.atlas.toolbar.next
+msgctxt "view~dictionnary.atlas.toolbar.next"
+msgid "Next"
+msgstr "Siguiente"
+
+#: view~dictionnary.atlas.toolbar.prev
+msgctxt "view~dictionnary.atlas.toolbar.prev"
+msgid "Previous"
+msgstr "Anterior"
+
+#: view~dictionnary.embed.open.map
+msgctxt "view~dictionnary.embed.open.map"
+msgid "Open the map in full screen"
+msgstr ""
+
 #: view~user.form.firstname.label
 msgctxt "view~user.form.firstname.label"
 msgid "First name"
@@ -1197,474 +1673,3 @@ msgstr "Seme-elementua ondo estekatu da!"
 msgctxt "view~edition.unlink.error.sql"
 msgid "An error occured while removing link!"
 msgstr "Errorea jazo da esteka kentzerakoan!"
-
-#: view~dictionnary.tree.button.checkbox
-msgctxt "view~dictionnary.tree.button.checkbox"
-msgid "Display/Hide"
-msgstr "Erakutsi/Ezkutatu"
-
-#: view~dictionnary.tree.button.link
-msgctxt "view~dictionnary.tree.button.link"
-msgid "Open documentation"
-msgstr "Dokumentazioa zabaldu"
-
-#: view~dictionnary.tree.button.removeCache
-msgctxt "view~dictionnary.tree.button.removeCache"
-msgid "Remove cache server for this layer"
-msgstr "Geruza honen cache memoria hustu"
-
-#: view~dictionnary.tree.button.expand
-msgctxt "view~dictionnary.tree.button.expand"
-msgid "Expand"
-msgstr ""
-
-#: view~dictionnary.tree.button.collapse
-msgctxt "view~dictionnary.tree.button.collapse"
-msgid "Collapse"
-msgstr ""
-
-#: view~dictionnary.print.activate
-msgctxt "view~dictionnary.print.activate"
-msgid "Place the rectangle for printing"
-msgstr "Situar el rectángulo para la impresión"
-
-#: view~dictionnary.measure.activate.length
-msgctxt "view~dictionnary.measure.activate.length"
-msgid "Click on the map to start measuring a length."
-msgstr "Hacer clic en el mapa para empezar a medir una longitud."
-
-#: view~dictionnary.measure.activate.area
-msgctxt "view~dictionnary.measure.activate.area"
-msgid "Click on the map to start measuring an area."
-msgstr "Hacer clic en el mapa para empezar a medir un área."
-
-#: view~dictionnary.measure.activate.perimeter
-msgctxt "view~dictionnary.measure.activate.perimeter"
-msgid "Click on the map to start measuring a perimeter."
-msgstr "Hacer clic en el mapa para empezar a medir un perímetro."
-
-#: view~dictionnary.measure.handle
-msgctxt "view~dictionnary.measure.handle"
-msgid "Measure:"
-msgstr "Medida:"
-
-#: view~dictionnary.geolocation.failed
-msgctxt "view~dictionnary.geolocation.failed"
-msgid "Location detection failed"
-msgstr "Geokokapenak huts egin du"
-
-#: view~dictionnary.edition.title
-msgctxt "view~dictionnary.edition.title"
-msgid "Edition"
-msgstr "Edizioa"
-
-#: view~dictionnary.edition.draw.activate
-msgctxt "view~dictionnary.edition.draw.activate"
-msgid "Draw the feature you want to create on the map."
-msgstr "Mapan margotu sortu nahi duzun elementua."
-
-#: view~dictionnary.edition.select.activate
-msgctxt "view~dictionnary.edition.select.activate"
-msgid "Click on one of the layer's features to select it."
-msgstr "Geruzaren elementu batean klik egin, bera aukeratzeko."
-
-#: view~dictionnary.edition.select.modify.activate
-msgctxt "view~dictionnary.edition.select.modify.activate"
-msgid "You can modify the feature you have selected, then submit."
-msgstr "Aukeratutako elementua editatu dezakezu."
-
-#: view~dictionnary.edition.datepicker.open
-msgctxt "view~dictionnary.edition.datepicker.open"
-msgid "Open the calendar"
-msgstr ""
-
-#: view~dictionnary.edition.datepicker.reset
-msgctxt "view~dictionnary.edition.datepicker.reset"
-msgid "Reset the date"
-msgstr ""
-
-#: view~dictionnary.edition.confirm.delete
-msgctxt "view~dictionnary.edition.confirm.delete"
-msgid "Are you sure you want to delete the selected feature?"
-msgstr "Seguru zaude aukeratutako ezaugarria ezabatu nahi duzula?"
-
-#: view~dictionnary.edition.confirm.cancel
-msgctxt "view~dictionnary.edition.confirm.cancel"
-msgid ""
-"Are you sure you want to cancel edition? You will lose any modifications "
-"made on the currently edited object."
-msgstr "Ziur zuade edizioa eten nahi duzula? Egindako aldaketak galduko dira."
-
-#: view~dictionnary.edition.message.error.no.geometry
-msgctxt "view~dictionnary.edition.message.error.no.geometry"
-msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
-msgstr "Objektua ezin duzu gorde geometria barik. Mesedez, geometria bat marraztu mapan."
-
-#: view~dictionnary.edition.point.coord.crs.layer
-msgctxt "view~dictionnary.edition.point.coord.crs.layer"
-msgid "Layer"
-msgstr "Geruza"
-
-#: view~dictionnary.edition.point.coord.crs.map
-msgctxt "view~dictionnary.edition.point.coord.crs.map"
-msgid "Map"
-msgstr "Mapa"
-
-#: view~dictionnary.externalsearch.search
-msgctxt "view~dictionnary.externalsearch.search"
-msgid "Searching"
-msgstr "Bilaketa"
-
-#: view~dictionnary.externalsearch.notfound
-msgctxt "view~dictionnary.externalsearch.notfound"
-msgid "No results"
-msgstr "Ez dago emaitzarik"
-
-#: view~dictionnary.externalsearch.mapdata
-msgctxt "view~dictionnary.externalsearch.mapdata"
-msgid "Map data"
-msgstr ""
-
-#: view~dictionnary.timemanager.toolbar.play
-msgctxt "view~dictionnary.timemanager.toolbar.play"
-msgid "Play"
-msgstr "Erreproduzitu"
-
-#: view~dictionnary.timemanager.toolbar.pause
-msgctxt "view~dictionnary.timemanager.toolbar.pause"
-msgid "Pause"
-msgstr "Eten"
-
-#: view~dictionnary.baselayer.empty.title
-msgctxt "view~dictionnary.baselayer.empty.title"
-msgid "No base map"
-msgstr "Oinarri geruzarik gabe"
-
-#: view~dictionnary.bottomdock.toolbar.btn.glue.activate.title
-msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.activate.title"
-msgid "Pin"
-msgstr "Markatu"
-
-#: view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title
-msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title"
-msgid "Unpin"
-msgstr "Desmarkatu"
-
-#: view~dictionnary.bottomdock.toolbar.btn.glue.glued.title
-msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.glued.title"
-msgid "Pinned"
-msgstr "Markatua"
-
-#: view~dictionnary.bottomdock.toolbar.btn.size.maximize.title
-msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.maximize.title"
-msgid "Maximize"
-msgstr "Maximizatu"
-
-#: view~dictionnary.bottomdock.toolbar.btn.size.minimize.title
-msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
-msgid "Minimize"
-msgstr "Minimizatu"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.detail
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
-msgid "Detail"
-msgstr ""
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
-msgid "Get data"
-msgstr "Datuak eskuratu"
-
-#: view~dictionnary.attributeLayers.toolbar.cb.data.detail.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.cb.data.detail.title"
-msgid "Display info"
-msgstr "Informazioa erakutsi"
-
-#: view~dictionnary.attributeLayers.toolbar.input.search.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.title"
-msgid "Search"
-msgstr "Bilatu"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
-msgid "Select searched line"
-msgstr "Bilatutako linea aukeratu"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title"
-msgid "Unselect all"
-msgstr "Delekzionatu dana"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
-msgctxt ""
-"view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
-msgid "Move selected to top"
-msgstr "Selekzioa gora eraman"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
-msgid "Filter"
-msgstr "Filtratu"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
-msgid "Export"
-msgstr "Exportatu"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title
-msgctxt ""
-"view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
-msgid "Create feature"
-msgstr "Elementua sortu"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
-msgctxt ""
-"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
-msgid "Create a child"
-msgstr "Semea sortu"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
-msgctxt ""
-"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived"
-msgid "Activated line needed!"
-msgstr ""
-
-#: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
-msgid "Toggle children tables"
-msgstr "Semeen taulak eragin"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title"
-msgid "Link selected features"
-msgstr "Aukeratutako elementuak estekatu"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.hide.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.hide.title"
-msgid "Hide"
-msgstr "Ezkutatu"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.data.show.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
-msgid "Show"
-msgstr "Erakutsi"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
-msgid "Refresh"
-msgstr ""
-
-#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
-msgid "Refresh the table data."
-msgstr ""
-
-#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
-msgctxt ""
-"view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
-msgid "The map extent has changed since the last time data were fetched."
-msgstr ""
-
-#: view~dictionnary.attributeLayers.toolbar.msg.data.lines
-msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
-msgid "lines returned"
-msgstr "Eskuratutako lerroak"
-
-#: view~dictionnary.attributeLayers.toolbar.msg.data.nodata
-msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.nodata"
-msgid "No result for this layer"
-msgstr "Ez dago emaitzarik geruza honetarako"
-
-#: view~dictionnary.attributeLayers.toolbar.msg.data.extent
-msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.extent"
-msgid "in the current extent"
-msgstr "Oraingo eremuan"
-
-#: view~dictionnary.attributeLayers.btn.info.title
-msgctxt "view~dictionnary.attributeLayers.btn.info.title"
-msgid "Info"
-msgstr "Informazioa"
-
-#: view~dictionnary.attributeLayers.btn.edit.title
-msgctxt "view~dictionnary.attributeLayers.btn.edit.title"
-msgid "Edit"
-msgstr "Editatu"
-
-#: view~dictionnary.attributeLayers.btn.delete.title
-msgctxt "view~dictionnary.attributeLayers.btn.delete.title"
-msgid "Delete"
-msgstr "Ezabatu"
-
-#: view~dictionnary.attributeLayers.btn.remove.link.title
-msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
-msgid "Unlink child"
-msgstr "Semearen esteka ezabatu"
-
-#: view~dictionnary.attributeLayers.btn.select.title
-msgctxt "view~dictionnary.attributeLayers.btn.select.title"
-msgid "Select"
-msgstr "Aukeratu"
-
-#: view~dictionnary.attributeLayers.btn.unselect.title
-msgctxt "view~dictionnary.attributeLayers.btn.unselect.title"
-msgid "Unselect"
-msgstr "Desaukeratu"
-
-#: view~dictionnary.attributeLayers.btn.zoom.title
-msgctxt "view~dictionnary.attributeLayers.btn.zoom.title"
-msgid "Zoom"
-msgstr "Zoom-a"
-
-#: view~dictionnary.attributeLayers.btn.center.title
-msgctxt "view~dictionnary.attributeLayers.btn.center.title"
-msgid "Center"
-msgstr "Zentratu"
-
-#: view~dictionnary.attributeLayers.msg.layer.not.visible
-msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
-msgid ""
-"The layer is not visible. Please zoom at a scale in which the features are "
-"visible."
-msgstr ""
-
-#: view~dictionnary.selectiontool.results.none
-msgctxt "view~dictionnary.selectiontool.results.none"
-msgid "No object selected"
-msgstr ""
-
-#: view~dictionnary.selectiontool.results.one
-msgctxt "view~dictionnary.selectiontool.results.one"
-msgid "1 selected object"
-msgstr ""
-
-#: view~dictionnary.selectiontool.results.more
-msgctxt "view~dictionnary.selectiontool.results.more"
-msgid "%s selected objects"
-msgstr ""
-
-#: view~dictionnary.layer.metadata.title
-msgctxt "view~dictionnary.layer.metadata.title"
-msgid "Information"
-msgstr "Informazioa"
-
-#: view~dictionnary.layer.metadata.layer.name
-msgctxt "view~dictionnary.layer.metadata.layer.name"
-msgid "Name"
-msgstr "izena"
-
-#: view~dictionnary.layer.metadata.layer.type
-msgctxt "view~dictionnary.layer.metadata.layer.type"
-msgid "Type"
-msgstr "Mota"
-
-#: view~dictionnary.layer.metadata.layer.type.group
-msgctxt "view~dictionnary.layer.metadata.layer.type.group"
-msgid "Group"
-msgstr "Grupoa"
-
-#: view~dictionnary.layer.metadata.layer.type.layer
-msgctxt "view~dictionnary.layer.metadata.layer.type.layer"
-msgid "Layer"
-msgstr "Geruza"
-
-#: view~dictionnary.layer.metadata.layer.abstract
-msgctxt "view~dictionnary.layer.metadata.layer.abstract"
-msgid "Description"
-msgstr "Deskripzioa"
-
-#: view~dictionnary.layer.metadata.layer.link
-msgctxt "view~dictionnary.layer.metadata.layer.link"
-msgid "Information"
-msgstr "Informazioa"
-
-#: view~dictionnary.layer.metadata.layer.info.see
-msgctxt "view~dictionnary.layer.metadata.layer.info.see"
-msgid "Documentation"
-msgstr "Documentazioa"
-
-#: view~dictionnary.layer.metadata.zoomToExtent.title
-msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
-msgid "Zoom to layer extent"
-msgstr "Zoom-a geruzaren hedaduran"
-
-#: view~dictionnary.layer.metadata.style.title
-msgctxt "view~dictionnary.layer.metadata.style.title"
-msgid "Change layer style"
-msgstr "Aldatu geruzaren estiloa"
-
-#: view~dictionnary.layer.metadata.export.title
-msgctxt "view~dictionnary.layer.metadata.export.title"
-msgid "Export"
-msgstr "Exportatu"
-
-#: view~dictionnary.layer.metadata.opacity.title
-msgctxt "view~dictionnary.layer.metadata.opacity.title"
-msgid "Opacity"
-msgstr ""
-
-#: view~dictionnary.layer.export.right.required
-msgctxt "view~dictionnary.layer.export.right.required"
-msgid "Right is required to export layer."
-msgstr "Baimena behar da geruza esportatzeko"
-
-#: view~dictionnary.geobookmark.name.required
-msgctxt "view~dictionnary.geobookmark.name.required"
-msgid "A name is required to create a bookmark."
-msgstr "Izena behar da bookmark-a sortzeko"
-
-#: view~dictionnary.geobookmark.confirm.delete
-msgctxt "view~dictionnary.geobookmark.confirm.delete"
-msgid "Are you sure you want to delete this bookmark?"
-msgstr "Ziur zaude bookmark-a ezabatu nahi duzula?"
-
-#: view~dictionnary.popup.msg.no.result
-msgctxt "view~dictionnary.popup.msg.no.result"
-msgid "No object has been found at this location."
-msgstr ""
-
-#: view~dictionnary.generic.btn.close.title
-msgctxt "view~dictionnary.generic.btn.close.title"
-msgid "Close"
-msgstr "Itxi"
-
-#: view~dictionnary.atlas.toolbar.title
-msgctxt "view~dictionnary.atlas.toolbar.title"
-msgid "Atlas"
-msgstr ""
-
-#: view~dictionnary.atlas.navbar.title
-msgctxt "view~dictionnary.atlas.navbar.title"
-msgid "Atlas"
-msgstr ""
-
-#: view~dictionnary.atlas.toolbar.play
-msgctxt "view~dictionnary.atlas.toolbar.play"
-msgid "Play"
-msgstr "Erreproduzitu"
-
-#: view~dictionnary.atlas.toolbar.stop
-msgctxt "view~dictionnary.atlas.toolbar.stop"
-msgid "Stop"
-msgstr "Gelditu"
-
-#: view~dictionnary.atlas.toolbar.pause
-msgctxt "view~dictionnary.atlas.toolbar.pause"
-msgid "Pause"
-msgstr "Eten"
-
-#: view~dictionnary.atlas.toolbar.next
-msgctxt "view~dictionnary.atlas.toolbar.next"
-msgid "Next"
-msgstr "Siguiente"
-
-#: view~dictionnary.atlas.toolbar.prev
-msgctxt "view~dictionnary.atlas.toolbar.prev"
-msgid "Previous"
-msgstr "Anterior"
-
-#: view~dictionnary.embed.open.map
-msgctxt "view~dictionnary.embed.open.map"
-msgid "Open the map in full screen"
-msgstr ""

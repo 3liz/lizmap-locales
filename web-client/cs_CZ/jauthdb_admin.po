@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 18:11++0100\n"
-"PO-Revision-Date: 2019-03-01 14:42+0000\n"
+"POT-Creation-Date: 2019-03-23 15:07++0100\n"
+"PO-Revision-Date: 2019-03-21 14:00+0000\n"
 "Last-Translator: trendspotter <j.podhorecky@volny.cz>\n"
 "Language-Team: Czech (http://www.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -114,6 +114,11 @@ msgstr "Uživatel %s byl aktualizován."
 msgctxt "jauthdb_admin~crud.message.create.ok"
 msgid "The user %s has been created."
 msgstr "Uživatel %s byl vytvořen."
+
+#: jauthdb_admin~crud.message.create.existing.user
+msgctxt "jauthdb_admin~crud.message.create.existing.user"
+msgid "The user %s already exists"
+msgstr "Uživatel %s již existuje"
 
 #: jauthdb_admin~crud.message.delete.invalid.pwd
 msgctxt "jauthdb_admin~crud.message.delete.invalid.pwd"
