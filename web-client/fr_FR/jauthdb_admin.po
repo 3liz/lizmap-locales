@@ -1,14 +1,14 @@
-# 
 # Translators:
-# rldhont <rldhont@gmail.com>, 2016-2017,2019
+# rldhont <rldhont@gmail.com>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client jauthdb_admin 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 15:07++0100\n"
-"PO-Revision-Date: 2019-03-19 15:17+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
-"Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
+"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>, 2019\n"
+"Language-Team: French (https://www.transifex.com/3liz-1/teams/62012/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,7 +28,7 @@ msgstr "Modification d'un utilisateur"
 #: jauthdb_admin~crud.title.create
 msgctxt "jauthdb_admin~crud.title.create"
 msgid "Create a new user"
-msgstr "Création d'un utilisateur"
+msgstr "Créer un nouvel utilisateur"
 
 #: jauthdb_admin~crud.title.view
 msgctxt "jauthdb_admin~crud.title.view"
@@ -73,7 +73,7 @@ msgstr "Modifier"
 #: jauthdb_admin~crud.link.delete.record
 msgctxt "jauthdb_admin~crud.link.delete.record"
 msgid "Delete"
-msgstr "Effacer"
+msgstr "Supprimer"
 
 #: jauthdb_admin~crud.link.change.password
 msgctxt "jauthdb_admin~crud.link.change.password"
@@ -145,7 +145,9 @@ msgctxt "jauthdb_admin~crud.message.bad.password"
 msgid ""
 "The password is bad, or the second password does not correspond to the first"
 " one"
-msgstr "Le mot de passe saisie n'est pas valide, ou le mot de passe de confirmation est mauvais."
+msgstr ""
+"Le mot de passe saisie n'est pas valide, ou le mot de passe de confirmation "
+"est mauvais."
 
 #: jauthdb_admin~crud.message.bad.id
 msgctxt "jauthdb_admin~crud.message.bad.id"
@@ -160,12 +162,12 @@ msgstr "Erreur, pas de formulaire"
 #: jauthdb_admin~crud.list.col.login
 msgctxt "jauthdb_admin~crud.list.col.login"
 msgid "Login"
-msgstr "Identifiant"
+msgstr "Connexion"
 
 #: jauthdb_admin~crud.form.login
 msgctxt "jauthdb_admin~crud.form.login"
 msgid "Login"
-msgstr "Identifiant"
+msgstr "Connexion"
 
 #: jauthdb_admin~crud.form.email
 msgctxt "jauthdb_admin~crud.form.email"
@@ -210,7 +212,7 @@ msgstr "Information sur l'utilisateur"
 #: jauthdb_admin~user.title.update
 msgctxt "jauthdb_admin~user.title.update"
 msgid "Edit your profile"
-msgstr "Modification de votre profil"
+msgstr "Modifier votre profil"
 
 #: jauthdb_admin~user.title.view
 msgctxt "jauthdb_admin~user.title.view"
@@ -265,24 +267,26 @@ msgstr "Le changement de votre mot de passe a été effectué."
 #: jauthdb_admin~user.message.change.password.notok
 msgctxt "jauthdb_admin~user.message.change.password.notok"
 msgid "Error during the change of the password"
-msgstr "Le changement de votre mot de passe a échoué."
+msgstr "Le changement de mot de passe a échoué."
 
 #: jauthdb_admin~user.message.bad.password
 msgctxt "jauthdb_admin~user.message.bad.password"
 msgid ""
 "The password is bad, or the second password does not correspond to the first"
 " one"
-msgstr "Le mot de passe saisie n'est pas valide, ou le mot de passe de confirmation est mauvais."
+msgstr ""
+"Le mot de passe saisie n'est pas valide, ou le mot de passe de confirmation "
+"est mauvais."
 
 #: jauthdb_admin~user.list.col.login
 msgctxt "jauthdb_admin~user.list.col.login"
 msgid "Login"
-msgstr "Identifiant"
+msgstr "Connexion"
 
 #: jauthdb_admin~user.form.login
 msgctxt "jauthdb_admin~user.form.login"
 msgid "Login"
-msgstr "Identifiant"
+msgstr "Connexion"
 
 #: jauthdb_admin~user.form.email
 msgctxt "jauthdb_admin~user.form.email"

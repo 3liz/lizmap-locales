@@ -1,15 +1,16 @@
-# 
 # Translators:
-# Jean-Louis Stanus <rammstan@msn.com>, 2017
-# Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2018
+# Jean-Louis Stanus <rammstan@msn.com>, 2019
+# Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2019
+# Nico Veenstra <nvbgm@gmx.net>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-17 11:50++0200\n"
-"PO-Revision-Date: 2018-10-11 07:51+0000\n"
-"Last-Translator: Jean-Louis Stanus <rammstan@msn.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/3liz-1/lizmap-locales/language/nl/)\n"
+"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2019\n"
+"Language-Team: Dutch (https://www.transifex.com/3liz-1/teams/62012/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -54,7 +55,7 @@ msgstr "Standaard groepen ingesteld"
 #: jacl2db_admin~acl2.create.group
 msgctxt "jacl2db_admin~acl2.create.group"
 msgid "Create a group"
-msgstr "Een groep creëren"
+msgstr "Maak een groep aan"
 
 #: jacl2db_admin~acl2.group.name.label
 msgctxt "jacl2db_admin~acl2.group.name.label"
@@ -110,11 +111,13 @@ msgstr "Groep verwijderd"
 msgctxt "jacl2db_admin~acl2.message.group.delete.error.noacl.yourself"
 msgid "The group cannot be deleted, else you couldn't manage rights"
 msgstr ""
+"De groep kan niet worden verwijderd, anders kun je geen rechten beheren."
 
 #: jacl2db_admin~acl2.message.group.delete.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.group.delete.error.noacl.anybody"
 msgid "The group cannot be deleted, else nobody couldn't manage rights"
 msgstr ""
+"De groep kan niet worden verwijderd, anders kan niemand rechten beheren."
 
 #: jacl2db_admin~acl2.groups.rights.title
 msgctxt "jacl2db_admin~acl2.groups.rights.title"
@@ -134,21 +137,27 @@ msgstr "Rechten"
 #: jacl2db_admin~acl2.group.help.rights.inherit
 msgctxt "jacl2db_admin~acl2.group.help.rights.inherit"
 msgid "\"-\": undefined right, it can be defined in other groups of the user"
-msgstr "\"-\": niet gedefinieerde machtiging, kan worden bepaald onder andere groepen van de gebruiker"
+msgstr ""
+"\"-\": niet gedefinieerde machtiging, kan worden bepaald onder andere "
+"groepen van de gebruiker"
 
 #: jacl2db_admin~acl2.group.help.rights.yes
 msgctxt "jacl2db_admin~acl2.group.help.rights.yes"
 msgid ""
 "\"yes\": indicate that the right is set, but can be canceled (\"no\") in an "
 "other group"
-msgstr "\"ja\": geef aan dat het recht ingesteld is, maar kan worden geannuleerd (\"nee\") in een andere groep"
+msgstr ""
+"\"ja\": geef aan dat het recht ingesteld is, maar kan worden geannuleerd "
+"(\"nee\") in een andere groep"
 
 #: jacl2db_admin~acl2.group.help.rights.no
 msgctxt "jacl2db_admin~acl2.group.help.rights.no"
 msgid ""
 "\"no\": the right is not assign to this group, and to any other groups of "
 "the user."
-msgstr "\"nee\": het recht is niet toegewezen aan deze groep, maar aan andere groepen van de gebruiker."
+msgstr ""
+"\"nee\": het recht is niet toegewezen aan deze groep, maar aan andere "
+"groepen van de gebruiker."
 
 #: jacl2db_admin~acl2.global.rights
 msgctxt "jacl2db_admin~acl2.global.rights"
@@ -164,12 +173,16 @@ msgstr "speciaal"
 msgctxt "jacl2db_admin~acl2.message.savegrouprights.error.noacl.yourself"
 msgid "Changes cannot be applied else you won't be able to change some rights"
 msgstr ""
+"Wijzigingen kunnen niet worden toegepast anders kunt u bepaalde rechten niet"
+" wijzigen"
 
 #: jacl2db_admin~acl2.message.savegrouprights.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.savegrouprights.error.noacl.anybody"
 msgid ""
 "Changes cannot be applied else nobody won't be able to change some rights"
 msgstr ""
+"Veranderingen kunnen niet worden toegepast anders zal niemand sommige "
+"rechten kunnen veranderen"
 
 #: jacl2db_admin~acl2.message.group.rights.ok
 msgctxt "jacl2db_admin~acl2.message.group.rights.ok"
@@ -194,17 +207,17 @@ msgstr "Filter"
 #: jacl2db_admin~acl2.filter.group
 msgctxt "jacl2db_admin~acl2.filter.group"
 msgid "Group:"
-msgstr ""
+msgstr "Groep:"
 
 #: jacl2db_admin~acl2.filter.word
 msgctxt "jacl2db_admin~acl2.filter.word"
 msgid "(part of) name:"
-msgstr ""
+msgstr "(gedeelte van) naam:"
 
 #: jacl2db_admin~acl2.show.button
 msgctxt "jacl2db_admin~acl2.show.button"
 msgid "Show"
-msgstr "Bekijken"
+msgstr "Toon"
 
 #: jacl2db_admin~acl2.no.user.message
 msgctxt "jacl2db_admin~acl2.no.user.message"
@@ -214,7 +227,7 @@ msgstr "Geen gebruiker."
 #: jacl2db_admin~acl2.col.users
 msgctxt "jacl2db_admin~acl2.col.users"
 msgid "Users"
-msgstr "Gebruiker"
+msgstr "Gebruikers"
 
 #: jacl2db_admin~acl2.rights.link
 msgctxt "jacl2db_admin~acl2.rights.link"
@@ -265,12 +278,16 @@ msgstr "Rechten opgeslagen"
 msgctxt "jacl2db_admin~acl2.message.saveuserrights.error.noacl.yourself"
 msgid "Changes cannot be applied else you won't be able to change some rights"
 msgstr ""
+"Wijzigingen kunnen niet worden toegepast anders kunt u bepaalde rechten niet"
+" wijzigen"
 
 #: jacl2db_admin~acl2.message.saveuserrights.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.saveuserrights.error.noacl.anybody"
 msgid ""
 "Changes cannot be applied else nobody won't be able to change some rights"
 msgstr ""
+"Veranderingen kunnen niet worden toegepast anders zal niemand sommige "
+"rechten kunnen veranderen"
 
 #: jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.yourself
 msgctxt "jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.yourself"
@@ -278,6 +295,8 @@ msgid ""
 "You cannot be removed from this group else you won't be able to change some "
 "rights"
 msgstr ""
+"Je kunt niet van deze groep worden verwijderd, anders kun je sommige rechten"
+" niet wijzigen."
 
 #: jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.anybody"
@@ -285,6 +304,8 @@ msgid ""
 "The user cannot be removed from this group else nobody won't be able to "
 "change some rights"
 msgstr ""
+"De gebruiker kan niet uit deze groep worden verwijderd anders kan niemand "
+"enkele rechten wijzigen."
 
 #: jacl2db_admin~acl2.col.personnal.rights
 msgctxt "jacl2db_admin~acl2.col.personnal.rights"
@@ -352,7 +373,10 @@ msgid ""
 "Warning! To remove this rights, you should use the interfaces provided by "
 "business modules corresponding to this rights. Use this page only if you "
 "know what you do!"
-msgstr "Waarschuwing! Om rechten te verwijderen dienen voorziene koppelingen te worden gebruikt, aangeboden door zakelijke modules gelinkt aan deze rechten. Enkel deze pagina gebruiken indien u zeker weet wat u doet!"
+msgstr ""
+"Waarschuwing! Om rechten te verwijderen dienen voorziene koppelingen te "
+"worden gebruikt, aangeboden door zakelijke modules gelinkt aan deze rechten."
+" Enkel deze pagina gebruiken indien u zeker weet wat u doet!"
 
 #: jacl2db_admin~acl2.no.rightres
 msgctxt "jacl2db_admin~acl2.no.rightres"
@@ -367,4 +391,4 @@ msgstr "Opslaan"
 #: jacl2db_admin~acl2.error.invalid.user
 msgctxt "jacl2db_admin~acl2.error.invalid.user"
 msgid "Invalid user"
-msgstr ""
+msgstr "Ongeldige gebruiker"

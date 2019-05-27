@@ -1,15 +1,15 @@
-# 
 # Translators:
-# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2016-2017
-# rldhont <rldhont@gmail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2019
+# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client admin 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-19 15:00++0100\n"
-"PO-Revision-Date: 2019-03-19 14:07+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/3liz-1/lizmap-locales/language/ru/)\n"
+"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"Last-Translator: Petr Tsymbarovich <petr@tsymbarovich.ru>, 2019\n"
+"Language-Team: Russian (https://www.transifex.com/3liz-1/teams/62012/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -129,7 +129,7 @@ msgstr "Настройки Lizmap "
 #: admin~admin.configuration.repository.label
 msgctxt "admin~admin.configuration.repository.label"
 msgid "Repository"
-msgstr "Репозитории"
+msgstr "Репозиторий"
 
 #: admin~admin.configuration.button.back.label
 msgctxt "admin~admin.configuration.button.back.label"
@@ -387,14 +387,18 @@ msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
 "Redis database index: integer >= 0 , optional (used if Redis is chosen for "
 "the cache storage)"
-msgstr "Индекс базы данных Redis: целое ≥ 0, необязательно (используется, если для хранения кеша выбран Redis)"
+msgstr ""
+"Индекс базы данных Redis: целое ≥ 0, необязательно (используется, если для "
+"хранения кеша выбран Redis)"
 
 #: admin~admin.form.admin_services.cacheRedisKeyPrefix.help
 msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
 msgid ""
 "Redis key prefix: string, optional (used if Redis is chosen for the cache "
 "storage)"
-msgstr "Префикс ключа Redis: строка, необязательно (используется, если для хранения кеша выбран Redis)"
+msgstr ""
+"Префикс ключа Redis: строка, необязательно (используется, если для хранения "
+"кеша выбран Redis)"
 
 #: admin~admin.form.admin_services.cacheRootDirectory.label
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.label"
@@ -409,7 +413,9 @@ msgstr "Укажите каталог с разрешением на запис�
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
 msgid "The directory does not exists or is not writable. You can use: %s"
-msgstr "Данный каталог не существует или нет прав на запись. Вы можете использовать: %s"
+msgstr ""
+"Данный каталог не существует или нет прав на запись. Вы можете использовать:"
+" %s"
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
@@ -421,14 +427,18 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr "Укажите 0 для бессрочного хранения или целое число в секундах (максимум: 2592000 с = 30 дней)"
+msgstr ""
+"Укажите 0 для бессрочного хранения или целое число в секундах (максимум: "
+"2592000 с = 30 дней)"
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr "Время жизни кеша должно быть целым числом в диапазоне от 0 до 2592000 секунд."
+msgstr ""
+"Время жизни кеша должно быть целым числом в диапазоне от 0 до 2592000 "
+"секунд."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -441,7 +451,10 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr "Корневой каталог репозиториев ограничивает каталог Lizmap одной директорией. При указании данной опции невозможно устанавливать локальные каталоги для отдельных проектов."
+msgstr ""
+"Корневой каталог репозиториев ограничивает каталог Lizmap одной директорией."
+" При указании данной опции невозможно устанавливать локальные каталоги для "
+"отдельных проектов."
 
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
@@ -516,12 +529,12 @@ msgstr "Режим отладки"
 #: admin~admin.form.admin_services.debugMode.0.label
 msgctxt "admin~admin.form.admin_services.debugMode.0.label"
 msgid "Off"
-msgstr "выключить"
+msgstr "Нет"
 
 #: admin~admin.form.admin_services.debugMode.1.label
 msgctxt "admin~admin.form.admin_services.debugMode.1.label"
 msgid "Log"
-msgstr "лог"
+msgstr "Журнал"
 
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
@@ -725,7 +738,9 @@ msgstr "Шапка - логотип"
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
 msgid "The image to be used for the header logo (200ko Maximum)."
-msgstr "Изображение для использования в качестве логотипа в шапке сайта (максимум 200 KB)."
+msgstr ""
+"Изображение для использования в качестве логотипа в шапке сайта (максимум "
+"200 KB)."
 
 #: admin~admin.form.admin_theme.headerLogoWidth.label
 msgctxt "admin~admin.form.admin_theme.headerLogoWidth.label"
@@ -1035,7 +1050,10 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr "Кто-то запросил регистрацию в LizMap для доступа к картам.\nЛогин: %s.\nE-Mail: %s."
+msgstr ""
+"Кто-то запросил регистрацию в LizMap для доступа к картам.\n"
+"Логин: %s.\n"
+"E-Mail: %s."
 
 #: admin~user.acl.no.group
 msgctxt "admin~user.acl.no.group"

@@ -1,18 +1,17 @@
-# 
 # Translators:
-# João Gaspar <joao.f.r.gaspar@gmail.com>, 2016-2017
-# José Macau <jose.macau@gmail.com>, 2016-2018
-# rldhont <rldhont@gmail.com>, 2016-2017
-# rldhont <rldhont@gmail.com>, 2016
-# José Macau <jose.macau@gmail.com>, 2016-2017
+# Rui <xymarior@yandex.com>, 2019
+# João Gaspar <joao.f.r.gaspar@gmail.com>, 2019
+# José Macau <jose.macau@gmail.com>, 2019
+# rldhont <rldhont@gmail.com>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client view 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-23 15:27++0100\n"
-"PO-Revision-Date: 2019-03-23 15:05+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>, 2019\n"
+"Language-Team: Portuguese (https://www.transifex.com/3liz-1/teams/62012/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -147,7 +146,7 @@ msgstr "Geolocalização"
 #: view~map.geolocate.toolbar.center
 msgctxt "view~map.geolocate.toolbar.center"
 msgid "Center"
-msgstr "Centro"
+msgstr "Centrar"
 
 #: view~map.geolocate.toolbar.bind
 msgctxt "view~map.geolocate.toolbar.bind"
@@ -312,7 +311,7 @@ msgstr "Anterior"
 #: view~map.navbar.next.hover
 msgctxt "view~map.navbar.next.hover"
 msgid "Next"
-msgstr "Seguinte"
+msgstr "Próximo"
 
 #: view~map.overviewmap.hover
 msgctxt "view~map.overviewmap.hover"
@@ -532,7 +531,7 @@ msgstr "Projeção"
 #: view~map.metadata.properties.extent
 msgctxt "view~map.metadata.properties.extent"
 msgid "Extent"
-msgstr "Limites"
+msgstr "Extensão"
 
 #: view~map.metadata.properties.wmsGetCapabilitiesUrl
 msgctxt "view~map.metadata.properties.wmsGetCapabilitiesUrl"
@@ -577,7 +576,7 @@ msgstr "Série Temporal"
 #: view~map.timemanager.toolbar.play
 msgctxt "view~map.timemanager.toolbar.play"
 msgid "Play"
-msgstr "Reproduzir"
+msgstr "Executar"
 
 #: view~map.timemanager.toolbar.pause
 msgctxt "view~map.timemanager.toolbar.pause"
@@ -587,7 +586,7 @@ msgstr "Pausa"
 #: view~map.timemanager.toolbar.next
 msgctxt "view~map.timemanager.toolbar.next"
 msgid "Next"
-msgstr "Seguinte"
+msgstr "Próximo"
 
 #: view~map.timemanager.toolbar.prev
 msgctxt "view~map.timemanager.toolbar.prev"
@@ -657,12 +656,12 @@ msgstr "Informação"
 #: view~map.switcher.layer.zoomToExtent.title
 msgctxt "view~map.switcher.layer.zoomToExtent.title"
 msgid "Zoom to layer extent"
-msgstr "Extensão da camada"
+msgstr "Zoom para a extensão da camada"
 
 #: view~map.switcher.layer.style.title
 msgctxt "view~map.switcher.layer.style.title"
 msgid "Change layer style"
-msgstr "Mudar estilo da camada"
+msgstr "Alterar estilo da camada"
 
 #: view~map.switcher.layer.export.title
 msgctxt "view~map.switcher.layer.export.title"
@@ -834,7 +833,9 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Tem certeza que quer para a edição? Desta forma todas as alterações serão perdidas."
+msgstr ""
+"Tem certeza que quer para a edição? Desta forma todas as alterações serão "
+"perdidas."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -856,7 +857,7 @@ msgstr "Mapa"
 #: view~dictionnary.externalsearch.search
 msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
-msgstr "A procurar"
+msgstr "A pesquisar"
 
 #: view~dictionnary.externalsearch.notfound
 msgctxt "view~dictionnary.externalsearch.notfound"
@@ -871,7 +872,7 @@ msgstr "Dados do mapa"
 #: view~dictionnary.timemanager.toolbar.play
 msgctxt "view~dictionnary.timemanager.toolbar.play"
 msgid "Play"
-msgstr "Reproduzir"
+msgstr "Executar"
 
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
@@ -1006,7 +1007,9 @@ msgstr "Atualizar dados na tabela."
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr "A extensão do mapa foi alterada desde a última vez que os dados foram carregados."
+msgstr ""
+"A extensão do mapa foi alterada desde a última vez que os dados foram "
+"carregados."
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.lines
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
@@ -1068,7 +1071,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "A camada não está visível. Faça zoom para uma escala em que os elementos se encontrem visíveis."
+msgstr ""
+"A camada não está visível. Faça zoom para uma escala em que os elementos se "
+"encontrem visíveis."
 
 #: view~dictionnary.selectiontool.results.none
 msgctxt "view~dictionnary.selectiontool.results.none"
@@ -1163,7 +1168,7 @@ msgstr "Tem certeza que quer eliminar este marcador?"
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
 msgid "Click to the map to get informations."
-msgstr ""
+msgstr "Clique no mapa para obter informações."
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
@@ -1265,7 +1270,9 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have an access to"
 " the maps."
-msgstr "Por favor, escreva um pequeno texto a explicar por que gostaria de ter acesso aos mapas."
+msgstr ""
+"Por favor, escreva um pequeno texto a explicar por que gostaria de ter "
+"acesso aos mapas."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
@@ -1345,7 +1352,7 @@ msgstr "Apagar"
 #: view~edition.toolbar.draw.save.title
 msgctxt "view~edition.toolbar.draw.save.title"
 msgid "Save"
-msgstr "Gravar"
+msgstr "Guardar"
 
 #: view~edition.toolbar.select.title
 msgctxt "view~edition.toolbar.select.title"
@@ -1527,7 +1534,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "O Lizmap não consegue encontrar as chaves primárias da camada \"%s\". A ferramenta de edição precisa de uma chave primária definida na tabela."
+msgstr ""
+"O Lizmap não consegue encontrar as chaves primárias da camada \"%s\". A "
+"ferramenta de edição precisa de uma chave primária definida na tabela."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -1589,14 +1598,18 @@ msgstr "Não pode gravar objetos sem geometria. Por favor desenhe a geometria."
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
 msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr "O diretório para upload de média da camada \"%s\" não tem permissões de escrita."
+msgstr ""
+"O diretório para upload de média da camada \"%s\" não tem permissões de "
+"escrita."
 
 #: view~edition.message.error.upload.layer.field
 msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "O diretório para upload de média da camada \"%s\" não tem permissões de escrita."
+msgstr ""
+"O diretório para upload de média da camada \"%s\" não tem permissões de "
+"escrita."
 
 #: view~edition.upload.choice.keep
 msgctxt "view~edition.upload.choice.keep"
@@ -1628,14 +1641,18 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Não é possível ligar objetos múltiplos em ambas as camadas. Por favor selecione apenas um objeto por camada e tente novamente."
+msgstr ""
+"Não é possível ligar objetos múltiplos em ambas as camadas. Por favor "
+"selecione apenas um objeto por camada e tente novamente."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "É necessário ter selecionado pelo menos um objeto em cada camada para puder criar a ligação."
+msgstr ""
+"É necessário ter selecionado pelo menos um objeto em cada camada para puder "
+"criar a ligação."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"

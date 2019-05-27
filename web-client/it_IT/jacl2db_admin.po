@@ -1,17 +1,18 @@
-# 
 # Translators:
-# Alessandro Fanna <alex@rospus.org>, 2016
-# Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2018
-# Paolo Cavallini <cavallini@faunalia.it>, 2016,2019
-# Stefano Campus <skampus@gmail.com>, 2018
+# Alessandro Fanna <alex@rospus.org>, 2019
+# Paolo Cavallini <cavallini@faunalia.it>, 2019
+# Stefano Campus <skampus@gmail.com>, 2019
+# rldhont <rldhont@gmail.com>, 2019
+# Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-19 15:00++0100\n"
-"PO-Revision-Date: 2019-03-18 14:53+0000\n"
-"Last-Translator: Paolo Cavallini <cavallini@faunalia.it>\n"
-"Language-Team: Italian (http://www.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
+"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"Last-Translator: Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/3liz-1/teams/62012/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,12 +22,12 @@ msgstr ""
 #: jacl2db_admin~acl2.menu.item.groups
 msgctxt "jacl2db_admin~acl2.menu.item.groups"
 msgid "Groups of users for rights"
-msgstr "Permessi gruppi"
+msgstr "Gestione permessi dei gruppi"
 
 #: jacl2db_admin~acl2.menu.item.rights
 msgctxt "jacl2db_admin~acl2.menu.item.rights"
 msgid "Rights of users"
-msgstr "Permessi utenti"
+msgstr "Gestione permessi degli utenti"
 
 #: jacl2db_admin~acl2.groups.title
 msgctxt "jacl2db_admin~acl2.groups.title"
@@ -101,7 +102,7 @@ msgstr "Elimina un gruppo"
 #: jacl2db_admin~acl2.delete.button
 msgctxt "jacl2db_admin~acl2.delete.button"
 msgid "Delete"
-msgstr "Elimina"
+msgstr "Cancella"
 
 #: jacl2db_admin~acl2.message.group.delete.ok
 msgctxt "jacl2db_admin~acl2.message.group.delete.ok"
@@ -111,12 +112,16 @@ msgstr "Gruppo eliminato"
 #: jacl2db_admin~acl2.message.group.delete.error.noacl.yourself
 msgctxt "jacl2db_admin~acl2.message.group.delete.error.noacl.yourself"
 msgid "The group cannot be deleted, else you couldn't manage rights"
-msgstr "Il gruppo non può essere cancellato, altrimenti non sarà possibile gestire i permessi"
+msgstr ""
+"Il gruppo non può essere cancellato, altrimenti non sarà possibile gestire i"
+" permessi"
 
 #: jacl2db_admin~acl2.message.group.delete.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.group.delete.error.noacl.anybody"
 msgid "The group cannot be deleted, else nobody couldn't manage rights"
-msgstr "Il gruppo non può essere cancellato, altrimenti nessuno potrà gestire i permessi"
+msgstr ""
+"Il gruppo non può essere cancellato, altrimenti nessuno potrà gestire i "
+"permessi"
 
 #: jacl2db_admin~acl2.groups.rights.title
 msgctxt "jacl2db_admin~acl2.groups.rights.title"
@@ -136,21 +141,27 @@ msgstr "Permessi"
 #: jacl2db_admin~acl2.group.help.rights.inherit
 msgctxt "jacl2db_admin~acl2.group.help.rights.inherit"
 msgid "\"-\": undefined right, it can be defined in other groups of the user"
-msgstr "\"-\": permesso non definito, può essere definito in altri gruppi dell'utente"
+msgstr ""
+"\"-\": permesso non definito, può essere definito in altri gruppi "
+"dell'utente"
 
 #: jacl2db_admin~acl2.group.help.rights.yes
 msgctxt "jacl2db_admin~acl2.group.help.rights.yes"
 msgid ""
 "\"yes\": indicate that the right is set, but can be canceled (\"no\") in an "
 "other group"
-msgstr "\"yes\": indica che il diritto è impostato, ma può essere annullato (\"no\") in un altro gruppo"
+msgstr ""
+"\"yes\": indica che il diritto è impostato, ma può essere annullato (\"no\")"
+" in un altro gruppo"
 
 #: jacl2db_admin~acl2.group.help.rights.no
 msgctxt "jacl2db_admin~acl2.group.help.rights.no"
 msgid ""
 "\"no\": the right is not assign to this group, and to any other groups of "
 "the user."
-msgstr "\"no\": il diritto non viene assegnato a questo gruppo, e a qualsiasi altro gruppo dell'utente."
+msgstr ""
+"\"no\": il diritto non viene assegnato a questo gruppo, e a qualsiasi altro "
+"gruppo dell'utente."
 
 #: jacl2db_admin~acl2.global.rights
 msgctxt "jacl2db_admin~acl2.global.rights"
@@ -165,13 +176,17 @@ msgstr "speciale"
 #: jacl2db_admin~acl2.message.savegrouprights.error.noacl.yourself
 msgctxt "jacl2db_admin~acl2.message.savegrouprights.error.noacl.yourself"
 msgid "Changes cannot be applied else you won't be able to change some rights"
-msgstr "I cambiamenti non possono essere applicati, altrimenti non potrai cambiare alcuni permessi"
+msgstr ""
+"I cambiamenti non possono essere applicati, altrimenti non potrai cambiare "
+"alcuni permessi"
 
 #: jacl2db_admin~acl2.message.savegrouprights.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.savegrouprights.error.noacl.anybody"
 msgid ""
 "Changes cannot be applied else nobody won't be able to change some rights"
-msgstr "I cambiamenti non possono essere applicati, altrimenti nessuno potrà cambiare alcuni permessi"
+msgstr ""
+"I cambiamenti non possono essere applicati, altrimenti nessuno potrà "
+"cambiare alcuni permessi"
 
 #: jacl2db_admin~acl2.message.group.rights.ok
 msgctxt "jacl2db_admin~acl2.message.group.rights.ok"
@@ -266,27 +281,35 @@ msgstr "Permessi salvati"
 #: jacl2db_admin~acl2.message.saveuserrights.error.noacl.yourself
 msgctxt "jacl2db_admin~acl2.message.saveuserrights.error.noacl.yourself"
 msgid "Changes cannot be applied else you won't be able to change some rights"
-msgstr "I cambiamenti non possono essere applicati, altrimenti non potrai cambiare alcuni permessi"
+msgstr ""
+"I cambiamenti non possono essere applicati, altrimenti non potrai cambiare "
+"alcuni permessi"
 
 #: jacl2db_admin~acl2.message.saveuserrights.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.saveuserrights.error.noacl.anybody"
 msgid ""
 "Changes cannot be applied else nobody won't be able to change some rights"
-msgstr "I cambiamenti non possono essere applicati, altrimenti nessuno potrà cambiare alcuni permessi"
+msgstr ""
+"I cambiamenti non possono essere applicati, altrimenti nessuno potrà "
+"cambiare alcuni permessi"
 
 #: jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.yourself
 msgctxt "jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.yourself"
 msgid ""
 "You cannot be removed from this group else you won't be able to change some "
 "rights"
-msgstr "Non puoi essere rimosso dal gruppo, altrimenti non potrai cambiare alcuni permessi"
+msgstr ""
+"Non puoi essere rimosso dal gruppo, altrimenti non potrai cambiare alcuni "
+"permessi"
 
 #: jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.anybody"
 msgid ""
 "The user cannot be removed from this group else nobody won't be able to "
 "change some rights"
-msgstr "L'utente non può essere rimosso dal gruppo, altrimenti non potrà cambiare alcuni permessi"
+msgstr ""
+"L'utente non può essere rimosso dal gruppo, altrimenti non potrà cambiare "
+"alcuni permessi"
 
 #: jacl2db_admin~acl2.col.personnal.rights
 msgctxt "jacl2db_admin~acl2.col.personnal.rights"
@@ -316,7 +339,7 @@ msgstr "Oggetto"
 #: jacl2db_admin~acl2.col.resources
 msgctxt "jacl2db_admin~acl2.col.resources"
 msgid "Resources"
-msgstr "Risorse"
+msgstr "Risorse e link"
 
 #: jacl2db_admin~acl2.remove.group.tooltip
 msgctxt "jacl2db_admin~acl2.remove.group.tooltip"
@@ -354,7 +377,10 @@ msgid ""
 "Warning! To remove this rights, you should use the interfaces provided by "
 "business modules corresponding to this rights. Use this page only if you "
 "know what you do!"
-msgstr "Attenzione! Per rimuovere questo diritto, è necessario utilizzare le interfacce fornite dai moduli di business corrispondenti a questo diritto. Utilizzare questa pagina solo se sai quello che fai!"
+msgstr ""
+"Attenzione! Per rimuovere questo diritto, è necessario utilizzare le "
+"interfacce fornite dai moduli di business corrispondenti a questo diritto. "
+"Utilizzare questa pagina solo se sai quello che fai!"
 
 #: jacl2db_admin~acl2.no.rightres
 msgctxt "jacl2db_admin~acl2.no.rightres"

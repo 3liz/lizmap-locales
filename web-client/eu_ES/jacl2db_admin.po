@@ -1,14 +1,15 @@
-# 
 # Translators:
-# Aitor Gil <nofunat88@hotmail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2019
+# Aitor Gil <nofunat88@hotmail.com>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-17 11:50++0200\n"
-"PO-Revision-Date: 2018-10-11 07:51+0000\n"
-"Last-Translator: Aitor Gil <nofunat88@hotmail.com>\n"
-"Language-Team: Basque (http://www.transifex.com/3liz-1/lizmap-locales/language/eu/)\n"
+"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"Last-Translator: Aitor Gil <nofunat88@hotmail.com>, 2019\n"
+"Language-Team: Basque (https://www.transifex.com/3liz-1/teams/62012/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,12 +19,12 @@ msgstr ""
 #: jacl2db_admin~acl2.menu.item.groups
 msgctxt "jacl2db_admin~acl2.menu.item.groups"
 msgid "Groups of users for rights"
-msgstr "Erabiltzaileen taldeak"
+msgstr "Baimenentzako erabiltzaileen taldeak"
 
 #: jacl2db_admin~acl2.menu.item.rights
 msgctxt "jacl2db_admin~acl2.menu.item.rights"
 msgid "Rights of users"
-msgstr "Erabiltzaileen baimenak"
+msgstr "Permisos de usuarios"
 
 #: jacl2db_admin~acl2.groups.title
 msgctxt "jacl2db_admin~acl2.groups.title"
@@ -123,7 +124,7 @@ msgstr "Taldeen baimenak"
 #: jacl2db_admin~acl2.table.th.groups
 msgctxt "jacl2db_admin~acl2.table.th.groups"
 msgid "Groups"
-msgstr "Taldeak"
+msgstr "Grupos"
 
 #: jacl2db_admin~acl2.table.th.rights
 msgctxt "jacl2db_admin~acl2.table.th.rights"
@@ -133,21 +134,27 @@ msgstr "Baimenak"
 #: jacl2db_admin~acl2.group.help.rights.inherit
 msgctxt "jacl2db_admin~acl2.group.help.rights.inherit"
 msgid "\"-\": undefined right, it can be defined in other groups of the user"
-msgstr "\"-\": indica que el permiso no está definido, el valor en otros grupos del usuario será prioritario"
+msgstr ""
+"\"-\": indica que el permiso no está definido, el valor en otros grupos del "
+"usuario será prioritario"
 
 #: jacl2db_admin~acl2.group.help.rights.yes
 msgctxt "jacl2db_admin~acl2.group.help.rights.yes"
 msgid ""
 "\"yes\": indicate that the right is set, but can be canceled (\"no\") in an "
 "other group"
-msgstr "\"sí\": indica que el grupo tiene este permiso, salvo si en otro grupo del usuario se indica \"no\""
+msgstr ""
+"\"sí\": indica que el grupo tiene este permiso, salvo si en otro grupo del "
+"usuario se indica \"no\""
 
 #: jacl2db_admin~acl2.group.help.rights.no
 msgctxt "jacl2db_admin~acl2.group.help.rights.no"
 msgid ""
 "\"no\": the right is not assign to this group, and to any other groups of "
 "the user."
-msgstr "\"no\": indica que el grupo no tiene este permiso, aunque otros grupos del usuario indiquen \"sí\"."
+msgstr ""
+"\"no\": indica que el grupo no tiene este permiso, aunque otros grupos del "
+"usuario indiquen \"sí\"."
 
 #: jacl2db_admin~acl2.global.rights
 msgctxt "jacl2db_admin~acl2.global.rights"
@@ -173,7 +180,7 @@ msgstr ""
 #: jacl2db_admin~acl2.message.group.rights.ok
 msgctxt "jacl2db_admin~acl2.message.group.rights.ok"
 msgid "Rights saved"
-msgstr "¡Permisos de grupos guardados con éxito!"
+msgstr "¡Permisos guardados con éxito!"
 
 #: jacl2db_admin~acl2.group.rightres.title
 msgctxt "jacl2db_admin~acl2.group.rightres.title"
@@ -213,7 +220,7 @@ msgstr "No hay usuario."
 #: jacl2db_admin~acl2.col.users
 msgctxt "jacl2db_admin~acl2.col.users"
 msgid "Users"
-msgstr "Usuarios"
+msgstr "Erabiltzaileak"
 
 #: jacl2db_admin~acl2.rights.link
 msgctxt "jacl2db_admin~acl2.rights.link"
@@ -351,7 +358,10 @@ msgid ""
 "Warning! To remove this rights, you should use the interfaces provided by "
 "business modules corresponding to this rights. Use this page only if you "
 "know what you do!"
-msgstr "¡Aviso! Para eliminar estos permisos, debería utilizar las interfaces suministradas por los módulos de negocio correspondientes a estos permisos. ¡Utilice esta página sólo si sabe lo que hace!"
+msgstr ""
+"¡Aviso! Para eliminar estos permisos, debería utilizar las interfaces "
+"suministradas por los módulos de negocio correspondientes a estos permisos. "
+"¡Utilice esta página sólo si sabe lo que hace!"
 
 #: jacl2db_admin~acl2.no.rightres
 msgctxt "jacl2db_admin~acl2.no.rightres"

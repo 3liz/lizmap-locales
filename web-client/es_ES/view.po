@@ -1,17 +1,18 @@
-#
 # Translators:
+# Samuel Mesa <samuelmesa@gmail.com>, 2019
+# rldhont <rldhont@gmail.com>, 2019
+# Víctor Herreros <vherreros@ucm.es>, 2019
 # Arturo Lorenzo <shroomeater@gmail.com>, 2019
-# rldhont <rldhont@gmail.com>, 2016
-# Samuel Mesa <samuelmesa@gmail.com>, 2018
-# Víctor Herreros <vherreros@ucm.es>, 2016-2017
+# Hernan Jesus Gonzalez Carmona <hjgonzalezc@gmail.com>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client view 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 15:07++0100\n"
-"PO-Revision-Date: 2019-03-23 14:08+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/3liz-1/lizmap-locales/language/es/)\n"
+"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"Last-Translator: Hernan Jesus Gonzalez Carmona <hjgonzalezc@gmail.com>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/3liz-1/teams/62012/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -61,7 +62,7 @@ msgstr "Buscar"
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"
 msgid "Searching"
-msgstr "Buscando"
+msgstr "Búsqueda"
 
 #: view~map.print.navbar.title
 msgctxt "view~map.print.navbar.title"
@@ -306,7 +307,7 @@ msgstr "Alejar el zoom"
 #: view~map.navbar.previous.hover
 msgctxt "view~map.navbar.previous.hover"
 msgid "Previous"
-msgstr "Previo"
+msgstr "Anterior"
 
 #: view~map.navbar.next.hover
 msgctxt "view~map.navbar.next.hover"
@@ -386,7 +387,7 @@ msgstr "Compartir"
 #: view~map.permalink.share.tab.title
 msgctxt "view~map.permalink.share.tab.title"
 msgid "Share the link to current map"
-msgstr ""
+msgstr "Compartir el enlace al mapa actual"
 
 #: view~map.permalink.share.link
 msgctxt "view~map.permalink.share.link"
@@ -396,12 +397,12 @@ msgstr "Enlace del mapa actual"
 #: view~map.permalink.embed.tab
 msgctxt "view~map.permalink.embed.tab"
 msgid "Embed"
-msgstr ""
+msgstr "Embeber"
 
 #: view~map.permalink.embed.tab.title
 msgctxt "view~map.permalink.embed.tab.title"
 msgid "Embed the current map"
-msgstr ""
+msgstr "Embeber el mapa actual"
 
 #: view~map.permalink.embed.size.small
 msgctxt "view~map.permalink.embed.size.small"
@@ -531,7 +532,7 @@ msgstr "Proyección"
 #: view~map.metadata.properties.extent
 msgctxt "view~map.metadata.properties.extent"
 msgid "Extent"
-msgstr "Extensión espacial"
+msgstr "Extensión"
 
 #: view~map.metadata.properties.wmsGetCapabilitiesUrl
 msgctxt "view~map.metadata.properties.wmsGetCapabilitiesUrl"
@@ -566,12 +567,12 @@ msgstr "Ocultar información"
 #: view~map.timemanager.toolbar.title
 msgctxt "view~map.timemanager.toolbar.title"
 msgid "Time Manager"
-msgstr "Gestor temporal"
+msgstr "Gestor de tiempos"
 
 #: view~map.timemanager.navbar.title
 msgctxt "view~map.timemanager.navbar.title"
 msgid "Time Manager"
-msgstr "Gestor temporal"
+msgstr "Gestor de tiempos"
 
 #: view~map.timemanager.toolbar.play
 msgctxt "view~map.timemanager.toolbar.play"
@@ -581,7 +582,7 @@ msgstr "Reproducir"
 #: view~map.timemanager.toolbar.pause
 msgctxt "view~map.timemanager.toolbar.pause"
 msgid "Pause"
-msgstr "Parar"
+msgstr "Pausa"
 
 #: view~map.timemanager.toolbar.next
 msgctxt "view~map.timemanager.toolbar.next"
@@ -656,12 +657,12 @@ msgstr "Información"
 #: view~map.switcher.layer.zoomToExtent.title
 msgctxt "view~map.switcher.layer.zoomToExtent.title"
 msgid "Zoom to layer extent"
-msgstr "Ajustar el zoom a la extensión de la capa"
+msgstr "Zoom a la extensión de la capa"
 
 #: view~map.switcher.layer.style.title
 msgctxt "view~map.switcher.layer.style.title"
 msgid "Change layer style"
-msgstr "Cambiar el estilo de la capa"
+msgstr "Cambiar estilo de capa"
 
 #: view~map.switcher.layer.export.title
 msgctxt "view~map.switcher.layer.export.title"
@@ -833,14 +834,18 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "¿Seguro que quiere cancelar la edición? Perderá cualquier modificación hecha al objeto actualmente editado."
+msgstr ""
+"¿Seguro que quiere cancelar la edición? Perderá cualquier modificación hecha"
+" al objeto actualmente editado."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "No puede salvar este objeto sin una geometría. Por favor, especifique la geometría en el mapa."
+msgstr ""
+"No puede salvar este objeto sin una geometria. Por favor, especifique la "
+"geometría en el mapa."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -1005,7 +1010,9 @@ msgstr "Refrescar los datos de la tabla."
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr "La extensión del mapa ha cambiado desde la última vez que se recolectaron datos."
+msgstr ""
+"La extensión del mapa ha cambiado desde la última vez que se recolectaron "
+"datos."
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.lines
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
@@ -1067,7 +1074,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "La capa no es visible. Por favor, haga zoom a una escala en la que las características sean visibles."
+msgstr ""
+"La capa no es visible. Por favor, haga zoom a una escala en la que las "
+"características sean visibles."
 
 #: view~dictionnary.selectiontool.results.none
 msgctxt "view~dictionnary.selectiontool.results.none"
@@ -1162,7 +1171,7 @@ msgstr "¿Seguro que quiere borrar este marcador?"
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
 msgid "Click to the map to get informations."
-msgstr ""
+msgstr "Clic en el mapa para obtener información."
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
@@ -1264,7 +1273,8 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have an access to"
 " the maps."
-msgstr "Por favor, describa brevemente por qué querría tener acceso a los mapas."
+msgstr ""
+"Por favor, describa brevemente por qué querría tener acceso a los mapas."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
@@ -1274,7 +1284,7 @@ msgstr "No tiene permisos para utilizar las herramientas de edición."
 #: view~edition.form.action.future.label
 msgctxt "view~edition.form.action.future.label"
 msgid "After saved"
-msgstr ""
+msgstr "Después de guardar"
 
 #: view~edition.form.action.future.close
 msgctxt "view~edition.form.action.future.close"
@@ -1309,7 +1319,7 @@ msgstr "Cancelar"
 #: view~edition.form.reset.label
 msgctxt "view~edition.form.reset.label"
 msgid "Reset"
-msgstr ""
+msgstr "Resetear"
 
 #: view~edition.form.btn.clear.title
 msgctxt "view~edition.form.btn.clear.title"
@@ -1334,7 +1344,7 @@ msgstr "Edición"
 #: view~edition.toolbar.draw.title
 msgctxt "view~edition.toolbar.draw.title"
 msgid "Add"
-msgstr "Añadir"
+msgstr "Agregar"
 
 #: view~edition.toolbar.draw.clear.title
 msgctxt "view~edition.toolbar.draw.clear.title"
@@ -1389,7 +1399,7 @@ msgstr "Herramienta nodo"
 #: view~edition.geomtool.drag.title
 msgctxt "view~edition.geomtool.drag.title"
 msgid "Drag"
-msgstr ""
+msgstr "Arrastrar"
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1399,32 +1409,32 @@ msgstr "Rotar"
 #: view~edition.geomtool.reshape.title
 msgctxt "view~edition.geomtool.reshape.title"
 msgid "Reshape"
-msgstr ""
+msgstr "Remodelar"
 
 #: view~edition.point.coord.title
 msgctxt "view~edition.point.coord.title"
 msgid "Manage point/vertex coordinates"
-msgstr ""
+msgstr "Manejar coordenadas punto/vértice"
 
 #: view~edition.point.coord.crs.label
 msgctxt "view~edition.point.coord.crs.label"
 msgid "CRS:"
-msgstr ""
+msgstr "CRS:"
 
 #: view~edition.point.coord.x.label
 msgctxt "view~edition.point.coord.x.label"
 msgid "X:"
-msgstr ""
+msgstr "X:"
 
 #: view~edition.point.coord.y.label
 msgctxt "view~edition.point.coord.y.label"
 msgid "Y:"
-msgstr ""
+msgstr "Y:"
 
 #: view~edition.point.coord.geolocation.label
 msgctxt "view~edition.point.coord.geolocation.label"
 msgid "linked to geolocation"
-msgstr ""
+msgstr "vinculado a la geolocalización"
 
 #: view~edition.point.coord.add.label
 msgctxt "view~edition.point.coord.add.label"
@@ -1509,7 +1519,7 @@ msgstr "El parámetro 'featureId' es obligatorio."
 #: view~edition.message.error.layer.editable
 msgctxt "view~edition.message.error.layer.editable"
 msgid "The layer is not editable."
-msgstr "La capa no es editable"
+msgstr "La capa no es editable."
 
 #: view~edition.message.error.layer.editable.create
 msgctxt "view~edition.message.error.layer.editable.create"
@@ -1527,16 +1537,18 @@ msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
 msgstr ""
+"Lizmap no puede encontrar las llaves primarias de la capa \"%s\". La "
+"herramienta de edición necesita una llave primaria definida en la tabla."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
 msgid "Lizmap cannot get the feature data with WFS"
-msgstr ""
+msgstr "Lizmap no puede obtener los datos de los objetos con WFS"
 
 #: view~edition.message.error.form.get
 msgctxt "view~edition.message.error.form.get"
 msgid "An error has been raised when getting the form"
-msgstr ""
+msgstr "Se ha producido un error al obtener el formulario"
 
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"
@@ -1551,12 +1563,12 @@ msgstr "crs es obligatorio y debe ser un entero o EPSG:*."
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
 msgid "An error has been raised when saving the form."
-msgstr ""
+msgstr "Se ha producido un error al guardar el formulario."
 
 #: view~edition.message.error.save.fields
 msgctxt "view~edition.message.error.save.fields"
 msgid "No fields available for saving the form."
-msgstr ""
+msgstr "No hay campos disponibles para guardar el formulario."
 
 #: view~edition.message.error.delete
 msgctxt "view~edition.message.error.delete"
@@ -1583,12 +1595,16 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "No puede salvar este objeto sin una geometria. Por favor, especifique la geometría en el mapa."
+msgstr ""
+"No puede salvar este objeto sin una geometria. Por favor, especifique la "
+"geometría en el mapa."
 
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
 msgid "The layer \"%s\" directory for uploading media is not writable."
 msgstr ""
+"El directorio de la capa \"%s\" para cargar multimedia no permite la "
+"escritura."
 
 #: view~edition.message.error.upload.layer.field
 msgctxt "view~edition.message.error.upload.layer.field"
@@ -1596,6 +1612,8 @@ msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
 msgstr ""
+"El campo \"%s\" del directorio de la capa \"%s\" para cargar multimedia no "
+"permite la escritura."
 
 #: view~edition.upload.choice.keep
 msgctxt "view~edition.upload.choice.keep"
@@ -1615,7 +1633,9 @@ msgstr "Borrar"
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
 msgid "The pivot, features1 and features2 parameters are mandatory."
-msgstr "Los parámtetros de pivote, características1 y características2 son obligatorios."
+msgstr ""
+"Los parámtetros de pivote, características1 y características2 son "
+"obligatorios."
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
@@ -1627,29 +1647,34 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "No puede enlazar múltiples objetos en ambas capas. Por favor, seleccione sólo un objeto para una de las capas y vuelva a intentarlo."
+msgstr ""
+"No puede enlazar múltiples objetos en ambas capas. Por favor, seleccione "
+"sólo un objeto para una de las capas y vuelva a intentarlo."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Debe haber al menos un objeto seleccionado para cada capa para crear el enlace."
+msgstr ""
+"Debe haber al menos un objeto seleccionado para cada capa para crear el "
+"enlace."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table."
-msgstr "No se han configurado las capas para que tengan una tabla de atributo."
+msgstr ""
+"No se han configurado las capas para que tengan una tabla de atributo."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
 msgid "Create feature for the layer \"%s\" is not available."
-msgstr ""
+msgstr "Crear objeto para la capa \"%s\" no está disponible."
 
 #: view~edition.link.error.no.modify.attributes
 msgctxt "view~edition.link.error.no.modify.attributes"
 msgid "Modify attributes for the layer \"%s\" is not available."
-msgstr ""
+msgstr "Modificar atributos para la capa \"%s\" no está disponible."
 
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"

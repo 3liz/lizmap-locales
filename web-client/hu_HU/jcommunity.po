@@ -3,10 +3,10 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jcommunity 3.2rc6\n"
+"Project-Id-Version: Lizmap Web Client jcommunity 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-23 15:35++0200\n"
-"PO-Revision-Date: 2018-06-02 13:00+0000\n"
+"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2019\n"
 "Language-Team: Hungarian (Hungary) (https://www.transifex.com/3liz-1/teams/62012/hu_HU/)\n"
 "MIME-Version: 1.0\n"
@@ -14,90 +14,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu_HU\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: jcommunity~register.registration.title
-msgctxt "jcommunity~register.registration.title"
-msgid "Registration"
-msgstr "Regisztráció"
-
-#: jcommunity~register.form.create.title
-msgctxt "jcommunity~register.form.create.title"
-msgid "Create an account"
-msgstr "Új felhasználói fiók létrehozása"
-
-#: jcommunity~register.form.create.text.html
-msgctxt "jcommunity~register.form.create.text.html"
-msgid ""
-"<p>Register yourself by filling the following form.</p> <p>An email will be "
-"sent to you with a link to confirm your registration. You could then "
-"identified yourself on the web site.</p>"
-msgstr ""
-"<p>Végezze el a regisztrációt az adatlap kitöltésével.</p> <p>Egy e-mailt "
-"küldünk amely a regisztrációt megerősítésére használt linket tartalmazza. "
-"Ezek után tudja majd azonosítani magát a weboldalon.</p>"
-
-#: jcommunity~register.form.create.submit
-msgctxt "jcommunity~register.form.create.submit"
-msgid "Create the account"
-msgstr "A felhasználói fiók létrehozása"
-
-#: jcommunity~register.mail.new.subject
-msgctxt "jcommunity~register.mail.new.subject"
-msgid "Activating your account on the web site %s"
-msgstr "A felhasználói fiók aktiválása a következő oldalon: %s"
-
-#: jcommunity~register.form.login.exists
-msgctxt "jcommunity~register.form.login.exists"
-msgid "This username already exists"
-msgstr "A felhasználónév már foglalt"
-
-#: jcommunity~register.registration.waiting.title
-msgctxt "jcommunity~register.registration.waiting.title"
-msgid "Registration"
-msgstr "Regisztráció"
-
-#: jcommunity~register.registration.waiting.text.html
-msgctxt "jcommunity~register.registration.waiting.text.html"
-msgid ""
-"<p>Your account is created, but before using it, we have to verify your "
-"email.</p> <p>In order to verify your email, we just have sent you an email "
-"containing a link on which you must click. Verify your spam folder if you "
-"don't see this email in your inbox.</p>"
-msgstr ""
-"<p>A felhasználói fiók elkészült, de használatba vétele előtt meg kell "
-"erősítenie e-mail címét</p> <p>A megerősítő linket e-mailt elküldtük e-mail "
-"címére. Kérjük, ellenőrizze a levélszemét mappáját, ha nem találja "
-"e-mailünket.</p>"
-
-#: jcommunity~register.registration.confirm.title
-msgctxt "jcommunity~register.registration.confirm.title"
-msgid "Activation of your account"
-msgstr "Felhasználói fiók aktiválása"
-
-#: jcommunity~register.registration.confirm.alreadydone
-msgctxt "jcommunity~register.registration.confirm.alreadydone"
-msgid ""
-"Your account is already activated. You can identify yourself on the web "
-"site."
-msgstr ""
-"A felhasználói fiók már aktiválva van. Azonosíthatja magát a weboldalon."
-
-#: jcommunity~register.registration.confirm.ok
-msgctxt "jcommunity~register.registration.confirm.ok"
-msgid "Your account is activated. You can identify yourself on the web site."
-msgstr "A felhasználói fiók aktiválva van. Azonosíthatja magát a weboldalon."
-
-#: jcommunity~register.registration.confirm.badkey
-msgctxt "jcommunity~register.registration.confirm.badkey"
-msgid "Activation is not possible: the key or the username is invalid."
-msgstr ""
-"Az aktiválás nem lehetséges: a kulcs, vagy a felhasználónév nem létezik."
-
-#: jcommunity~register.registration.confirm.badstatus
-msgctxt "jcommunity~register.registration.confirm.badstatus"
-msgid "Activation is not possible: your account is not a new one."
-msgstr ""
-"Az aktiválás nem lehetséges: a felhasználói fiók nem újonnan létrehozott."
 
 #: jcommunity~login.error.notlogged
 msgctxt "jcommunity~login.error.notlogged"
@@ -219,146 +135,89 @@ msgctxt "jcommunity~login.cancel.and.back.to.login"
 msgid "Cancel and return to the login form"
 msgstr "Módosítások elvetése és vissza a bejelentkezési oldalra"
 
-#: jcommunity~password.form.title
-msgctxt "jcommunity~password.form.title"
-msgid "Resetting the password"
-msgstr "Jelszó visszaállítása"
+#: jcommunity~register.registration.title
+msgctxt "jcommunity~register.registration.title"
+msgid "Registration"
+msgstr "Regisztráció"
 
-#: jcommunity~password.form.text.html
-msgctxt "jcommunity~password.form.text.html"
+#: jcommunity~register.form.create.title
+msgctxt "jcommunity~register.form.create.title"
+msgid "Create an account"
+msgstr "Új felhasználói fiók létrehozása"
+
+#: jcommunity~register.form.create.text.html
+msgctxt "jcommunity~register.form.create.text.html"
 msgid ""
-"<p>If you have forgotten your password, fill the following form with your "
-"username and with the email you have set in your profil.</p> <p>An email "
-"will be sent with a link to a page allowing you to choose a new "
-"password.</p>"
+"<p>Register yourself by filling the following form.</p> <p>An email will be "
+"sent to you with a link to confirm your registration. You could then "
+"identified yourself on the web site.</p>"
 msgstr ""
-"<p>Ha elfelejtette jelszavát, töltse ki a lenti űrlapot, megadva "
-"felhasználónevét és a hozzá tartozó e-mail címet.</p> <p>Egy e-mailt fogunk "
-"küldeni melyben megtalálja a jelszó-változtatáshoz szükséges linket.</p>"
+"<p>Végezze el a regisztrációt az adatlap kitöltésével.</p> <p>Egy e-mailt "
+"küldünk amely a regisztrációt megerősítésére használt linket tartalmazza. "
+"Ezek után tudja majd azonosítani magát a weboldalon.</p>"
 
-#: jcommunity~password.form.submit
-msgctxt "jcommunity~password.form.submit"
-msgid "Send the email"
-msgstr "E-mail küldése"
+#: jcommunity~register.form.create.submit
+msgctxt "jcommunity~register.form.create.submit"
+msgid "Create the account"
+msgstr "A felhasználói fiók létrehozása"
 
-#: jcommunity~password.waiting.text.html
-msgctxt "jcommunity~password.waiting.text.html"
+#: jcommunity~register.mail.new.subject
+msgctxt "jcommunity~register.mail.new.subject"
+msgid "Activating your account on the web site %s"
+msgstr "A felhasználói fiók aktiválása a következő oldalon: %s"
+
+#: jcommunity~register.form.login.exists
+msgctxt "jcommunity~register.form.login.exists"
+msgid "This username already exists"
+msgstr "A felhasználónév már foglalt"
+
+#: jcommunity~register.registration.waiting.title
+msgctxt "jcommunity~register.registration.waiting.title"
+msgid "Registration"
+msgstr "Regisztráció"
+
+#: jcommunity~register.registration.waiting.text.html
+msgctxt "jcommunity~register.registration.waiting.text.html"
 msgid ""
-"<p>An email has been sent to the address you gave. Verify your spam folder "
-"if you don't see it into your inbox in few minutes.</p> <p>This email "
-"contains a link to a page which allows you to change your password. This "
-"link is valid only 48 hours.</p> <p>The current password is still valid as "
-"long as you don't change it.</p>"
+"<p>Your account is created, but before using it, we have to verify your "
+"email.</p> <p>In order to verify your email, we just have sent you an email "
+"containing a link on which you must click. Verify your spam folder if you "
+"don't see this email in your inbox.</p>"
 msgstr ""
-"<p>Egy e-mailt küldtünk az ön által megadott címre, kérjük ellenőrizze a "
-"levélszemét mappáját, ha nem találja</p> <p>Az e-mailben megtalálja a "
-"jelszó-változtatáshoz szükséges linket, mely 48 óráig érvényes.</p> <p>A "
-"jelenlegi jelszó mindaddig használható, amíg meg nem változtatja.</p>"
+"<p>A felhasználói fiók elkészült, de használatba vétele előtt meg kell "
+"erősítenie e-mail címét</p> <p>A megerősítő linket e-mailt elküldtük e-mail "
+"címére. Kérjük, ellenőrizze a levélszemét mappáját, ha nem találja "
+"e-mailünket.</p>"
 
-#: jcommunity~password.mail.pwd.change.subject
-msgctxt "jcommunity~password.mail.pwd.change.subject"
-msgid "Request about a password reset on %s"
-msgstr "Jelszó visszaállítás kérése: %s"
+#: jcommunity~register.registration.confirm.title
+msgctxt "jcommunity~register.registration.confirm.title"
+msgid "Activation of your account"
+msgstr "Felhasználói fiók aktiválása"
 
-#: jcommunity~password.form.change.title
-msgctxt "jcommunity~password.form.change.title"
-msgid "Password change"
-msgstr "Jelszó-változtatás"
-
-#: jcommunity~password.form.change.current.password.label
-msgctxt "jcommunity~password.form.change.current.password.label"
-msgid "Your current password"
-msgstr "Jelenlegi jelszó"
-
-#: jcommunity~password.form.change.password.label
-msgctxt "jcommunity~password.form.change.password.label"
-msgid "Your new password"
-msgstr "Új jelszó"
-
-#: jcommunity~password.form.change.submit
-msgctxt "jcommunity~password.form.change.submit"
-msgid "Change"
-msgstr "Megváltoztat"
-
-#: jcommunity~password.form.change.text.html
-msgctxt "jcommunity~password.form.change.text.html"
-msgid "<p>Indicate your new password.</p>"
-msgstr "<p>Adja meg az új jelszót.</p>"
-
-#: jcommunity~password.form.change.error.alreadydone
-msgctxt "jcommunity~password.form.change.error.alreadydone"
-msgid "Sorry, there is no request for a password change."
-msgstr "Sajnáljuk, nem érkezett kérés a jelszó megváltoztatására."
-
-#: jcommunity~password.form.change.error.badkey
-msgctxt "jcommunity~password.form.change.error.badkey"
+#: jcommunity~register.registration.confirm.alreadydone
+msgctxt "jcommunity~register.registration.confirm.alreadydone"
 msgid ""
-"Password change is not possible: the username or the request key is not "
-"valid."
+"Your account is already activated. You can identify yourself on the web "
+"site."
 msgstr ""
-"A jelszó módosítása nem lehetséges, mert a felhasználónév, vagy a kérés "
-"azonosítója helytelen."
+"A felhasználói fiók már aktiválva van. Azonosíthatja magát a weboldalon."
 
-#: jcommunity~password.form.change.error.expiredkey
-msgctxt "jcommunity~password.form.change.error.expiredkey"
-msgid ""
-"Password change is not possible: the request has expired. Do an other "
-"request."
+#: jcommunity~register.registration.confirm.ok
+msgctxt "jcommunity~register.registration.confirm.ok"
+msgid "Your account is activated. You can identify yourself on the web site."
+msgstr "A felhasználói fiók aktiválva van. Azonosíthatja magát a weboldalon."
+
+#: jcommunity~register.registration.confirm.badkey
+msgctxt "jcommunity~register.registration.confirm.badkey"
+msgid "Activation is not possible: the key or the username is invalid."
 msgstr ""
-"A jelszó módosítása nem lehetséges, mert az igénylés lejárt. Kérem, "
-"ismételje meg."
+"Az aktiválás nem lehetséges: a kulcs, vagy a felhasználónév nem létezik."
 
-#: jcommunity~password.form.change.error.badstatus
-msgctxt "jcommunity~password.form.change.error.badstatus"
-msgid "Password change is not allowed because of your account status."
+#: jcommunity~register.registration.confirm.badstatus
+msgctxt "jcommunity~register.registration.confirm.badstatus"
+msgid "Activation is not possible: your account is not a new one."
 msgstr ""
-"A jelszó megváltoztatása nem engedélyezett a felhasználói fiók állapota "
-"miatt."
-
-#: jcommunity~password.form.change.error.badloginemail
-msgctxt "jcommunity~password.form.change.error.badloginemail"
-msgid "We don't know the username or the email you give"
-msgstr "Ismeretlen felhasználónév vagy e-mail cím"
-
-#: jcommunity~password.form.change.error.badcurrentpwd
-msgctxt "jcommunity~password.form.change.error.badcurrentpwd"
-msgid "The password does not match the current password"
-msgstr "A beírt jelszó nem egyezik meg az aktuális jelszóval"
-
-#: jcommunity~password.form.change.reset.ok
-msgctxt "jcommunity~password.form.change.reset.ok"
-msgid "The new password is now saved. You can sign in now."
-msgstr "Az új jelszó mentésre került. Jelentkezzen be!"
-
-#: jcommunity~password.form.change.ok
-msgctxt "jcommunity~password.form.change.ok"
-msgid "The new password is now saved."
-msgstr "Az új jelszó mentésre került."
-
-#: jcommunity~prefs.group.jcommunity
-msgctxt "jcommunity~prefs.group.jcommunity"
-msgid "jCommunity"
-msgstr "jCommunity"
-
-#: jcommunity~prefs.pref.registrationEnabled
-msgctxt "jcommunity~prefs.pref.registrationEnabled"
-msgid "An unknown user can create a new account"
-msgstr "Ismeretlen felhasználó létrehozhat új fiókot"
-
-#: jcommunity~prefs.pref.resetPasswordEnabled
-msgctxt "jcommunity~prefs.pref.resetPasswordEnabled"
-msgid "A user can reset password when he forget it"
-msgstr "A felhasználó visszaállíthatja saját jelszavát"
-
-#: jcommunity~prefs.jcommunity.admin
-msgctxt "jcommunity~prefs.jcommunity.admin"
-msgid "jCommunity"
-msgstr "jCommunity"
-
-#: jcommunity~prefs.admin.prefs.change
-msgctxt "jcommunity~prefs.admin.prefs.change"
-msgid "Modify preferences of jCommunity"
-msgstr "jCommunity hivatkozások módosítása"
+"Az aktiválás nem lehetséges: a felhasználói fiók nem újonnan létrehozott."
 
 #: jcommunity~account.unknown.user
 msgctxt "jcommunity~account.unknown.user"
@@ -550,3 +409,144 @@ msgstr "Változások elvetése és vissza a saját profilhoz"
 msgctxt "jcommunity~account.back.to.account"
 msgid "Back to your profile"
 msgstr "Vissza a saját profilhoz"
+
+#: jcommunity~prefs.group.jcommunity
+msgctxt "jcommunity~prefs.group.jcommunity"
+msgid "jCommunity"
+msgstr "jCommunity"
+
+#: jcommunity~prefs.pref.registrationEnabled
+msgctxt "jcommunity~prefs.pref.registrationEnabled"
+msgid "An unknown user can create a new account"
+msgstr "Ismeretlen felhasználó létrehozhat új fiókot"
+
+#: jcommunity~prefs.pref.resetPasswordEnabled
+msgctxt "jcommunity~prefs.pref.resetPasswordEnabled"
+msgid "A user can reset password when he forget it"
+msgstr "A felhasználó visszaállíthatja saját jelszavát"
+
+#: jcommunity~prefs.jcommunity.admin
+msgctxt "jcommunity~prefs.jcommunity.admin"
+msgid "jCommunity"
+msgstr "jCommunity"
+
+#: jcommunity~prefs.admin.prefs.change
+msgctxt "jcommunity~prefs.admin.prefs.change"
+msgid "Modify preferences of jCommunity"
+msgstr "jCommunity hivatkozások módosítása"
+
+#: jcommunity~password.form.title
+msgctxt "jcommunity~password.form.title"
+msgid "Resetting the password"
+msgstr "Jelszó visszaállítása"
+
+#: jcommunity~password.form.text.html
+msgctxt "jcommunity~password.form.text.html"
+msgid ""
+"<p>If you have forgotten your password, fill the following form with your "
+"username and with the email you have set in your profil.</p> <p>An email "
+"will be sent with a link to a page allowing you to choose a new "
+"password.</p>"
+msgstr ""
+"<p>Ha elfelejtette jelszavát, töltse ki a lenti űrlapot, megadva "
+"felhasználónevét és a hozzá tartozó e-mail címet.</p> <p>Egy e-mailt fogunk "
+"küldeni melyben megtalálja a jelszó-változtatáshoz szükséges linket.</p>"
+
+#: jcommunity~password.form.submit
+msgctxt "jcommunity~password.form.submit"
+msgid "Send the email"
+msgstr "E-mail küldése"
+
+#: jcommunity~password.waiting.text.html
+msgctxt "jcommunity~password.waiting.text.html"
+msgid ""
+"<p>An email has been sent to the address you gave. Verify your spam folder "
+"if you don't see it into your inbox in few minutes.</p> <p>This email "
+"contains a link to a page which allows you to change your password. This "
+"link is valid only 48 hours.</p> <p>The current password is still valid as "
+"long as you don't change it.</p>"
+msgstr ""
+"<p>Egy e-mailt küldtünk az ön által megadott címre, kérjük ellenőrizze a "
+"levélszemét mappáját, ha nem találja</p> <p>Az e-mailben megtalálja a "
+"jelszó-változtatáshoz szükséges linket, mely 48 óráig érvényes.</p> <p>A "
+"jelenlegi jelszó mindaddig használható, amíg meg nem változtatja.</p>"
+
+#: jcommunity~password.mail.pwd.change.subject
+msgctxt "jcommunity~password.mail.pwd.change.subject"
+msgid "Request about a password reset on %s"
+msgstr "Jelszó visszaállítás kérése: %s"
+
+#: jcommunity~password.form.change.title
+msgctxt "jcommunity~password.form.change.title"
+msgid "Password change"
+msgstr "Jelszó-változtatás"
+
+#: jcommunity~password.form.change.current.password.label
+msgctxt "jcommunity~password.form.change.current.password.label"
+msgid "Your current password"
+msgstr "Jelenlegi jelszó"
+
+#: jcommunity~password.form.change.password.label
+msgctxt "jcommunity~password.form.change.password.label"
+msgid "Your new password"
+msgstr "Új jelszó"
+
+#: jcommunity~password.form.change.submit
+msgctxt "jcommunity~password.form.change.submit"
+msgid "Change"
+msgstr "Megváltoztat"
+
+#: jcommunity~password.form.change.text.html
+msgctxt "jcommunity~password.form.change.text.html"
+msgid "<p>Indicate your new password.</p>"
+msgstr "<p>Adja meg az új jelszót.</p>"
+
+#: jcommunity~password.form.change.error.alreadydone
+msgctxt "jcommunity~password.form.change.error.alreadydone"
+msgid "Sorry, there is no request for a password change."
+msgstr "Sajnáljuk, nem érkezett kérés a jelszó megváltoztatására."
+
+#: jcommunity~password.form.change.error.badkey
+msgctxt "jcommunity~password.form.change.error.badkey"
+msgid ""
+"Password change is not possible: the username or the request key is not "
+"valid."
+msgstr ""
+"A jelszó módosítása nem lehetséges, mert a felhasználónév, vagy a kérés "
+"azonosítója helytelen."
+
+#: jcommunity~password.form.change.error.expiredkey
+msgctxt "jcommunity~password.form.change.error.expiredkey"
+msgid ""
+"Password change is not possible: the request has expired. Do an other "
+"request."
+msgstr ""
+"A jelszó módosítása nem lehetséges, mert az igénylés lejárt. Kérem, "
+"ismételje meg."
+
+#: jcommunity~password.form.change.error.badstatus
+msgctxt "jcommunity~password.form.change.error.badstatus"
+msgid "Password change is not allowed because of your account status."
+msgstr ""
+"A jelszó megváltoztatása nem engedélyezett a felhasználói fiók állapota "
+"miatt."
+
+#: jcommunity~password.form.change.error.badloginemail
+msgctxt "jcommunity~password.form.change.error.badloginemail"
+msgid "We don't know the username or the email you give"
+msgstr "Ismeretlen felhasználónév vagy e-mail cím"
+
+#: jcommunity~password.form.change.error.badcurrentpwd
+msgctxt "jcommunity~password.form.change.error.badcurrentpwd"
+msgid "The password does not match the current password"
+msgstr "A beírt jelszó nem egyezik meg az aktuális jelszóval"
+
+#: jcommunity~password.form.change.reset.ok
+msgctxt "jcommunity~password.form.change.reset.ok"
+msgid "The new password is now saved. You can sign in now."
+msgstr "Az új jelszó mentésre került. Jelentkezzen be!"
+
+#: jcommunity~password.form.change.ok
+msgctxt "jcommunity~password.form.change.ok"
+msgid "The new password is now saved."
+msgstr "Az új jelszó mentésre került."

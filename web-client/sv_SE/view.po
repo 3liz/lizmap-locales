@@ -1,14 +1,15 @@
-# 
 # Translators:
-# Rasmus Johansson <rasmus@demosgis.net>, 2016-2017
+# rldhont <rldhont@gmail.com>, 2019
+# Rasmus Johansson <rasmus@demosgis.net>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client view 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-23 15:27++0100\n"
-"PO-Revision-Date: 2019-03-23 15:08+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
-"Language-Team: Swedish (Sweden) (http://www.transifex.com/3liz-1/lizmap-locales/language/sv_SE/)\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"Last-Translator: Rasmus Johansson <rasmus@demosgis.net>, 2019\n"
+"Language-Team: Swedish (Sweden) (https://www.transifex.com/3liz-1/teams/62012/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -73,7 +74,7 @@ msgstr "Tooltip"
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"
 msgid "Geolocation"
-msgstr "Geografisk lokalisering"
+msgstr "Lokalisering"
 
 #: view~map.measure.navbar.title
 msgctxt "view~map.measure.navbar.title"
@@ -830,14 +831,18 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Är du säker att du vill slå av redigeringen? Du kommer att förlora ändringar som gjorts på nuvarande objekt."
+msgstr ""
+"Är du säker att du vill slå av redigeringen? Du kommer att förlora ändringar"
+" som gjorts på nuvarande objekt."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Du kan inte spara detta objekt utan en geometri. Rita ut geometrin på kartan."
+msgstr ""
+"Du kan inte spara detta objekt utan en geometri. Rita ut geometrin på "
+"kartan."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -1261,7 +1266,9 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have an access to"
 " the maps."
-msgstr "Skriv in en kort text som förklarar varför du vill ha tillgång till kartorna."
+msgstr ""
+"Skriv in en kort text som förklarar varför du vill ha tillgång till "
+"kartorna."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
@@ -1580,7 +1587,9 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Du kan inte spara detta objekt utan en geometri. Rita ut geometrin på kartan."
+msgstr ""
+"Du kan inte spara detta objekt utan en geometri. Rita ut geometrin på "
+"kartan."
 
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
@@ -1624,14 +1633,17 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Du kan inte länka flera objekt till båda lagren. Prova igen och välj endast ett objekt för ett lager."
+msgstr ""
+"Du kan inte länka flera objekt till båda lagren. Prova igen och välj endast "
+"ett objekt för ett lager."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Åtminstånde ett objekt måsta väljas för varje lager om länken skall skapas."
+msgstr ""
+"Åtminstånde ett objekt måsta väljas för varje lager om länken skall skapas."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"

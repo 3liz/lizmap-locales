@@ -1,16 +1,15 @@
-# 
 # Translators:
-# rldhont <rldhont@gmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
-# Sławomir Bienias <slawomir.bienias@gmail.com>, 2016-2018
+# Sławomir Bienias <slawomir.bienias@gmail.com>, 2019
+# rldhont <rldhont@gmail.com>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client view 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-23 15:27++0100\n"
-"PO-Revision-Date: 2019-03-23 15:04+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
-"Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>, 2019\n"
+"Language-Team: Polish (Poland) (https://www.transifex.com/3liz-1/teams/62012/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -75,7 +74,7 @@ msgstr "Podpowiedź"
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"
 msgid "Geolocation"
-msgstr "Wyświetl aktualne położenie"
+msgstr "Aktualne położenie"
 
 #: view~map.measure.navbar.title
 msgctxt "view~map.measure.navbar.title"
@@ -100,7 +99,7 @@ msgstr "W toku..."
 #: view~map.toolbar.content.stop
 msgctxt "view~map.toolbar.content.stop"
 msgid "Stop"
-msgstr "Stop"
+msgstr "Zatrzymaj"
 
 #: view~map.print.toolbar.title
 msgctxt "view~map.print.toolbar.title"
@@ -155,7 +154,7 @@ msgstr "Pozostaw wycentrowaną"
 #: view~map.geolocate.toolbar.stop
 msgctxt "view~map.geolocate.toolbar.stop"
 msgid "Stop"
-msgstr "Stop"
+msgstr "Zatrzymaj"
 
 #: view~map.measure.toolbar.title
 msgctxt "view~map.measure.toolbar.title"
@@ -565,7 +564,7 @@ msgstr "Ukryj informacje"
 #: view~map.timemanager.toolbar.title
 msgctxt "view~map.timemanager.toolbar.title"
 msgid "Time Manager"
-msgstr "Menadżer Czasu"
+msgstr "Menadżer czasu"
 
 #: view~map.timemanager.navbar.title
 msgctxt "view~map.timemanager.navbar.title"
@@ -575,7 +574,7 @@ msgstr "Menadżer czasu"
 #: view~map.timemanager.toolbar.play
 msgctxt "view~map.timemanager.toolbar.play"
 msgid "Play"
-msgstr "Odtwórz"
+msgstr "Odtwarzaj"
 
 #: view~map.timemanager.toolbar.pause
 msgctxt "view~map.timemanager.toolbar.pause"
@@ -665,7 +664,7 @@ msgstr "Zmień styl warstwy"
 #: view~map.switcher.layer.export.title
 msgctxt "view~map.switcher.layer.export.title"
 msgid "Export"
-msgstr "Eksportuj"
+msgstr "Eksport"
 
 #: view~map.switcher.layer.unfilter.title
 msgctxt "view~map.switcher.layer.unfilter.title"
@@ -832,14 +831,18 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Jesteś pewien, że chcesz anulować edycję? Stracisz wszystkie zmiany, jakie wprowadziłeś."
+msgstr ""
+"Jesteś pewien, że chcesz anulować edycję? Stracisz wszystkie zmiany, jakie "
+"wprowadziłeś."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Nie możesz zapisać tego obiektu bez geometrii. Proszę wrysować geometrię na mapę."
+msgstr ""
+"Nie możesz zapisać tego obiektu bez geometrii. Proszę wrysować geometrię na "
+"mapę."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -869,7 +872,7 @@ msgstr "Dane mapy"
 #: view~dictionnary.timemanager.toolbar.play
 msgctxt "view~dictionnary.timemanager.toolbar.play"
 msgid "Play"
-msgstr "Odtwórz"
+msgstr "Odtwarzaj"
 
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
@@ -924,7 +927,7 @@ msgstr "Wyświetl informacje"
 #: view~dictionnary.attributeLayers.toolbar.input.search.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.title"
 msgid "Search"
-msgstr "Wyszukaj"
+msgstr "Szukaj"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
@@ -945,12 +948,12 @@ msgstr "Przesuń zaznaczone na górę"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
 msgid "Filter"
-msgstr "Filtruj"
+msgstr "Filtr"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
 msgid "Export"
-msgstr "Eksportuj"
+msgstr "Eksport"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title
 msgctxt ""
@@ -1066,7 +1069,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "Warstwa jest niedostępna. Proszę zbliżyć lub oddalić do skali, w której obiekty będą widoczne."
+msgstr ""
+"Warstwa jest niedostępna. Proszę zbliżyć lub oddalić do skali, w której "
+"obiekty będą widoczne."
 
 #: view~dictionnary.selectiontool.results.none
 msgctxt "view~dictionnary.selectiontool.results.none"
@@ -1161,7 +1166,7 @@ msgstr "Jesteś pewien, że chcesz usunąć tę zakładkę?"
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
 msgid "Click to the map to get informations."
-msgstr ""
+msgstr "Kliknij na mapie, by uzyskać informacje"
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
@@ -1525,7 +1530,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap nie może znaleźć podstawowych kluczy warstwy \"%s\". Narzędzie edycji potrzebuje zdefiniowanego klucza podstawowego dla tej warstwy."
+msgstr ""
+"Lizmap nie może znaleźć podstawowych kluczy warstwy \"%s\". Narzędzie edycji"
+" potrzebuje zdefiniowanego klucza podstawowego dla tej warstwy."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -1582,7 +1589,9 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Nie możesz zapisać tego obiektu bez geometrii. Proszę wrysować geometrię na mapę."
+msgstr ""
+"Nie możesz zapisać tego obiektu bez geometrii. Proszę wrysować geometrię na "
+"mapę."
 
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
@@ -1626,19 +1635,25 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Nie możesz połączyć kilku obiektów dla dwóch warstw. Proszę zaznaczyć tylko jeden obiekt dla jednej z warstw i spróbować ponownie."
+msgstr ""
+"Nie możesz połączyć kilku obiektów dla dwóch warstw. Proszę zaznaczyć tylko "
+"jeden obiekt dla jednej z warstw i spróbować ponownie."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Musi być zaznaczony przynajmniej jeden obiekt dla każdej z warstw, by stworzyć połączenie."
+msgstr ""
+"Musi być zaznaczony przynajmniej jeden obiekt dla każdej z warstw, by "
+"stworzyć połączenie."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table."
-msgstr "Warstwy nie zostały skonfigurowane tak, aby można było pracować na tabelach atrybutów."
+msgstr ""
+"Warstwy nie zostały skonfigurowane tak, aby można było pracować na tabelach "
+"atrybutów."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"

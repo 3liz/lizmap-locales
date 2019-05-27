@@ -1,15 +1,16 @@
-#
 # Translators:
-# Fábio Rodrigo Oliveira <farool2@gmail.com>, 2016
-# Fábio Rodrigo Oliveira <farool2@gmail.com>, 2017
+# Fábio Rodrigo Oliveira <farool2@gmail.com>, 2019
+# rldhont <rldhont@gmail.com>, 2019
+# Alexander Schley <alexanderfschley@yahoo.com.br>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client view 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 15:07++0100\n"
-"PO-Revision-Date: 2019-03-23 14:08+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/3liz-1/lizmap-locales/language/pt_BR/)\n"
+"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"Last-Translator: Alexander Schley <alexanderfschley@yahoo.com.br>, 2019\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/3liz-1/teams/62012/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -64,7 +65,7 @@ msgstr "Procurar"
 #: view~map.print.navbar.title
 msgctxt "view~map.print.navbar.title"
 msgid "Print"
-msgstr "Imprimir"
+msgstr "Impressão"
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"
@@ -84,7 +85,7 @@ msgstr "Medir"
 #: view~map.permalink.navbar.title
 msgctxt "view~map.permalink.navbar.title"
 msgid "Permalink"
-msgstr "Endereço"
+msgstr "Permalink"
 
 #: view~map.selectiontool.navbar.title
 msgctxt "view~map.selectiontool.navbar.title"
@@ -104,7 +105,7 @@ msgstr "Parar"
 #: view~map.print.toolbar.title
 msgctxt "view~map.print.toolbar.title"
 msgid "Print"
-msgstr "Imprimir"
+msgstr "Impressão"
 
 #: view~map.print.toolbar.scale
 msgctxt "view~map.print.toolbar.scale"
@@ -309,7 +310,7 @@ msgstr "Anterior"
 #: view~map.navbar.next.hover
 msgctxt "view~map.navbar.next.hover"
 msgid "Next"
-msgstr "Proximo"
+msgstr "Próximo"
 
 #: view~map.overviewmap.hover
 msgctxt "view~map.overviewmap.hover"
@@ -599,7 +600,7 @@ msgstr "Fechar"
 #: view~map.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~map.bottomdock.toolbar.btn.glue.activate.title"
 msgid "Pin"
-msgstr "Bloquear"
+msgstr "Fixar"
 
 #: view~map.bottomdock.toolbar.btn.glue.deactivate.title
 msgctxt "view~map.bottomdock.toolbar.btn.glue.deactivate.title"
@@ -654,7 +655,7 @@ msgstr "Informação"
 #: view~map.switcher.layer.zoomToExtent.title
 msgctxt "view~map.switcher.layer.zoomToExtent.title"
 msgid "Zoom to layer extent"
-msgstr "Extensão da camada"
+msgstr "Aproximar na extensão da camada"
 
 #: view~map.switcher.layer.style.title
 msgctxt "view~map.switcher.layer.style.title"
@@ -809,7 +810,9 @@ msgstr "Clique em um dos elementos da camada para selecioná-lo."
 #: view~dictionnary.edition.select.modify.activate
 msgctxt "view~dictionnary.edition.select.modify.activate"
 msgid "You can modify the feature you have selected, then submit."
-msgstr "Você pode modificar o objeto que você selecionou e clique e em enviar em seguida."
+msgstr ""
+"Você pode modificar o objeto que você selecionou e clique e em enviar em "
+"seguida."
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -831,14 +834,17 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Você tem certeza que deseja cancelar a edição? Você vai perder qualquer modificação feita no objeto editado no momento."
+msgstr ""
+"Você tem certeza que deseja cancelar a edição? Você vai perder qualquer "
+"modificação feita no objeto editado no momento."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Você não pode salvar este objeto sem uma geometria. Por favor, desenhe a geometria no mapa."
+msgstr ""
+"Você não pode gravar objetos sem geometria. Por favor desenhe a geometria."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -1003,7 +1009,9 @@ msgstr "Atualize os dados da tabela."
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr "A extensão do mapa foi alterado desde que foram obtidos os dados de última hora."
+msgstr ""
+"A extensão do mapa foi alterado desde que foram obtidos os dados de última "
+"hora."
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.lines
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
@@ -1033,7 +1041,7 @@ msgstr "Editar"
 #: view~dictionnary.attributeLayers.btn.delete.title
 msgctxt "view~dictionnary.attributeLayers.btn.delete.title"
 msgid "Delete"
-msgstr "Excluir"
+msgstr "Apagar"
 
 #: view~dictionnary.attributeLayers.btn.remove.link.title
 msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
@@ -1065,7 +1073,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "A camada não é visível. Por favor, dê um zoom em uma escala em que os recursos são visíveis."
+msgstr ""
+"A camada não é visível. Por favor, dê um zoom em uma escala em que os "
+"recursos são visíveis."
 
 #: view~dictionnary.selectiontool.results.none
 msgctxt "view~dictionnary.selectiontool.results.none"
@@ -1262,7 +1272,9 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have an access to"
 " the maps."
-msgstr "Por favor, escreva um pequeno texto para explicar por que você gostaria de ter acesso aos mapas."
+msgstr ""
+"Por favor, escreva um pequeno texto para explicar por que você gostaria de "
+"ter acesso aos mapas."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
@@ -1372,7 +1384,7 @@ msgstr "Excluir"
 #: view~edition.toolbar.delete.title
 msgctxt "view~edition.toolbar.delete.title"
 msgid "Delete"
-msgstr "Excluir"
+msgstr "Apagar"
 
 #: view~edition.toolbar.cancel.title
 msgctxt "view~edition.toolbar.cancel.title"
@@ -1581,7 +1593,8 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Você não pode gravar objetos sem geometria. Por favor desenhe a geometria."
+msgstr ""
+"Você não pode gravar objetos sem geometria. Por favor desenhe a geometria."
 
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
@@ -1608,12 +1621,13 @@ msgstr "Atualizar"
 #: view~edition.upload.choice.delete
 msgctxt "view~edition.upload.choice.delete"
 msgid "Delete"
-msgstr "Excluir"
+msgstr "Apagar"
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
 msgid "The pivot, features1 and features2 parameters are mandatory."
-msgstr "O pivô e os parâmetros características1 e características2 são obrigatórios."
+msgstr ""
+"O pivô e os parâmetros características1 e características2 são obrigatórios."
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
@@ -1625,14 +1639,18 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Não pode juntar múltiplos objetos em diferentes camadas. Por favor selecione um objecto pela camada e tente de novamente."
+msgstr ""
+"Não pode juntar múltiplos objetos em diferentes camadas. Por favor selecione"
+" um objecto pela camada e tente de novamente."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "É necessário ter selecionado pelo menos um objeto para a camada criar o link."
+msgstr ""
+"É necessário ter selecionado pelo menos um objeto para a camada criar o "
+"link."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"

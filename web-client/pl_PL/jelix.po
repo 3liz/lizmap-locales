@@ -1,14 +1,14 @@
-# 
 # Translators:
-# Sławomir Bienias <slawomir.bienias@gmail.com>, 2016-2018
+# Sławomir Bienias <slawomir.bienias@gmail.com>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client jelix 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-19 15:00++0100\n"
-"PO-Revision-Date: 2019-03-19 14:07+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
-"Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
+"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>, 2019\n"
+"Language-Team: Polish (Poland) (https://www.transifex.com/3liz-1/teams/62012/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -518,7 +518,9 @@ msgstr "Juliusz"
 #: jelix~captcha.question.13
 msgctxt "jelix~captcha.question.13"
 msgid "What is the year when the first world war 14-18 has began?"
-msgstr "W którym roku zaczęła się I wojna światowa, która trwała 4 lata i skończyła się w 1918 roku?"
+msgstr ""
+"W którym roku zaczęła się I wojna światowa, która trwała 4 lata i skończyła "
+"się w 1918 roku?"
 
 #: jelix~captcha.response.13
 msgctxt "jelix~captcha.response.13"
@@ -570,7 +572,9 @@ msgctxt "jelix~db.error.connection.closed"
 msgid ""
 "(409) Connection to database is not valid anymore: timeout, server down... "
 "(profile %s)"
-msgstr "(409) Połączenie z bazą danych nie jest już ważne: przekroczono czas oczekiwania, serwer padł... (profil %s)"
+msgstr ""
+"(409) Połączenie z bazą danych nie jest już ważne: przekroczono czas "
+"oczekiwania, serwer padł... (profil %s)"
 
 #: jelix~db.error.no.database.name
 msgctxt "jelix~db.error.no.database.name"
@@ -890,7 +894,7 @@ msgstr "Importuj"
 #: jelix~ui.buttons.export
 msgctxt "jelix~ui.buttons.export"
 msgid "Export"
-msgstr "Eksportuj"
+msgstr "Eksport"
 
 #: jelix~ui.buttons.comments
 msgctxt "jelix~ui.buttons.comments"
@@ -905,7 +909,7 @@ msgstr "Zamknij"
 #: jelix~ui.buttons.first
 msgctxt "jelix~ui.buttons.first"
 msgid "First"
-msgstr "Pierwszy"
+msgstr "Pierwsza"
 
 #: jelix~ui.buttons.last
 msgctxt "jelix~ui.buttons.last"
@@ -1182,54 +1186,69 @@ msgctxt "jelix~formserr.selected.attribute.not.allowed"
 msgid ""
 "(806)\"selected\" attribute on <item> is not allowed when using defaultvalue"
 " attribute or <defaultvalues> (file %s)"
-msgstr "(806)\"zaznaczony\" atrybut w <item> nie jest dozwolony, kiedy używa się atrybutu defaulvalue lub <defaultvalues> (file %s)"
+msgstr ""
+"(806)\"zaznaczony\" atrybut w <item> nie jest dozwolony, kiedy używa się "
+"atrybutu defaulvalue lub <defaultvalues> (file %s)"
 
 #: jelix~formserr.defaultvalues.not.allowed
 msgctxt "jelix~formserr.defaultvalues.not.allowed"
 msgid ""
 "(807) <defaultvalues> is not allowed in a <listbox multiple=\"false\"> "
 "element (file %s)"
-msgstr "(807) <defaultvalues> nie jest dozwolone w elemencie <listbox multiple=\"false\"> (plik %s)"
+msgstr ""
+"(807) <defaultvalues> nie jest dozwolone w elemencie <listbox "
+"multiple=\"false\"> (plik %s)"
 
 #: jelix~formserr.multiple.selected.not.allowed
 msgctxt "jelix~formserr.multiple.selected.not.allowed"
 msgid ""
 "(808)Only one selected item is allowed in <listbox multiple=\"false\">, "
 "<radiobuttons> and <menulist> elements (file %s)"
-msgstr "(808)Dozwolony jest tylko jeden zaznaczony obiekt w elementach <listbox multiple=\"false\">, <radiobuttons> i <menulist> (file %s)"
+msgstr ""
+"(808)Dozwolony jest tylko jeden zaznaczony obiekt w elementach <listbox "
+"multiple=\"false\">, <radiobuttons> i <menulist> (file %s)"
 
 #: jelix~formserr.namespace.wrong
 msgctxt "jelix~formserr.namespace.wrong"
 msgid "(809)The document \"%s\" is not a form or the namespace is invalid"
-msgstr "(809)Dokument \"%s\" nie jest formularzem albo przestrzeń nazwy jest błędna"
+msgstr ""
+"(809)Dokument \"%s\" nie jest formularzem albo przestrzeń nazwy jest błędna"
 
 #: jelix~formserr.bad.formid.for.dao
 msgctxt "jelix~formserr.bad.formid.for.dao"
 msgid ""
 "(810)Impossible to get the dao  record %s corresponding to the formid %s of "
 "%s form"
-msgstr "(810)Impossible to get the dao  record %s corresponding to the formid %s of %s form"
+msgstr ""
+"(810)Impossible to get the dao  record %s corresponding to the formid %s of "
+"%s form"
 
 #: jelix~formserr.control.not.container
 msgctxt "jelix~formserr.control.not.container"
 msgid ""
 "(811) Impossible to use the control \"%s\" with a dao because it isn't a "
 "control with a datasource (form=%s)"
-msgstr "(811) Impossible to use the control \"%s\" with a dao because it isn't a control with a datasource (form=%s)"
+msgstr ""
+"(811) Impossible to use the control \"%s\" with a dao because it isn't a "
+"control with a datasource (form=%s)"
 
 #: jelix~formserr.formid.undefined.for.dao
 msgctxt "jelix~formserr.formid.undefined.for.dao"
 msgid ""
 "(812) Impossible to use the control \"%s\" with a dao because the form %s "
 "has not an id"
-msgstr "(812) Impossible to use the control \"%s\" with a dao because the form %s has not an id"
+msgstr ""
+"(812) Impossible to use the control \"%s\" with a dao because the form %s "
+"has not an id"
 
 #: jelix~formserr.value.not.array
 msgctxt "jelix~formserr.value.not.array"
 msgid ""
 "(813) Impossible de save datas of control \"%s\" (form=%s) because it is not"
 " an array"
-msgstr "(813) Impossible de save datas of control \"%s\" (form=%s) because it is not an array"
+msgstr ""
+"(813) Impossible de save datas of control \"%s\" (form=%s) because it is not"
+" an array"
 
 #: jelix~formserr.invalid.form.builder
 msgctxt "jelix~formserr.invalid.form.builder"
@@ -1241,7 +1260,9 @@ msgctxt "jelix~formserr.invalid.upload.control.name"
 msgid ""
 "(815) The given control name \"%s\" is invalid or the corresponding control "
 "is not an upload (form=%s)"
-msgstr "(815) The given control name \"%s\" is invalid or the corresponding control is not an upload (form=%s)"
+msgstr ""
+"(815) The given control name \"%s\" is invalid or the corresponding control "
+"is not an upload (form=%s)"
 
 #: jelix~formserr.content.missing
 msgctxt "jelix~formserr.content.missing"
@@ -1268,7 +1289,9 @@ msgctxt "jelix~formserr.bad.root.tag"
 msgid ""
 "(820) the root element %1$s is incorrect, it should have the name \"form\" "
 "(fichier %2$s)"
-msgstr "(820) the root element %1$s is incorrect, it should have the name \"form\" (fichier %2$s)"
+msgstr ""
+"(820) the root element %1$s is incorrect, it should have the name \"form\" "
+"(fichier %2$s)"
 
 #: jelix~formserr.unknown.control
 msgctxt "jelix~formserr.unknown.control"
@@ -1285,7 +1308,9 @@ msgctxt "jelix~formserr.invalid.token"
 msgid ""
 "(835) The token of the form is not valid, you should fill the form from the "
 "original web page"
-msgstr "(835) The token of the form is not valid, you should fill the form from the original web page"
+msgstr ""
+"(835) The token of the form is not valid, you should fill the form from the "
+"original web page"
 
 #: jelix~formserr.js.err.invalid
 msgctxt "jelix~formserr.js.err.invalid"
@@ -1347,7 +1372,9 @@ msgctxt "jelix~dao.error.update.impossible"
 msgid ""
 "(502)Update is impossible with this dao because table contains only primary "
 "keys (DAO: %1$s, file: %2$s)"
-msgstr "(502) Aktualizacja jest niemożliwa z tym DAO, ponieważ tabela zawiera tylko klucze główne (DAO: %1$s, file %2$s)"
+msgstr ""
+"(502) Aktualizacja jest niemożliwa z tym DAO, ponieważ tabela zawiera tylko "
+"klucze główne (DAO: %1$s, file %2$s)"
 
 #: jelix~dao.error.bad.operator
 msgctxt "jelix~dao.error.bad.operator"
@@ -1430,21 +1457,27 @@ msgctxt "jelix~cache.error.invalid.key"
 msgid ""
 "(901) error key %s, use only alphanumeric characters and the character '_' "
 "and maximum length 255"
-msgstr "(901) błąd klucza %s, używaj tylko alfanumerycznych znaków oraz znaku '_' i maksymalnej długości 255 znaków"
+msgstr ""
+"(901) błąd klucza %s, używaj tylko alfanumerycznych znaków oraz znaku '_' i "
+"maksymalnej długości 255 znaków"
 
 #: jelix~cache.error.serialize.data
 msgctxt "jelix~cache.error.serialize.data"
 msgid ""
 "(902) profile name '%s': error during data serialisation for cache purpose ("
 " %s )"
-msgstr "(902) nazwa profilu '%s': błąd podczas serializacji danych do pamięci podręcznej ( %s )"
+msgstr ""
+"(902) nazwa profilu '%s': błąd podczas serializacji danych do pamięci "
+"podręcznej ( %s )"
 
 #: jelix~cache.error.unserialize.data
 msgctxt "jelix~cache.error.unserialize.data"
 msgid ""
 "(903) profile name '%s': error during data unserialisation for cache purpose"
 " ( %s )"
-msgstr "(903) nazwa profilu '%s': błąd podczas odserializowania danych do pamięci podręcznej ( %s )"
+msgstr ""
+"(903) nazwa profilu '%s': błąd podczas odserializowania danych do pamięci "
+"podręcznej ( %s )"
 
 #: jelix~cache.error.wrong.date.value
 msgctxt "jelix~cache.error.wrong.date.value"
@@ -1464,7 +1497,8 @@ msgstr "(907) profil '%s': nieznany interfejs obiektu dla sterownika %s"
 #: jelix~cache.error.memcache.extension.missing
 msgctxt "jelix~cache.error.memcache.extension.missing"
 msgid "(908) profile '%s': Memcache extension not installed (%s)"
-msgstr "(908) profil '%s': rozszerzenie Memchache nie jest zainstalowane (%s) "
+msgstr ""
+"(908) profil '%s': rozszerzenie Memchache nie jest zainstalowane (%s) "
 
 #: jelix~cache.error.no.memcache.server.available
 msgctxt "jelix~cache.error.no.memcache.server.available"
@@ -1486,14 +1520,18 @@ msgctxt "jelix~cache.error.memcache.extension.badversion.3"
 msgid ""
 "(912) profile '%s': bad version of the memcache php extension, this plugin "
 "requires 3.0.1 or more"
-msgstr "(912) profil '%s': zła wersja rozszerzenia php Memchace, ta wtyczka wymaga wersji 3.0.1 lub nowszej"
+msgstr ""
+"(912) profil '%s': zła wersja rozszerzenia php Memchace, ta wtyczka wymaga "
+"wersji 3.0.1 lub nowszej"
 
 #: jelix~cache.error.memcache.extension.badversion.2
 msgctxt "jelix~cache.error.memcache.extension.badversion.2"
 msgid ""
 "(913) profile '%s': bad version of the memcache php extension, this plugin "
 "requires less than 3.0"
-msgstr "(913) profil '%s': zła wersja rozszerzenia php Memchace, ta wtyczka wymaga wersji niższej niż 3.0"
+msgstr ""
+"(913) profil '%s': zła wersja rozszerzenia php Memchace, ta wtyczka wymaga "
+"wersji niższej niż 3.0"
 
 #: jelix~cache.error.driver.nohost
 msgctxt "jelix~cache.error.driver.nohost"
@@ -1789,7 +1827,9 @@ msgstr "(1) nieznany błąd"
 msgctxt "jelix~errors.tech"
 msgid ""
 "(2)There is a technic error on the site. Please try connect to it later."
-msgstr "(2) Wystąpił błąd techniczny na stronie. Proszę spróbować połączyć się później."
+msgstr ""
+"(2) Wystąpił błąd techniczny na stronie. Proszę spróbować połączyć się "
+"później."
 
 #: jelix~errors.selector.invalid.syntax
 msgctxt "jelix~errors.selector.invalid.syntax"
@@ -1890,7 +1930,9 @@ msgstr "(61) Błąd (błędy) podczas ładowania dokumentu XML: %s"
 #: jelix~errors.jsession.name.invalid
 msgctxt "jelix~errors.jsession.name.invalid"
 msgid "(90)Session name cannot be empty and only accepts alpha-numeric chars."
-msgstr "(90)Nazwa sesji nie może być pusta oraz nie może zawierać znaków innych niż aflanumeryczne."
+msgstr ""
+"(90)Nazwa sesji nie może być pusta oraz nie może zawierać znaków innych niż "
+"aflanumeryczne."
 
 #: jelix~errors.ad.controller.file.unknown
 msgctxt "jelix~errors.ad.controller.file.unknown"

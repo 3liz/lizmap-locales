@@ -1,15 +1,15 @@
-#
 # Translators:
-# Aitor Gil <nofunat88@hotmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2019
+# Aitor Gil <nofunat88@hotmail.com>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client view 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 15:07++0100\n"
-"PO-Revision-Date: 2019-03-23 14:08+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
-"Language-Team: Basque (http://www.transifex.com/3liz-1/lizmap-locales/language/eu/)\n"
+"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"Last-Translator: Aitor Gil <nofunat88@hotmail.com>, 2019\n"
+"Language-Team: Basque (https://www.transifex.com/3liz-1/teams/62012/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -59,7 +59,7 @@ msgstr "Bilatu"
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"
 msgid "Searching"
-msgstr "Bilatzen"
+msgstr "Bilaketa"
 
 #: view~map.print.navbar.title
 msgctxt "view~map.print.navbar.title"
@@ -144,7 +144,7 @@ msgstr "Geokokatu"
 #: view~map.geolocate.toolbar.center
 msgctxt "view~map.geolocate.toolbar.center"
 msgid "Center"
-msgstr "Erdiratu"
+msgstr "Zentratu"
 
 #: view~map.geolocate.toolbar.bind
 msgctxt "view~map.geolocate.toolbar.bind"
@@ -254,7 +254,7 @@ msgstr "Kokapena"
 #: view~map.switchermenu.title
 msgctxt "view~map.switchermenu.title"
 msgid "Layers"
-msgstr "Legenda"
+msgstr "Geruzak"
 
 #: view~map.legendmenu.title
 msgctxt "view~map.legendmenu.title"
@@ -304,12 +304,12 @@ msgstr "Zoom gutxiago"
 #: view~map.navbar.previous.hover
 msgctxt "view~map.navbar.previous.hover"
 msgid "Previous"
-msgstr "Aurrekoa"
+msgstr "Anterior"
 
 #: view~map.navbar.next.hover
 msgctxt "view~map.navbar.next.hover"
 msgid "Next"
-msgstr "Hurrengoa"
+msgstr "Siguiente"
 
 #: view~map.overviewmap.hover
 msgctxt "view~map.overviewmap.hover"
@@ -494,7 +494,7 @@ msgstr "Maparen deskribaketa"
 #: view~map.metadata.h2.resources
 msgctxt "view~map.metadata.h2.resources"
 msgid "Resources"
-msgstr "Baliabideak"
+msgstr "Recursos"
 
 #: view~map.metadata.h2.properties
 msgctxt "view~map.metadata.h2.properties"
@@ -509,12 +509,12 @@ msgstr "Kontaktua"
 #: view~map.metadata.description.title
 msgctxt "view~map.metadata.description.title"
 msgid "Title"
-msgstr "Izenburua"
+msgstr "Tituloa"
 
 #: view~map.metadata.description.abstract
 msgctxt "view~map.metadata.description.abstract"
 msgid "Description"
-msgstr "Azalpena"
+msgstr "Deskripzioa"
 
 #: view~map.metadata.resources.website
 msgctxt "view~map.metadata.resources.website"
@@ -579,17 +579,17 @@ msgstr "Erreproduzitu"
 #: view~map.timemanager.toolbar.pause
 msgctxt "view~map.timemanager.toolbar.pause"
 msgid "Pause"
-msgstr "Gelditu"
+msgstr "Eten"
 
 #: view~map.timemanager.toolbar.next
 msgctxt "view~map.timemanager.toolbar.next"
 msgid "Next"
-msgstr "Hurrengoa"
+msgstr "Siguiente"
 
 #: view~map.timemanager.toolbar.prev
 msgctxt "view~map.timemanager.toolbar.prev"
 msgid "Previous"
-msgstr "Aurrekoa"
+msgstr "Anterior"
 
 #: view~map.bottomdock.toolbar.btn.clear.title
 msgctxt "view~map.bottomdock.toolbar.btn.clear.title"
@@ -694,7 +694,7 @@ msgstr "Tituloa"
 #: view~default.project.abstract.label
 msgctxt "view~default.project.abstract.label"
 msgid "Abstract"
-msgstr "Laburpena"
+msgstr "Abstraktua"
 
 #: view~default.project.projection.label
 msgctxt "view~default.project.projection.label"
@@ -838,7 +838,9 @@ msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Objektua ezin duzu gorde geometria barik. Mesedez, geometria bat marraztu mapan."
+msgstr ""
+"Objektua ezin duzu gorde geometria barik. Mesedez, geometria bat marraztu "
+"mapan."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -987,7 +989,7 @@ msgstr "Ezkutatu"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.show.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
 msgid "Show"
-msgstr "Erakutsi"
+msgstr "Mostrar"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
@@ -1262,7 +1264,8 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have an access to"
 " the maps."
-msgstr "Deskribatu laburki zergatik mapetara sartzeko baimena izan nahi zenukeen."
+msgstr ""
+"Deskribatu laburki zergatik mapetara sartzeko baimena izan nahi zenukeen."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
@@ -1302,7 +1305,7 @@ msgstr "Datuak gorde dira."
 #: view~edition.form.cancel.label
 msgctxt "view~edition.form.cancel.label"
 msgid "Cancel"
-msgstr "Deuseztatu"
+msgstr "Ezeztatu"
 
 #: view~edition.form.reset.label
 msgctxt "view~edition.form.reset.label"
@@ -1332,7 +1335,7 @@ msgstr "Edizioa"
 #: view~edition.toolbar.draw.title
 msgctxt "view~edition.toolbar.draw.title"
 msgid "Add"
-msgstr "Gehitu"
+msgstr "Añadir"
 
 #: view~edition.toolbar.draw.clear.title
 msgctxt "view~edition.toolbar.draw.clear.title"
@@ -1581,7 +1584,9 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Ezin duzu objektu hau geometriarik gabe gorde. Mesedez, marraztu geometria mapan."
+msgstr ""
+"Objektua ezin duzu gorde geometria barik. Mesedez, geometria bat marraztu "
+"mapan."
 
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
@@ -1625,7 +1630,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Ezin duzu hainbat objetu estekatu geruza bietan. Mesedez, aukeratu objektu bakarra geruza bakarrean."
+msgstr ""
+"Ezin duzu hainbat objetu estekatu geruza bietan. Mesedez, aukeratu objektu "
+"bakarra geruza bakarrean."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"

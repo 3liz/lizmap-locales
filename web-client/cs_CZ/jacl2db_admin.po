@@ -1,14 +1,15 @@
-# 
 # Translators:
 # trendspotter <j.podhorecky@volny.cz>, 2019
+# Jiří Sobotík <jiri.sobotik@centrum.cz>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 18:11++0100\n"
-"PO-Revision-Date: 2019-03-01 14:24+0000\n"
-"Last-Translator: trendspotter <j.podhorecky@volny.cz>\n"
-"Language-Team: Czech (http://www.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
+"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"Last-Translator: Jiří Sobotík <jiri.sobotik@centrum.cz>, 2019\n"
+"Language-Team: Czech (https://www.transifex.com/3liz-1/teams/62012/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -133,14 +134,18 @@ msgstr "Práva"
 #: jacl2db_admin~acl2.group.help.rights.inherit
 msgctxt "jacl2db_admin~acl2.group.help.rights.inherit"
 msgid "\"-\": undefined right, it can be defined in other groups of the user"
-msgstr "\"-\": nesprávně definováno, může být definováno v jiných skupinách uživatele"
+msgstr ""
+"\"-\": nesprávně definováno, může být definováno v jiných skupinách "
+"uživatele"
 
 #: jacl2db_admin~acl2.group.help.rights.yes
 msgctxt "jacl2db_admin~acl2.group.help.rights.yes"
 msgid ""
 "\"yes\": indicate that the right is set, but can be canceled (\"no\") in an "
 "other group"
-msgstr "\"ano\": uveďte, že právo je nastaveno, ale může být zrušeno (\"ne\") v jiné skupině"
+msgstr ""
+"\"ano\": uveďte, že právo je nastaveno, ale může být zrušeno (\"ne\") v jiné"
+" skupině"
 
 #: jacl2db_admin~acl2.group.help.rights.no
 msgctxt "jacl2db_admin~acl2.group.help.rights.no"
@@ -269,21 +274,25 @@ msgstr "Změny nelze použít, jinak nebudete moci některé práva změnit"
 msgctxt "jacl2db_admin~acl2.message.saveuserrights.error.noacl.anybody"
 msgid ""
 "Changes cannot be applied else nobody won't be able to change some rights"
-msgstr "Změny nelze použít, jinak nikdo nebude moci změnit některé práva"
+msgstr "Změny nelze použít, jinak nikdo nebude moci změnit některá práva"
 
 #: jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.yourself
 msgctxt "jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.yourself"
 msgid ""
 "You cannot be removed from this group else you won't be able to change some "
 "rights"
-msgstr "Nemůžete být z této skupiny odstraněni, jinak nebudete moci některé práva změnit"
+msgstr ""
+"Nemůžete být z této skupiny odstraněni, jinak nebudete moci některé práva "
+"změnit"
 
 #: jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.anybody"
 msgid ""
 "The user cannot be removed from this group else nobody won't be able to "
 "change some rights"
-msgstr "Uživatel nemůže být z této skupiny odstraněn, jinak nikdo nebude moci změnit některé práva"
+msgstr ""
+"Uživatel nemůže být z této skupiny odstraněn, jinak nikdo nebude moci změnit"
+" některé práva"
 
 #: jacl2db_admin~acl2.col.personnal.rights
 msgctxt "jacl2db_admin~acl2.col.personnal.rights"
@@ -351,7 +360,10 @@ msgid ""
 "Warning! To remove this rights, you should use the interfaces provided by "
 "business modules corresponding to this rights. Use this page only if you "
 "know what you do!"
-msgstr "Varování! Chcete-li tato práva odstranit, měli byste používat rozhraní poskytovaná obchodními moduly odpovídajících těmto právům. Použijte tuto stránku pouze, pokud víte, co děláte!"
+msgstr ""
+"Varování! Chcete-li tato práva odstranit, měli byste používat rozhraní "
+"poskytovaná obchodními moduly odpovídajících těmto právům. Použijte tuto "
+"stránku pouze, pokud víte, co děláte!"
 
 #: jacl2db_admin~acl2.no.rightres
 msgctxt "jacl2db_admin~acl2.no.rightres"

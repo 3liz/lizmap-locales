@@ -1,14 +1,14 @@
-# 
 # Translators:
-# kasza jozsef <kasza.nkataszri@gmail.com>, 2018-2019
+# kasza jozsef <kasza.nkataszri@gmail.com>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client admin 3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-19 15:00++0100\n"
-"PO-Revision-Date: 2019-03-19 14:07+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
-"Language-Team: Hungarian (Hungary) (http://www.transifex.com/3liz-1/lizmap-locales/language/hu_HU/)\n"
+"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"PO-Revision-Date: 2019-05-27 12:17+0000\n"
+"Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2019\n"
+"Language-Team: Hungarian (Hungary) (https://www.transifex.com/3liz-1/teams/62012/hu_HU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -78,7 +78,9 @@ msgstr "A szerkesztő eszköz használata"
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "Always see complete layers data, even if filtered by login"
-msgstr "Mindig mutassa az összes rétegadatot, még akkor is ha szűrve vannak belépéskor"
+msgstr ""
+"Mindig mutassa az összes rétegadatot, még akkor is ha szűrve vannak "
+"belépéskor"
 
 #: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
 msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
@@ -143,17 +145,17 @@ msgstr "Szolgáltatások"
 #: admin~admin.configuration.services.qgisServerVersion.label
 msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
 msgid "QGIS server version"
-msgstr "QGIS server verzió"
+msgstr "QGIS szerver verziója"
 
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
 msgid "WMS server URL"
-msgstr "WMS server URL"
+msgstr "WMS szerver URL"
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
 msgid "WMS subdomain URLs list (optional)"
-msgstr "WMS aldomainek URL listája (nem kötelező)"
+msgstr "WMS al-domain URLs lista (nem kötelező)"
 
 #: admin~admin.configuration.services.wmsMaxWidth.label
 msgctxt "admin~admin.configuration.services.wmsMaxWidth.label"
@@ -178,7 +180,7 @@ msgstr "Alapértelmezett gyűjtemény"
 #: admin~admin.configuration.services.defaultProject.label
 msgctxt "admin~admin.configuration.services.defaultProject.label"
 msgid "Default project"
-msgstr "Projekt alapbeállítás"
+msgstr "Alapértelmezett projekt"
 
 #: admin~admin.configuration.services.cacheStorageType.label
 msgctxt "admin~admin.configuration.services.cacheStorageType.label"
@@ -203,7 +205,7 @@ msgstr "Gyűjtemények gyökérkönyvtára"
 #: admin~admin.configuration.services.proxyMethod.label
 msgctxt "admin~admin.configuration.services.proxyMethod.label"
 msgid "Send request to QGIS Server with"
-msgstr "Kérések küldése QGIS szervernek a következővel:"
+msgstr "kérések küldése QGIS szervernek a következő módon:"
 
 #: admin~admin.configuration.services.debugMode.label
 msgctxt "admin~admin.configuration.services.debugMode.label"
@@ -299,12 +301,12 @@ msgstr "≤ 2.14"
 #: admin~admin.form.admin_services.qgisServerVersion.218.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.218.label"
 msgid "2.18"
-msgstr ""
+msgstr "2.18"
 
 #: admin~admin.form.admin_services.qgisServerVersion.300.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.300.label"
 msgid "≥ 3.0"
-msgstr ""
+msgstr "≥ 3.0"
 
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
@@ -386,7 +388,9 @@ msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
 "Redis database index: integer >= 0 , optional (used if Redis is chosen for "
 "the cache storage)"
-msgstr "Redis adatbázis index: integer >= 0 , nem kötelező (Redis gyorsítótár esetén)"
+msgstr ""
+"Redis adatbázis index: integer >= 0 , nem kötelező (Redis gyorsítótár "
+"esetén)"
 
 #: admin~admin.form.admin_services.cacheRedisKeyPrefix.help
 msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
@@ -420,14 +424,18 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr "0 = nincs lejárati idő, vagy adjon meg egy egész számot (maximum 2592000 másodperc = 30 nap)"
+msgstr ""
+"0 = nincs lejárati idő, vagy adjon meg egy egész számot (maximum 2592000 "
+"másodperc = 30 nap)"
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr "A szerver gyorsítótár lejárata érték 0 és 2592000 közötti egész érték kell legyen. /másodperc/"
+msgstr ""
+"A szerver gyorsítótár lejárata érték 0 és 2592000 közötti egész érték kell "
+"legyen. /másodperc/"
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -440,7 +448,9 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr "A gyűjtemények gyökérkönyvtára 1 könyvtárra korlátozza a Lizmap-et. Ha ezt megadja, nem adhat meg Lizmap könyvtárat."
+msgstr ""
+"A gyűjtemények gyökérkönyvtára 1 könyvtárra korlátozza a Lizmap-et. Ha ezt "
+"megadja, nem adhat meg Lizmap könyvtárat."
 
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
@@ -450,7 +460,8 @@ msgstr "A szerver relatív elérési utat használ a gyökérkönyvtárhoz?"
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
 msgid "Send request to QGIS Server or request to external services with"
-msgstr "Kérések küldése QGIS szerver vagy külső szolgáltatások felé a következővel:"
+msgstr ""
+"Kérések küldése QGIS szerver vagy külső szolgáltatások felé a következővel:"
 
 #: admin~admin.form.admin_services.proxyMethod.php.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
@@ -547,7 +558,9 @@ msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
 msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
-msgstr "Ha be van kapcsolva, a látogatók kitölthetnek egy adatlapot a hozzáférés igényléséhez. A küldő e-mail címének megadása szükséges"
+msgstr ""
+"Ha be van kapcsolva, a látogatók kitölthetnek egy adatlapot a hozzáférés "
+"igényléséhez. A küldő e-mail címének megadása szükséges"
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
@@ -569,14 +582,19 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "A küldéshez használt e-mail cím. Ha nincs megadva, a Lizmap nem tud leveleket küldeni. Győződjön meg róla, hogy a szerver képes e-maileket küldeni a megadott címről."
+msgstr ""
+"A küldéshez használt e-mail cím. Ha nincs megadva, a Lizmap nem tud "
+"leveleket küldeni. Győződjön meg róla, hogy a szerver képes e-maileket "
+"küldeni a megadott címről."
 
 #: admin~admin.form.admin_services.adminSenderEmail.error.required
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
 msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
-msgstr "A küldő e-mail címe szükséges az értesítések küldéséhez vagy a felhasználói fiók létrehozásához."
+msgstr ""
+"A küldő e-mail címe szükséges az értesítések küldéséhez vagy a felhasználói "
+"fiók létrehozásához."
 
 #: admin~admin.form.admin_services.adminSenderName.label
 msgctxt "admin~admin.form.admin_services.adminSenderName.label"
@@ -815,7 +833,9 @@ msgstr "További CSS részletek"
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
-msgstr "Bármilyen CSS szintaxis használható a Lizmap stílus változtatásához (haladó felhasználóknak)"
+msgstr ""
+"Bármilyen CSS szintaxis használható a Lizmap stílus változtatásához (haladó "
+"felhasználóknak)"
 
 #: admin~admin.theme.detail.title
 msgctxt "admin~admin.theme.detail.title"
@@ -975,7 +995,8 @@ msgstr "Egy felhasználó használta a nyomtatási eszközt."
 #: admin~admin.logs.email.popup.body
 msgctxt "admin~admin.logs.email.popup.body"
 msgid "A user has opened a feature information popup."
-msgstr "Egy felhasználó megnyitotta valamelyik elem információs felugró-ablakát."
+msgstr ""
+"Egy felhasználó megnyitotta valamelyik elem információs felugró-ablakát."
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
@@ -1002,7 +1023,9 @@ msgctxt "admin~admin.logs.error.file.too.big"
 msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
-msgstr "A hibajegyzék tárolására használt file túl nagy. Fontolja meg a jegyzékek automatikus kezelésének beállítását a Lizmap Webkliens jegyzékekhez."
+msgstr ""
+"A hibajegyzék tárolására használt file túl nagy. Fontolja meg a jegyzékek "
+"automatikus kezelésének beállítását a Lizmap Webkliens jegyzékekhez."
 
 #: admin~admin.logs.error.file.erase
 msgctxt "admin~admin.logs.error.file.erase"
@@ -1034,7 +1057,9 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr "Valaki hozzáférést igényelt, hogy elérje a térképeket. Felhasználónév: %s, e-mail: %s."
+msgstr ""
+"Valaki hozzáférést igényelt, hogy elérje a térképeket. Felhasználónév: %s, "
+"e-mail: %s."
 
 #: admin~user.acl.no.group
 msgctxt "admin~user.acl.no.group"
