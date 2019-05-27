@@ -12,7 +12,7 @@ export LOCALES_BRANCH=$(git branch | grep \* | cut -d ' ' -f2)
 
 case $LOCALES_BRANCH in
     master)
-    export LIZMAP_BRANCH=release_3_4
+    export LIZMAP_BRANCH=master
     export AVAILABLE_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SL"
     export OFFICAL_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SL"
     ;;
