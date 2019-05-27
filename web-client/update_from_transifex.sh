@@ -8,7 +8,6 @@ ALL_LOCALES=$(echo "$AVAILABLE_LOCALES" | sed -r 's/ /,/g')
 
 echo $ALL_LOCALES
 
-tx pull -l "$ALL_LOCALES"
-#--branch $LOCALES_BRANCH
+tx pull -l "$ALL_LOCALES" --branch $LOCALES_BRANCH
 
 

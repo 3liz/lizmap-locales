@@ -10,26 +10,37 @@ pot files must be generated directly from Lizmap properties files.
 Be sure you have installed Transifex cli, but also PHP-cli and its mbstring extension
 (`apt-get install php7.2-mbstring`).
 
+You also need to retrieve the source code of lizmap, and download some PHP packages
+with Composer.
+
+```
+git clone https://github.com/3liz/lizmap-web-client.git
+cd lizmap-web-client 
+composer install
+```
+
+
 Updating the list of strings to translate (pot files)
 -----------------------------------------------------
 
-You must generate the `.pot` files, from the `.properties` files.
+First, you must generate the `.pot` files, from the `.properties` files.
 
-You need to install lizmap. The branch of lizmap should match the current
-branch of lizmap-locales. Then you have to execute this command from the 
-web_client directory, by giving the path to the `lizmap/` directory:
+To do it, be sure that you don't have uncommitted changes into your lizmap-web-client
+repository, because the following script will checkout the branch
+corresponding to the current branch of lizmap-locales.
+
+Then you have to execute this command from the web_client directory, by giving the 
+path to the `lizmap-web-client/lizmap/` directory:
 
 ```
 cd web-client/
-./update_from_lizmap.sh /path/to/lizmap/
+./update_from_lizmap.sh /path/to/lizmap-web-client/lizmap/
 ```
 
-Then you push them to Transifex, by indicating the branch (indicate the good branch name !!)
+Then you push them to Transifex
 
 ```
-./push_to_transifex.sh master
-or
-./push_to_transifex.sh lizmap_3_2
+./push_to_transifex.sh
 ```
 
 
@@ -42,17 +53,18 @@ into Lizmap.
 First retrieve translated string from Transifex, it updates po files:
 
 ```
-./update_from_transifex.sh master
-or
-./update_from_transifex.sh lizmap_3_2
+./update_from_transifex.sh
 ```
 
-Then you update `.properties` files from `po` files with:
+Then be sure that you don't have uncommitted changes into your lizmap-web-client
+repository, because the following script will checkout the branch
+corresponding to the current branch of lizmap-locales.
+
+Then execute this script:
 
 ```
-./push_to_lizmap.sh /path/to/lizmap/
+./push_to_lizmap.sh /path/to/lizmap-web-client/lizmap/
 ```
 
-
-
-You can then commit them.
+It updates `.properties` files  into lizmap-web-client from `po` files. You can
+then commit updated files into lizmap-web-client.
