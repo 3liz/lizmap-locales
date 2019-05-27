@@ -1,14 +1,14 @@
-# Translators:
-# Rasmus Johansson <rasmus@demosgis.net>, 2019
 # 
+# Translators:
+# Rasmus Johansson <rasmus@demosgis.net>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client admin 3.3rc1\n"
+"Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 15:10++0200\n"
-"PO-Revision-Date: 2019-05-27 13:11+0000\n"
-"Last-Translator: Rasmus Johansson <rasmus@demosgis.net>, 2019\n"
-"Language-Team: Swedish (Sweden) (https://www.transifex.com/3liz-1/teams/62012/sv_SE/)\n"
+"POT-Creation-Date: 2019-05-27 15:27++0200\n"
+"PO-Revision-Date: 2019-05-27 13:28+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"Language-Team: Swedish (Sweden) (http://www.transifex.com/3liz-1/lizmap-locales/language/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,9 +30,7 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr ""
-"Någon har skickat en Lizmap kontoförfrågan för att kunna komma åt kartorna, "
-"med inloggning %s och med e-post %s. "
+msgstr "Någon har skickat en Lizmap kontoförfrågan för att kunna komma åt kartorna, med inloggning %s och med e-post %s. "
 
 #: admin~user.acl.no.group
 msgctxt "admin~user.acl.no.group"
@@ -117,7 +115,7 @@ msgstr ""
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
 msgid "WMS server URL"
-msgstr "WMS server URL"
+msgstr "Address för WMS-server"
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
@@ -142,17 +140,17 @@ msgstr "Endast kartor"
 #: admin~admin.configuration.services.defaultRepository.label
 msgctxt "admin~admin.configuration.services.defaultRepository.label"
 msgid "Default repository"
-msgstr "Standardrepository"
+msgstr "Förinställd/default repository"
 
 #: admin~admin.configuration.services.defaultProject.label
 msgctxt "admin~admin.configuration.services.defaultProject.label"
 msgid "Default project"
-msgstr "Standardprojekt"
+msgstr "Förinställt/Default projekt"
 
 #: admin~admin.configuration.services.cacheStorageType.label
 msgctxt "admin~admin.configuration.services.cacheStorageType.label"
 msgid "Server cache storage type"
-msgstr "Lagringstyp på servercachen"
+msgstr "Typ av servercachelagring"
 
 #: admin~admin.configuration.services.cacheRootDirectory.label
 msgctxt "admin~admin.configuration.services.cacheRootDirectory.label"
@@ -162,17 +160,17 @@ msgstr "Baskatalog för cachen"
 #: admin~admin.configuration.services.cacheExpiration.label
 msgctxt "admin~admin.configuration.services.cacheExpiration.label"
 msgid "Server cache expiration time(s)"
-msgstr "Utgångstiden för servercachen(erna)"
+msgstr "Servercachens uphörandetid(er)"
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
 msgid "Root folder of repositories"
-msgstr "Baskatalog för repositories "
+msgstr "Baskatalog för repositories"
 
 #: admin~admin.configuration.services.proxyMethod.label
 msgctxt "admin~admin.configuration.services.proxyMethod.label"
 msgid "Send request to QGIS Server with"
-msgstr "Skicka förfrågan till QGIS Server med"
+msgstr "Skicka förfrågan till QGIS server med"
 
 #: admin~admin.configuration.services.debugMode.label
 msgctxt "admin~admin.configuration.services.debugMode.label"
@@ -203,7 +201,7 @@ msgstr "Ändra"
 #: admin~admin.configuration.button.view.repository.label
 msgctxt "admin~admin.configuration.button.view.repository.label"
 msgid "View"
-msgstr "Se/titta"
+msgstr "Titta på"
 
 #: admin~admin.configuration.button.modify.repository.label
 msgctxt "admin~admin.configuration.button.modify.repository.label"
@@ -355,18 +353,14 @@ msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
 "Redis database index: integer >= 0 , optional (used if Redis is chosen for "
 "the cache storage)"
-msgstr ""
-"Redis databasindex: integer >= 0, frivilligt (används om Redis är valt som "
-"cachelagring)"
+msgstr "Redis databasindex: integer >= 0, frivilligt (används om Redis är valt som cachelagring)"
 
 #: admin~admin.form.admin_services.cacheRedisKeyPrefix.help
 msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
 msgid ""
 "Redis key prefix: string, optional (used if Redis is chosen for the cache "
 "storage)"
-msgstr ""
-"Redis nyckelprefix: textsträng, valfritt (används om Redis är valt som "
-"cachelagring)"
+msgstr "Redis nyckelprefix: textsträng, valfritt (används om Redis är valt som cachelagring)"
 
 #: admin~admin.form.admin_services.cacheRootDirectory.label
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.label"
@@ -393,18 +387,14 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr ""
-"0 innebär ingen utgångstid, ange annars ett integervärde i sekunder (max: "
-"2592000 s = 30 dagar)"
+msgstr "0 innebär ingen utgångstid, ange annars ett integervärde i sekunder (max: 2592000 s = 30 dagar)"
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr ""
-"Servercachens utgångstid måste vara integervärde mellan 0 och 2592000 "
-"sekunder."
+msgstr "Servercachens utgångstid måste vara integervärde mellan 0 och 2592000 sekunder."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -417,10 +407,7 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr ""
-"Baskatalogen för repositories kan begränsa Lizmaps sökväg till 1 katalog. Om"
-" en sökväg anges här, är det inte längre möjligt att definiera sökvägen till"
-" en Lizmapkatalog."
+msgstr "Baskatalogen för repositories kan begränsa Lizmaps sökväg till 1 katalog. Om en sökväg anges här, är det inte längre möjligt att definiera sökvägen till en Lizmapkatalog."
 
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
@@ -583,9 +570,7 @@ msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
 msgid ""
 "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
 "\"tracking ID\"."
-msgstr ""
-"Google Analytics ID är utformat på följande vis 'UA-XXXX-Y. Kallas även för "
-"\"tracking ID\"."
+msgstr "Google Analytics ID är utformat på följande vis 'UA-XXXX-Y. Kallas även för \"tracking ID\"."
 
 #: admin~admin.form.admin_services.submit.label
 msgctxt "admin~admin.form.admin_services.submit.label"
@@ -1034,7 +1019,7 @@ msgstr "Ändra i tjänsterna"
 #: admin~jacl2.lizmap.admin.repositories.view
 msgctxt "admin~jacl2.lizmap.admin.repositories.view"
 msgid "View repositories"
-msgstr "Granska/titta på repository"
+msgstr "Granska/titta på repositories"
 
 #: admin~jacl2.lizmap.admin.repositories.create
 msgctxt "admin~jacl2.lizmap.admin.repositories.create"
@@ -1069,8 +1054,7 @@ msgstr "Använd redigeringsvertyget"
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "Always see complete layers data, even if filtered by login"
-msgstr ""
-"Tillåt synlighet av alla lagerdata, även när filter finns vid inloggning"
+msgstr "Tillåt synlighet av alla lagerdata, även när filter finns vid inloggning"
 
 #: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
 msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"

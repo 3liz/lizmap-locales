@@ -1,14 +1,14 @@
-# Translators:
-# Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2019
 # 
+# Translators:
+# Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2016-2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jelix 3.3rc1\n"
+"Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 15:10++0200\n"
-"PO-Revision-Date: 2019-05-27 13:12+0000\n"
-"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2019\n"
-"Language-Team: Finnish (https://www.transifex.com/3liz-1/teams/62012/fi/)\n"
+"POT-Creation-Date: 2019-05-27 15:27++0200\n"
+"PO-Revision-Date: 2019-05-27 13:28+0000\n"
+"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>\n"
+"Language-Team: Finnish (http://www.transifex.com/3liz-1/lizmap-locales/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,9 +24,7 @@ msgstr "(1)tuntematon virhe"
 msgctxt "jelix~errors.tech"
 msgid ""
 "(2)There is a technic error on the site. Please try connect to it later."
-msgstr ""
-"(2) Sivustolla on tekninen virhe. Ole ystävällinen  ja yritä myöhemmin "
-"uudelleen."
+msgstr "(2) Sivustolla on tekninen virhe. Ole ystävällinen  ja yritä myöhemmin uudelleen."
 
 #: jelix~errors.selector.invalid.syntax
 msgctxt "jelix~errors.selector.invalid.syntax"
@@ -127,8 +125,7 @@ msgstr "(61) Vierhe(itä) ladattaessa XML asiakirjaa: %s"
 #: jelix~errors.jsession.name.invalid
 msgctxt "jelix~errors.jsession.name.invalid"
 msgid "(90)Session name cannot be empty and only accepts alpha-numeric chars."
-msgstr ""
-"(90)Sessionimi ei voi olla tyhjä ja hyväksyy vain alfanumeerisia merkkejä"
+msgstr "(90)Sessionimi ei voi olla tyhjä ja hyväksyy vain alfanumeerisia merkkejä"
 
 #: jelix~errors.ad.controller.file.unknown
 msgctxt "jelix~errors.ad.controller.file.unknown"
@@ -145,9 +142,7 @@ msgctxt "jelix~errors.ad.controller.method.unknown"
 msgid ""
 "(102)Action %s: method %s of the controller class %s doesn't exists (file: "
 "%s)"
-msgstr ""
-"(102)Toiminto %s: menetelmää %s kontrolliluokalle %s ei ole olemassa "
-"(tiedosto: %s)"
+msgstr "(102)Toiminto %s: menetelmää %s kontrolliluokalle %s ei ole olemassa (tiedosto: %s)"
 
 #: jelix~errors.ad.response.unknown
 msgctxt "jelix~errors.ad.response.unknown"
@@ -164,18 +159,14 @@ msgctxt "jelix~errors.ad.response.not.loaded"
 msgid ""
 "(112)Action %s: the class for the response type \"%s\" can't be loaded "
 "(file: %s)"
-msgstr ""
-"(112)Toiminto %s: luokkaa vastaustyyppiin \"%s\" ei voida ladata (tiedosto: "
-"%s)"
+msgstr "(112)Toiminto %s: luokkaa vastaustyyppiin \"%s\" ei voida ladata (tiedosto: %s)"
 
 #: jelix~errors.ad.response.type.notallowed
 msgctxt "jelix~errors.ad.response.type.notallowed"
 msgid ""
 "(113)Action %s: the response type \"%s\" is not allowed for the current "
 "request (file: %s)"
-msgstr ""
-"(113)Toiminto %s: vastaustyyppi \"%s\" ei ole sallittu nykyiselle kyselylle "
-"(tiedosto: %s)"
+msgstr "(113)Toiminto %s: vastaustyyppi \"%s\" ei ole sallittu nykyiselle kyselylle (tiedosto: %s)"
 
 #: jelix~errors.ltx2pdf.exec
 msgctxt "jelix~errors.ltx2pdf.exec"
@@ -210,8 +201,7 @@ msgstr "(134)Toiminto %s: luokkaa oletustyypille \"%2$s\" ei voida ladata"
 #: jelix~errors.plugin.unregister
 msgctxt "jelix~errors.plugin.unregister"
 msgid "(135)The required %1$s plugin for coordinator is not registered"
-msgstr ""
-"(135)Pakollista %1$s liitännäistä koordinaattorille ei ole rekisteröity"
+msgstr "(135)Pakollista %1$s liitännäistä koordinaattorille ei ole rekisteröity"
 
 #: jelix~errors.module.unknown
 msgctxt "jelix~errors.module.unknown"
@@ -251,33 +241,26 @@ msgstr "(153) Uudelleen ohjaus mahdotonta: tyhjä url"
 #: jelix~errors.rep.bad.request.method
 msgctxt "jelix~errors.rep.bad.request.method"
 msgid "(155) Impossible to use cache on other request type that GET or HEAD"
-msgstr ""
-"(155) Mahdotonta käyttää välimuistia muissa kyselytyypeissä kuin GET tai "
-"HEAD"
+msgstr "(155) Mahdotonta käyttää välimuistia muissa kyselytyypeissä kuin GET tai HEAD"
 
 #: jelix~errors.locale.key.selector.invalid
 msgctxt "jelix~errors.locale.key.selector.invalid"
 msgid "(200)The given locale key \"%s\" is invalid  ( charset %s, lang %s)"
-msgstr ""
-"(200)Annettu locale avain \"%s\" on virheellinen  ( merkistö %s, kieli %s)"
+msgstr "(200)Annettu locale avain \"%s\" on virheellinen  ( merkistö %s, kieli %s)"
 
 #: jelix~errors.locale.key.unknown
 msgctxt "jelix~errors.locale.key.unknown"
 msgid ""
 "(201)The given locale key \"%s\" from module \"%s\" (and  charset %s, lang "
 "%s) does not exists"
-msgstr ""
-"(201)Annettua locale avainta \"%s\" modulista \"%s\" (ja merkistöstä %s, "
-"kieli %s) ei ole olemassa"
+msgstr "(201)Annettua locale avainta \"%s\" modulista \"%s\" (ja merkistöstä %s, kieli %s) ei ole olemassa"
 
 #: jelix~errors.locale.key.file.unknown
 msgctxt "jelix~errors.locale.key.file.unknown"
 msgid ""
 "(202) The file of the given locale key \"%s\" from module \"%s\" (and  "
 "charset %s, lang %s) does not exists"
-msgstr ""
-"(202)Tiedostoa annettulle locale avaimelle \"%s\" modulista \"%s\" (ja "
-"merkistöstä %s, kieli %s) ei ole olemassa"
+msgstr "(202)Tiedostoa annettulle locale avaimelle \"%s\" modulista \"%s\" (ja merkistöstä %s, kieli %s) ei ole olemassa"
 
 #: jelix~errors.tpl.tag.syntax.invalid
 msgctxt "jelix~errors.tpl.tag.syntax.invalid"
@@ -298,8 +281,7 @@ msgstr "(302)Mallissa %2$s, tuntematon kunktio %1$s"
 msgctxt "jelix~errors.tpl.tag.modifier.invalid"
 msgid ""
 "(303)In the tag %s in the template %3$s, invalid syntax on the modifier %2$s"
-msgstr ""
-"(303)Tagissä %s maillissa %3$s, virheellinen syntaksi modifioijassa %2$s"
+msgstr "(303)Tagissä %s maillissa %3$s, virheellinen syntaksi modifioijassa %2$s"
 
 #: jelix~errors.tpl.tag.modifier.unknown
 msgctxt "jelix~errors.tpl.tag.modifier.unknown"
@@ -366,9 +348,7 @@ msgctxt "jelix~errors.tplplugin.block.bad.argument.number"
 msgid ""
 "(316)In the tag %s  in the template %3$s, bad argument number (%2$s "
 "expected)"
-msgstr ""
-"(316)Tagissä %s  mallissa %3$s, virheellinen argumenttien lukumäärä  (%2$s "
-"odotettu)"
+msgstr "(316)Tagissä %s  mallissa %3$s, virheellinen argumenttien lukumäärä  (%2$s odotettu)"
 
 #: jelix~errors.tpl.tag.locale.end.missing
 msgctxt "jelix~errors.tpl.tag.locale.end.missing"
@@ -386,26 +366,21 @@ msgstr "(318)Tagissä %s mallissa %3$s, vakiot (%2$s) eivät ole sallittuja"
 msgctxt "jelix~errors.tplplugin.cfunction.bad.argument.number"
 msgid ""
 "(319)In the tag %s in the template %3$s, bad argument number (%2$s expected)"
-msgstr ""
-"(319)Tagissä %s mallissa %3$s, virheellinen argumenttien lukumäärä (%2$s "
-"odotettu)"
+msgstr "(319)Tagissä %s mallissa %3$s, virheellinen argumenttien lukumäärä (%2$s odotettu)"
 
 #: jelix~errors.tplplugin.cmodifier.bad.argument.number
 msgctxt "jelix~errors.tplplugin.cmodifier.bad.argument.number"
 msgid ""
 "(320)In the modifier %s in the template %3$s, bad argument number (%2$s "
 "expected)"
-msgstr ""
-"(320)Modifioijassa %s mallissa %3$s, väärä argumenttien lukumäärä (%2$s "
-"odotetttu)"
+msgstr "(320)Modifioijassa %s mallissa %3$s, väärä argumenttien lukumäärä (%2$s odotetttu)"
 
 #: jelix~errors.tplplugin.untrusted.not.available
 msgctxt "jelix~errors.tplplugin.untrusted.not.available"
 msgid ""
 "(321)In the tag %s in the template %2$s, is not allowed in a untrusted "
 "template"
-msgstr ""
-"(321)Tagissä %s mallissa %2$s, ei ole sallittu epäluotettavassa mallissa"
+msgstr "(321)Tagissä %s mallissa %2$s, ei ole sallittu epäluotettavassa mallissa"
 
 #: jelix~errors.tplplugin.function.argument.unknown
 msgctxt "jelix~errors.tplplugin.function.argument.unknown"
@@ -421,9 +396,7 @@ msgstr "(323)Virheellinen syntaksi tagissä %1$s mallissa %3$s"
 #: jelix~errors.mail.provide_address
 msgctxt "jelix~errors.mail.provide_address"
 msgid "(350)jMailer: You must provide at least one recipient email address."
-msgstr ""
-"(350)jMailer: Sinun tulee antaa vähintäin yksi vastaanottajan "
-"sähköpostiosoite."
+msgstr "(350)jMailer: Sinun tulee antaa vähintäin yksi vastaanottajan sähköpostiosoite."
 
 #: jelix~errors.mail.mailer_not_supported
 msgctxt "jelix~errors.mail.mailer_not_supported"
@@ -506,10 +479,7 @@ msgid ""
 "(501) The given profile \"%s\" for \"%s\" doesn't exist. The default one is "
 "used instead. To not show this error, create the profile or an alias to the "
 "default profile."
-msgstr ""
-"(501) Annettua profiilia \"%s\" \"%s\":ää varten ei ole. Sen sijaan "
-"käytetään oletusta. Jottei tätä virhettä näytettäisi, luo profiili tai alias"
-" oletusprofiilille."
+msgstr "(501) Annettua profiilia \"%s\" \"%s\":ää varten ei ole. Sen sijaan käytetään oletusta. Jottei tätä virhettä näytettäisi, luo profiili tai alias oletusprofiilille."
 
 #: jelix~errors.profile.default.unknown
 msgctxt "jelix~errors.profile.default.unknown"
@@ -524,9 +494,7 @@ msgstr "(503) Nimi virtuaaliprofiilille \"%s\" on tyhjä"
 #: jelix~errors.profile.virtual.invalid.params
 msgctxt "jelix~errors.profile.virtual.invalid.params"
 msgid "(504) Invalid parameters for the virtual profile \"%s\" for \"%s\""
-msgstr ""
-"(504) Virheelliset parametrit virtuaaliselle profiilille \"%s\" käytettävksi"
-" \"%s\""
+msgstr "(504) Virheelliset parametrit virtuaaliselle profiilille \"%s\" käytettävksi \"%s\""
 
 #: jelix~auth.error.plugin.missing
 msgctxt "jelix~auth.error.plugin.missing"
@@ -573,9 +541,7 @@ msgctxt "jelix~auth.error.bcrypt.bad.salt"
 msgid ""
 "(611) The salt for bcrypt algorithm must be alphanumeric [0-9A-Za-z] and "
 "have 22 characters"
-msgstr ""
-"(611) Alkusyötteen bcrypt algoritmille tulee olla alfanumeerinen [0-9A-Za-z]"
-" ja siinä tulee olla 22 merkkiä"
+msgstr "(611) Alkusyötteen bcrypt algoritmille tulee olla alfanumeerinen [0-9A-Za-z] ja siinä tulee olla 22 merkkiä"
 
 #: jelix~auth.ldap.search.base.missing
 msgctxt "jelix~auth.ldap.search.base.missing"
@@ -687,9 +653,7 @@ msgctxt "jelix~db.error.connection.closed"
 msgid ""
 "(409) Connection to database is not valid anymore: timeout, server down... "
 "(profile %s)"
-msgstr ""
-"(409) Yhteys tietokantaan ei ole enää käytettävissä: timeout, palvelin "
-"toimimaton... (profili %s)"
+msgstr "(409) Yhteys tietokantaan ei ole enää käytettävissä: timeout, palvelin toimimaton... (profili %s)"
 
 #: jelix~db.error.no.database.name
 msgctxt "jelix~db.error.no.database.name"
@@ -966,9 +930,7 @@ msgctxt "jelix~dao.error.update.impossible"
 msgid ""
 "(502)Update is impossible with this dao because table contains only primary "
 "keys (DAO: %1$s, file: %2$s)"
-msgstr ""
-"(502)Tämän dao:n päivittäminen on mahdotonta koska taulu sisätää vain "
-"primääriavaimia (DAO: %1$s, tiedosto: %2$s)"
+msgstr "(502)Tämän dao:n päivittäminen on mahdotonta koska taulu sisätää vain primääriavaimia (DAO: %1$s, tiedosto: %2$s)"
 
 #: jelix~dao.error.bad.operator
 msgctxt "jelix~dao.error.bad.operator"
@@ -1023,7 +985,7 @@ msgstr "Huh"
 #: jelix~date_time.month.05.label
 msgctxt "jelix~date_time.month.05.label"
 msgid "May"
-msgstr "Tou"
+msgstr "Toukokuu"
 
 #: jelix~date_time.month.05.shortlabel
 msgctxt "jelix~date_time.month.05.shortlabel"
@@ -1344,43 +1306,33 @@ msgstr "(512)DAO %1$s, attribuutti \"%3$s\" puuttuu tagistä \"%4$s\" (tiedosto 
 msgctxt "jelix~daoxml.tag.duplicate"
 msgid ""
 "(513)DAO %1$s, only one %3$s tag is allowed in the %4$s method (file %2$s)"
-msgstr ""
-"(513)DAO %1$s, ainoastaan yksi %3$s tagi on sallittu %4$s menetelmässä "
-"(tiedosto %2$s)"
+msgstr "(513)DAO %1$s, ainoastaan yksi %3$s tagi on sallittu %4$s menetelmässä (tiedosto %2$s)"
 
 #: jelix~daoxml.forbidden.attr
 msgctxt "jelix~daoxml.forbidden.attr"
 msgid ""
 "(514)DAO %1$s, the \"%3$s\" attribute is not allowed on the \"%4$s\" element"
 " (file %2$s)"
-msgstr ""
-"(514)DAO %1$s, \"%3$s\" attribuutti ei ole sallittu \"%4$s\" elementissä "
-"(tiedosto %2$s)"
+msgstr "(514)DAO %1$s, \"%3$s\" attribuutti ei ole sallittu \"%4$s\" elementissä (tiedosto %2$s)"
 
 #: jelix~daoxml.forbidden.attr.context
 msgctxt "jelix~daoxml.forbidden.attr.context"
 msgid ""
 "(515)DAO %1$s, the \"%3$s\" attribute is not allowed on the \"%4$s\" element"
 " in this context (file %2$s)"
-msgstr ""
-"(515)DAO %1$s, \"%3$s\" attribuutti ei ole sallittu \"%4$s\" elementissä "
-"tässä yhteydessä (tiedosto %2$s)"
+msgstr "(515)DAO %1$s, \"%3$s\" attribuutti ei ole sallittu \"%4$s\" elementissä tässä yhteydessä (tiedosto %2$s)"
 
 #: jelix~daoxml.wrong.attr
 msgctxt "jelix~daoxml.wrong.attr"
 msgid ""
 "(516)DAO %1$s, the value \"%3$s\" of the \"%4$s\" attribute on the \"%5$s\" "
 "element is not valid (file %2$s)"
-msgstr ""
-"(516)DAO %1$s, arvo \"%3$s\" attribuutissa \"%4$s\" elementissä  \"%5$s\" ei"
-" ole kelvollinen (tiedosto %2$s)"
+msgstr "(516)DAO %1$s, arvo \"%3$s\" attribuutissa \"%4$s\" elementissä  \"%5$s\" ei ole kelvollinen (tiedosto %2$s)"
 
 #: jelix~daoxml.unknown.attr
 msgctxt "jelix~daoxml.unknown.attr"
 msgid "(517)DAO %1$s, attribute \"%3$s\" is unknown on tag \"%4$s\" (file %2$s)"
-msgstr ""
-"(517)DAO %1$s, attribuutti \"%3$s\" on tuntematon tagissä \"%4$s\" (tiedosto"
-" %2$s)"
+msgstr "(517)DAO %1$s, attribuutti \"%3$s\" on tuntematon tagissä \"%4$s\" (tiedosto %2$s)"
 
 #: jelix~daoxml.datasource.missing
 msgctxt "jelix~daoxml.datasource.missing"
@@ -1415,17 +1367,14 @@ msgstr "(530)DAO %1$s, ei määriteltyä ominaisuutta (tiedosto %2$s)"
 #: jelix~daoxml.property.unknown.table
 msgctxt "jelix~daoxml.property.unknown.table"
 msgid "(531)DAO %1$s, unknown table name on the property %3$s (file %2$s)"
-msgstr ""
-"(531)DAO %1$s, tuntematon taulun nimi ominaisuudessa %3$s (tiedosto %2$s)"
+msgstr "(531)DAO %1$s, tuntematon taulun nimi ominaisuudessa %3$s (tiedosto %2$s)"
 
 #: jelix~daoxml.property.invalid.name
 msgctxt "jelix~daoxml.property.invalid.name"
 msgid ""
 "(532)DAO %1$s, invalid syntaxe in the property name \"%3$s\", it must "
 "respect php syntax (file %2$s)"
-msgstr ""
-"(532)DAO %1$s, virheellinen syntaksi ominaisuuden nimessä \"%3$s\", sen "
-"tulee kunnioittaa php syntaksia (tiedosto %2$s)"
+msgstr "(532)DAO %1$s, virheellinen syntaksi ominaisuuden nimessä \"%3$s\", sen tulee kunnioittaa php syntaksia (tiedosto %2$s)"
 
 #: jelix~daoxml.property.already.defined
 msgctxt "jelix~daoxml.property.already.defined"
@@ -1436,23 +1385,18 @@ msgstr "(533)DAO %1$s, ominaisuus %3$s on jo määritelty (tiedosto %2$s)"
 msgctxt "jelix~daoxml.property.imported.unknown.table"
 msgid ""
 "(534)DAO %1$s, unknown table name on the imported property %3$s (file %2$s)"
-msgstr ""
-"(534)DAO %1$s, tuntematon taulun nimi tuodussa ominaisuudessa %3$s (tiedosto"
-" %2$s)"
+msgstr "(534)DAO %1$s, tuntematon taulun nimi tuodussa ominaisuudessa %3$s (tiedosto %2$s)"
 
 #: jelix~daoxml.method.parameter.unknowname
 msgctxt "jelix~daoxml.method.parameter.unknowname"
 msgid "(540)DAO %1$s, method $3$s, parameter name is missing (file %2$s)"
-msgstr ""
-"(540)DAO %1$s, menetelmä $3$s, parameterin nimi puuttuu (tiedosto %2$s)"
+msgstr "(540)DAO %1$s, menetelmä $3$s, parameterin nimi puuttuu (tiedosto %2$s)"
 
 #: jelix~daoxml.method.procstock.name.missing
 msgctxt "jelix~daoxml.method.procstock.name.missing"
 msgid ""
 "(541)DAO %1$s, procedure call name is missing on method $3$s (file %2$s)"
-msgstr ""
-"(541)DAO %1$s, proseduurikutsun nimi puuttuu menetelmästä $3$s (tiedosto "
-"%2$s)"
+msgstr "(541)DAO %1$s, proseduurikutsun nimi puuttuu menetelmästä $3$s (tiedosto %2$s)"
 
 #: jelix~daoxml.method.body.missing
 msgctxt "jelix~daoxml.method.body.missing"
@@ -1464,18 +1408,14 @@ msgctxt "jelix~daoxml.method.values.undefine"
 msgid ""
 "(543)DAO %1$s, method %3$s of \"update\" type should contains \"value\" tag "
 "(file %2$s)"
-msgstr ""
-"(543)DAO %1$s, menetelmän %3$s \"update\" tyyppiä tulee sisältää \"arvo\" "
-"tagi (tiedosto %2$s)"
+msgstr "(543)DAO %1$s, menetelmän %3$s \"update\" tyyppiä tulee sisältää \"arvo\" tagi (tiedosto %2$s)"
 
 #: jelix~daoxml.method.limit.forbidden
 msgctxt "jelix~daoxml.method.limit.forbidden"
 msgid ""
 "(544)DAO %1$s, method %3$s, limit tag is allowed only on select method (file"
 " %2$s)"
-msgstr ""
-"(544)DAO %1$s, menetelmä %3$s, rajoittava tagi on sallittu vain "
-"valintamenetelmässä (tiedosto %2$s)"
+msgstr "(544)DAO %1$s, menetelmä %3$s, rajoittava tagi on sallittu vain valintamenetelmässä (tiedosto %2$s)"
 
 #: jelix~daoxml.method.duplicate
 msgctxt "jelix~daoxml.method.duplicate"
@@ -1490,53 +1430,42 @@ msgstr "(546)DAO %1$s, menetelmä %3$s, tuntematon ehto %4$s (tiedosto %2$s)"
 #: jelix~daoxml.method.property.unknown
 msgctxt "jelix~daoxml.method.property.unknown"
 msgid "(547)DAO %1$s, method %3$s, unknown property (%4$s) (file %2$s)"
-msgstr ""
-"(547)DAO %1$s, menetelmä %3$s, tuntematon ominaisuus (%4$s) (tiedosto %2$s)"
+msgstr "(547)DAO %1$s, menetelmä %3$s, tuntematon ominaisuus (%4$s) (tiedosto %2$s)"
 
 #: jelix~daoxml.method.property.forbidden
 msgctxt "jelix~daoxml.method.property.forbidden"
 msgid ""
 "(548)DAO %1$s, conditions on foreign keys are not allowed on this type of "
 "method %3$s (file %2$s)"
-msgstr ""
-"(548)DAO %1$s, ehdot vierasavaimille eivät ole sallittuja tämän tyyppisessä "
-"menetelmässä %3$s (tiedosto %2$s)"
+msgstr "(548)DAO %1$s, ehdot vierasavaimille eivät ole sallittuja tämän tyyppisessä menetelmässä %3$s (tiedosto %2$s)"
 
 #: jelix~daoxml.method.condition.valueexpr.together
 msgctxt "jelix~daoxml.method.condition.valueexpr.together"
 msgid ""
 "(549)DAO %1$s, method %3$s, condition %4$s: no value and expression at the "
 "same time (file %2$s)"
-msgstr ""
-"(549)DAO %1$s, menetelmä %3$s, ehto %4$s: ei arvoa ja lauseketta saman "
-"aikaisesti (tiedosto %2$s)"
+msgstr "(549)DAO %1$s, menetelmä %3$s, ehto %4$s: ei arvoa ja lauseketta saman aikaisesti (tiedosto %2$s)"
 
 #: jelix~daoxml.method.condition.valueexpr.notallowed
 msgctxt "jelix~daoxml.method.condition.valueexpr.notallowed"
 msgid ""
 "(550)DAO %1$s, method %3$s, value or expr are not allowed on condition %4$s "
 "(file %2$s)"
-msgstr ""
-"(550)DAO %1$s, menetelmä %3$s, arvo ja lauseke eivät ole sallittuja ehdossa "
-"%4$s (tiedosto %2$s)"
+msgstr "(550)DAO %1$s, menetelmä %3$s, arvo ja lauseke eivät ole sallittuja ehdossa %4$s (tiedosto %2$s)"
 
 #: jelix~daoxml.method.condition.valueexpr.missing
 msgctxt "jelix~daoxml.method.condition.valueexpr.missing"
 msgid ""
 "(551)DAO %1$s, method %3$s, value or expression is missing on condition %4$s"
 " (file %2$s)"
-msgstr ""
-"(551)DAO %1$s, menetelmä %3$s, arvo tai lauseke puuttuu ehdosta %4$s "
-"(tiedosto %2$s)"
+msgstr "(551)DAO %1$s, menetelmä %3$s, arvo tai lauseke puuttuu ehdosta %4$s (tiedosto %2$s)"
 
 #: jelix~daoxml.method.orderitem.bad
 msgctxt "jelix~daoxml.method.orderitem.bad"
 msgid ""
 "(552)DAO %1$s, method %4$s, property on item order %3$s is unknown (file "
 "%2$s)"
-msgstr ""
-"(552)DAO %1$s, menetelmä %4$s, ominaisuus jäsenjärjestyksessä %3$s on "
-"tuntematon (tiedosto %2$s)"
+msgstr "(552)DAO %1$s, menetelmä %4$s, ominaisuus jäsenjärjestyksessä %3$s on tuntematon (tiedosto %2$s)"
 
 #: jelix~daoxml.method.orderitem.property.missing
 msgctxt "jelix~daoxml.method.orderitem.property.missing"
@@ -1547,98 +1476,76 @@ msgstr "(553)DAO %1$s, menetelmä %3$s, orderitem tagi puuttuu (tiedosto %2$s)"
 msgctxt "jelix~daoxml.method.values.property.unknown"
 msgid ""
 "(554)DAO %1$s, method %3$s,  unknown property on a <value> tag (file %2$s)"
-msgstr ""
-"(554)DAO %1$s, menetelmä %3$s,  tuntematon ominaisuus <arvo> tagissä "
-"(tiedosto %2$s)"
+msgstr "(554)DAO %1$s, menetelmä %3$s,  tuntematon ominaisuus <arvo> tagissä (tiedosto %2$s)"
 
 #: jelix~daoxml.method.values.property.bad
 msgctxt "jelix~daoxml.method.values.property.bad"
 msgid ""
 "(555)DAO %1$s, method %3$s,  a property should be owned by the primary table"
 "  (file %2$s)"
-msgstr ""
-"(555)DAO %1$s, menetelmä %3$s,  ominaisuuden tulee kuulua primääritauluun  "
-"(tiedosto %2$s)"
+msgstr "(555)DAO %1$s, menetelmä %3$s,  ominaisuuden tulee kuulua primääritauluun  (tiedosto %2$s)"
 
 #: jelix~daoxml.method.values.property.pkforbidden
 msgctxt "jelix~daoxml.method.values.property.pkforbidden"
 msgid ""
 "(556)DAO %1$s, method %3$s, prmiary key properties are not allowed in value "
 "tag  (file %2$s)"
-msgstr ""
-"(556)DAO %1$s, menetelmä %3$s, primääriavaimen ominaisuudet eivät ole "
-"sallittuja arvotagissä  (tiedosto %2$s)"
+msgstr "(556)DAO %1$s, menetelmä %3$s, primääriavaimen ominaisuudet eivät ole sallittuja arvotagissä  (tiedosto %2$s)"
 
 #: jelix~daoxml.method.values.valueexpr
 msgctxt "jelix~daoxml.method.values.valueexpr"
 msgid ""
 "(557)DAO %1$s, method %3$s, value or expression is missing on a value tag "
 "(file %2$s)"
-msgstr ""
-"(557)DAO %1$s, menetelmä %3$s, arvo tai lauseke puuttuu arvotagistä "
-"(tiedosto %2$s)"
+msgstr "(557)DAO %1$s, menetelmä %3$s, arvo tai lauseke puuttuu arvotagistä (tiedosto %2$s)"
 
 #: jelix~daoxml.method.limit.parameter.unknown
 msgctxt "jelix~daoxml.method.limit.parameter.unknown"
 msgid ""
 "(558)DAO %1$s, method %3$s, unknown parameter %4$s in the limit tag (file "
 "%2$s)"
-msgstr ""
-"(558)DAO %1$s, menetelmä %3$s, tuntematon parametri %4$s rajoittavassa "
-"tagissa (tiedosto %2$s)"
+msgstr "(558)DAO %1$s, menetelmä %3$s, tuntematon parametri %4$s rajoittavassa tagissa (tiedosto %2$s)"
 
 #: jelix~daoxml.method.limit.badvalue
 msgctxt "jelix~daoxml.method.limit.badvalue"
 msgid ""
 "(559)DAO %1$s, method %3$s, bad value on limit tag ( %4$s ) (file %2$s)"
-msgstr ""
-"(559)DAO %1$s, menetelmä %3$s, virheellinen arvo rajoittavassa tagissa ( "
-"%4$s ) (tiedosto %2$s)"
+msgstr "(559)DAO %1$s, menetelmä %3$s, virheellinen arvo rajoittavassa tagissa ( %4$s ) (tiedosto %2$s)"
 
 #: jelix~daoxml.method.condition.innotin.bad.expr
 msgctxt "jelix~daoxml.method.condition.innotin.bad.expr"
 msgid ""
 "(560)DAO %1$s, method %3$s, condition %4$s, the expression for the in/notin "
 "operator should be a simple parameter name (file %2$s)"
-msgstr ""
-"(560)DAO %1$s, menetelmä %3$s, ehto %4$s, lausekkeen sisltyy/ei-sisälly "
-"operaattorille tulee olla yksinkertainen parametrinimi (tiedoto %2$s)"
+msgstr "(560)DAO %1$s, menetelmä %3$s, ehto %4$s, lausekkeen sisltyy/ei-sisälly operaattorille tulee olla yksinkertainen parametrinimi (tiedoto %2$s)"
 
 #: jelix~daoxml.method.condition.driver.notallowed
 msgctxt "jelix~daoxml.method.condition.driver.notallowed"
 msgid ""
 "(561)DAO %1$s, method %3$, the driver of the database used here is not "
 "allowed accordind to the definition of the condition (file %2$s)"
-msgstr ""
-"(561)DAO %1$s, menetelmä %3$, tietokanta ajuri jota käytetään tässä ei ole "
-"sallittu ehdon määritelmän mukaan (tiedosto %2$s)"
+msgstr "(561)DAO %1$s, menetelmä %3$, tietokanta ajuri jota käytetään tässä ei ole sallittu ehdon määritelmän mukaan (tiedosto %2$s)"
 
 #: jelix~daoxml.method.orderitem.parameter.unknown
 msgctxt "jelix~daoxml.method.orderitem.parameter.unknown"
 msgid ""
 "(563)DAO %1$s, method %3$,  unknown parameter %4$s in the orderitem tag "
 "(file %2$s)"
-msgstr ""
-"(563)DAO %1$s, menetelmä %3$,  tuntematon parametri %4$s  orderitem tagissa "
-"(tiedosto %2$s)"
+msgstr "(563)DAO %1$s, menetelmä %3$,  tuntematon parametri %4$s  orderitem tagissa (tiedosto %2$s)"
 
 #: jelix~daoxml.method.update.forbidden
 msgctxt "jelix~daoxml.method.update.forbidden"
 msgid ""
 "(564)DAO %1$s, update method %3$s is forbidden because the main table "
 "contains only primary keys (file %2$s)"
-msgstr ""
-"(564)DAO %1$s, päivitys menetelmä %3$s on kielletty koska päätaulu sisältää "
-"vain primääriavaimet (tiedosto %2$s)"
+msgstr "(564)DAO %1$s, päivitys menetelmä %3$s on kielletty koska päätaulu sisältää vain primääriavaimet (tiedosto %2$s)"
 
 #: jelix~daoxml.method.parameter.invalidname
 msgctxt "jelix~daoxml.method.parameter.invalidname"
 msgid ""
 "(565) DAO, in the method %1$s, the sign $ in the parameter name %4$s is no "
 "authorized"
-msgstr ""
-"(565) DAO, menetelmässä %1$s, merkki $ parametrin nimessä %4$s ei ole "
-"sallittu"
+msgstr "(565) DAO, menetelmässä %1$s, merkki $ parametrin nimessä %4$s ei ole sallittu"
 
 #: jelix~ui.title.confirm
 msgctxt "jelix~ui.title.confirm"
@@ -2145,27 +2052,21 @@ msgctxt "jelix~cache.error.invalid.key"
 msgid ""
 "(901) error key %s, use only alphanumeric characters and the character '_' "
 "and maximum length 255"
-msgstr ""
-"(901) virhe avaimessa %s, käytä ainoastaan alfanumerisia ja '_' merkkejä "
-"sekä maksimipituus voi olla 255"
+msgstr "(901) virhe avaimessa %s, käytä ainoastaan alfanumerisia ja '_' merkkejä sekä maksimipituus voi olla 255"
 
 #: jelix~cache.error.serialize.data
 msgctxt "jelix~cache.error.serialize.data"
 msgid ""
 "(902) profile name '%s': error during data serialisation for cache purpose ("
 " %s )"
-msgstr ""
-"(902) profiilin nimi '%s': virhe datan sarjoituksessa välimuistia varten ( "
-"%s )"
+msgstr "(902) profiilin nimi '%s': virhe datan sarjoituksessa välimuistia varten ( %s )"
 
 #: jelix~cache.error.unserialize.data
 msgctxt "jelix~cache.error.unserialize.data"
 msgid ""
 "(903) profile name '%s': error during data unserialisation for cache purpose"
 " ( %s )"
-msgstr ""
-"(903) profiilin nimi '%s': virhe datan sarjoituksen poistossa välimuiistia "
-"varten ( %s )"
+msgstr "(903) profiilin nimi '%s': virhe datan sarjoituksen poistossa välimuiistia varten ( %s )"
 
 #: jelix~cache.error.wrong.date.value
 msgctxt "jelix~cache.error.wrong.date.value"
@@ -2207,18 +2108,14 @@ msgctxt "jelix~cache.error.memcache.extension.badversion.3"
 msgid ""
 "(912) profile '%s': bad version of the memcache php extension, this plugin "
 "requires 3.0.1 or more"
-msgstr ""
-"(912) profiili '%s': Memcache php laajennuksen virheellinen versio, tämä "
-"liitännäinen tarvitsee version 3.0.1 tai uudemman"
+msgstr "(912) profiili '%s': Memcache php laajennuksen virheellinen versio, tämä liitännäinen tarvitsee version 3.0.1 tai uudemman"
 
 #: jelix~cache.error.memcache.extension.badversion.2
 msgctxt "jelix~cache.error.memcache.extension.badversion.2"
 msgid ""
 "(913) profile '%s': bad version of the memcache php extension, this plugin "
 "requires less than 3.0"
-msgstr ""
-"(913) profiili '%s': Memcache php laajennuksen virheellinen versio, tämä "
-"liitännäinen tarvitsee vanhemman version 3.0"
+msgstr "(913) profiili '%s': Memcache php laajennuksen virheellinen versio, tämä liitännäinen tarvitsee vanhemman version 3.0"
 
 #: jelix~cache.error.driver.nohost
 msgctxt "jelix~cache.error.driver.nohost"
@@ -2315,27 +2212,21 @@ msgctxt "jelix~formserr.selected.attribute.not.allowed"
 msgid ""
 "(806)\"selected\" attribute on <item> is not allowed when using defaultvalue"
 " attribute or <defaultvalues> (file %s)"
-msgstr ""
-"(806)\"valitut\" attribuutti <item>:ssä ei ole sallittu käytetttäessä "
-"oletusarvo attribuuttia tai <defaultvalues> (tiedosto %s)"
+msgstr "(806)\"valitut\" attribuutti <item>:ssä ei ole sallittu käytetttäessä oletusarvo attribuuttia tai <defaultvalues> (tiedosto %s)"
 
 #: jelix~formserr.defaultvalues.not.allowed
 msgctxt "jelix~formserr.defaultvalues.not.allowed"
 msgid ""
 "(807) <defaultvalues> is not allowed in a <listbox multiple=\"false\"> "
 "element (file %s)"
-msgstr ""
-"(807) <defaultvalues> eivät sallittuja <listbox multiple=\"false\"> "
-"elementissä (tiedosto %s)"
+msgstr "(807) <defaultvalues> eivät sallittuja <listbox multiple=\"false\"> elementissä (tiedosto %s)"
 
 #: jelix~formserr.multiple.selected.not.allowed
 msgctxt "jelix~formserr.multiple.selected.not.allowed"
 msgid ""
 "(808)Only one selected item is allowed in <listbox multiple=\"false\">, "
 "<radiobuttons> and <menulist> elements (file %s)"
-msgstr ""
-"(808)Ainoastaan yksi valittu jäsen sallittu <listbox multiple=\"false\">, "
-"<radiobuttons> ja <menulist> elementeissä (tiedosto %s)"
+msgstr "(808)Ainoastaan yksi valittu jäsen sallittu <listbox multiple=\"false\">, <radiobuttons> ja <menulist> elementeissä (tiedosto %s)"
 
 #: jelix~formserr.namespace.wrong
 msgctxt "jelix~formserr.namespace.wrong"
@@ -2347,35 +2238,28 @@ msgctxt "jelix~formserr.bad.formid.for.dao"
 msgid ""
 "(810)Impossible to get the dao  record %s corresponding to the formid %s of "
 "%s form"
-msgstr ""
-"(810)Mahdotonta saada dao tietue %s joka vastaa formid %s lomakkeella %s"
+msgstr "(810)Mahdotonta saada dao tietue %s joka vastaa formid %s lomakkeella %s"
 
 #: jelix~formserr.control.not.container
 msgctxt "jelix~formserr.control.not.container"
 msgid ""
 "(811) Impossible to use the control \"%s\" with a dao because it isn't a "
 "control with a datasource (form=%s)"
-msgstr ""
-"(811) Mahdotonta käyttää kontrollia \"%s\" dao'n kanssa koska se ei ole "
-"kontrolli joka sisältää tietolähteen (lomake=%s)"
+msgstr "(811) Mahdotonta käyttää kontrollia \"%s\" dao'n kanssa koska se ei ole kontrolli joka sisältää tietolähteen (lomake=%s)"
 
 #: jelix~formserr.formid.undefined.for.dao
 msgctxt "jelix~formserr.formid.undefined.for.dao"
 msgid ""
 "(812) Impossible to use the control \"%s\" with a dao because the form %s "
 "has not an id"
-msgstr ""
-"(812) Mahdotonta käyttää kontrollia \"%s\" dao'n kanssa koska lomakeella %s "
-"ei ole tunnistetta id"
+msgstr "(812) Mahdotonta käyttää kontrollia \"%s\" dao'n kanssa koska lomakeella %s ei ole tunnistetta id"
 
 #: jelix~formserr.value.not.array
 msgctxt "jelix~formserr.value.not.array"
 msgid ""
 "(813) Impossible de save datas of control \"%s\" (form=%s) because it is not"
 " an array"
-msgstr ""
-"(813) Mahdotonta tallentaa kontrollin \"%s\" datat (lomake=%s) koska se ei "
-"ole taulukko"
+msgstr "(813) Mahdotonta tallentaa kontrollin \"%s\" datat (lomake=%s) koska se ei ole taulukko"
 
 #: jelix~formserr.invalid.form.builder
 msgctxt "jelix~formserr.invalid.form.builder"
@@ -2387,9 +2271,7 @@ msgctxt "jelix~formserr.invalid.upload.control.name"
 msgid ""
 "(815) The given control name \"%s\" is invalid or the corresponding control "
 "is not an upload (form=%s)"
-msgstr ""
-"(815) Annettu kotrollin nimi \"%s\" on virheellinen tai ei vastavaa "
-"kontrollia ei ole ladattu (lomake=%s)"
+msgstr "(815) Annettu kotrollin nimi \"%s\" on virheellinen tai ei vastavaa kontrollia ei ole ladattu (lomake=%s)"
 
 #: jelix~formserr.content.missing
 msgctxt "jelix~formserr.content.missing"
@@ -2416,9 +2298,7 @@ msgctxt "jelix~formserr.bad.root.tag"
 msgid ""
 "(820) the root element %1$s is incorrect, it should have the name \"form\" "
 "(fichier %2$s)"
-msgstr ""
-"(820) juurielementti %1$s on virheellinen, sen tulee sisältää nimi  "
-"\"lomake\" (tiedosto %2$s)"
+msgstr "(820) juurielementti %1$s on virheellinen, sen tulee sisältää nimi  \"lomake\" (tiedosto %2$s)"
 
 #: jelix~formserr.unknown.control
 msgctxt "jelix~formserr.unknown.control"
@@ -2435,9 +2315,7 @@ msgctxt "jelix~formserr.invalid.token"
 msgid ""
 "(835) The token of the form is not valid, you should fill the form from the "
 "original web page"
-msgstr ""
-"(835) Lomakkeen merkkijono ei ole kelvollinen, sinun tulisi täyttää lomake "
-"alkuperäiseltä verkkosivulta"
+msgstr "(835) Lomakkeen merkkijono ei ole kelvollinen, sinun tulisi täyttää lomake alkuperäiseltä verkkosivulta"
 
 #: jelix~formserr.js.err.invalid
 msgctxt "jelix~formserr.js.err.invalid"
@@ -2468,9 +2346,7 @@ msgstr "Tekninen virhe ladattaessa \"%s\""
 msgctxt "jelix~kvstore.error.connection"
 msgid ""
 "(931) jKVDb: impossible to connect to  %s (bad host, login or password?)"
-msgstr ""
-"(931) jKVDb: mahdotonta muodostaa yhteyttä  %s (isäntävirhe, "
-"sisäänkirjoitus- tai salasana ongelma?)"
+msgstr "(931) jKVDb: mahdotonta muodostaa yhteyttä  %s (isäntävirhe, sisäänkirjoitus- tai salasana ongelma?)"
 
 #: jelix~kvstore.error.feature.unsupported
 msgctxt "jelix~kvstore.error.feature.unsupported"

@@ -1,14 +1,14 @@
-# Translators:
-# rldhont <rldhont@gmail.com>, 2019
 # 
+# Translators:
+# rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client admin 3.3rc1\n"
+"Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 15:10++0200\n"
-"PO-Revision-Date: 2019-05-27 13:11+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>, 2019\n"
-"Language-Team: Greek (https://www.transifex.com/3liz-1/teams/62012/el/)\n"
+"POT-Creation-Date: 2019-05-27 15:27++0200\n"
+"PO-Revision-Date: 2019-05-27 13:28+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"Language-Team: Greek (http://www.transifex.com/3liz-1/lizmap-locales/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,9 +30,7 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr ""
-"Κάποιος ζήτησε μια πρόσβαση στους χάρτες Lizmap με login %s και το courriel "
-"%s."
+msgstr "Κάποιος ζήτησε μια πρόσβαση στους χάρτες Lizmap με login %s και το courriel %s."
 
 #: admin~user.acl.no.group
 msgctxt "admin~user.acl.no.group"
@@ -97,7 +95,7 @@ msgstr "Διαμόρφωση Lizmap"
 #: admin~admin.configuration.repository.label
 msgctxt "admin~admin.configuration.repository.label"
 msgid "Repository"
-msgstr "Φάκελος Lizmap"
+msgstr "Φάκελοι"
 
 #: admin~admin.configuration.button.back.label
 msgctxt "admin~admin.configuration.button.back.label"
@@ -117,7 +115,7 @@ msgstr ""
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
 msgid "WMS server URL"
-msgstr "URL του WMS"
+msgstr "URL του server WMS"
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
@@ -157,7 +155,7 @@ msgstr "Τύπος αποθήκευθης για το cache"
 #: admin~admin.configuration.services.cacheRootDirectory.label
 msgctxt "admin~admin.configuration.services.cacheRootDirectory.label"
 msgid "Cache root directory"
-msgstr "Φάκελος Root του cache"
+msgstr "Φάκελος του cache"
 
 #: admin~admin.configuration.services.cacheExpiration.label
 msgctxt "admin~admin.configuration.services.cacheExpiration.label"
@@ -172,12 +170,12 @@ msgstr ""
 #: admin~admin.configuration.services.proxyMethod.label
 msgctxt "admin~admin.configuration.services.proxyMethod.label"
 msgid "Send request to QGIS Server with"
-msgstr "Αποστολή αναζήτησεις στο QGIS Server με"
+msgstr "Αποστολή queries στο QGIS Server με"
 
 #: admin~admin.configuration.services.debugMode.label
 msgctxt "admin~admin.configuration.services.debugMode.label"
 msgid "Debug mode"
-msgstr "Mod debug"
+msgstr "Κατάσταση debug"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -193,7 +191,7 @@ msgstr ""
 #: admin~admin.configuration.services.adminContactEmail.label
 msgctxt "admin~admin.configuration.services.adminContactEmail.label"
 msgid "Administrator e-mail"
-msgstr "Courriel στο admin"
+msgstr "Courriel του admin"
 
 #: admin~admin.configuration.button.modify.service.label
 msgctxt "admin~admin.configuration.button.modify.service.label"
@@ -203,7 +201,7 @@ msgstr "Αλλαγή"
 #: admin~admin.configuration.button.view.repository.label
 msgctxt "admin~admin.configuration.button.view.repository.label"
 msgid "View"
-msgstr "Προβολή"
+msgstr "Εμφάνιση"
 
 #: admin~admin.configuration.button.modify.repository.label
 msgctxt "admin~admin.configuration.button.modify.repository.label"
@@ -377,8 +375,7 @@ msgstr "Διαλέφτε ένα φάκελο του δίσκου για αποθ
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
 msgid "The directory does not exists or is not writable. You can use: %s"
-msgstr ""
-"Δεν υπάρχει φάκελο ή δεν είναι διαθέσιμο. Μπορειτε να χρησιμοποιήσετε: %s"
+msgstr "Δεν υπάρχει φάκελο ή δεν είναι διαθέσιμο. Μπορειτε να χρησιμοποιήσετε: %s"
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
@@ -390,17 +387,14 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr ""
-"0 σημαίνει ότι δεν έληξε αλλκιώς δώστε ένα reel σε δευτερόλεπτα (Max 2592000"
-" = 30 μέρες)"
+msgstr "0 σημαίνει ότι δεν έληξε αλλκιώς δώστε ένα reel σε δευτερόλεπτα (Max 2592000 = 30 μέρες)"
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr ""
-"Η διαρκεία ζωής του cache πρέπει να είναι μεταξύ 0 και 2592000 δευτερόλεπτα."
+msgstr "Η διαρκεία ζωής του cache πρέπει να είναι μεταξύ 0 και 2592000 δευτερόλεπτα."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -576,9 +570,7 @@ msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
 msgid ""
 "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
 "\"tracking ID\"."
-msgstr ""
-"Το Google Analytics ID είναι της μόρφης αυτή 'UA-XXXX-Y'. Το λέμε \"tracking"
-" ID\"."
+msgstr "Το Google Analytics ID είναι της μόρφης αυτή 'UA-XXXX-Y'. Το λέμε \"tracking ID\"."
 
 #: admin~admin.form.admin_services.submit.label
 msgctxt "admin~admin.form.admin_services.submit.label"
@@ -588,7 +580,7 @@ msgstr "Αποθήκευση"
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
 msgid "Data has been saved."
-msgstr "Αποθηκευμένα δεδομένα."
+msgstr "Τα δεδομένα είναι αποθηκευμένα."
 
 #: admin~admin.form.admin_section.h1.create
 msgctxt "admin~admin.form.admin_section.h1.create"
@@ -603,7 +595,7 @@ msgstr "Επεξεργασία του φάκελου"
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
 msgid "Id"
-msgstr "Id"
+msgstr "Αναγνωριστικός αριθμός"
 
 #: admin~admin.form.admin_section.repository.label.label
 msgctxt "admin~admin.form.admin_section.repository.label.label"
@@ -880,7 +872,7 @@ msgstr "Το πίνακα των log %s είναι άδειο"
 #: admin~admin.logs.key
 msgctxt "admin~admin.logs.key"
 msgid "Key"
-msgstr "Κλειδί"
+msgstr "Item"
 
 #: admin~admin.logs.counter
 msgctxt "admin~admin.logs.counter"
@@ -905,12 +897,12 @@ msgstr "Περιεχόμνεο"
 #: admin~admin.logs.repository
 msgctxt "admin~admin.logs.repository"
 msgid "Repository"
-msgstr "Φάκελος Lizmap"
+msgstr "Κατάθεση"
 
 #: admin~admin.logs.project
 msgctxt "admin~admin.logs.project"
 msgid "Project"
-msgstr "Έργο"
+msgstr "έργο"
 
 #: admin~admin.logs.ip
 msgctxt "admin~admin.logs.ip"
@@ -1027,7 +1019,7 @@ msgstr "Επεκεξεργασία των υπηρεσιών"
 #: admin~jacl2.lizmap.admin.repositories.view
 msgctxt "admin~jacl2.lizmap.admin.repositories.view"
 msgid "View repositories"
-msgstr "Όραση σους φάκελους"
+msgstr "Εμφάνιση των φακελών"
 
 #: admin~jacl2.lizmap.admin.repositories.create
 msgctxt "admin~jacl2.lizmap.admin.repositories.create"

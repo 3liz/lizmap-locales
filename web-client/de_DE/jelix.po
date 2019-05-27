@@ -1,16 +1,14 @@
-# Translators:
-# Bernasocchi <marco@opengis.ch>, 2019
-# rldhont <rldhont@gmail.com>, 2019
-# Felix Kuehne <felixdemern@googlemail.com>, 2019
 # 
+# Translators:
+# rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jelix 3.3rc1\n"
+"Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 15:10++0200\n"
-"PO-Revision-Date: 2019-05-27 13:12+0000\n"
-"Last-Translator: Felix Kuehne <felixdemern@googlemail.com>, 2019\n"
-"Language-Team: German (https://www.transifex.com/3liz-1/teams/62012/de/)\n"
+"POT-Creation-Date: 2019-05-27 15:27++0200\n"
+"PO-Revision-Date: 2019-05-27 13:28+0000\n"
+"Last-Translator: Felix Kuehne <felixdemern@googlemail.com>\n"
+"Language-Team: German (http://www.transifex.com/3liz-1/lizmap-locales/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,9 +24,7 @@ msgstr "(1)unbekannter Fehler"
 msgctxt "jelix~errors.tech"
 msgid ""
 "(2)There is a technic error on the site. Please try connect to it later."
-msgstr ""
-"(2)ein technischer Fehler ist aufgetreten. Bitte versuchen Sie später "
-"erneut, sich zu verbinden."
+msgstr "(2)ein technischer Fehler ist aufgetreten. Bitte versuchen Sie später erneut, sich zu verbinden."
 
 #: jelix~errors.selector.invalid.syntax
 msgctxt "jelix~errors.selector.invalid.syntax"
@@ -533,8 +529,7 @@ msgstr "(608)Schlüssel ist leer"
 #: jelix~auth.error.persistant.incorrectconfig
 msgctxt "jelix~auth.error.persistant.incorrectconfig"
 msgid "(609)Following parameters must be set in the configuration: %s"
-msgstr ""
-"(609)Folgende Parameter müssen in der Konfiguration gesetzt werden: %s"
+msgstr "(609)Folgende Parameter müssen in der Konfiguration gesetzt werden: %s"
 
 #: jelix~auth.error.bcrypt.inexistant
 msgctxt "jelix~auth.error.bcrypt.inexistant"
@@ -658,9 +653,7 @@ msgctxt "jelix~db.error.connection.closed"
 msgid ""
 "(409) Connection to database is not valid anymore: timeout, server down... "
 "(profile %s)"
-msgstr ""
-"(409) Verbindung zur Datenbank unterbrochen: Zeitüberschreitung, "
-"Serverfehler... (Profil %s)"
+msgstr "(409) Verbindung zur Datenbank unterbrochen: Zeitüberschreitung, Serverfehler... (Profil %s)"
 
 #: jelix~db.error.no.database.name
 msgctxt "jelix~db.error.no.database.name"
@@ -715,7 +708,7 @@ msgstr "Einen Eintrag anpassen"
 #: jelix~crud.title.create
 msgctxt "jelix~crud.title.create"
 msgid "Create a new record"
-msgstr "Einen Eintrag anlegen"
+msgstr "Einen neuen Eintrag anlegen"
 
 #: jelix~crud.title.view
 msgctxt "jelix~crud.title.view"
@@ -937,9 +930,7 @@ msgctxt "jelix~dao.error.update.impossible"
 msgid ""
 "(502)Update is impossible with this dao because table contains only primary "
 "keys (DAO: %1$s, file: %2$s)"
-msgstr ""
-"(502)Update ist mit dem aktuellen DAO nicht möglich, weil die Tabelle nur "
-"Primärschlüssel enthält (DAO: %1$s, Datei: %2$s)"
+msgstr "(502)Update ist mit dem aktuellen DAO nicht möglich, weil die Tabelle nur Primärschlüssel enthält (DAO: %1$s, Datei: %2$s)"
 
 #: jelix~dao.error.bad.operator
 msgctxt "jelix~dao.error.bad.operator"
@@ -1604,7 +1595,7 @@ msgstr "Abbrechen"
 #: jelix~ui.buttons.search
 msgctxt "jelix~ui.buttons.search"
 msgid "Search"
-msgstr "Suche"
+msgstr "Suchen"
 
 #: jelix~ui.buttons.select
 msgctxt "jelix~ui.buttons.select"
@@ -1819,7 +1810,7 @@ msgstr "Öffnen"
 #: jelix~ui.buttons.close
 msgctxt "jelix~ui.buttons.close"
 msgid "Close"
-msgstr "Schliessen"
+msgstr "Schließen"
 
 #: jelix~ui.buttons.split
 msgctxt "jelix~ui.buttons.split"
@@ -1874,7 +1865,7 @@ msgstr "Kommentare"
 #: jelix~ui.buttons.clone
 msgctxt "jelix~ui.buttons.clone"
 msgid "Close"
-msgstr "Schliessen"
+msgstr "Schließen"
 
 #: jelix~ui.buttons.first
 msgctxt "jelix~ui.buttons.first"
@@ -1899,7 +1890,7 @@ msgstr "Informationen"
 #: jelix~ui.buttons.link
 msgctxt "jelix~ui.buttons.link"
 msgid "Link"
-msgstr "Link"
+msgstr "verbinden"
 
 #: jelix~ui.buttons.lock
 msgctxt "jelix~ui.buttons.lock"
@@ -2221,27 +2212,21 @@ msgctxt "jelix~formserr.selected.attribute.not.allowed"
 msgid ""
 "(806)\"selected\" attribute on <item> is not allowed when using defaultvalue"
 " attribute or <defaultvalues> (file %s)"
-msgstr ""
-"(806)\"ausgewähltes\" Attribut in <item> ist nicht erlaubt, wenn das "
-"Standardattribut verwendet wird <defaultvalues> (Datei %s)"
+msgstr "(806)\"ausgewähltes\" Attribut in <item> ist nicht erlaubt, wenn das Standardattribut verwendet wird <defaultvalues> (Datei %s)"
 
 #: jelix~formserr.defaultvalues.not.allowed
 msgctxt "jelix~formserr.defaultvalues.not.allowed"
 msgid ""
 "(807) <defaultvalues> is not allowed in a <listbox multiple=\"false\"> "
 "element (file %s)"
-msgstr ""
-"(807) <defaultvalues> ist nicht erlaubt in einem <listbox "
-"multiple=\"false\"> Element (Datei %s)"
+msgstr "(807) <defaultvalues> ist nicht erlaubt in einem <listbox multiple=\"false\"> Element (Datei %s)"
 
 #: jelix~formserr.multiple.selected.not.allowed
 msgctxt "jelix~formserr.multiple.selected.not.allowed"
 msgid ""
 "(808)Only one selected item is allowed in <listbox multiple=\"false\">, "
 "<radiobuttons> and <menulist> elements (file %s)"
-msgstr ""
-"(808)Nur ein ausgewähltes Element ist erlaubt in <listbox "
-"multiple=\"false\">, <radiobuttons> und <menulist> Elementen (Datei %s)"
+msgstr "(808)Nur ein ausgewähltes Element ist erlaubt in <listbox multiple=\"false\">, <radiobuttons> und <menulist> Elementen (Datei %s)"
 
 #: jelix~formserr.namespace.wrong
 msgctxt "jelix~formserr.namespace.wrong"
@@ -2361,9 +2346,7 @@ msgstr ""
 msgctxt "jelix~kvstore.error.connection"
 msgid ""
 "(931) jKVDb: impossible to connect to  %s (bad host, login or password?)"
-msgstr ""
-"(931) jKVDb: Verbindung zu  %s nicht möglich (falscher Host, Login oder "
-"Passwort ?)"
+msgstr "(931) jKVDb: Verbindung zu  %s nicht möglich (falscher Host, Login oder Passwort ?)"
 
 #: jelix~kvstore.error.feature.unsupported
 msgctxt "jelix~kvstore.error.feature.unsupported"

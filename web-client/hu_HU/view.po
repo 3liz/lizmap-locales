@@ -1,15 +1,15 @@
-# Translators:
-# rldhont <rldhont@gmail.com>, 2019
-# kasza jozsef <kasza.nkataszri@gmail.com>, 2019
 # 
+# Translators:
+# kasza jozsef <kasza.nkataszri@gmail.com>, 2018-2019
+# kasza jozsef <kasza.nkataszri@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client view 3.3rc1\n"
+"Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 15:10++0200\n"
-"PO-Revision-Date: 2019-05-27 13:12+0000\n"
-"Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2019\n"
-"Language-Team: Hungarian (Hungary) (https://www.transifex.com/3liz-1/teams/62012/hu_HU/)\n"
+"POT-Creation-Date: 2019-05-27 15:27++0200\n"
+"PO-Revision-Date: 2019-05-27 13:28+0000\n"
+"Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>\n"
+"Language-Team: Hungarian (Hungary) (http://www.transifex.com/3liz-1/lizmap-locales/language/hu_HU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -66,9 +66,7 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have an access to"
 " the maps."
-msgstr ""
-"Kérem írjon néhány sort, melyből kiderül, hogy milyen céllal szeretne "
-"hozzáférni a térképekhez."
+msgstr "Kérem írjon néhány sort, melyből kiderül, hogy milyen céllal szeretne hozzáférni a térképekhez."
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -165,18 +163,14 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr ""
-"Biztosan kilép az aktuális szerkesztőből? A folyamatban lévő szerkesztések "
-"el fognak veszni."
+msgstr "Biztosan kilép az aktuális szerkesztőből? A folyamatban lévő szerkesztések el fognak veszni."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr ""
-"Az objektum nem menthető geometriai alakzat rajzolása nélkül. Rajzoljon egy "
-"geometriai alakzatot a térképre."
+msgstr "Az objektum nem menthető geometriai alakzat rajzolása nélkül. Rajzoljon egy geometriai alakzatot a térképre."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -403,9 +397,7 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr ""
-"A réteg nem látható. Kérem, közelítsen/távolítson olyan méretig, melynél "
-"láthatók a térképelemek."
+msgstr "A réteg nem látható. Kérem, közelítsen/távolítson olyan méretig, melynél láthatók a térképelemek."
 
 #: view~dictionnary.selectiontool.results.none
 msgctxt "view~dictionnary.selectiontool.results.none"
@@ -465,17 +457,17 @@ msgstr "Dokumentáció"
 #: view~dictionnary.layer.metadata.zoomToExtent.title
 msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
 msgid "Zoom to layer extent"
-msgstr "Zoom a réteg külső határaihoz igazodva"
+msgstr "Zoom a réteg széleihez igazodva"
 
 #: view~dictionnary.layer.metadata.style.title
 msgctxt "view~dictionnary.layer.metadata.style.title"
 msgid "Change layer style"
-msgstr "Réteg-stílus megváltoztatása"
+msgstr "Rétegstílus megváltoztatása"
 
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
 msgid "Export"
-msgstr "Exportálás"
+msgstr "Export"
 
 #: view~dictionnary.layer.metadata.opacity.title
 msgctxt "view~dictionnary.layer.metadata.opacity.title"
@@ -857,9 +849,7 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr ""
-"A Lizmap nem találja a \"%s\" réteg elsődleges kulcsát. A szerkesztőeszköz "
-"használatához elengedhetetlen, hogy a táblának legyen elsődleges kulcsa."
+msgstr "A Lizmap nem találja a \"%s\" réteg elsődleges kulcsát. A szerkesztőeszköz használatához elengedhetetlen, hogy a táblának legyen elsődleges kulcsa."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -874,16 +864,12 @@ msgstr "Hiba az űrlap betöltése közben"
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"
 msgid "The bbox has to be 4 floats separated by ','."
-msgstr ""
-"A határoló négyszög megadása 4 darab tört számmal lehetséges, ','-vel "
-"elválasztva."
+msgstr "A határoló négyszög megadása 4 darab tört számmal lehetséges, ','-vel elválasztva."
 
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
 msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr ""
-"crs megadása kötelező, melynek egész számnak, vagy ESPG:* formátumnak kell "
-"lennie."
+msgstr "crs megadása kötelező, melynek egész számnak, vagy ESPG:* formátumnak kell lennie."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -920,9 +906,7 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr ""
-"Az objektum nem menthető geometriai alakzat rajzolása nélkül. Rajzoljon egy "
-"geometriai alakzatot a térképre."
+msgstr "Az objektum nem menthető geometriai alakzat rajzolása nélkül. Rajzoljon egy geometriai alakzatot a térképre."
 
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
@@ -934,9 +918,7 @@ msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr ""
-"A/Az\"%s\" nevű mező, mely a/az \"%s\" réteg média-feltöltési könyvtára, nem"
-" írható."
+msgstr "A/Az\"%s\" nevű mező, mely a/az \"%s\" réteg média-feltöltési könyvtára, nem írható."
 
 #: view~edition.upload.choice.keep
 msgctxt "view~edition.upload.choice.keep"
@@ -968,18 +950,14 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr ""
-"Nem kapcsolhat több objektumot mindkét réteghez. Kérem válasszon egy "
-"objektumot az egyik réteghez és próbálja újra."
+msgstr "Nem kapcsolhat több objektumot mindkét réteghez. Kérem válasszon egy objektumot az egyik réteghez és próbálja újra."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr ""
-"Minden réteghez legalább egy objektumot ki kell jelölni a link "
-"létrehozásához."
+msgstr "Minden réteghez legalább egy objektumot ki kell jelölni a link létrehozásához."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
@@ -1224,7 +1202,7 @@ msgstr "Helymeghatározás"
 #: view~map.geolocate.toolbar.center
 msgctxt "view~map.geolocate.toolbar.center"
 msgid "Center"
-msgstr "Középpont"
+msgstr "Középre"
 
 #: view~map.geolocate.toolbar.bind
 msgctxt "view~map.geolocate.toolbar.bind"
@@ -1744,7 +1722,7 @@ msgstr "Réteg-stílus megváltoztatása"
 #: view~map.switcher.layer.export.title
 msgctxt "view~map.switcher.layer.export.title"
 msgid "Export"
-msgstr "Exportálás"
+msgstr "Export"
 
 #: view~map.switcher.layer.unfilter.title
 msgctxt "view~map.switcher.layer.unfilter.title"

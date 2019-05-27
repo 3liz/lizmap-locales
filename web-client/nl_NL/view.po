@@ -1,18 +1,17 @@
-# Translators:
-# Jean-Louis Stanus <rammstan@msn.com>, 2019
-# rldhont <rldhont@gmail.com>, 2019
-# Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2019
-# Thierry <thierry.chavalle@gate-16.com>, 2019
-# Nico Veenstra <nvbgm@gmx.net>, 2019
 # 
+# Translators:
+# Jean-Louis Stanus <rammstan@msn.com>, 2017
+# Nico Veenstra <nvbgm@gmx.net>, 2019
+# Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2017-2018
+# Thierry <thierry.chavalle@gate-16.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client view 3.3rc1\n"
+"Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 15:10++0200\n"
-"PO-Revision-Date: 2019-05-27 13:12+0000\n"
-"Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2019\n"
-"Language-Team: Dutch (https://www.transifex.com/3liz-1/teams/62012/nl/)\n"
+"POT-Creation-Date: 2019-05-27 15:27++0200\n"
+"PO-Revision-Date: 2019-05-27 13:28+0000\n"
+"Last-Translator: Patrick Hoornaert <patrick.hoornaert@gate-16.com>\n"
+"Language-Team: Dutch (http://www.transifex.com/3liz-1/lizmap-locales/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -129,7 +128,7 @@ msgstr "Detectie van locatie mislukt"
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
 msgid "Edition"
-msgstr "Bewerken"
+msgstr "Editie"
 
 #: view~dictionnary.edition.draw.activate
 msgctxt "view~dictionnary.edition.draw.activate"
@@ -144,8 +143,7 @@ msgstr "Klik op een van de functies van de laag om het te selecteren."
 #: view~dictionnary.edition.select.modify.activate
 msgctxt "view~dictionnary.edition.select.modify.activate"
 msgid "You can modify the feature you have selected, then submit."
-msgstr ""
-"U kunt de feature die u hebt geselecteerd wijzigen en vervolgens opslaan."
+msgstr "U kunt de feature die u hebt geselecteerd wijzigen en vervolgens opslaan."
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -167,18 +165,14 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr ""
-"Wenst u wijzingen ongedaan te maken? Alle aanpassignen op het object in "
-"bewerking zullen verloren gaan."
+msgstr "Wenst u wijzingen ongedaan te maken? Alle aanpassignen op het object in bewerking zullen verloren gaan."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr ""
-"U kunt dit object niet zonder een geometrie opslaan. Gelieve de geometrie op"
-" de kaart in te tekenen."
+msgstr "U kunt dit object niet zonder een geometrie opslaan. Gelieve de geometrie op de kaart in te tekenen."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -193,7 +187,7 @@ msgstr "Kaart"
 #: view~dictionnary.externalsearch.search
 msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
-msgstr "Zoekopdracht lopend"
+msgstr "Zoeken"
 
 #: view~dictionnary.externalsearch.notfound
 msgctxt "view~dictionnary.externalsearch.notfound"
@@ -208,7 +202,7 @@ msgstr "Gegevens van de kaart"
 #: view~dictionnary.timemanager.toolbar.play
 msgctxt "view~dictionnary.timemanager.toolbar.play"
 msgid "Play"
-msgstr "Afspelen"
+msgstr "Spelen"
 
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
@@ -327,7 +321,7 @@ msgstr "Verberg"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.show.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
 msgid "Show"
-msgstr "Toon"
+msgstr "Tonen"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
@@ -343,9 +337,7 @@ msgstr "Vernieuw de tabel."
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr ""
-"Sinds de gegevens laatst werden ingelezen werd de omtrek van de kaart "
-"gewijzigd"
+msgstr "Sinds de gegevens laatst werden ingelezen werd de omtrek van de kaart gewijzigd"
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.lines
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
@@ -385,7 +377,7 @@ msgstr "Ontkoppel onderliggend object"
 #: view~dictionnary.attributeLayers.btn.select.title
 msgctxt "view~dictionnary.attributeLayers.btn.select.title"
 msgid "Select"
-msgstr "Sel."
+msgstr "Selecteer"
 
 #: view~dictionnary.attributeLayers.btn.unselect.title
 msgctxt "view~dictionnary.attributeLayers.btn.unselect.title"
@@ -407,9 +399,7 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr ""
-"De laag is niet zichtbaar. Zoom in op een schaal waarin de features "
-"zichtbaar worden."
+msgstr "De laag is niet zichtbaar. Zoom in op een schaal waarin de features zichtbaar worden."
 
 #: view~dictionnary.selectiontool.results.none
 msgctxt "view~dictionnary.selectiontool.results.none"
@@ -694,7 +684,7 @@ msgstr "Deselecteer"
 #: view~edition.toolbar.select.attr.title
 msgctxt "view~edition.toolbar.select.attr.title"
 msgid "Modify"
-msgstr "Wijzigen"
+msgstr "Wijzig"
 
 #: view~edition.toolbar.select.undo.title
 msgctxt "view~edition.toolbar.select.undo.title"
@@ -861,9 +851,7 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr ""
-"Lizmap kan de primaire sleutels van de \" %s \" -laag niet vinden. De "
-"editietool heeft een gedefinieerde primaire sleutel nodig."
+msgstr "Lizmap kan de primaire sleutels van de \" %s \" -laag niet vinden. De editietool heeft een gedefinieerde primaire sleutel nodig."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -920,25 +908,19 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr ""
-"U kunt dit object niet zonder een geometrie opslaan. Gelieve de geometrie op"
-" de kaart in te tekenen."
+msgstr "U kunt dit object niet zonder een geometrie opslaan. Gelieve de geometrie op de kaart in te tekenen."
 
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
 msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr ""
-"De laag \" %s \" directory voor het uploaden van media is niet "
-"beschrijfbaar."
+msgstr "De laag \" %s \" directory voor het uploaden van media is niet beschrijfbaar."
 
 #: view~edition.message.error.upload.layer.field
 msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr ""
-"De veld \" %s \" map van de laag \" %s \" voor het uploaden van media is "
-"niet beschrijfbaar."
+msgstr "De veld \" %s \" map van de laag \" %s \" voor het uploaden van media is niet beschrijfbaar."
 
 #: view~edition.upload.choice.keep
 msgctxt "view~edition.upload.choice.keep"
@@ -948,7 +930,7 @@ msgstr "Behouden"
 #: view~edition.upload.choice.update
 msgctxt "view~edition.upload.choice.update"
 msgid "Update"
-msgstr "Aanpassen"
+msgstr "Update"
 
 #: view~edition.upload.choice.delete
 msgctxt "view~edition.upload.choice.delete"
@@ -970,25 +952,19 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr ""
-"U kunt meerdere objecten niet verbinden voor beide lagen. Selecteer slechts "
-"één object voor één van de lagen en probeer opnieuw."
+msgstr "U kunt meerdere objecten niet verbinden voor beide lagen. Selecteer slechts één object voor één van de lagen en probeer opnieuw."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr ""
-"Er moet ten minste één object zijn geselecteerd voor elke laag om de link "
-"aan te maken."
+msgstr "Er moet ten minste één object zijn geselecteerd voor elke laag om de link aan te maken."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table."
-msgstr ""
-"De lagen zijn niet geconfigureerd om een tabel met eigenschappen te "
-"bevatten."
+msgstr "De lagen zijn niet geconfigureerd om een tabel met eigenschappen te bevatten."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1008,8 +984,7 @@ msgstr "Gegeven velden bestaan niet."
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
 msgid "An error occured while adding linked data."
-msgstr ""
-"Er is een fout opgetreden tijdens het toevoegen van gekoppelde gegevens."
+msgstr "Er is een fout opgetreden tijdens het toevoegen van gekoppelde gegevens."
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
@@ -1049,7 +1024,7 @@ msgstr "Toegang geweigerd voor dit project."
 #: view~default.project.title.label
 msgctxt "view~default.project.title.label"
 msgid "Title"
-msgstr "Titel"
+msgstr "Title"
 
 #: view~default.project.abstract.label
 msgctxt "view~default.project.abstract.label"
@@ -1229,7 +1204,7 @@ msgstr "Geolocatie"
 #: view~map.geolocate.toolbar.center
 msgctxt "view~map.geolocate.toolbar.center"
 msgid "Center"
-msgstr "Centreren"
+msgstr " In het midden plaatsen"
 
 #: view~map.geolocate.toolbar.bind
 msgctxt "view~map.geolocate.toolbar.bind"
@@ -1389,7 +1364,7 @@ msgstr "Verkleinen van de kaart"
 #: view~map.navbar.previous.hover
 msgctxt "view~map.navbar.previous.hover"
 msgid "Previous"
-msgstr "Voorgaande"
+msgstr "Voorgaand"
 
 #: view~map.navbar.next.hover
 msgctxt "view~map.navbar.next.hover"
@@ -1649,12 +1624,12 @@ msgstr "Verberg informatie "
 #: view~map.timemanager.toolbar.title
 msgctxt "view~map.timemanager.toolbar.title"
 msgid "Time Manager"
-msgstr "Tijdsbeheer"
+msgstr "Time Manager"
 
 #: view~map.timemanager.navbar.title
 msgctxt "view~map.timemanager.navbar.title"
 msgid "Time Manager"
-msgstr "Tijdsbeheer"
+msgstr "Time Manager"
 
 #: view~map.timemanager.toolbar.play
 msgctxt "view~map.timemanager.toolbar.play"
@@ -1674,7 +1649,7 @@ msgstr "Volgende"
 #: view~map.timemanager.toolbar.prev
 msgctxt "view~map.timemanager.toolbar.prev"
 msgid "Previous"
-msgstr "Voorgaande"
+msgstr "Terug"
 
 #: view~map.bottomdock.toolbar.btn.clear.title
 msgctxt "view~map.bottomdock.toolbar.btn.clear.title"
@@ -1739,12 +1714,12 @@ msgstr "Informatie"
 #: view~map.switcher.layer.zoomToExtent.title
 msgctxt "view~map.switcher.layer.zoomToExtent.title"
 msgid "Zoom to layer extent"
-msgstr "Zoom naar laag extent"
+msgstr "Uitvergroten of verkleinen gepast aan de laag"
 
 #: view~map.switcher.layer.style.title
 msgctxt "view~map.switcher.layer.style.title"
 msgid "Change layer style"
-msgstr "Wijzig de stijl van de laag"
+msgstr "Wijzig laagstijl"
 
 #: view~map.switcher.layer.export.title
 msgctxt "view~map.switcher.layer.export.title"

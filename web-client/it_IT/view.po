@@ -1,18 +1,18 @@
-# Translators:
-# Alessandro Fanna <alex@rospus.org>, 2019
-# Paolo Cavallini <cavallini@faunalia.it>, 2019
-# Stefano Campus <skampus@gmail.com>, 2019
-# rldhont <rldhont@gmail.com>, 2019
-# Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2019
 # 
+# Translators:
+# Alessandro Fanna <alex@rospus.org>, 2016
+# Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2018
+# Paolo Cavallini <cavallini@faunalia.it>, 2016-2017,2019
+# rldhont <rldhont@gmail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client view 3.3rc1\n"
+"Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 15:10++0200\n"
-"PO-Revision-Date: 2019-05-27 13:12+0000\n"
-"Last-Translator: Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/3liz-1/teams/62012/it/)\n"
+"POT-Creation-Date: 2019-05-27 15:27++0200\n"
+"PO-Revision-Date: 2019-05-27 13:28+0000\n"
+"Last-Translator: Paolo Cavallini <cavallini@faunalia.it>\n"
+"Language-Team: Italian (http://www.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -144,8 +144,7 @@ msgstr "Clicca su uno degli elementi del layer per selezionarlo."
 #: view~dictionnary.edition.select.modify.activate
 msgctxt "view~dictionnary.edition.select.modify.activate"
 msgid "You can modify the feature you have selected, then submit."
-msgstr ""
-"Puoi modificare l'elemento che hai selezionato, poi inviare le modifiche."
+msgstr "Puoi modificare l'elemento che hai selezionato, poi inviare le modifiche."
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -167,18 +166,14 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr ""
-"Sei sicuro di voler annullare le modifiche? Perderai tutte le modifiche "
-"fatte sull'oggetto modificato."
+msgstr "Sei sicuro di voler annullare le modifiche? Perderai tutte le modifiche fatte sull'oggetto modificato."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr ""
-"Non puoi salvare questo oggetto senza geometria. Per favore disegna la "
-"geometria sulla mappa."
+msgstr "Non puoi salvare questo oggetto senza geometria. Per favore disegna la geometria sulla mappa."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -343,8 +338,7 @@ msgstr "Aggiorna i dati in tabella."
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr ""
-"L'estensione della mappa è cambiata dall'ultima volta che è stata caricata."
+msgstr "L'estensione della mappa è cambiata dall'ultima volta che è stata caricata."
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.lines
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
@@ -374,7 +368,7 @@ msgstr "Modifica"
 #: view~dictionnary.attributeLayers.btn.delete.title
 msgctxt "view~dictionnary.attributeLayers.btn.delete.title"
 msgid "Delete"
-msgstr "Cancella"
+msgstr "Elimina"
 
 #: view~dictionnary.attributeLayers.btn.remove.link.title
 msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
@@ -406,9 +400,7 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr ""
-"Il layer non è visibile. Zomma ad una scala a cui gli elementi sono "
-"visibili."
+msgstr "Il layer non è visibile. Zomma ad una scala a cui gli elementi sono visibili."
 
 #: view~dictionnary.selectiontool.results.none
 msgctxt "view~dictionnary.selectiontool.results.none"
@@ -708,7 +700,7 @@ msgstr "Elimina"
 #: view~edition.toolbar.delete.title
 msgctxt "view~edition.toolbar.delete.title"
 msgid "Delete"
-msgstr "Cancella"
+msgstr "Elimina"
 
 #: view~edition.toolbar.cancel.title
 msgctxt "view~edition.toolbar.cancel.title"
@@ -860,9 +852,7 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr ""
-"Lizmap non riesc a trovare la \"%s\" chiave primaria del layer. Lo strumento"
-" edizione richiede la definizione di una chiave primaria nella tabella."
+msgstr "Lizmap non riesc a trovare la \"%s\" chiave primaria del layer. Lo strumento edizione richiede la definizione di una chiave primaria nella tabella."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -882,9 +872,7 @@ msgstr "La bbox deve avere 4 numeri separati da ','"
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
 msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr ""
-"Il sistema di riferimento è obbligatorio, e deve essere un numero intero o "
-"EPSG:*"
+msgstr "Il sistema di riferimento è obbligatorio, e deve essere un numero intero o EPSG:*"
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -921,9 +909,7 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr ""
-"Non puoi salvare questo oggetto senza geometria. Per favore disegna la "
-"geometria sulla mappa."
+msgstr "Non puoi salvare questo oggetto senza geometria. Per favore disegna la geometria sulla mappa."
 
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
@@ -935,9 +921,7 @@ msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr ""
-"Il campo \"%s\" directory del layer \"%s\" per caricare elementi "
-"multimediali non è scrivibile."
+msgstr "Il campo \"%s\" directory del layer \"%s\" per caricare elementi multimediali non è scrivibile."
 
 #: view~edition.upload.choice.keep
 msgctxt "view~edition.upload.choice.keep"
@@ -952,7 +936,7 @@ msgstr "Aggiorna"
 #: view~edition.upload.choice.delete
 msgctxt "view~edition.upload.choice.delete"
 msgid "Delete"
-msgstr "Cancella"
+msgstr "Elimina"
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -969,25 +953,19 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr ""
-"Non puoi collegare elementi multipli ad entrambe i layers. Per favore scegli"
-" solo un oggetti per uno dei layer e riprova."
+msgstr "Non puoi collegare elementi multipli ad entrambe i layers. Per favore scegli solo un oggetti per uno dei layer e riprova."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr ""
-"Per creare il collegamento ci deve essere almeno un oggetto selezionato per "
-"ogni layer."
+msgstr "Per creare il collegamento ci deve essere almeno un oggetto selezionato per ogni layer."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table."
-msgstr ""
-"I layers non sono stati configurati in modo da avere una tabella degli "
-"attrubuti."
+msgstr "I layers non sono stati configurati in modo da avere una tabella degli attrubuti."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1117,7 +1095,7 @@ msgstr "Mappa"
 #: view~map.layers
 msgctxt "view~map.layers"
 msgid "Layers"
-msgstr "Layers"
+msgstr "Layer"
 
 #: view~map.legend
 msgctxt "view~map.legend"
@@ -1227,7 +1205,7 @@ msgstr "Geolocalizzazione"
 #: view~map.geolocate.toolbar.center
 msgctxt "view~map.geolocate.toolbar.center"
 msgid "Center"
-msgstr "Centra"
+msgstr "Centro"
 
 #: view~map.geolocate.toolbar.bind
 msgctxt "view~map.geolocate.toolbar.bind"
@@ -1337,7 +1315,7 @@ msgstr "Localizzazione"
 #: view~map.switchermenu.title
 msgctxt "view~map.switchermenu.title"
 msgid "Layers"
-msgstr "Layers"
+msgstr "Layer"
 
 #: view~map.legendmenu.title
 msgctxt "view~map.legendmenu.title"
@@ -1387,12 +1365,12 @@ msgstr "Riduci"
 #: view~map.navbar.previous.hover
 msgctxt "view~map.navbar.previous.hover"
 msgid "Previous"
-msgstr "Precedente"
+msgstr "Zoom precedente"
 
 #: view~map.navbar.next.hover
 msgctxt "view~map.navbar.next.hover"
 msgid "Next"
-msgstr "Successivo"
+msgstr "Zoom successivo"
 
 #: view~map.overviewmap.hover
 msgctxt "view~map.overviewmap.hover"
@@ -1607,7 +1585,7 @@ msgstr "Sito web"
 #: view~map.metadata.properties.projection
 msgctxt "view~map.metadata.properties.projection"
 msgid "Projection"
-msgstr "Sistema di riferimento"
+msgstr "Proiezione"
 
 #: view~map.metadata.properties.extent
 msgctxt "view~map.metadata.properties.extent"
@@ -1657,7 +1635,7 @@ msgstr "Time Manager"
 #: view~map.timemanager.toolbar.play
 msgctxt "view~map.timemanager.toolbar.play"
 msgid "Play"
-msgstr "Riproduci"
+msgstr "Play"
 
 #: view~map.timemanager.toolbar.pause
 msgctxt "view~map.timemanager.toolbar.pause"
@@ -1667,7 +1645,7 @@ msgstr "Pausa"
 #: view~map.timemanager.toolbar.next
 msgctxt "view~map.timemanager.toolbar.next"
 msgid "Next"
-msgstr "Successivo"
+msgstr "Prossimo"
 
 #: view~map.timemanager.toolbar.prev
 msgctxt "view~map.timemanager.toolbar.prev"
@@ -1737,7 +1715,7 @@ msgstr "Informazioni"
 #: view~map.switcher.layer.zoomToExtent.title
 msgctxt "view~map.switcher.layer.zoomToExtent.title"
 msgid "Zoom to layer extent"
-msgstr "Zoom all'estensione del layer"
+msgstr "Zoom all'estensione massima"
 
 #: view~map.switcher.layer.style.title
 msgctxt "view~map.switcher.layer.style.title"

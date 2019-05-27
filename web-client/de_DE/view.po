@@ -1,17 +1,19 @@
-# Translators:
-# Bernasocchi <marco@opengis.ch>, 2019
-# rldhont <rldhont@gmail.com>, 2019
-# Felix Kuehne <felixdemern@googlemail.com>, 2019
-# Laurent Jouanneau <dev@ljouanneau.com>, 2019
 # 
+# Translators:
+# Bernasocchi <marco@opengis.ch>, 2017
+# Felix Kuehne <felixdemern@googlemail.com>, 2016,2019
+# Felix Kuehne <felixdemern@googlemail.com>, 2016
+# Laurent Jouanneau <dev@ljouanneau.com>, 2019
+# rldhont <rldhont@gmail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client view 3.3rc1\n"
+"Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 15:10++0200\n"
-"PO-Revision-Date: 2019-05-27 13:12+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2019\n"
-"Language-Team: German (https://www.transifex.com/3liz-1/teams/62012/de/)\n"
+"POT-Creation-Date: 2019-05-27 15:27++0200\n"
+"PO-Revision-Date: 2019-05-27 13:28+0000\n"
+"Last-Translator: Felix Kuehne <felixdemern@googlemail.com>\n"
+"Language-Team: German (http://www.transifex.com/3liz-1/lizmap-locales/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -68,9 +70,7 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have an access to"
 " the maps."
-msgstr ""
-"Bitte hinterlassen Sie eine kurze Erklärung, warum Sie Zugriff auf unsere "
-"Karten wünschen."
+msgstr "Bitte hinterlassen Sie eine kurze Erklärung, warum Sie Zugriff auf unsere Karten wünschen."
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -115,8 +115,7 @@ msgstr "Klicken Sie in die Karte, um mit dem Messen einer Fläche zu beginnen."
 #: view~dictionnary.measure.activate.perimeter
 msgctxt "view~dictionnary.measure.activate.perimeter"
 msgid "Click on the map to start measuring a perimeter."
-msgstr ""
-"Klicken Sie in die Karte, um mit dem Messen eines Umfangs zu beginnen."
+msgstr "Klicken Sie in die Karte, um mit dem Messen eines Umfangs zu beginnen."
 
 #: view~dictionnary.measure.handle
 msgctxt "view~dictionnary.measure.handle"
@@ -168,18 +167,14 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr ""
-"Möchten sie die Bearbeitung wirklich verlassen? Alle Änderungen an dem "
-"aktuell bearbeiteten Objekt gehen verloren."
+msgstr "Möchten sie die Bearbeitung wirklich verlassen? Alle Änderungen an dem aktuell bearbeiteten Objekt gehen verloren."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr ""
-"Sie können dieses Objekt nicht ohne Geometrie speichern. Bitte zeichnen Sie "
-"die Geometrie auf der Karte"
+msgstr "Sie können dieses Objekt nicht ohne Geometrie speichern. Bitte zeichnen Sie die Geometrie auf der Karte"
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -264,7 +259,7 @@ msgstr "Informationen Einblenden"
 #: view~dictionnary.attributeLayers.toolbar.input.search.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.title"
 msgid "Search"
-msgstr "Suche"
+msgstr "Suchen"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
@@ -274,7 +269,7 @@ msgstr "Gesuchte Zeile auswählen"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title"
 msgid "Unselect all"
-msgstr "Auswahl aufheben"
+msgstr "Auswahl aller Objekte aufheben"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
 msgctxt ""
@@ -285,12 +280,12 @@ msgstr "Ausgewähltes Element nach oben bewegen"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
 msgid "Filter"
-msgstr "Filtrieren"
+msgstr "Filtern"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
 msgid "Export"
-msgstr "Exportieren"
+msgstr "Export"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title
 msgctxt ""
@@ -344,9 +339,7 @@ msgstr "Tabelle neu Laden"
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr ""
-"Der Kartenausschnitt hat sich geändert, seit das letzte Mal Daten geladen "
-"wurden."
+msgstr "Der Kartenausschnitt hat sich geändert, seit das letzte Mal Daten geladen wurden."
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.lines
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
@@ -408,9 +401,7 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr ""
-"Der Layer ist nicht sichtbar! Bitte zoomen Sie auf einen Maßstab, in dem die"
-" Elemente sichtbar werden."
+msgstr "Der Layer ist nicht sichtbar! Bitte zoomen Sie auf einen Maßstab, in dem die Elemente sichtbar werden."
 
 #: view~dictionnary.selectiontool.results.none
 msgctxt "view~dictionnary.selectiontool.results.none"
@@ -470,7 +461,7 @@ msgstr "Dokumentation"
 #: view~dictionnary.layer.metadata.zoomToExtent.title
 msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
 msgid "Zoom to layer extent"
-msgstr "Auf Ebenenausmaße zoomen"
+msgstr "Auf den Layer zoomen"
 
 #: view~dictionnary.layer.metadata.style.title
 msgctxt "view~dictionnary.layer.metadata.style.title"
@@ -650,7 +641,7 @@ msgstr "Zurücksetzen"
 #: view~edition.form.btn.clear.title
 msgctxt "view~edition.form.btn.clear.title"
 msgid "Close"
-msgstr "Schliessen"
+msgstr "Schließen"
 
 #: view~edition.form.cancel.confirm.message
 msgctxt "view~edition.form.cancel.confirm.message"
@@ -670,7 +661,7 @@ msgstr "Editieren"
 #: view~edition.toolbar.draw.title
 msgctxt "view~edition.toolbar.draw.title"
 msgid "Add"
-msgstr "Hinzufügen"
+msgstr "Hinzuf."
 
 #: view~edition.toolbar.draw.clear.title
 msgctxt "view~edition.toolbar.draw.clear.title"
@@ -685,7 +676,7 @@ msgstr "Speichern"
 #: view~edition.toolbar.select.title
 msgctxt "view~edition.toolbar.select.title"
 msgid "Select"
-msgstr "Auswählen"
+msgstr "Ausw."
 
 #: view~edition.toolbar.select.unselect.title
 msgctxt "view~edition.toolbar.select.unselect.title"
@@ -862,9 +853,7 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr ""
-"Lizmap kann den Primärschlüssel des Layers \"%s\" nicht finden! Zum "
-"Editieren muss in der Tabelle ein Primärschlüssel definiert sein."
+msgstr "Lizmap kann den Primärschlüssel des Layers \"%s\" nicht finden! Zum Editieren muss in der Tabelle ein Primärschlüssel definiert sein."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -879,9 +868,7 @@ msgstr "Beim Erstellen des Formulars ist ein Fehler aufgetreten"
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"
 msgid "The bbox has to be 4 floats separated by ','."
-msgstr ""
-"Der Zeichnungsausschnitt muss aus 4 Zahlen (mit Nachkommastellen) bestehen, "
-"getrennt durch ','."
+msgstr "Der Zeichnungsausschnitt muss aus 4 Zahlen (mit Nachkommastellen) bestehen, getrennt durch ','."
 
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
@@ -923,9 +910,7 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr ""
-"Sie können dieses Objekt nicht ohne Geometrie speichern. Bitte zeichnen Sie "
-"die Geometrie auf der Karte"
+msgstr "Sie können dieses Objekt ohne Geometrie nicht speichern. Bitte zeichnen Sie die Geometrie auf der Karte."
 
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
@@ -969,24 +954,19 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr ""
-"Sie können nicht mehrere Objekte mit beiden Ebenen verlinken! Bitte wählen "
-"Sie nur ein Objekt für einen der Layer und versuchen Sie es erneut."
+msgstr "Sie können nicht mehrere Objekte mit beiden Ebenen verlinken! Bitte wählen Sie nur ein Objekt für einen der Layer und versuchen Sie es erneut."
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr ""
-"Es muss mindestens ein Objekt pro Ebene ausgewählt sein, um die Verbindung "
-"herzustellen"
+msgstr "Es muss mindestens ein Objekt pro Ebene ausgewählt sein, um die Verbindung herzustellen"
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table."
-msgstr ""
-"Die Ebenen sind nicht dafür konfiguriert eine Attributtabelle zu besitzen."
+msgstr "Die Ebenen sind nicht dafür konfiguriert eine Attributtabelle zu besitzen."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1076,7 +1056,7 @@ msgstr "Metadaten anzeigen"
 #: view~default.project.close.map.metadata
 msgctxt "view~default.project.close.map.metadata"
 msgid "Close"
-msgstr "Schliessen"
+msgstr "Schließen"
 
 #: view~default.header.connect
 msgctxt "view~default.header.connect"
@@ -1116,7 +1096,7 @@ msgstr "Karte"
 #: view~map.layers
 msgctxt "view~map.layers"
 msgid "Layers"
-msgstr "Ebenen"
+msgstr "Legende"
 
 #: view~map.legend
 msgctxt "view~map.legend"
@@ -1141,7 +1121,7 @@ msgstr "Suche"
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"
 msgid "Searching"
-msgstr "Suchen"
+msgstr "Suche"
 
 #: view~map.print.navbar.title
 msgctxt "view~map.print.navbar.title"
@@ -1336,7 +1316,7 @@ msgstr "Position wird ermittelt"
 #: view~map.switchermenu.title
 msgctxt "view~map.switchermenu.title"
 msgid "Layers"
-msgstr "Ebenen"
+msgstr "Legende"
 
 #: view~map.legendmenu.title
 msgctxt "view~map.legendmenu.title"
@@ -1576,7 +1556,7 @@ msgstr "Kartenbeschreibung"
 #: view~map.metadata.h2.resources
 msgctxt "view~map.metadata.h2.resources"
 msgid "Resources"
-msgstr "Ressourcen"
+msgstr "Quellen"
 
 #: view~map.metadata.h2.properties
 msgctxt "view~map.metadata.h2.properties"
@@ -1596,7 +1576,7 @@ msgstr "Titel"
 #: view~map.metadata.description.abstract
 msgctxt "view~map.metadata.description.abstract"
 msgid "Description"
-msgstr "Beschreibung"
+msgstr "Beschriftung"
 
 #: view~map.metadata.resources.website
 msgctxt "view~map.metadata.resources.website"
@@ -1606,7 +1586,7 @@ msgstr "Website"
 #: view~map.metadata.properties.projection
 msgctxt "view~map.metadata.properties.projection"
 msgid "Projection"
-msgstr "Koordinatensystem"
+msgstr "Projektion"
 
 #: view~map.metadata.properties.extent
 msgctxt "view~map.metadata.properties.extent"
@@ -1676,7 +1656,7 @@ msgstr "Vorherige(r)"
 #: view~map.bottomdock.toolbar.btn.clear.title
 msgctxt "view~map.bottomdock.toolbar.btn.clear.title"
 msgid "Close"
-msgstr "Schliessen"
+msgstr "Schließen"
 
 #: view~map.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~map.bottomdock.toolbar.btn.glue.activate.title"
@@ -1741,12 +1721,12 @@ msgstr "Auf Ebenenausmaße zoomen"
 #: view~map.switcher.layer.style.title
 msgctxt "view~map.switcher.layer.style.title"
 msgid "Change layer style"
-msgstr "Layer Stil ändern"
+msgstr "Ebenenstil ändern"
 
 #: view~map.switcher.layer.export.title
 msgctxt "view~map.switcher.layer.export.title"
 msgid "Export"
-msgstr "Exportieren"
+msgstr "Export"
 
 #: view~map.switcher.layer.unfilter.title
 msgctxt "view~map.switcher.layer.unfilter.title"

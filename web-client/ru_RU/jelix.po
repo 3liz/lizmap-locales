@@ -1,15 +1,14 @@
-# Translators:
-# rldhont <rldhont@gmail.com>, 2019
-# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2019
 # 
+# Translators:
+# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2016-2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jelix 3.3rc1\n"
+"Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 15:10++0200\n"
-"PO-Revision-Date: 2019-05-27 13:12+0000\n"
-"Last-Translator: Petr Tsymbarovich <petr@tsymbarovich.ru>, 2019\n"
-"Language-Team: Russian (https://www.transifex.com/3liz-1/teams/62012/ru/)\n"
+"POT-Creation-Date: 2019-05-27 15:27++0200\n"
+"PO-Revision-Date: 2019-05-27 13:28+0000\n"
+"Last-Translator: Petr Tsymbarovich <petr@tsymbarovich.ru>\n"
+"Language-Team: Russian (http://www.transifex.com/3liz-1/lizmap-locales/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,8 +24,7 @@ msgstr "(1) Неизвестная ошибка"
 msgctxt "jelix~errors.tech"
 msgid ""
 "(2)There is a technic error on the site. Please try connect to it later."
-msgstr ""
-"(2) На сайте произошла техническая ошибка. Попробуйте подключиться позже."
+msgstr "(2) На сайте произошла техническая ошибка. Попробуйте подключиться позже."
 
 #: jelix~errors.selector.invalid.syntax
 msgctxt "jelix~errors.selector.invalid.syntax"
@@ -655,9 +653,7 @@ msgctxt "jelix~db.error.connection.closed"
 msgid ""
 "(409) Connection to database is not valid anymore: timeout, server down... "
 "(profile %s)"
-msgstr ""
-"(409) Соединение с базой данных больше недействительно: таймаут, отключение "
-"сервера... (профиль %s)"
+msgstr "(409) Соединение с базой данных больше недействительно: таймаут, отключение сервера... (профиль %s)"
 
 #: jelix~db.error.no.database.name
 msgctxt "jelix~db.error.no.database.name"
@@ -989,7 +985,7 @@ msgstr "апр."
 #: jelix~date_time.month.05.label
 msgctxt "jelix~date_time.month.05.label"
 msgid "May"
-msgstr "май"
+msgstr "Май"
 
 #: jelix~date_time.month.05.shortlabel
 msgctxt "jelix~date_time.month.05.shortlabel"
@@ -2056,9 +2052,7 @@ msgctxt "jelix~cache.error.invalid.key"
 msgid ""
 "(901) error key %s, use only alphanumeric characters and the character '_' "
 "and maximum length 255"
-msgstr ""
-"(901) ошибка в ключе %s, допустимы только буквенно-цифровые символы и символ"
-" \"_\", длина не должна превышать 255 символов"
+msgstr "(901) ошибка в ключе %s, допустимы только буквенно-цифровые символы и символ \"_\", длина не должна превышать 255 символов"
 
 #: jelix~cache.error.serialize.data
 msgctxt "jelix~cache.error.serialize.data"
@@ -2218,27 +2212,21 @@ msgctxt "jelix~formserr.selected.attribute.not.allowed"
 msgid ""
 "(806)\"selected\" attribute on <item> is not allowed when using defaultvalue"
 " attribute or <defaultvalues> (file %s)"
-msgstr ""
-"(806) атрибут \"selected\" в <item> недопустим при использовании атрибута "
-"\"defaultvalue\" или элемента <defaultvalues> (файл %s)"
+msgstr "(806) атрибут \"selected\" в <item> недопустим при использовании атрибута \"defaultvalue\" или элемента <defaultvalues> (файл %s)"
 
 #: jelix~formserr.defaultvalues.not.allowed
 msgctxt "jelix~formserr.defaultvalues.not.allowed"
 msgid ""
 "(807) <defaultvalues> is not allowed in a <listbox multiple=\"false\"> "
 "element (file %s)"
-msgstr ""
-"(807) <defaultvalues> недопустим в элементе <listbox multiple=\"false\"> "
-"(файл %s)"
+msgstr "(807) <defaultvalues> недопустим в элементе <listbox multiple=\"false\"> (файл %s)"
 
 #: jelix~formserr.multiple.selected.not.allowed
 msgctxt "jelix~formserr.multiple.selected.not.allowed"
 msgid ""
 "(808)Only one selected item is allowed in <listbox multiple=\"false\">, "
 "<radiobuttons> and <menulist> elements (file %s)"
-msgstr ""
-"(808) Только один выбор возможен в элементах <listbox multiple=\"false\">, "
-"<radiobuttons> и <menulist> (файл %s)"
+msgstr "(808) Только один выбор возможен в элементах <listbox multiple=\"false\">, <radiobuttons> и <menulist> (файл %s)"
 
 #: jelix~formserr.namespace.wrong
 msgctxt "jelix~formserr.namespace.wrong"
@@ -2358,8 +2346,7 @@ msgstr "Техническая ошибка при загрузке \"%s\""
 msgctxt "jelix~kvstore.error.connection"
 msgid ""
 "(931) jKVDb: impossible to connect to  %s (bad host, login or password?)"
-msgstr ""
-"(931) jKVDb: невозможно подключиться к %s (проверьте хост, логин и пароль)"
+msgstr "(931) jKVDb: невозможно подключиться к %s (проверьте хост, логин и пароль)"
 
 #: jelix~kvstore.error.feature.unsupported
 msgctxt "jelix~kvstore.error.feature.unsupported"

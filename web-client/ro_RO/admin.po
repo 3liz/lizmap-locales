@@ -1,14 +1,14 @@
-# Translators:
-# Tudor Bărăscu <tudorbarascu@yahoo.com>, 2019
 # 
+# Translators:
+# Tudor Bărăscu <tudorbarascu@yahoo.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client admin 3.3rc1\n"
+"Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 15:10++0200\n"
-"PO-Revision-Date: 2019-05-27 13:11+0000\n"
-"Last-Translator: Tudor Bărăscu <tudorbarascu@yahoo.com>, 2019\n"
-"Language-Team: Romanian (https://www.transifex.com/3liz-1/teams/62012/ro/)\n"
+"POT-Creation-Date: 2019-05-27 15:27++0200\n"
+"PO-Revision-Date: 2019-05-27 13:28+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -115,7 +115,7 @@ msgstr "Versiune QGIS Server"
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
 msgid "WMS server URL"
-msgstr "URL-ul serverului WMS"
+msgstr "URL server WMS"
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
@@ -145,7 +145,7 @@ msgstr "Depozitul de date implicit"
 #: admin~admin.configuration.services.defaultProject.label
 msgctxt "admin~admin.configuration.services.defaultProject.label"
 msgid "Default project"
-msgstr "Proiect implicit"
+msgstr "Proiectul implicit"
 
 #: admin~admin.configuration.services.cacheStorageType.label
 msgctxt "admin~admin.configuration.services.cacheStorageType.label"
@@ -160,7 +160,7 @@ msgstr "Directorul rădăcină al cache-ului"
 #: admin~admin.configuration.services.cacheExpiration.label
 msgctxt "admin~admin.configuration.services.cacheExpiration.label"
 msgid "Server cache expiration time(s)"
-msgstr "Timp expirare cache server (s)"
+msgstr "Timpul expirare cache server (s)"
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
@@ -191,7 +191,7 @@ msgstr ""
 #: admin~admin.configuration.services.adminContactEmail.label
 msgctxt "admin~admin.configuration.services.adminContactEmail.label"
 msgid "Administrator e-mail"
-msgstr "e-mail Administrator"
+msgstr "E-mail administrator"
 
 #: admin~admin.configuration.button.modify.service.label
 msgctxt "admin~admin.configuration.button.modify.service.label"
@@ -301,7 +301,7 @@ msgstr "Înălțimea max. implicită a unei cereri GetMap"
 #: admin~admin.form.admin_services.cacheStorageType.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.label"
 msgid "Server cache storage type"
-msgstr "Tipul stocării de cache al serverului"
+msgstr "Tipul storage-ului de cache al serverului"
 
 #: admin~admin.form.admin_services.cacheStorageType.sqlite.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.sqlite.label"
@@ -353,9 +353,7 @@ msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
 "Redis database index: integer >= 0 , optional (used if Redis is chosen for "
 "the cache storage)"
-msgstr ""
-"Index bază de date Redis: număr natural >= 0, (dacă Redis este folosit ca "
-"stocare cache)"
+msgstr "Index bază de date Redis: număr natural >= 0, (dacă Redis este folosit ca stocare cache)"
 
 #: admin~admin.form.admin_services.cacheRedisKeyPrefix.help
 msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
@@ -389,18 +387,14 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr ""
-"0 înseamnă că nu expiră, alt număr natural reprezintă secundele (maxim "
-"2592000 s = 30 zile)"
+msgstr "0 înseamnă că nu expiră, alt număr natural reprezintă secundele (maxim 2592000 s = 30 zile)"
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr ""
-"Timpul de expirare al cache-ului serverului trebuie să fie un număr natural "
-"între 0 și 2592000 secunde."
+msgstr "Timpul de expirare al cache-ului serverului trebuie să fie un număr natural între 0 și 2592000 secunde."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -413,10 +407,7 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr ""
-"Directorul rădăcină al depozitelor de date poate limita directorul Lizmap la"
-" 1 director. Dacă o care e setată aici, definirea unei căi catre un director"
-" Limap nu mai este posibilă."
+msgstr "Directorul rădăcină al depozitelor de date poate limita directorul Lizmap la 1 director. Dacă o care e setată aici, definirea unei căi catre un director Limap nu mai este posibilă."
 
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
@@ -579,9 +570,7 @@ msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
 msgid ""
 "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
 "\"tracking ID\"."
-msgstr ""
-"ID-ul Google Analytics este de forma 'UA-XXXX-Y'. Mai este denumit și "
-"\"tracking ID\"."
+msgstr "ID-ul Google Analytics este de forma 'UA-XXXX-Y'. Mai este denumit și \"tracking ID\"."
 
 #: admin~admin.form.admin_services.submit.label
 msgctxt "admin~admin.form.admin_services.submit.label"
@@ -1030,7 +1019,7 @@ msgstr "Modificare servicii"
 #: admin~jacl2.lizmap.admin.repositories.view
 msgctxt "admin~jacl2.lizmap.admin.repositories.view"
 msgid "View repositories"
-msgstr "Vizualizare depozite date"
+msgstr "Vizualizare depozit date"
 
 #: admin~jacl2.lizmap.admin.repositories.create
 msgctxt "admin~jacl2.lizmap.admin.repositories.create"
@@ -1065,9 +1054,7 @@ msgstr "Folosește unealta editare"
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "Always see complete layers data, even if filtered by login"
-msgstr ""
-"Datele straturilor să fie vizualizate complet, chiar și filtrate de "
-"autentificare"
+msgstr "Datele straturilor să fie vizualizate complet, chiar și filtrate de autentificare"
 
 #: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
 msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
