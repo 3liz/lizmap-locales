@@ -5,9 +5,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jcommunity 3.3rc1\n"
+"Project-Id-Version: Lizmap Web Client jcommunity 3.3rc2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 15:10++0200\n"
+"POT-Creation-Date: 2019-07-29 12:25++0200\n"
 "PO-Revision-Date: 2019-05-27 13:12+0000\n"
 "Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2019\n"
 "Language-Team: Dutch (https://www.transifex.com/3liz-1/teams/62012/nl/)\n"
@@ -142,6 +142,20 @@ msgctxt "jcommunity~account.form.captcha"
 msgid "Are you a human?"
 msgstr ""
 
+#: jcommunity~account.form.admin.registration.info
+msgctxt "jcommunity~account.form.admin.registration.info"
+msgid ""
+"An email will be send to the user, so the user could activate the account by"
+" giving a new password."
+msgstr ""
+
+#: jcommunity~account.form.admin.create.emailsent
+msgctxt "jcommunity~account.form.admin.create.emailsent"
+msgid ""
+"An email has been sent to the user, so he could activate its account by "
+"giving a new password"
+msgstr ""
+
 #: jcommunity~account.profile.of
 msgctxt "jcommunity~account.profile.of"
 msgid "%1$s's Profile"
@@ -162,10 +176,15 @@ msgctxt "jcommunity~account.link.account.change.password"
 msgid "Change your password"
 msgstr "Wachtwoord veranderen"
 
+#: jcommunity~account.admin.link.account.reset.password
+msgctxt "jcommunity~account.admin.link.account.reset.password"
+msgid "Reset his password"
+msgstr ""
+
 #: jcommunity~account.form.edit.profile.title
 msgctxt "jcommunity~account.form.edit.profile.title"
 msgid "Editing your profile"
-msgstr ""
+msgstr "Bezig met profiel aanpassen"
 
 #: jcommunity~account.form.delete.account.title
 msgctxt "jcommunity~account.form.delete.account.title"
@@ -222,12 +241,12 @@ msgstr "Annuleer"
 #: jcommunity~account.cancel.and.back.to.account
 msgctxt "jcommunity~account.cancel.and.back.to.account"
 msgid "Cancel and back to your profile"
-msgstr ""
+msgstr "Annuleer en terug naar je profiel"
 
 #: jcommunity~account.back.to.account
 msgctxt "jcommunity~account.back.to.account"
 msgid "Back to your profile"
-msgstr ""
+msgstr "Terug naar je profiel"
 
 #: jcommunity~password.form.title
 msgctxt "jcommunity~password.form.title"
@@ -241,6 +260,28 @@ msgid ""
 "username and with the email you have set in your profil.</p> <p>An email "
 "will be sent with a link to a page allowing you to choose a new "
 "password.</p>"
+msgstr ""
+
+#: jcommunity~password.admin.form.reset.html
+msgctxt "jcommunity~password.admin.form.reset.html"
+msgid ""
+"<p>An email will be send to the user, so the user could change his "
+"password.</p>"
+msgstr ""
+
+#: jcommunity~password.admin.form.back.to.account
+msgctxt "jcommunity~password.admin.form.back.to.account"
+msgid "Back to the account of"
+msgstr ""
+
+#: jcommunity~password.admin.form.email.button
+msgctxt "jcommunity~password.admin.form.email.button"
+msgid "Send the email to"
+msgstr ""
+
+#: jcommunity~password.admin.waiting.text.html
+msgctxt "jcommunity~password.admin.waiting.text.html"
+msgid "<p>An email has been sent to the user.</p>"
 msgstr ""
 
 #: jcommunity~password.form.submit
@@ -332,6 +373,45 @@ msgctxt "jcommunity~password.form.change.ok"
 msgid "The new password is now saved."
 msgstr ""
 
+#: jcommunity~password.form.create.title
+msgctxt "jcommunity~password.form.create.title"
+msgid "Password creation"
+msgstr ""
+
+#: jcommunity~password.form.create.error.alreadydone
+msgctxt "jcommunity~password.form.create.error.alreadydone"
+msgid "Sorry, there is no request for a password creation."
+msgstr ""
+
+#: jcommunity~password.form.create.error.badkey
+msgctxt "jcommunity~password.form.create.error.badkey"
+msgid ""
+"Password creation is not possible: the username or the request key is not "
+"valid."
+msgstr ""
+
+#: jcommunity~password.form.create.error.expiredkey
+msgctxt "jcommunity~password.form.create.error.expiredkey"
+msgid ""
+"Password creation is not possible: the request has expired. Contact an "
+"administrator"
+msgstr ""
+
+#: jcommunity~password.form.create.error.badstatus
+msgctxt "jcommunity~password.form.create.error.badstatus"
+msgid "Password creation is not allowed because of your account status."
+msgstr ""
+
+#: jcommunity~password.form.create.error.badloginemail
+msgctxt "jcommunity~password.form.create.error.badloginemail"
+msgid "We don't know the username or the email you give"
+msgstr ""
+
+#: jcommunity~password.form.create.error.badcurrentpwd
+msgctxt "jcommunity~password.form.create.error.badcurrentpwd"
+msgid "The password does not match the current password"
+msgstr ""
+
 #: jcommunity~register.registration.title
 msgctxt "jcommunity~register.registration.title"
 msgid "Registration"
@@ -404,6 +484,13 @@ msgstr ""
 #: jcommunity~register.registration.confirm.badstatus
 msgctxt "jcommunity~register.registration.confirm.badstatus"
 msgid "Activation is not possible: your account is not a new one."
+msgstr ""
+
+#: jcommunity~register.registration.confirm.expiredkey
+msgctxt "jcommunity~register.registration.confirm.expiredkey"
+msgid ""
+"Activation is not possible: the request has expired. Ask the administrator "
+"of the web site to activate your account"
 msgstr ""
 
 #: jcommunity~login.error.notlogged
@@ -494,7 +581,7 @@ msgstr ""
 #: jcommunity~login.startpage.account.view
 msgctxt "jcommunity~login.startpage.account.view"
 msgid "View your profile"
-msgstr ""
+msgstr "Bekijk je profiel"
 
 #: jcommunity~login.startpage.account.create
 msgctxt "jcommunity~login.startpage.account.create"
@@ -524,4 +611,83 @@ msgstr ""
 #: jcommunity~login.cancel.and.back.to.login
 msgctxt "jcommunity~login.cancel.and.back.to.login"
 msgid "Cancel and return to the login form"
+msgstr ""
+
+#: jcommunity~mail.registration.subject
+msgctxt "jcommunity~mail.registration.subject"
+msgid "Activating your account on the web site %s"
+msgstr ""
+
+#: jcommunity~mail.registration.body.html
+msgctxt "jcommunity~mail.registration.body.html"
+msgid ""
+"<p>Hello,</p>\n"
+"\n"
+" <p>You have created a new account on <a href=\"{$website_uri}\" class=\"notexpandlink\">{$domain_name}</a>.</p>\n"
+"\n"
+" <p>Before to use your account, you should confirm your registration by \n"
+" <a href=\"{$confirmation_link}\">clicking on this link</a>.</p>\n"
+"\n"
+" <p>See you on {$domain_name}!</p>"
+msgstr ""
+
+#: jcommunity~mail.registration.admin.body.html
+msgctxt "jcommunity~mail.registration.admin.body.html"
+msgid ""
+"<p>Hello,</p>\n"
+"\n"
+" <p>The administrator of the web site <a href=\"{$website_uri}\" class=\"notexpandlink\">{$domain_name}</a>\n"
+" have been created an account for you, with the login <em>\"{$user->login}\"</em>.</p>\n"
+"\n"
+" <p>Before to use your account, you should confirm your registration by \n"
+" <a href=\"{$confirmation_link}\">clicking on this link</a>, \n"
+" and then indicating a new password.</p>\n"
+"\n"
+" <p>See you on {$domain_name}!</p>"
+msgstr ""
+
+#: jcommunity~mail.password.reset.subject
+msgctxt "jcommunity~mail.password.reset.subject"
+msgid "Reset of your password on the web site %s"
+msgstr ""
+
+#: jcommunity~mail.password.reset.body.html
+msgctxt "jcommunity~mail.password.reset.body.html"
+msgid ""
+"<p>Hello,</p>\n"
+"\n"
+" <p>You requested a password reset for your account <em>\"{$user->login|eschtml}\"</em>\n"
+" on the web site <a href=\"{$website_uri}\" class=\"notexpandlink\">{$domain_name}</a>.</p>\n"
+"\n"
+" <p>If you really want to change it, you should <a href=\"{$confirmation_link}\">click on this link</a>.</p>\n"
+"\n"
+" <p>You could then set a new password for your account. The link is valid 48h.</p>\n"
+"\n"
+" <p>If this request is an error or you don't want to confirm, ignore this mail.\n"
+" Your password won't be changed.</p>\n"
+"\n"
+" <p>See you now on {$domain_name}!</p>"
+msgstr ""
+
+#: jcommunity~mail.password.admin.reset.subject
+msgctxt "jcommunity~mail.password.admin.reset.subject"
+msgid "Reset of your password on the web site %s"
+msgstr ""
+
+#: jcommunity~mail.password.admin.reset.body.html
+msgctxt "jcommunity~mail.password.admin.reset.body.html"
+msgid ""
+"<p>Hello,</p>\n"
+"\n"
+" <p>The administrator of the web site <a href=\"{$website_uri}\" class=\"notexpandlink\">{$domain_name}</a>\n"
+" have been sent this email to you so you can change your password for the account <em>\"{$user->login}\"</em>.</p>\n"
+"\n"
+" <p>If you want to confirm the change, you should <a href=\"{$confirmation_link}\">click on this link</a>.</p>\n"
+"\n"
+" <p>You could then set a new password for your account. The link is valid 48h.</p>\n"
+"\n"
+" <p>If this request is an error or you don't want to confirm, ignore this mail,\n"
+" and your password won't be changed.</p>\n"
+"\n"
+" <p>See you on {$domain_name}!</p>"
 msgstr ""
