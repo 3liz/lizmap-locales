@@ -19,6 +19,11 @@ LOCALES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 source $LOCALES_DIR/module_list.sh
 
+if [ "$2" != "" ]; then
+  MODULES="$2"
+fi
+
+
 (cd $LIZMAP_DIR/../ && git checkout $LIZMAP_BRANCH)
 
 for MODULE in $MODULES
