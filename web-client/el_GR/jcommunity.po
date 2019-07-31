@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client jcommunity 3.3rc2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-29 12:25++0200\n"
+"POT-Creation-Date: 2019-07-31 17:32++0200\n"
 "PO-Revision-Date: 2019-05-27 13:12+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>, 2019\n"
 "Language-Team: Greek (https://www.transifex.com/3liz-1/teams/62012/el/)\n"
@@ -117,7 +117,7 @@ msgstr ""
 
 #: jcommunity~account.form.status.valid.password.changed
 msgctxt "jcommunity~account.form.status.valid.password.changed"
-msgid "Validated, awaiting reset password"
+msgid "Validated, awaiting password reset"
 msgstr ""
 
 #: jcommunity~account.form.keyactivate
@@ -177,6 +177,11 @@ msgstr "Αλλαγή του κωδικού"
 #: jcommunity~account.admin.link.account.reset.password
 msgctxt "jcommunity~account.admin.link.account.reset.password"
 msgid "Reset his password"
+msgstr ""
+
+#: jcommunity~account.admin.link.account.resent.validation.email
+msgctxt "jcommunity~account.admin.link.account.resent.validation.email"
+msgid "Resend the validation email"
 msgstr ""
 
 #: jcommunity~account.form.edit.profile.title
@@ -245,6 +250,36 @@ msgstr ""
 msgctxt "jcommunity~account.back.to.account"
 msgid "Back to your profile"
 msgstr ""
+
+#: jcommunity~account.duration.day
+msgctxt "jcommunity~account.duration.day"
+msgid "day"
+msgstr ""
+
+#: jcommunity~account.duration.days
+msgctxt "jcommunity~account.duration.days"
+msgid "days"
+msgstr "μέρες"
+
+#: jcommunity~account.duration.hour
+msgctxt "jcommunity~account.duration.hour"
+msgid "hour"
+msgstr ""
+
+#: jcommunity~account.duration.hours
+msgctxt "jcommunity~account.duration.hours"
+msgid "hours"
+msgstr "Ώρες"
+
+#: jcommunity~account.duration.minute
+msgctxt "jcommunity~account.duration.minute"
+msgid "minute"
+msgstr ""
+
+#: jcommunity~account.duration.minutes
+msgctxt "jcommunity~account.duration.minutes"
+msgid "minutes"
+msgstr "λεπτά"
 
 #: jcommunity~password.form.title
 msgctxt "jcommunity~password.form.title"
@@ -361,6 +396,16 @@ msgctxt "jcommunity~password.form.change.error.badcurrentpwd"
 msgid "The password does not match the current password"
 msgstr ""
 
+#: jcommunity~password.form.change.error.admin.badstatus
+msgctxt "jcommunity~password.form.change.error.admin.badstatus"
+msgid "Password change is not allowed because of the account status."
+msgstr ""
+
+#: jcommunity~password.form.change.error.admin.badloginemail
+msgctxt "jcommunity~password.form.change.error.admin.badloginemail"
+msgid "The username or his email is unknown"
+msgstr ""
+
 #: jcommunity~password.form.change.reset.ok
 msgctxt "jcommunity~password.form.change.reset.ok"
 msgid "The new password is now saved. You can sign in now."
@@ -373,7 +418,12 @@ msgstr ""
 
 #: jcommunity~password.form.create.title
 msgctxt "jcommunity~password.form.create.title"
-msgid "Password creation"
+msgid "Account creation"
+msgstr ""
+
+#: jcommunity~password.form.create.text.html
+msgctxt "jcommunity~password.form.create.text.html"
+msgid "<p>Indicate your new password.</p>"
 msgstr ""
 
 #: jcommunity~password.form.create.error.alreadydone
@@ -491,6 +541,24 @@ msgid ""
 "of the web site to activate your account"
 msgstr ""
 
+#: jcommunity~register.admin.resend.email.title
+msgctxt "jcommunity~register.admin.resend.email.title"
+msgid "Account creation: resend the validation email"
+msgstr ""
+
+#: jcommunity~register.admin.resend.email.text.html
+msgctxt "jcommunity~register.admin.resend.email.text.html"
+msgid ""
+"<p>An email with a new validation key, will be send to the user '%s' who "
+"have a non-validated account. Use this feature when the user has informed "
+"you that the validation key he received has expired.</p>"
+msgstr ""
+
+#: jcommunity~register.admin.resend.email.done.text.html
+msgctxt "jcommunity~register.admin.resend.email.done.text.html"
+msgid "<p>The email has been sent to the user.</p>"
+msgstr ""
+
 #: jcommunity~login.error.notlogged
 msgctxt "jcommunity~login.error.notlogged"
 msgid "You are not connected, you should sign in."
@@ -561,6 +629,12 @@ msgctxt "jcommunity~login.access.not.available"
 msgid "Page not available"
 msgstr ""
 
+#: jcommunity~login.access.forbidden.badstatus
+msgctxt "jcommunity~login.access.forbidden.badstatus"
+msgid ""
+"You cannot access to this page because the account has not the right status"
+msgstr ""
+
 #: jcommunity~login.startpage.connected
 msgctxt "jcommunity~login.startpage.connected"
 msgid "You are connected."
@@ -624,7 +698,7 @@ msgid ""
 " <p>You have created a new account on <a href=\"{$website_uri}\" class=\"notexpandlink\">{$domain_name}</a>.</p>\n"
 "\n"
 " <p>Before to use your account, you should confirm your registration by \n"
-" <a href=\"{$confirmation_link}\">clicking on this link</a>.</p>\n"
+" <a href=\"{$confirmation_link}\">clicking on this link</a>. The link is valid {$validationKeyTTL}.</p>\n"
 "\n"
 " <p>See you on {$domain_name}!</p>"
 msgstr ""
@@ -639,7 +713,7 @@ msgid ""
 "\n"
 " <p>Before to use your account, you should confirm your registration by \n"
 " <a href=\"{$confirmation_link}\">clicking on this link</a>, \n"
-" and then indicating a new password.</p>\n"
+" and then indicating a new password. The link is valid {$validationKeyTTL}.</p>\n"
 "\n"
 " <p>See you on {$domain_name}!</p>"
 msgstr ""
@@ -659,7 +733,7 @@ msgid ""
 "\n"
 " <p>If you really want to change it, you should <a href=\"{$confirmation_link}\">click on this link</a>.</p>\n"
 "\n"
-" <p>You could then set a new password for your account. The link is valid 48h.</p>\n"
+" <p>You could then set a new password for your account. The link is valid {$validationKeyTTL}.</p>\n"
 "\n"
 " <p>If this request is an error or you don't want to confirm, ignore this mail.\n"
 " Your password won't be changed.</p>\n"
@@ -682,7 +756,7 @@ msgid ""
 "\n"
 " <p>If you want to confirm the change, you should <a href=\"{$confirmation_link}\">click on this link</a>.</p>\n"
 "\n"
-" <p>You could then set a new password for your account. The link is valid 48h.</p>\n"
+" <p>You could then set a new password for your account. The link is valid {$validationKeyTTL}.</p>\n"
 "\n"
 " <p>If this request is an error or you don't want to confirm, ignore this mail,\n"
 " and your password won't be changed.</p>\n"
