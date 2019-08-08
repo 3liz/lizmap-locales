@@ -1,14 +1,14 @@
-# Translators:
-# kasza jozsef <kasza.nkataszri@gmail.com>, 2019
 # 
+# Translators:
+# kasza jozsef <kasza.nkataszri@gmail.com>, 2018-2019
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.3rc1\n"
+"Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 15:10++0200\n"
-"PO-Revision-Date: 2019-05-27 13:12+0000\n"
-"Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2019\n"
-"Language-Team: Hungarian (Hungary) (https://www.transifex.com/3liz-1/teams/62012/hu_HU/)\n"
+"POT-Creation-Date: 2019-08-08 15:02++0200\n"
+"PO-Revision-Date: 2019-01-01 17:54+0000\n"
+"Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>\n"
+"Language-Team: Hungarian (Hungary) (http://www.transifex.com/3liz-1/lizmap-locales/language/hu_HU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,7 +23,7 @@ msgstr "Felhasználói csoportok és jogosultságok"
 #: jacl2db_admin~acl2.menu.item.rights
 msgctxt "jacl2db_admin~acl2.menu.item.rights"
 msgid "Rights of users"
-msgstr "Felhasználói jogosultságok"
+msgstr "Felhasználói jogok"
 
 #: jacl2db_admin~acl2.groups.title
 msgctxt "jacl2db_admin~acl2.groups.title"
@@ -108,16 +108,12 @@ msgstr "A felhasználói csoport törölve"
 #: jacl2db_admin~acl2.message.group.delete.error.noacl.yourself
 msgctxt "jacl2db_admin~acl2.message.group.delete.error.noacl.yourself"
 msgid "The group cannot be deleted, else you couldn't manage rights"
-msgstr ""
-"A csoport nem törölhető, vagy nincs joga a csoport-jogosultságok "
-"változtatásához"
+msgstr "A csoport nem törölhető, vagy nincs joga a csoport-jogosultságok változtatásához"
 
 #: jacl2db_admin~acl2.message.group.delete.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.group.delete.error.noacl.anybody"
 msgid "The group cannot be deleted, else nobody couldn't manage rights"
-msgstr ""
-"A csoport nem törölhető, különben nem marad felhasználó a jogosultságok "
-"módosításához"
+msgstr "A csoport nem törölhető, különben nem marad felhasználó a jogosultságok módosításához"
 
 #: jacl2db_admin~acl2.groups.rights.title
 msgctxt "jacl2db_admin~acl2.groups.rights.title"
@@ -127,7 +123,7 @@ msgstr "Felhasználói csoportok jogosultságai"
 #: jacl2db_admin~acl2.table.th.groups
 msgctxt "jacl2db_admin~acl2.table.th.groups"
 msgid "Groups"
-msgstr "Csoportok"
+msgstr "Felhasználói csoportok"
 
 #: jacl2db_admin~acl2.table.th.rights
 msgctxt "jacl2db_admin~acl2.table.th.rights"
@@ -137,26 +133,21 @@ msgstr "Jogosultságok"
 #: jacl2db_admin~acl2.group.help.rights.inherit
 msgctxt "jacl2db_admin~acl2.group.help.rights.inherit"
 msgid "\"-\": undefined right, it can be defined in other groups of the user"
-msgstr ""
-"\"-\": Nem beállított jogosultság, megadható a felhasználó más csoportjainál"
+msgstr "\"-\": Nem beállított jogosultság, megadható a felhasználó más csoportjainál"
 
 #: jacl2db_admin~acl2.group.help.rights.yes
 msgctxt "jacl2db_admin~acl2.group.help.rights.yes"
 msgid ""
 "\"yes\": indicate that the right is set, but can be canceled (\"no\") in an "
 "other group"
-msgstr ""
-"\"yes\": engedélyezett jogosultság, de letiltható (\"no\")a felhasználó más "
-"csoportjaiban"
+msgstr "\"yes\": engedélyezett jogosultság, de letiltható (\"no\")a felhasználó más csoportjaiban"
 
 #: jacl2db_admin~acl2.group.help.rights.no
 msgctxt "jacl2db_admin~acl2.group.help.rights.no"
 msgid ""
 "\"no\": the right is not assign to this group, and to any other groups of "
 "the user."
-msgstr ""
-"\"no\": a jogosultság nem engedélyezett sem ebben, sem a felhasználó más "
-"csoportjaiban"
+msgstr "\"no\": a jogosultság nem engedélyezett sem ebben, sem a felhasználó más csoportjaiban"
 
 #: jacl2db_admin~acl2.global.rights
 msgctxt "jacl2db_admin~acl2.global.rights"
@@ -171,17 +162,13 @@ msgstr "speciális"
 #: jacl2db_admin~acl2.message.savegrouprights.error.noacl.yourself
 msgctxt "jacl2db_admin~acl2.message.savegrouprights.error.noacl.yourself"
 msgid "Changes cannot be applied else you won't be able to change some rights"
-msgstr ""
-"A módosítások nem végezhetők el, különben nem lesz joga bizonyos "
-"jogosultságok megváltoztatásához."
+msgstr "A módosítások nem végezhetők el, különben nem lesz joga bizonyos jogosultságok megváltoztatásához."
 
 #: jacl2db_admin~acl2.message.savegrouprights.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.savegrouprights.error.noacl.anybody"
 msgid ""
 "Changes cannot be applied else nobody won't be able to change some rights"
-msgstr ""
-"A módosítások nem végezhetők el, különben nem marad felhasználó a "
-"jogosultságok módosításához"
+msgstr "A módosítások nem végezhetők el, különben nem marad felhasználó a jogosultságok módosításához"
 
 #: jacl2db_admin~acl2.message.group.rights.ok
 msgctxt "jacl2db_admin~acl2.message.group.rights.ok"
@@ -216,7 +203,7 @@ msgstr "név (vagy a név részlete):"
 #: jacl2db_admin~acl2.show.button
 msgctxt "jacl2db_admin~acl2.show.button"
 msgid "Show"
-msgstr "Mutat"
+msgstr "Megmutat"
 
 #: jacl2db_admin~acl2.no.user.message
 msgctxt "jacl2db_admin~acl2.no.user.message"
@@ -261,9 +248,7 @@ msgstr "Jogosultságok"
 #: jacl2db_admin~acl2.has.rights.on.resources
 msgctxt "jacl2db_admin~acl2.has.rights.on.resources"
 msgid "This user has rights on some resources"
-msgstr ""
-"Ennek a felhasználónak már vannak jogosultságai az aktuális erőforrások "
-"felett."
+msgstr "Ennek a felhasználónak már vannak jogosultságai az aktuális erőforrások felett."
 
 #: jacl2db_admin~acl2.see.rights.on.resources
 msgctxt "jacl2db_admin~acl2.see.rights.on.resources"
@@ -278,35 +263,27 @@ msgstr "A jogosultságok mentése megtörtént"
 #: jacl2db_admin~acl2.message.saveuserrights.error.noacl.yourself
 msgctxt "jacl2db_admin~acl2.message.saveuserrights.error.noacl.yourself"
 msgid "Changes cannot be applied else you won't be able to change some rights"
-msgstr ""
-"A módosítások nem végezhetők el, különben nem lesz joga bizonyos "
-"jogosultságok megváltoztatásához."
+msgstr "A módosítások nem végezhetők el, különben nem lesz joga bizonyos jogosultságok megváltoztatásához."
 
 #: jacl2db_admin~acl2.message.saveuserrights.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.saveuserrights.error.noacl.anybody"
 msgid ""
 "Changes cannot be applied else nobody won't be able to change some rights"
-msgstr ""
-"A módosítások nem végezhetők el, különben nem marad felhasználó a "
-"jogosultságok módosításához"
+msgstr "A módosítások nem végezhetők el, különben nem marad felhasználó a jogosultságok módosításához"
 
 #: jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.yourself
 msgctxt "jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.yourself"
 msgid ""
 "You cannot be removed from this group else you won't be able to change some "
 "rights"
-msgstr ""
-"Az aktuális felhasználó nem távolítható el a csoportból, különben nem lesz "
-"joga bizonyos jogosultságok megváltoztatásához."
+msgstr "Az aktuális felhasználó nem távolítható el a csoportból, különben nem lesz joga bizonyos jogosultságok megváltoztatásához."
 
 #: jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.anybody"
 msgid ""
 "The user cannot be removed from this group else nobody won't be able to "
 "change some rights"
-msgstr ""
-"Az aktuális felhasználó nem távolítható el a csoportból, különben nem marad "
-"felhasználó a jogosultságok módosításához"
+msgstr "Az aktuális felhasználó nem távolítható el a csoportból, különben nem marad felhasználó a jogosultságok módosításához"
 
 #: jacl2db_admin~acl2.col.personnal.rights
 msgctxt "jacl2db_admin~acl2.col.personnal.rights"
@@ -374,10 +351,7 @@ msgid ""
 "Warning! To remove this rights, you should use the interfaces provided by "
 "business modules corresponding to this rights. Use this page only if you "
 "know what you do!"
-msgstr ""
-"FIGYELMEZTETÉS! A jogosultságok eltávolításához használja a "
-"jogosultságkezelő modult. Csak akkor használja ezt az oldalt ha biztos a "
-"dolgában!"
+msgstr "FIGYELMEZTETÉS! A jogosultságok eltávolításához használja a jogosultságkezelő modult. Csak akkor használja ezt az oldalt ha biztos a dolgában!"
 
 #: jacl2db_admin~acl2.no.rightres
 msgctxt "jacl2db_admin~acl2.no.rightres"

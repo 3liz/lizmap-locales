@@ -1,16 +1,16 @@
-# Translators:
-# rldhont <rldhont@gmail.com>, 2019
-# Víctor Herreros <vherreros@ucm.es>, 2019
-# Arturo Lorenzo <shroomeater@gmail.com>, 2019
 # 
+# Translators:
+# Arturo Lorenzo <shroomeater@gmail.com>, 2019
+# rldhont <rldhont@gmail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.3rc1\n"
+"Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 15:10++0200\n"
-"PO-Revision-Date: 2019-05-27 13:12+0000\n"
-"Last-Translator: Arturo Lorenzo <shroomeater@gmail.com>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/3liz-1/teams/62012/es/)\n"
+"POT-Creation-Date: 2019-08-08 15:02++0200\n"
+"PO-Revision-Date: 2019-04-22 23:14+0000\n"
+"Last-Translator: Samuel Mesa <samuelmesa@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/3liz-1/lizmap-locales/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: jacl2db_admin~acl2.menu.item.groups
 msgctxt "jacl2db_admin~acl2.menu.item.groups"
 msgid "Groups of users for rights"
-msgstr "Grupos de usuarios para permisos"
+msgstr "Grupos de usuarios"
 
 #: jacl2db_admin~acl2.menu.item.rights
 msgctxt "jacl2db_admin~acl2.menu.item.rights"
@@ -135,27 +135,21 @@ msgstr "Permisos"
 #: jacl2db_admin~acl2.group.help.rights.inherit
 msgctxt "jacl2db_admin~acl2.group.help.rights.inherit"
 msgid "\"-\": undefined right, it can be defined in other groups of the user"
-msgstr ""
-"\"-\": indica que el permiso no está definido, el valor en otros grupos del "
-"usuario será prioritario"
+msgstr "\"-\": indica que el permiso no está definido, el valor en otros grupos del usuario será prioritario"
 
 #: jacl2db_admin~acl2.group.help.rights.yes
 msgctxt "jacl2db_admin~acl2.group.help.rights.yes"
 msgid ""
 "\"yes\": indicate that the right is set, but can be canceled (\"no\") in an "
 "other group"
-msgstr ""
-"\"sí\": indica que el grupo tiene este permiso, salvo si en otro grupo del "
-"usuario se indica \"no\""
+msgstr "\"sí\": indica que el grupo tiene este permiso, salvo si en otro grupo del usuario se indica \"no\""
 
 #: jacl2db_admin~acl2.group.help.rights.no
 msgctxt "jacl2db_admin~acl2.group.help.rights.no"
 msgid ""
 "\"no\": the right is not assign to this group, and to any other groups of "
 "the user."
-msgstr ""
-"\"no\": indica que el grupo no tiene este permiso, aunque otros grupos del "
-"usuario indiquen \"sí\"."
+msgstr "\"no\": indica que el grupo no tiene este permiso, aunque otros grupos del usuario indiquen \"sí\"."
 
 #: jacl2db_admin~acl2.global.rights
 msgctxt "jacl2db_admin~acl2.global.rights"
@@ -181,7 +175,7 @@ msgstr ""
 #: jacl2db_admin~acl2.message.group.rights.ok
 msgctxt "jacl2db_admin~acl2.message.group.rights.ok"
 msgid "Rights saved"
-msgstr "¡Permisos guardados con éxito!"
+msgstr "¡Permisos de grupos guardados con éxito!"
 
 #: jacl2db_admin~acl2.group.rightres.title
 msgctxt "jacl2db_admin~acl2.group.rightres.title"
@@ -359,10 +353,7 @@ msgid ""
 "Warning! To remove this rights, you should use the interfaces provided by "
 "business modules corresponding to this rights. Use this page only if you "
 "know what you do!"
-msgstr ""
-"¡Aviso! Para eliminar estos permisos, debería utilizar las interfaces "
-"suministradas por los módulos de negocio correspondientes a estos permisos. "
-"¡Utilice esta página sólo si sabe lo que hace!"
+msgstr "¡Aviso! Para eliminar estos permisos, debería utilizar las interfaces suministradas por los módulos de negocio correspondientes a estos permisos. ¡Utilice esta página sólo si sabe lo que hace!"
 
 #: jacl2db_admin~acl2.no.rightres
 msgctxt "jacl2db_admin~acl2.no.rightres"
