@@ -120,7 +120,7 @@ msgstr "Validado, aguarda nova validação de e-mail"
 #: jcommunity~account.form.status.valid.password.changed
 msgctxt "jcommunity~account.form.status.valid.password.changed"
 msgid "Validated, awaiting password reset"
-msgstr ""
+msgstr "Validado, aguarda redefinição da palavra-passe"
 
 #: jcommunity~account.form.keyactivate
 msgctxt "jcommunity~account.form.keyactivate"
@@ -148,6 +148,8 @@ msgid ""
 "An email will be send to the user, so the user could activate the account by"
 " giving a new password."
 msgstr ""
+"Será enviado um e-mail ao utilizador, para que o mesmo possa ativar a sua "
+"conta com uma nova palavra-passe."
 
 #: jcommunity~account.form.admin.create.emailsent
 msgctxt "jcommunity~account.form.admin.create.emailsent"
@@ -155,6 +157,8 @@ msgid ""
 "An email has been sent to the user, so he could activate its account by "
 "giving a new password"
 msgstr ""
+"Foi enviado um e-mail ao utilizador, para que o mesmo possa ativar a sua "
+"conta com uma nova palavra-passe"
 
 #: jcommunity~account.profile.of
 msgctxt "jcommunity~account.profile.of"
@@ -179,12 +183,12 @@ msgstr "Altere a sua palavra-passe"
 #: jcommunity~account.admin.link.account.reset.password
 msgctxt "jcommunity~account.admin.link.account.reset.password"
 msgid "Reset his password"
-msgstr ""
+msgstr "Redefinir a sua palavra-passe"
 
 #: jcommunity~account.admin.link.account.resent.validation.email
 msgctxt "jcommunity~account.admin.link.account.resent.validation.email"
 msgid "Resend the validation email"
-msgstr ""
+msgstr "Reenviar o e-mail de validação"
 
 #: jcommunity~account.form.edit.profile.title
 msgctxt "jcommunity~account.form.edit.profile.title"
@@ -259,7 +263,7 @@ msgstr "Voltar ao seu perfil"
 #: jcommunity~account.duration.day
 msgctxt "jcommunity~account.duration.day"
 msgid "day"
-msgstr ""
+msgstr "dia"
 
 #: jcommunity~account.duration.days
 msgctxt "jcommunity~account.duration.days"
@@ -269,7 +273,7 @@ msgstr "dias"
 #: jcommunity~account.duration.hour
 msgctxt "jcommunity~account.duration.hour"
 msgid "hour"
-msgstr ""
+msgstr "hora"
 
 #: jcommunity~account.duration.hours
 msgctxt "jcommunity~account.duration.hours"
@@ -279,7 +283,7 @@ msgstr "horas"
 #: jcommunity~account.duration.minute
 msgctxt "jcommunity~account.duration.minute"
 msgid "minute"
-msgstr ""
+msgstr "minuto"
 
 #: jcommunity~account.duration.minutes
 msgctxt "jcommunity~account.duration.minutes"
@@ -310,21 +314,23 @@ msgid ""
 "<p>An email will be send to the user, so the user could change his "
 "password.</p>"
 msgstr ""
+"<p>Será enviado um e-mail ao utilizador, para que o mesmo possa redefinir a "
+"sua palavra-passe.</p>"
 
 #: jcommunity~password.admin.form.back.to.account
 msgctxt "jcommunity~password.admin.form.back.to.account"
 msgid "Back to the account of"
-msgstr ""
+msgstr "Regressar à conta de"
 
 #: jcommunity~password.admin.form.email.button
 msgctxt "jcommunity~password.admin.form.email.button"
 msgid "Send the email to"
-msgstr ""
+msgstr "Enviar o e-mail para"
 
 #: jcommunity~password.admin.waiting.text.html
 msgctxt "jcommunity~password.admin.waiting.text.html"
 msgid "<p>An email has been sent to the user.</p>"
-msgstr ""
+msgstr "<p>Foi enviado um e-mail ao utilizador.</p>"
 
 #: jcommunity~password.form.submit
 msgctxt "jcommunity~password.form.submit"
@@ -341,6 +347,13 @@ msgid ""
 "allows you to change your password. This link is valid only 48 hours.</p> "
 "<p>The current password is still valid as long as you don't change it.</p>"
 msgstr ""
+"<p>Foi enviado um e-mail para o endereço fornecido. Se não encontrar o mesmo"
+" na sua caixa de entrada, verifique na pasta de spam. Se o e-mail não foi "
+"recebido, provavelmente o login e o endereço de e-mail fornecidos estejam "
+"incorretos. Entre em contacto com o administrador do istema.</p> <p>Este "
+"e-mail contém um link para uma página que permite redefinir a sua palavra-"
+"passe. Este link é válido por apenas 48 horas.</p> <p>A palavra-passe atual "
+"continua a ser válida enquanto não for redefinida.</p>"
 
 #: jcommunity~password.mail.pwd.change.subject
 msgctxt "jcommunity~password.mail.pwd.change.subject"
@@ -416,11 +429,12 @@ msgstr "A palavra-passe não corresponde com a palavra-passe atual"
 msgctxt "jcommunity~password.form.change.error.admin.badstatus"
 msgid "Password change is not allowed because of the account status."
 msgstr ""
+"A redefinição da palavra-passe não é permitida devido ao estado da conta."
 
 #: jcommunity~password.form.change.error.admin.badloginemail
 msgctxt "jcommunity~password.form.change.error.admin.badloginemail"
 msgid "The username or his email is unknown"
-msgstr ""
+msgstr "O utilizador ou ou o endereço de e-mail é desconhecido"
 
 #: jcommunity~password.form.change.reset.ok
 msgctxt "jcommunity~password.form.change.reset.ok"
@@ -435,7 +449,7 @@ msgstr "A nova palavra-passe está agora guardada."
 #: jcommunity~password.form.create.title
 msgctxt "jcommunity~password.form.create.title"
 msgid "Account creation"
-msgstr ""
+msgstr "Criação de conta"
 
 #: jcommunity~password.form.create.text.html
 msgctxt "jcommunity~password.form.create.text.html"
@@ -446,6 +460,7 @@ msgstr "<p>Indique a sua nova palavra-passe.</p>"
 msgctxt "jcommunity~password.form.create.error.alreadydone"
 msgid "Sorry, there is no request for a password creation."
 msgstr ""
+"Lamentamos, mas não existe qualquer pedido para criação de palavra-passe"
 
 #: jcommunity~password.form.create.error.badkey
 msgctxt "jcommunity~password.form.create.error.badkey"
@@ -453,6 +468,8 @@ msgid ""
 "Password creation is not possible: the username or the request key is not "
 "valid."
 msgstr ""
+"A criação de palavra-passe não é possível: o utilizador ou a chave "
+"solicitada não é válido."
 
 #: jcommunity~password.form.create.error.expiredkey
 msgctxt "jcommunity~password.form.create.error.expiredkey"
@@ -460,11 +477,14 @@ msgid ""
 "Password creation is not possible: the request has expired. Contact an "
 "administrator"
 msgstr ""
+"A criação de palavra-passe não é possível: o pedido expirou. Contacte o "
+"administrador"
 
 #: jcommunity~password.form.create.error.badstatus
 msgctxt "jcommunity~password.form.create.error.badstatus"
 msgid "Password creation is not allowed because of your account status."
 msgstr ""
+"A criação de palavra-passe não é permitida devido ao estado da sua conta."
 
 #: jcommunity~password.form.create.error.badloginemail
 msgctxt "jcommunity~password.form.create.error.badloginemail"
@@ -565,11 +585,13 @@ msgid ""
 "Activation is not possible: the request has expired. Ask the administrator "
 "of the web site to activate your account"
 msgstr ""
+"Não é possível a ativação: o pedido expirou. Solicite ao administrador do "
+"sitema a ativação da sua conta"
 
 #: jcommunity~register.admin.resend.email.title
 msgctxt "jcommunity~register.admin.resend.email.title"
 msgid "Account creation: resend the validation email"
-msgstr ""
+msgstr "Criação de conta: reenviar o e-mail de ativação"
 
 #: jcommunity~register.admin.resend.email.text.html
 msgctxt "jcommunity~register.admin.resend.email.text.html"
@@ -578,11 +600,14 @@ msgid ""
 "have a non-validated account. Use this feature when the user has informed "
 "you that the validation key he received has expired.</p>"
 msgstr ""
+"<p>Será enviado um e-mail com uma nova chave de validação para o utilizador "
+"'%s' o qual não possui uma conta validada. Utilize este recurso quando for "
+"informado que a chave de validação recebida expirou.</p>"
 
 #: jcommunity~register.admin.resend.email.done.text.html
 msgctxt "jcommunity~register.admin.resend.email.done.text.html"
 msgid "<p>The email has been sent to the user.</p>"
-msgstr ""
+msgstr "<p>O e-mail foi enviado para o utilizador.</p>"
 
 #: jcommunity~login.error.notlogged
 msgctxt "jcommunity~login.error.notlogged"
@@ -659,6 +684,8 @@ msgctxt "jcommunity~login.access.forbidden.badstatus"
 msgid ""
 "You cannot access to this page because the account has not the right status"
 msgstr ""
+"Não é possível aceder a esta página porque a sua conta não tem o estado "
+"adequado"
 
 #: jcommunity~login.startpage.connected
 msgctxt "jcommunity~login.startpage.connected"
@@ -727,6 +754,14 @@ msgid ""
 "\n"
 " <p>See you on {$domain_name}!</p>"
 msgstr ""
+"<p>Olá,</p>\n"
+"\n"
+" <p>Foi criado uma conta em <a href=\"{$website_uri}\" class=\"notexpandlink\">{$domain_name}</a>.</p>\n"
+"\n"
+" <p>Antes de utilizar a sua conta, deverá confirmar o seu registo através\n"
+" <a href=\"{$confirmation_link}\">de um clique neste link</a>. O link é válido {$validationKeyTTL}.</p>\n"
+"\n"
+" <p>Ativado em {$domain_name}!</p>"
 
 #: jcommunity~mail.registration.admin.body.html
 msgctxt "jcommunity~mail.registration.admin.body.html"
@@ -742,11 +777,21 @@ msgid ""
 "\n"
 " <p>See you on {$domain_name}!</p>"
 msgstr ""
+"<p>Olá,</p>\n"
+"\n"
+" <p>O administrador do site <a href=\"{$website_uri}\" class=\"notexpandlink\">{$domain_name}</a>\n"
+" criou uma conta para si, com o login <em>\"{$user->login}\"</em>.</p>\n"
+"\n"
+" <p>Antes de utilizar a sua conta, deverá confirmar o seu registo através\n"
+" <a href=\"{$confirmation_link}\">através de um clique neste link</a>, \n"
+" e de seguida indicar uma nova palavra-passe. O link é válido {$validationKeyTTL}.</p>\n"
+"\n"
+" <p>Ativado em {$domain_name}!</p>"
 
 #: jcommunity~mail.password.reset.subject
 msgctxt "jcommunity~mail.password.reset.subject"
 msgid "Reset of your password on the web site %s"
-msgstr ""
+msgstr "Redefina a sua palavra-passe no site %s"
 
 #: jcommunity~mail.password.reset.body.html
 msgctxt "jcommunity~mail.password.reset.body.html"
@@ -765,11 +810,24 @@ msgid ""
 "\n"
 " <p>See you now on {$domain_name}!</p>"
 msgstr ""
+"<p>Olá,</p>\n"
+"\n"
+" <p>Foi solicitada a redefinição da palavra-passe para a sua conta <em>\"{$user->login|eschtml}\"</em>\n"
+" no site <a href=\"{$website_uri}\" class=\"notexpandlink\">{$domain_name}</a>.</p>\n"
+"\n"
+" <p>Se realmente deseja efetuar a alteração, deverá clicar neste link</a>.</p>\n"
+"\n"
+" <p>Pode definir uma nova palavra-passe para a sua conta. O link é válido {$validationKeyTTL}.</p>\n"
+"\n"
+" <p>Se o pedido foi feito por engano ou não pretende confirmar, ignore este e-mail.\n"
+" A sua palavra-passe não será alterada.</p>\n"
+"\n"
+" <p>Ativado em {$domain_name}!</p>"
 
 #: jcommunity~mail.password.admin.reset.subject
 msgctxt "jcommunity~mail.password.admin.reset.subject"
 msgid "Reset of your password on the web site %s"
-msgstr ""
+msgstr "Redefina a sua palavra-passe no site %s"
 
 #: jcommunity~mail.password.admin.reset.body.html
 msgctxt "jcommunity~mail.password.admin.reset.body.html"
@@ -788,3 +846,16 @@ msgid ""
 "\n"
 " <p>See you on {$domain_name}!</p>"
 msgstr ""
+"<p>Olá,</p>\n"
+"\n"
+" <p>O administrador do site <a href=\"{$website_uri}\" class=\"notexpandlink\">{$domain_name}</a>\n"
+" enviou-lhe este e-mail para que possa alterar a sua palavra-passe da conta <em>\"{$user->login}\"</em>.</p>\n"
+"\n"
+" <p>Se pretender confirmar a alteração, deverá <a href=\"{$confirmation_link}\">clicar neste link</a>.</p>\n"
+"\n"
+" <p>Deverá definir de novo a palavra-passe para a sua conta. O link é válido {$validationKeyTTL}.</p>\n"
+"\n"
+" <p>Se o pedido foi feito por engano ou não pretende confirmar, ignore este e-mail,\n"
+" e a sua palavra-passe não será alterada.</p>\n"
+"\n"
+" <p>Ativado em {$domain_name}!</p>"
