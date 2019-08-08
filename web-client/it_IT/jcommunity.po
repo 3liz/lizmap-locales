@@ -5,9 +5,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jcommunity 3.2.2\n"
+"Project-Id-Version: Lizmap Web Client jcommunity 3.2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"POT-Creation-Date: 2019-05-27 14:48++0200\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: Roberto Marzocchi <roberto.marzocchi@gter.it>, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/3liz-1/teams/62012/it/)\n"
@@ -17,198 +17,29 @@ msgstr ""
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: jcommunity~login.error.notlogged
-msgctxt "jcommunity~login.error.notlogged"
-msgid "You are not connected, you should sign in."
+#: jcommunity~prefs.group.jcommunity
+msgctxt "jcommunity~prefs.group.jcommunity"
+msgid "jCommunity"
+msgstr "jCommunity"
+
+#: jcommunity~prefs.pref.registrationEnabled
+msgctxt "jcommunity~prefs.pref.registrationEnabled"
+msgid "An unknown user can create a new account"
+msgstr "Un utente sconosciuto può creare un account"
+
+#: jcommunity~prefs.pref.resetPasswordEnabled
+msgctxt "jcommunity~prefs.pref.resetPasswordEnabled"
+msgid "A user can reset password when he forget it"
 msgstr ""
 
-#: jcommunity~login.error.no.after_login
-msgctxt "jcommunity~login.error.no.after_login"
-msgid "In the configuration of the plugin 'auth', after_login is empty"
-msgstr ""
+#: jcommunity~prefs.jcommunity.admin
+msgctxt "jcommunity~prefs.jcommunity.admin"
+msgid "jCommunity"
+msgstr "jCommunity"
 
-#: jcommunity~login.error.no.after_logout
-msgctxt "jcommunity~login.error.no.after_logout"
-msgid "In the configuration of the plugin 'auth', after_logout is empty"
-msgstr ""
-
-#: jcommunity~login.form.remember.me
-msgctxt "jcommunity~login.form.remember.me"
-msgid "Remember me"
-msgstr "Ricordami"
-
-#: jcommunity~login.form.submit
-msgctxt "jcommunity~login.form.submit"
-msgid "Sign in"
-msgstr "Accedi"
-
-#: jcommunity~login.error
-msgctxt "jcommunity~login.error"
-msgid "Unknown username or wrong password"
-msgstr "Utente sconosciuto o password errata"
-
-#: jcommunity~login.login.title
-msgctxt "jcommunity~login.login.title"
-msgid "Sign in"
-msgstr "Accedi"
-
-#: jcommunity~login.logout
-msgctxt "jcommunity~login.logout"
-msgid "Sign out"
-msgstr ""
-
-#: jcommunity~login.login.account
-msgctxt "jcommunity~login.login.account"
-msgid "Your account"
-msgstr "Il tuo account"
-
-#: jcommunity~login.login.password.reset
-msgctxt "jcommunity~login.login.password.reset"
-msgid "I forgot my password"
-msgstr "Ho dimenticato la password"
-
-#: jcommunity~login.access.title
-msgctxt "jcommunity~login.access.title"
-msgid "Page access"
-msgstr ""
-
-#: jcommunity~login.access.forbidden.authenticated
-msgctxt "jcommunity~login.access.forbidden.authenticated"
-msgid "You cannot access to this page because your are connected."
-msgstr ""
-
-#: jcommunity~login.access.forbidden.wrong.user
-msgctxt "jcommunity~login.access.forbidden.wrong.user"
-msgid "You cannot access to this page belonging to another user."
-msgstr ""
-
-#: jcommunity~login.access.not.available
-msgctxt "jcommunity~login.access.not.available"
-msgid "Page not available"
-msgstr "Pagina non disponibile"
-
-#: jcommunity~login.startpage.connected
-msgctxt "jcommunity~login.startpage.connected"
-msgid "You are connected."
-msgstr "Sei connesso"
-
-#: jcommunity~login.startpage.not.connected
-msgctxt "jcommunity~login.startpage.not.connected"
-msgid "You are not connected."
-msgstr "Non sei connesso"
-
-#: jcommunity~login.startpage.youcan
-msgctxt "jcommunity~login.startpage.youcan"
-msgid "You can:"
-msgstr "Puoi:"
-
-#: jcommunity~login.startpage.account.view
-msgctxt "jcommunity~login.startpage.account.view"
-msgid "View your profile"
-msgstr "Visualizza il tuo profilo"
-
-#: jcommunity~login.startpage.account.create
-msgctxt "jcommunity~login.startpage.account.create"
-msgid "Create an account"
-msgstr "Creare un account"
-
-#: jcommunity~login.startpage.logout
-msgctxt "jcommunity~login.startpage.logout"
-msgid "Sign out"
-msgstr ""
-
-#: jcommunity~login.startpage.login
-msgctxt "jcommunity~login.startpage.login"
-msgid "Sign in"
-msgstr "Accedi"
-
-#: jcommunity~login.startpage.password.reset
-msgctxt "jcommunity~login.startpage.password.reset"
-msgid "Reset your password"
-msgstr "Password reset"
-
-#: jcommunity~login.back.to.login
-msgctxt "jcommunity~login.back.to.login"
-msgid "Back to the login form"
-msgstr "Ritorna al modulo di login"
-
-#: jcommunity~login.cancel.and.back.to.login
-msgctxt "jcommunity~login.cancel.and.back.to.login"
-msgid "Cancel and return to the login form"
-msgstr "Annulla e ritorna al modulo di login"
-
-#: jcommunity~register.registration.title
-msgctxt "jcommunity~register.registration.title"
-msgid "Registration"
-msgstr "Registrazione"
-
-#: jcommunity~register.form.create.title
-msgctxt "jcommunity~register.form.create.title"
-msgid "Create an account"
-msgstr "Creare un account"
-
-#: jcommunity~register.form.create.text.html
-msgctxt "jcommunity~register.form.create.text.html"
-msgid ""
-"<p>Register yourself by filling the following form.</p> <p>An email will be "
-"sent to you with a link to confirm your registration. You could then "
-"identified yourself on the web site.</p>"
-msgstr ""
-
-#: jcommunity~register.form.create.submit
-msgctxt "jcommunity~register.form.create.submit"
-msgid "Create the account"
-msgstr "Crea l'account"
-
-#: jcommunity~register.mail.new.subject
-msgctxt "jcommunity~register.mail.new.subject"
-msgid "Activating your account on the web site %s"
-msgstr ""
-
-#: jcommunity~register.form.login.exists
-msgctxt "jcommunity~register.form.login.exists"
-msgid "This username already exists"
-msgstr "Questo nome utente esiste già"
-
-#: jcommunity~register.registration.waiting.title
-msgctxt "jcommunity~register.registration.waiting.title"
-msgid "Registration"
-msgstr "Registrazione"
-
-#: jcommunity~register.registration.waiting.text.html
-msgctxt "jcommunity~register.registration.waiting.text.html"
-msgid ""
-"<p>Your account is created, but before using it, we have to verify your "
-"email.</p> <p>In order to verify your email, we just have sent you an email "
-"containing a link on which you must click. Verify your spam folder if you "
-"don't see this email in your inbox.</p>"
-msgstr ""
-
-#: jcommunity~register.registration.confirm.title
-msgctxt "jcommunity~register.registration.confirm.title"
-msgid "Activation of your account"
-msgstr "Attivazione del tuo account"
-
-#: jcommunity~register.registration.confirm.alreadydone
-msgctxt "jcommunity~register.registration.confirm.alreadydone"
-msgid ""
-"Your account is already activated. You can identify yourself on the web "
-"site."
-msgstr ""
-
-#: jcommunity~register.registration.confirm.ok
-msgctxt "jcommunity~register.registration.confirm.ok"
-msgid "Your account is activated. You can identify yourself on the web site."
-msgstr ""
-
-#: jcommunity~register.registration.confirm.badkey
-msgctxt "jcommunity~register.registration.confirm.badkey"
-msgid "Activation is not possible: the key or the username is invalid."
-msgstr ""
-
-#: jcommunity~register.registration.confirm.badstatus
-msgctxt "jcommunity~register.registration.confirm.badstatus"
-msgid "Activation is not possible: your account is not a new one."
+#: jcommunity~prefs.admin.prefs.change
+msgctxt "jcommunity~prefs.admin.prefs.change"
+msgid "Modify preferences of jCommunity"
 msgstr ""
 
 #: jcommunity~account.unknown.user
@@ -398,31 +229,6 @@ msgctxt "jcommunity~account.back.to.account"
 msgid "Back to your profile"
 msgstr "Torna al tuo profilo"
 
-#: jcommunity~prefs.group.jcommunity
-msgctxt "jcommunity~prefs.group.jcommunity"
-msgid "jCommunity"
-msgstr "jCommunity"
-
-#: jcommunity~prefs.pref.registrationEnabled
-msgctxt "jcommunity~prefs.pref.registrationEnabled"
-msgid "An unknown user can create a new account"
-msgstr "Un utente sconosciuto può creare un account"
-
-#: jcommunity~prefs.pref.resetPasswordEnabled
-msgctxt "jcommunity~prefs.pref.resetPasswordEnabled"
-msgid "A user can reset password when he forget it"
-msgstr ""
-
-#: jcommunity~prefs.jcommunity.admin
-msgctxt "jcommunity~prefs.jcommunity.admin"
-msgid "jCommunity"
-msgstr "jCommunity"
-
-#: jcommunity~prefs.admin.prefs.change
-msgctxt "jcommunity~prefs.admin.prefs.change"
-msgid "Modify preferences of jCommunity"
-msgstr ""
-
 #: jcommunity~password.form.title
 msgctxt "jcommunity~password.form.title"
 msgid "Resetting the password"
@@ -538,3 +344,197 @@ msgstr "La nuova password è ora registrata. Puoi accedere adesso."
 msgctxt "jcommunity~password.form.change.ok"
 msgid "The new password is now saved."
 msgstr "La nuova password è ora registrata."
+
+#: jcommunity~register.registration.title
+msgctxt "jcommunity~register.registration.title"
+msgid "Registration"
+msgstr "Registrazione"
+
+#: jcommunity~register.form.create.title
+msgctxt "jcommunity~register.form.create.title"
+msgid "Create an account"
+msgstr "Creare un account"
+
+#: jcommunity~register.form.create.text.html
+msgctxt "jcommunity~register.form.create.text.html"
+msgid ""
+"<p>Register yourself by filling the following form.</p> <p>An email will be "
+"sent to you with a link to confirm your registration. You could then "
+"identified yourself on the web site.</p>"
+msgstr ""
+
+#: jcommunity~register.form.create.submit
+msgctxt "jcommunity~register.form.create.submit"
+msgid "Create the account"
+msgstr "Crea l'account"
+
+#: jcommunity~register.mail.new.subject
+msgctxt "jcommunity~register.mail.new.subject"
+msgid "Activating your account on the web site %s"
+msgstr ""
+
+#: jcommunity~register.form.login.exists
+msgctxt "jcommunity~register.form.login.exists"
+msgid "This username already exists"
+msgstr "Questo nome utente esiste già"
+
+#: jcommunity~register.registration.waiting.title
+msgctxt "jcommunity~register.registration.waiting.title"
+msgid "Registration"
+msgstr "Registrazione"
+
+#: jcommunity~register.registration.waiting.text.html
+msgctxt "jcommunity~register.registration.waiting.text.html"
+msgid ""
+"<p>Your account is created, but before using it, we have to verify your "
+"email.</p> <p>In order to verify your email, we just have sent you an email "
+"containing a link on which you must click. Verify your spam folder if you "
+"don't see this email in your inbox.</p>"
+msgstr ""
+
+#: jcommunity~register.registration.confirm.title
+msgctxt "jcommunity~register.registration.confirm.title"
+msgid "Activation of your account"
+msgstr "Attivazione del tuo account"
+
+#: jcommunity~register.registration.confirm.alreadydone
+msgctxt "jcommunity~register.registration.confirm.alreadydone"
+msgid ""
+"Your account is already activated. You can identify yourself on the web "
+"site."
+msgstr ""
+
+#: jcommunity~register.registration.confirm.ok
+msgctxt "jcommunity~register.registration.confirm.ok"
+msgid "Your account is activated. You can identify yourself on the web site."
+msgstr ""
+
+#: jcommunity~register.registration.confirm.badkey
+msgctxt "jcommunity~register.registration.confirm.badkey"
+msgid "Activation is not possible: the key or the username is invalid."
+msgstr ""
+
+#: jcommunity~register.registration.confirm.badstatus
+msgctxt "jcommunity~register.registration.confirm.badstatus"
+msgid "Activation is not possible: your account is not a new one."
+msgstr ""
+
+#: jcommunity~login.error.notlogged
+msgctxt "jcommunity~login.error.notlogged"
+msgid "You are not connected, you should sign in."
+msgstr ""
+
+#: jcommunity~login.error.no.after_login
+msgctxt "jcommunity~login.error.no.after_login"
+msgid "In the configuration of the plugin 'auth', after_login is empty"
+msgstr ""
+
+#: jcommunity~login.error.no.after_logout
+msgctxt "jcommunity~login.error.no.after_logout"
+msgid "In the configuration of the plugin 'auth', after_logout is empty"
+msgstr ""
+
+#: jcommunity~login.form.remember.me
+msgctxt "jcommunity~login.form.remember.me"
+msgid "Remember me"
+msgstr "Ricordami"
+
+#: jcommunity~login.form.submit
+msgctxt "jcommunity~login.form.submit"
+msgid "Sign in"
+msgstr "Accedi"
+
+#: jcommunity~login.error
+msgctxt "jcommunity~login.error"
+msgid "Unknown username or wrong password"
+msgstr "Utente sconosciuto o password errata"
+
+#: jcommunity~login.login.title
+msgctxt "jcommunity~login.login.title"
+msgid "Sign in"
+msgstr "Accedi"
+
+#: jcommunity~login.logout
+msgctxt "jcommunity~login.logout"
+msgid "Sign out"
+msgstr ""
+
+#: jcommunity~login.login.account
+msgctxt "jcommunity~login.login.account"
+msgid "Your account"
+msgstr "Il tuo account"
+
+#: jcommunity~login.login.password.reset
+msgctxt "jcommunity~login.login.password.reset"
+msgid "I forgot my password"
+msgstr "Ho dimenticato la password"
+
+#: jcommunity~login.access.title
+msgctxt "jcommunity~login.access.title"
+msgid "Page access"
+msgstr ""
+
+#: jcommunity~login.access.forbidden.authenticated
+msgctxt "jcommunity~login.access.forbidden.authenticated"
+msgid "You cannot access to this page because your are connected."
+msgstr ""
+
+#: jcommunity~login.access.forbidden.wrong.user
+msgctxt "jcommunity~login.access.forbidden.wrong.user"
+msgid "You cannot access to this page belonging to another user."
+msgstr ""
+
+#: jcommunity~login.access.not.available
+msgctxt "jcommunity~login.access.not.available"
+msgid "Page not available"
+msgstr "Pagina non disponibile"
+
+#: jcommunity~login.startpage.connected
+msgctxt "jcommunity~login.startpage.connected"
+msgid "You are connected."
+msgstr "Sei connesso"
+
+#: jcommunity~login.startpage.not.connected
+msgctxt "jcommunity~login.startpage.not.connected"
+msgid "You are not connected."
+msgstr "Non sei connesso"
+
+#: jcommunity~login.startpage.youcan
+msgctxt "jcommunity~login.startpage.youcan"
+msgid "You can:"
+msgstr "Puoi:"
+
+#: jcommunity~login.startpage.account.view
+msgctxt "jcommunity~login.startpage.account.view"
+msgid "View your profile"
+msgstr "Visualizza il tuo profilo"
+
+#: jcommunity~login.startpage.account.create
+msgctxt "jcommunity~login.startpage.account.create"
+msgid "Create an account"
+msgstr "Creare un account"
+
+#: jcommunity~login.startpage.logout
+msgctxt "jcommunity~login.startpage.logout"
+msgid "Sign out"
+msgstr ""
+
+#: jcommunity~login.startpage.login
+msgctxt "jcommunity~login.startpage.login"
+msgid "Sign in"
+msgstr "Accedi"
+
+#: jcommunity~login.startpage.password.reset
+msgctxt "jcommunity~login.startpage.password.reset"
+msgid "Reset your password"
+msgstr "Password reset"
+
+#: jcommunity~login.back.to.login
+msgctxt "jcommunity~login.back.to.login"
+msgid "Back to the login form"
+msgstr "Ritorna al modulo di login"
+
+#: jcommunity~login.cancel.and.back.to.login
+msgctxt "jcommunity~login.cancel.and.back.to.login"
+msgid "Cancel and return to the login form"
+msgstr "Annulla e ritorna al modulo di login"

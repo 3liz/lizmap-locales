@@ -3,9 +3,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jauthdb_admin 3.2.2\n"
+"Project-Id-Version: Lizmap Web Client jauthdb_admin 3.2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"POT-Creation-Date: 2019-05-27 14:48++0200\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>, 2019\n"
 "Language-Team: Greek (https://www.transifex.com/3liz-1/teams/62012/el/)\n"
@@ -14,6 +14,128 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: jauthdb_admin~auth.adminmenu.item.list
+msgctxt "jauthdb_admin~auth.adminmenu.item.list"
+msgid "Users"
+msgstr "Χρήστες"
+
+#: jauthdb_admin~user.title.update
+msgctxt "jauthdb_admin~user.title.update"
+msgid "Edit your profile"
+msgstr ""
+
+#: jauthdb_admin~user.title.view
+msgctxt "jauthdb_admin~user.title.view"
+msgid "Details of your profile"
+msgstr ""
+
+#: jauthdb_admin~user.title.password
+msgctxt "jauthdb_admin~user.title.password"
+msgid "Change your password"
+msgstr "Αλλαγή του κωδικού"
+
+#: jauthdb_admin~user.link.return.to.view
+msgctxt "jauthdb_admin~user.link.return.to.view"
+msgid "Return to your profile summary"
+msgstr ""
+
+#: jauthdb_admin~user.link.view.record
+msgctxt "jauthdb_admin~user.link.view.record"
+msgid "View"
+msgstr "Προβολή"
+
+#: jauthdb_admin~user.link.edit.record
+msgctxt "jauthdb_admin~user.link.edit.record"
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: jauthdb_admin~user.link.change.password
+msgctxt "jauthdb_admin~user.link.change.password"
+msgid "Change your password"
+msgstr "Αλλαγή του κωδικού"
+
+#: jauthdb_admin~user.confirm
+msgctxt "jauthdb_admin~user.confirm"
+msgid "Confirm"
+msgstr "Επιβεβαιώστε"
+
+#: jauthdb_admin~user.confirmation
+msgctxt "jauthdb_admin~user.confirmation"
+msgid "Confirmation"
+msgstr "Επιβεβαιώση"
+
+#: jauthdb_admin~user.message.update.ok
+msgctxt "jauthdb_admin~user.message.update.ok"
+msgid "Your profile has been updated."
+msgstr "Ενημερώθηκε το προφίλ σας"
+
+#: jauthdb_admin~user.message.change.password.ok
+msgctxt "jauthdb_admin~user.message.change.password.ok"
+msgid "Your password has been changed."
+msgstr "Έγινε η αλλαγή του κωδικού σας ."
+
+#: jauthdb_admin~user.message.change.password.notok
+msgctxt "jauthdb_admin~user.message.change.password.notok"
+msgid "Error during the change of the password"
+msgstr "Η αλλαγή του κωδικού απέτυχε."
+
+#: jauthdb_admin~user.message.bad.password
+msgctxt "jauthdb_admin~user.message.bad.password"
+msgid ""
+"The password is bad, or the second password does not correspond to the first"
+" one"
+msgstr "Δεν είναι έγκυρος ο κωδικός ή ο κωδικός είναι λάθος."
+
+#: jauthdb_admin~user.list.col.login
+msgctxt "jauthdb_admin~user.list.col.login"
+msgid "Login"
+msgstr "Αναγνωριστικός αριθμός"
+
+#: jauthdb_admin~user.form.login
+msgctxt "jauthdb_admin~user.form.login"
+msgid "Login"
+msgstr "Αναγνωριστικός αριθμός"
+
+#: jauthdb_admin~user.form.email
+msgctxt "jauthdb_admin~user.form.email"
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: jauthdb_admin~user.form.password
+msgctxt "jauthdb_admin~user.form.password"
+msgid "Password"
+msgstr "Κωδικός"
+
+#: jauthdb_admin~user.form.password.confirm
+msgctxt "jauthdb_admin~user.form.password.confirm"
+msgid "Re-type the password"
+msgstr "Γράψτε ξανά το κωδικός"
+
+#: jauthdb_admin~user.form.submit
+msgctxt "jauthdb_admin~user.form.submit"
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: jauthdb_admin~user.form.random.password
+msgctxt "jauthdb_admin~user.form.random.password"
+msgid "Example of a password:"
+msgstr "Πρόταση για νέος κωδικός :"
+
+#: jauthdb_admin~user.form.new.password
+msgctxt "jauthdb_admin~user.form.new.password"
+msgid "Type the new password"
+msgstr "Σημειώστε το νέο σας κωδικός"
+
+#: jauthdb_admin~user.view.otherinfo
+msgctxt "jauthdb_admin~user.view.otherinfo"
+msgid "Other informations"
+msgstr "Άλλες πληροφορίες"
+
+#: jauthdb_admin~user.view.primaryinfo
+msgctxt "jauthdb_admin~user.view.primaryinfo"
+msgid "Information on your profile"
+msgstr ""
 
 #: jauthdb_admin~crud.title.list
 msgctxt "jauthdb_admin~crud.title.list"
@@ -206,125 +328,3 @@ msgstr "Άλλες πληροφορίες"
 msgctxt "jauthdb_admin~crud.view.primaryinfo"
 msgid "Information on the user"
 msgstr "Πληροφορία για το χρήστη"
-
-#: jauthdb_admin~user.title.update
-msgctxt "jauthdb_admin~user.title.update"
-msgid "Edit your profile"
-msgstr ""
-
-#: jauthdb_admin~user.title.view
-msgctxt "jauthdb_admin~user.title.view"
-msgid "Details of your profile"
-msgstr ""
-
-#: jauthdb_admin~user.title.password
-msgctxt "jauthdb_admin~user.title.password"
-msgid "Change your password"
-msgstr "Αλλαγή του κωδικού"
-
-#: jauthdb_admin~user.link.return.to.view
-msgctxt "jauthdb_admin~user.link.return.to.view"
-msgid "Return to your profile summary"
-msgstr ""
-
-#: jauthdb_admin~user.link.view.record
-msgctxt "jauthdb_admin~user.link.view.record"
-msgid "View"
-msgstr "Προβολή"
-
-#: jauthdb_admin~user.link.edit.record
-msgctxt "jauthdb_admin~user.link.edit.record"
-msgid "Edit"
-msgstr "Επεξεργασία"
-
-#: jauthdb_admin~user.link.change.password
-msgctxt "jauthdb_admin~user.link.change.password"
-msgid "Change your password"
-msgstr "Αλλαγή του κωδικού"
-
-#: jauthdb_admin~user.confirm
-msgctxt "jauthdb_admin~user.confirm"
-msgid "Confirm"
-msgstr "Επιβεβαιώστε"
-
-#: jauthdb_admin~user.confirmation
-msgctxt "jauthdb_admin~user.confirmation"
-msgid "Confirmation"
-msgstr "Επιβεβαιώση"
-
-#: jauthdb_admin~user.message.update.ok
-msgctxt "jauthdb_admin~user.message.update.ok"
-msgid "Your profile has been updated."
-msgstr "Ενημερώθηκε το προφίλ σας"
-
-#: jauthdb_admin~user.message.change.password.ok
-msgctxt "jauthdb_admin~user.message.change.password.ok"
-msgid "Your password has been changed."
-msgstr "Έγινε η αλλαγή του κωδικού σας ."
-
-#: jauthdb_admin~user.message.change.password.notok
-msgctxt "jauthdb_admin~user.message.change.password.notok"
-msgid "Error during the change of the password"
-msgstr "Η αλλαγή του κωδικού απέτυχε."
-
-#: jauthdb_admin~user.message.bad.password
-msgctxt "jauthdb_admin~user.message.bad.password"
-msgid ""
-"The password is bad, or the second password does not correspond to the first"
-" one"
-msgstr "Δεν είναι έγκυρος ο κωδικός ή ο κωδικός είναι λάθος."
-
-#: jauthdb_admin~user.list.col.login
-msgctxt "jauthdb_admin~user.list.col.login"
-msgid "Login"
-msgstr "Αναγνωριστικός αριθμός"
-
-#: jauthdb_admin~user.form.login
-msgctxt "jauthdb_admin~user.form.login"
-msgid "Login"
-msgstr "Αναγνωριστικός αριθμός"
-
-#: jauthdb_admin~user.form.email
-msgctxt "jauthdb_admin~user.form.email"
-msgid "E-Mail"
-msgstr "E-mail"
-
-#: jauthdb_admin~user.form.password
-msgctxt "jauthdb_admin~user.form.password"
-msgid "Password"
-msgstr "Κωδικός"
-
-#: jauthdb_admin~user.form.password.confirm
-msgctxt "jauthdb_admin~user.form.password.confirm"
-msgid "Re-type the password"
-msgstr "Γράψτε ξανά το κωδικός"
-
-#: jauthdb_admin~user.form.submit
-msgctxt "jauthdb_admin~user.form.submit"
-msgid "Save"
-msgstr "Αποθήκευση"
-
-#: jauthdb_admin~user.form.random.password
-msgctxt "jauthdb_admin~user.form.random.password"
-msgid "Example of a password:"
-msgstr "Πρόταση για νέος κωδικός :"
-
-#: jauthdb_admin~user.form.new.password
-msgctxt "jauthdb_admin~user.form.new.password"
-msgid "Type the new password"
-msgstr "Σημειώστε το νέο σας κωδικός"
-
-#: jauthdb_admin~user.view.otherinfo
-msgctxt "jauthdb_admin~user.view.otherinfo"
-msgid "Other informations"
-msgstr "Άλλες πληροφορίες"
-
-#: jauthdb_admin~user.view.primaryinfo
-msgctxt "jauthdb_admin~user.view.primaryinfo"
-msgid "Information on your profile"
-msgstr ""
-
-#: jauthdb_admin~auth.adminmenu.item.list
-msgctxt "jauthdb_admin~auth.adminmenu.item.list"
-msgid "Users"
-msgstr "Χρήστες"

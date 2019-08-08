@@ -3,9 +3,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jcommunity 3.2.2\n"
+"Project-Id-Version: Lizmap Web Client jcommunity 3.2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"POT-Creation-Date: 2019-05-27 14:48++0200\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2019\n"
 "Language-Team: Hungarian (Hungary) (https://www.transifex.com/3liz-1/teams/62012/hu_HU/)\n"
@@ -15,209 +15,30 @@ msgstr ""
 "Language: hu_HU\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: jcommunity~login.error.notlogged
-msgctxt "jcommunity~login.error.notlogged"
-msgid "You are not connected, you should sign in."
-msgstr "Még nem azonosította magát, kérem lépjen be."
+#: jcommunity~prefs.group.jcommunity
+msgctxt "jcommunity~prefs.group.jcommunity"
+msgid "jCommunity"
+msgstr "jCommunity"
 
-#: jcommunity~login.error.no.after_login
-msgctxt "jcommunity~login.error.no.after_login"
-msgid "In the configuration of the plugin 'auth', after_login is empty"
-msgstr "Az 'auth' plugin beállításaiban, az after_login érték nincs megadva"
+#: jcommunity~prefs.pref.registrationEnabled
+msgctxt "jcommunity~prefs.pref.registrationEnabled"
+msgid "An unknown user can create a new account"
+msgstr "Ismeretlen felhasználó létrehozhat új fiókot"
 
-#: jcommunity~login.error.no.after_logout
-msgctxt "jcommunity~login.error.no.after_logout"
-msgid "In the configuration of the plugin 'auth', after_logout is empty"
-msgstr "Az 'auth' plugin beállításaiban, az after_logout érték nincs megadva"
+#: jcommunity~prefs.pref.resetPasswordEnabled
+msgctxt "jcommunity~prefs.pref.resetPasswordEnabled"
+msgid "A user can reset password when he forget it"
+msgstr "A felhasználó visszaállíthatja saját jelszavát"
 
-#: jcommunity~login.form.remember.me
-msgctxt "jcommunity~login.form.remember.me"
-msgid "Remember me"
-msgstr "Emlékezzen rám"
+#: jcommunity~prefs.jcommunity.admin
+msgctxt "jcommunity~prefs.jcommunity.admin"
+msgid "jCommunity"
+msgstr "jCommunity"
 
-#: jcommunity~login.form.submit
-msgctxt "jcommunity~login.form.submit"
-msgid "Sign in"
-msgstr "Belépés"
-
-#: jcommunity~login.error
-msgctxt "jcommunity~login.error"
-msgid "Unknown username or wrong password"
-msgstr "Ismeretlen felhasználónév vagy rossz jelszó"
-
-#: jcommunity~login.login.title
-msgctxt "jcommunity~login.login.title"
-msgid "Sign in"
-msgstr "Belépés"
-
-#: jcommunity~login.logout
-msgctxt "jcommunity~login.logout"
-msgid "Sign out"
-msgstr "Kilépés"
-
-#: jcommunity~login.login.account
-msgctxt "jcommunity~login.login.account"
-msgid "Your account"
-msgstr "Saját felhasználói fiók"
-
-#: jcommunity~login.login.password.reset
-msgctxt "jcommunity~login.login.password.reset"
-msgid "I forgot my password"
-msgstr "Elfelejtett jelszó"
-
-#: jcommunity~login.access.title
-msgctxt "jcommunity~login.access.title"
-msgid "Page access"
-msgstr "Oldal-hozzáférés"
-
-#: jcommunity~login.access.forbidden.authenticated
-msgctxt "jcommunity~login.access.forbidden.authenticated"
-msgid "You cannot access to this page because your are connected."
-msgstr "Hozzáférés megtagadva, ön már felcsatlakozott."
-
-#: jcommunity~login.access.forbidden.wrong.user
-msgctxt "jcommunity~login.access.forbidden.wrong.user"
-msgid "You cannot access to this page belonging to another user."
-msgstr "Hozzáférés megtagadva, ez egy másik felhasználó oldala."
-
-#: jcommunity~login.access.not.available
-msgctxt "jcommunity~login.access.not.available"
-msgid "Page not available"
-msgstr "Az oldal nem érhető el"
-
-#: jcommunity~login.startpage.connected
-msgctxt "jcommunity~login.startpage.connected"
-msgid "You are connected."
-msgstr "Csatlakozott."
-
-#: jcommunity~login.startpage.not.connected
-msgctxt "jcommunity~login.startpage.not.connected"
-msgid "You are not connected."
-msgstr "Nincs csatlakozva."
-
-#: jcommunity~login.startpage.youcan
-msgctxt "jcommunity~login.startpage.youcan"
-msgid "You can:"
-msgstr "Lehetősége van:"
-
-#: jcommunity~login.startpage.account.view
-msgctxt "jcommunity~login.startpage.account.view"
-msgid "View your profile"
-msgstr "Saját felhasználói fiók megtekintése"
-
-#: jcommunity~login.startpage.account.create
-msgctxt "jcommunity~login.startpage.account.create"
-msgid "Create an account"
-msgstr "Új felhasználói fiók létrehozása"
-
-#: jcommunity~login.startpage.logout
-msgctxt "jcommunity~login.startpage.logout"
-msgid "Sign out"
-msgstr "Kilépés"
-
-#: jcommunity~login.startpage.login
-msgctxt "jcommunity~login.startpage.login"
-msgid "Sign in"
-msgstr "Belépés"
-
-#: jcommunity~login.startpage.password.reset
-msgctxt "jcommunity~login.startpage.password.reset"
-msgid "Reset your password"
-msgstr "Jelszó visszaállítása"
-
-#: jcommunity~login.back.to.login
-msgctxt "jcommunity~login.back.to.login"
-msgid "Back to the login form"
-msgstr "Vissza a bejelentkezési oldalra"
-
-#: jcommunity~login.cancel.and.back.to.login
-msgctxt "jcommunity~login.cancel.and.back.to.login"
-msgid "Cancel and return to the login form"
-msgstr "Módosítások elvetése és vissza a bejelentkezési oldalra"
-
-#: jcommunity~register.registration.title
-msgctxt "jcommunity~register.registration.title"
-msgid "Registration"
-msgstr "Regisztráció"
-
-#: jcommunity~register.form.create.title
-msgctxt "jcommunity~register.form.create.title"
-msgid "Create an account"
-msgstr "Új felhasználói fiók létrehozása"
-
-#: jcommunity~register.form.create.text.html
-msgctxt "jcommunity~register.form.create.text.html"
-msgid ""
-"<p>Register yourself by filling the following form.</p> <p>An email will be "
-"sent to you with a link to confirm your registration. You could then "
-"identified yourself on the web site.</p>"
-msgstr ""
-"<p>Végezze el a regisztrációt az adatlap kitöltésével.</p> <p>Egy e-mailt "
-"küldünk amely a regisztrációt megerősítésére használt linket tartalmazza. "
-"Ezek után tudja majd azonosítani magát a weboldalon.</p>"
-
-#: jcommunity~register.form.create.submit
-msgctxt "jcommunity~register.form.create.submit"
-msgid "Create the account"
-msgstr "A felhasználói fiók létrehozása"
-
-#: jcommunity~register.mail.new.subject
-msgctxt "jcommunity~register.mail.new.subject"
-msgid "Activating your account on the web site %s"
-msgstr "A felhasználói fiók aktiválása a következő oldalon: %s"
-
-#: jcommunity~register.form.login.exists
-msgctxt "jcommunity~register.form.login.exists"
-msgid "This username already exists"
-msgstr "A felhasználónév már foglalt"
-
-#: jcommunity~register.registration.waiting.title
-msgctxt "jcommunity~register.registration.waiting.title"
-msgid "Registration"
-msgstr "Regisztráció"
-
-#: jcommunity~register.registration.waiting.text.html
-msgctxt "jcommunity~register.registration.waiting.text.html"
-msgid ""
-"<p>Your account is created, but before using it, we have to verify your "
-"email.</p> <p>In order to verify your email, we just have sent you an email "
-"containing a link on which you must click. Verify your spam folder if you "
-"don't see this email in your inbox.</p>"
-msgstr ""
-"<p>A felhasználói fiók elkészült, de használatba vétele előtt meg kell "
-"erősítenie e-mail címét</p> <p>A megerősítő linket e-mailt elküldtük e-mail "
-"címére. Kérjük, ellenőrizze a levélszemét mappáját, ha nem találja "
-"e-mailünket.</p>"
-
-#: jcommunity~register.registration.confirm.title
-msgctxt "jcommunity~register.registration.confirm.title"
-msgid "Activation of your account"
-msgstr "Felhasználói fiók aktiválása"
-
-#: jcommunity~register.registration.confirm.alreadydone
-msgctxt "jcommunity~register.registration.confirm.alreadydone"
-msgid ""
-"Your account is already activated. You can identify yourself on the web "
-"site."
-msgstr ""
-"A felhasználói fiók már aktiválva van. Azonosíthatja magát a weboldalon."
-
-#: jcommunity~register.registration.confirm.ok
-msgctxt "jcommunity~register.registration.confirm.ok"
-msgid "Your account is activated. You can identify yourself on the web site."
-msgstr "A felhasználói fiók aktiválva van. Azonosíthatja magát a weboldalon."
-
-#: jcommunity~register.registration.confirm.badkey
-msgctxt "jcommunity~register.registration.confirm.badkey"
-msgid "Activation is not possible: the key or the username is invalid."
-msgstr ""
-"Az aktiválás nem lehetséges: a kulcs, vagy a felhasználónév nem létezik."
-
-#: jcommunity~register.registration.confirm.badstatus
-msgctxt "jcommunity~register.registration.confirm.badstatus"
-msgid "Activation is not possible: your account is not a new one."
-msgstr ""
-"Az aktiválás nem lehetséges: a felhasználói fiók nem újonnan létrehozott."
+#: jcommunity~prefs.admin.prefs.change
+msgctxt "jcommunity~prefs.admin.prefs.change"
+msgid "Modify preferences of jCommunity"
+msgstr "jCommunity hivatkozások módosítása"
 
 #: jcommunity~account.unknown.user
 msgctxt "jcommunity~account.unknown.user"
@@ -410,31 +231,6 @@ msgctxt "jcommunity~account.back.to.account"
 msgid "Back to your profile"
 msgstr "Vissza a saját profilhoz"
 
-#: jcommunity~prefs.group.jcommunity
-msgctxt "jcommunity~prefs.group.jcommunity"
-msgid "jCommunity"
-msgstr "jCommunity"
-
-#: jcommunity~prefs.pref.registrationEnabled
-msgctxt "jcommunity~prefs.pref.registrationEnabled"
-msgid "An unknown user can create a new account"
-msgstr "Ismeretlen felhasználó létrehozhat új fiókot"
-
-#: jcommunity~prefs.pref.resetPasswordEnabled
-msgctxt "jcommunity~prefs.pref.resetPasswordEnabled"
-msgid "A user can reset password when he forget it"
-msgstr "A felhasználó visszaállíthatja saját jelszavát"
-
-#: jcommunity~prefs.jcommunity.admin
-msgctxt "jcommunity~prefs.jcommunity.admin"
-msgid "jCommunity"
-msgstr "jCommunity"
-
-#: jcommunity~prefs.admin.prefs.change
-msgctxt "jcommunity~prefs.admin.prefs.change"
-msgid "Modify preferences of jCommunity"
-msgstr "jCommunity hivatkozások módosítása"
-
 #: jcommunity~password.form.title
 msgctxt "jcommunity~password.form.title"
 msgid "Resetting the password"
@@ -550,3 +346,207 @@ msgstr "Az új jelszó mentésre került. Jelentkezzen be!"
 msgctxt "jcommunity~password.form.change.ok"
 msgid "The new password is now saved."
 msgstr "Az új jelszó mentésre került."
+
+#: jcommunity~register.registration.title
+msgctxt "jcommunity~register.registration.title"
+msgid "Registration"
+msgstr "Regisztráció"
+
+#: jcommunity~register.form.create.title
+msgctxt "jcommunity~register.form.create.title"
+msgid "Create an account"
+msgstr "Új felhasználói fiók létrehozása"
+
+#: jcommunity~register.form.create.text.html
+msgctxt "jcommunity~register.form.create.text.html"
+msgid ""
+"<p>Register yourself by filling the following form.</p> <p>An email will be "
+"sent to you with a link to confirm your registration. You could then "
+"identified yourself on the web site.</p>"
+msgstr ""
+"<p>Végezze el a regisztrációt az adatlap kitöltésével.</p> <p>Egy e-mailt "
+"küldünk amely a regisztrációt megerősítésére használt linket tartalmazza. "
+"Ezek után tudja majd azonosítani magát a weboldalon.</p>"
+
+#: jcommunity~register.form.create.submit
+msgctxt "jcommunity~register.form.create.submit"
+msgid "Create the account"
+msgstr "A felhasználói fiók létrehozása"
+
+#: jcommunity~register.mail.new.subject
+msgctxt "jcommunity~register.mail.new.subject"
+msgid "Activating your account on the web site %s"
+msgstr "A felhasználói fiók aktiválása a következő oldalon: %s"
+
+#: jcommunity~register.form.login.exists
+msgctxt "jcommunity~register.form.login.exists"
+msgid "This username already exists"
+msgstr "A felhasználónév már foglalt"
+
+#: jcommunity~register.registration.waiting.title
+msgctxt "jcommunity~register.registration.waiting.title"
+msgid "Registration"
+msgstr "Regisztráció"
+
+#: jcommunity~register.registration.waiting.text.html
+msgctxt "jcommunity~register.registration.waiting.text.html"
+msgid ""
+"<p>Your account is created, but before using it, we have to verify your "
+"email.</p> <p>In order to verify your email, we just have sent you an email "
+"containing a link on which you must click. Verify your spam folder if you "
+"don't see this email in your inbox.</p>"
+msgstr ""
+"<p>A felhasználói fiók elkészült, de használatba vétele előtt meg kell "
+"erősítenie e-mail címét</p> <p>A megerősítő linket e-mailt elküldtük e-mail "
+"címére. Kérjük, ellenőrizze a levélszemét mappáját, ha nem találja "
+"e-mailünket.</p>"
+
+#: jcommunity~register.registration.confirm.title
+msgctxt "jcommunity~register.registration.confirm.title"
+msgid "Activation of your account"
+msgstr "Felhasználói fiók aktiválása"
+
+#: jcommunity~register.registration.confirm.alreadydone
+msgctxt "jcommunity~register.registration.confirm.alreadydone"
+msgid ""
+"Your account is already activated. You can identify yourself on the web "
+"site."
+msgstr ""
+"A felhasználói fiók már aktiválva van. Azonosíthatja magát a weboldalon."
+
+#: jcommunity~register.registration.confirm.ok
+msgctxt "jcommunity~register.registration.confirm.ok"
+msgid "Your account is activated. You can identify yourself on the web site."
+msgstr "A felhasználói fiók aktiválva van. Azonosíthatja magát a weboldalon."
+
+#: jcommunity~register.registration.confirm.badkey
+msgctxt "jcommunity~register.registration.confirm.badkey"
+msgid "Activation is not possible: the key or the username is invalid."
+msgstr ""
+"Az aktiválás nem lehetséges: a kulcs, vagy a felhasználónév nem létezik."
+
+#: jcommunity~register.registration.confirm.badstatus
+msgctxt "jcommunity~register.registration.confirm.badstatus"
+msgid "Activation is not possible: your account is not a new one."
+msgstr ""
+"Az aktiválás nem lehetséges: a felhasználói fiók nem újonnan létrehozott."
+
+#: jcommunity~login.error.notlogged
+msgctxt "jcommunity~login.error.notlogged"
+msgid "You are not connected, you should sign in."
+msgstr "Még nem azonosította magát, kérem lépjen be."
+
+#: jcommunity~login.error.no.after_login
+msgctxt "jcommunity~login.error.no.after_login"
+msgid "In the configuration of the plugin 'auth', after_login is empty"
+msgstr "Az 'auth' plugin beállításaiban, az after_login érték nincs megadva"
+
+#: jcommunity~login.error.no.after_logout
+msgctxt "jcommunity~login.error.no.after_logout"
+msgid "In the configuration of the plugin 'auth', after_logout is empty"
+msgstr "Az 'auth' plugin beállításaiban, az after_logout érték nincs megadva"
+
+#: jcommunity~login.form.remember.me
+msgctxt "jcommunity~login.form.remember.me"
+msgid "Remember me"
+msgstr "Emlékezzen rám"
+
+#: jcommunity~login.form.submit
+msgctxt "jcommunity~login.form.submit"
+msgid "Sign in"
+msgstr "Belépés"
+
+#: jcommunity~login.error
+msgctxt "jcommunity~login.error"
+msgid "Unknown username or wrong password"
+msgstr "Ismeretlen felhasználónév vagy rossz jelszó"
+
+#: jcommunity~login.login.title
+msgctxt "jcommunity~login.login.title"
+msgid "Sign in"
+msgstr "Belépés"
+
+#: jcommunity~login.logout
+msgctxt "jcommunity~login.logout"
+msgid "Sign out"
+msgstr "Kilépés"
+
+#: jcommunity~login.login.account
+msgctxt "jcommunity~login.login.account"
+msgid "Your account"
+msgstr "Saját felhasználói fiók"
+
+#: jcommunity~login.login.password.reset
+msgctxt "jcommunity~login.login.password.reset"
+msgid "I forgot my password"
+msgstr "Elfelejtett jelszó"
+
+#: jcommunity~login.access.title
+msgctxt "jcommunity~login.access.title"
+msgid "Page access"
+msgstr "Oldal-hozzáférés"
+
+#: jcommunity~login.access.forbidden.authenticated
+msgctxt "jcommunity~login.access.forbidden.authenticated"
+msgid "You cannot access to this page because your are connected."
+msgstr "Hozzáférés megtagadva, ön már felcsatlakozott."
+
+#: jcommunity~login.access.forbidden.wrong.user
+msgctxt "jcommunity~login.access.forbidden.wrong.user"
+msgid "You cannot access to this page belonging to another user."
+msgstr "Hozzáférés megtagadva, ez egy másik felhasználó oldala."
+
+#: jcommunity~login.access.not.available
+msgctxt "jcommunity~login.access.not.available"
+msgid "Page not available"
+msgstr "Az oldal nem érhető el"
+
+#: jcommunity~login.startpage.connected
+msgctxt "jcommunity~login.startpage.connected"
+msgid "You are connected."
+msgstr "Csatlakozott."
+
+#: jcommunity~login.startpage.not.connected
+msgctxt "jcommunity~login.startpage.not.connected"
+msgid "You are not connected."
+msgstr "Nincs csatlakozva."
+
+#: jcommunity~login.startpage.youcan
+msgctxt "jcommunity~login.startpage.youcan"
+msgid "You can:"
+msgstr "Lehetősége van:"
+
+#: jcommunity~login.startpage.account.view
+msgctxt "jcommunity~login.startpage.account.view"
+msgid "View your profile"
+msgstr "Saját felhasználói fiók megtekintése"
+
+#: jcommunity~login.startpage.account.create
+msgctxt "jcommunity~login.startpage.account.create"
+msgid "Create an account"
+msgstr "Új felhasználói fiók létrehozása"
+
+#: jcommunity~login.startpage.logout
+msgctxt "jcommunity~login.startpage.logout"
+msgid "Sign out"
+msgstr "Kilépés"
+
+#: jcommunity~login.startpage.login
+msgctxt "jcommunity~login.startpage.login"
+msgid "Sign in"
+msgstr "Belépés"
+
+#: jcommunity~login.startpage.password.reset
+msgctxt "jcommunity~login.startpage.password.reset"
+msgid "Reset your password"
+msgstr "Jelszó visszaállítása"
+
+#: jcommunity~login.back.to.login
+msgctxt "jcommunity~login.back.to.login"
+msgid "Back to the login form"
+msgstr "Vissza a bejelentkezési oldalra"
+
+#: jcommunity~login.cancel.and.back.to.login
+msgctxt "jcommunity~login.cancel.and.back.to.login"
+msgid "Cancel and return to the login form"
+msgstr "Módosítások elvetése és vissza a bejelentkezési oldalra"
