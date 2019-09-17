@@ -13,14 +13,14 @@ you have already installed tools, so you can jump directly to the next section.
 It is recommended to install Virtualenv and to install Transifex into a 
 dedicated Python environnement. For example:
 
-```
+```bash
 virtualenv env/
 env/bin/pip install transifex-client
 ``` 
 
 You should create a `~/.transifexrc` file containing:
 
-```
+```ini
 [https://www.transifex.com]
 api_hostname = https://api.transifex.com
 hostname = https://www.transifex.com

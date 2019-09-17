@@ -26,3 +26,4 @@ tx pull
 ```
 
 Then copy all files to lizmap-plugin locales directory `i18n`.
+You must then commit files in `lizmap-plugin` and `lizmap-locales`.

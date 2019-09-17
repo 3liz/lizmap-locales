@@ -1,9 +1,9 @@
-[![logo](icon.png "lizmap")][lizmap]Lizmap Web Application Locales
+![logo](icon.png "lizmap") Lizmap Web Application Locales
 ===================================================================
 
 You'll find here the localization files for the web application 
 [Lizmap Web Client](https://github.com/3liz/lizmap-web-client/) (the web-client directory)
-and the [Lizmap plugin](https://github.com/3liz/lizmap-plugin) for Qgis (the plugin directory).
+and the [Lizmap plugin](https://github.com/3liz/lizmap-plugin) for QGIS (the plugin directory).
 
 Lizmap web application, by 3LIZ.
 
