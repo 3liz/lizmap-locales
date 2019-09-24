@@ -3,118 +3,125 @@
 <context>
     <name>@default</name>
     <message>
-        <location filename="../../../lizmap.py" line="2612"/>
+        <location filename="../../../lizmap.py" line="2622"/>
         <source>Lizmap Error</source>
         <translation type="unfinished">Ошибка Lizmap</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="615"/>
+        <location filename="../../../lizmap.py" line="610"/>
         <source>Map scales: Write down integer scales separated by comma. You must enter at least 2 min and max values.</source>
         <translation type="unfinished">Укажите целочисленные значения масштабов через запятую. Необходимо указать хотя бы минимальный и максимальный масштабы.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="659"/>
+        <location filename="../../../lizmap.py" line="654"/>
         <source>Errors encountered while reading the last layer tree state. Please re-configure the options in the Layers tab completely. The previous .cfg has been saved as .cfg.back</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2593"/>
-        <source>ui.msg.warning.toolLayer.notInWfs</source>
-        <translation type="unfinished">Выбранные вами слои должны быть отмечены в разделе &quot;Характеристики WFS&quot; (&quot;Проект&quot; -&gt; &quot;Свойства проекта&quot; -&gt; &quot;Сервер OWS&quot;).</translation>
-    </message>
-    <message>
-        <location filename="../../../lizmap.py" line="1047"/>
+        <location filename="../../../lizmap.py" line="1042"/>
         <source>Editing Z/M Values</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1047"/>
+        <location filename="../../../lizmap.py" line="1042"/>
         <source>Be careful, editing this layer with Lizmap will set the Z and M to 0.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1137"/>
+        <location filename="../../../lizmap.py" line="1132"/>
         <source>Please check that all input fields have been filled: repository, project, layer name and title</source>
         <translation type="unfinished">Поля &quot;Репозиторий&quot;, &quot;Проект&quot;, &quot;Слой&quot; и &quot;Отображаемое имя&quot; должны быть заполнены.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1285"/>
+        <location filename="../../../lizmap.py" line="1287"/>
         <source>Lizmap - Refresh layer tree?</source>
         <translation type="unfinished">Lizmap - обновить дерево слоев?</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1285"/>
-        <source>ui.msg.question.refresh.content</source>
-        <translation type="unfinished">Нажмите &quot;Да&quot; для обновления дерева слоев. Учтите, что при этом вы потеряете все несохраненные изменения на этой вкладке (группировки, метаданные и параметры слоев).
-Если вы изменяли имена групп слоев, то соответствующая данным группам информация также будет потеряна.
-
-Обновить дерево?</translation>
-    </message>
-    <message>
-        <location filename="../../../lizmap.py" line="1442"/>
+        <location filename="../../../lizmap.py" line="1444"/>
         <source>List of layers</source>
         <translation type="unfinished">Структура слоев</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1459"/>
+        <location filename="../../../lizmap.py" line="1461"/>
         <source>Errors encountered while reading the last layer tree state. Please re-configure the options in the Layers tab completely</source>
         <translation type="unfinished">Возникла ошибка при попытке прочитать последнюю конфигурацию дерева слоев. Пожалуйста, укажите параметры на вкладке &quot;Слои&quot; заново.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2406"/>
+        <location filename="../../../lizmap.py" line="2408"/>
         <source>Please do not forget to save the QGIS project before publishing your map</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2438"/>
+        <location filename="../../../lizmap.py" line="2440"/>
         <source>You need to open a qgis project before using Lizmap</source>
         <translation type="unfinished">Перед запуском Lizmap необходимо открыть проект QGIS.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2449"/>
-        <source>ui.msg.error.project.option.capitalizeLayerName</source>
-        <translation type="unfinished">Пожалуйста, отключите опцию &quot;Выводить имена слоев с прописной буквы&quot; (Установки -&gt; Параметры -&gt; Карта и легенда), так как это может вызвать ошибки в работе Lizmap.</translation>
-    </message>
-    <message>
-        <location filename="../../../lizmap.py" line="2455"/>
+        <location filename="../../../lizmap.py" line="2460"/>
         <source>The project layer paths must be set to relative. Please change this options in the project settings.</source>
         <translation type="unfinished">Слои проекта должны иметь относительные пути. Поменяйте данный параметр в настройках проекта.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2491"/>
-        <source>ui.msg.error.project.layers.path.relative {}</source>
-        <translation type="unfinished">Пути слоев должны быть установлены относительно файла проекта. Пожалуйста, перенесите файлы слоев в
-{}</translation>
-    </message>
-    <message>
-        <location filename="../../../lizmap.py" line="2560"/>
+        <location filename="../../../lizmap.py" line="2569"/>
         <source>Map - options</source>
         <translation type="unfinished">Карта - опции</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2601"/>
+        <location filename="../../../lizmap.py" line="2611"/>
         <source>All the map parameters are correctly set</source>
         <translation type="unfinished">Все параметры карты установлены верно</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2621"/>
+        <location filename="../../../lizmap.py" line="2631"/>
         <source>Lizmap configuration file has been updated</source>
         <translation type="unfinished">Файл настроек Lizmap обновлен</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2612"/>
+        <location filename="../../../lizmap.py" line="2622"/>
         <source>Wrong or missing map parameters: please read the log and correct the printed errors.</source>
         <translation type="unfinished">Неправильные или отсутствующие параметры карты: исправьте ошибки, указанные на вкладке &quot;Журнал&quot;.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2747"/>
+        <location filename="../../../lizmap.py" line="2757"/>
         <source>Lizmap - Warning</source>
         <translation type="unfinished">Lizmap - предупреждение</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2747"/>
+        <location filename="../../../lizmap.py" line="2757"/>
         <source>A Lizmap window is already opened</source>
         <translation type="unfinished">Окно Lizmap уже открыто</translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="897"/>
+        <source>The layers you have chosen for this tool must be checked in the &quot;WFS Capabilities&quot; option of the QGIS Server tab in the &quot;Project Properties&quot; dialog.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="1280"/>
+        <source>You can refresh the layer tree by pressing &quot;Yes&quot;. Be aware that you will lose all the changes made in this Layers tab (group or layer metadata and options) since your last &quot;Save&quot;. If you have renamed one or more groups or layers, you will also lose the associated information.
+Refresh layer tree?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="2451"/>
+        <source>Please deactivate the option &quot;Capitalize layer names&quot; in the tab &quot;Canvas and legend&quot; in the QGIS option dialog, as it could cause issues with Lizmap.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="2499"/>
+        <source>The layers paths must be relative to the project file. Please copy the layers inside {} or in one folder above or aside {}.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="2495"/>
+        <source>The layers paths must be relative to the project file. Please copy the layers inside {}.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="2602"/>
+        <source>The layers you have chosen for this tool must be checked in the &quot;WFS Capabilities&quot; option of the QGIS tab in the &quot;Project Properties&quot; dialog.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

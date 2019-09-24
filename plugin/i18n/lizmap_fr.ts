@@ -2,120 +2,125 @@
 <context>
     <name>@default</name>
     <message>
-        <location filename="../../../lizmap.py" line="2612"/>
+        <location filename="../../../lizmap.py" line="2622"/>
         <source>Lizmap Error</source>
         <translation>Lizmap - Erreur</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="615"/>
+        <location filename="../../../lizmap.py" line="610"/>
         <source>Map scales: Write down integer scales separated by comma. You must enter at least 2 min and max values.</source>
         <translation>Échelles : Écrire une liste d&apos;entiers séparés par une virgule. Il faut au moins écrire les 2 valeurs d&apos;échelle minimale et maximale.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="659"/>
+        <location filename="../../../lizmap.py" line="654"/>
         <source>Errors encountered while reading the last layer tree state. Please re-configure the options in the Layers tab completely. The previous .cfg has been saved as .cfg.back</source>
         <translation>Erreurs rencontrées lors de la lecture du dernier état de l&apos;arborescence. Veuillez reconfigurer complètement les options de l&apos;onglet Calques. Le fichier .cfg précédent a été enregistré sous le nom .cfg.back</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2593"/>
-        <source>ui.msg.warning.toolLayer.notInWfs</source>
-        <translation>Les couches pour cet outil doivent être cochées dans l&apos;option &quot;Capacités WFS&quot; de l&apos;onglet &quot;Serveur OWS&quot; dans les options du projet QGIS</translation>
-    </message>
-    <message>
-        <location filename="../../../lizmap.py" line="1047"/>
+        <location filename="../../../lizmap.py" line="1042"/>
         <source>Editing Z/M Values</source>
         <translation>Edition des valeurs Z/M</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1047"/>
+        <location filename="../../../lizmap.py" line="1042"/>
         <source>Be careful, editing this layer with Lizmap will set the Z and M to 0.</source>
         <translation>Attention, l&apos;édition de cette couche avec Lizmap modifiera la valeur Z et M des géométries à 0.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1137"/>
+        <location filename="../../../lizmap.py" line="1132"/>
         <source>Please check that all input fields have been filled: repository, project, layer name and title</source>
         <translation>Il manque des informations. Vérifiez que vous avez bien rempli tous les champs : répertoire, projet, couche QGIS et titre</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1285"/>
+        <location filename="../../../lizmap.py" line="1287"/>
         <source>Lizmap - Refresh layer tree?</source>
         <translation>Lizmap - Raffraîchir l&apos;arbre ?</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1285"/>
-        <source>ui.msg.question.refresh.content</source>
-        <translation>Vous pouvez raffraîchir l&apos;arbre des couches suite en cliquant sur Oui
-Vous perdrez alors toutes les modifications réalisées depuis le dernier enregistrement.
-Si vous avez renommé une couche ou un groupe, vous devrez aussi reconfigurer ces objets.
-
-Raffraîchir l&apos;arbre des couches ?</translation>
-    </message>
-    <message>
-        <location filename="../../../lizmap.py" line="1442"/>
+        <location filename="../../../lizmap.py" line="1444"/>
         <source>List of layers</source>
         <translation>Liste des couches</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1459"/>
+        <location filename="../../../lizmap.py" line="1461"/>
         <source>Errors encountered while reading the last layer tree state. Please re-configure the options in the Layers tab completely</source>
         <translation>Erreurs rencontrées lors de la lecture de la configuration précédente. Vous devez reconfigurer complètement les options des couches</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2406"/>
+        <location filename="../../../lizmap.py" line="2408"/>
         <source>Please do not forget to save the QGIS project before publishing your map</source>
         <translation>N&apos;oubliez pas de sauvegarder le projet QGIS avant de publier votre carte</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2438"/>
+        <location filename="../../../lizmap.py" line="2440"/>
         <source>You need to open a qgis project before using Lizmap</source>
         <translation>Vous devez d&apos;abord ouvrir un projet Qgis avant de lancer Lizmap</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2449"/>
-        <source>ui.msg.error.project.option.capitalizeLayerName</source>
-        <translation>Veuillez désactiver l&apos;option &quot;Nom de couches en majuscules&quot; dans l&apos;onglet &quot;Canevas et légende&quot; des options de QGIS. Cela peut créer des problèmes avec Lizmap</translation>
-    </message>
-    <message>
-        <location filename="../../../lizmap.py" line="2455"/>
+        <location filename="../../../lizmap.py" line="2460"/>
         <source>The project layer paths must be set to relative. Please change this options in the project settings.</source>
         <translation>Les chemins des fichiers doivent être configurés en &quot;relatif&quot; dans les options du projet QGIS.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2491"/>
-        <source>ui.msg.error.project.layers.path.relative {}</source>
-        <translation>Les fichiers des couches doivent être situés dans le répertoire du projet ou dans un des sous-répertoires. Veuillez copier les couches dans
-{}
-ou dans un répertoire au-dessus ou à côté</translation>
-    </message>
-    <message>
-        <location filename="../../../lizmap.py" line="2560"/>
+        <location filename="../../../lizmap.py" line="2569"/>
         <source>Map - options</source>
         <translation>Carte - options</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2601"/>
+        <location filename="../../../lizmap.py" line="2611"/>
         <source>All the map parameters are correctly set</source>
         <translation>Tous les paramètres de l&apos;onglet Carte sont corrects</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2621"/>
+        <location filename="../../../lizmap.py" line="2631"/>
         <source>Lizmap configuration file has been updated</source>
         <translation>Le fichier de configuration de Lizmap a bien été enregistré</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2612"/>
+        <location filename="../../../lizmap.py" line="2622"/>
         <source>Wrong or missing map parameters: please read the log and correct the printed errors.</source>
         <translation>Des paramètres sont manquants ou erronés dans l&apos;onglet Carte. Veuillez lire le log et corriger ces erreurs avant de relancer l&apos;action.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2747"/>
+        <location filename="../../../lizmap.py" line="2757"/>
         <source>Lizmap - Warning</source>
         <translation>Lizmap - Attention</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2747"/>
+        <location filename="../../../lizmap.py" line="2757"/>
         <source>A Lizmap window is already opened</source>
         <translation>Une fenêtre Lizmap est déjà ouverte</translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="897"/>
+        <source>The layers you have chosen for this tool must be checked in the &quot;WFS Capabilities&quot; option of the QGIS Server tab in the &quot;Project Properties&quot; dialog.</source>
+        <translation>Les couches pour cet outil doivent être cochées dans l&apos;option &quot;Capacités WFS&quot; de l&apos;onglet &quot;QGIS Serveur&quot; dans les options du projet QGIS.</translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="1280"/>
+        <source>You can refresh the layer tree by pressing &quot;Yes&quot;. Be aware that you will lose all the changes made in this Layers tab (group or layer metadata and options) since your last &quot;Save&quot;. If you have renamed one or more groups or layers, you will also lose the associated information.
+Refresh layer tree?</source>
+        <translation>Vous pouvez rafraîchir l&apos;arbre des couches suite en cliquant sur Oui. Vous perdrez alors toutes les modifications réalisées depuis le dernier enregistrement. Si vous avez renommé une couche ou un groupe, vous devrez aussi reconfigurer ces objets. Rafraîchir l&apos;arbre des couches ?</translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="2451"/>
+        <source>Please deactivate the option &quot;Capitalize layer names&quot; in the tab &quot;Canvas and legend&quot; in the QGIS option dialog, as it could cause issues with Lizmap.</source>
+        <translation>Veuillez désactiver l&apos;option &quot;Nom de couches en majuscules&quot; dans l&apos;onglet &quot;Canevas et légende&quot; des options de QGIS car cela peut créer des problèmes avec Lizmap.</translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="2499"/>
+        <source>The layers paths must be relative to the project file. Please copy the layers inside {} or in one folder above or aside {}.</source>
+        <translation>Les fichiers des couches doivent être situés dans le répertoire du projet ou dans un des sous-répertoires. Veuillez copier les couches dans {} ou dans un répertoire au-dessus ou à côté {}.</translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="2495"/>
+        <source>The layers paths must be relative to the project file. Please copy the layers inside {}.</source>
+        <translation>Les fichiers des couches doivent être situés dans le répertoire du projet ou dans un des sous-répertoires. Veuillez copier les couches dans {}.</translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="2602"/>
+        <source>The layers you have chosen for this tool must be checked in the &quot;WFS Capabilities&quot; option of the QGIS tab in the &quot;Project Properties&quot; dialog.</source>
+        <translation>Les couches pour cet outil doivent être cochées dans l&apos;option &quot;Capacités WFS&quot; de l&apos;onglet &quot;QGIS Serveur&quot; dans les options du projet QGIS</translation>
     </message>
 </context>
 <context>
