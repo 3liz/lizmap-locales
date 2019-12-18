@@ -1,10 +1,10 @@
 # Translators:
 # Alessandro Fanna <alex@rospus.org>, 2019
 # Paolo Cavallini <cavallini@faunalia.it>, 2019
-# Stefano Campus <skampus@gmail.com>, 2019
 # Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2019
 # rldhont <rldhont@gmail.com>, 2019
 # Roberto Marzocchi <roberto.marzocchi@gter.it>, 2019
+# Stefano Campus <skampus@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-27 15:10++0200\n"
 "PO-Revision-Date: 2019-05-27 13:11+0000\n"
-"Last-Translator: Roberto Marzocchi <roberto.marzocchi@gter.it>, 2019\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/3liz-1/teams/62012/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -442,7 +442,7 @@ msgstr "Il server utilizza percorsi relativi a partire dalla cartella radice?"
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
 msgid "Send request to QGIS Server or request to external services with"
-msgstr ""
+msgstr "Invia richiesta a QGIS Server o richiedi a servizi esterni usando"
 
 #: admin~admin.form.admin_services.proxyMethod.php.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
@@ -457,7 +457,7 @@ msgstr "Curl"
 #: admin~admin.form.admin_services.requestProxy.label
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
 msgid "Use a proxy server to do requests to external services"
-msgstr ""
+msgstr "Usa un server proxy per fare richieste a servizi esterni"
 
 #: admin~admin.form.admin_services.requestProxy.enabled
 msgctxt "admin~admin.form.admin_services.requestProxy.enabled"
@@ -487,7 +487,7 @@ msgstr "Tipo di proxy"
 #: admin~admin.form.admin_services.requestProxyUser.label
 msgctxt "admin~admin.form.admin_services.requestProxyUser.label"
 msgid "Login to access to the proxy server"
-msgstr ""
+msgstr "Login di accesso al server proxy"
 
 #: admin~admin.form.admin_services.requestProxyPassword.label
 msgctxt "admin~admin.form.admin_services.requestProxyPassword.label"
@@ -569,6 +569,9 @@ msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
 msgstr ""
+"Indirizzo e-mail utilizzato per inviare e-mail. Se vuoto, nessuna mail sarà "
+"inviata da Lizmap. Verifica che il tuo server permetta di inviare email con "
+"questo indirizzo."
 
 #: admin~admin.form.admin_services.adminSenderEmail.error.required
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
@@ -576,6 +579,8 @@ msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
 msgstr ""
+"Per inviare notifiche o richieste per la creazione di un account, è "
+"richiesto l'indirizzo e-mail del mittente"
 
 #: admin~admin.form.admin_services.adminSenderName.label
 msgctxt "admin~admin.form.admin_services.adminSenderName.label"
@@ -958,17 +963,17 @@ msgstr "Successivo"
 #: admin~admin.logs.email.subject
 msgctxt "admin~admin.logs.email.subject"
 msgid "A new log item has been recorded."
-msgstr ""
+msgstr "Un nuovo evento è stato registrato."
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
 msgid "A user has logged in."
-msgstr ""
+msgstr "Un utente si è connesso."
 
 #: admin~admin.logs.email.viewmap.body
 msgctxt "admin~admin.logs.email.viewmap.body"
 msgid "A user has accessed a map."
-msgstr ""
+msgstr "Un utente si è connesso ad una mappa."
 
 #: admin~admin.logs.email.print.body
 msgctxt "admin~admin.logs.email.print.body"
@@ -978,12 +983,12 @@ msgstr "Un utente ha utilizzato lo strumento di stampa."
 #: admin~admin.logs.email.popup.body
 msgctxt "admin~admin.logs.email.popup.body"
 msgid "A user has opened a feature information popup."
-msgstr ""
+msgstr "Un utente ha aperto un popup di informazioni sull'elemento."
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
 msgid "A feature has been created or modified by a user."
-msgstr ""
+msgstr "Un elemento è stato creato o modificato da un utente."
 
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
@@ -999,6 +1004,8 @@ msgstr "Log degli errori"
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the Lizmap Web Client application error log file"
 msgstr ""
+"Ultime linee del file di registrazione degli errori dell'applicazione Web "
+"Client di Lizmap"
 
 #: admin~admin.logs.error.file.too.big
 msgctxt "admin~admin.logs.error.file.too.big"
@@ -1006,6 +1013,8 @@ msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
 msgstr ""
+"Il file di registrazione degli errori è troppo grande. Prova ad usare la "
+"rotazione del log per i log  del Web Client di Lizmap."
 
 #: admin~admin.logs.error.file.erase
 msgctxt "admin~admin.logs.error.file.erase"

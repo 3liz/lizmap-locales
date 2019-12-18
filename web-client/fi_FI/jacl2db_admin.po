@@ -108,12 +108,14 @@ msgstr "Ryhmä poistettu"
 #: jacl2db_admin~acl2.message.group.delete.error.noacl.yourself
 msgctxt "jacl2db_admin~acl2.message.group.delete.error.noacl.yourself"
 msgid "The group cannot be deleted, else you couldn't manage rights"
-msgstr ""
+msgstr "Ryhmää ei voida poistaa, muuten et voisi hallita oikeuksia"
 
 #: jacl2db_admin~acl2.message.group.delete.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.group.delete.error.noacl.anybody"
 msgid "The group cannot be deleted, else nobody couldn't manage rights"
 msgstr ""
+"Ryhmää ei voida poistaa, muuten kenelläkään ei olisi oikeuksia hallita "
+"oikeuksia"
 
 #: jacl2db_admin~acl2.groups.rights.title
 msgctxt "jacl2db_admin~acl2.groups.rights.title"
@@ -168,13 +170,14 @@ msgstr "erityinen"
 #: jacl2db_admin~acl2.message.savegrouprights.error.noacl.yourself
 msgctxt "jacl2db_admin~acl2.message.savegrouprights.error.noacl.yourself"
 msgid "Changes cannot be applied else you won't be able to change some rights"
-msgstr ""
+msgstr "Muutoksia ei voida käyttää muuten et voi muuttaa joitakin oikeuksia"
 
 #: jacl2db_admin~acl2.message.savegrouprights.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.savegrouprights.error.noacl.anybody"
 msgid ""
 "Changes cannot be applied else nobody won't be able to change some rights"
 msgstr ""
+"Muutoksia ei voida käyttää muuten ei kukaan voisi muuttaa joitakin oikeuksia"
 
 #: jacl2db_admin~acl2.message.group.rights.ok
 msgctxt "jacl2db_admin~acl2.message.group.rights.ok"
@@ -204,7 +207,7 @@ msgstr "Ryhmä:"
 #: jacl2db_admin~acl2.filter.word
 msgctxt "jacl2db_admin~acl2.filter.word"
 msgid "(part of) name:"
-msgstr ""
+msgstr "(osa) nimi:"
 
 #: jacl2db_admin~acl2.show.button
 msgctxt "jacl2db_admin~acl2.show.button"
@@ -269,13 +272,14 @@ msgstr "Oikeudet talletettu"
 #: jacl2db_admin~acl2.message.saveuserrights.error.noacl.yourself
 msgctxt "jacl2db_admin~acl2.message.saveuserrights.error.noacl.yourself"
 msgid "Changes cannot be applied else you won't be able to change some rights"
-msgstr ""
+msgstr "Muutoksia ei voida käyttää muuten et voi muuttaa joitakin oikeuksia"
 
 #: jacl2db_admin~acl2.message.saveuserrights.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.saveuserrights.error.noacl.anybody"
 msgid ""
 "Changes cannot be applied else nobody won't be able to change some rights"
 msgstr ""
+"Muutoksia ei voida käyttää muuten ei kukaan voisi muuttaa joitakin oikeuksia"
 
 #: jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.yourself
 msgctxt "jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.yourself"
@@ -283,6 +287,8 @@ msgid ""
 "You cannot be removed from this group else you won't be able to change some "
 "rights"
 msgstr ""
+"Sinua ei voida poistaa tästä ryhmästä muuten et voi muuttaa joitakin "
+"oikeuksia"
 
 #: jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.removeuserfromgroup.error.noacl.anybody"
@@ -290,6 +296,8 @@ msgid ""
 "The user cannot be removed from this group else nobody won't be able to "
 "change some rights"
 msgstr ""
+"Käyttäjää ei voida poistaa tästä ryhmästä muuten ei kukaan voisi muuttaa "
+"joitakin oikeuksia"
 
 #: jacl2db_admin~acl2.col.personnal.rights
 msgctxt "jacl2db_admin~acl2.col.personnal.rights"
