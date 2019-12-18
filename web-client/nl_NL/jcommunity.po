@@ -5,9 +5,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jcommunity 3.2.2\n"
+"Project-Id-Version: Lizmap Web Client jcommunity 3.2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"POT-Creation-Date: 2019-05-27 14:48++0200\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2019\n"
 "Language-Team: Dutch (https://www.transifex.com/3liz-1/teams/62012/nl/)\n"
@@ -17,125 +17,332 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: jcommunity~login.error.notlogged
-msgctxt "jcommunity~login.error.notlogged"
-msgid "You are not connected, you should sign in."
-msgstr "U bent niet verbonden, u moet inloggen."
-
-#: jcommunity~login.error.no.after_login
-msgctxt "jcommunity~login.error.no.after_login"
-msgid "In the configuration of the plugin 'auth', after_login is empty"
+#: jcommunity~prefs.group.jcommunity
+msgctxt "jcommunity~prefs.group.jcommunity"
+msgid "jCommunity"
 msgstr ""
 
-#: jcommunity~login.error.no.after_logout
-msgctxt "jcommunity~login.error.no.after_logout"
-msgid "In the configuration of the plugin 'auth', after_logout is empty"
+#: jcommunity~prefs.pref.registrationEnabled
+msgctxt "jcommunity~prefs.pref.registrationEnabled"
+msgid "An unknown user can create a new account"
+msgstr "Onbekende gebruiker kan een nieuw account aanmaken"
+
+#: jcommunity~prefs.pref.resetPasswordEnabled
+msgctxt "jcommunity~prefs.pref.resetPasswordEnabled"
+msgid "A user can reset password when he forget it"
+msgstr "Gebruiker kan wachtwoord resetten indien vergeten"
+
+#: jcommunity~prefs.jcommunity.admin
+msgctxt "jcommunity~prefs.jcommunity.admin"
+msgid "jCommunity"
 msgstr ""
 
-#: jcommunity~login.form.remember.me
-msgctxt "jcommunity~login.form.remember.me"
-msgid "Remember me"
+#: jcommunity~prefs.admin.prefs.change
+msgctxt "jcommunity~prefs.admin.prefs.change"
+msgid "Modify preferences of jCommunity"
 msgstr ""
 
-#: jcommunity~login.form.submit
-msgctxt "jcommunity~login.form.submit"
-msgid "Sign in"
+#: jcommunity~account.unknown.user
+msgctxt "jcommunity~account.unknown.user"
+msgid "Unknown user"
+msgstr "Onbekende gebruiker"
+
+#: jcommunity~account.error.dup.nickname
+msgctxt "jcommunity~account.error.dup.nickname"
+msgid "The displayed name is already used by another user"
+msgstr "De naam is al in gebruik bij een andere gebruiker"
+
+#: jcommunity~account.form.login
+msgctxt "jcommunity~account.form.login"
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: jcommunity~account.form.email
+msgctxt "jcommunity~account.form.email"
+msgid "Email"
+msgstr "Email"
+
+#: jcommunity~account.form.submit
+msgctxt "jcommunity~account.form.submit"
+msgid "Save"
+msgstr "Opslaan"
+
+#: jcommunity~account.form.nickname
+msgctxt "jcommunity~account.form.nickname"
+msgid "Displayed name"
+msgstr "Getoonde naam"
+
+#: jcommunity~account.form.password
+msgctxt "jcommunity~account.form.password"
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: jcommunity~account.form.password.help
+msgctxt "jcommunity~account.form.password.help"
+msgid "The password length must be above 8 characters"
+msgstr "De lengte van het wachtwoord moet meer dan 8 karakters zijn"
+
+#: jcommunity~account.form.password.confirm
+msgctxt "jcommunity~account.form.password.confirm"
+msgid "Retype the password"
+msgstr "Typ het wachtwoord opnieuw"
+
+#: jcommunity~account.form.status
+msgctxt "jcommunity~account.form.status"
+msgid "Status"
+msgstr "Status"
+
+#: jcommunity~account.form.status.deleted
+msgctxt "jcommunity~account.form.status.deleted"
+msgid "Deleted"
+msgstr "Verwijderd"
+
+#: jcommunity~account.form.status.deactivate
+msgctxt "jcommunity~account.form.status.deactivate"
+msgid "Deactivated"
+msgstr "Gedeactiveerd"
+
+#: jcommunity~account.form.status.newuser
+msgctxt "jcommunity~account.form.status.newuser"
+msgid "New account, awaiting email validation"
+msgstr "Nieuw account, wacht op email verificatie"
+
+#: jcommunity~account.form.status.valid
+msgctxt "jcommunity~account.form.status.valid"
+msgid "Account validated"
+msgstr "Account goedgekeurd"
+
+#: jcommunity~account.form.status.valid.email.changed
+msgctxt "jcommunity~account.form.status.valid.email.changed"
+msgid "Validated, awaiting new email validation"
+msgstr "Aangepast, wacht op nieuw email bevestiging"
+
+#: jcommunity~account.form.status.valid.password.changed
+msgctxt "jcommunity~account.form.status.valid.password.changed"
+msgid "Validated, awaiting reset password"
+msgstr "Gevalideerd, wacht op resetten wachtwoord"
+
+#: jcommunity~account.form.keyactivate
+msgctxt "jcommunity~account.form.keyactivate"
+msgid "Request key"
+msgstr "Verzoek sleutel"
+
+#: jcommunity~account.form.requestdate
+msgctxt "jcommunity~account.form.requestdate"
+msgid "Request date"
+msgstr "Verzoek datum"
+
+#: jcommunity~account.form.createdate
+msgctxt "jcommunity~account.form.createdate"
+msgid "Date of account creation"
+msgstr "Datum account aanmaak."
+
+#: jcommunity~account.form.captcha
+msgctxt "jcommunity~account.form.captcha"
+msgid "Are you a human?"
+msgstr "Ben je een mens?"
+
+#: jcommunity~account.profile.of
+msgctxt "jcommunity~account.profile.of"
+msgid "%1$s's Profile"
+msgstr "1%1$s 's Profiel"
+
+#: jcommunity~account.link.profile.edit
+msgctxt "jcommunity~account.link.profile.edit"
+msgid "Edit your profile"
+msgstr "Pas je profiel aan"
+
+#: jcommunity~account.link.account.delete
+msgctxt "jcommunity~account.link.account.delete"
+msgid "Delete your account"
+msgstr "Verwijder jou account."
+
+#: jcommunity~account.link.account.change.password
+msgctxt "jcommunity~account.link.account.change.password"
+msgid "Change your password"
+msgstr "Wachtwoord veranderen"
+
+#: jcommunity~account.form.edit.profile.title
+msgctxt "jcommunity~account.form.edit.profile.title"
+msgid "Editing your profile"
+msgstr "Bezig met profiel aanpassen"
+
+#: jcommunity~account.form.delete.account.title
+msgctxt "jcommunity~account.form.delete.account.title"
+msgid "Deleting your account"
+msgstr "Jou account wordt verwijderd.."
+
+#: jcommunity~account.form.delete.account.confirm.title
+msgctxt "jcommunity~account.form.delete.account.confirm.title"
+msgid "Confirm the deletion of your account"
+msgstr "Bevestig het verwijderen van jou account"
+
+#: jcommunity~account.form.delete.account.confirm
+msgctxt "jcommunity~account.form.delete.account.confirm"
+msgid "Confirm by indicating your password."
+msgstr "Bevestiging door jou wachtwoord."
+
+#: jcommunity~account.form.delete.account.submit
+msgctxt "jcommunity~account.form.delete.account.submit"
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: jcommunity~account.form.delete.account.done
+msgctxt "jcommunity~account.form.delete.account.done"
+msgid "Your account is now deleted. You are deconnected."
+msgstr "Jouw account is verwijderd. Je bent uitgelogd."
+
+#: jcommunity~account.form.delete.account.error.notremoved
+msgctxt "jcommunity~account.form.delete.account.error.notremoved"
+msgid "Impossible to delete your account. Contact the site manager."
+msgstr ""
+"Het is niet mogelijk om jou account te verwijderen. Neem contact op met de "
+"webmaster."
+
+#: jcommunity~account.form.delete.account.error.badpassword
+msgctxt "jcommunity~account.form.delete.account.error.badpassword"
+msgid "Impossible to delete your account: the given password is not valid."
+msgstr ""
+"Het is niet mogelijk jou account te verwijderen: het opgegeven wachtwoord is"
+" niet geldig."
+
+#: jcommunity~account.form.delete.account.error.wronguser
+msgctxt "jcommunity~account.form.delete.account.error.wronguser"
+msgid "Sorry, you are not supposed to be on this page..."
+msgstr "Sorry, maar je hebt geen toestemming voor deze pagina..."
+
+#: jcommunity~account.form.delete.account.error.nologout
+msgctxt "jcommunity~account.form.delete.account.error.nologout"
+msgid ""
+"Strange... Your account does not exist anymore, but your are still "
+"connected? Contact the site manager."
+msgstr ""
+"Vreemd... Je account blijkt niet meer te bestaan, maar je bent nog wel "
+"verbonden? Neem contact op met de webmaster."
+
+#: jcommunity~account.form.cancel
+msgctxt "jcommunity~account.form.cancel"
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: jcommunity~account.cancel.and.back.to.account
+msgctxt "jcommunity~account.cancel.and.back.to.account"
+msgid "Cancel and back to your profile"
+msgstr "Annuleer en terug naar jou profiel"
+
+#: jcommunity~account.back.to.account
+msgctxt "jcommunity~account.back.to.account"
+msgid "Back to your profile"
+msgstr "Terug naar jou profiel"
+
+#: jcommunity~password.form.title
+msgctxt "jcommunity~password.form.title"
+msgid "Resetting the password"
+msgstr "Reset het paswoord"
+
+#: jcommunity~password.form.text.html
+msgctxt "jcommunity~password.form.text.html"
+msgid ""
+"<p>If you have forgotten your password, fill the following form with your "
+"username and with the email you have set in your profil.</p> <p>An email "
+"will be sent with a link to a page allowing you to choose a new "
+"password.</p>"
+msgstr ""
+"1 Indien je het wachtwoord bent vergeten, vul het volgende formulier in met "
+"jou gebruikersnaam en het e-mail adres wat in je profiel gebruikt is 1  2 Er"
+" word een e-mail verstuurd met een link voor de pagina voor het aanmaken van"
+" een nieuw wachtwoord."
+
+#: jcommunity~password.form.submit
+msgctxt "jcommunity~password.form.submit"
+msgid "Send the email"
+msgstr "Email verzenden"
+
+#: jcommunity~password.waiting.text.html
+msgctxt "jcommunity~password.waiting.text.html"
+msgid ""
+"<p>An email has been sent to the address you gave. Verify your spam folder "
+"if you don't see it into your inbox in few minutes.</p> <p>This email "
+"contains a link to a page which allows you to change your password. This "
+"link is valid only 48 hours.</p> <p>The current password is still valid as "
+"long as you don't change it.</p>"
 msgstr ""
 
-#: jcommunity~login.error
-msgctxt "jcommunity~login.error"
-msgid "Unknown username or wrong password"
+#: jcommunity~password.mail.pwd.change.subject
+msgctxt "jcommunity~password.mail.pwd.change.subject"
+msgid "Request about a password reset on %s"
 msgstr ""
 
-#: jcommunity~login.login.title
-msgctxt "jcommunity~login.login.title"
-msgid "Sign in"
+#: jcommunity~password.form.change.title
+msgctxt "jcommunity~password.form.change.title"
+msgid "Password change"
+msgstr "Wachtwoord veranderen"
+
+#: jcommunity~password.form.change.current.password.label
+msgctxt "jcommunity~password.form.change.current.password.label"
+msgid "Your current password"
+msgstr "Huidig wachtwoord"
+
+#: jcommunity~password.form.change.password.label
+msgctxt "jcommunity~password.form.change.password.label"
+msgid "Your new password"
+msgstr "Nieuw wachtwoord"
+
+#: jcommunity~password.form.change.submit
+msgctxt "jcommunity~password.form.change.submit"
+msgid "Change"
+msgstr "Verander"
+
+#: jcommunity~password.form.change.text.html
+msgctxt "jcommunity~password.form.change.text.html"
+msgid "<p>Indicate your new password.</p>"
 msgstr ""
 
-#: jcommunity~login.logout
-msgctxt "jcommunity~login.logout"
-msgid "Sign out"
+#: jcommunity~password.form.change.error.alreadydone
+msgctxt "jcommunity~password.form.change.error.alreadydone"
+msgid "Sorry, there is no request for a password change."
+msgstr "Sorry, er is geen aanvraag voor een nieuw wachtwoord."
+
+#: jcommunity~password.form.change.error.badkey
+msgctxt "jcommunity~password.form.change.error.badkey"
+msgid ""
+"Password change is not possible: the username or the request key is not "
+"valid."
+msgstr ""
+"U kunt uw wachtwoord niet wijzigen. Uw gebruikersnaam of verzoeksleutel is "
+"niet juist."
+
+#: jcommunity~password.form.change.error.expiredkey
+msgctxt "jcommunity~password.form.change.error.expiredkey"
+msgid ""
+"Password change is not possible: the request has expired. Do an other "
+"request."
 msgstr ""
 
-#: jcommunity~login.login.account
-msgctxt "jcommunity~login.login.account"
-msgid "Your account"
+#: jcommunity~password.form.change.error.badstatus
+msgctxt "jcommunity~password.form.change.error.badstatus"
+msgid "Password change is not allowed because of your account status."
 msgstr ""
 
-#: jcommunity~login.login.password.reset
-msgctxt "jcommunity~login.login.password.reset"
-msgid "I forgot my password"
-msgstr ""
+#: jcommunity~password.form.change.error.badloginemail
+msgctxt "jcommunity~password.form.change.error.badloginemail"
+msgid "We don't know the username or the email you give"
+msgstr "Uw email of gebruikersnaam word niet herkend"
 
-#: jcommunity~login.access.title
-msgctxt "jcommunity~login.access.title"
-msgid "Page access"
-msgstr ""
+#: jcommunity~password.form.change.error.badcurrentpwd
+msgctxt "jcommunity~password.form.change.error.badcurrentpwd"
+msgid "The password does not match the current password"
+msgstr "Het wachtwoord komt niet overeen met het huidige wachtwoord."
 
-#: jcommunity~login.access.forbidden.authenticated
-msgctxt "jcommunity~login.access.forbidden.authenticated"
-msgid "You cannot access to this page because your are connected."
-msgstr ""
+#: jcommunity~password.form.change.reset.ok
+msgctxt "jcommunity~password.form.change.reset.ok"
+msgid "The new password is now saved. You can sign in now."
+msgstr "Uw nieuwe wachtwoord is opgeslagen. U kunt nu inloggen."
 
-#: jcommunity~login.access.forbidden.wrong.user
-msgctxt "jcommunity~login.access.forbidden.wrong.user"
-msgid "You cannot access to this page belonging to another user."
-msgstr ""
-
-#: jcommunity~login.access.not.available
-msgctxt "jcommunity~login.access.not.available"
-msgid "Page not available"
-msgstr ""
-
-#: jcommunity~login.startpage.connected
-msgctxt "jcommunity~login.startpage.connected"
-msgid "You are connected."
-msgstr ""
-
-#: jcommunity~login.startpage.not.connected
-msgctxt "jcommunity~login.startpage.not.connected"
-msgid "You are not connected."
-msgstr ""
-
-#: jcommunity~login.startpage.youcan
-msgctxt "jcommunity~login.startpage.youcan"
-msgid "You can:"
-msgstr ""
-
-#: jcommunity~login.startpage.account.view
-msgctxt "jcommunity~login.startpage.account.view"
-msgid "View your profile"
-msgstr ""
-
-#: jcommunity~login.startpage.account.create
-msgctxt "jcommunity~login.startpage.account.create"
-msgid "Create an account"
-msgstr ""
-
-#: jcommunity~login.startpage.logout
-msgctxt "jcommunity~login.startpage.logout"
-msgid "Sign out"
-msgstr ""
-
-#: jcommunity~login.startpage.login
-msgctxt "jcommunity~login.startpage.login"
-msgid "Sign in"
-msgstr ""
-
-#: jcommunity~login.startpage.password.reset
-msgctxt "jcommunity~login.startpage.password.reset"
-msgid "Reset your password"
-msgstr ""
-
-#: jcommunity~login.back.to.login
-msgctxt "jcommunity~login.back.to.login"
-msgid "Back to the login form"
-msgstr ""
-
-#: jcommunity~login.cancel.and.back.to.login
-msgctxt "jcommunity~login.cancel.and.back.to.login"
-msgid "Cancel and return to the login form"
-msgstr ""
+#: jcommunity~password.form.change.ok
+msgctxt "jcommunity~password.form.change.ok"
+msgid "The new password is now saved."
+msgstr "Het wachtwoord is opgeslagen."
 
 #: jcommunity~register.registration.title
 msgctxt "jcommunity~register.registration.title"
@@ -145,7 +352,7 @@ msgstr "Inschrijving"
 #: jcommunity~register.form.create.title
 msgctxt "jcommunity~register.form.create.title"
 msgid "Create an account"
-msgstr ""
+msgstr "Maak een account aan"
 
 #: jcommunity~register.form.create.text.html
 msgctxt "jcommunity~register.form.create.text.html"
@@ -158,22 +365,22 @@ msgstr ""
 #: jcommunity~register.form.create.submit
 msgctxt "jcommunity~register.form.create.submit"
 msgid "Create the account"
-msgstr ""
+msgstr "Maak een account aan"
 
 #: jcommunity~register.mail.new.subject
 msgctxt "jcommunity~register.mail.new.subject"
 msgid "Activating your account on the web site %s"
-msgstr ""
+msgstr "Activeer jou account op de website 1%s"
 
 #: jcommunity~register.form.login.exists
 msgctxt "jcommunity~register.form.login.exists"
 msgid "This username already exists"
-msgstr ""
+msgstr "Gebruikersnaam is al in gebruik"
 
 #: jcommunity~register.registration.waiting.title
 msgctxt "jcommunity~register.registration.waiting.title"
 msgid "Registration"
-msgstr "Inschrijving"
+msgstr "Registratie"
 
 #: jcommunity~register.registration.waiting.text.html
 msgctxt "jcommunity~register.registration.waiting.text.html"
@@ -211,317 +418,122 @@ msgctxt "jcommunity~register.registration.confirm.badstatus"
 msgid "Activation is not possible: your account is not a new one."
 msgstr ""
 
-#: jcommunity~account.unknown.user
-msgctxt "jcommunity~account.unknown.user"
-msgid "Unknown user"
+#: jcommunity~login.error.notlogged
+msgctxt "jcommunity~login.error.notlogged"
+msgid "You are not connected, you should sign in."
+msgstr "U bent niet verbonden, u moet inloggen."
+
+#: jcommunity~login.error.no.after_login
+msgctxt "jcommunity~login.error.no.after_login"
+msgid "In the configuration of the plugin 'auth', after_login is empty"
 msgstr ""
 
-#: jcommunity~account.error.dup.nickname
-msgctxt "jcommunity~account.error.dup.nickname"
-msgid "The displayed name is already used by another user"
+#: jcommunity~login.error.no.after_logout
+msgctxt "jcommunity~login.error.no.after_logout"
+msgid "In the configuration of the plugin 'auth', after_logout is empty"
 msgstr ""
 
-#: jcommunity~account.form.login
-msgctxt "jcommunity~account.form.login"
-msgid "Username"
+#: jcommunity~login.form.remember.me
+msgctxt "jcommunity~login.form.remember.me"
+msgid "Remember me"
 msgstr ""
 
-#: jcommunity~account.form.email
-msgctxt "jcommunity~account.form.email"
-msgid "Email"
+#: jcommunity~login.form.submit
+msgctxt "jcommunity~login.form.submit"
+msgid "Sign in"
+msgstr "Inloggen"
+
+#: jcommunity~login.error
+msgctxt "jcommunity~login.error"
+msgid "Unknown username or wrong password"
 msgstr ""
 
-#: jcommunity~account.form.submit
-msgctxt "jcommunity~account.form.submit"
-msgid "Save"
-msgstr "Opslaan"
+#: jcommunity~login.login.title
+msgctxt "jcommunity~login.login.title"
+msgid "Sign in"
+msgstr "Inloggen"
 
-#: jcommunity~account.form.nickname
-msgctxt "jcommunity~account.form.nickname"
-msgid "Displayed name"
+#: jcommunity~login.logout
+msgctxt "jcommunity~login.logout"
+msgid "Sign out"
+msgstr "Uiloggen"
+
+#: jcommunity~login.login.account
+msgctxt "jcommunity~login.login.account"
+msgid "Your account"
+msgstr "Je account"
+
+#: jcommunity~login.login.password.reset
+msgctxt "jcommunity~login.login.password.reset"
+msgid "I forgot my password"
+msgstr "Ik ben mijn wachtwoord vergeten"
+
+#: jcommunity~login.access.title
+msgctxt "jcommunity~login.access.title"
+msgid "Page access"
+msgstr "Pagina toegang"
+
+#: jcommunity~login.access.forbidden.authenticated
+msgctxt "jcommunity~login.access.forbidden.authenticated"
+msgid "You cannot access to this page because your are connected."
 msgstr ""
 
-#: jcommunity~account.form.password
-msgctxt "jcommunity~account.form.password"
-msgid "Password"
-msgstr "Wachtwoord"
-
-#: jcommunity~account.form.password.help
-msgctxt "jcommunity~account.form.password.help"
-msgid "The password length must be above 8 characters"
+#: jcommunity~login.access.forbidden.wrong.user
+msgctxt "jcommunity~login.access.forbidden.wrong.user"
+msgid "You cannot access to this page belonging to another user."
 msgstr ""
 
-#: jcommunity~account.form.password.confirm
-msgctxt "jcommunity~account.form.password.confirm"
-msgid "Retype the password"
-msgstr ""
+#: jcommunity~login.access.not.available
+msgctxt "jcommunity~login.access.not.available"
+msgid "Page not available"
+msgstr "Pagina is niet beschikbaar"
 
-#: jcommunity~account.form.status
-msgctxt "jcommunity~account.form.status"
-msgid "Status"
-msgstr ""
+#: jcommunity~login.startpage.connected
+msgctxt "jcommunity~login.startpage.connected"
+msgid "You are connected."
+msgstr "Verbonden"
 
-#: jcommunity~account.form.status.deleted
-msgctxt "jcommunity~account.form.status.deleted"
-msgid "Deleted"
-msgstr ""
+#: jcommunity~login.startpage.not.connected
+msgctxt "jcommunity~login.startpage.not.connected"
+msgid "You are not connected."
+msgstr "Je bent niet verbonden"
 
-#: jcommunity~account.form.status.deactivate
-msgctxt "jcommunity~account.form.status.deactivate"
-msgid "Deactivated"
-msgstr ""
+#: jcommunity~login.startpage.youcan
+msgctxt "jcommunity~login.startpage.youcan"
+msgid "You can:"
+msgstr "Je kunt:"
 
-#: jcommunity~account.form.status.newuser
-msgctxt "jcommunity~account.form.status.newuser"
-msgid "New account, awaiting email validation"
-msgstr ""
+#: jcommunity~login.startpage.account.view
+msgctxt "jcommunity~login.startpage.account.view"
+msgid "View your profile"
+msgstr "Bekijk jou profiel"
 
-#: jcommunity~account.form.status.valid
-msgctxt "jcommunity~account.form.status.valid"
-msgid "Account validated"
-msgstr ""
+#: jcommunity~login.startpage.account.create
+msgctxt "jcommunity~login.startpage.account.create"
+msgid "Create an account"
+msgstr "Maak een account aan"
 
-#: jcommunity~account.form.status.valid.email.changed
-msgctxt "jcommunity~account.form.status.valid.email.changed"
-msgid "Validated, awaiting new email validation"
-msgstr ""
+#: jcommunity~login.startpage.logout
+msgctxt "jcommunity~login.startpage.logout"
+msgid "Sign out"
+msgstr "Uiloggen"
 
-#: jcommunity~account.form.status.valid.password.changed
-msgctxt "jcommunity~account.form.status.valid.password.changed"
-msgid "Validated, awaiting reset password"
-msgstr ""
+#: jcommunity~login.startpage.login
+msgctxt "jcommunity~login.startpage.login"
+msgid "Sign in"
+msgstr "Inloggen"
 
-#: jcommunity~account.form.keyactivate
-msgctxt "jcommunity~account.form.keyactivate"
-msgid "Request key"
-msgstr ""
+#: jcommunity~login.startpage.password.reset
+msgctxt "jcommunity~login.startpage.password.reset"
+msgid "Reset your password"
+msgstr "Reset jou wachtwoord"
 
-#: jcommunity~account.form.requestdate
-msgctxt "jcommunity~account.form.requestdate"
-msgid "Request date"
-msgstr ""
+#: jcommunity~login.back.to.login
+msgctxt "jcommunity~login.back.to.login"
+msgid "Back to the login form"
+msgstr "Terug naar het login scherm"
 
-#: jcommunity~account.form.createdate
-msgctxt "jcommunity~account.form.createdate"
-msgid "Date of account creation"
-msgstr ""
-
-#: jcommunity~account.form.captcha
-msgctxt "jcommunity~account.form.captcha"
-msgid "Are you a human?"
-msgstr ""
-
-#: jcommunity~account.profile.of
-msgctxt "jcommunity~account.profile.of"
-msgid "%1$s's Profile"
-msgstr ""
-
-#: jcommunity~account.link.profile.edit
-msgctxt "jcommunity~account.link.profile.edit"
-msgid "Edit your profile"
-msgstr "Pas je profiel aan"
-
-#: jcommunity~account.link.account.delete
-msgctxt "jcommunity~account.link.account.delete"
-msgid "Delete your account"
-msgstr ""
-
-#: jcommunity~account.link.account.change.password
-msgctxt "jcommunity~account.link.account.change.password"
-msgid "Change your password"
-msgstr "Wachtwoord veranderen"
-
-#: jcommunity~account.form.edit.profile.title
-msgctxt "jcommunity~account.form.edit.profile.title"
-msgid "Editing your profile"
-msgstr ""
-
-#: jcommunity~account.form.delete.account.title
-msgctxt "jcommunity~account.form.delete.account.title"
-msgid "Deleting your account"
-msgstr ""
-
-#: jcommunity~account.form.delete.account.confirm.title
-msgctxt "jcommunity~account.form.delete.account.confirm.title"
-msgid "Confirm the deletion of your account"
-msgstr ""
-
-#: jcommunity~account.form.delete.account.confirm
-msgctxt "jcommunity~account.form.delete.account.confirm"
-msgid "Confirm by indicating your password."
-msgstr ""
-
-#: jcommunity~account.form.delete.account.submit
-msgctxt "jcommunity~account.form.delete.account.submit"
-msgid "Delete"
-msgstr "Verwijderen"
-
-#: jcommunity~account.form.delete.account.done
-msgctxt "jcommunity~account.form.delete.account.done"
-msgid "Your account is now deleted. You are deconnected."
-msgstr ""
-
-#: jcommunity~account.form.delete.account.error.notremoved
-msgctxt "jcommunity~account.form.delete.account.error.notremoved"
-msgid "Impossible to delete your account. Contact the site manager."
-msgstr ""
-
-#: jcommunity~account.form.delete.account.error.badpassword
-msgctxt "jcommunity~account.form.delete.account.error.badpassword"
-msgid "Impossible to delete your account: the given password is not valid."
-msgstr ""
-
-#: jcommunity~account.form.delete.account.error.wronguser
-msgctxt "jcommunity~account.form.delete.account.error.wronguser"
-msgid "Sorry, you are not supposed to be on this page..."
-msgstr ""
-
-#: jcommunity~account.form.delete.account.error.nologout
-msgctxt "jcommunity~account.form.delete.account.error.nologout"
-msgid ""
-"Strange... Your account does not exist anymore, but your are still "
-"connected? Contact the site manager."
-msgstr ""
-
-#: jcommunity~account.form.cancel
-msgctxt "jcommunity~account.form.cancel"
-msgid "Cancel"
-msgstr "Annuleer"
-
-#: jcommunity~account.cancel.and.back.to.account
-msgctxt "jcommunity~account.cancel.and.back.to.account"
-msgid "Cancel and back to your profile"
-msgstr ""
-
-#: jcommunity~account.back.to.account
-msgctxt "jcommunity~account.back.to.account"
-msgid "Back to your profile"
-msgstr ""
-
-#: jcommunity~prefs.group.jcommunity
-msgctxt "jcommunity~prefs.group.jcommunity"
-msgid "jCommunity"
-msgstr ""
-
-#: jcommunity~prefs.pref.registrationEnabled
-msgctxt "jcommunity~prefs.pref.registrationEnabled"
-msgid "An unknown user can create a new account"
-msgstr ""
-
-#: jcommunity~prefs.pref.resetPasswordEnabled
-msgctxt "jcommunity~prefs.pref.resetPasswordEnabled"
-msgid "A user can reset password when he forget it"
-msgstr ""
-
-#: jcommunity~prefs.jcommunity.admin
-msgctxt "jcommunity~prefs.jcommunity.admin"
-msgid "jCommunity"
-msgstr ""
-
-#: jcommunity~prefs.admin.prefs.change
-msgctxt "jcommunity~prefs.admin.prefs.change"
-msgid "Modify preferences of jCommunity"
-msgstr ""
-
-#: jcommunity~password.form.title
-msgctxt "jcommunity~password.form.title"
-msgid "Resetting the password"
-msgstr ""
-
-#: jcommunity~password.form.text.html
-msgctxt "jcommunity~password.form.text.html"
-msgid ""
-"<p>If you have forgotten your password, fill the following form with your "
-"username and with the email you have set in your profil.</p> <p>An email "
-"will be sent with a link to a page allowing you to choose a new "
-"password.</p>"
-msgstr ""
-
-#: jcommunity~password.form.submit
-msgctxt "jcommunity~password.form.submit"
-msgid "Send the email"
-msgstr ""
-
-#: jcommunity~password.waiting.text.html
-msgctxt "jcommunity~password.waiting.text.html"
-msgid ""
-"<p>An email has been sent to the address you gave. Verify your spam folder "
-"if you don't see it into your inbox in few minutes.</p> <p>This email "
-"contains a link to a page which allows you to change your password. This "
-"link is valid only 48 hours.</p> <p>The current password is still valid as "
-"long as you don't change it.</p>"
-msgstr ""
-
-#: jcommunity~password.mail.pwd.change.subject
-msgctxt "jcommunity~password.mail.pwd.change.subject"
-msgid "Request about a password reset on %s"
-msgstr ""
-
-#: jcommunity~password.form.change.title
-msgctxt "jcommunity~password.form.change.title"
-msgid "Password change"
-msgstr ""
-
-#: jcommunity~password.form.change.current.password.label
-msgctxt "jcommunity~password.form.change.current.password.label"
-msgid "Your current password"
-msgstr ""
-
-#: jcommunity~password.form.change.password.label
-msgctxt "jcommunity~password.form.change.password.label"
-msgid "Your new password"
-msgstr ""
-
-#: jcommunity~password.form.change.submit
-msgctxt "jcommunity~password.form.change.submit"
-msgid "Change"
-msgstr ""
-
-#: jcommunity~password.form.change.text.html
-msgctxt "jcommunity~password.form.change.text.html"
-msgid "<p>Indicate your new password.</p>"
-msgstr ""
-
-#: jcommunity~password.form.change.error.alreadydone
-msgctxt "jcommunity~password.form.change.error.alreadydone"
-msgid "Sorry, there is no request for a password change."
-msgstr ""
-
-#: jcommunity~password.form.change.error.badkey
-msgctxt "jcommunity~password.form.change.error.badkey"
-msgid ""
-"Password change is not possible: the username or the request key is not "
-"valid."
-msgstr ""
-
-#: jcommunity~password.form.change.error.expiredkey
-msgctxt "jcommunity~password.form.change.error.expiredkey"
-msgid ""
-"Password change is not possible: the request has expired. Do an other "
-"request."
-msgstr ""
-
-#: jcommunity~password.form.change.error.badstatus
-msgctxt "jcommunity~password.form.change.error.badstatus"
-msgid "Password change is not allowed because of your account status."
-msgstr ""
-
-#: jcommunity~password.form.change.error.badloginemail
-msgctxt "jcommunity~password.form.change.error.badloginemail"
-msgid "We don't know the username or the email you give"
-msgstr ""
-
-#: jcommunity~password.form.change.error.badcurrentpwd
-msgctxt "jcommunity~password.form.change.error.badcurrentpwd"
-msgid "The password does not match the current password"
-msgstr ""
-
-#: jcommunity~password.form.change.reset.ok
-msgctxt "jcommunity~password.form.change.reset.ok"
-msgid "The new password is now saved. You can sign in now."
-msgstr ""
-
-#: jcommunity~password.form.change.ok
-msgctxt "jcommunity~password.form.change.ok"
-msgid "The new password is now saved."
-msgstr ""
+#: jcommunity~login.cancel.and.back.to.login
+msgctxt "jcommunity~login.cancel.and.back.to.login"
+msgid "Cancel and return to the login form"
+msgstr "Annuleer en terug naar login scherm"

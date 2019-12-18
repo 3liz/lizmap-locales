@@ -1,5 +1,6 @@
 # Translators:
 # Tudor Bărăscu <tudorbarascu@yahoo.com>, 2019
+# Igor Sorocean <sorocean.igor@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -7,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-23 15:27++0100\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
-"Last-Translator: Tudor Bărăscu <tudorbarascu@yahoo.com>, 2019\n"
+"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2019\n"
 "Language-Team: Romanian (https://www.transifex.com/3liz-1/teams/62012/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,12 +64,12 @@ msgstr "Ștergere depozite date"
 #: admin~jacl2.lizmap.admin.grp.default
 msgctxt "admin~jacl2.lizmap.admin.grp.default"
 msgid "default group"
-msgstr ""
+msgstr "grup implicit"
 
 #: admin~jacl2.lizmap.repositories.view
 msgctxt "admin~jacl2.lizmap.repositories.view"
 msgid "View projects in the repository"
-msgstr ""
+msgstr "Vizualizați proiectele în depozit"
 
 #: admin~jacl2.lizmap.tools.edition.use
 msgctxt "admin~jacl2.lizmap.tools.edition.use"
@@ -95,7 +96,7 @@ msgstr "Permite exportul de layere"
 #: admin~admin.header.admin
 msgctxt "admin~admin.header.admin"
 msgid "Administration"
-msgstr ""
+msgstr "Administrare"
 
 #: admin~admin.menu.configuration.main.label
 msgctxt "admin~admin.menu.configuration.main.label"
@@ -222,6 +223,7 @@ msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of Ldap authentication"
 msgstr ""
+"Această opțiune este dezactivată din cauza utilizării autentificării Ldap"
 
 #: admin~admin.configuration.services.adminContactEmail.label
 msgctxt "admin~admin.configuration.services.adminContactEmail.label"
@@ -276,12 +278,12 @@ msgstr "Oprit"
 #: admin~admin.form.admin_services.yes.label
 msgctxt "admin~admin.form.admin_services.yes.label"
 msgid "Yes"
-msgstr ""
+msgstr "Da"
 
 #: admin~admin.form.admin_services.no.label
 msgctxt "admin~admin.form.admin_services.no.label"
 msgid "No"
-msgstr ""
+msgstr "Nu"
 
 #: admin~admin.form.admin_services.appName.label
 msgctxt "admin~admin.form.admin_services.appName.label"
@@ -301,12 +303,12 @@ msgstr "≤ 2.14"
 #: admin~admin.form.admin_services.qgisServerVersion.218.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.218.label"
 msgid "2.18"
-msgstr ""
+msgstr "2.18"
 
 #: admin~admin.form.admin_services.qgisServerVersion.300.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.300.label"
 msgid "≥ 3.0"
-msgstr ""
+msgstr "≥ 3.0"
 
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
@@ -456,12 +458,13 @@ msgstr ""
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use relative path from root folder?"
-msgstr ""
+msgstr "Serverul folosește o cale relativă din dosarul root?"
 
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
 msgid "Send request to QGIS Server or request to external services with"
 msgstr ""
+"Trimiteți cerere către serverul QGIS sau cerere către servicii externe cu"
 
 #: admin~admin.form.admin_services.proxyMethod.php.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
@@ -477,46 +480,47 @@ msgstr "Curl"
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
 msgid "Use a proxy server to do requests to external services"
 msgstr ""
+"Utilizați un server proxy pentru a face solicitări către servicii externe"
 
 #: admin~admin.form.admin_services.requestProxy.enabled
 msgctxt "admin~admin.form.admin_services.requestProxy.enabled"
 msgid "Use a proxy server"
-msgstr ""
+msgstr "Utilizați un server proxy"
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
 msgid "No proxy"
-msgstr ""
+msgstr "Niciun proxy"
 
 #: admin~admin.form.admin_services.requestProxyHost.label
 msgctxt "admin~admin.form.admin_services.requestProxyHost.label"
 msgid "Host of the proxy server"
-msgstr ""
+msgstr "Gazdă a serverului proxy"
 
 #: admin~admin.form.admin_services.requestProxyPort.label
 msgctxt "admin~admin.form.admin_services.requestProxyPort.label"
 msgid "Port of the proxy server"
-msgstr ""
+msgstr "Portul serverului proxy"
 
 #: admin~admin.form.admin_services.requestProxyType.label
 msgctxt "admin~admin.form.admin_services.requestProxyType.label"
 msgid "Type of the proxy"
-msgstr ""
+msgstr "Tipul serverului proxy"
 
 #: admin~admin.form.admin_services.requestProxyUser.label
 msgctxt "admin~admin.form.admin_services.requestProxyUser.label"
 msgid "Login to access to the proxy server"
-msgstr ""
+msgstr "Autentificare server proxy"
 
 #: admin~admin.form.admin_services.requestProxyPassword.label
 msgctxt "admin~admin.form.admin_services.requestProxyPassword.label"
 msgid "Password to access to the proxy server"
-msgstr ""
+msgstr "Parola serverului proxy"
 
 #: admin~admin.form.admin_services.requestProxyNotForDomain.label
 msgctxt "admin~admin.form.admin_services.requestProxyNotForDomain.label"
 msgid "Domains for which the proxy will not be used"
-msgstr ""
+msgstr "Domenii pentru care proxy nu va fi utilizat"
 
 #: admin~admin.form.admin_services.debugMode.label
 msgctxt "admin~admin.form.admin_services.debugMode.label"
@@ -559,21 +563,23 @@ msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
 msgstr ""
+"Dacă este activat, vizitatorii pot completa un formular pentru a solicita un"
+" cont. Adresa expeditorului pentru e-mailurile ar trebui să fie setată."
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
 msgid "E-mail where to send notifications"
-msgstr ""
+msgstr "E-mail unde se trimit notificări"
 
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
 msgid "E-mail address to which notifications will be sent"
-msgstr ""
+msgstr "Adresa de e-mail la care vor fi trimise notificările"
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
 msgid "Sender address of e-mails"
-msgstr ""
+msgstr "Adresa expeditorului e-mailurilor"
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
@@ -581,6 +587,9 @@ msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
 msgstr ""
+"Adresa de e-mail folosită pentru a trimite e-mailuri. Dacă lipsește, Lizmap "
+"nu va trimite niciun e-mail. Asigurați-vă că serverul dvs. are dreptul să "
+"trimită e-mail cu această adresă."
 
 #: admin~admin.form.admin_services.adminSenderEmail.error.required
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
@@ -588,16 +597,18 @@ msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
 msgstr ""
+"O adresă de e-mail a expeditorului este necesară pentru a trimite notificări"
+" sau cereri pentru creare de conturi"
 
 #: admin~admin.form.admin_services.adminSenderName.label
 msgctxt "admin~admin.form.admin_services.adminSenderName.label"
 msgid "Sender name of e-mails"
-msgstr ""
+msgstr "Numele expeditorului de e-mailuri"
 
 #: admin~admin.form.admin_services.adminSenderName.help
 msgctxt "admin~admin.form.admin_services.adminSenderName.help"
 msgid "Name of the sender used to send e-mails."
-msgstr ""
+msgstr "Numele expeditorului folosit pentru a trimite e-mailuri."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.label
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
@@ -652,7 +663,7 @@ msgstr "Calea către directorul local"
 msgctxt ""
 "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
 msgid "Allow themes/javascript codes for this repository"
-msgstr ""
+msgstr "Permiteți teme/coduri javascript pentru acest depozit"
 
 #: admin~admin.form.admin_section.submit.label
 msgctxt "admin~admin.form.admin_section.submit.label"
@@ -732,17 +743,17 @@ msgstr "Temă"
 #: admin~admin.form.admin_theme.headerLogo.label
 msgctxt "admin~admin.form.admin_theme.headerLogo.label"
 msgid "Header - logo"
-msgstr "Logo - Header"
+msgstr "Logo - Antet"
 
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
 msgid "The image to be used for the header logo (200ko Maximum)."
-msgstr "Imaginea este folosită în logo-ul header-ului (200 ko Maxim)"
+msgstr "Imaginea este folosită în logo-ul antetului (200 ko Maxim)"
 
 #: admin~admin.form.admin_theme.headerLogoWidth.label
 msgctxt "admin~admin.form.admin_theme.headerLogoWidth.label"
 msgid "Header - logo width"
-msgstr "Lățime logo - header"
+msgstr "Lățime logo - antet"
 
 #: admin~admin.form.admin_theme.headerLogoWidth.help
 msgctxt "admin~admin.form.admin_theme.headerLogoWidth.help"
@@ -752,42 +763,43 @@ msgstr "Lățimea ocupată de logo-ul header-ului înainte de titlu (în pixeli)
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
 msgid "Header - background image"
-msgstr ""
+msgstr "Antet - imagine de fundal"
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
 msgid "The image to be used for the header background (400ko Maximum)."
 msgstr ""
+"Imaginea care va fi utilizată pentru fundalul antetului (400ko Maxim)."
 
 #: admin~admin.form.admin_theme.headerBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.label"
 msgid "Header - background color"
-msgstr "Culoare fundal header"
+msgstr "Culoare fundal antet"
 
 #: admin~admin.form.admin_theme.headerBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.help"
 msgid "The color of the header background."
-msgstr "Culoarea fundalului header-ului"
+msgstr "Culoarea fundalului antetului"
 
 #: admin~admin.form.admin_theme.headerTitleColor.label
 msgctxt "admin~admin.form.admin_theme.headerTitleColor.label"
 msgid "Header - title color"
-msgstr "Culoare titlu header"
+msgstr "Culoare titlu antet"
 
 #: admin~admin.form.admin_theme.headerTitleColor.help
 msgctxt "admin~admin.form.admin_theme.headerTitleColor.help"
 msgid "The color of the header title text."
-msgstr "Culoarea text-ului din titlul header-ului."
+msgstr "Culoarea textului din titlul antetului"
 
 #: admin~admin.form.admin_theme.headerSubtitleColor.label
 msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.label"
 msgid "Header - subtitle color"
-msgstr "Culoare subitrare header."
+msgstr "Culoare subtitrare antet"
 
 #: admin~admin.form.admin_theme.headerSubtitleColor.help
 msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.help"
 msgid "The color of the header subtitle text."
-msgstr "Culoare text subtitrare header."
+msgstr "Culoare text subtitrare antet"
 
 #: admin~admin.form.admin_theme.menuBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.label"
@@ -822,13 +834,15 @@ msgstr "Culoarea de fundal al bării de navigație (unelte zoom)"
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
 msgid "Additional CSS properties"
-msgstr ""
+msgstr "Proprietăți CSS suplimentare"
 
 #: admin~admin.form.admin_theme.additionalCss.help
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
 msgstr ""
+"Puteți scrie orice sintaxă CSS pentru a trece peste stilul Lizmap (pentru "
+"utilizatorii avansați)"
 
 #: admin~admin.theme.detail.title
 msgctxt "admin~admin.theme.detail.title"
@@ -843,7 +857,7 @@ msgstr "Elimină"
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
 msgid "Remove this image (and use default one) ?"
-msgstr ""
+msgstr "Eliminați această imagine (și o utilizați pe cea implicită)?"
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
@@ -953,62 +967,66 @@ msgstr "IP"
 #: admin~admin.logs.first_page
 msgctxt "admin~admin.logs.first_page"
 msgid "First"
-msgstr ""
+msgstr "Prima"
 
 #: admin~admin.logs.previous_page
 msgctxt "admin~admin.logs.previous_page"
 msgid "Previous"
-msgstr ""
+msgstr "Precedenta"
 
 #: admin~admin.logs.next_page
 msgctxt "admin~admin.logs.next_page"
 msgid "Next"
-msgstr ""
+msgstr "Următoarea"
 
 #: admin~admin.logs.email.subject
 msgctxt "admin~admin.logs.email.subject"
 msgid "A new log item has been recorded."
-msgstr ""
+msgstr "Un nou articol de jurnal a fost înregistrat."
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
 msgid "A user has logged in."
-msgstr ""
+msgstr "Un utilizator s-a autentificat."
 
 #: admin~admin.logs.email.viewmap.body
 msgctxt "admin~admin.logs.email.viewmap.body"
 msgid "A user has accessed a map."
-msgstr ""
+msgstr "Un utilizator a accesat o hartă."
 
 #: admin~admin.logs.email.print.body
 msgctxt "admin~admin.logs.email.print.body"
 msgid "A user has used the print tool."
-msgstr ""
+msgstr "Un utilizator a folosit instrumentul de imprimare."
 
 #: admin~admin.logs.email.popup.body
 msgctxt "admin~admin.logs.email.popup.body"
 msgid "A user has opened a feature information popup."
 msgstr ""
+"Un utilizator a deschis un balon informativ cu informații despre "
+"caracteristici."
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
 msgid "A feature has been created or modified by a user."
-msgstr ""
+msgstr "O caracteristică a fost creată sau modificată de către un utilizator."
 
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
 msgid "A feature has been deleted by a user."
-msgstr ""
+msgstr "O caracteristică a fost ștersă de către un utilizator."
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
 msgid "Error log"
-msgstr ""
+msgstr "Jurnal de erori"
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the Lizmap Web Client application error log file"
 msgstr ""
+"Ultimele rânduri ale fișierului jurnal de erori al aplicației Lizmap Web "
+"Client"
 
 #: admin~admin.logs.error.file.too.big
 msgctxt "admin~admin.logs.error.file.too.big"
@@ -1016,21 +1034,23 @@ msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
 msgstr ""
+"Fișierul jurnal de erori este prea mare. Luați în considerare utilizarea "
+"repetării jurnalului pentru jurnalele Lizmap Web Client."
 
 #: admin~admin.logs.error.file.erase
 msgctxt "admin~admin.logs.error.file.erase"
 msgid "Erase the error log file"
-msgstr ""
+msgstr "Ștergeți fișierul jurnal de erori"
 
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
 msgid "Are you sure you want to erase the error log file ?"
-msgstr ""
+msgstr "Sigur doriți să ștergeți fișierul jurnal de erori?"
 
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
-msgstr ""
+msgstr "Fișierul jurnal de erori a fost șters."
 
 #: admin~user.form.comment.label
 msgctxt "admin~user.form.comment.label"
@@ -1040,7 +1060,7 @@ msgstr "Comentarii"
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"
 msgid "Lizmap - Someone requested an account"
-msgstr ""
+msgstr "Lizmap - Cineva a solicitat un cont"
 
 #: admin~user.email.admin.body
 msgctxt "admin~user.email.admin.body"
@@ -1048,28 +1068,30 @@ msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
 msgstr ""
+"Cineva a solicitat un cont Lizmap pentru a putea accesa hărțile, cu "
+"autentificarea %s și adresa de e-mail %s."
 
 #: admin~user.acl.no.group
 msgctxt "admin~user.acl.no.group"
 msgid "The user is not in any group"
-msgstr ""
+msgstr "Utilizatorul nu se află în niciun grup"
 
 #: admin~user.acl.form.title
 msgctxt "admin~user.acl.form.title"
 msgid "Groups the user belongs to"
-msgstr ""
+msgstr "Grupuri la care aparține utilizatorul"
 
 #: admin~user.acl.form.remove.from.group
 msgctxt "admin~user.acl.form.remove.from.group"
 msgid "Remove him from this group"
-msgstr ""
+msgstr "Eliminați-l din acest grup"
 
 #: admin~user.acl.form.add.to.group
 msgctxt "admin~user.acl.form.add.to.group"
 msgid "Add him to this group"
-msgstr ""
+msgstr "Adăugați-l la acest grup"
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
 msgid "Add"
-msgstr ""
+msgstr "Adăugare"
