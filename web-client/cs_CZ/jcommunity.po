@@ -119,7 +119,7 @@ msgstr "Ověřeno, čeká na nové ověření e-mailu"
 #: jcommunity~account.form.status.valid.password.changed
 msgctxt "jcommunity~account.form.status.valid.password.changed"
 msgid "Validated, awaiting password reset"
-msgstr ""
+msgstr "Ověřeno, čeká na resetování hesla"
 
 #: jcommunity~account.form.keyactivate
 msgctxt "jcommunity~account.form.keyactivate"
@@ -147,6 +147,7 @@ msgid ""
 "An email will be send to the user, so the user could activate the account by"
 " giving a new password."
 msgstr ""
+"Uživateli bude zaslán e-mail, aby mohl účet aktivovat zadáním nového hesla."
 
 #: jcommunity~account.form.admin.create.emailsent
 msgctxt "jcommunity~account.form.admin.create.emailsent"
@@ -154,6 +155,8 @@ msgid ""
 "An email has been sent to the user, so he could activate its account by "
 "giving a new password"
 msgstr ""
+"Uživateli byl zaslán e-mail, aby mohl aktivovat svůj účet zadáním nového "
+"hesla"
 
 #: jcommunity~account.profile.of
 msgctxt "jcommunity~account.profile.of"
@@ -178,12 +181,12 @@ msgstr "Změnit si své heslo"
 #: jcommunity~account.admin.link.account.reset.password
 msgctxt "jcommunity~account.admin.link.account.reset.password"
 msgid "Reset his password"
-msgstr ""
+msgstr "Resetujte jeho heslo"
 
 #: jcommunity~account.admin.link.account.resent.validation.email
 msgctxt "jcommunity~account.admin.link.account.resent.validation.email"
 msgid "Resend the validation email"
-msgstr ""
+msgstr "Znovu odeslat ověřovací e-mail"
 
 #: jcommunity~account.form.edit.profile.title
 msgctxt "jcommunity~account.form.edit.profile.title"
@@ -257,7 +260,7 @@ msgstr "Zpět na profil"
 #: jcommunity~account.duration.day
 msgctxt "jcommunity~account.duration.day"
 msgid "day"
-msgstr ""
+msgstr "den"
 
 #: jcommunity~account.duration.days
 msgctxt "jcommunity~account.duration.days"
@@ -267,7 +270,7 @@ msgstr "dnů"
 #: jcommunity~account.duration.hour
 msgctxt "jcommunity~account.duration.hour"
 msgid "hour"
-msgstr ""
+msgstr "hodina"
 
 #: jcommunity~account.duration.hours
 msgctxt "jcommunity~account.duration.hours"
@@ -277,7 +280,7 @@ msgstr "hodin"
 #: jcommunity~account.duration.minute
 msgctxt "jcommunity~account.duration.minute"
 msgid "minute"
-msgstr ""
+msgstr "minuta"
 
 #: jcommunity~account.duration.minutes
 msgctxt "jcommunity~account.duration.minutes"
@@ -307,22 +310,22 @@ msgctxt "jcommunity~password.admin.form.reset.html"
 msgid ""
 "<p>An email will be send to the user, so the user could change his "
 "password.</p>"
-msgstr ""
+msgstr "<p> Uživateli bude zaslán e-mail, aby mohl změnit své heslo.</p>"
 
 #: jcommunity~password.admin.form.back.to.account
 msgctxt "jcommunity~password.admin.form.back.to.account"
 msgid "Back to the account of"
-msgstr ""
+msgstr "Zpět na účet uživatele"
 
 #: jcommunity~password.admin.form.email.button
 msgctxt "jcommunity~password.admin.form.email.button"
 msgid "Send the email to"
-msgstr ""
+msgstr "Pošlete e-mail na adresu"
 
 #: jcommunity~password.admin.waiting.text.html
 msgctxt "jcommunity~password.admin.waiting.text.html"
 msgid "<p>An email has been sent to the user.</p>"
-msgstr ""
+msgstr "<p>Uživateli byl odeslán e-mail.</p>"
 
 #: jcommunity~password.form.submit
 msgctxt "jcommunity~password.form.submit"
@@ -339,6 +342,12 @@ msgid ""
 "allows you to change your password. This link is valid only 48 hours.</p> "
 "<p>The current password is still valid as long as you don't change it.</p>"
 msgstr ""
+"<p>Na vámi zadanou adresu byl zaslán e-mail. Pokud jej ve složce Doručená "
+"pošta nevidíte během několika minut, ověřte složku se spamem. Pokud jste "
+"e-mail neobdrželi, možná je přihlašovací jméno a e-mail neplatný. Obraťte se"
+" na správce webu.</p> <p>Tento e-mail obsahuje odkaz na stránku, která vám "
+"umožní změnit heslo. Tento odkaz je platný pouze 48 hodin.</p> <p>Aktuální "
+"heslo je stále platné, dokud jej nezměníte.</p>"
 
 #: jcommunity~password.mail.pwd.change.subject
 msgctxt "jcommunity~password.mail.pwd.change.subject"
@@ -408,12 +417,12 @@ msgstr "Heslo neodpovídá aktuálnímu heslu"
 #: jcommunity~password.form.change.error.admin.badstatus
 msgctxt "jcommunity~password.form.change.error.admin.badstatus"
 msgid "Password change is not allowed because of the account status."
-msgstr ""
+msgstr "Změna hesla není povolena kvůli stavu účtu."
 
 #: jcommunity~password.form.change.error.admin.badloginemail
 msgctxt "jcommunity~password.form.change.error.admin.badloginemail"
 msgid "The username or his email is unknown"
-msgstr ""
+msgstr "Uživatelské jméno nebo jeho e-mail není znám"
 
 #: jcommunity~password.form.change.reset.ok
 msgctxt "jcommunity~password.form.change.reset.ok"
@@ -428,7 +437,7 @@ msgstr "Nové heslo je nyní uloženo."
 #: jcommunity~password.form.create.title
 msgctxt "jcommunity~password.form.create.title"
 msgid "Account creation"
-msgstr ""
+msgstr "Vytvoření účtu"
 
 #: jcommunity~password.form.create.text.html
 msgctxt "jcommunity~password.form.create.text.html"
@@ -438,7 +447,7 @@ msgstr "<p>Uveďte nové heslo.</p>"
 #: jcommunity~password.form.create.error.alreadydone
 msgctxt "jcommunity~password.form.create.error.alreadydone"
 msgid "Sorry, there is no request for a password creation."
-msgstr ""
+msgstr "Litujeme, neexistuje žádný požadavek na vytvoření hesla."
 
 #: jcommunity~password.form.create.error.badkey
 msgctxt "jcommunity~password.form.create.error.badkey"
@@ -446,18 +455,19 @@ msgid ""
 "Password creation is not possible: the username or the request key is not "
 "valid."
 msgstr ""
+"Vytvoření hesla není možné: uživatelské jméno nebo klíč žádosti není platný."
 
 #: jcommunity~password.form.create.error.expiredkey
 msgctxt "jcommunity~password.form.create.error.expiredkey"
 msgid ""
 "Password creation is not possible: the request has expired. Contact an "
 "administrator"
-msgstr ""
+msgstr "Vytvoření hesla není možné: požadavek vypršel. Obraťte se na správce"
 
 #: jcommunity~password.form.create.error.badstatus
 msgctxt "jcommunity~password.form.create.error.badstatus"
 msgid "Password creation is not allowed because of your account status."
-msgstr ""
+msgstr "Vytvoření hesla není povoleno kvůli stavu vašeho účtu."
 
 #: jcommunity~password.form.create.error.badloginemail
 msgctxt "jcommunity~password.form.create.error.badloginemail"
@@ -556,11 +566,13 @@ msgid ""
 "Activation is not possible: the request has expired. Ask the administrator "
 "of the web site to activate your account"
 msgstr ""
+"Aktivace není možná: požadavek vypršel. Požádejte správce webu o aktivaci "
+"vašeho účtu"
 
 #: jcommunity~register.admin.resend.email.title
 msgctxt "jcommunity~register.admin.resend.email.title"
 msgid "Account creation: resend the validation email"
-msgstr ""
+msgstr "Vytvoření účtu: znovu odeslat ověřovací e-mail"
 
 #: jcommunity~register.admin.resend.email.text.html
 msgctxt "jcommunity~register.admin.resend.email.text.html"
@@ -569,11 +581,14 @@ msgid ""
 "have a non-validated account. Use this feature when the user has informed "
 "you that the validation key he received has expired.</p>"
 msgstr ""
+"<p>Uživateli %s, který má neověřený účet, bude zaslán e-mail s novým "
+"ověřovacím klíčem. Tuto funkci použijte, když vás uživatel informoval, že "
+"platnost ověřovacího klíče, který obdržel, vypršela.</p>"
 
 #: jcommunity~register.admin.resend.email.done.text.html
 msgctxt "jcommunity~register.admin.resend.email.done.text.html"
 msgid "<p>The email has been sent to the user.</p>"
-msgstr ""
+msgstr "<p>E-mail byl zaslán uživateli.</p>"
 
 #: jcommunity~login.error.notlogged
 msgctxt "jcommunity~login.error.notlogged"
@@ -649,7 +664,7 @@ msgstr "Stránka není k dispozici"
 msgctxt "jcommunity~login.access.forbidden.badstatus"
 msgid ""
 "You cannot access to this page because the account has not the right status"
-msgstr ""
+msgstr "Na tuto stránku nemáte přístup, protože účet nemá správný stav"
 
 #: jcommunity~login.startpage.connected
 msgctxt "jcommunity~login.startpage.connected"
@@ -737,7 +752,7 @@ msgstr ""
 #: jcommunity~mail.password.reset.subject
 msgctxt "jcommunity~mail.password.reset.subject"
 msgid "Reset of your password on the web site %s"
-msgstr ""
+msgstr "Obnovení hesla na webu %s"
 
 #: jcommunity~mail.password.reset.body.html
 msgctxt "jcommunity~mail.password.reset.body.html"
@@ -760,7 +775,7 @@ msgstr ""
 #: jcommunity~mail.password.admin.reset.subject
 msgctxt "jcommunity~mail.password.admin.reset.subject"
 msgid "Reset of your password on the web site %s"
-msgstr ""
+msgstr "Obnovení hesla na webu %s"
 
 #: jcommunity~mail.password.admin.reset.body.html
 msgctxt "jcommunity~mail.password.admin.reset.body.html"
