@@ -23,7 +23,7 @@ if [ "$2" != "" ]; then
 fi
 
 
-(cd $LIZMAP_DIR/../ && git checkout $LIZMAP_BRANCH)
+#(cd $LIZMAP_DIR/../ && git checkout $LIZMAP_BRANCH)
 
 for MODULE in $MODULES
 do
