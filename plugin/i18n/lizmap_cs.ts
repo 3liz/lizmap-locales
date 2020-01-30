@@ -3,119 +3,119 @@
 <context>
     <name>@default</name>
     <message>
-        <location filename="../../../lizmap.py" line="2958"/>
+        <location filename="../../../lizmap.py" line="3099"/>
         <source>Lizmap Error</source>
         <translation>Lizmap Chyba</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="756"/>
+        <location filename="../../../lizmap.py" line="823"/>
         <source>Map scales: Write down integer scales separated by comma. You must enter at least 2 min and max values.</source>
         <translation>Mapové váhy: Zapište celočíselné stupnice oddělené čárkou. Musíte zadat nejméně 2 min. a max. hodnoty.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="795"/>
+        <location filename="../../../lizmap.py" line="873"/>
         <source>Errors encountered while reading the last layer tree state. Please re-configure the options in the Layers tab completely. The previous .cfg has been saved as .cfg.back</source>
         <translation>Chyby při čtení posledního stavu hierarchie vrstvy. Znovu zcela nakonfigurujte možnosti na kartě Vrstvy. Předchozí .cfg byl uložen jako .cfg.back</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1211"/>
+        <location filename="../../../lizmap.py" line="1328"/>
         <source>Editing Z/M Values</source>
         <translation>Úpravy hodnot Z / M</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1211"/>
+        <location filename="../../../lizmap.py" line="1328"/>
         <source>Be careful, editing this layer with Lizmap will set the Z and M to 0.</source>
         <translation>Buďte opatrní, úpravou této vrstvy Lizmap nastaví Z a M na 0.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1315"/>
+        <location filename="../../../lizmap.py" line="1446"/>
         <source>Please check that all input fields have been filled: repository, project, layer name and title</source>
         <translation>Zkontrolujte, zda byly vyplněny všechna zadávací pole: repozitář, projekt, název vrstvy a název</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1510"/>
+        <location filename="../../../lizmap.py" line="1652"/>
         <source>Lizmap - Refresh layer tree?</source>
         <translation>Lizmap - Obnovit hierarchii vrstvy?</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1673"/>
+        <location filename="../../../lizmap.py" line="1816"/>
         <source>List of layers</source>
         <translation>Seznam vrstev</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1688"/>
+        <location filename="../../../lizmap.py" line="1831"/>
         <source>Errors encountered while reading the last layer tree state. Please re-configure the options in the Layers tab completely</source>
         <translation>Chyby při čtení posledního stavu hierarchie vrstvy. Znovu nakonfigurujte možnosti na kartě Vrstvy</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2845"/>
+        <location filename="../../../lizmap.py" line="2987"/>
         <source>Please do not forget to save the QGIS project before publishing your map</source>
         <translation>Nezapomeňte uložit projekt QGIS před zveřejněním mapy</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2662"/>
+        <location filename="../../../lizmap.py" line="2803"/>
         <source>The project layer paths must be set to relative. Please change this options in the project settings.</source>
         <translation>Cesty vrstvy projektu musí být nastaveny na relativní. Změňte prosím tato nastavení v nastavení projektu.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2774"/>
+        <location filename="../../../lizmap.py" line="2915"/>
         <source>Map - options</source>
         <translation>Mapa - možnosti</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2813"/>
+        <location filename="../../../lizmap.py" line="2953"/>
         <source>All the map parameters are correctly set</source>
         <translation>Všechny parametry mapy jsou správně nastaveny</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2831"/>
+        <location filename="../../../lizmap.py" line="2971"/>
         <source>Lizmap configuration file has been updated</source>
         <translation>Konfigurační soubor Lizmap byl aktualizován</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2822"/>
+        <location filename="../../../lizmap.py" line="2962"/>
         <source>Wrong or missing map parameters: please read the log and correct the printed errors.</source>
         <translation>Chybné nebo chybějící parametry mapy: přečtěte si protokol a opravte vypsané chyby.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2946"/>
+        <location filename="../../../lizmap.py" line="3087"/>
         <source>Lizmap - Warning</source>
         <translation>Lizmap - upozornění</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2946"/>
+        <location filename="../../../lizmap.py" line="3087"/>
         <source>A Lizmap window is already opened</source>
         <translation>Okno Lizmap je již otevřeno</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1052"/>
+        <location filename="../../../lizmap.py" line="1139"/>
         <source>The layers you have chosen for this tool must be checked in the &quot;WFS Capabilities&quot; option of the QGIS Server tab in the &quot;Project Properties&quot; dialog.</source>
         <translation>Vrstvy, které jste pro tento nástroj vybrali, musí být zkontrolovány v možnosti „Možnosti WFS“ na kartě Server QGIS v dialogu „Vlastnosti projektu“.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1503"/>
+        <location filename="../../../lizmap.py" line="1645"/>
         <source>You can refresh the layer tree by pressing &quot;Yes&quot;. Be aware that you will lose all the changes made in this Layers tab (group or layer metadata and options) since your last &quot;Save&quot;. If you have renamed one or more groups or layers, you will also lose the associated information.
 Refresh layer tree?</source>
         <translation>Strom vrstvy můžete obnovit stisknutím tlačítka „Ano“. Uvědomte si, že ztratíte všechny změny provedené na této kartě Vrstvy (metadata a možnosti skupiny nebo vrstvy) od posledního uložení. Pokud jste přejmenovali jednu nebo více skupin nebo vrstev, ztratíte také související informace.
 Obnovit strom vrstvy?</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2653"/>
+        <location filename="../../../lizmap.py" line="2794"/>
         <source>Please deactivate the option &quot;Capitalize layer names&quot; in the tab &quot;Canvas and legend&quot; in the QGIS option dialog, as it could cause issues with Lizmap.</source>
         <translation>Prosím deaktivujte možnost „Názvy vrstev velkými písmeny“ na záložce „Canvas and legend“ v nabídce možností QGIS, protože by to mohlo způsobit problémy s Lizmap.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2704"/>
+        <location filename="../../../lizmap.py" line="2845"/>
         <source>The layers paths must be relative to the project file. Please copy the layers inside {} or in one folder above or aside {}.</source>
         <translation>Cesty vrstev musí být relativní k souboru projektu. Zkopírujte vrstvy uvnitř {} nebo do jedné složky nad nebo stranou {}.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2700"/>
+        <location filename="../../../lizmap.py" line="2841"/>
         <source>The layers paths must be relative to the project file. Please copy the layers inside {}.</source>
         <translation>Cesty vrstev musí být relativní k souboru projektu. Zkopírujte vrstvy uvnitř {}.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2804"/>
+        <location filename="../../../lizmap.py" line="2944"/>
         <source>The layers you have chosen for this tool must be checked in the &quot;WFS Capabilities&quot; option of the QGIS tab in the &quot;Project Properties&quot; dialog.</source>
         <translation>Vrstvy, které jste pro tento nástroj vybrali, musí být zaškrtnuty v „Možnosti WFS“ na kartě QGIS v dialogu „Vlastnosti projektu“.</translation>
     </message>
@@ -125,33 +125,281 @@ Obnovit strom vrstvy?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2605"/>
+        <location filename="../../../lizmap.py" line="2747"/>
         <source>Lizmap has found these layers which are ghost layers: {}. They have been removed. You must save your project.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="505"/>
+        <location filename="../../../lizmap.py" line="511"/>
         <source>Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="513"/>
+        <location filename="../../../lizmap.py" line="520"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2640"/>
+        <location filename="../../../lizmap.py" line="2781"/>
         <source>You need to open a QGIS project, using the QGS extension, before using Lizmap.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="554"/>
+        <location filename="../../../lizmap.py" line="562"/>
         <source>Remove the selected layer from the list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="559"/>
+        <location filename="../../../lizmap.py" line="568"/>
         <source>Add a new layer in the list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="578"/>
+        <source>Edit the current layer configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="599"/>
+        <source>Move the layer up in the table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../lizmap.py" line="607"/>
+        <source>Move the layer down in the table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../forms/atlas_edition.py" line="67"/>
+        <source>Primary key field is compulsory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../forms/atlas_edition.py" line="70"/>
+        <source>Label field is compulsory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../forms/atlas_edition.py" line="73"/>
+        <source>Sort field is compulsory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../forms/table_manager.py" line="59"/>
+        <source>This feature is coming soon in Lizmap 3.4.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../forms/table_manager.py" line="60"/>
+        <source>Lizmap</source>
+        <translation type="unfinished">Lizmap</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="19"/>
+        <source>Layer</source>
+        <translation type="unfinished">Vrstva</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="21"/>
+        <source>The vector layer for the atlas.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="25"/>
+        <source>Primary key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="31"/>
+        <source>Display layer description</source>
+        <translation type="unfinished">Zobrazit popis vrstvy</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="33"/>
+        <source>If you want to display the layer description in the dock of your atlas.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="37"/>
+        <source>Feature label</source>
+        <translation type="unfinished">Značka funkce</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="39"/>
+        <source>Choose the field who contains the name of your features, it will be shown instead of the primary key in the list of features.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="45"/>
+        <source>Sort field</source>
+        <translation type="unfinished">Třídit pole</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="47"/>
+        <source>Your atlas will be sorted according to this field.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="51"/>
+        <source>Highlight geometry</source>
+        <translation type="unfinished">Zvýraznit geometrii</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="59"/>
+        <source>Zoom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="61"/>
+        <source>Choose between a zoom on the feature or to make it the center of your map.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="65"/>
+        <source>Display popup</source>
+        <translation type="unfinished">Zobrazit vyskakovací okno</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="67"/>
+        <source>You can choose to display the popup in the feature in the atlas container or not.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="71"/>
+        <source>Trigger filter</source>
+        <translation type="unfinished">Filtr spouštění</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="73"/>
+        <source>If you want to activate filter on the feature selected by the atlas, it will hide all other features of the layer and only show the one selected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="79"/>
+        <source>Duration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="81"/>
+        <source>You can select the duration between each step when your atlas is in auto-play mode.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="27"/>
+        <source>Layer primary key (must be integer for PostgreSQL).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/atlas.py" line="53"/>
+        <source>You can choose to highlight the feature selected by the atlas, it will change every time it&apos;s switching to a new feature.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Dialog</name>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="14"/>
+        <source>Atlas layer</source>
+        <translation type="unfinished">vrstva Atlas</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="22"/>
+        <source>Layer</source>
+        <translation type="unfinished">Vrstva</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="29"/>
+        <source>The vector layer for the atlas</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="36"/>
+        <source>Must be a primary key for PostgreSQL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="39"/>
+        <source>Primary key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="49"/>
+        <source>The primary key field, it must be an integer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="56"/>
+        <source>Display layer description</source>
+        <translation type="unfinished">Zobrazit popis vrstvy</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="63"/>
+        <source>If you want to display the layer description in the dock of your atlas</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="76"/>
+        <source>Feature label</source>
+        <translation type="unfinished">Značka funkce</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="83"/>
+        <source>Choose the field who contains the name of your features, it will be shown instead of the primary key in the list of features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="90"/>
+        <source>Sort field</source>
+        <translation type="unfinished">Třídit pole</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="97"/>
+        <source>Your atlas will be sorted according to this field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="104"/>
+        <source>Highlight geometry</source>
+        <translation type="unfinished">Zvýraznit geometrii</translation>
+    </message>
+    <message encoding="UTF-8">
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="111"/>
+        <source>You can choose to highlight the feature selected by the atlas, it will change every time it’s switching to a new feature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="124"/>
+        <source>Zoom to feature</source>
+        <translation type="unfinished">Přiblížit na funkci</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="131"/>
+        <source>Choose between a zoom on the feature or to make it the center of your map</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="138"/>
+        <source>Display popup</source>
+        <translation type="unfinished">Zobrazit vyskakovací okno</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="145"/>
+        <source>You can choose to display the popup in the feature in the atlas container or not</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="158"/>
+        <source>Trigger filter</source>
+        <translation type="unfinished">Filtr spouštění</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="172"/>
+        <source> secondes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_atlas.ui" line="185"/>
+        <source>Step duration</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -208,7 +456,7 @@ Obnovit strom vrstvy?</translation>
         <translation>Vrstva</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4707"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4516"/>
         <source>Title</source>
         <translation>Titul</translation>
     </message>
@@ -278,7 +526,7 @@ Obnovit strom vrstvy?</translation>
         <translation>Log</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4791"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4600"/>
         <source>Clear log</source>
         <translation>Vymazat protokol</translation>
     </message>
@@ -318,12 +566,12 @@ Obnovit strom vrstvy?</translation>
         <translation>0,0;_</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4666"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4475"/>
         <source>Layer</source>
         <translation>Vrstva</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4721"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4530"/>
         <source>Field</source>
         <translation>Pole</translation>
     </message>
@@ -333,17 +581,17 @@ Obnovit strom vrstvy?</translation>
         <translation>Zobrazit geometrii</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4090"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4089"/>
         <source>Add layer</source>
         <translation>Přidat vrstvu</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4097"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4096"/>
         <source>Remove layer</source>
         <translation>Odstranit vrstvu</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4562"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4371"/>
         <source>Layer id</source>
         <translation>id vrstvy</translation>
     </message>
@@ -393,7 +641,7 @@ Obnovit strom vrstvy?</translation>
         <translation>Cache pro klienta prohlížeče?</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4051"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3886"/>
         <source>seconds</source>
         <translation>vteřin</translation>
     </message>
@@ -558,42 +806,42 @@ Obnovit strom vrstvy?</translation>
         <translation>Trvání animačního rámečku (milisekundy)</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4056"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3891"/>
         <source>minutes</source>
         <translation>minut</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4061"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3896"/>
         <source>hours</source>
         <translation>hodin</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4066"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3901"/>
         <source>days</source>
         <translation>dnů</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4071"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3906"/>
         <source>weeks</source>
         <translation>týdnů</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3917"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3911"/>
         <source>months</source>
         <translation>měsíců</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4076"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3916"/>
         <source>years</source>
         <translation>roků</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4027"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4063"/>
         <source>Start attribute</source>
         <translation>Start atribut</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3971"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3983"/>
         <source>LayerId</source>
         <translation>id vrstvy</translation>
     </message>
@@ -658,7 +906,7 @@ Obnovit strom vrstvy?</translation>
         <translation>Pokud nastavíte hodnotu nad hodnotu 0, bude automaticky použito toto doplnění po tomto počtu znaků, zatímco uživatel píše. Klasický combo box bude nahrazen editovatelným textem</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4567"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4376"/>
         <source>order</source>
         <translation>řazení</translation>
     </message>
@@ -967,7 +1215,7 @@ Pouze vybraná funkce bude na mapě zobrazena.</translation>
         <translation>right-dock</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4635"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4444"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
@@ -1112,104 +1360,24 @@ Pouze vybraná funkce bude na mapě zobrazena.</translation>
         <translation>Zobrazit filtrovaný graf ve vyskakovacích oknech nadřazené vrstvy</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4144"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4143"/>
         <source>Choose a vector layer containing a set of atlas features. Lizmap will propose a menu to let the user activate one feature at a time. Several actions can be triggered: display the feature popup, filter the layer and its children, zoom to the feature, etc.</source>
         <translation>Vyberte vektorovou vrstvu obsahující sadu atlasových prvků. Lizmap navrhne menu, které umožní uživateli aktivovat současně jednu funkci. Může být spuštěno několik akcí: zobrazení vyskakovacího prvku, filtrace vrstvy a jejích podřazených vrstev, přiblížení k funkci atd.</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4154"/>
-        <source>Please use a vector layer with reasonable number of features !</source>
-        <translation>Použijte vektorovou vrstvu s přiměřeným počtem funkcí!</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4161"/>
-        <source>Layer options</source>
-        <translation>Možnosti vrstvy</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4176"/>
-        <source>Zoom to feature</source>
-        <translation>Přiblížit na funkci</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4183"/>
-        <source>Trigger filter</source>
-        <translation>Filtr spouštění</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4203"/>
-        <source>Atlas layer</source>
-        <translation>vrstva Atlas</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4210"/>
-        <source>Feature label</source>
-        <translation>Značka funkce</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4217"/>
-        <source>Display popup</source>
-        <translation>Zobrazit vyskakovací okno</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4247"/>
-        <source>Display layer description</source>
-        <translation>Zobrazit popis vrstvy</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4271"/>
-        <source>Enable atlas for this project ?</source>
-        <translation>Povolit atlas pro tento projekt?</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4278"/>
-        <source>Highlight geometry</source>
-        <translation>Zvýraznit geometrii</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4298"/>
-        <source>Sort field</source>
-        <translation>Třídit pole</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4321"/>
-        <source>zoom</source>
-        <translation>přiblížení</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4326"/>
-        <source>center</source>
-        <translation>střed</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4334"/>
-        <source>Layer primary key (must be integer for PostgreSQL)</source>
-        <translation>Primární klíč vrstvy (musí být celé číslo pro PostgreSQL)</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4353"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4229"/>
         <source>Atlas options</source>
         <translation>Možnosti atlasu</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4361"/>
-        <source>Step duration (seconds)</source>
-        <translation>Doba kroku (vteřiny)</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4368"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4238"/>
         <source>Show atlas tool on startup</source>
         <translation>Zobrazit nástroj atlas při spuštění</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4401"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4248"/>
         <source>Auto-play on startup</source>
         <translation>Automatické přehrávání při spuštění</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4418"/>
-        <source>Right dock max-width (%)</source>
-        <translation>Maximální šířka pravého doku (%)</translation>
     </message>
     <message>
         <location filename="../../../resources/ui/ui_lizmap.ui" line="1620"/>
@@ -1247,62 +1415,62 @@ Pouze vybraná funkce bude na mapě zobrazena.</translation>
         <translation>ban</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4488"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4297"/>
         <source>This tool shows a form based on the vector layer fields, and allows the user to filter the displayed data. You can choose the fields to show in the form, and the type of input.</source>
         <translation>Tento nástroj zobrazuje formulář založený na polích vektorové vrstvy a umožňuje uživateli filtrovat zobrazovaná data. Můžete vybrat pole, která se mají zobrazit ve formuláři, a typ vstupu.</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4642"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4451"/>
         <source>Min date</source>
         <translation>Min datum</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4594"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4403"/>
         <source>Max date</source>
         <translation>Max datum</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4611"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4420"/>
         <source>Format</source>
         <translation>Formát</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4628"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4437"/>
         <source>Splitter</source>
         <translation>rozbočovač</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4557"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4366"/>
         <source>Provider</source>
         <translation>Poskytovatel</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4677"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4486"/>
         <source>Text</source>
         <translation>Text</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4682"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4491"/>
         <source>Unique values</source>
         <translation>Jedinečné hodnoty</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4687"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4496"/>
         <source>Numeric</source>
         <translation>Číslelný</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4692"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4501"/>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4653"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4462"/>
         <source>Checkboxes</source>
         <translation>Zaškrtávací pole</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4658"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4467"/>
         <source>Combo box</source>
         <translation>Combo box</translation>
     </message>
@@ -1354,12 +1522,12 @@ To se liší od maximálního rozsahu mapy (definovaného ve vlastnostech projek
         <translation>Ověřený uživatel uvidí pouze data, ve kterých se vybraný atribut shoduje s jeho skupinou uživatelů lizmap, nebo pouze jeho uživatelské přihlášení, pokud je zaškrtnuta možnost „Filtrovat podle uživatele“.</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4732"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4541"/>
         <source>Add layer field</source>
         <translation>Přidat pole vrstvy</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4739"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4548"/>
         <source>Remove layer field</source>
         <translation>Odebrat pole vrstvy</translation>
     </message>
@@ -1494,72 +1662,42 @@ To se liší od maximálního rozsahu mapy (definovaného ve vlastnostech projek
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3996"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4008"/>
         <source>Layer with the date/time</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4254"/>
-        <source>Choose the field who contains the name of your features, it will be shown instead of the primary key in the list of features</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4261"/>
-        <source>if the atlas is enabled or not in your project</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4305"/>
-        <source>Your atlas will be sorted according to this field</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4312"/>
-        <source>Choose between a zoom on the feature or to make it the center of your map</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4341"/>
-        <source>The primary key field, it must be an integer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4385"/>
-        <source>You can select the duration between each step when your atlas is in auto-play mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4577"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4386"/>
         <source>The field containing the end date of your data. If you have 2 fields containing dates, one for the start date and another for the end date, you can differentiate them. If not, you need to use the same field name for Min date and Max date.</source>
         <translation type="unfinished"></translation>
     </message>
     <message encoding="UTF-8">
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4587"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4396"/>
         <source>Use if you want to split the field values by a separator. Ex: ‘culture, environment’ can be split into ‘culture’ and ‘environment’ with the splitter ‘, ‘</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4601"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4410"/>
         <source>The field name (in the database table). Only for the Text, Unique Values and Numeric types</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4649"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4458"/>
         <source>It can be select, which will show a combo box, or checkboxes which will show one checkbox for each distinct value. The distinct values are dynamically queried by Lizmap Web Client.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4673"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4482"/>
         <source>The type of the form input</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4700"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4509"/>
         <source>The source layer</source>
         <translation type="unfinished"></translation>
     </message>
     <message encoding="UTF-8">
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4714"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4523"/>
         <source>The title to give to the input, which will be displayed above the form input. For example “Choose a category” for a layer field called “category”</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1588,49 +1726,19 @@ To se liší od maximálního rozsahu mapy (definovaného ve vlastnostech projek
         <source>You can choose or not a color field to customize the color of each category of your chart. If you want to do it, you need to check the checkbox, then choose the field of your layer which contains the colors you want to use. The color can be written like ‘red’ or ‘blue’ but it can be an HTML color code like ‘#01DFD7’ for example.</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4169"/>
-        <source>The vector layer for the atlas</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4190"/>
-        <source>You can choose to display the popup in the feature in the atlas container or not</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message encoding="UTF-8">
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4285"/>
-        <source>You can choose to highlight the feature selected by the atlas, it will change every time it’s switching to a new feature</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4425"/>
-        <source>You can choose the size of the atlas dock (20%-50%)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message encoding="UTF-8">
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4618"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4427"/>
         <source>The field containing the start date of your feature (ex: “start_date” of an event)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4375"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4235"/>
         <source>If you want to open the atlas tool when you open your project</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4408"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4245"/>
         <source>If you want to launch the auto-play mode when you open your project</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4234"/>
-        <source>If you want to display the layer description in the dock of your atlas</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4224"/>
-        <source>If you want to activate filter on the feature selected by the atlas, it will hide all other features of the layer and only show the one selected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1669,38 +1777,43 @@ To se liší od maximálního rozsahu mapy (definovaného ve vlastnostech projek
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3878"/>
-        <source>Duration in milliseconds of a given time frame step before the next frame is activated (used when the play button is activated)</source>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4046"/>
+        <source>Hover label</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4010"/>
-        <source>End attribute (optional)</source>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4073"/>
+        <source>Group id (optional)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3966"/>
-        <source>Attribute resolution</source>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4022"/>
+        <source>Group title (optional)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4003"/>
-        <source>Field with the start date/time</source>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4015"/>
+        <source>Column with the date/time</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4020"/>
-        <source>Field with the end date/time (optional)</source>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4039"/>
+        <source>Optional, an ID and a title for groups of objects.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4037"/>
-        <source>Attribute(s) time resolution</source>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4056"/>
+        <source>A field to display as a label when hovering with the mouse over the object</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4047"/>
-        <source>Date/time resolution of the chosen attribute(s)</source>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4153"/>
+        <source>Please use a vector layer with reasonable number of features.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4160"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Several layers can be added with Lizmap Web Client 3.4 and above. The auto-play checkbox is used only on the first layer in the list.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
