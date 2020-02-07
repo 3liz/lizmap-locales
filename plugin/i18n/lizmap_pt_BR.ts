@@ -2,113 +2,113 @@
 <context>
     <name>@default</name>
     <message>
-        <location filename="../../../lizmap.py" line="2916"/>
+        <location filename="../../../lizmap.py" line="2670"/>
         <source>Lizmap Error</source>
         <translation>Erro no Lizmap</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="774"/>
+        <location filename="../../../lizmap.py" line="758"/>
         <source>Map scales: Write down integer scales separated by comma. You must enter at least 2 min and max values.</source>
         <translation>Escalas do mapa: Inserir escalas inteiras separadas por vírgulas. Deve introduzir pelo menos 2 valores (min. e máx.).</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="826"/>
+        <location filename="../../../lizmap.py" line="810"/>
         <source>Errors encountered while reading the last layer tree state. Please re-configure the options in the Layers tab completely. The previous .cfg has been saved as .cfg.back</source>
         <translation>Foram encontrados erros durante a leitura do último estado da árvore de camadas. Por favor, configure novamente todas as opções no menu lateral Camadas. O arquivo .cfg anterior foi salvo como .cfg.back</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1237"/>
+        <location filename="../../../forms/edition_edition.py" line="80"/>
         <source>Editing Z/M Values</source>
         <translation>Edição de Valores Z/M</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1237"/>
+        <location filename="../../../forms/edition_edition.py" line="80"/>
         <source>Be careful, editing this layer with Lizmap will set the Z and M to 0.</source>
         <translation>Atenção, editando esta camada com Lizmap, irá definir o Z e M para 0.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1317"/>
+        <location filename="../../../lizmap.py" line="1149"/>
         <source>Please check that all input fields have been filled: repository, project, layer name and title</source>
         <translation>Por favor confira se todos os campos de entrada foram preenchidos: repositório, projeto, nome da camada e título</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1523"/>
+        <location filename="../../../lizmap.py" line="1355"/>
         <source>Lizmap - Refresh layer tree?</source>
         <translation>Lizmap - Atualizar árvore das camadas?</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1687"/>
+        <location filename="../../../lizmap.py" line="1519"/>
         <source>List of layers</source>
         <translation>Lista de camadas</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1704"/>
+        <location filename="../../../lizmap.py" line="1536"/>
         <source>Errors encountered while reading the last layer tree state. Please re-configure the options in the Layers tab completely</source>
         <translation>Foram encontrados erros na leitura do último estado da árvore da camada. Por favor faça a reconfiguração completa das opções no separador das Camadas</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2804"/>
+        <location filename="../../../lizmap.py" line="2558"/>
         <source>Please do not forget to save the QGIS project before publishing your map</source>
         <translation>Por favor, não esqueça de salvar o projeto QGIS antes de publicar seu mapa</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2637"/>
+        <location filename="../../../lizmap.py" line="2391"/>
         <source>The project layer paths must be set to relative. Please change this options in the project settings.</source>
         <translation>Os caminhos das camadas do projeto devem ser configurados como relativos. Altere essas opções nas configurações do projeto.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2749"/>
+        <location filename="../../../lizmap.py" line="2503"/>
         <source>Map - options</source>
         <translation>Mapa - opções</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2770"/>
+        <location filename="../../../lizmap.py" line="2524"/>
         <source>All the map parameters are correctly set</source>
         <translation>Todos os parâmetros do mapa foram corretamente configurados</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2788"/>
+        <location filename="../../../lizmap.py" line="2542"/>
         <source>Lizmap configuration file has been updated</source>
         <translation>O arquivo de configuração do Lizmap foi atualizado</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2779"/>
+        <location filename="../../../lizmap.py" line="2533"/>
         <source>Wrong or missing map parameters: please read the log and correct the printed errors.</source>
         <translation>Parâmetros do mapa errados ou faltando: por favor leia o log e corrija os erros exibidos.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2904"/>
+        <location filename="../../../lizmap.py" line="2658"/>
         <source>Lizmap - Warning</source>
         <translation>Lizmap - Aviso</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2904"/>
+        <location filename="../../../lizmap.py" line="2658"/>
         <source>A Lizmap window is already opened</source>
         <translation>A janela do Lizmap já se encontra aberta</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1092"/>
+        <location filename="../../../lizmap.py" line="1076"/>
         <source>The layers you have chosen for this tool must be checked in the &quot;WFS Capabilities&quot; option of the QGIS Server tab in the &quot;Project Properties&quot; dialog.</source>
         <translation>As camadas que você escolheu para esta ferramenta devem ser selecionadas na opção &quot;Capacidades WFS&quot; da guia QGIS Server na caixa de diálogo &quot;Propriedades do projeto&quot;</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="1516"/>
+        <location filename="../../../lizmap.py" line="1348"/>
         <source>You can refresh the layer tree by pressing &quot;Yes&quot;. Be aware that you will lose all the changes made in this Layers tab (group or layer metadata and options) since your last &quot;Save&quot;. If you have renamed one or more groups or layers, you will also lose the associated information.
 Refresh layer tree?</source>
         <translation>Você pode atualizar a árvore de camadas clicando &quot;Sim&quot;. Esteja ciente de que você perderá todas as alterações feitas nesta guia Camadas (grupo, metadados de camadas e opções) desde a última vez que salvou. Se você renomeou um ou mais grupos ou camadas, também perderá as informações associadas. Atualizar árvore de camadas?</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2628"/>
+        <location filename="../../../lizmap.py" line="2382"/>
         <source>Please deactivate the option &quot;Capitalize layer names&quot; in the tab &quot;Canvas and legend&quot; in the QGIS option dialog, as it could cause issues with Lizmap.</source>
         <translation>Por favor desative a opção &quot;Nomes em maiúsculas nas camadas&quot; na guia &quot;Tela &amp; Legenda&quot; na opção da caixa de diálogo do QGIS, pois pode causar problemas no Lizmap</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2679"/>
+        <location filename="../../../lizmap.py" line="2433"/>
         <source>The layers paths must be relative to the project file. Please copy the layers inside {} or in one folder above or aside {}.</source>
         <translation>Os caminhos das camadas devem ser relativos ao arquivo do projeto. Copie as camadas dentro de {} ou em uma pasta acima ou ao lado de {}.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2675"/>
+        <location filename="../../../lizmap.py" line="2429"/>
         <source>The layers paths must be relative to the project file. Please copy the layers inside {}.</source>
         <translation>Os caminhos das camadas devem ser relativos ao arquivo do projeto. Copie as camadas dentro de {}</translation>
     </message>
@@ -118,42 +118,42 @@ Refresh layer tree?</source>
         <translation>Devido a limitações de memória nesta máquina, o plug-in {} não pode suportar o log completo</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2581"/>
+        <location filename="../../../lizmap.py" line="2335"/>
         <source>Lizmap has found these layers which are ghost layers: {}. They have been removed. You must save your project.</source>
         <translation>O Lizmap encontrou estas camadas fantasmas: {}. Elas foram removidas. Você deve salvar seu projeto.</translation>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="2615"/>
+        <location filename="../../../lizmap.py" line="2369"/>
         <source>You need to open a QGIS project, using the QGS extension, before using Lizmap.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="542"/>
+        <location filename="../../../lizmap.py" line="547"/>
         <source>Remove the selected layer from the list</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="548"/>
+        <location filename="../../../lizmap.py" line="553"/>
         <source>Add a new layer in the list</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="558"/>
+        <location filename="../../../lizmap.py" line="563"/>
         <source>Edit the current layer configuration</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="594"/>
+        <location filename="../../../lizmap.py" line="608"/>
         <source>Move the layer up in the table</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../lizmap.py" line="603"/>
+        <location filename="../../../lizmap.py" line="617"/>
         <source>Move the layer down in the table</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../forms/atlas_edition.py" line="71"/>
+        <location filename="../../../forms/attribute_table_edition.py" line="71"/>
         <source>Primary key field is compulsory.</source>
         <translation type="unfinished"/>
     </message>
@@ -273,7 +273,7 @@ Refresh layer tree?</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../forms/base_edition_dialog.py" line="50"/>
+        <location filename="../../../forms/base_edition_dialog.py" line="58"/>
         <source>A duplicated &quot;{}&quot;=&quot;{}&quot; is already in the table.</source>
         <translation type="unfinished"/>
     </message>
@@ -283,7 +283,7 @@ Refresh layer tree?</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../forms/locate_layer_edition.py" line="62"/>
+        <location filename="../../../forms/tooltip_edition.py" line="59"/>
         <source>The layers you have chosen for this tool must be checked in the &quot;WFS Capabilities&quot;
  option of the QGIS Server tab in the &quot;Project Properties&quot; dialog.</source>
         <translation type="unfinished"/>
@@ -373,6 +373,166 @@ Refresh layer tree?</source>
         <source>If Lizmap should use the group or the username for filtering data.</source>
         <translation type="unfinished"/>
     </message>
+    <message>
+        <location filename="../../../forms/edition_edition.py" line="50"/>
+        <source>A layer is compulsory.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../forms/edition_edition.py" line="71"/>
+        <source>At least one action is compulsory.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../forms/filter_by_login.py" line="47"/>
+        <source>Field is compulsory.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../forms/tooltip_edition.py" line="65"/>
+        <source>At least one field is compulsory.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/edition.py" line="20"/>
+        <source>The vector layer for the edition.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/edition.py" line="24"/>
+        <source>Create</source>
+        <translation>Criar</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/edition.py" line="26"/>
+        <source>If a new feature can be added.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/edition.py" line="30"/>
+        <source>Edit attributes</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/edition.py" line="32"/>
+        <source>If attributes can be edited.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/edition.py" line="36"/>
+        <source>Edit geometry</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/edition.py" line="38"/>
+        <source>If geometry can be edited.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/edition.py" line="42"/>
+        <source>Remove</source>
+        <translation>Remover</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/edition.py" line="44"/>
+        <source>If a feature can be removed.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/edition.py" line="48"/>
+        <source>Groups</source>
+        <translation>Grupos</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/edition.py" line="50"/>
+        <source>Use a comma separated list of Lizmap groups ids to restrict access to this layer edition.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/attribute_table.py" line="20"/>
+        <source>The vector layer for the attribute table.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/attribute_table.py" line="26"/>
+        <source>Primary key of the layer.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/attribute_table.py" line="30"/>
+        <source>Fields to hide</source>
+        <translation>Campos para ocultar</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/attribute_table.py" line="32"/>
+        <source>List of fields to hide in the attribute table.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/attribute_table.py" line="36"/>
+        <source>Pivot table</source>
+        <translation>Tabela dinâmica</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/attribute_table.py" line="38"/>
+        <source>If the table is a pivot, used in a many-to-many relationship.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/attribute_table.py" line="42"/>
+        <source>Hide in child subpanels</source>
+        <translation>Ocultar nos sub-painéis filhos</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/attribute_table.py" line="44"/>
+        <source>Do not display the layer in a relation when the layer is a child.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/attribute_table.py" line="48"/>
+        <source>Hide layer in list</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/attribute_table.py" line="50"/>
+        <source>No button &quot;Detail&quot; will be shown in Lizmap to open the attribute table, but related features such as selection and filter will be available.</source>
+        <translation>Não será mostrado o botão de &quot;Detalhe&quot; no Lizmap para abrir a tabela de atributos. Mas, os recursos relacionados, como seleção e filtro, estarão disponíveis.</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/tooltip.py" line="20"/>
+        <source>The vector layer for the tooltip.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/tooltip.py" line="24"/>
+        <source>Fields</source>
+        <translation>Campos</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/tooltip.py" line="26"/>
+        <source>Fields to display in the tooltip.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/tooltip.py" line="30"/>
+        <source>Display geometry</source>
+        <translation>Exibir geometria</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/tooltip.py" line="32"/>
+        <source>If you want to display geometry with the tooltip.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../definitions/tooltip.py" line="36"/>
+        <source>Color</source>
+        <translation>Cor</translation>
+    </message>
+    <message>
+        <location filename="../../../definitions/tooltip.py" line="38"/>
+        <source>The color to use for displaying the geometry.</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>Dialog</name>
@@ -387,7 +547,7 @@ Refresh layer tree?</source>
         <translation>Camada</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_form_atlas.ui" line="32"/>
+        <location filename="../../../resources/ui/ui_form_attribute_table.ui" line="32"/>
         <source>Primary key</source>
         <translation type="unfinished"/>
     </message>
@@ -481,6 +641,81 @@ Refresh layer tree?</source>
         <source>Filter layer on zoom</source>
         <translation>Filtrar camada no zoom</translation>
     </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_attribute_table.ui" line="14"/>
+        <source>Edition layer</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_edition.ui" line="32"/>
+        <source>Create</source>
+        <translation>Criar</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_edition.ui" line="42"/>
+        <source>Edit attributes</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_edition.ui" line="59"/>
+        <source>Edit geometry</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_edition.ui" line="66"/>
+        <source>Delete</source>
+        <translation>Apagar</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_edition.ui" line="73"/>
+        <source>Allowed groups</source>
+        <translation>Grupos permitidos</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_attribute_table.ui" line="42"/>
+        <source>Fields to hide</source>
+        <translation>Campos para ocultar</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_attribute_table.ui" line="49"/>
+        <source>List of fields to hide in the attribute table</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_attribute_table.ui" line="56"/>
+        <source>Pivot table</source>
+        <translation>Tabela dinâmica</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_attribute_table.ui" line="70"/>
+        <source>Hide in child subpanels</source>
+        <translation>Ocultar nos sub-painéis filhos</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_attribute_table.ui" line="84"/>
+        <source>No button &quot;Detail&quot; will be shown in Lizmap to open the attribute table, but related features such as selection and filter will be available.</source>
+        <translation>Não será mostrado o botão de &quot;Detalhe&quot; no Lizmap para abrir a tabela de atributos. Mas, os recursos relacionados, como seleção e filtro, estarão disponíveis.</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_attribute_table.ui" line="94"/>
+        <source>Hide layer in the list</source>
+        <translation>Ocultar camada na lista</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_tooltip.ui" line="14"/>
+        <source>Tooltip layer</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_tooltip.ui" line="32"/>
+        <source>Fields</source>
+        <translation>Campos</translation>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_form_tooltip.ui" line="59"/>
+        <source>Color</source>
+        <translation>Cor</translation>
+    </message>
 </context>
 <context>
     <name>lizmap</name>
@@ -535,7 +770,7 @@ Refresh layer tree?</source>
         <translation>Camadas</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4262"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3971"/>
         <source>Title</source>
         <translation>Título</translation>
     </message>
@@ -605,7 +840,7 @@ Refresh layer tree?</source>
         <translation>Log</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4346"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4055"/>
         <source>Clear log</source>
         <translation>Limpar log</translation>
     </message>
@@ -645,27 +880,27 @@ Refresh layer tree?</source>
         <translation>0,0;_</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4221"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3930"/>
         <source>Layer</source>
         <translation>Camada</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4276"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3985"/>
         <source>Field</source>
         <translation>Campo</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3835"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3557"/>
         <source>Add layer</source>
         <translation>Adicionar camada</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3842"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3564"/>
         <source>Remove layer</source>
         <translation>Remover camada</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4117"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3826"/>
         <source>Layer id</source>
         <translation>ID da Camada</translation>
     </message>
@@ -715,7 +950,7 @@ Refresh layer tree?</source>
         <translation>Cache no navegador?</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3632"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3354"/>
         <source>seconds</source>
         <translation>segundos</translation>
     </message>
@@ -725,32 +960,12 @@ Refresh layer tree?</source>
         <translation>Edição de camadas</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2666"/>
-        <source>Create</source>
-        <translation>Criar</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2673"/>
-        <source>Modify attributes</source>
-        <translation>Modificar atributos</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2680"/>
-        <source>Modify geometry</source>
-        <translation>Modificar geometria</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2687"/>
-        <source>Delete</source>
-        <translation>Apagar</translation>
-    </message>
-    <message>
         <location filename="../../../resources/ui/ui_lizmap.ui" line="138"/>
         <source>Filter layer by user</source>
         <translation>Filtrar camada por usuário</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3221"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2943"/>
         <source>Id</source>
         <translation>ID</translation>
     </message>
@@ -845,62 +1060,62 @@ Refresh layer tree?</source>
         <translation>Série Temporal</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3575"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3297"/>
         <source>Add layers here to let the user play an animation based on an date or date/time attribute value. Similar to QGIS Timemanager plugin, but web based.</source>
         <translation>Adicione camadas para permitir que o usuário reproduza uma animação baseada num valor de atributo de data ou data/hora. Semelhante ao plugin QGIS Timemanager, mas em formato web.</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3587"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3309"/>
         <source>Frame type</source>
         <translation>Tipo de frame</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3597"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3319"/>
         <source>Time frame size</source>
         <translation>Duração do frame</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3614"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3336"/>
         <source>Animation frame length (milliseconds)</source>
         <translation>Comprimento do frame de animação (milisegundos)</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3637"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3359"/>
         <source>minutes</source>
         <translation>minutos</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3642"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3364"/>
         <source>hours</source>
         <translation>horas</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3647"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3369"/>
         <source>days</source>
         <translation>dias</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3652"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3374"/>
         <source>weeks</source>
         <translation>semanas</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3657"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3379"/>
         <source>months</source>
         <translation>meses</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3662"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3384"/>
         <source>years</source>
         <translation>anos</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3809"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3531"/>
         <source>Start attribute</source>
         <translation>Atributo de ínicio</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3729"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3451"/>
         <source>LayerId</source>
         <translation>id da camada</translation>
     </message>
@@ -955,7 +1170,7 @@ Refresh layer tree?</source>
         <translation>Exibir na árvore da legenda</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4122"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3831"/>
         <source>order</source>
         <translation>ordenar</translation>
     </message>
@@ -1020,54 +1235,9 @@ Refresh layer tree?</source>
         <translation>Tabela de atributos</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2398"/>
-        <source>Pivot table</source>
-        <translation>Tabela dinâmica</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2464"/>
-        <source>Pivot table?</source>
-        <translation>Tabela dinâmica?</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2451"/>
-        <source>Fields to hide</source>
-        <translation>Campos para ocultar</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2403"/>
-        <source>Hide in children</source>
-        <translation>Ocultar em filhos</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2477"/>
-        <source>Hide in child subpanels</source>
-        <translation>Ocultar nos sub-painéis filhos</translation>
-    </message>
-    <message>
         <location filename="../../../resources/ui/ui_lizmap.ui" line="133"/>
         <source>Tooltip layers</source>
         <translation>Camadas Tooltip</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2893"/>
-        <source>Fields</source>
-        <translation>Campos</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2903"/>
-        <source>Display geometry</source>
-        <translation>Exibir geometria</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2826"/>
-        <source>Geometry color</source>
-        <translation>Cor da geometria</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2866"/>
-        <source>Color (HTML)</source>
-        <translation>Cor (HTML)</translation>
     </message>
     <message>
         <location filename="../../../resources/ui/ui_lizmap.ui" line="1884"/>
@@ -1095,7 +1265,7 @@ Refresh layer tree?</source>
         <translation>qgis</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3084"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2806"/>
         <source>dock</source>
         <translation>dock</translation>
     </message>
@@ -1170,44 +1340,19 @@ Refresh layer tree?</source>
         <translation>Lista dos grupos id separados por vírgulas. Deixe vazio se o acesso não for restrito.</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2357"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2431"/>
         <source>The attribute table will only show the data for the map extent, and only if the layer if visible at current map scale. Useful for big datasets.</source>
         <translation>A tabela de atributos mostrará apenas os dados para a extensão do mapa e somente se a camada estiver visível na escala atual do mapa. Útil para grandes conjuntos de dados.</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2363"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2437"/>
         <source>Limit fetched data to the current map extent and layer visibility</source>
         <translation>Limitar os dados obtidos para a extensão e visibilidade atual do mapa</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2408"/>
-        <source>Hide layer</source>
-        <translation>Ocultar camada</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2490"/>
-        <source>Hide layer in the list</source>
-        <translation>Ocultar camada na lista</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2694"/>
-        <source>Allowed groups</source>
-        <translation>Grupos permitidos</translation>
     </message>
     <message>
         <location filename="../../../resources/ui/ui_lizmap.ui" line="1221"/>
         <source>When checked, Lizmap will show children data under each parent popup. You should activate popup for parent and child layers.</source>
         <translation>Quando selecionado, o Lizmap mostrará os dados dos filhos sob cada popup pai. Você deve ativar o pop-up para as camadas pai e filho.</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2487"/>
-        <source>No button &quot;Detail&quot; will be shown in Lizmap to open the attribute table, but related features such as selection and filter will be available.</source>
-        <translation>Não será mostrado o botão de &quot;Detalhe&quot; no Lizmap para abrir a tabela de atributos. Mas, os recursos relacionados, como seleção e filtro, estarão disponíveis.</translation>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2701"/>
-        <source>Use a comma separated list of Lizmap groups ids to restrict access to this layer editing.</source>
-        <translation>Use uma lista separada por vírgulas dos ids dos grupos do Lizmap para restringir o acesso à edição da camada.</translation>
     </message>
     <message>
         <location filename="../../../resources/ui/ui_lizmap.ui" line="118"/>
@@ -1225,32 +1370,32 @@ Refresh layer tree?</source>
         <translation>Número máximo de elementos no popup</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3061"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2783"/>
         <source>Lizmap can use data from project layers to draw and display charts, such as bar charts, pie charts or scatter plots. You can add a layer in the following table and choose the type of chart and which data field must be used. We recommand to use PostGIS views or virtual layers to prepare the data, and to keep data small.</source>
         <translation>O Lizmap pode usar os dados das camadas do projeto para desenhar e mostrar gráficos, como gráficos de barras, gráficos circulares ou gráficos de dispersão. Pode adicionar uma camada na tabela seguinte e escolher o tipo de gráfico e qual campo de dados que deverá ser usado. Recomendamos utilizar views do PostGIS ou camadas virtuais para preparar os dados e mantê-los pequenos</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3076"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2798"/>
         <source>Dataviz container</source>
         <translation>Área de apresentação de gráficos</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3089"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2811"/>
         <source>bottomdock</source>
         <translation>no rodapé</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3094"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2816"/>
         <source>right-dock</source>
         <translation>à direita</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4190"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3899"/>
         <source>Type</source>
         <translation>Tipo</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3436"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3158"/>
         <source>Color</source>
         <translation>Cor</translation>
     </message>
@@ -1265,147 +1410,147 @@ Refresh layer tree?</source>
         <translation>Geolocalização automática (Disponível apenas em HTTPS)</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3256"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2978"/>
         <source>X field</source>
         <translation>Campo X</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3166"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2888"/>
         <source>Aggregation</source>
         <translation>Agregação</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3270"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2992"/>
         <source>Y field</source>
         <translation>Campo Y</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3181"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2903"/>
         <source>Color field</source>
         <translation>Campo, cor</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3186"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2908"/>
         <source>Second Y field ?</source>
         <translation>Campo Y secundário?</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3191"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2913"/>
         <source>Y Field 2</source>
         <translation>Campo Y 2</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3196"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2918"/>
         <source>Color 2</source>
         <translation>Cor 2</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3201"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2923"/>
         <source>Color field 2</source>
         <translation>Campo 2, cor</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3206"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2928"/>
         <source>Popup for main layer</source>
         <translation>Popup para a camada principal</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3216"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2938"/>
         <source>Popup for children</source>
         <translation>Popup para filhos</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3226"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2948"/>
         <source>Plot Id</source>
         <translation>Id do Plot</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3242"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2964"/>
         <source>2nd Y field</source>
         <translation>Campo Y secundário</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3326"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3048"/>
         <source>Group ?</source>
         <translation>Grupo?</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3342"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3064"/>
         <source>avg</source>
         <translation>média</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3347"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3069"/>
         <source>sum</source>
         <translation>soma</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3352"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3074"/>
         <source>count</source>
         <translation>contagem</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3357"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3079"/>
         <source>median</source>
         <translation>mediana</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3362"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3084"/>
         <source>stddev</source>
         <translation>desvio padrão</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3367"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3089"/>
         <source>min</source>
         <translation>mínimo</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3372"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3094"/>
         <source>max</source>
         <translation>máximo</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3377"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3099"/>
         <source>first</source>
         <translation>primeiro</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3382"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3104"/>
         <source>last</source>
         <translation>último</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3446"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3168"/>
         <source>Color field 2 ?</source>
         <translation>Campo 2, cor?</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3456"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3178"/>
         <source>Color field ?</source>
         <translation>Campo, cor?</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3468"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3190"/>
         <source>Display filtered plot in popups of parent layer</source>
         <translation>Exibir plotagem filtrada em pop-ups da camada pai</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3889"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3611"/>
         <source>Choose a vector layer containing a set of atlas features. Lizmap will propose a menu to let the user activate one feature at a time. Several actions can be triggered: display the feature popup, filter the layer and its children, zoom to the feature, etc.</source>
         <translation>Escolha uma camada vetorial contendo um conjunto de elementos do atlas. O Lizmap irá propor um menu para permitir que o usuário ative um elemento por vez. Várias ações podem ser acionadas: exibir o pop-up do elemento, filtrar a camada e seus filhos, ampliar o recurso, etc.</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3975"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3697"/>
         <source>Atlas options</source>
         <translation>Opções do Atlas</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3984"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3706"/>
         <source>Show atlas tool on startup</source>
         <translation>Mostrar a ferramenta Atlas ao iniciar</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3994"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3716"/>
         <source>Auto-play on startup</source>
         <translation>Executar automaticamente ao iniciar</translation>
     </message>
@@ -1420,17 +1565,17 @@ Refresh layer tree?</source>
         <translation>Open Cycle Map</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3211"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2933"/>
         <source>Only show child</source>
         <translation>Mostrar somente filhos</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3478"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3200"/>
         <source>Only show in child popup</source>
         <translation>Mostrar somente no popup filho</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3523"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3245"/>
         <source>Optional container template (HTML with Bootstrap, use the id of the plot, such as $1)</source>
         <translation>Modelo opcional de apresentação (HTML com Bootstrap, utiliza o id do plot, tal como $1)</translation>
     </message>
@@ -1445,62 +1590,62 @@ Refresh layer tree?</source>
         <translation>BAN</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4043"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3752"/>
         <source>This tool shows a form based on the vector layer fields, and allows the user to filter the displayed data. You can choose the fields to show in the form, and the type of input.</source>
         <translation>Essa ferramenta mostra um formulário baseado nos campos da camada vetorial e permite ao usuário filtrar os dados exibidos. Você pode escolher os campos para mostrar no formulário e o tipo de dados de entrada.</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4197"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3906"/>
         <source>Min date</source>
         <translation>Data inicial</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4149"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3858"/>
         <source>Max date</source>
         <translation>Data final</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4166"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3875"/>
         <source>Format</source>
         <translation>Formato</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4183"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3892"/>
         <source>Splitter</source>
         <translation>Separador</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4112"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3821"/>
         <source>Provider</source>
         <translation>Fornecedor</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4232"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3941"/>
         <source>Text</source>
         <translation>Texto</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4237"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3946"/>
         <source>Unique values</source>
         <translation>Valores únicos</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4242"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3951"/>
         <source>Numeric</source>
         <translation>Numérico</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4247"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3956"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4208"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3917"/>
         <source>Checkboxes</source>
         <translation>Caixas de seleção</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4213"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3922"/>
         <source>Combo box</source>
         <translation>Caixa de combinação</translation>
     </message>
@@ -1542,22 +1687,22 @@ Isso é diferente da extensão máxima do mapa (definida nas propriedades do pro
         <translation>A tabela de atributos para as camadas selecionadas pode ser mostrada no Lizmap Web Client. Adicione aqui qualquer camada vetorial e publique-a como WFS (propriedades do projeto QGIS, na guia QGIS Server)</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2577"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2485"/>
         <source>You can add layers in the list below and choose editing capabilities for each one.</source>
         <translation>Você pode adicionar camadas a partir da lista abaixo e escolher recursos de edição para cada uma delas.</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2984"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2706"/>
         <source>Authenticated user will only see the data where the chosen attribute matches his lizmap user group, or only his user login if the option &quot;Filter by user&quot; is checked.</source>
         <translation>O usuário autenticado verá apenas os dados em que o atributo escolhido corresponderá ao grupo de usuários do Lizmap ou apenas ao login do usuário se a opção &quot;Filtrar por usuário&quot; estiver selecionada.</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4287"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3996"/>
         <source>Add layer field</source>
         <translation>Adicionar campo da camada</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4294"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="4003"/>
         <source>Remove layer field</source>
         <translation>Remover campo da camada</translation>
     </message>
@@ -1607,102 +1752,82 @@ Isso é diferente da extensão máxima do mapa (definida nas propriedades do pro
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2444"/>
-        <source>Primary key</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2413"/>
-        <source>Attribute layer id</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2458"/>
-        <source>If the table is a pivot, used in a many-to-many relationship.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2471"/>
-        <source>Do not display the layer in a relation when the layer is a child.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3121"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2843"/>
         <source>Setup</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3249"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2971"/>
         <source>The title of the graph</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3263"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2985"/>
         <source>Type of chart to add</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3284"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3006"/>
         <source>Layer to work on</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3305"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3027"/>
         <source>The Y field of your graph.</source>
         <translation type="unfinished"/>
     </message>
     <message encoding="UTF-8">
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3465"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3187"/>
         <source>If you check this checkbox, the children of your layer will get the same graph as the parent plot but filtered only for them. It’s useful if you want to see the statistics of one entity instead of all.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3475"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3197"/>
         <source>The main graph will not be shown in the main container and only the filtered graph of the relation of the layer will be displayed in the popup when you select the element.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3517"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3239"/>
         <source>Advanced</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3754"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3476"/>
         <source>Layer with the date/time</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4132"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3841"/>
         <source>The field containing the end date of your data. If you have 2 fields containing dates, one for the start date and another for the end date, you can differentiate them. If not, you need to use the same field name for Min date and Max date.</source>
         <translation type="unfinished"/>
     </message>
     <message encoding="UTF-8">
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4142"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3851"/>
         <source>Use if you want to split the field values by a separator. Ex: ‘culture, environment’ can be split into ‘culture’ and ‘environment’ with the splitter ‘, ‘</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4156"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3865"/>
         <source>The field name (in the database table). Only for the Text, Unique Values and Numeric types</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4204"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3913"/>
         <source>It can be select, which will show a combo box, or checkboxes which will show one checkbox for each distinct value. The distinct values are dynamically queried by Lizmap Web Client.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4228"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3937"/>
         <source>The type of the form input</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4255"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3964"/>
         <source>The source layer</source>
         <translation type="unfinished"/>
     </message>
     <message encoding="UTF-8">
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4269"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3978"/>
         <source>The title to give to the input, which will be displayed above the form input. For example “Choose a category” for a layer field called “category”</source>
         <translation type="unfinished"/>
     </message>
@@ -1712,32 +1837,32 @@ Isso é diferente da extensão máxima do mapa (definida nas propriedades do pro
         <translation type="unfinished"/>
     </message>
     <message encoding="UTF-8">
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3333"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3055"/>
         <source>For a few types of charts like ‘bar’ or ‘pie’, you can choose to aggregate the data in the graph. There are a few aggregate functions available - average(avg), sum, count, median, stddev, min, max, first, last</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3443"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3165"/>
         <source>You can choose the color of the second Y field the same way you choose the one for his first Y field.</source>
         <translation type="unfinished"/>
     </message>
     <message encoding="UTF-8">
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3453"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3175"/>
         <source>You can choose or not a color field to customize the color of each category of your chart. If you want to do it, you need to check the checkbox, then choose the field of your layer which contains the colors you want to use. The color can be written like ‘red’ or ‘blue’ but it can be an HTML color code like ‘#01DFD7’ for example.</source>
         <translation type="unfinished"/>
     </message>
     <message encoding="UTF-8">
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="4173"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3882"/>
         <source>The field containing the start date of your feature (ex: “start_date” of an event)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3981"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3703"/>
         <source>If you want to open the atlas tool when you open your project</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3991"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3713"/>
         <source>If you want to launch the auto-play mode when you open your project</source>
         <translation type="unfinished"/>
     </message>
@@ -1757,63 +1882,63 @@ Isso é diferente da extensão máxima do mapa (definida nas propriedades do pro
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2497"/>
-        <source>List of fields to hide in the attribute table</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="2797"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2617"/>
         <source>You can let the user activate map tooltips when hovering features. Choose a layer, select some fields to display in the tooltip and optionally choose to display the geometry. You can also choose the geometry color (use an HTML color code)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3239"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2961"/>
         <source>You can add a second Y field, if the graph can accept it.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3298"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3020"/>
         <source>X field of your graph, it might be empty according to the kind of graph (box)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3792"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3514"/>
         <source>Hover label</source>
         <translation>Rótulo flutuante</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3819"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3541"/>
         <source>Group id (optional)</source>
         <translation>Id do grupo (opcional)</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3768"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3490"/>
         <source>Group title (optional)</source>
         <translation>Título do grupo (opcional)</translation>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3761"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3483"/>
         <source>Column with the date/time</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3785"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3507"/>
         <source>Optional, an ID and a title for groups of objects.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3802"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3524"/>
         <source>A field to display as a label when hovering with the mouse over the object</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3899"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3621"/>
         <source>Please use a vector layer with reasonable number of features.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../../../resources/ui/ui_lizmap.ui" line="3906"/>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="3628"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Several layers can be added with Lizmap Web Client 3.4 and above. The auto-play checkbox is used only on the first layer in the list.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../../resources/ui/ui_lizmap.ui" line="2425"/>
+        <source>Attribute table options</source>
         <translation type="unfinished"/>
     </message>
 </context>
