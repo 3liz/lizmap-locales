@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-08 15:02++0200\n"
-"PO-Revision-Date: 2019-05-27 13:28+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"POT-Creation-Date: 2019-12-20 10:50++0100\n"
+"PO-Revision-Date: 2019-12-20 10:00+0000\n"
+"Last-Translator: Petr Tsymbarovich <petr@tsymbarovich.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/3liz-1/lizmap-locales/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,6 +68,16 @@ msgctxt "admin~admin.menu.configuration.main.label"
 msgid "Lizmap configuration"
 msgstr "Настройки Lizmap "
 
+#: admin~admin.menu.lizmap.repositories.label
+msgctxt "admin~admin.menu.lizmap.repositories.label"
+msgid "Maps management"
+msgstr ""
+
+#: admin~admin.menu.lizmap.landingPageContent.label
+msgctxt "admin~admin.menu.lizmap.landingPageContent.label"
+msgid "Landing page content"
+msgstr ""
+
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
 msgid "Lizmap Logs"
@@ -107,6 +117,36 @@ msgstr "Назад"
 msgctxt "admin~admin.configuration.services.label"
 msgid "Services"
 msgstr "Служебные"
+
+#: admin~admin.configuration.services.section.interface.label
+msgctxt "admin~admin.configuration.services.section.interface.label"
+msgid "Interface"
+msgstr ""
+
+#: admin~admin.configuration.services.section.emails.label
+msgctxt "admin~admin.configuration.services.section.emails.label"
+msgid "Emails"
+msgstr ""
+
+#: admin~admin.configuration.services.section.projects.label
+msgctxt "admin~admin.configuration.services.section.projects.label"
+msgid "Projects"
+msgstr "Проекты"
+
+#: admin~admin.configuration.services.section.cache.label
+msgctxt "admin~admin.configuration.services.section.cache.label"
+msgid "Cache"
+msgstr "Кеширование"
+
+#: admin~admin.configuration.services.section.qgis.label
+msgctxt "admin~admin.configuration.services.section.qgis.label"
+msgid "Qgis server"
+msgstr ""
+
+#: admin~admin.configuration.services.section.system.label
+msgctxt "admin~admin.configuration.services.section.system.label"
+msgid "System"
+msgstr "Система"
 
 #: admin~admin.configuration.services.qgisServerVersion.label
 msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
@@ -167,11 +207,6 @@ msgstr "Время жизни кеша на сервере (сек)"
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
 msgid "Root folder of repositories"
 msgstr "Корневой каталог репозиториев"
-
-#: admin~admin.configuration.services.proxyMethod.label
-msgctxt "admin~admin.configuration.services.proxyMethod.label"
-msgid "Send request to QGIS Server with"
-msgstr "Использовать для обращения к серверу QGIS"
 
 #: admin~admin.configuration.services.debugMode.label
 msgctxt "admin~admin.configuration.services.debugMode.label"
@@ -414,21 +449,6 @@ msgstr "Корневой каталог репозиториев огранич�
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use relative path from root folder?"
 msgstr ""
-
-#: admin~admin.form.admin_services.proxyMethod.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.label"
-msgid "Send request to QGIS Server or request to external services with"
-msgstr ""
-
-#: admin~admin.form.admin_services.proxyMethod.php.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
-msgid "PHP"
-msgstr "PHP"
-
-#: admin~admin.form.admin_services.proxyMethod.curl.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.curl.label"
-msgid "Curl"
-msgstr "Curl"
 
 #: admin~admin.form.admin_services.requestProxy.label
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
@@ -990,6 +1010,51 @@ msgstr ""
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
+msgstr ""
+
+#: admin~admin.upload.image.error.file.missing
+msgctxt "admin~admin.upload.image.error.file.missing"
+msgid "File is missing"
+msgstr ""
+
+#: admin~admin.upload.image.error.file.bigger
+msgctxt "admin~admin.upload.image.error.file.bigger"
+msgid "The uploaded file exceeds the maximum file size allowed"
+msgstr ""
+
+#: admin~admin.upload.image.error.file.partially
+msgctxt "admin~admin.upload.image.error.file.partially"
+msgid "The uploaded file was only partially uploaded"
+msgstr ""
+
+#: admin~admin.upload.image.error.file.none
+msgctxt "admin~admin.upload.image.error.file.none"
+msgid "No file was uploaded"
+msgstr ""
+
+#: admin~admin.upload.image.error.missing.temp
+msgctxt "admin~admin.upload.image.error.missing.temp"
+msgid "Missing a temporary folder"
+msgstr ""
+
+#: admin~admin.upload.image.error.file.onDisk
+msgctxt "admin~admin.upload.image.error.file.onDisk"
+msgid "Failed to write file to disk"
+msgstr ""
+
+#: admin~admin.upload.image.error.file.invalid
+msgctxt "admin~admin.upload.image.error.file.invalid"
+msgid "Invalid file"
+msgstr ""
+
+#: admin~admin.upload.image.error.file.wrongType
+msgctxt "admin~admin.upload.image.error.file.wrongType"
+msgid "Wrong file type. Only images are allowed"
+msgstr ""
+
+#: admin~admin.upload.image.error.file.save
+msgctxt "admin~admin.upload.image.error.file.save"
+msgid "An error occured during the save"
 msgstr ""
 
 #: admin~jacl2.lizmap.admin.grp

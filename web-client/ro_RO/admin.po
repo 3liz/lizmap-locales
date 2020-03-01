@@ -1,12 +1,13 @@
 # 
 # Translators:
+# Igor Sorocean <sorocean.igor@gmail.com>, 2020
 # Tudor Bărăscu <tudorbarascu@yahoo.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-08 15:02++0200\n"
-"PO-Revision-Date: 2019-11-01 18:36+0000\n"
+"POT-Creation-Date: 2019-12-20 10:50++0100\n"
+"PO-Revision-Date: 2020-01-20 12:05+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -67,6 +68,16 @@ msgctxt "admin~admin.menu.configuration.main.label"
 msgid "Lizmap configuration"
 msgstr "Configurare Lizmap"
 
+#: admin~admin.menu.lizmap.repositories.label
+msgctxt "admin~admin.menu.lizmap.repositories.label"
+msgid "Maps management"
+msgstr "Gestionare hărți"
+
+#: admin~admin.menu.lizmap.landingPageContent.label
+msgctxt "admin~admin.menu.lizmap.landingPageContent.label"
+msgid "Landing page content"
+msgstr "Conținutul paginii principale"
+
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
 msgid "Lizmap Logs"
@@ -106,6 +117,36 @@ msgstr "Înapoi"
 msgctxt "admin~admin.configuration.services.label"
 msgid "Services"
 msgstr "Servicii"
+
+#: admin~admin.configuration.services.section.interface.label
+msgctxt "admin~admin.configuration.services.section.interface.label"
+msgid "Interface"
+msgstr "Interfață"
+
+#: admin~admin.configuration.services.section.emails.label
+msgctxt "admin~admin.configuration.services.section.emails.label"
+msgid "Emails"
+msgstr "Email-uri"
+
+#: admin~admin.configuration.services.section.projects.label
+msgctxt "admin~admin.configuration.services.section.projects.label"
+msgid "Projects"
+msgstr "Proiecte"
+
+#: admin~admin.configuration.services.section.cache.label
+msgctxt "admin~admin.configuration.services.section.cache.label"
+msgid "Cache"
+msgstr "Cache"
+
+#: admin~admin.configuration.services.section.qgis.label
+msgctxt "admin~admin.configuration.services.section.qgis.label"
+msgid "Qgis server"
+msgstr "Server QGIS"
+
+#: admin~admin.configuration.services.section.system.label
+msgctxt "admin~admin.configuration.services.section.system.label"
+msgid "System"
+msgstr "Sistem"
 
 #: admin~admin.configuration.services.qgisServerVersion.label
 msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
@@ -166,11 +207,6 @@ msgstr "Timpul expirare cache server (s)"
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
 msgid "Root folder of repositories"
 msgstr "Directorul rădăcină al depozitelor de date"
-
-#: admin~admin.configuration.services.proxyMethod.label
-msgctxt "admin~admin.configuration.services.proxyMethod.label"
-msgid "Send request to QGIS Server with"
-msgstr "Trimite cereri către QGIS Server cu"
 
 #: admin~admin.configuration.services.debugMode.label
 msgctxt "admin~admin.configuration.services.debugMode.label"
@@ -414,21 +450,6 @@ msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use relative path from root folder?"
 msgstr "Serverul folosește o cale relativă din dosarul root?"
 
-#: admin~admin.form.admin_services.proxyMethod.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.label"
-msgid "Send request to QGIS Server or request to external services with"
-msgstr "Trimiteți cereri către serverul QGIS sau cereri către servicii externe cu"
-
-#: admin~admin.form.admin_services.proxyMethod.php.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
-msgid "PHP"
-msgstr "PHP"
-
-#: admin~admin.form.admin_services.proxyMethod.curl.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.curl.label"
-msgid "Curl"
-msgstr "Curl"
-
 #: admin~admin.form.admin_services.requestProxy.label
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
 msgid "Use a proxy server to do requests to external services"
@@ -497,7 +518,7 @@ msgstr "Numai hărți"
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
 msgid "Show projects switcher"
-msgstr ""
+msgstr "Afișare comutator proiecte"
 
 #: admin~admin.form.admin_services.defaultRepository.label
 msgctxt "admin~admin.form.admin_services.defaultRepository.label"
@@ -990,6 +1011,51 @@ msgstr "Sigur doriți să ștergeți fișierul jurnal de erori?"
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
 msgstr "Fișierul jurnal de erori a fost șters."
+
+#: admin~admin.upload.image.error.file.missing
+msgctxt "admin~admin.upload.image.error.file.missing"
+msgid "File is missing"
+msgstr "Fișierul lipsește"
+
+#: admin~admin.upload.image.error.file.bigger
+msgctxt "admin~admin.upload.image.error.file.bigger"
+msgid "The uploaded file exceeds the maximum file size allowed"
+msgstr "Fișierul încărcat depășește dimensiunea maximă permisă"
+
+#: admin~admin.upload.image.error.file.partially
+msgctxt "admin~admin.upload.image.error.file.partially"
+msgid "The uploaded file was only partially uploaded"
+msgstr "Fișierul încărcat a fost încărcat doar parțial"
+
+#: admin~admin.upload.image.error.file.none
+msgctxt "admin~admin.upload.image.error.file.none"
+msgid "No file was uploaded"
+msgstr "Nu a fost încărcat niciun fișier"
+
+#: admin~admin.upload.image.error.missing.temp
+msgctxt "admin~admin.upload.image.error.missing.temp"
+msgid "Missing a temporary folder"
+msgstr "Lipsește un dosar temporar"
+
+#: admin~admin.upload.image.error.file.onDisk
+msgctxt "admin~admin.upload.image.error.file.onDisk"
+msgid "Failed to write file to disk"
+msgstr "Nu a reușit scrierea fișierului pe disc"
+
+#: admin~admin.upload.image.error.file.invalid
+msgctxt "admin~admin.upload.image.error.file.invalid"
+msgid "Invalid file"
+msgstr "Fişier nevalid"
+
+#: admin~admin.upload.image.error.file.wrongType
+msgctxt "admin~admin.upload.image.error.file.wrongType"
+msgid "Wrong file type. Only images are allowed"
+msgstr "Tip greșit de fișier. Sunt permise doar imagini"
+
+#: admin~admin.upload.image.error.file.save
+msgctxt "admin~admin.upload.image.error.file.save"
+msgid "An error occured during the save"
+msgstr "A apărut o eroare în timpul salvării"
 
 #: admin~jacl2.lizmap.admin.grp
 msgctxt "admin~jacl2.lizmap.admin.grp"

@@ -1,14 +1,14 @@
 # 
 # Translators:
-# Alexander Schley <alexanderfschley@yahoo.com.br>, 2019
+# Alexander Schley <alexanderfschley@yahoo.com.br>, 2019-2020
 # Fábio Rodrigo Oliveira <farool2@gmail.com>, 2016
 # Fábio Rodrigo Oliveira <farool2@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-08 15:02++0200\n"
-"PO-Revision-Date: 2019-06-02 22:32+0000\n"
+"POT-Creation-Date: 2019-12-20 10:50++0100\n"
+"PO-Revision-Date: 2020-02-18 17:05+0000\n"
 "Last-Translator: Alexander Schley <alexanderfschley@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/3liz-1/lizmap-locales/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -69,6 +69,16 @@ msgctxt "admin~admin.menu.configuration.main.label"
 msgid "Lizmap configuration"
 msgstr "Configuração do Lizmap"
 
+#: admin~admin.menu.lizmap.repositories.label
+msgctxt "admin~admin.menu.lizmap.repositories.label"
+msgid "Maps management"
+msgstr "Gerenciamento de mapas"
+
+#: admin~admin.menu.lizmap.landingPageContent.label
+msgctxt "admin~admin.menu.lizmap.landingPageContent.label"
+msgid "Landing page content"
+msgstr "Conteúdo da página inicial"
+
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
 msgid "Lizmap Logs"
@@ -108,6 +118,36 @@ msgstr "Voltar"
 msgctxt "admin~admin.configuration.services.label"
 msgid "Services"
 msgstr "Serviços"
+
+#: admin~admin.configuration.services.section.interface.label
+msgctxt "admin~admin.configuration.services.section.interface.label"
+msgid "Interface"
+msgstr "Interface"
+
+#: admin~admin.configuration.services.section.emails.label
+msgctxt "admin~admin.configuration.services.section.emails.label"
+msgid "Emails"
+msgstr "Emails"
+
+#: admin~admin.configuration.services.section.projects.label
+msgctxt "admin~admin.configuration.services.section.projects.label"
+msgid "Projects"
+msgstr "Projetos"
+
+#: admin~admin.configuration.services.section.cache.label
+msgctxt "admin~admin.configuration.services.section.cache.label"
+msgid "Cache"
+msgstr "Cache"
+
+#: admin~admin.configuration.services.section.qgis.label
+msgctxt "admin~admin.configuration.services.section.qgis.label"
+msgid "Qgis server"
+msgstr "Qgis server"
+
+#: admin~admin.configuration.services.section.system.label
+msgctxt "admin~admin.configuration.services.section.system.label"
+msgid "System"
+msgstr "Sistema"
 
 #: admin~admin.configuration.services.qgisServerVersion.label
 msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
@@ -168,11 +208,6 @@ msgstr "Tempo(s) de expiração do cache no servidor"
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
 msgid "Root folder of repositories"
 msgstr "Pasta root dos repositórios"
-
-#: admin~admin.configuration.services.proxyMethod.label
-msgctxt "admin~admin.configuration.services.proxyMethod.label"
-msgid "Send request to QGIS Server with"
-msgstr "Enviar solicitação ao QGIS Server com"
 
 #: admin~admin.configuration.services.debugMode.label
 msgctxt "admin~admin.configuration.services.debugMode.label"
@@ -415,21 +450,6 @@ msgstr "A pasta root dos repositórios pode limitar o diretório do Lizmap a 1 p
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use relative path from root folder?"
 msgstr "O servidor utiliza caminhos relativos a partir pasta raiz?"
-
-#: admin~admin.form.admin_services.proxyMethod.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.label"
-msgid "Send request to QGIS Server or request to external services with"
-msgstr "Enviar pedido ao QGIS Server ou solicitar serviços externos com"
-
-#: admin~admin.form.admin_services.proxyMethod.php.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
-msgid "PHP"
-msgstr "PHP"
-
-#: admin~admin.form.admin_services.proxyMethod.curl.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.curl.label"
-msgid "Curl"
-msgstr "Curl"
 
 #: admin~admin.form.admin_services.requestProxy.label
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
@@ -992,6 +1012,51 @@ msgstr "Tem certeza que pretende apagar o arquivo de log de erros?"
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
 msgstr "O arquivo de log de erros foi apagado com sucesso."
+
+#: admin~admin.upload.image.error.file.missing
+msgctxt "admin~admin.upload.image.error.file.missing"
+msgid "File is missing"
+msgstr "Arquivo em falta"
+
+#: admin~admin.upload.image.error.file.bigger
+msgctxt "admin~admin.upload.image.error.file.bigger"
+msgid "The uploaded file exceeds the maximum file size allowed"
+msgstr "O arquivo enviado excede o tamanho máximo permitido"
+
+#: admin~admin.upload.image.error.file.partially
+msgctxt "admin~admin.upload.image.error.file.partially"
+msgid "The uploaded file was only partially uploaded"
+msgstr "O arquivo somente foi enviado parcialmente"
+
+#: admin~admin.upload.image.error.file.none
+msgctxt "admin~admin.upload.image.error.file.none"
+msgid "No file was uploaded"
+msgstr "Nenhum arquivo foi enviado"
+
+#: admin~admin.upload.image.error.missing.temp
+msgctxt "admin~admin.upload.image.error.missing.temp"
+msgid "Missing a temporary folder"
+msgstr "Faltando uma pasta temporária"
+
+#: admin~admin.upload.image.error.file.onDisk
+msgctxt "admin~admin.upload.image.error.file.onDisk"
+msgid "Failed to write file to disk"
+msgstr "Falha ao salvar o arquivo no disco"
+
+#: admin~admin.upload.image.error.file.invalid
+msgctxt "admin~admin.upload.image.error.file.invalid"
+msgid "Invalid file"
+msgstr "Arquivo inválido"
+
+#: admin~admin.upload.image.error.file.wrongType
+msgctxt "admin~admin.upload.image.error.file.wrongType"
+msgid "Wrong file type. Only images are allowed"
+msgstr "Tipo de arquivo errado. Somente imagens são permitidas"
+
+#: admin~admin.upload.image.error.file.save
+msgctxt "admin~admin.upload.image.error.file.save"
+msgid "An error occured during the save"
+msgstr "Ocorreu um erro durante o salvamento"
 
 #: admin~jacl2.lizmap.admin.grp
 msgctxt "admin~jacl2.lizmap.admin.grp"

@@ -3,14 +3,15 @@
 # Laurent Jouanneau <dev@ljouanneau.com>, 2018-2019
 # Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2018
 # Michael Douchin <kimaidou@gmail.com>, 2017
+# Nicolas Boisteault <nboisteault@gmail.com>, 2020
 # rldhont <rldhont@gmail.com>, 2016-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-08 15:02++0200\n"
-"PO-Revision-Date: 2019-06-05 14:15+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"POT-Creation-Date: 2019-12-20 10:50++0100\n"
+"PO-Revision-Date: 2020-01-27 16:30+0000\n"
+"Last-Translator: Nicolas Boisteault <nboisteault@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,6 +71,16 @@ msgctxt "admin~admin.menu.configuration.main.label"
 msgid "Lizmap configuration"
 msgstr "Configuration Lizmap"
 
+#: admin~admin.menu.lizmap.repositories.label
+msgctxt "admin~admin.menu.lizmap.repositories.label"
+msgid "Maps management"
+msgstr "Gestion des cartes"
+
+#: admin~admin.menu.lizmap.landingPageContent.label
+msgctxt "admin~admin.menu.lizmap.landingPageContent.label"
+msgid "Landing page content"
+msgstr "Contenu de la page d'accueil"
+
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
 msgid "Lizmap Logs"
@@ -109,6 +120,36 @@ msgstr "Retour"
 msgctxt "admin~admin.configuration.services.label"
 msgid "Services"
 msgstr "Services"
+
+#: admin~admin.configuration.services.section.interface.label
+msgctxt "admin~admin.configuration.services.section.interface.label"
+msgid "Interface"
+msgstr "Interface"
+
+#: admin~admin.configuration.services.section.emails.label
+msgctxt "admin~admin.configuration.services.section.emails.label"
+msgid "Emails"
+msgstr "Courriels"
+
+#: admin~admin.configuration.services.section.projects.label
+msgctxt "admin~admin.configuration.services.section.projects.label"
+msgid "Projects"
+msgstr "Projets"
+
+#: admin~admin.configuration.services.section.cache.label
+msgctxt "admin~admin.configuration.services.section.cache.label"
+msgid "Cache"
+msgstr "Cache"
+
+#: admin~admin.configuration.services.section.qgis.label
+msgctxt "admin~admin.configuration.services.section.qgis.label"
+msgid "Qgis server"
+msgstr "Qgis server"
+
+#: admin~admin.configuration.services.section.system.label
+msgctxt "admin~admin.configuration.services.section.system.label"
+msgid "System"
+msgstr "Système"
 
 #: admin~admin.configuration.services.qgisServerVersion.label
 msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
@@ -169,11 +210,6 @@ msgstr "Durée de vie du cache (s)"
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
 msgid "Root folder of repositories"
 msgstr "Dossier racine des répertoires"
-
-#: admin~admin.configuration.services.proxyMethod.label
-msgctxt "admin~admin.configuration.services.proxyMethod.label"
-msgid "Send request to QGIS Server with"
-msgstr "Envoi des requêtes à QGIS Server avec"
 
 #: admin~admin.configuration.services.debugMode.label
 msgctxt "admin~admin.configuration.services.debugMode.label"
@@ -416,21 +452,6 @@ msgstr "Le dossier racine des répertoires permet de limiter à 1 dossier les r�
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use relative path from root folder?"
 msgstr "Le serveur QGIS utilise-t-il des chemins relatifs au dossier racine ?"
-
-#: admin~admin.form.admin_services.proxyMethod.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.label"
-msgid "Send request to QGIS Server or request to external services with"
-msgstr "Envoi des requêtes à QGIS Server ou aux services externes avec"
-
-#: admin~admin.form.admin_services.proxyMethod.php.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
-msgid "PHP"
-msgstr "PHP"
-
-#: admin~admin.form.admin_services.proxyMethod.curl.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.curl.label"
-msgid "Curl"
-msgstr "Curl"
 
 #: admin~admin.form.admin_services.requestProxy.label
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
@@ -993,6 +1014,51 @@ msgstr "Êtes-vous sûr de vouloir écraser le fichier de logs d'erreurs ?"
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
 msgstr "Le fichier de logs d'erreurs a été écrasé avec succès."
+
+#: admin~admin.upload.image.error.file.missing
+msgctxt "admin~admin.upload.image.error.file.missing"
+msgid "File is missing"
+msgstr "Le fichier n'existe pas"
+
+#: admin~admin.upload.image.error.file.bigger
+msgctxt "admin~admin.upload.image.error.file.bigger"
+msgid "The uploaded file exceeds the maximum file size allowed"
+msgstr "La taille du fichier téléversé est supérieur au maximum autorisé"
+
+#: admin~admin.upload.image.error.file.partially
+msgctxt "admin~admin.upload.image.error.file.partially"
+msgid "The uploaded file was only partially uploaded"
+msgstr "Le fichier n'a été que partiellement téléversé"
+
+#: admin~admin.upload.image.error.file.none
+msgctxt "admin~admin.upload.image.error.file.none"
+msgid "No file was uploaded"
+msgstr "Aucun fichier téléversé"
+
+#: admin~admin.upload.image.error.missing.temp
+msgctxt "admin~admin.upload.image.error.missing.temp"
+msgid "Missing a temporary folder"
+msgstr "Répertoire temporaire manquant"
+
+#: admin~admin.upload.image.error.file.onDisk
+msgctxt "admin~admin.upload.image.error.file.onDisk"
+msgid "Failed to write file to disk"
+msgstr "Ecriture sur le disque impossible"
+
+#: admin~admin.upload.image.error.file.invalid
+msgctxt "admin~admin.upload.image.error.file.invalid"
+msgid "Invalid file"
+msgstr "Fichier invalide"
+
+#: admin~admin.upload.image.error.file.wrongType
+msgctxt "admin~admin.upload.image.error.file.wrongType"
+msgid "Wrong file type. Only images are allowed"
+msgstr "Type de fichier invalide. Seules les images sont autorisées"
+
+#: admin~admin.upload.image.error.file.save
+msgctxt "admin~admin.upload.image.error.file.save"
+msgid "An error occured during the save"
+msgstr "Erreur durant l'enregistrement"
 
 #: admin~jacl2.lizmap.admin.grp
 msgctxt "admin~jacl2.lizmap.admin.grp"

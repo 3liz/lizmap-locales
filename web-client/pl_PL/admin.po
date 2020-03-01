@@ -1,13 +1,13 @@
 # 
 # Translators:
 # rldhont <rldhont@gmail.com>, 2016
-# Sławomir Bienias <slawomir.bienias@gmail.com>, 2016-2019
+# Sławomir Bienias <slawomir.bienias@gmail.com>, 2016-2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-08 15:02++0200\n"
-"PO-Revision-Date: 2019-05-28 13:09+0000\n"
+"POT-Creation-Date: 2019-12-20 10:50++0100\n"
+"PO-Revision-Date: 2020-01-13 19:20+0000\n"
 "Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -68,6 +68,16 @@ msgctxt "admin~admin.menu.configuration.main.label"
 msgid "Lizmap configuration"
 msgstr "Konfiguracja Lizmap"
 
+#: admin~admin.menu.lizmap.repositories.label
+msgctxt "admin~admin.menu.lizmap.repositories.label"
+msgid "Maps management"
+msgstr "Zarządzanie mapami"
+
+#: admin~admin.menu.lizmap.landingPageContent.label
+msgctxt "admin~admin.menu.lizmap.landingPageContent.label"
+msgid "Landing page content"
+msgstr "Zawartość strony początkowej"
+
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
 msgid "Lizmap Logs"
@@ -107,6 +117,36 @@ msgstr "Wstecz"
 msgctxt "admin~admin.configuration.services.label"
 msgid "Services"
 msgstr "Serwisy"
+
+#: admin~admin.configuration.services.section.interface.label
+msgctxt "admin~admin.configuration.services.section.interface.label"
+msgid "Interface"
+msgstr "Interfejs"
+
+#: admin~admin.configuration.services.section.emails.label
+msgctxt "admin~admin.configuration.services.section.emails.label"
+msgid "Emails"
+msgstr "Adresy e-mail"
+
+#: admin~admin.configuration.services.section.projects.label
+msgctxt "admin~admin.configuration.services.section.projects.label"
+msgid "Projects"
+msgstr "Projekty"
+
+#: admin~admin.configuration.services.section.cache.label
+msgctxt "admin~admin.configuration.services.section.cache.label"
+msgid "Cache"
+msgstr "Pamięć podręczna"
+
+#: admin~admin.configuration.services.section.qgis.label
+msgctxt "admin~admin.configuration.services.section.qgis.label"
+msgid "Qgis server"
+msgstr "QGIS Server"
+
+#: admin~admin.configuration.services.section.system.label
+msgctxt "admin~admin.configuration.services.section.system.label"
+msgid "System"
+msgstr "System"
 
 #: admin~admin.configuration.services.qgisServerVersion.label
 msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
@@ -167,11 +207,6 @@ msgstr "Czas wygaśnięcia pamięci podręcznej (sek.)"
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
 msgid "Root folder of repositories"
 msgstr "Katalog repozytoriów Roota"
-
-#: admin~admin.configuration.services.proxyMethod.label
-msgctxt "admin~admin.configuration.services.proxyMethod.label"
-msgid "Send request to QGIS Server with"
-msgstr "Wyślij zapytanie do QGIS Servera poprzez"
 
 #: admin~admin.configuration.services.debugMode.label
 msgctxt "admin~admin.configuration.services.debugMode.label"
@@ -414,21 +449,6 @@ msgstr "Katalog repozytoriów Roota może spowodować limit katalogów Lizmap do
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use relative path from root folder?"
 msgstr "Czy serwer używa ścieżki względnej z folderu roota?"
-
-#: admin~admin.form.admin_services.proxyMethod.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.label"
-msgid "Send request to QGIS Server or request to external services with"
-msgstr "Wyślij zapytanie do QGIS Server lub zapytanie do zewnętrznych serwisów przy pomocy"
-
-#: admin~admin.form.admin_services.proxyMethod.php.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
-msgid "PHP"
-msgstr "PHP"
-
-#: admin~admin.form.admin_services.proxyMethod.curl.label
-msgctxt "admin~admin.form.admin_services.proxyMethod.curl.label"
-msgid "Curl"
-msgstr "Curl"
 
 #: admin~admin.form.admin_services.requestProxy.label
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
@@ -991,6 +1011,51 @@ msgstr "Jesteś pewny, że chcesz wyczyścić zawartość pliku logów błędów
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
 msgstr "Plik logów błędów został pomyślnie wyczyszczony."
+
+#: admin~admin.upload.image.error.file.missing
+msgctxt "admin~admin.upload.image.error.file.missing"
+msgid "File is missing"
+msgstr "Brak pliku"
+
+#: admin~admin.upload.image.error.file.bigger
+msgctxt "admin~admin.upload.image.error.file.bigger"
+msgid "The uploaded file exceeds the maximum file size allowed"
+msgstr "Wielkość wysłanego pliku przekracza maksymalny dozwolony limit"
+
+#: admin~admin.upload.image.error.file.partially
+msgctxt "admin~admin.upload.image.error.file.partially"
+msgid "The uploaded file was only partially uploaded"
+msgstr "Wysłany plik został wgrany tylko w części"
+
+#: admin~admin.upload.image.error.file.none
+msgctxt "admin~admin.upload.image.error.file.none"
+msgid "No file was uploaded"
+msgstr "Żaden plik nie został wgrany"
+
+#: admin~admin.upload.image.error.missing.temp
+msgctxt "admin~admin.upload.image.error.missing.temp"
+msgid "Missing a temporary folder"
+msgstr "Brak folderu tymczasowego"
+
+#: admin~admin.upload.image.error.file.onDisk
+msgctxt "admin~admin.upload.image.error.file.onDisk"
+msgid "Failed to write file to disk"
+msgstr "Nie udało się zapisać pliku na dysk"
+
+#: admin~admin.upload.image.error.file.invalid
+msgctxt "admin~admin.upload.image.error.file.invalid"
+msgid "Invalid file"
+msgstr "Błędny plik"
+
+#: admin~admin.upload.image.error.file.wrongType
+msgctxt "admin~admin.upload.image.error.file.wrongType"
+msgid "Wrong file type. Only images are allowed"
+msgstr "Błędny typ pliku. Dozwolone są tylko obrazy"
+
+#: admin~admin.upload.image.error.file.save
+msgctxt "admin~admin.upload.image.error.file.save"
+msgid "An error occured during the save"
+msgstr "Napotkano błąd podczas zapisu"
 
 #: admin~jacl2.lizmap.admin.grp
 msgctxt "admin~jacl2.lizmap.admin.grp"
