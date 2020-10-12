@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-01 16:00++0100\n"
-"PO-Revision-Date: 2020-03-01 14:59+0000\n"
+"POT-Creation-Date: 2020-10-12 16:41++0200\n"
+"PO-Revision-Date: 2020-10-12 14:42+0000\n"
 "Last-Translator: Joze Stih <joze.stih@gmail.com>\n"
 "Language-Team: Slovenian (http://www.transifex.com/3liz-1/lizmap-locales/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -332,6 +332,66 @@ msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
 msgstr ""
 
+#: view~dictionnary.digitizing.confirme.erase
+msgctxt "view~dictionnary.digitizing.confirme.erase"
+msgid "Are you sure you want to delete all features?"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.box
+msgctxt "view~dictionnary.digitizing.toolbar.box"
+msgid "Box"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.circle
+msgctxt "view~dictionnary.digitizing.toolbar.circle"
+msgid "Circle"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.color
+msgctxt "view~dictionnary.digitizing.toolbar.color"
+msgid "Pick draw color"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.deactivate
+msgctxt "view~dictionnary.digitizing.toolbar.deactivate"
+msgid "Deactivate"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.drawTools
+msgctxt "view~dictionnary.digitizing.toolbar.drawTools"
+msgid "Draw tools"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.erase
+msgctxt "view~dictionnary.digitizing.toolbar.erase"
+msgid "Delete all features"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.freehand
+msgctxt "view~dictionnary.digitizing.toolbar.freehand"
+msgid "Free hand"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.import
+msgctxt "view~dictionnary.digitizing.toolbar.import"
+msgid "Import in GeoJSON, GPX or KML"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.line
+msgctxt "view~dictionnary.digitizing.toolbar.line"
+msgid "Line"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.point
+msgctxt "view~dictionnary.digitizing.toolbar.point"
+msgid "Point"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.polygon
+msgctxt "view~dictionnary.digitizing.toolbar.polygon"
+msgid "Polygon"
+msgstr ""
+
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
@@ -538,6 +598,11 @@ msgctxt "view~dictionnary.geolocation.survey.time"
 msgid "Time"
 msgstr ""
 
+#: view~dictionnary.geolocation.survey.title
+msgctxt "view~dictionnary.geolocation.survey.title"
+msgid "Survey"
+msgstr ""
+
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
@@ -628,6 +693,46 @@ msgctxt "view~dictionnary.measure.handle"
 msgid "Measure:"
 msgstr ""
 
+#: view~dictionnary.mouseposition.hover
+msgctxt "view~dictionnary.mouseposition.hover"
+msgid "Mouse position"
+msgstr ""
+
+#: view~dictionnary.mouseposition.removeCenterPoint
+msgctxt "view~dictionnary.mouseposition.removeCenterPoint"
+msgid "Remove center point"
+msgstr ""
+
+#: view~dictionnary.mouseposition.select
+msgctxt "view~dictionnary.mouseposition.select"
+msgid "Coordinate unit"
+msgstr ""
+
+#: view~dictionnary.mouseposition.units.d
+msgctxt "view~dictionnary.mouseposition.units.d"
+msgid "Degrees"
+msgstr ""
+
+#: view~dictionnary.mouseposition.units.dm
+msgctxt "view~dictionnary.mouseposition.units.dm"
+msgid "Deg. Min."
+msgstr ""
+
+#: view~dictionnary.mouseposition.units.dms
+msgctxt "view~dictionnary.mouseposition.units.dms"
+msgid "D. M. S."
+msgstr ""
+
+#: view~dictionnary.mouseposition.units.f
+msgctxt "view~dictionnary.mouseposition.units.f"
+msgid "Feet"
+msgstr ""
+
+#: view~dictionnary.mouseposition.units.m
+msgctxt "view~dictionnary.mouseposition.units.m"
+msgid "Meters"
+msgstr ""
+
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
 msgid "No object has been found at this location."
@@ -638,9 +743,24 @@ msgctxt "view~dictionnary.popup.msg.start"
 msgid "Click to the map to get informations."
 msgstr ""
 
+#: view~dictionnary.popup.table.compact
+msgctxt "view~dictionnary.popup.table.compact"
+msgid "Compact tables"
+msgstr ""
+
+#: view~dictionnary.popup.table.explode
+msgctxt "view~dictionnary.popup.table.explode"
+msgid "Explode tables"
+msgstr ""
+
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
 msgid "Place the rectangle for printing"
+msgstr ""
+
+#: view~dictionnary.print.customLabels.tooltip
+msgctxt "view~dictionnary.print.customLabels.tooltip"
+msgid "Set custom labels for print"
 msgstr ""
 
 #: view~dictionnary.selectiontool.results.more
@@ -658,6 +778,66 @@ msgctxt "view~dictionnary.selectiontool.results.one"
 msgid "1 selected object"
 msgstr ""
 
+#: view~dictionnary.selectiontool.toolbar.action.filter
+msgctxt "view~dictionnary.selectiontool.toolbar.action.filter"
+msgid "Filter"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.action.invert
+msgctxt "view~dictionnary.selectiontool.toolbar.action.invert"
+msgid "Invert selection"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.action.type.minus
+msgctxt "view~dictionnary.selectiontool.toolbar.action.type.minus"
+msgid "Remove from selection"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.action.type.plus
+msgctxt "view~dictionnary.selectiontool.toolbar.action.type.plus"
+msgid "Add to selection"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.action.type.refresh
+msgctxt "view~dictionnary.selectiontool.toolbar.action.type.refresh"
+msgid "New selection"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.action.unselect
+msgctxt "view~dictionnary.selectiontool.toolbar.action.unselect"
+msgid "Unselect all"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.buffer
+msgctxt "view~dictionnary.selectiontool.toolbar.buffer"
+msgid "Buffer"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator"
+msgid "Geometric operators"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.layer
+msgctxt "view~dictionnary.selectiontool.toolbar.layer"
+msgid "Selection layer"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.title
+msgctxt "view~dictionnary.selectiontool.toolbar.title"
+msgid "Selection"
+msgstr ""
+
+#: view~dictionnary.snapping.title
+msgctxt "view~dictionnary.snapping.title"
+msgid "Snapping"
+msgstr ""
+
+#: view~dictionnary.switcher.layer.export.title
+msgctxt "view~dictionnary.switcher.layer.export.title"
+msgid "Export"
+msgstr ""
+
 #: view~dictionnary.switcherLayersActions.themeSelector.title
 msgctxt "view~dictionnary.switcherLayersActions.themeSelector.title"
 msgid "Select theme"
@@ -672,6 +852,11 @@ msgstr ""
 msgctxt "view~dictionnary.timemanager.toolbar.play"
 msgid "Play"
 msgstr ""
+
+#: view~dictionnary.toolbar.content.stop
+msgctxt "view~dictionnary.toolbar.content.stop"
+msgid "Stop"
+msgstr "Stop"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -842,6 +1027,11 @@ msgctxt "view~edition.message.error.bbox"
 msgid "The bbox has to be 4 floats separated by ','."
 msgstr ""
 
+#: view~edition.message.error.constraint
+msgctxt "view~edition.message.error.constraint"
+msgid "%s: check failed"
+msgstr ""
+
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
 msgid "An error occured while creating the object."
@@ -928,6 +1118,11 @@ msgid ""
 "writable."
 msgstr ""
 
+#: view~edition.message.hint.constraint
+msgctxt "view~edition.message.hint.constraint"
+msgid "Constraint: %s"
+msgstr ""
+
 #: view~edition.message.success.create
 msgctxt "view~edition.message.success.create"
 msgid "Object successfully created."
@@ -996,6 +1191,16 @@ msgstr ""
 #: view~edition.segment.length.label
 msgctxt "view~edition.segment.length.label"
 msgid "Length (m):"
+msgstr ""
+
+#: view~edition.tab.digitization.title
+msgctxt "view~edition.tab.digitization.title"
+msgid "Digitization"
+msgstr ""
+
+#: view~edition.tab.form.title
+msgctxt "view~edition.tab.form.title"
+msgid "Form"
 msgstr ""
 
 #: view~edition.toolbar.cancel.title
@@ -1120,7 +1325,7 @@ msgstr ""
 
 #: view~edition.upload.choice.update
 msgctxt "view~edition.upload.choice.update"
-msgid "Update"
+msgid "Add/Update"
 msgstr ""
 
 #: view~map.attributeLayers.navbar.title
@@ -1176,6 +1381,11 @@ msgstr ""
 #: view~map.bottomdock.toolbar.btn.size.minimize.title
 msgctxt "view~map.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
+msgstr ""
+
+#: view~map.draw.navbar.title
+msgctxt "view~map.draw.navbar.title"
+msgid "Draw"
 msgstr ""
 
 #: view~map.geolocate.navbar.title
@@ -1356,41 +1566,6 @@ msgstr ""
 #: view~map.metadata.resources.website
 msgctxt "view~map.metadata.resources.website"
 msgid "Website"
-msgstr ""
-
-#: view~map.mouseposition.hover
-msgctxt "view~map.mouseposition.hover"
-msgid "Mouse position"
-msgstr ""
-
-#: view~map.mouseposition.select
-msgctxt "view~map.mouseposition.select"
-msgid "Coordinate unit"
-msgstr ""
-
-#: view~map.mouseposition.units.d
-msgctxt "view~map.mouseposition.units.d"
-msgid "Degrees"
-msgstr ""
-
-#: view~map.mouseposition.units.dm
-msgctxt "view~map.mouseposition.units.dm"
-msgid "Deg. Min."
-msgstr ""
-
-#: view~map.mouseposition.units.dms
-msgctxt "view~map.mouseposition.units.dms"
-msgid "D. M. S."
-msgstr ""
-
-#: view~map.mouseposition.units.f
-msgctxt "view~map.mouseposition.units.f"
-msgid "Feet"
-msgstr ""
-
-#: view~map.mouseposition.units.m
-msgctxt "view~map.mouseposition.units.m"
-msgid "Meters"
 msgstr ""
 
 #: view~map.navbar.next.hover
@@ -1601,61 +1776,6 @@ msgstr "Išči"
 #: view~map.selectiontool.navbar.title
 msgctxt "view~map.selectiontool.navbar.title"
 msgid "Selection"
-msgstr ""
-
-#: view~map.selectiontool.toolbar.action.filter
-msgctxt "view~map.selectiontool.toolbar.action.filter"
-msgid "Filter"
-msgstr ""
-
-#: view~map.selectiontool.toolbar.action.type.minus
-msgctxt "view~map.selectiontool.toolbar.action.type.minus"
-msgid "Remove from selection"
-msgstr ""
-
-#: view~map.selectiontool.toolbar.action.type.plus
-msgctxt "view~map.selectiontool.toolbar.action.type.plus"
-msgid "Add to selection"
-msgstr ""
-
-#: view~map.selectiontool.toolbar.action.type.refresh
-msgctxt "view~map.selectiontool.toolbar.action.type.refresh"
-msgid "New selection"
-msgstr ""
-
-#: view~map.selectiontool.toolbar.action.unselect
-msgctxt "view~map.selectiontool.toolbar.action.unselect"
-msgid "Unselect all"
-msgstr ""
-
-#: view~map.selectiontool.toolbar.layer
-msgctxt "view~map.selectiontool.toolbar.layer"
-msgid "Selection layer"
-msgstr ""
-
-#: view~map.selectiontool.toolbar.query.box
-msgctxt "view~map.selectiontool.toolbar.query.box"
-msgid "Box"
-msgstr ""
-
-#: view~map.selectiontool.toolbar.query.circle
-msgctxt "view~map.selectiontool.toolbar.query.circle"
-msgid "Circle"
-msgstr ""
-
-#: view~map.selectiontool.toolbar.query.deactivate
-msgctxt "view~map.selectiontool.toolbar.query.deactivate"
-msgid "Deactivate"
-msgstr ""
-
-#: view~map.selectiontool.toolbar.query.freehand
-msgctxt "view~map.selectiontool.toolbar.query.freehand"
-msgid "Free hand"
-msgstr ""
-
-#: view~map.selectiontool.toolbar.query.polygon
-msgctxt "view~map.selectiontool.toolbar.query.polygon"
-msgid "Polygon"
 msgstr ""
 
 #: view~map.selectiontool.toolbar.title

@@ -1,15 +1,15 @@
 # 
 # Translators:
-# trendspotter <j.podhorecky@volny.cz>, 2019
+# Jiří Podhorecký, 2019
 # Jiří Sobotík <jiri.sobotik@centrum.cz>, 2018
-# trendspotter <j.podhorecky@volny.cz>, 2019
+# Jiří Podhorecký, 2019-2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-01 16:00++0100\n"
-"PO-Revision-Date: 2019-12-20 10:00+0000\n"
-"Last-Translator: Jiří Sobotík <jiri.sobotik@centrum.cz>\n"
+"POT-Creation-Date: 2020-10-12 16:41++0200\n"
+"PO-Revision-Date: 2020-04-06 12:14+0000\n"
+"Last-Translator: Jiří Podhorecký\n"
 "Language-Team: Czech (http://www.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -156,17 +156,17 @@ msgstr "Kořenový adresář repozitářů"
 #: admin~admin.configuration.services.section.cache.label
 msgctxt "admin~admin.configuration.services.section.cache.label"
 msgid "Cache"
-msgstr ""
+msgstr "Mezipaměť"
 
 #: admin~admin.configuration.services.section.emails.label
 msgctxt "admin~admin.configuration.services.section.emails.label"
 msgid "Emails"
-msgstr ""
+msgstr "E-maily"
 
 #: admin~admin.configuration.services.section.interface.label
 msgctxt "admin~admin.configuration.services.section.interface.label"
 msgid "Interface"
-msgstr ""
+msgstr "Rozhraní"
 
 #: admin~admin.configuration.services.section.projects.label
 msgctxt "admin~admin.configuration.services.section.projects.label"
@@ -176,7 +176,7 @@ msgstr "Projekty"
 #: admin~admin.configuration.services.section.qgis.label
 msgctxt "admin~admin.configuration.services.section.qgis.label"
 msgid "Qgis server"
-msgstr ""
+msgstr "Qgis server"
 
 #: admin~admin.configuration.services.section.system.label
 msgctxt "admin~admin.configuration.services.section.system.label"
@@ -787,7 +787,7 @@ msgstr "řádků v tabulce detailů logů"
 #: admin~admin.logs.detail.title
 msgctxt "admin~admin.logs.detail.title"
 msgid "Log detail"
-msgstr "detaily logů"
+msgstr "Detaily logů"
 
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
@@ -934,7 +934,7 @@ msgstr "Konfigurace Lizmapu"
 #: admin~admin.menu.lizmap.landingPageContent.label
 msgctxt "admin~admin.menu.lizmap.landingPageContent.label"
 msgid "Landing page content"
-msgstr ""
+msgstr "Obsah vstupní stránky"
 
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
@@ -949,7 +949,7 @@ msgstr "Zobrazit logy"
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
 msgid "Maps management"
-msgstr ""
+msgstr "Správa map"
 
 #: admin~admin.menu.lizmap.theme.label
 msgctxt "admin~admin.menu.lizmap.theme.label"
@@ -974,47 +974,47 @@ msgstr "konfigurace Theme"
 #: admin~admin.upload.image.error.file.bigger
 msgctxt "admin~admin.upload.image.error.file.bigger"
 msgid "The uploaded file exceeds the maximum file size allowed"
-msgstr ""
+msgstr "Nahraný soubor přesahuje maximální povolenou velikost souboru"
 
 #: admin~admin.upload.image.error.file.invalid
 msgctxt "admin~admin.upload.image.error.file.invalid"
 msgid "Invalid file"
-msgstr ""
+msgstr "Neplatný soubor"
 
 #: admin~admin.upload.image.error.file.missing
 msgctxt "admin~admin.upload.image.error.file.missing"
 msgid "File is missing"
-msgstr ""
+msgstr "Soubor chybí"
 
 #: admin~admin.upload.image.error.file.none
 msgctxt "admin~admin.upload.image.error.file.none"
 msgid "No file was uploaded"
-msgstr ""
+msgstr "Nebyl nahrán žádný soubor"
 
 #: admin~admin.upload.image.error.file.onDisk
 msgctxt "admin~admin.upload.image.error.file.onDisk"
 msgid "Failed to write file to disk"
-msgstr ""
+msgstr "Nepodařilo se zapsat soubor na disk"
 
 #: admin~admin.upload.image.error.file.partially
 msgctxt "admin~admin.upload.image.error.file.partially"
 msgid "The uploaded file was only partially uploaded"
-msgstr ""
+msgstr "Nahraný soubor byl nahrán pouze částečně"
 
 #: admin~admin.upload.image.error.file.save
 msgctxt "admin~admin.upload.image.error.file.save"
 msgid "An error occured during the save"
-msgstr ""
+msgstr "Během ukládání došlo k chybě"
 
 #: admin~admin.upload.image.error.file.wrongType
 msgctxt "admin~admin.upload.image.error.file.wrongType"
 msgid "Wrong file type. Only images are allowed"
-msgstr ""
+msgstr "Nesprávný typ souboru. Povoleny jsou pouze obrázky"
 
 #: admin~admin.upload.image.error.missing.temp
 msgctxt "admin~admin.upload.image.error.missing.temp"
 msgid "Missing a temporary folder"
-msgstr ""
+msgstr "Chybí dočasná složka"
 
 #: admin~jacl2.lizmap.admin.access
 msgctxt "admin~jacl2.lizmap.admin.access"
@@ -1034,7 +1034,7 @@ msgstr "Smaž skupinu"
 #: admin~jacl2.lizmap.admin.repositories.create
 msgctxt "admin~jacl2.lizmap.admin.repositories.create"
 msgid "Create repositories"
-msgstr "Vytvoř repozitář"
+msgstr "Vytvořit repozitář"
 
 #: admin~jacl2.lizmap.admin.repositories.delete
 msgctxt "admin~jacl2.lizmap.admin.repositories.delete"

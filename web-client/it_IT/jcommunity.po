@@ -1,17 +1,19 @@
+# 
 # Translators:
 # Roberto Marzocchi <roberto.marzocchi@gter.it>, 2019
 # rldhont <rldhont@gmail.com>, 2019
 # Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2019
 # Stefano Vaccari <stefanovaccari@gmail.com>, 2019
 # Paolo Cavallini <cavallini@faunalia.it>, 2019
+# Marco Cassola <cassolamrc@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jcommunity 3.4.0-pre\n"
+"Project-Id-Version: Lizmap Web Client jcommunity 3.4.0-alpha.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-01 16:00++0100\n"
+"POT-Creation-Date: 2020-10-12 16:41++0200\n"
 "PO-Revision-Date: 2018-06-02 13:00+0000\n"
-"Last-Translator: Paolo Cavallini <cavallini@faunalia.it>, 2019\n"
+"Last-Translator: Marco Cassola <cassolamrc@gmail.com>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/3liz-1/teams/62012/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,7 +39,7 @@ msgstr "Torna al tuo profilo"
 #: jcommunity~account.cancel.and.back.to.account
 msgctxt "jcommunity~account.cancel.and.back.to.account"
 msgid "Cancel and back to your profile"
-msgstr ""
+msgstr "Cancella e torna al tuo profilo"
 
 #: jcommunity~account.duration.day
 msgctxt "jcommunity~account.duration.day"
@@ -72,7 +74,7 @@ msgstr "minuti"
 #: jcommunity~account.error.dup.nickname
 msgctxt "jcommunity~account.error.dup.nickname"
 msgid "The displayed name is already used by another user"
-msgstr ""
+msgstr "Il nome visualizzato è già usato da un altro utente"
 
 #: jcommunity~account.form.admin.create.emailsent
 msgctxt "jcommunity~account.form.admin.create.emailsent"
@@ -116,12 +118,13 @@ msgstr "Conferma la cancellazione del tuo account"
 #: jcommunity~account.form.delete.account.done
 msgctxt "jcommunity~account.form.delete.account.done"
 msgid "Your account is now deleted. You are deconnected."
-msgstr ""
+msgstr "Il tuo account è ora cancellato. Ora sei disconnesso."
 
 #: jcommunity~account.form.delete.account.error.badpassword
 msgctxt "jcommunity~account.form.delete.account.error.badpassword"
 msgid "Impossible to delete your account: the given password is not valid."
 msgstr ""
+"Impossibile cancellare il tuo account: la password fornita non è valida."
 
 #: jcommunity~account.form.delete.account.error.nologout
 msgctxt "jcommunity~account.form.delete.account.error.nologout"
@@ -129,6 +132,8 @@ msgid ""
 "Strange... Your account does not exist anymore, but your are still "
 "connected? Contact the site manager."
 msgstr ""
+"Strano.. Il tuo account non esiste più, ma tu sei ancora connesso?\n"
+"Contatta l'amministratore del sito."
 
 #: jcommunity~account.form.delete.account.error.notremoved
 msgctxt "jcommunity~account.form.delete.account.error.notremoved"
@@ -138,7 +143,7 @@ msgstr "Impossibile cancellare il tuo account. Contatta il gestore del sito."
 #: jcommunity~account.form.delete.account.error.wronguser
 msgctxt "jcommunity~account.form.delete.account.error.wronguser"
 msgid "Sorry, you are not supposed to be on this page..."
-msgstr ""
+msgstr "Spiacente, non dovresti essere in questa pagina.."
 
 #: jcommunity~account.form.delete.account.submit
 msgctxt "jcommunity~account.form.delete.account.submit"
@@ -148,7 +153,7 @@ msgstr "Cancella"
 #: jcommunity~account.form.delete.account.title
 msgctxt "jcommunity~account.form.delete.account.title"
 msgid "Deleting your account"
-msgstr ""
+msgstr "Cancellazione del tuo account"
 
 #: jcommunity~account.form.edit.profile.title
 msgctxt "jcommunity~account.form.edit.profile.title"
@@ -163,7 +168,7 @@ msgstr "Email"
 #: jcommunity~account.form.keyactivate
 msgctxt "jcommunity~account.form.keyactivate"
 msgid "Request key"
-msgstr ""
+msgstr "Chiave di richiesta"
 
 #: jcommunity~account.form.login
 msgctxt "jcommunity~account.form.login"
@@ -173,7 +178,7 @@ msgstr "Nome utente"
 #: jcommunity~account.form.nickname
 msgctxt "jcommunity~account.form.nickname"
 msgid "Displayed name"
-msgstr ""
+msgstr "Nome visualizzato"
 
 #: jcommunity~account.form.password
 msgctxt "jcommunity~account.form.password"
@@ -253,7 +258,7 @@ msgstr "Modifica il tuo profilo"
 #: jcommunity~account.profile.of
 msgctxt "jcommunity~account.profile.of"
 msgid "%1$s's Profile"
-msgstr ""
+msgstr "del profilo"
 
 #: jcommunity~account.unknown.user
 msgctxt "jcommunity~account.unknown.user"
@@ -665,7 +670,7 @@ msgstr ""
 #: jcommunity~password.form.title
 msgctxt "jcommunity~password.form.title"
 msgid "Resetting the password"
-msgstr ""
+msgstr "Cancellazione della password"
 
 #: jcommunity~password.mail.pwd.change.subject
 msgctxt "jcommunity~password.mail.pwd.change.subject"
@@ -686,7 +691,7 @@ msgstr ""
 #: jcommunity~prefs.admin.prefs.change
 msgctxt "jcommunity~prefs.admin.prefs.change"
 msgid "Modify preferences of jCommunity"
-msgstr ""
+msgstr "Modifica le impostazioni di jCommunity"
 
 #: jcommunity~prefs.group.jcommunity
 msgctxt "jcommunity~prefs.group.jcommunity"
@@ -706,7 +711,7 @@ msgstr "Un utente sconosciuto può creare un account"
 #: jcommunity~prefs.pref.resetPasswordEnabled
 msgctxt "jcommunity~prefs.pref.resetPasswordEnabled"
 msgid "A user can reset password when he forget it"
-msgstr ""
+msgstr "Un utente può resettare la propria password quando l'ha dimenticata"
 
 #: jcommunity~register.admin.resend.email.done.text.html
 msgctxt "jcommunity~register.admin.resend.email.done.text.html"

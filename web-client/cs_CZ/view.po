@@ -1,14 +1,14 @@
 # 
 # Translators:
 # Jiří Sobotík <jiri.sobotik@centrum.cz>, 2018
-# trendspotter <j.podhorecky@volny.cz>, 2019
-# trendspotter <j.podhorecky@volny.cz>, 2019
+# Jiří Podhorecký, 2019-2020
+# Jiří Podhorecký, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-01 16:00++0100\n"
-"PO-Revision-Date: 2020-03-01 14:59+0000\n"
+"POT-Creation-Date: 2020-10-12 16:41++0200\n"
+"PO-Revision-Date: 2020-10-12 14:42+0000\n"
 "Last-Translator: Jiří Sobotík <jiri.sobotik@centrum.cz>\n"
 "Language-Team: Czech (http://www.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -40,12 +40,12 @@ msgstr "Administrace"
 #: view~default.header.search.input.title
 msgctxt "view~default.header.search.input.title"
 msgid "Type to filter your maps."
-msgstr ""
+msgstr "Psaním filtrujte své mapy."
 
 #: view~default.header.search.toggleKeywordsTitle.title
 msgctxt "view~default.header.search.toggleKeywordsTitle.title"
 msgid "Toggle keywords/title search."
-msgstr ""
+msgstr "Přepnout vyhledávání klíčových slov / názvů."
 
 #: view~default.home.title
 msgctxt "view~default.home.title"
@@ -75,7 +75,7 @@ msgstr "Zavřít"
 #: view~default.project.keywordList.label
 msgctxt "view~default.project.keywordList.label"
 msgid "Keyword list"
-msgstr ""
+msgstr "Seznam klíčových slov"
 
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
@@ -334,6 +334,66 @@ msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
 msgstr "Minimalizuj"
 
+#: view~dictionnary.digitizing.confirme.erase
+msgctxt "view~dictionnary.digitizing.confirme.erase"
+msgid "Are you sure you want to delete all features?"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.box
+msgctxt "view~dictionnary.digitizing.toolbar.box"
+msgid "Box"
+msgstr "Box"
+
+#: view~dictionnary.digitizing.toolbar.circle
+msgctxt "view~dictionnary.digitizing.toolbar.circle"
+msgid "Circle"
+msgstr "Kruh"
+
+#: view~dictionnary.digitizing.toolbar.color
+msgctxt "view~dictionnary.digitizing.toolbar.color"
+msgid "Pick draw color"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.deactivate
+msgctxt "view~dictionnary.digitizing.toolbar.deactivate"
+msgid "Deactivate"
+msgstr "Deaktivace"
+
+#: view~dictionnary.digitizing.toolbar.drawTools
+msgctxt "view~dictionnary.digitizing.toolbar.drawTools"
+msgid "Draw tools"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.erase
+msgctxt "view~dictionnary.digitizing.toolbar.erase"
+msgid "Delete all features"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.freehand
+msgctxt "view~dictionnary.digitizing.toolbar.freehand"
+msgid "Free hand"
+msgstr "Od ruky"
+
+#: view~dictionnary.digitizing.toolbar.import
+msgctxt "view~dictionnary.digitizing.toolbar.import"
+msgid "Import in GeoJSON, GPX or KML"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.line
+msgctxt "view~dictionnary.digitizing.toolbar.line"
+msgid "Line"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.point
+msgctxt "view~dictionnary.digitizing.toolbar.point"
+msgid "Point"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.polygon
+msgctxt "view~dictionnary.digitizing.toolbar.polygon"
+msgid "Polygon"
+msgstr "Polygon"
+
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
@@ -393,12 +453,12 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr ""
+msgstr "Formulář byste měli vyplnit správně, abyste po rozdělení geometrie vytvořili nový prvek"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
 msgid "A technical error occurs. Split cannot be done."
-msgstr ""
+msgstr "Došlo k technické chybě. Rozdělení nelze provést."
 
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
@@ -488,7 +548,7 @@ msgstr "Pro vytvoření záložky je vyžadován název."
 #: view~dictionnary.geolocate.infos.accuracy
 msgctxt "view~dictionnary.geolocate.infos.accuracy"
 msgid "Accuracy (m)"
-msgstr ""
+msgstr "Přesnost (m)"
 
 #: view~dictionnary.geolocate.toolbar.bind
 msgctxt "view~dictionnary.geolocate.toolbar.bind"
@@ -503,7 +563,7 @@ msgstr "Centr"
 #: view~dictionnary.geolocate.toolbar.start
 msgctxt "view~dictionnary.geolocate.toolbar.start"
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: view~dictionnary.geolocate.toolbar.stop
 msgctxt "view~dictionnary.geolocate.toolbar.stop"
@@ -513,7 +573,7 @@ msgstr "Stop"
 #: view~dictionnary.geolocate.toolbar.waiting
 msgctxt "view~dictionnary.geolocate.toolbar.waiting"
 msgid "Waiting"
-msgstr ""
+msgstr "Čekání"
 
 #: view~dictionnary.geolocation.failed
 msgctxt "view~dictionnary.geolocation.failed"
@@ -523,21 +583,26 @@ msgstr "Detekce polohy selhala"
 #: view~dictionnary.geolocation.survey.accuracy
 msgctxt "view~dictionnary.geolocation.survey.accuracy"
 msgid "Accuracy"
-msgstr ""
+msgstr "Přesnost"
 
 #: view~dictionnary.geolocation.survey.average
 msgctxt "view~dictionnary.geolocation.survey.average"
 msgid "Average"
-msgstr ""
+msgstr "Průměr"
 
 #: view~dictionnary.geolocation.survey.distance
 msgctxt "view~dictionnary.geolocation.survey.distance"
 msgid "Distance"
-msgstr ""
+msgstr "Vzdálenost"
 
 #: view~dictionnary.geolocation.survey.time
 msgctxt "view~dictionnary.geolocation.survey.time"
 msgid "Time"
+msgstr "Čas"
+
+#: view~dictionnary.geolocation.survey.title
+msgctxt "view~dictionnary.geolocation.survey.title"
+msgid "Survey"
 msgstr ""
 
 #: view~dictionnary.layer.export.right.required
@@ -608,7 +673,7 @@ msgstr "Přiblížit na rozsah vrstvy"
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
 msgid "Click on the map to start measuring an angle."
-msgstr ""
+msgstr "Kliknutím na mapu zahájíte měření úhlu."
 
 #: view~dictionnary.measure.activate.area
 msgctxt "view~dictionnary.measure.activate.area"
@@ -630,6 +695,46 @@ msgctxt "view~dictionnary.measure.handle"
 msgid "Measure:"
 msgstr "Měřítko"
 
+#: view~dictionnary.mouseposition.hover
+msgctxt "view~dictionnary.mouseposition.hover"
+msgid "Mouse position"
+msgstr "Pozice kurzoru"
+
+#: view~dictionnary.mouseposition.removeCenterPoint
+msgctxt "view~dictionnary.mouseposition.removeCenterPoint"
+msgid "Remove center point"
+msgstr ""
+
+#: view~dictionnary.mouseposition.select
+msgctxt "view~dictionnary.mouseposition.select"
+msgid "Coordinate unit"
+msgstr "Jednotky"
+
+#: view~dictionnary.mouseposition.units.d
+msgctxt "view~dictionnary.mouseposition.units.d"
+msgid "Degrees"
+msgstr "Palec"
+
+#: view~dictionnary.mouseposition.units.dm
+msgctxt "view~dictionnary.mouseposition.units.dm"
+msgid "Deg. Min."
+msgstr "Palec Min."
+
+#: view~dictionnary.mouseposition.units.dms
+msgctxt "view~dictionnary.mouseposition.units.dms"
+msgid "D. M. S."
+msgstr "D. M. S"
+
+#: view~dictionnary.mouseposition.units.f
+msgctxt "view~dictionnary.mouseposition.units.f"
+msgid "Feet"
+msgstr "Stopa"
+
+#: view~dictionnary.mouseposition.units.m
+msgctxt "view~dictionnary.mouseposition.units.m"
+msgid "Meters"
+msgstr "Metry"
+
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
 msgid "No object has been found at this location."
@@ -640,10 +745,25 @@ msgctxt "view~dictionnary.popup.msg.start"
 msgid "Click to the map to get informations."
 msgstr "Kliknutím na mapu získáte informace."
 
+#: view~dictionnary.popup.table.compact
+msgctxt "view~dictionnary.popup.table.compact"
+msgid "Compact tables"
+msgstr ""
+
+#: view~dictionnary.popup.table.explode
+msgctxt "view~dictionnary.popup.table.explode"
+msgid "Explode tables"
+msgstr ""
+
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
 msgid "Place the rectangle for printing"
 msgstr "Výběr obdelníkem pro tisk"
+
+#: view~dictionnary.print.customLabels.tooltip
+msgctxt "view~dictionnary.print.customLabels.tooltip"
+msgid "Set custom labels for print"
+msgstr ""
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -660,10 +780,70 @@ msgctxt "view~dictionnary.selectiontool.results.one"
 msgid "1 selected object"
 msgstr "1 vybraný objekt"
 
+#: view~dictionnary.selectiontool.toolbar.action.filter
+msgctxt "view~dictionnary.selectiontool.toolbar.action.filter"
+msgid "Filter"
+msgstr "Filtr"
+
+#: view~dictionnary.selectiontool.toolbar.action.invert
+msgctxt "view~dictionnary.selectiontool.toolbar.action.invert"
+msgid "Invert selection"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.action.type.minus
+msgctxt "view~dictionnary.selectiontool.toolbar.action.type.minus"
+msgid "Remove from selection"
+msgstr "Vymazat z výběru"
+
+#: view~dictionnary.selectiontool.toolbar.action.type.plus
+msgctxt "view~dictionnary.selectiontool.toolbar.action.type.plus"
+msgid "Add to selection"
+msgstr "Přidat do výběru"
+
+#: view~dictionnary.selectiontool.toolbar.action.type.refresh
+msgctxt "view~dictionnary.selectiontool.toolbar.action.type.refresh"
+msgid "New selection"
+msgstr "Nový výběr"
+
+#: view~dictionnary.selectiontool.toolbar.action.unselect
+msgctxt "view~dictionnary.selectiontool.toolbar.action.unselect"
+msgid "Unselect all"
+msgstr "Odznačit vše"
+
+#: view~dictionnary.selectiontool.toolbar.buffer
+msgctxt "view~dictionnary.selectiontool.toolbar.buffer"
+msgid "Buffer"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator"
+msgid "Geometric operators"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.layer
+msgctxt "view~dictionnary.selectiontool.toolbar.layer"
+msgid "Selection layer"
+msgstr "Výběr vrstvy"
+
+#: view~dictionnary.selectiontool.toolbar.title
+msgctxt "view~dictionnary.selectiontool.toolbar.title"
+msgid "Selection"
+msgstr "Výběr"
+
+#: view~dictionnary.snapping.title
+msgctxt "view~dictionnary.snapping.title"
+msgid "Snapping"
+msgstr ""
+
+#: view~dictionnary.switcher.layer.export.title
+msgctxt "view~dictionnary.switcher.layer.export.title"
+msgid "Export"
+msgstr "Export"
+
 #: view~dictionnary.switcherLayersActions.themeSelector.title
 msgctxt "view~dictionnary.switcherLayersActions.themeSelector.title"
 msgid "Select theme"
-msgstr ""
+msgstr "Vybrat theme"
 
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
@@ -674,6 +854,11 @@ msgstr "Pause"
 msgctxt "view~dictionnary.timemanager.toolbar.play"
 msgid "Play"
 msgstr "Spusť"
+
+#: view~dictionnary.toolbar.content.stop
+msgctxt "view~dictionnary.toolbar.content.stop"
+msgid "Stop"
+msgstr "Stop"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -844,6 +1029,11 @@ msgctxt "view~edition.message.error.bbox"
 msgid "The bbox has to be 4 floats separated by ','."
 msgstr "Bbox musí mít 4 čísla oddělená znakem ','."
 
+#: view~edition.message.error.constraint
+msgctxt "view~edition.message.error.constraint"
+msgid "%s: check failed"
+msgstr ""
+
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
 msgid "An error occured while creating the object."
@@ -930,6 +1120,11 @@ msgid ""
 "writable."
 msgstr "Pole \"%s\" ve vrstvě \"%s\" pro nahrávání médií není zapisovatelné."
 
+#: view~edition.message.hint.constraint
+msgctxt "view~edition.message.hint.constraint"
+msgid "Constraint: %s"
+msgstr ""
+
 #: view~edition.message.success.create
 msgctxt "view~edition.message.success.create"
 msgid "Object successfully created."
@@ -993,11 +1188,21 @@ msgstr "Y:"
 #: view~edition.segment.angle.label
 msgctxt "view~edition.segment.angle.label"
 msgid "Angle (°):"
-msgstr ""
+msgstr "Úhel (°):"
 
 #: view~edition.segment.length.label
 msgctxt "view~edition.segment.length.label"
 msgid "Length (m):"
+msgstr "Délka (m):"
+
+#: view~edition.tab.digitization.title
+msgctxt "view~edition.tab.digitization.title"
+msgid "Digitization"
+msgstr ""
+
+#: view~edition.tab.form.title
+msgctxt "view~edition.tab.form.title"
+msgid "Form"
 msgstr ""
 
 #: view~edition.toolbar.cancel.title
@@ -1122,8 +1327,8 @@ msgstr "Zachovat"
 
 #: view~edition.upload.choice.update
 msgctxt "view~edition.upload.choice.update"
-msgid "Update"
-msgstr "Aktualizovat"
+msgid "Add/Update"
+msgstr ""
 
 #: view~map.attributeLayers.navbar.title
 msgctxt "view~map.attributeLayers.navbar.title"
@@ -1179,6 +1384,11 @@ msgstr "Maximalizuj"
 msgctxt "view~map.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
 msgstr "Minimalizuj"
+
+#: view~map.draw.navbar.title
+msgctxt "view~map.draw.navbar.title"
+msgid "Draw"
+msgstr ""
 
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"
@@ -1238,7 +1448,7 @@ msgstr "Měření"
 #: view~map.measure.toolbar.angle
 msgctxt "view~map.measure.toolbar.angle"
 msgid "Angle"
-msgstr ""
+msgstr "Úhel"
 
 #: view~map.measure.toolbar.area
 msgctxt "view~map.measure.toolbar.area"
@@ -1359,41 +1569,6 @@ msgstr "Web Map Service"
 msgctxt "view~map.metadata.resources.website"
 msgid "Website"
 msgstr "Website"
-
-#: view~map.mouseposition.hover
-msgctxt "view~map.mouseposition.hover"
-msgid "Mouse position"
-msgstr "Pozice kurzoru"
-
-#: view~map.mouseposition.select
-msgctxt "view~map.mouseposition.select"
-msgid "Coordinate unit"
-msgstr "Jednotky"
-
-#: view~map.mouseposition.units.d
-msgctxt "view~map.mouseposition.units.d"
-msgid "Degrees"
-msgstr "Palec"
-
-#: view~map.mouseposition.units.dm
-msgctxt "view~map.mouseposition.units.dm"
-msgid "Deg. Min."
-msgstr "Palec Min."
-
-#: view~map.mouseposition.units.dms
-msgctxt "view~map.mouseposition.units.dms"
-msgid "D. M. S."
-msgstr "D. M. S"
-
-#: view~map.mouseposition.units.f
-msgctxt "view~map.mouseposition.units.f"
-msgid "Feet"
-msgstr "Stopa"
-
-#: view~map.mouseposition.units.m
-msgctxt "view~map.mouseposition.units.m"
-msgid "Meters"
-msgstr "Metry"
 
 #: view~map.navbar.next.hover
 msgctxt "view~map.navbar.next.hover"
@@ -1604,61 +1779,6 @@ msgstr "Vyhledávání"
 msgctxt "view~map.selectiontool.navbar.title"
 msgid "Selection"
 msgstr "Výběr"
-
-#: view~map.selectiontool.toolbar.action.filter
-msgctxt "view~map.selectiontool.toolbar.action.filter"
-msgid "Filter"
-msgstr "Filtr"
-
-#: view~map.selectiontool.toolbar.action.type.minus
-msgctxt "view~map.selectiontool.toolbar.action.type.minus"
-msgid "Remove from selection"
-msgstr "Vymazat z výběru"
-
-#: view~map.selectiontool.toolbar.action.type.plus
-msgctxt "view~map.selectiontool.toolbar.action.type.plus"
-msgid "Add to selection"
-msgstr "Přidat do výběru"
-
-#: view~map.selectiontool.toolbar.action.type.refresh
-msgctxt "view~map.selectiontool.toolbar.action.type.refresh"
-msgid "New selection"
-msgstr "Nový výběr"
-
-#: view~map.selectiontool.toolbar.action.unselect
-msgctxt "view~map.selectiontool.toolbar.action.unselect"
-msgid "Unselect all"
-msgstr "Odznačit vše"
-
-#: view~map.selectiontool.toolbar.layer
-msgctxt "view~map.selectiontool.toolbar.layer"
-msgid "Selection layer"
-msgstr "Výběr vrstvy"
-
-#: view~map.selectiontool.toolbar.query.box
-msgctxt "view~map.selectiontool.toolbar.query.box"
-msgid "Box"
-msgstr "Box"
-
-#: view~map.selectiontool.toolbar.query.circle
-msgctxt "view~map.selectiontool.toolbar.query.circle"
-msgid "Circle"
-msgstr "Kruh"
-
-#: view~map.selectiontool.toolbar.query.deactivate
-msgctxt "view~map.selectiontool.toolbar.query.deactivate"
-msgid "Deactivate"
-msgstr "Deaktivace"
-
-#: view~map.selectiontool.toolbar.query.freehand
-msgctxt "view~map.selectiontool.toolbar.query.freehand"
-msgid "Free hand"
-msgstr "Od ruky"
-
-#: view~map.selectiontool.toolbar.query.polygon
-msgctxt "view~map.selectiontool.toolbar.query.polygon"
-msgid "Polygon"
-msgstr "Polygon"
 
 #: view~map.selectiontool.toolbar.title
 msgctxt "view~map.selectiontool.toolbar.title"
