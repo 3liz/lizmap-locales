@@ -5,9 +5,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jcommunity 3.3.5-pre\n"
+"Project-Id-Version: Lizmap Web Client jcommunity 3.3.7-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-29 17:27++0100\n"
+"POT-Creation-Date: 2020-06-08 11:26++0200\n"
 "PO-Revision-Date: 2019-05-27 13:12+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/3liz-1/teams/62012/ru/)\n"
@@ -500,6 +500,13 @@ msgctxt "jcommunity~password.form.change.error.admin.badstatus"
 msgid "Password change is not allowed because of the account status."
 msgstr ""
 
+#: jcommunity~password.form.change.error.admin.smtperror
+msgctxt "jcommunity~password.form.change.error.admin.smtperror"
+msgid ""
+"There was an error during the mail sending. Please retry later or contact "
+"the administrator."
+msgstr ""
+
 #: jcommunity~password.form.change.error.alreadydone
 msgctxt "jcommunity~password.form.change.error.alreadydone"
 msgid "Sorry, there is no request for a password change."
@@ -532,6 +539,13 @@ msgctxt "jcommunity~password.form.change.error.expiredkey"
 msgid ""
 "Password change is not possible: the request has expired. Do an other "
 "request."
+msgstr ""
+
+#: jcommunity~password.form.change.error.smtperror
+msgctxt "jcommunity~password.form.change.error.smtperror"
+msgid ""
+"There was an error during the mail sending. Please retry later or contact "
+"the administrator."
 msgstr ""
 
 #: jcommunity~password.form.change.ok

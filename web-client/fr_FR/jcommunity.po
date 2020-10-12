@@ -1,15 +1,15 @@
 # 
 # Translators:
 # rldhont <rldhont@gmail.com>, 2019
-# Laurent Jouanneau <dev@ljouanneau.com>, 2019
+# Laurent Jouanneau <dev@ljouanneau.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jcommunity 3.3.5-pre\n"
+"Project-Id-Version: Lizmap Web Client jcommunity 3.3.7-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-29 17:27++0100\n"
+"POT-Creation-Date: 2020-06-08 11:26++0200\n"
 "PO-Revision-Date: 2019-05-27 13:12+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2019\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2020\n"
 "Language-Team: French (https://www.transifex.com/3liz-1/teams/62012/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -560,6 +560,15 @@ msgstr ""
 "Changement de mot de passe impossible : le statut du compte ne le permet "
 "pas."
 
+#: jcommunity~password.form.change.error.admin.smtperror
+msgctxt "jcommunity~password.form.change.error.admin.smtperror"
+msgid ""
+"There was an error during the mail sending. Please retry later or contact "
+"the administrator."
+msgstr ""
+"Il y a une erreur technique durant l'envoi du mail. Re-éssayez plus tard ou "
+"contacter l'administrateur."
+
 #: jcommunity~password.form.change.error.alreadydone
 msgctxt "jcommunity~password.form.change.error.alreadydone"
 msgid "Sorry, there is no request for a password change."
@@ -600,6 +609,15 @@ msgstr ""
 "Changement de mot de passe impossible : la demande de changement a expiré. "
 "Si vous ne vous souvenez toujours pas de votre mot de passe, refaite une "
 "demande."
+
+#: jcommunity~password.form.change.error.smtperror
+msgctxt "jcommunity~password.form.change.error.smtperror"
+msgid ""
+"There was an error during the mail sending. Please retry later or contact "
+"the administrator."
+msgstr ""
+"Il y a une erreur technique durant l'envoi du mail. Re-éssayez plus tard ou "
+"contacter l'administrateur."
 
 #: jcommunity~password.form.change.ok
 msgctxt "jcommunity~password.form.change.ok"

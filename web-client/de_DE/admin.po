@@ -3,14 +3,15 @@
 # Bernasocchi <marco@opengis.ch>, 2019
 # Felix Kuehne <felixdemern@googlemail.com>, 2019
 # rldhont <rldhont@gmail.com>, 2019
+# Georges Moes <g.moes@naturemwelt.lu>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client admin 3.3.5-pre\n"
+"Project-Id-Version: Lizmap Web Client admin 3.3.7-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-29 17:27++0100\n"
+"POT-Creation-Date: 2020-06-08 11:26++0200\n"
 "PO-Revision-Date: 2019-05-27 13:11+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>, 2019\n"
+"Last-Translator: Georges Moes <g.moes@naturemwelt.lu>, 2020\n"
 "Language-Team: German (https://www.transifex.com/3liz-1/teams/62012/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -98,6 +99,7 @@ msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of Ldap authentication"
 msgstr ""
+"Diese Option is deaktiviert aufgrund der Verwendung von Ldap Athetifizierung"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -152,7 +154,7 @@ msgstr "Anfrage an QGIS Server senden mit"
 #: admin~admin.configuration.services.qgisServerVersion.label
 msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
 msgid "QGIS server version"
-msgstr ""
+msgstr "QGIS Server Version"
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
@@ -162,12 +164,12 @@ msgstr "Wurzelordner der Verzeichnisse"
 #: admin~admin.configuration.services.wmsMaxHeight.label
 msgctxt "admin~admin.configuration.services.wmsMaxHeight.label"
 msgid "Maximum Height for GetMap request"
-msgstr ""
+msgstr "Maximale Höhe für GetMap Anfrage"
 
 #: admin~admin.configuration.services.wmsMaxWidth.label
 msgctxt "admin~admin.configuration.services.wmsMaxWidth.label"
 msgid "Maximum Witdh for GetMap request"
-msgstr ""
+msgstr "Maximale Breite für GetMap Anfrage"
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
@@ -249,7 +251,7 @@ msgstr "Das angegebene Verzeichnis existiert nicht."
 msgctxt ""
 "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
 msgid "Allow themes/javascript codes for this repository"
-msgstr ""
+msgstr "Für dieses Verzeichnis eigene Themen/Javascript Code erlauben"
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
@@ -274,12 +276,12 @@ msgstr "Speichern"
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
 msgid "E-mail address to which notifications will be sent"
-msgstr ""
+msgstr "E-Mail Adresse an die Benachrichtigungen gesendet werden"
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
 msgid "E-mail where to send notifications"
-msgstr ""
+msgstr "E-Mail Adresse an die Benachrichtigungen gesendet werden sollen"
 
 #: admin~admin.form.admin_services.adminSenderEmail.error.required
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
@@ -287,6 +289,8 @@ msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
 msgstr ""
+"Eine E-Mail Adresse wird benötigt um Benachrichtigungen oder Anfragen zur "
+"Account-Erstellung zu senden"
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
@@ -294,21 +298,24 @@ msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
 msgstr ""
+"E-Mail Adresse die zur Versendung von E-Mails genutzt wird. Wenn leer werden"
+" keine Emails von Lizmap versendet. Bitte vergewissern Sie sich, dass Ihr "
+"Server das Versenden von E-Mails von dieser Adresse erlaubt. "
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
 msgid "Sender address of e-mails"
-msgstr ""
+msgstr "Absender-Adresse der E-Mails"
 
 #: admin~admin.form.admin_services.adminSenderName.help
 msgctxt "admin~admin.form.admin_services.adminSenderName.help"
 msgid "Name of the sender used to send e-mails."
-msgstr ""
+msgstr "Name des Absenders beim Versenden von E-Mails "
 
 #: admin~admin.form.admin_services.adminSenderName.label
 msgctxt "admin~admin.form.admin_services.adminSenderName.label"
 msgid "Sender name of e-mails"
-msgstr ""
+msgstr "Absender der E-Mails"
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.help
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
@@ -316,6 +323,8 @@ msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
 msgstr ""
+"Wenn eingeschaltet kann der Besucher ein Formular zur Beantragung eines "
+"Accounts ausfüllen. Eine Absender Adresse für E-Mails muss vorhanden sein.  "
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
@@ -504,7 +513,7 @@ msgstr "Aus"
 #: admin~admin.form.admin_services.on.label
 msgctxt "admin~admin.form.admin_services.on.label"
 msgid "On"
-msgstr ""
+msgstr "An"
 
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
@@ -514,7 +523,7 @@ msgstr "Nur Karten"
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
 msgid "Show projects switcher"
-msgstr ""
+msgstr "Projektauswahl anzeigen"
 
 #: admin~admin.form.admin_services.proxyMethod.curl.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.curl.label"
@@ -524,7 +533,7 @@ msgstr "CURL"
 #: admin~admin.form.admin_services.proxyMethod.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.label"
 msgid "Send request to QGIS Server or request to external services with"
-msgstr ""
+msgstr "Sende Anfrage an QGIS Server oder an einen externen Dienst mit"
 
 #: admin~admin.form.admin_services.proxyMethod.php.label
 msgctxt "admin~admin.form.admin_services.proxyMethod.php.label"
@@ -534,72 +543,72 @@ msgstr "PHP"
 #: admin~admin.form.admin_services.qgisServerVersion.214.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.214.label"
 msgid "≤ 2.14"
-msgstr ""
+msgstr "≤ 2.14"
 
 #: admin~admin.form.admin_services.qgisServerVersion.218.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.218.label"
 msgid "2.18"
-msgstr ""
+msgstr "2.18"
 
 #: admin~admin.form.admin_services.qgisServerVersion.300.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.300.label"
 msgid "≥ 3.0"
-msgstr ""
+msgstr "≥ 3.0"
 
 #: admin~admin.form.admin_services.qgisServerVersion.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.label"
 msgid "QGIS server version"
-msgstr ""
+msgstr "QGIS Server Version"
 
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use relative path from root folder?"
-msgstr ""
+msgstr "Benutzt der Server relative Pfade vom Root-Verzeichnis? "
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
 msgid "No proxy"
-msgstr ""
+msgstr "Kein Proxy"
 
 #: admin~admin.form.admin_services.requestProxy.enabled
 msgctxt "admin~admin.form.admin_services.requestProxy.enabled"
 msgid "Use a proxy server"
-msgstr ""
+msgstr "Benutzen Sie einen Proxy Server"
 
 #: admin~admin.form.admin_services.requestProxy.label
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
 msgid "Use a proxy server to do requests to external services"
-msgstr ""
+msgstr "Benutzen Sie einen Proxy Server für Anfragen an externe Dienste"
 
 #: admin~admin.form.admin_services.requestProxyHost.label
 msgctxt "admin~admin.form.admin_services.requestProxyHost.label"
 msgid "Host of the proxy server"
-msgstr ""
+msgstr "Host des Proxy Servers"
 
 #: admin~admin.form.admin_services.requestProxyNotForDomain.label
 msgctxt "admin~admin.form.admin_services.requestProxyNotForDomain.label"
 msgid "Domains for which the proxy will not be used"
-msgstr ""
+msgstr "Domains für die der Proxy Server nicht genutzt wird"
 
 #: admin~admin.form.admin_services.requestProxyPassword.label
 msgctxt "admin~admin.form.admin_services.requestProxyPassword.label"
 msgid "Password to access to the proxy server"
-msgstr ""
+msgstr "Passwort für den Zugang zum Proxy Server"
 
 #: admin~admin.form.admin_services.requestProxyPort.label
 msgctxt "admin~admin.form.admin_services.requestProxyPort.label"
 msgid "Port of the proxy server"
-msgstr ""
+msgstr "Port des Proxy Servers"
 
 #: admin~admin.form.admin_services.requestProxyType.label
 msgctxt "admin~admin.form.admin_services.requestProxyType.label"
 msgid "Type of the proxy"
-msgstr ""
+msgstr "Typ des Proxy Servers"
 
 #: admin~admin.form.admin_services.requestProxyUser.label
 msgctxt "admin~admin.form.admin_services.requestProxyUser.label"
 msgid "Login to access to the proxy server"
-msgstr ""
+msgstr "Login zum Proxy Server"
 
 #: admin~admin.form.admin_services.rootRepositories.help
 msgctxt "admin~admin.form.admin_services.rootRepositories.help"
@@ -625,12 +634,12 @@ msgstr "Speichern"
 #: admin~admin.form.admin_services.wmsMaxHeight.label
 msgctxt "admin~admin.form.admin_services.wmsMaxHeight.label"
 msgid "Default max. Height for GetMap request"
-msgstr ""
+msgstr "Standardeinstellung maximale Höhe für GetMap Anfragen"
 
 #: admin~admin.form.admin_services.wmsMaxWidth.label
 msgctxt "admin~admin.form.admin_services.wmsMaxWidth.label"
 msgid "Default max. Witdh for GetMap request"
-msgstr ""
+msgstr "Standardeinstellung maximale Breite für GetMap Anfragen"
 
 #: admin~admin.form.admin_services.wmsPublicUrlList.label
 msgctxt "admin~admin.form.admin_services.wmsPublicUrlList.label"
@@ -652,106 +661,108 @@ msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
 msgstr ""
+"Eigenes CSS Layout zum Überscheiben des Lizmap Stylings (für "
+"fortgeschrittene Benutzer)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
 msgid "Additional CSS properties"
-msgstr ""
+msgstr "Ergänzende CSS Eigenschaften"
 
 #: admin~admin.form.admin_theme.dockBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.help"
 msgid "The color of the docks background."
-msgstr ""
+msgstr "Hintergrundfarbe der Docks-Fenster  "
 
 #: admin~admin.form.admin_theme.dockBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.label"
 msgid "Docks - background color"
-msgstr ""
+msgstr "Hintergrundfarbe der Docks-Fenster "
 
 #: admin~admin.form.admin_theme.h1
 msgctxt "admin~admin.form.admin_theme.h1"
 msgid "Theme"
-msgstr ""
+msgstr "Layout-Thema"
 
 #: admin~admin.form.admin_theme.headerBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.help"
 msgid "The color of the header background."
-msgstr ""
+msgstr "Hintergrundfarbe des Headers"
 
 #: admin~admin.form.admin_theme.headerBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.label"
 msgid "Header - background color"
-msgstr ""
+msgstr "Hintergrundfarbe des Headers"
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
 msgid "The image to be used for the header background (400ko Maximum)."
-msgstr ""
+msgstr "Bild für den Header Hintergrund (max. 400KB)"
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
 msgid "Header - background image"
-msgstr ""
+msgstr "Header - Hintergrundbild"
 
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
 msgid "The image to be used for the header logo (200ko Maximum)."
-msgstr ""
+msgstr "Bild für Header-Logo (max. 200KB)"
 
 #: admin~admin.form.admin_theme.headerLogo.label
 msgctxt "admin~admin.form.admin_theme.headerLogo.label"
 msgid "Header - logo"
-msgstr ""
+msgstr "Header - Logo"
 
 #: admin~admin.form.admin_theme.headerLogoWidth.help
 msgctxt "admin~admin.form.admin_theme.headerLogoWidth.help"
 msgid "The width taken by the logo before the title (in pixels)."
-msgstr ""
+msgstr "Breite des Logos vor dem Titel (in Pixel) "
 
 #: admin~admin.form.admin_theme.headerLogoWidth.label
 msgctxt "admin~admin.form.admin_theme.headerLogoWidth.label"
 msgid "Header - logo width"
-msgstr ""
+msgstr "Header - Breite des Logos"
 
 #: admin~admin.form.admin_theme.headerSubtitleColor.help
 msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.help"
 msgid "The color of the header subtitle text."
-msgstr ""
+msgstr "Farbe des Header Untertitel Textes"
 
 #: admin~admin.form.admin_theme.headerSubtitleColor.label
 msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.label"
 msgid "Header - subtitle color"
-msgstr ""
+msgstr "Header - Farbe des Untertitels"
 
 #: admin~admin.form.admin_theme.headerTitleColor.help
 msgctxt "admin~admin.form.admin_theme.headerTitleColor.help"
 msgid "The color of the header title text."
-msgstr ""
+msgstr "Farbe des Header Titel Textes"
 
 #: admin~admin.form.admin_theme.headerTitleColor.label
 msgctxt "admin~admin.form.admin_theme.headerTitleColor.label"
 msgid "Header - title color"
-msgstr ""
+msgstr "Header - Farbe des Titels"
 
 #: admin~admin.form.admin_theme.menuBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.help"
 msgid "The color of the menu left bar background."
-msgstr ""
+msgstr "Hintergrundfarbe des linken Menübalkens"
 
 #: admin~admin.form.admin_theme.menuBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.label"
 msgid "Menu bar - background color"
-msgstr ""
+msgstr "Menübalken - Hintergrundfarbe"
 
 #: admin~admin.form.admin_theme.navbarColor.help
 msgctxt "admin~admin.form.admin_theme.navbarColor.help"
 msgid "The background color of the navigation bar (zoom tools)."
-msgstr ""
+msgstr "Hintergrundfarbe des Navigationsmenüs (Zoom Werkzeuge)"
 
 #: admin~admin.form.admin_theme.navbarColor.label
 msgctxt "admin~admin.form.admin_theme.navbarColor.label"
 msgid "Navigation bar - background color"
-msgstr ""
+msgstr "Navigationsmenü - Hintergrundfarbe"
 
 #: admin~admin.generic.h2
 msgctxt "admin~admin.generic.h2"
@@ -801,37 +812,37 @@ msgstr "Log Details"
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
 msgid "A feature has been deleted by a user."
-msgstr ""
+msgstr "Ein Feature wurde vom Benutzer gelöscht"
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
 msgid "A feature has been created or modified by a user."
-msgstr ""
+msgstr "Ein Feature wurde vom Benutzer erstellt oder verändert "
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
 msgid "A user has logged in."
-msgstr ""
+msgstr "Ein Benutzer hat sich angemeldet"
 
 #: admin~admin.logs.email.popup.body
 msgctxt "admin~admin.logs.email.popup.body"
 msgid "A user has opened a feature information popup."
-msgstr ""
+msgstr "Ein Benutzer hat ein Info-Popup geöffnet"
 
 #: admin~admin.logs.email.print.body
 msgctxt "admin~admin.logs.email.print.body"
 msgid "A user has used the print tool."
-msgstr ""
+msgstr "Ein Benutzer hat das Drucken-Werkzeug benutzt"
 
 #: admin~admin.logs.email.subject
 msgctxt "admin~admin.logs.email.subject"
 msgid "A new log item has been recorded."
-msgstr ""
+msgstr "Ein Log-Eintrag wurde erstellt"
 
 #: admin~admin.logs.email.viewmap.body
 msgctxt "admin~admin.logs.email.viewmap.body"
 msgid "A user has accessed a map."
-msgstr ""
+msgstr "Ein Benutzer hat eine Karte benutzt "
 
 #: admin~admin.logs.empty.button
 msgctxt "admin~admin.logs.empty.button"
@@ -851,17 +862,17 @@ msgstr "Die Logtabelle %s wurde erfolgreich gelöscht."
 #: admin~admin.logs.error.file.erase
 msgctxt "admin~admin.logs.error.file.erase"
 msgid "Erase the error log file"
-msgstr ""
+msgstr "Fehler-Log Datei löschen"
 
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
 msgid "Are you sure you want to erase the error log file ?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie die Fehler-Log Datei löschen wollen?"
 
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
-msgstr ""
+msgstr "Die Fehler-Log Datei wurde erfolgreich gelöscht."
 
 #: admin~admin.logs.error.file.too.big
 msgctxt "admin~admin.logs.error.file.too.big"
@@ -869,16 +880,18 @@ msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
 msgstr ""
+"Die Fehler-Log Datei ist zu groß. Ziehen Sie die Benutzung der Fehler-Log "
+"Rotation für die Lizmap Web Clients Logs in Erwägung."
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the Lizmap Web Client application error log file"
-msgstr ""
+msgstr "Letzte Zeilen der Lizmap Web Client Fehler-Log Datei"
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
 msgid "Error log"
-msgstr ""
+msgstr "Fehler-Log Datei"
 
 #: admin~admin.logs.export.button
 msgctxt "admin~admin.logs.export.button"
@@ -953,12 +966,12 @@ msgstr "Logs anzeigen"
 #: admin~admin.menu.lizmap.theme.label
 msgctxt "admin~admin.menu.lizmap.theme.label"
 msgid "Theme"
-msgstr ""
+msgstr "Layout-Thema"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
 msgid "Remove this image (and use default one) ?"
-msgstr ""
+msgstr "Löschen des Bildes ( und Benutzung des Standard-Bildes)?"
 
 #: admin~admin.theme.button.remove.logo.label
 msgctxt "admin~admin.theme.button.remove.logo.label"
@@ -968,7 +981,7 @@ msgstr "Entfernen"
 #: admin~admin.theme.detail.title
 msgctxt "admin~admin.theme.detail.title"
 msgid "Theme configuration"
-msgstr ""
+msgstr "Layout-Themen Konfiguration"
 
 #: admin~jacl2.lizmap.admin.access
 msgctxt "admin~jacl2.lizmap.admin.access"
@@ -983,7 +996,7 @@ msgstr "Lizmap Administrator-Verwaltung"
 #: admin~jacl2.lizmap.admin.grp.default
 msgctxt "admin~jacl2.lizmap.admin.grp.default"
 msgid "default group"
-msgstr ""
+msgstr "Standard Gruppe"
 
 #: admin~jacl2.lizmap.admin.repositories.create
 msgctxt "admin~jacl2.lizmap.admin.repositories.create"
@@ -1023,7 +1036,7 @@ msgstr "Lizmap Benutzerverwaltung"
 #: admin~jacl2.lizmap.repositories.view
 msgctxt "admin~jacl2.lizmap.repositories.view"
 msgid "View projects in the repository"
-msgstr ""
+msgstr "Zeige Projekte im Verzeichnis"
 
 #: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
 msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
@@ -1053,22 +1066,22 @@ msgstr "Hinzufügen"
 #: admin~user.acl.form.add.to.group
 msgctxt "admin~user.acl.form.add.to.group"
 msgid "Add him to this group"
-msgstr ""
+msgstr "Benutzer zu Gruppe hinzufügen"
 
 #: admin~user.acl.form.remove.from.group
 msgctxt "admin~user.acl.form.remove.from.group"
 msgid "Remove him from this group"
-msgstr ""
+msgstr "Benutzer aus Gruppe entfernen "
 
 #: admin~user.acl.form.title
 msgctxt "admin~user.acl.form.title"
 msgid "Groups the user belongs to"
-msgstr ""
+msgstr "Gruppen zu denen der Benutzer gehört"
 
 #: admin~user.acl.no.group
 msgctxt "admin~user.acl.no.group"
 msgid "The user is not in any group"
-msgstr ""
+msgstr "Der Benutzer ist in keiner Gruppe"
 
 #: admin~user.email.admin.body
 msgctxt "admin~user.email.admin.body"
