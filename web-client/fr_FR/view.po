@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-12 16:41++0200\n"
-"PO-Revision-Date: 2020-10-12 14:54+0000\n"
+"POT-Creation-Date: 2020-11-23 17:43++0100\n"
+"PO-Revision-Date: 2020-11-23 16:45+0000\n"
 "Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
 "Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -607,7 +607,7 @@ msgstr "Temps"
 #: view~dictionnary.geolocation.survey.title
 msgctxt "view~dictionnary.geolocation.survey.title"
 msgid "Survey"
-msgstr ""
+msgstr "Sondage"
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
@@ -752,12 +752,12 @@ msgstr "Cliquez sur la carte pour obtenir des informations."
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
 msgid "Compact tables"
-msgstr ""
+msgstr "Tables compactes"
 
 #: view~dictionnary.popup.table.explode
 msgctxt "view~dictionnary.popup.table.explode"
 msgid "Explode tables"
-msgstr ""
+msgstr "Éclater les tables"
 
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
@@ -767,7 +767,7 @@ msgstr "Placez le rectangle sur la carte puis cliquez sur le bouton Imprimer"
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
-msgstr ""
+msgstr "Personnaliser l'impression"
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -792,7 +792,7 @@ msgstr "Filtre"
 #: view~dictionnary.selectiontool.toolbar.action.invert
 msgctxt "view~dictionnary.selectiontool.toolbar.action.invert"
 msgid "Invert selection"
-msgstr ""
+msgstr "Inverser la sélection"
 
 #: view~dictionnary.selectiontool.toolbar.action.type.minus
 msgctxt "view~dictionnary.selectiontool.toolbar.action.type.minus"
@@ -817,12 +817,12 @@ msgstr "Tout désélectionner"
 #: view~dictionnary.selectiontool.toolbar.buffer
 msgctxt "view~dictionnary.selectiontool.toolbar.buffer"
 msgid "Buffer"
-msgstr ""
+msgstr "Tampon"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator"
 msgid "Geometric operators"
-msgstr ""
+msgstr "Opérateurs géométriques"
 
 #: view~dictionnary.selectiontool.toolbar.layer
 msgctxt "view~dictionnary.selectiontool.toolbar.layer"
@@ -837,12 +837,17 @@ msgstr "Sélection"
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
-msgstr ""
+msgstr "Accrochage"
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
 msgstr "Exporter"
+
+#: view~dictionnary.switcher.layer.export.warn
+msgctxt "view~dictionnary.switcher.layer.export.warn"
+msgid "Please select a single layer to export"
+msgstr ""
 
 #: view~dictionnary.switcherLayersActions.themeSelector.title
 msgctxt "view~dictionnary.switcherLayersActions.themeSelector.title"
@@ -1036,7 +1041,7 @@ msgstr "La bbox doit être composé de 4 nombres séparés par ',' ."
 #: view~edition.message.error.constraint
 msgctxt "view~edition.message.error.constraint"
 msgid "%s: check failed"
-msgstr ""
+msgstr "%s: vérification échouée"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
@@ -1052,6 +1057,11 @@ msgstr "crs est obligatoire et devrait être un entier ou de la forme EPSG:* ."
 msgctxt "view~edition.message.error.delete"
 msgid "The deletion has failed."
 msgstr "La suppression a échoué ."
+
+#: view~edition.message.error.feature.editable
+msgctxt "view~edition.message.error.feature.editable"
+msgid "The feature is not editable."
+msgstr ""
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -1127,7 +1137,7 @@ msgstr "Le répertoire du champs \"%s\" de la couche \"%s\" pour le chargement d
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
 msgid "Constraint: %s"
-msgstr ""
+msgstr "Contrainte : %s"
 
 #: view~edition.message.success.create
 msgctxt "view~edition.message.success.create"
@@ -1202,12 +1212,12 @@ msgstr "Longueur (m):"
 #: view~edition.tab.digitization.title
 msgctxt "view~edition.tab.digitization.title"
 msgid "Digitization"
-msgstr ""
+msgstr "Digitalisation"
 
 #: view~edition.tab.form.title
 msgctxt "view~edition.tab.form.title"
 msgid "Form"
-msgstr ""
+msgstr "Formulaire"
 
 #: view~edition.toolbar.cancel.title
 msgctxt "view~edition.toolbar.cancel.title"
@@ -1332,7 +1342,7 @@ msgstr "Conserver"
 #: view~edition.upload.choice.update
 msgctxt "view~edition.upload.choice.update"
 msgid "Add/Update"
-msgstr ""
+msgstr "Ajouter/Modifier"
 
 #: view~map.attributeLayers.navbar.title
 msgctxt "view~map.attributeLayers.navbar.title"
@@ -1392,7 +1402,7 @@ msgstr "Réduire"
 #: view~map.draw.navbar.title
 msgctxt "view~map.draw.navbar.title"
 msgid "Draw"
-msgstr ""
+msgstr "Dessiner"
 
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"

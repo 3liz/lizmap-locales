@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-12 16:41++0200\n"
-"PO-Revision-Date: 2020-10-12 14:42+0000\n"
-"Last-Translator: xanvieiro <gallaecia6@gmail.com>\n"
+"POT-Creation-Date: 2020-11-23 17:43++0100\n"
+"PO-Revision-Date: 2020-11-23 16:45+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
 "Language-Team: Galician (http://www.transifex.com/3liz-1/lizmap-locales/language/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -338,7 +338,7 @@ msgstr "Minimizar"
 #: view~dictionnary.digitizing.confirme.erase
 msgctxt "view~dictionnary.digitizing.confirme.erase"
 msgid "Are you sure you want to delete all features?"
-msgstr ""
+msgstr "Está seguro de querer eliminar tódalas entidades?"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -353,7 +353,7 @@ msgstr "Círculo"
 #: view~dictionnary.digitizing.toolbar.color
 msgctxt "view~dictionnary.digitizing.toolbar.color"
 msgid "Pick draw color"
-msgstr ""
+msgstr "Escoller cor do debuxo"
 
 #: view~dictionnary.digitizing.toolbar.deactivate
 msgctxt "view~dictionnary.digitizing.toolbar.deactivate"
@@ -363,12 +363,12 @@ msgstr "Desactivar"
 #: view~dictionnary.digitizing.toolbar.drawTools
 msgctxt "view~dictionnary.digitizing.toolbar.drawTools"
 msgid "Draw tools"
-msgstr ""
+msgstr "Ferramentas de debuxo"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
 msgid "Delete all features"
-msgstr ""
+msgstr "Eliminar tódalas entidades"
 
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
@@ -378,17 +378,17 @@ msgstr "Man libre"
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
 msgid "Import in GeoJSON, GPX or KML"
-msgstr ""
+msgstr "Importar en GeoJSON, GPX ou KML"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
 msgid "Line"
-msgstr ""
+msgstr "Liña"
 
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
 msgid "Point"
-msgstr ""
+msgstr "Punto"
 
 #: view~dictionnary.digitizing.toolbar.polygon
 msgctxt "view~dictionnary.digitizing.toolbar.polygon"
@@ -604,7 +604,7 @@ msgstr "Hora"
 #: view~dictionnary.geolocation.survey.title
 msgctxt "view~dictionnary.geolocation.survey.title"
 msgid "Survey"
-msgstr ""
+msgstr "Mostraxe"
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
@@ -704,7 +704,7 @@ msgstr "Posición do rato"
 #: view~dictionnary.mouseposition.removeCenterPoint
 msgctxt "view~dictionnary.mouseposition.removeCenterPoint"
 msgid "Remove center point"
-msgstr ""
+msgstr "Eliminar punto central"
 
 #: view~dictionnary.mouseposition.select
 msgctxt "view~dictionnary.mouseposition.select"
@@ -749,12 +749,12 @@ msgstr "Faga clic no mapa para obter informacións."
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
 msgid "Compact tables"
-msgstr ""
+msgstr "Compactar táboas"
 
 #: view~dictionnary.popup.table.explode
 msgctxt "view~dictionnary.popup.table.explode"
 msgid "Explode tables"
-msgstr ""
+msgstr "Expandir táboas"
 
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
@@ -764,7 +764,7 @@ msgstr "Sitúe o rectángulo para imprimir"
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
-msgstr ""
+msgstr "Establecer etiquetas predeterminadas para a impresión"
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -789,7 +789,7 @@ msgstr "Filtro"
 #: view~dictionnary.selectiontool.toolbar.action.invert
 msgctxt "view~dictionnary.selectiontool.toolbar.action.invert"
 msgid "Invert selection"
-msgstr ""
+msgstr "Inverter selección"
 
 #: view~dictionnary.selectiontool.toolbar.action.type.minus
 msgctxt "view~dictionnary.selectiontool.toolbar.action.type.minus"
@@ -814,12 +814,12 @@ msgstr "Deseleccionar todo"
 #: view~dictionnary.selectiontool.toolbar.buffer
 msgctxt "view~dictionnary.selectiontool.toolbar.buffer"
 msgid "Buffer"
-msgstr ""
+msgstr "Búfer"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator"
 msgid "Geometric operators"
-msgstr ""
+msgstr "Operadores xeométricos"
 
 #: view~dictionnary.selectiontool.toolbar.layer
 msgctxt "view~dictionnary.selectiontool.toolbar.layer"
@@ -834,12 +834,17 @@ msgstr "Selección"
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
-msgstr ""
+msgstr "Axuste"
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
 msgstr "Exportar"
+
+#: view~dictionnary.switcher.layer.export.warn
+msgctxt "view~dictionnary.switcher.layer.export.warn"
+msgid "Please select a single layer to export"
+msgstr ""
 
 #: view~dictionnary.switcherLayersActions.themeSelector.title
 msgctxt "view~dictionnary.switcherLayersActions.themeSelector.title"
@@ -1033,7 +1038,7 @@ msgstr "A caixa delimitadora ten que ter 4 decimais separados por ','."
 #: view~edition.message.error.constraint
 msgctxt "view~edition.message.error.constraint"
 msgid "%s: check failed"
-msgstr ""
+msgstr "%s: erro de comprobación"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
@@ -1049,6 +1054,11 @@ msgstr "o src é obrigatorio e ten que ser un número enteiro ou EPSG:*."
 msgctxt "view~edition.message.error.delete"
 msgid "The deletion has failed."
 msgstr "Fallou a eliminación."
+
+#: view~edition.message.error.feature.editable
+msgctxt "view~edition.message.error.feature.editable"
+msgid "The feature is not editable."
+msgstr ""
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -1124,7 +1134,7 @@ msgstr "Non se pode escribir no directorio do campo \"%s\" da capa \"%s\" para s
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
 msgid "Constraint: %s"
-msgstr ""
+msgstr "Restrición: %s"
 
 #: view~edition.message.success.create
 msgctxt "view~edition.message.success.create"
@@ -1199,12 +1209,12 @@ msgstr "Lonxitude (m):"
 #: view~edition.tab.digitization.title
 msgctxt "view~edition.tab.digitization.title"
 msgid "Digitization"
-msgstr ""
+msgstr "Dixitalización"
 
 #: view~edition.tab.form.title
 msgctxt "view~edition.tab.form.title"
 msgid "Form"
-msgstr ""
+msgstr "Formulario"
 
 #: view~edition.toolbar.cancel.title
 msgctxt "view~edition.toolbar.cancel.title"
@@ -1329,7 +1339,7 @@ msgstr "Manter"
 #: view~edition.upload.choice.update
 msgctxt "view~edition.upload.choice.update"
 msgid "Add/Update"
-msgstr ""
+msgstr "Engadir/Actualizar"
 
 #: view~map.attributeLayers.navbar.title
 msgctxt "view~map.attributeLayers.navbar.title"
@@ -1389,7 +1399,7 @@ msgstr "Minimizar"
 #: view~map.draw.navbar.title
 msgctxt "view~map.draw.navbar.title"
 msgid "Draw"
-msgstr ""
+msgstr "Debuxar"
 
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"

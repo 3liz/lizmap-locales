@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-12 16:41++0200\n"
-"PO-Revision-Date: 2020-10-12 14:42+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
+"POT-Creation-Date: 2020-11-23 17:43++0100\n"
+"PO-Revision-Date: 2020-11-23 16:45+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
 "Language-Team: Italian (http://www.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -495,7 +495,7 @@ msgstr "Esporta"
 #: view~dictionnary.filter.btn.export.title
 msgctxt "view~dictionnary.filter.btn.export.title"
 msgid "Export filtered features"
-msgstr ""
+msgstr "Esporta gli elementi filtrati"
 
 #: view~dictionnary.filter.btn.reset.label
 msgctxt "view~dictionnary.filter.btn.reset.label"
@@ -515,7 +515,7 @@ msgstr "Zoom"
 #: view~dictionnary.filter.btn.zoom.title
 msgctxt "view~dictionnary.filter.btn.zoom.title"
 msgid "Zoom to filtered features"
-msgstr ""
+msgstr "Zoom sugli elementi filtrati"
 
 #: view~dictionnary.filter.input.text.placeholder
 msgctxt "view~dictionnary.filter.input.text.placeholder"
@@ -525,12 +525,12 @@ msgstr "Cerca dentro questo campo"
 #: view~dictionnary.filter.input.text.title
 msgctxt "view~dictionnary.filter.input.text.title"
 msgid "Type some text to search inside this field"
-msgstr ""
+msgstr "Digita del testo da cercare all'interno di questo campo"
 
 #: view~dictionnary.filter.label.features
 msgctxt "view~dictionnary.filter.label.features"
 msgid "features"
-msgstr ""
+msgstr "elementi"
 
 #: view~dictionnary.generic.btn.close.title
 msgctxt "view~dictionnary.generic.btn.close.title"
@@ -565,7 +565,7 @@ msgstr "Centra"
 #: view~dictionnary.geolocate.toolbar.start
 msgctxt "view~dictionnary.geolocate.toolbar.start"
 msgid "Start"
-msgstr ""
+msgstr "Inizio"
 
 #: view~dictionnary.geolocate.toolbar.stop
 msgctxt "view~dictionnary.geolocate.toolbar.stop"
@@ -590,7 +590,7 @@ msgstr ""
 #: view~dictionnary.geolocation.survey.average
 msgctxt "view~dictionnary.geolocation.survey.average"
 msgid "Average"
-msgstr ""
+msgstr "Media"
 
 #: view~dictionnary.geolocation.survey.distance
 msgctxt "view~dictionnary.geolocation.survey.distance"
@@ -745,7 +745,7 @@ msgstr "Non c'è nessuna geometria qui."
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
 msgid "Click to the map to get informations."
-msgstr ""
+msgstr "Clicca sulla mappa per ottenere informazioni."
 
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
@@ -835,12 +835,17 @@ msgstr "Selezione"
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
-msgstr ""
+msgstr "Aggancio"
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
 msgstr "Esporta"
+
+#: view~dictionnary.switcher.layer.export.warn
+msgctxt "view~dictionnary.switcher.layer.export.warn"
+msgid "Please select a single layer to export"
+msgstr ""
 
 #: view~dictionnary.switcherLayersActions.themeSelector.title
 msgctxt "view~dictionnary.switcherLayersActions.themeSelector.title"
@@ -1050,6 +1055,11 @@ msgstr "Il sistema di riferimento è obbligatorio, e deve essere un numero inter
 msgctxt "view~edition.message.error.delete"
 msgid "The deletion has failed."
 msgstr "Impossibile eliminare."
+
+#: view~edition.message.error.feature.editable
+msgctxt "view~edition.message.error.feature.editable"
+msgid "The feature is not editable."
+msgstr ""
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -1390,7 +1400,7 @@ msgstr "Minimizza"
 #: view~map.draw.navbar.title
 msgctxt "view~map.draw.navbar.title"
 msgid "Draw"
-msgstr ""
+msgstr "Disegna"
 
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"
