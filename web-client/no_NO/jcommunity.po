@@ -4,9 +4,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jcommunity 3.3.7-pre\n"
+"Project-Id-Version: Lizmap Web Client jcommunity 3.3.12-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-08 11:26++0200\n"
+"POT-Creation-Date: 2020-11-23 16:09++0100\n"
 "PO-Revision-Date: 2019-05-27 13:12+0000\n"
 "Last-Translator: Stefan Blumentrath <stefan.blumentrath@gmx.de>, 2019\n"
 "Language-Team: Norwegian (https://www.transifex.com/3liz-1/teams/62012/no/)\n"
@@ -484,6 +484,67 @@ msgctxt "jcommunity~password.admin.waiting.text.html"
 msgid "<p>An email has been sent to the user.</p>"
 msgstr ""
 
+#: jcommunity~password.change.cmdline.error.change
+msgctxt "jcommunity~password.change.cmdline.error.change"
+msgid "An unknown error happened during password change."
+msgstr ""
+
+#: jcommunity~password.change.cmdline.error.defined
+msgctxt "jcommunity~password.change.cmdline.error.defined"
+msgid ""
+"The password of this user is already defined, please use the '--force' flag "
+"to override it."
+msgstr ""
+
+#: jcommunity~password.change.cmdline.error.module
+msgctxt "jcommunity~password.change.cmdline.error.module"
+msgid ""
+"This user uses another authentication module, we cannot change his password."
+msgstr ""
+
+#: jcommunity~password.change.cmdline.error.unknown
+msgctxt "jcommunity~password.change.cmdline.error.unknown"
+msgid "Unknown user, please submit a valid user as a parameter."
+msgstr ""
+
+#: jcommunity~password.change.cmdline.help.description
+msgctxt "jcommunity~password.change.cmdline.help.description"
+msgid "Changes the password of an user."
+msgstr ""
+
+#: jcommunity~password.change.cmdline.help.option.force
+msgctxt "jcommunity~password.change.cmdline.help.option.force"
+msgid "override password if password is already defined."
+msgstr ""
+
+#: jcommunity~password.change.cmdline.help.parameter.login
+msgctxt "jcommunity~password.change.cmdline.help.parameter.login"
+msgid "The user login."
+msgstr ""
+
+#: jcommunity~password.change.cmdline.help.parameter.password
+msgctxt "jcommunity~password.change.cmdline.help.parameter.password"
+msgid ""
+"The new password to set. If not given, a random password will be defined."
+msgstr ""
+
+#: jcommunity~password.change.cmdline.help.text
+msgctxt "jcommunity~password.change.cmdline.help.text"
+msgid "The password can be given otherwise it will be defined randomly."
+msgstr ""
+
+#: jcommunity~password.change.cmdline.help.usage
+msgctxt "jcommunity~password.change.cmdline.help.usage"
+msgid ""
+"usage: php cmdline.php jcommunity~reset_pass:change [--force] login "
+"[password]"
+msgstr ""
+
+#: jcommunity~password.change.cmdline.success
+msgctxt "jcommunity~password.change.cmdline.success"
+msgid "Password changed successfully."
+msgstr ""
+
 #: jcommunity~password.form.change.current.password.label
 msgctxt "jcommunity~password.form.change.current.password.label"
 msgid "Your current password"
@@ -645,6 +706,31 @@ msgctxt "jcommunity~password.mail.pwd.change.subject"
 msgid "Request about a password reset on %s"
 msgstr ""
 
+#: jcommunity~password.reset.cmdline.error
+msgctxt "jcommunity~password.reset.cmdline.error"
+msgid "There was an error during the password resetting."
+msgstr ""
+
+#: jcommunity~password.reset.cmdline.help.description
+msgctxt "jcommunity~password.reset.cmdline.help.description"
+msgid "Send an email with a password reset link to an user."
+msgstr ""
+
+#: jcommunity~password.reset.cmdline.help.parameter.login
+msgctxt "jcommunity~password.reset.cmdline.help.parameter.login"
+msgid "the user's login"
+msgstr ""
+
+#: jcommunity~password.reset.cmdline.help.usage
+msgctxt "jcommunity~password.reset.cmdline.help.usage"
+msgid "usage: php cmdline.php jcommunity~reset_pass:reset login"
+msgstr ""
+
+#: jcommunity~password.reset.cmdline.mail.undefined
+msgctxt "jcommunity~password.reset.cmdline.mail.undefined"
+msgid "User's email is not defined."
+msgstr ""
+
 #: jcommunity~password.waiting.text.html
 msgctxt "jcommunity~password.waiting.text.html"
 msgid ""
@@ -699,6 +785,68 @@ msgctxt "jcommunity~register.admin.resend.email.title"
 msgid "Account creation: resend the validation email"
 msgstr ""
 
+#: jcommunity~register.cmdline.create.help.description
+msgctxt "jcommunity~register.cmdline.create.help.description"
+msgid "Creates a new user account"
+msgstr ""
+
+#: jcommunity~register.cmdline.create.help.option.admin
+msgctxt "jcommunity~register.cmdline.create.help.option.admin"
+msgid "add the new user to \"admins\" group"
+msgstr ""
+
+#: jcommunity~register.cmdline.create.help.option.noerror
+msgctxt "jcommunity~register.cmdline.create.help.option.noerror"
+msgid "Do not output an error if the user already exists"
+msgstr ""
+
+#: jcommunity~register.cmdline.create.help.option.reset
+msgctxt "jcommunity~register.cmdline.create.help.option.reset"
+msgid "generates a reset link and send it to email"
+msgstr ""
+
+#: jcommunity~register.cmdline.create.help.option.verbose
+msgctxt "jcommunity~register.cmdline.create.help.option.verbose"
+msgid "enable verbose mode"
+msgstr ""
+
+#: jcommunity~register.cmdline.create.help.parameter.email
+msgctxt "jcommunity~register.cmdline.create.help.parameter.email"
+msgid "The new user's email"
+msgstr ""
+
+#: jcommunity~register.cmdline.create.help.parameter.login
+msgctxt "jcommunity~register.cmdline.create.help.parameter.login"
+msgid "The new user's login"
+msgstr ""
+
+#: jcommunity~register.cmdline.create.help.parameter.password
+msgctxt "jcommunity~register.cmdline.create.help.parameter.password"
+msgid ""
+"The new user's password, if not defined and '--reset' flag is not given, the"
+" password will be generated randomly and reported via the command line"
+msgstr ""
+
+#: jcommunity~register.cmdline.create.help.text
+msgctxt "jcommunity~register.cmdline.create.help.text"
+msgid ""
+"The password can be given, defined randomly, or a token can be sent by email"
+" so the user can define it himself. It the user already exists, it fails, "
+"unless you give the option '--no-error-if-exists'."
+msgstr ""
+
+#: jcommunity~register.cmdline.create.help.usage
+msgctxt "jcommunity~register.cmdline.create.help.usage"
+msgid ""
+"php cmdline.php jcommunity~user:create [-v] [--admin] [--reset] login email "
+"[password]"
+msgstr ""
+
+#: jcommunity~register.email.bad.format
+msgctxt "jcommunity~register.email.bad.format"
+msgid "Wrong email format"
+msgstr ""
+
 #: jcommunity~register.form.create.submit
 msgctxt "jcommunity~register.form.create.submit"
 msgid "Create the account"
@@ -725,6 +873,11 @@ msgstr ""
 #: jcommunity~register.mail.new.subject
 msgctxt "jcommunity~register.mail.new.subject"
 msgid "Activating your account on the web site %s"
+msgstr ""
+
+#: jcommunity~register.registration.cmdline.ok
+msgctxt "jcommunity~register.registration.cmdline.ok"
+msgid "User successfully created."
 msgstr ""
 
 #: jcommunity~register.registration.confirm.alreadydone

@@ -10,9 +10,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client admin 3.3.7-pre\n"
+"Project-Id-Version: Lizmap Web Client admin 3.3.12-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-08 11:26++0200\n"
+"POT-Creation-Date: 2020-11-23 15:31++0100\n"
 "PO-Revision-Date: 2019-05-27 13:11+0000\n"
 "Last-Translator: Marco Cassola <cassolamrc@gmail.com>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/3liz-1/teams/62012/it/)\n"
@@ -41,6 +41,13 @@ msgstr "La cache per il layer %s è stata svuotata."
 msgctxt "admin~admin.cache.repository.removed"
 msgid "The cache for the repository %s has been sucessfully emptied."
 msgstr "La cache per il repository %s è stata svuotata."
+
+#: admin~admin.config.services.allowUserAccountRequest.noemail
+msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
+msgid ""
+"This option cannot be enable while the sender email is not defined. Please "
+"contact the application administrator."
+msgstr ""
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
