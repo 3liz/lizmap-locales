@@ -4,9 +4,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client view 3.2.2\n"
+"Project-Id-Version: Lizmap Web Client view 3.2.18-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"POT-Creation-Date: 2020-11-23 12:04++0100\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: Majky Beast <maros.michalov@hrdlicka.sk>, 2020\n"
 "Language-Team: Slovak (https://www.transifex.com/3liz-1/teams/62012/sk/)\n"
@@ -15,6 +15,477 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#: view~user.form.firstname.label
+msgctxt "view~user.form.firstname.label"
+msgid "First name"
+msgstr "Krstné meno"
+
+#: view~user.form.lastname.label
+msgctxt "view~user.form.lastname.label"
+msgid "Last name"
+msgstr "Priezvisko"
+
+#: view~user.form.organization.label
+msgctxt "view~user.form.organization.label"
+msgid "Organization"
+msgstr "Organizácia"
+
+#: view~user.form.phonenumber.label
+msgctxt "view~user.form.phonenumber.label"
+msgid "Phone number"
+msgstr "Telefónne číslo"
+
+#: view~user.form.street.label
+msgctxt "view~user.form.street.label"
+msgid "Street"
+msgstr "Ulica"
+
+#: view~user.form.postcode.label
+msgctxt "view~user.form.postcode.label"
+msgid "Postcode"
+msgstr "PSČ"
+
+#: view~user.form.city.label
+msgctxt "view~user.form.city.label"
+msgid "City"
+msgstr "Mesto"
+
+#: view~user.form.country.label
+msgctxt "view~user.form.country.label"
+msgid "Country"
+msgstr "Krajina"
+
+#: view~user.form.comment.label
+msgctxt "view~user.form.comment.label"
+msgid "Why do you request an account?"
+msgstr "Prečo požadujete účet?"
+
+#: view~user.form.comment.help
+msgctxt "view~user.form.comment.help"
+msgid ""
+"Please write a small text to explain why you would like to have an access to"
+" the maps."
+msgstr ""
+"Napíšte malý text, ktorý vysvetlí, prečo by ste chceli mať prístup k mapám."
+
+#: view~edition.access.denied
+msgctxt "view~edition.access.denied"
+msgid "You have not the right to use the edition tools."
+msgstr "Nemáte právo používať nástroje vydania."
+
+#: view~edition.form.action.future.label
+msgctxt "view~edition.form.action.future.label"
+msgid "After saved"
+msgstr "Po uložení"
+
+#: view~edition.form.action.future.close
+msgctxt "view~edition.form.action.future.close"
+msgid "Close form"
+msgstr "Zavrieť formulár"
+
+#: view~edition.form.action.future.create
+msgctxt "view~edition.form.action.future.create"
+msgid "Create new feature"
+msgstr "Vytvorte novú funkciu"
+
+#: view~edition.form.action.future.edit
+msgctxt "view~edition.form.action.future.edit"
+msgid "Reopen form"
+msgstr "Znova otvorte formulár"
+
+#: view~edition.form.submit.label
+msgctxt "view~edition.form.submit.label"
+msgid "Save"
+msgstr "Uložiť"
+
+#: view~edition.form.data.saved
+msgctxt "view~edition.form.data.saved"
+msgid "Data has been saved."
+msgstr "Dáta boli uložené."
+
+#: view~edition.form.cancel.label
+msgctxt "view~edition.form.cancel.label"
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: view~edition.form.reset.label
+msgctxt "view~edition.form.reset.label"
+msgid "Reset"
+msgstr "Resetovať"
+
+#: view~edition.form.btn.clear.title
+msgctxt "view~edition.form.btn.clear.title"
+msgid "Close"
+msgstr "Zavrieť"
+
+#: view~edition.form.cancel.confirm.message
+msgctxt "view~edition.form.cancel.confirm.message"
+msgid "Cancel edition?"
+msgstr "Zrušiť editáciu?"
+
+#: view~edition.navbar.title
+msgctxt "view~edition.navbar.title"
+msgid "Edition"
+msgstr "Vydanie"
+
+#: view~edition.toolbar.title
+msgctxt "view~edition.toolbar.title"
+msgid "Edition"
+msgstr "Vydanie"
+
+#: view~edition.toolbar.draw.title
+msgctxt "view~edition.toolbar.draw.title"
+msgid "Add"
+msgstr "Pridať"
+
+#: view~edition.toolbar.draw.clear.title
+msgctxt "view~edition.toolbar.draw.clear.title"
+msgid "Clear"
+msgstr "Vyčistiť"
+
+#: view~edition.toolbar.draw.save.title
+msgctxt "view~edition.toolbar.draw.save.title"
+msgid "Save"
+msgstr "Uložiť"
+
+#: view~edition.toolbar.select.title
+msgctxt "view~edition.toolbar.select.title"
+msgid "Select"
+msgstr "Vyberte"
+
+#: view~edition.toolbar.select.unselect.title
+msgctxt "view~edition.toolbar.select.unselect.title"
+msgid "Unsel."
+msgstr "Zrušenie výberu"
+
+#: view~edition.toolbar.select.attr.title
+msgctxt "view~edition.toolbar.select.attr.title"
+msgid "Modify"
+msgstr "Úpravy"
+
+#: view~edition.toolbar.select.undo.title
+msgctxt "view~edition.toolbar.select.undo.title"
+msgid "Undo"
+msgstr "Vrátiť späť"
+
+#: view~edition.toolbar.select.delete.title
+msgctxt "view~edition.toolbar.select.delete.title"
+msgid "Del"
+msgstr "Zmazať"
+
+#: view~edition.toolbar.delete.title
+msgctxt "view~edition.toolbar.delete.title"
+msgid "Delete"
+msgstr "Odstrániť"
+
+#: view~edition.toolbar.cancel.title
+msgctxt "view~edition.toolbar.cancel.title"
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: view~edition.geomtool.nodetool.title
+msgctxt "view~edition.geomtool.nodetool.title"
+msgid "Node tool"
+msgstr "Uzlové body"
+
+#: view~edition.geomtool.drag.title
+msgctxt "view~edition.geomtool.drag.title"
+msgid "Drag"
+msgstr "Presunúť"
+
+#: view~edition.geomtool.rotate.title
+msgctxt "view~edition.geomtool.rotate.title"
+msgid "Rotate"
+msgstr "Rotovať"
+
+#: view~edition.geomtool.reshape.title
+msgctxt "view~edition.geomtool.reshape.title"
+msgid "Reshape"
+msgstr "Preformovať"
+
+#: view~edition.point.coord.title
+msgctxt "view~edition.point.coord.title"
+msgid "Manage point/vertex coordinates"
+msgstr "Správa súradníc bodu / vrcholu"
+
+#: view~edition.point.coord.crs.label
+msgctxt "view~edition.point.coord.crs.label"
+msgid "CRS:"
+msgstr "CRS:"
+
+#: view~edition.point.coord.x.label
+msgctxt "view~edition.point.coord.x.label"
+msgid "X:"
+msgstr "X:"
+
+#: view~edition.point.coord.y.label
+msgctxt "view~edition.point.coord.y.label"
+msgid "Y:"
+msgstr "Y:"
+
+#: view~edition.point.coord.geolocation.label
+msgctxt "view~edition.point.coord.geolocation.label"
+msgid "linked to geolocation"
+msgstr "spojené s geolokáciou"
+
+#: view~edition.point.coord.add.label
+msgctxt "view~edition.point.coord.add.label"
+msgid "Add"
+msgstr "Pridať"
+
+#: view~edition.point.coord.finalize.label
+msgctxt "view~edition.point.coord.finalize.label"
+msgid "Finalize"
+msgstr "Dokončiť"
+
+#: view~edition.geolocate.toolbar.title
+msgctxt "view~edition.geolocate.toolbar.title"
+msgid "Edition:"
+msgstr "Editácia:"
+
+#: view~edition.toolbar.draw.tooltip
+msgctxt "view~edition.toolbar.draw.tooltip"
+msgid "Activate the tool for creating new objects."
+msgstr "Aktivujte nástroj na vytváranie nových objektov."
+
+#: view~edition.toolbar.draw.clear.tooltip
+msgctxt "view~edition.toolbar.draw.clear.tooltip"
+msgid "Cancel the current drawing."
+msgstr "Zrušiť aktuálnu kresbu."
+
+#: view~edition.toolbar.draw.save.tooltip
+msgctxt "view~edition.toolbar.draw.save.tooltip"
+msgid "Finalize the current drawing."
+msgstr "Dokončite aktuálnu kresbu."
+
+#: view~edition.toolbar.select.tooltip
+msgctxt "view~edition.toolbar.select.tooltip"
+msgid "Activate the selection tool."
+msgstr "Aktivujte nástroj na výber."
+
+#: view~edition.toolbar.select.unselect.tooltip
+msgctxt "view~edition.toolbar.select.unselect.tooltip"
+msgid "Unselect the selected object."
+msgstr "Zrušte výber vybratého objektu."
+
+#: view~edition.toolbar.select.attr.tooltip
+msgctxt "view~edition.toolbar.select.attr.tooltip"
+msgid "Validate the geometry and/or open the attribute form."
+msgstr "Potvrďte geometriu a/alebo otvorte formulár atribútu."
+
+#: view~edition.toolbar.select.undo.tooltip
+msgctxt "view~edition.toolbar.select.undo.tooltip"
+msgid "Revert into initial geometry state."
+msgstr "Vrátiť späť do stavu počiatočnej geometrie."
+
+#: view~edition.toolbar.select.delete.tooltip
+msgctxt "view~edition.toolbar.select.delete.tooltip"
+msgid "Delete the selected object."
+msgstr "Odstrániť vybraný objekt."
+
+#: view~edition.toolbar.cancel.tooltip
+msgctxt "view~edition.toolbar.cancel.tooltip"
+msgid "Cancel current edition."
+msgstr "Zrušiť aktuálnu editáciu."
+
+#: view~edition.modal.title.default
+msgctxt "view~edition.modal.title.default"
+msgid "Edition"
+msgstr "Vydanie"
+
+#: view~edition.modal.message.no.feature.found
+msgctxt "view~edition.modal.message.no.feature.found"
+msgid "No feature has been found here."
+msgstr "Tu sa nenašla žiadna funkcia."
+
+#: view~edition.message.error.parameter.project
+msgctxt "view~edition.message.error.parameter.project"
+msgid "The 'project' parameter is mandatory."
+msgstr "Parameter 'projekt' je povinný."
+
+#: view~edition.message.error.parameter.featureId
+msgctxt "view~edition.message.error.parameter.featureId"
+msgid "The 'featureId' parameter is mandatory."
+msgstr "Parameter 'featureId' je povinný."
+
+#: view~edition.message.error.layer.editable
+msgctxt "view~edition.message.error.layer.editable"
+msgid "The layer is not editable."
+msgstr "Vrstva sa nedá upravovať."
+
+#: view~edition.message.error.layer.editable.create
+msgctxt "view~edition.message.error.layer.editable.create"
+msgid "Create feature for the layer is not available."
+msgstr "Funkcia vytvorenia pre vrstvu nie je k dispozícii."
+
+#: view~edition.message.error.layer.editable.delete
+msgctxt "view~edition.message.error.layer.editable.delete"
+msgid "Delete feature for the layer is not available."
+msgstr "Funkcia odstránenia pre vrstvu nie je k dispozícii."
+
+#: view~edition.message.error.primary.keys
+msgctxt "view~edition.message.error.primary.keys"
+msgid ""
+"Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
+" defined primary key on the table."
+msgstr ""
+"Lizmap nemôže nájsť primárne kľúče vrstvy \"%s\". Edičný nástroj potrebuje v"
+" tabuľke definovaný primárny kľúč."
+
+#: view~edition.message.error.feature.get
+msgctxt "view~edition.message.error.feature.get"
+msgid "Lizmap cannot get the feature data with WFS"
+msgstr "Lizmap nemôže získať údaje o funkciách pomocou WFS"
+
+#: view~edition.message.error.form.get
+msgctxt "view~edition.message.error.form.get"
+msgid "An error has been raised when getting the form"
+msgstr "Pri získavaní formulára sa vyskytla chyba"
+
+#: view~edition.message.error.bbox
+msgctxt "view~edition.message.error.bbox"
+msgid "The bbox has to be 4 floats separated by ','."
+msgstr "Bbox musí mať 4 čísla oddelené znakom ','."
+
+#: view~edition.message.error.crs
+msgctxt "view~edition.message.error.crs"
+msgid "crs is mandatory and has to be an integer or EPSG:*."
+msgstr "crs je povinný údaj a musí to byť celé číslo alebo EPSG:*."
+
+#: view~edition.message.error.save
+msgctxt "view~edition.message.error.save"
+msgid "An error has been raised when saving the form."
+msgstr "Pri ukladaní formulára sa vyskytla chyba."
+
+#: view~edition.message.error.save.fields
+msgctxt "view~edition.message.error.save.fields"
+msgid "No fields available for saving the form."
+msgstr "Na uloženie formulára nie sú k dispozícii žiadne polia."
+
+#: view~edition.message.error.delete
+msgctxt "view~edition.message.error.delete"
+msgid "The deletion has failed."
+msgstr "Vymazanie zlyhalo."
+
+#: view~edition.message.success.delete
+msgctxt "view~edition.message.success.delete"
+msgid "The feature has been deleted."
+msgstr "Objekt bol odstránený."
+
+#: view~edition.message.error.create
+msgctxt "view~edition.message.error.create"
+msgid "An error occured while creating the object."
+msgstr "Pri vytváraní objektu sa vyskytla chyba."
+
+#: view~edition.message.success.create
+msgctxt "view~edition.message.success.create"
+msgid "Object successfully created."
+msgstr "Objekt bol úspešne vytvorený."
+
+#: view~edition.message.error.no.geometry
+msgctxt "view~edition.message.error.no.geometry"
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
+msgstr ""
+"Bez geometrie nemôžete tento objekt uložiť. Nakreslite geometriu na mapu."
+
+#: view~edition.message.error.upload.layer
+msgctxt "view~edition.message.error.upload.layer"
+msgid "The layer \"%s\" directory for uploading media is not writable."
+msgstr "Do adresára vrstvy \"%s\" pre nahrávanie média nie je možné zapisovať."
+
+#: view~edition.message.error.upload.layer.field
+msgctxt "view~edition.message.error.upload.layer.field"
+msgid ""
+"The field \"%s\" directory of the layer \"%s\" for uploading media is not "
+"writable."
+msgstr ""
+"Do poľa \"%s\" adresára vrstvy \"%s\" pre nahrávanie médií nie je možné "
+"zapisovať."
+
+#: view~edition.upload.choice.keep
+msgctxt "view~edition.upload.choice.keep"
+msgid "Keep"
+msgstr "Zachovať"
+
+#: view~edition.upload.choice.update
+msgctxt "view~edition.upload.choice.update"
+msgid "Update"
+msgstr "Aktualizácia"
+
+#: view~edition.upload.choice.delete
+msgctxt "view~edition.upload.choice.delete"
+msgid "Delete"
+msgstr "Odstrániť"
+
+#: view~edition.link.error.missing.parameter
+msgctxt "view~edition.link.error.missing.parameter"
+msgid "The pivot, features1 and features2 parameters are mandatory."
+msgstr "Parametre pivot, features1 a features2 sú povinné."
+
+#: view~edition.link.error.wrong.layer
+msgctxt "view~edition.link.error.wrong.layer"
+msgid "The layer does not exists."
+msgstr "Vrstva neexistuje."
+
+#: view~edition.link.error.multiple.ids
+msgctxt "view~edition.link.error.multiple.ids"
+msgid ""
+"You cannot link multiple objects for both layers. Please select only one "
+"object for one of the layers and retry."
+msgstr ""
+"Nemôžete prepojiť viac objektov pre obe vrstvy. Pre jednu z vrstiev vyberte "
+"iba jeden objekt a skúste to znova."
+
+#: view~edition.link.error.missing.id
+msgctxt "view~edition.link.error.missing.id"
+msgid ""
+"There must be at least one object selected for each layer to create the "
+"link."
+msgstr ""
+"Na vytvorenie odkazu musí byť pre každú vrstvu vybraný aspoň jeden objekt."
+
+#: view~edition.link.error.not.attribute.layer
+msgctxt "view~edition.link.error.not.attribute.layer"
+msgid "The layers have not be configured to have an attribute table."
+msgstr "Vrstvy nie sú nakonfigurované tak, aby mali tabuľku atribútov."
+
+#: view~edition.link.error.no.create.feature
+msgctxt "view~edition.link.error.no.create.feature"
+msgid "Create feature for the layer \"%s\" is not available."
+msgstr "Funkcia vytvorenia pre vrstvu \"%s\" nie je k dispozícii."
+
+#: view~edition.link.error.no.modify.attributes
+msgctxt "view~edition.link.error.no.modify.attributes"
+msgid "Modify attributes for the layer \"%s\" is not available."
+msgstr "Atribúty úpravy pre vrstvu \"%s\" nie sú k dispozícii."
+
+#: view~edition.link.error.no.given.fields
+msgctxt "view~edition.link.error.no.given.fields"
+msgid "Given fields do not exists."
+msgstr "Dané polia neexistujú."
+
+#: view~edition.link.error.sql
+msgctxt "view~edition.link.error.sql"
+msgid "An error occured while adding linked data."
+msgstr "Pri pridávaní prepojených údajov sa vyskytla chyba."
+
+#: view~edition.link.success
+msgctxt "view~edition.link.success"
+msgid "Selected features have been correctly linked."
+msgstr "Vybrané funkcie boli správne prepojené."
+
+#: view~edition.unlink.success
+msgctxt "view~edition.unlink.success"
+msgid "The child feature has correctly been unlinked."
+msgstr "Funkcia podriadenia bola správne odpojená"
+
+#: view~edition.unlink.error.sql
+msgctxt "view~edition.unlink.error.sql"
+msgid "An error occured while removing link."
+msgstr "Pri odstraňovaní odkazu sa vyskytla chyba."
 
 #: view~map.title.h1
 msgctxt "view~map.title.h1"
@@ -1216,474 +1687,3 @@ msgstr "Predchádzajúci"
 msgctxt "view~dictionnary.embed.open.map"
 msgid "Open the map in full screen"
 msgstr "Otvorte mapu na celej obrazovke"
-
-#: view~user.form.firstname.label
-msgctxt "view~user.form.firstname.label"
-msgid "First name"
-msgstr "Krstné meno"
-
-#: view~user.form.lastname.label
-msgctxt "view~user.form.lastname.label"
-msgid "Last name"
-msgstr "Priezvisko"
-
-#: view~user.form.organization.label
-msgctxt "view~user.form.organization.label"
-msgid "Organization"
-msgstr "Organizácia"
-
-#: view~user.form.phonenumber.label
-msgctxt "view~user.form.phonenumber.label"
-msgid "Phone number"
-msgstr "Telefónne číslo"
-
-#: view~user.form.street.label
-msgctxt "view~user.form.street.label"
-msgid "Street"
-msgstr "Ulica"
-
-#: view~user.form.postcode.label
-msgctxt "view~user.form.postcode.label"
-msgid "Postcode"
-msgstr "PSČ"
-
-#: view~user.form.city.label
-msgctxt "view~user.form.city.label"
-msgid "City"
-msgstr "Mesto"
-
-#: view~user.form.country.label
-msgctxt "view~user.form.country.label"
-msgid "Country"
-msgstr "Krajina"
-
-#: view~user.form.comment.label
-msgctxt "view~user.form.comment.label"
-msgid "Why do you request an account?"
-msgstr "Prečo požadujete účet?"
-
-#: view~user.form.comment.help
-msgctxt "view~user.form.comment.help"
-msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
-msgstr ""
-"Napíšte malý text, ktorý vysvetlí, prečo by ste chceli mať prístup k mapám."
-
-#: view~edition.access.denied
-msgctxt "view~edition.access.denied"
-msgid "You have not the right to use the edition tools."
-msgstr "Nemáte právo používať nástroje vydania."
-
-#: view~edition.form.action.future.label
-msgctxt "view~edition.form.action.future.label"
-msgid "After saved"
-msgstr "Po uložení"
-
-#: view~edition.form.action.future.close
-msgctxt "view~edition.form.action.future.close"
-msgid "Close form"
-msgstr "Zavrieť formulár"
-
-#: view~edition.form.action.future.create
-msgctxt "view~edition.form.action.future.create"
-msgid "Create new feature"
-msgstr "Vytvorte novú funkciu"
-
-#: view~edition.form.action.future.edit
-msgctxt "view~edition.form.action.future.edit"
-msgid "Reopen form"
-msgstr "Znova otvorte formulár"
-
-#: view~edition.form.submit.label
-msgctxt "view~edition.form.submit.label"
-msgid "Save"
-msgstr "Uložiť"
-
-#: view~edition.form.data.saved
-msgctxt "view~edition.form.data.saved"
-msgid "Data has been saved."
-msgstr "Dáta boli uložené."
-
-#: view~edition.form.cancel.label
-msgctxt "view~edition.form.cancel.label"
-msgid "Cancel"
-msgstr "Zrušiť"
-
-#: view~edition.form.reset.label
-msgctxt "view~edition.form.reset.label"
-msgid "Reset"
-msgstr "Resetovať"
-
-#: view~edition.form.btn.clear.title
-msgctxt "view~edition.form.btn.clear.title"
-msgid "Close"
-msgstr "Zavrieť"
-
-#: view~edition.form.cancel.confirm.message
-msgctxt "view~edition.form.cancel.confirm.message"
-msgid "Cancel edition?"
-msgstr "Zrušiť editáciu?"
-
-#: view~edition.navbar.title
-msgctxt "view~edition.navbar.title"
-msgid "Edition"
-msgstr "Vydanie"
-
-#: view~edition.toolbar.title
-msgctxt "view~edition.toolbar.title"
-msgid "Edition"
-msgstr "Vydanie"
-
-#: view~edition.toolbar.draw.title
-msgctxt "view~edition.toolbar.draw.title"
-msgid "Add"
-msgstr "Pridať"
-
-#: view~edition.toolbar.draw.clear.title
-msgctxt "view~edition.toolbar.draw.clear.title"
-msgid "Clear"
-msgstr "Vyčistiť"
-
-#: view~edition.toolbar.draw.save.title
-msgctxt "view~edition.toolbar.draw.save.title"
-msgid "Save"
-msgstr "Uložiť"
-
-#: view~edition.toolbar.select.title
-msgctxt "view~edition.toolbar.select.title"
-msgid "Select"
-msgstr "Vyberte"
-
-#: view~edition.toolbar.select.unselect.title
-msgctxt "view~edition.toolbar.select.unselect.title"
-msgid "Unsel."
-msgstr "Zrušenie výberu"
-
-#: view~edition.toolbar.select.attr.title
-msgctxt "view~edition.toolbar.select.attr.title"
-msgid "Modify"
-msgstr "Úpravy"
-
-#: view~edition.toolbar.select.undo.title
-msgctxt "view~edition.toolbar.select.undo.title"
-msgid "Undo"
-msgstr "Vrátiť späť"
-
-#: view~edition.toolbar.select.delete.title
-msgctxt "view~edition.toolbar.select.delete.title"
-msgid "Del"
-msgstr "Zmazať"
-
-#: view~edition.toolbar.delete.title
-msgctxt "view~edition.toolbar.delete.title"
-msgid "Delete"
-msgstr "Odstrániť"
-
-#: view~edition.toolbar.cancel.title
-msgctxt "view~edition.toolbar.cancel.title"
-msgid "Cancel"
-msgstr "Zrušiť"
-
-#: view~edition.geomtool.nodetool.title
-msgctxt "view~edition.geomtool.nodetool.title"
-msgid "Node tool"
-msgstr "Uzlové body"
-
-#: view~edition.geomtool.drag.title
-msgctxt "view~edition.geomtool.drag.title"
-msgid "Drag"
-msgstr "Presunúť"
-
-#: view~edition.geomtool.rotate.title
-msgctxt "view~edition.geomtool.rotate.title"
-msgid "Rotate"
-msgstr "Rotovať"
-
-#: view~edition.geomtool.reshape.title
-msgctxt "view~edition.geomtool.reshape.title"
-msgid "Reshape"
-msgstr "Preformovať"
-
-#: view~edition.point.coord.title
-msgctxt "view~edition.point.coord.title"
-msgid "Manage point/vertex coordinates"
-msgstr "Správa súradníc bodu / vrcholu"
-
-#: view~edition.point.coord.crs.label
-msgctxt "view~edition.point.coord.crs.label"
-msgid "CRS:"
-msgstr "CRS:"
-
-#: view~edition.point.coord.x.label
-msgctxt "view~edition.point.coord.x.label"
-msgid "X:"
-msgstr "X:"
-
-#: view~edition.point.coord.y.label
-msgctxt "view~edition.point.coord.y.label"
-msgid "Y:"
-msgstr "Y:"
-
-#: view~edition.point.coord.geolocation.label
-msgctxt "view~edition.point.coord.geolocation.label"
-msgid "linked to geolocation"
-msgstr "spojené s geolokáciou"
-
-#: view~edition.point.coord.add.label
-msgctxt "view~edition.point.coord.add.label"
-msgid "Add"
-msgstr "Pridať"
-
-#: view~edition.point.coord.finalize.label
-msgctxt "view~edition.point.coord.finalize.label"
-msgid "Finalize"
-msgstr "Dokončiť"
-
-#: view~edition.geolocate.toolbar.title
-msgctxt "view~edition.geolocate.toolbar.title"
-msgid "Edition:"
-msgstr "Editácia:"
-
-#: view~edition.toolbar.draw.tooltip
-msgctxt "view~edition.toolbar.draw.tooltip"
-msgid "Activate the tool for creating new objects."
-msgstr "Aktivujte nástroj na vytváranie nových objektov."
-
-#: view~edition.toolbar.draw.clear.tooltip
-msgctxt "view~edition.toolbar.draw.clear.tooltip"
-msgid "Cancel the current drawing."
-msgstr "Zrušiť aktuálnu kresbu."
-
-#: view~edition.toolbar.draw.save.tooltip
-msgctxt "view~edition.toolbar.draw.save.tooltip"
-msgid "Finalize the current drawing."
-msgstr "Dokončite aktuálnu kresbu."
-
-#: view~edition.toolbar.select.tooltip
-msgctxt "view~edition.toolbar.select.tooltip"
-msgid "Activate the selection tool."
-msgstr "Aktivujte nástroj na výber."
-
-#: view~edition.toolbar.select.unselect.tooltip
-msgctxt "view~edition.toolbar.select.unselect.tooltip"
-msgid "Unselect the selected object."
-msgstr "Zrušte výber vybratého objektu."
-
-#: view~edition.toolbar.select.attr.tooltip
-msgctxt "view~edition.toolbar.select.attr.tooltip"
-msgid "Validate the geometry and/or open the attribute form."
-msgstr "Potvrďte geometriu a/alebo otvorte formulár atribútu."
-
-#: view~edition.toolbar.select.undo.tooltip
-msgctxt "view~edition.toolbar.select.undo.tooltip"
-msgid "Revert into initial geometry state."
-msgstr "Vrátiť späť do stavu počiatočnej geometrie."
-
-#: view~edition.toolbar.select.delete.tooltip
-msgctxt "view~edition.toolbar.select.delete.tooltip"
-msgid "Delete the selected object."
-msgstr "Odstrániť vybraný objekt."
-
-#: view~edition.toolbar.cancel.tooltip
-msgctxt "view~edition.toolbar.cancel.tooltip"
-msgid "Cancel current edition."
-msgstr "Zrušiť aktuálnu editáciu."
-
-#: view~edition.modal.title.default
-msgctxt "view~edition.modal.title.default"
-msgid "Edition"
-msgstr "Vydanie"
-
-#: view~edition.modal.message.no.feature.found
-msgctxt "view~edition.modal.message.no.feature.found"
-msgid "No feature has been found here."
-msgstr "Tu sa nenašla žiadna funkcia."
-
-#: view~edition.message.error.parameter.project
-msgctxt "view~edition.message.error.parameter.project"
-msgid "The 'project' parameter is mandatory."
-msgstr "Parameter 'projekt' je povinný."
-
-#: view~edition.message.error.parameter.featureId
-msgctxt "view~edition.message.error.parameter.featureId"
-msgid "The 'featureId' parameter is mandatory."
-msgstr "Parameter 'featureId' je povinný."
-
-#: view~edition.message.error.layer.editable
-msgctxt "view~edition.message.error.layer.editable"
-msgid "The layer is not editable."
-msgstr "Vrstva sa nedá upravovať."
-
-#: view~edition.message.error.layer.editable.create
-msgctxt "view~edition.message.error.layer.editable.create"
-msgid "Create feature for the layer is not available."
-msgstr "Funkcia vytvorenia pre vrstvu nie je k dispozícii."
-
-#: view~edition.message.error.layer.editable.delete
-msgctxt "view~edition.message.error.layer.editable.delete"
-msgid "Delete feature for the layer is not available."
-msgstr "Funkcia odstránenia pre vrstvu nie je k dispozícii."
-
-#: view~edition.message.error.primary.keys
-msgctxt "view~edition.message.error.primary.keys"
-msgid ""
-"Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
-" defined primary key on the table."
-msgstr ""
-"Lizmap nemôže nájsť primárne kľúče vrstvy \"%s\". Edičný nástroj potrebuje v"
-" tabuľke definovaný primárny kľúč."
-
-#: view~edition.message.error.feature.get
-msgctxt "view~edition.message.error.feature.get"
-msgid "Lizmap cannot get the feature data with WFS"
-msgstr "Lizmap nemôže získať údaje o funkciách pomocou WFS"
-
-#: view~edition.message.error.form.get
-msgctxt "view~edition.message.error.form.get"
-msgid "An error has been raised when getting the form"
-msgstr "Pri získavaní formulára sa vyskytla chyba"
-
-#: view~edition.message.error.bbox
-msgctxt "view~edition.message.error.bbox"
-msgid "The bbox has to be 4 floats separated by ','."
-msgstr "Bbox musí mať 4 čísla oddelené znakom ','."
-
-#: view~edition.message.error.crs
-msgctxt "view~edition.message.error.crs"
-msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr "crs je povinný údaj a musí to byť celé číslo alebo EPSG:*."
-
-#: view~edition.message.error.save
-msgctxt "view~edition.message.error.save"
-msgid "An error has been raised when saving the form."
-msgstr "Pri ukladaní formulára sa vyskytla chyba."
-
-#: view~edition.message.error.save.fields
-msgctxt "view~edition.message.error.save.fields"
-msgid "No fields available for saving the form."
-msgstr "Na uloženie formulára nie sú k dispozícii žiadne polia."
-
-#: view~edition.message.error.delete
-msgctxt "view~edition.message.error.delete"
-msgid "The deletion has failed."
-msgstr "Vymazanie zlyhalo."
-
-#: view~edition.message.success.delete
-msgctxt "view~edition.message.success.delete"
-msgid "The feature has been deleted."
-msgstr "Objekt bol odstránený."
-
-#: view~edition.message.error.create
-msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
-msgstr "Pri vytváraní objektu sa vyskytla chyba."
-
-#: view~edition.message.success.create
-msgctxt "view~edition.message.success.create"
-msgid "Object successfully created."
-msgstr "Objekt bol úspešne vytvorený."
-
-#: view~edition.message.error.no.geometry
-msgctxt "view~edition.message.error.no.geometry"
-msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
-msgstr ""
-"Bez geometrie nemôžete tento objekt uložiť. Nakreslite geometriu na mapu."
-
-#: view~edition.message.error.upload.layer
-msgctxt "view~edition.message.error.upload.layer"
-msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr "Do adresára vrstvy \"%s\" pre nahrávanie média nie je možné zapisovať."
-
-#: view~edition.message.error.upload.layer.field
-msgctxt "view~edition.message.error.upload.layer.field"
-msgid ""
-"The field \"%s\" directory of the layer \"%s\" for uploading media is not "
-"writable."
-msgstr ""
-"Do poľa \"%s\" adresára vrstvy \"%s\" pre nahrávanie médií nie je možné "
-"zapisovať."
-
-#: view~edition.upload.choice.keep
-msgctxt "view~edition.upload.choice.keep"
-msgid "Keep"
-msgstr "Zachovať"
-
-#: view~edition.upload.choice.update
-msgctxt "view~edition.upload.choice.update"
-msgid "Update"
-msgstr "Aktualizácia"
-
-#: view~edition.upload.choice.delete
-msgctxt "view~edition.upload.choice.delete"
-msgid "Delete"
-msgstr "Odstrániť"
-
-#: view~edition.link.error.missing.parameter
-msgctxt "view~edition.link.error.missing.parameter"
-msgid "The pivot, features1 and features2 parameters are mandatory."
-msgstr "Parametre pivot, features1 a features2 sú povinné."
-
-#: view~edition.link.error.wrong.layer
-msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
-msgstr "Vrstva neexistuje."
-
-#: view~edition.link.error.multiple.ids
-msgctxt "view~edition.link.error.multiple.ids"
-msgid ""
-"You cannot link multiple objects for both layers. Please select only one "
-"object for one of the layers and retry."
-msgstr ""
-"Nemôžete prepojiť viac objektov pre obe vrstvy. Pre jednu z vrstiev vyberte "
-"iba jeden objekt a skúste to znova."
-
-#: view~edition.link.error.missing.id
-msgctxt "view~edition.link.error.missing.id"
-msgid ""
-"There must be at least one object selected for each layer to create the "
-"link."
-msgstr ""
-"Na vytvorenie odkazu musí byť pre každú vrstvu vybraný aspoň jeden objekt."
-
-#: view~edition.link.error.not.attribute.layer
-msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
-msgstr "Vrstvy nie sú nakonfigurované tak, aby mali tabuľku atribútov."
-
-#: view~edition.link.error.no.create.feature
-msgctxt "view~edition.link.error.no.create.feature"
-msgid "Create feature for the layer \"%s\" is not available."
-msgstr "Funkcia vytvorenia pre vrstvu \"%s\" nie je k dispozícii."
-
-#: view~edition.link.error.no.modify.attributes
-msgctxt "view~edition.link.error.no.modify.attributes"
-msgid "Modify attributes for the layer \"%s\" is not available."
-msgstr "Atribúty úpravy pre vrstvu \"%s\" nie sú k dispozícii."
-
-#: view~edition.link.error.no.given.fields
-msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
-msgstr "Dané polia neexistujú."
-
-#: view~edition.link.error.sql
-msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
-msgstr "Pri pridávaní prepojených údajov sa vyskytla chyba."
-
-#: view~edition.link.success
-msgctxt "view~edition.link.success"
-msgid "Selected features have been correctly linked."
-msgstr "Vybrané funkcie boli správne prepojené."
-
-#: view~edition.unlink.success
-msgctxt "view~edition.unlink.success"
-msgid "The child feature has correctly been unlinked."
-msgstr "Funkcia podriadenia bola správne odpojená"
-
-#: view~edition.unlink.error.sql
-msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
-msgstr "Pri odstraňovaní odkazu sa vyskytla chyba."

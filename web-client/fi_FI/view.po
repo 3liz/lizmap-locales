@@ -5,9 +5,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client view 3.2.2\n"
+"Project-Id-Version: Lizmap Web Client view 3.2.18-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"POT-Creation-Date: 2020-11-23 12:04++0100\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2019\n"
 "Language-Team: Finnish (https://www.transifex.com/3liz-1/teams/62012/fi/)\n"
@@ -16,6 +16,479 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: view~user.form.firstname.label
+msgctxt "view~user.form.firstname.label"
+msgid "First name"
+msgstr "Etunimi"
+
+#: view~user.form.lastname.label
+msgctxt "view~user.form.lastname.label"
+msgid "Last name"
+msgstr "Sukunimi"
+
+#: view~user.form.organization.label
+msgctxt "view~user.form.organization.label"
+msgid "Organization"
+msgstr "Organisaatio"
+
+#: view~user.form.phonenumber.label
+msgctxt "view~user.form.phonenumber.label"
+msgid "Phone number"
+msgstr "Puhelinnumero"
+
+#: view~user.form.street.label
+msgctxt "view~user.form.street.label"
+msgid "Street"
+msgstr "Katu"
+
+#: view~user.form.postcode.label
+msgctxt "view~user.form.postcode.label"
+msgid "Postcode"
+msgstr "Postinumero"
+
+#: view~user.form.city.label
+msgctxt "view~user.form.city.label"
+msgid "City"
+msgstr "Kaupunki"
+
+#: view~user.form.country.label
+msgctxt "view~user.form.country.label"
+msgid "Country"
+msgstr "Maa"
+
+#: view~user.form.comment.label
+msgctxt "view~user.form.comment.label"
+msgid "Why do you request an account?"
+msgstr "Miksi pyydät tiliä?"
+
+#: view~user.form.comment.help
+msgctxt "view~user.form.comment.help"
+msgid ""
+"Please write a small text to explain why you would like to have an access to"
+" the maps."
+msgstr ""
+"Ole ystävällinen ja kirjoita lyhyt teksti selventääksesi miksi haluat saada "
+"käyttöoikeuden kartoille."
+
+#: view~edition.access.denied
+msgctxt "view~edition.access.denied"
+msgid "You have not the right to use the edition tools."
+msgstr "Sinulla ei ole oikeuksia käyttäää muokkaustyökaluja."
+
+#: view~edition.form.action.future.label
+msgctxt "view~edition.form.action.future.label"
+msgid "After saved"
+msgstr "Tallennuksen jälkeen"
+
+#: view~edition.form.action.future.close
+msgctxt "view~edition.form.action.future.close"
+msgid "Close form"
+msgstr "Sulje lomake"
+
+#: view~edition.form.action.future.create
+msgctxt "view~edition.form.action.future.create"
+msgid "Create new feature"
+msgstr "Luo uusi ominaisuus"
+
+#: view~edition.form.action.future.edit
+msgctxt "view~edition.form.action.future.edit"
+msgid "Reopen form"
+msgstr "Avaa lomake uudelleen"
+
+#: view~edition.form.submit.label
+msgctxt "view~edition.form.submit.label"
+msgid "Save"
+msgstr "Tallenna"
+
+#: view~edition.form.data.saved
+msgctxt "view~edition.form.data.saved"
+msgid "Data has been saved."
+msgstr "Tiedot on talletettu."
+
+#: view~edition.form.cancel.label
+msgctxt "view~edition.form.cancel.label"
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: view~edition.form.reset.label
+msgctxt "view~edition.form.reset.label"
+msgid "Reset"
+msgstr "Aseta alkuarvoihin"
+
+#: view~edition.form.btn.clear.title
+msgctxt "view~edition.form.btn.clear.title"
+msgid "Close"
+msgstr "Sulje"
+
+#: view~edition.form.cancel.confirm.message
+msgctxt "view~edition.form.cancel.confirm.message"
+msgid "Cancel edition?"
+msgstr "Peruuta julkaisu?"
+
+#: view~edition.navbar.title
+msgctxt "view~edition.navbar.title"
+msgid "Edition"
+msgstr "Julkaisu"
+
+#: view~edition.toolbar.title
+msgctxt "view~edition.toolbar.title"
+msgid "Edition"
+msgstr "Julkaisu"
+
+#: view~edition.toolbar.draw.title
+msgctxt "view~edition.toolbar.draw.title"
+msgid "Add"
+msgstr "Lisää"
+
+#: view~edition.toolbar.draw.clear.title
+msgctxt "view~edition.toolbar.draw.clear.title"
+msgid "Clear"
+msgstr "Tyhjää"
+
+#: view~edition.toolbar.draw.save.title
+msgctxt "view~edition.toolbar.draw.save.title"
+msgid "Save"
+msgstr "Tallenna"
+
+#: view~edition.toolbar.select.title
+msgctxt "view~edition.toolbar.select.title"
+msgid "Select"
+msgstr "Valitse"
+
+#: view~edition.toolbar.select.unselect.title
+msgctxt "view~edition.toolbar.select.unselect.title"
+msgid "Unsel."
+msgstr "Poista valinta"
+
+#: view~edition.toolbar.select.attr.title
+msgctxt "view~edition.toolbar.select.attr.title"
+msgid "Modify"
+msgstr "Muokkaa"
+
+#: view~edition.toolbar.select.undo.title
+msgctxt "view~edition.toolbar.select.undo.title"
+msgid "Undo"
+msgstr "Peruuta"
+
+#: view~edition.toolbar.select.delete.title
+msgctxt "view~edition.toolbar.select.delete.title"
+msgid "Del"
+msgstr "Poista"
+
+#: view~edition.toolbar.delete.title
+msgctxt "view~edition.toolbar.delete.title"
+msgid "Delete"
+msgstr "Poista"
+
+#: view~edition.toolbar.cancel.title
+msgctxt "view~edition.toolbar.cancel.title"
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: view~edition.geomtool.nodetool.title
+msgctxt "view~edition.geomtool.nodetool.title"
+msgid "Node tool"
+msgstr "Solmu työkalu"
+
+#: view~edition.geomtool.drag.title
+msgctxt "view~edition.geomtool.drag.title"
+msgid "Drag"
+msgstr "Vedä"
+
+#: view~edition.geomtool.rotate.title
+msgctxt "view~edition.geomtool.rotate.title"
+msgid "Rotate"
+msgstr "Kierrä"
+
+#: view~edition.geomtool.reshape.title
+msgctxt "view~edition.geomtool.reshape.title"
+msgid "Reshape"
+msgstr "Muotoile uudelleen"
+
+#: view~edition.point.coord.title
+msgctxt "view~edition.point.coord.title"
+msgid "Manage point/vertex coordinates"
+msgstr "Muokkaa pisteen/verteksin koordinaatteja"
+
+#: view~edition.point.coord.crs.label
+msgctxt "view~edition.point.coord.crs.label"
+msgid "CRS:"
+msgstr "CRS:"
+
+#: view~edition.point.coord.x.label
+msgctxt "view~edition.point.coord.x.label"
+msgid "X:"
+msgstr "X:"
+
+#: view~edition.point.coord.y.label
+msgctxt "view~edition.point.coord.y.label"
+msgid "Y:"
+msgstr "Y:"
+
+#: view~edition.point.coord.geolocation.label
+msgctxt "view~edition.point.coord.geolocation.label"
+msgid "linked to geolocation"
+msgstr "linkitetty maantieteelliseen sijaintiin"
+
+#: view~edition.point.coord.add.label
+msgctxt "view~edition.point.coord.add.label"
+msgid "Add"
+msgstr "Lisää"
+
+#: view~edition.point.coord.finalize.label
+msgctxt "view~edition.point.coord.finalize.label"
+msgid "Finalize"
+msgstr "Viimeistele"
+
+#: view~edition.geolocate.toolbar.title
+msgctxt "view~edition.geolocate.toolbar.title"
+msgid "Edition:"
+msgstr "Painos:"
+
+#: view~edition.toolbar.draw.tooltip
+msgctxt "view~edition.toolbar.draw.tooltip"
+msgid "Activate the tool for creating new objects."
+msgstr "Aktivoi työkalu käyttääksesi uusia objekteja."
+
+#: view~edition.toolbar.draw.clear.tooltip
+msgctxt "view~edition.toolbar.draw.clear.tooltip"
+msgid "Cancel the current drawing."
+msgstr "Peruuta nykyinen piirros."
+
+#: view~edition.toolbar.draw.save.tooltip
+msgctxt "view~edition.toolbar.draw.save.tooltip"
+msgid "Finalize the current drawing."
+msgstr "Viimeistele nykyinen piirros."
+
+#: view~edition.toolbar.select.tooltip
+msgctxt "view~edition.toolbar.select.tooltip"
+msgid "Activate the selection tool."
+msgstr "Aktivoi valintatyökalu."
+
+#: view~edition.toolbar.select.unselect.tooltip
+msgctxt "view~edition.toolbar.select.unselect.tooltip"
+msgid "Unselect the selected object."
+msgstr "Poista valinta valitulta objektilta."
+
+#: view~edition.toolbar.select.attr.tooltip
+msgctxt "view~edition.toolbar.select.attr.tooltip"
+msgid "Validate the geometry and/or open the attribute form."
+msgstr "Tarkista geometria ja/tai avaa attribuuttilomake."
+
+#: view~edition.toolbar.select.undo.tooltip
+msgctxt "view~edition.toolbar.select.undo.tooltip"
+msgid "Revert into initial geometry state."
+msgstr "Palaa alkuperäiseen geometrian tilaan."
+
+#: view~edition.toolbar.select.delete.tooltip
+msgctxt "view~edition.toolbar.select.delete.tooltip"
+msgid "Delete the selected object."
+msgstr "Poista valittu objekti."
+
+#: view~edition.toolbar.cancel.tooltip
+msgctxt "view~edition.toolbar.cancel.tooltip"
+msgid "Cancel current edition."
+msgstr "Peruuta nykyinen muokkaus."
+
+#: view~edition.modal.title.default
+msgctxt "view~edition.modal.title.default"
+msgid "Edition"
+msgstr "Julkaisu"
+
+#: view~edition.modal.message.no.feature.found
+msgctxt "view~edition.modal.message.no.feature.found"
+msgid "No feature has been found here."
+msgstr "Täältä ei löytynyt yhtään ominaisuutta."
+
+#: view~edition.message.error.parameter.project
+msgctxt "view~edition.message.error.parameter.project"
+msgid "The 'project' parameter is mandatory."
+msgstr "\"Projekti\" parametri on pakollinen."
+
+#: view~edition.message.error.parameter.featureId
+msgctxt "view~edition.message.error.parameter.featureId"
+msgid "The 'featureId' parameter is mandatory."
+msgstr "'featureId' parametri on pakollinen."
+
+#: view~edition.message.error.layer.editable
+msgctxt "view~edition.message.error.layer.editable"
+msgid "The layer is not editable."
+msgstr "Taso ei ole muokattavissa."
+
+#: view~edition.message.error.layer.editable.create
+msgctxt "view~edition.message.error.layer.editable.create"
+msgid "Create feature for the layer is not available."
+msgstr "Ominaisuuden luonti tasolle ei ole käytettävissä."
+
+#: view~edition.message.error.layer.editable.delete
+msgctxt "view~edition.message.error.layer.editable.delete"
+msgid "Delete feature for the layer is not available."
+msgstr "Poista ominaisuus tasolle ei ole käytettävissä."
+
+#: view~edition.message.error.primary.keys
+msgctxt "view~edition.message.error.primary.keys"
+msgid ""
+"Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
+" defined primary key on the table."
+msgstr ""
+"Lizmap ei löydä \"%s\" tason primääriavaimia. Painostyökalu tarvitsee "
+"taululle määritellyt primääriavaimet."
+
+#: view~edition.message.error.feature.get
+msgctxt "view~edition.message.error.feature.get"
+msgid "Lizmap cannot get the feature data with WFS"
+msgstr "Lizmap ei saa ominaisuustietoja käyttääen WFS"
+
+#: view~edition.message.error.form.get
+msgctxt "view~edition.message.error.form.get"
+msgid "An error has been raised when getting the form"
+msgstr "Virhe lomakkeen saamisessa."
+
+#: view~edition.message.error.bbox
+msgctxt "view~edition.message.error.bbox"
+msgid "The bbox has to be 4 floats separated by ','."
+msgstr "Bbox'issa tulee olla neljä lukua eroteltuna  ','."
+
+#: view~edition.message.error.crs
+msgctxt "view~edition.message.error.crs"
+msgid "crs is mandatory and has to be an integer or EPSG:*."
+msgstr "CRS on pakollinen ja sen tulee olla kokonaisluku tai  EPSG:*."
+
+#: view~edition.message.error.save
+msgctxt "view~edition.message.error.save"
+msgid "An error has been raised when saving the form."
+msgstr "Virhe lomakkeen tallennuksessa."
+
+#: view~edition.message.error.save.fields
+msgctxt "view~edition.message.error.save.fields"
+msgid "No fields available for saving the form."
+msgstr "Tietoja ei olemassa lomakkeen tallentamiseksi."
+
+#: view~edition.message.error.delete
+msgctxt "view~edition.message.error.delete"
+msgid "The deletion has failed."
+msgstr "Poisto epäonistui."
+
+#: view~edition.message.success.delete
+msgctxt "view~edition.message.success.delete"
+msgid "The feature has been deleted."
+msgstr "Ominaisuus on poistettu."
+
+#: view~edition.message.error.create
+msgctxt "view~edition.message.error.create"
+msgid "An error occured while creating the object."
+msgstr "Tapahtui virhe luotaessa objektia."
+
+#: view~edition.message.success.create
+msgctxt "view~edition.message.success.create"
+msgid "Object successfully created."
+msgstr "Objekti luotu onistuneesti."
+
+#: view~edition.message.error.no.geometry
+msgctxt "view~edition.message.error.no.geometry"
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
+msgstr ""
+"Et voi tallentaa tätä objektia ilman geometriaa kartalla. Ole ystävällinen "
+"ja piirrä geometria kartalle."
+
+#: view~edition.message.error.upload.layer
+msgctxt "view~edition.message.error.upload.layer"
+msgid "The layer \"%s\" directory for uploading media is not writable."
+msgstr "Tason \"%s\" hakemisto median lataamiseksi ei ole kirjoitettavissa."
+
+#: view~edition.message.error.upload.layer.field
+msgctxt "view~edition.message.error.upload.layer.field"
+msgid ""
+"The field \"%s\" directory of the layer \"%s\" for uploading media is not "
+"writable."
+msgstr ""
+"Tiedon \"%s\" hakemisto tasolle \"%s\" median lataamiseksi ei ole "
+"kirjoitettavissa."
+
+#: view~edition.upload.choice.keep
+msgctxt "view~edition.upload.choice.keep"
+msgid "Keep"
+msgstr "Pidä"
+
+#: view~edition.upload.choice.update
+msgctxt "view~edition.upload.choice.update"
+msgid "Update"
+msgstr "Päivitä"
+
+#: view~edition.upload.choice.delete
+msgctxt "view~edition.upload.choice.delete"
+msgid "Delete"
+msgstr "Poista"
+
+#: view~edition.link.error.missing.parameter
+msgctxt "view~edition.link.error.missing.parameter"
+msgid "The pivot, features1 and features2 parameters are mandatory."
+msgstr "Keskipiste, ominaisuus1 ja ominaisuus2 ovat pakollisia."
+
+#: view~edition.link.error.wrong.layer
+msgctxt "view~edition.link.error.wrong.layer"
+msgid "The layer does not exists."
+msgstr "Tasoa ei ole olemassa."
+
+#: view~edition.link.error.multiple.ids
+msgctxt "view~edition.link.error.multiple.ids"
+msgid ""
+"You cannot link multiple objects for both layers. Please select only one "
+"object for one of the layers and retry."
+msgstr ""
+"Et voi linkittää useita ominaisuuksia molempiin tasoihin. Ole ystävällinen "
+"valitse vain yksi objekti yhteen tasoon ja yritä uudelleen."
+
+#: view~edition.link.error.missing.id
+msgctxt "view~edition.link.error.missing.id"
+msgid ""
+"There must be at least one object selected for each layer to create the "
+"link."
+msgstr ""
+"Jokaiselle tasolle on oltava vähintäin yksi oblekti jotta voit luoda linkin."
+
+#: view~edition.link.error.not.attribute.layer
+msgctxt "view~edition.link.error.not.attribute.layer"
+msgid "The layers have not be configured to have an attribute table."
+msgstr "Tasoja ei ole konfiguroitu sisältämään attribuuttitauluja."
+
+#: view~edition.link.error.no.create.feature
+msgctxt "view~edition.link.error.no.create.feature"
+msgid "Create feature for the layer \"%s\" is not available."
+msgstr "Ominaisuuden luonti tasolle \"%s\" ei ole käytettävissä."
+
+#: view~edition.link.error.no.modify.attributes
+msgctxt "view~edition.link.error.no.modify.attributes"
+msgid "Modify attributes for the layer \"%s\" is not available."
+msgstr "Attribuuttien muokkaus tasolle \"%s\" ei ole käytettävissä."
+
+#: view~edition.link.error.no.given.fields
+msgctxt "view~edition.link.error.no.given.fields"
+msgid "Given fields do not exists."
+msgstr "Annettuja tietoja ei ole."
+
+#: view~edition.link.error.sql
+msgctxt "view~edition.link.error.sql"
+msgid "An error occured while adding linked data."
+msgstr "Tapahtui virhe lisättäessä linkattua dataa."
+
+#: view~edition.link.success
+msgctxt "view~edition.link.success"
+msgid "Selected features have been correctly linked."
+msgstr "Valitut ominaisuudet on linkattu oikein."
+
+#: view~edition.unlink.success
+msgctxt "view~edition.unlink.success"
+msgid "The child feature has correctly been unlinked."
+msgstr "Perivältä ominaisuudelta on onnistuneesti poistettu linkki."
+
+#: view~edition.unlink.error.sql
+msgctxt "view~edition.unlink.error.sql"
+msgid "An error occured while removing link."
+msgstr "Tapahtui virhe poistettaessa linkkiä."
 
 #: view~map.title.h1
 msgctxt "view~map.title.h1"
@@ -1219,476 +1692,3 @@ msgstr "Edellinen"
 msgctxt "view~dictionnary.embed.open.map"
 msgid "Open the map in full screen"
 msgstr "Avaa kartta koko näytölle"
-
-#: view~user.form.firstname.label
-msgctxt "view~user.form.firstname.label"
-msgid "First name"
-msgstr "Etunimi"
-
-#: view~user.form.lastname.label
-msgctxt "view~user.form.lastname.label"
-msgid "Last name"
-msgstr "Sukunimi"
-
-#: view~user.form.organization.label
-msgctxt "view~user.form.organization.label"
-msgid "Organization"
-msgstr "Organisaatio"
-
-#: view~user.form.phonenumber.label
-msgctxt "view~user.form.phonenumber.label"
-msgid "Phone number"
-msgstr "Puhelinnumero"
-
-#: view~user.form.street.label
-msgctxt "view~user.form.street.label"
-msgid "Street"
-msgstr "Katu"
-
-#: view~user.form.postcode.label
-msgctxt "view~user.form.postcode.label"
-msgid "Postcode"
-msgstr "Postinumero"
-
-#: view~user.form.city.label
-msgctxt "view~user.form.city.label"
-msgid "City"
-msgstr "Kaupunki"
-
-#: view~user.form.country.label
-msgctxt "view~user.form.country.label"
-msgid "Country"
-msgstr "Maa"
-
-#: view~user.form.comment.label
-msgctxt "view~user.form.comment.label"
-msgid "Why do you request an account?"
-msgstr "Miksi pyydät tiliä?"
-
-#: view~user.form.comment.help
-msgctxt "view~user.form.comment.help"
-msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
-msgstr ""
-"Ole ystävällinen ja kirjoita lyhyt teksti selventääksesi miksi haluat saada "
-"käyttöoikeuden kartoille."
-
-#: view~edition.access.denied
-msgctxt "view~edition.access.denied"
-msgid "You have not the right to use the edition tools."
-msgstr "Sinulla ei ole oikeuksia käyttäää muokkaustyökaluja."
-
-#: view~edition.form.action.future.label
-msgctxt "view~edition.form.action.future.label"
-msgid "After saved"
-msgstr "Tallennuksen jälkeen"
-
-#: view~edition.form.action.future.close
-msgctxt "view~edition.form.action.future.close"
-msgid "Close form"
-msgstr "Sulje lomake"
-
-#: view~edition.form.action.future.create
-msgctxt "view~edition.form.action.future.create"
-msgid "Create new feature"
-msgstr "Luo uusi ominaisuus"
-
-#: view~edition.form.action.future.edit
-msgctxt "view~edition.form.action.future.edit"
-msgid "Reopen form"
-msgstr "Avaa lomake uudelleen"
-
-#: view~edition.form.submit.label
-msgctxt "view~edition.form.submit.label"
-msgid "Save"
-msgstr "Tallenna"
-
-#: view~edition.form.data.saved
-msgctxt "view~edition.form.data.saved"
-msgid "Data has been saved."
-msgstr "Tiedot on talletettu."
-
-#: view~edition.form.cancel.label
-msgctxt "view~edition.form.cancel.label"
-msgid "Cancel"
-msgstr "Peruuta"
-
-#: view~edition.form.reset.label
-msgctxt "view~edition.form.reset.label"
-msgid "Reset"
-msgstr "Aseta alkuarvoihin"
-
-#: view~edition.form.btn.clear.title
-msgctxt "view~edition.form.btn.clear.title"
-msgid "Close"
-msgstr "Sulje"
-
-#: view~edition.form.cancel.confirm.message
-msgctxt "view~edition.form.cancel.confirm.message"
-msgid "Cancel edition?"
-msgstr "Peruuta julkaisu?"
-
-#: view~edition.navbar.title
-msgctxt "view~edition.navbar.title"
-msgid "Edition"
-msgstr "Julkaisu"
-
-#: view~edition.toolbar.title
-msgctxt "view~edition.toolbar.title"
-msgid "Edition"
-msgstr "Julkaisu"
-
-#: view~edition.toolbar.draw.title
-msgctxt "view~edition.toolbar.draw.title"
-msgid "Add"
-msgstr "Lisää"
-
-#: view~edition.toolbar.draw.clear.title
-msgctxt "view~edition.toolbar.draw.clear.title"
-msgid "Clear"
-msgstr "Tyhjää"
-
-#: view~edition.toolbar.draw.save.title
-msgctxt "view~edition.toolbar.draw.save.title"
-msgid "Save"
-msgstr "Tallenna"
-
-#: view~edition.toolbar.select.title
-msgctxt "view~edition.toolbar.select.title"
-msgid "Select"
-msgstr "Valitse"
-
-#: view~edition.toolbar.select.unselect.title
-msgctxt "view~edition.toolbar.select.unselect.title"
-msgid "Unsel."
-msgstr "Poista valinta"
-
-#: view~edition.toolbar.select.attr.title
-msgctxt "view~edition.toolbar.select.attr.title"
-msgid "Modify"
-msgstr "Muokkaa"
-
-#: view~edition.toolbar.select.undo.title
-msgctxt "view~edition.toolbar.select.undo.title"
-msgid "Undo"
-msgstr "Peruuta"
-
-#: view~edition.toolbar.select.delete.title
-msgctxt "view~edition.toolbar.select.delete.title"
-msgid "Del"
-msgstr "Poista"
-
-#: view~edition.toolbar.delete.title
-msgctxt "view~edition.toolbar.delete.title"
-msgid "Delete"
-msgstr "Poista"
-
-#: view~edition.toolbar.cancel.title
-msgctxt "view~edition.toolbar.cancel.title"
-msgid "Cancel"
-msgstr "Peruuta"
-
-#: view~edition.geomtool.nodetool.title
-msgctxt "view~edition.geomtool.nodetool.title"
-msgid "Node tool"
-msgstr "Solmu työkalu"
-
-#: view~edition.geomtool.drag.title
-msgctxt "view~edition.geomtool.drag.title"
-msgid "Drag"
-msgstr "Vedä"
-
-#: view~edition.geomtool.rotate.title
-msgctxt "view~edition.geomtool.rotate.title"
-msgid "Rotate"
-msgstr "Kierrä"
-
-#: view~edition.geomtool.reshape.title
-msgctxt "view~edition.geomtool.reshape.title"
-msgid "Reshape"
-msgstr "Muotoile uudelleen"
-
-#: view~edition.point.coord.title
-msgctxt "view~edition.point.coord.title"
-msgid "Manage point/vertex coordinates"
-msgstr "Muokkaa pisteen/verteksin koordinaatteja"
-
-#: view~edition.point.coord.crs.label
-msgctxt "view~edition.point.coord.crs.label"
-msgid "CRS:"
-msgstr "CRS:"
-
-#: view~edition.point.coord.x.label
-msgctxt "view~edition.point.coord.x.label"
-msgid "X:"
-msgstr "X:"
-
-#: view~edition.point.coord.y.label
-msgctxt "view~edition.point.coord.y.label"
-msgid "Y:"
-msgstr "Y:"
-
-#: view~edition.point.coord.geolocation.label
-msgctxt "view~edition.point.coord.geolocation.label"
-msgid "linked to geolocation"
-msgstr "linkitetty maantieteelliseen sijaintiin"
-
-#: view~edition.point.coord.add.label
-msgctxt "view~edition.point.coord.add.label"
-msgid "Add"
-msgstr "Lisää"
-
-#: view~edition.point.coord.finalize.label
-msgctxt "view~edition.point.coord.finalize.label"
-msgid "Finalize"
-msgstr "Viimeistele"
-
-#: view~edition.geolocate.toolbar.title
-msgctxt "view~edition.geolocate.toolbar.title"
-msgid "Edition:"
-msgstr "Painos:"
-
-#: view~edition.toolbar.draw.tooltip
-msgctxt "view~edition.toolbar.draw.tooltip"
-msgid "Activate the tool for creating new objects."
-msgstr "Aktivoi työkalu käyttääksesi uusia objekteja."
-
-#: view~edition.toolbar.draw.clear.tooltip
-msgctxt "view~edition.toolbar.draw.clear.tooltip"
-msgid "Cancel the current drawing."
-msgstr "Peruuta nykyinen piirros."
-
-#: view~edition.toolbar.draw.save.tooltip
-msgctxt "view~edition.toolbar.draw.save.tooltip"
-msgid "Finalize the current drawing."
-msgstr "Viimeistele nykyinen piirros."
-
-#: view~edition.toolbar.select.tooltip
-msgctxt "view~edition.toolbar.select.tooltip"
-msgid "Activate the selection tool."
-msgstr "Aktivoi valintatyökalu."
-
-#: view~edition.toolbar.select.unselect.tooltip
-msgctxt "view~edition.toolbar.select.unselect.tooltip"
-msgid "Unselect the selected object."
-msgstr "Poista valinta valitulta objektilta."
-
-#: view~edition.toolbar.select.attr.tooltip
-msgctxt "view~edition.toolbar.select.attr.tooltip"
-msgid "Validate the geometry and/or open the attribute form."
-msgstr "Tarkista geometria ja/tai avaa attribuuttilomake."
-
-#: view~edition.toolbar.select.undo.tooltip
-msgctxt "view~edition.toolbar.select.undo.tooltip"
-msgid "Revert into initial geometry state."
-msgstr "Palaa alkuperäiseen geometrian tilaan."
-
-#: view~edition.toolbar.select.delete.tooltip
-msgctxt "view~edition.toolbar.select.delete.tooltip"
-msgid "Delete the selected object."
-msgstr "Poista valittu objekti."
-
-#: view~edition.toolbar.cancel.tooltip
-msgctxt "view~edition.toolbar.cancel.tooltip"
-msgid "Cancel current edition."
-msgstr "Peruuta nykyinen muokkaus."
-
-#: view~edition.modal.title.default
-msgctxt "view~edition.modal.title.default"
-msgid "Edition"
-msgstr "Julkaisu"
-
-#: view~edition.modal.message.no.feature.found
-msgctxt "view~edition.modal.message.no.feature.found"
-msgid "No feature has been found here."
-msgstr "Täältä ei löytynyt yhtään ominaisuutta."
-
-#: view~edition.message.error.parameter.project
-msgctxt "view~edition.message.error.parameter.project"
-msgid "The 'project' parameter is mandatory."
-msgstr "\"Projekti\" parametri on pakollinen."
-
-#: view~edition.message.error.parameter.featureId
-msgctxt "view~edition.message.error.parameter.featureId"
-msgid "The 'featureId' parameter is mandatory."
-msgstr "'featureId' parametri on pakollinen."
-
-#: view~edition.message.error.layer.editable
-msgctxt "view~edition.message.error.layer.editable"
-msgid "The layer is not editable."
-msgstr "Taso ei ole muokattavissa."
-
-#: view~edition.message.error.layer.editable.create
-msgctxt "view~edition.message.error.layer.editable.create"
-msgid "Create feature for the layer is not available."
-msgstr "Ominaisuuden luonti tasolle ei ole käytettävissä."
-
-#: view~edition.message.error.layer.editable.delete
-msgctxt "view~edition.message.error.layer.editable.delete"
-msgid "Delete feature for the layer is not available."
-msgstr "Poista ominaisuus tasolle ei ole käytettävissä."
-
-#: view~edition.message.error.primary.keys
-msgctxt "view~edition.message.error.primary.keys"
-msgid ""
-"Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
-" defined primary key on the table."
-msgstr ""
-"Lizmap ei löydä \"%s\" tason primääriavaimia. Painostyökalu tarvitsee "
-"taululle määritellyt primääriavaimet."
-
-#: view~edition.message.error.feature.get
-msgctxt "view~edition.message.error.feature.get"
-msgid "Lizmap cannot get the feature data with WFS"
-msgstr "Lizmap ei saa ominaisuustietoja käyttääen WFS"
-
-#: view~edition.message.error.form.get
-msgctxt "view~edition.message.error.form.get"
-msgid "An error has been raised when getting the form"
-msgstr "Virhe lomakkeen saamisessa."
-
-#: view~edition.message.error.bbox
-msgctxt "view~edition.message.error.bbox"
-msgid "The bbox has to be 4 floats separated by ','."
-msgstr "Bbox'issa tulee olla neljä lukua eroteltuna  ','."
-
-#: view~edition.message.error.crs
-msgctxt "view~edition.message.error.crs"
-msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr "CRS on pakollinen ja sen tulee olla kokonaisluku tai  EPSG:*."
-
-#: view~edition.message.error.save
-msgctxt "view~edition.message.error.save"
-msgid "An error has been raised when saving the form."
-msgstr "Virhe lomakkeen tallennuksessa."
-
-#: view~edition.message.error.save.fields
-msgctxt "view~edition.message.error.save.fields"
-msgid "No fields available for saving the form."
-msgstr "Tietoja ei olemassa lomakkeen tallentamiseksi."
-
-#: view~edition.message.error.delete
-msgctxt "view~edition.message.error.delete"
-msgid "The deletion has failed."
-msgstr "Poisto epäonistui."
-
-#: view~edition.message.success.delete
-msgctxt "view~edition.message.success.delete"
-msgid "The feature has been deleted."
-msgstr "Ominaisuus on poistettu."
-
-#: view~edition.message.error.create
-msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
-msgstr "Tapahtui virhe luotaessa objektia."
-
-#: view~edition.message.success.create
-msgctxt "view~edition.message.success.create"
-msgid "Object successfully created."
-msgstr "Objekti luotu onistuneesti."
-
-#: view~edition.message.error.no.geometry
-msgctxt "view~edition.message.error.no.geometry"
-msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
-msgstr ""
-"Et voi tallentaa tätä objektia ilman geometriaa kartalla. Ole ystävällinen "
-"ja piirrä geometria kartalle."
-
-#: view~edition.message.error.upload.layer
-msgctxt "view~edition.message.error.upload.layer"
-msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr "Tason \"%s\" hakemisto median lataamiseksi ei ole kirjoitettavissa."
-
-#: view~edition.message.error.upload.layer.field
-msgctxt "view~edition.message.error.upload.layer.field"
-msgid ""
-"The field \"%s\" directory of the layer \"%s\" for uploading media is not "
-"writable."
-msgstr ""
-"Tiedon \"%s\" hakemisto tasolle \"%s\" median lataamiseksi ei ole "
-"kirjoitettavissa."
-
-#: view~edition.upload.choice.keep
-msgctxt "view~edition.upload.choice.keep"
-msgid "Keep"
-msgstr "Pidä"
-
-#: view~edition.upload.choice.update
-msgctxt "view~edition.upload.choice.update"
-msgid "Update"
-msgstr "Päivitä"
-
-#: view~edition.upload.choice.delete
-msgctxt "view~edition.upload.choice.delete"
-msgid "Delete"
-msgstr "Poista"
-
-#: view~edition.link.error.missing.parameter
-msgctxt "view~edition.link.error.missing.parameter"
-msgid "The pivot, features1 and features2 parameters are mandatory."
-msgstr "Keskipiste, ominaisuus1 ja ominaisuus2 ovat pakollisia."
-
-#: view~edition.link.error.wrong.layer
-msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
-msgstr "Tasoa ei ole olemassa."
-
-#: view~edition.link.error.multiple.ids
-msgctxt "view~edition.link.error.multiple.ids"
-msgid ""
-"You cannot link multiple objects for both layers. Please select only one "
-"object for one of the layers and retry."
-msgstr ""
-"Et voi linkittää useita ominaisuuksia molempiin tasoihin. Ole ystävällinen "
-"valitse vain yksi objekti yhteen tasoon ja yritä uudelleen."
-
-#: view~edition.link.error.missing.id
-msgctxt "view~edition.link.error.missing.id"
-msgid ""
-"There must be at least one object selected for each layer to create the "
-"link."
-msgstr ""
-"Jokaiselle tasolle on oltava vähintäin yksi oblekti jotta voit luoda linkin."
-
-#: view~edition.link.error.not.attribute.layer
-msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
-msgstr "Tasoja ei ole konfiguroitu sisältämään attribuuttitauluja."
-
-#: view~edition.link.error.no.create.feature
-msgctxt "view~edition.link.error.no.create.feature"
-msgid "Create feature for the layer \"%s\" is not available."
-msgstr "Ominaisuuden luonti tasolle \"%s\" ei ole käytettävissä."
-
-#: view~edition.link.error.no.modify.attributes
-msgctxt "view~edition.link.error.no.modify.attributes"
-msgid "Modify attributes for the layer \"%s\" is not available."
-msgstr "Attribuuttien muokkaus tasolle \"%s\" ei ole käytettävissä."
-
-#: view~edition.link.error.no.given.fields
-msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
-msgstr "Annettuja tietoja ei ole."
-
-#: view~edition.link.error.sql
-msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
-msgstr "Tapahtui virhe lisättäessä linkattua dataa."
-
-#: view~edition.link.success
-msgctxt "view~edition.link.success"
-msgid "Selected features have been correctly linked."
-msgstr "Valitut ominaisuudet on linkattu oikein."
-
-#: view~edition.unlink.success
-msgctxt "view~edition.unlink.success"
-msgid "The child feature has correctly been unlinked."
-msgstr "Perivältä ominaisuudelta on onnistuneesti poistettu linkki."
-
-#: view~edition.unlink.error.sql
-msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
-msgstr "Tapahtui virhe poistettaessa linkkiä."

@@ -4,9 +4,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client admin 3.2.2\n"
+"Project-Id-Version: Lizmap Web Client admin 3.2.18-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"POT-Creation-Date: 2020-11-23 12:04++0100\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2019\n"
 "Language-Team: Finnish (https://www.transifex.com/3liz-1/teams/62012/fi/)\n"
@@ -16,82 +16,49 @@ msgstr ""
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: admin~jacl2.lizmap.admin.grp
-msgctxt "admin~jacl2.lizmap.admin.grp"
-msgid "Lizmap Administration Management"
-msgstr "Lizmap Hallinnanohjaus"
+#: admin~user.form.comment.label
+msgctxt "admin~user.form.comment.label"
+msgid "Comments"
+msgstr "Kommentit"
 
-#: admin~jacl2.lizmap.grp
-msgctxt "admin~jacl2.lizmap.grp"
-msgid "Lizmap Client Management"
-msgstr "Lizmap Asiakasohjelman hallinta"
+#: admin~user.email.admin.subject
+msgctxt "admin~user.email.admin.subject"
+msgid "Lizmap - Someone requested an account"
+msgstr "Lizmap - Henkilö pyysi tiliä"
 
-#: admin~jacl2.lizmap.admin.access
-msgctxt "admin~jacl2.lizmap.admin.access"
-msgid "Lizmap Admin access"
-msgstr "Lizmap Järjestelmänvalvojan pääsy"
-
-#: admin~jacl2.lizmap.admin.services.view
-msgctxt "admin~jacl2.lizmap.admin.services.view"
-msgid "View services"
-msgstr "Näytä palvelut"
-
-#: admin~jacl2.lizmap.admin.services.update
-msgctxt "admin~jacl2.lizmap.admin.services.update"
-msgid "Modify services"
-msgstr "Muokkaa palveluja"
-
-#: admin~jacl2.lizmap.admin.repositories.view
-msgctxt "admin~jacl2.lizmap.admin.repositories.view"
-msgid "View repositories"
-msgstr "Näytä etäkirjastot"
-
-#: admin~jacl2.lizmap.admin.repositories.create
-msgctxt "admin~jacl2.lizmap.admin.repositories.create"
-msgid "Create repositories"
-msgstr "Luo etäkirjastot"
-
-#: admin~jacl2.lizmap.admin.repositories.update
-msgctxt "admin~jacl2.lizmap.admin.repositories.update"
-msgid "Modify repositories"
-msgstr "Muokkaa etäkirjastoja"
-
-#: admin~jacl2.lizmap.admin.repositories.delete
-msgctxt "admin~jacl2.lizmap.admin.repositories.delete"
-msgid "Delete repositories"
-msgstr "Poista etäkirjastot"
-
-#: admin~jacl2.lizmap.admin.grp.default
-msgctxt "admin~jacl2.lizmap.admin.grp.default"
-msgid "default group"
-msgstr "oletusryhmä"
-
-#: admin~jacl2.lizmap.repositories.view
-msgctxt "admin~jacl2.lizmap.repositories.view"
-msgid "View projects in the repository"
-msgstr "Näytä arkiston projektit"
-
-#: admin~jacl2.lizmap.tools.edition.use
-msgctxt "admin~jacl2.lizmap.tools.edition.use"
-msgid "Use the Edition tool"
-msgstr "Käytä Edition työkalua"
-
-#: admin~jacl2.lizmap.tools.loginFilteredLayers.override
-msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
-msgid "Always see complete layers data, even if filtered by login"
+#: admin~user.email.admin.body
+msgctxt "admin~user.email.admin.body"
+msgid ""
+"Someone has requested a Lizmap account to be able to access the maps, with "
+"the login %s and the e-mail %s."
 msgstr ""
-"Näe aina täydelliset tason tiedot, huolimatta sisäänkirjoituksen "
-"suodatuksesta"
+"Henkilö on pyytänyt Lizmap tiliä voidakseen käyttää karttoja, "
+"sisäänkirjoitustunnuksella %s ja sähköpostilla %s."
 
-#: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
-msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
-msgid "Display projects WMS links"
-msgstr "Näytä projektin WMS linkit"
+#: admin~user.acl.no.group
+msgctxt "admin~user.acl.no.group"
+msgid "The user is not in any group"
+msgstr ""
 
-#: admin~jacl2.lizmap.tools.layer.export
-msgctxt "admin~jacl2.lizmap.tools.layer.export"
-msgid "Allow export of layers"
-msgstr "Salli tasojen vienti"
+#: admin~user.acl.form.title
+msgctxt "admin~user.acl.form.title"
+msgid "Groups the user belongs to"
+msgstr ""
+
+#: admin~user.acl.form.remove.from.group
+msgctxt "admin~user.acl.form.remove.from.group"
+msgid "Remove him from this group"
+msgstr ""
+
+#: admin~user.acl.form.add.to.group
+msgctxt "admin~user.acl.form.add.to.group"
+msgid "Add him to this group"
+msgstr ""
+
+#: admin~user.acl.form.add
+msgctxt "admin~user.acl.form.add"
+msgid "Add"
+msgstr "Lisää"
 
 #: admin~admin.header.admin
 msgctxt "admin~admin.header.admin"
@@ -1037,46 +1004,79 @@ msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
 msgstr ""
 
-#: admin~user.form.comment.label
-msgctxt "admin~user.form.comment.label"
-msgid "Comments"
-msgstr "Kommentit"
+#: admin~jacl2.lizmap.admin.grp
+msgctxt "admin~jacl2.lizmap.admin.grp"
+msgid "Lizmap Administration Management"
+msgstr "Lizmap Hallinnanohjaus"
 
-#: admin~user.email.admin.subject
-msgctxt "admin~user.email.admin.subject"
-msgid "Lizmap - Someone requested an account"
-msgstr "Lizmap - Henkilö pyysi tiliä"
+#: admin~jacl2.lizmap.grp
+msgctxt "admin~jacl2.lizmap.grp"
+msgid "Lizmap Client Management"
+msgstr "Lizmap Asiakasohjelman hallinta"
 
-#: admin~user.email.admin.body
-msgctxt "admin~user.email.admin.body"
-msgid ""
-"Someone has requested a Lizmap account to be able to access the maps, with "
-"the login %s and the e-mail %s."
+#: admin~jacl2.lizmap.admin.access
+msgctxt "admin~jacl2.lizmap.admin.access"
+msgid "Lizmap Admin access"
+msgstr "Lizmap Järjestelmänvalvojan pääsy"
+
+#: admin~jacl2.lizmap.admin.services.view
+msgctxt "admin~jacl2.lizmap.admin.services.view"
+msgid "View services"
+msgstr "Näytä palvelut"
+
+#: admin~jacl2.lizmap.admin.services.update
+msgctxt "admin~jacl2.lizmap.admin.services.update"
+msgid "Modify services"
+msgstr "Muokkaa palveluja"
+
+#: admin~jacl2.lizmap.admin.repositories.view
+msgctxt "admin~jacl2.lizmap.admin.repositories.view"
+msgid "View repositories"
+msgstr "Näytä etäkirjastot"
+
+#: admin~jacl2.lizmap.admin.repositories.create
+msgctxt "admin~jacl2.lizmap.admin.repositories.create"
+msgid "Create repositories"
+msgstr "Luo etäkirjastot"
+
+#: admin~jacl2.lizmap.admin.repositories.update
+msgctxt "admin~jacl2.lizmap.admin.repositories.update"
+msgid "Modify repositories"
+msgstr "Muokkaa etäkirjastoja"
+
+#: admin~jacl2.lizmap.admin.repositories.delete
+msgctxt "admin~jacl2.lizmap.admin.repositories.delete"
+msgid "Delete repositories"
+msgstr "Poista etäkirjastot"
+
+#: admin~jacl2.lizmap.admin.grp.default
+msgctxt "admin~jacl2.lizmap.admin.grp.default"
+msgid "default group"
+msgstr "oletusryhmä"
+
+#: admin~jacl2.lizmap.repositories.view
+msgctxt "admin~jacl2.lizmap.repositories.view"
+msgid "View projects in the repository"
+msgstr "Näytä arkiston projektit"
+
+#: admin~jacl2.lizmap.tools.edition.use
+msgctxt "admin~jacl2.lizmap.tools.edition.use"
+msgid "Use the Edition tool"
+msgstr "Käytä Edition työkalua"
+
+#: admin~jacl2.lizmap.tools.loginFilteredLayers.override
+msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
+msgid "Always see complete layers data, even if filtered by login"
 msgstr ""
-"Henkilö on pyytänyt Lizmap tiliä voidakseen käyttää karttoja, "
-"sisäänkirjoitustunnuksella %s ja sähköpostilla %s."
+"Näe aina täydelliset tason tiedot, huolimatta sisäänkirjoituksen "
+"suodatuksesta"
 
-#: admin~user.acl.no.group
-msgctxt "admin~user.acl.no.group"
-msgid "The user is not in any group"
-msgstr ""
+#: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
+msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
+msgid "Display projects WMS links"
+msgstr "Näytä projektin WMS linkit"
 
-#: admin~user.acl.form.title
-msgctxt "admin~user.acl.form.title"
-msgid "Groups the user belongs to"
-msgstr ""
-
-#: admin~user.acl.form.remove.from.group
-msgctxt "admin~user.acl.form.remove.from.group"
-msgid "Remove him from this group"
-msgstr ""
-
-#: admin~user.acl.form.add.to.group
-msgctxt "admin~user.acl.form.add.to.group"
-msgid "Add him to this group"
-msgstr ""
-
-#: admin~user.acl.form.add
-msgctxt "admin~user.acl.form.add"
-msgid "Add"
-msgstr "Lisää"
+#: admin~jacl2.lizmap.tools.layer.export
+msgctxt "admin~jacl2.lizmap.tools.layer.export"
+msgid "Allow export of layers"
+msgstr "Salli tasojen vienti"

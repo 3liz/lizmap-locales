@@ -5,9 +5,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client view 3.2.2\n"
+"Project-Id-Version: Lizmap Web Client view 3.2.18-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"POT-Creation-Date: 2020-11-23 12:04++0100\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2019\n"
 "Language-Team: Hungarian (Hungary) (https://www.transifex.com/3liz-1/teams/62012/hu_HU/)\n"
@@ -16,6 +16,484 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu_HU\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: view~user.form.firstname.label
+msgctxt "view~user.form.firstname.label"
+msgid "First name"
+msgstr "Keresztnév"
+
+#: view~user.form.lastname.label
+msgctxt "view~user.form.lastname.label"
+msgid "Last name"
+msgstr "Vezetéknév"
+
+#: view~user.form.organization.label
+msgctxt "view~user.form.organization.label"
+msgid "Organization"
+msgstr "Szervezet"
+
+#: view~user.form.phonenumber.label
+msgctxt "view~user.form.phonenumber.label"
+msgid "Phone number"
+msgstr "Telefon"
+
+#: view~user.form.street.label
+msgctxt "view~user.form.street.label"
+msgid "Street"
+msgstr "Utca"
+
+#: view~user.form.postcode.label
+msgctxt "view~user.form.postcode.label"
+msgid "Postcode"
+msgstr "Irányítószám"
+
+#: view~user.form.city.label
+msgctxt "view~user.form.city.label"
+msgid "City"
+msgstr "Város"
+
+#: view~user.form.country.label
+msgctxt "view~user.form.country.label"
+msgid "Country"
+msgstr "Ország"
+
+#: view~user.form.comment.label
+msgctxt "view~user.form.comment.label"
+msgid "Why do you request an account?"
+msgstr "Miért igényel felhasználói fiókot?"
+
+#: view~user.form.comment.help
+msgctxt "view~user.form.comment.help"
+msgid ""
+"Please write a small text to explain why you would like to have an access to"
+" the maps."
+msgstr ""
+"Kérem írjon néhány sort, melyből kiderül, hogy milyen céllal szeretne "
+"hozzáférni a térképekhez."
+
+#: view~edition.access.denied
+msgctxt "view~edition.access.denied"
+msgid "You have not the right to use the edition tools."
+msgstr "Nincs joga a szerkesztő eszköz használatához."
+
+#: view~edition.form.action.future.label
+msgctxt "view~edition.form.action.future.label"
+msgid "After saved"
+msgstr "Mentés utáni"
+
+#: view~edition.form.action.future.close
+msgctxt "view~edition.form.action.future.close"
+msgid "Close form"
+msgstr "Form bezárása"
+
+#: view~edition.form.action.future.create
+msgctxt "view~edition.form.action.future.create"
+msgid "Create new feature"
+msgstr "Új elem létrehozása"
+
+#: view~edition.form.action.future.edit
+msgctxt "view~edition.form.action.future.edit"
+msgid "Reopen form"
+msgstr "Form újranyitása"
+
+#: view~edition.form.submit.label
+msgctxt "view~edition.form.submit.label"
+msgid "Save"
+msgstr "Mentés"
+
+#: view~edition.form.data.saved
+msgctxt "view~edition.form.data.saved"
+msgid "Data has been saved."
+msgstr "Az adatok mentése sikeres"
+
+#: view~edition.form.cancel.label
+msgctxt "view~edition.form.cancel.label"
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: view~edition.form.reset.label
+msgctxt "view~edition.form.reset.label"
+msgid "Reset"
+msgstr "Újrakezdés"
+
+#: view~edition.form.btn.clear.title
+msgctxt "view~edition.form.btn.clear.title"
+msgid "Close"
+msgstr "Bezár"
+
+#: view~edition.form.cancel.confirm.message
+msgctxt "view~edition.form.cancel.confirm.message"
+msgid "Cancel edition?"
+msgstr "Kilép a szerkesztőeszközből?"
+
+#: view~edition.navbar.title
+msgctxt "view~edition.navbar.title"
+msgid "Edition"
+msgstr "szerkesztőeszköz"
+
+#: view~edition.toolbar.title
+msgctxt "view~edition.toolbar.title"
+msgid "Edition"
+msgstr "szerkesztőeszköz"
+
+#: view~edition.toolbar.draw.title
+msgctxt "view~edition.toolbar.draw.title"
+msgid "Add"
+msgstr "Hozzáad"
+
+#: view~edition.toolbar.draw.clear.title
+msgctxt "view~edition.toolbar.draw.clear.title"
+msgid "Clear"
+msgstr "Törlés"
+
+#: view~edition.toolbar.draw.save.title
+msgctxt "view~edition.toolbar.draw.save.title"
+msgid "Save"
+msgstr "Mentés"
+
+#: view~edition.toolbar.select.title
+msgctxt "view~edition.toolbar.select.title"
+msgid "Select"
+msgstr "Kiválaszt"
+
+#: view~edition.toolbar.select.unselect.title
+msgctxt "view~edition.toolbar.select.unselect.title"
+msgid "Unsel."
+msgstr "Kijelölés törlése"
+
+#: view~edition.toolbar.select.attr.title
+msgctxt "view~edition.toolbar.select.attr.title"
+msgid "Modify"
+msgstr "Módosít"
+
+#: view~edition.toolbar.select.undo.title
+msgctxt "view~edition.toolbar.select.undo.title"
+msgid "Undo"
+msgstr "Visszavon"
+
+#: view~edition.toolbar.select.delete.title
+msgctxt "view~edition.toolbar.select.delete.title"
+msgid "Del"
+msgstr "Törlés"
+
+#: view~edition.toolbar.delete.title
+msgctxt "view~edition.toolbar.delete.title"
+msgid "Delete"
+msgstr "Töröl"
+
+#: view~edition.toolbar.cancel.title
+msgctxt "view~edition.toolbar.cancel.title"
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: view~edition.geomtool.nodetool.title
+msgctxt "view~edition.geomtool.nodetool.title"
+msgid "Node tool"
+msgstr "Csomópont eszköz"
+
+#: view~edition.geomtool.drag.title
+msgctxt "view~edition.geomtool.drag.title"
+msgid "Drag"
+msgstr "Mozgatás"
+
+#: view~edition.geomtool.rotate.title
+msgctxt "view~edition.geomtool.rotate.title"
+msgid "Rotate"
+msgstr "Forgatás"
+
+#: view~edition.geomtool.reshape.title
+msgctxt "view~edition.geomtool.reshape.title"
+msgid "Reshape"
+msgstr "Újra-rajzolás"
+
+#: view~edition.point.coord.title
+msgctxt "view~edition.point.coord.title"
+msgid "Manage point/vertex coordinates"
+msgstr "A point/vertex koordináták módosítása"
+
+#: view~edition.point.coord.crs.label
+msgctxt "view~edition.point.coord.crs.label"
+msgid "CRS:"
+msgstr "CRS:"
+
+#: view~edition.point.coord.x.label
+msgctxt "view~edition.point.coord.x.label"
+msgid "X:"
+msgstr "X:"
+
+#: view~edition.point.coord.y.label
+msgctxt "view~edition.point.coord.y.label"
+msgid "Y:"
+msgstr "Y:"
+
+#: view~edition.point.coord.geolocation.label
+msgctxt "view~edition.point.coord.geolocation.label"
+msgid "linked to geolocation"
+msgstr "földrajzi helyhez /geolokációhoz/ kapcsolva"
+
+#: view~edition.point.coord.add.label
+msgctxt "view~edition.point.coord.add.label"
+msgid "Add"
+msgstr "Hozzáad"
+
+#: view~edition.point.coord.finalize.label
+msgctxt "view~edition.point.coord.finalize.label"
+msgid "Finalize"
+msgstr "Véglegesítés"
+
+#: view~edition.geolocate.toolbar.title
+msgctxt "view~edition.geolocate.toolbar.title"
+msgid "Edition:"
+msgstr "Szerkesztőeszköz:"
+
+#: view~edition.toolbar.draw.tooltip
+msgctxt "view~edition.toolbar.draw.tooltip"
+msgid "Activate the tool for creating new objects."
+msgstr "Aktiválja az eszközt új objektumok létrehozásához."
+
+#: view~edition.toolbar.draw.clear.tooltip
+msgctxt "view~edition.toolbar.draw.clear.tooltip"
+msgid "Cancel the current drawing."
+msgstr "Kilépés az aktuális rajzból."
+
+#: view~edition.toolbar.draw.save.tooltip
+msgctxt "view~edition.toolbar.draw.save.tooltip"
+msgid "Finalize the current drawing."
+msgstr "Az aktuális rajz véglegesítése."
+
+#: view~edition.toolbar.select.tooltip
+msgctxt "view~edition.toolbar.select.tooltip"
+msgid "Activate the selection tool."
+msgstr "A kiválasztó eszköz aktiválása."
+
+#: view~edition.toolbar.select.unselect.tooltip
+msgctxt "view~edition.toolbar.select.unselect.tooltip"
+msgid "Unselect the selected object."
+msgstr "Szelekció megszüntetése a kiválasztott objektumokra."
+
+#: view~edition.toolbar.select.attr.tooltip
+msgctxt "view~edition.toolbar.select.attr.tooltip"
+msgid "Validate the geometry and/or open the attribute form."
+msgstr "A geometria validálása és/vagy az attribútumok megnyitása."
+
+#: view~edition.toolbar.select.undo.tooltip
+msgctxt "view~edition.toolbar.select.undo.tooltip"
+msgid "Revert into initial geometry state."
+msgstr "Visszalépés a geometria eredeti állapotához."
+
+#: view~edition.toolbar.select.delete.tooltip
+msgctxt "view~edition.toolbar.select.delete.tooltip"
+msgid "Delete the selected object."
+msgstr "A kiválasztott objektum törlése."
+
+#: view~edition.toolbar.cancel.tooltip
+msgctxt "view~edition.toolbar.cancel.tooltip"
+msgid "Cancel current edition."
+msgstr "Kilépés a szerkesztőeszközből."
+
+#: view~edition.modal.title.default
+msgctxt "view~edition.modal.title.default"
+msgid "Edition"
+msgstr "szerkesztőeszköz"
+
+#: view~edition.modal.message.no.feature.found
+msgctxt "view~edition.modal.message.no.feature.found"
+msgid "No feature has been found here."
+msgstr "Nem találhatóak elemek."
+
+#: view~edition.message.error.parameter.project
+msgctxt "view~edition.message.error.parameter.project"
+msgid "The 'project' parameter is mandatory."
+msgstr "A 'project' paraméter elengedhetetlen."
+
+#: view~edition.message.error.parameter.featureId
+msgctxt "view~edition.message.error.parameter.featureId"
+msgid "The 'featureId' parameter is mandatory."
+msgstr "A 'featured' paraméter elengedhetetlen."
+
+#: view~edition.message.error.layer.editable
+msgctxt "view~edition.message.error.layer.editable"
+msgid "The layer is not editable."
+msgstr "A réteg nem módosítható."
+
+#: view~edition.message.error.layer.editable.create
+msgctxt "view~edition.message.error.layer.editable.create"
+msgid "Create feature for the layer is not available."
+msgstr "Nem hozható létre új elem a rétegen."
+
+#: view~edition.message.error.layer.editable.delete
+msgctxt "view~edition.message.error.layer.editable.delete"
+msgid "Delete feature for the layer is not available."
+msgstr "Az elem törlése nem hajtható végre a rétegen."
+
+#: view~edition.message.error.primary.keys
+msgctxt "view~edition.message.error.primary.keys"
+msgid ""
+"Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
+" defined primary key on the table."
+msgstr ""
+"A Lizmap nem találja a \"%s\" réteg elsődleges kulcsát. A szerkesztőeszköz "
+"használatához elengedhetetlen, hogy a táblának legyen elsődleges kulcsa."
+
+#: view~edition.message.error.feature.get
+msgctxt "view~edition.message.error.feature.get"
+msgid "Lizmap cannot get the feature data with WFS"
+msgstr "A Lizmap nem éri el az elem adatait WFS-en keresztül"
+
+#: view~edition.message.error.form.get
+msgctxt "view~edition.message.error.form.get"
+msgid "An error has been raised when getting the form"
+msgstr "Hiba az űrlap betöltése közben"
+
+#: view~edition.message.error.bbox
+msgctxt "view~edition.message.error.bbox"
+msgid "The bbox has to be 4 floats separated by ','."
+msgstr ""
+"A határoló négyszög megadása 4 darab tört számmal lehetséges, ','-vel "
+"elválasztva."
+
+#: view~edition.message.error.crs
+msgctxt "view~edition.message.error.crs"
+msgid "crs is mandatory and has to be an integer or EPSG:*."
+msgstr ""
+"crs megadása kötelező, melynek egész számnak, vagy ESPG:* formátumnak kell "
+"lennie."
+
+#: view~edition.message.error.save
+msgctxt "view~edition.message.error.save"
+msgid "An error has been raised when saving the form."
+msgstr "Hiba az űrlap mentése közben."
+
+#: view~edition.message.error.save.fields
+msgctxt "view~edition.message.error.save.fields"
+msgid "No fields available for saving the form."
+msgstr "Nincs mező az űrlap mentéséhez."
+
+#: view~edition.message.error.delete
+msgctxt "view~edition.message.error.delete"
+msgid "The deletion has failed."
+msgstr "A törlés nem történt meg."
+
+#: view~edition.message.success.delete
+msgctxt "view~edition.message.success.delete"
+msgid "The feature has been deleted."
+msgstr "Az elem törlésre került."
+
+#: view~edition.message.error.create
+msgctxt "view~edition.message.error.create"
+msgid "An error occured while creating the object."
+msgstr "Hiba történt az objektum létrehozása közben."
+
+#: view~edition.message.success.create
+msgctxt "view~edition.message.success.create"
+msgid "Object successfully created."
+msgstr "Az objektum létrehozása sikeresen megtörtént."
+
+#: view~edition.message.error.no.geometry
+msgctxt "view~edition.message.error.no.geometry"
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
+msgstr ""
+"Az objektum nem menthető geometriai alakzat rajzolása nélkül. Rajzoljon egy "
+"geometriai alakzatot a térképre."
+
+#: view~edition.message.error.upload.layer
+msgctxt "view~edition.message.error.upload.layer"
+msgid "The layer \"%s\" directory for uploading media is not writable."
+msgstr "A réteg \"%s\" média-feltöltési könyvtára nem írható."
+
+#: view~edition.message.error.upload.layer.field
+msgctxt "view~edition.message.error.upload.layer.field"
+msgid ""
+"The field \"%s\" directory of the layer \"%s\" for uploading media is not "
+"writable."
+msgstr ""
+"A/Az\"%s\" nevű mező, mely a/az \"%s\" réteg média-feltöltési könyvtára, nem"
+" írható."
+
+#: view~edition.upload.choice.keep
+msgctxt "view~edition.upload.choice.keep"
+msgid "Keep"
+msgstr "Megtart"
+
+#: view~edition.upload.choice.update
+msgctxt "view~edition.upload.choice.update"
+msgid "Update"
+msgstr "Frissít"
+
+#: view~edition.upload.choice.delete
+msgctxt "view~edition.upload.choice.delete"
+msgid "Delete"
+msgstr "Töröl"
+
+#: view~edition.link.error.missing.parameter
+msgctxt "view~edition.link.error.missing.parameter"
+msgid "The pivot, features1 and features2 parameters are mandatory."
+msgstr "A pivot, elemek1 és elemek2 paraméterek megadása kötelező."
+
+#: view~edition.link.error.wrong.layer
+msgctxt "view~edition.link.error.wrong.layer"
+msgid "The layer does not exists."
+msgstr "A réteg nem létezik"
+
+#: view~edition.link.error.multiple.ids
+msgctxt "view~edition.link.error.multiple.ids"
+msgid ""
+"You cannot link multiple objects for both layers. Please select only one "
+"object for one of the layers and retry."
+msgstr ""
+"Nem kapcsolhat több objektumot mindkét réteghez. Kérem válasszon egy "
+"objektumot az egyik réteghez és próbálja újra."
+
+#: view~edition.link.error.missing.id
+msgctxt "view~edition.link.error.missing.id"
+msgid ""
+"There must be at least one object selected for each layer to create the "
+"link."
+msgstr ""
+"Minden réteghez legalább egy objektumot ki kell jelölni a link "
+"létrehozásához."
+
+#: view~edition.link.error.not.attribute.layer
+msgctxt "view~edition.link.error.not.attribute.layer"
+msgid "The layers have not be configured to have an attribute table."
+msgstr "A rétegek beállítása nem tartalmaz attribútumtáblát."
+
+#: view~edition.link.error.no.create.feature
+msgctxt "view~edition.link.error.no.create.feature"
+msgid "Create feature for the layer \"%s\" is not available."
+msgstr "Nem hozható létre új elem a  \"%s\" rétegen."
+
+#: view~edition.link.error.no.modify.attributes
+msgctxt "view~edition.link.error.no.modify.attributes"
+msgid "Modify attributes for the layer \"%s\" is not available."
+msgstr "A/Az \"%s\"  réteg attribútumainak módosítása nem lehetséges."
+
+#: view~edition.link.error.no.given.fields
+msgctxt "view~edition.link.error.no.given.fields"
+msgid "Given fields do not exists."
+msgstr "A megadott mezők nem léteznek."
+
+#: view~edition.link.error.sql
+msgctxt "view~edition.link.error.sql"
+msgid "An error occured while adding linked data."
+msgstr "Hiba történt a kapcsolt adatok létrehozása közben."
+
+#: view~edition.link.success
+msgctxt "view~edition.link.success"
+msgid "Selected features have been correctly linked."
+msgstr "A kiválasztott elemek összekapcsolása sikeres."
+
+#: view~edition.unlink.success
+msgctxt "view~edition.unlink.success"
+msgid "The child feature has correctly been unlinked."
+msgstr "A származtatott / gyermek elemek leválasztása sikeres."
+
+#: view~edition.unlink.error.sql
+msgctxt "view~edition.unlink.error.sql"
+msgid "An error occured while removing link."
+msgstr "Hiba törtlén a link eltávolítása közben."
 
 #: view~map.title.h1
 msgctxt "view~map.title.h1"
@@ -1218,481 +1696,3 @@ msgstr "Előző"
 msgctxt "view~dictionnary.embed.open.map"
 msgid "Open the map in full screen"
 msgstr "A térkép megnyitása teljes képernyőn"
-
-#: view~user.form.firstname.label
-msgctxt "view~user.form.firstname.label"
-msgid "First name"
-msgstr "Keresztnév"
-
-#: view~user.form.lastname.label
-msgctxt "view~user.form.lastname.label"
-msgid "Last name"
-msgstr "Vezetéknév"
-
-#: view~user.form.organization.label
-msgctxt "view~user.form.organization.label"
-msgid "Organization"
-msgstr "Szervezet"
-
-#: view~user.form.phonenumber.label
-msgctxt "view~user.form.phonenumber.label"
-msgid "Phone number"
-msgstr "Telefon"
-
-#: view~user.form.street.label
-msgctxt "view~user.form.street.label"
-msgid "Street"
-msgstr "Utca"
-
-#: view~user.form.postcode.label
-msgctxt "view~user.form.postcode.label"
-msgid "Postcode"
-msgstr "Irányítószám"
-
-#: view~user.form.city.label
-msgctxt "view~user.form.city.label"
-msgid "City"
-msgstr "Város"
-
-#: view~user.form.country.label
-msgctxt "view~user.form.country.label"
-msgid "Country"
-msgstr "Ország"
-
-#: view~user.form.comment.label
-msgctxt "view~user.form.comment.label"
-msgid "Why do you request an account?"
-msgstr "Miért igényel felhasználói fiókot?"
-
-#: view~user.form.comment.help
-msgctxt "view~user.form.comment.help"
-msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
-msgstr ""
-"Kérem írjon néhány sort, melyből kiderül, hogy milyen céllal szeretne "
-"hozzáférni a térképekhez."
-
-#: view~edition.access.denied
-msgctxt "view~edition.access.denied"
-msgid "You have not the right to use the edition tools."
-msgstr "Nincs joga a szerkesztő eszköz használatához."
-
-#: view~edition.form.action.future.label
-msgctxt "view~edition.form.action.future.label"
-msgid "After saved"
-msgstr "Mentés utáni"
-
-#: view~edition.form.action.future.close
-msgctxt "view~edition.form.action.future.close"
-msgid "Close form"
-msgstr "Form bezárása"
-
-#: view~edition.form.action.future.create
-msgctxt "view~edition.form.action.future.create"
-msgid "Create new feature"
-msgstr "Új elem létrehozása"
-
-#: view~edition.form.action.future.edit
-msgctxt "view~edition.form.action.future.edit"
-msgid "Reopen form"
-msgstr "Form újranyitása"
-
-#: view~edition.form.submit.label
-msgctxt "view~edition.form.submit.label"
-msgid "Save"
-msgstr "Mentés"
-
-#: view~edition.form.data.saved
-msgctxt "view~edition.form.data.saved"
-msgid "Data has been saved."
-msgstr "Az adatok mentése sikeres"
-
-#: view~edition.form.cancel.label
-msgctxt "view~edition.form.cancel.label"
-msgid "Cancel"
-msgstr "Mégsem"
-
-#: view~edition.form.reset.label
-msgctxt "view~edition.form.reset.label"
-msgid "Reset"
-msgstr "Újrakezdés"
-
-#: view~edition.form.btn.clear.title
-msgctxt "view~edition.form.btn.clear.title"
-msgid "Close"
-msgstr "Bezár"
-
-#: view~edition.form.cancel.confirm.message
-msgctxt "view~edition.form.cancel.confirm.message"
-msgid "Cancel edition?"
-msgstr "Kilép a szerkesztőeszközből?"
-
-#: view~edition.navbar.title
-msgctxt "view~edition.navbar.title"
-msgid "Edition"
-msgstr "szerkesztőeszköz"
-
-#: view~edition.toolbar.title
-msgctxt "view~edition.toolbar.title"
-msgid "Edition"
-msgstr "szerkesztőeszköz"
-
-#: view~edition.toolbar.draw.title
-msgctxt "view~edition.toolbar.draw.title"
-msgid "Add"
-msgstr "Hozzáad"
-
-#: view~edition.toolbar.draw.clear.title
-msgctxt "view~edition.toolbar.draw.clear.title"
-msgid "Clear"
-msgstr "Törlés"
-
-#: view~edition.toolbar.draw.save.title
-msgctxt "view~edition.toolbar.draw.save.title"
-msgid "Save"
-msgstr "Mentés"
-
-#: view~edition.toolbar.select.title
-msgctxt "view~edition.toolbar.select.title"
-msgid "Select"
-msgstr "Kiválaszt"
-
-#: view~edition.toolbar.select.unselect.title
-msgctxt "view~edition.toolbar.select.unselect.title"
-msgid "Unsel."
-msgstr "Kijelölés törlése"
-
-#: view~edition.toolbar.select.attr.title
-msgctxt "view~edition.toolbar.select.attr.title"
-msgid "Modify"
-msgstr "Módosít"
-
-#: view~edition.toolbar.select.undo.title
-msgctxt "view~edition.toolbar.select.undo.title"
-msgid "Undo"
-msgstr "Visszavon"
-
-#: view~edition.toolbar.select.delete.title
-msgctxt "view~edition.toolbar.select.delete.title"
-msgid "Del"
-msgstr "Törlés"
-
-#: view~edition.toolbar.delete.title
-msgctxt "view~edition.toolbar.delete.title"
-msgid "Delete"
-msgstr "Töröl"
-
-#: view~edition.toolbar.cancel.title
-msgctxt "view~edition.toolbar.cancel.title"
-msgid "Cancel"
-msgstr "Mégsem"
-
-#: view~edition.geomtool.nodetool.title
-msgctxt "view~edition.geomtool.nodetool.title"
-msgid "Node tool"
-msgstr "Csomópont eszköz"
-
-#: view~edition.geomtool.drag.title
-msgctxt "view~edition.geomtool.drag.title"
-msgid "Drag"
-msgstr "Mozgatás"
-
-#: view~edition.geomtool.rotate.title
-msgctxt "view~edition.geomtool.rotate.title"
-msgid "Rotate"
-msgstr "Forgatás"
-
-#: view~edition.geomtool.reshape.title
-msgctxt "view~edition.geomtool.reshape.title"
-msgid "Reshape"
-msgstr "Újra-rajzolás"
-
-#: view~edition.point.coord.title
-msgctxt "view~edition.point.coord.title"
-msgid "Manage point/vertex coordinates"
-msgstr "A point/vertex koordináták módosítása"
-
-#: view~edition.point.coord.crs.label
-msgctxt "view~edition.point.coord.crs.label"
-msgid "CRS:"
-msgstr "CRS:"
-
-#: view~edition.point.coord.x.label
-msgctxt "view~edition.point.coord.x.label"
-msgid "X:"
-msgstr "X:"
-
-#: view~edition.point.coord.y.label
-msgctxt "view~edition.point.coord.y.label"
-msgid "Y:"
-msgstr "Y:"
-
-#: view~edition.point.coord.geolocation.label
-msgctxt "view~edition.point.coord.geolocation.label"
-msgid "linked to geolocation"
-msgstr "földrajzi helyhez /geolokációhoz/ kapcsolva"
-
-#: view~edition.point.coord.add.label
-msgctxt "view~edition.point.coord.add.label"
-msgid "Add"
-msgstr "Hozzáad"
-
-#: view~edition.point.coord.finalize.label
-msgctxt "view~edition.point.coord.finalize.label"
-msgid "Finalize"
-msgstr "Véglegesítés"
-
-#: view~edition.geolocate.toolbar.title
-msgctxt "view~edition.geolocate.toolbar.title"
-msgid "Edition:"
-msgstr "Szerkesztőeszköz:"
-
-#: view~edition.toolbar.draw.tooltip
-msgctxt "view~edition.toolbar.draw.tooltip"
-msgid "Activate the tool for creating new objects."
-msgstr "Aktiválja az eszközt új objektumok létrehozásához."
-
-#: view~edition.toolbar.draw.clear.tooltip
-msgctxt "view~edition.toolbar.draw.clear.tooltip"
-msgid "Cancel the current drawing."
-msgstr "Kilépés az aktuális rajzból."
-
-#: view~edition.toolbar.draw.save.tooltip
-msgctxt "view~edition.toolbar.draw.save.tooltip"
-msgid "Finalize the current drawing."
-msgstr "Az aktuális rajz véglegesítése."
-
-#: view~edition.toolbar.select.tooltip
-msgctxt "view~edition.toolbar.select.tooltip"
-msgid "Activate the selection tool."
-msgstr "A kiválasztó eszköz aktiválása."
-
-#: view~edition.toolbar.select.unselect.tooltip
-msgctxt "view~edition.toolbar.select.unselect.tooltip"
-msgid "Unselect the selected object."
-msgstr "Szelekció megszüntetése a kiválasztott objektumokra."
-
-#: view~edition.toolbar.select.attr.tooltip
-msgctxt "view~edition.toolbar.select.attr.tooltip"
-msgid "Validate the geometry and/or open the attribute form."
-msgstr "A geometria validálása és/vagy az attribútumok megnyitása."
-
-#: view~edition.toolbar.select.undo.tooltip
-msgctxt "view~edition.toolbar.select.undo.tooltip"
-msgid "Revert into initial geometry state."
-msgstr "Visszalépés a geometria eredeti állapotához."
-
-#: view~edition.toolbar.select.delete.tooltip
-msgctxt "view~edition.toolbar.select.delete.tooltip"
-msgid "Delete the selected object."
-msgstr "A kiválasztott objektum törlése."
-
-#: view~edition.toolbar.cancel.tooltip
-msgctxt "view~edition.toolbar.cancel.tooltip"
-msgid "Cancel current edition."
-msgstr "Kilépés a szerkesztőeszközből."
-
-#: view~edition.modal.title.default
-msgctxt "view~edition.modal.title.default"
-msgid "Edition"
-msgstr "szerkesztőeszköz"
-
-#: view~edition.modal.message.no.feature.found
-msgctxt "view~edition.modal.message.no.feature.found"
-msgid "No feature has been found here."
-msgstr "Nem találhatóak elemek."
-
-#: view~edition.message.error.parameter.project
-msgctxt "view~edition.message.error.parameter.project"
-msgid "The 'project' parameter is mandatory."
-msgstr "A 'project' paraméter elengedhetetlen."
-
-#: view~edition.message.error.parameter.featureId
-msgctxt "view~edition.message.error.parameter.featureId"
-msgid "The 'featureId' parameter is mandatory."
-msgstr "A 'featured' paraméter elengedhetetlen."
-
-#: view~edition.message.error.layer.editable
-msgctxt "view~edition.message.error.layer.editable"
-msgid "The layer is not editable."
-msgstr "A réteg nem módosítható."
-
-#: view~edition.message.error.layer.editable.create
-msgctxt "view~edition.message.error.layer.editable.create"
-msgid "Create feature for the layer is not available."
-msgstr "Nem hozható létre új elem a rétegen."
-
-#: view~edition.message.error.layer.editable.delete
-msgctxt "view~edition.message.error.layer.editable.delete"
-msgid "Delete feature for the layer is not available."
-msgstr "Az elem törlése nem hajtható végre a rétegen."
-
-#: view~edition.message.error.primary.keys
-msgctxt "view~edition.message.error.primary.keys"
-msgid ""
-"Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
-" defined primary key on the table."
-msgstr ""
-"A Lizmap nem találja a \"%s\" réteg elsődleges kulcsát. A szerkesztőeszköz "
-"használatához elengedhetetlen, hogy a táblának legyen elsődleges kulcsa."
-
-#: view~edition.message.error.feature.get
-msgctxt "view~edition.message.error.feature.get"
-msgid "Lizmap cannot get the feature data with WFS"
-msgstr "A Lizmap nem éri el az elem adatait WFS-en keresztül"
-
-#: view~edition.message.error.form.get
-msgctxt "view~edition.message.error.form.get"
-msgid "An error has been raised when getting the form"
-msgstr "Hiba az űrlap betöltése közben"
-
-#: view~edition.message.error.bbox
-msgctxt "view~edition.message.error.bbox"
-msgid "The bbox has to be 4 floats separated by ','."
-msgstr ""
-"A határoló négyszög megadása 4 darab tört számmal lehetséges, ','-vel "
-"elválasztva."
-
-#: view~edition.message.error.crs
-msgctxt "view~edition.message.error.crs"
-msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr ""
-"crs megadása kötelező, melynek egész számnak, vagy ESPG:* formátumnak kell "
-"lennie."
-
-#: view~edition.message.error.save
-msgctxt "view~edition.message.error.save"
-msgid "An error has been raised when saving the form."
-msgstr "Hiba az űrlap mentése közben."
-
-#: view~edition.message.error.save.fields
-msgctxt "view~edition.message.error.save.fields"
-msgid "No fields available for saving the form."
-msgstr "Nincs mező az űrlap mentéséhez."
-
-#: view~edition.message.error.delete
-msgctxt "view~edition.message.error.delete"
-msgid "The deletion has failed."
-msgstr "A törlés nem történt meg."
-
-#: view~edition.message.success.delete
-msgctxt "view~edition.message.success.delete"
-msgid "The feature has been deleted."
-msgstr "Az elem törlésre került."
-
-#: view~edition.message.error.create
-msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
-msgstr "Hiba történt az objektum létrehozása közben."
-
-#: view~edition.message.success.create
-msgctxt "view~edition.message.success.create"
-msgid "Object successfully created."
-msgstr "Az objektum létrehozása sikeresen megtörtént."
-
-#: view~edition.message.error.no.geometry
-msgctxt "view~edition.message.error.no.geometry"
-msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
-msgstr ""
-"Az objektum nem menthető geometriai alakzat rajzolása nélkül. Rajzoljon egy "
-"geometriai alakzatot a térképre."
-
-#: view~edition.message.error.upload.layer
-msgctxt "view~edition.message.error.upload.layer"
-msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr "A réteg \"%s\" média-feltöltési könyvtára nem írható."
-
-#: view~edition.message.error.upload.layer.field
-msgctxt "view~edition.message.error.upload.layer.field"
-msgid ""
-"The field \"%s\" directory of the layer \"%s\" for uploading media is not "
-"writable."
-msgstr ""
-"A/Az\"%s\" nevű mező, mely a/az \"%s\" réteg média-feltöltési könyvtára, nem"
-" írható."
-
-#: view~edition.upload.choice.keep
-msgctxt "view~edition.upload.choice.keep"
-msgid "Keep"
-msgstr "Megtart"
-
-#: view~edition.upload.choice.update
-msgctxt "view~edition.upload.choice.update"
-msgid "Update"
-msgstr "Frissít"
-
-#: view~edition.upload.choice.delete
-msgctxt "view~edition.upload.choice.delete"
-msgid "Delete"
-msgstr "Töröl"
-
-#: view~edition.link.error.missing.parameter
-msgctxt "view~edition.link.error.missing.parameter"
-msgid "The pivot, features1 and features2 parameters are mandatory."
-msgstr "A pivot, elemek1 és elemek2 paraméterek megadása kötelező."
-
-#: view~edition.link.error.wrong.layer
-msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
-msgstr "A réteg nem létezik"
-
-#: view~edition.link.error.multiple.ids
-msgctxt "view~edition.link.error.multiple.ids"
-msgid ""
-"You cannot link multiple objects for both layers. Please select only one "
-"object for one of the layers and retry."
-msgstr ""
-"Nem kapcsolhat több objektumot mindkét réteghez. Kérem válasszon egy "
-"objektumot az egyik réteghez és próbálja újra."
-
-#: view~edition.link.error.missing.id
-msgctxt "view~edition.link.error.missing.id"
-msgid ""
-"There must be at least one object selected for each layer to create the "
-"link."
-msgstr ""
-"Minden réteghez legalább egy objektumot ki kell jelölni a link "
-"létrehozásához."
-
-#: view~edition.link.error.not.attribute.layer
-msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
-msgstr "A rétegek beállítása nem tartalmaz attribútumtáblát."
-
-#: view~edition.link.error.no.create.feature
-msgctxt "view~edition.link.error.no.create.feature"
-msgid "Create feature for the layer \"%s\" is not available."
-msgstr "Nem hozható létre új elem a  \"%s\" rétegen."
-
-#: view~edition.link.error.no.modify.attributes
-msgctxt "view~edition.link.error.no.modify.attributes"
-msgid "Modify attributes for the layer \"%s\" is not available."
-msgstr "A/Az \"%s\"  réteg attribútumainak módosítása nem lehetséges."
-
-#: view~edition.link.error.no.given.fields
-msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
-msgstr "A megadott mezők nem léteznek."
-
-#: view~edition.link.error.sql
-msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
-msgstr "Hiba történt a kapcsolt adatok létrehozása közben."
-
-#: view~edition.link.success
-msgctxt "view~edition.link.success"
-msgid "Selected features have been correctly linked."
-msgstr "A kiválasztott elemek összekapcsolása sikeres."
-
-#: view~edition.unlink.success
-msgctxt "view~edition.unlink.success"
-msgid "The child feature has correctly been unlinked."
-msgstr "A származtatott / gyermek elemek leválasztása sikeres."
-
-#: view~edition.unlink.error.sql
-msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
-msgstr "Hiba törtlén a link eltávolítása közben."

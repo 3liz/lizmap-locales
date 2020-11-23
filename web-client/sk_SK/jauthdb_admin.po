@@ -4,9 +4,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jauthdb_admin 3.2.3\n"
+"Project-Id-Version: Lizmap Web Client jauthdb_admin 3.2.18-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 14:48++0200\n"
+"POT-Creation-Date: 2020-11-23 12:04++0100\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: Majky Beast <maros.michalov@hrdlicka.sk>, 2020\n"
 "Language-Team: Slovak (https://www.transifex.com/3liz-1/teams/62012/sk/)\n"
@@ -15,11 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
-
-#: jauthdb_admin~auth.adminmenu.item.list
-msgctxt "jauthdb_admin~auth.adminmenu.item.list"
-msgid "Users"
-msgstr "Používatelia"
 
 #: jauthdb_admin~user.title.update
 msgctxt "jauthdb_admin~user.title.update"
@@ -329,3 +324,8 @@ msgstr "Ďalšie informácie"
 msgctxt "jauthdb_admin~crud.view.primaryinfo"
 msgid "Information on the user"
 msgstr "Informácie o užívateľovi"
+
+#: jauthdb_admin~auth.adminmenu.item.list
+msgctxt "jauthdb_admin~auth.adminmenu.item.list"
+msgid "Users"
+msgstr "Používatelia"

@@ -5,9 +5,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jcommunity 3.2.3\n"
+"Project-Id-Version: Lizmap Web Client jcommunity 3.2.18-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-27 14:48++0200\n"
+"POT-Creation-Date: 2020-11-23 12:04++0100\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020\n"
 "Language-Team: Romanian (https://www.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -41,306 +41,6 @@ msgstr "jCommunity"
 msgctxt "jcommunity~prefs.admin.prefs.change"
 msgid "Modify preferences of jCommunity"
 msgstr "Editați preferințele jCommunity"
-
-#: jcommunity~account.unknown.user
-msgctxt "jcommunity~account.unknown.user"
-msgid "Unknown user"
-msgstr "Utilizator necunoscut"
-
-#: jcommunity~account.error.dup.nickname
-msgctxt "jcommunity~account.error.dup.nickname"
-msgid "The displayed name is already used by another user"
-msgstr "Numele afișat este deja folosit de un alt utilizator"
-
-#: jcommunity~account.form.login
-msgctxt "jcommunity~account.form.login"
-msgid "Username"
-msgstr "Nume de utilizator"
-
-#: jcommunity~account.form.email
-msgctxt "jcommunity~account.form.email"
-msgid "Email"
-msgstr "E-mail"
-
-#: jcommunity~account.form.submit
-msgctxt "jcommunity~account.form.submit"
-msgid "Save"
-msgstr "Salvează"
-
-#: jcommunity~account.form.nickname
-msgctxt "jcommunity~account.form.nickname"
-msgid "Displayed name"
-msgstr "Numele afișat"
-
-#: jcommunity~account.form.password
-msgctxt "jcommunity~account.form.password"
-msgid "Password"
-msgstr "Parolă"
-
-#: jcommunity~account.form.password.help
-msgctxt "jcommunity~account.form.password.help"
-msgid "The password length must be above 8 characters"
-msgstr "Lungimea parolei trebuie să depășească 8 caractere"
-
-#: jcommunity~account.form.password.confirm
-msgctxt "jcommunity~account.form.password.confirm"
-msgid "Retype the password"
-msgstr "Reintroduceți parola"
-
-#: jcommunity~account.form.status
-msgctxt "jcommunity~account.form.status"
-msgid "Status"
-msgstr "Stare"
-
-#: jcommunity~account.form.status.deleted
-msgctxt "jcommunity~account.form.status.deleted"
-msgid "Deleted"
-msgstr "Șters"
-
-#: jcommunity~account.form.status.deactivate
-msgctxt "jcommunity~account.form.status.deactivate"
-msgid "Deactivated"
-msgstr "Dezactivat"
-
-#: jcommunity~account.form.status.newuser
-msgctxt "jcommunity~account.form.status.newuser"
-msgid "New account, awaiting email validation"
-msgstr "Cont nou, în așteptarea validării prin e-mail"
-
-#: jcommunity~account.form.status.valid
-msgctxt "jcommunity~account.form.status.valid"
-msgid "Account validated"
-msgstr "Cont validat"
-
-#: jcommunity~account.form.status.valid.email.changed
-msgctxt "jcommunity~account.form.status.valid.email.changed"
-msgid "Validated, awaiting new email validation"
-msgstr "Validat, în așteptarea unei noui validari prin e-mail"
-
-#: jcommunity~account.form.status.valid.password.changed
-msgctxt "jcommunity~account.form.status.valid.password.changed"
-msgid "Validated, awaiting reset password"
-msgstr ""
-
-#: jcommunity~account.form.keyactivate
-msgctxt "jcommunity~account.form.keyactivate"
-msgid "Request key"
-msgstr "Cheia solicitării"
-
-#: jcommunity~account.form.requestdate
-msgctxt "jcommunity~account.form.requestdate"
-msgid "Request date"
-msgstr "Data solicitării"
-
-#: jcommunity~account.form.createdate
-msgctxt "jcommunity~account.form.createdate"
-msgid "Date of account creation"
-msgstr "Data creării contului"
-
-#: jcommunity~account.form.captcha
-msgctxt "jcommunity~account.form.captcha"
-msgid "Are you a human?"
-msgstr "Sunteți om?"
-
-#: jcommunity~account.profile.of
-msgctxt "jcommunity~account.profile.of"
-msgid "%1$s's Profile"
-msgstr "Profilul utilizatorlui %1$s"
-
-#: jcommunity~account.link.profile.edit
-msgctxt "jcommunity~account.link.profile.edit"
-msgid "Edit your profile"
-msgstr "Editați-vă profilul"
-
-#: jcommunity~account.link.account.delete
-msgctxt "jcommunity~account.link.account.delete"
-msgid "Delete your account"
-msgstr "Ștergeți profilul"
-
-#: jcommunity~account.link.account.change.password
-msgctxt "jcommunity~account.link.account.change.password"
-msgid "Change your password"
-msgstr "Schimbați-vă parola"
-
-#: jcommunity~account.form.edit.profile.title
-msgctxt "jcommunity~account.form.edit.profile.title"
-msgid "Editing your profile"
-msgstr "Editarea profilului"
-
-#: jcommunity~account.form.delete.account.title
-msgctxt "jcommunity~account.form.delete.account.title"
-msgid "Deleting your account"
-msgstr "Ștergerea contului"
-
-#: jcommunity~account.form.delete.account.confirm.title
-msgctxt "jcommunity~account.form.delete.account.confirm.title"
-msgid "Confirm the deletion of your account"
-msgstr "Confirmați ștergerea contului"
-
-#: jcommunity~account.form.delete.account.confirm
-msgctxt "jcommunity~account.form.delete.account.confirm"
-msgid "Confirm by indicating your password."
-msgstr "Confirmați indicând parola dvs."
-
-#: jcommunity~account.form.delete.account.submit
-msgctxt "jcommunity~account.form.delete.account.submit"
-msgid "Delete"
-msgstr "Ștergeți"
-
-#: jcommunity~account.form.delete.account.done
-msgctxt "jcommunity~account.form.delete.account.done"
-msgid "Your account is now deleted. You are deconnected."
-msgstr "Contul dvs. este șters. Sunteți deconectat."
-
-#: jcommunity~account.form.delete.account.error.notremoved
-msgctxt "jcommunity~account.form.delete.account.error.notremoved"
-msgid "Impossible to delete your account. Contact the site manager."
-msgstr "Imposibil de șters contul. Contactați administratorul site-ului."
-
-#: jcommunity~account.form.delete.account.error.badpassword
-msgctxt "jcommunity~account.form.delete.account.error.badpassword"
-msgid "Impossible to delete your account: the given password is not valid."
-msgstr "Imposibil de șters contul: parola dată nu este validă."
-
-#: jcommunity~account.form.delete.account.error.wronguser
-msgctxt "jcommunity~account.form.delete.account.error.wronguser"
-msgid "Sorry, you are not supposed to be on this page..."
-msgstr "Ne pare rău, nu trebuie să fiți pe această pagină..."
-
-#: jcommunity~account.form.delete.account.error.nologout
-msgctxt "jcommunity~account.form.delete.account.error.nologout"
-msgid ""
-"Strange... Your account does not exist anymore, but your are still "
-"connected? Contact the site manager."
-msgstr ""
-"Ciudat... Contul dvs. nu mai există, dar dvs. sunteți încă conectat? "
-"Contactați administratorul site-ului."
-
-#: jcommunity~account.form.cancel
-msgctxt "jcommunity~account.form.cancel"
-msgid "Cancel"
-msgstr "Anulați"
-
-#: jcommunity~account.cancel.and.back.to.account
-msgctxt "jcommunity~account.cancel.and.back.to.account"
-msgid "Cancel and back to your profile"
-msgstr "Anulați și reveniți la profilul dvs."
-
-#: jcommunity~account.back.to.account
-msgctxt "jcommunity~account.back.to.account"
-msgid "Back to your profile"
-msgstr "Reveniți la profilul dvs."
-
-#: jcommunity~password.form.title
-msgctxt "jcommunity~password.form.title"
-msgid "Resetting the password"
-msgstr "Resetați parola"
-
-#: jcommunity~password.form.text.html
-msgctxt "jcommunity~password.form.text.html"
-msgid ""
-"<p>If you have forgotten your password, fill the following form with your "
-"username and with the email you have set in your profil.</p> <p>An email "
-"will be sent with a link to a page allowing you to choose a new "
-"password.</p>"
-msgstr ""
-"<p>Dacă ați uitat parola, completați formularul următor cu numele de "
-"utilizator și e-mailul pe care l-ați configurat în profilul dvs.</p> <p>Vă "
-"vom trimite un e-mail cu un link către o pagină care vă va permite să "
-"alegeți o nouă parolă.</p>"
-
-#: jcommunity~password.form.submit
-msgctxt "jcommunity~password.form.submit"
-msgid "Send the email"
-msgstr "Trimiteți e-mailul"
-
-#: jcommunity~password.waiting.text.html
-msgctxt "jcommunity~password.waiting.text.html"
-msgid ""
-"<p>An email has been sent to the address you gave. Verify your spam folder "
-"if you don't see it into your inbox in few minutes.</p> <p>This email "
-"contains a link to a page which allows you to change your password. This "
-"link is valid only 48 hours.</p> <p>The current password is still valid as "
-"long as you don't change it.</p>"
-msgstr ""
-
-#: jcommunity~password.mail.pwd.change.subject
-msgctxt "jcommunity~password.mail.pwd.change.subject"
-msgid "Request about a password reset on %s"
-msgstr "Solicitare de resetare a parolei pentru %s"
-
-#: jcommunity~password.form.change.title
-msgctxt "jcommunity~password.form.change.title"
-msgid "Password change"
-msgstr "Schimbare parolă"
-
-#: jcommunity~password.form.change.current.password.label
-msgctxt "jcommunity~password.form.change.current.password.label"
-msgid "Your current password"
-msgstr "Parola dvs. curentă"
-
-#: jcommunity~password.form.change.password.label
-msgctxt "jcommunity~password.form.change.password.label"
-msgid "Your new password"
-msgstr "Noua dvs. parolă"
-
-#: jcommunity~password.form.change.submit
-msgctxt "jcommunity~password.form.change.submit"
-msgid "Change"
-msgstr "Schimbați"
-
-#: jcommunity~password.form.change.text.html
-msgctxt "jcommunity~password.form.change.text.html"
-msgid "<p>Indicate your new password.</p>"
-msgstr "<p>Introduceți noua parolă</p>"
-
-#: jcommunity~password.form.change.error.alreadydone
-msgctxt "jcommunity~password.form.change.error.alreadydone"
-msgid "Sorry, there is no request for a password change."
-msgstr "Ne pare rău, nu există nicio solicitare de modificare a parolei."
-
-#: jcommunity~password.form.change.error.badkey
-msgctxt "jcommunity~password.form.change.error.badkey"
-msgid ""
-"Password change is not possible: the username or the request key is not "
-"valid."
-msgstr ""
-"Modificarea parolei nu este posibilă: numele de utilizator sau cheia de "
-"solicitare nu sunt valabile."
-
-#: jcommunity~password.form.change.error.expiredkey
-msgctxt "jcommunity~password.form.change.error.expiredkey"
-msgid ""
-"Password change is not possible: the request has expired. Do an other "
-"request."
-msgstr ""
-"Schimbarea parolei nu este posibilă: cererea a expirat. Faceți o altă "
-"solicitare."
-
-#: jcommunity~password.form.change.error.badstatus
-msgctxt "jcommunity~password.form.change.error.badstatus"
-msgid "Password change is not allowed because of your account status."
-msgstr "Schimbarea parolei nu este permisă din cauza stării contului."
-
-#: jcommunity~password.form.change.error.badloginemail
-msgctxt "jcommunity~password.form.change.error.badloginemail"
-msgid "We don't know the username or the email you give"
-msgstr "Numele de utilizator sau adresa de e-mail nu sunt cunoscute"
-
-#: jcommunity~password.form.change.error.badcurrentpwd
-msgctxt "jcommunity~password.form.change.error.badcurrentpwd"
-msgid "The password does not match the current password"
-msgstr "Parola nu se potrivește cu parola curentă"
-
-#: jcommunity~password.form.change.reset.ok
-msgctxt "jcommunity~password.form.change.reset.ok"
-msgid "The new password is now saved. You can sign in now."
-msgstr "Noua parolă este acum salvată. Acum vă puteți autentifica."
-
-#: jcommunity~password.form.change.ok
-msgctxt "jcommunity~password.form.change.ok"
-msgid "The new password is now saved."
-msgstr "Noua parolă este acum salvată."
 
 #: jcommunity~register.registration.title
 msgctxt "jcommunity~register.registration.title"
@@ -544,3 +244,303 @@ msgstr "Înapoi la formularul de autentificare"
 msgctxt "jcommunity~login.cancel.and.back.to.login"
 msgid "Cancel and return to the login form"
 msgstr "Anulați și reveniți la formularul de autentificare"
+
+#: jcommunity~password.form.title
+msgctxt "jcommunity~password.form.title"
+msgid "Resetting the password"
+msgstr "Resetați parola"
+
+#: jcommunity~password.form.text.html
+msgctxt "jcommunity~password.form.text.html"
+msgid ""
+"<p>If you have forgotten your password, fill the following form with your "
+"username and with the email you have set in your profil.</p> <p>An email "
+"will be sent with a link to a page allowing you to choose a new "
+"password.</p>"
+msgstr ""
+"<p>Dacă ați uitat parola, completați formularul următor cu numele de "
+"utilizator și e-mailul pe care l-ați configurat în profilul dvs.</p> <p>Vă "
+"vom trimite un e-mail cu un link către o pagină care vă va permite să "
+"alegeți o nouă parolă.</p>"
+
+#: jcommunity~password.form.submit
+msgctxt "jcommunity~password.form.submit"
+msgid "Send the email"
+msgstr "Trimiteți e-mailul"
+
+#: jcommunity~password.waiting.text.html
+msgctxt "jcommunity~password.waiting.text.html"
+msgid ""
+"<p>An email has been sent to the address you gave. Verify your spam folder "
+"if you don't see it into your inbox in few minutes.</p> <p>This email "
+"contains a link to a page which allows you to change your password. This "
+"link is valid only 48 hours.</p> <p>The current password is still valid as "
+"long as you don't change it.</p>"
+msgstr ""
+
+#: jcommunity~password.mail.pwd.change.subject
+msgctxt "jcommunity~password.mail.pwd.change.subject"
+msgid "Request about a password reset on %s"
+msgstr "Solicitare de resetare a parolei pentru %s"
+
+#: jcommunity~password.form.change.title
+msgctxt "jcommunity~password.form.change.title"
+msgid "Password change"
+msgstr "Schimbare parolă"
+
+#: jcommunity~password.form.change.current.password.label
+msgctxt "jcommunity~password.form.change.current.password.label"
+msgid "Your current password"
+msgstr "Parola dvs. curentă"
+
+#: jcommunity~password.form.change.password.label
+msgctxt "jcommunity~password.form.change.password.label"
+msgid "Your new password"
+msgstr "Noua dvs. parolă"
+
+#: jcommunity~password.form.change.submit
+msgctxt "jcommunity~password.form.change.submit"
+msgid "Change"
+msgstr "Schimbați"
+
+#: jcommunity~password.form.change.text.html
+msgctxt "jcommunity~password.form.change.text.html"
+msgid "<p>Indicate your new password.</p>"
+msgstr "<p>Introduceți noua parolă</p>"
+
+#: jcommunity~password.form.change.error.alreadydone
+msgctxt "jcommunity~password.form.change.error.alreadydone"
+msgid "Sorry, there is no request for a password change."
+msgstr "Ne pare rău, nu există nicio solicitare de modificare a parolei."
+
+#: jcommunity~password.form.change.error.badkey
+msgctxt "jcommunity~password.form.change.error.badkey"
+msgid ""
+"Password change is not possible: the username or the request key is not "
+"valid."
+msgstr ""
+"Modificarea parolei nu este posibilă: numele de utilizator sau cheia de "
+"solicitare nu sunt valabile."
+
+#: jcommunity~password.form.change.error.expiredkey
+msgctxt "jcommunity~password.form.change.error.expiredkey"
+msgid ""
+"Password change is not possible: the request has expired. Do an other "
+"request."
+msgstr ""
+"Schimbarea parolei nu este posibilă: cererea a expirat. Faceți o altă "
+"solicitare."
+
+#: jcommunity~password.form.change.error.badstatus
+msgctxt "jcommunity~password.form.change.error.badstatus"
+msgid "Password change is not allowed because of your account status."
+msgstr "Schimbarea parolei nu este permisă din cauza stării contului."
+
+#: jcommunity~password.form.change.error.badloginemail
+msgctxt "jcommunity~password.form.change.error.badloginemail"
+msgid "We don't know the username or the email you give"
+msgstr "Numele de utilizator sau adresa de e-mail nu sunt cunoscute"
+
+#: jcommunity~password.form.change.error.badcurrentpwd
+msgctxt "jcommunity~password.form.change.error.badcurrentpwd"
+msgid "The password does not match the current password"
+msgstr "Parola nu se potrivește cu parola curentă"
+
+#: jcommunity~password.form.change.reset.ok
+msgctxt "jcommunity~password.form.change.reset.ok"
+msgid "The new password is now saved. You can sign in now."
+msgstr "Noua parolă este acum salvată. Acum vă puteți autentifica."
+
+#: jcommunity~password.form.change.ok
+msgctxt "jcommunity~password.form.change.ok"
+msgid "The new password is now saved."
+msgstr "Noua parolă este acum salvată."
+
+#: jcommunity~account.unknown.user
+msgctxt "jcommunity~account.unknown.user"
+msgid "Unknown user"
+msgstr "Utilizator necunoscut"
+
+#: jcommunity~account.error.dup.nickname
+msgctxt "jcommunity~account.error.dup.nickname"
+msgid "The displayed name is already used by another user"
+msgstr "Numele afișat este deja folosit de un alt utilizator"
+
+#: jcommunity~account.form.login
+msgctxt "jcommunity~account.form.login"
+msgid "Username"
+msgstr "Nume de utilizator"
+
+#: jcommunity~account.form.email
+msgctxt "jcommunity~account.form.email"
+msgid "Email"
+msgstr "E-mail"
+
+#: jcommunity~account.form.submit
+msgctxt "jcommunity~account.form.submit"
+msgid "Save"
+msgstr "Salvează"
+
+#: jcommunity~account.form.nickname
+msgctxt "jcommunity~account.form.nickname"
+msgid "Displayed name"
+msgstr "Numele afișat"
+
+#: jcommunity~account.form.password
+msgctxt "jcommunity~account.form.password"
+msgid "Password"
+msgstr "Parolă"
+
+#: jcommunity~account.form.password.help
+msgctxt "jcommunity~account.form.password.help"
+msgid "The password length must be above 8 characters"
+msgstr "Lungimea parolei trebuie să depășească 8 caractere"
+
+#: jcommunity~account.form.password.confirm
+msgctxt "jcommunity~account.form.password.confirm"
+msgid "Retype the password"
+msgstr "Reintroduceți parola"
+
+#: jcommunity~account.form.status
+msgctxt "jcommunity~account.form.status"
+msgid "Status"
+msgstr "Stare"
+
+#: jcommunity~account.form.status.deleted
+msgctxt "jcommunity~account.form.status.deleted"
+msgid "Deleted"
+msgstr "Șters"
+
+#: jcommunity~account.form.status.deactivate
+msgctxt "jcommunity~account.form.status.deactivate"
+msgid "Deactivated"
+msgstr "Dezactivat"
+
+#: jcommunity~account.form.status.newuser
+msgctxt "jcommunity~account.form.status.newuser"
+msgid "New account, awaiting email validation"
+msgstr "Cont nou, în așteptarea validării prin e-mail"
+
+#: jcommunity~account.form.status.valid
+msgctxt "jcommunity~account.form.status.valid"
+msgid "Account validated"
+msgstr "Cont validat"
+
+#: jcommunity~account.form.status.valid.email.changed
+msgctxt "jcommunity~account.form.status.valid.email.changed"
+msgid "Validated, awaiting new email validation"
+msgstr "Validat, în așteptarea unei noui validari prin e-mail"
+
+#: jcommunity~account.form.status.valid.password.changed
+msgctxt "jcommunity~account.form.status.valid.password.changed"
+msgid "Validated, awaiting reset password"
+msgstr ""
+
+#: jcommunity~account.form.keyactivate
+msgctxt "jcommunity~account.form.keyactivate"
+msgid "Request key"
+msgstr "Cheia solicitării"
+
+#: jcommunity~account.form.requestdate
+msgctxt "jcommunity~account.form.requestdate"
+msgid "Request date"
+msgstr "Data solicitării"
+
+#: jcommunity~account.form.createdate
+msgctxt "jcommunity~account.form.createdate"
+msgid "Date of account creation"
+msgstr "Data creării contului"
+
+#: jcommunity~account.form.captcha
+msgctxt "jcommunity~account.form.captcha"
+msgid "Are you a human?"
+msgstr "Sunteți om?"
+
+#: jcommunity~account.profile.of
+msgctxt "jcommunity~account.profile.of"
+msgid "%1$s's Profile"
+msgstr "Profilul utilizatorlui %1$s"
+
+#: jcommunity~account.link.profile.edit
+msgctxt "jcommunity~account.link.profile.edit"
+msgid "Edit your profile"
+msgstr "Editați-vă profilul"
+
+#: jcommunity~account.link.account.delete
+msgctxt "jcommunity~account.link.account.delete"
+msgid "Delete your account"
+msgstr "Ștergeți profilul"
+
+#: jcommunity~account.link.account.change.password
+msgctxt "jcommunity~account.link.account.change.password"
+msgid "Change your password"
+msgstr "Schimbați-vă parola"
+
+#: jcommunity~account.form.edit.profile.title
+msgctxt "jcommunity~account.form.edit.profile.title"
+msgid "Editing your profile"
+msgstr "Editarea profilului"
+
+#: jcommunity~account.form.delete.account.title
+msgctxt "jcommunity~account.form.delete.account.title"
+msgid "Deleting your account"
+msgstr "Ștergerea contului"
+
+#: jcommunity~account.form.delete.account.confirm.title
+msgctxt "jcommunity~account.form.delete.account.confirm.title"
+msgid "Confirm the deletion of your account"
+msgstr "Confirmați ștergerea contului"
+
+#: jcommunity~account.form.delete.account.confirm
+msgctxt "jcommunity~account.form.delete.account.confirm"
+msgid "Confirm by indicating your password."
+msgstr "Confirmați indicând parola dvs."
+
+#: jcommunity~account.form.delete.account.submit
+msgctxt "jcommunity~account.form.delete.account.submit"
+msgid "Delete"
+msgstr "Ștergeți"
+
+#: jcommunity~account.form.delete.account.done
+msgctxt "jcommunity~account.form.delete.account.done"
+msgid "Your account is now deleted. You are deconnected."
+msgstr "Contul dvs. este șters. Sunteți deconectat."
+
+#: jcommunity~account.form.delete.account.error.notremoved
+msgctxt "jcommunity~account.form.delete.account.error.notremoved"
+msgid "Impossible to delete your account. Contact the site manager."
+msgstr "Imposibil de șters contul. Contactați administratorul site-ului."
+
+#: jcommunity~account.form.delete.account.error.badpassword
+msgctxt "jcommunity~account.form.delete.account.error.badpassword"
+msgid "Impossible to delete your account: the given password is not valid."
+msgstr "Imposibil de șters contul: parola dată nu este validă."
+
+#: jcommunity~account.form.delete.account.error.wronguser
+msgctxt "jcommunity~account.form.delete.account.error.wronguser"
+msgid "Sorry, you are not supposed to be on this page..."
+msgstr "Ne pare rău, nu trebuie să fiți pe această pagină..."
+
+#: jcommunity~account.form.delete.account.error.nologout
+msgctxt "jcommunity~account.form.delete.account.error.nologout"
+msgid ""
+"Strange... Your account does not exist anymore, but your are still "
+"connected? Contact the site manager."
+msgstr ""
+"Ciudat... Contul dvs. nu mai există, dar dvs. sunteți încă conectat? "
+"Contactați administratorul site-ului."
+
+#: jcommunity~account.form.cancel
+msgctxt "jcommunity~account.form.cancel"
+msgid "Cancel"
+msgstr "Anulați"
+
+#: jcommunity~account.cancel.and.back.to.account
+msgctxt "jcommunity~account.cancel.and.back.to.account"
+msgid "Cancel and back to your profile"
+msgstr "Anulați și reveniți la profilul dvs."
+
+#: jcommunity~account.back.to.account
+msgctxt "jcommunity~account.back.to.account"
+msgid "Back to your profile"
+msgstr "Reveniți la profilul dvs."

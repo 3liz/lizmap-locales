@@ -7,9 +7,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client view 3.2.2\n"
+"Project-Id-Version: Lizmap Web Client view 3.2.18-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"POT-Creation-Date: 2020-11-23 12:04++0100\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2020\n"
 "Language-Team: Portuguese (https://www.transifex.com/3liz-1/teams/62012/pt/)\n"
@@ -18,6 +18,480 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: view~user.form.firstname.label
+msgctxt "view~user.form.firstname.label"
+msgid "First name"
+msgstr "Primeiro nome"
+
+#: view~user.form.lastname.label
+msgctxt "view~user.form.lastname.label"
+msgid "Last name"
+msgstr "Último nome"
+
+#: view~user.form.organization.label
+msgctxt "view~user.form.organization.label"
+msgid "Organization"
+msgstr "Organização"
+
+#: view~user.form.phonenumber.label
+msgctxt "view~user.form.phonenumber.label"
+msgid "Phone number"
+msgstr "Nº de telefone"
+
+#: view~user.form.street.label
+msgctxt "view~user.form.street.label"
+msgid "Street"
+msgstr "Rua"
+
+#: view~user.form.postcode.label
+msgctxt "view~user.form.postcode.label"
+msgid "Postcode"
+msgstr "Código Postal"
+
+#: view~user.form.city.label
+msgctxt "view~user.form.city.label"
+msgid "City"
+msgstr "Cidade"
+
+#: view~user.form.country.label
+msgctxt "view~user.form.country.label"
+msgid "Country"
+msgstr "País"
+
+#: view~user.form.comment.label
+msgctxt "view~user.form.comment.label"
+msgid "Why do you request an account?"
+msgstr "Porque solicita uma conta?"
+
+#: view~user.form.comment.help
+msgctxt "view~user.form.comment.help"
+msgid ""
+"Please write a small text to explain why you would like to have an access to"
+" the maps."
+msgstr ""
+"Por favor, escreva um pequeno texto a explicar por que gostaria de ter "
+"acesso aos mapas."
+
+#: view~edition.access.denied
+msgctxt "view~edition.access.denied"
+msgid "You have not the right to use the edition tools."
+msgstr "Não tem permissões para utilizar a ferramenta de edição"
+
+#: view~edition.form.action.future.label
+msgctxt "view~edition.form.action.future.label"
+msgid "After saved"
+msgstr "Após gravar"
+
+#: view~edition.form.action.future.close
+msgctxt "view~edition.form.action.future.close"
+msgid "Close form"
+msgstr "Fechar formulário"
+
+#: view~edition.form.action.future.create
+msgctxt "view~edition.form.action.future.create"
+msgid "Create new feature"
+msgstr "Criar novo elemento"
+
+#: view~edition.form.action.future.edit
+msgctxt "view~edition.form.action.future.edit"
+msgid "Reopen form"
+msgstr "Reabrir formulário"
+
+#: view~edition.form.submit.label
+msgctxt "view~edition.form.submit.label"
+msgid "Save"
+msgstr "Guardar"
+
+#: view~edition.form.data.saved
+msgctxt "view~edition.form.data.saved"
+msgid "Data has been saved."
+msgstr "Dados gravados com sucesso."
+
+#: view~edition.form.cancel.label
+msgctxt "view~edition.form.cancel.label"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: view~edition.form.reset.label
+msgctxt "view~edition.form.reset.label"
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: view~edition.form.btn.clear.title
+msgctxt "view~edition.form.btn.clear.title"
+msgid "Close"
+msgstr "Fechar"
+
+#: view~edition.form.cancel.confirm.message
+msgctxt "view~edition.form.cancel.confirm.message"
+msgid "Cancel edition?"
+msgstr "Cancelar edição?"
+
+#: view~edition.navbar.title
+msgctxt "view~edition.navbar.title"
+msgid "Edition"
+msgstr "Edição"
+
+#: view~edition.toolbar.title
+msgctxt "view~edition.toolbar.title"
+msgid "Edition"
+msgstr "Edição"
+
+#: view~edition.toolbar.draw.title
+msgctxt "view~edition.toolbar.draw.title"
+msgid "Add"
+msgstr "Adicionar"
+
+#: view~edition.toolbar.draw.clear.title
+msgctxt "view~edition.toolbar.draw.clear.title"
+msgid "Clear"
+msgstr "Apagar"
+
+#: view~edition.toolbar.draw.save.title
+msgctxt "view~edition.toolbar.draw.save.title"
+msgid "Save"
+msgstr "Guardar"
+
+#: view~edition.toolbar.select.title
+msgctxt "view~edition.toolbar.select.title"
+msgid "Select"
+msgstr "Selecionar"
+
+#: view~edition.toolbar.select.unselect.title
+msgctxt "view~edition.toolbar.select.unselect.title"
+msgid "Unsel."
+msgstr "Desselecionar"
+
+#: view~edition.toolbar.select.attr.title
+msgctxt "view~edition.toolbar.select.attr.title"
+msgid "Modify"
+msgstr "Modificar"
+
+#: view~edition.toolbar.select.undo.title
+msgctxt "view~edition.toolbar.select.undo.title"
+msgid "Undo"
+msgstr "Desfazer"
+
+#: view~edition.toolbar.select.delete.title
+msgctxt "view~edition.toolbar.select.delete.title"
+msgid "Del"
+msgstr "Eliminar"
+
+#: view~edition.toolbar.delete.title
+msgctxt "view~edition.toolbar.delete.title"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: view~edition.toolbar.cancel.title
+msgctxt "view~edition.toolbar.cancel.title"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: view~edition.geomtool.nodetool.title
+msgctxt "view~edition.geomtool.nodetool.title"
+msgid "Node tool"
+msgstr "Ferramenta de nós"
+
+#: view~edition.geomtool.drag.title
+msgctxt "view~edition.geomtool.drag.title"
+msgid "Drag"
+msgstr "Mover"
+
+#: view~edition.geomtool.rotate.title
+msgctxt "view~edition.geomtool.rotate.title"
+msgid "Rotate"
+msgstr "Rotacionar"
+
+#: view~edition.geomtool.reshape.title
+msgctxt "view~edition.geomtool.reshape.title"
+msgid "Reshape"
+msgstr "Redesenhar"
+
+#: view~edition.point.coord.title
+msgctxt "view~edition.point.coord.title"
+msgid "Manage point/vertex coordinates"
+msgstr "Gestão de coordenadas de pontos/vértices"
+
+#: view~edition.point.coord.crs.label
+msgctxt "view~edition.point.coord.crs.label"
+msgid "CRS:"
+msgstr "CRS:"
+
+#: view~edition.point.coord.x.label
+msgctxt "view~edition.point.coord.x.label"
+msgid "X:"
+msgstr "X:"
+
+#: view~edition.point.coord.y.label
+msgctxt "view~edition.point.coord.y.label"
+msgid "Y:"
+msgstr "Y:"
+
+#: view~edition.point.coord.geolocation.label
+msgctxt "view~edition.point.coord.geolocation.label"
+msgid "linked to geolocation"
+msgstr "utilizar geolocalização"
+
+#: view~edition.point.coord.add.label
+msgctxt "view~edition.point.coord.add.label"
+msgid "Add"
+msgstr "Adicionar"
+
+#: view~edition.point.coord.finalize.label
+msgctxt "view~edition.point.coord.finalize.label"
+msgid "Finalize"
+msgstr "Finalizar"
+
+#: view~edition.geolocate.toolbar.title
+msgctxt "view~edition.geolocate.toolbar.title"
+msgid "Edition:"
+msgstr "Edição:"
+
+#: view~edition.toolbar.draw.tooltip
+msgctxt "view~edition.toolbar.draw.tooltip"
+msgid "Activate the tool for creating new objects."
+msgstr "Ativar a ferramenta para criar novos objetos."
+
+#: view~edition.toolbar.draw.clear.tooltip
+msgctxt "view~edition.toolbar.draw.clear.tooltip"
+msgid "Cancel the current drawing."
+msgstr "Anular geometria."
+
+#: view~edition.toolbar.draw.save.tooltip
+msgctxt "view~edition.toolbar.draw.save.tooltip"
+msgid "Finalize the current drawing."
+msgstr "Finalizar geometria."
+
+#: view~edition.toolbar.select.tooltip
+msgctxt "view~edition.toolbar.select.tooltip"
+msgid "Activate the selection tool."
+msgstr "Ativar a ferramenta de seleção."
+
+#: view~edition.toolbar.select.unselect.tooltip
+msgctxt "view~edition.toolbar.select.unselect.tooltip"
+msgid "Unselect the selected object."
+msgstr "Desmarcar o geometria selecionada."
+
+#: view~edition.toolbar.select.attr.tooltip
+msgctxt "view~edition.toolbar.select.attr.tooltip"
+msgid "Validate the geometry and/or open the attribute form."
+msgstr "Validar a geometria e/ou abrir o formulário de atributos."
+
+#: view~edition.toolbar.select.undo.tooltip
+msgctxt "view~edition.toolbar.select.undo.tooltip"
+msgid "Revert into initial geometry state."
+msgstr "Reverter para o estado inicial da geometria."
+
+#: view~edition.toolbar.select.delete.tooltip
+msgctxt "view~edition.toolbar.select.delete.tooltip"
+msgid "Delete the selected object."
+msgstr "Eliminar a geometria selecionada."
+
+#: view~edition.toolbar.cancel.tooltip
+msgctxt "view~edition.toolbar.cancel.tooltip"
+msgid "Cancel current edition."
+msgstr "Anular edição"
+
+#: view~edition.modal.title.default
+msgctxt "view~edition.modal.title.default"
+msgid "Edition"
+msgstr "Edição"
+
+#: view~edition.modal.message.no.feature.found
+msgctxt "view~edition.modal.message.no.feature.found"
+msgid "No feature has been found here."
+msgstr "Nenhuma geometria encontrada."
+
+#: view~edition.message.error.parameter.project
+msgctxt "view~edition.message.error.parameter.project"
+msgid "The 'project' parameter is mandatory."
+msgstr "O parâmetro 'projeto' é obrigatório."
+
+#: view~edition.message.error.parameter.featureId
+msgctxt "view~edition.message.error.parameter.featureId"
+msgid "The 'featureId' parameter is mandatory."
+msgstr "O parâmetro 'featureId' é obrigatório."
+
+#: view~edition.message.error.layer.editable
+msgctxt "view~edition.message.error.layer.editable"
+msgid "The layer is not editable."
+msgstr "A camada não é editável."
+
+#: view~edition.message.error.layer.editable.create
+msgctxt "view~edition.message.error.layer.editable.create"
+msgid "Create feature for the layer is not available."
+msgstr "Criar elemento para a camada não está disponível."
+
+#: view~edition.message.error.layer.editable.delete
+msgctxt "view~edition.message.error.layer.editable.delete"
+msgid "Delete feature for the layer is not available."
+msgstr "Eliminar elemento para a camada não está disponível."
+
+#: view~edition.message.error.primary.keys
+msgctxt "view~edition.message.error.primary.keys"
+msgid ""
+"Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
+" defined primary key on the table."
+msgstr ""
+"O Lizmap não consegue encontrar as chaves primárias da camada \"%s\". A "
+"ferramenta de edição precisa de uma chave primária definida na tabela."
+
+#: view~edition.message.error.feature.get
+msgctxt "view~edition.message.error.feature.get"
+msgid "Lizmap cannot get the feature data with WFS"
+msgstr "O Lizmap não consegue obter os dados do elemento via WFS"
+
+#: view~edition.message.error.form.get
+msgctxt "view~edition.message.error.form.get"
+msgid "An error has been raised when getting the form"
+msgstr "Ocorreu um erro ao carregar o formulário"
+
+#: view~edition.message.error.bbox
+msgctxt "view~edition.message.error.bbox"
+msgid "The bbox has to be 4 floats separated by ','."
+msgstr "Os limites da área têm que ser 4 valores separados por ','."
+
+#: view~edition.message.error.crs
+msgctxt "view~edition.message.error.crs"
+msgid "crs is mandatory and has to be an integer or EPSG:*."
+msgstr "O CRS é obrigatório e tem de ser um número inteiro ou EPSG."
+
+#: view~edition.message.error.save
+msgctxt "view~edition.message.error.save"
+msgid "An error has been raised when saving the form."
+msgstr "Ocorreu um erro ao gravar o formulário."
+
+#: view~edition.message.error.save.fields
+msgctxt "view~edition.message.error.save.fields"
+msgid "No fields available for saving the form."
+msgstr "Não há campos disponíveis para gravar o formulário."
+
+#: view~edition.message.error.delete
+msgctxt "view~edition.message.error.delete"
+msgid "The deletion has failed."
+msgstr "A eliminação falhou."
+
+#: view~edition.message.success.delete
+msgctxt "view~edition.message.success.delete"
+msgid "The feature has been deleted."
+msgstr "O elemento foi eliminado."
+
+#: view~edition.message.error.create
+msgctxt "view~edition.message.error.create"
+msgid "An error occured while creating the object."
+msgstr "Ocorreu um erro ao criar o objeto."
+
+#: view~edition.message.success.create
+msgctxt "view~edition.message.success.create"
+msgid "Object successfully created."
+msgstr "Objeto criado com sucesso."
+
+#: view~edition.message.error.no.geometry
+msgctxt "view~edition.message.error.no.geometry"
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
+msgstr "Não pode gravar objetos sem geometria. Por favor desenhe a geometria."
+
+#: view~edition.message.error.upload.layer
+msgctxt "view~edition.message.error.upload.layer"
+msgid "The layer \"%s\" directory for uploading media is not writable."
+msgstr ""
+"O diretório para upload de média da camada \"%s\" não tem permissões de "
+"escrita."
+
+#: view~edition.message.error.upload.layer.field
+msgctxt "view~edition.message.error.upload.layer.field"
+msgid ""
+"The field \"%s\" directory of the layer \"%s\" for uploading media is not "
+"writable."
+msgstr ""
+"O diretório para upload de média da camada \"%s\" não tem permissões de "
+"escrita."
+
+#: view~edition.upload.choice.keep
+msgctxt "view~edition.upload.choice.keep"
+msgid "Keep"
+msgstr "Manter"
+
+#: view~edition.upload.choice.update
+msgctxt "view~edition.upload.choice.update"
+msgid "Update"
+msgstr "Atualizar"
+
+#: view~edition.upload.choice.delete
+msgctxt "view~edition.upload.choice.delete"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: view~edition.link.error.missing.parameter
+msgctxt "view~edition.link.error.missing.parameter"
+msgid "The pivot, features1 and features2 parameters are mandatory."
+msgstr "O pivot e os parâmetros features1 e features2 são obrigatórios."
+
+#: view~edition.link.error.wrong.layer
+msgctxt "view~edition.link.error.wrong.layer"
+msgid "The layer does not exists."
+msgstr "A camada não existe."
+
+#: view~edition.link.error.multiple.ids
+msgctxt "view~edition.link.error.multiple.ids"
+msgid ""
+"You cannot link multiple objects for both layers. Please select only one "
+"object for one of the layers and retry."
+msgstr ""
+"Não é possível ligar objetos múltiplos em ambas as camadas. Por favor "
+"selecione apenas um objeto por camada e tente novamente."
+
+#: view~edition.link.error.missing.id
+msgctxt "view~edition.link.error.missing.id"
+msgid ""
+"There must be at least one object selected for each layer to create the "
+"link."
+msgstr ""
+"É necessário ter selecionado pelo menos um objeto em cada camada para puder "
+"criar a ligação."
+
+#: view~edition.link.error.not.attribute.layer
+msgctxt "view~edition.link.error.not.attribute.layer"
+msgid "The layers have not be configured to have an attribute table."
+msgstr "As camadas não foram configuradas para mostrar a tabela de atributos."
+
+#: view~edition.link.error.no.create.feature
+msgctxt "view~edition.link.error.no.create.feature"
+msgid "Create feature for the layer \"%s\" is not available."
+msgstr "Criar elemento para a camada \"%s\" não está disponível."
+
+#: view~edition.link.error.no.modify.attributes
+msgctxt "view~edition.link.error.no.modify.attributes"
+msgid "Modify attributes for the layer \"%s\" is not available."
+msgstr "Modificar atributos para a camada \"%s\" não está disponível."
+
+#: view~edition.link.error.no.given.fields
+msgctxt "view~edition.link.error.no.given.fields"
+msgid "Given fields do not exists."
+msgstr "Os campos fornecidos não existem."
+
+#: view~edition.link.error.sql
+msgctxt "view~edition.link.error.sql"
+msgid "An error occured while adding linked data."
+msgstr "Ocorreu um erro ao adicionar dados ligados."
+
+#: view~edition.link.success
+msgctxt "view~edition.link.success"
+msgid "Selected features have been correctly linked."
+msgstr "Os elementos selecionados foram ligados corretamente."
+
+#: view~edition.unlink.success
+msgctxt "view~edition.unlink.success"
+msgid "The child feature has correctly been unlinked."
+msgstr "O elemento subordinado foi desligado corretamente."
+
+#: view~edition.unlink.error.sql
+msgctxt "view~edition.unlink.error.sql"
+msgid "An error occured while removing link."
+msgstr "Ocorreu um erro ao remover a ligação."
 
 #: view~map.title.h1
 msgctxt "view~map.title.h1"
@@ -1220,477 +1694,3 @@ msgstr "Anterior"
 msgctxt "view~dictionnary.embed.open.map"
 msgid "Open the map in full screen"
 msgstr "Abrir o mapa em ecrã completo"
-
-#: view~user.form.firstname.label
-msgctxt "view~user.form.firstname.label"
-msgid "First name"
-msgstr "Primeiro nome"
-
-#: view~user.form.lastname.label
-msgctxt "view~user.form.lastname.label"
-msgid "Last name"
-msgstr "Último nome"
-
-#: view~user.form.organization.label
-msgctxt "view~user.form.organization.label"
-msgid "Organization"
-msgstr "Organização"
-
-#: view~user.form.phonenumber.label
-msgctxt "view~user.form.phonenumber.label"
-msgid "Phone number"
-msgstr "Nº de telefone"
-
-#: view~user.form.street.label
-msgctxt "view~user.form.street.label"
-msgid "Street"
-msgstr "Rua"
-
-#: view~user.form.postcode.label
-msgctxt "view~user.form.postcode.label"
-msgid "Postcode"
-msgstr "Código Postal"
-
-#: view~user.form.city.label
-msgctxt "view~user.form.city.label"
-msgid "City"
-msgstr "Cidade"
-
-#: view~user.form.country.label
-msgctxt "view~user.form.country.label"
-msgid "Country"
-msgstr "País"
-
-#: view~user.form.comment.label
-msgctxt "view~user.form.comment.label"
-msgid "Why do you request an account?"
-msgstr "Porque solicita uma conta?"
-
-#: view~user.form.comment.help
-msgctxt "view~user.form.comment.help"
-msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
-msgstr ""
-"Por favor, escreva um pequeno texto a explicar por que gostaria de ter "
-"acesso aos mapas."
-
-#: view~edition.access.denied
-msgctxt "view~edition.access.denied"
-msgid "You have not the right to use the edition tools."
-msgstr "Não tem permissões para utilizar a ferramenta de edição"
-
-#: view~edition.form.action.future.label
-msgctxt "view~edition.form.action.future.label"
-msgid "After saved"
-msgstr "Após gravar"
-
-#: view~edition.form.action.future.close
-msgctxt "view~edition.form.action.future.close"
-msgid "Close form"
-msgstr "Fechar formulário"
-
-#: view~edition.form.action.future.create
-msgctxt "view~edition.form.action.future.create"
-msgid "Create new feature"
-msgstr "Criar novo elemento"
-
-#: view~edition.form.action.future.edit
-msgctxt "view~edition.form.action.future.edit"
-msgid "Reopen form"
-msgstr "Reabrir formulário"
-
-#: view~edition.form.submit.label
-msgctxt "view~edition.form.submit.label"
-msgid "Save"
-msgstr "Guardar"
-
-#: view~edition.form.data.saved
-msgctxt "view~edition.form.data.saved"
-msgid "Data has been saved."
-msgstr "Dados gravados com sucesso."
-
-#: view~edition.form.cancel.label
-msgctxt "view~edition.form.cancel.label"
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: view~edition.form.reset.label
-msgctxt "view~edition.form.reset.label"
-msgid "Reset"
-msgstr "Reiniciar"
-
-#: view~edition.form.btn.clear.title
-msgctxt "view~edition.form.btn.clear.title"
-msgid "Close"
-msgstr "Fechar"
-
-#: view~edition.form.cancel.confirm.message
-msgctxt "view~edition.form.cancel.confirm.message"
-msgid "Cancel edition?"
-msgstr "Cancelar edição?"
-
-#: view~edition.navbar.title
-msgctxt "view~edition.navbar.title"
-msgid "Edition"
-msgstr "Edição"
-
-#: view~edition.toolbar.title
-msgctxt "view~edition.toolbar.title"
-msgid "Edition"
-msgstr "Edição"
-
-#: view~edition.toolbar.draw.title
-msgctxt "view~edition.toolbar.draw.title"
-msgid "Add"
-msgstr "Adicionar"
-
-#: view~edition.toolbar.draw.clear.title
-msgctxt "view~edition.toolbar.draw.clear.title"
-msgid "Clear"
-msgstr "Apagar"
-
-#: view~edition.toolbar.draw.save.title
-msgctxt "view~edition.toolbar.draw.save.title"
-msgid "Save"
-msgstr "Guardar"
-
-#: view~edition.toolbar.select.title
-msgctxt "view~edition.toolbar.select.title"
-msgid "Select"
-msgstr "Selecionar"
-
-#: view~edition.toolbar.select.unselect.title
-msgctxt "view~edition.toolbar.select.unselect.title"
-msgid "Unsel."
-msgstr "Desselecionar"
-
-#: view~edition.toolbar.select.attr.title
-msgctxt "view~edition.toolbar.select.attr.title"
-msgid "Modify"
-msgstr "Modificar"
-
-#: view~edition.toolbar.select.undo.title
-msgctxt "view~edition.toolbar.select.undo.title"
-msgid "Undo"
-msgstr "Desfazer"
-
-#: view~edition.toolbar.select.delete.title
-msgctxt "view~edition.toolbar.select.delete.title"
-msgid "Del"
-msgstr "Eliminar"
-
-#: view~edition.toolbar.delete.title
-msgctxt "view~edition.toolbar.delete.title"
-msgid "Delete"
-msgstr "Eliminar"
-
-#: view~edition.toolbar.cancel.title
-msgctxt "view~edition.toolbar.cancel.title"
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: view~edition.geomtool.nodetool.title
-msgctxt "view~edition.geomtool.nodetool.title"
-msgid "Node tool"
-msgstr "Ferramenta de nós"
-
-#: view~edition.geomtool.drag.title
-msgctxt "view~edition.geomtool.drag.title"
-msgid "Drag"
-msgstr "Mover"
-
-#: view~edition.geomtool.rotate.title
-msgctxt "view~edition.geomtool.rotate.title"
-msgid "Rotate"
-msgstr "Rotacionar"
-
-#: view~edition.geomtool.reshape.title
-msgctxt "view~edition.geomtool.reshape.title"
-msgid "Reshape"
-msgstr "Redesenhar"
-
-#: view~edition.point.coord.title
-msgctxt "view~edition.point.coord.title"
-msgid "Manage point/vertex coordinates"
-msgstr "Gestão de coordenadas de pontos/vértices"
-
-#: view~edition.point.coord.crs.label
-msgctxt "view~edition.point.coord.crs.label"
-msgid "CRS:"
-msgstr "CRS:"
-
-#: view~edition.point.coord.x.label
-msgctxt "view~edition.point.coord.x.label"
-msgid "X:"
-msgstr "X:"
-
-#: view~edition.point.coord.y.label
-msgctxt "view~edition.point.coord.y.label"
-msgid "Y:"
-msgstr "Y:"
-
-#: view~edition.point.coord.geolocation.label
-msgctxt "view~edition.point.coord.geolocation.label"
-msgid "linked to geolocation"
-msgstr "utilizar geolocalização"
-
-#: view~edition.point.coord.add.label
-msgctxt "view~edition.point.coord.add.label"
-msgid "Add"
-msgstr "Adicionar"
-
-#: view~edition.point.coord.finalize.label
-msgctxt "view~edition.point.coord.finalize.label"
-msgid "Finalize"
-msgstr "Finalizar"
-
-#: view~edition.geolocate.toolbar.title
-msgctxt "view~edition.geolocate.toolbar.title"
-msgid "Edition:"
-msgstr "Edição:"
-
-#: view~edition.toolbar.draw.tooltip
-msgctxt "view~edition.toolbar.draw.tooltip"
-msgid "Activate the tool for creating new objects."
-msgstr "Ativar a ferramenta para criar novos objetos."
-
-#: view~edition.toolbar.draw.clear.tooltip
-msgctxt "view~edition.toolbar.draw.clear.tooltip"
-msgid "Cancel the current drawing."
-msgstr "Anular geometria."
-
-#: view~edition.toolbar.draw.save.tooltip
-msgctxt "view~edition.toolbar.draw.save.tooltip"
-msgid "Finalize the current drawing."
-msgstr "Finalizar geometria."
-
-#: view~edition.toolbar.select.tooltip
-msgctxt "view~edition.toolbar.select.tooltip"
-msgid "Activate the selection tool."
-msgstr "Ativar a ferramenta de seleção."
-
-#: view~edition.toolbar.select.unselect.tooltip
-msgctxt "view~edition.toolbar.select.unselect.tooltip"
-msgid "Unselect the selected object."
-msgstr "Desmarcar o geometria selecionada."
-
-#: view~edition.toolbar.select.attr.tooltip
-msgctxt "view~edition.toolbar.select.attr.tooltip"
-msgid "Validate the geometry and/or open the attribute form."
-msgstr "Validar a geometria e/ou abrir o formulário de atributos."
-
-#: view~edition.toolbar.select.undo.tooltip
-msgctxt "view~edition.toolbar.select.undo.tooltip"
-msgid "Revert into initial geometry state."
-msgstr "Reverter para o estado inicial da geometria."
-
-#: view~edition.toolbar.select.delete.tooltip
-msgctxt "view~edition.toolbar.select.delete.tooltip"
-msgid "Delete the selected object."
-msgstr "Eliminar a geometria selecionada."
-
-#: view~edition.toolbar.cancel.tooltip
-msgctxt "view~edition.toolbar.cancel.tooltip"
-msgid "Cancel current edition."
-msgstr "Anular edição"
-
-#: view~edition.modal.title.default
-msgctxt "view~edition.modal.title.default"
-msgid "Edition"
-msgstr "Edição"
-
-#: view~edition.modal.message.no.feature.found
-msgctxt "view~edition.modal.message.no.feature.found"
-msgid "No feature has been found here."
-msgstr "Nenhuma geometria encontrada."
-
-#: view~edition.message.error.parameter.project
-msgctxt "view~edition.message.error.parameter.project"
-msgid "The 'project' parameter is mandatory."
-msgstr "O parâmetro 'projeto' é obrigatório."
-
-#: view~edition.message.error.parameter.featureId
-msgctxt "view~edition.message.error.parameter.featureId"
-msgid "The 'featureId' parameter is mandatory."
-msgstr "O parâmetro 'featureId' é obrigatório."
-
-#: view~edition.message.error.layer.editable
-msgctxt "view~edition.message.error.layer.editable"
-msgid "The layer is not editable."
-msgstr "A camada não é editável."
-
-#: view~edition.message.error.layer.editable.create
-msgctxt "view~edition.message.error.layer.editable.create"
-msgid "Create feature for the layer is not available."
-msgstr "Criar elemento para a camada não está disponível."
-
-#: view~edition.message.error.layer.editable.delete
-msgctxt "view~edition.message.error.layer.editable.delete"
-msgid "Delete feature for the layer is not available."
-msgstr "Eliminar elemento para a camada não está disponível."
-
-#: view~edition.message.error.primary.keys
-msgctxt "view~edition.message.error.primary.keys"
-msgid ""
-"Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
-" defined primary key on the table."
-msgstr ""
-"O Lizmap não consegue encontrar as chaves primárias da camada \"%s\". A "
-"ferramenta de edição precisa de uma chave primária definida na tabela."
-
-#: view~edition.message.error.feature.get
-msgctxt "view~edition.message.error.feature.get"
-msgid "Lizmap cannot get the feature data with WFS"
-msgstr "O Lizmap não consegue obter os dados do elemento via WFS"
-
-#: view~edition.message.error.form.get
-msgctxt "view~edition.message.error.form.get"
-msgid "An error has been raised when getting the form"
-msgstr "Ocorreu um erro ao carregar o formulário"
-
-#: view~edition.message.error.bbox
-msgctxt "view~edition.message.error.bbox"
-msgid "The bbox has to be 4 floats separated by ','."
-msgstr "Os limites da área têm que ser 4 valores separados por ','."
-
-#: view~edition.message.error.crs
-msgctxt "view~edition.message.error.crs"
-msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr "O CRS é obrigatório e tem de ser um número inteiro ou EPSG."
-
-#: view~edition.message.error.save
-msgctxt "view~edition.message.error.save"
-msgid "An error has been raised when saving the form."
-msgstr "Ocorreu um erro ao gravar o formulário."
-
-#: view~edition.message.error.save.fields
-msgctxt "view~edition.message.error.save.fields"
-msgid "No fields available for saving the form."
-msgstr "Não há campos disponíveis para gravar o formulário."
-
-#: view~edition.message.error.delete
-msgctxt "view~edition.message.error.delete"
-msgid "The deletion has failed."
-msgstr "A eliminação falhou."
-
-#: view~edition.message.success.delete
-msgctxt "view~edition.message.success.delete"
-msgid "The feature has been deleted."
-msgstr "O elemento foi eliminado."
-
-#: view~edition.message.error.create
-msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
-msgstr "Ocorreu um erro ao criar o objeto."
-
-#: view~edition.message.success.create
-msgctxt "view~edition.message.success.create"
-msgid "Object successfully created."
-msgstr "Objeto criado com sucesso."
-
-#: view~edition.message.error.no.geometry
-msgctxt "view~edition.message.error.no.geometry"
-msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
-msgstr "Não pode gravar objetos sem geometria. Por favor desenhe a geometria."
-
-#: view~edition.message.error.upload.layer
-msgctxt "view~edition.message.error.upload.layer"
-msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr ""
-"O diretório para upload de média da camada \"%s\" não tem permissões de "
-"escrita."
-
-#: view~edition.message.error.upload.layer.field
-msgctxt "view~edition.message.error.upload.layer.field"
-msgid ""
-"The field \"%s\" directory of the layer \"%s\" for uploading media is not "
-"writable."
-msgstr ""
-"O diretório para upload de média da camada \"%s\" não tem permissões de "
-"escrita."
-
-#: view~edition.upload.choice.keep
-msgctxt "view~edition.upload.choice.keep"
-msgid "Keep"
-msgstr "Manter"
-
-#: view~edition.upload.choice.update
-msgctxt "view~edition.upload.choice.update"
-msgid "Update"
-msgstr "Atualizar"
-
-#: view~edition.upload.choice.delete
-msgctxt "view~edition.upload.choice.delete"
-msgid "Delete"
-msgstr "Eliminar"
-
-#: view~edition.link.error.missing.parameter
-msgctxt "view~edition.link.error.missing.parameter"
-msgid "The pivot, features1 and features2 parameters are mandatory."
-msgstr "O pivot e os parâmetros features1 e features2 são obrigatórios."
-
-#: view~edition.link.error.wrong.layer
-msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
-msgstr "A camada não existe."
-
-#: view~edition.link.error.multiple.ids
-msgctxt "view~edition.link.error.multiple.ids"
-msgid ""
-"You cannot link multiple objects for both layers. Please select only one "
-"object for one of the layers and retry."
-msgstr ""
-"Não é possível ligar objetos múltiplos em ambas as camadas. Por favor "
-"selecione apenas um objeto por camada e tente novamente."
-
-#: view~edition.link.error.missing.id
-msgctxt "view~edition.link.error.missing.id"
-msgid ""
-"There must be at least one object selected for each layer to create the "
-"link."
-msgstr ""
-"É necessário ter selecionado pelo menos um objeto em cada camada para puder "
-"criar a ligação."
-
-#: view~edition.link.error.not.attribute.layer
-msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
-msgstr "As camadas não foram configuradas para mostrar a tabela de atributos."
-
-#: view~edition.link.error.no.create.feature
-msgctxt "view~edition.link.error.no.create.feature"
-msgid "Create feature for the layer \"%s\" is not available."
-msgstr "Criar elemento para a camada \"%s\" não está disponível."
-
-#: view~edition.link.error.no.modify.attributes
-msgctxt "view~edition.link.error.no.modify.attributes"
-msgid "Modify attributes for the layer \"%s\" is not available."
-msgstr "Modificar atributos para a camada \"%s\" não está disponível."
-
-#: view~edition.link.error.no.given.fields
-msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
-msgstr "Os campos fornecidos não existem."
-
-#: view~edition.link.error.sql
-msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
-msgstr "Ocorreu um erro ao adicionar dados ligados."
-
-#: view~edition.link.success
-msgctxt "view~edition.link.success"
-msgid "Selected features have been correctly linked."
-msgstr "Os elementos selecionados foram ligados corretamente."
-
-#: view~edition.unlink.success
-msgctxt "view~edition.unlink.success"
-msgid "The child feature has correctly been unlinked."
-msgstr "O elemento subordinado foi desligado corretamente."
-
-#: view~edition.unlink.error.sql
-msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
-msgstr "Ocorreu um erro ao remover a ligação."

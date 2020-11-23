@@ -8,9 +8,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client admin 3.2.2\n"
+"Project-Id-Version: Lizmap Web Client admin 3.2.18-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 15:27++0100\n"
+"POT-Creation-Date: 2020-11-23 12:04++0100\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: Víctor Herreros <vherreros@ucm.es>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/3liz-1/teams/62012/es/)\n"
@@ -20,81 +20,49 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: admin~jacl2.lizmap.admin.grp
-msgctxt "admin~jacl2.lizmap.admin.grp"
-msgid "Lizmap Administration Management"
-msgstr "Gestión de la Administración de Lizmap"
+#: admin~user.form.comment.label
+msgctxt "admin~user.form.comment.label"
+msgid "Comments"
+msgstr "Commntarios"
 
-#: admin~jacl2.lizmap.grp
-msgctxt "admin~jacl2.lizmap.grp"
-msgid "Lizmap Client Management"
-msgstr "Gestión del Cliente de Lizmap"
+#: admin~user.email.admin.subject
+msgctxt "admin~user.email.admin.subject"
+msgid "Lizmap - Someone requested an account"
+msgstr "Lizmap - Alguien solicitó una cuenta"
 
-#: admin~jacl2.lizmap.admin.access
-msgctxt "admin~jacl2.lizmap.admin.access"
-msgid "Lizmap Admin access"
-msgstr "Acceso del Administrador de Lizmap"
-
-#: admin~jacl2.lizmap.admin.services.view
-msgctxt "admin~jacl2.lizmap.admin.services.view"
-msgid "View services"
-msgstr "Ver servicios"
-
-#: admin~jacl2.lizmap.admin.services.update
-msgctxt "admin~jacl2.lizmap.admin.services.update"
-msgid "Modify services"
-msgstr "Modificar servicios"
-
-#: admin~jacl2.lizmap.admin.repositories.view
-msgctxt "admin~jacl2.lizmap.admin.repositories.view"
-msgid "View repositories"
-msgstr "Ver repositorios"
-
-#: admin~jacl2.lizmap.admin.repositories.create
-msgctxt "admin~jacl2.lizmap.admin.repositories.create"
-msgid "Create repositories"
-msgstr "Crear repositorios"
-
-#: admin~jacl2.lizmap.admin.repositories.update
-msgctxt "admin~jacl2.lizmap.admin.repositories.update"
-msgid "Modify repositories"
-msgstr "Modificar repositorios"
-
-#: admin~jacl2.lizmap.admin.repositories.delete
-msgctxt "admin~jacl2.lizmap.admin.repositories.delete"
-msgid "Delete repositories"
-msgstr "Borrar repositorios"
-
-#: admin~jacl2.lizmap.admin.grp.default
-msgctxt "admin~jacl2.lizmap.admin.grp.default"
-msgid "default group"
-msgstr "Grupo por defecto"
-
-#: admin~jacl2.lizmap.repositories.view
-msgctxt "admin~jacl2.lizmap.repositories.view"
-msgid "View projects in the repository"
-msgstr "Ver proyectos en el repositorio"
-
-#: admin~jacl2.lizmap.tools.edition.use
-msgctxt "admin~jacl2.lizmap.tools.edition.use"
-msgid "Use the Edition tool"
-msgstr "Utilizar la herramienta de Edición"
-
-#: admin~jacl2.lizmap.tools.loginFilteredLayers.override
-msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
-msgid "Always see complete layers data, even if filtered by login"
+#: admin~user.email.admin.body
+msgctxt "admin~user.email.admin.body"
+msgid ""
+"Someone has requested a Lizmap account to be able to access the maps, with "
+"the login %s and the e-mail %s."
 msgstr ""
-"Ver siempre datos de capas completas, aunque estén filtradas por login"
+"Alguien ha solicitado una cuenta Lizmap para poder acceder a los mapas, con "
+"el inicio de sesión %s y el e-mail"
 
-#: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
-msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
-msgid "Display projects WMS links"
-msgstr "Mostrar enlaces WMS de los proyectos"
+#: admin~user.acl.no.group
+msgctxt "admin~user.acl.no.group"
+msgid "The user is not in any group"
+msgstr "El usuario no pertenece a ningún grupo"
 
-#: admin~jacl2.lizmap.tools.layer.export
-msgctxt "admin~jacl2.lizmap.tools.layer.export"
-msgid "Allow export of layers"
-msgstr "Permitir exportación de capas"
+#: admin~user.acl.form.title
+msgctxt "admin~user.acl.form.title"
+msgid "Groups the user belongs to"
+msgstr "Grupos a los que pertenece el usuario"
+
+#: admin~user.acl.form.remove.from.group
+msgctxt "admin~user.acl.form.remove.from.group"
+msgid "Remove him from this group"
+msgstr "Eliminarlo de este grupo"
+
+#: admin~user.acl.form.add.to.group
+msgctxt "admin~user.acl.form.add.to.group"
+msgid "Add him to this group"
+msgstr "Agregarlo a este grupo"
+
+#: admin~user.acl.form.add
+msgctxt "admin~user.acl.form.add"
+msgid "Add"
+msgstr "Agregar"
 
 #: admin~admin.header.admin
 msgctxt "admin~admin.header.admin"
@@ -1062,46 +1030,78 @@ msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
 msgstr "El archivo de log errores se ha borrado correctamente."
 
-#: admin~user.form.comment.label
-msgctxt "admin~user.form.comment.label"
-msgid "Comments"
-msgstr "Commntarios"
+#: admin~jacl2.lizmap.admin.grp
+msgctxt "admin~jacl2.lizmap.admin.grp"
+msgid "Lizmap Administration Management"
+msgstr "Gestión de la Administración de Lizmap"
 
-#: admin~user.email.admin.subject
-msgctxt "admin~user.email.admin.subject"
-msgid "Lizmap - Someone requested an account"
-msgstr "Lizmap - Alguien solicitó una cuenta"
+#: admin~jacl2.lizmap.grp
+msgctxt "admin~jacl2.lizmap.grp"
+msgid "Lizmap Client Management"
+msgstr "Gestión del Cliente de Lizmap"
 
-#: admin~user.email.admin.body
-msgctxt "admin~user.email.admin.body"
-msgid ""
-"Someone has requested a Lizmap account to be able to access the maps, with "
-"the login %s and the e-mail %s."
+#: admin~jacl2.lizmap.admin.access
+msgctxt "admin~jacl2.lizmap.admin.access"
+msgid "Lizmap Admin access"
+msgstr "Acceso del Administrador de Lizmap"
+
+#: admin~jacl2.lizmap.admin.services.view
+msgctxt "admin~jacl2.lizmap.admin.services.view"
+msgid "View services"
+msgstr "Ver servicios"
+
+#: admin~jacl2.lizmap.admin.services.update
+msgctxt "admin~jacl2.lizmap.admin.services.update"
+msgid "Modify services"
+msgstr "Modificar servicios"
+
+#: admin~jacl2.lizmap.admin.repositories.view
+msgctxt "admin~jacl2.lizmap.admin.repositories.view"
+msgid "View repositories"
+msgstr "Ver repositorios"
+
+#: admin~jacl2.lizmap.admin.repositories.create
+msgctxt "admin~jacl2.lizmap.admin.repositories.create"
+msgid "Create repositories"
+msgstr "Crear repositorios"
+
+#: admin~jacl2.lizmap.admin.repositories.update
+msgctxt "admin~jacl2.lizmap.admin.repositories.update"
+msgid "Modify repositories"
+msgstr "Modificar repositorios"
+
+#: admin~jacl2.lizmap.admin.repositories.delete
+msgctxt "admin~jacl2.lizmap.admin.repositories.delete"
+msgid "Delete repositories"
+msgstr "Borrar repositorios"
+
+#: admin~jacl2.lizmap.admin.grp.default
+msgctxt "admin~jacl2.lizmap.admin.grp.default"
+msgid "default group"
+msgstr "Grupo por defecto"
+
+#: admin~jacl2.lizmap.repositories.view
+msgctxt "admin~jacl2.lizmap.repositories.view"
+msgid "View projects in the repository"
+msgstr "Ver proyectos en el repositorio"
+
+#: admin~jacl2.lizmap.tools.edition.use
+msgctxt "admin~jacl2.lizmap.tools.edition.use"
+msgid "Use the Edition tool"
+msgstr "Utilizar la herramienta de Edición"
+
+#: admin~jacl2.lizmap.tools.loginFilteredLayers.override
+msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
+msgid "Always see complete layers data, even if filtered by login"
 msgstr ""
-"Alguien ha solicitado una cuenta Lizmap para poder acceder a los mapas, con "
-"el inicio de sesión %s y el e-mail"
+"Ver siempre datos de capas completas, aunque estén filtradas por login"
 
-#: admin~user.acl.no.group
-msgctxt "admin~user.acl.no.group"
-msgid "The user is not in any group"
-msgstr "El usuario no pertenece a ningún grupo"
+#: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
+msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
+msgid "Display projects WMS links"
+msgstr "Mostrar enlaces WMS de los proyectos"
 
-#: admin~user.acl.form.title
-msgctxt "admin~user.acl.form.title"
-msgid "Groups the user belongs to"
-msgstr "Grupos a los que pertenece el usuario"
-
-#: admin~user.acl.form.remove.from.group
-msgctxt "admin~user.acl.form.remove.from.group"
-msgid "Remove him from this group"
-msgstr "Eliminarlo de este grupo"
-
-#: admin~user.acl.form.add.to.group
-msgctxt "admin~user.acl.form.add.to.group"
-msgid "Add him to this group"
-msgstr "Agregarlo a este grupo"
-
-#: admin~user.acl.form.add
-msgctxt "admin~user.acl.form.add"
-msgid "Add"
-msgstr "Agregar"
+#: admin~jacl2.lizmap.tools.layer.export
+msgctxt "admin~jacl2.lizmap.tools.layer.export"
+msgid "Allow export of layers"
+msgstr "Permitir exportación de capas"
