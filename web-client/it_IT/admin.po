@@ -4,14 +4,14 @@
 # Paolo Cavallini <cavallini@faunalia.it>, 2016-2017,2019
 # rldhont <rldhont@gmail.com>, 2016
 # Roberto Marzocchi <roberto.marzocchi@gter.it>, 2019
-# Stefano Campus <skampus@gmail.com>, 2018
+# Stefano Campus <skampus@gmail.com>, 2018,2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-23 17:43++0100\n"
-"PO-Revision-Date: 2020-11-23 16:45+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"PO-Revision-Date: 2020-11-24 22:18+0000\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +44,7 @@ msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
 "This option cannot be enable while the sender email is not defined. Please "
 "contact the application administrator."
-msgstr ""
+msgstr "Questa opzione non può essere abilitata se l'email del mittente non è definita. Contatta l'amministratore dell'applicazione."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -170,12 +170,12 @@ msgstr "Cache"
 #: admin~admin.configuration.services.section.emails.label
 msgctxt "admin~admin.configuration.services.section.emails.label"
 msgid "Emails"
-msgstr ""
+msgstr "Email"
 
 #: admin~admin.configuration.services.section.interface.label
 msgctxt "admin~admin.configuration.services.section.interface.label"
 msgid "Interface"
-msgstr ""
+msgstr "Interfaccia"
 
 #: admin~admin.configuration.services.section.projects.label
 msgctxt "admin~admin.configuration.services.section.projects.label"
@@ -185,7 +185,7 @@ msgstr "Progetti"
 #: admin~admin.configuration.services.section.qgis.label
 msgctxt "admin~admin.configuration.services.section.qgis.label"
 msgid "Qgis server"
-msgstr ""
+msgstr "Qgis server"
 
 #: admin~admin.configuration.services.section.system.label
 msgctxt "admin~admin.configuration.services.section.system.label"
@@ -943,7 +943,7 @@ msgstr "Configurazione Lizmap"
 #: admin~admin.menu.lizmap.landingPageContent.label
 msgctxt "admin~admin.menu.lizmap.landingPageContent.label"
 msgid "Landing page content"
-msgstr ""
+msgstr "Contenuto della pagina di destinazione"
 
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
@@ -958,7 +958,7 @@ msgstr "Visualizza messaggi di log"
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
 msgid "Maps management"
-msgstr ""
+msgstr "Gestione mappe"
 
 #: admin~admin.menu.lizmap.theme.label
 msgctxt "admin~admin.menu.lizmap.theme.label"
@@ -983,47 +983,47 @@ msgstr "Configurazione del tema"
 #: admin~admin.upload.image.error.file.bigger
 msgctxt "admin~admin.upload.image.error.file.bigger"
 msgid "The uploaded file exceeds the maximum file size allowed"
-msgstr ""
+msgstr "Il file caricato supera le dimensioni massime permesse"
 
 #: admin~admin.upload.image.error.file.invalid
 msgctxt "admin~admin.upload.image.error.file.invalid"
 msgid "Invalid file"
-msgstr ""
+msgstr "File non valido"
 
 #: admin~admin.upload.image.error.file.missing
 msgctxt "admin~admin.upload.image.error.file.missing"
 msgid "File is missing"
-msgstr ""
+msgstr "Il file è mancante"
 
 #: admin~admin.upload.image.error.file.none
 msgctxt "admin~admin.upload.image.error.file.none"
 msgid "No file was uploaded"
-msgstr ""
+msgstr "Nessun file caricato"
 
 #: admin~admin.upload.image.error.file.onDisk
 msgctxt "admin~admin.upload.image.error.file.onDisk"
 msgid "Failed to write file to disk"
-msgstr ""
+msgstr "Impossibile scrivere il file sul disco"
 
 #: admin~admin.upload.image.error.file.partially
 msgctxt "admin~admin.upload.image.error.file.partially"
 msgid "The uploaded file was only partially uploaded"
-msgstr ""
+msgstr "Il file è stato caricato solo in parte"
 
 #: admin~admin.upload.image.error.file.save
 msgctxt "admin~admin.upload.image.error.file.save"
 msgid "An error occured during the save"
-msgstr ""
+msgstr "C'è stato un errore durante il salvataggio"
 
 #: admin~admin.upload.image.error.file.wrongType
 msgctxt "admin~admin.upload.image.error.file.wrongType"
 msgid "Wrong file type. Only images are allowed"
-msgstr ""
+msgstr "Tipo di file errato. Sono permesse solo le immagini"
 
 #: admin~admin.upload.image.error.missing.temp
 msgctxt "admin~admin.upload.image.error.missing.temp"
 msgid "Missing a temporary folder"
-msgstr ""
+msgstr "Cartella temporanea mancante"
 
 #: admin~jacl2.lizmap.admin.access
 msgctxt "admin~jacl2.lizmap.admin.access"

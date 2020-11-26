@@ -1,5 +1,6 @@
 # 
 # Translators:
+# Dominik Visca <d.visca@posteo.de>, 2020
 # Felix Kuehne <felixdemern@googlemail.com>, 2016
 # Felix Kuehne <felixdemern@googlemail.com>, 2016
 # rldhont <rldhont@gmail.com>, 2016
@@ -8,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-23 17:43++0100\n"
-"PO-Revision-Date: 2020-11-23 16:45+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"PO-Revision-Date: 2020-11-25 12:48+0000\n"
+"Last-Translator: Dominik Visca <d.visca@posteo.de>\n"
 "Language-Team: German (http://www.transifex.com/3liz-1/lizmap-locales/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +43,7 @@ msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
 "This option cannot be enable while the sender email is not defined. Please "
 "contact the application administrator."
-msgstr ""
+msgstr "Diese Option kann nicht aktiviert werden, solange keine Absender-E-Mail-Adresse angegeben ist. Bitte kontaktieren Sie den Administrator."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -67,7 +68,7 @@ msgstr "Anpassen"
 #: admin~admin.configuration.button.modify.theme.label
 msgctxt "admin~admin.configuration.button.modify.theme.label"
 msgid "Modify"
-msgstr "Bearb."
+msgstr "Bearbeiten"
 
 #: admin~admin.configuration.button.remove.repository.confirm.label
 msgctxt "admin~admin.configuration.button.remove.repository.confirm.label"
@@ -97,48 +98,48 @@ msgstr "Verzeichnis"
 #: admin~admin.configuration.services.adminContactEmail.label
 msgctxt "admin~admin.configuration.services.adminContactEmail.label"
 msgid "Administrator e-mail"
-msgstr "Administrator E-Mail"
+msgstr "Administrator-E-Mail"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.help.deactivated
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of Ldap authentication"
-msgstr "Diese Option is deaktiviert aufgrund der Verwendung von Ldap Athetifizierung"
+msgstr "Diese Option ist deaktiviert aufgrund der Verwendung der LDAP-Authentifizierung"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
 msgid "Allow visitors to request an account"
-msgstr "Es Besuchern erlauben, ein Konto anzufordern"
+msgstr "Besuchern erlauben, ein Konto anzufordern"
 
 #: admin~admin.configuration.services.cacheExpiration.label
 msgctxt "admin~admin.configuration.services.cacheExpiration.label"
 msgid "Server cache expiration time(s)"
-msgstr "Server Cache Lebensdauer (s)"
+msgstr "Server-Cache-Lebensdauer (s)"
 
 #: admin~admin.configuration.services.cacheRootDirectory.label
 msgctxt "admin~admin.configuration.services.cacheRootDirectory.label"
 msgid "Cache root directory"
-msgstr "Cache Wurzelverzeichnis"
+msgstr "Cache-Wurzelverzeichnis"
 
 #: admin~admin.configuration.services.cacheStorageType.label
 msgctxt "admin~admin.configuration.services.cacheStorageType.label"
 msgid "Server cache storage type"
-msgstr "Server Cache - Art der Speicherung"
+msgstr "Server-Cache - Art der Speicherung"
 
 #: admin~admin.configuration.services.debugMode.label
 msgctxt "admin~admin.configuration.services.debugMode.label"
 msgid "Debug mode"
-msgstr "Debug Modus"
+msgstr "Debug-Modus"
 
 #: admin~admin.configuration.services.defaultProject.label
 msgctxt "admin~admin.configuration.services.defaultProject.label"
 msgid "Default project"
-msgstr "Standard Projekt"
+msgstr "Standard-Projekt"
 
 #: admin~admin.configuration.services.defaultRepository.label
 msgctxt "admin~admin.configuration.services.defaultRepository.label"
 msgid "Default repository"
-msgstr "Standars Verzeichnis"
+msgstr "Standard-Verzeichnis"
 
 #: admin~admin.configuration.services.label
 msgctxt "admin~admin.configuration.services.label"
@@ -153,7 +154,7 @@ msgstr "Nur Karten"
 #: admin~admin.configuration.services.qgisServerVersion.label
 msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
 msgid "QGIS server version"
-msgstr "QGIS Server Version"
+msgstr "QGIS Server-Version"
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
@@ -163,17 +164,17 @@ msgstr "Wurzelordner der Verzeichnisse"
 #: admin~admin.configuration.services.section.cache.label
 msgctxt "admin~admin.configuration.services.section.cache.label"
 msgid "Cache"
-msgstr "Zwischenspeicher"
+msgstr "Cache"
 
 #: admin~admin.configuration.services.section.emails.label
 msgctxt "admin~admin.configuration.services.section.emails.label"
 msgid "Emails"
-msgstr ""
+msgstr "E-Mails"
 
 #: admin~admin.configuration.services.section.interface.label
 msgctxt "admin~admin.configuration.services.section.interface.label"
 msgid "Interface"
-msgstr ""
+msgstr "Schnittstelle"
 
 #: admin~admin.configuration.services.section.projects.label
 msgctxt "admin~admin.configuration.services.section.projects.label"
@@ -183,7 +184,7 @@ msgstr "Projekte"
 #: admin~admin.configuration.services.section.qgis.label
 msgctxt "admin~admin.configuration.services.section.qgis.label"
 msgid "Qgis server"
-msgstr ""
+msgstr "QGIS Server"
 
 #: admin~admin.configuration.services.section.system.label
 msgctxt "admin~admin.configuration.services.section.system.label"
@@ -193,27 +194,27 @@ msgstr "System"
 #: admin~admin.configuration.services.wmsMaxHeight.label
 msgctxt "admin~admin.configuration.services.wmsMaxHeight.label"
 msgid "Maximum Height for GetMap request"
-msgstr "Maximale Höhe für GetMap Anfrage"
+msgstr "Maximale Höhe für GetMap-Anfrage"
 
 #: admin~admin.configuration.services.wmsMaxWidth.label
 msgctxt "admin~admin.configuration.services.wmsMaxWidth.label"
 msgid "Maximum Witdh for GetMap request"
-msgstr "Maximale Breite für GetMap Anfrage"
+msgstr "Maximale Breite für GetMap-Anfrage"
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
 msgid "WMS subdomain URLs list (optional)"
-msgstr "WMS Subdomain URL-List (optional)"
+msgstr "WMS-Subdomain-URL-Liste (optional)"
 
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
 msgid "WMS server URL"
-msgstr "WMS-Server URL"
+msgstr "WMS-Server-URL"
 
 #: admin~admin.form.admin_section.data.label
 msgctxt "admin~admin.form.admin_section.data.label"
 msgid "Data config:"
-msgstr "Daten Konfiguration:"
+msgstr "Daten-Konfiguration:"
 
 #: admin~admin.form.admin_section.grouplist.label
 msgctxt "admin~admin.form.admin_section.grouplist.label"
@@ -279,7 +280,7 @@ msgstr "Das angegebene Verzeichnis existiert nicht."
 msgctxt ""
 "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
 msgid "Allow themes/javascript codes for this repository"
-msgstr "Für dieses Verzeichnis eigene Themen/Javascript Code erlauben"
+msgstr "Für dieses Verzeichnis eigene Themen/Javascript-Code erlauben"
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
@@ -304,26 +305,26 @@ msgstr "Speichern"
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
 msgid "E-mail address to which notifications will be sent"
-msgstr "E-Mail Adresse an die Benachrichtigungen gesendet werden"
+msgstr "E-Mail-Adresse an die Benachrichtigungen gesendet werden"
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
 msgid "E-mail where to send notifications"
-msgstr "E-Mail Adresse an die Benachrichtigungen gesendet werden sollen"
+msgstr "E-Mail-Adresse an die Benachrichtigungen gesendet werden sollen"
 
 #: admin~admin.form.admin_services.adminSenderEmail.error.required
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
 msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
-msgstr "Eine E-Mail Adresse wird benötigt um Benachrichtigungen oder Anfragen zur Account-Erstellung zu senden"
+msgstr "Eine E-Mail-Adresse wird benötigt, um Benachrichtigungen oder Anfragen zur Account-Erstellung zu senden"
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "E-Mail Adresse die zur Versendung von E-Mails genutzt wird. Wenn leer werden keine Emails von Lizmap versendet. Bitte vergewissern Sie sich, dass Ihr Server das Versenden von E-Mails von dieser Adresse erlaubt. "
+msgstr "E-Mail-Adresse die zur Versendung von E-Mails genutzt wird. Wenn leer werden keine E-Mails von Lizmap versendet. Bitte vergewissern Sie sich, dass Ihr Server das Versenden von E-Mails von dieser Adresse erlaubt. "
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
@@ -345,7 +346,7 @@ msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
 msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
-msgstr "Wenn eingeschaltet kann der Besucher ein Formular zur Beantragung eines Accounts ausfüllen. Eine Absender Adresse für E-Mails muss vorhanden sein.  "
+msgstr "Wenn eingeschaltet kann der Besucher ein Formular zur Beantragung eines Accounts ausfüllen. Eine Absenderadresse für E-Mails muss vorhanden sein.  "
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
@@ -367,7 +368,7 @@ msgstr "0 bedeutet unbegrenzte Lebenszeit, geben Sie andernfalls eine Ganzzahl i
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
 msgid "Server cache expiration time(s)"
-msgstr "Server Cache Lebensdauer (s)"
+msgstr "Server-Cache-Lebensdauer (s)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.help
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
@@ -941,7 +942,7 @@ msgstr "Lizmap Konfiguration"
 #: admin~admin.menu.lizmap.landingPageContent.label
 msgctxt "admin~admin.menu.lizmap.landingPageContent.label"
 msgid "Landing page content"
-msgstr ""
+msgstr "Inhalt der Startseite"
 
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
@@ -956,7 +957,7 @@ msgstr "Logs anzeigen"
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
 msgid "Maps management"
-msgstr ""
+msgstr "Kartenverwaltung"
 
 #: admin~admin.menu.lizmap.theme.label
 msgctxt "admin~admin.menu.lizmap.theme.label"
@@ -981,47 +982,47 @@ msgstr "Layout-Themen Konfiguration"
 #: admin~admin.upload.image.error.file.bigger
 msgctxt "admin~admin.upload.image.error.file.bigger"
 msgid "The uploaded file exceeds the maximum file size allowed"
-msgstr ""
+msgstr "Die hochgeladene Datei überschreitet die maximal zulässige Dateigröße"
 
 #: admin~admin.upload.image.error.file.invalid
 msgctxt "admin~admin.upload.image.error.file.invalid"
 msgid "Invalid file"
-msgstr ""
+msgstr "Ungültige Datei"
 
 #: admin~admin.upload.image.error.file.missing
 msgctxt "admin~admin.upload.image.error.file.missing"
 msgid "File is missing"
-msgstr ""
+msgstr "Datei fehlt"
 
 #: admin~admin.upload.image.error.file.none
 msgctxt "admin~admin.upload.image.error.file.none"
 msgid "No file was uploaded"
-msgstr ""
+msgstr "Es wurde keine Datei hochgeladen"
 
 #: admin~admin.upload.image.error.file.onDisk
 msgctxt "admin~admin.upload.image.error.file.onDisk"
 msgid "Failed to write file to disk"
-msgstr ""
+msgstr "Fehler beim Speichern der Datei"
 
 #: admin~admin.upload.image.error.file.partially
 msgctxt "admin~admin.upload.image.error.file.partially"
 msgid "The uploaded file was only partially uploaded"
-msgstr ""
+msgstr "Die hochgeladene Datei wurde nur teilweise hochgeladen"
 
 #: admin~admin.upload.image.error.file.save
 msgctxt "admin~admin.upload.image.error.file.save"
 msgid "An error occured during the save"
-msgstr ""
+msgstr "Es ist ein Fehler beim Speichern aufgetreten"
 
 #: admin~admin.upload.image.error.file.wrongType
 msgctxt "admin~admin.upload.image.error.file.wrongType"
 msgid "Wrong file type. Only images are allowed"
-msgstr ""
+msgstr "Falscher Dateityp. Es sind nur Bilder erlaubt"
 
 #: admin~admin.upload.image.error.missing.temp
 msgctxt "admin~admin.upload.image.error.missing.temp"
 msgid "Missing a temporary folder"
-msgstr ""
+msgstr "Es fehlt ein temporäres Verzeichnis"
 
 #: admin~jacl2.lizmap.admin.access
 msgctxt "admin~jacl2.lizmap.admin.access"

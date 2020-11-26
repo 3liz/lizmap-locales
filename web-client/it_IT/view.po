@@ -2,16 +2,17 @@
 # Translators:
 # Alessandro Fanna <alex@rospus.org>, 2016
 # Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2018
-# Paolo Cavallini <cavallini@faunalia.it>, 2016-2017,2019
+# Paolo Cavallini <cavallini@faunalia.it>, 2016-2017,2019-2020
 # rldhont <rldhont@gmail.com>, 2016
 # rldhont <rldhont@gmail.com>, 2016
+# Stefano Campus <skampus@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-23 17:43++0100\n"
-"PO-Revision-Date: 2020-11-23 16:45+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"PO-Revision-Date: 2020-11-24 22:27+0000\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,12 +43,12 @@ msgstr "Amministrazione"
 #: view~default.header.search.input.title
 msgctxt "view~default.header.search.input.title"
 msgid "Type to filter your maps."
-msgstr ""
+msgstr "Digita per filtrare le tue mappe."
 
 #: view~default.header.search.toggleKeywordsTitle.title
 msgctxt "view~default.header.search.toggleKeywordsTitle.title"
 msgid "Toggle keywords/title search."
-msgstr ""
+msgstr "Attiva ricerca per parole chiave/titolo."
 
 #: view~default.home.title
 msgctxt "view~default.home.title"
@@ -77,7 +78,7 @@ msgstr "Chiudi"
 #: view~default.project.keywordList.label
 msgctxt "view~default.project.keywordList.label"
 msgid "Keyword list"
-msgstr ""
+msgstr "Lista delle parole chiave"
 
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
@@ -339,7 +340,7 @@ msgstr "Minimizza"
 #: view~dictionnary.digitizing.confirme.erase
 msgctxt "view~dictionnary.digitizing.confirme.erase"
 msgid "Are you sure you want to delete all features?"
-msgstr ""
+msgstr "Sei sicuro di voler eliminare tutti gli elementi?"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -354,7 +355,7 @@ msgstr "Cerchio"
 #: view~dictionnary.digitizing.toolbar.color
 msgctxt "view~dictionnary.digitizing.toolbar.color"
 msgid "Pick draw color"
-msgstr ""
+msgstr "Scegli il colore del disegno"
 
 #: view~dictionnary.digitizing.toolbar.deactivate
 msgctxt "view~dictionnary.digitizing.toolbar.deactivate"
@@ -364,12 +365,12 @@ msgstr "Disattiva"
 #: view~dictionnary.digitizing.toolbar.drawTools
 msgctxt "view~dictionnary.digitizing.toolbar.drawTools"
 msgid "Draw tools"
-msgstr ""
+msgstr "Strumenti di disegno"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
 msgid "Delete all features"
-msgstr ""
+msgstr "Elimina tutti gli elementi"
 
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
@@ -379,17 +380,17 @@ msgstr "A mano libera"
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
 msgid "Import in GeoJSON, GPX or KML"
-msgstr ""
+msgstr "Importa in GeoJSON, GPX o KML "
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
 msgid "Line"
-msgstr ""
+msgstr "Linea"
 
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
 msgid "Point"
-msgstr ""
+msgstr "Punto"
 
 #: view~dictionnary.digitizing.toolbar.polygon
 msgctxt "view~dictionnary.digitizing.toolbar.polygon"
@@ -455,12 +456,12 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr ""
+msgstr "Devi compilare correttamente il modulo per creare un nuovo elemento dopo aver diviso la geometria"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
 msgid "A technical error occurs. Split cannot be done."
-msgstr ""
+msgstr "Errore tecnico. La divisione non può essere eseguita."
 
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
@@ -550,7 +551,7 @@ msgstr "Per creare un segnalibro è richiesto un nome."
 #: view~dictionnary.geolocate.infos.accuracy
 msgctxt "view~dictionnary.geolocate.infos.accuracy"
 msgid "Accuracy (m)"
-msgstr ""
+msgstr "Accuratezza (m)"
 
 #: view~dictionnary.geolocate.toolbar.bind
 msgctxt "view~dictionnary.geolocate.toolbar.bind"
@@ -575,7 +576,7 @@ msgstr "Stop"
 #: view~dictionnary.geolocate.toolbar.waiting
 msgctxt "view~dictionnary.geolocate.toolbar.waiting"
 msgid "Waiting"
-msgstr ""
+msgstr "In attesa"
 
 #: view~dictionnary.geolocation.failed
 msgctxt "view~dictionnary.geolocation.failed"
@@ -585,7 +586,7 @@ msgstr "Rilevamento della posizione fallito"
 #: view~dictionnary.geolocation.survey.accuracy
 msgctxt "view~dictionnary.geolocation.survey.accuracy"
 msgid "Accuracy"
-msgstr ""
+msgstr "Accuratezza"
 
 #: view~dictionnary.geolocation.survey.average
 msgctxt "view~dictionnary.geolocation.survey.average"
@@ -595,17 +596,17 @@ msgstr "Media"
 #: view~dictionnary.geolocation.survey.distance
 msgctxt "view~dictionnary.geolocation.survey.distance"
 msgid "Distance"
-msgstr ""
+msgstr "Distanza"
 
 #: view~dictionnary.geolocation.survey.time
 msgctxt "view~dictionnary.geolocation.survey.time"
 msgid "Time"
-msgstr ""
+msgstr "Ora"
 
 #: view~dictionnary.geolocation.survey.title
 msgctxt "view~dictionnary.geolocation.survey.title"
 msgid "Survey"
-msgstr ""
+msgstr "Indagine"
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
@@ -675,7 +676,7 @@ msgstr "Zoom all'estensione del layer"
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
 msgid "Click on the map to start measuring an angle."
-msgstr ""
+msgstr "Clicca sulla mappa per misurare un angolo."
 
 #: view~dictionnary.measure.activate.area
 msgctxt "view~dictionnary.measure.activate.area"
@@ -705,7 +706,7 @@ msgstr "Posizione del mouse"
 #: view~dictionnary.mouseposition.removeCenterPoint
 msgctxt "view~dictionnary.mouseposition.removeCenterPoint"
 msgid "Remove center point"
-msgstr ""
+msgstr "Rimuovi punto centrale"
 
 #: view~dictionnary.mouseposition.select
 msgctxt "view~dictionnary.mouseposition.select"
@@ -750,12 +751,12 @@ msgstr "Clicca sulla mappa per ottenere informazioni."
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
 msgid "Compact tables"
-msgstr ""
+msgstr "Compatta tabelle"
 
 #: view~dictionnary.popup.table.explode
 msgctxt "view~dictionnary.popup.table.explode"
 msgid "Explode tables"
-msgstr ""
+msgstr "Esplodi tabelle"
 
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
@@ -765,7 +766,7 @@ msgstr "Posiziona il rettangolo per la stampa"
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
-msgstr ""
+msgstr "Imposta etichette personalizzate per la stampa"
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -790,7 +791,7 @@ msgstr "Filtro"
 #: view~dictionnary.selectiontool.toolbar.action.invert
 msgctxt "view~dictionnary.selectiontool.toolbar.action.invert"
 msgid "Invert selection"
-msgstr ""
+msgstr "Inverti la selezione"
 
 #: view~dictionnary.selectiontool.toolbar.action.type.minus
 msgctxt "view~dictionnary.selectiontool.toolbar.action.type.minus"
@@ -815,12 +816,12 @@ msgstr "Deseleziona tutto"
 #: view~dictionnary.selectiontool.toolbar.buffer
 msgctxt "view~dictionnary.selectiontool.toolbar.buffer"
 msgid "Buffer"
-msgstr ""
+msgstr "Buffer"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator"
 msgid "Geometric operators"
-msgstr ""
+msgstr "Operatori geometrici"
 
 #: view~dictionnary.selectiontool.toolbar.layer
 msgctxt "view~dictionnary.selectiontool.toolbar.layer"
@@ -845,12 +846,12 @@ msgstr "Esporta"
 #: view~dictionnary.switcher.layer.export.warn
 msgctxt "view~dictionnary.switcher.layer.export.warn"
 msgid "Please select a single layer to export"
-msgstr ""
+msgstr "Scegli un solo layer per l'esportazione"
 
 #: view~dictionnary.switcherLayersActions.themeSelector.title
 msgctxt "view~dictionnary.switcherLayersActions.themeSelector.title"
 msgid "Select theme"
-msgstr ""
+msgstr "Scegli il tema"
 
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
@@ -994,7 +995,7 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Non puoi collegare elementi multipli ad entrambe i layers. Per favore scegli solo un oggetti per uno dei layer e riprova."
+msgstr "Non puoi collegare elementi multipli ad entrambi i layer. Per favore scegli solo un oggetti per uno dei layer e riprova."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1014,7 +1015,7 @@ msgstr "Modifica attributo non è disponibile per il layer \"%s\""
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table."
-msgstr "I layers non sono stati configurati in modo da avere una tabella degli attrubuti."
+msgstr "I layer non sono stati configurati in modo da avere una tabella degli attributi."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
@@ -1039,7 +1040,7 @@ msgstr "La bbox deve avere 4 numeri separati da ','"
 #: view~edition.message.error.constraint
 msgctxt "view~edition.message.error.constraint"
 msgid "%s: check failed"
-msgstr ""
+msgstr "%s: controllo fallito"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
@@ -1059,7 +1060,7 @@ msgstr "Impossibile eliminare."
 #: view~edition.message.error.feature.editable
 msgctxt "view~edition.message.error.feature.editable"
 msgid "The feature is not editable."
-msgstr ""
+msgstr "L'elemento non è editabile."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -1135,7 +1136,7 @@ msgstr "Il campo \"%s\" directory del layer \"%s\" per caricare elementi multime
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
 msgid "Constraint: %s"
-msgstr ""
+msgstr "Vincolo: %s"
 
 #: view~edition.message.success.create
 msgctxt "view~edition.message.success.create"
@@ -1200,22 +1201,22 @@ msgstr "Y:"
 #: view~edition.segment.angle.label
 msgctxt "view~edition.segment.angle.label"
 msgid "Angle (°):"
-msgstr ""
+msgstr "Angolo (°): "
 
 #: view~edition.segment.length.label
 msgctxt "view~edition.segment.length.label"
 msgid "Length (m):"
-msgstr ""
+msgstr "Lunghezza (m)"
 
 #: view~edition.tab.digitization.title
 msgctxt "view~edition.tab.digitization.title"
 msgid "Digitization"
-msgstr ""
+msgstr "Digitalizzazione"
 
 #: view~edition.tab.form.title
 msgctxt "view~edition.tab.form.title"
 msgid "Form"
-msgstr ""
+msgstr "Modulo"
 
 #: view~edition.toolbar.cancel.title
 msgctxt "view~edition.toolbar.cancel.title"
@@ -1340,7 +1341,7 @@ msgstr "Mantieni"
 #: view~edition.upload.choice.update
 msgctxt "view~edition.upload.choice.update"
 msgid "Add/Update"
-msgstr ""
+msgstr "Aggiungi/Aggiorna"
 
 #: view~map.attributeLayers.navbar.title
 msgctxt "view~map.attributeLayers.navbar.title"
@@ -1460,7 +1461,7 @@ msgstr "Misura"
 #: view~map.measure.toolbar.angle
 msgctxt "view~map.measure.toolbar.angle"
 msgid "Angle"
-msgstr ""
+msgstr "Angolo"
 
 #: view~map.measure.toolbar.area
 msgctxt "view~map.measure.toolbar.area"

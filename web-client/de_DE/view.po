@@ -1,6 +1,7 @@
 # 
 # Translators:
 # Bernasocchi <marco@opengis.ch>, 2017
+# Dominik Visca <d.visca@posteo.de>, 2020
 # Felix Kuehne <felixdemern@googlemail.com>, 2016,2019
 # Felix Kuehne <felixdemern@googlemail.com>, 2016
 # Laurent Jouanneau <dev@ljouanneau.com>, 2019
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-23 17:43++0100\n"
-"PO-Revision-Date: 2020-11-23 16:45+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"PO-Revision-Date: 2020-11-25 12:52+0000\n"
+"Last-Translator: Dominik Visca <d.visca@posteo.de>\n"
 "Language-Team: German (http://www.transifex.com/3liz-1/lizmap-locales/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +40,7 @@ msgstr "Abmelden"
 #: view~default.header.menuitem.admin.label
 msgctxt "view~default.header.menuitem.admin.label"
 msgid "Administration"
-msgstr "Administration/Verwaltung"
+msgstr "Administration"
 
 #: view~default.header.search.input.title
 msgctxt "view~default.header.search.input.title"
@@ -341,7 +342,7 @@ msgstr "Minimieren"
 #: view~dictionnary.digitizing.confirme.erase
 msgctxt "view~dictionnary.digitizing.confirme.erase"
 msgid "Are you sure you want to delete all features?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie alle Feature löschen wollen?"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -371,7 +372,7 @@ msgstr ""
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
 msgid "Delete all features"
-msgstr ""
+msgstr "Alle Feature löschen"
 
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
@@ -381,7 +382,7 @@ msgstr "Freihändig"
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
 msgid "Import in GeoJSON, GPX or KML"
-msgstr ""
+msgstr "GeoJSON, GPX oder KML importieren"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -462,7 +463,7 @@ msgstr ""
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
 msgid "A technical error occurs. Split cannot be done."
-msgstr ""
+msgstr "Ein technischer Fehler ist aufgetreten. Das Teilen konnte nicht ausgeführt werden"
 
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
@@ -577,7 +578,7 @@ msgstr "Stopp"
 #: view~dictionnary.geolocate.toolbar.waiting
 msgctxt "view~dictionnary.geolocate.toolbar.waiting"
 msgid "Waiting"
-msgstr ""
+msgstr "Warten"
 
 #: view~dictionnary.geolocation.failed
 msgctxt "view~dictionnary.geolocation.failed"
@@ -677,7 +678,7 @@ msgstr "Auf den Layer zoomen"
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
 msgid "Click on the map to start measuring an angle."
-msgstr ""
+msgstr "Klicken Sie in die Karte, um das Messen eines Winkels zu starten."
 
 #: view~dictionnary.measure.activate.area
 msgctxt "view~dictionnary.measure.activate.area"
@@ -792,7 +793,7 @@ msgstr "Filtrieren"
 #: view~dictionnary.selectiontool.toolbar.action.invert
 msgctxt "view~dictionnary.selectiontool.toolbar.action.invert"
 msgid "Invert selection"
-msgstr ""
+msgstr "Auswahl umkehren"
 
 #: view~dictionnary.selectiontool.toolbar.action.type.minus
 msgctxt "view~dictionnary.selectiontool.toolbar.action.type.minus"
@@ -837,7 +838,7 @@ msgstr "Auswahl"
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
-msgstr ""
+msgstr "Fangen"
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -847,12 +848,12 @@ msgstr "Exportieren"
 #: view~dictionnary.switcher.layer.export.warn
 msgctxt "view~dictionnary.switcher.layer.export.warn"
 msgid "Please select a single layer to export"
-msgstr ""
+msgstr "Bitte wählen Sie einen Layer für den Export aus"
 
 #: view~dictionnary.switcherLayersActions.themeSelector.title
 msgctxt "view~dictionnary.switcherLayersActions.themeSelector.title"
 msgid "Select theme"
-msgstr ""
+msgstr "Thema auswählen"
 
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
@@ -1061,7 +1062,7 @@ msgstr "Löschen fehlgeschlagen."
 #: view~edition.message.error.feature.editable
 msgctxt "view~edition.message.error.feature.editable"
 msgid "The feature is not editable."
-msgstr ""
+msgstr "Das Feature kann nicht bearbeitet werden."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -1212,7 +1213,7 @@ msgstr "Länge (m):"
 #: view~edition.tab.digitization.title
 msgctxt "view~edition.tab.digitization.title"
 msgid "Digitization"
-msgstr ""
+msgstr "Digitalisieren"
 
 #: view~edition.tab.form.title
 msgctxt "view~edition.tab.form.title"
@@ -1402,7 +1403,7 @@ msgstr "Minimieren"
 #: view~map.draw.navbar.title
 msgctxt "view~map.draw.navbar.title"
 msgid "Draw"
-msgstr ""
+msgstr "Zeichnen"
 
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"
