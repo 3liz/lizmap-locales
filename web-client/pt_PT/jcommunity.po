@@ -1,8 +1,8 @@
 # 
 # Translators:
 # João Gaspar <joao.f.r.gaspar@gmail.com>, 2019
-# José Macau <jose.macau@gmail.com>, 2020
 # Laurent Jouanneau <dev@ljouanneau.com>, 2020
+# José Macau <jose.macau@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-23 17:43++0100\n"
 "PO-Revision-Date: 2018-06-02 13:00+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2020\n"
+"Last-Translator: José Macau <jose.macau@gmail.com>, 2020\n"
 "Language-Team: Portuguese (https://www.transifex.com/3liz-1/teams/62012/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -538,7 +538,7 @@ msgstr "<p>Foi enviado um e-mail ao utilizador.</p>"
 #: jcommunity~password.change.cmdline.error.change
 msgctxt "jcommunity~password.change.cmdline.error.change"
 msgid "An unknown error happened during password change."
-msgstr ""
+msgstr "Ocorreu um erro desconhecido durante a alteração da senha."
 
 #: jcommunity~password.change.cmdline.error.defined
 msgctxt "jcommunity~password.change.cmdline.error.defined"
@@ -546,38 +546,46 @@ msgid ""
 "The password of this user is already defined, please use the '--force' flag "
 "to override it."
 msgstr ""
+"A palavra-passe deste utilizador já está definida, utilize a opção '--force'"
+" para substituí-la."
 
 #: jcommunity~password.change.cmdline.error.module
 msgctxt "jcommunity~password.change.cmdline.error.module"
 msgid ""
 "This user uses another authentication module, we cannot change his password."
 msgstr ""
+"Este utilizador possui um outro módulo de autenticação, não é possível "
+"alterar sua senha."
 
 #: jcommunity~password.change.cmdline.error.unknown
 msgctxt "jcommunity~password.change.cmdline.error.unknown"
 msgid "Unknown user, please submit a valid user as a parameter."
-msgstr ""
+msgstr "Utilizador desconhecido, enviar um utilizador válido como parâmetro."
 
 #: jcommunity~password.change.cmdline.help.description
 msgctxt "jcommunity~password.change.cmdline.help.description"
 msgid "Changes the password of an user."
-msgstr ""
+msgstr "Altera a senha de um utilizador."
 
 #: jcommunity~password.change.cmdline.help.option.force
 msgctxt "jcommunity~password.change.cmdline.help.option.force"
 msgid "override password if password is already defined."
-msgstr ""
+msgstr "substituir a palavra-passe se esta já se encontrar definida."
 
 #: jcommunity~password.change.cmdline.help.parameter.login
 msgctxt "jcommunity~password.change.cmdline.help.parameter.login"
 msgid "The user login."
 msgstr ""
+" \n"
+"O login do utilizador."
 
 #: jcommunity~password.change.cmdline.help.parameter.password
 msgctxt "jcommunity~password.change.cmdline.help.parameter.password"
 msgid ""
 "The new password to set. If not given, a random password will be defined."
 msgstr ""
+" \n"
+"A nova palavra-passe a ser definida. Se não for fornecida, uma palavra-passe aleatória será definida."
 
 #: jcommunity~password.change.cmdline.help.text
 msgctxt "jcommunity~password.change.cmdline.help.text"
