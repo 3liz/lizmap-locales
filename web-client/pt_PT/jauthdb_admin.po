@@ -1,15 +1,15 @@
 # 
 # Translators:
 # João Gaspar <joao.f.r.gaspar@gmail.com>, 2016
-# José Macau <jose.macau@gmail.com>, 2017-2018
+# José Macau <jose.macau@gmail.com>, 2017-2018,2020
 # Rui <xymarior@yandex.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-23 17:43++0100\n"
-"PO-Revision-Date: 2019-03-19 17:01+0000\n"
-"Last-Translator: Rui <xymarior@yandex.com>\n"
+"PO-Revision-Date: 2020-12-24 20:53+0000\n"
+"Last-Translator: José Macau <jose.macau@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +30,7 @@ msgstr "Confirmar"
 #: jauthdb_admin~crud.confirm.deletion
 msgctxt "jauthdb_admin~crud.confirm.deletion"
 msgid "Are you sure to want to delete this user ?"
-msgstr "Tem a certeza que deseja excluir este utilizador?"
+msgstr "Eliminar mesmo este utilizador?"
 
 #: jauthdb_admin~crud.confirm.password
 msgctxt "jauthdb_admin~crud.confirm.password"
@@ -55,7 +55,7 @@ msgstr "Utilizador"
 #: jauthdb_admin~crud.form.new.password
 msgctxt "jauthdb_admin~crud.form.new.password"
 msgid "Type the new password"
-msgstr "Digite a nova palavra-passe"
+msgstr "Digitar a nova palavra-passe"
 
 #: jauthdb_admin~crud.form.password
 msgctxt "jauthdb_admin~crud.form.password"
@@ -65,7 +65,7 @@ msgstr "Palavra-passe"
 #: jauthdb_admin~crud.form.password.confirm
 msgctxt "jauthdb_admin~crud.form.password.confirm"
 msgid "Re-type the password"
-msgstr "Digite de novo a palavra-passe"
+msgstr "Digitar de novo a palavra-passe"
 
 #: jauthdb_admin~crud.form.random.password
 msgctxt "jauthdb_admin~crud.form.random.password"
@@ -80,7 +80,7 @@ msgstr "Guardar"
 #: jauthdb_admin~crud.link.change.password
 msgctxt "jauthdb_admin~crud.link.change.password"
 msgid "Change his password"
-msgstr "Altere a sua palavra-passe"
+msgstr "Alterar a palavra-passe"
 
 #: jauthdb_admin~crud.link.create.record
 msgctxt "jauthdb_admin~crud.link.create.record"
@@ -137,7 +137,7 @@ msgstr "A palavra-passe não é válida, ou a segunda palavra-passe não corresp
 #: jauthdb_admin~crud.message.change.password.notok
 msgctxt "jauthdb_admin~crud.message.change.password.notok"
 msgid "Error during the change of the password"
-msgstr "Erro durante a mudança da palavra-passe"
+msgstr "Erro durante a alteração da palavra-passe"
 
 #: jauthdb_admin~crud.message.change.password.ok
 msgctxt "jauthdb_admin~crud.message.change.password.ok"
@@ -157,17 +157,17 @@ msgstr "O utilizador %s foi criado."
 #: jauthdb_admin~crud.message.delete.invalid.pwd
 msgctxt "jauthdb_admin~crud.message.delete.invalid.pwd"
 msgid "Your password is wrong, the user has not been deleted."
-msgstr "A sua palavra-passe está incorreta, o utilizador não foi excluído."
+msgstr "A palavra-passe está incorreta, o utilizador não foi eliminado."
 
 #: jauthdb_admin~crud.message.delete.notok
 msgctxt "jauthdb_admin~crud.message.delete.notok"
 msgid "Sorry, the user has not been deleted."
-msgstr "Desculpe, o utilizador não foi apagado."
+msgstr "O utilizador não foi eliminado."
 
 #: jauthdb_admin~crud.message.delete.ok
 msgctxt "jauthdb_admin~crud.message.delete.ok"
 msgid "The user %s has been deleted."
-msgstr "O utilizador %s foi excluído."
+msgstr "O utilizador %s foi eliminado."
 
 #: jauthdb_admin~crud.message.update.ok
 msgctxt "jauthdb_admin~crud.message.update.ok"
@@ -182,7 +182,7 @@ msgstr "Criar novo utilizador"
 #: jauthdb_admin~crud.title.delete
 msgctxt "jauthdb_admin~crud.title.delete"
 msgid "Delete the user:"
-msgstr "Excluir o utilizador:"
+msgstr "Eliminar o utilizador:"
 
 #: jauthdb_admin~crud.title.list
 msgctxt "jauthdb_admin~crud.title.list"
@@ -237,7 +237,7 @@ msgstr "Utilizador"
 #: jauthdb_admin~user.form.new.password
 msgctxt "jauthdb_admin~user.form.new.password"
 msgid "Type the new password"
-msgstr "Digite a nova palavra-passe"
+msgstr "Digitar a nova palavra-passe"
 
 #: jauthdb_admin~user.form.password
 msgctxt "jauthdb_admin~user.form.password"
@@ -247,7 +247,7 @@ msgstr "Palavra-passe"
 #: jauthdb_admin~user.form.password.confirm
 msgctxt "jauthdb_admin~user.form.password.confirm"
 msgid "Re-type the password"
-msgstr "Digite de novo a palavra-passe"
+msgstr "Digitar de novo a palavra-passe"
 
 #: jauthdb_admin~user.form.random.password
 msgctxt "jauthdb_admin~user.form.random.password"
@@ -262,7 +262,7 @@ msgstr "Guardar"
 #: jauthdb_admin~user.link.change.password
 msgctxt "jauthdb_admin~user.link.change.password"
 msgid "Change your password"
-msgstr "Altere a sua palavra-passe"
+msgstr "Alterar a palavra-passe"
 
 #: jauthdb_admin~user.link.edit.record
 msgctxt "jauthdb_admin~user.link.edit.record"
@@ -299,27 +299,27 @@ msgstr "Erro durante a alteração da palavra-passe"
 #: jauthdb_admin~user.message.change.password.ok
 msgctxt "jauthdb_admin~user.message.change.password.ok"
 msgid "Your password has been changed."
-msgstr "A sua palavra-passe foi alterada."
+msgstr "A palavra-passe foi alterada."
 
 #: jauthdb_admin~user.message.update.ok
 msgctxt "jauthdb_admin~user.message.update.ok"
 msgid "Your profile has been updated."
-msgstr "O seu perfil foi atualizado."
+msgstr "O perfil foi atualizado."
 
 #: jauthdb_admin~user.title.password
 msgctxt "jauthdb_admin~user.title.password"
 msgid "Change your password"
-msgstr "Altere a sua palavra-passe"
+msgstr "Alterar a palavra-passe"
 
 #: jauthdb_admin~user.title.update
 msgctxt "jauthdb_admin~user.title.update"
 msgid "Edit your profile"
-msgstr "Editar o seu perfil"
+msgstr "Editar o perfil"
 
 #: jauthdb_admin~user.title.view
 msgctxt "jauthdb_admin~user.title.view"
 msgid "Details of your profile"
-msgstr "Detalhes do seu perfil"
+msgstr "Detalhes do perfil"
 
 #: jauthdb_admin~user.view.otherinfo
 msgctxt "jauthdb_admin~user.view.otherinfo"
@@ -329,4 +329,4 @@ msgstr "Outras informações"
 #: jauthdb_admin~user.view.primaryinfo
 msgctxt "jauthdb_admin~user.view.primaryinfo"
 msgid "Information on your profile"
-msgstr "Informação sobre o seu perfil"
+msgstr "Informação sobre o perfil"

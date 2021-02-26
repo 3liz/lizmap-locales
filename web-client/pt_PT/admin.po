@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-23 17:43++0100\n"
-"PO-Revision-Date: 2020-11-30 20:46+0000\n"
+"PO-Revision-Date: 2020-12-24 23:12+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: admin~admin.cache.button.remove.repository.cache.confirm.label
 msgctxt "admin~admin.cache.button.remove.repository.cache.confirm.label"
 msgid "Would you like to empty the cache for this repository?"
-msgstr "Gostaria de esvaziar a cache deste repositório?"
+msgstr "Esvaziar a cache deste repositório?"
 
 #: admin~admin.cache.button.remove.repository.cache.label
 msgctxt "admin~admin.cache.button.remove.repository.cache.label"
@@ -44,7 +44,7 @@ msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
 "This option cannot be enable while the sender email is not defined. Please "
 "contact the application administrator."
-msgstr " Esta opção não pode ser ativada enquanto o e-mail do remetente não estiver definido. Entre em contacto com o administrador do sistema."
+msgstr " Esta opção não pode ser ativada enquanto o e-mail do remetente não estiver definido. Entrar em contacto com o administrador do sistema."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -74,7 +74,7 @@ msgstr "Modificar"
 #: admin~admin.configuration.button.remove.repository.confirm.label
 msgctxt "admin~admin.configuration.button.remove.repository.confirm.label"
 msgid "Would you like to remove this repository?"
-msgstr "Deseja eliminar este repositório?"
+msgstr "Eliminar este repositório?"
 
 #: admin~admin.configuration.button.remove.repository.label
 msgctxt "admin~admin.configuration.button.remove.repository.label"
@@ -105,7 +105,7 @@ msgstr "E-mail do administrador"
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of Ldap authentication"
-msgstr "Esta opção está desativada devido à utilização de autenticação Ldap"
+msgstr "Esta opção está desativada devido à utilização de autenticação LDAP"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -240,7 +240,7 @@ msgstr "Modificar o repositório"
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
 msgid "You can now configure the rights for this repository."
-msgstr "Agora pode configurar as permissões para este repositório."
+msgstr "Agora é possível configurar as permissões para este repositório."
 
 #: admin~admin.form.admin_section.message.data.removed
 msgctxt "admin~admin.form.admin_section.message.data.removed"
@@ -265,7 +265,7 @@ msgstr "Os dados do repositório foram guardados."
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
 msgid "The path given for the repository is not authorized."
-msgstr "O caminho dado para o repositório não está autorizado."
+msgstr "O caminho fornecido para o repositório não está autorizado."
 
 #: admin~admin.form.admin_section.message.path.wrong
 msgctxt "admin~admin.form.admin_section.message.path.wrong"
@@ -275,7 +275,7 @@ msgstr "O caminho fornecido para o repositório não existe no servidor."
 #: admin~admin.form.admin_section.message.repository.wrong
 msgctxt "admin~admin.form.admin_section.message.repository.wrong"
 msgid "The repository's id given does not exist."
-msgstr "O ID do repositório facultado não existe."
+msgstr "O ID do repositório fornecido não existe."
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
 msgctxt ""
@@ -325,7 +325,7 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "Endereço de e-mail utilizado para enviar e-mails. Se vazio, nenhum e-mail será enviado pelo Lizmap. Certifique-se de que o seu servidor tenha permissão para enviar e-mails com esse endereço."
+msgstr "Endereço de e-mail utilizado para enviar e-mails. Se vazio, nenhum e-mail será enviado pelo Lizmap. É necessário confirmar se o servidor tem permissão para enviar e-mails com esse endereço."
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
@@ -418,7 +418,7 @@ msgstr "Porta Redis"
 #: admin~admin.form.admin_services.cacheRootDirectory.help
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.help"
 msgid "Choose a writable directory where to store cache files."
-msgstr "Escolha um diretório gravável para armazenar os arquivos de cache"
+msgstr "Escolher um diretório com permissões de escrita para armazenar os arquivos de cache"
 
 #: admin~admin.form.admin_services.cacheRootDirectory.label
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.label"
@@ -497,7 +497,7 @@ msgstr "O tempo de expiração da cache no servidor deve ser um número inteiro 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
 msgid "The directory does not exists or is not writable. You can use: %s"
-msgstr "O diretório não existe ou não é gravável. Pode utilizar: %s"
+msgstr "O diretório não existe ou não tem permissões de escrita. É possível utilizar: %s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -587,7 +587,7 @@ msgstr "Domínios para os quais o proxy não será utilizado"
 #: admin~admin.form.admin_services.requestProxyPassword.label
 msgctxt "admin~admin.form.admin_services.requestProxyPassword.label"
 msgid "Password to access to the proxy server"
-msgstr "Password de acesso ao servidor proxy"
+msgstr "Palavra-passe de acesso ao servidor proxy"
 
 #: admin~admin.form.admin_services.requestProxyPort.label
 msgctxt "admin~admin.form.admin_services.requestProxyPort.label"
@@ -651,7 +651,7 @@ msgstr "Sim"
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
-msgstr "Pode escrever quaisquer sintaxes CSS para substituir estilos do Lizmap (utilizadores avançados)"
+msgstr "É possível escrever quaisquer sintaxes CSS para substituir estilos do Lizmap (utilizadores avançados)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
@@ -841,7 +841,7 @@ msgstr "Esvaziar"
 #: admin~admin.logs.empty.confirm
 msgctxt "admin~admin.logs.empty.confirm"
 msgid "Are you sure to want to empty the log content?"
-msgstr "Tem a certeza que pretende esvaziar o conteúdo dos registos?"
+msgstr "Esvaziar mesmo o conteúdo dos registos?"
 
 #: admin~admin.logs.empty.ok
 msgctxt "admin~admin.logs.empty.ok"
@@ -856,7 +856,7 @@ msgstr "Apagar o ficheiro de registo de erros"
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
 msgid "Are you sure you want to erase the error log file ?"
-msgstr "Têm a certeza que pretende apagar o ficheiro de registo de erros?"
+msgstr "Apagar mesmo o ficheiro de registo de erros?"
 
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
@@ -868,7 +868,7 @@ msgctxt "admin~admin.logs.error.file.too.big"
 msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
-msgstr "O ficheiro de registo de erros é demasiado grande. Considere utilizar a rotação de registos para o Lizmap Web Client."
+msgstr "O ficheiro de registo de erros é demasiado grande. Considerar a utilização de rotação de registos para o Lizmap Web Client."
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
