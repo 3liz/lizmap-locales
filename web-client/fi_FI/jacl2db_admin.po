@@ -4,9 +4,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.3.12-pre\n"
+"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.3.14-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-23 15:31++0100\n"
+"POT-Creation-Date: 2021-02-26 12:08++0100\n"
 "PO-Revision-Date: 2019-05-27 13:12+0000\n"
 "Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2019\n"
 "Language-Team: Finnish (https://www.transifex.com/3liz-1/teams/62012/fi/)\n"
@@ -58,8 +58,8 @@ msgstr "Resurssit"
 
 #: jacl2db_admin~acl2.col.resulting
 msgctxt "jacl2db_admin~acl2.col.resulting"
-msgid "Resulting rights"
-msgstr "Johtuvat oikeudet"
+msgid "Resulting rights for"
+msgstr ""
 
 #: jacl2db_admin~acl2.col.subjects
 msgctxt "jacl2db_admin~acl2.col.subjects"
@@ -116,30 +116,22 @@ msgctxt "jacl2db_admin~acl2.global.rights"
 msgid "global"
 msgstr "globaali"
 
-#: jacl2db_admin~acl2.group.help.rights.inherit
-msgctxt "jacl2db_admin~acl2.group.help.rights.inherit"
-msgid "\"-\": undefined right, it can be defined in other groups of the user"
+#: jacl2db_admin~acl2.group.help.rights.forbidden
+msgctxt "jacl2db_admin~acl2.group.help.rights.forbidden"
+msgid "forbidden right, even if an other group of the user authorizes it"
 msgstr ""
-"\"-\": määrittelemätön oikeus, se voidaan määrittää käyttäjän muissa "
-"ryhmissä"
 
 #: jacl2db_admin~acl2.group.help.rights.no
 msgctxt "jacl2db_admin~acl2.group.help.rights.no"
 msgid ""
-"\"no\": the right is not assign to this group, and to any other groups of "
-"the user."
+"right not authorized by default, but it can be authorized in other groups of"
+" a user"
 msgstr ""
-"\"ei\": oikeutta ei ole osoitettu tälle ryhmälle, eikä käyttäjän muulle "
-"ryhmällekään."
 
 #: jacl2db_admin~acl2.group.help.rights.yes
 msgctxt "jacl2db_admin~acl2.group.help.rights.yes"
-msgid ""
-"\"yes\": indicate that the right is set, but can be canceled (\"no\") in an "
-"other group"
+msgid "authorized right, but it can be forbidden in an other group of a user"
 msgstr ""
-"\"kyllä\": osoittaa että oikeudet on asetettu, mutta voi olla peruutettu "
-"(\"ei\") toisessa ryhmässä"
 
 #: jacl2db_admin~acl2.group.name.id
 msgctxt "jacl2db_admin~acl2.group.name.id"
@@ -155,6 +147,21 @@ msgstr "Nimike:"
 msgctxt "jacl2db_admin~acl2.group.rightres.title"
 msgid "Rights on resources for the group"
 msgstr "Ryhmän oikeudet resursseihin"
+
+#: jacl2db_admin~acl2.group.rights.forbidden
+msgctxt "jacl2db_admin~acl2.group.rights.forbidden"
+msgid "forbidden"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.rights.no
+msgctxt "jacl2db_admin~acl2.group.rights.no"
+msgid "no"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.rights.yes
+msgctxt "jacl2db_admin~acl2.group.rights.yes"
+msgid "yes"
+msgstr ""
 
 #: jacl2db_admin~acl2.groups.change.rights.link
 msgctxt "jacl2db_admin~acl2.groups.change.rights.link"

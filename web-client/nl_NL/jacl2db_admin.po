@@ -6,9 +6,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.3.12-pre\n"
+"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.3.14-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-23 15:31++0100\n"
+"POT-Creation-Date: 2021-02-26 12:08++0100\n"
 "PO-Revision-Date: 2019-05-27 13:12+0000\n"
 "Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2019\n"
 "Language-Team: Dutch (https://www.transifex.com/3liz-1/teams/62012/nl/)\n"
@@ -60,8 +60,8 @@ msgstr "Werkmiddelen"
 
 #: jacl2db_admin~acl2.col.resulting
 msgctxt "jacl2db_admin~acl2.col.resulting"
-msgid "Resulting rights"
-msgstr "Bekomen rechten"
+msgid "Resulting rights for"
+msgstr ""
 
 #: jacl2db_admin~acl2.col.subjects
 msgctxt "jacl2db_admin~acl2.col.subjects"
@@ -118,30 +118,22 @@ msgctxt "jacl2db_admin~acl2.global.rights"
 msgid "global"
 msgstr "globaal"
 
-#: jacl2db_admin~acl2.group.help.rights.inherit
-msgctxt "jacl2db_admin~acl2.group.help.rights.inherit"
-msgid "\"-\": undefined right, it can be defined in other groups of the user"
+#: jacl2db_admin~acl2.group.help.rights.forbidden
+msgctxt "jacl2db_admin~acl2.group.help.rights.forbidden"
+msgid "forbidden right, even if an other group of the user authorizes it"
 msgstr ""
-"\"-\": niet gedefinieerde machtiging, kan worden bepaald onder andere "
-"groepen van de gebruiker"
 
 #: jacl2db_admin~acl2.group.help.rights.no
 msgctxt "jacl2db_admin~acl2.group.help.rights.no"
 msgid ""
-"\"no\": the right is not assign to this group, and to any other groups of "
-"the user."
+"right not authorized by default, but it can be authorized in other groups of"
+" a user"
 msgstr ""
-"\"nee\": het recht is niet toegewezen aan deze groep, maar aan andere "
-"groepen van de gebruiker."
 
 #: jacl2db_admin~acl2.group.help.rights.yes
 msgctxt "jacl2db_admin~acl2.group.help.rights.yes"
-msgid ""
-"\"yes\": indicate that the right is set, but can be canceled (\"no\") in an "
-"other group"
+msgid "authorized right, but it can be forbidden in an other group of a user"
 msgstr ""
-"\"ja\": geef aan dat het recht ingesteld is, maar kan worden geannuleerd "
-"(\"nee\") in een andere groep"
 
 #: jacl2db_admin~acl2.group.name.id
 msgctxt "jacl2db_admin~acl2.group.name.id"
@@ -157,6 +149,21 @@ msgstr "Etiket:"
 msgctxt "jacl2db_admin~acl2.group.rightres.title"
 msgid "Rights on resources for the group"
 msgstr "Rechten op middelen voor de groep"
+
+#: jacl2db_admin~acl2.group.rights.forbidden
+msgctxt "jacl2db_admin~acl2.group.rights.forbidden"
+msgid "forbidden"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.rights.no
+msgctxt "jacl2db_admin~acl2.group.rights.no"
+msgid "no"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.rights.yes
+msgctxt "jacl2db_admin~acl2.group.rights.yes"
+msgid "yes"
+msgstr ""
 
 #: jacl2db_admin~acl2.groups.change.rights.link
 msgctxt "jacl2db_admin~acl2.groups.change.rights.link"

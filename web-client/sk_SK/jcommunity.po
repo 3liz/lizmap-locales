@@ -1,14 +1,14 @@
 # 
 # Translators:
-# Majky Beast <maros.michalov@hrdlicka.sk>, 2020
+# Majky Beast <maros.michalov@hrdlicka.sk>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client jcommunity 3.3.12-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-23 16:09++0100\n"
+"POT-Creation-Date: 2020-11-23 17:39++0100\n"
 "PO-Revision-Date: 2019-05-27 13:12+0000\n"
-"Last-Translator: Majky Beast <maros.michalov@hrdlicka.sk>, 2020\n"
+"Last-Translator: Majky Beast <maros.michalov@hrdlicka.sk>, 2021\n"
 "Language-Team: Slovak (https://www.transifex.com/3liz-1/teams/62012/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -538,7 +538,7 @@ msgstr "<p>oužívateľovi bol odoslaný e-mail.</p>"
 #: jcommunity~password.change.cmdline.error.change
 msgctxt "jcommunity~password.change.cmdline.error.change"
 msgid "An unknown error happened during password change."
-msgstr ""
+msgstr "Počas zmeny hesla sa stala neznáma chyba."
 
 #: jcommunity~password.change.cmdline.error.defined
 msgctxt "jcommunity~password.change.cmdline.error.defined"
@@ -546,43 +546,49 @@ msgid ""
 "The password of this user is already defined, please use the '--force' flag "
 "to override it."
 msgstr ""
+"Heslo tohto používateľa je už definované. Na jeho prepísanie použite príznak"
+" „--force“."
 
 #: jcommunity~password.change.cmdline.error.module
 msgctxt "jcommunity~password.change.cmdline.error.module"
 msgid ""
 "This user uses another authentication module, we cannot change his password."
 msgstr ""
+"Tento používateľ používa iný autentifikačný modul, nemôžeme zmeniť jeho "
+"heslo."
 
 #: jcommunity~password.change.cmdline.error.unknown
 msgctxt "jcommunity~password.change.cmdline.error.unknown"
 msgid "Unknown user, please submit a valid user as a parameter."
-msgstr ""
+msgstr "Neznámy používateľ, zadajte platného používateľa ako parameter."
 
 #: jcommunity~password.change.cmdline.help.description
 msgctxt "jcommunity~password.change.cmdline.help.description"
 msgid "Changes the password of an user."
-msgstr ""
+msgstr "Mení heslo používateľa."
 
 #: jcommunity~password.change.cmdline.help.option.force
 msgctxt "jcommunity~password.change.cmdline.help.option.force"
 msgid "override password if password is already defined."
-msgstr ""
+msgstr "prepísať heslo, ak je heslo už definované."
 
 #: jcommunity~password.change.cmdline.help.parameter.login
 msgctxt "jcommunity~password.change.cmdline.help.parameter.login"
 msgid "The user login."
-msgstr ""
+msgstr "Prihlásenie používateľa."
 
 #: jcommunity~password.change.cmdline.help.parameter.password
 msgctxt "jcommunity~password.change.cmdline.help.parameter.password"
 msgid ""
 "The new password to set. If not given, a random password will be defined."
 msgstr ""
+"Nové heslo, ktoré sa má nastaviť. Pokiaľ nebude zadané, bude definované "
+"náhodné heslo."
 
 #: jcommunity~password.change.cmdline.help.text
 msgctxt "jcommunity~password.change.cmdline.help.text"
 msgid "The password can be given otherwise it will be defined randomly."
-msgstr ""
+msgstr "Heslo je možné zadať inak, bude definované náhodne."
 
 #: jcommunity~password.change.cmdline.help.usage
 msgctxt "jcommunity~password.change.cmdline.help.usage"
@@ -590,11 +596,13 @@ msgid ""
 "usage: php cmdline.php jcommunity~reset_pass:change [--force] login "
 "[password]"
 msgstr ""
+"použitie: php cmdline.php jcommunity ~ reset_pass: zmena [--force] "
+"prihlásenie [heslo]"
 
 #: jcommunity~password.change.cmdline.success
 msgctxt "jcommunity~password.change.cmdline.success"
 msgid "Password changed successfully."
-msgstr ""
+msgstr "Heslo bolo úspešne zmenené."
 
 #: jcommunity~password.form.change.current.password.label
 msgctxt "jcommunity~password.form.change.current.password.label"
@@ -773,27 +781,28 @@ msgstr "Žiadosť o obnovenie hesla dňa%s"
 #: jcommunity~password.reset.cmdline.error
 msgctxt "jcommunity~password.reset.cmdline.error"
 msgid "There was an error during the password resetting."
-msgstr ""
+msgstr "Počas obnovovania hesla sa vyskytla chyba."
 
 #: jcommunity~password.reset.cmdline.help.description
 msgctxt "jcommunity~password.reset.cmdline.help.description"
 msgid "Send an email with a password reset link to an user."
-msgstr ""
+msgstr "Pošlite e-mail používateľovi s odkazom na obnovenie hesla."
 
 #: jcommunity~password.reset.cmdline.help.parameter.login
 msgctxt "jcommunity~password.reset.cmdline.help.parameter.login"
 msgid "the user's login"
-msgstr ""
+msgstr "prihlasovacie údaje používateľa"
 
 #: jcommunity~password.reset.cmdline.help.usage
 msgctxt "jcommunity~password.reset.cmdline.help.usage"
 msgid "usage: php cmdline.php jcommunity~reset_pass:reset login"
 msgstr ""
+"použitie: php cmdline.php jcommunity ~ reset_pass: vynulovať prihlásenie"
 
 #: jcommunity~password.reset.cmdline.mail.undefined
 msgctxt "jcommunity~password.reset.cmdline.mail.undefined"
 msgid "User's email is not defined."
-msgstr ""
+msgstr "E-mail používateľa nie je definovaný."
 
 #: jcommunity~password.waiting.text.html
 msgctxt "jcommunity~password.waiting.text.html"
@@ -862,37 +871,37 @@ msgstr "Vytvorenie účtu: znova pošlite overovací e-mail"
 #: jcommunity~register.cmdline.create.help.description
 msgctxt "jcommunity~register.cmdline.create.help.description"
 msgid "Creates a new user account"
-msgstr ""
+msgstr "Vytvorí nový používateľský účet"
 
 #: jcommunity~register.cmdline.create.help.option.admin
 msgctxt "jcommunity~register.cmdline.create.help.option.admin"
 msgid "add the new user to \"admins\" group"
-msgstr ""
+msgstr "pridať nového používateľa do skupiny „správcovia“"
 
 #: jcommunity~register.cmdline.create.help.option.noerror
 msgctxt "jcommunity~register.cmdline.create.help.option.noerror"
 msgid "Do not output an error if the user already exists"
-msgstr ""
+msgstr "Nevypisujte chybu, ak používateľ už existuje"
 
 #: jcommunity~register.cmdline.create.help.option.reset
 msgctxt "jcommunity~register.cmdline.create.help.option.reset"
 msgid "generates a reset link and send it to email"
-msgstr ""
+msgstr "vygeneruje resetovací odkaz a odošle ho na e-mail"
 
 #: jcommunity~register.cmdline.create.help.option.verbose
 msgctxt "jcommunity~register.cmdline.create.help.option.verbose"
 msgid "enable verbose mode"
-msgstr ""
+msgstr "povoliť podrobný režim"
 
 #: jcommunity~register.cmdline.create.help.parameter.email
 msgctxt "jcommunity~register.cmdline.create.help.parameter.email"
 msgid "The new user's email"
-msgstr ""
+msgstr "E-mail nového používateľa"
 
 #: jcommunity~register.cmdline.create.help.parameter.login
 msgctxt "jcommunity~register.cmdline.create.help.parameter.login"
 msgid "The new user's login"
-msgstr ""
+msgstr "Prihlásenie nového používateľa"
 
 #: jcommunity~register.cmdline.create.help.parameter.password
 msgctxt "jcommunity~register.cmdline.create.help.parameter.password"
@@ -900,6 +909,8 @@ msgid ""
 "The new user's password, if not defined and '--reset' flag is not given, the"
 " password will be generated randomly and reported via the command line"
 msgstr ""
+"Ak nie je definované nové heslo používateľa a nie je zadaný príznak "
+"„--reset“, heslo sa vygeneruje náhodne a nahlási sa z príkazového riadku."
 
 #: jcommunity~register.cmdline.create.help.text
 msgctxt "jcommunity~register.cmdline.create.help.text"
@@ -908,6 +919,9 @@ msgid ""
 " so the user can define it himself. It the user already exists, it fails, "
 "unless you give the option '--no-error-if-exists'."
 msgstr ""
+"Heslo je možné zadať, zadať náhodne alebo token poslať e-mailom, aby si ho "
+"používateľ mohol definovať sám. Ak používateľ už existuje, zlyhá, pokiaľ mu "
+"nedáte možnosť „--žiadna-chyba-ak-existuje“."
 
 #: jcommunity~register.cmdline.create.help.usage
 msgctxt "jcommunity~register.cmdline.create.help.usage"
@@ -915,11 +929,13 @@ msgid ""
 "php cmdline.php jcommunity~user:create [-v] [--admin] [--reset] login email "
 "[password]"
 msgstr ""
+"php cmdline.php jcommunity ~ užívateľ: vytvoriť [-v] [--admin] [--reset] "
+"prihlasovací e-mail [heslo]"
 
 #: jcommunity~register.email.bad.format
 msgctxt "jcommunity~register.email.bad.format"
 msgid "Wrong email format"
-msgstr ""
+msgstr "Nesprávny formát e-mailu"
 
 #: jcommunity~register.form.create.submit
 msgctxt "jcommunity~register.form.create.submit"
@@ -955,7 +971,7 @@ msgstr "Aktivácia vášho účtu na webovej stránke%s"
 #: jcommunity~register.registration.cmdline.ok
 msgctxt "jcommunity~register.registration.cmdline.ok"
 msgid "User successfully created."
-msgstr ""
+msgstr "Používateľ bol úspešne vytvorený."
 
 #: jcommunity~register.registration.confirm.alreadydone
 msgctxt "jcommunity~register.registration.confirm.alreadydone"

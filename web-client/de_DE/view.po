@@ -5,14 +5,15 @@
 # Felix Kuehne <felixdemern@googlemail.com>, 2019
 # Laurent Jouanneau <dev@ljouanneau.com>, 2019
 # Georges Moes <g.moes@naturemwelt.lu>, 2020
+# Dominik Visca <d.visca@posteo.de>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client view 3.3.12-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-23 15:31++0100\n"
+"POT-Creation-Date: 2020-11-23 17:39++0100\n"
 "PO-Revision-Date: 2019-05-27 13:12+0000\n"
-"Last-Translator: Georges Moes <g.moes@naturemwelt.lu>, 2020\n"
+"Last-Translator: Dominik Visca <d.visca@posteo.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/3liz-1/teams/62012/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 #: view~default.header.connect
 msgctxt "view~default.header.connect"
 msgid "Connect"
-msgstr "Verbinden"
+msgstr "Anmelden"
 
 #: view~default.header.createAccount
 msgctxt "view~default.header.createAccount"
@@ -38,7 +39,7 @@ msgstr "Abmelden"
 #: view~default.header.menuitem.admin.label
 msgctxt "view~default.header.menuitem.admin.label"
 msgid "Administration"
-msgstr "Administration/Verwaltung"
+msgstr "Administration"
 
 #: view~default.home.title
 msgctxt "view~default.home.title"
@@ -58,7 +59,7 @@ msgstr "Zugang zu diesem Projekt verweigert."
 #: view~default.project.bbox.label
 msgctxt "view~default.project.bbox.label"
 msgid "Bounding Box"
-msgstr "Zeichnungsausschnitt"
+msgstr "Kartenausdehnung"
 
 #: view~default.project.close.map.metadata
 msgctxt "view~default.project.close.map.metadata"
@@ -68,7 +69,7 @@ msgstr "Schliessen"
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
 msgid "Load the map"
-msgstr "Karte Laden"
+msgstr "Karte laden"
 
 #: view~default.project.open.map.metadata
 msgctxt "view~default.project.open.map.metadata"
@@ -205,7 +206,7 @@ msgstr "Exportieren"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
 msgid "Filter"
-msgstr "Filtrieren"
+msgstr "Filtern"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.hide.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.hide.title"
@@ -226,7 +227,7 @@ msgstr "Ausgewähltes Element nach oben bewegen"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
 msgid "Get data"
-msgstr "Daten Laden"
+msgstr "Daten laden"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.show.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
@@ -246,12 +247,12 @@ msgstr "Detail"
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
 msgid "Refresh"
-msgstr "Neu Laden"
+msgstr "Neu laden"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
 msgid "Refresh the table data."
-msgstr "Tabelle neu Laden"
+msgstr "Tabelle neu laden"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
 msgctxt ""
@@ -274,7 +275,7 @@ msgstr "Untertabellen umschalten"
 #: view~dictionnary.attributeLayers.toolbar.cb.data.detail.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.cb.data.detail.title"
 msgid "Display info"
-msgstr "Informationen Einblenden"
+msgstr "Informationen einblenden"
 
 #: view~dictionnary.attributeLayers.toolbar.input.search.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.title"
@@ -332,8 +333,8 @@ msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
 msgstr ""
-"Möchten sie die Bearbeitung wirklich verlassen? Alle Änderungen an dem "
-"aktuell bearbeiteten Objekt gehen verloren."
+"Möchten Sie die Bearbeitung wirklich beenden? Alle Änderungen an dem aktuell"
+" bearbeiteten Objekt gehen verloren."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -362,7 +363,7 @@ msgid ""
 " the map."
 msgstr ""
 "Sie können dieses Objekt nicht ohne Geometrie speichern. Bitte zeichnen Sie "
-"die Geometrie auf der Karte"
+"die Geometrie in der Karte."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -447,7 +448,7 @@ msgstr "In diesem Feld suchen"
 #: view~dictionnary.filter.input.text.title
 msgctxt "view~dictionnary.filter.input.text.title"
 msgid "Type some text to search inside this field"
-msgstr "Text eingeben um in diesem Feld zu Suchen"
+msgstr "Text eingeben um in diesem Feld zu suchen"
 
 #: view~dictionnary.filter.label.features
 msgctxt "view~dictionnary.filter.label.features"
@@ -527,7 +528,7 @@ msgstr "Transparenz"
 #: view~dictionnary.layer.metadata.style.title
 msgctxt "view~dictionnary.layer.metadata.style.title"
 msgid "Change layer style"
-msgstr "Layer Stil ändern"
+msgstr "Layer-Stil ändern"
 
 #: view~dictionnary.layer.metadata.title
 msgctxt "view~dictionnary.layer.metadata.title"
@@ -537,7 +538,7 @@ msgstr "Information"
 #: view~dictionnary.layer.metadata.zoomToExtent.title
 msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
 msgid "Zoom to layer extent"
-msgstr "Auf Ebenenausmaße zoomen"
+msgstr "Auf Ebenenausdehnung zoomen"
 
 #: view~dictionnary.measure.activate.area
 msgctxt "view~dictionnary.measure.activate.area"
@@ -623,7 +624,7 @@ msgstr "Dokumentation öffnen"
 #: view~dictionnary.tree.button.removeCache
 msgctxt "view~dictionnary.tree.button.removeCache"
 msgid "Remove cache server for this layer"
-msgstr "Cache Server für diesen Layer entfernen"
+msgstr "Cache-Server für diesen Layer entfernen"
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
@@ -741,13 +742,13 @@ msgstr "Angegebene(s) Felde(r) existier(en/t) nicht."
 #: view~edition.link.error.no.modify.attributes
 msgctxt "view~edition.link.error.no.modify.attributes"
 msgid "Modify attributes for the layer \"%s\" is not available."
-msgstr "Attribute ändern ist für den Layer \"\" nicht verfügbar."
+msgstr "Attribute ändern ist für den Layer \"%s\" nicht verfügbar."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table."
 msgstr ""
-"Die Ebenen sind nicht dafür konfiguriert eine Attributtabelle zu besitzen."
+"Die Ebenen sind nicht dafür konfiguriert, eine Attributtabelle zu besitzen."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
@@ -768,8 +769,8 @@ msgstr "Ausgewählte Objekte wurden erfolgreich verlinkt."
 msgctxt "view~edition.message.error.bbox"
 msgid "The bbox has to be 4 floats separated by ','."
 msgstr ""
-"Der Zeichnungsausschnitt muss aus 4 Zahlen (mit Nachkommastellen) bestehen, "
-"getrennt durch ','."
+"Die Kartenausdehnung muss aus 4 Gleitkommazahlen bestehen, getrennt durch "
+"\",\"."
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
@@ -779,7 +780,9 @@ msgstr "Beim Erstellen des Projektes ist ein Fehler aufgetreten"
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
 msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr "crs ist zwingend notwendig und muss eine Ganzzahl oder EPSG:* sein."
+msgstr ""
+"Koordinatensystem ist zwingend notwendig und muss eine Ganzzahl oder EPSG:* "
+"sein."
 
 #: view~edition.message.error.delete
 msgctxt "view~edition.message.error.delete"
@@ -836,7 +839,7 @@ msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
 msgstr ""
-"Lizmap kann den Primärschlüssel des Layers \"%s\" nicht finden! Zum "
+"Lizmap kann den Primärschlüssel des Layers \"%s\" nicht finden. Zum "
 "Editieren muss in der Tabelle ein Primärschlüssel definiert sein."
 
 #: view~edition.message.error.save
@@ -894,7 +897,7 @@ msgstr "Hinzufügen"
 #: view~edition.point.coord.crs.label
 msgctxt "view~edition.point.coord.crs.label"
 msgid "CRS:"
-msgstr "Koord:"
+msgstr "Koordinatensystem:"
 
 #: view~edition.point.coord.finalize.label
 msgctxt "view~edition.point.coord.finalize.label"
@@ -909,7 +912,7 @@ msgstr "mit Standort verbunden"
 #: view~edition.point.coord.title
 msgctxt "view~edition.point.coord.title"
 msgid "Manage point/vertex coordinates"
-msgstr "Punkt/Scheitel Koordinaten Verwalten"
+msgstr "Punkt/Scheitel-Koordinaten verwalten"
 
 #: view~edition.point.coord.x.label
 msgctxt "view~edition.point.coord.x.label"
@@ -954,7 +957,7 @@ msgstr "Speichern"
 #: view~edition.toolbar.draw.save.tooltip
 msgctxt "view~edition.toolbar.draw.save.tooltip"
 msgid "Finalize the current drawing."
-msgstr "Aktuelle Zeichnung anschließen."
+msgstr "Aktuelle Zeichnung abschließen."
 
 #: view~edition.toolbar.draw.title
 msgctxt "view~edition.toolbar.draw.title"
@@ -964,17 +967,17 @@ msgstr "Hinzufügen"
 #: view~edition.toolbar.draw.tooltip
 msgctxt "view~edition.toolbar.draw.tooltip"
 msgid "Activate the tool for creating new objects."
-msgstr "Werkzeug zum erstellen neuer Objekte aktivieren."
+msgstr "Werkzeug zum Erstellen neuer Objekte aktivieren."
 
 #: view~edition.toolbar.select.attr.title
 msgctxt "view~edition.toolbar.select.attr.title"
 msgid "Modify"
-msgstr "Bearb."
+msgstr "Bearbeiten"
 
 #: view~edition.toolbar.select.attr.tooltip
 msgctxt "view~edition.toolbar.select.attr.tooltip"
 msgid "Validate the geometry and/or open the attribute form."
-msgstr "Gemometrie validieren und/oder Attributformular öffnen."
+msgstr "Geometrie validieren und/oder Attributformular öffnen."
 
 #: view~edition.toolbar.select.delete.title
 msgctxt "view~edition.toolbar.select.delete.title"
@@ -999,7 +1002,7 @@ msgstr "Auswahlwerkzeug aktivieren."
 #: view~edition.toolbar.select.undo.title
 msgctxt "view~edition.toolbar.select.undo.title"
 msgid "Undo"
-msgstr "Rückg."
+msgstr "Rückgängig"
 
 #: view~edition.toolbar.select.undo.tooltip
 msgctxt "view~edition.toolbar.select.undo.tooltip"
@@ -1079,7 +1082,7 @@ msgstr "Grundlayer"
 #: view~map.bottomdock.toolbar.btn.clear.title
 msgctxt "view~map.bottomdock.toolbar.btn.clear.title"
 msgid "Close"
-msgstr "Schliessen"
+msgstr "Schließen"
 
 #: view~map.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~map.bottomdock.toolbar.btn.glue.activate.title"
@@ -1274,7 +1277,7 @@ msgstr "Information"
 #: view~map.metadata.properties.extent
 msgctxt "view~map.metadata.properties.extent"
 msgid "Extent"
-msgstr "Ausschnitt"
+msgstr "Ausdehnung"
 
 #: view~map.metadata.properties.projection
 msgctxt "view~map.metadata.properties.projection"
@@ -1354,7 +1357,7 @@ msgstr "per Rechteck zoomen"
 #: view~map.navbar.zoomextent.hover
 msgctxt "view~map.navbar.zoomextent.hover"
 msgid "Zoom to initial map extent"
-msgstr "An anfangs Masstab zoomen"
+msgstr "Zur Start-Ausdehnung zoomen"
 
 #: view~map.navbar.zoomin.hover
 msgctxt "view~map.navbar.zoomin.hover"
@@ -1374,7 +1377,7 @@ msgstr "Übersicht ein-/ausblenden"
 #: view~map.overviewbar.scaleline.hover
 msgctxt "view~map.overviewbar.scaleline.hover"
 msgid "Scale bar"
-msgstr "Maßstab-Feld"
+msgstr "Maßstabsleiste"
 
 #: view~map.overviewbar.scaletext.hover
 msgctxt "view~map.overviewbar.scaletext.hover"
@@ -1394,7 +1397,7 @@ msgstr "Rechteck bewegen, um sich in der Karte zu bewegen"
 #: view~map.permalink.embed.size.large
 msgctxt "view~map.permalink.embed.size.large"
 msgid "Large"
-msgstr "Groß"
+msgstr "groß"
 
 #: view~map.permalink.embed.size.medium
 msgctxt "view~map.permalink.embed.size.medium"
@@ -1419,7 +1422,7 @@ msgstr "Einbetten"
 #: view~map.permalink.embed.tab.title
 msgctxt "view~map.permalink.embed.tab.title"
 msgid "Embed the current map"
-msgstr "Die aktuelle Karte Einbetten"
+msgstr "Die aktuelle Karte einbetten"
 
 #: view~map.permalink.geobookmark.button.add
 msgctxt "view~map.permalink.geobookmark.button.add"
@@ -1469,7 +1472,7 @@ msgstr "Teilen"
 #: view~map.permalink.share.tab.title
 msgctxt "view~map.permalink.share.tab.title"
 msgid "Share the link to current map"
-msgstr "Link in der aktuellen Karte Teilen"
+msgstr "Link in der aktuellen Karte teilen"
 
 #: view~map.permalink.toolbar.title
 msgctxt "view~map.permalink.toolbar.title"
@@ -1539,7 +1542,7 @@ msgstr "Auswahl"
 #: view~map.selectiontool.toolbar.action.filter
 msgctxt "view~map.selectiontool.toolbar.action.filter"
 msgid "Filter"
-msgstr "Filtrieren"
+msgstr "Filtern"
 
 #: view~map.selectiontool.toolbar.action.type.minus
 msgctxt "view~map.selectiontool.toolbar.action.type.minus"
@@ -1609,7 +1612,7 @@ msgstr "Information"
 #: view~map.switcher.layer.style.title
 msgctxt "view~map.switcher.layer.style.title"
 msgid "Change layer style"
-msgstr "Layer Stil ändern"
+msgstr "Layer-Stil ändern"
 
 #: view~map.switcher.layer.unfilter.title
 msgctxt "view~map.switcher.layer.unfilter.title"
@@ -1629,7 +1632,7 @@ msgstr "Alle einklappen"
 #: view~map.switcher.layers.expand.title
 msgctxt "view~map.switcher.layers.expand.title"
 msgid "Expand all"
-msgstr "Alle Ausklappen"
+msgstr "Alle ausklappen"
 
 #: view~map.switchermenu.title
 msgctxt "view~map.switchermenu.title"
@@ -1639,7 +1642,7 @@ msgstr "Ebenen"
 #: view~map.timemanager.navbar.title
 msgctxt "view~map.timemanager.navbar.title"
 msgid "Time Manager"
-msgstr "Zeit Manager"
+msgstr "Zeit-Manager"
 
 #: view~map.timemanager.toolbar.next
 msgctxt "view~map.timemanager.toolbar.next"
@@ -1669,12 +1672,12 @@ msgstr "Zeit Manager"
 #: view~map.title.h1
 msgctxt "view~map.title.h1"
 msgid "Lizmap Web Client"
-msgstr "Lizmap Webanwendung"
+msgstr "Lizmap Web Client"
 
 #: view~map.title.h2
 msgctxt "view~map.title.h2"
 msgid "Qgis Server Demo"
-msgstr "Qgis Server Beispiel"
+msgstr "QGIS Server Demo"
 
 #: view~map.toolbar.content.stop
 msgctxt "view~map.toolbar.content.stop"
