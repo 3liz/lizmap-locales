@@ -4,9 +4,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.2.18-pre\n"
+"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.2.19-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-23 12:04++0100\n"
+"POT-Creation-Date: 2021-02-26 14:27++0100\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: Petr Tsymbarovich <petr@tsymbarovich.ru>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/3liz-1/teams/62012/ru/)\n"
@@ -136,26 +136,37 @@ msgctxt "jacl2db_admin~acl2.table.th.rights"
 msgid "Rights"
 msgstr "Права"
 
-#: jacl2db_admin~acl2.group.help.rights.inherit
-msgctxt "jacl2db_admin~acl2.group.help.rights.inherit"
-msgid "\"-\": undefined right, it can be defined in other groups of the user"
-msgstr ""
-"\"-\": право неопределенно, может быть установлено в других группах "
-"пользователя"
-
-#: jacl2db_admin~acl2.group.help.rights.yes
-msgctxt "jacl2db_admin~acl2.group.help.rights.yes"
-msgid ""
-"\"yes\": indicate that the right is set, but can be canceled (\"no\") in an "
-"other group"
-msgstr "\"да\": право установлено, но может быть переопределено в другой группе"
-
 #: jacl2db_admin~acl2.group.help.rights.no
 msgctxt "jacl2db_admin~acl2.group.help.rights.no"
 msgid ""
-"\"no\": the right is not assign to this group, and to any other groups of "
-"the user."
-msgstr "\"нет\": нет права ни в этой, ни в какой-либо другой группе пользователя"
+"right not authorized by default, but it can be authorized in other groups of"
+" a user"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.help.rights.yes
+msgctxt "jacl2db_admin~acl2.group.help.rights.yes"
+msgid "authorized right, but it can be forbidden in an other group of a user"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.help.rights.forbidden
+msgctxt "jacl2db_admin~acl2.group.help.rights.forbidden"
+msgid "forbidden right, even if an other group of the user authorizes it"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.rights.forbidden
+msgctxt "jacl2db_admin~acl2.group.rights.forbidden"
+msgid "forbidden"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.rights.yes
+msgctxt "jacl2db_admin~acl2.group.rights.yes"
+msgid "yes"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.rights.no
+msgctxt "jacl2db_admin~acl2.group.rights.no"
+msgid "no"
+msgstr ""
 
 #: jacl2db_admin~acl2.global.rights
 msgctxt "jacl2db_admin~acl2.global.rights"
@@ -324,8 +335,8 @@ msgstr "Группы"
 
 #: jacl2db_admin~acl2.col.resulting
 msgctxt "jacl2db_admin~acl2.col.resulting"
-msgid "Resulting rights"
-msgstr "Итоговые права"
+msgid "Resulting rights for"
+msgstr ""
 
 #: jacl2db_admin~acl2.col.subjects
 msgctxt "jacl2db_admin~acl2.col.subjects"

@@ -1,6 +1,6 @@
 # 
 # Translators:
-# José Macau <jose.macau@gmail.com>, 2019
+# José Macau <jose.macau@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-23 12:04++0100\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
-"Last-Translator: José Macau <jose.macau@gmail.com>, 2019\n"
+"Last-Translator: José Macau <jose.macau@gmail.com>, 2020\n"
 "Language-Team: Portuguese (https://www.transifex.com/3liz-1/teams/62012/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,9 +59,9 @@ msgid ""
 "sent to you with a link to confirm your registration. You could then "
 "identified yourself on the web site.</p>"
 msgstr ""
-"<p>Registe-se preenchendo o seguinte formulário.</p> <p>Será enviado um "
-"email com um link para confirmar a sua inscrição. Poderá então identificar-"
-"se no site.</p>"
+"<p>Registar-se preenchendo o seguinte formulário.</p> <p>Será enviado um "
+"email com um link para confirmação da inscrição. Identificação perante o "
+"site.</p>"
 
 #: jcommunity~register.form.create.submit
 msgctxt "jcommunity~register.form.create.submit"
@@ -71,7 +71,7 @@ msgstr "Criar conta"
 #: jcommunity~register.mail.new.subject
 msgctxt "jcommunity~register.mail.new.subject"
 msgid "Activating your account on the web site %s"
-msgstr "Ativando a sua conta no site %s"
+msgstr "Ativar conta no site %s"
 
 #: jcommunity~register.form.login.exists
 msgctxt "jcommunity~register.form.login.exists"
@@ -91,27 +91,27 @@ msgid ""
 "containing a link on which you must click. Verify your spam folder if you "
 "don't see this email in your inbox.</p>"
 msgstr ""
-"<p>A sua conta está criada, mas antes de utilizá-la, é necessário verificar "
-"o seu email.</p> <p>Para verificar o seu email, enviamos apenas um email "
-"contendo um link sobre o qual deverá clicar. Verifique a sua pasta de spam "
-"caso não encontre esse email na sua caixa de entrada.</p>"
+"<p>A conta está criada, mas antes de ser utilizada, é necessário verificar o"
+" email.</p> <p>Para verificar o email, foi enviado um email contendo um link"
+" sobre o qual se deverá clicar. Verificar a pasta de spam caso o mesmo não "
+"se encontre na caixa de entrada.</p>"
 
 #: jcommunity~register.registration.confirm.title
 msgctxt "jcommunity~register.registration.confirm.title"
 msgid "Activation of your account"
-msgstr "Ativação da sua conta"
+msgstr "Ativação da conta"
 
 #: jcommunity~register.registration.confirm.alreadydone
 msgctxt "jcommunity~register.registration.confirm.alreadydone"
 msgid ""
 "Your account is already activated. You can identify yourself on the web "
 "site."
-msgstr "A sua conta já está ativada. Pode identificar-se no site."
+msgstr "A conta já está ativada. Identificação perante o site."
 
 #: jcommunity~register.registration.confirm.ok
 msgctxt "jcommunity~register.registration.confirm.ok"
 msgid "Your account is activated. You can identify yourself on the web site."
-msgstr "A sua conta está ativada. Pode identificar-se no site."
+msgstr "A conta está ativada. Identificaçãp perante o site."
 
 #: jcommunity~register.registration.confirm.badkey
 msgctxt "jcommunity~register.registration.confirm.badkey"
@@ -123,12 +123,12 @@ msgstr ""
 #: jcommunity~register.registration.confirm.badstatus
 msgctxt "jcommunity~register.registration.confirm.badstatus"
 msgid "Activation is not possible: your account is not a new one."
-msgstr "A ativação não é possível: a sua conta não é nova."
+msgstr "A ativação não é possível: a conta não é nova."
 
 #: jcommunity~login.error.notlogged
 msgctxt "jcommunity~login.error.notlogged"
 msgid "You are not connected, you should sign in."
-msgstr "Não está ligado, deverá ligar-se."
+msgstr "Não existe ligação, deverá ser estabelecida ligação."
 
 #: jcommunity~login.error.no.after_login
 msgctxt "jcommunity~login.error.no.after_login"
@@ -168,12 +168,12 @@ msgstr "Sair"
 #: jcommunity~login.login.account
 msgctxt "jcommunity~login.login.account"
 msgid "Your account"
-msgstr "A sua conta"
+msgstr "A conta"
 
 #: jcommunity~login.login.password.reset
 msgctxt "jcommunity~login.login.password.reset"
 msgid "I forgot my password"
-msgstr "Esqueci a minha palavra-passe"
+msgstr "Palavra-passe esquecida"
 
 #: jcommunity~login.access.title
 msgctxt "jcommunity~login.access.title"
@@ -183,12 +183,15 @@ msgstr "Acesso à página"
 #: jcommunity~login.access.forbidden.authenticated
 msgctxt "jcommunity~login.access.forbidden.authenticated"
 msgid "You cannot access to this page because your are connected."
-msgstr "Não pode aceder a esta página porque está ligado."
+msgstr ""
+"Não é possível aceder a esta página porque não existe ligação estabelecida."
 
 #: jcommunity~login.access.forbidden.wrong.user
 msgctxt "jcommunity~login.access.forbidden.wrong.user"
 msgid "You cannot access to this page belonging to another user."
-msgstr "Não pode aceder a esta página pertencente a outro utilizador."
+msgstr ""
+"Não é possível aceder a esta página porque a mesma pertence a outro "
+"utilizador."
 
 #: jcommunity~login.access.not.available
 msgctxt "jcommunity~login.access.not.available"
@@ -198,22 +201,22 @@ msgstr "Página não disponível"
 #: jcommunity~login.startpage.connected
 msgctxt "jcommunity~login.startpage.connected"
 msgid "You are connected."
-msgstr "Está ligado."
+msgstr "Ligação estabelecida."
 
 #: jcommunity~login.startpage.not.connected
 msgctxt "jcommunity~login.startpage.not.connected"
 msgid "You are not connected."
-msgstr "Não está ligado."
+msgstr "Ligação não estabelecida."
 
 #: jcommunity~login.startpage.youcan
 msgctxt "jcommunity~login.startpage.youcan"
 msgid "You can:"
-msgstr "Pode:"
+msgstr "É possível:"
 
 #: jcommunity~login.startpage.account.view
 msgctxt "jcommunity~login.startpage.account.view"
 msgid "View your profile"
-msgstr "Ver o seu perfil"
+msgstr "Ver o perfil"
 
 #: jcommunity~login.startpage.account.create
 msgctxt "jcommunity~login.startpage.account.create"
@@ -233,7 +236,7 @@ msgstr "Entrar"
 #: jcommunity~login.startpage.password.reset
 msgctxt "jcommunity~login.startpage.password.reset"
 msgid "Reset your password"
-msgstr "Reinicializar a palavra-passe"
+msgstr "Redefinir a palavra-passe"
 
 #: jcommunity~login.back.to.login
 msgctxt "jcommunity~login.back.to.login"
@@ -248,7 +251,7 @@ msgstr "Cancelar e voltar ao formulário de entrada"
 #: jcommunity~password.form.title
 msgctxt "jcommunity~password.form.title"
 msgid "Resetting the password"
-msgstr "Redefinir a palavra-passe"
+msgstr "Redefinindo a palavra-passe"
 
 #: jcommunity~password.form.text.html
 msgctxt "jcommunity~password.form.text.html"
@@ -258,10 +261,10 @@ msgid ""
 "will be sent with a link to a page allowing you to choose a new "
 "password.</p>"
 msgstr ""
-"<p>Se esqueceu a sua palavra-passe, preencha o seguinte formulário com o seu"
-" utilizador e com o email que definiu no seu perfil.</p> <p>Será enviado um "
-"email com um link para uma página que lhe permitirá escolher uma nova "
-"palavra-passe.</p>"
+"<p>Se a palavra-passe foi esquecida, preencher o seguinte formulário com o "
+"utilizador e com o email definido no perfil.</p> <p>Será enviado um email "
+"com um link para uma página que permitirá escolher uma nova palavra-"
+"passe.</p>"
 
 #: jcommunity~password.form.submit
 msgctxt "jcommunity~password.form.submit"
@@ -277,16 +280,16 @@ msgid ""
 "link is valid only 48 hours.</p> <p>The current password is still valid as "
 "long as you don't change it.</p>"
 msgstr ""
-"<p>Foi enviado um email para o endereço fornecido. Verifique a sua pasta de "
-"spam caso não o encontre na sua caixa de entrada dentro de poucos "
-"minutos.</p> <p>Este email contém um link para uma página que lhe permitirá "
-"alterar a sua palavra-passe. Este link é válido apenas por 48 horas.</p> "
-"<p>A palavra-passe atual ainda é válida, desde que não a altere.</p>"
+"<p>Foi enviado um email para o endereço fornecido. Verificar a pasta de spam"
+" caso o mesmo não se encontre na caixa de entrada dentro de poucos "
+"minutos.</p> <p>Este email contém um link para uma página que permitirá "
+"alterar a palavra-passe. Este link é válido apenas por 48 horas.</p> <p>A "
+"palavra-passe atual ainda é válida, desde que não seja alterada.</p>"
 
 #: jcommunity~password.mail.pwd.change.subject
 msgctxt "jcommunity~password.mail.pwd.change.subject"
 msgid "Request about a password reset on %s"
-msgstr "Pedido sobre a reinicialização de uma palavra-passe em %s"
+msgstr "Pedido sobre a redefinição de uma palavra-passe em %s"
 
 #: jcommunity~password.form.change.title
 msgctxt "jcommunity~password.form.change.title"
@@ -296,12 +299,12 @@ msgstr "Alteração de palavra-passe"
 #: jcommunity~password.form.change.current.password.label
 msgctxt "jcommunity~password.form.change.current.password.label"
 msgid "Your current password"
-msgstr "A sua palavra-passe atual"
+msgstr "A palavra-passe atual"
 
 #: jcommunity~password.form.change.password.label
 msgctxt "jcommunity~password.form.change.password.label"
 msgid "Your new password"
-msgstr "A sua nova palavra-passe"
+msgstr "A nova palavra-passe"
 
 #: jcommunity~password.form.change.submit
 msgctxt "jcommunity~password.form.change.submit"
@@ -311,12 +314,12 @@ msgstr "Alteração"
 #: jcommunity~password.form.change.text.html
 msgctxt "jcommunity~password.form.change.text.html"
 msgid "<p>Indicate your new password.</p>"
-msgstr "<p>Indique a sua nova palavra-passe.</p>"
+msgstr "<p>Indicar a nova palavra-passe.</p>"
 
 #: jcommunity~password.form.change.error.alreadydone
 msgctxt "jcommunity~password.form.change.error.alreadydone"
 msgid "Sorry, there is no request for a password change."
-msgstr "Desculpe, não existe um pedido para alteração de palavra-passe."
+msgstr "Não existe nenhum pedido para alteração da palavra-passe."
 
 #: jcommunity~password.form.change.error.badkey
 msgctxt "jcommunity~password.form.change.error.badkey"
@@ -333,20 +336,19 @@ msgid ""
 "Password change is not possible: the request has expired. Do an other "
 "request."
 msgstr ""
-"A alteração de palavra-passe não é possível: o pedido expirou. Solicite "
-"novamente."
+"A alteração da palavra-passe não é possível: o pedido expirou. Efetuar novo "
+"pedido."
 
 #: jcommunity~password.form.change.error.badstatus
 msgctxt "jcommunity~password.form.change.error.badstatus"
 msgid "Password change is not allowed because of your account status."
 msgstr ""
-"A alteração de palavra-passe não é permitida por causa do estado da sua "
-"conta."
+"A alteração de palavra-passe não é permitida por causa do estado da conta."
 
 #: jcommunity~password.form.change.error.badloginemail
 msgctxt "jcommunity~password.form.change.error.badloginemail"
 msgid "We don't know the username or the email you give"
-msgstr "Desconhecemos o nome de utilizador ou o email fornecidos"
+msgstr "Desconhecidos o nome de utilizador ou o email fornecidos"
 
 #: jcommunity~password.form.change.error.badcurrentpwd
 msgctxt "jcommunity~password.form.change.error.badcurrentpwd"
@@ -356,7 +358,8 @@ msgstr "A palavra-passe não corresponde com a palavra-passe atual"
 #: jcommunity~password.form.change.reset.ok
 msgctxt "jcommunity~password.form.change.reset.ok"
 msgid "The new password is now saved. You can sign in now."
-msgstr "A nova palavra-passe está guardada. Pode agora ligar-se."
+msgstr ""
+"A nova palavra-passe está guardada. Já é possível estabelecer ligação."
 
 #: jcommunity~password.form.change.ok
 msgctxt "jcommunity~password.form.change.ok"
@@ -406,7 +409,7 @@ msgstr "O comprimento da palavra-passe deve ser superior a 8 caracteres"
 #: jcommunity~account.form.password.confirm
 msgctxt "jcommunity~account.form.password.confirm"
 msgid "Retype the password"
-msgstr "Digite novamente a sua palavra-passe"
+msgstr "Digitar novamente a palavra-passe"
 
 #: jcommunity~account.form.status
 msgctxt "jcommunity~account.form.status"
@@ -441,7 +444,7 @@ msgstr "Validado, aguarda nova validação de e-mail"
 #: jcommunity~account.form.status.valid.password.changed
 msgctxt "jcommunity~account.form.status.valid.password.changed"
 msgid "Validated, awaiting reset password"
-msgstr "Validado, aguarda reinicialização da palavra-passe"
+msgstr "Validado, aguardando redefinição da palavra-passe"
 
 #: jcommunity~account.form.keyactivate
 msgctxt "jcommunity~account.form.keyactivate"
@@ -461,7 +464,7 @@ msgstr "Data da criação da conta"
 #: jcommunity~account.form.captcha
 msgctxt "jcommunity~account.form.captcha"
 msgid "Are you a human?"
-msgstr "É um humano?"
+msgstr "Trata-se de um humano?"
 
 #: jcommunity~account.profile.of
 msgctxt "jcommunity~account.profile.of"
@@ -471,37 +474,37 @@ msgstr "Perfil de %1$s"
 #: jcommunity~account.link.profile.edit
 msgctxt "jcommunity~account.link.profile.edit"
 msgid "Edit your profile"
-msgstr "Edite o seu perfil"
+msgstr "Editar o perfil"
 
 #: jcommunity~account.link.account.delete
 msgctxt "jcommunity~account.link.account.delete"
 msgid "Delete your account"
-msgstr "Elimine a sua conta"
+msgstr "Eliminar a conta"
 
 #: jcommunity~account.link.account.change.password
 msgctxt "jcommunity~account.link.account.change.password"
 msgid "Change your password"
-msgstr "Altere a sua palavra-passe"
+msgstr "Alterar a palavra-passe"
 
 #: jcommunity~account.form.edit.profile.title
 msgctxt "jcommunity~account.form.edit.profile.title"
 msgid "Editing your profile"
-msgstr "A editar o seu perfil"
+msgstr "A editar o perfil"
 
 #: jcommunity~account.form.delete.account.title
 msgctxt "jcommunity~account.form.delete.account.title"
 msgid "Deleting your account"
-msgstr "A eliminar a sua conta"
+msgstr "A eliminar a conta"
 
 #: jcommunity~account.form.delete.account.confirm.title
 msgctxt "jcommunity~account.form.delete.account.confirm.title"
 msgid "Confirm the deletion of your account"
-msgstr "Confirme a eliminação da sua conta"
+msgstr "Confirmar a eliminação da conta"
 
 #: jcommunity~account.form.delete.account.confirm
 msgctxt "jcommunity~account.form.delete.account.confirm"
 msgid "Confirm by indicating your password."
-msgstr "Confirme indicando a sua palavra-passe."
+msgstr "Confirmar indicando a palavra-passe"
 
 #: jcommunity~account.form.delete.account.submit
 msgctxt "jcommunity~account.form.delete.account.submit"
@@ -511,13 +514,12 @@ msgstr "Eliminar"
 #: jcommunity~account.form.delete.account.done
 msgctxt "jcommunity~account.form.delete.account.done"
 msgid "Your account is now deleted. You are deconnected."
-msgstr "A conta encontra-se agora eliminada. Está desligado."
+msgstr "A conta encontra-se agora eliminada. Ligação não estabelecida."
 
 #: jcommunity~account.form.delete.account.error.notremoved
 msgctxt "jcommunity~account.form.delete.account.error.notremoved"
 msgid "Impossible to delete your account. Contact the site manager."
-msgstr ""
-"Impossível eliminar a conta. Entre em contacto com o administrador do site."
+msgstr "Impossível eliminar a conta. Contactar o administrador do site."
 
 #: jcommunity~account.form.delete.account.error.badpassword
 msgctxt "jcommunity~account.form.delete.account.error.badpassword"
@@ -527,7 +529,7 @@ msgstr "Impossível eliminar a conta: a palavra-passe fornecida não é válida.
 #: jcommunity~account.form.delete.account.error.wronguser
 msgctxt "jcommunity~account.form.delete.account.error.wronguser"
 msgid "Sorry, you are not supposed to be on this page..."
-msgstr "Desculpe, não seria suposto estar nesta página..."
+msgstr "Não seria suposto estar nesta página..."
 
 #: jcommunity~account.form.delete.account.error.nologout
 msgctxt "jcommunity~account.form.delete.account.error.nologout"
@@ -535,8 +537,8 @@ msgid ""
 "Strange... Your account does not exist anymore, but your are still "
 "connected? Contact the site manager."
 msgstr ""
-"Estranho... A sua conta já não existe, mas continua ainda ligado? Contacte o"
-" administrador do site."
+"Estranho... A conta já não existe, mas continua ainda com ligação "
+"estabelecida? Contactar o administrador do site."
 
 #: jcommunity~account.form.cancel
 msgctxt "jcommunity~account.form.cancel"
@@ -546,9 +548,9 @@ msgstr "Cancelar"
 #: jcommunity~account.cancel.and.back.to.account
 msgctxt "jcommunity~account.cancel.and.back.to.account"
 msgid "Cancel and back to your profile"
-msgstr "Cancelar e voltar ao seu perfil"
+msgstr "Cancelar e voltar ao perfil"
 
 #: jcommunity~account.back.to.account
 msgctxt "jcommunity~account.back.to.account"
 msgid "Back to your profile"
-msgstr "Voltar ao seu perfil"
+msgstr "Voltar ao perfil"

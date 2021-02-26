@@ -5,9 +5,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.2.18-pre\n"
+"Project-Id-Version: Lizmap Web Client jacl2db_admin 3.2.19-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-23 12:04++0100\n"
+"POT-Creation-Date: 2021-02-26 14:27++0100\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
 "Last-Translator: trendspotter, 2020\n"
 "Language-Team: Czech (https://www.transifex.com/3liz-1/teams/62012/cs/)\n"
@@ -105,7 +105,7 @@ msgstr "Smazat"
 #: jacl2db_admin~acl2.delete.button.confirm.label
 msgctxt "jacl2db_admin~acl2.delete.button.confirm.label"
 msgid "Do you want to delete this group ?"
-msgstr ""
+msgstr "Chcete tuto skupinu smazat?"
 
 #: jacl2db_admin~acl2.message.group.delete.ok
 msgctxt "jacl2db_admin~acl2.message.group.delete.ok"
@@ -137,28 +137,37 @@ msgctxt "jacl2db_admin~acl2.table.th.rights"
 msgid "Rights"
 msgstr "Práva"
 
-#: jacl2db_admin~acl2.group.help.rights.inherit
-msgctxt "jacl2db_admin~acl2.group.help.rights.inherit"
-msgid "\"-\": undefined right, it can be defined in other groups of the user"
-msgstr ""
-"\"-\": nesprávně definováno, může být definováno v jiných skupinách "
-"uživatele"
-
-#: jacl2db_admin~acl2.group.help.rights.yes
-msgctxt "jacl2db_admin~acl2.group.help.rights.yes"
-msgid ""
-"\"yes\": indicate that the right is set, but can be canceled (\"no\") in an "
-"other group"
-msgstr ""
-"\"ano\": uveďte, že právo je nastaveno, ale může být zrušeno (\"ne\") v jiné"
-" skupině"
-
 #: jacl2db_admin~acl2.group.help.rights.no
 msgctxt "jacl2db_admin~acl2.group.help.rights.no"
 msgid ""
-"\"no\": the right is not assign to this group, and to any other groups of "
-"the user."
-msgstr "\"ne\": Právo není přiděleno této skupině a ostatním skupinám uživatele."
+"right not authorized by default, but it can be authorized in other groups of"
+" a user"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.help.rights.yes
+msgctxt "jacl2db_admin~acl2.group.help.rights.yes"
+msgid "authorized right, but it can be forbidden in an other group of a user"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.help.rights.forbidden
+msgctxt "jacl2db_admin~acl2.group.help.rights.forbidden"
+msgid "forbidden right, even if an other group of the user authorizes it"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.rights.forbidden
+msgctxt "jacl2db_admin~acl2.group.rights.forbidden"
+msgid "forbidden"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.rights.yes
+msgctxt "jacl2db_admin~acl2.group.rights.yes"
+msgid "yes"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.rights.no
+msgctxt "jacl2db_admin~acl2.group.rights.no"
+msgid "no"
+msgstr ""
 
 #: jacl2db_admin~acl2.global.rights
 msgctxt "jacl2db_admin~acl2.global.rights"
@@ -306,6 +315,7 @@ msgid ""
 "You cannot be added to this group else you won't be able to change some "
 "rights"
 msgstr ""
+"Nelze vás přidat do této skupiny, jinak nebudete moci změnit některá práva"
 
 #: jacl2db_admin~acl2.message.addusertogroup.error.noacl.anybody
 msgctxt "jacl2db_admin~acl2.message.addusertogroup.error.noacl.anybody"
@@ -313,6 +323,8 @@ msgid ""
 "The user cannot be added to this group else nobody won't be able to change "
 "some rights"
 msgstr ""
+"Uživatel nemůže být přidán do této skupiny, jinak nikdo nebude moci změnit "
+"některá práva"
 
 #: jacl2db_admin~acl2.col.personnal.rights
 msgctxt "jacl2db_admin~acl2.col.personnal.rights"
@@ -331,8 +343,8 @@ msgstr "Skupiny"
 
 #: jacl2db_admin~acl2.col.resulting
 msgctxt "jacl2db_admin~acl2.col.resulting"
-msgid "Resulting rights"
-msgstr "Výsledná práva"
+msgid "Resulting rights for"
+msgstr ""
 
 #: jacl2db_admin~acl2.col.subjects
 msgctxt "jacl2db_admin~acl2.col.subjects"

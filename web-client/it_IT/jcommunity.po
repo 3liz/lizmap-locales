@@ -4,6 +4,7 @@
 # Roberto Marzocchi <roberto.marzocchi@gter.it>, 2019
 # Paolo Cavallini <cavallini@faunalia.it>, 2019
 # Marco Cassola <cassolamrc@gmail.com>, 2020
+# Stefano Campus <skampus@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -11,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-23 12:04++0100\n"
 "PO-Revision-Date: 2019-05-27 12:17+0000\n"
-"Last-Translator: Marco Cassola <cassolamrc@gmail.com>, 2020\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/3liz-1/teams/62012/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +53,7 @@ msgstr "Registrazione"
 #: jcommunity~register.form.create.title
 msgctxt "jcommunity~register.form.create.title"
 msgid "Create an account"
-msgstr "Creare un account"
+msgstr "Crea un account"
 
 #: jcommunity~register.form.create.text.html
 msgctxt "jcommunity~register.form.create.text.html"
@@ -61,6 +62,9 @@ msgid ""
 "sent to you with a link to confirm your registration. You could then "
 "identified yourself on the web site.</p>"
 msgstr ""
+"<p>Registrati compilando il seguente modulo.</p> <p>Ti verrà inviata una "
+"email con un link per la conferma della tua registrazione. Potrai allora "
+"identificarti nel sito web.</p>"
 
 #: jcommunity~register.form.create.submit
 msgctxt "jcommunity~register.form.create.submit"
@@ -90,6 +94,10 @@ msgid ""
 "containing a link on which you must click. Verify your spam folder if you "
 "don't see this email in your inbox.</p>"
 msgstr ""
+"<p>Il tuo account è creato, ma prima di utilizzarlo , dobbiamo verificare la"
+" tua email.</p> <p>Per verificare la tua mail, ti abbiamo mandato una email "
+"contenente un link da seguire. Verifica la cartella di spam se non vedi "
+"questa mail nella cartella della posta in arrivo.</p>"
 
 #: jcommunity~register.registration.confirm.title
 msgctxt "jcommunity~register.registration.confirm.title"
@@ -101,37 +109,38 @@ msgctxt "jcommunity~register.registration.confirm.alreadydone"
 msgid ""
 "Your account is already activated. You can identify yourself on the web "
 "site."
-msgstr ""
+msgstr "Il tuo account è già stato attivato. Puoi collegarti nel sito."
 
 #: jcommunity~register.registration.confirm.ok
 msgctxt "jcommunity~register.registration.confirm.ok"
 msgid "Your account is activated. You can identify yourself on the web site."
-msgstr ""
+msgstr "Il tuo account è attivato. Puoi collegarti nel sito."
 
 #: jcommunity~register.registration.confirm.badkey
 msgctxt "jcommunity~register.registration.confirm.badkey"
 msgid "Activation is not possible: the key or the username is invalid."
 msgstr ""
+"L'attivazione non è possibile: la chiave o il nome utente non è valido."
 
 #: jcommunity~register.registration.confirm.badstatus
 msgctxt "jcommunity~register.registration.confirm.badstatus"
 msgid "Activation is not possible: your account is not a new one."
-msgstr ""
+msgstr "L'attivazione non è possibile: il tuo account non è nuovo."
 
 #: jcommunity~login.error.notlogged
 msgctxt "jcommunity~login.error.notlogged"
 msgid "You are not connected, you should sign in."
-msgstr ""
+msgstr "Non sei connesso, devi autenticarti."
 
 #: jcommunity~login.error.no.after_login
 msgctxt "jcommunity~login.error.no.after_login"
 msgid "In the configuration of the plugin 'auth', after_login is empty"
-msgstr ""
+msgstr "Nella configurazione del plugin 'auth', after_login è vuoto"
 
 #: jcommunity~login.error.no.after_logout
 msgctxt "jcommunity~login.error.no.after_logout"
 msgid "In the configuration of the plugin 'auth', after_logout is empty"
-msgstr ""
+msgstr "Nella configurazione del plugin 'auth', after_logout è vuoto"
 
 #: jcommunity~login.form.remember.me
 msgctxt "jcommunity~login.form.remember.me"
@@ -156,7 +165,7 @@ msgstr "Accedi"
 #: jcommunity~login.logout
 msgctxt "jcommunity~login.logout"
 msgid "Sign out"
-msgstr ""
+msgstr "Disconnetiti"
 
 #: jcommunity~login.login.account
 msgctxt "jcommunity~login.login.account"
@@ -171,17 +180,18 @@ msgstr "Ho dimenticato la password"
 #: jcommunity~login.access.title
 msgctxt "jcommunity~login.access.title"
 msgid "Page access"
-msgstr ""
+msgstr "Accesso pagina"
 
 #: jcommunity~login.access.forbidden.authenticated
 msgctxt "jcommunity~login.access.forbidden.authenticated"
 msgid "You cannot access to this page because your are connected."
-msgstr ""
+msgstr "Non puoi accedere a questa pagina perché sei connesso."
 
 #: jcommunity~login.access.forbidden.wrong.user
 msgctxt "jcommunity~login.access.forbidden.wrong.user"
 msgid "You cannot access to this page belonging to another user."
 msgstr ""
+"Non puoi accedere a questa pagina perché appartiene ad un altro utente."
 
 #: jcommunity~login.access.not.available
 msgctxt "jcommunity~login.access.not.available"
@@ -211,12 +221,12 @@ msgstr "Visualizza il tuo profilo"
 #: jcommunity~login.startpage.account.create
 msgctxt "jcommunity~login.startpage.account.create"
 msgid "Create an account"
-msgstr "Creare un account"
+msgstr "Crea un account"
 
 #: jcommunity~login.startpage.logout
 msgctxt "jcommunity~login.startpage.logout"
 msgid "Sign out"
-msgstr ""
+msgstr "Disconnetiti"
 
 #: jcommunity~login.startpage.login
 msgctxt "jcommunity~login.startpage.login"
@@ -279,7 +289,7 @@ msgstr ""
 #: jcommunity~password.mail.pwd.change.subject
 msgctxt "jcommunity~password.mail.pwd.change.subject"
 msgid "Request about a password reset on %s"
-msgstr ""
+msgstr "Richiedi di resettare la password su %s"
 
 #: jcommunity~password.form.change.title
 msgctxt "jcommunity~password.form.change.title"
@@ -317,8 +327,8 @@ msgid ""
 "Password change is not possible: the username or the request key is not "
 "valid."
 msgstr ""
-"Cambio password non consentito: l'username or la chiave richiesta non è "
-"valida."
+"Creazione password non consentita: il nome utente o chiave di richiesta non "
+"sono validi."
 
 #: jcommunity~password.form.change.error.expiredkey
 msgctxt "jcommunity~password.form.change.error.expiredkey"
@@ -333,16 +343,17 @@ msgstr ""
 msgctxt "jcommunity~password.form.change.error.badstatus"
 msgid "Password change is not allowed because of your account status."
 msgstr ""
+"Cambio di password non consentito a causa dello stato del tuo account."
 
 #: jcommunity~password.form.change.error.badloginemail
 msgctxt "jcommunity~password.form.change.error.badloginemail"
 msgid "We don't know the username or the email you give"
-msgstr ""
+msgstr "Username o email non riconosciuti."
 
 #: jcommunity~password.form.change.error.badcurrentpwd
 msgctxt "jcommunity~password.form.change.error.badcurrentpwd"
 msgid "The password does not match the current password"
-msgstr ""
+msgstr "La password non corrisponde alla password corrente"
 
 #: jcommunity~password.form.change.reset.ok
 msgctxt "jcommunity~password.form.change.reset.ok"
@@ -442,7 +453,7 @@ msgstr "Chiave di richiesta"
 #: jcommunity~account.form.requestdate
 msgctxt "jcommunity~account.form.requestdate"
 msgid "Request date"
-msgstr ""
+msgstr "Data di richiesta"
 
 #: jcommunity~account.form.createdate
 msgctxt "jcommunity~account.form.createdate"
