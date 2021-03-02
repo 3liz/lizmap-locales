@@ -2,17 +2,18 @@
 
 set -e
 
-LIZMAP_DIR="$1"
+JELIX_LOCALES_INI="$1"
 
 if [ "$1" == "" ]; then
-    echo "Error: path to your lizmap/ directory is missing"
+    echo "Error: path to the .jelixlocales.ini file is missing"
     exit 1
 fi
 
-if [ ! -f "$LIZMAP_DIR/scripts/script.php" ]; then
-    echo "Error: given path seems to be not the lizmap directory. I don't find scripts/scripts.php"
+if [ ! -f "$JELIX_LOCALES_INI" ]; then
+    echo "Error: given path seems to be not a .jelixlocales.ini file"
     exit 2
 fi
+
 
 LOCALES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
@@ -27,5 +28,7 @@ fi
 
 for MODULE in $MODULES
 do
-    php $LIZMAP_DIR/scripts/script.php lizmap~locale:pot $MODULE $LOCALES_DIR/pot/
+    $LOCALES_DIR/vendor/bin/jelixlocales convert:properties:pot \
+    --config=$JELIX_LOCALES_INI \
+    $MODULE $LOCALES_DIR/pot/
 done

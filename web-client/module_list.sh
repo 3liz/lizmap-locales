@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export MODULES="jelix master_admin jacl2 jacl2db jacl2db_admin jauthdb_admin jcommunity admin dataviz view"
+export MODULES="admin dataviz filter view"
 
 # all locales that are available into transifex. See below for each branch
 export AVAILABLE_LOCALES=""
@@ -15,16 +15,10 @@ case $LOCALES_BRANCH in
     export LIZMAP_BRANCH=release_3_4
     export AVAILABLE_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK"
     export OFFICAL_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK"
-    export MODULES="$MODULES action filter"
+    export MODULES="$MODULES action"
     ;;
     lizmap_3_3)
     export LIZMAP_BRANCH=release_3_3
-    export AVAILABLE_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK"
-    export OFFICAL_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK"
-    export MODULES="$MODULES filter"
-    ;;
-    lizmap_3_2)
-    export LIZMAP_BRANCH=release_3_2
     export AVAILABLE_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK"
     export OFFICAL_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK"
     ;;
