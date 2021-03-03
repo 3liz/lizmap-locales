@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-23 17:43++0100\n"
-"PO-Revision-Date: 2020-11-23 16:45+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"POT-Creation-Date: 2021-02-26 14:54++0100\n"
+"PO-Revision-Date: 2021-02-26 17:28+0000\n"
+"Last-Translator: Transifex Bot <>\n"
 "Language-Team: Basque (http://www.transifex.com/3liz-1/lizmap-locales/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,8 +57,8 @@ msgstr "Recursos"
 
 #: jacl2db_admin~acl2.col.resulting
 msgctxt "jacl2db_admin~acl2.col.resulting"
-msgid "Resulting rights"
-msgstr "Permisos resultantes"
+msgid "Resulting rights for"
+msgstr ""
 
 #: jacl2db_admin~acl2.col.subjects
 msgctxt "jacl2db_admin~acl2.col.subjects"
@@ -115,24 +115,22 @@ msgctxt "jacl2db_admin~acl2.global.rights"
 msgid "global"
 msgstr "globala"
 
-#: jacl2db_admin~acl2.group.help.rights.inherit
-msgctxt "jacl2db_admin~acl2.group.help.rights.inherit"
-msgid "\"-\": undefined right, it can be defined in other groups of the user"
-msgstr "\"-\": indica que el permiso no está definido, el valor en otros grupos del usuario será prioritario"
+#: jacl2db_admin~acl2.group.help.rights.forbidden
+msgctxt "jacl2db_admin~acl2.group.help.rights.forbidden"
+msgid "forbidden right, even if an other group of the user authorizes it"
+msgstr ""
 
 #: jacl2db_admin~acl2.group.help.rights.no
 msgctxt "jacl2db_admin~acl2.group.help.rights.no"
 msgid ""
-"\"no\": the right is not assign to this group, and to any other groups of "
-"the user."
-msgstr "\"no\": indica que el grupo no tiene este permiso, aunque otros grupos del usuario indiquen \"sí\"."
+"right not authorized by default, but it can be authorized in other groups of"
+" a user"
+msgstr ""
 
 #: jacl2db_admin~acl2.group.help.rights.yes
 msgctxt "jacl2db_admin~acl2.group.help.rights.yes"
-msgid ""
-"\"yes\": indicate that the right is set, but can be canceled (\"no\") in an "
-"other group"
-msgstr "\"sí\": indica que el grupo tiene este permiso, salvo si en otro grupo del usuario se indica \"no\""
+msgid "authorized right, but it can be forbidden in an other group of a user"
+msgstr ""
 
 #: jacl2db_admin~acl2.group.name.id
 msgctxt "jacl2db_admin~acl2.group.name.id"
@@ -148,6 +146,21 @@ msgstr "Etiketa:"
 msgctxt "jacl2db_admin~acl2.group.rightres.title"
 msgid "Rights on resources for the group"
 msgstr "Permisos sobre recursos para el grupo"
+
+#: jacl2db_admin~acl2.group.rights.forbidden
+msgctxt "jacl2db_admin~acl2.group.rights.forbidden"
+msgid "forbidden"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.rights.no
+msgctxt "jacl2db_admin~acl2.group.rights.no"
+msgid "no"
+msgstr ""
+
+#: jacl2db_admin~acl2.group.rights.yes
+msgctxt "jacl2db_admin~acl2.group.rights.yes"
+msgid "yes"
+msgstr ""
 
 #: jacl2db_admin~acl2.groups.change.rights.link
 msgctxt "jacl2db_admin~acl2.groups.change.rights.link"

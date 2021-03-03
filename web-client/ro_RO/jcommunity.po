@@ -1,16 +1,16 @@
 # 
 # Translators:
 # Tudor Bărăscu <tudorbarascu@yahoo.com>, 2018
-# Igor Sorocean <sorocean.igor@gmail.com>, 2020
 # Laurent Jouanneau <dev@ljouanneau.com>, 2020
+# Igor Sorocean <sorocean.igor@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client jcommunity 3.4.0-beta.1\n"
+"Project-Id-Version: Lizmap Web Client jcommunity 3.4.2-pre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-23 17:43++0100\n"
+"POT-Creation-Date: 2021-02-26 14:54++0100\n"
 "PO-Revision-Date: 2018-06-02 13:00+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2020\n"
+"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2021\n"
 "Language-Team: Romanian (https://www.transifex.com/3liz-1/teams/62012/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -540,7 +540,7 @@ msgstr "<p>Un e-mail a fost trimis utilizatorului.</p>"
 #: jcommunity~password.change.cmdline.error.change
 msgctxt "jcommunity~password.change.cmdline.error.change"
 msgid "An unknown error happened during password change."
-msgstr ""
+msgstr "A apărut o eroare necunoscută în timpul schimbării parolei."
 
 #: jcommunity~password.change.cmdline.error.defined
 msgctxt "jcommunity~password.change.cmdline.error.defined"
@@ -548,43 +548,49 @@ msgid ""
 "The password of this user is already defined, please use the '--force' flag "
 "to override it."
 msgstr ""
+"Parola acestui utilizator este deja definită, vă rugăm să utilizați "
+"semnalizatorul „--force” pentru a o înlocui."
 
 #: jcommunity~password.change.cmdline.error.module
 msgctxt "jcommunity~password.change.cmdline.error.module"
 msgid ""
 "This user uses another authentication module, we cannot change his password."
 msgstr ""
+"Acest utilizator folosește un alt modul de autentificare, nu-i putem schimba"
+" parola."
 
 #: jcommunity~password.change.cmdline.error.unknown
 msgctxt "jcommunity~password.change.cmdline.error.unknown"
 msgid "Unknown user, please submit a valid user as a parameter."
-msgstr ""
+msgstr "Utilizator necunoscut, trimiteți un utilizator valid ca parametru."
 
 #: jcommunity~password.change.cmdline.help.description
 msgctxt "jcommunity~password.change.cmdline.help.description"
 msgid "Changes the password of an user."
-msgstr ""
+msgstr "Schimbaţi parola unui utilizator."
 
 #: jcommunity~password.change.cmdline.help.option.force
 msgctxt "jcommunity~password.change.cmdline.help.option.force"
 msgid "override password if password is already defined."
-msgstr ""
+msgstr "suprascrie parola dacă parola este deja definită."
 
 #: jcommunity~password.change.cmdline.help.parameter.login
 msgctxt "jcommunity~password.change.cmdline.help.parameter.login"
 msgid "The user login."
-msgstr ""
+msgstr "Autentificarea utilizatorului."
 
 #: jcommunity~password.change.cmdline.help.parameter.password
 msgctxt "jcommunity~password.change.cmdline.help.parameter.password"
 msgid ""
 "The new password to set. If not given, a random password will be defined."
 msgstr ""
+"Noua parolă de setat. Dacă nu este introdusă, va fi definită o parolă "
+"aleatorie."
 
 #: jcommunity~password.change.cmdline.help.text
 msgctxt "jcommunity~password.change.cmdline.help.text"
 msgid "The password can be given otherwise it will be defined randomly."
-msgstr ""
+msgstr "Parola poate fi introdusă, altfel va fi definită aleatoriu."
 
 #: jcommunity~password.change.cmdline.help.usage
 msgctxt "jcommunity~password.change.cmdline.help.usage"
@@ -592,11 +598,13 @@ msgid ""
 "usage: php cmdline.php jcommunity~reset_pass:change [--force] login "
 "[password]"
 msgstr ""
+"utilizare: php cmdline.php jcommunity~reset_pass:change [--force] login "
+"[password]"
 
 #: jcommunity~password.change.cmdline.success
 msgctxt "jcommunity~password.change.cmdline.success"
 msgid "Password changed successfully."
-msgstr ""
+msgstr "Parola a fost schimbată cu succes."
 
 #: jcommunity~password.form.change.current.password.label
 msgctxt "jcommunity~password.form.change.current.password.label"
@@ -619,6 +627,8 @@ msgid ""
 "There was an error during the mail sending. Please retry later or contact "
 "the administrator."
 msgstr ""
+"A apărut o eroare la trimiterea e-mailului. Încercați din nou mai târziu sau"
+" contactați administratorul."
 
 #: jcommunity~password.form.change.error.alreadydone
 msgctxt "jcommunity~password.form.change.error.alreadydone"
@@ -664,6 +674,8 @@ msgid ""
 "There was an error during the mail sending. Please retry later or contact "
 "the administrator."
 msgstr ""
+"A apărut o eroare la trimiterea e-mailului. Încercați din nou mai târziu sau"
+" contactați administratorul."
 
 #: jcommunity~password.form.change.ok
 msgctxt "jcommunity~password.form.change.ok"
@@ -774,27 +786,28 @@ msgstr "Solicitare de resetare a parolei pentru %s"
 #: jcommunity~password.reset.cmdline.error
 msgctxt "jcommunity~password.reset.cmdline.error"
 msgid "There was an error during the password resetting."
-msgstr ""
+msgstr "A apărut o eroare la resetarea parolei."
 
 #: jcommunity~password.reset.cmdline.help.description
 msgctxt "jcommunity~password.reset.cmdline.help.description"
 msgid "Send an email with a password reset link to an user."
 msgstr ""
+"Trimiteți un e-mail cu un link de resetare a parolei către un utilizator."
 
 #: jcommunity~password.reset.cmdline.help.parameter.login
 msgctxt "jcommunity~password.reset.cmdline.help.parameter.login"
 msgid "the user's login"
-msgstr ""
+msgstr "Autentificarea utilizatorului."
 
 #: jcommunity~password.reset.cmdline.help.usage
 msgctxt "jcommunity~password.reset.cmdline.help.usage"
 msgid "usage: php cmdline.php jcommunity~reset_pass:reset login"
-msgstr ""
+msgstr "utilizare: php cmdline.php jcommunity~reset_pass:reset login"
 
 #: jcommunity~password.reset.cmdline.mail.undefined
 msgctxt "jcommunity~password.reset.cmdline.mail.undefined"
 msgid "User's email is not defined."
-msgstr ""
+msgstr "E-mailul utilizatorului nu este definit."
 
 #: jcommunity~password.waiting.text.html
 msgctxt "jcommunity~password.waiting.text.html"
@@ -864,37 +877,37 @@ msgstr "Creare contul: trimiteți din nou e-mailul de validare"
 #: jcommunity~register.cmdline.create.help.description
 msgctxt "jcommunity~register.cmdline.create.help.description"
 msgid "Creates a new user account"
-msgstr ""
+msgstr "Creează un cont de utilizator nou"
 
 #: jcommunity~register.cmdline.create.help.option.admin
 msgctxt "jcommunity~register.cmdline.create.help.option.admin"
 msgid "add the new user to \"admins\" group"
-msgstr ""
+msgstr "adăugați noul utilizator la grupul „admins”"
 
 #: jcommunity~register.cmdline.create.help.option.noerror
 msgctxt "jcommunity~register.cmdline.create.help.option.noerror"
 msgid "Do not output an error if the user already exists"
-msgstr ""
+msgstr "Nu se afișează o eroare dacă utilizatorul există deja"
 
 #: jcommunity~register.cmdline.create.help.option.reset
 msgctxt "jcommunity~register.cmdline.create.help.option.reset"
 msgid "generates a reset link and send it to email"
-msgstr ""
+msgstr "generează un link de resetare și îl trimite la e-mail"
 
 #: jcommunity~register.cmdline.create.help.option.verbose
 msgctxt "jcommunity~register.cmdline.create.help.option.verbose"
 msgid "enable verbose mode"
-msgstr ""
+msgstr "activați modul detaliat"
 
 #: jcommunity~register.cmdline.create.help.parameter.email
 msgctxt "jcommunity~register.cmdline.create.help.parameter.email"
 msgid "The new user's email"
-msgstr ""
+msgstr "Adresa de e-mail a noului utilizator"
 
 #: jcommunity~register.cmdline.create.help.parameter.login
 msgctxt "jcommunity~register.cmdline.create.help.parameter.login"
 msgid "The new user's login"
-msgstr ""
+msgstr "Autentificarea noului utilizator"
 
 #: jcommunity~register.cmdline.create.help.parameter.password
 msgctxt "jcommunity~register.cmdline.create.help.parameter.password"
@@ -902,6 +915,9 @@ msgid ""
 "The new user's password, if not defined and '--reset' flag is not given, the"
 " password will be generated randomly and reported via the command line"
 msgstr ""
+"Parola noului utilizator, dacă nu este definită și semnalul „--reset” nu "
+"este menţionat, parola va fi generată aleatoriu și raportată prin linia de "
+"comandă"
 
 #: jcommunity~register.cmdline.create.help.text
 msgctxt "jcommunity~register.cmdline.create.help.text"
@@ -910,6 +926,10 @@ msgid ""
 " so the user can define it himself. It the user already exists, it fails, "
 "unless you give the option '--no-error-if-exists'."
 msgstr ""
+"Parola poate fi introdusă, definită la întâmplare sau un simbol poate fi "
+"trimis prin e-mail, astfel încât utilizatorul să o poată defini singur. "
+"Dadcă utilizatorul există deja, comanda eșuează, cu excepția cazului în care"
+" adăugaţi opțiunea „--no-error-if-exist”."
 
 #: jcommunity~register.cmdline.create.help.usage
 msgctxt "jcommunity~register.cmdline.create.help.usage"
@@ -917,11 +937,13 @@ msgid ""
 "php cmdline.php jcommunity~user:create [-v] [--admin] [--reset] login email "
 "[password]"
 msgstr ""
+"php cmdline.php jcommunity~user:create [-v] [--admin] [--reset] login email "
+"[password]"
 
 #: jcommunity~register.email.bad.format
 msgctxt "jcommunity~register.email.bad.format"
 msgid "Wrong email format"
-msgstr ""
+msgstr "Format greșit de e-mail"
 
 #: jcommunity~register.form.create.submit
 msgctxt "jcommunity~register.form.create.submit"
@@ -957,7 +979,7 @@ msgstr "Activarea contului dvs. pe site-ul web %s"
 #: jcommunity~register.registration.cmdline.ok
 msgctxt "jcommunity~register.registration.cmdline.ok"
 msgid "User successfully created."
-msgstr ""
+msgstr "Utilizator creat cu succes."
 
 #: jcommunity~register.registration.confirm.alreadydone
 msgctxt "jcommunity~register.registration.confirm.alreadydone"
