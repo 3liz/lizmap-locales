@@ -27,6 +27,3 @@ case $LOCALES_BRANCH in
     exit 1
     ;;
 esac
-
-# FIXME ldapdao is not activated by default into LWC so the lizmap script cannot retrieve its locales.
-export MISSING_MODULES="ldapdao"
