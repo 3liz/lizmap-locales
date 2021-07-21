@@ -1,7 +1,7 @@
 # 
 # Translators:
 # etrimaille <gustrimaille@yahoo.fr>, 2020
-# Laurent Jouanneau <dev@ljouanneau.com>, 2019-2020
+# Laurent Jouanneau <dev@ljouanneau.com>, 2019-2021
 # Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2018
 # Michael Douchin <kimaidou@gmail.com>, 2016-2017
 # Nicolas Boisteault <nboisteault@gmail.com>, 2020
@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-26 14:54++0100\n"
-"PO-Revision-Date: 2021-07-21 14:45+0000\n"
+"POT-Creation-Date: 2021-07-21 18:12++0200\n"
+"PO-Revision-Date: 2021-07-21 16:15+0000\n"
 "Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
 "Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -425,6 +425,13 @@ msgctxt "view~dictionnary.edition.draw.activate"
 msgid "Draw the feature you want to create on the map."
 msgstr "Dessinez sur la carte l'élément que vous souhaitez créer."
 
+#: view~dictionnary.edition.draw.activate.mobile
+msgctxt "view~dictionnary.edition.draw.activate.mobile"
+msgid ""
+"You can hide this form with the close button whenever you need to draw the "
+"geometry."
+msgstr "Vous pouvez cacher ce formulaire avec le bouton de fermeture chaque fois que vous devez dessiner la géométrie"
+
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
@@ -441,6 +448,11 @@ msgstr "Couche"
 msgctxt "view~dictionnary.edition.point.coord.crs.map"
 msgid "Map"
 msgstr "Carte"
+
+#: view~dictionnary.edition.revertgeom.success
+msgctxt "view~dictionnary.edition.revertgeom.success"
+msgid "Geometry has been reversed. You can now save the form."
+msgstr "Les géométries ont été inversées. Vous pouvez maintenant sauvegarder le formulaire."
 
 #: view~dictionnary.edition.select.activate
 msgctxt "view~dictionnary.edition.select.activate"
@@ -739,6 +751,11 @@ msgctxt "view~dictionnary.mouseposition.units.m"
 msgid "Meters"
 msgstr "Mètres"
 
+#: view~dictionnary.overviewbar.displayoverview.hover
+msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
+msgid "Display/Hide Overview"
+msgstr "Afficher/masquer la carte miniature"
+
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
 msgid "No object has been found at this location."
@@ -768,6 +785,11 @@ msgstr "Placez le rectangle sur la carte puis cliquez sur le bouton Imprimer"
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
 msgstr "Personnaliser l'impression"
+
+#: view~dictionnary.print.started
+msgctxt "view~dictionnary.print.started"
+msgid "Print started. Please wait."
+msgstr "Impression démarrée. Patientez s'il vous plait."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -824,10 +846,65 @@ msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator"
 msgid "Geometric operators"
 msgstr "Opérateurs géométriques"
 
+#: view~dictionnary.selectiontool.toolbar.geomOperator.contains
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.contains"
+msgid "Contains"
+msgstr "Contient"
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.crosses
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.crosses"
+msgid "Crosses"
+msgstr "Traverse"
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.disjoint
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.disjoint"
+msgid "Disjoint"
+msgstr "Disjoint"
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.intersects
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.intersects"
+msgid "Intersects"
+msgstr "Se croise"
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.overlaps
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.overlaps"
+msgid "Overlaps"
+msgstr "Chevauche"
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.touches
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.touches"
+msgid "Touches"
+msgstr "Touche"
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.within
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.within"
+msgid "Within"
+msgstr "À l'intérieur"
+
 #: view~dictionnary.selectiontool.toolbar.layer
 msgctxt "view~dictionnary.selectiontool.toolbar.layer"
 msgid "Selection layer"
 msgstr "Couche de sélection"
+
+#: view~dictionnary.selectiontool.toolbar.layers.multiple
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.multiple"
+msgid "Multiple layers"
+msgstr "Couches mulltiples"
+
+#: view~dictionnary.selectiontool.toolbar.layers.selectable
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectable"
+msgid "Selectable layers"
+msgstr "Couches sélectionnables"
+
+#: view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible"
+msgid "Selectable and visible layers"
+msgstr "Couches visibles et sélectionnables"
+
+#: view~dictionnary.selectiontool.toolbar.layers.single
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.single"
+msgid "Single layers"
+msgstr "Couches seules"
 
 #: view~dictionnary.selectiontool.toolbar.title
 msgctxt "view~dictionnary.selectiontool.toolbar.title"
@@ -968,6 +1045,11 @@ msgstr "Outil de noeud"
 msgctxt "view~edition.geomtool.reshape.title"
 msgid "Reshape"
 msgstr "Remodeler"
+
+#: view~edition.geomtool.reversegeom.title
+msgctxt "view~edition.geomtool.reversegeom.title"
+msgid "Reverse geom"
+msgstr "Inverser la géométrie"
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1624,11 +1706,6 @@ msgctxt "view~map.navbar.zoomout.hover"
 msgid "Zoom out"
 msgstr "Dézoomer"
 
-#: view~map.overviewbar.displayoverview.hover
-msgctxt "view~map.overviewbar.displayoverview.hover"
-msgid "Display/Hide Overview"
-msgstr "Afficher/masquer la carte miniature"
-
 #: view~map.overviewbar.scaleline.hover
 msgctxt "view~map.overviewbar.scaleline.hover"
 msgid "Scale bar"
@@ -1646,7 +1723,7 @@ msgstr "Échelle"
 
 #: view~map.overviewmap.hover
 msgctxt "view~map.overviewmap.hover"
-msgid "Move the rectanle to pan the map"
+msgid "Move the rectangle to pan the map"
 msgstr "Faire glisser le rectangle pour déplacer la carte"
 
 #: view~map.permalink.embed.size.large

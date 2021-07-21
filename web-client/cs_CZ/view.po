@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-26 14:54++0100\n"
-"PO-Revision-Date: 2020-12-08 14:02+0000\n"
-"Last-Translator: trendspotter\n"
+"POT-Creation-Date: 2021-07-21 18:12++0200\n"
+"PO-Revision-Date: 2021-07-21 16:13+0000\n"
+"Last-Translator: Jiří Sobotík <jiri.sobotik@centrum.cz>\n"
 "Language-Team: Czech (http://www.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -422,6 +422,13 @@ msgctxt "view~dictionnary.edition.draw.activate"
 msgid "Draw the feature you want to create on the map."
 msgstr "Nakreslete funkci, kterou chcete vytvořit na mapě."
 
+#: view~dictionnary.edition.draw.activate.mobile
+msgctxt "view~dictionnary.edition.draw.activate.mobile"
+msgid ""
+"You can hide this form with the close button whenever you need to draw the "
+"geometry."
+msgstr ""
+
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
@@ -438,6 +445,11 @@ msgstr "Vrstva"
 msgctxt "view~dictionnary.edition.point.coord.crs.map"
 msgid "Map"
 msgstr "Mapa"
+
+#: view~dictionnary.edition.revertgeom.success
+msgctxt "view~dictionnary.edition.revertgeom.success"
+msgid "Geometry has been reversed. You can now save the form."
+msgstr ""
 
 #: view~dictionnary.edition.select.activate
 msgctxt "view~dictionnary.edition.select.activate"
@@ -736,6 +748,11 @@ msgctxt "view~dictionnary.mouseposition.units.m"
 msgid "Meters"
 msgstr "Metry"
 
+#: view~dictionnary.overviewbar.displayoverview.hover
+msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
+msgid "Display/Hide Overview"
+msgstr "Zobrazit/Skrýt přehled"
+
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
 msgid "No object has been found at this location."
@@ -765,6 +782,11 @@ msgstr "Výběr obdelníkem pro tisk"
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
 msgstr "Nastavit vlastní štítky pro tisk"
+
+#: view~dictionnary.print.started
+msgctxt "view~dictionnary.print.started"
+msgid "Print started. Please wait."
+msgstr ""
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -821,10 +843,65 @@ msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator"
 msgid "Geometric operators"
 msgstr "Geometrické operátory"
 
+#: view~dictionnary.selectiontool.toolbar.geomOperator.contains
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.contains"
+msgid "Contains"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.crosses
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.crosses"
+msgid "Crosses"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.disjoint
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.disjoint"
+msgid "Disjoint"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.intersects
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.intersects"
+msgid "Intersects"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.overlaps
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.overlaps"
+msgid "Overlaps"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.touches
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.touches"
+msgid "Touches"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.within
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.within"
+msgid "Within"
+msgstr ""
+
 #: view~dictionnary.selectiontool.toolbar.layer
 msgctxt "view~dictionnary.selectiontool.toolbar.layer"
 msgid "Selection layer"
 msgstr "Výběr vrstvy"
+
+#: view~dictionnary.selectiontool.toolbar.layers.multiple
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.multiple"
+msgid "Multiple layers"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.layers.selectable
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectable"
+msgid "Selectable layers"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible"
+msgid "Selectable and visible layers"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.layers.single
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.single"
+msgid "Single layers"
+msgstr ""
 
 #: view~dictionnary.selectiontool.toolbar.title
 msgctxt "view~dictionnary.selectiontool.toolbar.title"
@@ -965,6 +1042,11 @@ msgstr "Uzlové body"
 msgctxt "view~edition.geomtool.reshape.title"
 msgid "Reshape"
 msgstr "Změna tvaru"
+
+#: view~edition.geomtool.reversegeom.title
+msgctxt "view~edition.geomtool.reversegeom.title"
+msgid "Reverse geom"
+msgstr ""
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1621,11 +1703,6 @@ msgctxt "view~map.navbar.zoomout.hover"
 msgid "Zoom out"
 msgstr "Zmenšit"
 
-#: view~map.overviewbar.displayoverview.hover
-msgctxt "view~map.overviewbar.displayoverview.hover"
-msgid "Display/Hide Overview"
-msgstr "Zobrazit/Skrýt přehled"
-
 #: view~map.overviewbar.scaleline.hover
 msgctxt "view~map.overviewbar.scaleline.hover"
 msgid "Scale bar"
@@ -1643,8 +1720,8 @@ msgstr "Měřítko"
 
 #: view~map.overviewmap.hover
 msgctxt "view~map.overviewmap.hover"
-msgid "Move the rectanle to pan the map"
-msgstr "Přiblížit na výběr"
+msgid "Move the rectangle to pan the map"
+msgstr ""
 
 #: view~map.permalink.embed.size.large
 msgctxt "view~map.permalink.embed.size.large"

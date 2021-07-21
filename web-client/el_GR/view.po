@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-26 14:54++0100\n"
-"PO-Revision-Date: 2020-11-23 16:45+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"POT-Creation-Date: 2021-07-21 18:12++0200\n"
+"PO-Revision-Date: 2021-07-21 16:13+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/3liz-1/lizmap-locales/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -420,6 +420,13 @@ msgctxt "view~dictionnary.edition.draw.activate"
 msgid "Draw the feature you want to create on the map."
 msgstr "Σχεδιάστε στο χάρτη το αντικείμενο που θέλετε να δημιουργήσετε."
 
+#: view~dictionnary.edition.draw.activate.mobile
+msgctxt "view~dictionnary.edition.draw.activate.mobile"
+msgid ""
+"You can hide this form with the close button whenever you need to draw the "
+"geometry."
+msgstr ""
+
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
@@ -436,6 +443,11 @@ msgstr "Στρώμα"
 msgctxt "view~dictionnary.edition.point.coord.crs.map"
 msgid "Map"
 msgstr "Χάρτης"
+
+#: view~dictionnary.edition.revertgeom.success
+msgctxt "view~dictionnary.edition.revertgeom.success"
+msgid "Geometry has been reversed. You can now save the form."
+msgstr ""
 
 #: view~dictionnary.edition.select.activate
 msgctxt "view~dictionnary.edition.select.activate"
@@ -734,6 +746,11 @@ msgctxt "view~dictionnary.mouseposition.units.m"
 msgid "Meters"
 msgstr ""
 
+#: view~dictionnary.overviewbar.displayoverview.hover
+msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
+msgid "Display/Hide Overview"
+msgstr "Εμφάνιση/Απόκρυψη του χάρτη overview"
+
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
 msgid "No object has been found at this location."
@@ -762,6 +779,11 @@ msgstr "Βάλτε το τετράγωνο στο χάρτη και κάντε �
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
+msgstr ""
+
+#: view~dictionnary.print.started
+msgctxt "view~dictionnary.print.started"
+msgid "Print started. Please wait."
 msgstr ""
 
 #: view~dictionnary.selectiontool.results.more
@@ -819,9 +841,64 @@ msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator"
 msgid "Geometric operators"
 msgstr ""
 
+#: view~dictionnary.selectiontool.toolbar.geomOperator.contains
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.contains"
+msgid "Contains"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.crosses
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.crosses"
+msgid "Crosses"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.disjoint
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.disjoint"
+msgid "Disjoint"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.intersects
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.intersects"
+msgid "Intersects"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.overlaps
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.overlaps"
+msgid "Overlaps"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.touches
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.touches"
+msgid "Touches"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.within
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.within"
+msgid "Within"
+msgstr ""
+
 #: view~dictionnary.selectiontool.toolbar.layer
 msgctxt "view~dictionnary.selectiontool.toolbar.layer"
 msgid "Selection layer"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.layers.multiple
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.multiple"
+msgid "Multiple layers"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.layers.selectable
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectable"
+msgid "Selectable layers"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible"
+msgid "Selectable and visible layers"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.layers.single
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.single"
+msgid "Single layers"
 msgstr ""
 
 #: view~dictionnary.selectiontool.toolbar.title
@@ -962,6 +1039,11 @@ msgstr ""
 #: view~edition.geomtool.reshape.title
 msgctxt "view~edition.geomtool.reshape.title"
 msgid "Reshape"
+msgstr ""
+
+#: view~edition.geomtool.reversegeom.title
+msgctxt "view~edition.geomtool.reversegeom.title"
+msgid "Reverse geom"
 msgstr ""
 
 #: view~edition.geomtool.rotate.title
@@ -1619,11 +1701,6 @@ msgctxt "view~map.navbar.zoomout.hover"
 msgid "Zoom out"
 msgstr "Αντί zoom"
 
-#: view~map.overviewbar.displayoverview.hover
-msgctxt "view~map.overviewbar.displayoverview.hover"
-msgid "Display/Hide Overview"
-msgstr "Εμφάνιση/Απόκρυψη του χάρτη overview"
-
 #: view~map.overviewbar.scaleline.hover
 msgctxt "view~map.overviewbar.scaleline.hover"
 msgid "Scale bar"
@@ -1641,8 +1718,8 @@ msgstr "Κλίμακα"
 
 #: view~map.overviewmap.hover
 msgctxt "view~map.overviewmap.hover"
-msgid "Move the rectanle to pan the map"
-msgstr "Κίνηση του τετράγωνου για μετακίνση του χάρτη"
+msgid "Move the rectangle to pan the map"
+msgstr ""
 
 #: view~map.permalink.embed.size.large
 msgctxt "view~map.permalink.embed.size.large"
