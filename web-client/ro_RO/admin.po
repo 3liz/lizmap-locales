@@ -1,15 +1,17 @@
 # 
 # Translators:
-# Igor Sorocean <sorocean.igor@gmail.com>, 2020-2021
-# Tudor Bărăscu <tudorbarascu@yahoo.com>, 2017
+# Tudor Bărăscu <tudorbarascu@yahoo.com>, 2021
+# Igor Sorocean <sorocean.igor@gmail.com>, 2021
+# Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client admin 3.4.2-pre\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-26 14:54++0100\n"
-"PO-Revision-Date: 2021-03-03 13:30+0000\n"
-"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>\n"
-"Language-Team: Romanian (http://www.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
+"PO-Revision-Date: 2021-03-03 17:34+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2021\n"
+"Language-Team: Romanian (https://www.transifex.com/3liz-1/teams/62012/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,7 +43,9 @@ msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
 "This option cannot be enable while the sender email is not defined. Please "
 "contact the application administrator."
-msgstr "Această opțiune nu poate fi activată în timp ce e-mailul expeditorului nu este definit. Contactați administratorul aplicației."
+msgstr ""
+"Această opțiune nu poate fi activată în timp ce e-mailul expeditorului nu "
+"este definit. Contactați administratorul aplicației."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -102,7 +106,8 @@ msgstr "E-mail administrator"
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of Ldap authentication"
-msgstr "Această opțiune este dezactivată din cauza utilizării autentificării Ldap"
+msgstr ""
+"Această opțiune este dezactivată din cauza utilizării autentificării Ldap"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -315,14 +320,19 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
 msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
-msgstr "O adresă de e-mail a expeditorului este necesară pentru a trimite notificări sau cereri pentru creare de conturi"
+msgstr ""
+"O adresă de e-mail a expeditorului este necesară pentru a trimite notificări"
+" sau cereri pentru creare de conturi"
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "Adresa de e-mail folosită pentru a trimite e-mailuri. Dacă lipsește, Lizmap nu va trimite niciun e-mail. Asigurați-vă că serverul dvs. are dreptul să trimită e-mail cu această adresă."
+msgstr ""
+"Adresa de e-mail folosită pentru a trimite e-mailuri. Dacă lipsește, Lizmap "
+"nu va trimite niciun e-mail. Asigurați-vă că serverul dvs. are dreptul să "
+"trimită e-mail cu această adresă."
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
@@ -344,7 +354,9 @@ msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
 msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
-msgstr "Dacă este activat, vizitatorii pot completa un formular pentru a solicita un cont. Adresa expeditorului pentru e-mailurile ar trebui să fie setată."
+msgstr ""
+"Dacă este activat, vizitatorii pot completa un formular pentru a solicita un"
+" cont. Adresa expeditorului pentru e-mailurile ar trebui să fie setată."
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
@@ -361,7 +373,9 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr "0 înseamnă că nu expiră, alt număr natural reprezintă secundele (maxim 2592000 s = 30 zile)"
+msgstr ""
+"0 înseamnă că nu expiră, alt număr natural reprezintă secundele (maxim "
+"2592000 s = 30 zile)"
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
@@ -373,7 +387,9 @@ msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
 "Redis database index: integer >= 0 , optional (used if Redis is chosen for "
 "the cache storage)"
-msgstr "Index bază de date Redis: număr natural >= 0, (dacă Redis este folosit ca stocare cache)"
+msgstr ""
+"Index bază de date Redis: număr natural >= 0, (dacă Redis este folosit ca "
+"stocare cache)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -472,7 +488,9 @@ msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
 msgid ""
 "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
 "\"tracking ID\"."
-msgstr "ID-ul Google Analytics este de forma 'UA-XXXX-Y'. Mai este denumit și \"tracking ID\"."
+msgstr ""
+"ID-ul Google Analytics este de forma 'UA-XXXX-Y'. Mai este denumit și "
+"\"tracking ID\"."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.label
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
@@ -489,7 +507,9 @@ msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr "Timpul de expirare al cache-ului serverului trebuie să fie un număr natural între 0 și 2592000 secunde."
+msgstr ""
+"Timpul de expirare al cache-ului serverului trebuie să fie un număr natural "
+"între 0 și 2592000 secunde."
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
@@ -569,7 +589,8 @@ msgstr "Utilizați un server proxy"
 #: admin~admin.form.admin_services.requestProxy.label
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
 msgid "Use a proxy server to do requests to external services"
-msgstr "Utilizați un server proxy pentru a face solicitări către servicii externe"
+msgstr ""
+"Utilizați un server proxy pentru a face solicitări către servicii externe"
 
 #: admin~admin.form.admin_services.requestProxyHost.label
 msgctxt "admin~admin.form.admin_services.requestProxyHost.label"
@@ -607,7 +628,10 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr "Directorul rădăcină al depozitelor de date poate limita directorul Lizmap la 1 director. Dacă o care e setată aici, definirea unei căi catre un director Limap nu mai este posibilă."
+msgstr ""
+"Directorul rădăcină al depozitelor de date poate limita directorul Lizmap la"
+" 1 director. Dacă o care e setată aici, definirea unei căi catre un director"
+" Limap nu mai este posibilă."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -648,7 +672,9 @@ msgstr "Da"
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
-msgstr "Puteți scrie orice sintaxă CSS pentru a trece peste stilul Lizmap (pentru utilizatorii avansați)"
+msgstr ""
+"Puteți scrie orice sintaxă CSS pentru a trece peste stilul Lizmap (pentru "
+"utilizatorii avansați)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
@@ -683,7 +709,8 @@ msgstr "Culoare fundal header"
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
 msgid "The image to be used for the header background (400ko Maximum)."
-msgstr "Imaginea care va fi utilizată pentru fundalul antetului (400ko Maxim)."
+msgstr ""
+"Imaginea care va fi utilizată pentru fundalul antetului (400ko Maxim)."
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
@@ -813,7 +840,9 @@ msgstr "Un utilizator s-a autentificat."
 #: admin~admin.logs.email.popup.body
 msgctxt "admin~admin.logs.email.popup.body"
 msgid "A user has opened a feature information popup."
-msgstr "Un utilizator a deschis un balon informativ cu informații despre caracteristici."
+msgstr ""
+"Un utilizator a deschis un balon informativ cu informații despre "
+"caracteristici."
 
 #: admin~admin.logs.email.print.body
 msgctxt "admin~admin.logs.email.print.body"
@@ -865,12 +894,16 @@ msgctxt "admin~admin.logs.error.file.too.big"
 msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
-msgstr "Fișierul jurnal de erori este prea mare. Luați în considerare utilizarea repetării jurnalului pentru jurnalele Lizmap Web Client."
+msgstr ""
+"Fișierul jurnal de erori este prea mare. Luați în considerare utilizarea "
+"repetării jurnalului pentru jurnalele Lizmap Web Client."
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the Lizmap Web Client application error log file"
-msgstr "Ultimele rânduri ale fișierului jurnal de erori al aplicației Lizmap Web Client"
+msgstr ""
+"Ultimele rânduri ale fișierului jurnal de erori al aplicației Lizmap Web "
+"Client"
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
@@ -1095,7 +1128,9 @@ msgstr "Permite exportul de layere"
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "Always see complete layers data, even if filtered by login"
-msgstr "Datele straturilor să fie vizualizate complet, chiar și filtrate de autentificare"
+msgstr ""
+"Datele straturilor să fie vizualizate complet, chiar și filtrate de "
+"autentificare"
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
@@ -1127,7 +1162,9 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr "Cineva a solicitat un cont Lizmap pentru a putea accesa hărțile, cu autentificarea %s și adresa de e-mail %s."
+msgstr ""
+"Cineva a solicitat un cont Lizmap pentru a putea accesa hărțile, cu "
+"autentificarea %s și adresa de e-mail %s."
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"

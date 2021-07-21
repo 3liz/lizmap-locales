@@ -1,18 +1,19 @@
 # 
 # Translators:
-# Laurent Jouanneau <dev@ljouanneau.com>, 2018-2019,2021
-# Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2018
-# Michael Douchin <kimaidou@gmail.com>, 2017
-# Nicolas Boisteault <nboisteault@gmail.com>, 2020
-# rldhont <rldhont@gmail.com>, 2016-2019
+# Michael Douchin <kimaidou@gmail.com>, 2021
+# Nicolas Boisteault <nboisteault@gmail.com>, 2021
+# Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2021
+# rldhont <rldhont@gmail.com>, 2021
+# Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client admin 3.4.2-pre\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-26 14:54++0100\n"
-"PO-Revision-Date: 2021-02-26 14:00+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
-"Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
+"PO-Revision-Date: 2021-03-03 17:34+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2021\n"
+"Language-Team: French (https://www.transifex.com/3liz-1/teams/62012/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -44,7 +45,9 @@ msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
 "This option cannot be enable while the sender email is not defined. Please "
 "contact the application administrator."
-msgstr "Cette option ne peut pas être activée tant que l'email de l'expediteur n'est pas renseigné. Contactez l'administrateur de l'application."
+msgstr ""
+"Cette option ne peut pas être activée tant que l'email de l'expediteur n'est"
+" pas renseigné. Contactez l'administrateur de l'application."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -105,7 +108,8 @@ msgstr "Courriel de l'administrateur"
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of Ldap authentication"
-msgstr "Cette option est désactivée parce que l'authentification ldap est utilisée"
+msgstr ""
+"Cette option est désactivée parce que l'authentification ldap est utilisée"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -306,7 +310,9 @@ msgstr "Enregistrer"
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
 msgid "E-mail address to which notifications will be sent"
-msgstr "Les notifications (par exemple les demandes de compte) seront envoyées à ce courriel."
+msgstr ""
+"Les notifications (par exemple les demandes de compte) seront envoyées à ce "
+"courriel."
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
@@ -318,14 +324,19 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
 msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
-msgstr "Une adresse mail d'expéditeur est nécessaire pour envoyer les mails de notification ou de demande de création de compte"
+msgstr ""
+"Une adresse mail d'expéditeur est nécessaire pour envoyer les mails de "
+"notification ou de demande de création de compte"
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "Adresse de l'expéditeur utilisé pour l'envoi des courriels par Lizmap. Si il n'est pas indiqué, aucun mail ne sera envoyé par Lizmap. Assurez-vous que le serveur web est autorisé à envoyer des courriels avec cette adresse."
+msgstr ""
+"Adresse de l'expéditeur utilisé pour l'envoi des courriels par Lizmap. Si il"
+" n'est pas indiqué, aucun mail ne sera envoyé par Lizmap. Assurez-vous que "
+"le serveur web est autorisé à envoyer des courriels avec cette adresse."
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
@@ -347,7 +358,10 @@ msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
 msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
-msgstr "Si ce paramètre est mis sur on, alors les visiteurs peuvent remplir un formulaire de demande de compte. Il faut que l'adresse email de l'expéditeur soit configurée."
+msgstr ""
+"Si ce paramètre est mis sur on, alors les visiteurs peuvent remplir un "
+"formulaire de demande de compte. Il faut que l'adresse email de l'expéditeur"
+" soit configurée."
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
@@ -364,7 +378,9 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr "0 signifie pas d'expiration. Sinon donner un entier en secondes (Maximum 2592000 = 30 jours)"
+msgstr ""
+"0 signifie pas d'expiration. Sinon donner un entier en secondes (Maximum "
+"2592000 = 30 jours)"
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
@@ -376,7 +392,9 @@ msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
 "Redis database index: integer >= 0 , optional (used if Redis is chosen for "
 "the cache storage)"
-msgstr "Redis database index : entier >= 0 , optionnel (utilisé seulement si Redis est choisi pour stocker le cache)"
+msgstr ""
+"Redis database index : entier >= 0 , optionnel (utilisé seulement si Redis "
+"est choisi pour stocker le cache)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -386,7 +404,8 @@ msgstr "Base de donnée Redis"
 #: admin~admin.form.admin_services.cacheRedisHost.help
 msgctxt "admin~admin.form.admin_services.cacheRedisHost.help"
 msgid "Redis host (used if Redis is chosen for the cache storage)"
-msgstr "Hôte Redis (utilisé seulement si Redis est choisi pour stocker le cache )"
+msgstr ""
+"Hôte Redis (utilisé seulement si Redis est choisi pour stocker le cache )"
 
 #: admin~admin.form.admin_services.cacheRedisHost.label
 msgctxt "admin~admin.form.admin_services.cacheRedisHost.label"
@@ -398,7 +417,9 @@ msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
 msgid ""
 "Redis key prefix: string, optional (used if Redis is chosen for the cache "
 "storage)"
-msgstr "Redis key prefix : texte, optionnel (utilisé seulement si Redis est choisi pour stocker le cache)"
+msgstr ""
+"Redis key prefix : texte, optionnel (utilisé seulement si Redis est choisi "
+"pour stocker le cache)"
 
 #: admin~admin.form.admin_services.cacheRedisKeyPrefix.label
 msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.label"
@@ -408,7 +429,8 @@ msgstr "Préfixe de clé Redis"
 #: admin~admin.form.admin_services.cacheRedisPort.help
 msgctxt "admin~admin.form.admin_services.cacheRedisPort.help"
 msgid "Redis port (used if Redis is chosen for the cache storage)"
-msgstr "Port Redis (utilisé seulement si Redis est choisi pour stocker le cache )"
+msgstr ""
+"Port Redis (utilisé seulement si Redis est choisi pour stocker le cache )"
 
 #: admin~admin.form.admin_services.cacheRedisPort.label
 msgctxt "admin~admin.form.admin_services.cacheRedisPort.label"
@@ -418,7 +440,9 @@ msgstr "Port Redis"
 #: admin~admin.form.admin_services.cacheRootDirectory.help
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.help"
 msgid "Choose a writable directory where to store cache files."
-msgstr "Choisir un répertoire du disque accessible en écriture pour y stocker le cache."
+msgstr ""
+"Choisir un répertoire du disque accessible en écriture pour y stocker le "
+"cache."
 
 #: admin~admin.form.admin_services.cacheRootDirectory.label
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.label"
@@ -475,7 +499,9 @@ msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
 msgid ""
 "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
 "\"tracking ID\"."
-msgstr "L'identifiant Google Analytics est de la forme 'UA-XXXX-Y'. Il est ausi appelé \"tracking ID\"."
+msgstr ""
+"L'identifiant Google Analytics est de la forme 'UA-XXXX-Y'. Il est ausi "
+"appelé \"tracking ID\"."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.label
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
@@ -492,12 +518,15 @@ msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr "La durée de vie du cache doit être un entier entre 0 et 2592000 secondes."
+msgstr ""
+"La durée de vie du cache doit être un entier entre 0 et 2592000 secondes."
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
 msgid "The directory does not exists or is not writable. You can use: %s"
-msgstr "Le répertoire n'existe pas où n'est pas accessible en écriture. Vous pouvez utiliser: %s"
+msgstr ""
+"Le répertoire n'existe pas où n'est pas accessible en écriture. Vous pouvez "
+"utiliser: %s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -572,7 +601,8 @@ msgstr "Utiliser un serveur proxy"
 #: admin~admin.form.admin_services.requestProxy.label
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
 msgid "Use a proxy server to do requests to external services"
-msgstr "Utiliser un serveur proxy pour faire des requêtes à des services externes"
+msgstr ""
+"Utiliser un serveur proxy pour faire des requêtes à des services externes"
 
 #: admin~admin.form.admin_services.requestProxyHost.label
 msgctxt "admin~admin.form.admin_services.requestProxyHost.label"
@@ -610,7 +640,10 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr "Le dossier racine des répertoires permet de limiter à 1 dossier les répertoires Lizmap. Si un chemin est défini ici, il n'est plus possible de définir le chemin d'un répertoire Lizmap."
+msgstr ""
+"Le dossier racine des répertoires permet de limiter à 1 dossier les "
+"répertoires Lizmap. Si un chemin est défini ici, il n'est plus possible de "
+"définir le chemin d'un répertoire Lizmap."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -651,7 +684,9 @@ msgstr "Oui"
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
-msgstr "Vous pouvez écrire n’importe quelle syntaxe CSS pour surcharger les styles de Lizmap (pour utilisateurs avancés)"
+msgstr ""
+"Vous pouvez écrire n’importe quelle syntaxe CSS pour surcharger les styles "
+"de Lizmap (pour utilisateurs avancés)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
@@ -868,12 +903,16 @@ msgctxt "admin~admin.logs.error.file.too.big"
 msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
-msgstr "Le fichier de log d'erreurs est trop gros. Envisagez l'utilisation de la rotation pour les logs de Lizmap Web Client"
+msgstr ""
+"Le fichier de log d'erreurs est trop gros. Envisagez l'utilisation de la "
+"rotation pour les logs de Lizmap Web Client"
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the Lizmap Web Client application error log file"
-msgstr "Dernières lignes du fichier de logs d'erreurs de l'application Lizmap Web Client"
+msgstr ""
+"Dernières lignes du fichier de logs d'erreurs de l'application Lizmap Web "
+"Client"
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
@@ -1130,7 +1169,9 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr "Une personne a souhaité avoir un accès aux cartes Lizmap avec le login %s et le courriel %s."
+msgstr ""
+"Une personne a souhaité avoir un accès aux cartes Lizmap avec le login %s et"
+" le courriel %s."
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"

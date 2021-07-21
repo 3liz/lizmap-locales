@@ -1,17 +1,17 @@
 # 
 # Translators:
-# xanvieiro <gallaecia6@gmail.com>, 2016-2020
-# rldhont <rldhont@gmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
-# xanvieiro <gallaecia6@gmail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2021
+# Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# xanvieiro <gallaecia6@gmail.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client view 3.4.2-pre\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-26 14:54++0100\n"
-"PO-Revision-Date: 2020-11-23 16:45+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
-"Language-Team: Galician (http://www.transifex.com/3liz-1/lizmap-locales/language/gl/)\n"
+"PO-Revision-Date: 2021-03-03 17:34+0000\n"
+"Last-Translator: xanvieiro <gallaecia6@gmail.com>, 2021\n"
+"Language-Team: Galician (https://www.transifex.com/3liz-1/teams/62012/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -188,7 +188,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "A capa non é visible. Faga zoom ata a escala na que as entidades sexan visibles."
+msgstr ""
+"A capa non é visible. Faga zoom ata a escala na que as entidades sexan "
+"visibles."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -268,7 +270,8 @@ msgstr "Recargar os datos da táboa."
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr "Cambiou a extensión do mapa dende a última vez que se actualizaron os datos."
+msgstr ""
+"Cambiou a extensión do mapa dende a última vez que se actualizaron os datos."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
@@ -400,7 +403,9 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Está seguro de querer cancelar a edición? Perderá calquera modificación feita no obxecto editado actualmente."
+msgstr ""
+"Está seguro de querer cancelar a edición? Perderá calquera modificación "
+"feita no obxecto editado actualmente."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -427,7 +432,8 @@ msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Non pode gardar este obxecto sen unha xeometría. Debuxe a xeometría no mapa."
+msgstr ""
+"Non pode gardar este obxecto sen unha xeometría. Debuxe a xeometría no mapa."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -454,7 +460,9 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "Debes encher correctamente o formulario, para crear unha nova entidade despois de dividir a xeometría"
+msgstr ""
+"Debes encher correctamente o formulario, para crear unha nova entidade "
+"despois de dividir a xeometría"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -844,7 +852,7 @@ msgstr "Exportar"
 #: view~dictionnary.switcher.layer.export.warn
 msgctxt "view~dictionnary.switcher.layer.export.warn"
 msgid "Please select a single layer to export"
-msgstr ""
+msgstr "Por favor, seleccione unha única capa para exportar"
 
 #: view~dictionnary.switcherLayersActions.themeSelector.title
 msgctxt "view~dictionnary.switcherLayersActions.themeSelector.title"
@@ -981,7 +989,9 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Debe haber polo menos un obxecto seleccionado para cada capa para crear o enlace."
+msgstr ""
+"Debe haber polo menos un obxecto seleccionado para cada capa para crear o "
+"enlace."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -993,7 +1003,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Non pode enlazar múltiples obxectos para ámbalas capas. Seleccione só un obxecto para unha das capas e ténteo de novo."
+msgstr ""
+"Non pode enlazar múltiples obxectos para ámbalas capas. Seleccione só un "
+"obxecto para unha das capas e ténteo de novo."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1058,7 +1070,7 @@ msgstr "Fallou a eliminación."
 #: view~edition.message.error.feature.editable
 msgctxt "view~edition.message.error.feature.editable"
 msgid "The feature is not editable."
-msgstr ""
+msgstr "Non se pode editar esta entidade."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -1090,7 +1102,8 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Non pode gardar este obxecto sen unha xeometría. Debuxe a xeometría no mapa."
+msgstr ""
+"Non pode gardar este obxecto sen unha xeometría. Debuxe a xeometría no mapa."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1107,7 +1120,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap non pode atopar as claves primarias da capa \"%s\". A ferramenta de edición precisa unha clave primaria definida na táboa."
+msgstr ""
+"Lizmap non pode atopar as claves primarias da capa \"%s\". A ferramenta de "
+"edición precisa unha clave primaria definida na táboa."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1129,7 +1144,9 @@ msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "Non se pode escribir no directorio do campo \"%s\" da capa \"%s\" para subir ficheiros."
+msgstr ""
+"Non se pode escribir no directorio do campo \"%s\" da capa \"%s\" para subir"
+" ficheiros."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -1911,7 +1928,8 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have an access to"
 " the maps."
-msgstr "Escriba un texto breve para explicar por que querería ter acceso ós mapas."
+msgstr ""
+"Escriba un texto breve para explicar por que querería ter acceso ós mapas."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

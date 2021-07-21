@@ -1,16 +1,18 @@
 # 
 # Translators:
-# Alexander Schley <alexanderfschley@yahoo.com.br>, 2019-2020
-# Fábio Rodrigo Oliveira <farool2@gmail.com>, 2016
-# Fábio Rodrigo Oliveira <farool2@gmail.com>, 2016-2017
+# Fábio Rodrigo Oliveira <farool2@gmail.com>, 2021
+# rldhont <rldhont@gmail.com>, 2021
+# Alexander Schley <alexanderfschley@yahoo.com.br>, 2021
+# Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client view 3.4.2-pre\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-26 14:54++0100\n"
-"PO-Revision-Date: 2020-11-23 16:45+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/3liz-1/lizmap-locales/language/pt_BR/)\n"
+"PO-Revision-Date: 2021-03-03 17:34+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2021\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/3liz-1/teams/62012/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -187,7 +189,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "A camada não está visível. Por favor, aproxime para uma escala em que os elementos sejam visíveis."
+msgstr ""
+"A camada não está visível. Por favor, aproxime para uma escala em que os "
+"elementos sejam visíveis."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -267,7 +271,9 @@ msgstr "Atualize os dados da tabela."
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr "A extensão do mapa foi alterada desde a última vez que os dados foram carregados."
+msgstr ""
+"A extensão do mapa foi alterada desde a última vez que os dados foram "
+"carregados."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
@@ -399,7 +405,9 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Você tem certeza que deseja cancelar a edição? Você vai perder todas as modificações."
+msgstr ""
+"Você tem certeza que deseja cancelar a edição? Você vai perder todas as "
+"modificações."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -426,7 +434,9 @@ msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Você não pode salvar este objeto sem uma geometria. Por favor, desenhe a geometria no mapa."
+msgstr ""
+"Você não pode salvar este objeto sem uma geometria. Por favor, desenhe a "
+"geometria no mapa."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -453,7 +463,9 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "Você deve preencher corretamente o formulário para criar um novo recurso depois de dividir a geometria"
+msgstr ""
+"Você deve preencher corretamente o formulário para criar um novo recurso "
+"depois de dividir a geometria"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -980,7 +992,9 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Deve haver pelo menos um objeto selecionado para cada camada para criar a ligação"
+msgstr ""
+"Deve haver pelo menos um objeto selecionado para cada camada para criar a "
+"ligação"
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -992,7 +1006,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Você não pode ligar vários objetos para ambas as camadas. Por favor, selecione apenas um objeto para uma das camadas e tente novamente."
+msgstr ""
+"Você não pode ligar vários objetos para ambas as camadas. Por favor, "
+"selecione apenas um objeto para uma das camadas e tente novamente."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1089,7 +1105,8 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Você não pode salvar objetos sem geometria. Por favor desenhe a geometria."
+msgstr ""
+"Você não pode salvar objetos sem geometria. Por favor desenhe a geometria."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1106,7 +1123,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "O Lizmap não consegue encontrar as chaves primárias da camada \"%s\". A ferramenta de edição precisa de uma chave primária definida na tabela."
+msgstr ""
+"O Lizmap não consegue encontrar as chaves primárias da camada \"%s\". A "
+"ferramenta de edição precisa de uma chave primária definida na tabela."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1121,14 +1140,18 @@ msgstr "Não há campos disponíveis para salvar o formulário."
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
 msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr "O diretório para upload de mídia da camada \"%s\" não tem permissões de escrita."
+msgstr ""
+"O diretório para upload de mídia da camada \"%s\" não tem permissões de "
+"escrita."
 
 #: view~edition.message.error.upload.layer.field
 msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "O campo \"%s\" do diretório para upload de mídia da camada \"%s\" não tem permissões de escrita."
+msgstr ""
+"O campo \"%s\" do diretório para upload de mídia da camada \"%s\" não tem "
+"permissões de escrita."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -1910,7 +1933,9 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have an access to"
 " the maps."
-msgstr "Por favor, escreva um pequeno texto para explicar por que você gostaria de ter acesso aos mapas."
+msgstr ""
+"Por favor, escreva um pequeno texto para explicar por que você gostaria de "
+"ter acesso aos mapas."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

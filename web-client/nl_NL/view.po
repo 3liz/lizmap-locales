@@ -1,17 +1,21 @@
 # 
 # Translators:
-# Jean-Louis Stanus <rammstan@msn.com>, 2017
-# Nico Veenstra <nvbgm@gmx.net>, 2019
-# Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2017-2018
-# Thierry <thierry.chavalle@gate-16.com>, 2017
+# Jean-Louis Stanus <rammstan@msn.com>, 2021
+# rldhont <rldhont@gmail.com>, 2021
+# Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2021
+# Thierry <thierry.chavalle@gate-16.com>, 2021
+# Nico Veenstra <nvbgm@gmx.net>, 2021
+# Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# t j, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client view 3.4.2-pre\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-26 14:54++0100\n"
-"PO-Revision-Date: 2020-11-23 16:45+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/3liz-1/lizmap-locales/language/nl/)\n"
+"PO-Revision-Date: 2021-03-03 17:34+0000\n"
+"Last-Translator: t j, 2021\n"
+"Language-Team: Dutch (https://www.transifex.com/3liz-1/teams/62012/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,7 +45,7 @@ msgstr "Beheer"
 #: view~default.header.search.input.title
 msgctxt "view~default.header.search.input.title"
 msgid "Type to filter your maps."
-msgstr ""
+msgstr "Typ om de kaarten te filteren"
 
 #: view~default.header.search.toggleKeywordsTitle.title
 msgctxt "view~default.header.search.toggleKeywordsTitle.title"
@@ -76,7 +80,7 @@ msgstr "Sluiten"
 #: view~default.project.keywordList.label
 msgctxt "view~default.project.keywordList.label"
 msgid "Keyword list"
-msgstr ""
+msgstr "Lijst Sleutelwoorden"
 
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
@@ -188,7 +192,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "De laag is niet zichtbaar. Zoom in op een schaal waarin de features zichtbaar worden."
+msgstr ""
+"De laag is niet zichtbaar. Zoom in op een schaal waarin de features "
+"zichtbaar worden."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -268,7 +274,9 @@ msgstr "Vernieuw de tabel."
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr "Sinds de gegevens laatst werden ingelezen werd de omtrek van de kaart gewijzigd"
+msgstr ""
+"Sinds de gegevens laatst werden ingelezen werd de omtrek van de kaart "
+"gewijzigd"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
@@ -338,7 +346,7 @@ msgstr "Verkleinen"
 #: view~dictionnary.digitizing.confirme.erase
 msgctxt "view~dictionnary.digitizing.confirme.erase"
 msgid "Are you sure you want to delete all features?"
-msgstr ""
+msgstr "Bent u zeker dat u alle features wil verwijderen?"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -353,7 +361,7 @@ msgstr "Cirkel"
 #: view~dictionnary.digitizing.toolbar.color
 msgctxt "view~dictionnary.digitizing.toolbar.color"
 msgid "Pick draw color"
-msgstr ""
+msgstr "Kies kleur"
 
 #: view~dictionnary.digitizing.toolbar.deactivate
 msgctxt "view~dictionnary.digitizing.toolbar.deactivate"
@@ -363,12 +371,12 @@ msgstr "Deactiveren"
 #: view~dictionnary.digitizing.toolbar.drawTools
 msgctxt "view~dictionnary.digitizing.toolbar.drawTools"
 msgid "Draw tools"
-msgstr ""
+msgstr "Tekengereedschap"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
 msgid "Delete all features"
-msgstr ""
+msgstr "Verwijder alle features"
 
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
@@ -383,12 +391,12 @@ msgstr ""
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
 msgid "Line"
-msgstr ""
+msgstr "Lijn"
 
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
 msgid "Point"
-msgstr ""
+msgstr "Punt"
 
 #: view~dictionnary.digitizing.toolbar.polygon
 msgctxt "view~dictionnary.digitizing.toolbar.polygon"
@@ -400,7 +408,9 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Wenst u wijzingen ongedaan te maken? Alle aanpassignen op het object in bewerking zullen verloren gaan."
+msgstr ""
+"Wenst u wijzingen ongedaan te maken? Alle aanpassignen op het object in "
+"bewerking zullen verloren gaan."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -427,7 +437,9 @@ msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "U kunt dit object niet zonder een geometrie opslaan. Gelieve de geometrie op de kaart in te tekenen."
+msgstr ""
+"U kunt dit object niet zonder een geometrie opslaan. Gelieve de geometrie op"
+" de kaart in te tekenen."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -447,7 +459,8 @@ msgstr "Klik op een van de functies van de laag om het te selecteren."
 #: view~dictionnary.edition.select.modify.activate
 msgctxt "view~dictionnary.edition.select.modify.activate"
 msgid "You can modify the feature you have selected, then submit."
-msgstr "U kunt de feature die u hebt geselecteerd wijzigen en vervolgens opslaan."
+msgstr ""
+"U kunt de feature die u hebt geselecteerd wijzigen en vervolgens opslaan."
 
 #: view~dictionnary.edition.splitfeat.form.error
 msgctxt "view~dictionnary.edition.splitfeat.form.error"
@@ -455,11 +468,13 @@ msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
 msgstr ""
+"Na het splitsen van de geometrie moet u het formulier correct invullen om "
+"een nieuwe feature te creëren."
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
 msgid "A technical error occurs. Split cannot be done."
-msgstr ""
+msgstr "Er is een technische fout. De split kan niet worden uitgevoerd."
 
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
@@ -981,7 +996,9 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Er moet ten minste één object zijn geselecteerd voor elke laag om de link aan te maken."
+msgstr ""
+"Er moet ten minste één object zijn geselecteerd voor elke laag om de link "
+"aan te maken."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -993,7 +1010,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "U kunt meerdere objecten niet verbinden voor beide lagen. Selecteer slechts één object voor één van de lagen en probeer opnieuw."
+msgstr ""
+"U kunt meerdere objecten niet verbinden voor beide lagen. Selecteer slechts "
+"één object voor één van de lagen en probeer opnieuw."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1013,12 +1032,15 @@ msgstr "Wijzigen van attributen voor de laag \"%s\" is niet beschikbaar."
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table."
-msgstr "De lagen zijn niet geconfigureerd om een tabel met eigenschappen te bevatten."
+msgstr ""
+"De lagen zijn niet geconfigureerd om een tabel met eigenschappen te "
+"bevatten."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
 msgid "An error occured while adding linked data."
-msgstr "Er is een fout opgetreden tijdens het toevoegen van gekoppelde gegevens."
+msgstr ""
+"Er is een fout opgetreden tijdens het toevoegen van gekoppelde gegevens."
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
@@ -1090,7 +1112,9 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "U kunt dit object niet zonder een geometrie opslaan. Gelieve de geometrie op de kaart in te tekenen."
+msgstr ""
+"U kunt dit object niet zonder een geometrie opslaan. Gelieve de geometrie op"
+" de kaart in te tekenen."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1107,7 +1131,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap kan de primaire sleutels van de \" %s \" -laag niet vinden. De editietool heeft een gedefinieerde primaire sleutel nodig."
+msgstr ""
+"Lizmap kan de primaire sleutels van de \" %s \" -laag niet vinden. De "
+"editietool heeft een gedefinieerde primaire sleutel nodig."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1122,14 +1148,18 @@ msgstr "Geen velden beschikbaar om het formulier op te slaan."
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
 msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr "De laag \" %s \" directory voor het uploaden van media is niet beschrijfbaar."
+msgstr ""
+"De laag \" %s \" directory voor het uploaden van media is niet "
+"beschrijfbaar."
 
 #: view~edition.message.error.upload.layer.field
 msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "De veld \" %s \" map van de laag \" %s \" voor het uploaden van media is niet beschrijfbaar."
+msgstr ""
+"De veld \" %s \" map van de laag \" %s \" voor het uploaden van media is "
+"niet beschrijfbaar."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"

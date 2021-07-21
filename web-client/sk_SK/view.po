@@ -1,14 +1,16 @@
 # 
 # Translators:
-# Majky Beast <maros.michalov@hrdlicka.sk>, 2020-2021
+# Majky Beast <maros.michalov@hrdlicka.sk>, 2021
+# Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client view 3.4.2-pre\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-26 14:54++0100\n"
-"PO-Revision-Date: 2021-01-13 13:10+0000\n"
-"Last-Translator: Majky Beast <maros.michalov@hrdlicka.sk>\n"
-"Language-Team: Slovak (http://www.transifex.com/3liz-1/lizmap-locales/language/sk/)\n"
+"PO-Revision-Date: 2021-03-03 17:34+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2021\n"
+"Language-Team: Slovak (https://www.transifex.com/3liz-1/teams/62012/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -185,7 +187,8 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "Vrstva nie je viditeľná. Zväčšite mierku, v ktorej sú prvky viditeľné."
+msgstr ""
+"Vrstva nie je viditeľná. Zväčšite mierku, v ktorej sú prvky viditeľné."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -397,7 +400,9 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Naozaj chcete zrušiť editáciu? Stratíte všetky úpravy vykonané na aktuálne upravenom objekte."
+msgstr ""
+"Naozaj chcete zrušiť editáciu? Stratíte všetky úpravy vykonané na aktuálne "
+"upravenom objekte."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -424,7 +429,8 @@ msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Bez geometrie nemôžete tento objekt uložiť. Nakreslite geometriu na mapu."
+msgstr ""
+"Bez geometrie nemôžete tento objekt uložiť. Nakreslite geometriu na mapu."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -451,7 +457,9 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "Mali by ste správne vyplniť formulár, aby ste po rozdelení geometrie vytvorili nový prvok"
+msgstr ""
+"Mali by ste správne vyplniť formulár, aby ste po rozdelení geometrie "
+"vytvorili nový prvok"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -978,7 +986,8 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Na vytvorenie odkazu musí byť pre každú vrstvu vybraný aspoň jeden objekt."
+msgstr ""
+"Na vytvorenie odkazu musí byť pre každú vrstvu vybraný aspoň jeden objekt."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -990,7 +999,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Nemôžete prepojiť viac objektov pre obe vrstvy. Pre jednu z vrstiev vyberte iba jeden objekt a skúste to znova."
+msgstr ""
+"Nemôžete prepojiť viac objektov pre obe vrstvy. Pre jednu z vrstiev vyberte "
+"iba jeden objekt a skúste to znova."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1087,7 +1098,8 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Bez geometrie nemôžete tento objekt uložiť. Nakreslite geometriu na mapu."
+msgstr ""
+"Bez geometrie nemôžete tento objekt uložiť. Nakreslite geometriu na mapu."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1104,7 +1116,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap nemôže nájsť primárne kľúče vrstvy \"%s\". Edičný nástroj potrebuje v tabuľke definovaný primárny kľúč."
+msgstr ""
+"Lizmap nemôže nájsť primárne kľúče vrstvy \"%s\". Edičný nástroj potrebuje v"
+" tabuľke definovaný primárny kľúč."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1126,7 +1140,9 @@ msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "Do poľa \"%s\" adresára vrstvy \"%s\" pre nahrávanie médií nie je možné zapisovať."
+msgstr ""
+"Do poľa \"%s\" adresára vrstvy \"%s\" pre nahrávanie médií nie je možné "
+"zapisovať."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -1491,7 +1507,8 @@ msgstr "Zobraziť ponuku"
 #: view~map.message.zoominmax
 msgctxt "view~map.message.zoominmax"
 msgid "No deeper zoom available for this base layer"
-msgstr "Pre túto základnú vrstvu nie je k dispozícii žiadne hlbšie priblíženie"
+msgstr ""
+"Pre túto základnú vrstvu nie je k dispozícii žiadne hlbšie priblíženie"
 
 #: view~map.metadata.contact.email
 msgctxt "view~map.metadata.contact.email"
@@ -1908,7 +1925,8 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have an access to"
 " the maps."
-msgstr "Napíšte malý text, ktorý vysvetlí, prečo by ste chceli mať prístup k mapám."
+msgstr ""
+"Napíšte malý text, ktorý vysvetlí, prečo by ste chceli mať prístup k mapám."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

@@ -1,18 +1,20 @@
 # 
 # Translators:
-# Arturo Lorenzo <shroomeater@gmail.com>, 2019
-# rldhont <rldhont@gmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
-# Samuel Mesa <samuelmesa@gmail.com>, 2018
-# Víctor Herreros <vherreros@ucm.es>, 2016-2017
+# rldhont <rldhont@gmail.com>, 2021
+# Víctor Herreros <vherreros@ucm.es>, 2021
+# Arturo Lorenzo <shroomeater@gmail.com>, 2021
+# Hernan Jesus Gonzalez Carmona <hjgonzalezc@gmail.com>, 2021
+# Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# Samuel Mesa <samuelmesa@gmail.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client view 3.4.2-pre\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-26 14:54++0100\n"
-"PO-Revision-Date: 2020-11-23 16:45+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/3liz-1/lizmap-locales/language/es/)\n"
+"PO-Revision-Date: 2021-03-03 17:34+0000\n"
+"Last-Translator: Samuel Mesa <samuelmesa@gmail.com>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/3liz-1/teams/62012/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -42,17 +44,17 @@ msgstr "Administración"
 #: view~default.header.search.input.title
 msgctxt "view~default.header.search.input.title"
 msgid "Type to filter your maps."
-msgstr ""
+msgstr "Escriba para filtrar sus mapas."
 
 #: view~default.header.search.toggleKeywordsTitle.title
 msgctxt "view~default.header.search.toggleKeywordsTitle.title"
 msgid "Toggle keywords/title search."
-msgstr ""
+msgstr "Alternar la búsqueda de palabras clave/títulos."
 
 #: view~default.home.title
 msgctxt "view~default.home.title"
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: view~default.project.abstract.label
 msgctxt "view~default.project.abstract.label"
@@ -77,7 +79,7 @@ msgstr "Cerrar"
 #: view~default.project.keywordList.label
 msgctxt "view~default.project.keywordList.label"
 msgid "Keyword list"
-msgstr ""
+msgstr "Lista de palabras clave"
 
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
@@ -189,7 +191,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "La capa no es visible. Por favor, haga zoom a una escala en la que las características sean visibles."
+msgstr ""
+"La capa no es visible. Por favor, haga zoom a una escala en la que las "
+"características sean visibles."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -269,7 +273,9 @@ msgstr "Refrescar los datos de la tabla."
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr "La extensión del mapa ha cambiado desde la última vez que se recolectaron datos."
+msgstr ""
+"La extensión del mapa ha cambiado desde la última vez que se recolectaron "
+"datos."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
@@ -339,7 +345,7 @@ msgstr "Minimizar"
 #: view~dictionnary.digitizing.confirme.erase
 msgctxt "view~dictionnary.digitizing.confirme.erase"
 msgid "Are you sure you want to delete all features?"
-msgstr ""
+msgstr "¿Está seguro de que quieres eliminar todos los objetos?"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -354,7 +360,7 @@ msgstr "Círculo"
 #: view~dictionnary.digitizing.toolbar.color
 msgctxt "view~dictionnary.digitizing.toolbar.color"
 msgid "Pick draw color"
-msgstr ""
+msgstr "Elige el color del dibujo"
 
 #: view~dictionnary.digitizing.toolbar.deactivate
 msgctxt "view~dictionnary.digitizing.toolbar.deactivate"
@@ -364,12 +370,12 @@ msgstr "Desactivar"
 #: view~dictionnary.digitizing.toolbar.drawTools
 msgctxt "view~dictionnary.digitizing.toolbar.drawTools"
 msgid "Draw tools"
-msgstr ""
+msgstr "Herramientas de dibujo"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
 msgid "Delete all features"
-msgstr ""
+msgstr "Borrar todos los objetos"
 
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
@@ -379,17 +385,17 @@ msgstr "A mano alzada"
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
 msgid "Import in GeoJSON, GPX or KML"
-msgstr ""
+msgstr "Importación en GeoJSON, GPX o KML"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
 msgid "Line"
-msgstr ""
+msgstr "Línea"
 
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
 msgid "Point"
-msgstr ""
+msgstr "Punto"
 
 #: view~dictionnary.digitizing.toolbar.polygon
 msgctxt "view~dictionnary.digitizing.toolbar.polygon"
@@ -401,7 +407,9 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "¿Seguro que quiere cancelar la edición? Perderá cualquier modificación hecha al objeto actualmente editado."
+msgstr ""
+"¿Seguro que quiere cancelar la edición? Perderá cualquier modificación hecha"
+" al objeto actualmente editado."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -428,7 +436,9 @@ msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "No puede salvar este objeto sin una geometría. Por favor, especifique la geometría en el mapa."
+msgstr ""
+"No puede salvar este objeto sin una geometría. Por favor, especifique la "
+"geometría en el mapa."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -456,11 +466,13 @@ msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
 msgstr ""
+"Debe rellenar correctamente el formulario, para crear una nuevo objeto "
+"después de dividir la geometría"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
 msgid "A technical error occurs. Split cannot be done."
-msgstr ""
+msgstr "Ocurrió un error técnico. No se puede realizar la división."
 
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
@@ -550,7 +562,7 @@ msgstr "Se requiere un nombre para crear un marcador."
 #: view~dictionnary.geolocate.infos.accuracy
 msgctxt "view~dictionnary.geolocate.infos.accuracy"
 msgid "Accuracy (m)"
-msgstr ""
+msgstr "Precisión (m)"
 
 #: view~dictionnary.geolocate.toolbar.bind
 msgctxt "view~dictionnary.geolocate.toolbar.bind"
@@ -565,7 +577,7 @@ msgstr "Centrar"
 #: view~dictionnary.geolocate.toolbar.start
 msgctxt "view~dictionnary.geolocate.toolbar.start"
 msgid "Start"
-msgstr ""
+msgstr "Inicio"
 
 #: view~dictionnary.geolocate.toolbar.stop
 msgctxt "view~dictionnary.geolocate.toolbar.stop"
@@ -575,7 +587,7 @@ msgstr "Parar"
 #: view~dictionnary.geolocate.toolbar.waiting
 msgctxt "view~dictionnary.geolocate.toolbar.waiting"
 msgid "Waiting"
-msgstr ""
+msgstr "Esperando"
 
 #: view~dictionnary.geolocation.failed
 msgctxt "view~dictionnary.geolocation.failed"
@@ -585,27 +597,27 @@ msgstr "Detección de la geolocalización fallida"
 #: view~dictionnary.geolocation.survey.accuracy
 msgctxt "view~dictionnary.geolocation.survey.accuracy"
 msgid "Accuracy"
-msgstr ""
+msgstr "Precisión"
 
 #: view~dictionnary.geolocation.survey.average
 msgctxt "view~dictionnary.geolocation.survey.average"
 msgid "Average"
-msgstr ""
+msgstr "Promedio"
 
 #: view~dictionnary.geolocation.survey.distance
 msgctxt "view~dictionnary.geolocation.survey.distance"
 msgid "Distance"
-msgstr ""
+msgstr "Distancia"
 
 #: view~dictionnary.geolocation.survey.time
 msgctxt "view~dictionnary.geolocation.survey.time"
 msgid "Time"
-msgstr ""
+msgstr "Tiempo"
 
 #: view~dictionnary.geolocation.survey.title
 msgctxt "view~dictionnary.geolocation.survey.title"
 msgid "Survey"
-msgstr ""
+msgstr "Encuesta"
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
@@ -675,7 +687,7 @@ msgstr "Zoom a la extensión de la capa"
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
 msgid "Click on the map to start measuring an angle."
-msgstr ""
+msgstr "Haz clic en el mapa para empezar a medir un ángulo."
 
 #: view~dictionnary.measure.activate.area
 msgctxt "view~dictionnary.measure.activate.area"
@@ -705,7 +717,7 @@ msgstr "Posición del ratón"
 #: view~dictionnary.mouseposition.removeCenterPoint
 msgctxt "view~dictionnary.mouseposition.removeCenterPoint"
 msgid "Remove center point"
-msgstr ""
+msgstr "Eliminar el punto central"
 
 #: view~dictionnary.mouseposition.select
 msgctxt "view~dictionnary.mouseposition.select"
@@ -750,12 +762,12 @@ msgstr "Clic en el mapa para obtener información."
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
 msgid "Compact tables"
-msgstr ""
+msgstr "Compactar tablas"
 
 #: view~dictionnary.popup.table.explode
 msgctxt "view~dictionnary.popup.table.explode"
 msgid "Explode tables"
-msgstr ""
+msgstr "Expandir tablas"
 
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
@@ -765,7 +777,7 @@ msgstr "Situar el rectángulo para la impresión"
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
-msgstr ""
+msgstr "Establecer etiquetas personalizadas para la impresión"
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -790,7 +802,7 @@ msgstr "Filtrar"
 #: view~dictionnary.selectiontool.toolbar.action.invert
 msgctxt "view~dictionnary.selectiontool.toolbar.action.invert"
 msgid "Invert selection"
-msgstr ""
+msgstr "Invertir la selección"
 
 #: view~dictionnary.selectiontool.toolbar.action.type.minus
 msgctxt "view~dictionnary.selectiontool.toolbar.action.type.minus"
@@ -815,12 +827,12 @@ msgstr "Deseleccionar todo"
 #: view~dictionnary.selectiontool.toolbar.buffer
 msgctxt "view~dictionnary.selectiontool.toolbar.buffer"
 msgid "Buffer"
-msgstr ""
+msgstr "Buffer"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator"
 msgid "Geometric operators"
-msgstr ""
+msgstr "Operadores geométricos"
 
 #: view~dictionnary.selectiontool.toolbar.layer
 msgctxt "view~dictionnary.selectiontool.toolbar.layer"
@@ -835,7 +847,7 @@ msgstr "Selección"
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
-msgstr ""
+msgstr "Ensamblado"
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -845,12 +857,12 @@ msgstr "Exportar"
 #: view~dictionnary.switcher.layer.export.warn
 msgctxt "view~dictionnary.switcher.layer.export.warn"
 msgid "Please select a single layer to export"
-msgstr ""
+msgstr "Seleccione una sola capa para exportar"
 
 #: view~dictionnary.switcherLayersActions.themeSelector.title
 msgctxt "view~dictionnary.switcherLayersActions.themeSelector.title"
 msgid "Select theme"
-msgstr ""
+msgstr "Seleccione el tema"
 
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
@@ -982,19 +994,25 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Debe haber al menos un objeto seleccionado para cada capa para crear el enlace."
+msgstr ""
+"Debe haber al menos un objeto seleccionado para cada capa para crear el "
+"enlace."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
 msgid "The pivot, features1 and features2 parameters are mandatory."
-msgstr "Los parámtetros de pivote, características1 y características2 son obligatorios."
+msgstr ""
+"Los parámtetros de pivote, características1 y características2 son "
+"obligatorios."
 
 #: view~edition.link.error.multiple.ids
 msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "No puede enlazar múltiples objetos en ambas capas. Por favor, seleccione sólo un objeto para una de las capas y vuelva a intentarlo."
+msgstr ""
+"No puede enlazar múltiples objetos en ambas capas. Por favor, seleccione "
+"sólo un objeto para una de las capas y vuelva a intentarlo."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1014,7 +1032,8 @@ msgstr "Modificar atributos para la capa \"%s\" no está disponible."
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table."
-msgstr "No se han configurado las capas para que tengan una tabla de atributo."
+msgstr ""
+"No se han configurado las capas para que tengan una tabla de atributo."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
@@ -1039,7 +1058,7 @@ msgstr "La bbox debe tener 4 números separados por ','."
 #: view~edition.message.error.constraint
 msgctxt "view~edition.message.error.constraint"
 msgid "%s: check failed"
-msgstr ""
+msgstr "%s: verificación fallida"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
@@ -1059,7 +1078,7 @@ msgstr "El borrado ha fallado."
 #: view~edition.message.error.feature.editable
 msgctxt "view~edition.message.error.feature.editable"
 msgid "The feature is not editable."
-msgstr ""
+msgstr "El objeto no es editable."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -1091,7 +1110,9 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "No puede salvar este objeto sin una geometria. Por favor, especifique la geometría en el mapa."
+msgstr ""
+"No puede salvar este objeto sin una geometria. Por favor, especifique la "
+"geometría en el mapa."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1108,7 +1129,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap no puede encontrar las llaves primarias de la capa \"%s\". La herramienta de edición necesita una llave primaria definida en la tabla."
+msgstr ""
+"Lizmap no puede encontrar las llaves primarias de la capa \"%s\". La "
+"herramienta de edición necesita una llave primaria definida en la tabla."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1123,19 +1146,23 @@ msgstr "No hay campos disponibles para guardar el formulario."
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
 msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr "El directorio de la capa \"%s\" para cargar multimedia no permite la escritura."
+msgstr ""
+"El directorio de la capa \"%s\" para cargar multimedia no permite la "
+"escritura."
 
 #: view~edition.message.error.upload.layer.field
 msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "El campo \"%s\" del directorio de la capa \"%s\" para cargar multimedia no permite la escritura."
+msgstr ""
+"El campo \"%s\" del directorio de la capa \"%s\" para cargar multimedia no "
+"permite la escritura."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
 msgid "Constraint: %s"
-msgstr ""
+msgstr "Restricción: %s"
 
 #: view~edition.message.success.create
 msgctxt "view~edition.message.success.create"
@@ -1200,22 +1227,22 @@ msgstr "Y:"
 #: view~edition.segment.angle.label
 msgctxt "view~edition.segment.angle.label"
 msgid "Angle (°):"
-msgstr ""
+msgstr "Ángulo (°):"
 
 #: view~edition.segment.length.label
 msgctxt "view~edition.segment.length.label"
 msgid "Length (m):"
-msgstr ""
+msgstr "Longitud (m):"
 
 #: view~edition.tab.digitization.title
 msgctxt "view~edition.tab.digitization.title"
 msgid "Digitization"
-msgstr ""
+msgstr "Digitalización"
 
 #: view~edition.tab.form.title
 msgctxt "view~edition.tab.form.title"
 msgid "Form"
-msgstr ""
+msgstr "Formulario"
 
 #: view~edition.toolbar.cancel.title
 msgctxt "view~edition.toolbar.cancel.title"
@@ -1340,7 +1367,7 @@ msgstr "Guardar"
 #: view~edition.upload.choice.update
 msgctxt "view~edition.upload.choice.update"
 msgid "Add/Update"
-msgstr ""
+msgstr "Añadir/actualizar"
 
 #: view~map.attributeLayers.navbar.title
 msgctxt "view~map.attributeLayers.navbar.title"
@@ -1400,7 +1427,7 @@ msgstr "Minimizar"
 #: view~map.draw.navbar.title
 msgctxt "view~map.draw.navbar.title"
 msgid "Draw"
-msgstr ""
+msgstr "Dibujar"
 
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"
@@ -1460,7 +1487,7 @@ msgstr "Medir"
 #: view~map.measure.toolbar.angle
 msgctxt "view~map.measure.toolbar.angle"
 msgid "Angle"
-msgstr ""
+msgstr "Ángulo"
 
 #: view~map.measure.toolbar.area
 msgctxt "view~map.measure.toolbar.area"
@@ -1912,7 +1939,8 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have an access to"
 " the maps."
-msgstr "Por favor, describa brevemente por qué querría tener acceso a los mapas."
+msgstr ""
+"Por favor, describa brevemente por qué querría tener acceso a los mapas."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

@@ -1,15 +1,17 @@
 # 
 # Translators:
-# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2016-2017
-# rldhont <rldhont@gmail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2021
+# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2021
+# Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client admin 3.4.2-pre\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-26 14:54++0100\n"
-"PO-Revision-Date: 2020-11-23 16:45+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
-"Language-Team: Russian (http://www.transifex.com/3liz-1/lizmap-locales/language/ru/)\n"
+"PO-Revision-Date: 2021-03-03 17:34+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2021\n"
+"Language-Team: Russian (https://www.transifex.com/3liz-1/teams/62012/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -361,7 +363,9 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr "Укажите 0 для бессрочного хранения или целое число в секундах (максимум: 2592000 с = 30 дней)"
+msgstr ""
+"Укажите 0 для бессрочного хранения или целое число в секундах (максимум: "
+"2592000 с = 30 дней)"
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
@@ -373,7 +377,9 @@ msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
 "Redis database index: integer >= 0 , optional (used if Redis is chosen for "
 "the cache storage)"
-msgstr "Индекс базы данных Redis: целое ≥ 0, необязательно (используется, если для хранения кеша выбран Redis)"
+msgstr ""
+"Индекс базы данных Redis: целое ≥ 0, необязательно (используется, если для "
+"хранения кеша выбран Redis)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -395,7 +401,9 @@ msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
 msgid ""
 "Redis key prefix: string, optional (used if Redis is chosen for the cache "
 "storage)"
-msgstr "Префикс ключа Redis: строка, необязательно (используется, если для хранения кеша выбран Redis)"
+msgstr ""
+"Префикс ключа Redis: строка, необязательно (используется, если для хранения "
+"кеша выбран Redis)"
 
 #: admin~admin.form.admin_services.cacheRedisKeyPrefix.label
 msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.label"
@@ -489,12 +497,16 @@ msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr "Время жизни кеша должно быть целым числом в диапазоне от 0 до 2592000 секунд."
+msgstr ""
+"Время жизни кеша должно быть целым числом в диапазоне от 0 до 2592000 "
+"секунд."
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
 msgid "The directory does not exists or is not writable. You can use: %s"
-msgstr "Данный каталог не существует или нет прав на запись. Вы можете использовать: %s"
+msgstr ""
+"Данный каталог не существует или нет прав на запись. Вы можете использовать:"
+" %s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -607,7 +619,10 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr "Корневой каталог репозиториев ограничивает каталог Lizmap одной директорией. При указании данной опции невозможно устанавливать локальные каталоги для отдельных проектов."
+msgstr ""
+"Корневой каталог репозиториев ограничивает каталог Lizmap одной директорией."
+" При указании данной опции невозможно устанавливать локальные каталоги для "
+"отдельных проектов."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -693,7 +708,9 @@ msgstr ""
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
 msgid "The image to be used for the header logo (200ko Maximum)."
-msgstr "Изображение для использования в качестве логотипа в шапке сайта (максимум 200 KB)."
+msgstr ""
+"Изображение для использования в качестве логотипа в шапке сайта (максимум "
+"200 KB)."
 
 #: admin~admin.form.admin_theme.headerLogo.label
 msgctxt "admin~admin.form.admin_theme.headerLogo.label"
@@ -1127,7 +1144,10 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr "Кто-то запросил регистрацию в LizMap для доступа к картам.\nЛогин: %s.\nE-Mail: %s."
+msgstr ""
+"Кто-то запросил регистрацию в LizMap для доступа к картам.\n"
+"Логин: %s.\n"
+"E-Mail: %s."
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"
