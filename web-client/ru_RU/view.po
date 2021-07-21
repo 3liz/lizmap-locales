@@ -1,16 +1,17 @@
 # 
 # Translators:
-# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2016-2017
-# rldhont <rldhont@gmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
+# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2021
+# rldhont <rldhont@gmail.com>, 2021
+# Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 18:12++0200\n"
-"PO-Revision-Date: 2021-07-21 16:13+0000\n"
-"Last-Translator: Petr Tsymbarovich <petr@tsymbarovich.ru>\n"
-"Language-Team: Russian (http://www.transifex.com/3liz-1/lizmap-locales/language/ru/)\n"
+"POT-Creation-Date: 2021-07-21 18:20++0200\n"
+"PO-Revision-Date: 2021-07-21 16:21+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2021\n"
+"Language-Team: Russian (https://www.transifex.com/3liz-1/teams/62012/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -433,7 +434,9 @@ msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Нельзя сохранить объект без геометрии. Пожалуйста, нарисуйте геометрию на карте."
+msgstr ""
+"Нельзя сохранить объект без геометрии. Пожалуйста, нарисуйте геометрию на "
+"карте."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -570,7 +573,7 @@ msgstr "Следить"
 #: view~dictionnary.geolocate.toolbar.center
 msgctxt "view~dictionnary.geolocate.toolbar.center"
 msgid "Center"
-msgstr "Центрировать"
+msgstr "Центр"
 
 #: view~dictionnary.geolocate.toolbar.start
 msgctxt "view~dictionnary.geolocate.toolbar.start"
@@ -905,7 +908,7 @@ msgstr ""
 #: view~dictionnary.selectiontool.toolbar.title
 msgctxt "view~dictionnary.selectiontool.toolbar.title"
 msgid "Selection"
-msgstr "Выделение"
+msgstr "Выбор"
 
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
@@ -1005,7 +1008,7 @@ msgstr "Отменить публикацию?"
 #: view~edition.form.cancel.label
 msgctxt "view~edition.form.cancel.label"
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
 
 #: view~edition.form.data.saved
 msgctxt "view~edition.form.data.saved"
@@ -1129,7 +1132,8 @@ msgstr "При создании объекта произошла ошибка."
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
 msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr "Необходимо указать систему координат в формате целого числа или EPSG:*."
+msgstr ""
+"Необходимо указать систему координат в формате целого числа или EPSG:*."
 
 #: view~edition.message.error.delete
 msgctxt "view~edition.message.error.delete"
@@ -1171,7 +1175,9 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Нельзя сохранить объект без геометрии. Пожалуйста, нарисуйте геометрию на карте."
+msgstr ""
+"Нельзя сохранить объект без геометрии. Пожалуйста, нарисуйте геометрию на "
+"карте."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1710,7 +1716,7 @@ msgstr "Шкала масштаба"
 #: view~map.overviewbar.scaletext.hover
 msgctxt "view~map.overviewbar.scaletext.hover"
 msgid "Scale"
-msgstr "Масштаб"
+msgstr "Масштабирование"
 
 #: view~map.overviewbar.scaletext.title
 msgctxt "view~map.overviewbar.scaletext.title"
@@ -1840,7 +1846,7 @@ msgstr "Формат"
 #: view~map.print.toolbar.scale
 msgctxt "view~map.print.toolbar.scale"
 msgid "Scale"
-msgstr "Масштаб"
+msgstr "Масштабирование"
 
 #: view~map.print.toolbar.template
 msgctxt "view~map.print.toolbar.template"
@@ -1870,7 +1876,7 @@ msgstr "Выбор"
 #: view~map.selectiontool.toolbar.title
 msgctxt "view~map.selectiontool.toolbar.title"
 msgid "Selection"
-msgstr "Выделение"
+msgstr "Выбор"
 
 #: view~map.switcher.layer.export.title
 msgctxt "view~map.switcher.layer.export.title"

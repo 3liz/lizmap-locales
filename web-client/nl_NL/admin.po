@@ -1,16 +1,19 @@
 # 
 # Translators:
-# Jean-Louis Stanus <rammstan@msn.com>, 2017
-# Nico Veenstra <nvbgm@gmx.net>, 2019
-# Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2018
+# Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# t j, 2021
+# Jean-Louis Stanus <rammstan@msn.com>, 2021
+# Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2021
+# Nico Veenstra <nvbgm@gmx.net>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 18:12++0200\n"
-"PO-Revision-Date: 2020-11-23 16:45+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/3liz-1/lizmap-locales/language/nl/)\n"
+"POT-Creation-Date: 2021-07-21 18:20++0200\n"
+"PO-Revision-Date: 2021-07-21 16:21+0000\n"
+"Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2021\n"
+"Language-Team: Dutch (https://www.transifex.com/3liz-1/teams/62012/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -57,17 +60,17 @@ msgstr "Terug"
 #: admin~admin.configuration.button.modify.repository.label
 msgctxt "admin~admin.configuration.button.modify.repository.label"
 msgid "Modify"
-msgstr "Wijzigen"
+msgstr "Wijzig"
 
 #: admin~admin.configuration.button.modify.service.label
 msgctxt "admin~admin.configuration.button.modify.service.label"
 msgid "Modify"
-msgstr "Wijzigen"
+msgstr "Wijzig"
 
 #: admin~admin.configuration.button.modify.theme.label
 msgctxt "admin~admin.configuration.button.modify.theme.label"
 msgid "Modify"
-msgstr "Wijzigen"
+msgstr "Wijzig"
 
 #: admin~admin.configuration.button.remove.repository.confirm.label
 msgctxt "admin~admin.configuration.button.remove.repository.confirm.label"
@@ -82,7 +85,7 @@ msgstr "Verwijderen"
 #: admin~admin.configuration.button.view.repository.label
 msgctxt "admin~admin.configuration.button.view.repository.label"
 msgid "View"
-msgstr "Bekijken"
+msgstr "Overzicht"
 
 #: admin~admin.configuration.h1
 msgctxt "admin~admin.configuration.h1"
@@ -92,7 +95,7 @@ msgstr "Lizmap configuratie"
 #: admin~admin.configuration.repository.label
 msgctxt "admin~admin.configuration.repository.label"
 msgid "Repository"
-msgstr "Gegevensbank"
+msgstr "Opslagplaats"
 
 #: admin~admin.configuration.services.adminContactEmail.label
 msgctxt "admin~admin.configuration.services.adminContactEmail.label"
@@ -103,7 +106,8 @@ msgstr "E-mail adres van de beheerder"
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of Ldap authentication"
-msgstr "Deze optie is gedeactiveerd vanwege het gebruik van Ldap-authenticatie"
+msgstr ""
+"Deze optie is gedeactiveerd vanwege het gebruik van Ldap-authenticatie"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -138,7 +142,7 @@ msgstr "Standaard project"
 #: admin~admin.configuration.services.defaultRepository.label
 msgctxt "admin~admin.configuration.services.defaultRepository.label"
 msgid "Default repository"
-msgstr "Standaard gegevensbank"
+msgstr "Standaard opslagplaats"
 
 #: admin~admin.configuration.services.label
 msgctxt "admin~admin.configuration.services.label"
@@ -316,14 +320,19 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
 msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
-msgstr "Een e-mail adres is nodig voor het verzenden van notificaties of verzoeken voor het creëren van een account."
+msgstr ""
+"Een e-mail adres is nodig voor het verzenden van notificaties of verzoeken "
+"voor het creëren van een account."
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "E-mail adres welke wordt gebruikt voor het versturen van mails. Indien leeg, worden er geen e-mails verstuurd door Lizmap. Let op dat de server toelaat om e-mail te verzenden met dit adres."
+msgstr ""
+"E-mail adres welke wordt gebruikt voor het versturen van mails. Indien leeg,"
+" worden er geen e-mails verstuurd door Lizmap. Let op dat de server toelaat "
+"om e-mail te verzenden met dit adres."
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
@@ -345,7 +354,10 @@ msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
 msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
-msgstr "Indien ingesteld op aan, kunnen bezoekers een formulier invullen om een account aan te vragen. Het adres van de afzender voor e-mails moet worden ingesteld."
+msgstr ""
+"Indien ingesteld op aan, kunnen bezoekers een formulier invullen om een "
+"account aan te vragen. Het adres van de afzender voor e-mails moet worden "
+"ingesteld."
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
@@ -362,7 +374,9 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr "Cijfer 0 betekent geen vervaltijd, geef anders een geheel getal in seconden (maximum 2592000 seconden zijnde 30 dagen)"
+msgstr ""
+"Cijfer 0 betekent geen vervaltijd, geef anders een geheel getal in seconden "
+"(maximum 2592000 seconden zijnde 30 dagen)"
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
@@ -374,7 +388,9 @@ msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
 "Redis database index: integer >= 0 , optional (used if Redis is chosen for "
 "the cache storage)"
-msgstr "Redis index gegevensbank: integer >=0, optioneel (gebruikt indien Redis is ingesteld als cache)"
+msgstr ""
+"Redis index gegevensbank: integer >=0, optioneel (gebruikt indien Redis is "
+"ingesteld als cache)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -396,7 +412,8 @@ msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
 msgid ""
 "Redis key prefix: string, optional (used if Redis is chosen for the cache "
 "storage)"
-msgstr "Prefix Redis key, optioneel (gebruikt indien Redis is ingesteld als cache)"
+msgstr ""
+"Prefix Redis key, optioneel (gebruikt indien Redis is ingesteld als cache)"
 
 #: admin~admin.form.admin_services.cacheRedisKeyPrefix.label
 msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.label"
@@ -473,7 +490,9 @@ msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
 msgid ""
 "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
 "\"tracking ID\"."
-msgstr "Het Google Analytics ID heeft volgende structuur: \"UA-XXXX-Y\". Het wordt ook \"tracking ID\" genoemd."
+msgstr ""
+"Het Google Analytics ID heeft volgende structuur: \"UA-XXXX-Y\". Het wordt "
+"ook \"tracking ID\" genoemd."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.label
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
@@ -490,12 +509,16 @@ msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr "Vervaltijd server cache dient een geheel getal te zijn tussen 0 en 2592000 seconds."
+msgstr ""
+"Vervaltijd server cache dient een geheel getal te zijn tussen 0 en 2592000 "
+"seconds."
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
 msgid "The directory does not exists or is not writable. You can use: %s"
-msgstr "Deze folder bestaat niet of kan niet worden bewerkt. Gebruik eventueel volgende folder: %s"
+msgstr ""
+"Deze folder bestaat niet of kan niet worden bewerkt. Gebruik eventueel "
+"volgende folder: %s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -608,12 +631,15 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr "Het aantal Lizmap mappen in de hoofdmap voor gegevensbanken kan worden beperkt tot 1. Als hier reeds een pad is ingesteld, is het niet langer mogelijk om het pad van een Lizmap-map te definiëren."
+msgstr ""
+"Het aantal Lizmap mappen in de hoofdmap voor gegevensbanken kan worden "
+"beperkt tot 1. Als hier reeds een pad is ingesteld, is het niet langer "
+"mogelijk om het pad van een Lizmap-map te definiëren."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
 msgid "Root folder of repositories"
-msgstr "Hoofdmap voor gegevensbanken"
+msgstr "Hoofdmap van opslagplaatsen "
 
 #: admin~admin.form.admin_services.submit.label
 msgctxt "admin~admin.form.admin_services.submit.label"
@@ -638,7 +664,7 @@ msgstr "Lijst URLs van WMS subdomeinen (optioneel)"
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
 msgid "WMS server URL"
-msgstr "URL van WMS server "
+msgstr "WMS server URL"
 
 #: admin~admin.form.admin_services.yes.label
 msgctxt "admin~admin.form.admin_services.yes.label"
@@ -649,7 +675,9 @@ msgstr "Ja"
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
-msgstr "U kunt elke CSS-syntaxis schrijven om Lizmap-stijl te overschrijven (voor gevorderde gebruikers)"
+msgstr ""
+"U kunt elke CSS-syntaxis schrijven om Lizmap-stijl te overschrijven (voor "
+"gevorderde gebruikers)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
@@ -684,7 +712,9 @@ msgstr "Koptekst - kleur van de achtergrond "
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
 msgid "The image to be used for the header background (400ko Maximum)."
-msgstr "De afbeelding die moet worden gebruikt voor de header achtergrond (400kb Maximum)."
+msgstr ""
+"De afbeelding die moet worden gebruikt voor de header achtergrond (400kb "
+"Maximum)."
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
@@ -866,7 +896,9 @@ msgctxt "admin~admin.logs.error.file.too.big"
 msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
-msgstr "De error log file is te groot. Overweeg om log rotatie voor Lizmap Web Client logs."
+msgstr ""
+"De error log file is te groot. Overweeg om log rotatie voor Lizmap Web "
+"Client logs."
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
@@ -906,7 +938,7 @@ msgstr "Volgende"
 #: admin~admin.logs.previous_page
 msgctxt "admin~admin.logs.previous_page"
 msgid "Previous"
-msgstr "Voorgaande"
+msgstr "Voorgaand"
 
 #: admin~admin.logs.project
 msgctxt "admin~admin.logs.project"
@@ -1096,7 +1128,9 @@ msgstr "Laat exporteren van lagen toe"
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "Always see complete layers data, even if filtered by login"
-msgstr "Toon altijd alle gegevens van de lagen, zelfs indien gefilterd op basis van de gebruiker"
+msgstr ""
+"Toon altijd alle gegevens van de lagen, zelfs indien gefilterd op basis van "
+"de gebruiker"
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
@@ -1128,7 +1162,9 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr "Iemand heeft een Lizmap account aangevraagd om toegang te krijgen tot de kaarten, met de login %s en de e-mail 1%s."
+msgstr ""
+"Iemand heeft een Lizmap account aangevraagd om toegang te krijgen tot de "
+"kaarten, met de login %s en de e-mail %s."
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"

@@ -1,16 +1,17 @@
 # 
 # Translators:
-# rldhont <rldhont@gmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
-# Sławomir Bienias <slawomir.bienias@gmail.com>, 2016-2020
+# Sławomir Bienias <slawomir.bienias@gmail.com>, 2021
+# rldhont <rldhont@gmail.com>, 2021
+# Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 18:12++0200\n"
-"PO-Revision-Date: 2021-07-21 16:13+0000\n"
-"Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>\n"
-"Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
+"POT-Creation-Date: 2021-07-21 18:20++0200\n"
+"PO-Revision-Date: 2021-07-21 16:21+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2021\n"
+"Language-Team: Polish (Poland) (https://www.transifex.com/3liz-1/teams/62012/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -115,7 +116,7 @@ msgstr "Atlas"
 #: view~dictionnary.atlas.toolbar.next
 msgctxt "view~dictionnary.atlas.toolbar.next"
 msgid "Next"
-msgstr "Następny"
+msgstr "Następna"
 
 #: view~dictionnary.atlas.toolbar.pause
 msgctxt "view~dictionnary.atlas.toolbar.pause"
@@ -125,17 +126,17 @@ msgstr "Pauza"
 #: view~dictionnary.atlas.toolbar.play
 msgctxt "view~dictionnary.atlas.toolbar.play"
 msgid "Play"
-msgstr "Odtwarzaj"
+msgstr "Odtwórz"
 
 #: view~dictionnary.atlas.toolbar.prev
 msgctxt "view~dictionnary.atlas.toolbar.prev"
 msgid "Previous"
-msgstr "Poprzedni"
+msgstr "Poprzednia"
 
 #: view~dictionnary.atlas.toolbar.stop
 msgctxt "view~dictionnary.atlas.toolbar.stop"
 msgid "Stop"
-msgstr "Zatrzymaj"
+msgstr "Stop"
 
 #: view~dictionnary.atlas.toolbar.title
 msgctxt "view~dictionnary.atlas.toolbar.title"
@@ -187,7 +188,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "Warstwa jest niedostępna. Proszę zbliżyć lub oddalić do skali, w której obiekty będą widoczne."
+msgstr ""
+"Warstwa jest niedostępna. Proszę zbliżyć lub oddalić do skali, w której "
+"obiekty będą widoczne."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -399,7 +402,9 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Jesteś pewien, że chcesz anulować edycję? Stracisz wszystkie zmiany, jakie wprowadziłeś."
+msgstr ""
+"Jesteś pewien, że chcesz anulować edycję? Stracisz wszystkie zmiany, jakie "
+"wprowadziłeś."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -433,7 +438,9 @@ msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Nie możesz zapisać tego obiektu bez geometrii. Proszę wrysować geometrię na mapę."
+msgstr ""
+"Nie możesz zapisać tego obiektu bez geometrii. Proszę wrysować geometrię na "
+"mapę."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -465,7 +472,9 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "Powinieneś poprawnie wypełnić formularz, aby utworzyć nową geometrię po rozdzieleniu"
+msgstr ""
+"Powinieneś poprawnie wypełnić formularz, aby utworzyć nową geometrię po "
+"rozdzieleniu"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -500,7 +509,7 @@ msgstr "Wyszukiwanie"
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"
 msgid "Export"
-msgstr "Eksport"
+msgstr "Eksportuj"
 
 #: view~dictionnary.filter.btn.export.title
 msgctxt "view~dictionnary.filter.btn.export.title"
@@ -580,7 +589,7 @@ msgstr "Start"
 #: view~dictionnary.geolocate.toolbar.stop
 msgctxt "view~dictionnary.geolocate.toolbar.stop"
 msgid "Stop"
-msgstr "Zatrzymaj"
+msgstr "Stop"
 
 #: view~dictionnary.geolocate.toolbar.waiting
 msgctxt "view~dictionnary.geolocate.toolbar.waiting"
@@ -625,7 +634,7 @@ msgstr "Wymagane są uprawnienia, aby dokonać eksportu warstwy."
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
 msgid "Export"
-msgstr "Eksport"
+msgstr "Eksportuj"
 
 #: view~dictionnary.layer.metadata.layer.abstract
 msgctxt "view~dictionnary.layer.metadata.layer.abstract"
@@ -805,7 +814,7 @@ msgstr "Zaznaczono 1 obiekt"
 #: view~dictionnary.selectiontool.toolbar.action.filter
 msgctxt "view~dictionnary.selectiontool.toolbar.action.filter"
 msgid "Filter"
-msgstr "Filtr"
+msgstr "Filtruj"
 
 #: view~dictionnary.selectiontool.toolbar.action.invert
 msgctxt "view~dictionnary.selectiontool.toolbar.action.invert"
@@ -915,7 +924,7 @@ msgstr "Przyciąganie"
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
-msgstr "Eksport"
+msgstr "Eksportuj"
 
 #: view~dictionnary.switcher.layer.export.warn
 msgctxt "view~dictionnary.switcher.layer.export.warn"
@@ -940,7 +949,7 @@ msgstr "Odtwórz"
 #: view~dictionnary.toolbar.content.stop
 msgctxt "view~dictionnary.toolbar.content.stop"
 msgid "Stop"
-msgstr "Zatrzymaj"
+msgstr "Stop"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -1062,7 +1071,9 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Musi być zaznaczony przynajmniej jeden obiekt dla każdej z warstw, by stworzyć połączenie."
+msgstr ""
+"Musi być zaznaczony przynajmniej jeden obiekt dla każdej z warstw, by "
+"stworzyć połączenie."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -1074,7 +1085,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Nie możesz połączyć kilku obiektów dla dwóch warstw. Proszę zaznaczyć tylko jeden obiekt dla jednej z warstw i spróbować ponownie."
+msgstr ""
+"Nie możesz połączyć kilku obiektów dla dwóch warstw. Proszę zaznaczyć tylko "
+"jeden obiekt dla jednej z warstw i spróbować ponownie."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1094,7 +1107,9 @@ msgstr "Modyfikowanie atrybutów dla warstwy \"%s\" nie jest dostępne."
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table."
-msgstr "Warstwy nie zostały skonfigurowane tak, aby można było pracować na tabelach atrybutów."
+msgstr ""
+"Warstwy nie zostały skonfigurowane tak, aby można było pracować na tabelach "
+"atrybutów."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
@@ -1171,7 +1186,9 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Nie możesz zapisać tego obiektu bez geometrii. Proszę wrysować geometrię na mapę."
+msgstr ""
+"Nie możesz zapisać tego obiektu bez geometrii. Proszę wrysować geometrię na "
+"mapę."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1188,7 +1205,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap nie może znaleźć podstawowych kluczy warstwy \"%s\". Narzędzie edycji potrzebuje zdefiniowanego klucza podstawowego dla tej warstwy."
+msgstr ""
+"Lizmap nie może znaleźć podstawowych kluczy warstwy \"%s\". Narzędzie edycji"
+" potrzebuje zdefiniowanego klucza podstawowego dla tej warstwy."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1490,7 +1509,7 @@ msgstr "Wyświetl aktualne położenie"
 #: view~map.geolocate.toolbar.title
 msgctxt "view~map.geolocate.toolbar.title"
 msgid "Geolocation"
-msgstr "Aktualne położenie"
+msgstr "Wyświetl aktualne położenie"
 
 #: view~map.layers
 msgctxt "view~map.layers"
@@ -1665,7 +1684,7 @@ msgstr "Strona internetowa"
 #: view~map.navbar.next.hover
 msgctxt "view~map.navbar.next.hover"
 msgid "Next"
-msgstr "Następny"
+msgstr "Następna"
 
 #: view~map.navbar.pan.hover
 msgctxt "view~map.navbar.pan.hover"
@@ -1675,7 +1694,7 @@ msgstr "Przesuń mapę"
 #: view~map.navbar.previous.hover
 msgctxt "view~map.navbar.previous.hover"
 msgid "Previous"
-msgstr "Poprzedni"
+msgstr "Poprzednia"
 
 #: view~map.navbar.slider.hover
 msgctxt "view~map.navbar.slider.hover"
@@ -1860,7 +1879,7 @@ msgstr "Wyszukiwanie"
 #: view~map.search.nominatim.placeholder
 msgctxt "view~map.search.nominatim.placeholder"
 msgid "Search"
-msgstr "Szukaj"
+msgstr "Wyszukaj"
 
 #: view~map.selectiontool.navbar.title
 msgctxt "view~map.selectiontool.navbar.title"
@@ -1915,12 +1934,12 @@ msgstr "Warstwy"
 #: view~map.timemanager.navbar.title
 msgctxt "view~map.timemanager.navbar.title"
 msgid "Time Manager"
-msgstr "Menadżer czasu"
+msgstr "Menadżer Czasu"
 
 #: view~map.timemanager.toolbar.next
 msgctxt "view~map.timemanager.toolbar.next"
 msgid "Next"
-msgstr "Następny"
+msgstr "Następna"
 
 #: view~map.timemanager.toolbar.pause
 msgctxt "view~map.timemanager.toolbar.pause"
@@ -1935,7 +1954,7 @@ msgstr "Odtwórz"
 #: view~map.timemanager.toolbar.prev
 msgctxt "view~map.timemanager.toolbar.prev"
 msgid "Previous"
-msgstr "Poprzedni"
+msgstr "Poprzednia"
 
 #: view~map.timemanager.toolbar.title
 msgctxt "view~map.timemanager.toolbar.title"

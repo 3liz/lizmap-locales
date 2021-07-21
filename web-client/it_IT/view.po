@@ -1,19 +1,21 @@
 # 
 # Translators:
-# Alessandro Fanna <alex@rospus.org>, 2016
-# Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2018
-# Paolo Cavallini <cavallini@faunalia.it>, 2016-2017,2019-2020
-# rldhont <rldhont@gmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
-# Stefano Campus <skampus@gmail.com>, 2020
+# Alessandro Fanna <alex@rospus.org>, 2021
+# Paolo Cavallini <cavallini@faunalia.it>, 2021
+# Stefano Campus <skampus@gmail.com>, 2021
+# rldhont <rldhont@gmail.com>, 2021
+# Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2021
+# Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# Marco Cassola <cassolamrc@gmail.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 18:12++0200\n"
-"PO-Revision-Date: 2021-07-21 16:13+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>\n"
-"Language-Team: Italian (http://www.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
+"POT-Creation-Date: 2021-07-21 18:20++0200\n"
+"PO-Revision-Date: 2021-07-21 16:21+0000\n"
+"Last-Translator: Marco Cassola <cassolamrc@gmail.com>, 2021\n"
+"Language-Team: Italian (https://www.transifex.com/3liz-1/teams/62012/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -93,7 +95,7 @@ msgstr "Visualizza i metadati"
 #: view~default.project.projection.label
 msgctxt "view~default.project.projection.label"
 msgid "Projection"
-msgstr "Sistema di riferimento"
+msgstr "Proiezione"
 
 #: view~default.project.title.label
 msgctxt "view~default.project.title.label"
@@ -118,7 +120,7 @@ msgstr "Atlante"
 #: view~dictionnary.atlas.toolbar.next
 msgctxt "view~dictionnary.atlas.toolbar.next"
 msgid "Next"
-msgstr "Successivo"
+msgstr "Zoom successivo"
 
 #: view~dictionnary.atlas.toolbar.pause
 msgctxt "view~dictionnary.atlas.toolbar.pause"
@@ -128,12 +130,12 @@ msgstr "Pausa"
 #: view~dictionnary.atlas.toolbar.play
 msgctxt "view~dictionnary.atlas.toolbar.play"
 msgid "Play"
-msgstr "Riproduci"
+msgstr "Play"
 
 #: view~dictionnary.atlas.toolbar.prev
 msgctxt "view~dictionnary.atlas.toolbar.prev"
 msgid "Previous"
-msgstr "Precedente"
+msgstr "Zoom precedente"
 
 #: view~dictionnary.atlas.toolbar.stop
 msgctxt "view~dictionnary.atlas.toolbar.stop"
@@ -190,7 +192,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "Il layer non è visibile. Zomma ad una scala a cui gli elementi sono visibili."
+msgstr ""
+"Il layer non è visibile. Zomma ad una scala a cui gli elementi sono "
+"visibili."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -270,7 +274,8 @@ msgstr "Aggiorna i dati in tabella."
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr "L'estensione della mappa è cambiata dall'ultima volta che è stata caricata."
+msgstr ""
+"L'estensione della mappa è cambiata dall'ultima volta che è stata caricata."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
@@ -402,7 +407,9 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Sei sicuro di voler annullare le modifiche? Perderai tutte le modifiche fatte sull'oggetto modificato."
+msgstr ""
+"Sei sicuro di voler annullare le modifiche? Perderai tutte le modifiche "
+"fatte sull'oggetto modificato."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -436,7 +443,9 @@ msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Non puoi salvare questo oggetto senza geometria. Per favore disegna la geometria sulla mappa."
+msgstr ""
+"Non puoi salvare questo oggetto senza geometria. Per favore disegna la "
+"geometria sulla mappa."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -461,14 +470,17 @@ msgstr "Clicca su uno degli elementi del layer per selezionarlo."
 #: view~dictionnary.edition.select.modify.activate
 msgctxt "view~dictionnary.edition.select.modify.activate"
 msgid "You can modify the feature you have selected, then submit."
-msgstr "Puoi modificare l'elemento che hai selezionato, poi inviare le modifiche."
+msgstr ""
+"Puoi modificare l'elemento che hai selezionato, poi inviare le modifiche."
 
 #: view~dictionnary.edition.splitfeat.form.error
 msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "Devi compilare correttamente il modulo per creare un nuovo elemento dopo aver diviso la geometria"
+msgstr ""
+"Devi compilare correttamente il modulo per creare un nuovo elemento dopo "
+"aver diviso la geometria"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -683,7 +695,7 @@ msgstr "Informazioni"
 #: view~dictionnary.layer.metadata.zoomToExtent.title
 msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
 msgid "Zoom to layer extent"
-msgstr "Zoom all'estensione del layer"
+msgstr "Zoom all'estensione massima"
 
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
@@ -938,7 +950,7 @@ msgstr "Pausa"
 #: view~dictionnary.timemanager.toolbar.play
 msgctxt "view~dictionnary.timemanager.toolbar.play"
 msgid "Play"
-msgstr "Riproduci"
+msgstr "Play"
 
 #: view~dictionnary.toolbar.content.stop
 msgctxt "view~dictionnary.toolbar.content.stop"
@@ -1013,7 +1025,7 @@ msgstr "Annulla"
 #: view~edition.form.data.saved
 msgctxt "view~edition.form.data.saved"
 msgid "Data has been saved."
-msgstr "Dati salvati."
+msgstr "I dati sono stati salvati."
 
 #: view~edition.form.reset.label
 msgctxt "view~edition.form.reset.label"
@@ -1065,7 +1077,9 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Per creare il collegamento ci deve essere almeno un oggetto selezionato per ogni layer."
+msgstr ""
+"Per creare il collegamento ci deve essere almeno un oggetto selezionato per "
+"ogni layer."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -1077,7 +1091,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Non puoi collegare elementi multipli ad entrambi i layer. Per favore scegli solo un oggetti per uno dei layer e riprova."
+msgstr ""
+"Non puoi collegare elementi multipli ad entrambi i layer. Per favore scegli "
+"solo un oggetti per uno dei layer e riprova."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1097,7 +1113,9 @@ msgstr "Modifica attributo non è disponibile per il layer \"%s\""
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not be configured to have an attribute table."
-msgstr "I layer non sono stati configurati in modo da avere una tabella degli attributi."
+msgstr ""
+"I layer non sono stati configurati in modo da avere una tabella degli "
+"attributi."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
@@ -1132,7 +1150,9 @@ msgstr "C'è stato un errore nella creazione dell'oggetto."
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
 msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr "Il sistema di riferimento è obbligatorio, e deve essere un numero intero o EPSG:*"
+msgstr ""
+"Il sistema di riferimento è obbligatorio, e deve essere un numero intero o "
+"EPSG:*"
 
 #: view~edition.message.error.delete
 msgctxt "view~edition.message.error.delete"
@@ -1174,7 +1194,9 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Non puoi salvare questo oggetto senza geometria. Per favore disegna la geometria sulla mappa."
+msgstr ""
+"Non puoi salvare questo oggetto senza geometria. Per favore disegna la "
+"geometria sulla mappa."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1191,7 +1213,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap non riesc a trovare la \"%s\" chiave primaria del layer. Lo strumento edizione richiede la definizione di una chiave primaria nella tabella."
+msgstr ""
+"Lizmap non riesc a trovare la \"%s\" chiave primaria del layer. Lo strumento"
+" edizione richiede la definizione di una chiave primaria nella tabella."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1213,7 +1237,9 @@ msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "Il campo \"%s\" directory del layer \"%s\" per caricare elementi multimediali non è scrivibile."
+msgstr ""
+"Il campo \"%s\" directory del layer \"%s\" per caricare elementi "
+"multimediali non è scrivibile."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -1923,7 +1949,7 @@ msgstr "Time Manager"
 #: view~map.timemanager.toolbar.next
 msgctxt "view~map.timemanager.toolbar.next"
 msgid "Next"
-msgstr "Prossimo"
+msgstr "Zoom successivo"
 
 #: view~map.timemanager.toolbar.pause
 msgctxt "view~map.timemanager.toolbar.pause"
@@ -1938,7 +1964,7 @@ msgstr "Play"
 #: view~map.timemanager.toolbar.prev
 msgctxt "view~map.timemanager.toolbar.prev"
 msgid "Previous"
-msgstr "Precedente"
+msgstr "Zoom precedente"
 
 #: view~map.timemanager.toolbar.title
 msgctxt "view~map.timemanager.toolbar.title"

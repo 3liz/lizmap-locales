@@ -1,16 +1,17 @@
 # 
 # Translators:
-# trendspotter, 2019
-# Jiří Sobotík <jiri.sobotik@centrum.cz>, 2018
-# trendspotter, 2019-2020
+# Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# trendspotter, 2021
+# Jiří Sobotík <jiri.sobotik@centrum.cz>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 18:12++0200\n"
-"PO-Revision-Date: 2020-12-08 13:23+0000\n"
-"Last-Translator: trendspotter\n"
-"Language-Team: Czech (http://www.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
+"POT-Creation-Date: 2021-07-21 18:20++0200\n"
+"PO-Revision-Date: 2021-07-21 16:21+0000\n"
+"Last-Translator: Jiří Sobotík <jiri.sobotik@centrum.cz>, 2021\n"
+"Language-Team: Czech (https://www.transifex.com/3liz-1/teams/62012/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -42,7 +43,9 @@ msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
 "This option cannot be enable while the sender email is not defined. Please "
 "contact the application administrator."
-msgstr "Tuto možnost nelze povolit, pokud není definován e-mail odesílatele. Obraťte se na správce aplikace."
+msgstr ""
+"Tuto možnost nelze povolit, pokud není definován e-mail odesílatele. Obraťte"
+" se na správce aplikace."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -57,17 +60,17 @@ msgstr "Zpět"
 #: admin~admin.configuration.button.modify.repository.label
 msgctxt "admin~admin.configuration.button.modify.repository.label"
 msgid "Modify"
-msgstr "Upravit"
+msgstr "Modifikovat"
 
 #: admin~admin.configuration.button.modify.service.label
 msgctxt "admin~admin.configuration.button.modify.service.label"
 msgid "Modify"
-msgstr "Upravit"
+msgstr "Modifikovat"
 
 #: admin~admin.configuration.button.modify.theme.label
 msgctxt "admin~admin.configuration.button.modify.theme.label"
 msgid "Modify"
-msgstr "Upravit"
+msgstr "Modifikovat"
 
 #: admin~admin.configuration.button.remove.repository.confirm.label
 msgctxt "admin~admin.configuration.button.remove.repository.confirm.label"
@@ -123,7 +126,7 @@ msgstr "Kořenový adresář mezipaměti"
 #: admin~admin.configuration.services.cacheStorageType.label
 msgctxt "admin~admin.configuration.services.cacheStorageType.label"
 msgid "Server cache storage type"
-msgstr "Typ úložiště mezipaměti serveru"
+msgstr "Typ úložiště vyrovnávací paměti serveru"
 
 #: admin~admin.configuration.services.debugMode.label
 msgctxt "admin~admin.configuration.services.debugMode.label"
@@ -316,14 +319,19 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
 msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
-msgstr "Pro odeslání oznámení nebo požadavků na vytvoření účtu je vyžadována e-mailová adresa odesílatele"
+msgstr ""
+"Pro odeslání oznámení nebo požadavků na vytvoření účtu je vyžadována "
+"e-mailová adresa odesílatele"
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "E-mailová adresa používaná k odesílání e-mailů. Pokud je prázdná, nebudou Lizmap odesílány žádné e-maily. Ujistěte se, že váš server smí odesílat e-mail s touto adresou."
+msgstr ""
+"E-mailová adresa používaná k odesílání e-mailů. Pokud je prázdná, nebudou "
+"Lizmap odesílány žádné e-maily. Ujistěte se, že váš server smí odesílat "
+"e-mail s touto adresou."
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
@@ -345,7 +353,9 @@ msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
 msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
-msgstr "Pokud je zapnuto, mohou si návštěvníci vyplnit formulář a vyžádat si účet. Měla by být nastavena adresa odesílatele pro e-maily."
+msgstr ""
+"Pokud je zapnuto, mohou si návštěvníci vyplnit formulář a vyžádat si účet. "
+"Měla by být nastavena adresa odesílatele pro e-maily."
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
@@ -362,7 +372,9 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr "0 znamená žádné vypršení platnosti, jinak vložit celé číslo v sekundách (max: 2592000 s = 30 dní)"
+msgstr ""
+"0 znamená žádné vypršení platnosti, jinak vložit celé číslo v sekundách "
+"(max: 2592000 s = 30 dní)"
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
@@ -374,7 +386,9 @@ msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
 "Redis database index: integer >= 0 , optional (used if Redis is chosen for "
 "the cache storage)"
-msgstr "Index databáze Redis: integer >= 0, nepovinný (používá se, pokud je pro ukládání do mezipaměti vybrána možnost Redis)"
+msgstr ""
+"Index databáze Redis: integer >= 0, nepovinný (používá se, pokud je pro "
+"ukládání do mezipaměti vybrána možnost Redis)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -384,7 +398,8 @@ msgstr "Redis database index"
 #: admin~admin.form.admin_services.cacheRedisHost.help
 msgctxt "admin~admin.form.admin_services.cacheRedisHost.help"
 msgid "Redis host (used if Redis is chosen for the cache storage)"
-msgstr "Redis host (používá se, pokud je vybrán Redis pro ukládání do mezipaměti)"
+msgstr ""
+"Redis host (používá se, pokud je vybrán Redis pro ukládání do mezipaměti)"
 
 #: admin~admin.form.admin_services.cacheRedisHost.label
 msgctxt "admin~admin.form.admin_services.cacheRedisHost.label"
@@ -396,7 +411,9 @@ msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
 msgid ""
 "Redis key prefix: string, optional (used if Redis is chosen for the cache "
 "storage)"
-msgstr "předpona klíče Redis: řetězec, volitelný (používá se, pokud je vybrána možnost Redis pro ukládání mezipaměti)"
+msgstr ""
+"předpona klíče Redis: řetězec, volitelný (používá se, pokud je vybrána "
+"možnost Redis pro ukládání mezipaměti)"
 
 #: admin~admin.form.admin_services.cacheRedisKeyPrefix.label
 msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.label"
@@ -406,7 +423,9 @@ msgstr "Redis key prefix"
 #: admin~admin.form.admin_services.cacheRedisPort.help
 msgctxt "admin~admin.form.admin_services.cacheRedisPort.help"
 msgid "Redis port (used if Redis is chosen for the cache storage)"
-msgstr "Port Redis (používá se, pokud je pro ukládání mezipaměti vybrána možnost Redis)"
+msgstr ""
+"Port Redis (používá se, pokud je pro ukládání mezipaměti vybrána možnost "
+"Redis)"
 
 #: admin~admin.form.admin_services.cacheRedisPort.label
 msgctxt "admin~admin.form.admin_services.cacheRedisPort.label"
@@ -416,7 +435,8 @@ msgstr "Redis port"
 #: admin~admin.form.admin_services.cacheRootDirectory.help
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.help"
 msgid "Choose a writable directory where to store cache files."
-msgstr "Zvolte adresář pro zápis, do kterého chcete ukládat soubory mezipaměti."
+msgstr ""
+"Zvolte adresář pro zápis, do kterého chcete ukládat soubory mezipaměti."
 
 #: admin~admin.form.admin_services.cacheRootDirectory.label
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.label"
@@ -446,7 +466,7 @@ msgstr "Databáze Sqlite"
 #: admin~admin.form.admin_services.debugMode.0.label
 msgctxt "admin~admin.form.admin_services.debugMode.0.label"
 msgid "Off"
-msgstr "Vypnout"
+msgstr "Off"
 
 #: admin~admin.form.admin_services.debugMode.1.label
 msgctxt "admin~admin.form.admin_services.debugMode.1.label"
@@ -473,7 +493,9 @@ msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
 msgid ""
 "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
 "\"tracking ID\"."
-msgstr "ID služby Google Analytics má formu \"UA-XXXX-Y\". Také se nazývá \"tracking ID\"."
+msgstr ""
+"ID služby Google Analytics má formu \"UA-XXXX-Y\". Také se nazývá \"tracking"
+" ID\"."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.label
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
@@ -490,7 +512,9 @@ msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr "Doba vypršení platnosti mezipaměti serveru musí být celé číslo v rozmezí 0 až 2592000 sekund."
+msgstr ""
+"Doba vypršení platnosti mezipaměti serveru musí být celé číslo v rozmezí 0 "
+"až 2592000 sekund."
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
@@ -608,7 +632,9 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr "Kořenový adresář repozitářů může omezit adresář Lizmap na 1 složku. Pokud je zde nastavena cesta, pak už není možné definovat cestu adresáře Lizmap."
+msgstr ""
+"Kořenový adresář repozitářů může omezit adresář Lizmap na 1 složku. Pokud je"
+" zde nastavena cesta, pak už není možné definovat cestu adresáře Lizmap."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -649,7 +675,9 @@ msgstr "Ano"
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
-msgstr "Můžete napsat jakoukoli syntaxi CSS, která by přepsala styl Lizmap (pro pokročilé uživatele)"
+msgstr ""
+"Můžete napsat jakoukoli syntaxi CSS, která by přepsala styl Lizmap (pro "
+"pokročilé uživatele)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
@@ -866,7 +894,9 @@ msgctxt "admin~admin.logs.error.file.too.big"
 msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
-msgstr "Soubor protokolu chyb je příliš velký. Zvažte rotaci protokolu pro protokoly webového klienta Lizmap."
+msgstr ""
+"Soubor protokolu chyb je příliš velký. Zvažte rotaci protokolu pro protokoly"
+" webového klienta Lizmap."
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
@@ -901,12 +931,12 @@ msgstr "Klíč"
 #: admin~admin.logs.next_page
 msgctxt "admin~admin.logs.next_page"
 msgid "Next"
-msgstr "Další"
+msgstr "Následující"
 
 #: admin~admin.logs.previous_page
 msgctxt "admin~admin.logs.previous_page"
 msgid "Previous"
-msgstr "Předchozí"
+msgstr "Následující"
 
 #: admin~admin.logs.project
 msgctxt "admin~admin.logs.project"
@@ -1096,12 +1126,14 @@ msgstr "Povolit export vrstev"
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "Always see complete layers data, even if filtered by login"
-msgstr "Údaje o úplných vrstvách se zobrazují vždy, i když jsou filtrovány přihlašovacími údaji"
+msgstr ""
+"Údaje o úplných vrstvách se zobrazují vždy, i když jsou filtrovány "
+"přihlašovacími údaji"
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
 msgid "Add"
-msgstr "Přidat"
+msgstr "Nový"
 
 #: admin~user.acl.form.add.to.group
 msgctxt "admin~user.acl.form.add.to.group"
@@ -1128,7 +1160,9 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr "Someone has requested a Lizmap account to be able to access the maps, with the login  and the e-mail %s."
+msgstr ""
+"Someone has requested a Lizmap account to be able to access the maps, with "
+"the login  and the e-mail %s."
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"

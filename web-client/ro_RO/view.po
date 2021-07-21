@@ -1,14 +1,17 @@
 # 
 # Translators:
-# Igor Sorocean <sorocean.igor@gmail.com>, 2020-2021
+# Tudor Bărăscu <tudorbarascu@yahoo.com>, 2021
+# Igor Sorocean <sorocean.igor@gmail.com>, 2021
+# Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 18:12++0200\n"
-"PO-Revision-Date: 2021-07-21 16:13+0000\n"
-"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>\n"
-"Language-Team: Romanian (http://www.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
+"POT-Creation-Date: 2021-07-21 18:20++0200\n"
+"PO-Revision-Date: 2021-07-21 16:21+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2021\n"
+"Language-Team: Romanian (https://www.transifex.com/3liz-1/teams/62012/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -68,7 +71,7 @@ msgstr "Extindere"
 #: view~default.project.close.map.metadata
 msgctxt "view~default.project.close.map.metadata"
 msgid "Close"
-msgstr "Închideți"
+msgstr "Se închide"
 
 #: view~default.project.keywordList.label
 msgctxt "view~default.project.keywordList.label"
@@ -133,7 +136,7 @@ msgstr "Anterior"
 #: view~dictionnary.atlas.toolbar.stop
 msgctxt "view~dictionnary.atlas.toolbar.stop"
 msgid "Stop"
-msgstr "Închideţi"
+msgstr "Oprire"
 
 #: view~dictionnary.atlas.toolbar.title
 msgctxt "view~dictionnary.atlas.toolbar.title"
@@ -185,7 +188,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "Stratul nu este vizibil. Vă rugăm să faceți zoom la o scară în care obiectele sunt vizibile."
+msgstr ""
+"Stratul nu este vizibil. Vă rugăm să faceți zoom la o scară în care "
+"obiectele sunt vizibile."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -397,7 +402,9 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Sigur doriți să anulați editarea? Veți pierde orice modificare făcută obiectului editat."
+msgstr ""
+"Sigur doriți să anulați editarea? Veți pierde orice modificare făcută "
+"obiectului editat."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -431,7 +438,8 @@ msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Nu puteți salva acest obiect fără o geometrie. Desenați geometria pe hartă."
+msgstr ""
+"Nu puteți salva acest obiect fără o geometrie. Desenați geometria pe hartă."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -463,7 +471,9 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "Trebuie să completați corect formularul, pentru a crea o nouă caracteristică după împărțirea geometriei"
+msgstr ""
+"Trebuie să completați corect formularul, pentru a crea o nouă caracteristică"
+" după împărțirea geometriei"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -508,7 +518,7 @@ msgstr "Exportați obiectele filtrate"
 #: view~dictionnary.filter.btn.reset.label
 msgctxt "view~dictionnary.filter.btn.reset.label"
 msgid "Reset"
-msgstr "Resetare"
+msgstr "Resetați"
 
 #: view~dictionnary.filter.btn.reset.title
 msgctxt "view~dictionnary.filter.btn.reset.title"
@@ -543,7 +553,7 @@ msgstr "obiecte"
 #: view~dictionnary.generic.btn.close.title
 msgctxt "view~dictionnary.generic.btn.close.title"
 msgid "Close"
-msgstr "Închideți"
+msgstr "Se închide"
 
 #: view~dictionnary.geobookmark.confirm.delete
 msgctxt "view~dictionnary.geobookmark.confirm.delete"
@@ -938,7 +948,7 @@ msgstr "Redare"
 #: view~dictionnary.toolbar.content.stop
 msgctxt "view~dictionnary.toolbar.content.stop"
 msgid "Stop"
-msgstr "Închideţi"
+msgstr "Oprire"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -1060,7 +1070,9 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Pentru a crea legătura trebuie să existe cel puțin un obiect selectat pe fiecare strat."
+msgstr ""
+"Pentru a crea legătura trebuie să existe cel puțin un obiect selectat pe "
+"fiecare strat."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -1072,7 +1084,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Nu puteți conecta mai multe obiecte pentru ambele straturi. Selectați un singur obiect pentru unul dintre straturi și încercați din nou."
+msgstr ""
+"Nu puteți conecta mai multe obiecte pentru ambele straturi. Selectați un "
+"singur obiect pentru unul dintre straturi și încercați din nou."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1169,7 +1183,8 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geomtetry. Please draw the geometry on"
 " the map."
-msgstr "Nu puteți salva acest obiect fără o geometrie. Desenați geometria pe hartă."
+msgstr ""
+"Nu puteți salva acest obiect fără o geometrie. Desenați geometria pe hartă."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1186,7 +1201,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap nu poate găsi cheile primare ale stratului „%s”. Instrumentul de editare are nevoie de o cheie primară definită în tabelă."
+msgstr ""
+"Lizmap nu poate găsi cheile primare ale stratului „%s”. Instrumentul de "
+"editare are nevoie de o cheie primară definită în tabelă."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1201,14 +1218,18 @@ msgstr "Nu există câmpuri disponibile pentru salvarea formularului."
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
 msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr "Nu se poate scrie în directorul stratului „%s” pentru încărcarea conținutului media."
+msgstr ""
+"Nu se poate scrie în directorul stratului „%s” pentru încărcarea "
+"conținutului media."
 
 #: view~edition.message.error.upload.layer.field
 msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "Nu se poate scrie în câmpul „%s” al stratului „%s” pentru încărcarea conținutului media."
+msgstr ""
+"Nu se poate scrie în câmpul „%s” al stratului „%s” pentru încărcarea "
+"conținutului media."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -1453,7 +1474,7 @@ msgstr "Harta de bază"
 #: view~map.bottomdock.toolbar.btn.clear.title
 msgctxt "view~map.bottomdock.toolbar.btn.clear.title"
 msgid "Close"
-msgstr "Închidere"
+msgstr "Se închide"
 
 #: view~map.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~map.bottomdock.toolbar.btn.glue.activate.title"
@@ -1663,7 +1684,7 @@ msgstr "Pagină web"
 #: view~map.navbar.next.hover
 msgctxt "view~map.navbar.next.hover"
 msgid "Next"
-msgstr "Următoarea"
+msgstr "Următorul"
 
 #: view~map.navbar.pan.hover
 msgctxt "view~map.navbar.pan.hover"
@@ -1673,7 +1694,7 @@ msgstr "Mutare hartă"
 #: view~map.navbar.previous.hover
 msgctxt "view~map.navbar.previous.hover"
 msgid "Previous"
-msgstr "Precedenta"
+msgstr "Anterior"
 
 #: view~map.navbar.slider.hover
 msgctxt "view~map.navbar.slider.hover"
@@ -1873,7 +1894,7 @@ msgstr "Selectare"
 #: view~map.switcher.layer.export.title
 msgctxt "view~map.switcher.layer.export.title"
 msgid "Export"
-msgstr "Exportă"
+msgstr "Exportare"
 
 #: view~map.switcher.layer.metadata.title
 msgctxt "view~map.switcher.layer.metadata.title"
@@ -1918,7 +1939,7 @@ msgstr "Manager de timp"
 #: view~map.timemanager.toolbar.next
 msgctxt "view~map.timemanager.toolbar.next"
 msgid "Next"
-msgstr "Următoarea"
+msgstr "Următorul"
 
 #: view~map.timemanager.toolbar.pause
 msgctxt "view~map.timemanager.toolbar.pause"
@@ -1933,7 +1954,7 @@ msgstr "Redare"
 #: view~map.timemanager.toolbar.prev
 msgctxt "view~map.timemanager.toolbar.prev"
 msgid "Previous"
-msgstr "Precedenta"
+msgstr "Anterior"
 
 #: view~map.timemanager.toolbar.title
 msgctxt "view~map.timemanager.toolbar.title"
@@ -1953,7 +1974,7 @@ msgstr "Qgis Server Demo"
 #: view~map.toolbar.content.stop
 msgctxt "view~map.toolbar.content.stop"
 msgid "Stop"
-msgstr "Închideţi"
+msgstr "Oprire"
 
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
@@ -1985,7 +2006,8 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have an access to"
 " the maps."
-msgstr "Vă rugăm să descrieți pe scurt de ce ați dori să aveți acces la hărți."
+msgstr ""
+"Vă rugăm să descrieți pe scurt de ce ați dori să aveți acces la hărți."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"
