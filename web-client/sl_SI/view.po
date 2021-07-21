@@ -4,9 +4,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client view 3.4.2-pre\n"
+"Project-Id-Version: Lizmap Web Client 3.4 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-26 14:54++0100\n"
+"POT-Creation-Date: 2021-07-21 16:54++0200\n"
 "PO-Revision-Date: 2021-03-03 17:34+0000\n"
 "Last-Translator: Joze Stih <joze.stih@gmail.com>, 2021\n"
 "Language-Team: Slovenian (https://www.transifex.com/3liz-1/teams/62012/sl/)\n"
@@ -420,6 +420,13 @@ msgctxt "view~dictionnary.edition.draw.activate"
 msgid "Draw the feature you want to create on the map."
 msgstr ""
 
+#: view~dictionnary.edition.draw.activate.mobile
+msgctxt "view~dictionnary.edition.draw.activate.mobile"
+msgid ""
+"You can hide this form with the close button whenever you need to draw the "
+"geometry."
+msgstr ""
+
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
@@ -764,6 +771,11 @@ msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
 msgstr ""
 
+#: view~dictionnary.print.started
+msgctxt "view~dictionnary.print.started"
+msgid "Print started. Please wait."
+msgstr ""
+
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
 msgid "%s selected objects"
@@ -819,9 +831,64 @@ msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator"
 msgid "Geometric operators"
 msgstr ""
 
+#: view~dictionnary.selectiontool.toolbar.geomOperator.contains
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.contains"
+msgid "Contains"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.crosses
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.crosses"
+msgid "Crosses"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.disjoint
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.disjoint"
+msgid "Disjoint"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.intersects
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.intersects"
+msgid "Intersects"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.overlaps
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.overlaps"
+msgid "Overlaps"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.touches
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.touches"
+msgid "Touches"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.geomOperator.within
+msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.within"
+msgid "Within"
+msgstr ""
+
 #: view~dictionnary.selectiontool.toolbar.layer
 msgctxt "view~dictionnary.selectiontool.toolbar.layer"
 msgid "Selection layer"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.layers.multiple
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.multiple"
+msgid "Multiple layers"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.layers.selectable
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectable"
+msgid "Selectable layers"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible"
+msgid "Selectable and visible layers"
+msgstr ""
+
+#: view~dictionnary.selectiontool.toolbar.layers.single
+msgctxt "view~dictionnary.selectiontool.toolbar.layers.single"
+msgid "Single layers"
 msgstr ""
 
 #: view~dictionnary.selectiontool.toolbar.title
