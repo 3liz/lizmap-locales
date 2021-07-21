@@ -36,14 +36,34 @@ See [web-client/README.md](web-client/README.md).
 ### Adding a new language
 
 The language should be created into Transifex. When there are enough translated
-strings, you can download translated files with the script. See README.md in plugin or web-client.
+strings, you can download translated files with the script. See README.md web-client.
 
 A new language code for web-client should be added into web-client/module_list.sh.
 
 ### Releasing a new version 
 
-When a new major version of lizmap has been released, be sure the locales are
-updated into the master branch.
+When a new major version of lizmap has been released, you have to follow these
+steps: 
 
-- create a new branch `lizmap_X_Y` (replace X and Y).
-- push the new branch and the master branch
+1. On the master branch, edit the `web-client/module_list.sh` to reference the new branch
+2. Edit the `.tx/config` to reference all pot of each modules
+3. commit
+4. create a new branch `lizmap_X_Y` (replace X and Y) from master
+  ```
+git checkout -b lizmap_X_Y
+```
+5. Into lizmap-web-client, checkout the corresponding branch and edit `.jelixlocales.ini`
+   to verify that it references all modules
+6. update EN locales from the lizmap-web-client branch and push to Transifex
+  ```
+cd web-client
+./update_from_lizmap.sh /path/to/lizmap-web-client/.jelixlocales.ini
+./push_to_transifex.sh
+```
+7. Verify on transifex that you have new package `lizmap-X-Y-*`
+8. check strings of your language into Transifex, then :
+  ```
+./update_from_transifex.sh
+./push_to_lizmap.sh /path/to/lizmap-web-client/.jelixlocales.ini
+```
+9. commit the new branch, commit into lizmap, it's done.
