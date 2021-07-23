@@ -1,0 +1,1731 @@
+# 
+# Translators:
+# 山本竜三 <ryu@yamakun.net>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Lizmap Web Client view 3.3.14-pre\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-26 12:08++0100\n"
+"PO-Revision-Date: 2019-05-27 13:12+0000\n"
+"Last-Translator: 山本竜三 <ryu@yamakun.net>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/3liz-1/teams/62012/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: view~default.header.connect
+msgctxt "view~default.header.connect"
+msgid "Connect"
+msgstr "接続"
+
+#: view~default.header.createAccount
+msgctxt "view~default.header.createAccount"
+msgid "Register"
+msgstr "‎登録"
+
+#: view~default.header.disconnect
+msgctxt "view~default.header.disconnect"
+msgid "Disconnect"
+msgstr "切断"
+
+#: view~default.header.menuitem.admin.label
+msgctxt "view~default.header.menuitem.admin.label"
+msgid "Administration"
+msgstr "管理"
+
+#: view~default.home.title
+msgctxt "view~default.home.title"
+msgid "Home"
+msgstr "ホーム"
+
+#: view~default.project.abstract.label
+msgctxt "view~default.project.abstract.label"
+msgid "Abstract"
+msgstr "‎要約‎"
+
+#: view~default.project.access.denied
+msgctxt "view~default.project.access.denied"
+msgid "Access denied for this project."
+msgstr "‎このプロジェクトに対するアクセスが拒否されました。‎"
+
+#: view~default.project.bbox.label
+msgctxt "view~default.project.bbox.label"
+msgid "Bounding Box"
+msgstr "‎境界ボックス‎"
+
+#: view~default.project.close.map.metadata
+msgctxt "view~default.project.close.map.metadata"
+msgid "Close"
+msgstr "閉じる"
+
+#: view~default.project.open.map
+msgctxt "view~default.project.open.map"
+msgid "Load the map"
+msgstr "地図読込‎"
+
+#: view~default.project.open.map.metadata
+msgctxt "view~default.project.open.map.metadata"
+msgid "View metadata"
+msgstr "‎メタデータの表示‎"
+
+#: view~default.project.projection.label
+msgctxt "view~default.project.projection.label"
+msgid "Projection"
+msgstr "投影"
+
+#: view~default.project.title.label
+msgctxt "view~default.project.title.label"
+msgid "Title"
+msgstr "‎タイトル‎"
+
+#: view~default.repository.access.denied
+msgctxt "view~default.repository.access.denied"
+msgid "You cannot access this repository."
+msgstr "リポジトリにアクセスできません。‎"
+
+#: view~default.repository.list.title
+msgctxt "view~default.repository.list.title"
+msgid "Projects"
+msgstr "‎プロジェクト‎"
+
+#: view~dictionnary.atlas.navbar.title
+msgctxt "view~dictionnary.atlas.navbar.title"
+msgid "Atlas"
+msgstr "‎地図帳‎"
+
+#: view~dictionnary.atlas.toolbar.next
+msgctxt "view~dictionnary.atlas.toolbar.next"
+msgid "Next"
+msgstr "次"
+
+#: view~dictionnary.atlas.toolbar.pause
+msgctxt "view~dictionnary.atlas.toolbar.pause"
+msgid "Pause"
+msgstr "一時停止"
+
+#: view~dictionnary.atlas.toolbar.play
+msgctxt "view~dictionnary.atlas.toolbar.play"
+msgid "Play"
+msgstr "再生"
+
+#: view~dictionnary.atlas.toolbar.prev
+msgctxt "view~dictionnary.atlas.toolbar.prev"
+msgid "Previous"
+msgstr "次に"
+
+#: view~dictionnary.atlas.toolbar.stop
+msgctxt "view~dictionnary.atlas.toolbar.stop"
+msgid "Stop"
+msgstr "停止"
+
+#: view~dictionnary.atlas.toolbar.title
+msgctxt "view~dictionnary.atlas.toolbar.title"
+msgid "Atlas"
+msgstr "‎地図帳‎"
+
+#: view~dictionnary.attributeLayers.btn.center.title
+msgctxt "view~dictionnary.attributeLayers.btn.center.title"
+msgid "Center"
+msgstr "中心"
+
+#: view~dictionnary.attributeLayers.btn.delete.title
+msgctxt "view~dictionnary.attributeLayers.btn.delete.title"
+msgid "Delete"
+msgstr "‎削除‎"
+
+#: view~dictionnary.attributeLayers.btn.edit.title
+msgctxt "view~dictionnary.attributeLayers.btn.edit.title"
+msgid "Edit"
+msgstr "‎編集‎"
+
+#: view~dictionnary.attributeLayers.btn.info.title
+msgctxt "view~dictionnary.attributeLayers.btn.info.title"
+msgid "Info"
+msgstr "‎情報‎"
+
+#: view~dictionnary.attributeLayers.btn.remove.link.title
+msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
+msgid "Unlink child"
+msgstr "Unlink child"
+
+#: view~dictionnary.attributeLayers.btn.select.title
+msgctxt "view~dictionnary.attributeLayers.btn.select.title"
+msgid "Select"
+msgstr "選択"
+
+#: view~dictionnary.attributeLayers.btn.unselect.title
+msgctxt "view~dictionnary.attributeLayers.btn.unselect.title"
+msgid "Unselect"
+msgstr "‎解除‎"
+
+#: view~dictionnary.attributeLayers.btn.zoom.title
+msgctxt "view~dictionnary.attributeLayers.btn.zoom.title"
+msgid "Zoom"
+msgstr "拡大"
+
+#: view~dictionnary.attributeLayers.msg.layer.not.visible
+msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
+msgid ""
+"The layer is not visible. Please zoom at a scale in which the features are "
+"visible."
+msgstr "‎レイヤが表示されません。地物が表示されている縮尺でズームしてください。‎"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived"
+msgid "Activated line needed."
+msgstr "回線接続されていません。‎"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
+msgid "Create a child"
+msgstr "Create a child"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
+msgid "Create feature"
+msgstr "地物の作成"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
+msgid "Export"
+msgstr "エクスポート"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
+msgid "Filter"
+msgstr "‎フィルター‎"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.hide.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.hide.title"
+msgid "Hide"
+msgstr "隠す"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title"
+msgid "Link selected features"
+msgstr "‎選択した地物にリンクする‎"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
+msgid "Move selected to top"
+msgstr "‎選択した項目を先頭に移動‎"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
+msgid "Get data"
+msgstr "‎データを取得する‎"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.show.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
+msgid "Show"
+msgstr "表示"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title"
+msgid "Unselect all"
+msgstr "選択解除‎"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.detail
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
+msgid "Detail"
+msgstr "詳細"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
+msgid "Refresh"
+msgstr "‎リフレッシュ‎"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
+msgid "Refresh the table data."
+msgstr "データを更新"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
+msgid "The map extent has changed since the last time data were fetched."
+msgstr "‎マップの範囲は、最後にデータがフェッチされた後に変更されました。‎"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
+msgid "Select searched line"
+msgstr "‎検索された行を選択‎"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
+msgid "Toggle children tables"
+msgstr "‎子テーブルの切り替え‎"
+
+#: view~dictionnary.attributeLayers.toolbar.cb.data.detail.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.cb.data.detail.title"
+msgid "Display info"
+msgstr "‎表示情報‎"
+
+#: view~dictionnary.attributeLayers.toolbar.input.search.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.title"
+msgid "Search"
+msgstr "検索"
+
+#: view~dictionnary.attributeLayers.toolbar.msg.data.extent
+msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.extent"
+msgid "in the current extent"
+msgstr "‎現在の範囲"
+
+#: view~dictionnary.attributeLayers.toolbar.msg.data.lines
+msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
+msgid "lines returned"
+msgstr "lines returned"
+
+#: view~dictionnary.attributeLayers.toolbar.msg.data.nodata
+msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.nodata"
+msgid "No result for this layer"
+msgstr "‎このレイヤの結果はありません‎"
+
+#: view~dictionnary.baselayer.empty.title
+msgctxt "view~dictionnary.baselayer.empty.title"
+msgid "No base map"
+msgstr "‎ベース マップなし‎"
+
+#: view~dictionnary.bottomdock.toolbar.btn.glue.activate.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.activate.title"
+msgid "Pin"
+msgstr "Pin"
+
+#: view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title"
+msgid "Unpin"
+msgstr "‎解除‎"
+
+#: view~dictionnary.bottomdock.toolbar.btn.glue.glued.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.glued.title"
+msgid "Pinned"
+msgstr "‎固定‎"
+
+#: view~dictionnary.bottomdock.toolbar.btn.size.maximize.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.maximize.title"
+msgid "Maximize"
+msgstr "‎最大化"
+
+#: view~dictionnary.bottomdock.toolbar.btn.size.minimize.title
+msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
+msgid "Minimize"
+msgstr "‎最小化"
+
+#: view~dictionnary.edition.confirm.cancel
+msgctxt "view~dictionnary.edition.confirm.cancel"
+msgid ""
+"Are you sure you want to cancel edition? You will lose any modifications "
+"made on the currently edited object."
+msgstr "キャンセルすれば，現在編集中のオブジェクトに対して行った変更は失われます。‎"
+
+#: view~dictionnary.edition.confirm.delete
+msgctxt "view~dictionnary.edition.confirm.delete"
+msgid "Are you sure you want to delete the selected feature?"
+msgstr "‎選択した地物を削除しますか?‎"
+
+#: view~dictionnary.edition.datepicker.open
+msgctxt "view~dictionnary.edition.datepicker.open"
+msgid "Open the calendar"
+msgstr "‎カレンダーを開く‎"
+
+#: view~dictionnary.edition.datepicker.reset
+msgctxt "view~dictionnary.edition.datepicker.reset"
+msgid "Reset the date"
+msgstr "‎日付をリセットする‎"
+
+#: view~dictionnary.edition.draw.activate
+msgctxt "view~dictionnary.edition.draw.activate"
+msgid "Draw the feature you want to create on the map."
+msgstr "‎作成する地物を地図上に描画します。‎"
+
+#: view~dictionnary.edition.message.error.no.geometry
+msgctxt "view~dictionnary.edition.message.error.no.geometry"
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
+msgstr "‎このオブジェクトは、ジオメトリなしでは保存できません。地図上にジオメトリを描画してください。‎"
+
+#: view~dictionnary.edition.point.coord.crs.layer
+msgctxt "view~dictionnary.edition.point.coord.crs.layer"
+msgid "Layer"
+msgstr "‎レイヤ"
+
+#: view~dictionnary.edition.point.coord.crs.map
+msgctxt "view~dictionnary.edition.point.coord.crs.map"
+msgid "Map"
+msgstr "‎地図‎"
+
+#: view~dictionnary.edition.select.activate
+msgctxt "view~dictionnary.edition.select.activate"
+msgid "Click on one of the layer's features to select it."
+msgstr "‎レイヤの地物のいずれかをクリックして選択します。‎"
+
+#: view~dictionnary.edition.select.modify.activate
+msgctxt "view~dictionnary.edition.select.modify.activate"
+msgid "You can modify the feature you have selected, then submit."
+msgstr "‎選択した地物を変更してから送信できます。‎"
+
+#: view~dictionnary.edition.title
+msgctxt "view~dictionnary.edition.title"
+msgid "Edition"
+msgstr "編集"
+
+#: view~dictionnary.embed.open.map
+msgctxt "view~dictionnary.embed.open.map"
+msgid "Open the map in full screen"
+msgstr "‎マップを全画面表示で開く‎"
+
+#: view~dictionnary.externalsearch.mapdata
+msgctxt "view~dictionnary.externalsearch.mapdata"
+msgid "Map data"
+msgstr "‎データのマップ‎"
+
+#: view~dictionnary.externalsearch.notfound
+msgctxt "view~dictionnary.externalsearch.notfound"
+msgid "No results"
+msgstr "‎結果なし‎"
+
+#: view~dictionnary.externalsearch.search
+msgctxt "view~dictionnary.externalsearch.search"
+msgid "Searching"
+msgstr "検索"
+
+#: view~dictionnary.filter.btn.export.label
+msgctxt "view~dictionnary.filter.btn.export.label"
+msgid "Export"
+msgstr "エクスポート"
+
+#: view~dictionnary.filter.btn.export.title
+msgctxt "view~dictionnary.filter.btn.export.title"
+msgid "Export filtered features"
+msgstr "‎フィルタされた地物をエクスポートする‎"
+
+#: view~dictionnary.filter.btn.reset.label
+msgctxt "view~dictionnary.filter.btn.reset.label"
+msgid "Reset"
+msgstr "‎リセット‎"
+
+#: view~dictionnary.filter.btn.reset.title
+msgctxt "view~dictionnary.filter.btn.reset.title"
+msgid "Reset the filter"
+msgstr "‎フィルタをリセットする‎"
+
+#: view~dictionnary.filter.btn.zoom.label
+msgctxt "view~dictionnary.filter.btn.zoom.label"
+msgid "Zoom"
+msgstr "拡大"
+
+#: view~dictionnary.filter.btn.zoom.title
+msgctxt "view~dictionnary.filter.btn.zoom.title"
+msgid "Zoom to filtered features"
+msgstr "‎フィルター処理された地物にズームする‎"
+
+#: view~dictionnary.filter.input.text.placeholder
+msgctxt "view~dictionnary.filter.input.text.placeholder"
+msgid "Search inside this field"
+msgstr "‎このフィールド内を検索‎"
+
+#: view~dictionnary.filter.input.text.title
+msgctxt "view~dictionnary.filter.input.text.title"
+msgid "Type some text to search inside this field"
+msgstr "‎このフィールド内で検索するテキストを入力します‎"
+
+#: view~dictionnary.filter.label.features
+msgctxt "view~dictionnary.filter.label.features"
+msgid "features"
+msgstr "地物"
+
+#: view~dictionnary.generic.btn.close.title
+msgctxt "view~dictionnary.generic.btn.close.title"
+msgid "Close"
+msgstr "閉じる"
+
+#: view~dictionnary.geobookmark.confirm.delete
+msgctxt "view~dictionnary.geobookmark.confirm.delete"
+msgid "Are you sure you want to delete this bookmark?"
+msgstr "‎このブックマークを削除しますか?‎"
+
+#: view~dictionnary.geobookmark.name.required
+msgctxt "view~dictionnary.geobookmark.name.required"
+msgid "A name is required to create a bookmark."
+msgstr "‎ブックマークを作成するには名前が必要です。‎"
+
+#: view~dictionnary.geolocation.failed
+msgctxt "view~dictionnary.geolocation.failed"
+msgid "Location detection failed"
+msgstr "‎位置の検出に失敗しました‎"
+
+#: view~dictionnary.layer.export.right.required
+msgctxt "view~dictionnary.layer.export.right.required"
+msgid "Right is required to export layer."
+msgstr "‎レイヤをエクスポート"
+
+#: view~dictionnary.layer.metadata.export.title
+msgctxt "view~dictionnary.layer.metadata.export.title"
+msgid "Export"
+msgstr "エクスポート"
+
+#: view~dictionnary.layer.metadata.layer.abstract
+msgctxt "view~dictionnary.layer.metadata.layer.abstract"
+msgid "Description"
+msgstr "概要"
+
+#: view~dictionnary.layer.metadata.layer.info.see
+msgctxt "view~dictionnary.layer.metadata.layer.info.see"
+msgid "Documentation"
+msgstr "‎マニュアル"
+
+#: view~dictionnary.layer.metadata.layer.link
+msgctxt "view~dictionnary.layer.metadata.layer.link"
+msgid "Information"
+msgstr "‎情報‎"
+
+#: view~dictionnary.layer.metadata.layer.name
+msgctxt "view~dictionnary.layer.metadata.layer.name"
+msgid "Name"
+msgstr "‎名前‎"
+
+#: view~dictionnary.layer.metadata.layer.type
+msgctxt "view~dictionnary.layer.metadata.layer.type"
+msgid "Type"
+msgstr "‎種類‎"
+
+#: view~dictionnary.layer.metadata.layer.type.group
+msgctxt "view~dictionnary.layer.metadata.layer.type.group"
+msgid "Group"
+msgstr "‎グループ"
+
+#: view~dictionnary.layer.metadata.layer.type.layer
+msgctxt "view~dictionnary.layer.metadata.layer.type.layer"
+msgid "Layer"
+msgstr "‎レイヤ"
+
+#: view~dictionnary.layer.metadata.opacity.title
+msgctxt "view~dictionnary.layer.metadata.opacity.title"
+msgid "Opacity"
+msgstr "‎不透明‎"
+
+#: view~dictionnary.layer.metadata.style.title
+msgctxt "view~dictionnary.layer.metadata.style.title"
+msgid "Change layer style"
+msgstr "‎レイヤスタイルの変更‎"
+
+#: view~dictionnary.layer.metadata.title
+msgctxt "view~dictionnary.layer.metadata.title"
+msgid "Information"
+msgstr "‎情報‎"
+
+#: view~dictionnary.layer.metadata.zoomToExtent.title
+msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
+msgid "Zoom to layer extent"
+msgstr "‎レイヤ範囲にズーム‎"
+
+#: view~dictionnary.measure.activate.area
+msgctxt "view~dictionnary.measure.activate.area"
+msgid "Click on the map to start measuring an area."
+msgstr "‎地図をクリックして、エリアの計測を開始します。‎"
+
+#: view~dictionnary.measure.activate.length
+msgctxt "view~dictionnary.measure.activate.length"
+msgid "Click on the map to start measuring a length."
+msgstr "‎地図をクリックして長さの計測を開始します。‎"
+
+#: view~dictionnary.measure.activate.perimeter
+msgctxt "view~dictionnary.measure.activate.perimeter"
+msgid "Click on the map to start measuring a perimeter."
+msgstr "‎マップをクリックして、周囲の計測を開始します。‎"
+
+#: view~dictionnary.measure.handle
+msgctxt "view~dictionnary.measure.handle"
+msgid "Measure:"
+msgstr "計測:"
+
+#: view~dictionnary.popup.msg.no.result
+msgctxt "view~dictionnary.popup.msg.no.result"
+msgid "No object has been found at this location."
+msgstr "オブジェクトが見つかりません。‎"
+
+#: view~dictionnary.popup.msg.start
+msgctxt "view~dictionnary.popup.msg.start"
+msgid "Click to the map to get informations."
+msgstr "‎地図をクリックして情報を取得します。‎"
+
+#: view~dictionnary.print.activate
+msgctxt "view~dictionnary.print.activate"
+msgid "Place the rectangle for printing"
+msgstr "‎印刷用の枠を配置する‎"
+
+#: view~dictionnary.selectiontool.results.more
+msgctxt "view~dictionnary.selectiontool.results.more"
+msgid "%s selected objects"
+msgstr "%s selected objects"
+
+#: view~dictionnary.selectiontool.results.none
+msgctxt "view~dictionnary.selectiontool.results.none"
+msgid "No object selected"
+msgstr "‎オブジェクトが選択されていません‎"
+
+#: view~dictionnary.selectiontool.results.one
+msgctxt "view~dictionnary.selectiontool.results.one"
+msgid "1 selected object"
+msgstr "‎1 つのオブジェクトを選択‎"
+
+#: view~dictionnary.timemanager.toolbar.pause
+msgctxt "view~dictionnary.timemanager.toolbar.pause"
+msgid "Pause"
+msgstr "一時停止"
+
+#: view~dictionnary.timemanager.toolbar.play
+msgctxt "view~dictionnary.timemanager.toolbar.play"
+msgid "Play"
+msgstr "再生"
+
+#: view~dictionnary.tree.button.checkbox
+msgctxt "view~dictionnary.tree.button.checkbox"
+msgid "Display/Hide"
+msgstr "表示/非表示"
+
+#: view~dictionnary.tree.button.collapse
+msgctxt "view~dictionnary.tree.button.collapse"
+msgid "Collapse"
+msgstr "圧縮"
+
+#: view~dictionnary.tree.button.expand
+msgctxt "view~dictionnary.tree.button.expand"
+msgid "Expand"
+msgstr "解凍"
+
+#: view~dictionnary.tree.button.link
+msgctxt "view~dictionnary.tree.button.link"
+msgid "Open documentation"
+msgstr "‎マニュアルを開く‎"
+
+#: view~dictionnary.tree.button.removeCache
+msgctxt "view~dictionnary.tree.button.removeCache"
+msgid "Remove cache server for this layer"
+msgstr "サーバからレイヤのキャッシュを削除します‎"
+
+#: view~edition.access.denied
+msgctxt "view~edition.access.denied"
+msgid "You have not the right to use the edition tools."
+msgstr "編集ツールを使用する権利はありません。‎"
+
+#: view~edition.form.action.future.close
+msgctxt "view~edition.form.action.future.close"
+msgid "Close form"
+msgstr "‎フォームを閉じる‎"
+
+#: view~edition.form.action.future.create
+msgctxt "view~edition.form.action.future.create"
+msgid "Create new feature"
+msgstr "‎新しい地物の作成‎"
+
+#: view~edition.form.action.future.edit
+msgctxt "view~edition.form.action.future.edit"
+msgid "Reopen form"
+msgstr "‎フォームを再度開く"
+
+#: view~edition.form.action.future.label
+msgctxt "view~edition.form.action.future.label"
+msgid "After saved"
+msgstr "‎保存後に"
+
+#: view~edition.form.btn.clear.title
+msgctxt "view~edition.form.btn.clear.title"
+msgid "Close"
+msgstr "閉じる"
+
+#: view~edition.form.cancel.confirm.message
+msgctxt "view~edition.form.cancel.confirm.message"
+msgid "Cancel edition?"
+msgstr "編集をキャンセルしますか?‎"
+
+#: view~edition.form.cancel.label
+msgctxt "view~edition.form.cancel.label"
+msgid "Cancel"
+msgstr "‎キャンセル‎"
+
+#: view~edition.form.data.saved
+msgctxt "view~edition.form.data.saved"
+msgid "Data has been saved."
+msgstr "‎データが保存されました。‎"
+
+#: view~edition.form.reset.label
+msgctxt "view~edition.form.reset.label"
+msgid "Reset"
+msgstr "‎リセット‎"
+
+#: view~edition.form.submit.label
+msgctxt "view~edition.form.submit.label"
+msgid "Save"
+msgstr "保存"
+
+#: view~edition.geolocate.toolbar.title
+msgctxt "view~edition.geolocate.toolbar.title"
+msgid "Edition:"
+msgstr "編集:"
+
+#: view~edition.geomtool.drag.title
+msgctxt "view~edition.geomtool.drag.title"
+msgid "Drag"
+msgstr "‎ドラッグ‎"
+
+#: view~edition.geomtool.nodetool.title
+msgctxt "view~edition.geomtool.nodetool.title"
+msgid "Node tool"
+msgstr "‎ノードツール‎"
+
+#: view~edition.geomtool.reshape.title
+msgctxt "view~edition.geomtool.reshape.title"
+msgid "Reshape"
+msgstr "‎形状‎"
+
+#: view~edition.geomtool.rotate.title
+msgctxt "view~edition.geomtool.rotate.title"
+msgid "Rotate"
+msgstr "‎回転‎"
+
+#: view~edition.link.error.missing.id
+msgctxt "view~edition.link.error.missing.id"
+msgid ""
+"There must be at least one object selected for each layer to create the "
+"link."
+msgstr "‎リンクを作成するには、各レイヤに少なくとも 1 つのオブジェクトを選択する必要があります。‎"
+
+#: view~edition.link.error.missing.parameter
+msgctxt "view~edition.link.error.missing.parameter"
+msgid "The pivot, features1 and features2 parameters are mandatory."
+msgstr "‎ピボット、地物1、および地物2のパラメータは必須です。‎"
+
+#: view~edition.link.error.multiple.ids
+msgctxt "view~edition.link.error.multiple.ids"
+msgid ""
+"You cannot link multiple objects for both layers. Please select only one "
+"object for one of the layers and retry."
+msgstr ""
+"‎両方のレイヤに対して複数のオブジェクトをリンクすることはできません。レイヤの 1 つにオブジェクトを 1 つだけ選択して再試行してください。‎"
+
+#: view~edition.link.error.no.create.feature
+msgctxt "view~edition.link.error.no.create.feature"
+msgid "Create feature for the layer \"%s\" is not available."
+msgstr "‎レイヤの地物を作成 \"‎%s‎\" は使用できません。‎"
+
+#: view~edition.link.error.no.given.fields
+msgctxt "view~edition.link.error.no.given.fields"
+msgid "Given fields do not exists."
+msgstr "‎指定されたフィールドは存在しません。‎"
+
+#: view~edition.link.error.no.modify.attributes
+msgctxt "view~edition.link.error.no.modify.attributes"
+msgid "Modify attributes for the layer \"%s\" is not available."
+msgstr "‎レイヤの属性を変更する \"‎%s‎\" は使用できません。‎"
+
+#: view~edition.link.error.not.attribute.layer
+msgctxt "view~edition.link.error.not.attribute.layer"
+msgid "The layers have not be configured to have an attribute table."
+msgstr "‎レイヤが属性テーブルを持つように構成されていません。‎"
+
+#: view~edition.link.error.sql
+msgctxt "view~edition.link.error.sql"
+msgid "An error occured while adding linked data."
+msgstr "‎リンクされたデータの追加中にエラーが発生しました。‎"
+
+#: view~edition.link.error.wrong.layer
+msgctxt "view~edition.link.error.wrong.layer"
+msgid "The layer does not exists."
+msgstr "‎レイヤが存在しません。‎"
+
+#: view~edition.link.success
+msgctxt "view~edition.link.success"
+msgid "Selected features have been correctly linked."
+msgstr "‎選択した地物に正しくリンクされています。‎"
+
+#: view~edition.message.error.bbox
+msgctxt "view~edition.message.error.bbox"
+msgid "The bbox has to be 4 floats separated by ','."
+msgstr "‎bbox は、浮動小数点数を ',' で区切る必要があります。‎"
+
+#: view~edition.message.error.create
+msgctxt "view~edition.message.error.create"
+msgid "An error occured while creating the object."
+msgstr "‎オブジェクトの作成中にエラーが発生しました。‎"
+
+#: view~edition.message.error.crs
+msgctxt "view~edition.message.error.crs"
+msgid "crs is mandatory and has to be an integer or EPSG:*."
+msgstr "‎crs は必須であり、整数または EPSG:* でなければなりません。‎"
+
+#: view~edition.message.error.delete
+msgctxt "view~edition.message.error.delete"
+msgid "The deletion has failed."
+msgstr "‎削除に失敗しました。‎"
+
+#: view~edition.message.error.feature.get
+msgctxt "view~edition.message.error.feature.get"
+msgid "Lizmap cannot get the feature data with WFS"
+msgstr "‎Lizmap は WFS で地物データを取得できません‎"
+
+#: view~edition.message.error.form.get
+msgctxt "view~edition.message.error.form.get"
+msgid "An error has been raised when getting the form"
+msgstr "‎フォームを取得するときにエラーが発生しました‎"
+
+#: view~edition.message.error.layer.editable
+msgctxt "view~edition.message.error.layer.editable"
+msgid "The layer is not editable."
+msgstr "‎レイヤは編集できません。‎"
+
+#: view~edition.message.error.layer.editable.create
+msgctxt "view~edition.message.error.layer.editable.create"
+msgid "Create feature for the layer is not available."
+msgstr "‎レイヤの地物新規作成はできません。"
+
+#: view~edition.message.error.layer.editable.delete
+msgctxt "view~edition.message.error.layer.editable.delete"
+msgid "Delete feature for the layer is not available."
+msgstr "‎レイヤの地物削除は出来ません。"
+
+#: view~edition.message.error.no.geometry
+msgctxt "view~edition.message.error.no.geometry"
+msgid ""
+"You cannot save this object without a geomtetry. Please draw the geometry on"
+" the map."
+msgstr "‎このオブジェクトは、ジオメトリなしでは保存できません。地図上にジオメトリを描画してください。‎"
+
+#: view~edition.message.error.parameter.featureId
+msgctxt "view~edition.message.error.parameter.featureId"
+msgid "The 'featureId' parameter is mandatory."
+msgstr "‎'地物Id' パラメーターは必須です。‎"
+
+#: view~edition.message.error.parameter.project
+msgctxt "view~edition.message.error.parameter.project"
+msgid "The 'project' parameter is mandatory."
+msgstr "‎'プロジェクト' パラメーターは必須です。‎"
+
+#: view~edition.message.error.primary.keys
+msgctxt "view~edition.message.error.primary.keys"
+msgid ""
+"Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
+" defined primary key on the table."
+msgstr "Lizmapが \"‎%s‎\" レイヤの主キー。編集ツールでは、テーブルに定義された主キーが必要です。‎"
+
+#: view~edition.message.error.save
+msgctxt "view~edition.message.error.save"
+msgid "An error has been raised when saving the form."
+msgstr "‎フォームを保存するときにエラーが発生しました。‎"
+
+#: view~edition.message.error.save.fields
+msgctxt "view~edition.message.error.save.fields"
+msgid "No fields available for saving the form."
+msgstr "‎フォームの保存に使用できるフィールドがありません。‎"
+
+#: view~edition.message.error.upload.layer
+msgctxt "view~edition.message.error.upload.layer"
+msgid "The layer \"%s\" directory for uploading media is not writable."
+msgstr "‎レイヤ \"‎%s‎\" メディアをアップロードするためのディレクトリは書き込み可能ではありません。‎"
+
+#: view~edition.message.error.upload.layer.field
+msgctxt "view~edition.message.error.upload.layer.field"
+msgid ""
+"The field \"%s\" directory of the layer \"%s\" for uploading media is not "
+"writable."
+msgstr "‎フィールド\"‎%s‎\" レイヤのディレクトリ \"‎%s‎\" メディアのアップロードは書き込み可能ではありません。‎"
+
+#: view~edition.message.success.create
+msgctxt "view~edition.message.success.create"
+msgid "Object successfully created."
+msgstr "‎オブジェクトが正常に作成されました。‎"
+
+#: view~edition.message.success.delete
+msgctxt "view~edition.message.success.delete"
+msgid "The feature has been deleted."
+msgstr "地物は削除されました。‎"
+
+#: view~edition.modal.message.no.feature.found
+msgctxt "view~edition.modal.message.no.feature.found"
+msgid "No feature has been found here."
+msgstr "地物は見つかりませんでした。‎"
+
+#: view~edition.modal.title.default
+msgctxt "view~edition.modal.title.default"
+msgid "Edition"
+msgstr "編集"
+
+#: view~edition.navbar.title
+msgctxt "view~edition.navbar.title"
+msgid "Edition"
+msgstr "編集"
+
+#: view~edition.point.coord.add.label
+msgctxt "view~edition.point.coord.add.label"
+msgid "Add"
+msgstr "追加"
+
+#: view~edition.point.coord.crs.label
+msgctxt "view~edition.point.coord.crs.label"
+msgid "CRS:"
+msgstr "CRS:"
+
+#: view~edition.point.coord.finalize.label
+msgctxt "view~edition.point.coord.finalize.label"
+msgid "Finalize"
+msgstr "‎確定する‎"
+
+#: view~edition.point.coord.geolocation.label
+msgctxt "view~edition.point.coord.geolocation.label"
+msgid "linked to geolocation"
+msgstr "‎地理位置情報にリンク‎"
+
+#: view~edition.point.coord.title
+msgctxt "view~edition.point.coord.title"
+msgid "Manage point/vertex coordinates"
+msgstr "‎ポイント/頂点座標の管理‎"
+
+#: view~edition.point.coord.x.label
+msgctxt "view~edition.point.coord.x.label"
+msgid "X:"
+msgstr "X:"
+
+#: view~edition.point.coord.y.label
+msgctxt "view~edition.point.coord.y.label"
+msgid "Y:"
+msgstr "Y:"
+
+#: view~edition.toolbar.cancel.title
+msgctxt "view~edition.toolbar.cancel.title"
+msgid "Cancel"
+msgstr "‎キャンセル‎"
+
+#: view~edition.toolbar.cancel.tooltip
+msgctxt "view~edition.toolbar.cancel.tooltip"
+msgid "Cancel current edition."
+msgstr "‎現在の編集をキャンセルします。‎"
+
+#: view~edition.toolbar.delete.title
+msgctxt "view~edition.toolbar.delete.title"
+msgid "Delete"
+msgstr "‎削除‎"
+
+#: view~edition.toolbar.draw.clear.title
+msgctxt "view~edition.toolbar.draw.clear.title"
+msgid "Clear"
+msgstr "‎クリア‎"
+
+#: view~edition.toolbar.draw.clear.tooltip
+msgctxt "view~edition.toolbar.draw.clear.tooltip"
+msgid "Cancel the current drawing."
+msgstr "‎現在の描画をキャンセルします。‎"
+
+#: view~edition.toolbar.draw.save.title
+msgctxt "view~edition.toolbar.draw.save.title"
+msgid "Save"
+msgstr "保存"
+
+#: view~edition.toolbar.draw.save.tooltip
+msgctxt "view~edition.toolbar.draw.save.tooltip"
+msgid "Finalize the current drawing."
+msgstr "‎現在の図面を保存します。‎"
+
+#: view~edition.toolbar.draw.title
+msgctxt "view~edition.toolbar.draw.title"
+msgid "Add"
+msgstr "追加"
+
+#: view~edition.toolbar.draw.tooltip
+msgctxt "view~edition.toolbar.draw.tooltip"
+msgid "Activate the tool for creating new objects."
+msgstr "‎新しいオブジェクトを作成するためのツールをアクティブにします。‎"
+
+#: view~edition.toolbar.select.attr.title
+msgctxt "view~edition.toolbar.select.attr.title"
+msgid "Modify"
+msgstr "変更"
+
+#: view~edition.toolbar.select.attr.tooltip
+msgctxt "view~edition.toolbar.select.attr.tooltip"
+msgid "Validate the geometry and/or open the attribute form."
+msgstr "ジオメトリを検証するか、属性フォームを開きます。‎"
+
+#: view~edition.toolbar.select.delete.title
+msgctxt "view~edition.toolbar.select.delete.title"
+msgid "Del"
+msgstr "削除"
+
+#: view~edition.toolbar.select.delete.tooltip
+msgctxt "view~edition.toolbar.select.delete.tooltip"
+msgid "Delete the selected object."
+msgstr "‎選択したオブジェクトを削除します。‎"
+
+#: view~edition.toolbar.select.title
+msgctxt "view~edition.toolbar.select.title"
+msgid "Select"
+msgstr "選択"
+
+#: view~edition.toolbar.select.tooltip
+msgctxt "view~edition.toolbar.select.tooltip"
+msgid "Activate the selection tool."
+msgstr "‎選択ツールをアクティブにします。‎"
+
+#: view~edition.toolbar.select.undo.title
+msgctxt "view~edition.toolbar.select.undo.title"
+msgid "Undo"
+msgstr "戻す"
+
+#: view~edition.toolbar.select.undo.tooltip
+msgctxt "view~edition.toolbar.select.undo.tooltip"
+msgid "Revert into initial geometry state."
+msgstr "‎初期ジオメトリ状態に戻します。‎"
+
+#: view~edition.toolbar.select.unselect.title
+msgctxt "view~edition.toolbar.select.unselect.title"
+msgid "Unsel."
+msgstr "信用しない"
+
+#: view~edition.toolbar.select.unselect.tooltip
+msgctxt "view~edition.toolbar.select.unselect.tooltip"
+msgid "Unselect the selected object."
+msgstr "‎選択したオブジェクトの選択を解除します。‎"
+
+#: view~edition.toolbar.title
+msgctxt "view~edition.toolbar.title"
+msgid "Edition"
+msgstr "編集"
+
+#: view~edition.unlink.error.sql
+msgctxt "view~edition.unlink.error.sql"
+msgid "An error occured while removing link."
+msgstr "‎リンクの削除中にエラーが発生しました。‎"
+
+#: view~edition.unlink.success
+msgctxt "view~edition.unlink.success"
+msgid "The child feature has correctly been unlinked."
+msgstr "選択した地物は正しくリンクされています。‎"
+
+#: view~edition.upload.choice.delete
+msgctxt "view~edition.upload.choice.delete"
+msgid "Delete"
+msgstr "‎削除‎"
+
+#: view~edition.upload.choice.keep
+msgctxt "view~edition.upload.choice.keep"
+msgid "Keep"
+msgstr "保持"
+
+#: view~edition.upload.choice.update
+msgctxt "view~edition.upload.choice.update"
+msgid "Update"
+msgstr "‎更新‎"
+
+#: view~map.attributeLayers.navbar.title
+msgctxt "view~map.attributeLayers.navbar.title"
+msgid "Data"
+msgstr "‎データ‎"
+
+#: view~map.attributeLayers.options.input.cascade.label
+msgctxt "view~map.attributeLayers.options.input.cascade.label"
+msgid "Cascade filter to children"
+msgstr "‎下位にフィルタを重ねて表示する‎"
+
+#: view~map.attributeLayers.options.title
+msgctxt "view~map.attributeLayers.options.title"
+msgid "Options"
+msgstr "‎オプション‎"
+
+#: view~map.attributeLayers.toolbar.title
+msgctxt "view~map.attributeLayers.toolbar.title"
+msgid "Data"
+msgstr "‎データ‎"
+
+#: view~map.baselayer.select.hover
+msgctxt "view~map.baselayer.select.hover"
+msgid "Select baselayer"
+msgstr "‎ベースレイヤの選択‎"
+
+#: view~map.baselayermenu.title
+msgctxt "view~map.baselayermenu.title"
+msgid "Base Layer"
+msgstr "‎ベースレイヤ‎"
+
+#: view~map.bottomdock.toolbar.btn.clear.title
+msgctxt "view~map.bottomdock.toolbar.btn.clear.title"
+msgid "Close"
+msgstr "閉じる"
+
+#: view~map.bottomdock.toolbar.btn.glue.activate.title
+msgctxt "view~map.bottomdock.toolbar.btn.glue.activate.title"
+msgid "Pin"
+msgstr "Pin"
+
+#: view~map.bottomdock.toolbar.btn.glue.deactivate.title
+msgctxt "view~map.bottomdock.toolbar.btn.glue.deactivate.title"
+msgid "Unpin"
+msgstr "‎解除‎"
+
+#: view~map.bottomdock.toolbar.btn.size.maximize.title
+msgctxt "view~map.bottomdock.toolbar.btn.size.maximize.title"
+msgid "Maximize"
+msgstr "‎最大化"
+
+#: view~map.bottomdock.toolbar.btn.size.minimize.title
+msgctxt "view~map.bottomdock.toolbar.btn.size.minimize.title"
+msgid "Minimize"
+msgstr "‎最小化"
+
+#: view~map.geolocate.navbar.title
+msgctxt "view~map.geolocate.navbar.title"
+msgid "Geolocation"
+msgstr "‎地理位置情報‎"
+
+#: view~map.geolocate.toolbar.bind
+msgctxt "view~map.geolocate.toolbar.bind"
+msgid "Stay centered"
+msgstr "‎中央に配置"
+
+#: view~map.geolocate.toolbar.center
+msgctxt "view~map.geolocate.toolbar.center"
+msgid "Center"
+msgstr "中心"
+
+#: view~map.geolocate.toolbar.stop
+msgctxt "view~map.geolocate.toolbar.stop"
+msgid "Stop"
+msgstr "停止"
+
+#: view~map.geolocate.toolbar.title
+msgctxt "view~map.geolocate.toolbar.title"
+msgid "Geolocation"
+msgstr "‎地理位置情報‎"
+
+#: view~map.layers
+msgctxt "view~map.layers"
+msgid "Layers"
+msgstr "レイヤ"
+
+#: view~map.legend
+msgctxt "view~map.legend"
+msgid "Legend"
+msgstr "凡例"
+
+#: view~map.legend.map
+msgctxt "view~map.legend.map"
+msgid "Legend/Map"
+msgstr "‎凡例/マップ‎"
+
+#: view~map.legendmenu.title
+msgctxt "view~map.legendmenu.title"
+msgid "Legend"
+msgstr "凡例"
+
+#: view~map.loading.title
+msgctxt "view~map.loading.title"
+msgid "Loading map data"
+msgstr "‎マップ データの読み込み‎"
+
+#: view~map.locatemenu.title
+msgctxt "view~map.locatemenu.title"
+msgid "Locating"
+msgstr "‎検索‎"
+
+#: view~map.map
+msgctxt "view~map.map"
+msgid "Map"
+msgstr "‎地図‎"
+
+#: view~map.map.only
+msgctxt "view~map.map.only"
+msgid "Map only"
+msgstr "‎マップのみ‎"
+
+#: view~map.measure.navbar.title
+msgctxt "view~map.measure.navbar.title"
+msgid "Measure"
+msgstr "計測"
+
+#: view~map.measure.toolbar.area
+msgctxt "view~map.measure.toolbar.area"
+msgid "Area"
+msgstr "‎面積‎"
+
+#: view~map.measure.toolbar.length
+msgctxt "view~map.measure.toolbar.length"
+msgid "Length"
+msgstr "‎長さ‎"
+
+#: view~map.measure.toolbar.perimeter
+msgctxt "view~map.measure.toolbar.perimeter"
+msgid "Perimeter"
+msgstr "‎周囲長‎"
+
+#: view~map.measure.toolbar.title
+msgctxt "view~map.measure.toolbar.title"
+msgid "Measures"
+msgstr "計測"
+
+#: view~map.menu.close.hover
+msgctxt "view~map.menu.close.hover"
+msgid "Hide the menu"
+msgstr "‎メニューを非表示にする‎"
+
+#: view~map.menu.show.hover
+msgctxt "view~map.menu.show.hover"
+msgid "Show the menu"
+msgstr "‎メニューを表示する‎"
+
+#: view~map.message.zoominmax
+msgctxt "view~map.message.zoominmax"
+msgid "No deeper zoom available for this base layer"
+msgstr "これ以上ズームできません。"
+
+#: view~map.metadata.contact.email
+msgctxt "view~map.metadata.contact.email"
+msgid "E-mail"
+msgstr "E-mail"
+
+#: view~map.metadata.contact.organization
+msgctxt "view~map.metadata.contact.organization"
+msgid "Organization"
+msgstr "‎組織‎"
+
+#: view~map.metadata.contact.person
+msgctxt "view~map.metadata.contact.person"
+msgid "Person"
+msgstr "個人"
+
+#: view~map.metadata.contact.phone
+msgctxt "view~map.metadata.contact.phone"
+msgid "Phone"
+msgstr "‎電話‎"
+
+#: view~map.metadata.description.abstract
+msgctxt "view~map.metadata.description.abstract"
+msgid "Description"
+msgstr "概要"
+
+#: view~map.metadata.description.title
+msgctxt "view~map.metadata.description.title"
+msgid "Title"
+msgstr "‎タイトル‎"
+
+#: view~map.metadata.h2.contact
+msgctxt "view~map.metadata.h2.contact"
+msgid "Contact"
+msgstr "連絡先"
+
+#: view~map.metadata.h2.description
+msgctxt "view~map.metadata.h2.description"
+msgid "Map description"
+msgstr "‎マップの説明‎"
+
+#: view~map.metadata.h2.illustration
+msgctxt "view~map.metadata.h2.illustration"
+msgid "Illustration"
+msgstr "‎図‎"
+
+#: view~map.metadata.h2.properties
+msgctxt "view~map.metadata.h2.properties"
+msgid "Properties"
+msgstr "‎プロパティ‎"
+
+#: view~map.metadata.h2.resources
+msgctxt "view~map.metadata.h2.resources"
+msgid "Resources"
+msgstr "‎リソース‎"
+
+#: view~map.metadata.hide
+msgctxt "view~map.metadata.hide"
+msgid "Hide information"
+msgstr "‎情報を非表示にする‎"
+
+#: view~map.metadata.link.label
+msgctxt "view~map.metadata.link.label"
+msgid "Information"
+msgstr "‎情報‎"
+
+#: view~map.metadata.properties.extent
+msgctxt "view~map.metadata.properties.extent"
+msgid "Extent"
+msgstr "‎範囲‎"
+
+#: view~map.metadata.properties.projection
+msgctxt "view~map.metadata.properties.projection"
+msgid "Projection"
+msgstr "投影"
+
+#: view~map.metadata.properties.wmsGetCapabilitiesUrl
+msgctxt "view~map.metadata.properties.wmsGetCapabilitiesUrl"
+msgid "Web Map Service"
+msgstr "‎Web マップ サービス‎"
+
+#: view~map.metadata.resources.website
+msgctxt "view~map.metadata.resources.website"
+msgid "Website"
+msgstr "Webサイト‎"
+
+#: view~map.mouseposition.hover
+msgctxt "view~map.mouseposition.hover"
+msgid "Mouse position"
+msgstr "‎マウスの位置‎"
+
+#: view~map.mouseposition.select
+msgctxt "view~map.mouseposition.select"
+msgid "Coordinate unit"
+msgstr "座標単位"
+
+#: view~map.mouseposition.units.d
+msgctxt "view~map.mouseposition.units.d"
+msgid "Degrees"
+msgstr "‎度‎"
+
+#: view~map.mouseposition.units.dm
+msgctxt "view~map.mouseposition.units.dm"
+msgid "Deg. Min."
+msgstr "Deg. Min."
+
+#: view~map.mouseposition.units.dms
+msgctxt "view~map.mouseposition.units.dms"
+msgid "D. M. S."
+msgstr "D. M. S."
+
+#: view~map.mouseposition.units.f
+msgctxt "view~map.mouseposition.units.f"
+msgid "Feet"
+msgstr "‎フィート‎"
+
+#: view~map.mouseposition.units.m
+msgctxt "view~map.mouseposition.units.m"
+msgid "Meters"
+msgstr "‎メートル‎"
+
+#: view~map.navbar.next.hover
+msgctxt "view~map.navbar.next.hover"
+msgid "Next"
+msgstr "次"
+
+#: view~map.navbar.pan.hover
+msgctxt "view~map.navbar.pan.hover"
+msgid "Pan map"
+msgstr "‎パンマップ‎"
+
+#: view~map.navbar.previous.hover
+msgctxt "view~map.navbar.previous.hover"
+msgid "Previous"
+msgstr "次に"
+
+#: view~map.navbar.slider.hover
+msgctxt "view~map.navbar.slider.hover"
+msgid "Slide to zoom in or out"
+msgstr "‎スライドを拡大または縮小する‎"
+
+#: view~map.navbar.zoom.hover
+msgctxt "view~map.navbar.zoom.hover"
+msgid "Zoom by rectangle"
+msgstr "指定範囲をズーム‎"
+
+#: view~map.navbar.zoomextent.hover
+msgctxt "view~map.navbar.zoomextent.hover"
+msgid "Zoom to initial map extent"
+msgstr "‎初期マップ範囲にズーム‎"
+
+#: view~map.navbar.zoomin.hover
+msgctxt "view~map.navbar.zoomin.hover"
+msgid "Zoom in"
+msgstr "‎ズームイン"
+
+#: view~map.navbar.zoomout.hover
+msgctxt "view~map.navbar.zoomout.hover"
+msgid "Zoom out"
+msgstr "‎ズームアウト‎"
+
+#: view~map.overviewbar.displayoverview.hover
+msgctxt "view~map.overviewbar.displayoverview.hover"
+msgid "Display/Hide Overview"
+msgstr "‎概要の表示/非表示‎"
+
+#: view~map.overviewbar.scaleline.hover
+msgctxt "view~map.overviewbar.scaleline.hover"
+msgid "Scale bar"
+msgstr "‎スケールバー‎"
+
+#: view~map.overviewbar.scaletext.hover
+msgctxt "view~map.overviewbar.scaletext.hover"
+msgid "Scale"
+msgstr "縮尺"
+
+#: view~map.overviewbar.scaletext.title
+msgctxt "view~map.overviewbar.scaletext.title"
+msgid "Scale"
+msgstr "縮尺"
+
+#: view~map.overviewmap.hover
+msgctxt "view~map.overviewmap.hover"
+msgid "Move the rectanle to pan the map"
+msgstr "先頭に移動‎"
+
+#: view~map.permalink.embed.size.large
+msgctxt "view~map.permalink.embed.size.large"
+msgid "Large"
+msgstr "‎大きい‎"
+
+#: view~map.permalink.embed.size.medium
+msgctxt "view~map.permalink.embed.size.medium"
+msgid "Medium"
+msgstr "中"
+
+#: view~map.permalink.embed.size.personalized
+msgctxt "view~map.permalink.embed.size.personalized"
+msgid "Personalized"
+msgstr "‎パーソナライズ "
+
+#: view~map.permalink.embed.size.small
+msgctxt "view~map.permalink.embed.size.small"
+msgid "Small"
+msgstr "小"
+
+#: view~map.permalink.embed.tab
+msgctxt "view~map.permalink.embed.tab"
+msgid "Embed"
+msgstr "‎埋込‎"
+
+#: view~map.permalink.embed.tab.title
+msgctxt "view~map.permalink.embed.tab.title"
+msgid "Embed the current map"
+msgstr "‎現在のマップを埋め込む‎"
+
+#: view~map.permalink.geobookmark.button.add
+msgctxt "view~map.permalink.geobookmark.button.add"
+msgid "Add a bookmark"
+msgstr "‎ブックマークを追加する‎"
+
+#: view~map.permalink.geobookmark.button.del
+msgctxt "view~map.permalink.geobookmark.button.del"
+msgid "Remove this bookmark"
+msgstr "‎このブックマークを削除します‎"
+
+#: view~map.permalink.geobookmark.button.run
+msgctxt "view~map.permalink.geobookmark.button.run"
+msgid "Use this bookmark"
+msgstr "‎このブックマークを使用する‎"
+
+#: view~map.permalink.geobookmark.name.placeholder
+msgctxt "view~map.permalink.geobookmark.name.placeholder"
+msgid "Bookmark name"
+msgstr "‎ブックマーク名‎"
+
+#: view~map.permalink.geobookmark.none
+msgctxt "view~map.permalink.geobookmark.none"
+msgid "No bookmark yet."
+msgstr "‎ブックマークはまだありません。‎"
+
+#: view~map.permalink.geobookmark.title
+msgctxt "view~map.permalink.geobookmark.title"
+msgid "Bookmarks"
+msgstr "‎ブックマーク‎"
+
+#: view~map.permalink.navbar.title
+msgctxt "view~map.permalink.navbar.title"
+msgid "Permalink"
+msgstr "‎パーマリンク‎"
+
+#: view~map.permalink.share.link
+msgctxt "view~map.permalink.share.link"
+msgid "Link to current map"
+msgstr "‎現在のマップへのリンク‎"
+
+#: view~map.permalink.share.tab
+msgctxt "view~map.permalink.share.tab"
+msgid "Share"
+msgstr "‎共有‎"
+
+#: view~map.permalink.share.tab.title
+msgctxt "view~map.permalink.share.tab.title"
+msgid "Share the link to current map"
+msgstr "‎現在のマップへのリンクを共有する‎"
+
+#: view~map.permalink.toolbar.title
+msgctxt "view~map.permalink.toolbar.title"
+msgid "Permalink"
+msgstr "‎パーマリンク‎"
+
+#: view~map.popup.table.th.band
+msgctxt "view~map.popup.table.th.band"
+msgid "Band"
+msgstr "‎バンド‎"
+
+#: view~map.popup.table.th.data
+msgctxt "view~map.popup.table.th.data"
+msgid "Field"
+msgstr "フィールド"
+
+#: view~map.popup.table.th.value
+msgctxt "view~map.popup.table.th.value"
+msgid "Value"
+msgstr "値"
+
+#: view~map.print.navbar.title
+msgctxt "view~map.print.navbar.title"
+msgid "Print"
+msgstr "印刷"
+
+#: view~map.print.toolbar.dpi
+msgctxt "view~map.print.toolbar.dpi"
+msgid "DPI"
+msgstr "DPI"
+
+#: view~map.print.toolbar.format
+msgctxt "view~map.print.toolbar.format"
+msgid "Format"
+msgstr "フォーマット"
+
+#: view~map.print.toolbar.scale
+msgctxt "view~map.print.toolbar.scale"
+msgid "Scale"
+msgstr "縮尺"
+
+#: view~map.print.toolbar.template
+msgctxt "view~map.print.toolbar.template"
+msgid "Template"
+msgstr "‎テンプレート‎"
+
+#: view~map.print.toolbar.title
+msgctxt "view~map.print.toolbar.title"
+msgid "Print"
+msgstr "印刷"
+
+#: view~map.search.nominatim.button
+msgctxt "view~map.search.nominatim.button"
+msgid "Searching"
+msgstr "検索"
+
+#: view~map.search.nominatim.placeholder
+msgctxt "view~map.search.nominatim.placeholder"
+msgid "Search"
+msgstr "検索"
+
+#: view~map.selectiontool.navbar.title
+msgctxt "view~map.selectiontool.navbar.title"
+msgid "Selection"
+msgstr "選択"
+
+#: view~map.selectiontool.toolbar.action.filter
+msgctxt "view~map.selectiontool.toolbar.action.filter"
+msgid "Filter"
+msgstr "‎フィルター‎"
+
+#: view~map.selectiontool.toolbar.action.type.minus
+msgctxt "view~map.selectiontool.toolbar.action.type.minus"
+msgid "Remove from selection"
+msgstr "‎選択から削除‎"
+
+#: view~map.selectiontool.toolbar.action.type.plus
+msgctxt "view~map.selectiontool.toolbar.action.type.plus"
+msgid "Add to selection"
+msgstr "‎選択範囲に追加‎"
+
+#: view~map.selectiontool.toolbar.action.type.refresh
+msgctxt "view~map.selectiontool.toolbar.action.type.refresh"
+msgid "New selection"
+msgstr "‎新しい選択‎"
+
+#: view~map.selectiontool.toolbar.action.unselect
+msgctxt "view~map.selectiontool.toolbar.action.unselect"
+msgid "Unselect all"
+msgstr "選択解除‎"
+
+#: view~map.selectiontool.toolbar.layer
+msgctxt "view~map.selectiontool.toolbar.layer"
+msgid "Selection layer"
+msgstr "レイヤを選択‎"
+
+#: view~map.selectiontool.toolbar.query.box
+msgctxt "view~map.selectiontool.toolbar.query.box"
+msgid "Box"
+msgstr "ボックス"
+
+#: view~map.selectiontool.toolbar.query.circle
+msgctxt "view~map.selectiontool.toolbar.query.circle"
+msgid "Circle"
+msgstr "‎円‎"
+
+#: view~map.selectiontool.toolbar.query.deactivate
+msgctxt "view~map.selectiontool.toolbar.query.deactivate"
+msgid "Deactivate"
+msgstr "‎非アクティブ 化‎"
+
+#: view~map.selectiontool.toolbar.query.freehand
+msgctxt "view~map.selectiontool.toolbar.query.freehand"
+msgid "Free hand"
+msgstr "‎フリーハンド‎"
+
+#: view~map.selectiontool.toolbar.query.polygon
+msgctxt "view~map.selectiontool.toolbar.query.polygon"
+msgid "Polygon"
+msgstr "ポリゴン"
+
+#: view~map.selectiontool.toolbar.title
+msgctxt "view~map.selectiontool.toolbar.title"
+msgid "Selection"
+msgstr "選択"
+
+#: view~map.switcher.layer.export.title
+msgctxt "view~map.switcher.layer.export.title"
+msgid "Export"
+msgstr "エクスポート"
+
+#: view~map.switcher.layer.metadata.title
+msgctxt "view~map.switcher.layer.metadata.title"
+msgid "Information"
+msgstr "‎情報‎"
+
+#: view~map.switcher.layer.style.title
+msgctxt "view~map.switcher.layer.style.title"
+msgid "Change layer style"
+msgstr "‎レイヤスタイルの変更‎"
+
+#: view~map.switcher.layer.unfilter.title
+msgctxt "view~map.switcher.layer.unfilter.title"
+msgid "Deactivate current filter"
+msgstr "‎現在のフィルターを無効にする‎"
+
+#: view~map.switcher.layer.zoomToExtent.title
+msgctxt "view~map.switcher.layer.zoomToExtent.title"
+msgid "Zoom to layer extent"
+msgstr "‎レイヤ範囲にズーム‎"
+
+#: view~map.switcher.layers.collapse.title
+msgctxt "view~map.switcher.layers.collapse.title"
+msgid "Collapse all"
+msgstr "すべて圧縮"
+
+#: view~map.switcher.layers.expand.title
+msgctxt "view~map.switcher.layers.expand.title"
+msgid "Expand all"
+msgstr "‎すべて展開‎"
+
+#: view~map.switchermenu.title
+msgctxt "view~map.switchermenu.title"
+msgid "Layers"
+msgstr "レイヤ"
+
+#: view~map.timemanager.navbar.title
+msgctxt "view~map.timemanager.navbar.title"
+msgid "Time Manager"
+msgstr "時系列管理"
+
+#: view~map.timemanager.toolbar.next
+msgctxt "view~map.timemanager.toolbar.next"
+msgid "Next"
+msgstr "次"
+
+#: view~map.timemanager.toolbar.pause
+msgctxt "view~map.timemanager.toolbar.pause"
+msgid "Pause"
+msgstr "一時停止"
+
+#: view~map.timemanager.toolbar.play
+msgctxt "view~map.timemanager.toolbar.play"
+msgid "Play"
+msgstr "再生"
+
+#: view~map.timemanager.toolbar.prev
+msgctxt "view~map.timemanager.toolbar.prev"
+msgid "Previous"
+msgstr "次に"
+
+#: view~map.timemanager.toolbar.title
+msgctxt "view~map.timemanager.toolbar.title"
+msgid "Time Manager"
+msgstr "時系列管理"
+
+#: view~map.title.h1
+msgctxt "view~map.title.h1"
+msgid "Lizmap Web Client"
+msgstr "Lizmap Web Client"
+
+#: view~map.title.h2
+msgctxt "view~map.title.h2"
+msgid "Qgis Server Demo"
+msgstr "Qgis Server デモ"
+
+#: view~map.toolbar.content.stop
+msgctxt "view~map.toolbar.content.stop"
+msgid "Stop"
+msgstr "停止"
+
+#: view~map.toolbar.content.underway
+msgctxt "view~map.toolbar.content.underway"
+msgid "Underway..."
+msgstr "処理中・・・"
+
+#: view~map.tooltip.navbar.title
+msgctxt "view~map.tooltip.navbar.title"
+msgid "Tooltip"
+msgstr "地図のtips"
+
+#: view~map.tooltip.toolbar.layer
+msgctxt "view~map.tooltip.toolbar.layer"
+msgid "Highlight layer"
+msgstr "レイヤ強調表示"
+
+#: view~map.tooltip.toolbar.title
+msgctxt "view~map.tooltip.toolbar.title"
+msgid "Tooltip"
+msgstr "地図のtips"
+
+#: view~user.form.city.label
+msgctxt "view~user.form.city.label"
+msgid "City"
+msgstr "市"
+
+#: view~user.form.comment.help
+msgctxt "view~user.form.comment.help"
+msgid ""
+"Please write a small text to explain why you would like to have an access to"
+" the maps."
+msgstr "‎マップにアクセスしたい理由を教えてください。"
+
+#: view~user.form.comment.label
+msgctxt "view~user.form.comment.label"
+msgid "Why do you request an account?"
+msgstr "‎なぜアカウントをリクエストするのですか?‎"
+
+#: view~user.form.country.label
+msgctxt "view~user.form.country.label"
+msgid "Country"
+msgstr "‎国‎"
+
+#: view~user.form.firstname.label
+msgctxt "view~user.form.firstname.label"
+msgid "First name"
+msgstr "‎名前‎"
+
+#: view~user.form.lastname.label
+msgctxt "view~user.form.lastname.label"
+msgid "Last name"
+msgstr "‎名字‎"
+
+#: view~user.form.organization.label
+msgctxt "view~user.form.organization.label"
+msgid "Organization"
+msgstr "‎組織‎"
+
+#: view~user.form.phonenumber.label
+msgctxt "view~user.form.phonenumber.label"
+msgid "Phone number"
+msgstr "‎電話番号‎"
+
+#: view~user.form.postcode.label
+msgctxt "view~user.form.postcode.label"
+msgid "Postcode"
+msgstr "‎郵便番号‎"
+
+#: view~user.form.street.label
+msgctxt "view~user.form.street.label"
+msgid "Street"
+msgstr "住所"
