@@ -6,6 +6,8 @@ export MODULES="admin dataviz filter view"
 export AVAILABLE_LOCALES=""
 
 # locales that are almost complete and so, that should be pushed to Lizmap. See below for each branch
+# in lizmap, we want the long language code (ex: ja_JP). If the translator registered
+# only into the short code, indicate the code as : short code/long code (ex: ja/ja_JP)
 export OFFICAL_LOCALES=""
 
 export LOCALES_BRANCH=$(git branch | grep \* | cut -d ' ' -f2)
