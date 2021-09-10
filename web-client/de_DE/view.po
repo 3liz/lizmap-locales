@@ -4,17 +4,17 @@
 # rldhont <rldhont@gmail.com>, 2021
 # Felix Kuehne <felixdemern@googlemail.com>, 2021
 # Laurent Jouanneau <dev@ljouanneau.com>, 2021
-# Georges Moes <g.moes@naturemwelt.lu>, 2021
 # Niklas Landfester, 2021
 # Dominik Visca <d.visca@posteo.de>, 2021
+# Georges Moes <g.moes@naturemwelt.lu>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 18:20++0200\n"
+"POT-Creation-Date: 2021-09-10 18:31++0200\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
-"Last-Translator: Dominik Visca <d.visca@posteo.de>, 2021\n"
+"Last-Translator: Georges Moes <g.moes@naturemwelt.lu>, 2021\n"
 "Language-Team: German (https://www.transifex.com/3liz-1/teams/62012/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,12 +45,12 @@ msgstr "Administration"
 #: view~default.header.search.input.title
 msgctxt "view~default.header.search.input.title"
 msgid "Type to filter your maps."
-msgstr ""
+msgstr "Tippen Sie, um Ihre Karte zu filtern "
 
 #: view~default.header.search.toggleKeywordsTitle.title
 msgctxt "view~default.header.search.toggleKeywordsTitle.title"
 msgid "Toggle keywords/title search."
-msgstr ""
+msgstr "Wechseln zwischen Stichwort/Titel Suche "
 
 #: view~default.home.title
 msgctxt "view~default.home.title"
@@ -80,7 +80,7 @@ msgstr "Schliessen"
 #: view~default.project.keywordList.label
 msgctxt "view~default.project.keywordList.label"
 msgid "Keyword list"
-msgstr ""
+msgstr "Liste der Schlüsselwörter"
 
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
@@ -438,6 +438,8 @@ msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
 msgstr ""
+"Sie können dieses Formular mit dem Schliessen Button verbergen wenn Sie eine"
+" Geometrie zeichnen wollen."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -461,7 +463,7 @@ msgstr "Karte"
 #: view~dictionnary.edition.revertgeom.success
 msgctxt "view~dictionnary.edition.revertgeom.success"
 msgid "Geometry has been reversed. You can now save the form."
-msgstr ""
+msgstr "Geometrie umgekehrt. Sie können das Formular speichern."
 
 #: view~dictionnary.edition.select.activate
 msgctxt "view~dictionnary.edition.select.activate"
@@ -479,6 +481,8 @@ msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
 msgstr ""
+"Sie sollten das Formular korrekt aufüllen um ein neues Element nach dem "
+"Teilen der Geometrie zu erzeugen. "
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -630,7 +634,7 @@ msgstr "Zeit"
 #: view~dictionnary.geolocation.survey.title
 msgctxt "view~dictionnary.geolocation.survey.title"
 msgid "Survey"
-msgstr ""
+msgstr "Erhebung"
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
@@ -731,7 +735,7 @@ msgstr "Mausposition"
 #: view~dictionnary.mouseposition.removeCenterPoint
 msgctxt "view~dictionnary.mouseposition.removeCenterPoint"
 msgid "Remove center point"
-msgstr ""
+msgstr "Mittelpunkt entfernen"
 
 #: view~dictionnary.mouseposition.select
 msgctxt "view~dictionnary.mouseposition.select"
@@ -781,12 +785,12 @@ msgstr "Klicken Sie auf die Karte, um Informationen zu erhalten"
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
 msgid "Compact tables"
-msgstr ""
+msgstr "Tabellen verkleinern"
 
 #: view~dictionnary.popup.table.explode
 msgctxt "view~dictionnary.popup.table.explode"
 msgid "Explode tables"
-msgstr ""
+msgstr "Tabellen vergrößern"
 
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
@@ -796,12 +800,12 @@ msgstr "Rechteck für Druckauswahl platzieren"
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
-msgstr ""
+msgstr "Bezeichnungen zum Drucken eingeben  "
 
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
 msgid "Print started. Please wait."
-msgstr ""
+msgstr "Drucken gestartet. Bitte warten.  "
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -856,42 +860,42 @@ msgstr "Puffer"
 #: view~dictionnary.selectiontool.toolbar.geomOperator
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator"
 msgid "Geometric operators"
-msgstr ""
+msgstr "Geometrische Operatoren"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.contains
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.contains"
 msgid "Contains"
-msgstr ""
+msgstr "enthällt"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.crosses
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.crosses"
 msgid "Crosses"
-msgstr ""
+msgstr "kreuzt"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.disjoint
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.disjoint"
 msgid "Disjoint"
-msgstr ""
+msgstr "keine gemeinsame Geometrie"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.intersects
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.intersects"
 msgid "Intersects"
-msgstr ""
+msgstr "schneidet"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.overlaps
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.overlaps"
 msgid "Overlaps"
-msgstr ""
+msgstr "überlappt"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.touches
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.touches"
 msgid "Touches"
-msgstr ""
+msgstr "berührt"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.within
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.within"
 msgid "Within"
-msgstr ""
+msgstr "enthällt"
 
 #: view~dictionnary.selectiontool.toolbar.layer
 msgctxt "view~dictionnary.selectiontool.toolbar.layer"
@@ -901,22 +905,22 @@ msgstr "Auswahl Ebene"
 #: view~dictionnary.selectiontool.toolbar.layers.multiple
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.multiple"
 msgid "Multiple layers"
-msgstr ""
+msgstr "Mehrfache Layer"
 
 #: view~dictionnary.selectiontool.toolbar.layers.selectable
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectable"
 msgid "Selectable layers"
-msgstr ""
+msgstr "Auswählbare Layer"
 
 #: view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible"
 msgid "Selectable and visible layers"
-msgstr ""
+msgstr "Auswählbare und sichtbare Layer"
 
 #: view~dictionnary.selectiontool.toolbar.layers.single
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.single"
 msgid "Single layers"
-msgstr ""
+msgstr "Einfache Layer"
 
 #: view~dictionnary.selectiontool.toolbar.title
 msgctxt "view~dictionnary.selectiontool.toolbar.title"
@@ -1061,7 +1065,7 @@ msgstr "Verformen"
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
 msgid "Reverse geom"
-msgstr ""
+msgstr "Geometrie umkehren"
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1142,7 +1146,7 @@ msgstr ""
 #: view~edition.message.error.constraint
 msgctxt "view~edition.message.error.constraint"
 msgid "%s: check failed"
-msgstr ""
+msgstr "%s: Überprüfung fehlgeschlagen"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
@@ -1242,7 +1246,7 @@ msgstr "Das Feld-Verzeichnis \"%s\" des Layers \"%s\" ist nicht beschreibbar."
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
 msgid "Constraint: %s"
-msgstr ""
+msgstr "Bedingung: %s"
 
 #: view~edition.message.success.create
 msgctxt "view~edition.message.success.create"
@@ -1263,6 +1267,11 @@ msgstr "Kein Objekt gefunden."
 msgctxt "view~edition.modal.title.default"
 msgid "Edition"
 msgstr "Editieren"
+
+#: view~edition.modification.msg
+msgctxt "view~edition.modification.msg"
+msgid "Click features on the map to access edition tools."
+msgstr ""
 
 #: view~edition.navbar.title
 msgctxt "view~edition.navbar.title"
@@ -1747,7 +1756,7 @@ msgstr "Maßstab"
 #: view~map.overviewmap.hover
 msgctxt "view~map.overviewmap.hover"
 msgid "Move the rectangle to pan the map"
-msgstr ""
+msgstr "Bewegen Sie das Rechteck um den Kartenausschnitt zu wählen. "
 
 #: view~map.permalink.embed.size.large
 msgctxt "view~map.permalink.embed.size.large"
