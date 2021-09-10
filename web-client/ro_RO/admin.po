@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 18:12++0200\n"
-"PO-Revision-Date: 2021-07-22 11:27+0000\n"
+"POT-Creation-Date: 2021-09-10 10:21++0200\n"
+"PO-Revision-Date: 2021-08-06 12:32+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -212,12 +212,12 @@ msgstr "URL server WMS"
 #: admin~admin.form.admin_section.data.label
 msgctxt "admin~admin.form.admin_section.data.label"
 msgid "Data config:"
-msgstr "Config date:"
+msgstr "Configurare date:"
 
 #: admin~admin.form.admin_section.grouplist.label
 msgctxt "admin~admin.form.admin_section.grouplist.label"
 msgid "List of groups"
-msgstr "Lista grupuri"
+msgstr "Lista grupurilor"
 
 #: admin~admin.form.admin_section.groups.label
 msgctxt "admin~admin.form.admin_section.groups.label"
@@ -232,7 +232,7 @@ msgstr "Creați un depozit de date"
 #: admin~admin.form.admin_section.h1.modify
 msgctxt "admin~admin.form.admin_section.h1.modify"
 msgid "Modify the repository"
-msgstr "Modifică depozitul de date."
+msgstr "Modificați depozitul de date."
 
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
@@ -430,7 +430,7 @@ msgstr "Fișiere"
 #: admin~admin.form.admin_services.cacheStorageType.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.label"
 msgid "Server cache storage type"
-msgstr "Tipul storage-ului de cache al serverului"
+msgstr "Tipul stocării de cache al serverului"
 
 #: admin~admin.form.admin_services.cacheStorageType.redis.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.redis.label"
@@ -440,7 +440,7 @@ msgstr "Redis"
 #: admin~admin.form.admin_services.cacheStorageType.sqlite.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.sqlite.label"
 msgid "Sqlite database"
-msgstr "Baza de date Sqlite"
+msgstr "Bază de date Sqlite"
 
 #: admin~admin.form.admin_services.debugMode.0.label
 msgctxt "admin~admin.form.admin_services.debugMode.0.label"
@@ -450,7 +450,7 @@ msgstr "Oprit"
 #: admin~admin.form.admin_services.debugMode.1.label
 msgctxt "admin~admin.form.admin_services.debugMode.1.label"
 msgid "Log"
-msgstr "Jurnal"
+msgstr "Jurnalizare"
 
 #: admin~admin.form.admin_services.debugMode.label
 msgctxt "admin~admin.form.admin_services.debugMode.label"
@@ -482,7 +482,7 @@ msgstr "ID Google Analytics"
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"
 msgid "Modify Lizmap generic configuration"
-msgstr "Modifică configurația generică Lizmap"
+msgstr "Modificați configurația generică Lizmap"
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
@@ -504,7 +504,7 @@ msgstr "Datele au fost salvate"
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
 msgctxt "admin~admin.form.admin_services.message.wmsPublicUrlList.wrong"
 msgid "The WMS subdomain URLs structure is not valide."
-msgstr "structura listei de URL-uri subdomenii WMS este invalidă"
+msgstr "Structura URL-urilor subdomeniului WMS nu este valabilă."
 
 #: admin~admin.form.admin_services.no.label
 msgctxt "admin~admin.form.admin_services.no.label"
@@ -549,12 +549,12 @@ msgstr "≥ 3.0"
 #: admin~admin.form.admin_services.qgisServerVersion.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.label"
 msgid "QGIS server version"
-msgstr "Versiune QGIS Server"
+msgstr "Versiune Server QGIS"
 
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use relative path from root folder?"
-msgstr "Serverul folosește o cale relativă din dosarul root?"
+msgstr "Serverul folosește o cale relativă din dosarul rădăcină?"
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
@@ -683,7 +683,7 @@ msgstr "Culoare fundal antet"
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
 msgid "The image to be used for the header background (400ko Maximum)."
-msgstr "Imaginea care va fi utilizată pentru fundalul antetului (400ko Maxim)."
+msgstr "Imaginea care va fi utilizată pentru fundalul antetului (400 KO Maxim)."
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
@@ -713,12 +713,12 @@ msgstr "Lățime logo - antet"
 #: admin~admin.form.admin_theme.headerSubtitleColor.help
 msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.help"
 msgid "The color of the header subtitle text."
-msgstr "Culoare text subtitrare antet"
+msgstr "Culoare text subtitlu antet"
 
 #: admin~admin.form.admin_theme.headerSubtitleColor.label
 msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.label"
 msgid "Header - subtitle color"
-msgstr "Culoare subtitrare antet"
+msgstr "Culoare subtitlu antet"
 
 #: admin~admin.form.admin_theme.headerTitleColor.help
 msgctxt "admin~admin.form.admin_theme.headerTitleColor.help"
@@ -733,7 +733,7 @@ msgstr "Culoare titlu antet"
 #: admin~admin.form.admin_theme.menuBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.help"
 msgid "The color of the menu left bar background."
-msgstr "Culoarea fundalului barei stânga a meniului."
+msgstr "Culoarea fundalului barei meniu din stânga."
 
 #: admin~admin.form.admin_theme.menuBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.label"
@@ -773,7 +773,7 @@ msgstr "Conținut"
 #: admin~admin.logs.counter
 msgctxt "admin~admin.logs.counter"
 msgid "Count"
-msgstr "Numărătoare"
+msgstr "Cantitate"
 
 #: admin~admin.logs.counter.number.sentence
 msgctxt "admin~admin.logs.counter.number.sentence"
@@ -783,7 +783,7 @@ msgstr "linii în tabela globală de număr jurnale"
 #: admin~admin.logs.counter.title
 msgctxt "admin~admin.logs.counter.title"
 msgid "Log count"
-msgstr "Număr jurnale"
+msgstr "Cantitate jurnale"
 
 #: admin~admin.logs.detail.number.sentence
 msgctxt "admin~admin.logs.detail.number.sentence"
@@ -930,7 +930,7 @@ msgstr "Utilizator"
 #: admin~admin.logs.view.button
 msgctxt "admin~admin.logs.view.button"
 msgid "View"
-msgstr "Vizualizează"
+msgstr "Vizualizare"
 
 #: admin~admin.menu.configuration.main.label
 msgctxt "admin~admin.menu.configuration.main.label"
@@ -950,7 +950,7 @@ msgstr "Jurnale Lizmap"
 #: admin~admin.menu.lizmap.logs.view.label
 msgctxt "admin~admin.menu.lizmap.logs.view.label"
 msgid "View logs"
-msgstr "Vizualizează jurnale"
+msgstr "Vizualizare jurnale"
 
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
@@ -970,7 +970,7 @@ msgstr "Eliminați această imagine (și o utilizați pe cea implicită)?"
 #: admin~admin.theme.button.remove.logo.label
 msgctxt "admin~admin.theme.button.remove.logo.label"
 msgid "Remove"
-msgstr "Elimină"
+msgstr "Eliminare"
 
 #: admin~admin.theme.detail.title
 msgctxt "admin~admin.theme.detail.title"
@@ -1025,12 +1025,12 @@ msgstr "Lipsește un dosar temporar"
 #: admin~jacl2.lizmap.admin.access
 msgctxt "admin~jacl2.lizmap.admin.access"
 msgid "Lizmap Admin access"
-msgstr "Lizmap acces Admin"
+msgstr "Acces administrator Lizmap"
 
 #: admin~jacl2.lizmap.admin.grp
 msgctxt "admin~jacl2.lizmap.admin.grp"
 msgid "Lizmap Administration Management"
-msgstr "Management Administrare Lizmap"
+msgstr "Gestionare Administrare Lizmap"
 
 #: admin~jacl2.lizmap.admin.grp.default
 msgctxt "admin~jacl2.lizmap.admin.grp.default"
@@ -1040,7 +1040,7 @@ msgstr "grup implicit"
 #: admin~jacl2.lizmap.admin.repositories.create
 msgctxt "admin~jacl2.lizmap.admin.repositories.create"
 msgid "Create repositories"
-msgstr "Crează depozit date"
+msgstr "Creare depozit date"
 
 #: admin~jacl2.lizmap.admin.repositories.delete
 msgctxt "admin~jacl2.lizmap.admin.repositories.delete"
@@ -1050,7 +1050,7 @@ msgstr "Ștergere depozite date"
 #: admin~jacl2.lizmap.admin.repositories.update
 msgctxt "admin~jacl2.lizmap.admin.repositories.update"
 msgid "Modify repositories"
-msgstr "Modifică depozite date"
+msgstr "Modificare depozite date"
 
 #: admin~jacl2.lizmap.admin.repositories.view
 msgctxt "admin~jacl2.lizmap.admin.repositories.view"
@@ -1070,17 +1070,17 @@ msgstr "Vizualizare servicii"
 #: admin~jacl2.lizmap.grp
 msgctxt "admin~jacl2.lizmap.grp"
 msgid "Lizmap Client Management"
-msgstr "Management Client Lizmap"
+msgstr "Gestionare Client Lizmap"
 
 #: admin~jacl2.lizmap.repositories.view
 msgctxt "admin~jacl2.lizmap.repositories.view"
 msgid "View projects in the repository"
-msgstr "Vizualizați proiectele în depozit"
+msgstr "Vizualizare proiecte în depozit"
 
 #: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
 msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
 msgid "Display projects WMS links"
-msgstr "Arată link-urile WMS ale proiectului"
+msgstr "Afișare link-uri WMS ale proiectului"
 
 #: admin~jacl2.lizmap.tools.edition.use
 msgctxt "admin~jacl2.lizmap.tools.edition.use"
@@ -1090,7 +1090,7 @@ msgstr "Folosește unealta editare"
 #: admin~jacl2.lizmap.tools.layer.export
 msgctxt "admin~jacl2.lizmap.tools.layer.export"
 msgid "Allow export of layers"
-msgstr "Permite exportul de layere"
+msgstr "Permite exportul de straturi"
 
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
