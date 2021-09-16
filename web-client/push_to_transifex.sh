@@ -4,4 +4,5 @@ LOCALES_DIR="$(dirname $0)"
 
 source $LOCALES_DIR/module_list.sh
 
-tx push -s --branch $LOCALES_BRANCH
+echo "Lizmap 3.2 is EOL, quit"
+# tx push -s --branch $LOCALES_BRANCH
