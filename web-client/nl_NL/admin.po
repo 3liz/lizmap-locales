@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-10 10:21++0200\n"
-"PO-Revision-Date: 2021-09-03 12:41+0000\n"
-"Last-Translator: Nico Veenstra <nvbgm@gmx.net>\n"
+"POT-Creation-Date: 2021-10-25 16:10++0200\n"
+"PO-Revision-Date: 2021-10-25 14:10+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/3liz-1/lizmap-locales/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +42,7 @@ msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
 "This option cannot be enable while the sender email is not defined. Please "
 "contact the application administrator."
-msgstr ""
+msgstr "Deze optie kan niet gebruikt worden als er geen email van verzender is ingesteld. Neem contact op met de applicatie administrator."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -163,17 +163,17 @@ msgstr "Hoofdmap van opslagplaatsen "
 #: admin~admin.configuration.services.section.cache.label
 msgctxt "admin~admin.configuration.services.section.cache.label"
 msgid "Cache"
-msgstr ""
+msgstr "Cache"
 
 #: admin~admin.configuration.services.section.emails.label
 msgctxt "admin~admin.configuration.services.section.emails.label"
 msgid "Emails"
-msgstr ""
+msgstr "Emails"
 
 #: admin~admin.configuration.services.section.interface.label
 msgctxt "admin~admin.configuration.services.section.interface.label"
 msgid "Interface"
-msgstr ""
+msgstr "Interface"
 
 #: admin~admin.configuration.services.section.projects.label
 msgctxt "admin~admin.configuration.services.section.projects.label"
@@ -197,8 +197,8 @@ msgstr "Maximum hoogte voor GetMap verzoek"
 
 #: admin~admin.configuration.services.wmsMaxWidth.label
 msgctxt "admin~admin.configuration.services.wmsMaxWidth.label"
-msgid "Maximum Witdh for GetMap request"
-msgstr "Maximum breedte voor GetMap verzoek"
+msgid "Maximum Width for GetMap request"
+msgstr ""
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
@@ -627,8 +627,8 @@ msgstr "Maximum hoogte voor GetMap verzoek"
 
 #: admin~admin.form.admin_services.wmsMaxWidth.label
 msgctxt "admin~admin.form.admin_services.wmsMaxWidth.label"
-msgid "Default max. Witdh for GetMap request"
-msgstr "Maximum breedte voor GetMap verzoek"
+msgid "Default max. Width for GetMap request"
+msgstr ""
 
 #: admin~admin.form.admin_services.wmsPublicUrlList.label
 msgctxt "admin~admin.form.admin_services.wmsPublicUrlList.label"
@@ -941,7 +941,7 @@ msgstr "Lizmap configuratie"
 #: admin~admin.menu.lizmap.landingPageContent.label
 msgctxt "admin~admin.menu.lizmap.landingPageContent.label"
 msgid "Landing page content"
-msgstr ""
+msgstr "Laad pagina gegevens"
 
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
@@ -956,7 +956,7 @@ msgstr "Consulteren logboek"
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
 msgid "Maps management"
-msgstr ""
+msgstr "Kaart management"
 
 #: admin~admin.menu.lizmap.theme.label
 msgctxt "admin~admin.menu.lizmap.theme.label"
@@ -1095,8 +1095,8 @@ msgstr "Laat exporteren van lagen toe"
 
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
-msgid "Always see complete layers data, even if filtered by login"
-msgstr "Toon altijd alle gegevens van de lagen, zelfs indien gefilterd op basis van de gebruiker"
+msgid "See all the data of the filtered layers (attribute or spatial filters)"
+msgstr ""
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"

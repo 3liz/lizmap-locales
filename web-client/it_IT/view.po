@@ -1,6 +1,7 @@
 # 
 # Translators:
 # Alessandro Fanna <alex@rospus.org>, 2016
+# marcobra <marcobra.ubuntu@gmail.com>, 2021
 # Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2018
 # Paolo Cavallini <cavallini@faunalia.it>, 2016-2017,2019-2020
 # rldhont <rldhont@gmail.com>, 2016
@@ -10,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 18:12++0200\n"
-"PO-Revision-Date: 2021-09-10 10:22+0000\n"
-"Last-Translator: Transifex Bot <>\n"
+"POT-Creation-Date: 2021-10-25 16:10++0200\n"
+"PO-Revision-Date: 2021-10-25 14:10+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
 "Language-Team: Italian (http://www.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -397,6 +398,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.polygon"
 msgid "Polygon"
 msgstr "Poligono"
 
+#: view~dictionnary.digitizing.toolbar.save
+msgctxt "view~dictionnary.digitizing.toolbar.save"
+msgid "Save draw in the browser"
+msgstr ""
+
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
@@ -429,7 +435,7 @@ msgctxt "view~dictionnary.edition.draw.activate.mobile"
 msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
-msgstr ""
+msgstr "Puoi nascondere questo modulo con il pulsante di chiusura ogni volta che necessiti di disegnare la geometria."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -853,7 +859,7 @@ msgstr "Contiene"
 #: view~dictionnary.selectiontool.toolbar.geomOperator.crosses
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.crosses"
 msgid "Crosses"
-msgstr ""
+msgstr "Attraversa"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.disjoint
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.disjoint"
@@ -863,17 +869,17 @@ msgstr "Disgiunto"
 #: view~dictionnary.selectiontool.toolbar.geomOperator.intersects
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.intersects"
 msgid "Intersects"
-msgstr ""
+msgstr "Interseca"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.overlaps
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.overlaps"
 msgid "Overlaps"
-msgstr ""
+msgstr "Sovrappone"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.touches
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.touches"
 msgid "Touches"
-msgstr ""
+msgstr "Tocca"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.within
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.within"
@@ -1154,6 +1160,11 @@ msgctxt "view~edition.message.error.form.get"
 msgid "An error has been raised when getting the form"
 msgstr "Si è verificato un errore nell'acquisizione del modulo"
 
+#: view~edition.message.error.geometry.outside.polygons
+msgctxt "view~edition.message.error.geometry.outside.polygons"
+msgid "The given geometry is outside the authorized polygon."
+msgstr ""
+
 #: view~edition.message.error.layer.editable
 msgctxt "view~edition.message.error.layer.editable"
 msgid "The layer is not editable."
@@ -1172,9 +1183,9 @@ msgstr "Elimina elemento non è disponibile per il layer"
 #: view~edition.message.error.no.geometry
 msgctxt "view~edition.message.error.no.geometry"
 msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
-msgstr "Non puoi salvare questo oggetto senza geometria. Per favore disegna la geometria sulla mappa."
+"You cannot save this object without a geometry. Please draw the geometry on "
+"the map."
+msgstr ""
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1239,6 +1250,11 @@ msgstr "Non c'è nessuna geometria qui."
 msgctxt "view~edition.modal.title.default"
 msgid "Edition"
 msgstr "Modifica"
+
+#: view~edition.modification.msg
+msgctxt "view~edition.modification.msg"
+msgid "Click features on the map to access edition tools."
+msgstr "Clicca gli elementi sulla mappa per accedere agli strumenti di modifica."
 
 #: view~edition.navbar.title
 msgctxt "view~edition.navbar.title"

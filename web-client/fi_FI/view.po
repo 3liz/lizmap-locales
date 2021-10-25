@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 18:12++0200\n"
-"PO-Revision-Date: 2021-09-10 10:22+0000\n"
-"Last-Translator: Transifex Bot <>\n"
+"POT-Creation-Date: 2021-10-25 16:10++0200\n"
+"PO-Revision-Date: 2021-10-25 14:10+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/3liz-1/lizmap-locales/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -391,6 +391,11 @@ msgstr ""
 msgctxt "view~dictionnary.digitizing.toolbar.polygon"
 msgid "Polygon"
 msgstr "Monikulmio"
+
+#: view~dictionnary.digitizing.toolbar.save
+msgctxt "view~dictionnary.digitizing.toolbar.save"
+msgid "Save draw in the browser"
+msgstr ""
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -1149,6 +1154,11 @@ msgctxt "view~edition.message.error.form.get"
 msgid "An error has been raised when getting the form"
 msgstr "Virhe lomakkeen saamisessa"
 
+#: view~edition.message.error.geometry.outside.polygons
+msgctxt "view~edition.message.error.geometry.outside.polygons"
+msgid "The given geometry is outside the authorized polygon."
+msgstr ""
+
 #: view~edition.message.error.layer.editable
 msgctxt "view~edition.message.error.layer.editable"
 msgid "The layer is not editable."
@@ -1167,9 +1177,9 @@ msgstr "Poista ominaisuus tasolle ei ole käytettävissä."
 #: view~edition.message.error.no.geometry
 msgctxt "view~edition.message.error.no.geometry"
 msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
-msgstr "Et voi tallentaa tätä objektia ilman geometriaa. Ole ystävällinen ja piirrä geometria kartalle."
+"You cannot save this object without a geometry. Please draw the geometry on "
+"the map."
+msgstr ""
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1234,6 +1244,11 @@ msgstr "Täältä ei löytynyt yhtään ominaisuutta."
 msgctxt "view~edition.modal.title.default"
 msgid "Edition"
 msgstr "Julkaisu"
+
+#: view~edition.modification.msg
+msgctxt "view~edition.modification.msg"
+msgid "Click features on the map to access edition tools."
+msgstr ""
 
 #: view~edition.navbar.title
 msgctxt "view~edition.navbar.title"

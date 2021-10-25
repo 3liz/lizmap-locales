@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-10 10:21++0200\n"
-"PO-Revision-Date: 2020-11-23 16:45+0000\n"
+"POT-Creation-Date: 2021-10-25 16:10++0200\n"
+"PO-Revision-Date: 2021-10-25 14:10+0000\n"
 "Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
 "Language-Team: Russian (http://www.transifex.com/3liz-1/lizmap-locales/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
 "This option cannot be enable while the sender email is not defined. Please "
 "contact the application administrator."
-msgstr ""
+msgstr "Эту опцию нельзя включить, пока адрес электронной почты отправителя не определен. Обратитесь к администратору приложения."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -102,7 +102,7 @@ msgstr "E-mail администратора"
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of Ldap authentication"
-msgstr ""
+msgstr "Эта опция отключена из-за использования аутентификации Ldap."
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -167,12 +167,12 @@ msgstr "Кеширование"
 #: admin~admin.configuration.services.section.emails.label
 msgctxt "admin~admin.configuration.services.section.emails.label"
 msgid "Emails"
-msgstr ""
+msgstr "Электронные письма"
 
 #: admin~admin.configuration.services.section.interface.label
 msgctxt "admin~admin.configuration.services.section.interface.label"
 msgid "Interface"
-msgstr ""
+msgstr "Интерфейс"
 
 #: admin~admin.configuration.services.section.projects.label
 msgctxt "admin~admin.configuration.services.section.projects.label"
@@ -182,7 +182,7 @@ msgstr "Проекты"
 #: admin~admin.configuration.services.section.qgis.label
 msgctxt "admin~admin.configuration.services.section.qgis.label"
 msgid "Qgis server"
-msgstr ""
+msgstr "Qgis сервер"
 
 #: admin~admin.configuration.services.section.system.label
 msgctxt "admin~admin.configuration.services.section.system.label"
@@ -196,8 +196,8 @@ msgstr "Максимальная высота для запроса GetMap"
 
 #: admin~admin.configuration.services.wmsMaxWidth.label
 msgctxt "admin~admin.configuration.services.wmsMaxWidth.label"
-msgid "Maximum Witdh for GetMap request"
-msgstr "Максимальная ширина для запроса GetMap"
+msgid "Maximum Width for GetMap request"
+msgstr ""
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
@@ -278,7 +278,7 @@ msgstr "Указанный id репозитория не существует."
 msgctxt ""
 "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
 msgid "Allow themes/javascript codes for this repository"
-msgstr ""
+msgstr "Разрешить темы / коды javascript для этого репозитория"
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
@@ -303,48 +303,48 @@ msgstr "Сохранить"
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
 msgid "E-mail address to which notifications will be sent"
-msgstr ""
+msgstr "Электронный адрес, на который будут отправляться уведомления"
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
 msgid "E-mail where to send notifications"
-msgstr ""
+msgstr "Электронная почта, куда отправлять уведомления"
 
 #: admin~admin.form.admin_services.adminSenderEmail.error.required
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
 msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
-msgstr ""
+msgstr "Адрес электронной почты отправителя необходим для отправки уведомлений или запросов на создание учетной записи."
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr ""
+msgstr "Адрес электронной почты, используемый для отправки электронных писем. Если пусто, Lizmap не будет отправлять электронные письма. Убедитесь, что вашему серверу разрешено отправлять электронную почту с этого адреса."
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
 msgid "Sender address of e-mails"
-msgstr ""
+msgstr "Адрес отправителя электронных писем"
 
 #: admin~admin.form.admin_services.adminSenderName.help
 msgctxt "admin~admin.form.admin_services.adminSenderName.help"
 msgid "Name of the sender used to send e-mails."
-msgstr ""
+msgstr "Имя отправителя, используемое для отправки электронных писем."
 
 #: admin~admin.form.admin_services.adminSenderName.label
 msgctxt "admin~admin.form.admin_services.adminSenderName.label"
 msgid "Sender name of e-mails"
-msgstr ""
+msgstr "Имя отправителя электронных писем"
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.help
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
 msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
-msgstr ""
+msgstr "Если этот параметр включен, посетители могут заполнить форму, чтобы запросить учетную запись. Адрес отправителя электронной почты должен быть установлен."
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
@@ -529,7 +529,7 @@ msgstr "Только карты"
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
 msgid "Show projects switcher"
-msgstr ""
+msgstr "Переключатель Показать проекты"
 
 #: admin~admin.form.admin_services.qgisServerVersion.214.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.214.label"
@@ -539,12 +539,12 @@ msgstr "≤ 2.14"
 #: admin~admin.form.admin_services.qgisServerVersion.218.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.218.label"
 msgid "2.18"
-msgstr ""
+msgstr "2.18"
 
 #: admin~admin.form.admin_services.qgisServerVersion.300.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.300.label"
 msgid "≥ 3.0"
-msgstr ""
+msgstr "≥ 3.0"
 
 #: admin~admin.form.admin_services.qgisServerVersion.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.label"
@@ -554,52 +554,52 @@ msgstr "Версия сервера QGIS"
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use relative path from root folder?"
-msgstr ""
+msgstr "Использует ли сервер относительный путь из корневой папки?"
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
 msgid "No proxy"
-msgstr ""
+msgstr "Без прокси"
 
 #: admin~admin.form.admin_services.requestProxy.enabled
 msgctxt "admin~admin.form.admin_services.requestProxy.enabled"
 msgid "Use a proxy server"
-msgstr ""
+msgstr "Использовать прокси-сервер"
 
 #: admin~admin.form.admin_services.requestProxy.label
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
 msgid "Use a proxy server to do requests to external services"
-msgstr ""
+msgstr "Используйте прокси-сервер для выполнения запросов к внешним службам"
 
 #: admin~admin.form.admin_services.requestProxyHost.label
 msgctxt "admin~admin.form.admin_services.requestProxyHost.label"
 msgid "Host of the proxy server"
-msgstr ""
+msgstr "Хост прокси-сервера"
 
 #: admin~admin.form.admin_services.requestProxyNotForDomain.label
 msgctxt "admin~admin.form.admin_services.requestProxyNotForDomain.label"
 msgid "Domains for which the proxy will not be used"
-msgstr ""
+msgstr "Домены, для которых прокси не будет использоваться"
 
 #: admin~admin.form.admin_services.requestProxyPassword.label
 msgctxt "admin~admin.form.admin_services.requestProxyPassword.label"
 msgid "Password to access to the proxy server"
-msgstr ""
+msgstr "Пароль для доступа к прокси-серверу"
 
 #: admin~admin.form.admin_services.requestProxyPort.label
 msgctxt "admin~admin.form.admin_services.requestProxyPort.label"
 msgid "Port of the proxy server"
-msgstr ""
+msgstr "Порт прокси-сервера"
 
 #: admin~admin.form.admin_services.requestProxyType.label
 msgctxt "admin~admin.form.admin_services.requestProxyType.label"
 msgid "Type of the proxy"
-msgstr ""
+msgstr "Тип прокси"
 
 #: admin~admin.form.admin_services.requestProxyUser.label
 msgctxt "admin~admin.form.admin_services.requestProxyUser.label"
 msgid "Login to access to the proxy server"
-msgstr ""
+msgstr "Авторизуйтесь для доступа к прокси-серверу"
 
 #: admin~admin.form.admin_services.rootRepositories.help
 msgctxt "admin~admin.form.admin_services.rootRepositories.help"
@@ -626,8 +626,8 @@ msgstr "Максимальная высота для запроса GetMap"
 
 #: admin~admin.form.admin_services.wmsMaxWidth.label
 msgctxt "admin~admin.form.admin_services.wmsMaxWidth.label"
-msgid "Default max. Witdh for GetMap request"
-msgstr "Максимальная ширина для запроса GetMap"
+msgid "Default max. Width for GetMap request"
+msgstr ""
 
 #: admin~admin.form.admin_services.wmsPublicUrlList.label
 msgctxt "admin~admin.form.admin_services.wmsPublicUrlList.label"
@@ -648,12 +648,12 @@ msgstr "Да"
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
-msgstr ""
+msgstr "Вы можете написать любой синтаксис CSS, чтобы переопределить стиль Lizmap (для опытных пользователей)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
 msgid "Additional CSS properties"
-msgstr ""
+msgstr "Дополнительные свойства CSS"
 
 #: admin~admin.form.admin_theme.dockBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.help"
@@ -683,12 +683,12 @@ msgstr "Шапка - цвет фона"
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
 msgid "The image to be used for the header background (400ko Maximum)."
-msgstr ""
+msgstr "Изображение, которое будет использоваться для фона заголовка (максимум 400kb)."
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
 msgid "Header - background image"
-msgstr ""
+msgstr "Заголовок - фоновое изображение"
 
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
@@ -798,37 +798,37 @@ msgstr "Подробные логи"
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
 msgid "A feature has been deleted by a user."
-msgstr ""
+msgstr "Функция была удалена пользователем."
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
 msgid "A feature has been created or modified by a user."
-msgstr ""
+msgstr "Функция была создана или изменена пользователем."
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
 msgid "A user has logged in."
-msgstr ""
+msgstr "Пользователь вошел в систему."
 
 #: admin~admin.logs.email.popup.body
 msgctxt "admin~admin.logs.email.popup.body"
 msgid "A user has opened a feature information popup."
-msgstr ""
+msgstr "Пользователь открыл всплывающее окно с информацией о функции."
 
 #: admin~admin.logs.email.print.body
 msgctxt "admin~admin.logs.email.print.body"
 msgid "A user has used the print tool."
-msgstr ""
+msgstr "Пользователь использовал инструмент печати."
 
 #: admin~admin.logs.email.subject
 msgctxt "admin~admin.logs.email.subject"
 msgid "A new log item has been recorded."
-msgstr ""
+msgstr "Записан новый элемент журнала."
 
 #: admin~admin.logs.email.viewmap.body
 msgctxt "admin~admin.logs.email.viewmap.body"
 msgid "A user has accessed a map."
-msgstr ""
+msgstr "Пользователь получил доступ к карте."
 
 #: admin~admin.logs.empty.button
 msgctxt "admin~admin.logs.empty.button"
@@ -848,34 +848,34 @@ msgstr "Таблица логов %s была успешно очищена."
 #: admin~admin.logs.error.file.erase
 msgctxt "admin~admin.logs.error.file.erase"
 msgid "Erase the error log file"
-msgstr ""
+msgstr "Удалите файл журнала ошибок"
 
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
 msgid "Are you sure you want to erase the error log file ?"
-msgstr ""
+msgstr "Вы уверены, что хотите стереть файл журнала ошибок?"
 
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
-msgstr ""
+msgstr "Файл журнала ошибок успешно удален."
 
 #: admin~admin.logs.error.file.too.big
 msgctxt "admin~admin.logs.error.file.too.big"
 msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
-msgstr ""
+msgstr "Файл журнала ошибок слишком велик. Рассмотрите возможность использования ротации журналов для журналов веб-клиента Lizmap."
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the Lizmap Web Client application error log file"
-msgstr ""
+msgstr "Последние строки файла журнала ошибок приложения Lizmap Web Client"
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
 msgid "Error log"
-msgstr ""
+msgstr "Журнал ошибок"
 
 #: admin~admin.logs.export.button
 msgctxt "admin~admin.logs.export.button"
@@ -885,7 +885,7 @@ msgstr "Экспорт"
 #: admin~admin.logs.first_page
 msgctxt "admin~admin.logs.first_page"
 msgid "First"
-msgstr ""
+msgstr "Первый"
 
 #: admin~admin.logs.ip
 msgctxt "admin~admin.logs.ip"
@@ -940,7 +940,7 @@ msgstr "Настройки Lizmap "
 #: admin~admin.menu.lizmap.landingPageContent.label
 msgctxt "admin~admin.menu.lizmap.landingPageContent.label"
 msgid "Landing page content"
-msgstr ""
+msgstr "Содержание целевой страницы"
 
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
@@ -955,7 +955,7 @@ msgstr "Просмотр логов"
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
 msgid "Maps management"
-msgstr ""
+msgstr "Управление картами"
 
 #: admin~admin.menu.lizmap.theme.label
 msgctxt "admin~admin.menu.lizmap.theme.label"
@@ -965,7 +965,7 @@ msgstr "Тема"
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
 msgid "Remove this image (and use default one) ?"
-msgstr ""
+msgstr "Удалить это изображение (и использовать изображение по умолчанию)?"
 
 #: admin~admin.theme.button.remove.logo.label
 msgctxt "admin~admin.theme.button.remove.logo.label"
@@ -980,47 +980,47 @@ msgstr "Настройки темы"
 #: admin~admin.upload.image.error.file.bigger
 msgctxt "admin~admin.upload.image.error.file.bigger"
 msgid "The uploaded file exceeds the maximum file size allowed"
-msgstr ""
+msgstr "Загруженный файл превышает максимально допустимый размер."
 
 #: admin~admin.upload.image.error.file.invalid
 msgctxt "admin~admin.upload.image.error.file.invalid"
 msgid "Invalid file"
-msgstr ""
+msgstr "файл поврежден"
 
 #: admin~admin.upload.image.error.file.missing
 msgctxt "admin~admin.upload.image.error.file.missing"
 msgid "File is missing"
-msgstr ""
+msgstr "Файл отсутствует"
 
 #: admin~admin.upload.image.error.file.none
 msgctxt "admin~admin.upload.image.error.file.none"
 msgid "No file was uploaded"
-msgstr ""
+msgstr "Файл не загружен"
 
 #: admin~admin.upload.image.error.file.onDisk
 msgctxt "admin~admin.upload.image.error.file.onDisk"
 msgid "Failed to write file to disk"
-msgstr ""
+msgstr "Не удалось записать файл на диск"
 
 #: admin~admin.upload.image.error.file.partially
 msgctxt "admin~admin.upload.image.error.file.partially"
 msgid "The uploaded file was only partially uploaded"
-msgstr ""
+msgstr "Загруженный файл был загружен только частично"
 
 #: admin~admin.upload.image.error.file.save
 msgctxt "admin~admin.upload.image.error.file.save"
 msgid "An error occured during the save"
-msgstr ""
+msgstr "Произошла ошибка при сохранении"
 
 #: admin~admin.upload.image.error.file.wrongType
 msgctxt "admin~admin.upload.image.error.file.wrongType"
 msgid "Wrong file type. Only images are allowed"
-msgstr ""
+msgstr "Неверный тип файла. Разрешены только изображения"
 
 #: admin~admin.upload.image.error.missing.temp
 msgctxt "admin~admin.upload.image.error.missing.temp"
 msgid "Missing a temporary folder"
-msgstr ""
+msgstr "Отсутствует временная папка"
 
 #: admin~jacl2.lizmap.admin.access
 msgctxt "admin~jacl2.lizmap.admin.access"
@@ -1035,7 +1035,7 @@ msgstr "Управление правами администратора"
 #: admin~jacl2.lizmap.admin.grp.default
 msgctxt "admin~jacl2.lizmap.admin.grp.default"
 msgid "default group"
-msgstr ""
+msgstr "группа по умолчанию"
 
 #: admin~jacl2.lizmap.admin.repositories.create
 msgctxt "admin~jacl2.lizmap.admin.repositories.create"
@@ -1075,7 +1075,7 @@ msgstr "Управление правами клиентов"
 #: admin~jacl2.lizmap.repositories.view
 msgctxt "admin~jacl2.lizmap.repositories.view"
 msgid "View projects in the repository"
-msgstr ""
+msgstr "Посмотреть проекты в репозитории"
 
 #: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
 msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
@@ -1094,8 +1094,8 @@ msgstr "Разрешить экспорт слоев"
 
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
-msgid "Always see complete layers data, even if filtered by login"
-msgstr "Всегда показывать слой полностью независимо от настроек фильтрации"
+msgid "See all the data of the filtered layers (attribute or spatial filters)"
+msgstr ""
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
@@ -1105,22 +1105,22 @@ msgstr "Добавить"
 #: admin~user.acl.form.add.to.group
 msgctxt "admin~user.acl.form.add.to.group"
 msgid "Add him to this group"
-msgstr ""
+msgstr "Добавьте его в эту группу"
 
 #: admin~user.acl.form.remove.from.group
 msgctxt "admin~user.acl.form.remove.from.group"
 msgid "Remove him from this group"
-msgstr ""
+msgstr "Удалить его из этой группы"
 
 #: admin~user.acl.form.title
 msgctxt "admin~user.acl.form.title"
 msgid "Groups the user belongs to"
-msgstr ""
+msgstr "Группы, к которым принадлежит пользователь"
 
 #: admin~user.acl.no.group
 msgctxt "admin~user.acl.no.group"
 msgid "The user is not in any group"
-msgstr ""
+msgstr "Пользователь не входит ни в одну группу"
 
 #: admin~user.email.admin.body
 msgctxt "admin~user.email.admin.body"
