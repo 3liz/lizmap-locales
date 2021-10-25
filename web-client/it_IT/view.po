@@ -8,6 +8,7 @@
 # Laurent Jouanneau <dev@ljouanneau.com>, 2021
 # Fabio Pifferini <fabio.pifferini@masotti.ch>, 2021
 # Stefano Campus <skampus@gmail.com>, 2021
+# marcobra <marcobra.ubuntu@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-10 18:35++0200\n"
 "PO-Revision-Date: 2021-03-03 17:34+0000\n"
-"Last-Translator: Stefano Campus <skampus@gmail.com>, 2021\n"
+"Last-Translator: marcobra <marcobra.ubuntu@gmail.com>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/3liz-1/teams/62012/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,7 +67,7 @@ msgstr "Descrizione"
 #: view~default.project.access.denied
 msgctxt "view~default.project.access.denied"
 msgid "Access denied for this project."
-msgstr "Non puoi accedere al progetto."
+msgstr "Accesso negato per questo progetto."
 
 #: view~default.project.bbox.label
 msgctxt "view~default.project.bbox.label"
@@ -106,7 +107,7 @@ msgstr "Titolo"
 #: view~default.repository.access.denied
 msgctxt "view~default.repository.access.denied"
 msgid "You cannot access this repository."
-msgstr "Non puoi accedere al repository."
+msgstr "Non è possibile accedere a questo repository."
 
 #: view~default.repository.list.title
 msgctxt "view~default.repository.list.title"
@@ -276,7 +277,8 @@ msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
 msgstr ""
-"L'estensione della mappa è cambiata dall'ultima volta che è stata caricata."
+"L'estensione della mappa è cambiata dall'ultima volta che i dati sono stati "
+"recuperati."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
@@ -438,6 +440,8 @@ msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
 msgstr ""
+"Puoi nascondere questo modulo con il pulsante di chiusura ogni volta che "
+"necessiti di disegnare la geometria."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -856,7 +860,7 @@ msgstr "Contiene"
 #: view~dictionnary.selectiontool.toolbar.geomOperator.crosses
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.crosses"
 msgid "Crosses"
-msgstr ""
+msgstr "Attraversa"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.disjoint
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.disjoint"
@@ -866,17 +870,17 @@ msgstr "Disgiunto"
 #: view~dictionnary.selectiontool.toolbar.geomOperator.intersects
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.intersects"
 msgid "Intersects"
-msgstr ""
+msgstr "Interseca"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.overlaps
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.overlaps"
 msgid "Overlaps"
-msgstr ""
+msgstr "Sovrapposizioni"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.touches
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.touches"
 msgid "Touches"
-msgstr ""
+msgstr "Tocca"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.within
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.within"
@@ -1200,8 +1204,9 @@ msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
 msgstr ""
-"Lizmap non riesc a trovare la \"%s\" chiave primaria del layer. Lo strumento"
-" edizione richiede la definizione di una chiave primaria nella tabella."
+"Lizmap non riesce a trovare le chiavi primarie del layer \"%s\".  Lo "
+"strumento di edizione necessita di una chiave primaria definita nella "
+"tabella."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1256,6 +1261,7 @@ msgstr "Modifica"
 msgctxt "view~edition.modification.msg"
 msgid "Click features on the map to access edition tools."
 msgstr ""
+"Clicca sugli elementi sulla mappa per accedere agli strumenti di modifica."
 
 #: view~edition.navbar.title
 msgctxt "view~edition.navbar.title"
