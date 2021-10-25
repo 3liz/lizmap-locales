@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-10 18:31++0200\n"
+"POT-Creation-Date: 2021-10-25 15:16++0200\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
 "Last-Translator: marcobra <marcobra.ubuntu@gmail.com>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/3liz-1/teams/62012/it/)\n"
@@ -403,6 +403,11 @@ msgstr "Punto"
 msgctxt "view~dictionnary.digitizing.toolbar.polygon"
 msgid "Polygon"
 msgstr "Poligono"
+
+#: view~dictionnary.digitizing.toolbar.save
+msgctxt "view~dictionnary.digitizing.toolbar.save"
+msgid "Save draw in the browser"
+msgstr ""
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -1178,6 +1183,11 @@ msgctxt "view~edition.message.error.form.get"
 msgid "An error has been raised when getting the form"
 msgstr "Si è verificato un errore nell'acquisizione del modulo"
 
+#: view~edition.message.error.geometry.outside.polygons
+msgctxt "view~edition.message.error.geometry.outside.polygons"
+msgid "The given geometry is outside the authorized polygon."
+msgstr ""
+
 #: view~edition.message.error.layer.editable
 msgctxt "view~edition.message.error.layer.editable"
 msgid "The layer is not editable."
@@ -1196,11 +1206,9 @@ msgstr "Elimina elemento non è disponibile per il layer"
 #: view~edition.message.error.no.geometry
 msgctxt "view~edition.message.error.no.geometry"
 msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
+"You cannot save this object without a geometry. Please draw the geometry on "
+"the map."
 msgstr ""
-"Non puoi salvare questo oggetto senza geometria. Per favore disegna la "
-"geometria sulla mappa."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"

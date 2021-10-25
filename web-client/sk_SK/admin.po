@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-10 18:31++0200\n"
+"POT-Creation-Date: 2021-10-25 15:16++0200\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
 "Last-Translator: Majky Beast <maros.michalov@hrdlicka.sk>, 2021\n"
 "Language-Team: Slovak (https://www.transifex.com/3liz-1/teams/62012/sk/)\n"
@@ -199,8 +199,8 @@ msgstr "Maximálna výška požiadavky pre GetMap"
 
 #: admin~admin.configuration.services.wmsMaxWidth.label
 msgctxt "admin~admin.configuration.services.wmsMaxWidth.label"
-msgid "Maximum Witdh for GetMap request"
-msgstr "Maximálna šírka požiadavky pre GetMap"
+msgid "Maximum Width for GetMap request"
+msgstr ""
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
@@ -652,8 +652,8 @@ msgstr "Predvolená max. výška pre GetMap požiadavku"
 
 #: admin~admin.form.admin_services.wmsMaxWidth.label
 msgctxt "admin~admin.form.admin_services.wmsMaxWidth.label"
-msgid "Default max. Witdh for GetMap request"
-msgstr "Predvolená max. šírka pre GetMap požiadavku"
+msgid "Default max. Width for GetMap request"
+msgstr ""
 
 #: admin~admin.form.admin_services.wmsPublicUrlList.label
 msgctxt "admin~admin.form.admin_services.wmsPublicUrlList.label"
@@ -1124,10 +1124,8 @@ msgstr "Povoliť export vrstiev"
 
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
-msgid "Always see complete layers data, even if filtered by login"
+msgid "See all the data of the filtered layers (attribute or spatial filters)"
 msgstr ""
-"Vždy uvidíte kompletné údaje o vrstvách, aj keď sú filtrované podľa "
-"prihlásenia"
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
