@@ -2,6 +2,7 @@
 # Translators:
 # Rasmus Johansson <rasmus@demosgis.net>, 2021
 # Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# Mats Elfström <mats.elfstrom@giskraft.se>, 2021
 # 
 msgid ""
 msgstr ""
@@ -9,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-25 15:16++0200\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2021\n"
+"Last-Translator: Mats Elfström <mats.elfstrom@giskraft.se>, 2021\n"
 "Language-Team: Swedish (Sweden) (https://www.transifex.com/3liz-1/teams/62012/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,6 +44,8 @@ msgid ""
 "This option cannot be enable while the sender email is not defined. Please "
 "contact the application administrator."
 msgstr ""
+"Det här alternativet kan inte aktiveras så länge avsändarens e-postadress är"
+" odefinierad. Kontakta applikationsadministratören."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -104,6 +107,7 @@ msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of Ldap authentication"
 msgstr ""
+"Det här alternativet är inaktiverat eftersom Ldap-autentisering används"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -153,7 +157,7 @@ msgstr "Endast kartor"
 #: admin~admin.configuration.services.qgisServerVersion.label
 msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
 msgid "QGIS server version"
-msgstr ""
+msgstr "QGIS server-version"
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
@@ -168,12 +172,12 @@ msgstr "Cache"
 #: admin~admin.configuration.services.section.emails.label
 msgctxt "admin~admin.configuration.services.section.emails.label"
 msgid "Emails"
-msgstr ""
+msgstr "E-post"
 
 #: admin~admin.configuration.services.section.interface.label
 msgctxt "admin~admin.configuration.services.section.interface.label"
 msgid "Interface"
-msgstr ""
+msgstr "Gränssnitt"
 
 #: admin~admin.configuration.services.section.projects.label
 msgctxt "admin~admin.configuration.services.section.projects.label"
@@ -183,7 +187,7 @@ msgstr "Projekt"
 #: admin~admin.configuration.services.section.qgis.label
 msgctxt "admin~admin.configuration.services.section.qgis.label"
 msgid "Qgis server"
-msgstr ""
+msgstr "QGIS server"
 
 #: admin~admin.configuration.services.section.system.label
 msgctxt "admin~admin.configuration.services.section.system.label"
@@ -193,12 +197,12 @@ msgstr "System"
 #: admin~admin.configuration.services.wmsMaxHeight.label
 msgctxt "admin~admin.configuration.services.wmsMaxHeight.label"
 msgid "Maximum Height for GetMap request"
-msgstr ""
+msgstr "Högsta höjd för GetMap-begäran"
 
 #: admin~admin.configuration.services.wmsMaxWidth.label
 msgctxt "admin~admin.configuration.services.wmsMaxWidth.label"
 msgid "Maximum Width for GetMap request"
-msgstr ""
+msgstr "Största bredd för GetMap-begäran"
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
@@ -279,7 +283,7 @@ msgstr "Det angiva id för repositoryt finns ej."
 msgctxt ""
 "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
 msgid "Allow themes/javascript codes for this repository"
-msgstr ""
+msgstr "Tillåt teman/javascript-kod för denna datakatalog"
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
@@ -304,12 +308,12 @@ msgstr "Spara"
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
 msgid "E-mail address to which notifications will be sent"
-msgstr ""
+msgstr "E-postadress som tar emot aviseringar"
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
 msgid "E-mail where to send notifications"
-msgstr ""
+msgstr "E-post dit du kan skicka meddelanden"
 
 #: admin~admin.form.admin_services.adminSenderEmail.error.required
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
@@ -317,6 +321,8 @@ msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
 msgstr ""
+"Avsändarens e-postadress krävs för att skicka meddelanden eller "
+"förfrågningar om kontoskapande"
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
@@ -324,21 +330,24 @@ msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
 msgstr ""
+"E-postadress som används för att skicka e-post. Om den lämnas tom kommer "
+"Lizmap inte att skicka några e-postmeddelanden. Säkerställ att din server "
+"tillåts skicka e-post med denna adress."
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
 msgid "Sender address of e-mails"
-msgstr ""
+msgstr "Sender address of e-mails"
 
 #: admin~admin.form.admin_services.adminSenderName.help
 msgctxt "admin~admin.form.admin_services.adminSenderName.help"
 msgid "Name of the sender used to send e-mails."
-msgstr ""
+msgstr "Name of the sender used to send e-mails."
 
 #: admin~admin.form.admin_services.adminSenderName.label
 msgctxt "admin~admin.form.admin_services.adminSenderName.label"
 msgid "Sender name of e-mails"
-msgstr ""
+msgstr "Sender name of e-mails"
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.help
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
@@ -346,6 +355,8 @@ msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
 msgstr ""
+"If set to on, the visitors can fill a form to request an account. Sender "
+"address for e-mails should be set."
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
@@ -530,7 +541,7 @@ msgstr "Av"
 #: admin~admin.form.admin_services.on.label
 msgctxt "admin~admin.form.admin_services.on.label"
 msgid "On"
-msgstr ""
+msgstr "On"
 
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
@@ -540,77 +551,77 @@ msgstr "Endast kartor"
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
 msgid "Show projects switcher"
-msgstr ""
+msgstr "Show projects switcher"
 
 #: admin~admin.form.admin_services.qgisServerVersion.214.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.214.label"
 msgid "≤ 2.14"
-msgstr ""
+msgstr "≤ 2.14"
 
 #: admin~admin.form.admin_services.qgisServerVersion.218.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.218.label"
 msgid "2.18"
-msgstr ""
+msgstr "2.18"
 
 #: admin~admin.form.admin_services.qgisServerVersion.300.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.300.label"
 msgid "≥ 3.0"
-msgstr ""
+msgstr "≥ 3.0"
 
 #: admin~admin.form.admin_services.qgisServerVersion.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.label"
 msgid "QGIS server version"
-msgstr ""
+msgstr "QGIS server-version"
 
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use relative path from root folder?"
-msgstr ""
+msgstr "Does the server use relative path from root folder?"
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
 msgid "No proxy"
-msgstr ""
+msgstr "No proxy"
 
 #: admin~admin.form.admin_services.requestProxy.enabled
 msgctxt "admin~admin.form.admin_services.requestProxy.enabled"
 msgid "Use a proxy server"
-msgstr ""
+msgstr "Use a proxy server"
 
 #: admin~admin.form.admin_services.requestProxy.label
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
 msgid "Use a proxy server to do requests to external services"
-msgstr ""
+msgstr "Use a proxy server to do requests to external services"
 
 #: admin~admin.form.admin_services.requestProxyHost.label
 msgctxt "admin~admin.form.admin_services.requestProxyHost.label"
 msgid "Host of the proxy server"
-msgstr ""
+msgstr "Host of the proxy server"
 
 #: admin~admin.form.admin_services.requestProxyNotForDomain.label
 msgctxt "admin~admin.form.admin_services.requestProxyNotForDomain.label"
 msgid "Domains for which the proxy will not be used"
-msgstr ""
+msgstr "Domains for which the proxy will not be used"
 
 #: admin~admin.form.admin_services.requestProxyPassword.label
 msgctxt "admin~admin.form.admin_services.requestProxyPassword.label"
 msgid "Password to access to the proxy server"
-msgstr ""
+msgstr "Password to access to the proxy server"
 
 #: admin~admin.form.admin_services.requestProxyPort.label
 msgctxt "admin~admin.form.admin_services.requestProxyPort.label"
 msgid "Port of the proxy server"
-msgstr ""
+msgstr "Port of the proxy server"
 
 #: admin~admin.form.admin_services.requestProxyType.label
 msgctxt "admin~admin.form.admin_services.requestProxyType.label"
 msgid "Type of the proxy"
-msgstr ""
+msgstr "Type of the proxy"
 
 #: admin~admin.form.admin_services.requestProxyUser.label
 msgctxt "admin~admin.form.admin_services.requestProxyUser.label"
 msgid "Login to access to the proxy server"
-msgstr ""
+msgstr "Login to access to the proxy server"
 
 #: admin~admin.form.admin_services.rootRepositories.help
 msgctxt "admin~admin.form.admin_services.rootRepositories.help"
@@ -636,12 +647,12 @@ msgstr "Spara"
 #: admin~admin.form.admin_services.wmsMaxHeight.label
 msgctxt "admin~admin.form.admin_services.wmsMaxHeight.label"
 msgid "Default max. Height for GetMap request"
-msgstr ""
+msgstr "Default max. Height for GetMap request"
 
 #: admin~admin.form.admin_services.wmsMaxWidth.label
 msgctxt "admin~admin.form.admin_services.wmsMaxWidth.label"
 msgid "Default max. Width for GetMap request"
-msgstr ""
+msgstr "Default max. Width for GetMap request"
 
 #: admin~admin.form.admin_services.wmsPublicUrlList.label
 msgctxt "admin~admin.form.admin_services.wmsPublicUrlList.label"
@@ -663,106 +674,107 @@ msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
 msgstr ""
+"You can write any CSS syntax to override Lizmap style (for advanced users)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
 msgid "Additional CSS properties"
-msgstr ""
+msgstr "Additional CSS properties"
 
 #: admin~admin.form.admin_theme.dockBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.help"
 msgid "The color of the docks background."
-msgstr ""
+msgstr "The color of the docks background."
 
 #: admin~admin.form.admin_theme.dockBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.label"
 msgid "Docks - background color"
-msgstr ""
+msgstr "Docks - background color"
 
 #: admin~admin.form.admin_theme.h1
 msgctxt "admin~admin.form.admin_theme.h1"
 msgid "Theme"
-msgstr ""
+msgstr "Theme"
 
 #: admin~admin.form.admin_theme.headerBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.help"
 msgid "The color of the header background."
-msgstr ""
+msgstr "The color of the header background."
 
 #: admin~admin.form.admin_theme.headerBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundColor.label"
 msgid "Header - background color"
-msgstr ""
+msgstr "Header - background color"
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
 msgid "The image to be used for the header background (400ko Maximum)."
-msgstr ""
+msgstr "The image to be used for the header background (400ko Maximum)."
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
 msgid "Header - background image"
-msgstr ""
+msgstr "Header - background image"
 
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
 msgid "The image to be used for the header logo (200ko Maximum)."
-msgstr ""
+msgstr "The image to be used for the header logo (200ko Maximum)."
 
 #: admin~admin.form.admin_theme.headerLogo.label
 msgctxt "admin~admin.form.admin_theme.headerLogo.label"
 msgid "Header - logo"
-msgstr ""
+msgstr "Header - logo"
 
 #: admin~admin.form.admin_theme.headerLogoWidth.help
 msgctxt "admin~admin.form.admin_theme.headerLogoWidth.help"
 msgid "The width taken by the logo before the title (in pixels)."
-msgstr ""
+msgstr "The width taken by the logo before the title (in pixels)."
 
 #: admin~admin.form.admin_theme.headerLogoWidth.label
 msgctxt "admin~admin.form.admin_theme.headerLogoWidth.label"
 msgid "Header - logo width"
-msgstr ""
+msgstr "Header - logo width"
 
 #: admin~admin.form.admin_theme.headerSubtitleColor.help
 msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.help"
 msgid "The color of the header subtitle text."
-msgstr ""
+msgstr "The color of the header subtitle text."
 
 #: admin~admin.form.admin_theme.headerSubtitleColor.label
 msgctxt "admin~admin.form.admin_theme.headerSubtitleColor.label"
 msgid "Header - subtitle color"
-msgstr ""
+msgstr "Header - subtitle color"
 
 #: admin~admin.form.admin_theme.headerTitleColor.help
 msgctxt "admin~admin.form.admin_theme.headerTitleColor.help"
 msgid "The color of the header title text."
-msgstr ""
+msgstr "The color of the header title text."
 
 #: admin~admin.form.admin_theme.headerTitleColor.label
 msgctxt "admin~admin.form.admin_theme.headerTitleColor.label"
 msgid "Header - title color"
-msgstr ""
+msgstr "Header - title color"
 
 #: admin~admin.form.admin_theme.menuBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.help"
 msgid "The color of the menu left bar background."
-msgstr ""
+msgstr "The color of the menu left bar background."
 
 #: admin~admin.form.admin_theme.menuBackgroundColor.label
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.label"
 msgid "Menu bar - background color"
-msgstr ""
+msgstr "Menu bar - background color"
 
 #: admin~admin.form.admin_theme.navbarColor.help
 msgctxt "admin~admin.form.admin_theme.navbarColor.help"
 msgid "The background color of the navigation bar (zoom tools)."
-msgstr ""
+msgstr "The background color of the navigation bar (zoom tools)."
 
 #: admin~admin.form.admin_theme.navbarColor.label
 msgctxt "admin~admin.form.admin_theme.navbarColor.label"
 msgid "Navigation bar - background color"
-msgstr ""
+msgstr "Navigation bar - background color"
 
 #: admin~admin.generic.h2
 msgctxt "admin~admin.generic.h2"
@@ -812,37 +824,37 @@ msgstr "Loggdetalj"
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
 msgid "A feature has been deleted by a user."
-msgstr ""
+msgstr "A feature has been deleted by a user."
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
 msgid "A feature has been created or modified by a user."
-msgstr ""
+msgstr "A feature has been created or modified by a user."
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
 msgid "A user has logged in."
-msgstr ""
+msgstr "A user has logged in."
 
 #: admin~admin.logs.email.popup.body
 msgctxt "admin~admin.logs.email.popup.body"
 msgid "A user has opened a feature information popup."
-msgstr ""
+msgstr "A user has opened a feature information popup."
 
 #: admin~admin.logs.email.print.body
 msgctxt "admin~admin.logs.email.print.body"
 msgid "A user has used the print tool."
-msgstr ""
+msgstr "A user has used the print tool."
 
 #: admin~admin.logs.email.subject
 msgctxt "admin~admin.logs.email.subject"
 msgid "A new log item has been recorded."
-msgstr ""
+msgstr "A new log item has been recorded."
 
 #: admin~admin.logs.email.viewmap.body
 msgctxt "admin~admin.logs.email.viewmap.body"
 msgid "A user has accessed a map."
-msgstr ""
+msgstr "A user has accessed a map."
 
 #: admin~admin.logs.empty.button
 msgctxt "admin~admin.logs.empty.button"
@@ -862,17 +874,17 @@ msgstr "Loggtabellen %s har framgångsrikt tömts."
 #: admin~admin.logs.error.file.erase
 msgctxt "admin~admin.logs.error.file.erase"
 msgid "Erase the error log file"
-msgstr ""
+msgstr "Erase the error log file"
 
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
 msgid "Are you sure you want to erase the error log file ?"
-msgstr ""
+msgstr "Are you sure you want to erase the error log file ?"
 
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
 msgid "The error log file has successfully been erased."
-msgstr ""
+msgstr "The error log file has successfully been erased."
 
 #: admin~admin.logs.error.file.too.big
 msgctxt "admin~admin.logs.error.file.too.big"
@@ -880,16 +892,18 @@ msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
 msgstr ""
+"The error log file is too big. Consider using log rotation for Lizmap Web "
+"Client logs."
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the Lizmap Web Client application error log file"
-msgstr ""
+msgstr "Last lines of the Lizmap Web Client application error log file"
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
 msgid "Error log"
-msgstr ""
+msgstr "Error log"
 
 #: admin~admin.logs.export.button
 msgctxt "admin~admin.logs.export.button"
@@ -954,7 +968,7 @@ msgstr "Konfiguration av Lizmap"
 #: admin~admin.menu.lizmap.landingPageContent.label
 msgctxt "admin~admin.menu.lizmap.landingPageContent.label"
 msgid "Landing page content"
-msgstr ""
+msgstr "Landing page content"
 
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
@@ -969,17 +983,17 @@ msgstr "Se loggar"
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
 msgid "Maps management"
-msgstr ""
+msgstr "Maps management"
 
 #: admin~admin.menu.lizmap.theme.label
 msgctxt "admin~admin.menu.lizmap.theme.label"
 msgid "Theme"
-msgstr ""
+msgstr "Theme"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
 msgid "Remove this image (and use default one) ?"
-msgstr ""
+msgstr "Remove this image (and use default one) ?"
 
 #: admin~admin.theme.button.remove.logo.label
 msgctxt "admin~admin.theme.button.remove.logo.label"
@@ -989,52 +1003,52 @@ msgstr "Ta bort"
 #: admin~admin.theme.detail.title
 msgctxt "admin~admin.theme.detail.title"
 msgid "Theme configuration"
-msgstr ""
+msgstr "Theme configuration"
 
 #: admin~admin.upload.image.error.file.bigger
 msgctxt "admin~admin.upload.image.error.file.bigger"
 msgid "The uploaded file exceeds the maximum file size allowed"
-msgstr ""
+msgstr "The uploaded file exceeds the maximum file size allowed"
 
 #: admin~admin.upload.image.error.file.invalid
 msgctxt "admin~admin.upload.image.error.file.invalid"
 msgid "Invalid file"
-msgstr ""
+msgstr "Invalid file"
 
 #: admin~admin.upload.image.error.file.missing
 msgctxt "admin~admin.upload.image.error.file.missing"
 msgid "File is missing"
-msgstr ""
+msgstr "File is missing"
 
 #: admin~admin.upload.image.error.file.none
 msgctxt "admin~admin.upload.image.error.file.none"
 msgid "No file was uploaded"
-msgstr ""
+msgstr "No file was uploaded"
 
 #: admin~admin.upload.image.error.file.onDisk
 msgctxt "admin~admin.upload.image.error.file.onDisk"
 msgid "Failed to write file to disk"
-msgstr ""
+msgstr "Failed to write file to disk"
 
 #: admin~admin.upload.image.error.file.partially
 msgctxt "admin~admin.upload.image.error.file.partially"
 msgid "The uploaded file was only partially uploaded"
-msgstr ""
+msgstr "The uploaded file was only partially uploaded"
 
 #: admin~admin.upload.image.error.file.save
 msgctxt "admin~admin.upload.image.error.file.save"
 msgid "An error occured during the save"
-msgstr ""
+msgstr "An error occured during the save"
 
 #: admin~admin.upload.image.error.file.wrongType
 msgctxt "admin~admin.upload.image.error.file.wrongType"
 msgid "Wrong file type. Only images are allowed"
-msgstr ""
+msgstr "Wrong file type. Only images are allowed"
 
 #: admin~admin.upload.image.error.missing.temp
 msgctxt "admin~admin.upload.image.error.missing.temp"
 msgid "Missing a temporary folder"
-msgstr ""
+msgstr "Missing a temporary folder"
 
 #: admin~jacl2.lizmap.admin.access
 msgctxt "admin~jacl2.lizmap.admin.access"
@@ -1049,7 +1063,7 @@ msgstr "Lizmaps administrationshantering"
 #: admin~jacl2.lizmap.admin.grp.default
 msgctxt "admin~jacl2.lizmap.admin.grp.default"
 msgid "default group"
-msgstr ""
+msgstr "default group"
 
 #: admin~jacl2.lizmap.admin.repositories.create
 msgctxt "admin~jacl2.lizmap.admin.repositories.create"
@@ -1089,7 +1103,7 @@ msgstr "Lizmap klienthantering"
 #: admin~jacl2.lizmap.repositories.view
 msgctxt "admin~jacl2.lizmap.repositories.view"
 msgid "View projects in the repository"
-msgstr ""
+msgstr "View projects in the repository"
 
 #: admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks
 msgctxt "admin~jacl2.lizmap.tools.displayGetCapabilitiesLinks"
@@ -1109,7 +1123,7 @@ msgstr "Tillåt lagerexport"
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "See all the data of the filtered layers (attribute or spatial filters)"
-msgstr ""
+msgstr "Se all data för de filtrerade lagren (attribut eller rumsliga filter)"
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
@@ -1119,22 +1133,22 @@ msgstr "Lägg till"
 #: admin~user.acl.form.add.to.group
 msgctxt "admin~user.acl.form.add.to.group"
 msgid "Add him to this group"
-msgstr ""
+msgstr "Add him to this group"
 
 #: admin~user.acl.form.remove.from.group
 msgctxt "admin~user.acl.form.remove.from.group"
 msgid "Remove him from this group"
-msgstr ""
+msgstr "Remove him from this group"
 
 #: admin~user.acl.form.title
 msgctxt "admin~user.acl.form.title"
 msgid "Groups the user belongs to"
-msgstr ""
+msgstr "Groups the user belongs to"
 
 #: admin~user.acl.no.group
 msgctxt "admin~user.acl.no.group"
 msgid "The user is not in any group"
-msgstr ""
+msgstr "The user is not in any group"
 
 #: admin~user.email.admin.body
 msgctxt "admin~user.email.admin.body"
