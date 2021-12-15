@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 15:16++0200\n"
+"POT-Creation-Date: 2021-12-15 15:20++0100\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
 "Last-Translator: Stefan Blumentrath <stefan.blumentrath@gmx.de>, 2021\n"
 "Language-Team: Norwegian (https://www.transifex.com/3liz-1/teams/62012/no/)\n"
@@ -167,6 +167,11 @@ msgstr ""
 #: admin~admin.configuration.services.section.emails.label
 msgctxt "admin~admin.configuration.services.section.emails.label"
 msgid "Emails"
+msgstr ""
+
+#: admin~admin.configuration.services.section.features.label
+msgctxt "admin~admin.configuration.services.section.features.label"
+msgid "GIS features properties"
 msgstr ""
 
 #: admin~admin.configuration.services.section.interface.label
@@ -618,6 +623,19 @@ msgstr ""
 msgctxt "admin~admin.form.admin_services.submit.label"
 msgid "Save"
 msgstr "Lagre"
+
+#: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.help
+msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.help"
+msgid ""
+"Images uploaded when editing features will have this maximum width and "
+"height (in pixels). A recommended value is 1920 (HD size). Maximum value is "
+"3840 and minimum value is 480."
+msgstr ""
+
+#: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label
+msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label"
+msgid "Maximum width/height of uploaded images for features"
+msgstr ""
 
 #: admin~admin.form.admin_services.wmsMaxHeight.label
 msgctxt "admin~admin.form.admin_services.wmsMaxHeight.label"
