@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 16:10++0200\n"
-"PO-Revision-Date: 2021-10-25 14:10+0000\n"
+"POT-Creation-Date: 2021-12-15 15:40++0100\n"
+"PO-Revision-Date: 2021-12-15 14:40+0000\n"
 "Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/3liz-1/lizmap-locales/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -396,7 +396,7 @@ msgstr "ポリゴン"
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
-msgstr ""
+msgstr "‎ブラウザで描画を保存する‎"
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -490,6 +490,11 @@ msgstr "‎マップを全画面表示で開く‎"
 msgctxt "view~dictionnary.externalsearch.mapdata"
 msgid "Map data"
 msgstr "‎データのマップ‎"
+
+#: view~dictionnary.externalsearch.noquery
+msgctxt "view~dictionnary.externalsearch.noquery"
+msgid "Search query is empty"
+msgstr ""
 
 #: view~dictionnary.externalsearch.notfound
 msgctxt "view~dictionnary.externalsearch.notfound"
@@ -1158,7 +1163,7 @@ msgstr "‎フォームを取得するときにエラーが発生しました‎
 #: view~edition.message.error.geometry.outside.polygons
 msgctxt "view~edition.message.error.geometry.outside.polygons"
 msgid "The given geometry is outside the authorized polygon."
-msgstr ""
+msgstr "‎指定されたジオメトリは、承認されたポリゴンの外側にあります。‎"
 
 #: view~edition.message.error.layer.editable
 msgctxt "view~edition.message.error.layer.editable"
@@ -1180,7 +1185,7 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
-msgstr ""
+msgstr "‎ジオメトリなしでは、このオブジェクトを保存できません。地図上にジオメトリを描画してください。‎"
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 16:10++0200\n"
-"PO-Revision-Date: 2021-10-25 14:10+0000\n"
+"POT-Creation-Date: 2021-12-15 15:40++0100\n"
+"PO-Revision-Date: 2021-12-15 14:40+0000\n"
 "Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
 "Language-Team: Czech (http://www.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -170,6 +170,11 @@ msgctxt "admin~admin.configuration.services.section.emails.label"
 msgid "Emails"
 msgstr "E-maily"
 
+#: admin~admin.configuration.services.section.features.label
+msgctxt "admin~admin.configuration.services.section.features.label"
+msgid "GIS features properties"
+msgstr ""
+
 #: admin~admin.configuration.services.section.interface.label
 msgctxt "admin~admin.configuration.services.section.interface.label"
 msgid "Interface"
@@ -198,7 +203,7 @@ msgstr "Maximální výška pro požadavek GetMap"
 #: admin~admin.configuration.services.wmsMaxWidth.label
 msgctxt "admin~admin.configuration.services.wmsMaxWidth.label"
 msgid "Maximum Width for GetMap request"
-msgstr ""
+msgstr "Maximální šířka pro požadavek GetMap"
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
@@ -620,6 +625,19 @@ msgctxt "admin~admin.form.admin_services.submit.label"
 msgid "Save"
 msgstr "Uložit"
 
+#: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.help
+msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.help"
+msgid ""
+"Images uploaded when editing features will have this maximum width and "
+"height (in pixels). A recommended value is 1920 (HD size). Maximum value is "
+"3840 and minimum value is 480."
+msgstr ""
+
+#: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label
+msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label"
+msgid "Maximum width/height of uploaded images for features"
+msgstr ""
+
 #: admin~admin.form.admin_services.wmsMaxHeight.label
 msgctxt "admin~admin.form.admin_services.wmsMaxHeight.label"
 msgid "Default max. Height for GetMap request"
@@ -628,7 +646,7 @@ msgstr "Výchozí max. Výška požadavku GetMap"
 #: admin~admin.form.admin_services.wmsMaxWidth.label
 msgctxt "admin~admin.form.admin_services.wmsMaxWidth.label"
 msgid "Default max. Width for GetMap request"
-msgstr ""
+msgstr "Výchozí max. Šířka pro požadavek GetMap"
 
 #: admin~admin.form.admin_services.wmsPublicUrlList.label
 msgctxt "admin~admin.form.admin_services.wmsPublicUrlList.label"
@@ -1096,7 +1114,7 @@ msgstr "Povolit export vrstev"
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "See all the data of the filtered layers (attribute or spatial filters)"
-msgstr ""
+msgstr "Zobrazení všech dat filtrovaných vrstev (atributové nebo prostorové filtry)."
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"

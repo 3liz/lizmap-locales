@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 16:10++0200\n"
-"PO-Revision-Date: 2021-10-25 14:10+0000\n"
+"POT-Creation-Date: 2021-12-15 15:40++0100\n"
+"PO-Revision-Date: 2021-12-15 14:40+0000\n"
 "Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -395,7 +395,7 @@ msgstr "Poligon"
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
-msgstr ""
+msgstr "Salvați desenul în browser"
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -489,6 +489,11 @@ msgstr "Deschideți harta pe ecran complet"
 msgctxt "view~dictionnary.externalsearch.mapdata"
 msgid "Map data"
 msgstr "Date hartă"
+
+#: view~dictionnary.externalsearch.noquery
+msgctxt "view~dictionnary.externalsearch.noquery"
+msgid "Search query is empty"
+msgstr ""
 
 #: view~dictionnary.externalsearch.notfound
 msgctxt "view~dictionnary.externalsearch.notfound"
@@ -1157,7 +1162,7 @@ msgstr "A apărut o eroare la obținerea formularului"
 #: view~edition.message.error.geometry.outside.polygons
 msgctxt "view~edition.message.error.geometry.outside.polygons"
 msgid "The given geometry is outside the authorized polygon."
-msgstr ""
+msgstr "Geometria dată este în afara poligonului autorizat."
 
 #: view~edition.message.error.layer.editable
 msgctxt "view~edition.message.error.layer.editable"
@@ -1179,7 +1184,7 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
-msgstr ""
+msgstr "Nu puteți salva acest obiect fără o geometrie. Desenați geometria pe hartă."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"

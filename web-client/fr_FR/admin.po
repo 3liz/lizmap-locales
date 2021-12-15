@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 16:10++0200\n"
-"PO-Revision-Date: 2021-10-25 14:10+0000\n"
+"POT-Creation-Date: 2021-12-15 15:40++0100\n"
+"PO-Revision-Date: 2021-12-15 14:44+0000\n"
 "Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
 "Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -172,6 +172,11 @@ msgctxt "admin~admin.configuration.services.section.emails.label"
 msgid "Emails"
 msgstr "Courriels"
 
+#: admin~admin.configuration.services.section.features.label
+msgctxt "admin~admin.configuration.services.section.features.label"
+msgid "GIS features properties"
+msgstr "Propriétés des éléments SIG"
+
 #: admin~admin.configuration.services.section.interface.label
 msgctxt "admin~admin.configuration.services.section.interface.label"
 msgid "Interface"
@@ -200,7 +205,7 @@ msgstr "Hauteur maximale des requêtes GetMap"
 #: admin~admin.configuration.services.wmsMaxWidth.label
 msgctxt "admin~admin.configuration.services.wmsMaxWidth.label"
 msgid "Maximum Width for GetMap request"
-msgstr ""
+msgstr "Largeur maximale des requêtes GetMap"
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
@@ -622,6 +627,19 @@ msgctxt "admin~admin.form.admin_services.submit.label"
 msgid "Save"
 msgstr "Enregistrer"
 
+#: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.help
+msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.help"
+msgid ""
+"Images uploaded when editing features will have this maximum width and "
+"height (in pixels). A recommended value is 1920 (HD size). Maximum value is "
+"3840 and minimum value is 480."
+msgstr "Les images téléversées lors de l'édition des éléments SIG auront cette largeur et hauteur maximale (en pixel). Une valeur recommandée est 1920 (taille HD). Valeur maximum 3840, et minimum 480."
+
+#: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label
+msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label"
+msgid "Maximum width/height of uploaded images for features"
+msgstr "Hauteur/largeur maximum des images téléversées lors de l'édition des objets SIG"
+
 #: admin~admin.form.admin_services.wmsMaxHeight.label
 msgctxt "admin~admin.form.admin_services.wmsMaxHeight.label"
 msgid "Default max. Height for GetMap request"
@@ -630,7 +648,7 @@ msgstr "Hauteur max. par défaut des requêtes GetMap"
 #: admin~admin.form.admin_services.wmsMaxWidth.label
 msgctxt "admin~admin.form.admin_services.wmsMaxWidth.label"
 msgid "Default max. Width for GetMap request"
-msgstr ""
+msgstr "Largeur max. par défaut des requêtes GetMap"
 
 #: admin~admin.form.admin_services.wmsPublicUrlList.label
 msgctxt "admin~admin.form.admin_services.wmsPublicUrlList.label"
@@ -1098,7 +1116,7 @@ msgstr "Permettre l'export de couches"
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "See all the data of the filtered layers (attribute or spatial filters)"
-msgstr ""
+msgstr "Voir toutes les données des couches filtrées (attributs ou filtres spaciaux)"
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
