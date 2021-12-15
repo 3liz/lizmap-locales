@@ -7,14 +7,15 @@
 # Laurent Jouanneau <dev@ljouanneau.com>, 2021
 # Dominik Visca <d.visca@protonmail.com>, 2021
 # Georges Moes <g.moes@naturemwelt.lu>, 2021
+# Niko Trujanovic, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.4 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 15:55++0200\n"
+"POT-Creation-Date: 2021-12-15 15:51++0100\n"
 "PO-Revision-Date: 2021-03-03 17:34+0000\n"
-"Last-Translator: Georges Moes <g.moes@naturemwelt.lu>, 2021\n"
+"Last-Translator: Niko Trujanovic, 2021\n"
 "Language-Team: German (https://www.transifex.com/3liz-1/teams/62012/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -406,7 +407,7 @@ msgstr "Polygon"
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
-msgstr ""
+msgstr "Zeichnung im Browser speichern"
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -505,6 +506,11 @@ msgstr "Karte in Vollbild öffen"
 msgctxt "view~dictionnary.externalsearch.mapdata"
 msgid "Map data"
 msgstr "Kartendaten"
+
+#: view~dictionnary.externalsearch.noquery
+msgctxt "view~dictionnary.externalsearch.noquery"
+msgid "Search query is empty"
+msgstr ""
 
 #: view~dictionnary.externalsearch.notfound
 msgctxt "view~dictionnary.externalsearch.notfound"
@@ -1262,6 +1268,8 @@ msgstr "Editieren"
 msgctxt "view~edition.modification.msg"
 msgid "Click features on the map to access edition tools."
 msgstr ""
+"Klicken Sie auf ein Objekt auf der Karte, um auf die Bearbeitungstools "
+"zuzugreifen. "
 
 #: view~edition.navbar.title
 msgctxt "view~edition.navbar.title"
