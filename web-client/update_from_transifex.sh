@@ -14,6 +14,7 @@ usage()
     echo "Options:"
     echo "   -f    force to update translations, regardless of whether timestamps"
     echo "         on the local computer are newer than those on the server"
+    echo "   -s    use short locale codes. It may allow to retrieve some locales"
     echo "   "
 
 }
@@ -30,6 +31,9 @@ case $i in
     ;;
     -f|--force)
     FORCE="-f"
+    ;;
+    -s)
+    ALL_LOCALES=$(echo "$AVAILABLE_SHORT_LOCALES" | sed -r 's/ /,/g')
     ;;
     -*)
       echo "ERROR: Unknown option: $i"
@@ -48,9 +52,6 @@ case $i in
     ;;
 esac
 done
-
-
-
 
 if [ "$ALL_LOCALES" == "" ]; then
   ALL_LOCALES=$(echo "$AVAILABLE_LOCALES" | sed -r 's/ /,/g')
