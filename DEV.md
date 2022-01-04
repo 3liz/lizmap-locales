@@ -22,8 +22,8 @@ You should create a `~/.transifexrc` file containing:
 [https://www.transifex.com]
 api_hostname = https://api.transifex.com
 hostname = https://www.transifex.com
-username = api
-password = 
+username = EMAIL
+password = PASSWORD/TOKEN
 ```
 
 In the password parameter, you should set an API Key [you have to generate from your
@@ -38,7 +38,7 @@ See [web-client/README.md](web-client/README.md).
 The language should be created into Transifex. When there are enough translated
 strings, you can download translated files with the script. See README.md in plugin or web-client.
 
-A new language code for web-client should be added into web-client/module_list.sh.
+A new language code for web-client should be added into `web-client/module_list.sh` and `.tx/config`.
 
 ### Releasing a new version 
 
