@@ -2,17 +2,17 @@
 # Translators:
 # Laurent Jouanneau <dev@ljouanneau.com>, 2021
 # t j, 2021
-# Jean-Louis Stanus <rammstan@msn.com>, 2021
 # Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2021
-# Nico Veenstra <nvbgm@gmx.net>, 2021
+# Nico Veenstra <nvbgm@gmx.net>, 2022
+# Jean-Louis Stanus <rammstan@msn.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-15 15:20++0100\n"
+"POT-Creation-Date: 2022-01-07 00:31++0100\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
-"Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2021\n"
+"Last-Translator: Jean-Louis Stanus <rammstan@msn.com>, 2022\n"
 "Language-Team: Dutch (https://www.transifex.com/3liz-1/teams/62012/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -510,6 +510,20 @@ msgstr "Google Analytics ID"
 msgctxt "admin~admin.form.admin_services.h1"
 msgid "Modify Lizmap generic configuration"
 msgstr "Wijzigen standaard Lizmap configuratie"
+
+#: admin~admin.form.admin_services.lizmapPluginAPIURL.help
+msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.help"
+msgid ""
+"QGIS Server 3.10 or above is required, as well as the Lizmap plugin 3.7.0 or"
+" above. If you are using the FCGI server, you can indicate the WMS server "
+"URL. Else if you are using Py-Qgis-Server, indicate the URL configured into "
+"the Py-Qgis-Server configuration."
+msgstr ""
+
+#: admin~admin.form.admin_services.lizmapPluginAPIURL.label
+msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
+msgid "Base URL of the Lizmap plugin API for QGIS Server"
+msgstr ""
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
@@ -1014,6 +1028,126 @@ msgstr "Kaart management"
 msgctxt "admin~admin.menu.lizmap.theme.label"
 msgid "Theme"
 msgstr "Thema"
+
+#: admin~admin.menu.server.information.label
+msgctxt "admin~admin.menu.server.information.label"
+msgid "Server information"
+msgstr ""
+
+#: admin~admin.menu.server.label
+msgctxt "admin~admin.menu.server.label"
+msgid "Server"
+msgstr ""
+
+#: admin~admin.server.information.lizmap.info
+msgctxt "admin~admin.server.information.lizmap.info"
+msgid "Information"
+msgstr "Informatie"
+
+#: admin~admin.server.information.lizmap.info.date
+msgctxt "admin~admin.server.information.lizmap.info.date"
+msgid "Date"
+msgstr "Datum"
+
+#: admin~admin.server.information.lizmap.info.version
+msgctxt "admin~admin.server.information.lizmap.info.version"
+msgid "Version"
+msgstr ""
+
+#: admin~admin.server.information.lizmap.label
+msgctxt "admin~admin.server.information.lizmap.label"
+msgid "Lizmap Web Client"
+msgstr "Lizmap Web Client"
+
+#: admin~admin.server.information.qgis.error.fetching.information
+msgctxt "admin~admin.server.information.qgis.error.fetching.information"
+msgid ""
+"We cannot get the details about your QGIS Server installation (version, "
+"plugins, etc.)."
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.detail
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.detail"
+msgid ""
+"Either the version of the installed QGIS Server is under 3.10, or the Lizmap"
+" plugin is not detected in your server, or is installed with a version under"
+" 3.7.0. Please upgrade QGIS Server to minimum 3.10 and install or upgrade "
+"the Lizmap plugin to minimum 3.7.0 by reading the documentation about the "
+"environment variable "
+"https://docs.lizmap.com/current/en/install/pre_requirements.html"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA"
+msgid "The Lizmap plugin API returns bad data. Please check your QGIS Server."
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR"
+msgid "QGIS Server returns an HTTP error about the Lizmap plugin:"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS"
+msgid "You don't have access to information about QGIS Server"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL"
+msgid ""
+"The URL to the API of the Lizmap plugin is not provided into the Lizmap "
+"configuration. Reason can be an oversight, or the Lizmap plugin is not "
+"installed into QGIS Server."
+msgstr ""
+
+#: admin~admin.server.information.qgis.label
+msgctxt "admin~admin.server.information.qgis.label"
+msgid "QGIS Server"
+msgstr ""
+
+#: admin~admin.server.information.qgis.metadata
+msgctxt "admin~admin.server.information.qgis.metadata"
+msgid "Version"
+msgstr ""
+
+#: admin~admin.server.information.qgis.name
+msgctxt "admin~admin.server.information.qgis.name"
+msgid "Name"
+msgstr "Naam"
+
+#: admin~admin.server.information.qgis.plugins
+msgctxt "admin~admin.server.information.qgis.plugins"
+msgid "Plugins"
+msgstr ""
+
+#: admin~admin.server.information.qgis.plugins.version
+msgctxt "admin~admin.server.information.qgis.plugins.version"
+msgid "Version number"
+msgstr "Versienummer"
+
+#: admin~admin.server.information.qgis.test.error
+msgctxt "admin~admin.server.information.qgis.test.error"
+msgid ""
+"QGIS Server is not correctly installed in your server or the URL for OGC "
+"requests given in Lizmap configuration is not correct."
+msgstr ""
+
+#: admin~admin.server.information.qgis.test.ok
+msgctxt "admin~admin.server.information.qgis.test.ok"
+msgid ""
+"QGIS Server is correctly installed and returns the expected response for OGC"
+" requests."
+msgstr ""
+
+#: admin~admin.server.information.qgis.version
+msgctxt "admin~admin.server.information.qgis.version"
+msgid "Number"
+msgstr ""
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
