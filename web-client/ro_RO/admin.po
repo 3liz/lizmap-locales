@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-15 15:40++0100\n"
-"PO-Revision-Date: 2021-12-16 06:59+0000\n"
-"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>\n"
+"POT-Creation-Date: 2022-01-07 00:44++0100\n"
+"PO-Revision-Date: 2022-01-06 23:44+0000\n"
+"Last-Translator: Tudor Bărăscu <tudorbarascu@yahoo.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: admin~admin.cache.button.remove.repository.cache.confirm.label
 msgctxt "admin~admin.cache.button.remove.repository.cache.confirm.label"
 msgid "Would you like to empty the cache for this repository?"
-msgstr "Doriți să goliți cache-ul din acest depozit de date?"
+msgstr "Dorești să elimini cache-ul din acest depozit de date?"
 
 #: admin~admin.cache.button.remove.repository.cache.label
 msgctxt "admin~admin.cache.button.remove.repository.cache.label"
@@ -41,12 +41,12 @@ msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
 "This option cannot be enable while the sender email is not defined. Please "
 "contact the application administrator."
-msgstr "Această opțiune nu poate fi activată în timp ce e-mailul expeditorului nu este definit. Contactați administratorul aplicației."
+msgstr "Această opțiune nu poate fi activată în timp ce e-mailul expeditorului nu este definit. Contactează administratorul aplicației."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
 msgid "Create a repository"
-msgstr "Creați un depozit de date"
+msgstr "Creează un depozit de date"
 
 #: admin~admin.configuration.button.back.label
 msgctxt "admin~admin.configuration.button.back.label"
@@ -56,32 +56,32 @@ msgstr "Înapoi"
 #: admin~admin.configuration.button.modify.repository.label
 msgctxt "admin~admin.configuration.button.modify.repository.label"
 msgid "Modify"
-msgstr "Modificați"
+msgstr "Modificare"
 
 #: admin~admin.configuration.button.modify.service.label
 msgctxt "admin~admin.configuration.button.modify.service.label"
 msgid "Modify"
-msgstr "Modificați"
+msgstr "Modificare"
 
 #: admin~admin.configuration.button.modify.theme.label
 msgctxt "admin~admin.configuration.button.modify.theme.label"
 msgid "Modify"
-msgstr "Modificați"
+msgstr "Modificare"
 
 #: admin~admin.configuration.button.remove.repository.confirm.label
 msgctxt "admin~admin.configuration.button.remove.repository.confirm.label"
 msgid "Would you like to remove this repository?"
-msgstr "Doriți să eliminați acest depozit de date?"
+msgstr "Dorești să elimini acest depozit de date?"
 
 #: admin~admin.configuration.button.remove.repository.label
 msgctxt "admin~admin.configuration.button.remove.repository.label"
 msgid "Remove"
-msgstr "Eliminați"
+msgstr "Eliminare"
 
 #: admin~admin.configuration.button.view.repository.label
 msgctxt "admin~admin.configuration.button.view.repository.label"
 msgid "View"
-msgstr "Vizualizați"
+msgstr "Vizualizare"
 
 #: admin~admin.configuration.h1
 msgctxt "admin~admin.configuration.h1"
@@ -227,17 +227,17 @@ msgstr "Lista grupurilor"
 #: admin~admin.form.admin_section.groups.label
 msgctxt "admin~admin.form.admin_section.groups.label"
 msgid "Rights and granted groups:"
-msgstr "Drepturi grupuri:"
+msgstr "Drepturi pentru grupuri:"
 
 #: admin~admin.form.admin_section.h1.create
 msgctxt "admin~admin.form.admin_section.h1.create"
 msgid "Create a repository"
-msgstr "Creați un depozit de date"
+msgstr "Creează un depozit de date"
 
 #: admin~admin.form.admin_section.h1.modify
 msgctxt "admin~admin.form.admin_section.h1.modify"
 msgid "Modify the repository"
-msgstr "Modificați depozitul de date."
+msgstr "Modifică depozitul de date."
 
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
@@ -283,7 +283,7 @@ msgstr "Id-ul pentru depozitul de date nu există."
 msgctxt ""
 "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
 msgid "Allow themes/javascript codes for this repository"
-msgstr "Permiteți teme/coduri javascript pentru acest depozit"
+msgstr "Permite teme/coduri javascript pentru acest depozit"
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
@@ -303,7 +303,7 @@ msgstr "Calea către directorul local"
 #: admin~admin.form.admin_section.submit.label
 msgctxt "admin~admin.form.admin_section.submit.label"
 msgid "Save"
-msgstr "Salvați"
+msgstr "Salvare"
 
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
@@ -327,7 +327,7 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "Adresa de e-mail folosită pentru a trimite e-mailuri. Dacă lipsește, Lizmap nu va trimite niciun e-mail. Asigurați-vă că serverul dvs. are dreptul să trimită e-mail cu această adresă."
+msgstr "Adresa de e-mail folosită pentru a trimite e-mailuri. Dacă lipsește, Lizmap nu va trimite niciun e-mail. Asigură-te că serverul are dreptul să trimită e-mail cu această adresă."
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
@@ -354,7 +354,7 @@ msgstr "Dacă este activat, vizitatorii pot completa un formular pentru a solici
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
 msgid "Allow visitors to request an account?"
-msgstr "Permiteți vizitatorilor să ceară un cont?"
+msgstr "Se permite vizitatorilor să ceară un cont?"
 
 #: admin~admin.form.admin_services.appName.label
 msgctxt "admin~admin.form.admin_services.appName.label"
@@ -487,7 +487,21 @@ msgstr "ID Google Analytics"
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"
 msgid "Modify Lizmap generic configuration"
-msgstr "Modificați configurația generică Lizmap"
+msgstr "Modifică configurația generică Lizmap"
+
+#: admin~admin.form.admin_services.lizmapPluginAPIURL.help
+msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.help"
+msgid ""
+"QGIS Server 3.10 or above is required, as well as the Lizmap plugin 3.7.0 or"
+" above. If you are using the FCGI server, you can indicate the WMS server "
+"URL. Else if you are using Py-Qgis-Server, indicate the URL configured into "
+"the Py-Qgis-Server configuration."
+msgstr ""
+
+#: admin~admin.form.admin_services.lizmapPluginAPIURL.label
+msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
+msgid "Base URL of the Lizmap plugin API for QGIS Server"
+msgstr ""
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
@@ -499,7 +513,7 @@ msgstr "Timpul de expirare al cache-ului serverului trebuie să fie un număr na
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
 msgid "The directory does not exists or is not writable. You can use: %s"
-msgstr "Acest director nu există sau nu aveți dreptul de a salva în el"
+msgstr "Directorul nu există sau nu poate fi scris. Poți utiliza: %s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -622,7 +636,7 @@ msgstr "Directorul rădăcină al depozitelor de date"
 #: admin~admin.form.admin_services.submit.label
 msgctxt "admin~admin.form.admin_services.submit.label"
 msgid "Save"
-msgstr "Salvați"
+msgstr "Salvare"
 
 #: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.help
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.help"
@@ -666,7 +680,7 @@ msgstr "Da"
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
-msgstr "Puteți scrie orice sintaxă CSS pentru a trece peste stilul Lizmap (pentru utilizatorii avansați)"
+msgstr "Poți scrie orice sintaxă CSS pentru suprascrie stilul Lizmap (pentru utilizatorii avansați)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
@@ -856,7 +870,7 @@ msgstr "Golire"
 #: admin~admin.logs.empty.confirm
 msgctxt "admin~admin.logs.empty.confirm"
 msgid "Are you sure to want to empty the log content?"
-msgstr "Sigur doriți să goliți conținutul jurnalului?"
+msgstr "Sigur dorești să golești conținutul jurnalului?"
 
 #: admin~admin.logs.empty.ok
 msgctxt "admin~admin.logs.empty.ok"
@@ -866,12 +880,12 @@ msgstr "Tabela de jurnal %s a fost golită cu succes."
 #: admin~admin.logs.error.file.erase
 msgctxt "admin~admin.logs.error.file.erase"
 msgid "Erase the error log file"
-msgstr "Ștergeți fișierul jurnal de erori"
+msgstr "Șterge fișierul jurnal de erori"
 
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
 msgid "Are you sure you want to erase the error log file ?"
-msgstr "Sigur doriți să ștergeți fișierul jurnal de erori?"
+msgstr "Sigur dorești să ștergi fișierul jurnal de erori?"
 
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
@@ -883,7 +897,7 @@ msgctxt "admin~admin.logs.error.file.too.big"
 msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
-msgstr "Fișierul jurnal de erori este prea mare. Luați în considerare utilizarea repetării jurnalului pentru jurnalele Lizmap Web Client."
+msgstr "Fișierul jurnal de erori este prea mare. Ia în considerare utilizarea repetării jurnalului pentru jurnalele Lizmap Web Client."
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
@@ -980,10 +994,130 @@ msgctxt "admin~admin.menu.lizmap.theme.label"
 msgid "Theme"
 msgstr "Temă"
 
+#: admin~admin.menu.server.information.label
+msgctxt "admin~admin.menu.server.information.label"
+msgid "Server information"
+msgstr ""
+
+#: admin~admin.menu.server.label
+msgctxt "admin~admin.menu.server.label"
+msgid "Server"
+msgstr ""
+
+#: admin~admin.server.information.lizmap.info
+msgctxt "admin~admin.server.information.lizmap.info"
+msgid "Information"
+msgstr "Informații"
+
+#: admin~admin.server.information.lizmap.info.date
+msgctxt "admin~admin.server.information.lizmap.info.date"
+msgid "Date"
+msgstr "Dată"
+
+#: admin~admin.server.information.lizmap.info.version
+msgctxt "admin~admin.server.information.lizmap.info.version"
+msgid "Version"
+msgstr "Versiune"
+
+#: admin~admin.server.information.lizmap.label
+msgctxt "admin~admin.server.information.lizmap.label"
+msgid "Lizmap Web Client"
+msgstr "Lizmap Web Client"
+
+#: admin~admin.server.information.qgis.error.fetching.information
+msgctxt "admin~admin.server.information.qgis.error.fetching.information"
+msgid ""
+"We cannot get the details about your QGIS Server installation (version, "
+"plugins, etc.)."
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.detail
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.detail"
+msgid ""
+"Either the version of the installed QGIS Server is under 3.10, or the Lizmap"
+" plugin is not detected in your server, or is installed with a version under"
+" 3.7.0. Please upgrade QGIS Server to minimum 3.10 and install or upgrade "
+"the Lizmap plugin to minimum 3.7.0 by reading the documentation about the "
+"environment variable "
+"https://docs.lizmap.com/current/en/install/pre_requirements.html"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA"
+msgid "The Lizmap plugin API returns bad data. Please check your QGIS Server."
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR"
+msgid "QGIS Server returns an HTTP error about the Lizmap plugin:"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS"
+msgid "You don't have access to information about QGIS Server"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL"
+msgid ""
+"The URL to the API of the Lizmap plugin is not provided into the Lizmap "
+"configuration. Reason can be an oversight, or the Lizmap plugin is not "
+"installed into QGIS Server."
+msgstr ""
+
+#: admin~admin.server.information.qgis.label
+msgctxt "admin~admin.server.information.qgis.label"
+msgid "QGIS Server"
+msgstr ""
+
+#: admin~admin.server.information.qgis.metadata
+msgctxt "admin~admin.server.information.qgis.metadata"
+msgid "Version"
+msgstr "Versiune"
+
+#: admin~admin.server.information.qgis.name
+msgctxt "admin~admin.server.information.qgis.name"
+msgid "Name"
+msgstr "Nume"
+
+#: admin~admin.server.information.qgis.plugins
+msgctxt "admin~admin.server.information.qgis.plugins"
+msgid "Plugins"
+msgstr ""
+
+#: admin~admin.server.information.qgis.plugins.version
+msgctxt "admin~admin.server.information.qgis.plugins.version"
+msgid "Version number"
+msgstr "Număr versiune"
+
+#: admin~admin.server.information.qgis.test.error
+msgctxt "admin~admin.server.information.qgis.test.error"
+msgid ""
+"QGIS Server is not correctly installed in your server or the URL for OGC "
+"requests given in Lizmap configuration is not correct."
+msgstr ""
+
+#: admin~admin.server.information.qgis.test.ok
+msgctxt "admin~admin.server.information.qgis.test.ok"
+msgid ""
+"QGIS Server is correctly installed and returns the expected response for OGC"
+" requests."
+msgstr ""
+
+#: admin~admin.server.information.qgis.version
+msgctxt "admin~admin.server.information.qgis.version"
+msgid "Number"
+msgstr ""
+
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
 msgid "Remove this image (and use default one) ?"
-msgstr "Eliminați această imagine (și o utilizați pe cea implicită)?"
+msgstr "Elimină această imagine (și se utilizează cea implicită)?"
 
 #: admin~admin.theme.button.remove.logo.label
 msgctxt "admin~admin.theme.button.remove.logo.label"
@@ -1123,12 +1257,12 @@ msgstr "Adăugare"
 #: admin~user.acl.form.add.to.group
 msgctxt "admin~user.acl.form.add.to.group"
 msgid "Add him to this group"
-msgstr "Adăugați-l în acest grup"
+msgstr "Adaugă-l în acest grup"
 
 #: admin~user.acl.form.remove.from.group
 msgctxt "admin~user.acl.form.remove.from.group"
 msgid "Remove him from this group"
-msgstr "Eliminați-l din acest grup"
+msgstr "Elimină-l din acest grup"
 
 #: admin~user.acl.form.title
 msgctxt "admin~user.acl.form.title"
