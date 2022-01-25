@@ -24,9 +24,7 @@ Updating the list of strings to translate (pot files)
 
 First, you must generate the `.pot` files, from the `.properties` files.
 
-To do it, be sure that you don't have uncommitted changes into your lizmap-web-client
-repository, because the following script will checkout the branch
-corresponding to the current branch of lizmap-locales.
+You must checkout the correct branch in `/path/to/lizmap-web-client/` and check you have a clean git status.
 
 Then you have to execute this command from the web_client directory, by giving the 
 path to the `lizmap-web-client/.jelixlocales.ini` file:
