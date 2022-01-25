@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-01-07 00:44++0100\n"
-"PO-Revision-Date: 2022-01-07 00:44++0100\n"
+"POT-Creation-Date: 2022-01-25 16:29++0100\n"
+"PO-Revision-Date: 2022-01-25 16:29++0100\n"
 "Language: \n"
 
 #: admin~admin.cache.button.remove.repository.cache.confirm.label
@@ -468,7 +468,7 @@ msgstr ""
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.help
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.help"
-msgid "QGIS Server 3.10 or above is required, as well as the Lizmap plugin 3.7.0 or above. If you are using the FCGI server, you can indicate the WMS server URL. Else if you are using Py-Qgis-Server, indicate the URL configured into the Py-Qgis-Server configuration."
+msgid "QGIS Server 3.10 or above is required, as well as the Lizmap plugin 3.7.0 or above. If you are using the FCGI server, you can let empty. Else if you are using Py-Qgis-Server, indicate the URL configured into the Py-Qgis-Server configuration."
 msgstr ""
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
@@ -1009,11 +1009,6 @@ msgstr ""
 #: admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS
 msgctxt "admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS"
 msgid "You don't have access to information about QGIS Server"
-msgstr ""
-
-#: admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL
-msgctxt "admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL"
-msgid "The URL to the API of the Lizmap plugin is not provided into the Lizmap configuration. Reason can be an oversight, or the Lizmap plugin is not installed into QGIS Server."
 msgstr ""
 
 #: admin~admin.server.information.qgis.label

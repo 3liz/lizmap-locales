@@ -8,7 +8,7 @@ pot files must be generated directly from Lizmap properties files.
 
 
 Be sure you have installed Transifex cli, but also PHP-cli and its mbstring extension
-(For example `apt-get install php7.3-cli php7.3-mbstring`). Install also 
+(For example `apt-get install php7.4-cli php7.4-mbstring`). Install also
 [Composer](https://getcomposer.org/), and run `composer install` into
 the `web-client` directory.
 
