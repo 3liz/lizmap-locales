@@ -1,19 +1,19 @@
 # 
 # Translators:
-# etrimaille <gustrimaille@yahoo.fr>, 2021
 # Michael Douchin <kimaidou@gmail.com>, 2021
 # Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2021
 # rldhont <rldhont@gmail.com>, 2021
 # Nicolas Boisteault <nboisteault@gmail.com>, 2021
 # Laurent Jouanneau <dev@ljouanneau.com>, 2021
+# etrimaille <gustrimaille@yahoo.fr>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.4 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-15 15:51++0100\n"
+"POT-Creation-Date: 2022-02-03 16:15++0100\n"
 "PO-Revision-Date: 2021-03-03 17:34+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2021\n"
+"Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2022\n"
 "Language-Team: French (https://www.transifex.com/3liz-1/teams/62012/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -643,6 +643,11 @@ msgstr "Sondage"
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "Une autorisation est nécessaire pour l'export de couche."
+
+#: view~dictionnary.layer.export.unknown.export.error
+msgctxt "view~dictionnary.layer.export.unknown.export.error"
+msgid "The server reported an error 400 during the export of the layer."
+msgstr "Le serveur a renvoyé une erreur 400 pendant l'export de la couche."
 
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
