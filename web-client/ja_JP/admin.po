@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:31++0100\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
 "Last-Translator: 山本　竜三 <ryu@yamakun.net>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/3liz-1/teams/62012/ja/)\n"
@@ -28,18 +28,18 @@ msgstr "キャッシュ‎削除"
 
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
-msgid "The cache for the layer %s has been sucessfully emptied."
-msgstr "‎レイヤのキャッシュ‎%s‎は正常に空にされています。‎"
+msgid "The cache for the layer %s has been successfully emptied."
+msgstr "‎レイヤーのキャッシュ‎%s‎が正常に空にされました。‎"
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
-msgid "The cache for the repository %s has been sucessfully emptied."
-msgstr "リポジトリのキャッシュ‎%s‎は正常に削除されています。‎"
+msgid "The cache for the repository %s has been successfully emptied."
+msgstr "‎リポジトリのキャッシュ‎%s‎が正常に空にされました。‎"
 
 #: admin~admin.config.services.allowUserAccountRequest.noemail
 msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
-"This option cannot be enable while the sender email is not defined. Please "
+"This option cannot be enabled while the sender email is not defined. Please "
 "contact the application administrator."
 msgstr "‎送信者の電子メールが定義されていない場合、このオプションを有効にすることはできません。アプリケーション管理者に問い合わせてください。‎"
 
@@ -271,8 +271,8 @@ msgstr "リポジトリに指定されたパスは承認されていません。
 
 #: admin~admin.form.admin_section.message.path.wrong
 msgctxt "admin~admin.form.admin_section.message.path.wrong"
-msgid "The path given for the repository does not exists on the server."
-msgstr "リポジトリに指定されたパスがサーバー上に存在しません。‎"
+msgid "The path given for the repository does not exist on the server."
+msgstr "‎リポジトリに指定されたパスがサーバー上に存在しません。‎"
 
 #: admin~admin.form.admin_section.message.repository.wrong
 msgctxt "admin~admin.form.admin_section.message.repository.wrong"
@@ -496,15 +496,15 @@ msgstr "Lizmapの設定変更‎"
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.help"
 msgid ""
 "QGIS Server 3.10 or above is required, as well as the Lizmap plugin 3.7.0 or"
-" above. If you are using the FCGI server, you can indicate the WMS server "
-"URL. Else if you are using Py-Qgis-Server, indicate the URL configured into "
-"the Py-Qgis-Server configuration."
+" above. If you are using the FCGI server, you must let empty this field. "
+"Else if you are using Py-Qgis-Server, indicate the URL configured into the "
+"Py-Qgis-Server configuration about the Lizmap plugin URL."
 msgstr ""
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
 msgid "Base URL of the Lizmap plugin API for QGIS Server"
-msgstr ""
+msgstr "‎QGISサーバーのためのLizmapプラグインAPIのベースURL‎"
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
@@ -515,8 +515,8 @@ msgstr "‎サーバー・キャッシュの有効期限は、0 から 2592000 �
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
-msgid "The directory does not exists or is not writable. You can use: %s"
-msgstr "‎ディレクトリが存在しないか、書き込み可能ではありません。次の方法を使用できます。‎%s"
+msgid "The directory does not exist or is not writable. You can use: %s"
+msgstr "‎ディレクトリが存在しないか、書き込み可能ではありません。次の方法を使用できます:‎%s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -1004,12 +1004,12 @@ msgstr "‎テーマ‎"
 #: admin~admin.menu.server.information.label
 msgctxt "admin~admin.menu.server.information.label"
 msgid "Server information"
-msgstr ""
+msgstr "‎サーバー情報‎"
 
 #: admin~admin.menu.server.label
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
@@ -1031,12 +1031,17 @@ msgctxt "admin~admin.server.information.lizmap.label"
 msgid "Lizmap Web Client"
 msgstr "Lizmap Web クライアント"
 
+#: admin~admin.server.information.qgis.commit_id
+msgctxt "admin~admin.server.information.qgis.commit_id"
+msgid "Commit ID"
+msgstr "‎コミット ID‎"
+
 #: admin~admin.server.information.qgis.error.fetching.information
 msgctxt "admin~admin.server.information.qgis.error.fetching.information"
 msgid ""
 "We cannot get the details about your QGIS Server installation (version, "
 "plugins, etc.)."
-msgstr ""
+msgstr "‎QGIS Serverのインストール(バージョン、プラグインなど)に関する詳細を取得することはできません。‎"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail
 msgctxt ""
@@ -1049,38 +1054,27 @@ msgid ""
 "environment variable "
 "https://docs.lizmap.com/current/en/install/pre_requirements.html"
 msgstr ""
-
-#: admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA
-msgctxt ""
-"admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA"
-msgid "The Lizmap plugin API returns bad data. Please check your QGIS Server."
-msgstr ""
+"インストールされているQGIS "
+"Serverのバージョンが3.10未満であるか、Lizmapプラグインがサーバーで検出されないか、3.7.0未満のバージョンでインストールされているかのどちらかです。環境変数https://docs.lizmap.com/current/en/install/pre_requirements.html"
+" についてのドキュメントを参照して、QGIS "
+"Serverを最小3.10にアップグレードし、Lizmapプラグインを最小3.7.0にインストールまたはアップグレードしてください。"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR"
 msgid "QGIS Server returns an HTTP error about the Lizmap plugin:"
-msgstr ""
+msgstr "‎QGISサーバーは、LizmapプラグインについてのHTTPエラーを返します:‎"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS"
 msgid "You don't have access to information about QGIS Server"
-msgstr ""
-
-#: admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL
-msgctxt ""
-"admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL"
-msgid ""
-"The URL to the API of the Lizmap plugin is not provided into the Lizmap "
-"configuration. Reason can be an oversight, or the Lizmap plugin is not "
-"installed into QGIS Server."
-msgstr ""
+msgstr "‎QGISサーバーに関する情報にアクセスできない‎"
 
 #: admin~admin.server.information.qgis.label
 msgctxt "admin~admin.server.information.qgis.label"
 msgid "QGIS Server"
-msgstr ""
+msgstr "‎QGISサーバー‎"
 
 #: admin~admin.server.information.qgis.metadata
 msgctxt "admin~admin.server.information.qgis.metadata"
@@ -1095,7 +1089,7 @@ msgstr "‎名前‎"
 #: admin~admin.server.information.qgis.plugins
 msgctxt "admin~admin.server.information.qgis.plugins"
 msgid "Plugins"
-msgstr ""
+msgstr "‎プラグイン‎"
 
 #: admin~admin.server.information.qgis.plugins.version
 msgctxt "admin~admin.server.information.qgis.plugins.version"
@@ -1107,19 +1101,19 @@ msgctxt "admin~admin.server.information.qgis.test.error"
 msgid ""
 "QGIS Server is not correctly installed in your server or the URL for OGC "
 "requests given in Lizmap configuration is not correct."
-msgstr ""
+msgstr "‎QGISサーバーが正しくインストールされていない、またはLizmapの設定で与えられたOGC要求のURLが正しくありません。‎"
 
 #: admin~admin.server.information.qgis.test.ok
 msgctxt "admin~admin.server.information.qgis.test.ok"
 msgid ""
 "QGIS Server is correctly installed and returns the expected response for OGC"
 " requests."
-msgstr ""
+msgstr "‎QGISサーバーが正しくインストールされ、OGC要求に対して期待される応答を返します。‎"
 
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
-msgstr ""
+msgstr "Number"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
@@ -1168,7 +1162,7 @@ msgstr "‎アップロードされたファイルは部分的にしかアップ
 
 #: admin~admin.upload.image.error.file.save
 msgctxt "admin~admin.upload.image.error.file.save"
-msgid "An error occured during the save"
+msgid "An error occurred during the save"
 msgstr "‎保存中にエラーが発生しました‎"
 
 #: admin~admin.upload.image.error.file.wrongType

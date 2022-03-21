@@ -3,15 +3,15 @@
 # Petr Tsymbarovich <petr@tsymbarovich.ru>, 2021
 # rldhont <rldhont@gmail.com>, 2021
 # Laurent Jouanneau <dev@ljouanneau.com>, 2021
-# Кадастр Муниципальный, 2021
+# Кадастр Муниципальный, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:31++0100\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
-"Last-Translator: Кадастр Муниципальный, 2021\n"
+"Last-Translator: Кадастр Муниципальный, 2022\n"
 "Language-Team: Russian (https://www.transifex.com/3liz-1/teams/62012/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -344,7 +344,7 @@ msgstr "Вы уверены, что хотите удалить все функ�
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
 msgid "Box"
-msgstr "Квадрат"
+msgstr "Прямоугольник"
 
 #: view~dictionnary.digitizing.toolbar.circle
 msgctxt "view~dictionnary.digitizing.toolbar.circle"
@@ -442,10 +442,10 @@ msgstr ""
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
+"You cannot save this object without a geometry. Please draw the geometry on "
+"the map."
 msgstr ""
-"Нельзя сохранить объект без геометрии. Пожалуйста, нарисуйте геометрию на "
+"Вы не можете сохранить этот объект без геометрии. Нарисуйте геометрию на "
 "карте."
 
 #: view~dictionnary.edition.point.coord.crs.layer
@@ -642,6 +642,11 @@ msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "Не хватает прав для экспорта слоя."
 
+#: view~dictionnary.layer.export.unknown.export.error
+msgctxt "view~dictionnary.layer.export.unknown.export.error"
+msgid "The server reported an error 400 during the export of the layer."
+msgstr "Сервер сообщил об ошибке 400 при экспорте слоя."
+
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
 msgid "Export"
@@ -779,8 +784,8 @@ msgstr "Объекты в этом местоположении не найде�
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
-msgid "Click to the map to get informations."
-msgstr "Щелкните карту, чтобы получить информацию."
+msgid "Click to the map to get information."
+msgstr ""
 
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
@@ -875,7 +880,7 @@ msgstr "Перекрестное соединение"
 #: view~dictionnary.selectiontool.toolbar.geomOperator.disjoint
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.disjoint"
 msgid "Disjoint"
-msgstr "Разделены"
+msgstr "Не пересекает"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.intersects
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.intersects"
@@ -1064,8 +1069,8 @@ msgstr "Изменить форму"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
-msgid "Reverse geom"
-msgstr "Обратить геометрию"
+msgid "Reverse the geometry"
+msgstr ""
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1106,8 +1111,8 @@ msgstr "Создание обьекта для слоя \"%s\" невозмож�
 
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
-msgstr "Указанных полей не существует."
+msgid "Given fields do not exist."
+msgstr ""
 
 #: view~edition.link.error.no.modify.attributes
 msgctxt "view~edition.link.error.no.modify.attributes"
@@ -1116,18 +1121,18 @@ msgstr "Изменение атрибутов для слоя \"%s\" недос�
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
-msgstr "Для слоев не настроено отображение таблицы атрибутов."
+msgid "The layers have not been configured to have an attribute table."
+msgstr ""
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
-msgstr "Произошла ошибка при добавлении связанных данных."
+msgid "An error occurred while adding linked data."
+msgstr ""
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
-msgstr "Слой не существует."
+msgid "The layer does not exist."
+msgstr ""
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
@@ -1137,7 +1142,7 @@ msgstr "Выбранные обьекты были правильно связа
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"
 msgid "The bbox has to be 4 floats separated by ','."
-msgstr "The bbox has to be 4 floats separated by ','."
+msgstr "Bbox должен состоять из 4 чисел, разделенных ','."
 
 #: view~edition.message.error.constraint
 msgctxt "view~edition.message.error.constraint"
@@ -1146,8 +1151,8 @@ msgstr "%s: проверка не удалась"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
-msgstr "При создании объекта произошла ошибка."
+msgid "An error occurred while creating the object."
+msgstr ""
 
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
@@ -1441,8 +1446,8 @@ msgstr "Публикация"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
-msgstr "При удалении ссылки произошла ошибка."
+msgid "An error occurred while removing link."
+msgstr ""
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
@@ -2027,9 +2032,9 @@ msgstr "Город"
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
 msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
-msgstr "Пожалуйста, укажите коротко причину регистрации."
+"Please write a small text to explain why you would like to have access to "
+"the maps."
+msgstr ""
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

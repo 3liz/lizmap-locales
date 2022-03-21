@@ -2,15 +2,15 @@
 # Translators:
 # Tudor Bărăscu <tudorbarascu@yahoo.com>, 2021
 # Laurent Jouanneau <dev@ljouanneau.com>, 2021
-# Igor Sorocean <sorocean.igor@gmail.com>, 2021
+# Igor Sorocean <sorocean.igor@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:31++0100\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
-"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2021\n"
+"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2022\n"
 "Language-Team: Romanian (https://www.transifex.com/3liz-1/teams/62012/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -71,7 +71,7 @@ msgstr "Extindere"
 #: view~default.project.close.map.metadata
 msgctxt "view~default.project.close.map.metadata"
 msgid "Close"
-msgstr "Se închide"
+msgstr "Închide"
 
 #: view~default.project.keywordList.label
 msgctxt "view~default.project.keywordList.label"
@@ -136,7 +136,7 @@ msgstr "Anterior"
 #: view~dictionnary.atlas.toolbar.stop
 msgctxt "view~dictionnary.atlas.toolbar.stop"
 msgid "Stop"
-msgstr "Oprire"
+msgstr "Închide"
 
 #: view~dictionnary.atlas.toolbar.title
 msgctxt "view~dictionnary.atlas.toolbar.title"
@@ -443,10 +443,10 @@ msgstr ""
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
+"You cannot save this object without a geometry. Please draw the geometry on "
+"the map."
 msgstr ""
-"Nu puteți salva acest obiect fără o geometrie. Desenați geometria pe hartă."
+"Nu poți salva acest obiect fără o geometrie. Desenează geometria pe hartă."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -565,7 +565,7 @@ msgstr "obiecte"
 #: view~dictionnary.generic.btn.close.title
 msgctxt "view~dictionnary.generic.btn.close.title"
 msgid "Close"
-msgstr "Se închide"
+msgstr "Închide"
 
 #: view~dictionnary.geobookmark.confirm.delete
 msgctxt "view~dictionnary.geobookmark.confirm.delete"
@@ -600,7 +600,7 @@ msgstr "Pornire"
 #: view~dictionnary.geolocate.toolbar.stop
 msgctxt "view~dictionnary.geolocate.toolbar.stop"
 msgid "Stop"
-msgstr "Oprire"
+msgstr "Închide"
 
 #: view~dictionnary.geolocate.toolbar.waiting
 msgctxt "view~dictionnary.geolocate.toolbar.waiting"
@@ -641,6 +641,11 @@ msgstr "Studiu"
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "Este necesară permisiune pentru a exporta stratul."
+
+#: view~dictionnary.layer.export.unknown.export.error
+msgctxt "view~dictionnary.layer.export.unknown.export.error"
+msgid "The server reported an error 400 during the export of the layer."
+msgstr "Serverul a raportat o eroare 400 în timpul exportului stratului."
 
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
@@ -779,7 +784,7 @@ msgstr "Nu a fost găsit niciun obiect în această locație."
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
-msgid "Click to the map to get informations."
+msgid "Click to the map to get information."
 msgstr "Faceți clic pe hartă pentru a obține informații."
 
 #: view~dictionnary.popup.table.compact
@@ -960,7 +965,7 @@ msgstr "Redare"
 #: view~dictionnary.toolbar.content.stop
 msgctxt "view~dictionnary.toolbar.content.stop"
 msgid "Stop"
-msgstr "Oprire"
+msgstr "Închide"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -1015,7 +1020,7 @@ msgstr "După ce a fost salvat"
 #: view~edition.form.btn.clear.title
 msgctxt "view~edition.form.btn.clear.title"
 msgid "Close"
-msgstr "Se închide"
+msgstr "Închide"
 
 #: view~edition.form.cancel.confirm.message
 msgctxt "view~edition.form.cancel.confirm.message"
@@ -1064,8 +1069,8 @@ msgstr "Remodelare"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
-msgid "Reverse geom"
-msgstr "Inversare geometrie"
+msgid "Reverse the geometry"
+msgstr "Inversarea geometriei"
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1107,7 +1112,7 @@ msgstr "Crearea obiectelor pentru stratul „%s” nu este disponibilă."
 
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
+msgid "Given fields do not exist."
 msgstr "Câmpurile date nu există."
 
 #: view~edition.link.error.no.modify.attributes
@@ -1117,17 +1122,17 @@ msgstr "Modificarea atributelor pentru stratul „%s” nu este disponibilă."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
-msgstr "Straturile nu au fost configurate pentru a avea o tabelă de atribute."
+msgid "The layers have not been configured to have an attribute table."
+msgstr "Straturile nu au fost configurate să aibă un tabel de atribute."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
+msgid "An error occurred while adding linked data."
 msgstr "A apărut o eroare la adăugarea datelor conectate."
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
+msgid "The layer does not exist."
 msgstr "Stratul nu există."
 
 #: view~edition.link.success
@@ -1147,7 +1152,7 @@ msgstr "%s: verificarea nu a reușit"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
+msgid "An error occurred while creating the object."
 msgstr "A apărut o eroare la crearea obiectului."
 
 #: view~edition.message.error.crs
@@ -1442,7 +1447,7 @@ msgstr "Editare"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
+msgid "An error occurred while removing link."
 msgstr "A apărut o eroare la eliminarea legăturii."
 
 #: view~edition.unlink.success
@@ -1498,7 +1503,7 @@ msgstr "Harta de bază"
 #: view~map.bottomdock.toolbar.btn.clear.title
 msgctxt "view~map.bottomdock.toolbar.btn.clear.title"
 msgid "Close"
-msgstr "Se închide"
+msgstr "Închide"
 
 #: view~map.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~map.bottomdock.toolbar.btn.glue.activate.title"
@@ -1738,12 +1743,12 @@ msgstr "Revenire la dimensiunea inițială a hărții"
 #: view~map.navbar.zoomin.hover
 msgctxt "view~map.navbar.zoomin.hover"
 msgid "Zoom in"
-msgstr "Mărire"
+msgstr "Mărește"
 
 #: view~map.navbar.zoomout.hover
 msgctxt "view~map.navbar.zoomout.hover"
 msgid "Zoom out"
-msgstr "Micșorare"
+msgstr "Micșorează"
 
 #: view~map.overviewbar.scaleline.hover
 msgctxt "view~map.overviewbar.scaleline.hover"
@@ -1943,12 +1948,12 @@ msgstr "Zoom pe strat"
 #: view~map.switcher.layers.collapse.title
 msgctxt "view~map.switcher.layers.collapse.title"
 msgid "Collapse all"
-msgstr "Restrângeți toate"
+msgstr "Restrânge toate"
 
 #: view~map.switcher.layers.expand.title
 msgctxt "view~map.switcher.layers.expand.title"
 msgid "Expand all"
-msgstr "Extindeți toate"
+msgstr "Extinde toate"
 
 #: view~map.switchermenu.title
 msgctxt "view~map.switchermenu.title"
@@ -1998,7 +2003,7 @@ msgstr "Qgis Server Demo"
 #: view~map.toolbar.content.stop
 msgctxt "view~map.toolbar.content.stop"
 msgid "Stop"
-msgstr "Oprire"
+msgstr "Închide"
 
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
@@ -2028,10 +2033,11 @@ msgstr "Oraș"
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
 msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
+"Please write a small text to explain why you would like to have access to "
+"the maps."
 msgstr ""
-"Vă rugăm să descrieți pe scurt de ce ați dori să aveți acces la hărți."
+"Vă rugăm să scrieți un mic text pentru a explica de ce ați dori să aveți "
+"acces la hărți."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

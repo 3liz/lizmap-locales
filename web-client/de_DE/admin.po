@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:31++0100\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>, 2022\n"
 "Language-Team: German (https://www.transifex.com/3liz-1/teams/62012/de/)\n"
@@ -33,22 +33,20 @@ msgstr "Cache leeren"
 
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
-msgid "The cache for the layer %s has been sucessfully emptied."
-msgstr "Der Cache für den Layer %s wurde erfolgreich geleert."
+msgid "The cache for the layer %s has been successfully emptied."
+msgstr ""
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
-msgid "The cache for the repository %s has been sucessfully emptied."
-msgstr "Der Cache für das Verzeichnis %s wurde erfolgreich geleert."
+msgid "The cache for the repository %s has been successfully emptied."
+msgstr ""
 
 #: admin~admin.config.services.allowUserAccountRequest.noemail
 msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
-"This option cannot be enable while the sender email is not defined. Please "
+"This option cannot be enabled while the sender email is not defined. Please "
 "contact the application administrator."
 msgstr ""
-"Diese Option kann nicht aktiviert werden, solange keine Absender-E-Mail-"
-"Adresse angegeben ist. Bitte kontaktieren Sie den Administrator."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -280,9 +278,8 @@ msgstr "Der für das Verzeichnis angegebene Pfad ist nicht authentifiziert."
 
 #: admin~admin.form.admin_section.message.path.wrong
 msgctxt "admin~admin.form.admin_section.message.path.wrong"
-msgid "The path given for the repository does not exists on the server."
+msgid "The path given for the repository does not exist on the server."
 msgstr ""
-"Der angegebene Pfad für das Verzeichnis existiert nicht auf dem Server."
 
 #: admin~admin.form.admin_section.message.repository.wrong
 msgctxt "admin~admin.form.admin_section.message.repository.wrong"
@@ -522,9 +519,9 @@ msgstr "Lizmaps allgemeine Konfiguration anpassen"
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.help"
 msgid ""
 "QGIS Server 3.10 or above is required, as well as the Lizmap plugin 3.7.0 or"
-" above. If you are using the FCGI server, you can indicate the WMS server "
-"URL. Else if you are using Py-Qgis-Server, indicate the URL configured into "
-"the Py-Qgis-Server configuration."
+" above. If you are using the FCGI server, you must let empty this field. "
+"Else if you are using Py-Qgis-Server, indicate the URL configured into the "
+"Py-Qgis-Server configuration about the Lizmap plugin URL."
 msgstr ""
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
@@ -543,10 +540,8 @@ msgstr ""
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
-msgid "The directory does not exists or is not writable. You can use: %s"
+msgid "The directory does not exist or is not writable. You can use: %s"
 msgstr ""
-"Das Verzeichnis existiert nicht oder ist nicht beschreibbar. Verwenden Sie "
-"stattdessen: %s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -1064,6 +1059,11 @@ msgctxt "admin~admin.server.information.lizmap.label"
 msgid "Lizmap Web Client"
 msgstr "Lizmap Webanwendung"
 
+#: admin~admin.server.information.qgis.commit_id
+msgctxt "admin~admin.server.information.qgis.commit_id"
+msgid "Commit ID"
+msgstr ""
+
 #: admin~admin.server.information.qgis.error.fetching.information
 msgctxt "admin~admin.server.information.qgis.error.fetching.information"
 msgid ""
@@ -1083,12 +1083,6 @@ msgid ""
 "https://docs.lizmap.com/current/en/install/pre_requirements.html"
 msgstr ""
 
-#: admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA
-msgctxt ""
-"admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA"
-msgid "The Lizmap plugin API returns bad data. Please check your QGIS Server."
-msgstr ""
-
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR"
@@ -1099,15 +1093,6 @@ msgstr ""
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS"
 msgid "You don't have access to information about QGIS Server"
-msgstr ""
-
-#: admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL
-msgctxt ""
-"admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL"
-msgid ""
-"The URL to the API of the Lizmap plugin is not provided into the Lizmap "
-"configuration. Reason can be an oversight, or the Lizmap plugin is not "
-"installed into QGIS Server."
 msgstr ""
 
 #: admin~admin.server.information.qgis.label
@@ -1201,8 +1186,8 @@ msgstr "Die hochgeladene Datei wurde nur teilweise hochgeladen"
 
 #: admin~admin.upload.image.error.file.save
 msgctxt "admin~admin.upload.image.error.file.save"
-msgid "An error occured during the save"
-msgstr "Es ist ein Fehler beim Speichern aufgetreten"
+msgid "An error occurred during the save"
+msgstr ""
 
 #: admin~admin.upload.image.error.file.wrongType
 msgctxt "admin~admin.upload.image.error.file.wrongType"

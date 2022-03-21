@@ -3,15 +3,15 @@
 # rldhont <rldhont@gmail.com>, 2021
 # Rasmus Johansson <rasmus@demosgis.net>, 2021
 # Laurent Jouanneau <dev@ljouanneau.com>, 2021
-# Mats Elfström <mats.elfstrom@giskraft.se>, 2021
+# Mats Elfström <mats.elfstrom@giskraft.se>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:31++0100\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
-"Last-Translator: Mats Elfström <mats.elfstrom@giskraft.se>, 2021\n"
+"Last-Translator: Mats Elfström <mats.elfstrom@giskraft.se>, 2022\n"
 "Language-Team: Swedish (Sweden) (https://www.transifex.com/3liz-1/teams/62012/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -444,10 +444,10 @@ msgstr ""
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
+"You cannot save this object without a geometry. Please draw the geometry on "
+"the map."
 msgstr ""
-"Du kan inte spara detta objekt utan en geometri. Rita ut geometrin på "
+"Du kan inte spara detta objekt utan en geometri. Vänligen rita geometrin på "
 "kartan."
 
 #: view~dictionnary.edition.point.coord.crs.layer
@@ -644,6 +644,11 @@ msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "Man måste ha rättigheter för att exportera lager."
 
+#: view~dictionnary.layer.export.unknown.export.error
+msgctxt "view~dictionnary.layer.export.unknown.export.error"
+msgid "The server reported an error 400 during the export of the layer."
+msgstr ""
+
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
 msgid "Export"
@@ -781,8 +786,8 @@ msgstr "Inget objekt hittades på denna plats"
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
-msgid "Click to the map to get informations."
-msgstr "Klicka på kartan för att hämta information"
+msgid "Click to the map to get information."
+msgstr ""
 
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
@@ -1066,8 +1071,8 @@ msgstr "Omforma"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
-msgid "Reverse geom"
-msgstr "Vänd geometri"
+msgid "Reverse the geometry"
+msgstr ""
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1108,8 +1113,8 @@ msgstr "Det går inte att skapa objekt i lagret %s."
 
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
-msgstr "Angivna fält finns inte."
+msgid "Given fields do not exist."
+msgstr ""
 
 #: view~edition.link.error.no.modify.attributes
 msgctxt "view~edition.link.error.no.modify.attributes"
@@ -1118,18 +1123,18 @@ msgstr "Det går inte att ändra attribut i lagret %s."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
-msgstr "Lagret har ej konfigurerats att ha en attributtabell."
+msgid "The layers have not been configured to have an attribute table."
+msgstr ""
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
-msgstr "Ett fel uppstod när länkad data lades till."
+msgid "An error occurred while adding linked data."
+msgstr ""
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
-msgstr "Lagret existerar ej."
+msgid "The layer does not exist."
+msgstr ""
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
@@ -1148,8 +1153,8 @@ msgstr "%s: check misslyckades"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
-msgstr "Ett fel uppstod vid skapandet av objektet."
+msgid "An error occurred while creating the object."
+msgstr ""
 
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
@@ -1440,8 +1445,8 @@ msgstr "Redigering"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
-msgstr "Ett fel uppstod vid borttagning av länk."
+msgid "An error occurred while removing link."
+msgstr ""
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
@@ -2026,11 +2031,9 @@ msgstr "Stad"
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
 msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
+"Please write a small text to explain why you would like to have access to "
+"the maps."
 msgstr ""
-"Skriv in en kort text som förklarar varför du vill ha tillgång till "
-"kartorna."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

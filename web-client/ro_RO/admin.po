@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:31++0100\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2022\n"
 "Language-Team: Romanian (https://www.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -30,22 +30,22 @@ msgstr "Golește cache-ul"
 
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
-msgid "The cache for the layer %s has been sucessfully emptied."
+msgid "The cache for the layer %s has been successfully emptied."
 msgstr "Cache-ul pentru stratul %s a fost golit cu succes."
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
-msgid "The cache for the repository %s has been sucessfully emptied."
+msgid "The cache for the repository %s has been successfully emptied."
 msgstr "Cache-ul pentru depozitul de date %s a fost golit cu succes."
 
 #: admin~admin.config.services.allowUserAccountRequest.noemail
 msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
-"This option cannot be enable while the sender email is not defined. Please "
+"This option cannot be enabled while the sender email is not defined. Please "
 "contact the application administrator."
 msgstr ""
 "Această opțiune nu poate fi activată în timp ce e-mailul expeditorului nu "
-"este definit. Contactați administratorul aplicației."
+"este definit. Contactează administratorul aplicației."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -276,7 +276,7 @@ msgstr "Calea dată pentru depozitul de date nu este autorizată"
 
 #: admin~admin.form.admin_section.message.path.wrong
 msgctxt "admin~admin.form.admin_section.message.path.wrong"
-msgid "The path given for the repository does not exists on the server."
+msgid "The path given for the repository does not exist on the server."
 msgstr "Calea dată pentru depozitul de date nu există pe server."
 
 #: admin~admin.form.admin_section.message.repository.wrong
@@ -511,15 +511,15 @@ msgstr "Modifică configurația generică Lizmap"
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.help"
 msgid ""
 "QGIS Server 3.10 or above is required, as well as the Lizmap plugin 3.7.0 or"
-" above. If you are using the FCGI server, you can indicate the WMS server "
-"URL. Else if you are using Py-Qgis-Server, indicate the URL configured into "
-"the Py-Qgis-Server configuration."
+" above. If you are using the FCGI server, you must let empty this field. "
+"Else if you are using Py-Qgis-Server, indicate the URL configured into the "
+"Py-Qgis-Server configuration about the Lizmap plugin URL."
 msgstr ""
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
 msgid "Base URL of the Lizmap plugin API for QGIS Server"
-msgstr ""
+msgstr "Adresa URL de bază a API-ului pluginului Lizmap pentru QGIS Server"
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
@@ -532,8 +532,8 @@ msgstr ""
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
-msgid "The directory does not exists or is not writable. You can use: %s"
-msgstr "Acest director nu există sau nu aveți dreptul de a salva în el"
+msgid "The directory does not exist or is not writable. You can use: %s"
+msgstr "Directorul nu există sau nu poate fi scris. Poți utiliza: %s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -1033,12 +1033,12 @@ msgstr "Temă"
 #: admin~admin.menu.server.information.label
 msgctxt "admin~admin.menu.server.information.label"
 msgid "Server information"
-msgstr ""
+msgstr "Informații server"
 
 #: admin~admin.menu.server.label
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
@@ -1060,12 +1060,19 @@ msgctxt "admin~admin.server.information.lizmap.label"
 msgid "Lizmap Web Client"
 msgstr "Lizmap Web Client"
 
+#: admin~admin.server.information.qgis.commit_id
+msgctxt "admin~admin.server.information.qgis.commit_id"
+msgid "Commit ID"
+msgstr "Commit ID"
+
 #: admin~admin.server.information.qgis.error.fetching.information
 msgctxt "admin~admin.server.information.qgis.error.fetching.information"
 msgid ""
 "We cannot get the details about your QGIS Server installation (version, "
 "plugins, etc.)."
 msgstr ""
+"Nu putem obține detalii despre instalarea dvs. QGIS Server (versiune, "
+"plugin-uri etc.)."
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail
 msgctxt ""
@@ -1078,38 +1085,28 @@ msgid ""
 "environment variable "
 "https://docs.lizmap.com/current/en/install/pre_requirements.html"
 msgstr ""
-
-#: admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA
-msgctxt ""
-"admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA"
-msgid "The Lizmap plugin API returns bad data. Please check your QGIS Server."
-msgstr ""
+"Fie versiunea serverului QGIS instalat este sub 3.10, fie plugin-ul Lizmap "
+"nu este detectat pe serverul dvs., fie este instalat cu o versiune sub "
+"3.7.0. Actualizați QGIS Server la minim 3.10 și instalați sau actualizați "
+"plugin-ul Lizmap la minimum 3.7.0 citind documentația despre variabila de "
+"mediu https://docs.lizmap.com/current/en/install/pre_requirements.html"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR"
 msgid "QGIS Server returns an HTTP error about the Lizmap plugin:"
-msgstr ""
+msgstr "Serverul QGIS returnează o eroare HTTP despre plugin-ul Lizmap:"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS"
 msgid "You don't have access to information about QGIS Server"
-msgstr ""
-
-#: admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL
-msgctxt ""
-"admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL"
-msgid ""
-"The URL to the API of the Lizmap plugin is not provided into the Lizmap "
-"configuration. Reason can be an oversight, or the Lizmap plugin is not "
-"installed into QGIS Server."
-msgstr ""
+msgstr "Lipsește accesul la informațiile despre Serverul QGIS"
 
 #: admin~admin.server.information.qgis.label
 msgctxt "admin~admin.server.information.qgis.label"
 msgid "QGIS Server"
-msgstr ""
+msgstr "Server QGIS"
 
 #: admin~admin.server.information.qgis.metadata
 msgctxt "admin~admin.server.information.qgis.metadata"
@@ -1124,7 +1121,7 @@ msgstr "Nume"
 #: admin~admin.server.information.qgis.plugins
 msgctxt "admin~admin.server.information.qgis.plugins"
 msgid "Plugins"
-msgstr ""
+msgstr "Plugin-uri"
 
 #: admin~admin.server.information.qgis.plugins.version
 msgctxt "admin~admin.server.information.qgis.plugins.version"
@@ -1137,6 +1134,8 @@ msgid ""
 "QGIS Server is not correctly installed in your server or the URL for OGC "
 "requests given in Lizmap configuration is not correct."
 msgstr ""
+"Serverul QGIS nu este instalat corect pe serverul dvs. sau adresa URL pentru"
+" solicitările OGC furnizată în configurația Lizmap nu este corectă."
 
 #: admin~admin.server.information.qgis.test.ok
 msgctxt "admin~admin.server.information.qgis.test.ok"
@@ -1144,11 +1143,13 @@ msgid ""
 "QGIS Server is correctly installed and returns the expected response for OGC"
 " requests."
 msgstr ""
+"Serverul QGIS este instalat corect și returnează răspunsul așteptat pentru "
+"solicitările OGC."
 
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
-msgstr ""
+msgstr "Număr"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
@@ -1197,7 +1198,7 @@ msgstr "Fișierul încărcat a fost încărcat doar parțial"
 
 #: admin~admin.upload.image.error.file.save
 msgctxt "admin~admin.upload.image.error.file.save"
-msgid "An error occured during the save"
+msgid "An error occurred during the save"
 msgstr "A apărut o eroare în timpul salvării"
 
 #: admin~admin.upload.image.error.file.wrongType

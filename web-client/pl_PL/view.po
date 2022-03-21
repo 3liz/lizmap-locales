@@ -2,15 +2,15 @@
 # Translators:
 # rldhont <rldhont@gmail.com>, 2021
 # Laurent Jouanneau <dev@ljouanneau.com>, 2021
-# Sławomir Bienias <slawomir.bienias@gmail.com>, 2021
+# Sławomir Bienias <slawomir.bienias@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:31++0100\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
-"Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>, 2021\n"
+"Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>, 2022\n"
 "Language-Team: Polish (Poland) (https://www.transifex.com/3liz-1/teams/62012/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -443,11 +443,11 @@ msgstr ""
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
+"You cannot save this object without a geometry. Please draw the geometry on "
+"the map."
 msgstr ""
-"Nie możesz zapisać tego obiektu bez geometrii. Proszę wrysować geometrię na "
-"mapę."
+"Nie można zapisać tego obiektu bez geometrii. Proszę narysować geometrię na "
+"mapie."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -506,7 +506,7 @@ msgstr "Dane mapy"
 #: view~dictionnary.externalsearch.noquery
 msgctxt "view~dictionnary.externalsearch.noquery"
 msgid "Search query is empty"
-msgstr ""
+msgstr "Zapytanie jest puste"
 
 #: view~dictionnary.externalsearch.notfound
 msgctxt "view~dictionnary.externalsearch.notfound"
@@ -642,6 +642,11 @@ msgstr "Badanie"
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "Wymagane są uprawnienia, aby dokonać eksportu warstwy."
+
+#: view~dictionnary.layer.export.unknown.export.error
+msgctxt "view~dictionnary.layer.export.unknown.export.error"
+msgid "The server reported an error 400 during the export of the layer."
+msgstr "Serwer zgłosił błąd 400 podczas eksportu warstwy."
 
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
@@ -780,8 +785,8 @@ msgstr "Nie znaleziono żadnych obiektów w tym miejscu."
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
-msgid "Click to the map to get informations."
-msgstr "Kliknij na mapie, by uzyskać informacje"
+msgid "Click to the map to get information."
+msgstr "Kliknij na mapę, aby uzyskać informacje."
 
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
@@ -1065,7 +1070,7 @@ msgstr "Zmień kształt"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
-msgid "Reverse geom"
+msgid "Reverse the geometry"
 msgstr "Odwróć geometrię"
 
 #: view~edition.geomtool.rotate.title
@@ -1108,7 +1113,7 @@ msgstr "Utworzenie obiektu dla warstwy \"%s\" nie jest dostępne."
 
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
+msgid "Given fields do not exist."
 msgstr "Podane pola nie istnieją."
 
 #: view~edition.link.error.no.modify.attributes
@@ -1118,19 +1123,18 @@ msgstr "Modyfikowanie atrybutów dla warstwy \"%s\" nie jest dostępne."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
+msgid "The layers have not been configured to have an attribute table."
 msgstr ""
-"Warstwy nie zostały skonfigurowane tak, aby można było pracować na tabelach "
-"atrybutów."
+"Warstwy nie zostały skonfigurowane tak, aby posiadały tabelę atrybutów."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
-msgstr "Napotkano błąd podczas łączenia danych."
+msgid "An error occurred while adding linked data."
+msgstr "Wystąpił błąd podczas dodawania połączonych danych."
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
+msgid "The layer does not exist."
 msgstr "Warstwa nie istnieje."
 
 #: view~edition.link.success
@@ -1150,7 +1154,7 @@ msgstr "%s: sprawdzenie nie powiodło się"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
+msgid "An error occurred while creating the object."
 msgstr "Napotkano błąd podczas tworzenia obiektu."
 
 #: view~edition.message.error.crs
@@ -1440,7 +1444,7 @@ msgstr "Edycja"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
+msgid "An error occurred while removing link."
 msgstr "Napotkano błąd podczas usuwania połączenia."
 
 #: view~edition.unlink.success
@@ -2026,8 +2030,8 @@ msgstr "Miasto"
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
 msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
+"Please write a small text to explain why you would like to have access to "
+"the maps."
 msgstr "Proszę, napisz krótki tekst dlaczego chcesz mieć dostęp do map."
 
 #: view~user.form.comment.label

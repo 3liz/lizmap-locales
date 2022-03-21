@@ -3,15 +3,15 @@
 # João Gaspar <joao.f.r.gaspar@gmail.com>, 2021
 # rldhont <rldhont@gmail.com>, 2021
 # Laurent Jouanneau <dev@ljouanneau.com>, 2021
-# José Macau <jose.macau@gmail.com>, 2021
+# José Macau <jose.macau@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:31++0100\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
-"Last-Translator: José Macau <jose.macau@gmail.com>, 2021\n"
+"Last-Translator: José Macau <jose.macau@gmail.com>, 2022\n"
 "Language-Team: Portuguese (https://www.transifex.com/3liz-1/teams/62012/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -445,10 +445,11 @@ msgstr ""
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
+"You cannot save this object without a geometry. Please draw the geometry on "
+"the map."
 msgstr ""
-"Não é possível gravar objetos sem geometria. Desenhar a geometria no mapa."
+"Não é possível guardar este objeto sem geometria. Desenhar a respetiva "
+"geometria no mapa."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -644,6 +645,11 @@ msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "É necessária permissão para exportar a camada."
 
+#: view~dictionnary.layer.export.unknown.export.error
+msgctxt "view~dictionnary.layer.export.unknown.export.error"
+msgid "The server reported an error 400 during the export of the layer."
+msgstr "O servidor reportou o erro 400 durante a exportação da camada."
+
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
 msgid "Export"
@@ -781,8 +787,8 @@ msgstr "Local sem informação."
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
-msgid "Click to the map to get informations."
-msgstr "Clicar no mapa para obter informações."
+msgid "Click to the map to get information."
+msgstr ""
 
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
@@ -1066,8 +1072,8 @@ msgstr "Redesenhar"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
-msgid "Reverse geom"
-msgstr "Inverter geometria."
+msgid "Reverse the geometry"
+msgstr ""
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1109,8 +1115,8 @@ msgstr "Criar elemento para a camada \"%s\" não está disponível."
 
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
-msgstr "Os campos fornecidos não existem."
+msgid "Given fields do not exist."
+msgstr ""
 
 #: view~edition.link.error.no.modify.attributes
 msgctxt "view~edition.link.error.no.modify.attributes"
@@ -1119,18 +1125,18 @@ msgstr "Modificar atributos para a camada \"%s\" não está disponível."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
-msgstr "As camadas não foram configuradas para mostrar a tabela de atributos."
+msgid "The layers have not been configured to have an attribute table."
+msgstr ""
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
-msgstr "Ocorreu um erro ao adicionar dados ligados."
+msgid "An error occurred while adding linked data."
+msgstr ""
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
-msgstr "A camada não existe."
+msgid "The layer does not exist."
+msgstr ""
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
@@ -1149,8 +1155,8 @@ msgstr "%s: verificação falhou"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
-msgstr "Ocorreu um erro ao criar o objeto."
+msgid "An error occurred while creating the object."
+msgstr ""
 
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
@@ -1443,8 +1449,8 @@ msgstr "Edição"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
-msgstr "Ocorreu um erro ao remover a ligação."
+msgid "An error occurred while removing link."
+msgstr ""
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
@@ -2029,11 +2035,9 @@ msgstr "Cidade"
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
 msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
+"Please write a small text to explain why you would like to have access to "
+"the maps."
 msgstr ""
-"Escrever um pequeno texto a explicar por que gostaria de ter acesso aos "
-"mapas."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

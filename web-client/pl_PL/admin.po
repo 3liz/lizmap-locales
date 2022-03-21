@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:31++0100\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
 "Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>, 2022\n"
 "Language-Team: Polish (Poland) (https://www.transifex.com/3liz-1/teams/62012/pl_PL/)\n"
@@ -30,22 +30,22 @@ msgstr "Wyczyść pamięć podręczną"
 
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
-msgid "The cache for the layer %s has been sucessfully emptied."
+msgid "The cache for the layer %s has been successfully emptied."
 msgstr "Pamięć podręczna dla warstwy %s została pomyślnie wyczyszczona."
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
-msgid "The cache for the repository %s has been sucessfully emptied."
-msgstr "Pamięć podręczna dla repozytorium %s została pomyślnie usunięta."
+msgid "The cache for the repository %s has been successfully emptied."
+msgstr "Pamięć podręczna repozytorium %s została pomyślnie wyczyszczona."
 
 #: admin~admin.config.services.allowUserAccountRequest.noemail
 msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
-"This option cannot be enable while the sender email is not defined. Please "
+"This option cannot be enabled while the sender email is not defined. Please "
 "contact the application administrator."
 msgstr ""
-"Ta opcja nie może być włączona, jeśli nie jest zdefiniowany adres e-mail "
-"wysyłającego. Proszę skontaktować się z administratorem aplikacji."
+"Tej opcji nie można włączyć, gdy nie jest zdefiniowany e-mail nadawcy. "
+"Należy skontaktować się z administratorem aplikacji."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -176,7 +176,7 @@ msgstr "Adresy e-mail"
 #: admin~admin.configuration.services.section.features.label
 msgctxt "admin~admin.configuration.services.section.features.label"
 msgid "GIS features properties"
-msgstr ""
+msgstr "Właściwości obiektów GIS"
 
 #: admin~admin.configuration.services.section.interface.label
 msgctxt "admin~admin.configuration.services.section.interface.label"
@@ -261,7 +261,7 @@ msgstr "Repozytorium nie zostało usunięte"
 #: admin~admin.form.admin_section.message.data.removed.groups.concerned
 msgctxt "admin~admin.form.admin_section.message.data.removed.groups.concerned"
 msgid "(%s group(s) concerned)"
-msgstr "(%s dotyczy grup)"
+msgstr "( dotyczy %s grup(y))"
 
 #: admin~admin.form.admin_section.message.data.saved
 msgctxt "admin~admin.form.admin_section.message.data.saved"
@@ -275,8 +275,8 @@ msgstr "Podana ścieżka dla tego repozytorium nie jest dostępna."
 
 #: admin~admin.form.admin_section.message.path.wrong
 msgctxt "admin~admin.form.admin_section.message.path.wrong"
-msgid "The path given for the repository does not exists on the server."
-msgstr "Podana ścieżka dla tego repozytorium nie istnieje na serwerze."
+msgid "The path given for the repository does not exist on the server."
+msgstr "Podana ścieżka do repozytorium nie istnieje na serwerze."
 
 #: admin~admin.form.admin_section.message.repository.wrong
 msgctxt "admin~admin.form.admin_section.message.repository.wrong"
@@ -517,15 +517,15 @@ msgstr "Modyfikuj ogólne ustawienia Lizmap"
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.help"
 msgid ""
 "QGIS Server 3.10 or above is required, as well as the Lizmap plugin 3.7.0 or"
-" above. If you are using the FCGI server, you can indicate the WMS server "
-"URL. Else if you are using Py-Qgis-Server, indicate the URL configured into "
-"the Py-Qgis-Server configuration."
+" above. If you are using the FCGI server, you must let empty this field. "
+"Else if you are using Py-Qgis-Server, indicate the URL configured into the "
+"Py-Qgis-Server configuration about the Lizmap plugin URL."
 msgstr ""
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
 msgid "Base URL of the Lizmap plugin API for QGIS Server"
-msgstr ""
+msgstr "Bazowy adres URL interfejsu API wtyczki Lizmap dla QGIS Server"
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
@@ -538,9 +538,8 @@ msgstr ""
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
-msgid "The directory does not exists or is not writable. You can use: %s"
-msgstr ""
-"Podana lokalizacja nie istnieje lub nie jest zapisywalna. Możesz użyć: %s"
+msgid "The directory does not exist or is not writable. You can use: %s"
+msgstr "Katalog nie istnieje lub nie ma możliwości zapisu. Można użyć: %s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -675,11 +674,14 @@ msgid ""
 "height (in pixels). A recommended value is 1920 (HD size). Maximum value is "
 "3840 and minimum value is 480."
 msgstr ""
+"Obrazy wgrywane podczas funkcji edycji będą miały podaną maksymalną "
+"szerokość i wysokość (w pikselach). Zalecana wartość to 1920 (rozmiar HD). "
+"Maksymalna wartość to 3840, a minimalna to 480."
 
 #: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label"
 msgid "Maximum width/height of uploaded images for features"
-msgstr ""
+msgstr "Maksymalna szerokość/wysokość wgrywanych obrazów dla obiektów"
 
 #: admin~admin.form.admin_services.wmsMaxHeight.label
 msgctxt "admin~admin.form.admin_services.wmsMaxHeight.label"
@@ -1032,12 +1034,12 @@ msgstr "Motyw"
 #: admin~admin.menu.server.information.label
 msgctxt "admin~admin.menu.server.information.label"
 msgid "Server information"
-msgstr ""
+msgstr "Informacje o serwerze"
 
 #: admin~admin.menu.server.label
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
-msgstr ""
+msgstr "Serwer"
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
@@ -1059,12 +1061,19 @@ msgctxt "admin~admin.server.information.lizmap.label"
 msgid "Lizmap Web Client"
 msgstr "Lizmap Web Client"
 
+#: admin~admin.server.information.qgis.commit_id
+msgctxt "admin~admin.server.information.qgis.commit_id"
+msgid "Commit ID"
+msgstr "Commit ID"
+
 #: admin~admin.server.information.qgis.error.fetching.information
 msgctxt "admin~admin.server.information.qgis.error.fetching.information"
 msgid ""
 "We cannot get the details about your QGIS Server installation (version, "
 "plugins, etc.)."
 msgstr ""
+"Nie możemy uzyskać szczegółowych informacji o Twojej instalacji QGIS Server "
+"(wersja, wtyczki, itp.)."
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail
 msgctxt ""
@@ -1077,38 +1086,29 @@ msgid ""
 "environment variable "
 "https://docs.lizmap.com/current/en/install/pre_requirements.html"
 msgstr ""
-
-#: admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA
-msgctxt ""
-"admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA"
-msgid "The Lizmap plugin API returns bad data. Please check your QGIS Server."
-msgstr ""
+"Albo wersja zainstalowanego QGIS Server jest poniżej 3.10, albo wtyczka "
+"Lizmap nie jest wykrywana na serwerze, albo jest zainstalowana w wersji "
+"poniżej 3.7.0. Proszę zaktualizować QGIS Server do wersji minimum 3.10 oraz "
+"zainstalować lub zaktualizować wtyczkę Lizmap do wersji minimum 3.7.0 "
+"doczytując szczegóły w dokumentacji dotyczącej zmiennej środowiskowej "
+"https://docs.lizmap.com/current/en/install/pre_requirements.html"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR"
 msgid "QGIS Server returns an HTTP error about the Lizmap plugin:"
-msgstr ""
+msgstr "Serwer QGIS zwraca błąd HTTP dotyczący wtyczki Lizmap:"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS"
 msgid "You don't have access to information about QGIS Server"
-msgstr ""
-
-#: admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL
-msgctxt ""
-"admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL"
-msgid ""
-"The URL to the API of the Lizmap plugin is not provided into the Lizmap "
-"configuration. Reason can be an oversight, or the Lizmap plugin is not "
-"installed into QGIS Server."
-msgstr ""
+msgstr "Nie masz dostępu do informacji o QGIS Server."
 
 #: admin~admin.server.information.qgis.label
 msgctxt "admin~admin.server.information.qgis.label"
 msgid "QGIS Server"
-msgstr ""
+msgstr "QGIS Server"
 
 #: admin~admin.server.information.qgis.metadata
 msgctxt "admin~admin.server.information.qgis.metadata"
@@ -1123,7 +1123,7 @@ msgstr "Nazwa"
 #: admin~admin.server.information.qgis.plugins
 msgctxt "admin~admin.server.information.qgis.plugins"
 msgid "Plugins"
-msgstr ""
+msgstr "Wtyczki"
 
 #: admin~admin.server.information.qgis.plugins.version
 msgctxt "admin~admin.server.information.qgis.plugins.version"
@@ -1136,6 +1136,8 @@ msgid ""
 "QGIS Server is not correctly installed in your server or the URL for OGC "
 "requests given in Lizmap configuration is not correct."
 msgstr ""
+"QGIS Server nie jest poprawnie zainstalowany na Twoim serwerze lub URL dla "
+"żądań OGC podany w konfiguracji Lizmap nie jest poprawny."
 
 #: admin~admin.server.information.qgis.test.ok
 msgctxt "admin~admin.server.information.qgis.test.ok"
@@ -1143,11 +1145,13 @@ msgid ""
 "QGIS Server is correctly installed and returns the expected response for OGC"
 " requests."
 msgstr ""
+"QGIS Server jest poprawnie zainstalowany i zwraca oczekiwaną odpowiedź dla "
+"żądań OGC."
 
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
-msgstr ""
+msgstr "Liczba"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
@@ -1196,8 +1200,8 @@ msgstr "Wysłany plik został wgrany tylko w części"
 
 #: admin~admin.upload.image.error.file.save
 msgctxt "admin~admin.upload.image.error.file.save"
-msgid "An error occured during the save"
-msgstr "Napotkano błąd podczas zapisu"
+msgid "An error occurred during the save"
+msgstr "Podczas zapisywania wystąpił błąd"
 
 #: admin~admin.upload.image.error.file.wrongType
 msgctxt "admin~admin.upload.image.error.file.wrongType"

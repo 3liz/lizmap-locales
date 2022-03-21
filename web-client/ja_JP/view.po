@@ -1,14 +1,14 @@
 # 
 # Translators:
-# 山本　竜三 <ryu@yamakun.net>, 2021
+# 山本　竜三 <ryu@yamakun.net>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:31++0100\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
-"Last-Translator: 山本　竜三 <ryu@yamakun.net>, 2021\n"
+"Last-Translator: 山本　竜三 <ryu@yamakun.net>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/3liz-1/teams/62012/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -435,9 +435,9 @@ msgstr "‎ジオメトリを描画する必要がある場合は、閉じるボ
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
-msgstr "‎このオブジェクトは、ジオメトリなしでは保存できません。地図上にジオメトリを描画してください。‎"
+"You cannot save this object without a geometry. Please draw the geometry on "
+"the map."
+msgstr "‎ジオメトリなしでは、このオブジェクトを保存できません。地図上にジオメトリを描画してください。‎"
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -631,6 +631,11 @@ msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "‎レイヤをエクスポート"
 
+#: view~dictionnary.layer.export.unknown.export.error
+msgctxt "view~dictionnary.layer.export.unknown.export.error"
+msgid "The server reported an error 400 during the export of the layer."
+msgstr "‎サーバーは、レイヤーのエクスポート中にエラー 400 を報告しました。‎"
+
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
 msgid "Export"
@@ -768,7 +773,7 @@ msgstr "オブジェクトが見つかりません。‎"
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
-msgid "Click to the map to get informations."
+msgid "Click to the map to get information."
 msgstr "‎地図をクリックして情報を取得します。‎"
 
 #: view~dictionnary.popup.table.compact
@@ -1053,8 +1058,8 @@ msgstr "‎形状‎"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
-msgid "Reverse geom"
-msgstr "ジオメトリの反転"
+msgid "Reverse the geometry"
+msgstr "地物を反転する‎"
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1093,7 +1098,7 @@ msgstr "‎レイヤの地物を作成 \"‎%s‎\" は使用できません。�
 
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
+msgid "Given fields do not exist."
 msgstr "‎指定されたフィールドは存在しません。‎"
 
 #: view~edition.link.error.no.modify.attributes
@@ -1103,17 +1108,17 @@ msgstr "‎レイヤの属性を変更する \"‎%s‎\" は使用できませ�
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
-msgstr "‎レイヤが属性テーブルを持つように構成されていません。‎"
+msgid "The layers have not been configured to have an attribute table."
+msgstr "‎レイヤーに属性テーブルが設定されていません。‎"
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
+msgid "An error occurred while adding linked data."
 msgstr "‎リンクされたデータの追加中にエラーが発生しました。‎"
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
+msgid "The layer does not exist."
 msgstr "‎レイヤが存在しません。‎"
 
 #: view~edition.link.success
@@ -1135,7 +1140,7 @@ msgstr "%s‎: チェックに失敗しました‎"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
+msgid "An error occurred while creating the object."
 msgstr "‎オブジェクトの作成中にエラーが発生しました。‎"
 
 #: view~edition.message.error.crs
@@ -1421,7 +1426,7 @@ msgstr "編集"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
+msgid "An error occurred while removing link."
 msgstr "‎リンクの削除中にエラーが発生しました。‎"
 
 #: view~edition.unlink.success
@@ -2007,9 +2012,9 @@ msgstr "市"
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
 msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
-msgstr "‎マップにアクセスしたい理由を教えてください。"
+"Please write a small text to explain why you would like to have access to "
+"the maps."
+msgstr "‎マップにアクセスしたい理由を説明するために、短くを書いてください。‎"
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"
