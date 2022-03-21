@@ -1,0 +1,15 @@
+stages:
+  - build
+
+push-to-transifex:
+  stage: build
+  only:
+    - schedules
+  image:
+    name: registry.snap.lizlan:5000/infra/transifex-lwc:latest
+  script:
+    - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
+    - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
+    - from_lwc_to_transifex master master
+  tags:
+    - factory-plain
