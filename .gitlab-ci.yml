@@ -10,12 +10,21 @@ push-to-transifex:
     - schedules
   image:
     name: registry.snap.lizlan:5000/infra/transifex-lwc:latest
+  parallel:
+    matrix:
+
+      - LWC_BRANCH: master
+        LOCALE_BRANCH: master
+
+      - LWC_BRANCH: release_3_5
+        LOCALE_BRANCH: lizmap_3_5
+
+      - LWC_BRANCH: release_3_4
+        LOCALE_BRANCH: lizmap_3_4
+
   script:
     - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
     - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
-    # from_lwc_to_transifex LWC_BRANCH LOCALE_BRANCH
-    - from_lwc_to_transifex master master
-    - from_lwc_to_transifex release_3_5 lizmap_3_5
-    - from_lwc_to_transifex release_3_4 lizmap_3_4
+    - from_lwc_to_transifex ${LWC_BRANCH} ${LOCALE_BRANCH}
   tags:
     - factory-plain
