@@ -1,19 +1,19 @@
 # 
 # Translators:
-# etrimaille <gustrimaille@yahoo.fr>, 2020-2021
+# etrimaille <gustrimaille@yahoo.fr>, 2020-2022
 # Laurent Jouanneau <dev@ljouanneau.com>, 2019-2021
 # Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2018
 # Michael Douchin <kimaidou@gmail.com>, 2016-2017
-# Nicolas Boisteault <nboisteault@gmail.com>, 2020-2021
+# Nicolas Boisteault <nboisteault@gmail.com>, 2020-2022
 # rldhont <rldhont@gmail.com>, 2016-2019
 # rldhont <rldhont@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:44++0100\n"
-"PO-Revision-Date: 2021-12-15 14:43+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
+"PO-Revision-Date: 2016-04-05 14:52+0000\n"
+"Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2020-2022\n"
 "Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -440,8 +440,8 @@ msgstr "Vous pouvez cacher ce formulaire avec le bouton de fermeture chaque fois
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
+"You cannot save this object without a geometry. Please draw the geometry on "
+"the map."
 msgstr "Vous ne pouvez pas enregistrer cet objet sans géométrie. Veuillez la dessiner sur la carte."
 
 #: view~dictionnary.edition.point.coord.crs.layer
@@ -499,7 +499,7 @@ msgstr "Données de la carte"
 #: view~dictionnary.externalsearch.noquery
 msgctxt "view~dictionnary.externalsearch.noquery"
 msgid "Search query is empty"
-msgstr "Le champs de recherche est vide"
+msgstr "Le champ de recherche est vide"
 
 #: view~dictionnary.externalsearch.notfound
 msgctxt "view~dictionnary.externalsearch.notfound"
@@ -635,6 +635,11 @@ msgstr "Sondage"
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "Une autorisation est nécessaire pour l'export de couche."
+
+#: view~dictionnary.layer.export.unknown.export.error
+msgctxt "view~dictionnary.layer.export.unknown.export.error"
+msgid "The server reported an error 400 during the export of the layer."
+msgstr "Le serveur a renvoyé une erreur 400 pendant l'export de la couche."
 
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
@@ -773,7 +778,7 @@ msgstr "Aucun objet n'a été identifié à cet endroit."
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
-msgid "Click to the map to get informations."
+msgid "Click to the map to get information."
 msgstr "Cliquez sur la carte pour obtenir des informations."
 
 #: view~dictionnary.popup.table.compact
@@ -1058,7 +1063,7 @@ msgstr "Remodeler"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
-msgid "Reverse geom"
+msgid "Reverse the geometry"
 msgstr "Inverser la géométrie"
 
 #: view~edition.geomtool.rotate.title
@@ -1097,8 +1102,8 @@ msgstr "La création d'objet n'est pas disponible pour la couche\"%s\" ."
 
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
-msgstr "Le champs mentionné n'existe pas ."
+msgid "Given fields do not exist."
+msgstr "Le champ mentionné n'existe pas."
 
 #: view~edition.link.error.no.modify.attributes
 msgctxt "view~edition.link.error.no.modify.attributes"
@@ -1107,18 +1112,18 @@ msgstr "La modification d'attributs n'est pas disponible pour la couche \"%s\"."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
-msgstr "Au moins une des couches n'a pas été configurée dans l'outil \"Table attributaire\""
+msgid "The layers have not been configured to have an attribute table."
+msgstr "Au moins une des couches n'a pas été configurée dans l'outil \"Table attributaire\"."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
-msgstr "Une erreur est survenue pendant l'enregistrement du lien des objets sélectionnés ."
+msgid "An error occurred while adding linked data."
+msgstr "Une erreur est survenue pendant l'enregistrement du lien des objets sélectionnés."
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
-msgstr "Une des couches n'existe pas ."
+msgid "The layer does not exist."
+msgstr "Une des couches n'existe pas."
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
@@ -1137,8 +1142,8 @@ msgstr "%s: vérification échouée"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
-msgstr "La création d'objet a échoué ."
+msgid "An error occurred while creating the object."
+msgstr "La création d'objet a échoué."
 
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
@@ -1229,7 +1234,7 @@ msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "Le répertoire du champs \"%s\" de la couche \"%s\" pour le chargement des médias n'est pas accessible en écriture."
+msgstr "Le répertoire du champ \"%s\" de la couche \"%s\" pour le chargement des médias n'est pas accessible en écriture."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -1244,7 +1249,7 @@ msgstr "L'objet a bien été créé ."
 #: view~edition.message.success.delete
 msgctxt "view~edition.message.success.delete"
 msgid "The feature has been deleted."
-msgstr "L'objet a été supprimé ."
+msgstr "L'objet a été supprimé."
 
 #: view~edition.modal.message.no.feature.found
 msgctxt "view~edition.modal.message.no.feature.found"
@@ -1423,8 +1428,8 @@ msgstr "Édition"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
-msgstr "Une erreur est survenue lors de la suppression du lien ."
+msgid "An error occurred while removing link."
+msgstr "Une erreur est survenue lors de la suppression du lien."
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
@@ -1974,7 +1979,7 @@ msgstr "Lizmap Web Client"
 #: view~map.title.h2
 msgctxt "view~map.title.h2"
 msgid "Qgis Server Demo"
-msgstr "Démonstration de Qgis Server"
+msgstr "Démonstration de QGIS Serveur"
 
 #: view~map.toolbar.content.stop
 msgctxt "view~map.toolbar.content.stop"
@@ -2009,8 +2014,8 @@ msgstr "Ville"
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
 msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
+"Please write a small text to explain why you would like to have access to "
+"the maps."
 msgstr "Vous pouvez décrire les raisons pour lesquelles vous souhaitez accéder aux cartes."
 
 #: view~user.form.comment.label

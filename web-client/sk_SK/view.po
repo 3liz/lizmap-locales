@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Majky Beast <maros.michalov@hrdlicka.sk>, 2020-2021
+# Stefan Tkacik, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:44++0100\n"
-"PO-Revision-Date: 2021-12-15 14:40+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
+"PO-Revision-Date: 2016-04-05 14:52+0000\n"
+"Last-Translator: Stefan Tkacik, 2022\n"
 "Language-Team: Slovak (http://www.transifex.com/3liz-1/lizmap-locales/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -434,9 +435,9 @@ msgstr ""
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
-msgstr "Bez geometrie nemôžete tento objekt uložiť. Nakreslite geometriu na mapu."
+"You cannot save this object without a geometry. Please draw the geometry on "
+"the map."
+msgstr ""
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -630,6 +631,11 @@ msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "Na export vrstvy je potrebné právo."
 
+#: view~dictionnary.layer.export.unknown.export.error
+msgctxt "view~dictionnary.layer.export.unknown.export.error"
+msgid "The server reported an error 400 during the export of the layer."
+msgstr ""
+
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
 msgid "Export"
@@ -767,8 +773,8 @@ msgstr "Na tomto mieste sa nenašiel žiadny objekt."
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
-msgid "Click to the map to get informations."
-msgstr " Kliknutím na mapu získate informácie."
+msgid "Click to the map to get information."
+msgstr ""
 
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
@@ -1052,7 +1058,7 @@ msgstr "Preformovať"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
-msgid "Reverse geom"
+msgid "Reverse the geometry"
 msgstr ""
 
 #: view~edition.geomtool.rotate.title
@@ -1091,8 +1097,8 @@ msgstr "Funkcia vytvorenia pre vrstvu \"%s\" nie je k dispozícii."
 
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
-msgstr "Dané polia neexistujú."
+msgid "Given fields do not exist."
+msgstr ""
 
 #: view~edition.link.error.no.modify.attributes
 msgctxt "view~edition.link.error.no.modify.attributes"
@@ -1101,18 +1107,18 @@ msgstr "Atribúty úpravy pre vrstvu \"%s\" nie sú k dispozícii."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
-msgstr "Vrstvy nie sú nakonfigurované tak, aby mali tabuľku atribútov."
+msgid "The layers have not been configured to have an attribute table."
+msgstr ""
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
-msgstr "Pri pridávaní prepojených údajov sa vyskytla chyba."
+msgid "An error occurred while adding linked data."
+msgstr ""
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
-msgstr "Vrstva neexistuje."
+msgid "The layer does not exist."
+msgstr ""
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
@@ -1131,8 +1137,8 @@ msgstr "%s: kontrola zlyhala"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
-msgstr "Pri vytváraní objektu sa vyskytla chyba."
+msgid "An error occurred while creating the object."
+msgstr ""
 
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
@@ -1417,8 +1423,8 @@ msgstr "Vydanie"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
-msgstr "Pri odstraňovaní odkazu sa vyskytla chyba."
+msgid "An error occurred while removing link."
+msgstr ""
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
@@ -1538,7 +1544,7 @@ msgstr "Načítavajú sa mapové údaje"
 #: view~map.locatemenu.title
 msgctxt "view~map.locatemenu.title"
 msgid "Locating"
-msgstr "Umiestnenie"
+msgstr "Vyhľadávanie"
 
 #: view~map.map
 msgctxt "view~map.map"
@@ -2003,9 +2009,9 @@ msgstr "Mesto"
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
 msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
-msgstr "Napíšte malý text, ktorý vysvetlí, prečo by ste chceli mať prístup k mapám."
+"Please write a small text to explain why you would like to have access to "
+"the maps."
+msgstr ""
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

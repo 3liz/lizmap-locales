@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:44++0100\n"
-"PO-Revision-Date: 2021-12-15 14:40+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
+"PO-Revision-Date: 2016-04-05 14:52+0000\n"
+"Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2019\n"
 "Language-Team: Dutch (http://www.transifex.com/3liz-1/lizmap-locales/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -437,9 +437,9 @@ msgstr ""
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
-msgstr "U kunt dit object niet zonder een geometrie opslaan. Gelieve de geometrie op de kaart in te tekenen."
+"You cannot save this object without a geometry. Please draw the geometry on "
+"the map."
+msgstr ""
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -633,6 +633,11 @@ msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "Rechts is nodig om laag te exporteren."
 
+#: view~dictionnary.layer.export.unknown.export.error
+msgctxt "view~dictionnary.layer.export.unknown.export.error"
+msgid "The server reported an error 400 during the export of the layer."
+msgstr ""
+
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
 msgid "Export"
@@ -770,8 +775,8 @@ msgstr "Geen object werd gevonden op deze locatie."
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
-msgid "Click to the map to get informations."
-msgstr "Klik op de kaart voor meer informatie."
+msgid "Click to the map to get information."
+msgstr ""
 
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
@@ -1055,7 +1060,7 @@ msgstr "Hervormen"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
-msgid "Reverse geom"
+msgid "Reverse the geometry"
 msgstr ""
 
 #: view~edition.geomtool.rotate.title
@@ -1094,8 +1099,8 @@ msgstr "De maak functie voor de laag \" %s \" is niet beschikbaar."
 
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
-msgstr "Gegeven velden bestaan niet."
+msgid "Given fields do not exist."
+msgstr ""
 
 #: view~edition.link.error.no.modify.attributes
 msgctxt "view~edition.link.error.no.modify.attributes"
@@ -1104,18 +1109,18 @@ msgstr "Wijzigen van attributen voor de laag \"%s\" is niet beschikbaar."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
-msgstr "De lagen zijn niet geconfigureerd om een tabel met eigenschappen te bevatten."
+msgid "The layers have not been configured to have an attribute table."
+msgstr ""
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
-msgstr "Er is een fout opgetreden tijdens het toevoegen van gekoppelde gegevens."
+msgid "An error occurred while adding linked data."
+msgstr ""
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
-msgstr "Deze laag bestaat niet."
+msgid "The layer does not exist."
+msgstr ""
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
@@ -1134,8 +1139,8 @@ msgstr ""
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
-msgstr "Er is een fout opgetreden tijdens het aanmaken van het object."
+msgid "An error occurred while creating the object."
+msgstr ""
 
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
@@ -1420,8 +1425,8 @@ msgstr "Bewerken"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
-msgstr "Er is een fout opgetreden tijdens het verwijderen van de link."
+msgid "An error occurred while removing link."
+msgstr ""
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
@@ -2006,9 +2011,9 @@ msgstr "Stad"
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
 msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
-msgstr "Ligt kort toe waarom u toegang wenst tot de kaarten."
+"Please write a small text to explain why you would like to have access to "
+"the maps."
+msgstr ""
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

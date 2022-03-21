@@ -1,5 +1,6 @@
 # 
 # Translators:
+# etrimaille <gustrimaille@yahoo.fr>, 2022
 # Laurent Jouanneau <dev@ljouanneau.com>, 2018-2019,2021
 # Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2018
 # Michael Douchin <kimaidou@gmail.com>, 2017
@@ -9,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:44++0100\n"
-"PO-Revision-Date: 2022-01-06 23:46+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
+"PO-Revision-Date: 2016-04-05 14:51+0000\n"
+"Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2022\n"
 "Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,20 +32,20 @@ msgstr "Vider le cache"
 
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
-msgid "The cache for the layer %s has been sucessfully emptied."
+msgid "The cache for the layer %s has been successfully emptied."
 msgstr "Le cache pour la couche %s a bien été vidé."
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
-msgid "The cache for the repository %s has been sucessfully emptied."
+msgid "The cache for the repository %s has been successfully emptied."
 msgstr "Le cache pour le répertoire %s a bien été vidé."
 
 #: admin~admin.config.services.allowUserAccountRequest.noemail
 msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
-"This option cannot be enable while the sender email is not defined. Please "
+"This option cannot be enabled while the sender email is not defined. Please "
 "contact the application administrator."
-msgstr "Cette option ne peut pas être activée tant que l'email de l'expediteur n'est pas renseigné. Contactez l'administrateur de l'application."
+msgstr "Cette option ne peut pas être activée tant que l'email de l'expéditeur n'est pas renseigné. Contactez l'administrateur de l'application."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -155,7 +156,7 @@ msgstr "Seulement des cartes"
 #: admin~admin.configuration.services.qgisServerVersion.label
 msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
 msgid "QGIS server version"
-msgstr "Version de QGIS Server"
+msgstr "Version de QGIS Serveur"
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
@@ -190,7 +191,7 @@ msgstr "Projets"
 #: admin~admin.configuration.services.section.qgis.label
 msgctxt "admin~admin.configuration.services.section.qgis.label"
 msgid "Qgis server"
-msgstr "Qgis server"
+msgstr "QGIS serveur"
 
 #: admin~admin.configuration.services.section.system.label
 msgctxt "admin~admin.configuration.services.section.system.label"
@@ -274,7 +275,7 @@ msgstr "Le chemin donné pour le répertoire n'est pas autorisé."
 
 #: admin~admin.form.admin_section.message.path.wrong
 msgctxt "admin~admin.form.admin_section.message.path.wrong"
-msgid "The path given for the repository does not exists on the server."
+msgid "The path given for the repository does not exist on the server."
 msgstr "Le chemin donné pour le répertoire n'existe pas sur le serveur."
 
 #: admin~admin.form.admin_section.message.repository.wrong
@@ -496,15 +497,15 @@ msgstr "Modifier la configuration générale"
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.help"
 msgid ""
 "QGIS Server 3.10 or above is required, as well as the Lizmap plugin 3.7.0 or"
-" above. If you are using the FCGI server, you can indicate the WMS server "
-"URL. Else if you are using Py-Qgis-Server, indicate the URL configured into "
-"the Py-Qgis-Server configuration."
-msgstr "QGIS Server 3.10 ou plus récent est requis, ainsi que le plugin Lizmap 3.7.0 ou plus. Si vous utilisez le serveur FCGI de QGIS, vous pouvez indiquer l'URL du serveur the WMS server URL. Sinon si vous utilisez Py-Qgis-Server, indiquez l'URL configurée dans Py-Qgis-Server."
+" above. If you are using the FCGI server, you must let empty this field. "
+"Else if you are using Py-Qgis-Server, indicate the URL configured into the "
+"Py-Qgis-Server configuration about the Lizmap plugin URL."
+msgstr "QGIS Serveur 3.10 ou plus récent est requis, ainsi que l'extension Lizmap 3.7.0 ou plus. Si vous utilisez le serveur FCGI de QGIS, vous devez laisser vide. Sinon, si vous utilisez Py-Qgis-Server, indiquez l'URL configurée dans Py-Qgis-Server concernant l'URL de l'API Lizmap."
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
 msgid "Base URL of the Lizmap plugin API for QGIS Server"
-msgstr "URL de base de l'API du plugin Lizmap pour QGIS Server"
+msgstr "URL de base de l'API du plugin Lizmap pour QGIS Serveur"
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
@@ -515,8 +516,8 @@ msgstr "La durée de vie du cache doit être un entier entre 0 et 2592000 second
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
-msgid "The directory does not exists or is not writable. You can use: %s"
-msgstr "Le répertoire n'existe pas où n'est pas accessible en écriture. Vous pouvez utiliser: %s"
+msgid "The directory does not exist or is not writable. You can use: %s"
+msgstr "Le répertoire n'existe pas ou n'est pas accessible en écriture. Vous pouvez utiliser: %s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -571,7 +572,7 @@ msgstr "≥ 3.0"
 #: admin~admin.form.admin_services.qgisServerVersion.label
 msgctxt "admin~admin.form.admin_services.qgisServerVersion.label"
 msgid "QGIS server version"
-msgstr "Version de QGIS Server"
+msgstr "Version de QGIS Serveur"
 
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
@@ -1027,12 +1028,17 @@ msgctxt "admin~admin.server.information.lizmap.label"
 msgid "Lizmap Web Client"
 msgstr "Lizmap Web Client"
 
+#: admin~admin.server.information.qgis.commit_id
+msgctxt "admin~admin.server.information.qgis.commit_id"
+msgid "Commit ID"
+msgstr "ID du commit"
+
 #: admin~admin.server.information.qgis.error.fetching.information
 msgctxt "admin~admin.server.information.qgis.error.fetching.information"
 msgid ""
 "We cannot get the details about your QGIS Server installation (version, "
 "plugins, etc.)."
-msgstr "Nous ne pouvons avoir les détails sur l'installation de votre serveur QGIS (version, plugins etc.)."
+msgstr "Nous ne pouvons avoir les détails sur l'installation de votre serveur QGIS (version, extensions etc.)."
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail
 msgctxt ""
@@ -1044,39 +1050,24 @@ msgid ""
 "the Lizmap plugin to minimum 3.7.0 by reading the documentation about the "
 "environment variable "
 "https://docs.lizmap.com/current/en/install/pre_requirements.html"
-msgstr "Soit la version installée du serveur QGIS est inférieure à 3.10, soit le plugin Lizmap n'est pas installé sur votre serveur, ou installé avec une version inférieur à 3.7.0. Mettez à jour QGIS Server au minimum à la version 3.10, et installez ou mettez à jour le plugin Lizmap à la version 3.7.0 minimum, en lisant la documentation https://docs.lizmap.com/current/fr/install/pre_requirements.html."
-
-#: admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA
-msgctxt ""
-"admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA"
-msgid "The Lizmap plugin API returns bad data. Please check your QGIS Server."
-msgstr "L'API du plugin Lizmap retourne des données inattendues. Vérifiez votre serveur QGIS."
+msgstr "Soit la version installée du serveur QGIS est inférieure à 3.10, soit le plugin Lizmap n'est pas installé sur votre serveur, ou installé avec une version inférieur à 3.7.0. Mettez à jour QGIS Serveur au minimum à la version 3.10, et installez ou mettez à jour l'extension Lizmap à la version 3.7.0 minimum, en lisant la documentation https://docs.lizmap.com/current/fr/install/pre_requirements.html."
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR"
 msgid "QGIS Server returns an HTTP error about the Lizmap plugin:"
-msgstr "QGIS Server retourne une erreur HTTP à propos du plugin Lizmap :"
+msgstr "QGIS Serveur retourne une erreur HTTP à propos de l'extension Lizmap :"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS"
 msgid "You don't have access to information about QGIS Server"
-msgstr "Vous n'avez pas accès aux informations sur QGIS Server."
-
-#: admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL
-msgctxt ""
-"admin~admin.server.information.qgis.error.fetching.information.detail.NO_API_URL"
-msgid ""
-"The URL to the API of the Lizmap plugin is not provided into the Lizmap "
-"configuration. Reason can be an oversight, or the Lizmap plugin is not "
-"installed into QGIS Server."
-msgstr "L'URL de l'API du plugin Lizmap n'est pas fournie dans la configuration de Lizmap. Cela peut être à cause d'un oubli, ou parce que le plugin n'est pas installé dans QGIS Server."
+msgstr "Vous n'avez pas accès aux informations sur QGIS Serveur."
 
 #: admin~admin.server.information.qgis.label
 msgctxt "admin~admin.server.information.qgis.label"
 msgid "QGIS Server"
-msgstr "QGIS Server"
+msgstr "QGIS Serveur"
 
 #: admin~admin.server.information.qgis.metadata
 msgctxt "admin~admin.server.information.qgis.metadata"
@@ -1103,14 +1094,14 @@ msgctxt "admin~admin.server.information.qgis.test.error"
 msgid ""
 "QGIS Server is not correctly installed in your server or the URL for OGC "
 "requests given in Lizmap configuration is not correct."
-msgstr "QGIS Server n'est pas installé correctement, ou l'URL des requêtes OGC donnée dans la configuration de Lizmap n'est pas correcte."
+msgstr "QGIS Serveur n'est pas installé correctement, ou l'URL des requêtes OGC donnée dans la configuration de Lizmap n'est pas correcte."
 
 #: admin~admin.server.information.qgis.test.ok
 msgctxt "admin~admin.server.information.qgis.test.ok"
 msgid ""
 "QGIS Server is correctly installed and returns the expected response for OGC"
 " requests."
-msgstr "QGIS Server est correctement installé et retourne une réponse attendue pour les requêtes OGC."
+msgstr "QGIS Serveur est correctement installé et retourne une réponse attendue pour les requêtes OGC."
 
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
@@ -1164,7 +1155,7 @@ msgstr "Le fichier n'a été que partiellement téléversé"
 
 #: admin~admin.upload.image.error.file.save
 msgctxt "admin~admin.upload.image.error.file.save"
-msgid "An error occured during the save"
+msgid "An error occurred during the save"
 msgstr "Erreur durant l'enregistrement"
 
 #: admin~admin.upload.image.error.file.wrongType

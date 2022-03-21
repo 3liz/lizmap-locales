@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:44++0100\n"
-"PO-Revision-Date: 2021-12-15 14:40+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
+"PO-Revision-Date: 2016-04-05 14:52+0000\n"
+"Last-Translator: trendspotter <jirka.p@volny.cz>, 2019-2020\n"
 "Language-Team: Czech (http://www.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -437,9 +437,9 @@ msgstr "Tento formulář můžete skrýt tlačítkem zavřít, kdykoli potřebuj
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
-msgstr "Nemůžete tento objekt uložit bez geometrie. Prosím, nakreslete geometrii na mapě."
+"You cannot save this object without a geometry. Please draw the geometry on "
+"the map."
+msgstr "Tento objekt nelze uložit bez geometrie. Nakreslete geometrii na mapu."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -496,7 +496,7 @@ msgstr "Mapová data"
 #: view~dictionnary.externalsearch.noquery
 msgctxt "view~dictionnary.externalsearch.noquery"
 msgid "Search query is empty"
-msgstr ""
+msgstr "Vyhledávací dotaz je prázdný"
 
 #: view~dictionnary.externalsearch.notfound
 msgctxt "view~dictionnary.externalsearch.notfound"
@@ -632,6 +632,11 @@ msgstr "Průzkum"
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "Pro export vrstvy je požadováno povolující právo."
+
+#: view~dictionnary.layer.export.unknown.export.error
+msgctxt "view~dictionnary.layer.export.unknown.export.error"
+msgid "The server reported an error 400 during the export of the layer."
+msgstr "Server při exportu vrstvy ohlásil chybu 400."
 
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
@@ -770,7 +775,7 @@ msgstr "V tomto místě nebyl nalezen žádný objekt."
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
-msgid "Click to the map to get informations."
+msgid "Click to the map to get information."
 msgstr "Kliknutím na mapu získáte informace."
 
 #: view~dictionnary.popup.table.compact
@@ -1055,8 +1060,8 @@ msgstr "Změna tvaru"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
-msgid "Reverse geom"
-msgstr "Obrácený geometrický směr"
+msgid "Reverse the geometry"
+msgstr "Obrátit geometrii"
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1094,8 +1099,8 @@ msgstr "Vytvoření funkce pro vrstvu \"%s\" není k dispozici."
 
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
-msgstr "Dané pole neexistují."
+msgid "Given fields do not exist."
+msgstr "Uvedená pole neexistují."
 
 #: view~edition.link.error.no.modify.attributes
 msgctxt "view~edition.link.error.no.modify.attributes"
@@ -1104,18 +1109,18 @@ msgstr "Modifikovat atributy vrstvy \"%s\" není k dispozici."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
-msgstr "Vrstvy nejsou nakonfigurovány tak, aby měly tabulku atributů."
+msgid "The layers have not been configured to have an attribute table."
+msgstr "Vrstvy nebyly nakonfigurovány tak, aby měly atributovou tabulku."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
-msgstr "Během přidávání propojených dat došlo k chybě."
+msgid "An error occurred while adding linked data."
+msgstr "Při přidávání propojených dat došlo k chybě."
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
-msgstr "Vrstva neexistuje"
+msgid "The layer does not exist."
+msgstr "Vrstva neexistuje."
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
@@ -1134,7 +1139,7 @@ msgstr "%s: kontrola selhala"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
+msgid "An error occurred while creating the object."
 msgstr "Při vytváření objektu došlo k chybě."
 
 #: view~edition.message.error.crs
@@ -1420,8 +1425,8 @@ msgstr "Editace"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
-msgstr "Při odebrání odkazu došlo k chybě."
+msgid "An error occurred while removing link."
+msgstr "Při odstraňování odkazu došlo k chybě."
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
@@ -2006,9 +2011,9 @@ msgstr "Město"
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
 msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
-msgstr "Napište důvod Vašeho přístupu k mapám"
+"Please write a small text to explain why you would like to have access to "
+"the maps."
+msgstr "Napište prosím krátký text, ve kterém vysvětlíte, proč byste chtěli mít přístup k mapám."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

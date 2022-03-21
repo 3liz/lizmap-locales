@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Igor Sorocean <sorocean.igor@gmail.com>, 2020-2021
+# Igor Sorocean <sorocean.igor@gmail.com>, 2020-2022
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 00:44++0100\n"
-"PO-Revision-Date: 2021-12-31 07:13+0000\n"
-"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>\n"
+"POT-Creation-Date: 2022-03-21 20:40++0000\n"
+"PO-Revision-Date: 2016-04-05 14:52+0000\n"
+"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020-2022\n"
 "Language-Team: Romanian (http://www.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,7 +68,7 @@ msgstr "Extindere"
 #: view~default.project.close.map.metadata
 msgctxt "view~default.project.close.map.metadata"
 msgid "Close"
-msgstr "Închidere"
+msgstr "Închide"
 
 #: view~default.project.keywordList.label
 msgctxt "view~default.project.keywordList.label"
@@ -434,8 +434,8 @@ msgstr "Poți ascunde acest formular cu butonul de închidere ori de câte ori t
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
-"You cannot save this object without a geomtetry. Please draw the geometry on"
-" the map."
+"You cannot save this object without a geometry. Please draw the geometry on "
+"the map."
 msgstr "Nu poți salva acest obiect fără o geometrie. Desenează geometria pe hartă."
 
 #: view~dictionnary.edition.point.coord.crs.layer
@@ -588,7 +588,7 @@ msgstr "Pornire"
 #: view~dictionnary.geolocate.toolbar.stop
 msgctxt "view~dictionnary.geolocate.toolbar.stop"
 msgid "Stop"
-msgstr "Oprire"
+msgstr "Închide"
 
 #: view~dictionnary.geolocate.toolbar.waiting
 msgctxt "view~dictionnary.geolocate.toolbar.waiting"
@@ -629,6 +629,11 @@ msgstr "Studiu"
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "Este necesară permisiunea de a exporta stratul."
+
+#: view~dictionnary.layer.export.unknown.export.error
+msgctxt "view~dictionnary.layer.export.unknown.export.error"
+msgid "The server reported an error 400 during the export of the layer."
+msgstr "Serverul a raportat o eroare 400 în timpul exportului stratului."
 
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
@@ -767,8 +772,8 @@ msgstr "Nu a fost găsit niciun obiect în această locație."
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
-msgid "Click to the map to get informations."
-msgstr "Fă clic pe hartă pentru a obține informații."
+msgid "Click to the map to get information."
+msgstr "Faceți clic pe hartă pentru a obține informații."
 
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
@@ -1003,7 +1008,7 @@ msgstr "După ce a fost salvat"
 #: view~edition.form.btn.clear.title
 msgctxt "view~edition.form.btn.clear.title"
 msgid "Close"
-msgstr "Se închide"
+msgstr "Închide"
 
 #: view~edition.form.cancel.confirm.message
 msgctxt "view~edition.form.cancel.confirm.message"
@@ -1052,8 +1057,8 @@ msgstr "Remodelare"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
-msgid "Reverse geom"
-msgstr "Inversare geometrie"
+msgid "Reverse the geometry"
+msgstr "Inversarea geometriei"
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1091,7 +1096,7 @@ msgstr "Crearea obiectelor pentru stratul „%s” nu este disponibilă."
 
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
-msgid "Given fields do not exists."
+msgid "Given fields do not exist."
 msgstr "Câmpurile date nu există."
 
 #: view~edition.link.error.no.modify.attributes
@@ -1101,17 +1106,17 @@ msgstr "Modificarea atributelor pentru stratul „%s” nu este disponibilă."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
-msgid "The layers have not be configured to have an attribute table."
-msgstr "Straturile nu au fost configurate pentru a avea o tabelă de atribute."
+msgid "The layers have not been configured to have an attribute table."
+msgstr "Straturile nu au fost configurate să aibă un tabel de atribute."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
-msgid "An error occured while adding linked data."
+msgid "An error occurred while adding linked data."
 msgstr "A apărut o eroare la adăugarea datelor conectate."
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
-msgid "The layer does not exists."
+msgid "The layer does not exist."
 msgstr "Stratul nu există."
 
 #: view~edition.link.success
@@ -1131,7 +1136,7 @@ msgstr "%s: verificarea nu a reușit"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
-msgid "An error occured while creating the object."
+msgid "An error occurred while creating the object."
 msgstr "A apărut o eroare la crearea obiectului."
 
 #: view~edition.message.error.crs
@@ -1417,7 +1422,7 @@ msgstr "Editare"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
-msgid "An error occured while removing link."
+msgid "An error occurred while removing link."
 msgstr "A apărut o eroare la eliminarea legăturii."
 
 #: view~edition.unlink.success
@@ -1473,7 +1478,7 @@ msgstr "Harta de bază"
 #: view~map.bottomdock.toolbar.btn.clear.title
 msgctxt "view~map.bottomdock.toolbar.btn.clear.title"
 msgid "Close"
-msgstr "Închidere"
+msgstr "Închide"
 
 #: view~map.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~map.bottomdock.toolbar.btn.glue.activate.title"
@@ -1713,12 +1718,12 @@ msgstr "Revenire la dimensiunea inițială a hărții"
 #: view~map.navbar.zoomin.hover
 msgctxt "view~map.navbar.zoomin.hover"
 msgid "Zoom in"
-msgstr "Mărire"
+msgstr "Mărește"
 
 #: view~map.navbar.zoomout.hover
 msgctxt "view~map.navbar.zoomout.hover"
 msgid "Zoom out"
-msgstr "Micșorare"
+msgstr "Micșorează"
 
 #: view~map.overviewbar.scaleline.hover
 msgctxt "view~map.overviewbar.scaleline.hover"
@@ -2003,9 +2008,9 @@ msgstr "Oraș"
 #: view~user.form.comment.help
 msgctxt "view~user.form.comment.help"
 msgid ""
-"Please write a small text to explain why you would like to have an access to"
-" the maps."
-msgstr "Descrie pe scurt de ce dorești să ai acces la hărți."
+"Please write a small text to explain why you would like to have access to "
+"the maps."
+msgstr "Vă rugăm să scrieți un mic text pentru a explica de ce ați dori să aveți acces la hărți."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"
