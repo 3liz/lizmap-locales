@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-21 20:40++0000\n"
+"POT-Creation-Date: 2022-04-18 15:03++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2018-2019\n"
 "Language-Team: Hungarian (Hungary) (http://www.transifex.com/3liz-1/lizmap-locales/language/hu_HU/)\n"
@@ -983,6 +983,11 @@ msgctxt "admin~admin.menu.lizmap.logs.view.label"
 msgid "View logs"
 msgstr "Log-ok megtekintése"
 
+#: admin~admin.menu.lizmap.project.list.label
+msgctxt "admin~admin.menu.lizmap.project.list.label"
+msgid "QGIS projects"
+msgstr ""
+
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
 msgid "Maps management"
@@ -1001,6 +1006,104 @@ msgstr ""
 #: admin~admin.menu.server.label
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
+msgstr ""
+
+#: admin~admin.project.list.column.authorized.groups.label
+msgctxt "admin~admin.project.list.column.authorized.groups.label"
+msgid "Groups"
+msgstr "Csoportok"
+
+#: admin~admin.project.list.column.crs.label
+msgctxt "admin~admin.project.list.column.crs.label"
+msgid "Projection"
+msgstr "Vetület"
+
+#: admin~admin.project.list.column.crs.user.warning.label
+msgctxt "admin~admin.project.list.column.crs.user.warning.label"
+msgid "Please avoid user-defined projections for projects and layers."
+msgstr ""
+
+#: admin~admin.project.list.column.hidden.project.label
+msgctxt "admin~admin.project.list.column.hidden.project.label"
+msgid "Hidden"
+msgstr "Rejtett"
+
+#: admin~admin.project.list.column.hidden.project.no.label
+msgctxt "admin~admin.project.list.column.hidden.project.no.label"
+msgid "No"
+msgstr "Nem"
+
+#: admin~admin.project.list.column.hidden.project.yes.label
+msgctxt "admin~admin.project.list.column.hidden.project.yes.label"
+msgid "Yes"
+msgstr "Igen"
+
+#: admin~admin.project.list.column.invalid.layers.count.label
+msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
+msgid "Invalid layers"
+msgstr ""
+
+#: admin~admin.project.list.column.layers.count.error.label
+msgctxt "admin~admin.project.list.column.layers.count.error.label"
+msgid ""
+"This project has a hug number of layers. Performance could be degraded."
+msgstr ""
+
+#: admin~admin.project.list.column.layers.count.label
+msgctxt "admin~admin.project.list.column.layers.count.label"
+msgid "Layers"
+msgstr "Rétegek"
+
+#: admin~admin.project.list.column.layers.count.warning.label
+msgctxt "admin~admin.project.list.column.layers.count.warning.label"
+msgid "This project has many layers. Performance could be degraded."
+msgstr ""
+
+#: admin~admin.project.list.column.layout.count.label
+msgctxt "admin~admin.project.list.column.layout.count.label"
+msgid "Layouts"
+msgstr ""
+
+#: admin~admin.project.list.column.lizmap.plugin.version.label
+msgctxt "admin~admin.project.list.column.lizmap.plugin.version.label"
+msgid "Lizmap plugin"
+msgstr ""
+
+#: admin~admin.project.list.column.project.file.time.label
+msgctxt "admin~admin.project.list.column.project.file.time.label"
+msgid "Last modified"
+msgstr ""
+
+#: admin~admin.project.list.column.project.label
+msgctxt "admin~admin.project.list.column.project.label"
+msgid "Project"
+msgstr "Projekt"
+
+#: admin~admin.project.list.column.qgis.desktop.version.above.server
+msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
+msgid ""
+"The QGIS project has been saved with a version above the one installed in "
+"your server"
+msgstr ""
+
+#: admin~admin.project.list.column.qgis.desktop.version.label
+msgctxt "admin~admin.project.list.column.qgis.desktop.version.label"
+msgid "QGIS Desktop"
+msgstr ""
+
+#: admin~admin.project.list.column.qgis.desktop.version.too.old
+msgctxt "admin~admin.project.list.column.qgis.desktop.version.too.old"
+msgid "The QGIS project has been saved with an old version of QGIS"
+msgstr ""
+
+#: admin~admin.project.list.column.repository.label
+msgctxt "admin~admin.project.list.column.repository.label"
+msgid "Repository"
+msgstr "Gyűjtemény"
+
+#: admin~admin.project.list.column.used.memory.label
+msgctxt "admin~admin.project.list.column.used.memory.label"
+msgid "Memory"
 msgstr ""
 
 #: admin~admin.server.information.lizmap.info
