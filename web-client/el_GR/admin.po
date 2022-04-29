@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-18 15:03++0000\n"
+"POT-Creation-Date: 2022-04-29 08:03++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>, 2016\n"
 "Language-Team: Greek (http://www.transifex.com/3liz-1/lizmap-locales/language/el/)\n"
@@ -983,9 +983,19 @@ msgctxt "admin~admin.menu.lizmap.logs.view.label"
 msgid "View logs"
 msgstr "Εμφάνιση των logs"
 
+#: admin~admin.menu.lizmap.project.image.label
+msgctxt "admin~admin.menu.lizmap.project.image.label"
+msgid "Image"
+msgstr ""
+
 #: admin~admin.menu.lizmap.project.list.label
 msgctxt "admin~admin.menu.lizmap.project.list.label"
 msgid "QGIS projects"
+msgstr ""
+
+#: admin~admin.menu.lizmap.project.sidebar.title.label
+msgctxt "admin~admin.menu.lizmap.project.sidebar.title.label"
+msgid "Project details"
 msgstr ""
 
 #: admin~admin.menu.lizmap.repositories.label
@@ -1038,15 +1048,29 @@ msgctxt "admin~admin.project.list.column.hidden.project.yes.label"
 msgid "Yes"
 msgstr ""
 
+#: admin~admin.project.list.column.invalid.layers.count.error.label
+msgctxt "admin~admin.project.list.column.invalid.layers.count.error.label"
+msgid ""
+"Some layers cannot be read by QGIS. Please check that the server can access the layer data. \n"
+"* For file based layers, the path must be accessible.\n"
+"* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
+msgstr ""
+
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
 msgid "Invalid layers"
 msgstr ""
 
+#: admin~admin.project.list.column.invalid.layers.list.label
+msgctxt "admin~admin.project.list.column.invalid.layers.list.label"
+msgid "List of invalid layers"
+msgstr ""
+
 #: admin~admin.project.list.column.layers.count.error.label
 msgctxt "admin~admin.project.list.column.layers.count.error.label"
 msgid ""
-"This project has a hug number of layers. Performance could be degraded."
+"This project has a huge number of layers. Performance could be highly "
+"degraded."
 msgstr ""
 
 #: admin~admin.project.list.column.layers.count.label
@@ -1069,9 +1093,53 @@ msgctxt "admin~admin.project.list.column.lizmap.plugin.version.label"
 msgid "Lizmap plugin"
 msgstr ""
 
+#: admin~admin.project.list.column.loading.time.error.label
+msgctxt "admin~admin.project.list.column.loading.time.error.label"
+msgid ""
+"The project loading time is very long. Please try to simplify your QGIS "
+"project for better performance."
+msgstr ""
+
+#: admin~admin.project.list.column.loading.time.label
+msgctxt "admin~admin.project.list.column.loading.time.label"
+msgid "Loading time (s)"
+msgstr ""
+
+#: admin~admin.project.list.column.loading.time.warning.label
+msgctxt "admin~admin.project.list.column.loading.time.warning.label"
+msgid "The project loading time is a bit long."
+msgstr ""
+
+#: admin~admin.project.list.column.memory.usage.error.label
+msgctxt "admin~admin.project.list.column.memory.usage.error.label"
+msgid ""
+"The project memory usage is very high. Please try to simplify your QGIS "
+"project for better performance."
+msgstr ""
+
+#: admin~admin.project.list.column.memory.usage.label
+msgctxt "admin~admin.project.list.column.memory.usage.label"
+msgid "Memory (Mo)"
+msgstr ""
+
+#: admin~admin.project.list.column.memory.usage.warning.label
+msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
+msgid "The project memory usage is a bit high."
+msgstr ""
+
+#: admin~admin.project.list.column.project.abstract.label
+msgctxt "admin~admin.project.list.column.project.abstract.label"
+msgid "Abstract"
+msgstr "Περίληψη"
+
 #: admin~admin.project.list.column.project.file.time.label
 msgctxt "admin~admin.project.list.column.project.file.time.label"
 msgid "Last modified"
+msgstr ""
+
+#: admin~admin.project.list.column.project.has.log.label
+msgctxt "admin~admin.project.list.column.project.has.log.label"
+msgid "QGIS Server logs"
 msgstr ""
 
 #: admin~admin.project.list.column.project.label
@@ -1079,11 +1147,16 @@ msgctxt "admin~admin.project.list.column.project.label"
 msgid "Project"
 msgstr "έργο"
 
+#: admin~admin.project.list.column.project.qgis.log.label
+msgctxt "admin~admin.project.list.column.project.qgis.log.label"
+msgid "QGIS Server logs"
+msgstr ""
+
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
 msgid ""
-"The QGIS project has been saved with a version above the one installed in "
-"your server"
+"The QGIS project has been saved with a QGIS desktop version above the QGIS "
+"server installed in your server"
 msgstr ""
 
 #: admin~admin.project.list.column.qgis.desktop.version.label
@@ -1093,18 +1166,13 @@ msgstr ""
 
 #: admin~admin.project.list.column.qgis.desktop.version.too.old
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.too.old"
-msgid "The QGIS project has been saved with an old version of QGIS"
+msgid "The QGIS project has been saved with an old version of QGIS desktop"
 msgstr ""
 
 #: admin~admin.project.list.column.repository.label
 msgctxt "admin~admin.project.list.column.repository.label"
 msgid "Repository"
 msgstr "Κατάθεση"
-
-#: admin~admin.project.list.column.used.memory.label
-msgctxt "admin~admin.project.list.column.used.memory.label"
-msgid "Memory"
-msgstr ""
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
