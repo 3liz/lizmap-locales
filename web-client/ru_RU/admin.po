@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-29 08:03++0000\n"
+"POT-Creation-Date: 2022-06-27 15:03++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Кадастр Муниципальный, 2021-2022\n"
 "Language-Team: Russian (http://www.transifex.com/3liz-1/lizmap-locales/language/ru/)\n"
@@ -30,19 +30,19 @@ msgstr "Очистить кеш"
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
 msgid "The cache for the layer %s has been successfully emptied."
-msgstr ""
+msgstr "Кэш для слоя %s успешно очищен."
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
 msgid "The cache for the repository %s has been successfully emptied."
-msgstr ""
+msgstr "Кэш для репозитория %s успешно очищен."
 
 #: admin~admin.config.services.allowUserAccountRequest.noemail
 msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
 "This option cannot be enabled while the sender email is not defined. Please "
 "contact the application administrator."
-msgstr ""
+msgstr "Этот параметр нельзя включить, если адрес электронной почты отправителя не определен. Пожалуйста, свяжитесь с администратором приложения."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -273,7 +273,7 @@ msgstr "Путь, указанный для хранилища, не досту�
 #: admin~admin.form.admin_section.message.path.wrong
 msgctxt "admin~admin.form.admin_section.message.path.wrong"
 msgid "The path given for the repository does not exist on the server."
-msgstr ""
+msgstr "Путь, указанный для репозитория, не существует на сервере."
 
 #: admin~admin.form.admin_section.message.repository.wrong
 msgctxt "admin~admin.form.admin_section.message.repository.wrong"
@@ -497,7 +497,7 @@ msgid ""
 " above. If you are using the FCGI server, you must let empty this field. "
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
-msgstr ""
+msgstr "Требуется QGIS Server 3.10 или выше, а также подключаемый модуль Lizmap 3.7.0 или выше. Если вы используете сервер FCGI, вы должны оставить это поле пустым. В противном случае, если вы используете Py-Qgis-Server, укажите URL-адрес, настроенный в конфигурации Py-Qgis-Server, относительно URL-адреса плагина Lizmap."
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
@@ -514,7 +514,7 @@ msgstr "Время жизни кеша должно быть целым числ
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
 msgid "The directory does not exist or is not writable. You can use: %s"
-msgstr ""
+msgstr "Каталог не существует или недоступен для записи. Вы можете использовать: %s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -988,17 +988,17 @@ msgstr "Просмотр логов"
 #: admin~admin.menu.lizmap.project.image.label
 msgctxt "admin~admin.menu.lizmap.project.image.label"
 msgid "Image"
-msgstr ""
+msgstr "Изображение"
 
 #: admin~admin.menu.lizmap.project.list.label
 msgctxt "admin~admin.menu.lizmap.project.list.label"
 msgid "QGIS projects"
-msgstr ""
+msgstr "QGIS проекты"
 
 #: admin~admin.menu.lizmap.project.sidebar.title.label
 msgctxt "admin~admin.menu.lizmap.project.sidebar.title.label"
 msgid "Project details"
-msgstr ""
+msgstr "Детали проекта"
 
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
@@ -1033,7 +1033,7 @@ msgstr "Проекция"
 #: admin~admin.project.list.column.crs.user.warning.label
 msgctxt "admin~admin.project.list.column.crs.user.warning.label"
 msgid "Please avoid user-defined projections for projects and layers."
-msgstr ""
+msgstr "Пожалуйста, избегайте пользовательских проекций для проектов и слоев."
 
 #: admin~admin.project.list.column.hidden.project.label
 msgctxt "admin~admin.project.list.column.hidden.project.label"
@@ -1056,24 +1056,24 @@ msgid ""
 "Some layers cannot be read by QGIS. Please check that the server can access the layer data. \n"
 "* For file based layers, the path must be accessible.\n"
 "* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
-msgstr ""
+msgstr "Некоторые слои не могут быть прочитаны QGIS. Убедитесь, что сервер может получить доступ к данным слоя.\n* Для слоев на основе файлов путь должен быть доступен.\n* Для слоев PostgreSQL сервер Lizmap должен иметь возможность подключаться к серверу базы данных."
 
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
 msgid "Invalid layers"
-msgstr ""
+msgstr "Недопустимые слои"
 
 #: admin~admin.project.list.column.invalid.layers.list.label
 msgctxt "admin~admin.project.list.column.invalid.layers.list.label"
 msgid "List of invalid layers"
-msgstr ""
+msgstr "Список недопустимых слоев"
 
 #: admin~admin.project.list.column.layers.count.error.label
 msgctxt "admin~admin.project.list.column.layers.count.error.label"
 msgid ""
 "This project has a huge number of layers. Performance could be highly "
 "degraded."
-msgstr ""
+msgstr "Этот проект имеет огромное количество слоев. Производительность может сильно ухудшиться."
 
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
@@ -1083,51 +1083,51 @@ msgstr "Слои"
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
 msgid "This project has many layers. Performance could be degraded."
-msgstr ""
+msgstr "Этот проект имеет много слоев. Производительность может быть снижена."
 
 #: admin~admin.project.list.column.layout.count.label
 msgctxt "admin~admin.project.list.column.layout.count.label"
 msgid "Layouts"
-msgstr ""
+msgstr "Макеты"
 
 #: admin~admin.project.list.column.lizmap.plugin.version.label
 msgctxt "admin~admin.project.list.column.lizmap.plugin.version.label"
 msgid "Lizmap plugin"
-msgstr ""
+msgstr "Плагин Lizmap"
 
 #: admin~admin.project.list.column.loading.time.error.label
 msgctxt "admin~admin.project.list.column.loading.time.error.label"
 msgid ""
 "The project loading time is very long. Please try to simplify your QGIS "
 "project for better performance."
-msgstr ""
+msgstr "Время загрузки проекта очень долгое. Пожалуйста, попробуйте упростить свой проект QGIS для повышения производительности."
 
 #: admin~admin.project.list.column.loading.time.label
 msgctxt "admin~admin.project.list.column.loading.time.label"
 msgid "Loading time (s)"
-msgstr ""
+msgstr "Время загрузки (с)"
 
 #: admin~admin.project.list.column.loading.time.warning.label
 msgctxt "admin~admin.project.list.column.loading.time.warning.label"
 msgid "The project loading time is a bit long."
-msgstr ""
+msgstr "Время загрузки проекта немного велико."
 
 #: admin~admin.project.list.column.memory.usage.error.label
 msgctxt "admin~admin.project.list.column.memory.usage.error.label"
 msgid ""
 "The project memory usage is very high. Please try to simplify your QGIS "
 "project for better performance."
-msgstr ""
+msgstr "Использование памяти проекта очень велико. Пожалуйста, попробуйте упростить свой проект QGIS для повышения производительности."
 
 #: admin~admin.project.list.column.memory.usage.label
 msgctxt "admin~admin.project.list.column.memory.usage.label"
 msgid "Memory (Mo)"
-msgstr ""
+msgstr "Память (Мо)"
 
 #: admin~admin.project.list.column.memory.usage.warning.label
 msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
 msgid "The project memory usage is a bit high."
-msgstr ""
+msgstr "Использование памяти проекта немного велико."
 
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
@@ -1137,12 +1137,12 @@ msgstr "Описание"
 #: admin~admin.project.list.column.project.file.time.label
 msgctxt "admin~admin.project.list.column.project.file.time.label"
 msgid "Last modified"
-msgstr ""
+msgstr "Последнее изменение"
 
 #: admin~admin.project.list.column.project.has.log.label
 msgctxt "admin~admin.project.list.column.project.has.log.label"
 msgid "QGIS Server logs"
-msgstr ""
+msgstr "Журналы сервера QGIS"
 
 #: admin~admin.project.list.column.project.label
 msgctxt "admin~admin.project.list.column.project.label"
@@ -1152,24 +1152,24 @@ msgstr "Проект"
 #: admin~admin.project.list.column.project.qgis.log.label
 msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
-msgstr ""
+msgstr "Журналы сервера QGIS"
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
 msgid ""
 "The QGIS project has been saved with a QGIS desktop version above the QGIS "
 "server installed in your server"
-msgstr ""
+msgstr "Проект QGIS был сохранен с настольной версией QGIS поверх сервера QGIS, установленного на вашем сервере."
 
 #: admin~admin.project.list.column.qgis.desktop.version.label
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.label"
 msgid "QGIS Desktop"
-msgstr ""
+msgstr "QGIS Desktop"
 
 #: admin~admin.project.list.column.qgis.desktop.version.too.old
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.too.old"
 msgid "The QGIS project has been saved with an old version of QGIS desktop"
-msgstr ""
+msgstr "Проект QGIS был сохранен со старой версией QGIS desktop"
 
 #: admin~admin.project.list.column.repository.label
 msgctxt "admin~admin.project.list.column.repository.label"
@@ -1324,7 +1324,7 @@ msgstr "Загруженный файл был загружен только ч�
 #: admin~admin.upload.image.error.file.save
 msgctxt "admin~admin.upload.image.error.file.save"
 msgid "An error occurred during the save"
-msgstr ""
+msgstr "Произошла ошибка во время сохранения"
 
 #: admin~admin.upload.image.error.file.wrongType
 msgctxt "admin~admin.upload.image.error.file.wrongType"

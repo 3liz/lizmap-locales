@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-29 08:03++0000\n"
+"POT-Creation-Date: 2022-06-27 15:03++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: 山本　竜三 <ryu@yamakun.net>, 2021-2022\n"
 "Language-Team: Japanese (http://www.transifex.com/3liz-1/lizmap-locales/language/ja/)\n"
@@ -987,7 +987,7 @@ msgstr "‎ログの表示‎"
 #: admin~admin.menu.lizmap.project.image.label
 msgctxt "admin~admin.menu.lizmap.project.image.label"
 msgid "Image"
-msgstr ""
+msgstr "‎画像‎"
 
 #: admin~admin.menu.lizmap.project.list.label
 msgctxt "admin~admin.menu.lizmap.project.list.label"
@@ -997,7 +997,7 @@ msgstr "QGIS プロジェクト"
 #: admin~admin.menu.lizmap.project.sidebar.title.label
 msgctxt "admin~admin.menu.lizmap.project.sidebar.title.label"
 msgid "Project details"
-msgstr ""
+msgstr "プロジェクト‎詳細"
 
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
@@ -1055,7 +1055,7 @@ msgid ""
 "Some layers cannot be read by QGIS. Please check that the server can access the layer data. \n"
 "* For file based layers, the path must be accessible.\n"
 "* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
-msgstr ""
+msgstr "‎いくつかの層はQGISによって読取ることができません。サーバーがレイヤデータにアクセスできることを確認してください。‎‎* ファイルベースのレイヤーの場合、パスはアクセス可能である必要があります。‎‎* PostgreSQLレイヤーの場合、Lizmapサーバはデータベースサーバに接続できなければなりません。‎"
 
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
@@ -1065,14 +1065,14 @@ msgstr "無効なレイヤ"
 #: admin~admin.project.list.column.invalid.layers.list.label
 msgctxt "admin~admin.project.list.column.invalid.layers.list.label"
 msgid "List of invalid layers"
-msgstr ""
+msgstr "‎無効なレイヤーのリスト‎"
 
 #: admin~admin.project.list.column.layers.count.error.label
 msgctxt "admin~admin.project.list.column.layers.count.error.label"
 msgid ""
 "This project has a huge number of layers. Performance could be highly "
 "degraded."
-msgstr ""
+msgstr "‎このプロジェクト‎には膨大な数のレイヤがあります。パフォーマンスが大幅に低下する可能性があります。‎"
 
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
@@ -1099,34 +1099,34 @@ msgctxt "admin~admin.project.list.column.loading.time.error.label"
 msgid ""
 "The project loading time is very long. Please try to simplify your QGIS "
 "project for better performance."
-msgstr ""
+msgstr "プロジェクト‎‎‎の読込時間は非常に長いです。より良いパフォーマンスのためにあなたのQGISプロジェクト‎を簡素化してみてください。‎"
 
 #: admin~admin.project.list.column.loading.time.label
 msgctxt "admin~admin.project.list.column.loading.time.label"
 msgid "Loading time (s)"
-msgstr ""
+msgstr "‎読込時間 (秒)‎"
 
 #: admin~admin.project.list.column.loading.time.warning.label
 msgctxt "admin~admin.project.list.column.loading.time.warning.label"
 msgid "The project loading time is a bit long."
-msgstr ""
+msgstr "プロジェクト‎の読込時間は少し長くなります。‎"
 
 #: admin~admin.project.list.column.memory.usage.error.label
 msgctxt "admin~admin.project.list.column.memory.usage.error.label"
 msgid ""
 "The project memory usage is very high. Please try to simplify your QGIS "
 "project for better performance."
-msgstr ""
+msgstr "プロジェクト‎のメモリ使用量が非常に高い。より良いパフォーマンスのためにあなたのQGISプロジェクト‎‎を簡素化してみてください。‎"
 
 #: admin~admin.project.list.column.memory.usage.label
 msgctxt "admin~admin.project.list.column.memory.usage.label"
 msgid "Memory (Mo)"
-msgstr ""
+msgstr "‎メモリ (Mo)‎"
 
 #: admin~admin.project.list.column.memory.usage.warning.label
 msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
 msgid "The project memory usage is a bit high."
-msgstr ""
+msgstr "プロジェクト‎のメモリ使用量は少し高くなっています。‎"
 
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
@@ -1141,7 +1141,7 @@ msgstr "最終更新日"
 #: admin~admin.project.list.column.project.has.log.label
 msgctxt "admin~admin.project.list.column.project.has.log.label"
 msgid "QGIS Server logs"
-msgstr ""
+msgstr "‎QGISサーバーログ‎"
 
 #: admin~admin.project.list.column.project.label
 msgctxt "admin~admin.project.list.column.project.label"
@@ -1151,14 +1151,14 @@ msgstr "‎プロジェクト‎"
 #: admin~admin.project.list.column.project.qgis.log.label
 msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
-msgstr ""
+msgstr "‎QGISサーバーログ‎"
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
 msgid ""
 "The QGIS project has been saved with a QGIS desktop version above the QGIS "
 "server installed in your server"
-msgstr ""
+msgstr "‎QGISプロジェクト‎は、サーバーにインストールされているQGISサーバーの上にQGISデスクトップバージョンで保存されています‎"
 
 #: admin~admin.project.list.column.qgis.desktop.version.label
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.label"
@@ -1168,7 +1168,7 @@ msgstr "QGIS デスクトップ"
 #: admin~admin.project.list.column.qgis.desktop.version.too.old
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.too.old"
 msgid "The QGIS project has been saved with an old version of QGIS desktop"
-msgstr ""
+msgstr "‎QGISプロジェクト‎は古いバージョンのQGISデスクトップで保存されています‎"
 
 #: admin~admin.project.list.column.repository.label
 msgctxt "admin~admin.project.list.column.repository.label"

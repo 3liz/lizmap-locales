@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-29 08:03++0000\n"
+"POT-Creation-Date: 2022-06-27 15:03++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2017-2020,2022\n"
 "Language-Team: Portuguese (http://www.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: admin~admin.cache.button.remove.repository.cache.confirm.label
 msgctxt "admin~admin.cache.button.remove.repository.cache.confirm.label"
@@ -990,7 +990,7 @@ msgstr "Ver registos"
 #: admin~admin.menu.lizmap.project.image.label
 msgctxt "admin~admin.menu.lizmap.project.image.label"
 msgid "Image"
-msgstr ""
+msgstr "Imagem"
 
 #: admin~admin.menu.lizmap.project.list.label
 msgctxt "admin~admin.menu.lizmap.project.list.label"
@@ -1000,7 +1000,7 @@ msgstr "Projetos QGIS"
 #: admin~admin.menu.lizmap.project.sidebar.title.label
 msgctxt "admin~admin.menu.lizmap.project.sidebar.title.label"
 msgid "Project details"
-msgstr ""
+msgstr "Detalhes do projeto"
 
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
@@ -1058,7 +1058,7 @@ msgid ""
 "Some layers cannot be read by QGIS. Please check that the server can access the layer data. \n"
 "* For file based layers, the path must be accessible.\n"
 "* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
-msgstr ""
+msgstr "Algumas camadas não podem ser lidas pelo QGIS. Verificar se o servidor pode aceder aos dados da camada.\n* Para camadas baseadas em ficheiro, o caminho deverá encontrar-se acessível.\n* Para camadas PostgreSQL, o servidor Lizmap deverá ser capaz de se ligar ao servidor de base de dados."
 
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
@@ -1068,7 +1068,7 @@ msgstr "Camadas inválidas"
 #: admin~admin.project.list.column.invalid.layers.list.label
 msgctxt "admin~admin.project.list.column.invalid.layers.list.label"
 msgid "List of invalid layers"
-msgstr ""
+msgstr "Lista de camadas inválidas"
 
 #: admin~admin.project.list.column.layers.count.error.label
 msgctxt "admin~admin.project.list.column.layers.count.error.label"
@@ -1102,34 +1102,34 @@ msgctxt "admin~admin.project.list.column.loading.time.error.label"
 msgid ""
 "The project loading time is very long. Please try to simplify your QGIS "
 "project for better performance."
-msgstr ""
+msgstr "O tempo de carregamento do projeto é muito longo. Tentar simplificar o projeto QGIS para obter um melhor desempenho."
 
 #: admin~admin.project.list.column.loading.time.label
 msgctxt "admin~admin.project.list.column.loading.time.label"
 msgid "Loading time (s)"
-msgstr ""
+msgstr "Tempo(s) de carregamento"
 
 #: admin~admin.project.list.column.loading.time.warning.label
 msgctxt "admin~admin.project.list.column.loading.time.warning.label"
 msgid "The project loading time is a bit long."
-msgstr ""
+msgstr "O tempo de carregamento do projeto é um pouco longo."
 
 #: admin~admin.project.list.column.memory.usage.error.label
 msgctxt "admin~admin.project.list.column.memory.usage.error.label"
 msgid ""
 "The project memory usage is very high. Please try to simplify your QGIS "
 "project for better performance."
-msgstr ""
+msgstr "A utilização de memória por parte do projeto é muito alta. Tentar simplificar o projeto QGIS para um melhor desempenho."
 
 #: admin~admin.project.list.column.memory.usage.label
 msgctxt "admin~admin.project.list.column.memory.usage.label"
 msgid "Memory (Mo)"
-msgstr ""
+msgstr "Memória (Mo)"
 
 #: admin~admin.project.list.column.memory.usage.warning.label
 msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
 msgid "The project memory usage is a bit high."
-msgstr ""
+msgstr "A utilização de memória por parte do projeto é um pouco alta."
 
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
@@ -1144,7 +1144,7 @@ msgstr "Última alteração"
 #: admin~admin.project.list.column.project.has.log.label
 msgctxt "admin~admin.project.list.column.project.has.log.label"
 msgid "QGIS Server logs"
-msgstr ""
+msgstr "Registos do QGIS Server"
 
 #: admin~admin.project.list.column.project.label
 msgctxt "admin~admin.project.list.column.project.label"
@@ -1154,7 +1154,7 @@ msgstr "Projeto"
 #: admin~admin.project.list.column.project.qgis.log.label
 msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
-msgstr ""
+msgstr "Registos do QGIS Server"
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
