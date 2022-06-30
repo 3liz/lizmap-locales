@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-29 08:03++0000\n"
+"POT-Creation-Date: 2022-06-27 15:03++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
 "Last-Translator: Кадастр Муниципальный, 2022\n"
 "Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/3liz-1/teams/62012/uk_UA/)\n"
@@ -29,12 +29,12 @@ msgstr "Очистити кеш"
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
 msgid "The cache for the layer %s has been successfully emptied."
-msgstr ""
+msgstr "Кеш для шару %s успішно очищений."
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
 msgid "The cache for the repository %s has been successfully emptied."
-msgstr ""
+msgstr "Кеш для сховища %s успішно очищений."
 
 #: admin~admin.config.services.allowUserAccountRequest.noemail
 msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
@@ -42,6 +42,8 @@ msgid ""
 "This option cannot be enabled while the sender email is not defined. Please "
 "contact the application administrator."
 msgstr ""
+"Цю опцію не можна ввімкнути, якщо електронна адреса відправника не "
+"визначена. Зверніться до адміністратора програми."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -272,7 +274,7 @@ msgstr "Шлях, зазначений для репозиторія, не ав�
 #: admin~admin.form.admin_section.message.path.wrong
 msgctxt "admin~admin.form.admin_section.message.path.wrong"
 msgid "The path given for the repository does not exist on the server."
-msgstr ""
+msgstr "Наведений шлях до сховища не існує на сервері."
 
 #: admin~admin.form.admin_section.message.repository.wrong
 msgctxt "admin~admin.form.admin_section.message.repository.wrong"
@@ -513,6 +515,10 @@ msgid ""
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
 msgstr ""
+"Потрібен сервер QGIS 3.10 або вище, а також плагін Lizmap 3.7.0 або вище. "
+"Якщо ви використовуєте сервер FCGI, ви повинні дозволити очистити це поле. "
+"Інакше, якщо ви використовуєте Py-Qgis-Server, вкажіть URL-адресу, "
+"налаштовану в конфігурації Py-Qgis-Server, щодо URL-адреси плагіна Lizmap."
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
@@ -531,6 +537,7 @@ msgstr ""
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
 msgid "The directory does not exist or is not writable. You can use: %s"
 msgstr ""
+"Каталог не існує або недоступний для запису. Ви можете використовувати: %s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -1192,7 +1199,7 @@ msgstr "Файл завантажено частково"
 #: admin~admin.upload.image.error.file.save
 msgctxt "admin~admin.upload.image.error.file.save"
 msgid "An error occurred during the save"
-msgstr ""
+msgstr "Під час збереження сталася помилка"
 
 #: admin~admin.upload.image.error.file.wrongType
 msgctxt "admin~admin.upload.image.error.file.wrongType"
