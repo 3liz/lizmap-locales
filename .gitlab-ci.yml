@@ -31,3 +31,60 @@ push-to-transifex:
     - from_lwc_to_transifex ${LWC_BRANCH} ${LOCALE_BRANCH}
   tags:
     - factory-plain
+
+pull-from-transifex-master:
+  stage: build
+  when: manual
+  only:
+    - schedules
+  image:
+    name: registry.snap.lizlan:5000/infra/transifex-lwc:latest
+  script:
+    - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
+    - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
+    - from_transifex_to_lwc master master
+  tags:
+    - factory-plain
+
+pull-from-transifex-3-6:
+  stage: build
+  when: manual
+  only:
+    - schedules
+  image:
+    name: registry.snap.lizlan:5000/infra/transifex-lwc:latest
+  script:
+    - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
+    - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
+    - from_transifex_to_lwc release_3_6 lizmap_3_6
+  tags:
+    - factory-plain
+
+
+pull-from-transifex-3-5:
+  stage: build
+  when: manual
+  only:
+    - schedules
+  image:
+    name: registry.snap.lizlan:5000/infra/transifex-lwc:latest
+  script:
+    - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
+    - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
+    - from_transifex_to_lwc release_3_5 lizmap_3_5
+  tags:
+    - factory-plain
+
+pull-from-transifex-3-4:
+  stage: build
+  when: manual
+  only:
+    - schedules
+  image:
+    name: registry.snap.lizlan:5000/infra/transifex-lwc:latest
+  script:
+    - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
+    - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
+    - from_transifex_to_lwc release_3_4 lizmap_3_4
+  tags:
+    - factory-plain
