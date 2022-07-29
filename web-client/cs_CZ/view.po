@@ -1,17 +1,18 @@
 # 
 # Translators:
-# trendspotter <jirka.p@volny.cz>, 2020
-# Jiří Sobotík <jiri.sobotik@centrum.cz>, 2018
-# trendspotter <jirka.p@volny.cz>, 2019-2020
-# trendspotter <jirka.p@volny.cz>, 2019
+# rldhont <rldhont@gmail.com>, 2022
+# Laurent Jouanneau <dev@ljouanneau.com>, 2022
+# trendspotter <jirka.p@volny.cz>, 2022
+# Jiří Sobotík <jiri.sobotik@centrum.cz>, 2022
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.6 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-02 15:21++0100\n"
-"PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: trendspotter <jirka.p@volny.cz>, 2019-2020\n"
-"Language-Team: Czech (http://www.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
+"POT-Creation-Date: 2022-07-29 17:00++0200\n"
+"PO-Revision-Date: 2022-07-29 15:01+0000\n"
+"Last-Translator: Jiří Sobotík <jiri.sobotik@centrum.cz>, 2022\n"
+"Language-Team: Czech (https://www.transifex.com/3liz-1/teams/62012/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -81,7 +82,7 @@ msgstr "Seznam klíčových slov"
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
 msgid "Load the map"
-msgstr "Nahrávám mapu"
+msgstr "Načíst mapu"
 
 #: view~default.project.open.map.metadata
 msgctxt "view~default.project.open.map.metadata"
@@ -116,12 +117,12 @@ msgstr "Atlas"
 #: view~dictionnary.atlas.toolbar.next
 msgctxt "view~dictionnary.atlas.toolbar.next"
 msgid "Next"
-msgstr "Další"
+msgstr "Následující"
 
 #: view~dictionnary.atlas.toolbar.pause
 msgctxt "view~dictionnary.atlas.toolbar.pause"
 msgid "Pause"
-msgstr "Pauza"
+msgstr "Pause"
 
 #: view~dictionnary.atlas.toolbar.play
 msgctxt "view~dictionnary.atlas.toolbar.play"
@@ -131,7 +132,7 @@ msgstr "Spusť"
 #: view~dictionnary.atlas.toolbar.prev
 msgctxt "view~dictionnary.atlas.toolbar.prev"
 msgid "Previous"
-msgstr "Předchozí"
+msgstr "Následující"
 
 #: view~dictionnary.atlas.toolbar.stop
 msgctxt "view~dictionnary.atlas.toolbar.stop"
@@ -188,7 +189,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "Vrstva není viditelná. Zvětšete prosím do měřítka, ve kterém jsou funkce viditelné."
+msgstr ""
+"Vrstva není viditelná. Zvětšete prosím do měřítka, ve kterém jsou funkce "
+"viditelné."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -288,7 +291,7 @@ msgstr "Zobrazit info"
 #: view~dictionnary.attributeLayers.toolbar.input.search.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.title"
 msgid "Search"
-msgstr "Vyhledat"
+msgstr "Vyhledávání"
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.extent
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.extent"
@@ -313,7 +316,7 @@ msgstr "Žádná základní mapa"
 #: view~dictionnary.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.activate.title"
 msgid "Pin"
-msgstr "PIN"
+msgstr "Pin"
 
 #: view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title"
@@ -405,12 +408,21 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Opravdu chcete zrušit vydání? Ztratíte veškeré úpravy provedené na aktuálně upravovaném objektu."
+msgstr ""
+"Opravdu chcete zrušit vydání? Ztratíte veškeré úpravy provedené na aktuálně "
+"upravovaném objektu."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
 msgstr "Opravdu chcete smazat vybranou funkci?"
+
+#: view~dictionnary.edition.confirm.restart-drawing
+msgctxt "view~dictionnary.edition.confirm.restart-drawing"
+msgid ""
+"Are you sure you want to delete the existing geometry and redraw it from "
+"scratch ?"
+msgstr ""
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -432,14 +444,17 @@ msgctxt "view~dictionnary.edition.draw.activate.mobile"
 msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
-msgstr "Tento formulář můžete skrýt tlačítkem zavřít, kdykoli potřebujete nakreslit geometrii."
+msgstr ""
+"Tento formulář můžete skrýt tlačítkem zavřít, kdykoli potřebujete nakreslit "
+"geometrii."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
-msgstr "Tento objekt nelze uložit bez geometrie. Nakreslete geometrii na mapu."
+msgstr ""
+"Tento objekt nelze uložit bez geometrie. Nakreslete geometrii na mapu."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -471,7 +486,9 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "Formulář byste měli vyplnit správně, abyste po rozdělení geometrie vytvořili nový prvek"
+msgstr ""
+"Formulář byste měli vyplnit správně, abyste po rozdělení geometrie vytvořili"
+" nový prvek"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -696,7 +713,7 @@ msgstr "Informace"
 #: view~dictionnary.layer.metadata.zoomToExtent.title
 msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
 msgid "Zoom to layer extent"
-msgstr "Přiblížit na rozsah vrstvy"
+msgstr "Přiblížit na vrstvu"
 
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
@@ -928,6 +945,18 @@ msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
 msgstr "Přichytávání"
 
+#: view~dictionnary.startup.error
+msgctxt "view~dictionnary.startup.error"
+msgid ""
+"An error occurred while loading this map. Some necessary resource may "
+"temporarily be unavailable. Please try again later."
+msgstr ""
+
+#: view~dictionnary.startup.goToProject
+msgctxt "view~dictionnary.startup.goToProject"
+msgid "Go back to the home page."
+msgstr ""
+
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
@@ -1058,6 +1087,11 @@ msgctxt "view~edition.geomtool.reshape.title"
 msgid "Reshape"
 msgstr "Změna tvaru"
 
+#: view~edition.geomtool.restartdrawing.title
+msgctxt "view~edition.geomtool.restartdrawing.title"
+msgid "Redraw the geometry"
+msgstr ""
+
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
 msgid "Reverse the geometry"
@@ -1078,7 +1112,8 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Musí být vybrán alespoň jeden objekt pro každou vrstvu pro vytvoření odkazu."
+msgstr ""
+"Musí být vybrán alespoň jeden objekt pro každou vrstvu pro vytvoření odkazu."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -1090,7 +1125,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Nemůžete propojit více objektů pro obě vrstvy. Pro jednu z vrstev vyberte pouze jeden objekt a zkuste to znovu."
+msgstr ""
+"Nemůžete propojit více objektů pro obě vrstvy. Pro jednu z vrstev vyberte "
+"pouze jeden objekt a zkuste to znovu."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1192,7 +1229,8 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
-msgstr "Tento objekt nelze uložit bez geometrie. Nakreslete geometrii na mapu."
+msgstr ""
+"Tento objekt nelze uložit bez geometrie. Nakreslete geometrii na mapu."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1209,7 +1247,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap nemůže nalézt primární klíče vrstvy \"%s\". Nástroj pro editaci vyžaduje definovaný primární klíč v tabulce."
+msgstr ""
+"Lizmap nemůže nalézt primární klíče vrstvy \"%s\". Nástroj pro editaci "
+"vyžaduje definovaný primární klíč v tabulce."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1271,7 +1311,7 @@ msgstr "Editace"
 #: view~edition.point.coord.add.label
 msgctxt "view~edition.point.coord.add.label"
 msgid "Add"
-msgstr "Přidat"
+msgstr "Nový"
 
 #: view~edition.point.coord.crs.label
 msgctxt "view~edition.point.coord.crs.label"
@@ -1631,7 +1671,7 @@ msgstr "Poznámka"
 #: view~map.metadata.description.title
 msgctxt "view~map.metadata.description.title"
 msgid "Title"
-msgstr "Titul"
+msgstr "Titul (název)"
 
 #: view~map.metadata.h2.contact
 msgctxt "view~map.metadata.h2.contact"
@@ -1701,7 +1741,7 @@ msgstr "Posunout"
 #: view~map.navbar.previous.hover
 msgctxt "view~map.navbar.previous.hover"
 msgid "Previous"
-msgstr "Předchozí"
+msgstr "Následující"
 
 #: view~map.navbar.slider.hover
 msgctxt "view~map.navbar.slider.hover"
@@ -1946,12 +1986,12 @@ msgstr "Časový manažer"
 #: view~map.timemanager.toolbar.next
 msgctxt "view~map.timemanager.toolbar.next"
 msgid "Next"
-msgstr "Další"
+msgstr "Následující"
 
 #: view~map.timemanager.toolbar.pause
 msgctxt "view~map.timemanager.toolbar.pause"
 msgid "Pause"
-msgstr "Pauza"
+msgstr "Pause"
 
 #: view~map.timemanager.toolbar.play
 msgctxt "view~map.timemanager.toolbar.play"
@@ -2013,7 +2053,9 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have access to "
 "the maps."
-msgstr "Napište prosím krátký text, ve kterém vysvětlíte, proč byste chtěli mít přístup k mapám."
+msgstr ""
+"Napište prosím krátký text, ve kterém vysvětlíte, proč byste chtěli mít "
+"přístup k mapám."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

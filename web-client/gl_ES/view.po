@@ -1,17 +1,17 @@
 # 
 # Translators:
-# Xan Vieiro <gallaecia6@gmail.com>, 2016-2020
-# rldhont <rldhont@gmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
-# Xan Vieiro <gallaecia6@gmail.com>, 2016
+# rldhont <rldhont@gmail.com>, 2022
+# Laurent Jouanneau <dev@ljouanneau.com>, 2022
+# Xan Vieiro <gallaecia6@gmail.com>, 2022
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.6 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-02 15:21++0100\n"
-"PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: Xan Vieiro <gallaecia6@gmail.com>, 2016-2020\n"
-"Language-Team: Galician (http://www.transifex.com/3liz-1/lizmap-locales/language/gl/)\n"
+"POT-Creation-Date: 2022-07-29 17:00++0200\n"
+"PO-Revision-Date: 2022-07-29 15:01+0000\n"
+"Last-Translator: Xan Vieiro <gallaecia6@gmail.com>, 2022\n"
+"Language-Team: Galician (https://www.transifex.com/3liz-1/teams/62012/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -126,7 +126,7 @@ msgstr "Pausa"
 #: view~dictionnary.atlas.toolbar.play
 msgctxt "view~dictionnary.atlas.toolbar.play"
 msgid "Play"
-msgstr "Reproducir"
+msgstr "Prender"
 
 #: view~dictionnary.atlas.toolbar.prev
 msgctxt "view~dictionnary.atlas.toolbar.prev"
@@ -188,7 +188,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "A capa non é visible. Faga zoom ata a escala na que as entidades sexan visibles."
+msgstr ""
+"A capa non é visible. Faga zoom ata a escala na que as entidades sexan "
+"visibles."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -268,7 +270,8 @@ msgstr "Recargar os datos da táboa."
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr "Cambiou a extensión do mapa dende a última vez que se actualizaron os datos."
+msgstr ""
+"Cambiou a extensión do mapa dende a última vez que se actualizaron os datos."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
@@ -405,12 +408,21 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Está seguro de querer cancelar a edición? Perderá calquera modificación feita no obxecto editado actualmente."
+msgstr ""
+"Está seguro de querer cancelar a edición? Perderá calquera modificación "
+"feita no obxecto editado actualmente."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
 msgstr "Está seguro de querer eliminar a entidade seleccionada?"
+
+#: view~dictionnary.edition.confirm.restart-drawing
+msgctxt "view~dictionnary.edition.confirm.restart-drawing"
+msgid ""
+"Are you sure you want to delete the existing geometry and redraw it from "
+"scratch ?"
+msgstr ""
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -471,7 +483,9 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "Debes encher correctamente o formulario, para crear unha nova entidade despois de dividir a xeometría"
+msgstr ""
+"Debes encher correctamente o formulario, para crear unha nova entidade "
+"despois de dividir a xeometría"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -821,7 +835,7 @@ msgstr "1 obxecto seleccionado"
 #: view~dictionnary.selectiontool.toolbar.action.filter
 msgctxt "view~dictionnary.selectiontool.toolbar.action.filter"
 msgid "Filter"
-msgstr "Filtro"
+msgstr "Filtrar"
 
 #: view~dictionnary.selectiontool.toolbar.action.invert
 msgctxt "view~dictionnary.selectiontool.toolbar.action.invert"
@@ -927,6 +941,18 @@ msgstr "Selección"
 msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
 msgstr "Axuste"
+
+#: view~dictionnary.startup.error
+msgctxt "view~dictionnary.startup.error"
+msgid ""
+"An error occurred while loading this map. Some necessary resource may "
+"temporarily be unavailable. Please try again later."
+msgstr ""
+
+#: view~dictionnary.startup.goToProject
+msgctxt "view~dictionnary.startup.goToProject"
+msgid "Go back to the home page."
+msgstr ""
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -1058,6 +1084,11 @@ msgctxt "view~edition.geomtool.reshape.title"
 msgid "Reshape"
 msgstr "Cambiar forma"
 
+#: view~edition.geomtool.restartdrawing.title
+msgctxt "view~edition.geomtool.restartdrawing.title"
+msgid "Redraw the geometry"
+msgstr ""
+
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
 msgid "Reverse the geometry"
@@ -1078,7 +1109,9 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Debe haber polo menos un obxecto seleccionado para cada capa para crear o enlace."
+msgstr ""
+"Debe haber polo menos un obxecto seleccionado para cada capa para crear o "
+"enlace."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -1090,7 +1123,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Non pode enlazar múltiples obxectos para ámbalas capas. Seleccione só un obxecto para unha das capas e ténteo de novo."
+msgstr ""
+"Non pode enlazar múltiples obxectos para ámbalas capas. Seleccione só un "
+"obxecto para unha das capas e ténteo de novo."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1209,7 +1244,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap non pode atopar as claves primarias da capa \"%s\". A ferramenta de edición precisa unha clave primaria definida na táboa."
+msgstr ""
+"Lizmap non pode atopar as claves primarias da capa \"%s\". A ferramenta de "
+"edición precisa unha clave primaria definida na táboa."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1231,7 +1268,9 @@ msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "Non se pode escribir no directorio do campo \"%s\" da capa \"%s\" para subir ficheiros."
+msgstr ""
+"Non se pode escribir no directorio do campo \"%s\" da capa \"%s\" para subir"
+" ficheiros."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"

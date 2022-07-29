@@ -1,15 +1,17 @@
 # 
 # Translators:
-# kasza jozsef <kasza.nkataszri@gmail.com>, 2018-2019
-# kasza jozsef <kasza.nkataszri@gmail.com>, 2018
+# Laurent Jouanneau <dev@ljouanneau.com>, 2022
+# rldhont <rldhont@gmail.com>, 2022
+# kasza jozsef <kasza.nkataszri@gmail.com>, 2022
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.6 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-02 15:21++0100\n"
-"PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2018-2019\n"
-"Language-Team: Hungarian (Hungary) (http://www.transifex.com/3liz-1/lizmap-locales/language/hu_HU/)\n"
+"POT-Creation-Date: 2022-07-29 17:00++0200\n"
+"PO-Revision-Date: 2022-07-29 15:01+0000\n"
+"Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2022\n"
+"Language-Team: Hungarian (Hungary) (https://www.transifex.com/3liz-1/teams/62012/hu_HU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -186,7 +188,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "A réteg nem látható. Kérem, közelítsen/távolítson olyan méretig, melynél láthatók a térképelemek."
+msgstr ""
+"A réteg nem látható. Kérem, közelítsen/távolítson olyan méretig, melynél "
+"láthatók a térképelemek."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -209,7 +213,7 @@ msgstr "Elem létrehozása"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
 msgid "Export"
-msgstr "Exportálás"
+msgstr "Export"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
@@ -403,12 +407,21 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Biztosan kilép az aktuális szerkesztőből? A folyamatban lévő szerkesztések el fognak veszni."
+msgstr ""
+"Biztosan kilép az aktuális szerkesztőből? A folyamatban lévő szerkesztések "
+"el fognak veszni."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
 msgstr "Biztosan törölni szeretné a kiválasztott elemet?"
+
+#: view~dictionnary.edition.confirm.restart-drawing
+msgctxt "view~dictionnary.edition.confirm.restart-drawing"
+msgid ""
+"Are you sure you want to delete the existing geometry and redraw it from "
+"scratch ?"
+msgstr ""
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -509,7 +522,7 @@ msgstr "Keresés folyamatban"
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"
 msgid "Export"
-msgstr "Exportálás"
+msgstr "Export"
 
 #: view~dictionnary.filter.btn.export.title
 msgctxt "view~dictionnary.filter.btn.export.title"
@@ -926,10 +939,22 @@ msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
 msgstr ""
 
+#: view~dictionnary.startup.error
+msgctxt "view~dictionnary.startup.error"
+msgid ""
+"An error occurred while loading this map. Some necessary resource may "
+"temporarily be unavailable. Please try again later."
+msgstr ""
+
+#: view~dictionnary.startup.goToProject
+msgctxt "view~dictionnary.startup.goToProject"
+msgid "Go back to the home page."
+msgstr ""
+
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
-msgstr "Exportálás"
+msgstr "Export"
 
 #: view~dictionnary.switcher.layer.export.warn
 msgctxt "view~dictionnary.switcher.layer.export.warn"
@@ -1056,6 +1081,11 @@ msgctxt "view~edition.geomtool.reshape.title"
 msgid "Reshape"
 msgstr "Újra-rajzolás"
 
+#: view~edition.geomtool.restartdrawing.title
+msgctxt "view~edition.geomtool.restartdrawing.title"
+msgid "Redraw the geometry"
+msgstr ""
+
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
 msgid "Reverse the geometry"
@@ -1076,7 +1106,9 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Minden réteghez legalább egy objektumot ki kell jelölni a link létrehozásához."
+msgstr ""
+"Minden réteghez legalább egy objektumot ki kell jelölni a link "
+"létrehozásához."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -1088,7 +1120,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Nem kapcsolhat több objektumot mindkét réteghez. Kérem válasszon egy objektumot az egyik réteghez és próbálja újra."
+msgstr ""
+"Nem kapcsolhat több objektumot mindkét réteghez. Kérem válasszon egy "
+"objektumot az egyik réteghez és próbálja újra."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1128,7 +1162,9 @@ msgstr "A kiválasztott elemek összekapcsolása sikeres."
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"
 msgid "The bbox has to be 4 floats separated by ','."
-msgstr "A határoló négyszög megadása 4 darab tört számmal lehetséges, ','-vel elválasztva."
+msgstr ""
+"A határoló négyszög megadása 4 darab tört számmal lehetséges, ','-vel "
+"elválasztva."
 
 #: view~edition.message.error.constraint
 msgctxt "view~edition.message.error.constraint"
@@ -1143,7 +1179,9 @@ msgstr ""
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
 msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr "crs megadása kötelező, melynek egész számnak, vagy ESPG:* formátumnak kell lennie."
+msgstr ""
+"crs megadása kötelező, melynek egész számnak, vagy ESPG:* formátumnak kell "
+"lennie."
 
 #: view~edition.message.error.delete
 msgctxt "view~edition.message.error.delete"
@@ -1207,7 +1245,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "A Lizmap nem találja a \"%s\" réteg elsődleges kulcsát. A szerkesztőeszköz használatához elengedhetetlen, hogy a táblának legyen elsődleges kulcsa."
+msgstr ""
+"A Lizmap nem találja a \"%s\" réteg elsődleges kulcsát. A szerkesztőeszköz "
+"használatához elengedhetetlen, hogy a táblának legyen elsődleges kulcsa."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1229,7 +1269,9 @@ msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "A/Az\"%s\" nevű mező, mely a/az \"%s\" réteg média-feltöltési könyvtára, nem írható."
+msgstr ""
+"A/Az\"%s\" nevű mező, mely a/az \"%s\" réteg média-feltöltési könyvtára, nem"
+" írható."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -1909,7 +1951,7 @@ msgstr "Információ"
 #: view~map.switcher.layer.style.title
 msgctxt "view~map.switcher.layer.style.title"
 msgid "Change layer style"
-msgstr "Réteg-stílus megváltoztatása"
+msgstr "Rétegstílus megváltoztatása"
 
 #: view~map.switcher.layer.unfilter.title
 msgctxt "view~map.switcher.layer.unfilter.title"
@@ -1919,7 +1961,7 @@ msgstr "Az aktuális szűrő kikapcsolása"
 #: view~map.switcher.layer.zoomToExtent.title
 msgctxt "view~map.switcher.layer.zoomToExtent.title"
 msgid "Zoom to layer extent"
-msgstr "Zoom a réteg külső határaihoz igazodva"
+msgstr "Zoom a réteg széleihez igazodva"
 
 #: view~map.switcher.layers.collapse.title
 msgctxt "view~map.switcher.layers.collapse.title"

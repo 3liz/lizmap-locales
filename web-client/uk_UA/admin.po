@@ -1,14 +1,15 @@
 # 
 # Translators:
-# Кадастр Муниципальный, 2021-2022
+# Кадастр Муниципальный, 2022
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 15:03++0000\n"
-"PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: Кадастр Муниципальный, 2021-2022\n"
-"Language-Team: Ukrainian (Ukraine) (http://www.transifex.com/3liz-1/lizmap-locales/language/uk_UA/)\n"
+"POT-Creation-Date: 2022-07-29 17:00++0200\n"
+"PO-Revision-Date: 2022-07-29 15:01+0000\n"
+"Last-Translator: Кадастр Муниципальный, 2022\n"
+"Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/3liz-1/teams/62012/uk_UA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,7 +41,9 @@ msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
 "This option cannot be enabled while the sender email is not defined. Please "
 "contact the application administrator."
-msgstr "Цю опцію не можна ввімкнути, якщо електронна адреса відправника не визначена. Зверніться до адміністратора програми."
+msgstr ""
+"Цю опцію не можна ввімкнути, якщо електронна адреса відправника не "
+"визначена. Зверніться до адміністратора програми."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -241,7 +244,7 @@ msgstr "Змінити репозиторій"
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
 msgid "You can now configure the rights for this repository."
-msgstr "Тепер ви можете налаштувати права для цього репозиторія."
+msgstr "Тепер можливо налаштувати права до репозиторія."
 
 #: admin~admin.form.admin_section.message.data.removed
 msgctxt "admin~admin.form.admin_section.message.data.removed"
@@ -307,7 +310,7 @@ msgstr "Зберегти"
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
 msgid "E-mail address to which notifications will be sent"
-msgstr "E-mail на який відправляються повідомлення"
+msgstr "E-mail пошти, на яку будуть надсилатися повідомлення"
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
@@ -319,14 +322,19 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
 msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
-msgstr "E-mail пошти відправника потрібна для надсилання сповіщень або запитів на створення облікового запису"
+msgstr ""
+"E-mail пошти відправника потрібна для надсилання сповіщень або запитів на "
+"створення облікового запису"
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "E-mail пошти, яка використовується для надсилання електронних листів. Якщо порожній, Lizmap не надсилатиме електронні листи. Переконайтеся, що вашому серверу дозволено надсилати електронну пошту з цією адресою."
+msgstr ""
+"E-mail пошти, яка використовується для надсилання електронних листів. Якщо "
+"порожній, Lizmap не надсилатиме електронні листи. Переконайтеся, що вашому "
+"серверу дозволено надсилати електронну пошту з цією адресою."
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
@@ -336,7 +344,8 @@ msgstr "Адреса відправника електронної пошти"
 #: admin~admin.form.admin_services.adminSenderName.help
 msgctxt "admin~admin.form.admin_services.adminSenderName.help"
 msgid "Name of the sender used to send e-mails."
-msgstr "Ім’я відправника, який використовується для надсилання електронних листів."
+msgstr ""
+"Ім’я відправника, який використовується для надсилання електронних листів."
 
 #: admin~admin.form.admin_services.adminSenderName.label
 msgctxt "admin~admin.form.admin_services.adminSenderName.label"
@@ -348,7 +357,9 @@ msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
 msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
-msgstr "Якщо ввімкнено, відвідувачі можуть заповнити форму, щоб запитати обліковий запис. Необхідно вказати адресу відправника для електронних листів."
+msgstr ""
+"Якщо ввімкнено, відвідувачі можуть заповнити форму, щоб запитати обліковий "
+"запис. Необхідно вказати адресу відправника для електронних листів."
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
@@ -365,7 +376,9 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr "0 означає відсутність закінчення терміну дії, інакше дайте ціле число в секундах (макс .: 2592000 с = 30 днів)"
+msgstr ""
+"0 означає відсутність закінчення терміну дії, інакше дайте ціле число в "
+"секундах (макс .: 2592000 с = 30 днів)"
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
@@ -377,7 +390,9 @@ msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
 "Redis database index: integer >= 0 , optional (used if Redis is chosen for "
 "the cache storage)"
-msgstr "Індекс бази даних Redis: ціле число> = 0, необов’язково (використовується, якщо для сховища кешу вибрано Redis)"
+msgstr ""
+"Індекс бази даних Redis: ціле число> = 0, необов’язково (використовується, "
+"якщо для сховища кешу вибрано Redis)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -399,7 +414,9 @@ msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
 msgid ""
 "Redis key prefix: string, optional (used if Redis is chosen for the cache "
 "storage)"
-msgstr "Префікс ключа Redis: рядок, необов’язковий (використовується, якщо для сховища кешу вибрано Redis)"
+msgstr ""
+"Префікс ключа Redis: рядок, необов’язковий (використовується, якщо для "
+"сховища кешу вибрано Redis)"
 
 #: admin~admin.form.admin_services.cacheRedisKeyPrefix.label
 msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.label"
@@ -471,12 +488,37 @@ msgctxt "admin~admin.form.admin_services.defaultRepository.label"
 msgid "Default repository"
 msgstr "Репозиторій за замовчуванням "
 
+#: admin~admin.form.admin_services.emails.help
+msgctxt "admin~admin.form.admin_services.emails.help"
+msgid ""
+"To send emails, Lizmap needs a sender address. If empty, no emails will be "
+"sent by Lizmap, and therefore, some features like password recovery or email"
+" notifications won't work."
+msgstr ""
+
+#: admin~admin.form.admin_services.emails.no.server
+msgctxt "admin~admin.form.admin_services.emails.no.server"
+msgid ""
+"No sender address is configured in Lizmap. Some features like password "
+"recovery or email notifications cannot work. Contact the application "
+"administrator if you want to enable all email features."
+msgstr ""
+
+#: admin~admin.form.admin_services.emails.server.help
+msgctxt "admin~admin.form.admin_services.emails.server.help"
+msgid ""
+"Be sure the web server is able to send emails, or setup SMTP parameters into"
+" the configuration files of Lizmap."
+msgstr ""
+
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
 msgid ""
 "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
 "\"tracking ID\"."
-msgstr "Google Analytics ID має форму \"UA-XXXX-Y\". Його також називають \"ідентифікатором відстеження\"."
+msgstr ""
+"Google Analytics ID має форму \"UA-XXXX-Y\". Його також називають "
+"\"ідентифікатором відстеження\"."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.label
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
@@ -491,11 +533,11 @@ msgstr "Змінити загальну конфігурацію Lizmap"
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.help
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.help"
 msgid ""
-"QGIS Server 3.10 or above is required, as well as the Lizmap plugin 3.7.0 or"
-" above. If you are using the FCGI server, you must let empty this field. "
+"QGIS Server %s or above is required, as well as the Lizmap server plugin %s "
+"or above. If you are using the FCGI server, you must let empty this field. "
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
-msgstr "Потрібен сервер QGIS 3.10 або вище, а також плагін Lizmap 3.7.0 або вище. Якщо ви використовуєте сервер FCGI, ви повинні дозволити очистити це поле. Інакше, якщо ви використовуєте Py-Qgis-Server, вкажіть URL-адресу, налаштовану в конфігурації Py-Qgis-Server, щодо URL-адреси плагіна Lizmap."
+msgstr ""
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
@@ -507,12 +549,14 @@ msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr "Час закінчення кешу сервера має бути цілим числом від 0 до 2592000 секунд."
+msgstr ""
+"Час закінчення кешу сервера має бути цілим числом від 0 до 2592000 секунд."
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
 msgid "The directory does not exist or is not writable. You can use: %s"
-msgstr "Каталог не існує або недоступний для запису. Ви можете використовувати: %s"
+msgstr ""
+"Каталог не існує або недоступний для запису. Ви можете використовувати: %s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -625,7 +669,9 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr "Коренева папка сховищ може обмежувати каталог Lizmap до 1 папки. Якщо тут встановлено шлях, визначити шлях до каталогу Lizmap більше неможливо."
+msgstr ""
+"Коренева папка сховищ може обмежувати каталог Lizmap до 1 папки. Якщо тут "
+"встановлено шлях, визначити шлях до каталогу Lizmap більше неможливо."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -643,7 +689,10 @@ msgid ""
 "Images uploaded when editing features will have this maximum width and "
 "height (in pixels). A recommended value is 1920 (HD size). Maximum value is "
 "3840 and minimum value is 480."
-msgstr "Зображення, завантажені під час редагування об’єктів, матимуть цю максимальну ширину та висоту (у пікселях). Рекомендовано значення 1920 (розмір HD). Максимальне значення – 3840, мінімальне – 480."
+msgstr ""
+"Зображення, завантажені під час редагування об’єктів, матимуть цю "
+"максимальну ширину та висоту (у пікселях). Рекомендовано значення 1920 "
+"(розмір HD). Максимальне значення – 3840, мінімальне – 480."
 
 #: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label"
@@ -679,7 +728,9 @@ msgstr "Так"
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
-msgstr "Ви можете написати будь -який синтаксис CSS, щоб замінити стиль Lizmap (для просунутих користувачів)"
+msgstr ""
+"Ви можете написати будь -який синтаксис CSS, щоб замінити стиль Lizmap (для "
+"просунутих користувачів)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
@@ -714,7 +765,8 @@ msgstr "Заголовок - колір фону."
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
 msgid "The image to be used for the header background (400ko Maximum)."
-msgstr "Зображення, яке буде використовуватися для фону заголовка (400K максимум)."
+msgstr ""
+"Зображення, яке буде використовуватися для фону заголовка (400K максимум)."
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
@@ -724,7 +776,9 @@ msgstr "Заголовок - фонове зображення"
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
 msgid "The image to be used for the header logo (200ko Maximum)."
-msgstr "Зображення, яке буде використовуватися для логотипу заголовка (200к максимум)."
+msgstr ""
+"Зображення, яке буде використовуватися для логотипу заголовка (200к "
+"максимум)."
 
 #: admin~admin.form.admin_theme.headerLogo.label
 msgctxt "admin~admin.form.admin_theme.headerLogo.label"
@@ -834,7 +888,7 @@ msgstr "Користувач видалив функцію."
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
 msgid "A feature has been created or modified by a user."
-msgstr "Функція була створена або змінена користувачем."
+msgstr "Користувач створив або змінив функцію."
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
@@ -896,7 +950,9 @@ msgctxt "admin~admin.logs.error.file.too.big"
 msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
-msgstr "Файл журналу помилок завеликий. Подумайте про використання ротації журналів для журналів веб -клієнта Lizmap."
+msgstr ""
+"Файл журналу помилок завеликий. Подумайте про використання ротації журналів "
+"для журналів веб -клієнта Lizmap."
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
@@ -1031,7 +1087,8 @@ msgstr "Проєкція"
 #: admin~admin.project.list.column.crs.user.warning.label
 msgctxt "admin~admin.project.list.column.crs.user.warning.label"
 msgid "Please avoid user-defined projections for projects and layers."
-msgstr "Будь ласка, уникайте визначених користувачем проекцій для проектів і шарів."
+msgstr ""
+"Будь ласка, уникайте визначених користувачем проекцій для проектів і шарів."
 
 #: admin~admin.project.list.column.hidden.project.label
 msgctxt "admin~admin.project.list.column.hidden.project.label"
@@ -1054,7 +1111,10 @@ msgid ""
 "Some layers cannot be read by QGIS. Please check that the server can access the layer data. \n"
 "* For file based layers, the path must be accessible.\n"
 "* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
-msgstr "Деякі шари не можуть бути прочитані QGIS. Будь ласка, переконайтеся, що сервер має доступ до даних шару.\n* Для шарів на основі файлів шлях має бути доступним.\n* Для шарів PostgreSQL сервер Lizmap повинен мати можливість підключення до сервера бази даних."
+msgstr ""
+"Деякі шари не можуть бути прочитані QGIS. Будь ласка, переконайтеся, що сервер має доступ до даних шару.\n"
+"* Для шарів на основі файлів шлях має бути доступним.\n"
+"* Для шарів PostgreSQL сервер Lizmap повинен мати можливість підключення до сервера бази даних."
 
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
@@ -1071,7 +1131,9 @@ msgctxt "admin~admin.project.list.column.layers.count.error.label"
 msgid ""
 "This project has a huge number of layers. Performance could be highly "
 "degraded."
-msgstr "Цей проект має величезну кількість шарів. Продуктивність може бути сильно погіршена."
+msgstr ""
+"Цей проект має величезну кількість шарів. Продуктивність може бути сильно "
+"погіршена."
 
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
@@ -1098,7 +1160,9 @@ msgctxt "admin~admin.project.list.column.loading.time.error.label"
 msgid ""
 "The project loading time is very long. Please try to simplify your QGIS "
 "project for better performance."
-msgstr "Час завантаження проекту дуже тривалий. Будь ласка, спробуйте спростити свій проект QGIS для кращої продуктивності."
+msgstr ""
+"Час завантаження проекту дуже тривалий. Будь ласка, спробуйте спростити свій"
+" проект QGIS для кращої продуктивності."
 
 #: admin~admin.project.list.column.loading.time.label
 msgctxt "admin~admin.project.list.column.loading.time.label"
@@ -1115,7 +1179,9 @@ msgctxt "admin~admin.project.list.column.memory.usage.error.label"
 msgid ""
 "The project memory usage is very high. Please try to simplify your QGIS "
 "project for better performance."
-msgstr "Використання пам'яті проекту дуже велике. Будь ласка, спробуйте спростити свій проект QGIS для кращої продуктивності."
+msgstr ""
+"Використання пам'яті проекту дуже велике. Будь ласка, спробуйте спростити "
+"свій проект QGIS для кращої продуктивності."
 
 #: admin~admin.project.list.column.memory.usage.label
 msgctxt "admin~admin.project.list.column.memory.usage.label"
@@ -1157,7 +1223,9 @@ msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
 msgid ""
 "The QGIS project has been saved with a QGIS desktop version above the QGIS "
 "server installed in your server"
-msgstr "Проект QGIS було збережено з настільною версією QGIS над сервером QGIS, встановленим на вашому сервері"
+msgstr ""
+"Проект QGIS було збережено з настільною версією QGIS над сервером QGIS, "
+"встановленим на вашому сервері"
 
 #: admin~admin.project.list.column.qgis.desktop.version.label
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.label"
@@ -1204,19 +1272,20 @@ msgctxt "admin~admin.server.information.qgis.error.fetching.information"
 msgid ""
 "We cannot get the details about your QGIS Server installation (version, "
 "plugins, etc.)."
-msgstr "Ми не можемо отримати подробиці про встановлення вашого сервера QGIS (версія, плагіни тощо)."
+msgstr ""
+"Ми не можемо отримати подробиці про встановлення вашого сервера QGIS "
+"(версія, плагіни тощо)."
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail"
 msgid ""
-"Either the version of the installed QGIS Server is under 3.10, or the Lizmap"
-" plugin is not detected in your server, or is installed with a version under"
-" 3.7.0. Please upgrade QGIS Server to minimum 3.10 and install or upgrade "
-"the Lizmap plugin to minimum 3.7.0 by reading the documentation about the "
-"environment variable "
-"https://docs.lizmap.com/current/en/install/pre_requirements.html"
-msgstr "Версія встановленого сервера QGIS або нижче 3.10, або плагін Lizmap не виявляється на вашому сервері, або встановлено з версією до 3.7.0. Будь ласка, оновіть сервер QGIS до версії мінімум 3.10 і встановіть або оновіть плагін Lizmap до мінімум 3.7.0, прочитавши документацію про змінну середовища https://docs.lizmap.com/current/en/install/pre_requirements.html"
+"Either the version of the installed QGIS Server is under %s, or the Lizmap "
+"server plugin is not detected in your server, or is installed with a version"
+" under %s. Please upgrade QGIS Server to minimum %s and install or upgrade "
+"the Lizmap server plugin to minimum %s by reading the documentation about "
+"the environment variable"
+msgstr ""
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
@@ -1260,14 +1329,18 @@ msgctxt "admin~admin.server.information.qgis.test.error"
 msgid ""
 "QGIS Server is not correctly installed in your server or the URL for OGC "
 "requests given in Lizmap configuration is not correct."
-msgstr "Сервер QGIS неправильно встановлено на вашому сервері або URL-адреса запитів OGC, наведена в конфігурації Lizmap, неправильна."
+msgstr ""
+"Сервер QGIS неправильно встановлено на вашому сервері або URL-адреса запитів"
+" OGC, наведена в конфігурації Lizmap, неправильна."
 
 #: admin~admin.server.information.qgis.test.ok
 msgctxt "admin~admin.server.information.qgis.test.ok"
 msgid ""
 "QGIS Server is correctly installed and returns the expected response for OGC"
 " requests."
-msgstr "Сервер QGIS правильно встановлений і повертає очікувану відповідь на запити OGC."
+msgstr ""
+"Сервер QGIS правильно встановлений і повертає очікувану відповідь на запити "
+"OGC."
 
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
@@ -1342,7 +1415,7 @@ msgstr "Адміністрування Lizmap"
 #: admin~jacl2.lizmap.admin.grp
 msgctxt "admin~jacl2.lizmap.admin.grp"
 msgid "Lizmap Administration Management"
-msgstr "Керування адмініструванням Lizmap"
+msgstr "Керування правами адміністратора"
 
 #: admin~jacl2.lizmap.admin.grp.default
 msgctxt "admin~jacl2.lizmap.admin.grp.default"
@@ -1372,7 +1445,7 @@ msgstr "Перегляд репозиторіїв"
 #: admin~jacl2.lizmap.admin.services.update
 msgctxt "admin~jacl2.lizmap.admin.services.update"
 msgid "Modify services"
-msgstr "Змінити додатки"
+msgstr "Зміна додатків"
 
 #: admin~jacl2.lizmap.admin.services.view
 msgctxt "admin~jacl2.lizmap.admin.services.view"
@@ -1382,7 +1455,7 @@ msgstr "Перегляд додатків"
 #: admin~jacl2.lizmap.grp
 msgctxt "admin~jacl2.lizmap.grp"
 msgid "Lizmap Client Management"
-msgstr "Управління користувачами Lizmap"
+msgstr "Керування правами користувачів"
 
 #: admin~jacl2.lizmap.repositories.view
 msgctxt "admin~jacl2.lizmap.repositories.view"
@@ -1407,7 +1480,9 @@ msgstr "Дозволити експорт шарів"
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "See all the data of the filtered layers (attribute or spatial filters)"
-msgstr "Переглянути всі дані відфільтрованих шарів (атрибутні або просторові фільтри)"
+msgstr ""
+"Переглянути всі дані відфільтрованих шарів (атрибутні або просторові "
+"фільтри)"
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
@@ -1439,7 +1514,9 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr "Хтось запитав обліковий запис Lizmap для доступу до карт із логіном %s та електронною поштою %s."
+msgstr ""
+"Хтось запитав обліковий запис Lizmap для доступу до карт із логіном %s та "
+"електронною поштою %s."
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"

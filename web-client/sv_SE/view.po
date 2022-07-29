@@ -1,15 +1,18 @@
 # 
 # Translators:
-# Mats Elfström <mats.elfstrom@giskraft.se>, 2021
-# Rasmus Johansson <rasmus@demosgis.net>, 2016-2017
+# rldhont <rldhont@gmail.com>, 2022
+# Laurent Jouanneau <dev@ljouanneau.com>, 2022
+# Rasmus Johansson <rasmus@demosgis.net>, 2022
+# Mats Elfström <mats.elfstrom@giskraft.se>, 2022
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.6 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-02 15:21++0100\n"
-"PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: Mats Elfström <mats.elfstrom@giskraft.se>, 2021\n"
-"Language-Team: Swedish (Sweden) (http://www.transifex.com/3liz-1/lizmap-locales/language/sv_SE/)\n"
+"POT-Creation-Date: 2022-07-29 17:00++0200\n"
+"PO-Revision-Date: 2022-07-29 15:01+0000\n"
+"Last-Translator: Mats Elfström <mats.elfstrom@giskraft.se>, 2022\n"
+"Language-Team: Swedish (Sweden) (https://www.transifex.com/3liz-1/teams/62012/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -186,7 +189,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "Lagret är inte synligt. Vänligen zooma till en skala där objekten blir synliga."
+msgstr ""
+"Lagret är inte synligt. Vänligen zooma till en skala där objekten blir "
+"synliga."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -403,12 +408,21 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel edition? You will lose any modifications "
 "made on the currently edited object."
-msgstr "Är du säker att du vill slå av redigeringen? Du kommer att förlora ändringar som gjorts på nuvarande objekt."
+msgstr ""
+"Är du säker att du vill slå av redigeringen? Du kommer att förlora ändringar"
+" som gjorts på nuvarande objekt."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
 msgstr "Är du säker på att du vill ta bort det valda objektet?"
+
+#: view~dictionnary.edition.confirm.restart-drawing
+msgctxt "view~dictionnary.edition.confirm.restart-drawing"
+msgid ""
+"Are you sure you want to delete the existing geometry and redraw it from "
+"scratch ?"
+msgstr ""
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -430,14 +444,18 @@ msgctxt "view~dictionnary.edition.draw.activate.mobile"
 msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
-msgstr "Du kan dölja det här formuläret med stängningsknappen när du ska rita geometrin."
+msgstr ""
+"Du kan dölja det här formuläret med stängningsknappen när du ska rita "
+"geometrin."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
-msgstr "Du kan inte spara detta objekt utan en geometri. Vänligen rita geometrin på kartan."
+msgstr ""
+"Du kan inte spara detta objekt utan en geometri. Vänligen rita geometrin på "
+"kartan."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -469,7 +487,9 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "Du måste fylla i formuläret korrekt för att skapa ett nytt objekt efter att ha delat geometrin"
+msgstr ""
+"Du måste fylla i formuläret korrekt för att skapa ett nytt objekt efter att "
+"ha delat geometrin"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -926,6 +946,18 @@ msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
 msgstr "Snappa"
 
+#: view~dictionnary.startup.error
+msgctxt "view~dictionnary.startup.error"
+msgid ""
+"An error occurred while loading this map. Some necessary resource may "
+"temporarily be unavailable. Please try again later."
+msgstr ""
+
+#: view~dictionnary.startup.goToProject
+msgctxt "view~dictionnary.startup.goToProject"
+msgid "Go back to the home page."
+msgstr ""
+
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
@@ -1056,6 +1088,11 @@ msgctxt "view~edition.geomtool.reshape.title"
 msgid "Reshape"
 msgstr "Omforma"
 
+#: view~edition.geomtool.restartdrawing.title
+msgctxt "view~edition.geomtool.restartdrawing.title"
+msgid "Redraw the geometry"
+msgstr ""
+
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
 msgid "Reverse the geometry"
@@ -1076,7 +1113,8 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Det måste finnas minst ett objekt valt för varje lager för att skapa länken."
+msgstr ""
+"Det måste finnas minst ett objekt valt för varje lager för att skapa länken."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -1088,7 +1126,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Du kan inte länka flera objekt till båda lagren. Prova igen och välj endast ett objekt för ett lager."
+msgstr ""
+"Du kan inte länka flera objekt till båda lagren. Prova igen och välj endast "
+"ett objekt för ett lager."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1190,7 +1230,9 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
-msgstr "Du kan inte spara detta objekt utan en geometri. Vänligen rita geometrin på kartan."
+msgstr ""
+"Du kan inte spara detta objekt utan en geometri. Vänligen rita geometrin på "
+"kartan."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1207,7 +1249,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap kan inte hitta \"%s\"-lagrets primärnycklar. Redigeringsverktyget kräver en definierad primärnyckel i tabellen."
+msgstr ""
+"Lizmap kan inte hitta \"%s\"-lagrets primärnycklar. Redigeringsverktyget "
+"kräver en definierad primärnyckel i tabellen."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1229,7 +1273,9 @@ msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "Fältet \"%s\"-katalogen i lagret \"%s\" för uppladdning av media är inte skrivbart."
+msgstr ""
+"Fältet \"%s\"-katalogen i lagret \"%s\" för uppladdning av media är inte "
+"skrivbart."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -1514,7 +1560,7 @@ msgstr "Geografisk lokalisering"
 #: view~map.geolocate.toolbar.title
 msgctxt "view~map.geolocate.toolbar.title"
 msgid "Geolocation"
-msgstr "Lokalisering"
+msgstr "Geografisk lokalisering"
 
 #: view~map.layers
 msgctxt "view~map.layers"
@@ -2051,4 +2097,4 @@ msgstr "Postnummer"
 #: view~user.form.street.label
 msgctxt "view~user.form.street.label"
 msgid "Street"
-msgstr "Gata/väg"
+msgstr "Gata"

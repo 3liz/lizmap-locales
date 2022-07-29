@@ -1,15 +1,15 @@
 # 
 # Translators:
-# 山本　竜三 <ryu@yamakun.net>, 2021-2022
-# 山本　竜三 <ryu@yamakun.net>, 2021
+# 山本　竜三 <ryu@yamakun.net>, 2022
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 15:03++0000\n"
-"PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: 山本　竜三 <ryu@yamakun.net>, 2021-2022\n"
-"Language-Team: Japanese (http://www.transifex.com/3liz-1/lizmap-locales/language/ja/)\n"
+"POT-Creation-Date: 2022-07-29 17:00++0200\n"
+"PO-Revision-Date: 2022-07-29 15:01+0000\n"
+"Last-Translator: 山本　竜三 <ryu@yamakun.net>, 2022\n"
+"Language-Team: Japanese (https://www.transifex.com/3liz-1/teams/62012/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -112,7 +112,7 @@ msgstr "‎訪問者にアカウントのリクエストを許可する‎"
 #: admin~admin.configuration.services.cacheExpiration.label
 msgctxt "admin~admin.configuration.services.cacheExpiration.label"
 msgid "Server cache expiration time(s)"
-msgstr "‎サーバー・キャッシュの有効期限‎(秒)"
+msgstr "‎サーバー・キャッシュの有効期限（秒）"
 
 #: admin~admin.configuration.services.cacheRootDirectory.label
 msgctxt "admin~admin.configuration.services.cacheRootDirectory.label"
@@ -257,7 +257,7 @@ msgstr "リポジトリは削除されていません‎"
 #: admin~admin.form.admin_section.message.data.removed.groups.concerned
 msgctxt "admin~admin.form.admin_section.message.data.removed.groups.concerned"
 msgid "(%s group(s) concerned)"
-msgstr "(%s‎関係する（複数）グループ)‎"
+msgstr "(%s‎関係す（複数）グループ)‎"
 
 #: admin~admin.form.admin_section.message.data.saved
 msgctxt "admin~admin.form.admin_section.message.data.saved"
@@ -327,7 +327,9 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "‎電子メールの送信に使用する電子メール アドレス。空の場合、メールはLizmapによって送信されません。サーバーがこのアドレスを使用して電子メールを送信できるようにしてください。‎"
+msgstr ""
+"‎電子メールの送信に使用する電子メール "
+"アドレス。空の場合、メールはLizmapによって送信されません。サーバーがこのアドレスを使用して電子メールを送信できるようにしてください。‎"
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
@@ -378,7 +380,8 @@ msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
 "Redis database index: integer >= 0 , optional (used if Redis is chosen for "
 "the cache storage)"
-msgstr "‎Redis データベースインデックス: 整数 >= 0 ,オプション (キャッシュストレージに Redis が選択されている場合に使用)‎"
+msgstr ""
+"‎Redis データベースインデックス: 整数 >= 0 ,オプション (キャッシュストレージに Redis が選択されている場合に使用)‎"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -472,6 +475,29 @@ msgctxt "admin~admin.form.admin_services.defaultRepository.label"
 msgid "Default repository"
 msgstr "標準のリポジトリ"
 
+#: admin~admin.form.admin_services.emails.help
+msgctxt "admin~admin.form.admin_services.emails.help"
+msgid ""
+"To send emails, Lizmap needs a sender address. If empty, no emails will be "
+"sent by Lizmap, and therefore, some features like password recovery or email"
+" notifications won't work."
+msgstr ""
+
+#: admin~admin.form.admin_services.emails.no.server
+msgctxt "admin~admin.form.admin_services.emails.no.server"
+msgid ""
+"No sender address is configured in Lizmap. Some features like password "
+"recovery or email notifications cannot work. Contact the application "
+"administrator if you want to enable all email features."
+msgstr ""
+
+#: admin~admin.form.admin_services.emails.server.help
+msgctxt "admin~admin.form.admin_services.emails.server.help"
+msgid ""
+"Be sure the web server is able to send emails, or setup SMTP parameters into"
+" the configuration files of Lizmap."
+msgstr ""
+
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
 msgid ""
@@ -492,11 +518,11 @@ msgstr "Lizmapの設定変更‎"
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.help
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.help"
 msgid ""
-"QGIS Server 3.10 or above is required, as well as the Lizmap plugin 3.7.0 or"
-" above. If you are using the FCGI server, you must let empty this field. "
+"QGIS Server %s or above is required, as well as the Lizmap server plugin %s "
+"or above. If you are using the FCGI server, you must let empty this field. "
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
-msgstr "QGIS Server 3.10以上、およびLizmapプラグイン3.7.0以上が必要です。FCGIサーバを使用している場合は、このフィールドを空にしておく必要があります。Py-Qgis-Serverを使用している場合は、LizmapプラグインのURLについてPy-Qgis-Serverの設定に設定されているURLを入力してください。"
+msgstr ""
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
@@ -626,7 +652,9 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr "‎リポジトリのルート フォルダは、Lizmap ディレクトリを 1 フォルダに制限できます。ここでパスを設定すると、Lizmap ディレクトリのパスを定義できなくなります。‎"
+msgstr ""
+"‎リポジトリのルート フォルダは、Lizmap ディレクトリを 1 フォルダに制限できます。ここでパスを設定すると、Lizmap "
+"ディレクトリのパスを定義できなくなります。‎"
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -644,7 +672,9 @@ msgid ""
 "Images uploaded when editing features will have this maximum width and "
 "height (in pixels). A recommended value is 1920 (HD size). Maximum value is "
 "3840 and minimum value is 480."
-msgstr "‎地物の編集時にアップロードされる画像の幅と高さ（ピクセル単位）の設定。推奨値は 1920 (HD サイズ) です。最大値は 3840、最小値は 480 です。‎"
+msgstr ""
+"‎地物の編集時にアップロードされる画像の幅と高さ（ピクセル単位）の設定。推奨値は 1920 (HD サイズ) です。最大値は 3840、最小値は 480"
+" です。‎"
 
 #: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label"
@@ -685,7 +715,7 @@ msgstr "‎任意の CSS 構文を記述して、Lizmap スタイルをオーバ
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
 msgid "Additional CSS properties"
-msgstr "CSSプロパティ‎追加"
+msgstr "CSSプロパティ追加‎"
 
 #: admin~admin.form.admin_theme.dockBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.help"
@@ -845,7 +875,7 @@ msgstr "‎ユーザーがログインしました。‎"
 #: admin~admin.logs.email.popup.body
 msgctxt "admin~admin.logs.email.popup.body"
 msgid "A user has opened a feature information popup."
-msgstr "ユーザーが地物情報を開いた。"
+msgstr "‎ユーザーが地物情報を開いた。‎"
 
 #: admin~admin.logs.email.print.body
 msgctxt "admin~admin.logs.email.print.body"
@@ -917,7 +947,7 @@ msgstr "エクスポート"
 #: admin~admin.logs.first_page
 msgctxt "admin~admin.logs.first_page"
 msgid "First"
-msgstr "名前"
+msgstr "名"
 
 #: admin~admin.logs.ip
 msgctxt "admin~admin.logs.ip"
@@ -1055,7 +1085,10 @@ msgid ""
 "Some layers cannot be read by QGIS. Please check that the server can access the layer data. \n"
 "* For file based layers, the path must be accessible.\n"
 "* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
-msgstr "‎いくつかの層はQGISによって読取ることができません。サーバーがレイヤデータにアクセスできることを確認してください。‎‎* ファイルベースのレイヤーの場合、パスはアクセス可能である必要があります。‎‎* PostgreSQLレイヤーの場合、Lizmapサーバはデータベースサーバに接続できなければなりません。‎"
+msgstr ""
+"‎いくつかの層はQGISによって読取ることができません。サーバーがレイヤデータにアクセスできることを確認してください。‎‎* "
+"ファイルベースのレイヤーの場合、パスはアクセス可能である必要があります。‎‎* "
+"PostgreSQLレイヤーの場合、Lizmapサーバはデータベースサーバに接続できなければなりません。‎"
 
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
@@ -1211,13 +1244,12 @@ msgstr "‎QGIS Serverのインストール(バージョン、プラグインな
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail"
 msgid ""
-"Either the version of the installed QGIS Server is under 3.10, or the Lizmap"
-" plugin is not detected in your server, or is installed with a version under"
-" 3.7.0. Please upgrade QGIS Server to minimum 3.10 and install or upgrade "
-"the Lizmap plugin to minimum 3.7.0 by reading the documentation about the "
-"environment variable "
-"https://docs.lizmap.com/current/en/install/pre_requirements.html"
-msgstr "インストールされているQGIS Serverのバージョンが3.10未満であるか、Lizmapプラグインがサーバーで検出されないか、3.7.0未満のバージョンでインストールされているかのどちらかです。環境変数https://docs.lizmap.com/current/en/install/pre_requirements.html についてのドキュメントを参照して、QGIS Serverを最小3.10にアップグレードし、Lizmapプラグインを最小3.7.0にインストールまたはアップグレードしてください。"
+"Either the version of the installed QGIS Server is under %s, or the Lizmap "
+"server plugin is not detected in your server, or is installed with a version"
+" under %s. Please upgrade QGIS Server to minimum %s and install or upgrade "
+"the Lizmap server plugin to minimum %s by reading the documentation about "
+"the environment variable"
+msgstr ""
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
