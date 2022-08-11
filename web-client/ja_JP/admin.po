@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-29 17:00++0200\n"
+"POT-Creation-Date: 2022-08-08 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: 山本　竜三 <ryu@yamakun.net>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/3liz-1/teams/62012/ja/)\n"
@@ -482,6 +482,7 @@ msgid ""
 "sent by Lizmap, and therefore, some features like password recovery or email"
 " notifications won't work."
 msgstr ""
+"Lizmapがメールを送信するためには、送信者アドレスが必要です。空の場合、Lizmapからメールが送信されないため、パスワード回復やメール通知などの一部の機能が動作しません。"
 
 #: admin~admin.form.admin_services.emails.no.server
 msgctxt "admin~admin.form.admin_services.emails.no.server"
@@ -490,13 +491,14 @@ msgid ""
 "recovery or email notifications cannot work. Contact the application "
 "administrator if you want to enable all email features."
 msgstr ""
+"Lizmapに送信者アドレスが設定されていない。パスワード回復やメール通知など、一部の機能が使えません。すべてのメール機能を有効にする場合は、アプリケーションの管理者にお問い合わせください。"
 
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
 msgid ""
 "Be sure the web server is able to send emails, or setup SMTP parameters into"
 " the configuration files of Lizmap."
-msgstr ""
+msgstr "Webサーバーがメール送信可能であることを確認するか、Lizmapの設定ファイルにSMTPパラメータを設定してください。"
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
@@ -523,6 +525,9 @@ msgid ""
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
 msgstr ""
+"QGIS Server%sおよびLizmap server "
+"プラグイン%s以上が必要です。FCGIサーバを使用している場合は、このフィールドを空にする必要があります。Py-Qgis-"
+"Serverを使用している場合は、LizmapプラグインのURLについて、Py-Qgis-Serverの設定に設定されているURLを入力してください。"
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
@@ -1250,6 +1255,10 @@ msgid ""
 "the Lizmap server plugin to minimum %s by reading the documentation about "
 "the environment variable"
 msgstr ""
+"インストールされているQGIS Serverのバージョンが%s以下であるか、Lizmap server "
+"プラグインがサーバーで検出されないか、または、%s以下のバージョンでインストールされている場合、Lizmap server "
+"pluginをインストールする必要があります。QGIS "
+"Serverを最低%sにアップグレードし、Lizmapサーバープラグインをインストールまたは最低%sにアップグレードする必要があります。"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""

@@ -2,16 +2,16 @@
 # Translators:
 # Laurent Jouanneau <dev@ljouanneau.com>, 2022
 # rldhont <rldhont@gmail.com>, 2022
-# Кадастр Муниципальный, 2022
 # Petr Tsymbarovich <petr@tsymbarovich.ru>, 2022
+# Кадастр Муниципальный, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-29 17:00++0200\n"
+"POT-Creation-Date: 2022-08-08 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
-"Last-Translator: Petr Tsymbarovich <petr@tsymbarovich.ru>, 2022\n"
+"Last-Translator: Кадастр Муниципальный, 2022\n"
 "Language-Team: Russian (https://www.transifex.com/3liz-1/teams/62012/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -498,6 +498,10 @@ msgid ""
 "sent by Lizmap, and therefore, some features like password recovery or email"
 " notifications won't work."
 msgstr ""
+"Чтобы отправлять электронные письма, Lizmap нужен адрес отправителя. Если "
+"пусто, Lizmap не будет отправлять электронные письма, и поэтому некоторые "
+"функции, такие как восстановление пароля или уведомления по электронной "
+"почте, не будут работать."
 
 #: admin~admin.form.admin_services.emails.no.server
 msgctxt "admin~admin.form.admin_services.emails.no.server"
@@ -506,6 +510,10 @@ msgid ""
 "recovery or email notifications cannot work. Contact the application "
 "administrator if you want to enable all email features."
 msgstr ""
+"В Lizmap не настроен адрес отправителя. Некоторые функции, такие как "
+"восстановление пароля или уведомления по электронной почте, не работают. "
+"Свяжитесь с администратором приложения, если вы хотите включить все функции "
+"электронной почты."
 
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
@@ -513,6 +521,8 @@ msgid ""
 "Be sure the web server is able to send emails, or setup SMTP parameters into"
 " the configuration files of Lizmap."
 msgstr ""
+"Убедитесь, что веб-сервер может отправлять электронные письма, или настройте"
+" параметры SMTP в файлах конфигурации Lizmap."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
@@ -539,6 +549,11 @@ msgid ""
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
 msgstr ""
+"Требуется QGIS Server %s или выше, а также подключаемый модуль сервера "
+"Lizmap %s или выше. Если вы используете сервер FCGI, вы должны оставить это "
+"поле пустым. В противном случае, если вы используете Py-Qgis-Server, укажите"
+" URL-адрес, настроенный в конфигурации Py-Qgis-Server, относительно URL-"
+"адреса плагина Lizmap."
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
@@ -1268,7 +1283,7 @@ msgstr "Веб клиент LizMap"
 #: admin~admin.server.information.qgis.commit_id
 msgctxt "admin~admin.server.information.qgis.commit_id"
 msgid "Commit ID"
-msgstr ""
+msgstr "Идентификатор фиксации"
 
 #: admin~admin.server.information.qgis.error.fetching.information
 msgctxt "admin~admin.server.information.qgis.error.fetching.information"
@@ -1289,6 +1304,11 @@ msgid ""
 "the Lizmap server plugin to minimum %s by reading the documentation about "
 "the environment variable"
 msgstr ""
+"Либо версия установленного QGIS Server ниже %s,  либо плагин сервера Lizmap "
+"не обнаружен на вашем сервере, либо установлен с версией ниже %s. "
+"Пожалуйста, обновите QGIS Server не ниже %s и установите или обновите "
+"подключаемый модуль сервера Lizmap не ниже %s , прочитав документацию о "
+"переменной среды."
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""

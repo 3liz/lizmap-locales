@@ -1,16 +1,16 @@
 # 
 # Translators:
 # Laurent Jouanneau <dev@ljouanneau.com>, 2022
-# Igor Sorocean <sorocean.igor@gmail.com>, 2022
 # Tudor Bărăscu <tudorbarascu@yahoo.com>, 2022
+# Igor Sorocean <sorocean.igor@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-29 17:00++0200\n"
+"POT-Creation-Date: 2022-08-08 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
-"Last-Translator: Tudor Bărăscu <tudorbarascu@yahoo.com>, 2022\n"
+"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2022\n"
 "Language-Team: Romanian (https://www.transifex.com/3liz-1/teams/62012/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -495,6 +495,10 @@ msgid ""
 "sent by Lizmap, and therefore, some features like password recovery or email"
 " notifications won't work."
 msgstr ""
+"Pentru a trimite e-mailuri, Lizmap are nevoie de o adresă de expeditor. Dacă"
+" este goală, Lizmap nu va trimite niciun e-mail și, prin urmare, unele "
+"funcții precum recuperarea parolei sau notificările prin e-mail nu vor "
+"funcționa."
 
 #: admin~admin.form.admin_services.emails.no.server
 msgctxt "admin~admin.form.admin_services.emails.no.server"
@@ -503,6 +507,10 @@ msgid ""
 "recovery or email notifications cannot work. Contact the application "
 "administrator if you want to enable all email features."
 msgstr ""
+"Nicio adresă de expeditor nu este configurată în Lizmap. Unele funcții "
+"precum recuperarea parolei sau notificările prin e-mail nu pot funcționa. "
+"Contactați administratorul aplicației dacă doriți să activați toate "
+"funcțiile de e-mail."
 
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
@@ -510,6 +518,8 @@ msgid ""
 "Be sure the web server is able to send emails, or setup SMTP parameters into"
 " the configuration files of Lizmap."
 msgstr ""
+"Asigură-te că serverul web este capabil să trimită e-mailuri sau să seteze "
+"parametrii SMTP în fișierele de configurare ale Lizmap."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
@@ -538,6 +548,11 @@ msgid ""
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
 msgstr ""
+"Este necesar serverul QGIS %s sau o versiune superioară, precum și plugin-ul"
+" Server Lizmap %s sau o versiune superioară. Dacă utilizați serverul FCGI, "
+"trebuie să lăsați gol acest câmp. Altfel, dacă utilizați Py-Qgis-Server, "
+"indicați adresa URL configurată în configurația Py-Qgis-Server despre URL-ul"
+" plugin-ului Lizmap."
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
@@ -1289,6 +1304,11 @@ msgid ""
 "the Lizmap server plugin to minimum %s by reading the documentation about "
 "the environment variable"
 msgstr ""
+"Fie versiunea serverului QGIS instalat este sub %s, fie plugin-ul serverului"
+" Lizmap nu este detectat pe serverul dvs. sau este instalat cu o versiune "
+"sub %s. Actualizați QGIS Server la minim %s și instalați sau actualizați "
+"plugin-ul pentru server Lizmap la minim %s citind documentația despre "
+"variabila de mediu"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""

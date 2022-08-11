@@ -2,17 +2,17 @@
 # Translators:
 # Rui <xymarior@yandex.com>, 2022
 # rldhont <rldhont@gmail.com>, 2022
-# José Macau <jose.macau@gmail.com>, 2022
 # Laurent Jouanneau <dev@ljouanneau.com>, 2022
 # João Gaspar <joao.f.r.gaspar@gmail.com>, 2022
+# José Macau <jose.macau@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-29 17:00++0200\n"
+"POT-Creation-Date: 2022-08-08 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
-"Last-Translator: João Gaspar <joao.f.r.gaspar@gmail.com>, 2022\n"
+"Last-Translator: José Macau <jose.macau@gmail.com>, 2022\n"
 "Language-Team: Portuguese (https://www.transifex.com/3liz-1/teams/62012/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -503,6 +503,10 @@ msgid ""
 "sent by Lizmap, and therefore, some features like password recovery or email"
 " notifications won't work."
 msgstr ""
+"Para enviar e-mails, o Lizmap necessita de um endereço de remetente. Se o "
+"campo estiver vazio, não será enviado nenhum e-mail pelo Lizmap e, portanto,"
+" alguns recursos, como a recuperação de palavra-passe ou notificações, por "
+"e-mail não funcionarão."
 
 #: admin~admin.form.admin_services.emails.no.server
 msgctxt "admin~admin.form.admin_services.emails.no.server"
@@ -511,6 +515,10 @@ msgid ""
 "recovery or email notifications cannot work. Contact the application "
 "administrator if you want to enable all email features."
 msgstr ""
+" Não existe nenhum endereço de remetente configurado no Lizmap. Alguns "
+"recursos, como recuperação de palavra-passe ou notificações por e-mail, não "
+"funcionam. Entrar em contato com o administrador da aplicação no sentido de "
+"habilitar todos os recursos de e-mail."
 
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
@@ -518,6 +526,8 @@ msgid ""
 "Be sure the web server is able to send emails, or setup SMTP parameters into"
 " the configuration files of Lizmap."
 msgstr ""
+"Verificar se o servidor web está configurado para o envio e-mails, ou "
+"configurar parâmetros SMTP nos ficheiros de configuração do Lizmap."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
@@ -546,6 +556,11 @@ msgid ""
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
 msgstr ""
+"O servidor QGIS %s ou superior é necessário, bem como o plugin Lizmap server"
+" %s ou superior. No caso da utilização do servidor FCGI, este campo deverá "
+"ficar vazio. Caso contrário, na utilização do Py-Qgis-Server, deverá ser "
+"indicado o URL na configuração do Py-Qgis-Server referente ao URL do plugin "
+"Lizmap."
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
@@ -1295,6 +1310,11 @@ msgid ""
 "the Lizmap server plugin to minimum %s by reading the documentation about "
 "the environment variable"
 msgstr ""
+"Ou a versão do QGIS Server instalado é inferior à %s, ou o plugin Lizmap "
+"server não foi detectado no servidor, ou a versão instalada é inferior à %s."
+" Atualizar o QGIS Server para a versão mínima %s e instalar ou atualizar o "
+"plugin Lizmap server para a versão mínima %s tendo em conta a documentação "
+"relativa à variável de ambiente."
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
