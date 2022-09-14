@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-08 15:03++0000\n"
+"POT-Creation-Date: 2022-09-12 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: Кадастр Муниципальный, 2022\n"
 "Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/3liz-1/teams/62012/uk_UA/)\n"
@@ -76,6 +76,13 @@ msgctxt "view~default.project.keywordList.label"
 msgid "Keyword list"
 msgstr "Список ключових слів"
 
+#: view~default.project.needs.update
+msgctxt "view~default.project.needs.update"
+msgid ""
+"The project needs an update from the GIS administrator. Please contact the "
+"GIS administrator to check the QGIS projects panel."
+msgstr ""
+
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
 msgid "Load the map"
@@ -105,6 +112,15 @@ msgstr "Ви не можете отримати доступ до цього р�
 msgctxt "view~default.repository.list.title"
 msgid "Projects"
 msgstr "Проєкти"
+
+#: view~default.server.information.error
+msgctxt "view~default.server.information.error"
+msgid ""
+"This map cannot be displayed. Please contact the server administrator to "
+"check the server information panel."
+msgstr ""
+"Цю карту неможливо відобразити. Зверніться до адміністратора сервера, щоб "
+"перевірити панель інформації про сервер."
 
 #: view~dictionnary.atlas.navbar.title
 msgctxt "view~dictionnary.atlas.navbar.title"
@@ -418,6 +434,8 @@ msgid ""
 "Are you sure you want to delete the existing geometry and redraw it from "
 "scratch ?"
 msgstr ""
+"Ви впевнені, що бажаєте видалити існуючу геометрію та перемалювати її з "
+"нуля?"
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -947,11 +965,13 @@ msgid ""
 "An error occurred while loading this map. Some necessary resource may "
 "temporarily be unavailable. Please try again later."
 msgstr ""
+"Під час завантаження цієї карти сталася помилка. Деякі необхідні ресурси "
+"можуть бути тимчасово недоступні. Будь-ласка спробуйте пізніше."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
 msgid "Go back to the home page."
-msgstr ""
+msgstr "Повернутися на головну сторінку."
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -1086,7 +1106,7 @@ msgstr "Змінити форму"
 #: view~edition.geomtool.restartdrawing.title
 msgctxt "view~edition.geomtool.restartdrawing.title"
 msgid "Redraw the geometry"
-msgstr ""
+msgstr "Перемалюйте геометрію"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
