@@ -9,7 +9,7 @@ push-to-transifex:
   only:
     - schedules
   image:
-    name: registry.snap.lizlan:5000/infra/transifex-lwc:latest
+    name: $REGISTRY_URI/infra/transifex-lwc:latest
   parallel:
     matrix:
 
