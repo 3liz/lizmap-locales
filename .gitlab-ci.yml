@@ -9,7 +9,7 @@ push-to-transifex:
   only:
     - schedules
   image:
-    name: registry.snap.lizlan:5000/infra/transifex-lwc:latest
+    name: $REGISTRY_URI/infra/transifex-lwc:latest
   parallel:
     matrix:
 
@@ -38,7 +38,7 @@ pull-from-transifex-master:
   only:
     - schedules
   image:
-    name: registry.snap.lizlan:5000/infra/transifex-lwc:latest
+    name: $REGISTRY_URI/infra/transifex-lwc:latest
   script:
     - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
     - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
@@ -52,7 +52,7 @@ pull-from-transifex-3-6:
   only:
     - schedules
   image:
-    name: registry.snap.lizlan:5000/infra/transifex-lwc:latest
+    name: $REGISTRY_URI/infra/transifex-lwc:latest
   script:
     - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
     - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
@@ -67,7 +67,7 @@ pull-from-transifex-3-5:
   only:
     - schedules
   image:
-    name: registry.snap.lizlan:5000/infra/transifex-lwc:latest
+    name: $REGISTRY_URI/infra/transifex-lwc:latest
   script:
     - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
     - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
@@ -81,7 +81,7 @@ pull-from-transifex-3-4:
   only:
     - schedules
   image:
-    name: registry.snap.lizlan:5000/infra/transifex-lwc:latest
+    name: $REGISTRY_URI/infra/transifex-lwc:latest
   script:
     - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
     - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
