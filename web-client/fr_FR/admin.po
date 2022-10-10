@@ -1,19 +1,19 @@
 # 
 # Translators:
-# Michael Douchin <kimaidou@gmail.com>, 2022
 # Nicolas Boisteault <nboisteault@gmail.com>, 2022
 # Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2022
+# Michael Douchin <kimaidou@gmail.com>, 2022
+# etrimaille <gustrimaille@yahoo.fr>, 2022
 # rldhont <rldhont@gmail.com>, 2022
 # Laurent Jouanneau <dev@ljouanneau.com>, 2022
-# etrimaille <gustrimaille@yahoo.fr>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-03 15:04++0000\n"
-"PO-Revision-Date: 2022-07-29 15:01+0000\n"
-"Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2022\n"
+"POT-Creation-Date: 2022-10-10 16:12++0200\n"
+"PO-Revision-Date: 2022-10-10 14:13+0000\n"
+"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2022\n"
 "Language-Team: French (https://www.transifex.com/3liz-1/teams/62012/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -510,7 +510,7 @@ msgstr ""
 "Pour envoyer des emails, Lizmap a besoin d'une adresse expéditeur. Si elle "
 "est manquante, aucun emails ne sera envoyés par Lizmap, et par conséquent, "
 "des fonctionnalités comme la récupération de mot de passe ou les "
-"notifications par mails ne fonctionneront."
+"notifications par mails ne fonctionneront pas."
 
 #: admin~admin.form.admin_services.emails.no.server
 msgctxt "admin~admin.form.admin_services.emails.no.server"
@@ -521,8 +521,8 @@ msgid ""
 msgstr ""
 "Il n'y a pas d'adresse email d'expéditeur configurée dans Lizmap. Des "
 "fonctionnalités comme la récupération de mot de passe ou les notifications "
-"par mail ne fonctionneront. Contactez l'administrateur de l'application si "
-"vous voulez activer l'envoi d'emails."
+"par mail ne fonctionneront pas. Contactez l'administrateur de l'application "
+"si vous voulez activer l'envoi d'emails."
 
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
@@ -560,10 +560,10 @@ msgid ""
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
 msgstr ""
-"QGIS Serveur %s ou plus récent est requis, ainsi que l'extension Lizmap %s "
-"ou plus. Si vous utilisez le serveur FCGI de QGIS, vous devez laisser vide. "
-"Sinon, si vous utilisez Py-Qgis-Server, indiquez l'URL configurée dans Py-"
-"Qgis-Server concernant l'URL de l'API Lizmap."
+"QGIS Serveur %s ou plus récent est requis, ainsi que l'extension Lizmap "
+"serveur %s ou plus. Si vous utilisez le serveur FCGI de QGIS, vous devez "
+"laisser vide. Sinon, si vous utilisez Py-Qgis-Server, indiquez l'URL "
+"configurée dans Py-Qgis-Server concernant l'URL de l'API Lizmap."
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
@@ -1326,7 +1326,7 @@ msgstr "Lizmap Web Client"
 #: admin~admin.server.information.lizmap.url
 msgctxt "admin~admin.server.information.lizmap.url"
 msgid "URL in the QGIS desktop plugin"
-msgstr ""
+msgstr "URL dans le plugin Qgis desktop"
 
 #: admin~admin.server.information.plugin.update
 msgctxt "admin~admin.server.information.plugin.update"
@@ -1362,11 +1362,12 @@ msgid ""
 "the Lizmap server plugin to minimum %s by reading the documentation about "
 "the environment variable"
 msgstr ""
-"Soit la version installée du serveur QGIS est inférieure à %s, soit le "
-"plugin Lizmap n'est pas installé sur votre serveur, ou installé avec une "
-"version inférieur à %s. Mettez à jour QGIS Serveur au minimum à la version "
-"%s, et installez ou mettez à jour l'extension Lizmap à la version %s "
-"minimum, en lisant la documentation sur les variables d'environnement."
+"Soit la version installée du serveur QGIS est inférieure à %s, soit "
+"l'extension Lizmap serveur n'est pas installé sur votre serveur, ou installé"
+" avec une version inférieur à %s. Mettez à jour QGIS Serveur au minimum à la"
+" version %s, et installez ou mettez à jour l'extension Lizmap serveur à la "
+"version %s minimum, en lisant la documentation sur les variables "
+"d'environnement."
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
