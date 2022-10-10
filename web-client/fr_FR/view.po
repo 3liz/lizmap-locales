@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-02 15:21++0100\n"
+"POT-Creation-Date: 2022-10-10 15:41++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Nicolas Boisteault <nboisteault@gmail.com>, 2020-2022\n"
 "Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
@@ -81,6 +81,13 @@ msgctxt "view~default.project.keywordList.label"
 msgid "Keyword list"
 msgstr "Liste de mots clés"
 
+#: view~default.project.needs.update
+msgctxt "view~default.project.needs.update"
+msgid ""
+"The project needs an update from the GIS administrator. Please contact the "
+"GIS administrator to check the QGIS projects panel."
+msgstr "Le projet nécessite une mise à jour de la part de l'administrateur SIG. Veuillez contacter l'administrateur SIG afin de vérifier le projet dans le panneau d'administration."
+
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
 msgid "Load the map"
@@ -110,6 +117,13 @@ msgstr "Vous n'avez pas les droits pour voir ce répertoire de cartes."
 msgctxt "view~default.repository.list.title"
 msgid "Projects"
 msgstr "Projets"
+
+#: view~default.server.information.error
+msgctxt "view~default.server.information.error"
+msgid ""
+"This map cannot be displayed. Please contact the server administrator to "
+"check the server information panel."
+msgstr "Cette carte ne peut pas être affichée. Veuillez contacter l'administrateur du serveur afin de vérifier le panneau d'information du serveur."
 
 #: view~dictionnary.atlas.navbar.title
 msgctxt "view~dictionnary.atlas.navbar.title"
@@ -414,6 +428,13 @@ msgstr "Êtes-vous certain de vouloir annuler l'édition de cet objet ? Les modi
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
 msgstr "Êtes-vous certain de vouloir supprimer cet objet ?"
+
+#: view~dictionnary.edition.confirm.restart-drawing
+msgctxt "view~dictionnary.edition.confirm.restart-drawing"
+msgid ""
+"Are you sure you want to delete the existing geometry and redraw it from "
+"scratch ?"
+msgstr "Êtes-vous sûr de vouloir supprimer la géométrie existante et la redessiner  entièrement ?"
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -931,6 +952,18 @@ msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
 msgstr "Accrochage"
 
+#: view~dictionnary.startup.error
+msgctxt "view~dictionnary.startup.error"
+msgid ""
+"An error occurred while loading this map. Some necessary resource may "
+"temporarily be unavailable. Please try again later."
+msgstr "Une erreur est apparue pendant le chargement de la carte. Des ressources nécessaires sont peut-être indisponibles temporairement. Essayez plus tard s'il vous plaît."
+
+#: view~dictionnary.startup.goToProject
+msgctxt "view~dictionnary.startup.goToProject"
+msgid "Go back to the home page."
+msgstr "Retourner à la page d'accueil."
+
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
@@ -1060,6 +1093,11 @@ msgstr "Outil de noeud"
 msgctxt "view~edition.geomtool.reshape.title"
 msgid "Reshape"
 msgstr "Remodeler"
+
+#: view~edition.geomtool.restartdrawing.title
+msgctxt "view~edition.geomtool.restartdrawing.title"
+msgid "Redraw the geometry"
+msgstr "Redessiner la géométrie"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-02 15:21++0100\n"
+"POT-Creation-Date: 2022-10-10 15:41++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Кадастр Муниципальный, 2021-2022\n"
 "Language-Team: Russian (http://www.transifex.com/3liz-1/lizmap-locales/language/ru/)\n"
@@ -78,6 +78,13 @@ msgctxt "view~default.project.keywordList.label"
 msgid "Keyword list"
 msgstr "Список ключевых слов"
 
+#: view~default.project.needs.update
+msgctxt "view~default.project.needs.update"
+msgid ""
+"The project needs an update from the GIS administrator. Please contact the "
+"GIS administrator to check the QGIS projects panel."
+msgstr "Проекту требуется обновление от администратора ГИС. Пожалуйста, свяжитесь с администратором ГИС, чтобы проверить панель проектов QGIS."
+
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
 msgid "Load the map"
@@ -107,6 +114,13 @@ msgstr "У вас нет доступа к данному репозиторию
 msgctxt "view~default.repository.list.title"
 msgid "Projects"
 msgstr "Проекты"
+
+#: view~default.server.information.error
+msgctxt "view~default.server.information.error"
+msgid ""
+"This map cannot be displayed. Please contact the server administrator to "
+"check the server information panel."
+msgstr "Эта карта не может быть отображена. Пожалуйста, свяжитесь с администратором сервера, чтобы проверить информационную панель сервера."
 
 #: view~dictionnary.atlas.navbar.title
 msgctxt "view~dictionnary.atlas.navbar.title"
@@ -411,6 +425,13 @@ msgstr "Вы уверены, что хотите отменить редакти
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
 msgstr "Удалить выделенный объект?"
+
+#: view~dictionnary.edition.confirm.restart-drawing
+msgctxt "view~dictionnary.edition.confirm.restart-drawing"
+msgid ""
+"Are you sure you want to delete the existing geometry and redraw it from "
+"scratch ?"
+msgstr "Эта карта не может быть обнаружена. Пожалуйста, обратитесь к администратору сервера, чтобы проверить информационную панель сервера."
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -928,6 +949,18 @@ msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
 msgstr "Прилипание"
 
+#: view~dictionnary.startup.error
+msgctxt "view~dictionnary.startup.error"
+msgid ""
+"An error occurred while loading this map. Some necessary resource may "
+"temporarily be unavailable. Please try again later."
+msgstr "При загрузке этой карты произошла ошибка. Некоторые необходимые ресурсы могут быть временно недоступны. Пожалуйста, попробуйте позже."
+
+#: view~dictionnary.startup.goToProject
+msgctxt "view~dictionnary.startup.goToProject"
+msgid "Go back to the home page."
+msgstr "Вернитесь на главную страницу."
+
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
@@ -1057,6 +1090,11 @@ msgstr "Редактирование узлов"
 msgctxt "view~edition.geomtool.reshape.title"
 msgid "Reshape"
 msgstr "Изменить форму"
+
+#: view~edition.geomtool.restartdrawing.title
+msgctxt "view~edition.geomtool.restartdrawing.title"
+msgid "Redraw the geometry"
+msgstr "Перерисовать геометрию"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"

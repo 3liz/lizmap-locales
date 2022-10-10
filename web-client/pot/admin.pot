@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-03-02 15:21++0100\n"
-"PO-Revision-Date: 2022-03-02 15:21++0100\n"
+"POT-Creation-Date: 2022-10-10 16:01++0200\n"
+"PO-Revision-Date: 2022-10-10 16:01++0200\n"
 "Language: \n"
 
 #: admin~admin.cache.button.remove.repository.cache.confirm.label
@@ -141,11 +141,6 @@ msgctxt "admin~admin.configuration.services.onlyMaps.label"
 msgid "Only maps"
 msgstr ""
 
-#: admin~admin.configuration.services.qgisServerVersion.label
-msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
-msgid "QGIS server version"
-msgstr ""
-
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
 msgid "Root folder of repositories"
@@ -203,7 +198,7 @@ msgstr ""
 
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
-msgid "WMS server URL"
+msgid "QGIS server URL"
 msgstr ""
 
 #: admin~admin.form.admin_section.data.label
@@ -451,6 +446,21 @@ msgctxt "admin~admin.form.admin_services.defaultRepository.label"
 msgid "Default repository"
 msgstr ""
 
+#: admin~admin.form.admin_services.emails.help
+msgctxt "admin~admin.form.admin_services.emails.help"
+msgid "To send emails, Lizmap needs a sender address. If empty, no emails will be sent by Lizmap, and therefore, some features like password recovery or email notifications won't work."
+msgstr ""
+
+#: admin~admin.form.admin_services.emails.no.server
+msgctxt "admin~admin.form.admin_services.emails.no.server"
+msgid "No sender address is configured in Lizmap. Some features like password recovery or email notifications cannot work. Contact the application administrator if you want to enable all email features."
+msgstr ""
+
+#: admin~admin.form.admin_services.emails.server.help
+msgctxt "admin~admin.form.admin_services.emails.server.help"
+msgid "Be sure the web server is able to send emails, or setup SMTP parameters into the configuration files of Lizmap."
+msgstr ""
+
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
 msgid "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the \"tracking ID\"."
@@ -468,7 +478,7 @@ msgstr ""
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.help
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.help"
-msgid "QGIS Server 3.10 or above is required, as well as the Lizmap plugin 3.7.0 or above. If you are using the FCGI server, you can let empty. Else if you are using Py-Qgis-Server, indicate the URL configured into the Py-Qgis-Server configuration."
+msgid "QGIS Server %s or above is required, as well as the Lizmap server plugin %s or above. If you are using the FCGI server, you must let empty this field. Else if you are using Py-Qgis-Server, indicate the URL configured into the Py-Qgis-Server configuration about the Lizmap plugin URL."
 msgstr ""
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
@@ -519,21 +529,6 @@ msgstr ""
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
 msgid "Show projects switcher"
-msgstr ""
-
-#: admin~admin.form.admin_services.qgisServerVersion.214.label
-msgctxt "admin~admin.form.admin_services.qgisServerVersion.214.label"
-msgid "≤ 2.14"
-msgstr ""
-
-#: admin~admin.form.admin_services.qgisServerVersion.218.label
-msgctxt "admin~admin.form.admin_services.qgisServerVersion.218.label"
-msgid "2.18"
-msgstr ""
-
-#: admin~admin.form.admin_services.qgisServerVersion.300.label
-msgctxt "admin~admin.form.admin_services.qgisServerVersion.300.label"
-msgid "≥ 3.0"
 msgstr ""
 
 #: admin~admin.form.admin_services.qgisServerVersion.label
@@ -633,7 +628,7 @@ msgstr ""
 
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
-msgid "WMS server URL"
+msgid "QGIS server URL"
 msgstr ""
 
 #: admin~admin.form.admin_services.yes.label
@@ -946,6 +941,21 @@ msgctxt "admin~admin.menu.lizmap.logs.view.label"
 msgid "View logs"
 msgstr ""
 
+#: admin~admin.menu.lizmap.project.image.label
+msgctxt "admin~admin.menu.lizmap.project.image.label"
+msgid "Image"
+msgstr ""
+
+#: admin~admin.menu.lizmap.project.list.label
+msgctxt "admin~admin.menu.lizmap.project.list.label"
+msgid "QGIS projects"
+msgstr ""
+
+#: admin~admin.menu.lizmap.project.sidebar.title.label
+msgctxt "admin~admin.menu.lizmap.project.sidebar.title.label"
+msgid "Project details"
+msgstr ""
+
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
 msgid "Maps management"
@@ -964,6 +974,169 @@ msgstr ""
 #: admin~admin.menu.server.label
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
+msgstr ""
+
+#: admin~admin.project.list.column.authorized.groups.label
+msgctxt "admin~admin.project.list.column.authorized.groups.label"
+msgid "Groups"
+msgstr ""
+
+#: admin~admin.project.list.column.crs.label
+msgctxt "admin~admin.project.list.column.crs.label"
+msgid "Projection"
+msgstr ""
+
+#: admin~admin.project.list.column.crs.user.warning.label
+msgctxt "admin~admin.project.list.column.crs.user.warning.label"
+msgid "Please avoid user-defined projections for projects and layers."
+msgstr ""
+
+#: admin~admin.project.list.column.hidden.project.label
+msgctxt "admin~admin.project.list.column.hidden.project.label"
+msgid "Hidden"
+msgstr ""
+
+#: admin~admin.project.list.column.hidden.project.no.label
+msgctxt "admin~admin.project.list.column.hidden.project.no.label"
+msgid "No"
+msgstr ""
+
+#: admin~admin.project.list.column.hidden.project.yes.label
+msgctxt "admin~admin.project.list.column.hidden.project.yes.label"
+msgid "Yes"
+msgstr ""
+
+#: admin~admin.project.list.column.invalid.layers.count.error.label
+msgctxt "admin~admin.project.list.column.invalid.layers.count.error.label"
+msgid ""
+"Some layers cannot be read by QGIS. Please check that the server can access the layer data. \n"
+"* For file based layers, the path must be accessible.\n"
+"* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
+msgstr ""
+
+#: admin~admin.project.list.column.invalid.layers.count.label
+msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
+msgid "Invalid layers"
+msgstr ""
+
+#: admin~admin.project.list.column.invalid.layers.list.label
+msgctxt "admin~admin.project.list.column.invalid.layers.list.label"
+msgid "List of invalid layers"
+msgstr ""
+
+#: admin~admin.project.list.column.layers.count.error.label
+msgctxt "admin~admin.project.list.column.layers.count.error.label"
+msgid "This project has a huge number of layers. Performance could be highly degraded."
+msgstr ""
+
+#: admin~admin.project.list.column.layers.count.label
+msgctxt "admin~admin.project.list.column.layers.count.label"
+msgid "Layers"
+msgstr ""
+
+#: admin~admin.project.list.column.layers.count.warning.label
+msgctxt "admin~admin.project.list.column.layers.count.warning.label"
+msgid "This project has many layers. Performance could be degraded."
+msgstr ""
+
+#: admin~admin.project.list.column.layout.count.label
+msgctxt "admin~admin.project.list.column.layout.count.label"
+msgid "Layouts"
+msgstr ""
+
+#: admin~admin.project.list.column.lizmap.plugin.version.label
+msgctxt "admin~admin.project.list.column.lizmap.plugin.version.label"
+msgid "Lizmap plugin"
+msgstr ""
+
+#: admin~admin.project.list.column.loading.time.error.label
+msgctxt "admin~admin.project.list.column.loading.time.error.label"
+msgid "The project loading time is very long. Please try to simplify your QGIS project for better performance."
+msgstr ""
+
+#: admin~admin.project.list.column.loading.time.label
+msgctxt "admin~admin.project.list.column.loading.time.label"
+msgid "Loading time (s)"
+msgstr ""
+
+#: admin~admin.project.list.column.loading.time.warning.label
+msgctxt "admin~admin.project.list.column.loading.time.warning.label"
+msgid "The project loading time is a bit long."
+msgstr ""
+
+#: admin~admin.project.list.column.memory.usage.error.label
+msgctxt "admin~admin.project.list.column.memory.usage.error.label"
+msgid "The project memory usage is very high. Please try to simplify your QGIS project for better performance."
+msgstr ""
+
+#: admin~admin.project.list.column.memory.usage.label
+msgctxt "admin~admin.project.list.column.memory.usage.label"
+msgid "Memory (Mo)"
+msgstr ""
+
+#: admin~admin.project.list.column.memory.usage.warning.label
+msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
+msgid "The project memory usage is a bit high."
+msgstr ""
+
+#: admin~admin.project.list.column.project.abstract.label
+msgctxt "admin~admin.project.list.column.project.abstract.label"
+msgid "Abstract"
+msgstr ""
+
+#: admin~admin.project.list.column.project.file.time.label
+msgctxt "admin~admin.project.list.column.project.file.time.label"
+msgid "Last modified"
+msgstr ""
+
+#: admin~admin.project.list.column.project.has.log.label
+msgctxt "admin~admin.project.list.column.project.has.log.label"
+msgid "QGIS Server logs"
+msgstr ""
+
+#: admin~admin.project.list.column.project.label
+msgctxt "admin~admin.project.list.column.project.label"
+msgid "Project"
+msgstr ""
+
+#: admin~admin.project.list.column.project.qgis.log.label
+msgctxt "admin~admin.project.list.column.project.qgis.log.label"
+msgid "QGIS Server logs"
+msgstr ""
+
+#: admin~admin.project.list.column.qgis.desktop.version.above.server
+msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
+msgid "The QGIS project has been saved with a QGIS desktop version above the QGIS server installed in your server"
+msgstr ""
+
+#: admin~admin.project.list.column.qgis.desktop.version.label
+msgctxt "admin~admin.project.list.column.qgis.desktop.version.label"
+msgid "QGIS Desktop"
+msgstr ""
+
+#: admin~admin.project.list.column.qgis.desktop.version.too.old
+msgctxt "admin~admin.project.list.column.qgis.desktop.version.too.old"
+msgid "The QGIS project has been saved with an old version of QGIS desktop"
+msgstr ""
+
+#: admin~admin.project.list.column.repository.label
+msgctxt "admin~admin.project.list.column.repository.label"
+msgid "Repository"
+msgstr ""
+
+#: admin~admin.project.list.column.target.lizmap.version.label
+msgctxt "admin~admin.project.list.column.target.lizmap.version.label"
+msgid "Target version"
+msgstr ""
+
+#: admin~admin.project.list.column.update.in.qgis.desktop
+msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
+msgid "This project can not be displayed in the landing page. Open the project in QGIS desktop with an updated version of the plugin and a more up to date target version of Lizmap Web Client"
+msgstr ""
+
+#: admin~admin.project.list.column.update.soon.in.qgis.desktop
+msgctxt "admin~admin.project.list.column.update.soon.in.qgis.desktop"
+msgid "In a next version of Lizmap Web Client, this project won't be displayed. Open the project in QGIS desktop with an updated version of the plugin and a more up to date target version of Lizmap Web Client"
 msgstr ""
 
 #: admin~admin.server.information.lizmap.info
@@ -986,6 +1159,21 @@ msgctxt "admin~admin.server.information.lizmap.label"
 msgid "Lizmap Web Client"
 msgstr ""
 
+#: admin~admin.server.information.lizmap.url
+msgctxt "admin~admin.server.information.lizmap.url"
+msgid "URL in the QGIS desktop plugin"
+msgstr ""
+
+#: admin~admin.server.information.plugin.update
+msgctxt "admin~admin.server.information.plugin.update"
+msgid "The %s plugin needs to be updated."
+msgstr ""
+
+#: admin~admin.server.information.qgis.action
+msgctxt "admin~admin.server.information.qgis.action"
+msgid "Action"
+msgstr ""
+
 #: admin~admin.server.information.qgis.commit_id
 msgctxt "admin~admin.server.information.qgis.commit_id"
 msgid "Commit ID"
@@ -998,12 +1186,7 @@ msgstr ""
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail
 msgctxt "admin~admin.server.information.qgis.error.fetching.information.detail"
-msgid "Either the version of the installed QGIS Server is under 3.10, or the Lizmap plugin is not detected in your server, or is installed with a version under 3.7.0. Please upgrade QGIS Server to minimum 3.10 and install or upgrade the Lizmap plugin to minimum 3.7.0 by reading the documentation about the environment variable https://docs.lizmap.com/current/en/install/pre_requirements.html"
-msgstr ""
-
-#: admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA
-msgctxt "admin~admin.server.information.qgis.error.fetching.information.detail.BAD_DATA"
-msgid "The Lizmap plugin API returns bad data. Please check your QGIS Server."
+msgid "Either the version of the installed QGIS Server is under %s, or the Lizmap server plugin is not detected in your server, or is installed with a version under %s. Please upgrade QGIS Server to minimum %s and install or upgrade the Lizmap server plugin to minimum %s by reading the documentation about the environment variable"
 msgstr ""
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
@@ -1031,6 +1214,21 @@ msgctxt "admin~admin.server.information.qgis.name"
 msgid "Name"
 msgstr ""
 
+#: admin~admin.server.information.qgis.plugin
+msgctxt "admin~admin.server.information.qgis.plugin"
+msgid "Plugin"
+msgstr ""
+
+#: admin~admin.server.information.qgis.plugin.action
+msgctxt "admin~admin.server.information.qgis.plugin.action"
+msgid "Action"
+msgstr ""
+
+#: admin~admin.server.information.qgis.plugin.version
+msgctxt "admin~admin.server.information.qgis.plugin.version"
+msgid "Version"
+msgstr ""
+
 #: admin~admin.server.information.qgis.plugins
 msgctxt "admin~admin.server.information.qgis.plugins"
 msgid "Plugins"
@@ -1049,6 +1247,11 @@ msgstr ""
 #: admin~admin.server.information.qgis.test.ok
 msgctxt "admin~admin.server.information.qgis.test.ok"
 msgid "QGIS Server is correctly installed and returns the expected response for OGC requests."
+msgstr ""
+
+#: admin~admin.server.information.qgis.update
+msgctxt "admin~admin.server.information.qgis.update"
+msgid "QGIS Server needs to be updated at least to version %s for this version of Lizmap Web Client."
 msgstr ""
 
 #: admin~admin.server.information.qgis.version

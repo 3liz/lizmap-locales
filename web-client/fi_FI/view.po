@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-02 15:21++0100\n"
+"POT-Creation-Date: 2022-10-10 15:41++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2016,2019\n"
 "Language-Team: Finnish (http://www.transifex.com/3liz-1/lizmap-locales/language/fi/)\n"
@@ -75,6 +75,13 @@ msgctxt "view~default.project.keywordList.label"
 msgid "Keyword list"
 msgstr ""
 
+#: view~default.project.needs.update
+msgctxt "view~default.project.needs.update"
+msgid ""
+"The project needs an update from the GIS administrator. Please contact the "
+"GIS administrator to check the QGIS projects panel."
+msgstr ""
+
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
 msgid "Load the map"
@@ -104,6 +111,13 @@ msgstr "Et voi käyttää tätä etäkirjastoa."
 msgctxt "view~default.repository.list.title"
 msgid "Projects"
 msgstr "Projektit"
+
+#: view~default.server.information.error
+msgctxt "view~default.server.information.error"
+msgid ""
+"This map cannot be displayed. Please contact the server administrator to "
+"check the server information panel."
+msgstr ""
 
 #: view~dictionnary.atlas.navbar.title
 msgctxt "view~dictionnary.atlas.navbar.title"
@@ -408,6 +422,13 @@ msgstr "Oletko varma halutessasi peruuttaa julkaisun? Menetät kaikki muokkaukse
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
 msgstr "Oletko varma halutessasi poistaa valitun ominaisuuden?"
+
+#: view~dictionnary.edition.confirm.restart-drawing
+msgctxt "view~dictionnary.edition.confirm.restart-drawing"
+msgid ""
+"Are you sure you want to delete the existing geometry and redraw it from "
+"scratch ?"
+msgstr ""
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -925,6 +946,18 @@ msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
 msgstr ""
 
+#: view~dictionnary.startup.error
+msgctxt "view~dictionnary.startup.error"
+msgid ""
+"An error occurred while loading this map. Some necessary resource may "
+"temporarily be unavailable. Please try again later."
+msgstr ""
+
+#: view~dictionnary.startup.goToProject
+msgctxt "view~dictionnary.startup.goToProject"
+msgid "Go back to the home page."
+msgstr ""
+
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
@@ -1054,6 +1087,11 @@ msgstr "Solmu työkalu"
 msgctxt "view~edition.geomtool.reshape.title"
 msgid "Reshape"
 msgstr "Muotoile uudelleen"
+
+#: view~edition.geomtool.restartdrawing.title
+msgctxt "view~edition.geomtool.restartdrawing.title"
+msgid "Redraw the geometry"
+msgstr ""
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"

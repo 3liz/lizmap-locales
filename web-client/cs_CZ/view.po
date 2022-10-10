@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-02 15:21++0100\n"
+"POT-Creation-Date: 2022-10-10 15:41++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: trendspotter <jirka.p@volny.cz>, 2019-2020\n"
 "Language-Team: Czech (http://www.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
@@ -78,6 +78,13 @@ msgctxt "view~default.project.keywordList.label"
 msgid "Keyword list"
 msgstr "Seznam klíčových slov"
 
+#: view~default.project.needs.update
+msgctxt "view~default.project.needs.update"
+msgid ""
+"The project needs an update from the GIS administrator. Please contact the "
+"GIS administrator to check the QGIS projects panel."
+msgstr "The project needs an update from the GIS administrator. Please contact the GIS administrator to check the QGIS projects panel."
+
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
 msgid "Load the map"
@@ -107,6 +114,13 @@ msgstr "Přístup do repozitáře odepřen"
 msgctxt "view~default.repository.list.title"
 msgid "Projects"
 msgstr "Projekty"
+
+#: view~default.server.information.error
+msgctxt "view~default.server.information.error"
+msgid ""
+"This map cannot be displayed. Please contact the server administrator to "
+"check the server information panel."
+msgstr "Tuto mapu nelze zobrazit. Kontaktujte prosím správce serveru a zkontrolujte informační panel serveru."
 
 #: view~dictionnary.atlas.navbar.title
 msgctxt "view~dictionnary.atlas.navbar.title"
@@ -411,6 +425,13 @@ msgstr "Opravdu chcete zrušit vydání? Ztratíte veškeré úpravy provedené 
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
 msgstr "Opravdu chcete smazat vybranou funkci?"
+
+#: view~dictionnary.edition.confirm.restart-drawing
+msgctxt "view~dictionnary.edition.confirm.restart-drawing"
+msgid ""
+"Are you sure you want to delete the existing geometry and redraw it from "
+"scratch ?"
+msgstr "Jste si jisti, že chcete odstranit stávající geometrii a překreslit ji od začátku?"
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -928,6 +949,18 @@ msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
 msgstr "Přichytávání"
 
+#: view~dictionnary.startup.error
+msgctxt "view~dictionnary.startup.error"
+msgid ""
+"An error occurred while loading this map. Some necessary resource may "
+"temporarily be unavailable. Please try again later."
+msgstr "Při načítání této mapy došlo k chybě. Některé potřebné zdroje mohou být dočasně nedostupné. Zkuste to prosím později."
+
+#: view~dictionnary.startup.goToProject
+msgctxt "view~dictionnary.startup.goToProject"
+msgid "Go back to the home page."
+msgstr "Vraťte se na domovskou stránku."
+
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
@@ -1057,6 +1090,11 @@ msgstr "Uzlové body"
 msgctxt "view~edition.geomtool.reshape.title"
 msgid "Reshape"
 msgstr "Změna tvaru"
+
+#: view~edition.geomtool.restartdrawing.title
+msgctxt "view~edition.geomtool.restartdrawing.title"
+msgid "Redraw the geometry"
+msgstr "Překreslit geometrii"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
