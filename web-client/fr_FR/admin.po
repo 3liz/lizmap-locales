@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-08 15:03++0000\n"
+"POT-Creation-Date: 2022-10-03 15:04++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: nicogodet <nicolas.godet@outlook.fr>, 2022\n"
+"Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2022\n"
 "Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -154,11 +154,6 @@ msgctxt "admin~admin.configuration.services.onlyMaps.label"
 msgid "Only maps"
 msgstr "Seulement des cartes"
 
-#: admin~admin.configuration.services.qgisServerVersion.label
-msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
-msgid "QGIS server version"
-msgstr "Version de QGIS Serveur"
-
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
 msgid "Root folder of repositories"
@@ -216,8 +211,8 @@ msgstr "Liste d'URLs WMS de sous-domaine (optionnel)"
 
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
-msgid "WMS server URL"
-msgstr "URL du serveur WMS"
+msgid "QGIS server URL"
+msgstr "URL du serveur QGIS"
 
 #: admin~admin.form.admin_section.data.label
 msgctxt "admin~admin.form.admin_section.data.label"
@@ -491,7 +486,7 @@ msgid ""
 "No sender address is configured in Lizmap. Some features like password "
 "recovery or email notifications cannot work. Contact the application "
 "administrator if you want to enable all email features."
-msgstr "Il n'y a pas d'adresse email d'expéditeur configurée dans Lizmap. Des fonctionnalités comme la récupération de mot de passe ou les notifications par mail ne fonctionneront. Contactez l'administrateur de l'application si vous voulez activer l'envoi d'emails."
+msgstr "Il n'y a pas d'adresse email d'expéditeur configurée dans Lizmap. Des fonctionnalités comme la récupération de mot de passe ou les notifications par mail ne fonctionneront pas. Contactez l'administrateur de l'application si vous voulez activer l'envoi d'emails."
 
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
@@ -524,7 +519,7 @@ msgid ""
 "or above. If you are using the FCGI server, you must let empty this field. "
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
-msgstr "QGIS Serveur %s ou plus récent est requis, ainsi que l'extension Lizmap %s ou plus. Si vous utilisez le serveur FCGI de QGIS, vous devez laisser vide. Sinon, si vous utilisez Py-Qgis-Server, indiquez l'URL configurée dans Py-Qgis-Server concernant l'URL de l'API Lizmap."
+msgstr "QGIS Serveur %s ou plus récent est requis, ainsi que l'extension Lizmap serveur %s ou plus. Si vous utilisez le serveur FCGI de QGIS, vous devez laisser vide. Sinon, si vous utilisez Py-Qgis-Server, indiquez l'URL configurée dans Py-Qgis-Server concernant l'URL de l'API Lizmap."
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
@@ -577,26 +572,6 @@ msgstr "Seulement des cartes"
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
 msgid "Show projects switcher"
 msgstr "Afficher le sélecteur de projets"
-
-#: admin~admin.form.admin_services.qgisServerVersion.214.label
-msgctxt "admin~admin.form.admin_services.qgisServerVersion.214.label"
-msgid "≤ 2.14"
-msgstr "≤ 2.14"
-
-#: admin~admin.form.admin_services.qgisServerVersion.218.label
-msgctxt "admin~admin.form.admin_services.qgisServerVersion.218.label"
-msgid "2.18"
-msgstr "2.18"
-
-#: admin~admin.form.admin_services.qgisServerVersion.300.label
-msgctxt "admin~admin.form.admin_services.qgisServerVersion.300.label"
-msgid "≥ 3.0"
-msgstr "≥ 3.0"
-
-#: admin~admin.form.admin_services.qgisServerVersion.label
-msgctxt "admin~admin.form.admin_services.qgisServerVersion.label"
-msgid "QGIS server version"
-msgstr "Version de QGIS Serveur"
 
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
@@ -696,8 +671,8 @@ msgstr "Liste d'URLs WMS de sous-domaine (optionnel)"
 
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
-msgid "WMS server URL"
-msgstr "URL du serveur WMS"
+msgid "QGIS server URL"
+msgstr "URL du serveur QGIS"
 
 #: admin~admin.form.admin_services.yes.label
 msgctxt "admin~admin.form.admin_services.yes.label"
@@ -1203,6 +1178,27 @@ msgctxt "admin~admin.project.list.column.repository.label"
 msgid "Repository"
 msgstr "Répertoires"
 
+#: admin~admin.project.list.column.target.lizmap.version.label
+msgctxt "admin~admin.project.list.column.target.lizmap.version.label"
+msgid "Target version"
+msgstr "Version cible"
+
+#: admin~admin.project.list.column.update.in.qgis.desktop
+msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
+msgid ""
+"This project can not be displayed in the landing page. Open the project in "
+"QGIS desktop with an updated version of the plugin and a more up to date "
+"target version of Lizmap Web Client"
+msgstr "Ce projet ne pas être affiché dans la page d’accueil. Ouvrez le projet dans QGIS bureautique avec une version à jour de l'extension Lizmap et version cible de Lizmap Web Client plus à jour."
+
+#: admin~admin.project.list.column.update.soon.in.qgis.desktop
+msgctxt "admin~admin.project.list.column.update.soon.in.qgis.desktop"
+msgid ""
+"In a next version of Lizmap Web Client, this project won't be displayed. "
+"Open the project in QGIS desktop with an updated version of the plugin and a"
+" more up to date target version of Lizmap Web Client"
+msgstr "Dans la prochaine version de Lizmap Web Client, ce projet ne sera pas affiché. Ouvrez le projet dans QGIS Bureautique avec une version à jour de l'extension Lizmap et une version cible de Lizmap Web Client plus à jour."
+
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
 msgid "Information"
@@ -1222,6 +1218,21 @@ msgstr "Version"
 msgctxt "admin~admin.server.information.lizmap.label"
 msgid "Lizmap Web Client"
 msgstr "Lizmap Web Client"
+
+#: admin~admin.server.information.lizmap.url
+msgctxt "admin~admin.server.information.lizmap.url"
+msgid "URL in the QGIS desktop plugin"
+msgstr ""
+
+#: admin~admin.server.information.plugin.update
+msgctxt "admin~admin.server.information.plugin.update"
+msgid "The %s plugin needs to be updated."
+msgstr "L'extension %sdoit être mise à jour."
+
+#: admin~admin.server.information.qgis.action
+msgctxt "admin~admin.server.information.qgis.action"
+msgid "Action"
+msgstr "Action"
 
 #: admin~admin.server.information.qgis.commit_id
 msgctxt "admin~admin.server.information.qgis.commit_id"
@@ -1244,7 +1255,7 @@ msgid ""
 " under %s. Please upgrade QGIS Server to minimum %s and install or upgrade "
 "the Lizmap server plugin to minimum %s by reading the documentation about "
 "the environment variable"
-msgstr "Soit la version installée du serveur QGIS est inférieure à %s, soit le plugin Lizmap n'est pas installé sur votre serveur, ou installé avec une version inférieur à %s. Mettez à jour QGIS Serveur au minimum à la version %s, et installez ou mettez à jour l'extension Lizmap à la version %s minimum, en lisant la documentation sur les variables d'environnement."
+msgstr "Soit la version installée du serveur QGIS est inférieure à %s, soit l'extension Lizmap serveur n'est pas installé sur votre serveur, ou installé avec une version inférieur à %s. Mettez à jour QGIS Serveur au minimum à la version %s, et installez ou mettez à jour l'extension Lizmap serveur à la version %s minimum, en lisant la documentation sur les variables d'environnement."
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
@@ -1273,6 +1284,21 @@ msgctxt "admin~admin.server.information.qgis.name"
 msgid "Name"
 msgstr "Nom"
 
+#: admin~admin.server.information.qgis.plugin
+msgctxt "admin~admin.server.information.qgis.plugin"
+msgid "Plugin"
+msgstr "Extension"
+
+#: admin~admin.server.information.qgis.plugin.action
+msgctxt "admin~admin.server.information.qgis.plugin.action"
+msgid "Action"
+msgstr "Action"
+
+#: admin~admin.server.information.qgis.plugin.version
+msgctxt "admin~admin.server.information.qgis.plugin.version"
+msgid "Version"
+msgstr "Version"
+
 #: admin~admin.server.information.qgis.plugins
 msgctxt "admin~admin.server.information.qgis.plugins"
 msgid "Plugins"
@@ -1296,6 +1322,13 @@ msgid ""
 "QGIS Server is correctly installed and returns the expected response for OGC"
 " requests."
 msgstr "QGIS Serveur est correctement installé et retourne une réponse attendue pour les requêtes OGC."
+
+#: admin~admin.server.information.qgis.update
+msgctxt "admin~admin.server.information.qgis.update"
+msgid ""
+"QGIS Server needs to be updated at least to version %s for this version of "
+"Lizmap Web Client."
+msgstr "QGIS Serveur doit être mise à jour au moins avec la version %spour cette version de Lizmap Web Client."
 
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"

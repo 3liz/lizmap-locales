@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-08 15:03++0000\n"
+"POT-Creation-Date: 2022-10-03 15:04++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2017-2020,2022\n"
 "Language-Team: Portuguese (http://www.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
@@ -152,11 +152,6 @@ msgctxt "admin~admin.configuration.services.onlyMaps.label"
 msgid "Only maps"
 msgstr "Só mapas"
 
-#: admin~admin.configuration.services.qgisServerVersion.label
-msgctxt "admin~admin.configuration.services.qgisServerVersion.label"
-msgid "QGIS server version"
-msgstr "Versão do QGIS Server"
-
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
 msgid "Root folder of repositories"
@@ -214,8 +209,8 @@ msgstr "Lista dos suddomínios URLs WMS (opcional)"
 
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
-msgid "WMS server URL"
-msgstr "URL do serviço WMS"
+msgid "QGIS server URL"
+msgstr "URL do QGIS server"
 
 #: admin~admin.form.admin_section.data.label
 msgctxt "admin~admin.form.admin_section.data.label"
@@ -576,26 +571,6 @@ msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
 msgid "Show projects switcher"
 msgstr "Mostrar menu de projetos"
 
-#: admin~admin.form.admin_services.qgisServerVersion.214.label
-msgctxt "admin~admin.form.admin_services.qgisServerVersion.214.label"
-msgid "≤ 2.14"
-msgstr "≤ 2.14"
-
-#: admin~admin.form.admin_services.qgisServerVersion.218.label
-msgctxt "admin~admin.form.admin_services.qgisServerVersion.218.label"
-msgid "2.18"
-msgstr "2.18"
-
-#: admin~admin.form.admin_services.qgisServerVersion.300.label
-msgctxt "admin~admin.form.admin_services.qgisServerVersion.300.label"
-msgid "≥ 3.0"
-msgstr "≥ 3.0"
-
-#: admin~admin.form.admin_services.qgisServerVersion.label
-msgctxt "admin~admin.form.admin_services.qgisServerVersion.label"
-msgid "QGIS server version"
-msgstr "Versão do QGIS Server"
-
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use relative path from root folder?"
@@ -694,8 +669,8 @@ msgstr "Lista dos suddomínios URLs WMS (opcional)"
 
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
-msgid "WMS server URL"
-msgstr "URL do servidor WMS"
+msgid "QGIS server URL"
+msgstr "URL do QGIS server"
 
 #: admin~admin.form.admin_services.yes.label
 msgctxt "admin~admin.form.admin_services.yes.label"
@@ -1201,6 +1176,27 @@ msgctxt "admin~admin.project.list.column.repository.label"
 msgid "Repository"
 msgstr "Repositório"
 
+#: admin~admin.project.list.column.target.lizmap.version.label
+msgctxt "admin~admin.project.list.column.target.lizmap.version.label"
+msgid "Target version"
+msgstr "Versão de destino"
+
+#: admin~admin.project.list.column.update.in.qgis.desktop
+msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
+msgid ""
+"This project can not be displayed in the landing page. Open the project in "
+"QGIS desktop with an updated version of the plugin and a more up to date "
+"target version of Lizmap Web Client"
+msgstr " \nEste projeto não pode ser apresentado na página de destino. Abrir o projeto na área de trabalho do QGIS com uma versão atualizada do plugin e uma versão de destino mais atualizada do Lizmap Web Client"
+
+#: admin~admin.project.list.column.update.soon.in.qgis.desktop
+msgctxt "admin~admin.project.list.column.update.soon.in.qgis.desktop"
+msgid ""
+"In a next version of Lizmap Web Client, this project won't be displayed. "
+"Open the project in QGIS desktop with an updated version of the plugin and a"
+" more up to date target version of Lizmap Web Client"
+msgstr "Numa próxima versão do Lizmap Web Client, este projeto não será pntado. Abrir o projeto na área de trabalho do QGIS com uma versão atualizada do plugin e uma versão de destino mais atualizada do Lizmap Web Client"
+
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
 msgid "Information"
@@ -1220,6 +1216,21 @@ msgstr "Versão"
 msgctxt "admin~admin.server.information.lizmap.label"
 msgid "Lizmap Web Client"
 msgstr "Lizmap Web Client"
+
+#: admin~admin.server.information.lizmap.url
+msgctxt "admin~admin.server.information.lizmap.url"
+msgid "URL in the QGIS desktop plugin"
+msgstr ""
+
+#: admin~admin.server.information.plugin.update
+msgctxt "admin~admin.server.information.plugin.update"
+msgid "The %s plugin needs to be updated."
+msgstr "O plugin %s necessita de ser atualizado."
+
+#: admin~admin.server.information.qgis.action
+msgctxt "admin~admin.server.information.qgis.action"
+msgid "Action"
+msgstr "Ação"
 
 #: admin~admin.server.information.qgis.commit_id
 msgctxt "admin~admin.server.information.qgis.commit_id"
@@ -1271,6 +1282,21 @@ msgctxt "admin~admin.server.information.qgis.name"
 msgid "Name"
 msgstr "Nome"
 
+#: admin~admin.server.information.qgis.plugin
+msgctxt "admin~admin.server.information.qgis.plugin"
+msgid "Plugin"
+msgstr "Plugin"
+
+#: admin~admin.server.information.qgis.plugin.action
+msgctxt "admin~admin.server.information.qgis.plugin.action"
+msgid "Action"
+msgstr "Ação"
+
+#: admin~admin.server.information.qgis.plugin.version
+msgctxt "admin~admin.server.information.qgis.plugin.version"
+msgid "Version"
+msgstr "Versão"
+
 #: admin~admin.server.information.qgis.plugins
 msgctxt "admin~admin.server.information.qgis.plugins"
 msgid "Plugins"
@@ -1294,6 +1320,13 @@ msgid ""
 "QGIS Server is correctly installed and returns the expected response for OGC"
 " requests."
 msgstr "O QGIS Server está instalado corretamente e retorna a resposta esperada para pedidos OGC."
+
+#: admin~admin.server.information.qgis.update
+msgctxt "admin~admin.server.information.qgis.update"
+msgid ""
+"QGIS Server needs to be updated at least to version %s for this version of "
+"Lizmap Web Client."
+msgstr "O QGIS Server necessita de ser atualizado pelo menos para a versão %s  para esta versão do Lizmap Web Client."
 
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
