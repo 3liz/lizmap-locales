@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-10 16:01++0200\n"
+"POT-Creation-Date: 2022-11-07 15:04++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>, 2016-2022\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
@@ -207,7 +207,7 @@ msgstr "Lista subdomen adresów WMS (opcjonalne)"
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
 msgid "QGIS server URL"
-msgstr ""
+msgstr "URL QGIS Server"
 
 #: admin~admin.form.admin_section.data.label
 msgctxt "admin~admin.form.admin_section.data.label"
@@ -473,7 +473,7 @@ msgid ""
 "To send emails, Lizmap needs a sender address. If empty, no emails will be "
 "sent by Lizmap, and therefore, some features like password recovery or email"
 " notifications won't work."
-msgstr ""
+msgstr "Aby wysyłać wiadomości e-mail, Lizmap potrzebuje adresu nadawcy. Jeśli jest pusty, Lizmap nie będzie wysyłał żadnych e-maili, a zatem niektóre funkcje, takie jak odzyskiwanie hasła lub powiadomienia e-mail, nie będą działać."
 
 #: admin~admin.form.admin_services.emails.no.server
 msgctxt "admin~admin.form.admin_services.emails.no.server"
@@ -481,14 +481,14 @@ msgid ""
 "No sender address is configured in Lizmap. Some features like password "
 "recovery or email notifications cannot work. Contact the application "
 "administrator if you want to enable all email features."
-msgstr ""
+msgstr "W programie Lizmap nie skonfigurowano adresu nadawcy. Niektóre funkcje, takie jak odzyskiwanie hasła lub powiadomienia e-mail, nie mogą działać. Skontaktuj się z administratorem aplikacji, jeśli chcesz włączyć wszystkie funkcje poczty elektronicznej."
 
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
 msgid ""
 "Be sure the web server is able to send emails, or setup SMTP parameters into"
 " the configuration files of Lizmap."
-msgstr ""
+msgstr "Upewnij się, że serwer WWW jest w stanie wysyłać e-maile, lub ustaw parametry SMTP w plikach konfiguracyjnych Lizmap."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
@@ -514,7 +514,7 @@ msgid ""
 "or above. If you are using the FCGI server, you must let empty this field. "
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
-msgstr ""
+msgstr "Wymagany jest QGIS Server %s lub wyższy, a także plugin Lizmap server %s lub wyższy. Jeśli używasz serwera FCGI, musisz zostawić to pole puste. W przeciwnym razie, jeśli używasz Py-Qgis-Server, podaj adres URL skonfigurowany w konfiguracji Py-Qgis-Server w adresie URL wtyczki Lizmap."
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
@@ -672,7 +672,7 @@ msgstr "Lista subdomen adresów WMS (opcjonalne)"
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
 msgid "QGIS server URL"
-msgstr ""
+msgstr "URL QGIS Server"
 
 #: admin~admin.form.admin_services.yes.label
 msgctxt "admin~admin.form.admin_services.yes.label"
@@ -1181,7 +1181,7 @@ msgstr "Repozytorium"
 #: admin~admin.project.list.column.target.lizmap.version.label
 msgctxt "admin~admin.project.list.column.target.lizmap.version.label"
 msgid "Target version"
-msgstr ""
+msgstr "Wersja docelowa"
 
 #: admin~admin.project.list.column.update.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
@@ -1189,7 +1189,7 @@ msgid ""
 "This project can not be displayed in the landing page. Open the project in "
 "QGIS desktop with an updated version of the plugin and a more up to date "
 "target version of Lizmap Web Client"
-msgstr ""
+msgstr "Ten projekt nie może być wyświetlany na stronie docelowej. Otwórz projekt w QGIS desktop z zaktualizowaną wersją wtyczki i bardziej aktualną docelową wersją Lizmap Web Client."
 
 #: admin~admin.project.list.column.update.soon.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.soon.in.qgis.desktop"
@@ -1197,7 +1197,7 @@ msgid ""
 "In a next version of Lizmap Web Client, this project won't be displayed. "
 "Open the project in QGIS desktop with an updated version of the plugin and a"
 " more up to date target version of Lizmap Web Client"
-msgstr ""
+msgstr "W kolejnej wersji Lizmap Web Client ten projekt nie będzie wyświetlany. Otwórz projekt w QGIS desktop z zaktualizowaną wersją pluginu i aktualną docelową wersją Lizmap Web Client."
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
@@ -1222,12 +1222,12 @@ msgstr "Lizmap Web Client"
 #: admin~admin.server.information.lizmap.url
 msgctxt "admin~admin.server.information.lizmap.url"
 msgid "URL in the QGIS desktop plugin"
-msgstr ""
+msgstr "URL we wtyczce QGIS Desktop"
 
 #: admin~admin.server.information.plugin.update
 msgctxt "admin~admin.server.information.plugin.update"
 msgid "The %s plugin needs to be updated."
-msgstr ""
+msgstr "Konieczne jest zaktualizowanie wtyczki %s."
 
 #: admin~admin.server.information.qgis.action
 msgctxt "admin~admin.server.information.qgis.action"
@@ -1255,7 +1255,7 @@ msgid ""
 " under %s. Please upgrade QGIS Server to minimum %s and install or upgrade "
 "the Lizmap server plugin to minimum %s by reading the documentation about "
 "the environment variable"
-msgstr ""
+msgstr "Either the version of the installed QGIS Server is under , or the Lizmap server plugin is not detected in your server, or is installed with a version under . Please upgrade QGIS Server to minimum  and install or upgrade the Lizmap server plugin to minimum  by reading the documentation about the environment variable\n\nAlbo wersja zainstalowanego serwera QGIS jest niższa niż %s, albo plugin serwera Lizmap nie został wykryty w Państwa serwerze, albo jest zainstalowany z wersją poniżej %s. Proszę zaktualizować QGIS Server do wersji minimalnie %s i zainstalować lub zaktualizować wtyczkę Lizmap server do wersji minimum %s czytając dokumentację o zmiennej środowiskowej"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
@@ -1287,7 +1287,7 @@ msgstr "Nazwa"
 #: admin~admin.server.information.qgis.plugin
 msgctxt "admin~admin.server.information.qgis.plugin"
 msgid "Plugin"
-msgstr ""
+msgstr "Wtyczka"
 
 #: admin~admin.server.information.qgis.plugin.action
 msgctxt "admin~admin.server.information.qgis.plugin.action"
@@ -1328,7 +1328,7 @@ msgctxt "admin~admin.server.information.qgis.update"
 msgid ""
 "QGIS Server needs to be updated at least to version %s for this version of "
 "Lizmap Web Client."
-msgstr ""
+msgstr "QGIS Server musi być zaktualizowany co najmniej do wersji %s dla tej wersji Lizmap Web Client."
 
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"

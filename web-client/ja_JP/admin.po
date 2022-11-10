@@ -1,14 +1,15 @@
 # 
 # Translators:
+# yamamoto ryuzo <ryu@yamakun.net>, 2022
 # yamamoto ryuzo <ryu@yamakun.net>, 2021-2022
 # yamamoto ryuzo <ryu@yamakun.net>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-10 16:01++0200\n"
+"POT-Creation-Date: 2022-11-07 15:04++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: yamamoto ryuzo <ryu@yamakun.net>, 2021-2022\n"
+"Last-Translator: yamamoto ryuzo <ryu@yamakun.net>, 2022\n"
 "Language-Team: Japanese (http://www.transifex.com/3liz-1/lizmap-locales/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -207,7 +208,7 @@ msgstr "‎WMS サブドメイン URL リスト (オプション)‎"
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
 msgid "QGIS server URL"
-msgstr ""
+msgstr "QGISサーバーのURL"
 
 #: admin~admin.form.admin_section.data.label
 msgctxt "admin~admin.form.admin_section.data.label"
@@ -672,7 +673,7 @@ msgstr "‎WMS サブドメイン URL リスト (オプション)‎"
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
 msgid "QGIS server URL"
-msgstr ""
+msgstr "QGISサーバーのURL"
 
 #: admin~admin.form.admin_services.yes.label
 msgctxt "admin~admin.form.admin_services.yes.label"
@@ -1181,7 +1182,7 @@ msgstr "リポジトリ"
 #: admin~admin.project.list.column.target.lizmap.version.label
 msgctxt "admin~admin.project.list.column.target.lizmap.version.label"
 msgid "Target version"
-msgstr ""
+msgstr "対象バージョン"
 
 #: admin~admin.project.list.column.update.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
@@ -1189,7 +1190,7 @@ msgid ""
 "This project can not be displayed in the landing page. Open the project in "
 "QGIS desktop with an updated version of the plugin and a more up to date "
 "target version of Lizmap Web Client"
-msgstr ""
+msgstr "このプロジェクト‎はランディングページに表示することができません。プラグインのバージョンを更新し、Lizmap Web Clientのターゲットバージョンを最新にした状態で、QGIS desktopでプロジェクト‎を開きます。"
 
 #: admin~admin.project.list.column.update.soon.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.soon.in.qgis.desktop"
@@ -1197,7 +1198,7 @@ msgid ""
 "In a next version of Lizmap Web Client, this project won't be displayed. "
 "Open the project in QGIS desktop with an updated version of the plugin and a"
 " more up to date target version of Lizmap Web Client"
-msgstr ""
+msgstr "Lizmap Web Clientの次のバージョンでは、このプロジェクト‎は表示されません。プラグインのバージョンを更新し、Lizmap Web Clientのターゲットバージョンを最新にした状態で、QGIS desktopでプロジェクト‎を開いてみてください。"
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
@@ -1222,12 +1223,12 @@ msgstr "Lizmap Web クライアント"
 #: admin~admin.server.information.lizmap.url
 msgctxt "admin~admin.server.information.lizmap.url"
 msgid "URL in the QGIS desktop plugin"
-msgstr ""
+msgstr "QGISデスクトッププラグインのURL"
 
 #: admin~admin.server.information.plugin.update
 msgctxt "admin~admin.server.information.plugin.update"
 msgid "The %s plugin needs to be updated."
-msgstr ""
+msgstr "%sプラグインを更新する必要があります。"
 
 #: admin~admin.server.information.qgis.action
 msgctxt "admin~admin.server.information.qgis.action"
@@ -1328,7 +1329,7 @@ msgctxt "admin~admin.server.information.qgis.update"
 msgid ""
 "QGIS Server needs to be updated at least to version %s for this version of "
 "Lizmap Web Client."
-msgstr ""
+msgstr "Lizmap Web Clientのこのバージョンでは、QGIS Serverを少なくともバージョン%sに更新する必要があります。"
 
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
