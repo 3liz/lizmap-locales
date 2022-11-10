@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-10 16:12++0200\n"
+"POT-Creation-Date: 2022-11-07 15:04++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: yamamoto ryuzo <ryu@yamakun.net>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/3liz-1/teams/62012/ja/)\n"
@@ -1216,7 +1216,7 @@ msgstr "リポジトリ"
 #: admin~admin.project.list.column.target.lizmap.version.label
 msgctxt "admin~admin.project.list.column.target.lizmap.version.label"
 msgid "Target version"
-msgstr ""
+msgstr "対象バージョン"
 
 #: admin~admin.project.list.column.update.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
@@ -1225,6 +1225,8 @@ msgid ""
 "QGIS desktop with an updated version of the plugin and a more up to date "
 "target version of Lizmap Web Client"
 msgstr ""
+"このプロジェクトはランディングページに表示することができません。プラグインのバージョンを更新し、Lizmap Web "
+"Clientのターゲットバージョンを最新にした状態で、QGIS desktopでプロジェクトを開きます。"
 
 #: admin~admin.project.list.column.update.soon.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.soon.in.qgis.desktop"
@@ -1233,6 +1235,8 @@ msgid ""
 "Open the project in QGIS desktop with an updated version of the plugin and a"
 " more up to date target version of Lizmap Web Client"
 msgstr ""
+"Lizmap Web Clientの次のバージョンでは、このプロジェクトは表示されません。プラグインのバージョンを更新し、Lizmap Web "
+"Clientのターゲットバージョンを最新にした状態で、QGIS desktopでプロジェクトを開いてみてください。"
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
@@ -1257,12 +1261,12 @@ msgstr "Lizmap Web クライアント"
 #: admin~admin.server.information.lizmap.url
 msgctxt "admin~admin.server.information.lizmap.url"
 msgid "URL in the QGIS desktop plugin"
-msgstr ""
+msgstr "QGISデスクトッププラグインのURL"
 
 #: admin~admin.server.information.plugin.update
 msgctxt "admin~admin.server.information.plugin.update"
 msgid "The %s plugin needs to be updated."
-msgstr ""
+msgstr "%sプラグインを更新する必要があります。"
 
 #: admin~admin.server.information.qgis.action
 msgctxt "admin~admin.server.information.qgis.action"
@@ -1367,7 +1371,7 @@ msgctxt "admin~admin.server.information.qgis.update"
 msgid ""
 "QGIS Server needs to be updated at least to version %s for this version of "
 "Lizmap Web Client."
-msgstr ""
+msgstr "Lizmap Web Clientのこのバージョンでは、QGIS Serverを少なくともバージョン%sに更新する必要があります。"
 
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
