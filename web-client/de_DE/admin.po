@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-07 15:04++0000\n"
+"POT-Creation-Date: 2022-12-05 15:03++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Dominik Visca, 2020\n"
 "Language-Team: German (http://www.transifex.com/3liz-1/lizmap-locales/language/de/)\n"
@@ -236,6 +236,12 @@ msgctxt "admin~admin.form.admin_section.h1.modify"
 msgid "Modify the repository"
 msgstr "Verzeichnis anpassen"
 
+#: admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain
+msgctxt ""
+"admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain"
+msgid "Content is not a valid URL or a list of URL."
+msgstr ""
+
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
 msgid "You can now configure the rights for this repository."
@@ -275,6 +281,21 @@ msgstr ""
 msgctxt "admin~admin.form.admin_section.message.repository.wrong"
 msgid "The repository's id given does not exist."
 msgstr "Das angegebene Verzeichnis existiert nicht."
+
+#: admin~admin.form.admin_section.repository.accessControlAllowOrigin.help
+msgctxt ""
+"admin~admin.form.admin_section.repository.accessControlAllowOrigin.help"
+msgid ""
+"List of URL separated by a comma, like "
+"'https://domain1.com,https://www.domain2.com'. Path and query parameters "
+"will be removed from the URL."
+msgstr ""
+
+#: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
+msgctxt ""
+"admin~admin.form.admin_section.repository.accessControlAllowOrigin.label"
+msgid "List of websites allowed to access the map services (WMS/WMTS/WFS...)"
+msgstr ""
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
 msgctxt ""
