@@ -22,9 +22,6 @@ push-to-transifex:
       - LWC_BRANCH: release_3_5
         LOCALE_BRANCH: lizmap_3_5
 
-      - LWC_BRANCH: release_3_4
-        LOCALE_BRANCH: lizmap_3_4
-
   script:
     - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
     - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
@@ -72,19 +69,5 @@ pull-from-transifex-3-5:
     - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
     - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
     - from_transifex_to_lwc release_3_5 lizmap_3_5
-  tags:
-    - factory-plain
-
-pull-from-transifex-3-4:
-  stage: build
-  when: manual
-  only:
-    - schedules
-  image:
-    name: $REGISTRY_URI/infra/transifex-lwc:latest
-  script:
-    - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
-    - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
-    - from_transifex_to_lwc release_3_4 lizmap_3_4
   tags:
     - factory-plain
