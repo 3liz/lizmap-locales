@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-10-10 16:12++0200\n"
-"PO-Revision-Date: 2022-10-10 16:12++0200\n"
+"POT-Creation-Date: 2022-12-09 14:41++0100\n"
+"PO-Revision-Date: 2022-12-09 14:41++0100\n"
 "Language: \n"
 
 #: admin~admin.cache.button.remove.repository.cache.confirm.label
@@ -231,6 +231,11 @@ msgctxt "admin~admin.form.admin_section.h1.modify"
 msgid "Modify the repository"
 msgstr ""
 
+#: admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain
+msgctxt "admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain"
+msgid "Content is not a valid URL or a list of URL."
+msgstr ""
+
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
 msgid "You can now configure the rights for this repository."
@@ -269,6 +274,16 @@ msgstr ""
 #: admin~admin.form.admin_section.message.repository.wrong
 msgctxt "admin~admin.form.admin_section.message.repository.wrong"
 msgid "The repository's id given does not exist."
+msgstr ""
+
+#: admin~admin.form.admin_section.repository.accessControlAllowOrigin.help
+msgctxt "admin~admin.form.admin_section.repository.accessControlAllowOrigin.help"
+msgid "List of URL separated by a comma, like 'https://domain1.com,https://www.domain2.com'. Path and query parameters will be removed from the URL."
+msgstr ""
+
+#: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
+msgctxt "admin~admin.form.admin_section.repository.accessControlAllowOrigin.label"
+msgid "List of websites allowed to access the map services (WMS/WMTS/WFS...)"
 msgstr ""
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
