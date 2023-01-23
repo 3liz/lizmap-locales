@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-05 15:03++0000\n"
+"POT-Creation-Date: 2023-01-23 09:44++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
 "Last-Translator: Aitor Gil <nofunat88@hotmail.com>, 2022\n"
 "Language-Team: Basque (https://www.transifex.com/3liz-1/teams/62012/eu/)\n"
@@ -287,15 +287,35 @@ msgctxt ""
 msgid "Allow themes/javascript codes for this repository"
 msgstr ""
 
+#: admin~admin.form.admin_section.repository.help
+msgctxt "admin~admin.form.admin_section.repository.help"
+msgid ""
+"Repository unique identifier, must only contain characters between a-z and "
+"0-9 (no space, no special character). This identifier can not be edited "
+"later."
+msgstr ""
+
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
 msgid "Id"
 msgstr "Id-a"
 
+#: admin~admin.form.admin_section.repository.label.help
+msgctxt "admin~admin.form.admin_section.repository.label.help"
+msgid "Repository label, which will be displayed in the interface"
+msgstr ""
+
 #: admin~admin.form.admin_section.repository.label.label
 msgctxt "admin~admin.form.admin_section.repository.label.label"
 msgid "Label"
 msgstr "Etiketa"
+
+#: admin~admin.form.admin_section.repository.path.help
+msgctxt "admin~admin.form.admin_section.repository.path.help"
+msgid ""
+"The directory in which QGIS projects and Lizmap configuration file must be "
+"stored."
+msgstr ""
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
