@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-05 15:03++0000\n"
+"POT-Creation-Date: 2023-01-23 09:44++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2022\n"
 "Language-Team: Portuguese (https://www.transifex.com/3liz-1/teams/62012/pt/)\n"
@@ -249,7 +249,7 @@ msgstr "Modificar o repositório"
 msgctxt ""
 "admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain"
 msgid "Content is not a valid URL or a list of URL."
-msgstr ""
+msgstr "O conteúdo não é um URL válido ou uma lista de URLs."
 
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
@@ -299,12 +299,16 @@ msgid ""
 "'https://domain1.com,https://www.domain2.com'. Path and query parameters "
 "will be removed from the URL."
 msgstr ""
+"Lista de URLs separados por vírgula, como "
+"'https://domain1.com,https://www.domain2.com'. O caminho e os parâmetros de "
+"consulta serão removidos do URL."
 
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.accessControlAllowOrigin.label"
 msgid "List of websites allowed to access the map services (WMS/WMTS/WFS...)"
 msgstr ""
+"Lista de sites autorizados a aceder aos serviços de mapas (WMS/WMTS/WFS...)"
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
 msgctxt ""
@@ -312,15 +316,35 @@ msgctxt ""
 msgid "Allow themes/javascript codes for this repository"
 msgstr "Permitir temas/código javascript para este repositório"
 
+#: admin~admin.form.admin_section.repository.help
+msgctxt "admin~admin.form.admin_section.repository.help"
+msgid ""
+"Repository unique identifier, must only contain characters between a-z and "
+"0-9 (no space, no special character). This identifier can not be edited "
+"later."
+msgstr ""
+
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
 msgid "Id"
 msgstr "ID"
 
+#: admin~admin.form.admin_section.repository.label.help
+msgctxt "admin~admin.form.admin_section.repository.label.help"
+msgid "Repository label, which will be displayed in the interface"
+msgstr ""
+
 #: admin~admin.form.admin_section.repository.label.label
 msgctxt "admin~admin.form.admin_section.repository.label.label"
 msgid "Label"
 msgstr "Etiqueta"
+
+#: admin~admin.form.admin_section.repository.path.help
+msgctxt "admin~admin.form.admin_section.repository.path.help"
+msgid ""
+"The directory in which QGIS projects and Lizmap configuration file must be "
+"stored."
+msgstr ""
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -998,6 +1022,11 @@ msgstr ""
 "O ficheiro de registo de erros é demasiado grande. Considerar a utilização "
 "de rotação de registos para o Lizmap Web Client."
 
+#: admin~admin.logs.error.no.delete.right
+msgctxt "admin~admin.logs.error.no.delete.right"
+msgid "You have no right to delete the logs."
+msgstr ""
+
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the Lizmap Web Client application error log file"
@@ -1478,6 +1507,11 @@ msgctxt "admin~admin.theme.detail.title"
 msgid "Theme configuration"
 msgstr "Configuração do Tema"
 
+#: admin~admin.theme.error.no.access
+msgctxt "admin~admin.theme.error.no.access"
+msgid "You have no right to access the theme configuration page."
+msgstr ""
+
 #: admin~admin.upload.image.error.file.bigger
 msgctxt "admin~admin.upload.image.error.file.bigger"
 msgid "The uploaded file exceeds the maximum file size allowed"
@@ -1538,6 +1572,26 @@ msgctxt "admin~jacl2.lizmap.admin.grp.default"
 msgid "default group"
 msgstr "grupo padrão"
 
+#: admin~jacl2.lizmap.admin.home.page.update
+msgctxt "admin~jacl2.lizmap.admin.home.page.update"
+msgid "View and update the home page content"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.lizmap.log.delete
+msgctxt "admin~jacl2.lizmap.admin.lizmap.log.delete"
+msgid "Delete the lizmap logs"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.lizmap.log.view
+msgctxt "admin~jacl2.lizmap.admin.lizmap.log.view"
+msgid "View the lizmap logs"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.project.list.view
+msgctxt "admin~jacl2.lizmap.admin.project.list.view"
+msgid "View the list of QGIS projects"
+msgstr ""
+
 #: admin~jacl2.lizmap.admin.repositories.create
 msgctxt "admin~jacl2.lizmap.admin.repositories.create"
 msgid "Create repositories"
@@ -1558,6 +1612,11 @@ msgctxt "admin~jacl2.lizmap.admin.repositories.view"
 msgid "View repositories"
 msgstr "Ver repositórios"
 
+#: admin~jacl2.lizmap.admin.server.information.view
+msgctxt "admin~jacl2.lizmap.admin.server.information.view"
+msgid "View the detailed server information"
+msgstr ""
+
 #: admin~jacl2.lizmap.admin.services.update
 msgctxt "admin~jacl2.lizmap.admin.services.update"
 msgid "Modify services"
@@ -1567,6 +1626,16 @@ msgstr "Modificar serviços"
 msgctxt "admin~jacl2.lizmap.admin.services.view"
 msgid "View services"
 msgstr "Ver serviços"
+
+#: admin~jacl2.lizmap.admin.theme.update
+msgctxt "admin~jacl2.lizmap.admin.theme.update"
+msgid "Update the application theme"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.theme.view
+msgctxt "admin~jacl2.lizmap.admin.theme.view"
+msgid "View the application theme"
+msgstr ""
 
 #: admin~jacl2.lizmap.grp
 msgctxt "admin~jacl2.lizmap.grp"

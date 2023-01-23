@@ -2,15 +2,15 @@
 # Translators:
 # Laurent Jouanneau <dev@ljouanneau.com>, 2022
 # Tudor Bărăscu <tudorbarascu@yahoo.com>, 2022
-# Igor Sorocean <sorocean.igor@gmail.com>, 2022
+# Igor Sorocean <sorocean.igor@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-05 15:03++0000\n"
+"POT-Creation-Date: 2023-01-23 09:44++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
-"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2022\n"
+"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2023\n"
 "Language-Team: Romanian (https://www.transifex.com/3liz-1/teams/62012/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -316,15 +316,35 @@ msgctxt ""
 msgid "Allow themes/javascript codes for this repository"
 msgstr "Permite teme/coduri javascript pentru acest depozit"
 
+#: admin~admin.form.admin_section.repository.help
+msgctxt "admin~admin.form.admin_section.repository.help"
+msgid ""
+"Repository unique identifier, must only contain characters between a-z and "
+"0-9 (no space, no special character). This identifier can not be edited "
+"later."
+msgstr ""
+
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
 msgid "Id"
 msgstr "Id"
 
+#: admin~admin.form.admin_section.repository.label.help
+msgctxt "admin~admin.form.admin_section.repository.label.help"
+msgid "Repository label, which will be displayed in the interface"
+msgstr ""
+
 #: admin~admin.form.admin_section.repository.label.label
 msgctxt "admin~admin.form.admin_section.repository.label.label"
 msgid "Label"
 msgstr "Etichetă"
+
+#: admin~admin.form.admin_section.repository.path.help
+msgctxt "admin~admin.form.admin_section.repository.path.help"
+msgid ""
+"The directory in which QGIS projects and Lizmap configuration file must be "
+"stored."
+msgstr ""
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -997,6 +1017,11 @@ msgstr ""
 "Fișierul jurnal de erori este prea mare. Ia în considerare utilizarea "
 "repetării jurnalului pentru jurnalele Lizmap Web Client."
 
+#: admin~admin.logs.error.no.delete.right
+msgctxt "admin~admin.logs.error.no.delete.right"
+msgid "You have no right to delete the logs."
+msgstr "Nu ai dreptul să ștergi jurnalele."
+
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the Lizmap Web Client application error log file"
@@ -1477,6 +1502,11 @@ msgctxt "admin~admin.theme.detail.title"
 msgid "Theme configuration"
 msgstr "Configurare temă"
 
+#: admin~admin.theme.error.no.access
+msgctxt "admin~admin.theme.error.no.access"
+msgid "You have no right to access the theme configuration page."
+msgstr "Nu ai dreptul de a accesa pagina de configurare a temei."
+
 #: admin~admin.upload.image.error.file.bigger
 msgctxt "admin~admin.upload.image.error.file.bigger"
 msgid "The uploaded file exceeds the maximum file size allowed"
@@ -1537,6 +1567,26 @@ msgctxt "admin~jacl2.lizmap.admin.grp.default"
 msgid "default group"
 msgstr "grup implicit"
 
+#: admin~jacl2.lizmap.admin.home.page.update
+msgctxt "admin~jacl2.lizmap.admin.home.page.update"
+msgid "View and update the home page content"
+msgstr "Vizualizare și actualizare a conținutului paginii de pornire"
+
+#: admin~jacl2.lizmap.admin.lizmap.log.delete
+msgctxt "admin~jacl2.lizmap.admin.lizmap.log.delete"
+msgid "Delete the lizmap logs"
+msgstr "Ștergere jurnale lizmap"
+
+#: admin~jacl2.lizmap.admin.lizmap.log.view
+msgctxt "admin~jacl2.lizmap.admin.lizmap.log.view"
+msgid "View the lizmap logs"
+msgstr "Vizualizare jurnale lizmap"
+
+#: admin~jacl2.lizmap.admin.project.list.view
+msgctxt "admin~jacl2.lizmap.admin.project.list.view"
+msgid "View the list of QGIS projects"
+msgstr "Vizualizare a listei proiectelor QGIS"
+
 #: admin~jacl2.lizmap.admin.repositories.create
 msgctxt "admin~jacl2.lizmap.admin.repositories.create"
 msgid "Create repositories"
@@ -1557,6 +1607,11 @@ msgctxt "admin~jacl2.lizmap.admin.repositories.view"
 msgid "View repositories"
 msgstr "Vizualizare depozit date"
 
+#: admin~jacl2.lizmap.admin.server.information.view
+msgctxt "admin~jacl2.lizmap.admin.server.information.view"
+msgid "View the detailed server information"
+msgstr "Vizualizare informații detaliate despre server"
+
 #: admin~jacl2.lizmap.admin.services.update
 msgctxt "admin~jacl2.lizmap.admin.services.update"
 msgid "Modify services"
@@ -1566,6 +1621,16 @@ msgstr "Modificare servicii"
 msgctxt "admin~jacl2.lizmap.admin.services.view"
 msgid "View services"
 msgstr "Vizualizare servicii"
+
+#: admin~jacl2.lizmap.admin.theme.update
+msgctxt "admin~jacl2.lizmap.admin.theme.update"
+msgid "Update the application theme"
+msgstr "Actualizarea temei aplicației"
+
+#: admin~jacl2.lizmap.admin.theme.view
+msgctxt "admin~jacl2.lizmap.admin.theme.view"
+msgid "View the application theme"
+msgstr "Vizualizarea temei aplicației"
 
 #: admin~jacl2.lizmap.grp
 msgctxt "admin~jacl2.lizmap.grp"
