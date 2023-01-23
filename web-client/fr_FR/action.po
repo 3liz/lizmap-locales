@@ -1,14 +1,16 @@
 # 
 # Translators:
 # Laurent Jouanneau <dev@ljouanneau.com>, 2020
+# rldhont <rldhont@gmail.com>, 2023
+# etrimaille <gustrimaille@yahoo.fr>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 action\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-05 15:03++0000\n"
+"POT-Creation-Date: 2023-01-23 09:44++0000\n"
 "PO-Revision-Date: 2020-03-01 15:01+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2020\n"
+"Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2023\n"
 "Language-Team: French (https://www.transifex.com/3liz-1/teams/62012/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,12 +18,67 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: action~action.dock.subtitle
-msgctxt "action~action.dock.subtitle"
-msgid "List the actions available"
-msgstr "Liste des actions disponibles"
+#: action~action.dock.action.choose
+msgctxt "action~action.dock.action.choose"
+msgid "Choose an action to run"
+msgstr "Choisir une action à lancer"
+
+#: action~action.dock.close
+msgctxt "action~action.dock.close"
+msgid "Close"
+msgstr "Fermer"
+
+#: action~action.dock.form.button.deactivate.help
+msgctxt "action~action.dock.form.button.deactivate.help"
+msgid "Deactivate the active action"
+msgstr "Désactiver l'action en cours"
+
+#: action~action.dock.form.button.deactivate.label
+msgctxt "action~action.dock.form.button.deactivate.label"
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: action~action.dock.form.button.run.help
+msgctxt "action~action.dock.form.button.run.help"
+msgid "Run the selected action"
+msgstr "Exécuter l'action sélectionnée"
+
+#: action~action.dock.form.button.run.label
+msgctxt "action~action.dock.form.button.run.label"
+msgid "Run"
+msgstr "Lancer"
+
+#: action~action.dock.form.select.emptyItem.label
+msgctxt "action~action.dock.form.select.emptyItem.label"
+msgid "Choose an action"
+msgstr "Choisir une action"
+
+#: action~action.dock.form.select.help
+msgctxt "action~action.dock.form.select.help"
+msgid "To run an action, select one in the list and click the Run button"
+msgstr ""
+"Pour lancer une action, sélectionnez-en une dans la liste et cliquer sur le "
+"bouton Lancer."
+
+#: action~action.dock.form.select.warning
+msgctxt "action~action.dock.form.select.warning"
+msgid "You must first select an action in the list"
+msgstr "Vous devez d'abord sélectionner une action dans la liste"
 
 #: action~action.dock.title
 msgctxt "action~action.dock.title"
 msgid "Actions"
 msgstr "Actions"
+
+#: action~action.warning.converted.from.old.configuration
+msgctxt "action~action.warning.converted.from.old.configuration"
+msgid ""
+"Dear administrator, the JSON configuration file for the <b>action module</b>"
+" is written in the old format. Please <a target=\"_blank\" href=\"%s\">read "
+"the documentation</a> and convert it in the new format, since the old format"
+" will not work in the future versions."
+msgstr ""
+"Cher administrateur, le fichier JSON de configuration pour le <b>module "
+"action</b> est écrit dans un ancien format. Veuillez <a target=\"_blank\" "
+"href=\"%s\">lire la documentation</a> et le convertir dans le nouveau "
+"format. Cet ancien format ne sera pas supporté dans des versions futures."

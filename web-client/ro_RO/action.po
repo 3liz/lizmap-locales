@@ -1,14 +1,14 @@
 # 
 # Translators:
-# Igor Sorocean <sorocean.igor@gmail.com>, 2020
+# Igor Sorocean <sorocean.igor@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 action\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-05 15:03++0000\n"
+"POT-Creation-Date: 2023-01-23 09:44++0000\n"
 "PO-Revision-Date: 2020-03-01 15:01+0000\n"
-"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020\n"
+"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2023\n"
 "Language-Team: Romanian (https://www.transifex.com/3liz-1/teams/62012/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,12 +16,67 @@ msgstr ""
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: action~action.dock.subtitle
-msgctxt "action~action.dock.subtitle"
-msgid "List the actions available"
-msgstr "Enumerare acțiuni disponibile"
+#: action~action.dock.action.choose
+msgctxt "action~action.dock.action.choose"
+msgid "Choose an action to run"
+msgstr "Alege o acțiune de executat"
+
+#: action~action.dock.close
+msgctxt "action~action.dock.close"
+msgid "Close"
+msgstr "Închide"
+
+#: action~action.dock.form.button.deactivate.help
+msgctxt "action~action.dock.form.button.deactivate.help"
+msgid "Deactivate the active action"
+msgstr "Dezactivare acțiunea activă"
+
+#: action~action.dock.form.button.deactivate.label
+msgctxt "action~action.dock.form.button.deactivate.label"
+msgid "Deactivate"
+msgstr "Dezactivare"
+
+#: action~action.dock.form.button.run.help
+msgctxt "action~action.dock.form.button.run.help"
+msgid "Run the selected action"
+msgstr "Rulează acțiunea selectată"
+
+#: action~action.dock.form.button.run.label
+msgctxt "action~action.dock.form.button.run.label"
+msgid "Run"
+msgstr "Rulează"
+
+#: action~action.dock.form.select.emptyItem.label
+msgctxt "action~action.dock.form.select.emptyItem.label"
+msgid "Choose an action"
+msgstr "Alege o acțiune"
+
+#: action~action.dock.form.select.help
+msgctxt "action~action.dock.form.select.help"
+msgid "To run an action, select one in the list and click the Run button"
+msgstr ""
+"Pentru a executa o acțiune, selectează una din listă și apasă butonul "
+"Executare"
+
+#: action~action.dock.form.select.warning
+msgctxt "action~action.dock.form.select.warning"
+msgid "You must first select an action in the list"
+msgstr "Mai întâi trebuie să selectezi o acțiune din listă"
 
 #: action~action.dock.title
 msgctxt "action~action.dock.title"
 msgid "Actions"
 msgstr "Acțiuni"
+
+#: action~action.warning.converted.from.old.configuration
+msgctxt "action~action.warning.converted.from.old.configuration"
+msgid ""
+"Dear administrator, the JSON configuration file for the <b>action module</b>"
+" is written in the old format. Please <a target=\"_blank\" href=\"%s\">read "
+"the documentation</a> and convert it in the new format, since the old format"
+" will not work in the future versions."
+msgstr ""
+"Stimate administrator, fișierul de configurare JSON pentru <b>modului "
+"acțiuni</b> este scris în vechiul format.  <a target=\"_blank\" "
+"href=\"%s\">Citește documentația</a> și convertește-l în noul format, "
+"deoarece vechiul format nu va funcționa în versiunile viitoare."

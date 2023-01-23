@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 dataviz\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-05 15:03++0000\n"
+"POT-Creation-Date: 2023-01-23 09:44++0000\n"
 "PO-Revision-Date: 2018-07-14 15:19+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2018\n"
 "Language-Team: Portuguese (https://www.transifex.com/3liz-1/teams/62012/pt/)\n"
@@ -25,3 +25,114 @@ msgstr "Diagramas"
 msgctxt "dataviz~dataviz.dock.title"
 msgid "Dataviz"
 msgstr "Diagramas"
+
+#: dataviz~dataviz.log.access_denied.detail
+msgctxt "dataviz~dataviz.log.access_denied.detail"
+msgid ""
+"You have no right to access this ressource. Have you used the right login ?"
+msgstr ""
+
+#: dataviz~dataviz.log.access_denied.title
+msgctxt "dataviz~dataviz.log.access_denied.title"
+msgid "Access denied"
+msgstr ""
+
+#: dataviz~dataviz.log.invalid_plot_type.detail
+msgctxt "dataviz~dataviz.log.invalid_plot_type.detail"
+msgid "The given plot type \"%s\" is invalid."
+msgstr ""
+
+#: dataviz~dataviz.log.invalid_plot_type.title
+msgctxt "dataviz~dataviz.log.invalid_plot_type.title"
+msgid "Invalid plot type"
+msgstr ""
+
+#: dataviz~dataviz.log.layer_not_found.detail
+msgctxt "dataviz~dataviz.log.layer_not_found.detail"
+msgid ""
+"The layer with the given ID \"%s\" cannot be found in the published QGIS "
+"project."
+msgstr ""
+
+#: dataviz~dataviz.log.layer_not_found.title
+msgctxt "dataviz~dataviz.log.layer_not_found.title"
+msgid "Layer not found"
+msgstr ""
+
+#: dataviz~dataviz.log.no_configuration.title
+msgctxt "dataviz~dataviz.log.no_configuration.title"
+msgid "There is no dataviz configuration for this project yet."
+msgstr ""
+
+#: dataviz~dataviz.log.no_data.detail
+msgctxt "dataviz~dataviz.log.no_data.detail"
+msgid "The plot source data cannot be fetched from the vector layer \"%s\"."
+msgstr ""
+
+#: dataviz~dataviz.log.no_data.title
+msgctxt "dataviz~dataviz.log.no_data.title"
+msgid "Plot data not available"
+msgstr ""
+
+#: dataviz~dataviz.log.no_layers.detail
+msgctxt "dataviz~dataviz.log.no_layers.detail"
+msgid "The table of layers inside the dataviz configuration is empty."
+msgstr ""
+
+#: dataviz~dataviz.log.no_layers.title
+msgctxt "dataviz~dataviz.log.no_layers.title"
+msgid "Dataviz layers is empty"
+msgstr ""
+
+#: dataviz~dataviz.log.plot_configuration_not_found.detail
+msgctxt "dataviz~dataviz.log.plot_configuration_not_found.detail"
+msgid ""
+"The plot configuration cannot be found or parsed by Lizmap dataviz API."
+msgstr ""
+
+#: dataviz~dataviz.log.plot_configuration_not_found.title
+msgctxt "dataviz~dataviz.log.plot_configuration_not_found.title"
+msgid "Plot configuration not found"
+msgstr ""
+
+#: dataviz~dataviz.log.project_not_found.detail
+msgctxt "dataviz~dataviz.log.project_not_found.detail"
+msgid ""
+"The QGIS project \"%s.qgs\" does not exist or is not available in the "
+"repository \"%s\"."
+msgstr ""
+
+#: dataviz~dataviz.log.project_not_found.title
+msgctxt "dataviz~dataviz.log.project_not_found.title"
+msgid "Lizmap project not found"
+msgstr ""
+
+#: dataviz~dataviz.log.repository_not_found.detail
+msgctxt "dataviz~dataviz.log.repository_not_found.detail"
+msgid "The Lizmap repository \"%s\" does not exist or is not available."
+msgstr ""
+
+#: dataviz~dataviz.log.repository_not_found.title
+msgctxt "dataviz~dataviz.log.repository_not_found.title"
+msgid "Lizmap repository not found"
+msgstr ""
+
+#: dataviz~dataviz.log.request_not_supported.detail
+msgctxt "dataviz~dataviz.log.request_not_supported.detail"
+msgid "The given request \"%s\" is not supported by Lizmap dataviz API."
+msgstr ""
+
+#: dataviz~dataviz.log.request_not_supported.title
+msgctxt "dataviz~dataviz.log.request_not_supported.title"
+msgid "Request is not supported"
+msgstr ""
+
+#: dataviz~dataviz.log.wrong_credentials.detail
+msgctxt "dataviz~dataviz.log.wrong_credentials.detail"
+msgid "The given login and password are incorrect. Cannot authenticate."
+msgstr ""
+
+#: dataviz~dataviz.log.wrong_credentials.title
+msgctxt "dataviz~dataviz.log.wrong_credentials.title"
+msgid "Wrong credentials"
+msgstr ""

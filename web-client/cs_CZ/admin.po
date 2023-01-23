@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-05 15:03++0000\n"
+"POT-Creation-Date: 2023-01-23 09:44++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: trendspotter <jirka.p@volny.cz>, 2022\n"
 "Language-Team: Czech (http://www.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
@@ -303,15 +303,35 @@ msgctxt ""
 msgid "Allow themes/javascript codes for this repository"
 msgstr "Povolit témata / javascript kódy pro tento repozitář"
 
+#: admin~admin.form.admin_section.repository.help
+msgctxt "admin~admin.form.admin_section.repository.help"
+msgid ""
+"Repository unique identifier, must only contain characters between a-z and "
+"0-9 (no space, no special character). This identifier can not be edited "
+"later."
+msgstr ""
+
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
 msgid "Id"
 msgstr "Id"
 
+#: admin~admin.form.admin_section.repository.label.help
+msgctxt "admin~admin.form.admin_section.repository.label.help"
+msgid "Repository label, which will be displayed in the interface"
+msgstr ""
+
 #: admin~admin.form.admin_section.repository.label.label
 msgctxt "admin~admin.form.admin_section.repository.label.label"
 msgid "Label"
 msgstr "Štítek"
+
+#: admin~admin.form.admin_section.repository.path.help
+msgctxt "admin~admin.form.admin_section.repository.path.help"
+msgid ""
+"The directory in which QGIS projects and Lizmap configuration file must be "
+"stored."
+msgstr ""
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -925,6 +945,11 @@ msgid ""
 "Client logs."
 msgstr "Soubor protokolu chyb je příliš velký. Zvažte rotaci protokolu pro protokoly webového klienta Lizmap."
 
+#: admin~admin.logs.error.no.delete.right
+msgctxt "admin~admin.logs.error.no.delete.right"
+msgid "You have no right to delete the logs."
+msgstr ""
+
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the Lizmap Web Client application error log file"
@@ -1222,6 +1247,20 @@ msgid ""
 " more up to date target version of Lizmap Web Client"
 msgstr "V příští verzi Lizmap Web Client se tento projekt nebude zobrazovat. Otevřete projekt na ploše QGIS s aktualizovanou verzí zásuvného modulu a aktuálnější cílovou verzí Lizmap Web Client."
 
+#: admin~admin.project.minimum.target.version.required
+msgctxt "admin~admin.project.minimum.target.version.required"
+msgid ""
+"A QGIS project must be designed for at least Lizmap Web Client %s to be "
+"displayed in this current version of Lizmap Web Client"
+msgstr ""
+
+#: admin~admin.project.not.displayed
+msgctxt "admin~admin.project.not.displayed"
+msgid ""
+"Some projects, listed below, can not be displayed in the main web interface "
+"because they need an update from the GIS administrator."
+msgstr ""
+
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
 msgid "Information"
@@ -1373,6 +1412,11 @@ msgctxt "admin~admin.theme.detail.title"
 msgid "Theme configuration"
 msgstr "konfigurace Theme"
 
+#: admin~admin.theme.error.no.access
+msgctxt "admin~admin.theme.error.no.access"
+msgid "You have no right to access the theme configuration page."
+msgstr ""
+
 #: admin~admin.upload.image.error.file.bigger
 msgctxt "admin~admin.upload.image.error.file.bigger"
 msgid "The uploaded file exceeds the maximum file size allowed"
@@ -1433,6 +1477,26 @@ msgctxt "admin~jacl2.lizmap.admin.grp.default"
 msgid "default group"
 msgstr "Smaž skupinu"
 
+#: admin~jacl2.lizmap.admin.home.page.update
+msgctxt "admin~jacl2.lizmap.admin.home.page.update"
+msgid "View and update the home page content"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.lizmap.log.delete
+msgctxt "admin~jacl2.lizmap.admin.lizmap.log.delete"
+msgid "Delete the lizmap logs"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.lizmap.log.view
+msgctxt "admin~jacl2.lizmap.admin.lizmap.log.view"
+msgid "View the lizmap logs"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.project.list.view
+msgctxt "admin~jacl2.lizmap.admin.project.list.view"
+msgid "View the list of QGIS projects"
+msgstr ""
+
 #: admin~jacl2.lizmap.admin.repositories.create
 msgctxt "admin~jacl2.lizmap.admin.repositories.create"
 msgid "Create repositories"
@@ -1453,6 +1517,11 @@ msgctxt "admin~jacl2.lizmap.admin.repositories.view"
 msgid "View repositories"
 msgstr "Zobrazit repozitáře"
 
+#: admin~jacl2.lizmap.admin.server.information.view
+msgctxt "admin~jacl2.lizmap.admin.server.information.view"
+msgid "View the detailed server information"
+msgstr ""
+
 #: admin~jacl2.lizmap.admin.services.update
 msgctxt "admin~jacl2.lizmap.admin.services.update"
 msgid "Modify services"
@@ -1462,6 +1531,16 @@ msgstr "Upravit služby"
 msgctxt "admin~jacl2.lizmap.admin.services.view"
 msgid "View services"
 msgstr "Zobrazit služby"
+
+#: admin~jacl2.lizmap.admin.theme.update
+msgctxt "admin~jacl2.lizmap.admin.theme.update"
+msgid "Update the application theme"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.theme.view
+msgctxt "admin~jacl2.lizmap.admin.theme.view"
+msgid "View the application theme"
+msgstr ""
 
 #: admin~jacl2.lizmap.grp
 msgctxt "admin~jacl2.lizmap.grp"
