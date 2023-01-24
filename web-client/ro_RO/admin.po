@@ -2,15 +2,15 @@
 # Translators:
 # Laurent Jouanneau <dev@ljouanneau.com>, 2021
 # Tudor Bărăscu <tudorbarascu@yahoo.com>, 2022
-# Igor Sorocean <sorocean.igor@gmail.com>, 2022
+# Igor Sorocean <sorocean.igor@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-23 09:44++0000\n"
+"POT-Creation-Date: 2023-01-24 10:24++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
-"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2022\n"
+"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2023\n"
 "Language-Team: Romanian (https://www.transifex.com/3liz-1/teams/62012/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -297,6 +297,9 @@ msgid ""
 "0-9 (no space, no special character). This identifier can not be edited "
 "later."
 msgstr ""
+"Identificatorul unic al depozitului, trebuie să conțină doar caractere între"
+" a-z și 0-9 (fără spațiu, fără caractere speciale). Acest identificator nu "
+"poate fi editat ulterior."
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
@@ -306,7 +309,7 @@ msgstr "Id"
 #: admin~admin.form.admin_section.repository.label.help
 msgctxt "admin~admin.form.admin_section.repository.label.help"
 msgid "Repository label, which will be displayed in the interface"
-msgstr ""
+msgstr "Eticheta depozitului ce va fi afișată în interfață"
 
 #: admin~admin.form.admin_section.repository.label.label
 msgctxt "admin~admin.form.admin_section.repository.label.label"
@@ -319,6 +322,8 @@ msgid ""
 "The directory in which QGIS projects and Lizmap configuration file must be "
 "stored."
 msgstr ""
+"Dosarul în care trebuie stocate proiectele QGIS și fișierul de configurare "
+"Lizmap."
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
