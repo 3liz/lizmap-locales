@@ -1,16 +1,16 @@
 # 
 # Translators:
-# trendspotter <jirka.p@volny.cz>, 2019
+# Jiří Podhorecký, 2019
 # Jiří Sobotík <jiri.sobotik@centrum.cz>, 2018
-# trendspotter <jirka.p@volny.cz>, 2022
-# trendspotter <jirka.p@volny.cz>, 2019-2020
+# Jiří Podhorecký, 2022-2023
+# Jiří Podhorecký, 2019-2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-23 09:44++0000\n"
+"POT-Creation-Date: 2023-02-17 13:37++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: trendspotter <jirka.p@volny.cz>, 2022\n"
+"Last-Translator: Jiří Podhorecký, 2022-2023\n"
 "Language-Team: Czech (http://www.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -240,7 +240,7 @@ msgstr "Upravit repozitář"
 msgctxt ""
 "admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain"
 msgid "Content is not a valid URL or a list of URL."
-msgstr ""
+msgstr "Obsah není platnou adresou URL nebo seznamem adres URL."
 
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
@@ -289,13 +289,13 @@ msgid ""
 "List of URL separated by a comma, like "
 "'https://domain1.com,https://www.domain2.com'. Path and query parameters "
 "will be removed from the URL."
-msgstr ""
+msgstr "Seznam adres URL oddělených čárkou, například \"https://domain1.com,https://www.domain2.com\". Cesta a parametry dotazu budou z adresy URL odstraněny."
 
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.accessControlAllowOrigin.label"
 msgid "List of websites allowed to access the map services (WMS/WMTS/WFS...)"
-msgstr ""
+msgstr "Seznam webových stránek s povoleným přístupem k mapovým službám (WMS/WMTS/WFS...)"
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
 msgctxt ""
@@ -309,7 +309,7 @@ msgid ""
 "Repository unique identifier, must only contain characters between a-z and "
 "0-9 (no space, no special character). This identifier can not be edited "
 "later."
-msgstr ""
+msgstr "Jedinečný identifikátor úložiště, musí obsahovat pouze znaky a-z a 0-9 (bez mezer a speciálních znaků). Tento identifikátor nelze později upravovat."
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
@@ -319,7 +319,7 @@ msgstr "Id"
 #: admin~admin.form.admin_section.repository.label.help
 msgctxt "admin~admin.form.admin_section.repository.label.help"
 msgid "Repository label, which will be displayed in the interface"
-msgstr ""
+msgstr "Označení úložiště, které se zobrazí v rozhraní"
 
 #: admin~admin.form.admin_section.repository.label.label
 msgctxt "admin~admin.form.admin_section.repository.label.label"
@@ -331,7 +331,7 @@ msgctxt "admin~admin.form.admin_section.repository.path.help"
 msgid ""
 "The directory in which QGIS projects and Lizmap configuration file must be "
 "stored."
-msgstr ""
+msgstr "Adresář, ve kterém musí být uloženy projekty QGIS a konfigurační soubor Lizmap."
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -948,7 +948,7 @@ msgstr "Soubor protokolu chyb je příliš velký. Zvažte rotaci protokolu pro 
 #: admin~admin.logs.error.no.delete.right
 msgctxt "admin~admin.logs.error.no.delete.right"
 msgid "You have no right to delete the logs."
-msgstr ""
+msgstr "Nemáte oprávnění mazat protokoly."
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
@@ -1130,6 +1130,11 @@ msgctxt "admin~admin.project.list.column.layers.count.label"
 msgid "Layers"
 msgstr "Vrstva"
 
+#: admin~admin.project.list.column.layers.count.label.longer
+msgctxt "admin~admin.project.list.column.layers.count.label.longer"
+msgid "Layer count"
+msgstr ""
+
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
 msgid "This project has many layers. Performance could be degraded."
@@ -1157,6 +1162,11 @@ msgctxt "admin~admin.project.list.column.loading.time.label"
 msgid "Loading time (s)"
 msgstr "Doba načítání (s)"
 
+#: admin~admin.project.list.column.loading.time.label.alt
+msgctxt "admin~admin.project.list.column.loading.time.label.alt"
+msgid "Loading time"
+msgstr ""
+
 #: admin~admin.project.list.column.loading.time.warning.label
 msgctxt "admin~admin.project.list.column.loading.time.warning.label"
 msgid "The project loading time is a bit long."
@@ -1173,6 +1183,11 @@ msgstr "Využití paměti projektu je velmi vysoké. Zkuste prosím projekt QGIS
 msgctxt "admin~admin.project.list.column.memory.usage.label"
 msgid "Memory (Mo)"
 msgstr "Paměť (Mo)"
+
+#: admin~admin.project.list.column.memory.usage.label.alt
+msgctxt "admin~admin.project.list.column.memory.usage.label.alt"
+msgid "Memory"
+msgstr "Paměť"
 
 #: admin~admin.project.list.column.memory.usage.warning.label
 msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
@@ -1231,6 +1246,11 @@ msgctxt "admin~admin.project.list.column.target.lizmap.version.label"
 msgid "Target version"
 msgstr "Cílová verze"
 
+#: admin~admin.project.list.column.target.lizmap.version.label.longer
+msgctxt "admin~admin.project.list.column.target.lizmap.version.label.longer"
+msgid "Target version of Lizmap Web Client"
+msgstr "Cílová verze webového klienta Lizmap"
+
 #: admin~admin.project.list.column.update.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
 msgid ""
@@ -1247,18 +1267,134 @@ msgid ""
 " more up to date target version of Lizmap Web Client"
 msgstr "V příští verzi Lizmap Web Client se tento projekt nebude zobrazovat. Otevřete projekt na ploše QGIS s aktualizovanou verzí zásuvného modulu a aktuálnější cílovou verzí Lizmap Web Client."
 
-#: admin~admin.project.minimum.target.version.required
-msgctxt "admin~admin.project.minimum.target.version.required"
-msgid ""
-"A QGIS project must be designed for at least Lizmap Web Client %s to be "
-"displayed in this current version of Lizmap Web Client"
-msgstr ""
-
 #: admin~admin.project.not.displayed
 msgctxt "admin~admin.project.not.displayed"
 msgid ""
 "Some projects, listed below, can not be displayed in the main web interface "
-"because they need an update from the GIS administrator."
+"because they need an update from the GIS administrator. Please read the "
+"guidelines about colours under this table."
+msgstr ""
+
+#: admin~admin.project.rules.list.blocking.description
+msgctxt "admin~admin.project.rules.list.blocking.description"
+msgid ""
+"Some projects are not visible anymore without any updates from the GIS "
+"administrator."
+msgstr ""
+
+#: admin~admin.project.rules.list.blocking.html
+msgctxt "admin~admin.project.rules.list.blocking.html"
+msgid "<strong>Blocking</strong>, these projects are not visible anymore :"
+msgstr ""
+
+#: admin~admin.project.rules.list.blocking.target.html
+msgctxt "admin~admin.project.rules.list.blocking.target.html"
+msgid ""
+"Light coral if the project is designed for Lizmap Web Client version equal "
+"or less than <strong>%s</strong>."
+msgstr ""
+
+#: admin~admin.project.rules.list.custom.projection
+msgctxt "admin~admin.project.rules.list.custom.projection"
+msgid ""
+"Light coral if the project is using a <strong>user-defined</strong> "
+"projection."
+msgstr ""
+
+#: admin~admin.project.rules.list.description.html
+msgctxt "admin~admin.project.rules.list.description.html"
+msgid ""
+"Given your current Lizmap Web Client version <strong>%s</strong> and QGIS "
+"Server version <strong>%s</strong>, there are some rules about the table "
+"above :"
+msgstr ""
+
+#: admin~admin.project.rules.list.error.loading.html
+msgctxt "admin~admin.project.rules.list.error.loading.html"
+msgid ""
+"Light coral if the project takes longer than <strong>%s</strong> seconds to "
+"load."
+msgstr ""
+
+#: admin~admin.project.rules.list.error.memory.html
+msgctxt "admin~admin.project.rules.list.error.memory.html"
+msgid ""
+"Light coral if the project takes more than <strong>%s</strong> Mo of the "
+"server memory to load."
+msgstr ""
+
+#: admin~admin.project.rules.list.important.count.layers.html
+msgctxt "admin~admin.project.rules.list.important.count.layers.html"
+msgid ""
+"Light yellow if the count is greater or equal to <strong>%s</strong> layers."
+msgstr ""
+
+#: admin~admin.project.rules.list.introduction
+msgctxt "admin~admin.project.rules.list.introduction"
+msgid "Explanation about colours used in the table above"
+msgstr ""
+
+#: admin~admin.project.rules.list.invalid.datasource.html
+msgctxt "admin~admin.project.rules.list.invalid.datasource.html"
+msgid ""
+"Light coral if the project has some <strong>invalid layer "
+"datasource</strong> when QGIS server loaded the project."
+msgstr ""
+
+#: admin~admin.project.rules.list.qgis.version.light.coral.html
+msgctxt "admin~admin.project.rules.list.qgis.version.light.coral.html"
+msgid ""
+"Light coral if the QGIS desktop version <strong>is above</strong> QGIS "
+"server. Current value greater or equal than <strong>%s</strong>."
+msgstr ""
+
+#: admin~admin.project.rules.list.qgis.version.light.yellow.html
+msgctxt "admin~admin.project.rules.list.qgis.version.light.yellow.html"
+msgid ""
+"Light yellow if the QGIS project version is too old compared to the current "
+"QGIS Server version. Current value less or equal to <strong>%s</strong>."
+msgstr ""
+
+#: admin~admin.project.rules.list.target.version.html
+msgctxt "admin~admin.project.rules.list.target.version.html"
+msgid ""
+"Light yellow if the project is designed for Lizmap Web Client "
+"<strong>%s</strong>."
+msgstr ""
+
+#: admin~admin.project.rules.list.very.important.count.layers.html
+msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
+msgid ""
+"Light coral if the count is greater or equal to <strong>%s</strong> layers."
+msgstr ""
+
+#: admin~admin.project.rules.list.warning.loading.html
+msgctxt "admin~admin.project.rules.list.warning.loading.html"
+msgid ""
+"Light yellow if the project takes longer than <strong>%s</strong> seconds to"
+" load."
+msgstr ""
+
+#: admin~admin.project.rules.list.warning.memory.html
+msgctxt "admin~admin.project.rules.list.warning.memory.html"
+msgid ""
+"Light yellow if the project takes more than <strong>%s</strong> Mo of the "
+"server memory to load."
+msgstr ""
+
+#: admin~admin.project.rules.list.warnings.html
+msgctxt "admin~admin.project.rules.list.warnings.html"
+msgid ""
+"<strong>Warnings</strong>, projects are still visible, but you should have a"
+" look to these projects :"
+msgstr ""
+
+#: admin~admin.server.information.error
+msgctxt "admin~admin.server.information.error"
+msgid ""
+"Before checking your projects, you must check your QGIS server settings in "
+"the \"Server information\" menu. The configuration of QGIS Server is "
+"currently not correct."
 msgstr ""
 
 #: admin~admin.server.information.lizmap.info
@@ -1415,7 +1551,7 @@ msgstr "konfigurace Theme"
 #: admin~admin.theme.error.no.access
 msgctxt "admin~admin.theme.error.no.access"
 msgid "You have no right to access the theme configuration page."
-msgstr ""
+msgstr "Nemáte oprávnění k přístupu na stránku s konfigurací motivu."
 
 #: admin~admin.upload.image.error.file.bigger
 msgctxt "admin~admin.upload.image.error.file.bigger"
@@ -1480,22 +1616,22 @@ msgstr "Smaž skupinu"
 #: admin~jacl2.lizmap.admin.home.page.update
 msgctxt "admin~jacl2.lizmap.admin.home.page.update"
 msgid "View and update the home page content"
-msgstr ""
+msgstr "Zobrazení a aktualizace obsahu domovské stránky"
 
 #: admin~jacl2.lizmap.admin.lizmap.log.delete
 msgctxt "admin~jacl2.lizmap.admin.lizmap.log.delete"
 msgid "Delete the lizmap logs"
-msgstr ""
+msgstr "Smazání protokolů lizmap"
 
 #: admin~jacl2.lizmap.admin.lizmap.log.view
 msgctxt "admin~jacl2.lizmap.admin.lizmap.log.view"
 msgid "View the lizmap logs"
-msgstr ""
+msgstr "Zobrazit protokoly lizmap"
 
 #: admin~jacl2.lizmap.admin.project.list.view
 msgctxt "admin~jacl2.lizmap.admin.project.list.view"
 msgid "View the list of QGIS projects"
-msgstr ""
+msgstr "Zobrazit seznam projektů QGIS"
 
 #: admin~jacl2.lizmap.admin.repositories.create
 msgctxt "admin~jacl2.lizmap.admin.repositories.create"
@@ -1520,7 +1656,7 @@ msgstr "Zobrazit repozitáře"
 #: admin~jacl2.lizmap.admin.server.information.view
 msgctxt "admin~jacl2.lizmap.admin.server.information.view"
 msgid "View the detailed server information"
-msgstr ""
+msgstr "Zobrazit podrobné informace o serveru"
 
 #: admin~jacl2.lizmap.admin.services.update
 msgctxt "admin~jacl2.lizmap.admin.services.update"
@@ -1535,12 +1671,12 @@ msgstr "Zobrazit služby"
 #: admin~jacl2.lizmap.admin.theme.update
 msgctxt "admin~jacl2.lizmap.admin.theme.update"
 msgid "Update the application theme"
-msgstr ""
+msgstr "Aktualizace motivu aplikace"
 
 #: admin~jacl2.lizmap.admin.theme.view
 msgctxt "admin~jacl2.lizmap.admin.theme.view"
 msgid "View the application theme"
-msgstr ""
+msgstr "Zobrazit motiv aplikace"
 
 #: admin~jacl2.lizmap.grp
 msgctxt "admin~jacl2.lizmap.grp"

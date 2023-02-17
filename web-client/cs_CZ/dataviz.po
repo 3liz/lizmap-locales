@@ -1,14 +1,14 @@
 # 
 # Translators:
-# trendspotter <jirka.p@volny.cz>, 2019
+# Jiří Podhorecký, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 dataviz\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-23 09:44++0000\n"
+"POT-Creation-Date: 2023-02-17 13:37++0000\n"
 "PO-Revision-Date: 2018-07-14 15:19+0000\n"
-"Last-Translator: trendspotter <jirka.p@volny.cz>, 2019\n"
+"Last-Translator: Jiří Podhorecký, 2023\n"
 "Language-Team: Czech (https://www.transifex.com/3liz-1/teams/62012/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,108 +31,112 @@ msgctxt "dataviz~dataviz.log.access_denied.detail"
 msgid ""
 "You have no right to access this ressource. Have you used the right login ?"
 msgstr ""
+"Na přístup k tomuto zdroji nemáte právo. Použili jste správné přihlašovací "
+"jméno ?"
 
 #: dataviz~dataviz.log.access_denied.title
 msgctxt "dataviz~dataviz.log.access_denied.title"
 msgid "Access denied"
-msgstr ""
+msgstr "Přístup odepřen"
 
 #: dataviz~dataviz.log.invalid_plot_type.detail
 msgctxt "dataviz~dataviz.log.invalid_plot_type.detail"
 msgid "The given plot type \"%s\" is invalid."
-msgstr ""
+msgstr "Zadaný typ výkresu \"\" je neplatný."
 
 #: dataviz~dataviz.log.invalid_plot_type.title
 msgctxt "dataviz~dataviz.log.invalid_plot_type.title"
 msgid "Invalid plot type"
-msgstr ""
+msgstr "Nesprávný typ výkresu"
 
 #: dataviz~dataviz.log.layer_not_found.detail
 msgctxt "dataviz~dataviz.log.layer_not_found.detail"
 msgid ""
 "The layer with the given ID \"%s\" cannot be found in the published QGIS "
 "project."
-msgstr ""
+msgstr "Vrstvu s daným ID \"\" nelze ve zveřejněném projektu QGIS nalézt."
 
 #: dataviz~dataviz.log.layer_not_found.title
 msgctxt "dataviz~dataviz.log.layer_not_found.title"
 msgid "Layer not found"
-msgstr ""
+msgstr "Vrstva nenalezena"
 
 #: dataviz~dataviz.log.no_configuration.title
 msgctxt "dataviz~dataviz.log.no_configuration.title"
 msgid "There is no dataviz configuration for this project yet."
-msgstr ""
+msgstr "Pro tento projekt zatím neexistuje žádná konfigurace datavizu."
 
 #: dataviz~dataviz.log.no_data.detail
 msgctxt "dataviz~dataviz.log.no_data.detail"
 msgid "The plot source data cannot be fetched from the vector layer \"%s\"."
-msgstr ""
+msgstr "Zdrojová data výkresu nelze načíst z vektorové vrstvy \"\"."
 
 #: dataviz~dataviz.log.no_data.title
 msgctxt "dataviz~dataviz.log.no_data.title"
 msgid "Plot data not available"
-msgstr ""
+msgstr "Údaje o výkresu nejsou k dispozici"
 
 #: dataviz~dataviz.log.no_layers.detail
 msgctxt "dataviz~dataviz.log.no_layers.detail"
 msgid "The table of layers inside the dataviz configuration is empty."
-msgstr ""
+msgstr "Tabulka vrstev uvnitř konfigurace datavizu je prázdná."
 
 #: dataviz~dataviz.log.no_layers.title
 msgctxt "dataviz~dataviz.log.no_layers.title"
 msgid "Dataviz layers is empty"
-msgstr ""
+msgstr "Vrstvy Dataviz jsou prázdné"
 
 #: dataviz~dataviz.log.plot_configuration_not_found.detail
 msgctxt "dataviz~dataviz.log.plot_configuration_not_found.detail"
 msgid ""
 "The plot configuration cannot be found or parsed by Lizmap dataviz API."
 msgstr ""
+"Konfiguraci výkresu nelze najít ani analyzovat pomocí rozhraní Lizmap "
+"dataviz API."
 
 #: dataviz~dataviz.log.plot_configuration_not_found.title
 msgctxt "dataviz~dataviz.log.plot_configuration_not_found.title"
 msgid "Plot configuration not found"
-msgstr ""
+msgstr "Konfigurace výkresu nebyla nalezena"
 
 #: dataviz~dataviz.log.project_not_found.detail
 msgctxt "dataviz~dataviz.log.project_not_found.detail"
 msgid ""
 "The QGIS project \"%s.qgs\" does not exist or is not available in the "
 "repository \"%s\"."
-msgstr ""
+msgstr "Projekt QGIS \".qgs\" neexistuje nebo není k dispozici v úložišti \"\"."
 
 #: dataviz~dataviz.log.project_not_found.title
 msgctxt "dataviz~dataviz.log.project_not_found.title"
 msgid "Lizmap project not found"
-msgstr ""
+msgstr "Projekt Lizmap nenalezen"
 
 #: dataviz~dataviz.log.repository_not_found.detail
 msgctxt "dataviz~dataviz.log.repository_not_found.detail"
 msgid "The Lizmap repository \"%s\" does not exist or is not available."
-msgstr ""
+msgstr "Úložiště Lizmap \"\" neexistuje nebo není k dispozici."
 
 #: dataviz~dataviz.log.repository_not_found.title
 msgctxt "dataviz~dataviz.log.repository_not_found.title"
 msgid "Lizmap repository not found"
-msgstr ""
+msgstr "Úložiště Lizmap nebylo nalezeno"
 
 #: dataviz~dataviz.log.request_not_supported.detail
 msgctxt "dataviz~dataviz.log.request_not_supported.detail"
 msgid "The given request \"%s\" is not supported by Lizmap dataviz API."
-msgstr ""
+msgstr "Zadaný požadavek \"\" není podporován rozhraním Lizmap dataviz API."
 
 #: dataviz~dataviz.log.request_not_supported.title
 msgctxt "dataviz~dataviz.log.request_not_supported.title"
 msgid "Request is not supported"
-msgstr ""
+msgstr "Požadavek není podporován"
 
 #: dataviz~dataviz.log.wrong_credentials.detail
 msgctxt "dataviz~dataviz.log.wrong_credentials.detail"
 msgid "The given login and password are incorrect. Cannot authenticate."
-msgstr ""
+msgstr "Zadané přihlašovací jméno a heslo jsou nesprávné. Nelze ověřit."
 
 #: dataviz~dataviz.log.wrong_credentials.title
 msgctxt "dataviz~dataviz.log.wrong_credentials.title"
 msgid "Wrong credentials"
-msgstr ""
+msgstr "Špatné přihlašovací údaje"

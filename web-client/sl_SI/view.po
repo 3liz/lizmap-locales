@@ -1,13 +1,14 @@
 # 
 # Translators:
+# Jože Detečnik <joze.detecnik@3tav.si>, 2023
 # Joze Stih <joze.stih@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-10 16:01++0200\n"
+"POT-Creation-Date: 2023-02-17 13:37++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: Joze Stih <joze.stih@gmail.com>, 2017\n"
+"Last-Translator: Jože Detečnik <joze.detecnik@3tav.si>, 2023\n"
 "Language-Team: Slovenian (http://www.transifex.com/3liz-1/lizmap-locales/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,9 +46,14 @@ msgctxt "view~default.header.search.toggleKeywordsTitle.title"
 msgid "Toggle keywords/title search."
 msgstr ""
 
+#: view~default.home.menu
+msgctxt "view~default.home.menu"
+msgid "Home"
+msgstr "Domov"
+
 #: view~default.home.title
 msgctxt "view~default.home.title"
-msgid "Home"
+msgid "Home page"
 msgstr ""
 
 #: view~default.project.abstract.label
@@ -68,7 +74,7 @@ msgstr ""
 #: view~default.project.close.map.metadata
 msgctxt "view~default.project.close.map.metadata"
 msgid "Close"
-msgstr ""
+msgstr "Zapri"
 
 #: view~default.project.keywordList.label
 msgctxt "view~default.project.keywordList.label"
@@ -85,7 +91,7 @@ msgstr ""
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
 msgid "Load the map"
-msgstr ""
+msgstr "Naloži zemljevid"
 
 #: view~default.project.open.map.metadata
 msgctxt "view~default.project.open.map.metadata"
@@ -95,7 +101,7 @@ msgstr ""
 #: view~default.project.projection.label
 msgctxt "view~default.project.projection.label"
 msgid "Projection"
-msgstr ""
+msgstr "Koordinatni sistem"
 
 #: view~default.project.title.label
 msgctxt "view~default.project.title.label"
@@ -109,7 +115,7 @@ msgstr ""
 
 #: view~default.repository.list.title
 msgctxt "view~default.repository.list.title"
-msgid "Projects"
+msgid "Repository page"
 msgstr ""
 
 #: view~default.server.information.error
@@ -117,6 +123,56 @@ msgctxt "view~default.server.information.error"
 msgid ""
 "This map cannot be displayed. Please contact the server administrator to "
 "check the server information panel."
+msgstr ""
+
+#: view~dictionnary.action.choose
+msgctxt "view~dictionnary.action.choose"
+msgid "Choose an action to run"
+msgstr ""
+
+#: view~dictionnary.action.close
+msgctxt "view~dictionnary.action.close"
+msgid "Close"
+msgstr "Zapri"
+
+#: view~dictionnary.action.form.button.deactivate.help
+msgctxt "view~dictionnary.action.form.button.deactivate.help"
+msgid "Deactivate the active action"
+msgstr ""
+
+#: view~dictionnary.action.form.button.deactivate.label
+msgctxt "view~dictionnary.action.form.button.deactivate.label"
+msgid "Deactivate"
+msgstr ""
+
+#: view~dictionnary.action.form.button.run.help
+msgctxt "view~dictionnary.action.form.button.run.help"
+msgid "Run the selected action"
+msgstr ""
+
+#: view~dictionnary.action.form.button.run.label
+msgctxt "view~dictionnary.action.form.button.run.label"
+msgid "Run"
+msgstr ""
+
+#: view~dictionnary.action.form.select.emptyItem.label
+msgctxt "view~dictionnary.action.form.select.emptyItem.label"
+msgid "Choose an action"
+msgstr ""
+
+#: view~dictionnary.action.form.select.help
+msgctxt "view~dictionnary.action.form.select.help"
+msgid "To run an action, select one in the list and click the Run button"
+msgstr ""
+
+#: view~dictionnary.action.form.select.warning
+msgctxt "view~dictionnary.action.form.select.warning"
+msgid "You must first select an action in the list"
+msgstr ""
+
+#: view~dictionnary.action.title
+msgctxt "view~dictionnary.action.title"
+msgid "Actions"
 msgstr ""
 
 #: view~dictionnary.atlas.navbar.title
@@ -127,22 +183,22 @@ msgstr ""
 #: view~dictionnary.atlas.toolbar.next
 msgctxt "view~dictionnary.atlas.toolbar.next"
 msgid "Next"
-msgstr ""
+msgstr "Naslednji"
 
 #: view~dictionnary.atlas.toolbar.pause
 msgctxt "view~dictionnary.atlas.toolbar.pause"
 msgid "Pause"
-msgstr ""
+msgstr "Ustavi"
 
 #: view~dictionnary.atlas.toolbar.play
 msgctxt "view~dictionnary.atlas.toolbar.play"
 msgid "Play"
-msgstr ""
+msgstr "Predvajaj"
 
 #: view~dictionnary.atlas.toolbar.prev
 msgctxt "view~dictionnary.atlas.toolbar.prev"
 msgid "Previous"
-msgstr ""
+msgstr "Prejšnji"
 
 #: view~dictionnary.atlas.toolbar.stop
 msgctxt "view~dictionnary.atlas.toolbar.stop"
@@ -162,7 +218,7 @@ msgstr ""
 #: view~dictionnary.attributeLayers.btn.delete.title
 msgctxt "view~dictionnary.attributeLayers.btn.delete.title"
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: view~dictionnary.attributeLayers.btn.edit.title
 msgctxt "view~dictionnary.attributeLayers.btn.edit.title"
@@ -192,7 +248,7 @@ msgstr ""
 #: view~dictionnary.attributeLayers.btn.zoom.title
 msgctxt "view~dictionnary.attributeLayers.btn.zoom.title"
 msgid "Zoom"
-msgstr ""
+msgstr "Povečava"
 
 #: view~dictionnary.attributeLayers.msg.layer.not.visible
 msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
@@ -222,7 +278,7 @@ msgstr ""
 #: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
 msgid "Export"
-msgstr ""
+msgstr "Izvoz"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
@@ -253,7 +309,7 @@ msgstr ""
 #: view~dictionnary.attributeLayers.toolbar.btn.data.show.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
 msgid "Show"
-msgstr ""
+msgstr "Prikaži"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title"
@@ -263,17 +319,17 @@ msgstr ""
 #: view~dictionnary.attributeLayers.toolbar.btn.detail
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
 msgid "Detail"
-msgstr ""
+msgstr "Podrobnosti"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
 msgid "Refresh"
-msgstr ""
+msgstr "Osveži"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
 msgid "Refresh the table data."
-msgstr ""
+msgstr "Osveži podatke"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
 msgctxt ""
@@ -351,6 +407,16 @@ msgctxt "view~dictionnary.digitizing.confirme.erase"
 msgid "Are you sure you want to delete all features?"
 msgstr ""
 
+#: view~dictionnary.digitizing.constraint.angle
+msgctxt "view~dictionnary.digitizing.constraint.angle"
+msgid "Angle"
+msgstr ""
+
+#: view~dictionnary.digitizing.constraint.distance
+msgctxt "view~dictionnary.digitizing.constraint.distance"
+msgid "Distance"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
 msgid "Box"
@@ -394,17 +460,22 @@ msgstr ""
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
 msgid "Line"
+msgstr "Linija"
+
+#: view~dictionnary.digitizing.toolbar.measure
+msgctxt "view~dictionnary.digitizing.toolbar.measure"
+msgid "Measures"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
 msgid "Point"
-msgstr ""
+msgstr "Točka"
 
 #: view~dictionnary.digitizing.toolbar.polygon
 msgctxt "view~dictionnary.digitizing.toolbar.polygon"
 msgid "Polygon"
-msgstr ""
+msgstr "Poligon"
 
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
@@ -421,6 +492,15 @@ msgstr ""
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
+msgstr ""
+
+#: view~dictionnary.edition.confirm.launch.child.creation
+msgctxt "view~dictionnary.edition.confirm.launch.child.creation"
+msgid ""
+"You are about to create a new child object for the currently edited object. \n"
+"Please check before that you have already saved your changes.\n"
+"\n"
+"Do you wish to continue ?"
 msgstr ""
 
 #: view~dictionnary.edition.confirm.restart-drawing
@@ -529,7 +609,7 @@ msgstr "Iščem"
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"
 msgid "Export"
-msgstr ""
+msgstr "Izvoz"
 
 #: view~dictionnary.filter.btn.export.title
 msgctxt "view~dictionnary.filter.btn.export.title"
@@ -549,12 +629,12 @@ msgstr ""
 #: view~dictionnary.filter.btn.zoom.label
 msgctxt "view~dictionnary.filter.btn.zoom.label"
 msgid "Zoom"
-msgstr ""
+msgstr "Povečava"
 
 #: view~dictionnary.filter.btn.zoom.title
 msgctxt "view~dictionnary.filter.btn.zoom.title"
 msgid "Zoom to filtered features"
-msgstr ""
+msgstr "Prikaži objekte"
 
 #: view~dictionnary.filter.input.text.placeholder
 msgctxt "view~dictionnary.filter.input.text.placeholder"
@@ -574,7 +654,7 @@ msgstr ""
 #: view~dictionnary.generic.btn.close.title
 msgctxt "view~dictionnary.generic.btn.close.title"
 msgid "Close"
-msgstr ""
+msgstr "Zapri"
 
 #: view~dictionnary.geobookmark.confirm.delete
 msgctxt "view~dictionnary.geobookmark.confirm.delete"
@@ -659,7 +739,7 @@ msgstr ""
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
 msgid "Export"
-msgstr ""
+msgstr "Izvoz"
 
 #: view~dictionnary.layer.metadata.layer.abstract
 msgctxt "view~dictionnary.layer.metadata.layer.abstract"
@@ -811,15 +891,60 @@ msgctxt "view~dictionnary.print.activate"
 msgid "Place the rectangle for printing"
 msgstr ""
 
+#: view~dictionnary.print.advanced
+msgctxt "view~dictionnary.print.advanced"
+msgid "Advanced"
+msgstr ""
+
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
+msgstr ""
+
+#: view~dictionnary.print.gridIntervals
+msgctxt "view~dictionnary.print.gridIntervals"
+msgid "Grid intervals"
+msgstr ""
+
+#: view~dictionnary.print.labels
+msgctxt "view~dictionnary.print.labels"
+msgid "Labels"
+msgstr ""
+
+#: view~dictionnary.print.launch
+msgctxt "view~dictionnary.print.launch"
+msgid "Print"
+msgstr "Natisni"
+
+#: view~dictionnary.print.rotation
+msgctxt "view~dictionnary.print.rotation"
+msgid "Rotation"
 msgstr ""
 
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
 msgid "Print started. Please wait."
 msgstr ""
+
+#: view~dictionnary.print.toolbar.dpi
+msgctxt "view~dictionnary.print.toolbar.dpi"
+msgid "DPI"
+msgstr "DPI"
+
+#: view~dictionnary.print.toolbar.format
+msgctxt "view~dictionnary.print.toolbar.format"
+msgid "Format"
+msgstr "Format"
+
+#: view~dictionnary.print.toolbar.scale
+msgctxt "view~dictionnary.print.toolbar.scale"
+msgid "Scale"
+msgstr "Merilo"
+
+#: view~dictionnary.print.toolbar.template
+msgctxt "view~dictionnary.print.toolbar.template"
+msgid "Template"
+msgstr "Podlaga"
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -961,7 +1086,7 @@ msgstr ""
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
-msgstr ""
+msgstr "Izvoz"
 
 #: view~dictionnary.switcher.layer.export.warn
 msgctxt "view~dictionnary.switcher.layer.export.warn"
@@ -976,12 +1101,12 @@ msgstr ""
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
 msgid "Pause"
-msgstr ""
+msgstr "Ustavi"
 
 #: view~dictionnary.timemanager.toolbar.play
 msgctxt "view~dictionnary.timemanager.toolbar.play"
 msgid "Play"
-msgstr ""
+msgstr "Predvajaj"
 
 #: view~dictionnary.toolbar.content.stop
 msgctxt "view~dictionnary.toolbar.content.stop"
@@ -1041,7 +1166,7 @@ msgstr ""
 #: view~edition.form.btn.clear.title
 msgctxt "view~edition.form.btn.clear.title"
 msgid "Close"
-msgstr ""
+msgstr "Zapri"
 
 #: view~edition.form.cancel.confirm.message
 msgctxt "view~edition.form.cancel.confirm.message"
@@ -1371,7 +1496,7 @@ msgstr ""
 #: view~edition.toolbar.delete.title
 msgctxt "view~edition.toolbar.delete.title"
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: view~edition.toolbar.draw.clear.title
 msgctxt "view~edition.toolbar.draw.clear.title"
@@ -1471,7 +1596,7 @@ msgstr ""
 #: view~edition.upload.choice.delete
 msgctxt "view~edition.upload.choice.delete"
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: view~edition.upload.choice.keep
 msgctxt "view~edition.upload.choice.keep"
@@ -1516,7 +1641,7 @@ msgstr ""
 #: view~map.bottomdock.toolbar.btn.clear.title
 msgctxt "view~map.bottomdock.toolbar.btn.clear.title"
 msgid "Close"
-msgstr ""
+msgstr "Zapri"
 
 #: view~map.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~map.bottomdock.toolbar.btn.glue.activate.title"
@@ -1711,7 +1836,7 @@ msgstr ""
 #: view~map.metadata.properties.projection
 msgctxt "view~map.metadata.properties.projection"
 msgid "Projection"
-msgstr ""
+msgstr "Koordinatni sistem"
 
 #: view~map.metadata.properties.wmsGetCapabilitiesUrl
 msgctxt "view~map.metadata.properties.wmsGetCapabilitiesUrl"
@@ -1726,7 +1851,7 @@ msgstr ""
 #: view~map.navbar.next.hover
 msgctxt "view~map.navbar.next.hover"
 msgid "Next"
-msgstr ""
+msgstr "Naslednji"
 
 #: view~map.navbar.pan.hover
 msgctxt "view~map.navbar.pan.hover"
@@ -1736,7 +1861,7 @@ msgstr ""
 #: view~map.navbar.previous.hover
 msgctxt "view~map.navbar.previous.hover"
 msgid "Previous"
-msgstr ""
+msgstr "Prejšnji"
 
 #: view~map.navbar.slider.hover
 msgctxt "view~map.navbar.slider.hover"
@@ -1936,7 +2061,7 @@ msgstr ""
 #: view~map.switcher.layer.export.title
 msgctxt "view~map.switcher.layer.export.title"
 msgid "Export"
-msgstr ""
+msgstr "Izvoz"
 
 #: view~map.switcher.layer.metadata.title
 msgctxt "view~map.switcher.layer.metadata.title"
@@ -1981,22 +2106,22 @@ msgstr ""
 #: view~map.timemanager.toolbar.next
 msgctxt "view~map.timemanager.toolbar.next"
 msgid "Next"
-msgstr ""
+msgstr "Naslednji"
 
 #: view~map.timemanager.toolbar.pause
 msgctxt "view~map.timemanager.toolbar.pause"
 msgid "Pause"
-msgstr ""
+msgstr "Ustavi"
 
 #: view~map.timemanager.toolbar.play
 msgctxt "view~map.timemanager.toolbar.play"
 msgid "Play"
-msgstr ""
+msgstr "Predvajaj"
 
 #: view~map.timemanager.toolbar.prev
 msgctxt "view~map.timemanager.toolbar.prev"
 msgid "Previous"
-msgstr ""
+msgstr "Prejšnji"
 
 #: view~map.timemanager.toolbar.title
 msgctxt "view~map.timemanager.toolbar.title"
