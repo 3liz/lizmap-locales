@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 13:37++0000\n"
+"POT-Creation-Date: 2023-02-23 17:15++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020-2023\n"
 "Language-Team: Romanian (http://www.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
@@ -1442,16 +1442,11 @@ msgid ""
 "plugins, etc.)."
 msgstr "Nu putem obține detalii despre instalarea dvs. QGIS Server (versiune, plugin-uri etc.)."
 
-#: admin~admin.server.information.qgis.error.fetching.information.detail
+#: admin~admin.server.information.qgis.error.fetching.information.description
 msgctxt ""
-"admin~admin.server.information.qgis.error.fetching.information.detail"
-msgid ""
-"Either the version of the installed QGIS Server is under %s, or the Lizmap "
-"server plugin is not detected in your server, or is installed with a version"
-" under %s. Please upgrade QGIS Server to minimum %s and install or upgrade "
-"the Lizmap server plugin to minimum %s by reading the documentation about "
-"the environment variable"
-msgstr "Fie versiunea serverului QGIS instalat este sub %s, fie plugin-ul serverului Lizmap nu este detectat pe serverul dvs. sau este instalat cu o versiune sub %s. Actualizați QGIS Server la minim %s și instalați sau actualizați plugin-ul pentru server Lizmap la minim %s citind documentația despre variabila de mediu"
+"admin~admin.server.information.qgis.error.fetching.information.description"
+msgid "You must check that the followings steps are done :"
+msgstr ""
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
@@ -1464,6 +1459,36 @@ msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS"
 msgid "You don't have access to information about QGIS Server"
 msgstr "Lipsește accesul la informațiile despre Serverul QGIS"
+
+#: admin~admin.server.information.qgis.error.fetching.information.environment.variable
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.environment.variable"
+msgid ""
+"The <strong>environment variable</strong> described in the documentation "
+"link below is correctly set in your configuration"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.help
+msgctxt "admin~admin.server.information.qgis.error.fetching.information.help"
+msgid ""
+"Your QGIS server <strong>logs</strong> does not contain any warnings about "
+"the Lizmap server plugin (at QGIS server startup and when loading this "
+"webpage). You might need to increase debug level."
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.plugin.version.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.plugin.version.html"
+msgid ""
+"The <strong>Lizmap QGIS server plugin</strong> is installed on the server "
+"with a version above or equal to <strong>%s</strong>"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.qgis.version.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.qgis.version.html"
+msgid "<strong>QGIS Server</strong> is above or equal to <strong>%s</strong>"
+msgstr ""
 
 #: admin~admin.server.information.qgis.label
 msgctxt "admin~admin.server.information.qgis.label"
