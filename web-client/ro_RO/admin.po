@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 13:37++0000\n"
+"POT-Creation-Date: 2023-02-23 17:15++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2023\n"
 "Language-Team: Romanian (https://www.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -1214,6 +1214,11 @@ msgctxt "admin~admin.project.list.column.layers.count.label"
 msgid "Layers"
 msgstr "Straturi"
 
+#: admin~admin.project.list.column.layers.count.label.longer
+msgctxt "admin~admin.project.list.column.layers.count.label.longer"
+msgid "Layer count"
+msgstr "Cantitate straturi"
+
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
 msgid "This project has many layers. Performance could be degraded."
@@ -1243,6 +1248,11 @@ msgctxt "admin~admin.project.list.column.loading.time.label"
 msgid "Loading time (s)"
 msgstr "Timp de încărcare (e)"
 
+#: admin~admin.project.list.column.loading.time.label.alt
+msgctxt "admin~admin.project.list.column.loading.time.label.alt"
+msgid "Loading time"
+msgstr "Timp de încărcare"
+
 #: admin~admin.project.list.column.loading.time.warning.label
 msgctxt "admin~admin.project.list.column.loading.time.warning.label"
 msgid "The project loading time is a bit long."
@@ -1261,6 +1271,11 @@ msgstr ""
 msgctxt "admin~admin.project.list.column.memory.usage.label"
 msgid "Memory (Mo)"
 msgstr "Memorie (Mo)"
+
+#: admin~admin.project.list.column.memory.usage.label.alt
+msgctxt "admin~admin.project.list.column.memory.usage.label.alt"
+msgid "Memory"
+msgstr "Memorie"
 
 #: admin~admin.project.list.column.memory.usage.warning.label
 msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
@@ -1321,6 +1336,11 @@ msgctxt "admin~admin.project.list.column.target.lizmap.version.label"
 msgid "Target version"
 msgstr "Versiune țintă"
 
+#: admin~admin.project.list.column.target.lizmap.version.label.longer
+msgctxt "admin~admin.project.list.column.target.lizmap.version.label.longer"
+msgid "Target version of Lizmap Web Client"
+msgstr "Versiunea țintă a Lizmap Web Client"
+
 #: admin~admin.project.list.column.update.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
 msgid ""
@@ -1342,6 +1362,174 @@ msgstr ""
 "Într-o versiune următoare a Lizmap Web Client, acest proiect nu va fi "
 "afișat. Deschide proiectul pe QGIS Desktop cu o versiune actualizată a "
 "plugin-ului și o versiune țintă actualizată a Lizmap Web Client"
+
+#: admin~admin.project.not.displayed
+msgctxt "admin~admin.project.not.displayed"
+msgid ""
+"Some projects, listed below, can not be displayed in the main web interface "
+"because they need an update from the GIS administrator. Please read the "
+"guidelines about colours under this table."
+msgstr ""
+"Unele proiecte, enumerate mai jos, nu pot fi afișate în interfața web "
+"principală deoarece au nevoie de o actualizare de la administratorul GIS. "
+"Citește instrucțiunile despre culorile din acest tabel."
+
+#: admin~admin.project.rules.list.blocking.description
+msgctxt "admin~admin.project.rules.list.blocking.description"
+msgid ""
+"Some projects are not visible anymore without any updates from the GIS "
+"administrator."
+msgstr ""
+"Unele proiecte nu mai sunt vizibile fără actualizări de la administratorul "
+"GIS."
+
+#: admin~admin.project.rules.list.blocking.html
+msgctxt "admin~admin.project.rules.list.blocking.html"
+msgid "<strong>Blocking</strong>, these projects are not visible anymore :"
+msgstr "<strong>Blocare</strong>, aceste proiecte nu mai sunt vizibile:"
+
+#: admin~admin.project.rules.list.blocking.target.html
+msgctxt "admin~admin.project.rules.list.blocking.target.html"
+msgid ""
+"Light coral if the project is designed for Lizmap Web Client version equal "
+"or less than <strong>%s</strong>."
+msgstr ""
+"Coral deschis, dacă proiectul este destinat pentru versiunea Lizmap Web "
+"Client egală sau mai mică decât <strong>%s</strong>."
+
+#: admin~admin.project.rules.list.custom.projection
+msgctxt "admin~admin.project.rules.list.custom.projection"
+msgid ""
+"Light coral if the project is using a <strong>user-defined</strong> "
+"projection."
+msgstr ""
+"Coral deschis, dacă proiectul folosește o proiecție <strong>definită de "
+"utilizator</strong>."
+
+#: admin~admin.project.rules.list.description.html
+msgctxt "admin~admin.project.rules.list.description.html"
+msgid ""
+"Given your current Lizmap Web Client version <strong>%s</strong> and QGIS "
+"Server version <strong>%s</strong>, there are some rules about the table "
+"above :"
+msgstr ""
+"Având în vedere versiunea curentă a Lizmap Web Client <strong>%s</strong> și"
+" versiunea QGIS Server <strong>%s</strong>, există câteva reguli despre "
+"tabelul de mai sus:"
+
+#: admin~admin.project.rules.list.error.loading.html
+msgctxt "admin~admin.project.rules.list.error.loading.html"
+msgid ""
+"Light coral if the project takes longer than <strong>%s</strong> seconds to "
+"load."
+msgstr ""
+"Coral deschis, dacă încărcarea proiectului durează mai mult de "
+"<strong>%s</strong> secunde."
+
+#: admin~admin.project.rules.list.error.memory.html
+msgctxt "admin~admin.project.rules.list.error.memory.html"
+msgid ""
+"Light coral if the project takes more than <strong>%s</strong> Mo of the "
+"server memory to load."
+msgstr ""
+"Coral deschis, dacă proiectul ocupă mai mult de <strong>%s</strong> MB."
+
+#: admin~admin.project.rules.list.important.count.layers.html
+msgctxt "admin~admin.project.rules.list.important.count.layers.html"
+msgid ""
+"Light yellow if the count is greater or equal to <strong>%s</strong> layers."
+msgstr ""
+"Galben deschis, dacă cantitatea este mai mare sau egală cu "
+"<strong>%s</strong> straturi."
+
+#: admin~admin.project.rules.list.introduction
+msgctxt "admin~admin.project.rules.list.introduction"
+msgid "Explanation about colours used in the table above"
+msgstr "Explicații despre culorile utilizate în tabelul de mai sus"
+
+#: admin~admin.project.rules.list.invalid.datasource.html
+msgctxt "admin~admin.project.rules.list.invalid.datasource.html"
+msgid ""
+"Light coral if the project has some <strong>invalid layer "
+"datasource</strong> when QGIS server loaded the project."
+msgstr ""
+"Coral deschis, dacă proiectul are o <strong>sursă de date nevalidă</strong> "
+"când serverul QGIS a încărcat proiectul."
+
+#: admin~admin.project.rules.list.qgis.version.light.coral.html
+msgctxt "admin~admin.project.rules.list.qgis.version.light.coral.html"
+msgid ""
+"Light coral if the QGIS desktop version <strong>is above</strong> QGIS "
+"server. Current value greater or equal than <strong>%s</strong>."
+msgstr ""
+"Coral deschis, dacă versiunea QGIS desktop <strong>este mai mare</strong> "
+"decât cea a serverului QGIS. Valoarea curentă este mai mare sau egală cu "
+"<strong>%s</strong>."
+
+#: admin~admin.project.rules.list.qgis.version.light.yellow.html
+msgctxt "admin~admin.project.rules.list.qgis.version.light.yellow.html"
+msgid ""
+"Light yellow if the QGIS project version is too old compared to the current "
+"QGIS Server version. Current value less or equal to <strong>%s</strong>."
+msgstr ""
+"Galben deschis, dacă versiunea proiectului QGIS este prea veche în "
+"comparație cu versiunea curentă a serverului QGIS. Valoarea curentă este mai"
+" mică sau egală cu <strong>%s</strong>."
+
+#: admin~admin.project.rules.list.target.version.html
+msgctxt "admin~admin.project.rules.list.target.version.html"
+msgid ""
+"Light yellow if the project is designed for Lizmap Web Client "
+"<strong>%s</strong>."
+msgstr ""
+"Galben deschis dacă proiectul este destinat pentru Lizmap Web Client "
+"<strong>%s</strong>."
+
+#: admin~admin.project.rules.list.very.important.count.layers.html
+msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
+msgid ""
+"Light coral if the count is greater or equal to <strong>%s</strong> layers."
+msgstr ""
+"Coral deschis, dacă cantitatea este mai mare sau egală cu "
+"<strong>%s</strong> straturi."
+
+#: admin~admin.project.rules.list.warning.loading.html
+msgctxt "admin~admin.project.rules.list.warning.loading.html"
+msgid ""
+"Light yellow if the project takes longer than <strong>%s</strong> seconds to"
+" load."
+msgstr ""
+"Galben deschis, dacă încărcarea proiectului durează mai mult de "
+"<strong>%s</strong> secunde."
+
+#: admin~admin.project.rules.list.warning.memory.html
+msgctxt "admin~admin.project.rules.list.warning.memory.html"
+msgid ""
+"Light yellow if the project takes more than <strong>%s</strong> Mo of the "
+"server memory to load."
+msgstr ""
+"Galben deschis, dacă proiectul ocupă mai mult de <strong>%s</strong> MB a "
+"memoriei serverului de încărcat."
+
+#: admin~admin.project.rules.list.warnings.html
+msgctxt "admin~admin.project.rules.list.warnings.html"
+msgid ""
+"<strong>Warnings</strong>, projects are still visible, but you should have a"
+" look to these projects :"
+msgstr ""
+"<strong>Avertisment</strong>, proiectele sunt încă vizibile, dar ar trebui "
+"să arunci o privire la aceste proiecte:"
+
+#: admin~admin.server.information.error
+msgctxt "admin~admin.server.information.error"
+msgid ""
+"Before checking your projects, you must check your QGIS server settings in "
+"the \"Server information\" menu. The configuration of QGIS Server is "
+"currently not correct."
+msgstr ""
+"Înainte de a verifica proiectele, trebuie să verifici setările serverului "
+"QGIS în meniul „Informații despre server”. Configurația QGIS Server nu este "
+"în prezent corectă."
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
@@ -1392,21 +1580,11 @@ msgstr ""
 "Nu putem obține detalii despre instalarea dvs. QGIS Server (versiune, "
 "plugin-uri etc.)."
 
-#: admin~admin.server.information.qgis.error.fetching.information.detail
+#: admin~admin.server.information.qgis.error.fetching.information.description
 msgctxt ""
-"admin~admin.server.information.qgis.error.fetching.information.detail"
-msgid ""
-"Either the version of the installed QGIS Server is under %s, or the Lizmap "
-"server plugin is not detected in your server, or is installed with a version"
-" under %s. Please upgrade QGIS Server to minimum %s and install or upgrade "
-"the Lizmap server plugin to minimum %s by reading the documentation about "
-"the environment variable"
+"admin~admin.server.information.qgis.error.fetching.information.description"
+msgid "You must check that the followings steps are done :"
 msgstr ""
-"Fie versiunea serverului QGIS instalat este sub %s, fie plugin-ul serverului"
-" Lizmap nu este detectat pe serverul dvs. sau este instalat cu o versiune "
-"sub %s. Actualizați QGIS Server la minim %s și instalați sau actualizați "
-"plugin-ul pentru server Lizmap la minim %s citind documentația despre "
-"variabila de mediu"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
@@ -1419,6 +1597,36 @@ msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS"
 msgid "You don't have access to information about QGIS Server"
 msgstr "Lipsește accesul la informațiile despre Serverul QGIS"
+
+#: admin~admin.server.information.qgis.error.fetching.information.environment.variable
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.environment.variable"
+msgid ""
+"The <strong>environment variable</strong> described in the documentation "
+"link below is correctly set in your configuration"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.help
+msgctxt "admin~admin.server.information.qgis.error.fetching.information.help"
+msgid ""
+"Your QGIS server <strong>logs</strong> does not contain any warnings about "
+"the Lizmap server plugin (at QGIS server startup and when loading this "
+"webpage). You might need to increase debug level."
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.plugin.version.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.plugin.version.html"
+msgid ""
+"The <strong>Lizmap QGIS server plugin</strong> is installed on the server "
+"with a version above or equal to <strong>%s</strong>"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.qgis.version.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.qgis.version.html"
+msgid "<strong>QGIS Server</strong> is above or equal to <strong>%s</strong>"
+msgstr ""
 
 #: admin~admin.server.information.qgis.label
 msgctxt "admin~admin.server.information.qgis.label"
