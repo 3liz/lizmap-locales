@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 13:37++0000\n"
+"POT-Creation-Date: 2023-02-23 17:15++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>, 2022\n"
 "Language-Team: German (https://www.transifex.com/3liz-1/teams/62012/de/)\n"
@@ -1114,15 +1114,10 @@ msgid ""
 "plugins, etc.)."
 msgstr ""
 
-#: admin~admin.server.information.qgis.error.fetching.information.detail
+#: admin~admin.server.information.qgis.error.fetching.information.description
 msgctxt ""
-"admin~admin.server.information.qgis.error.fetching.information.detail"
-msgid ""
-"Either the version of the installed QGIS Server is under %s, or the Lizmap "
-"server plugin is not detected in your server, or is installed with a version"
-" under %s. Please upgrade QGIS Server to minimum %s and install or upgrade "
-"the Lizmap server plugin to minimum %s by reading the documentation about "
-"the environment variable"
+"admin~admin.server.information.qgis.error.fetching.information.description"
+msgid "You must check that the followings steps are done :"
 msgstr ""
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
@@ -1135,6 +1130,36 @@ msgstr ""
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS"
 msgid "You don't have access to information about QGIS Server"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.environment.variable
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.environment.variable"
+msgid ""
+"The <strong>environment variable</strong> described in the documentation "
+"link below is correctly set in your configuration"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.help
+msgctxt "admin~admin.server.information.qgis.error.fetching.information.help"
+msgid ""
+"Your QGIS server <strong>logs</strong> does not contain any warnings about "
+"the Lizmap server plugin (at QGIS server startup and when loading this "
+"webpage). You might need to increase debug level."
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.plugin.version.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.plugin.version.html"
+msgid ""
+"The <strong>Lizmap QGIS server plugin</strong> is installed on the server "
+"with a version above or equal to <strong>%s</strong>"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.qgis.version.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.qgis.version.html"
+msgid "<strong>QGIS Server</strong> is above or equal to <strong>%s</strong>"
 msgstr ""
 
 #: admin~admin.server.information.qgis.label
