@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-23 17:15++0000\n"
+"POT-Creation-Date: 2023-02-28 08:26++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
 "Last-Translator: Jiří Podhorecký, 2023\n"
 "Language-Team: Czech (https://www.transifex.com/3liz-1/teams/62012/cs/)\n"
@@ -1136,7 +1136,7 @@ msgstr ""
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.description"
 msgid "You must check that the followings steps are done :"
-msgstr ""
+msgstr "Musíte zkontrolovat, zda jsou provedeny následující kroky:"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
@@ -1157,6 +1157,8 @@ msgid ""
 "The <strong>environment variable</strong> described in the documentation "
 "link below is correctly set in your configuration"
 msgstr ""
+"<strong>Proměnná prostředí</strong> popsaná v níže uvedeném odkazu v "
+"dokumentaci je v konfiguraci nastavena správně."
 
 #: admin~admin.server.information.qgis.error.fetching.information.help
 msgctxt "admin~admin.server.information.qgis.error.fetching.information.help"
@@ -1165,6 +1167,9 @@ msgid ""
 "the Lizmap server plugin (at QGIS server startup and when loading this "
 "webpage). You might need to increase debug level."
 msgstr ""
+"Váš server QGIS <strong>logy</strong> neobsahují žádná varování o zásuvném "
+"modulu Lizmap server (při spuštění serveru QGIS a při načítání této webové "
+"stránky). Možná budete muset zvýšit úroveň ladění."
 
 #: admin~admin.server.information.qgis.error.fetching.information.plugin.version.html
 msgctxt ""
@@ -1173,12 +1178,14 @@ msgid ""
 "The <strong>Lizmap QGIS server plugin</strong> is installed on the server "
 "with a version above or equal to <strong>%s</strong>"
 msgstr ""
+"<strong>Serverový plugin Lizmap QGIS</strong> je nainstalován na serveru s "
+"verzí vyšší nebo rovnou <strong>%s</strong>"
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.version.html
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.qgis.version.html"
 msgid "<strong>QGIS Server</strong> is above or equal to <strong>%s</strong>"
-msgstr ""
+msgstr "<strong>QGIS Server</strong> je vyšší nebo roven <strong>%s</strong>"
 
 #: admin~admin.server.information.qgis.label
 msgctxt "admin~admin.server.information.qgis.label"

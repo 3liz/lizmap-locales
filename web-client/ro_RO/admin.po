@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-23 17:15++0000\n"
+"POT-Creation-Date: 2023-02-28 08:26++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2023\n"
 "Language-Team: Romanian (https://www.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -1141,7 +1141,7 @@ msgstr ""
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.description"
 msgid "You must check that the followings steps are done :"
-msgstr ""
+msgstr "Trebuie să verifici dacă sunt îndepliniți următorii pași:"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
@@ -1162,6 +1162,8 @@ msgid ""
 "The <strong>environment variable</strong> described in the documentation "
 "link below is correctly set in your configuration"
 msgstr ""
+"<strong>Variabila de mediu</strong> descrisă în linkul de documentație de "
+"mai jos este setată corect în configurație"
 
 #: admin~admin.server.information.qgis.error.fetching.information.help
 msgctxt "admin~admin.server.information.qgis.error.fetching.information.help"
@@ -1170,6 +1172,10 @@ msgid ""
 "the Lizmap server plugin (at QGIS server startup and when loading this "
 "webpage). You might need to increase debug level."
 msgstr ""
+"<strong>Jurnalele</strong> serverului QGIS nu conțin niciun avertisment "
+"despre plugin-ul serverului Lizmap (la pornirea serverului QGIS și la "
+"încărcarea acestei pagini web). Poate fi necesar să ridici nivelul de "
+"depanare."
 
 #: admin~admin.server.information.qgis.error.fetching.information.plugin.version.html
 msgctxt ""
@@ -1178,12 +1184,15 @@ msgid ""
 "The <strong>Lizmap QGIS server plugin</strong> is installed on the server "
 "with a version above or equal to <strong>%s</strong>"
 msgstr ""
+"<strong>Plugin-ul Lizmap QGIS server</strong> este instalat pe server cu "
+"versiunea nu mai mică decât <strong>%s</strong>"
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.version.html
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.qgis.version.html"
 msgid "<strong>QGIS Server</strong> is above or equal to <strong>%s</strong>"
 msgstr ""
+"<strong>Serverul QGIS</strong> este peste sau egal cu <strong>%s</strong>"
 
 #: admin~admin.server.information.qgis.label
 msgctxt "admin~admin.server.information.qgis.label"
