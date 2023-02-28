@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-23 17:15++0000\n"
+"POT-Creation-Date: 2023-02-28 08:26++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2023\n"
 "Language-Team: Portuguese (https://www.transifex.com/3liz-1/teams/62012/pt/)\n"
@@ -395,6 +395,11 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
 msgid "Sender address of e-mails"
 msgstr "Endereço do remetente dos e-mails"
 
+#: admin~admin.form.admin_services.adminSenderEmail.readonly.help
+msgctxt "admin~admin.form.admin_services.adminSenderEmail.readonly.help"
+msgid "E-mail address used to send e-mails. It cannot be modified."
+msgstr ""
+
 #: admin~admin.form.admin_services.adminSenderName.help
 msgctxt "admin~admin.form.admin_services.adminSenderName.help"
 msgid "Name of the sender used to send e-mails."
@@ -493,7 +498,7 @@ msgstr "Porta Redis"
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.help"
 msgid "Choose a writable directory where to store cache files."
 msgstr ""
-"Escolher um diretório com permissões de escrita para armazenar os arquivos "
+"Escolher um diretório com permissões de escrita para armazenar os ficheiros "
 "de cache"
 
 #: admin~admin.form.admin_services.cacheRootDirectory.label
@@ -504,7 +509,7 @@ msgstr "Diretório raiz da cache"
 #: admin~admin.form.admin_services.cacheStorageType.file.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.file.label"
 msgid "Files"
-msgstr "Arquivos"
+msgstr "Ficheiros"
 
 #: admin~admin.form.admin_services.cacheStorageType.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.label"
