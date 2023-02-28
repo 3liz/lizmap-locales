@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-23 17:15++0000\n"
+"POT-Creation-Date: 2023-02-28 08:26++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2022-2023\n"
 "Language-Team: French (http://www.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
@@ -374,6 +374,11 @@ msgstr "Adresse de l'expéditeur utilisé pour l'envoi des courriels par Lizmap.
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
 msgid "Sender address of e-mails"
 msgstr "Adresse de l'expéditeur des courriels"
+
+#: admin~admin.form.admin_services.adminSenderEmail.readonly.help
+msgctxt "admin~admin.form.admin_services.adminSenderEmail.readonly.help"
+msgid "E-mail address used to send e-mails. It cannot be modified."
+msgstr "Adresse e-mail utilisée pour envoyer des e-mails. Elle ne peut pas être modifiée."
 
 #: admin~admin.form.admin_services.adminSenderName.help
 msgctxt "admin~admin.form.admin_services.adminSenderName.help"

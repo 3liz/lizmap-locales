@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-23 17:15++0000\n"
+"POT-Creation-Date: 2023-02-28 08:26++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>, 2016-2023\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
@@ -369,6 +369,11 @@ msgstr "Adres e-mail używany do wysyłania e-maili. Jeśli pozostanie pusty, ż
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
 msgid "Sender address of e-mails"
 msgstr "Nadawca e-mail"
+
+#: admin~admin.form.admin_services.adminSenderEmail.readonly.help
+msgctxt "admin~admin.form.admin_services.adminSenderEmail.readonly.help"
+msgid "E-mail address used to send e-mails. It cannot be modified."
+msgstr ""
 
 #: admin~admin.form.admin_services.adminSenderName.help
 msgctxt "admin~admin.form.admin_services.adminSenderName.help"
