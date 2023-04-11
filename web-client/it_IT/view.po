@@ -11,10 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-28 08:26++0000\n"
+"POT-Creation-Date: 2022-10-10 16:01++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: marcobra <marcobra.ubuntu@gmail.com>, 2021\n"
-"Language-Team: Italian (http://www.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
+"Language-Team: Italian (http://app.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -51,15 +51,10 @@ msgctxt "view~default.header.search.toggleKeywordsTitle.title"
 msgid "Toggle keywords/title search."
 msgstr "Attiva ricerca per parole chiave/titolo."
 
-#: view~default.home.menu
-msgctxt "view~default.home.menu"
-msgid "Home"
-msgstr "Home"
-
 #: view~default.home.title
 msgctxt "view~default.home.title"
-msgid "Home page"
-msgstr ""
+msgid "Home"
+msgstr "Home"
 
 #: view~default.project.abstract.label
 msgctxt "view~default.project.abstract.label"
@@ -120,8 +115,8 @@ msgstr "Non puoi accedere al repository."
 
 #: view~default.repository.list.title
 msgctxt "view~default.repository.list.title"
-msgid "Repository page"
-msgstr ""
+msgid "Projects"
+msgstr "Progetti"
 
 #: view~default.server.information.error
 msgctxt "view~default.server.information.error"
@@ -129,56 +124,6 @@ msgid ""
 "This map cannot be displayed. Please contact the server administrator to "
 "check the server information panel."
 msgstr ""
-
-#: view~dictionnary.action.choose
-msgctxt "view~dictionnary.action.choose"
-msgid "Choose an action to run"
-msgstr ""
-
-#: view~dictionnary.action.close
-msgctxt "view~dictionnary.action.close"
-msgid "Close"
-msgstr "Chiudi"
-
-#: view~dictionnary.action.form.button.deactivate.help
-msgctxt "view~dictionnary.action.form.button.deactivate.help"
-msgid "Deactivate the active action"
-msgstr ""
-
-#: view~dictionnary.action.form.button.deactivate.label
-msgctxt "view~dictionnary.action.form.button.deactivate.label"
-msgid "Deactivate"
-msgstr "Disattiva"
-
-#: view~dictionnary.action.form.button.run.help
-msgctxt "view~dictionnary.action.form.button.run.help"
-msgid "Run the selected action"
-msgstr ""
-
-#: view~dictionnary.action.form.button.run.label
-msgctxt "view~dictionnary.action.form.button.run.label"
-msgid "Run"
-msgstr ""
-
-#: view~dictionnary.action.form.select.emptyItem.label
-msgctxt "view~dictionnary.action.form.select.emptyItem.label"
-msgid "Choose an action"
-msgstr ""
-
-#: view~dictionnary.action.form.select.help
-msgctxt "view~dictionnary.action.form.select.help"
-msgid "To run an action, select one in the list and click the Run button"
-msgstr ""
-
-#: view~dictionnary.action.form.select.warning
-msgctxt "view~dictionnary.action.form.select.warning"
-msgid "You must first select an action in the list"
-msgstr ""
-
-#: view~dictionnary.action.title
-msgctxt "view~dictionnary.action.title"
-msgid "Actions"
-msgstr "Azioni"
 
 #: view~dictionnary.atlas.navbar.title
 msgctxt "view~dictionnary.atlas.navbar.title"
@@ -412,16 +357,6 @@ msgctxt "view~dictionnary.digitizing.confirme.erase"
 msgid "Are you sure you want to delete all features?"
 msgstr "Sei sicuro di voler eliminare tutti gli elementi?"
 
-#: view~dictionnary.digitizing.constraint.angle
-msgctxt "view~dictionnary.digitizing.constraint.angle"
-msgid "Angle"
-msgstr "Angolo"
-
-#: view~dictionnary.digitizing.constraint.distance
-msgctxt "view~dictionnary.digitizing.constraint.distance"
-msgid "Distance"
-msgstr "Distanza"
-
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
 msgid "Box"
@@ -467,11 +402,6 @@ msgctxt "view~dictionnary.digitizing.toolbar.line"
 msgid "Line"
 msgstr "Linea"
 
-#: view~dictionnary.digitizing.toolbar.measure
-msgctxt "view~dictionnary.digitizing.toolbar.measure"
-msgid "Measures"
-msgstr "Misure"
-
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
 msgid "Point"
@@ -498,15 +428,6 @@ msgstr "Sei sicuro di voler annullare le modifiche? Perderai tutte le modifiche 
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
 msgstr "Sei sicuro di voler eliminare l'elemento selezionato?"
-
-#: view~dictionnary.edition.confirm.launch.child.creation
-msgctxt "view~dictionnary.edition.confirm.launch.child.creation"
-msgid ""
-"You are about to create a new child object for the currently edited object. \n"
-"Please check before that you have already saved your changes.\n"
-"\n"
-"Do you wish to continue ?"
-msgstr ""
 
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
@@ -896,60 +817,15 @@ msgctxt "view~dictionnary.print.activate"
 msgid "Place the rectangle for printing"
 msgstr "Posiziona il rettangolo per la stampa"
 
-#: view~dictionnary.print.advanced
-msgctxt "view~dictionnary.print.advanced"
-msgid "Advanced"
-msgstr "Avanzato"
-
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
 msgstr "Imposta etichette personalizzate per la stampa"
 
-#: view~dictionnary.print.gridIntervals
-msgctxt "view~dictionnary.print.gridIntervals"
-msgid "Grid intervals"
-msgstr ""
-
-#: view~dictionnary.print.labels
-msgctxt "view~dictionnary.print.labels"
-msgid "Labels"
-msgstr ""
-
-#: view~dictionnary.print.launch
-msgctxt "view~dictionnary.print.launch"
-msgid "Print"
-msgstr "Stampa"
-
-#: view~dictionnary.print.rotation
-msgctxt "view~dictionnary.print.rotation"
-msgid "Rotation"
-msgstr ""
-
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
 msgid "Print started. Please wait."
 msgstr "Stampa avviata, attendi."
-
-#: view~dictionnary.print.toolbar.dpi
-msgctxt "view~dictionnary.print.toolbar.dpi"
-msgid "DPI"
-msgstr "DPI"
-
-#: view~dictionnary.print.toolbar.format
-msgctxt "view~dictionnary.print.toolbar.format"
-msgid "Format"
-msgstr "Formato"
-
-#: view~dictionnary.print.toolbar.scale
-msgctxt "view~dictionnary.print.toolbar.scale"
-msgid "Scale"
-msgstr "Scala"
-
-#: view~dictionnary.print.toolbar.template
-msgctxt "view~dictionnary.print.toolbar.template"
-msgid "Template"
-msgstr "Modello"
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"

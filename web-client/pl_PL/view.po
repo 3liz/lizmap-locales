@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-28 08:26++0000\n"
+"POT-Creation-Date: 2022-10-10 16:01++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>, 2016-2020,2022\n"
-"Language-Team: Polish (Poland) (http://www.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
+"Language-Team: Polish (Poland) (http://app.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -47,15 +47,10 @@ msgctxt "view~default.header.search.toggleKeywordsTitle.title"
 msgid "Toggle keywords/title search."
 msgstr "Włącz wyszukiwanie po tytułach/słowach kluczowych."
 
-#: view~default.home.menu
-msgctxt "view~default.home.menu"
-msgid "Home"
-msgstr "Strona główna"
-
 #: view~default.home.title
 msgctxt "view~default.home.title"
-msgid "Home page"
-msgstr ""
+msgid "Home"
+msgstr "Strona główna"
 
 #: view~default.project.abstract.label
 msgctxt "view~default.project.abstract.label"
@@ -116,8 +111,8 @@ msgstr "Nie masz dostępu do tego repozytorium."
 
 #: view~default.repository.list.title
 msgctxt "view~default.repository.list.title"
-msgid "Repository page"
-msgstr ""
+msgid "Projects"
+msgstr "Projekty"
 
 #: view~default.server.information.error
 msgctxt "view~default.server.information.error"
@@ -125,56 +120,6 @@ msgid ""
 "This map cannot be displayed. Please contact the server administrator to "
 "check the server information panel."
 msgstr "Ta mapa nie może być wyświetlona. Skontaktuj się z administratorem serwera, aby sprawdzić panel informacyjny serwera."
-
-#: view~dictionnary.action.choose
-msgctxt "view~dictionnary.action.choose"
-msgid "Choose an action to run"
-msgstr "Wybierz akcję do wykonania"
-
-#: view~dictionnary.action.close
-msgctxt "view~dictionnary.action.close"
-msgid "Close"
-msgstr "Zamknij"
-
-#: view~dictionnary.action.form.button.deactivate.help
-msgctxt "view~dictionnary.action.form.button.deactivate.help"
-msgid "Deactivate the active action"
-msgstr "Wyłącz aktywną akcję"
-
-#: view~dictionnary.action.form.button.deactivate.label
-msgctxt "view~dictionnary.action.form.button.deactivate.label"
-msgid "Deactivate"
-msgstr "Deaktywuj"
-
-#: view~dictionnary.action.form.button.run.help
-msgctxt "view~dictionnary.action.form.button.run.help"
-msgid "Run the selected action"
-msgstr "Uruchom wybraną akcję"
-
-#: view~dictionnary.action.form.button.run.label
-msgctxt "view~dictionnary.action.form.button.run.label"
-msgid "Run"
-msgstr "Uruchom"
-
-#: view~dictionnary.action.form.select.emptyItem.label
-msgctxt "view~dictionnary.action.form.select.emptyItem.label"
-msgid "Choose an action"
-msgstr "Wybierz akcję"
-
-#: view~dictionnary.action.form.select.help
-msgctxt "view~dictionnary.action.form.select.help"
-msgid "To run an action, select one in the list and click the Run button"
-msgstr "Aby uruchomić akcję, wybierz ją z listy i kliknij przycisk Uruchom"
-
-#: view~dictionnary.action.form.select.warning
-msgctxt "view~dictionnary.action.form.select.warning"
-msgid "You must first select an action in the list"
-msgstr "Najpierw należy wybrać akcję z listy"
-
-#: view~dictionnary.action.title
-msgctxt "view~dictionnary.action.title"
-msgid "Actions"
-msgstr "Akcje"
 
 #: view~dictionnary.atlas.navbar.title
 msgctxt "view~dictionnary.atlas.navbar.title"
@@ -408,16 +353,6 @@ msgctxt "view~dictionnary.digitizing.confirme.erase"
 msgid "Are you sure you want to delete all features?"
 msgstr "Jesteś pewien, że chcesz usunąć wszystkie obiekty?"
 
-#: view~dictionnary.digitizing.constraint.angle
-msgctxt "view~dictionnary.digitizing.constraint.angle"
-msgid "Angle"
-msgstr "Kąt"
-
-#: view~dictionnary.digitizing.constraint.distance
-msgctxt "view~dictionnary.digitizing.constraint.distance"
-msgid "Distance"
-msgstr "Dystans"
-
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
 msgid "Box"
@@ -463,11 +398,6 @@ msgctxt "view~dictionnary.digitizing.toolbar.line"
 msgid "Line"
 msgstr "Linia"
 
-#: view~dictionnary.digitizing.toolbar.measure
-msgctxt "view~dictionnary.digitizing.toolbar.measure"
-msgid "Measures"
-msgstr "Pomiary"
-
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
 msgid "Point"
@@ -495,21 +425,12 @@ msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
 msgstr "Jesteś pewien, że chcesz usunąć wybrany obiekt?"
 
-#: view~dictionnary.edition.confirm.launch.child.creation
-msgctxt "view~dictionnary.edition.confirm.launch.child.creation"
-msgid ""
-"You are about to create a new child object for the currently edited object. \n"
-"Please check before that you have already saved your changes.\n"
-"\n"
-"Do you wish to continue ?"
-msgstr ""
-
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
 msgid ""
 "Are you sure you want to delete the existing geometry and redraw it from "
 "scratch ?"
-msgstr "Czy na pewno chcesz usunąć istniejący obiekt (geometrię) i narysować ją od nowa?"
+msgstr "Czy na pewno chcesz usunąć istniejący obiekt/geometrię i narysować ją od nowa?"
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -892,60 +813,15 @@ msgctxt "view~dictionnary.print.activate"
 msgid "Place the rectangle for printing"
 msgstr "Umieść prostokąt, aby wydrukować"
 
-#: view~dictionnary.print.advanced
-msgctxt "view~dictionnary.print.advanced"
-msgid "Advanced"
-msgstr "Zaawansowane"
-
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
 msgstr "Ustaw niestandardowe etykiety do wydruku"
 
-#: view~dictionnary.print.gridIntervals
-msgctxt "view~dictionnary.print.gridIntervals"
-msgid "Grid intervals"
-msgstr ""
-
-#: view~dictionnary.print.labels
-msgctxt "view~dictionnary.print.labels"
-msgid "Labels"
-msgstr ""
-
-#: view~dictionnary.print.launch
-msgctxt "view~dictionnary.print.launch"
-msgid "Print"
-msgstr "Drukuj"
-
-#: view~dictionnary.print.rotation
-msgctxt "view~dictionnary.print.rotation"
-msgid "Rotation"
-msgstr ""
-
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
 msgid "Print started. Please wait."
 msgstr "Rozpoczęto drukowanie. Proszę czekać."
-
-#: view~dictionnary.print.toolbar.dpi
-msgctxt "view~dictionnary.print.toolbar.dpi"
-msgid "DPI"
-msgstr "DPI"
-
-#: view~dictionnary.print.toolbar.format
-msgctxt "view~dictionnary.print.toolbar.format"
-msgid "Format"
-msgstr "Format"
-
-#: view~dictionnary.print.toolbar.scale
-msgctxt "view~dictionnary.print.toolbar.scale"
-msgid "Scale"
-msgstr "Skala"
-
-#: view~dictionnary.print.toolbar.template
-msgctxt "view~dictionnary.print.toolbar.template"
-msgid "Template"
-msgstr "Szablon"
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"

@@ -5,10 +5,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-28 08:26++0000\n"
+"POT-Creation-Date: 2022-10-10 16:01++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020-2023\n"
-"Language-Team: Romanian (http://www.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
+"Language-Team: Romanian (http://app.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -45,15 +45,10 @@ msgctxt "view~default.header.search.toggleKeywordsTitle.title"
 msgid "Toggle keywords/title search."
 msgstr "Comutare cuvinte cheie sau titluri."
 
-#: view~default.home.menu
-msgctxt "view~default.home.menu"
-msgid "Home"
-msgstr "Acasă"
-
 #: view~default.home.title
 msgctxt "view~default.home.title"
-msgid "Home page"
-msgstr "Pagina principală"
+msgid "Home"
+msgstr "Acasă"
 
 #: view~default.project.abstract.label
 msgctxt "view~default.project.abstract.label"
@@ -114,8 +109,8 @@ msgstr "Nu puteți accesa acest depozit."
 
 #: view~default.repository.list.title
 msgctxt "view~default.repository.list.title"
-msgid "Repository page"
-msgstr "Pagina depozite"
+msgid "Projects"
+msgstr "Proiecte"
 
 #: view~default.server.information.error
 msgctxt "view~default.server.information.error"
@@ -123,56 +118,6 @@ msgid ""
 "This map cannot be displayed. Please contact the server administrator to "
 "check the server information panel."
 msgstr "Această hartă nu poate fi afișată. Contactează administratorul serverului pentru a verifica panoul de informații despre server."
-
-#: view~dictionnary.action.choose
-msgctxt "view~dictionnary.action.choose"
-msgid "Choose an action to run"
-msgstr "Alege o acțiune de executat"
-
-#: view~dictionnary.action.close
-msgctxt "view~dictionnary.action.close"
-msgid "Close"
-msgstr "Închide"
-
-#: view~dictionnary.action.form.button.deactivate.help
-msgctxt "view~dictionnary.action.form.button.deactivate.help"
-msgid "Deactivate the active action"
-msgstr "Dezactivare acțiunea activă"
-
-#: view~dictionnary.action.form.button.deactivate.label
-msgctxt "view~dictionnary.action.form.button.deactivate.label"
-msgid "Deactivate"
-msgstr "Dezactivare"
-
-#: view~dictionnary.action.form.button.run.help
-msgctxt "view~dictionnary.action.form.button.run.help"
-msgid "Run the selected action"
-msgstr "Rulează acțiunea selectată"
-
-#: view~dictionnary.action.form.button.run.label
-msgctxt "view~dictionnary.action.form.button.run.label"
-msgid "Run"
-msgstr "Rulează"
-
-#: view~dictionnary.action.form.select.emptyItem.label
-msgctxt "view~dictionnary.action.form.select.emptyItem.label"
-msgid "Choose an action"
-msgstr "Alege o acțiune"
-
-#: view~dictionnary.action.form.select.help
-msgctxt "view~dictionnary.action.form.select.help"
-msgid "To run an action, select one in the list and click the Run button"
-msgstr "Pentru a executa o acțiune, selectează una din listă și apasă butonul Executare"
-
-#: view~dictionnary.action.form.select.warning
-msgctxt "view~dictionnary.action.form.select.warning"
-msgid "You must first select an action in the list"
-msgstr "Mai întâi trebuie să selectezi o acțiune din listă"
-
-#: view~dictionnary.action.title
-msgctxt "view~dictionnary.action.title"
-msgid "Actions"
-msgstr "Acțiuni"
 
 #: view~dictionnary.atlas.navbar.title
 msgctxt "view~dictionnary.atlas.navbar.title"
@@ -406,16 +351,6 @@ msgctxt "view~dictionnary.digitizing.confirme.erase"
 msgid "Are you sure you want to delete all features?"
 msgstr "Sigur dorești să ștergi toate obiectele?"
 
-#: view~dictionnary.digitizing.constraint.angle
-msgctxt "view~dictionnary.digitizing.constraint.angle"
-msgid "Angle"
-msgstr "Unghi"
-
-#: view~dictionnary.digitizing.constraint.distance
-msgctxt "view~dictionnary.digitizing.constraint.distance"
-msgid "Distance"
-msgstr "Distanță"
-
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
 msgid "Box"
@@ -461,11 +396,6 @@ msgctxt "view~dictionnary.digitizing.toolbar.line"
 msgid "Line"
 msgstr "Linie"
 
-#: view~dictionnary.digitizing.toolbar.measure
-msgctxt "view~dictionnary.digitizing.toolbar.measure"
-msgid "Measures"
-msgstr "Măsurări"
-
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
 msgid "Point"
@@ -492,15 +422,6 @@ msgstr "Sigur dorești să anulezi editarea? Vei pierde orice modificare făcut�
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
 msgstr "Sigur dorești să ștergi obiectul selectat?"
-
-#: view~dictionnary.edition.confirm.launch.child.creation
-msgctxt "view~dictionnary.edition.confirm.launch.child.creation"
-msgid ""
-"You are about to create a new child object for the currently edited object. \n"
-"Please check before that you have already saved your changes.\n"
-"\n"
-"Do you wish to continue ?"
-msgstr "Ești pe cale să creezi un nou sub-obiect pentru obiectul editat. \nVerifică înainte dacă ai salvat deja modificările. \n\nVrei să continui?"
 
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
@@ -688,7 +609,7 @@ msgstr "Pornire"
 #: view~dictionnary.geolocate.toolbar.stop
 msgctxt "view~dictionnary.geolocate.toolbar.stop"
 msgid "Stop"
-msgstr "Închide"
+msgstr "Oprește"
 
 #: view~dictionnary.geolocate.toolbar.waiting
 msgctxt "view~dictionnary.geolocate.toolbar.waiting"
@@ -890,60 +811,15 @@ msgctxt "view~dictionnary.print.activate"
 msgid "Place the rectangle for printing"
 msgstr "Plasează dreptunghiul pentru tipărire"
 
-#: view~dictionnary.print.advanced
-msgctxt "view~dictionnary.print.advanced"
-msgid "Advanced"
-msgstr "Avansat"
-
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
 msgstr "Setează etichete personalizate pentru imprimare"
 
-#: view~dictionnary.print.gridIntervals
-msgctxt "view~dictionnary.print.gridIntervals"
-msgid "Grid intervals"
-msgstr "Intervale de grilă"
-
-#: view~dictionnary.print.labels
-msgctxt "view~dictionnary.print.labels"
-msgid "Labels"
-msgstr "Etichete"
-
-#: view~dictionnary.print.launch
-msgctxt "view~dictionnary.print.launch"
-msgid "Print"
-msgstr "Imprimare"
-
-#: view~dictionnary.print.rotation
-msgctxt "view~dictionnary.print.rotation"
-msgid "Rotation"
-msgstr "Rotire"
-
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
 msgid "Print started. Please wait."
 msgstr "Imprimare pornită. Așteptați."
-
-#: view~dictionnary.print.toolbar.dpi
-msgctxt "view~dictionnary.print.toolbar.dpi"
-msgid "DPI"
-msgstr "DPI"
-
-#: view~dictionnary.print.toolbar.format
-msgctxt "view~dictionnary.print.toolbar.format"
-msgid "Format"
-msgstr "Format"
-
-#: view~dictionnary.print.toolbar.scale
-msgctxt "view~dictionnary.print.toolbar.scale"
-msgid "Scale"
-msgstr "Scară"
-
-#: view~dictionnary.print.toolbar.template
-msgctxt "view~dictionnary.print.toolbar.template"
-msgid "Template"
-msgstr "Model"
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
