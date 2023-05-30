@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-10 15:03++0000\n"
+"POT-Creation-Date: 2023-05-15 15:03++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2023\n"
 "Language-Team: French (https://app.transifex.com/3liz-1/teams/62012/fr/)\n"
@@ -868,6 +868,18 @@ msgctxt "admin~admin.form.admin_theme.headerTitleColor.label"
 msgid "Header - title color"
 msgstr "Entête - Couleur du titre"
 
+#: admin~admin.form.admin_theme.helpcolor
+msgctxt "admin~admin.form.admin_theme.helpcolor"
+msgid ""
+"You can select colors with this <a href=\"https://mdn.github.io/css-"
+"examples/tools/color-picker/\" target=\"_blank\">colorpicker</a> (e.g. "
+"<code>rgb(148 193 31 / 0.5)</code>)."
+msgstr ""
+"Vous pouvez sélectionner une couleur avec ce <a "
+"href=\"https://mdn.github.io/css-examples/tools/color-picker/\" "
+"target=\"_blank\">sélectionneur de couleur</a>, par exemple <code>rgb(148 "
+"193 31 / 0.5)</code>."
+
 #: admin~admin.form.admin_theme.menuBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.help"
 msgid "The color of the menu left bar background."
@@ -1199,6 +1211,12 @@ msgid ""
 msgstr ""
 "L'extension <strong>Lizmap pour QGIS serveur</strong> est installé sur le "
 "serveur avec une version supérieure ou égale à <strong>%s</strong>"
+
+#: admin~admin.server.information.qgis.error.fetching.information.qgis.url
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.qgis.url"
+msgid "The URL to reach QGIS server is correct in Lizmap Web Client"
+msgstr "L'URL pour joindre QGIS serveur est correct dans Lizmap Web Client"
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.version.html
 msgctxt ""
