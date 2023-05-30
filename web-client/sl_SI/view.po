@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-10 15:03++0000\n"
+"POT-Creation-Date: 2023-05-29 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: Jože Detečnik <joze.detecnik@3tav.si>, 2023\n"
 "Language-Team: Slovenian (https://app.transifex.com/3liz-1/teams/62012/sl/)\n"
@@ -40,12 +40,12 @@ msgstr "Administracija"
 #: view~default.header.search.input.title
 msgctxt "view~default.header.search.input.title"
 msgid "Type to filter your maps."
-msgstr ""
+msgstr "Vnesite za filtriranje zemljevidov."
 
 #: view~default.header.search.toggleKeywordsTitle.title
 msgctxt "view~default.header.search.toggleKeywordsTitle.title"
 msgid "Toggle keywords/title search."
-msgstr ""
+msgstr "Preklopi iskanje po ključnih besedah/naslovu."
 
 #: view~default.home.title
 msgctxt "view~default.home.title"
@@ -55,17 +55,17 @@ msgstr "Domov"
 #: view~default.project.abstract.label
 msgctxt "view~default.project.abstract.label"
 msgid "Abstract"
-msgstr ""
+msgstr "Povzetek"
 
 #: view~default.project.access.denied
 msgctxt "view~default.project.access.denied"
 msgid "Access denied for this project."
-msgstr ""
+msgstr "Dostop za ta projekt zavrnjen."
 
 #: view~default.project.bbox.label
 msgctxt "view~default.project.bbox.label"
 msgid "Bounding Box"
-msgstr ""
+msgstr "Omejevalni okvir"
 
 #: view~default.project.close.map.metadata
 msgctxt "view~default.project.close.map.metadata"
@@ -83,6 +83,8 @@ msgid ""
 "The project needs an update from the GIS administrator. Please contact the "
 "GIS administrator to check the QGIS projects panel."
 msgstr ""
+"Projekt potrebuje posodobitev s strani skrbnika GIS. Obrnite se na skrbnika "
+"GIS, da preveri ploščo projektov QGIS."
 
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
@@ -107,7 +109,7 @@ msgstr "Naslov"
 #: view~default.repository.access.denied
 msgctxt "view~default.repository.access.denied"
 msgid "You cannot access this repository."
-msgstr ""
+msgstr "Ne morete dostopati do tega skladišča."
 
 #: view~default.repository.list.title
 msgctxt "view~default.repository.list.title"
@@ -120,16 +122,19 @@ msgid ""
 "This map cannot be displayed. Please contact the server administrator to "
 "check the server information panel."
 msgstr ""
+"Tega zemljevida ni mogoče prikazati. Obrnite se na skrbnika strežnika, da "
+"preveri informacijsko ploščo strežnika."
 
 #: view~default.server.information.error.admin
 msgctxt "view~default.server.information.error.admin"
 msgid "Maps cannot be displayed. Please check the server information panel."
 msgstr ""
+"Zemljevidov ni mogoče prikazati. Preverite informacijsko ploščo strežnika."
 
 #: view~dictionnary.atlas.navbar.title
 msgctxt "view~dictionnary.atlas.navbar.title"
 msgid "Atlas"
-msgstr ""
+msgstr "Atlas"
 
 #: view~dictionnary.atlas.toolbar.next
 msgctxt "view~dictionnary.atlas.toolbar.next"
@@ -159,7 +164,7 @@ msgstr "Stop"
 #: view~dictionnary.atlas.toolbar.title
 msgctxt "view~dictionnary.atlas.toolbar.title"
 msgid "Atlas"
-msgstr ""
+msgstr "Atlas"
 
 #: view~dictionnary.attributeLayers.btn.center.title
 msgctxt "view~dictionnary.attributeLayers.btn.center.title"
@@ -184,7 +189,7 @@ msgstr "Info"
 #: view~dictionnary.attributeLayers.btn.remove.link.title
 msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
 msgid "Unlink child"
-msgstr ""
+msgstr "Odstrani otroka"
 
 #: view~dictionnary.attributeLayers.btn.select.title
 msgctxt "view~dictionnary.attributeLayers.btn.select.title"
@@ -206,25 +211,25 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr ""
+msgstr "Plast ni vidna. Povečajte v merilu, v katerem so vidne značilnosti."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived"
 msgid "Activated line needed."
-msgstr ""
+msgstr "Potrebna je aktivirana linija."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
 msgid "Create a child"
-msgstr ""
+msgstr "Ustvarite otroka"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
 msgid "Create feature"
-msgstr "Nov element"
+msgstr "Nov objekt"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
@@ -234,7 +239,7 @@ msgstr "Izvoz"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.hide.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.hide.title"
@@ -244,7 +249,7 @@ msgstr "Skrij"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title"
 msgid "Link selected features"
-msgstr "Poveži izbrane elemente"
+msgstr "Poveži izbrane objekte"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
 msgctxt ""
@@ -286,17 +291,17 @@ msgstr "Osveži podatke"
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr ""
+msgstr "Obseg zemljevida se je spremenil od zadnjega pridobivanja podatkov."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
 msgid "Select searched line"
-msgstr ""
+msgstr "Izberite iskano vrstico"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
 msgid "Toggle children tables"
-msgstr ""
+msgstr "Preklopi otroške tabele"
 
 #: view~dictionnary.attributeLayers.toolbar.cb.data.detail.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.cb.data.detail.title"
@@ -306,7 +311,7 @@ msgstr "Informacija"
 #: view~dictionnary.attributeLayers.toolbar.input.search.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.title"
 msgid "Search"
-msgstr "Išči"
+msgstr "Iskanje"
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.extent
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.extent"
@@ -316,12 +321,12 @@ msgstr "v trenutnem obsegu"
 #: view~dictionnary.attributeLayers.toolbar.msg.data.lines
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
 msgid "lines returned"
-msgstr ""
+msgstr "vrnjenih vrstic"
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.nodata
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.nodata"
 msgid "No result for this layer"
-msgstr ""
+msgstr "Za ta sloj ni rezultatov"
 
 #: view~dictionnary.baselayer.empty.title
 msgctxt "view~dictionnary.baselayer.empty.title"
@@ -356,7 +361,7 @@ msgstr "Minimiziraj"
 #: view~dictionnary.digitizing.confirme.erase
 msgctxt "view~dictionnary.digitizing.confirme.erase"
 msgid "Are you sure you want to delete all features?"
-msgstr "Ali res želite izbrisati vse elemente?"
+msgstr "Ali res želite izbrisati vse objekte?"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -371,22 +376,22 @@ msgstr "Krog"
 #: view~dictionnary.digitizing.toolbar.color
 msgctxt "view~dictionnary.digitizing.toolbar.color"
 msgid "Pick draw color"
-msgstr ""
+msgstr "Izberite barvo risanja"
 
 #: view~dictionnary.digitizing.toolbar.deactivate
 msgctxt "view~dictionnary.digitizing.toolbar.deactivate"
 msgid "Deactivate"
-msgstr ""
+msgstr "Deaktiviraj"
 
 #: view~dictionnary.digitizing.toolbar.drawTools
 msgctxt "view~dictionnary.digitizing.toolbar.drawTools"
 msgid "Draw tools"
-msgstr ""
+msgstr "Orodja za risanje"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
 msgid "Delete all features"
-msgstr ""
+msgstr "Izbriši vse objekte"
 
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
@@ -396,7 +401,7 @@ msgstr "Prostoročno"
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
 msgid "Import in GeoJSON, GPX or KML"
-msgstr ""
+msgstr "Uvoz datotek GeoJSON, GPX ali KML"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -416,7 +421,7 @@ msgstr "Poligon"
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
-msgstr ""
+msgstr "Shranite sliko v brskalniku"
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -430,7 +435,7 @@ msgstr ""
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
-msgstr ""
+msgstr "Ali ste prepričani, da želite izbrisati izbran objekt?"
 
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
@@ -438,6 +443,7 @@ msgid ""
 "Are you sure you want to delete the existing geometry and redraw it from "
 "scratch ?"
 msgstr ""
+"Ali res želite izbrisati geometrijske spremembe in ponovno od začetka?"
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -459,7 +465,7 @@ msgctxt "view~dictionnary.edition.draw.activate.mobile"
 msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
-msgstr ""
+msgstr "Obrazec lahko skrijete z gumbom zapri, ko želite določiti lokacijo."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -467,6 +473,8 @@ msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
 msgstr ""
+"Tega predmeta ne morete shraniti brez prostorskih podatkov. Prosimo, "
+"narišite objekt na zemljevidu."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -481,17 +489,17 @@ msgstr "Zemljevid"
 #: view~dictionnary.edition.revertgeom.success
 msgctxt "view~dictionnary.edition.revertgeom.success"
 msgid "Geometry has been reversed. You can now save the form."
-msgstr ""
+msgstr "Geometrija je bila obrnjena. Sedaj lahko shranite obrazec."
 
 #: view~dictionnary.edition.select.activate
 msgctxt "view~dictionnary.edition.select.activate"
 msgid "Click on one of the layer's features to select it."
-msgstr ""
+msgstr "S klikom označite objekt."
 
 #: view~dictionnary.edition.select.modify.activate
 msgctxt "view~dictionnary.edition.select.modify.activate"
 msgid "You can modify the feature you have selected, then submit."
-msgstr ""
+msgstr "Funkcijo, ki ste jo izbrali, lahko spremenite in nato pošljete."
 
 #: view~dictionnary.edition.splitfeat.form.error
 msgctxt "view~dictionnary.edition.splitfeat.form.error"
@@ -499,11 +507,13 @@ msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
 msgstr ""
+"Morate pravilno izpolniti obrazec, da ustvarite novo funkcijo po razdelitvi "
+"geometrije"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
 msgid "A technical error occurs. Split cannot be done."
-msgstr ""
+msgstr "Prišlo je do tehnične napake. Razdelitve ni mogoče izvesti."
 
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
@@ -513,7 +523,7 @@ msgstr "Urejanje"
 #: view~dictionnary.embed.open.map
 msgctxt "view~dictionnary.embed.open.map"
 msgid "Open the map in full screen"
-msgstr ""
+msgstr "Odprite zemljevid na celotnem zaslonu"
 
 #: view~dictionnary.externalsearch.mapdata
 msgctxt "view~dictionnary.externalsearch.mapdata"
@@ -573,12 +583,12 @@ msgstr "Iskanje znotraj polja"
 #: view~dictionnary.filter.input.text.title
 msgctxt "view~dictionnary.filter.input.text.title"
 msgid "Type some text to search inside this field"
-msgstr ""
+msgstr "Vnesite besedilo za iskanje v tem polju"
 
 #: view~dictionnary.filter.label.features
 msgctxt "view~dictionnary.filter.label.features"
 msgid "features"
-msgstr "elementov"
+msgstr "objektov"
 
 #: view~dictionnary.generic.btn.close.title
 msgctxt "view~dictionnary.generic.btn.close.title"
@@ -588,12 +598,12 @@ msgstr "Zapri"
 #: view~dictionnary.geobookmark.confirm.delete
 msgctxt "view~dictionnary.geobookmark.confirm.delete"
 msgid "Are you sure you want to delete this bookmark?"
-msgstr ""
+msgstr "Ali ste prepričani, da izbrišete ta zaznamek?"
 
 #: view~dictionnary.geobookmark.name.required
 msgctxt "view~dictionnary.geobookmark.name.required"
 msgid "A name is required to create a bookmark."
-msgstr ""
+msgstr "Za ustvarjanje zaznamka je potrebno ime."
 
 #: view~dictionnary.geolocate.infos.accuracy
 msgctxt "view~dictionnary.geolocate.infos.accuracy"
@@ -628,7 +638,7 @@ msgstr "Čakanje"
 #: view~dictionnary.geolocation.failed
 msgctxt "view~dictionnary.geolocation.failed"
 msgid "Location detection failed"
-msgstr ""
+msgstr "Zaznavanje lokacije ni uspelo"
 
 #: view~dictionnary.geolocation.survey.accuracy
 msgctxt "view~dictionnary.geolocation.survey.accuracy"
@@ -638,7 +648,7 @@ msgstr "Natančnost"
 #: view~dictionnary.geolocation.survey.average
 msgctxt "view~dictionnary.geolocation.survey.average"
 msgid "Average"
-msgstr ""
+msgstr "Povprečje"
 
 #: view~dictionnary.geolocation.survey.distance
 msgctxt "view~dictionnary.geolocation.survey.distance"
@@ -653,17 +663,17 @@ msgstr "Čas"
 #: view~dictionnary.geolocation.survey.title
 msgctxt "view~dictionnary.geolocation.survey.title"
 msgid "Survey"
-msgstr ""
+msgstr "Anketa"
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
-msgstr ""
+msgstr "Za izvoz plasti je potrebna pravica."
 
 #: view~dictionnary.layer.export.unknown.export.error
 msgctxt "view~dictionnary.layer.export.unknown.export.error"
 msgid "The server reported an error 400 during the export of the layer."
-msgstr ""
+msgstr "Strežnik je sporočil napako 400 med izvozom plasti."
 
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
@@ -728,77 +738,77 @@ msgstr "Prikaži sloj"
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
 msgid "Click on the map to start measuring an angle."
-msgstr ""
+msgstr "Kliknite na zemljevid, da začnete meriti kot."
 
 #: view~dictionnary.measure.activate.area
 msgctxt "view~dictionnary.measure.activate.area"
 msgid "Click on the map to start measuring an area."
-msgstr ""
+msgstr "Kliknite na zemljevid, da začnete meriti območje."
 
 #: view~dictionnary.measure.activate.length
 msgctxt "view~dictionnary.measure.activate.length"
 msgid "Click on the map to start measuring a length."
-msgstr ""
+msgstr "Kliknite na zemljevid, da začnete meriti dolžino."
 
 #: view~dictionnary.measure.activate.perimeter
 msgctxt "view~dictionnary.measure.activate.perimeter"
 msgid "Click on the map to start measuring a perimeter."
-msgstr ""
+msgstr "Kliknite na zemljevid, da začnete meriti obseg."
 
 #: view~dictionnary.measure.handle
 msgctxt "view~dictionnary.measure.handle"
 msgid "Measure:"
-msgstr ""
+msgstr "Meritev:"
 
 #: view~dictionnary.mouseposition.hover
 msgctxt "view~dictionnary.mouseposition.hover"
 msgid "Mouse position"
-msgstr ""
+msgstr "Položaj miške"
 
 #: view~dictionnary.mouseposition.removeCenterPoint
 msgctxt "view~dictionnary.mouseposition.removeCenterPoint"
 msgid "Remove center point"
-msgstr ""
+msgstr "Odstranite središčno točko"
 
 #: view~dictionnary.mouseposition.select
 msgctxt "view~dictionnary.mouseposition.select"
 msgid "Coordinate unit"
-msgstr ""
+msgstr "Koordinatna enota"
 
 #: view~dictionnary.mouseposition.units.d
 msgctxt "view~dictionnary.mouseposition.units.d"
 msgid "Degrees"
-msgstr ""
+msgstr "Stopinje"
 
 #: view~dictionnary.mouseposition.units.dm
 msgctxt "view~dictionnary.mouseposition.units.dm"
 msgid "Deg. Min."
-msgstr ""
+msgstr "Stopinj. Min."
 
 #: view~dictionnary.mouseposition.units.dms
 msgctxt "view~dictionnary.mouseposition.units.dms"
 msgid "D. M. S."
-msgstr ""
+msgstr "D. M. S."
 
 #: view~dictionnary.mouseposition.units.f
 msgctxt "view~dictionnary.mouseposition.units.f"
 msgid "Feet"
-msgstr ""
+msgstr "Stopala"
 
 #: view~dictionnary.mouseposition.units.m
 msgctxt "view~dictionnary.mouseposition.units.m"
 msgid "Meters"
-msgstr "Metri"
+msgstr "Metrov"
 
 #: view~dictionnary.overviewbar.displayoverview.hover
 msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
 msgid "Display/Hide Overview"
-msgstr ""
+msgstr "Prikaži/skrij pregled"
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
 msgid "No object has been found at this location."
-msgstr ""
+msgstr "Na tej lokaciji ni bil najden noben predmet."
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
@@ -808,67 +818,67 @@ msgstr "Klikni na zemljevid za informacijo."
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
 msgid "Compact tables"
-msgstr ""
+msgstr "Optimiziraj tabele"
 
 #: view~dictionnary.popup.table.explode
 msgctxt "view~dictionnary.popup.table.explode"
 msgid "Explode tables"
-msgstr ""
+msgstr "Ekstrahiraj tabele"
 
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
 msgid "Place the rectangle for printing"
-msgstr ""
+msgstr "Nastavitev območja za tiskanje"
 
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
-msgstr ""
+msgstr "Nastavite oznake po meri za tiskanje"
 
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
 msgid "Print started. Please wait."
-msgstr ""
+msgstr "Tiskanje se je začelo. Prosim počakaj."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
 msgid "%s selected objects"
-msgstr "%s izbaranih elementov"
+msgstr "%s izbranih objektov"
 
 #: view~dictionnary.selectiontool.results.none
 msgctxt "view~dictionnary.selectiontool.results.none"
 msgid "No object selected"
-msgstr ""
+msgstr "Izbran ni noben objekt"
 
 #: view~dictionnary.selectiontool.results.one
 msgctxt "view~dictionnary.selectiontool.results.one"
 msgid "1 selected object"
-msgstr ""
+msgstr "1 izbran predmet"
 
 #: view~dictionnary.selectiontool.toolbar.action.filter
 msgctxt "view~dictionnary.selectiontool.toolbar.action.filter"
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 #: view~dictionnary.selectiontool.toolbar.action.invert
 msgctxt "view~dictionnary.selectiontool.toolbar.action.invert"
 msgid "Invert selection"
-msgstr ""
+msgstr "Obrni izbor"
 
 #: view~dictionnary.selectiontool.toolbar.action.type.minus
 msgctxt "view~dictionnary.selectiontool.toolbar.action.type.minus"
 msgid "Remove from selection"
-msgstr ""
+msgstr "Odstrani iz izbora"
 
 #: view~dictionnary.selectiontool.toolbar.action.type.plus
 msgctxt "view~dictionnary.selectiontool.toolbar.action.type.plus"
 msgid "Add to selection"
-msgstr ""
+msgstr "Dodaj izboru"
 
 #: view~dictionnary.selectiontool.toolbar.action.type.refresh
 msgctxt "view~dictionnary.selectiontool.toolbar.action.type.refresh"
 msgid "New selection"
-msgstr ""
+msgstr "Nov izbor"
 
 #: view~dictionnary.selectiontool.toolbar.action.unselect
 msgctxt "view~dictionnary.selectiontool.toolbar.action.unselect"
@@ -878,47 +888,47 @@ msgstr "Odznači vse"
 #: view~dictionnary.selectiontool.toolbar.buffer
 msgctxt "view~dictionnary.selectiontool.toolbar.buffer"
 msgid "Buffer"
-msgstr ""
+msgstr "Medpomnilnik"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator"
 msgid "Geometric operators"
-msgstr ""
+msgstr "Geometrijski operatorji"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.contains
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.contains"
 msgid "Contains"
-msgstr ""
+msgstr "Vsebuje"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.crosses
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.crosses"
 msgid "Crosses"
-msgstr ""
+msgstr "Prečkanja"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.disjoint
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.disjoint"
 msgid "Disjoint"
-msgstr ""
+msgstr "Razdruži"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.intersects
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.intersects"
 msgid "Intersects"
-msgstr ""
+msgstr "Presekanja"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.overlaps
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.overlaps"
 msgid "Overlaps"
-msgstr ""
+msgstr "Prekrivanja"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.touches
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.touches"
 msgid "Touches"
-msgstr ""
+msgstr "Dotiki"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.within
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.within"
 msgid "Within"
-msgstr ""
+msgstr "Znotraj"
 
 #: view~dictionnary.selectiontool.toolbar.layer
 msgctxt "view~dictionnary.selectiontool.toolbar.layer"
@@ -928,22 +938,22 @@ msgstr "Izbira sloja"
 #: view~dictionnary.selectiontool.toolbar.layers.multiple
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.multiple"
 msgid "Multiple layers"
-msgstr ""
+msgstr "Več plasti"
 
 #: view~dictionnary.selectiontool.toolbar.layers.selectable
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectable"
 msgid "Selectable layers"
-msgstr ""
+msgstr "Izbirne plasti"
 
 #: view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible"
 msgid "Selectable and visible layers"
-msgstr ""
+msgstr "Izbirne in vidne plasti"
 
 #: view~dictionnary.selectiontool.toolbar.layers.single
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.single"
 msgid "Single layers"
-msgstr ""
+msgstr "Enoplastni"
 
 #: view~dictionnary.selectiontool.toolbar.title
 msgctxt "view~dictionnary.selectiontool.toolbar.title"
@@ -953,7 +963,7 @@ msgstr "Izbiranje"
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
-msgstr ""
+msgstr "Snemanje"
 
 #: view~dictionnary.startup.error
 msgctxt "view~dictionnary.startup.error"
@@ -961,11 +971,13 @@ msgid ""
 "An error occurred while loading this map. Some necessary resource may "
 "temporarily be unavailable. Please try again later."
 msgstr ""
+"Med nalaganjem tega zemljevida je prišlo do napake. Nekateri potrebni viri "
+"morda začasno niso na voljo. Prosim poskusite kasneje."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
 msgid "Go back to the home page."
-msgstr ""
+msgstr "Vrni se na domačo stran."
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -975,12 +987,12 @@ msgstr "Izvoz"
 #: view~dictionnary.switcher.layer.export.warn
 msgctxt "view~dictionnary.switcher.layer.export.warn"
 msgid "Please select a single layer to export"
-msgstr ""
+msgstr "Izberite eno plast za izvoz"
 
 #: view~dictionnary.switcherLayersActions.themeSelector.title
 msgctxt "view~dictionnary.switcherLayersActions.themeSelector.title"
 msgid "Select theme"
-msgstr ""
+msgstr "Izberite temo"
 
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
@@ -1005,22 +1017,22 @@ msgstr "Prikaži/Skrij"
 #: view~dictionnary.tree.button.collapse
 msgctxt "view~dictionnary.tree.button.collapse"
 msgid "Collapse"
-msgstr ""
+msgstr "Strni"
 
 #: view~dictionnary.tree.button.expand
 msgctxt "view~dictionnary.tree.button.expand"
 msgid "Expand"
-msgstr ""
+msgstr "Razširi"
 
 #: view~dictionnary.tree.button.link
 msgctxt "view~dictionnary.tree.button.link"
 msgid "Open documentation"
-msgstr ""
+msgstr "Odprta dokumentacija"
 
 #: view~dictionnary.tree.button.removeCache
 msgctxt "view~dictionnary.tree.button.removeCache"
 msgid "Remove cache server for this layer"
-msgstr ""
+msgstr "Odstranite predpomnilniški strežnik za to plast"
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
@@ -1045,7 +1057,7 @@ msgstr "Ponovno odpri obrazec"
 #: view~edition.form.action.future.label
 msgctxt "view~edition.form.action.future.label"
 msgid "After saved"
-msgstr ""
+msgstr "Po shranjevanju"
 
 #: view~edition.form.btn.clear.title
 msgctxt "view~edition.form.btn.clear.title"
@@ -1085,32 +1097,32 @@ msgstr "Urejanje:"
 #: view~edition.geomtool.drag.title
 msgctxt "view~edition.geomtool.drag.title"
 msgid "Drag"
-msgstr ""
+msgstr "Povlecite"
 
 #: view~edition.geomtool.nodetool.title
 msgctxt "view~edition.geomtool.nodetool.title"
 msgid "Node tool"
-msgstr ""
+msgstr "Orodje za vozlišče"
 
 #: view~edition.geomtool.reshape.title
 msgctxt "view~edition.geomtool.reshape.title"
 msgid "Reshape"
-msgstr ""
+msgstr "Preoblikuj"
 
 #: view~edition.geomtool.restartdrawing.title
 msgctxt "view~edition.geomtool.restartdrawing.title"
 msgid "Redraw the geometry"
-msgstr ""
+msgstr "Ponovno narišite geometrijo"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
 msgid "Reverse the geometry"
-msgstr ""
+msgstr "Obrnite geometrijo"
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
 msgid "Rotate"
-msgstr ""
+msgstr "Zasukaj"
 
 #: view~edition.geomtool.splitfeatures.title
 msgctxt "view~edition.geomtool.splitfeatures.title"
@@ -1123,11 +1135,12 @@ msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
 msgstr ""
+"Za ustvarjanje povezave mora biti za vsako plast izbran vsaj en objekt."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
 msgid "The pivot, features1 and features2 parameters are mandatory."
-msgstr ""
+msgstr "Parametri pivot, Features1 in Features2 so obvezni."
 
 #: view~edition.link.error.multiple.ids
 msgctxt "view~edition.link.error.multiple.ids"
@@ -1135,86 +1148,88 @@ msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
 msgstr ""
+"Za obe plasti ne morete povezati več predmetov. Izberite samo en predmet za "
+"eno od plasti in poskusite znova."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
 msgid "Create feature for the layer \"%s\" is not available."
-msgstr ""
+msgstr "Funkcija ustvarjanja za sloj »%s« ni na voljo."
 
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
 msgid "Given fields do not exist."
-msgstr ""
+msgstr "Polja ne obstajajo."
 
 #: view~edition.link.error.no.modify.attributes
 msgctxt "view~edition.link.error.no.modify.attributes"
 msgid "Modify attributes for the layer \"%s\" is not available."
-msgstr ""
+msgstr "Spreminjanje atributov za sloj \"%s\" ni na voljo."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not been configured to have an attribute table."
-msgstr ""
+msgstr "Plasti niso bile konfigurirane za tabelo atributov."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
 msgid "An error occurred while adding linked data."
-msgstr ""
+msgstr "Med dodajanjem povezanih podatkov je prišlo do napake."
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
 msgid "The layer does not exist."
-msgstr ""
+msgstr "Plast ne obstaja."
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
 msgid "Selected features have been correctly linked."
-msgstr ""
+msgstr "Izbrane funkcije so bile pravilno povezane."
 
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"
 msgid "The bbox has to be 4 floats separated by ','."
-msgstr ""
+msgstr "Bbox mora vsebovati 4 lebdeče, ločene z ','."
 
 #: view~edition.message.error.constraint
 msgctxt "view~edition.message.error.constraint"
 msgid "%s: check failed"
-msgstr ""
+msgstr "%s: preverjanje ni uspelo"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
 msgid "An error occurred while creating the object."
-msgstr ""
+msgstr "Med ustvarjanjem predmeta je prišlo do napake."
 
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
 msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr ""
+msgstr "Koordinatni sistem je obvezen in mora biti celo število ali EPSG:*."
 
 #: view~edition.message.error.delete
 msgctxt "view~edition.message.error.delete"
 msgid "The deletion has failed."
-msgstr ""
+msgstr "Brisanje ni uspelo."
 
 #: view~edition.message.error.feature.editable
 msgctxt "view~edition.message.error.feature.editable"
 msgid "The feature is not editable."
-msgstr "Element ni mogoče spremeniti."
+msgstr "Objekt ni mogoče spremeniti."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
 msgid "Lizmap cannot get the feature data with WFS"
-msgstr ""
+msgstr "Aplikacija ne more pridobiti podatkov o funkcijah z WFS"
 
 #: view~edition.message.error.form.get
 msgctxt "view~edition.message.error.form.get"
 msgid "An error has been raised when getting the form"
-msgstr ""
+msgstr "Pri pridobivanju obrazca je prišlo do napake"
 
 #: view~edition.message.error.geometry.outside.polygons
 msgctxt "view~edition.message.error.geometry.outside.polygons"
 msgid "The given geometry is outside the authorized polygon."
-msgstr ""
+msgstr "Geometrija je zunaj dovoljenega poligona."
 
 #: view~edition.message.error.layer.editable
 msgctxt "view~edition.message.error.layer.editable"
@@ -1224,12 +1239,12 @@ msgstr "Sloj ni mogoče urejati."
 #: view~edition.message.error.layer.editable.create
 msgctxt "view~edition.message.error.layer.editable.create"
 msgid "Create feature for the layer is not available."
-msgstr ""
+msgstr "Funkcija ustvarjanja za sloj ni na voljo."
 
 #: view~edition.message.error.layer.editable.delete
 msgctxt "view~edition.message.error.layer.editable.delete"
 msgid "Delete feature for the layer is not available."
-msgstr ""
+msgstr "Objekta v sloju ni mogoče izbrisati."
 
 #: view~edition.message.error.no.geometry
 msgctxt "view~edition.message.error.no.geometry"
@@ -1237,16 +1252,18 @@ msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
 msgstr ""
+"Tega predmeta ne morete shraniti brez geometrije. Prosimo, narišite "
+"geometrijo na zemljevidu."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
 msgid "The 'featureId' parameter is mandatory."
-msgstr ""
+msgstr "Parameter 'featureId' je obvezen."
 
 #: view~edition.message.error.parameter.project
 msgctxt "view~edition.message.error.parameter.project"
 msgid "The 'project' parameter is mandatory."
-msgstr ""
+msgstr "Parameter 'projekt' je obvezen."
 
 #: view~edition.message.error.primary.keys
 msgctxt "view~edition.message.error.primary.keys"
@@ -1260,29 +1277,29 @@ msgstr ""
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
 msgid "An error has been raised when saving the form."
-msgstr ""
+msgstr "Pri shranjevanju obrazca je prišlo do napake."
 
 #: view~edition.message.error.save.fields
 msgctxt "view~edition.message.error.save.fields"
 msgid "No fields available for saving the form."
-msgstr ""
+msgstr "Za shranjevanje obrazca ni na voljo nobenega polja."
 
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
 msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr ""
+msgstr "Imenik sloja \"%s\" za nalaganje medijev ni zapisljiv."
 
 #: view~edition.message.error.upload.layer.field
 msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr ""
+msgstr "Imenik polja »%s« sloja »%s« za nalaganje medijev ni zapisljiv."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
 msgid "Constraint: %s"
-msgstr ""
+msgstr "Omejitev: %s"
 
 #: view~edition.message.success.create
 msgctxt "view~edition.message.success.create"
@@ -1292,12 +1309,12 @@ msgstr "Objekt je uspešno vnešen."
 #: view~edition.message.success.delete
 msgctxt "view~edition.message.success.delete"
 msgid "The feature has been deleted."
-msgstr ""
+msgstr "Objekt je izbrisan."
 
 #: view~edition.modal.message.no.feature.found
 msgctxt "view~edition.modal.message.no.feature.found"
 msgid "No feature has been found here."
-msgstr ""
+msgstr "Tukaj ni bilo mogoče najti nobene funkcije."
 
 #: view~edition.modal.title.default
 msgctxt "view~edition.modal.title.default"
@@ -1332,7 +1349,7 @@ msgstr "Zaključi"
 #: view~edition.point.coord.geolocation.label
 msgctxt "view~edition.point.coord.geolocation.label"
 msgid "linked to geolocation"
-msgstr ""
+msgstr "povezava z geolokacijo"
 
 #: view~edition.point.coord.title
 msgctxt "view~edition.point.coord.title"
@@ -1342,17 +1359,17 @@ msgstr "Urejanje koordinat točke/vozlišča"
 #: view~edition.point.coord.x.label
 msgctxt "view~edition.point.coord.x.label"
 msgid "X:"
-msgstr ""
+msgstr "X:"
 
 #: view~edition.point.coord.y.label
 msgctxt "view~edition.point.coord.y.label"
 msgid "Y:"
-msgstr ""
+msgstr "Y:"
 
 #: view~edition.segment.angle.label
 msgctxt "view~edition.segment.angle.label"
 msgid "Angle (°):"
-msgstr ""
+msgstr "Kot (°):"
 
 #: view~edition.segment.length.label
 msgctxt "view~edition.segment.length.label"
@@ -1387,12 +1404,12 @@ msgstr "Izbriši"
 #: view~edition.toolbar.draw.clear.title
 msgctxt "view~edition.toolbar.draw.clear.title"
 msgid "Clear"
-msgstr ""
+msgstr "Počisti"
 
 #: view~edition.toolbar.draw.clear.tooltip
 msgctxt "view~edition.toolbar.draw.clear.tooltip"
 msgid "Cancel the current drawing."
-msgstr ""
+msgstr "Prekliči trenutno risbo."
 
 #: view~edition.toolbar.draw.save.title
 msgctxt "view~edition.toolbar.draw.save.title"
@@ -1402,7 +1419,7 @@ msgstr "Shrani"
 #: view~edition.toolbar.draw.save.tooltip
 msgctxt "view~edition.toolbar.draw.save.tooltip"
 msgid "Finalize the current drawing."
-msgstr ""
+msgstr "Dokončajte trenutno risbo."
 
 #: view~edition.toolbar.draw.title
 msgctxt "view~edition.toolbar.draw.title"
@@ -1412,7 +1429,7 @@ msgstr "Dodaj"
 #: view~edition.toolbar.draw.tooltip
 msgctxt "view~edition.toolbar.draw.tooltip"
 msgid "Activate the tool for creating new objects."
-msgstr ""
+msgstr "Aktivirajte orodje za ustvarjanje novih predmetov."
 
 #: view~edition.toolbar.select.attr.title
 msgctxt "view~edition.toolbar.select.attr.title"
@@ -1422,12 +1439,12 @@ msgstr "Spremeni"
 #: view~edition.toolbar.select.attr.tooltip
 msgctxt "view~edition.toolbar.select.attr.tooltip"
 msgid "Validate the geometry and/or open the attribute form."
-msgstr ""
+msgstr "Preverite geometrijo in/ali odprite obrazec atributa."
 
 #: view~edition.toolbar.select.delete.title
 msgctxt "view~edition.toolbar.select.delete.title"
 msgid "Del"
-msgstr ""
+msgstr "Brisanje"
 
 #: view~edition.toolbar.select.delete.tooltip
 msgctxt "view~edition.toolbar.select.delete.tooltip"
@@ -1452,17 +1469,17 @@ msgstr "Razveljavi"
 #: view~edition.toolbar.select.undo.tooltip
 msgctxt "view~edition.toolbar.select.undo.tooltip"
 msgid "Revert into initial geometry state."
-msgstr ""
+msgstr "Vrnitev v začetno stanje geometrije."
 
 #: view~edition.toolbar.select.unselect.title
 msgctxt "view~edition.toolbar.select.unselect.title"
 msgid "Unsel."
-msgstr ""
+msgstr "Unsel."
 
 #: view~edition.toolbar.select.unselect.tooltip
 msgctxt "view~edition.toolbar.select.unselect.tooltip"
 msgid "Unselect the selected object."
-msgstr ""
+msgstr "Prekliči izbiro izbranega predmeta."
 
 #: view~edition.toolbar.title
 msgctxt "view~edition.toolbar.title"
@@ -1472,12 +1489,12 @@ msgstr "Urejanje"
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
 msgid "An error occurred while removing link."
-msgstr ""
+msgstr "Med odstranjevanjem povezave je prišlo do napake."
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
 msgid "The child feature has correctly been unlinked."
-msgstr ""
+msgstr "Povezava s podrejeno funkcijo je bila pravilno prekinjena."
 
 #: view~edition.upload.choice.delete
 msgctxt "view~edition.upload.choice.delete"
@@ -1502,12 +1519,12 @@ msgstr "Podatek"
 #: view~map.attributeLayers.options.input.cascade.label
 msgctxt "view~map.attributeLayers.options.input.cascade.label"
 msgid "Cascade filter to children"
-msgstr ""
+msgstr "Kaskadni filter podrobnosti"
 
 #: view~map.attributeLayers.options.title
 msgctxt "view~map.attributeLayers.options.title"
 msgid "Options"
-msgstr ""
+msgstr "Opcije"
 
 #: view~map.attributeLayers.toolbar.title
 msgctxt "view~map.attributeLayers.toolbar.title"
@@ -1577,7 +1594,7 @@ msgstr "Legenda"
 #: view~map.legend.map
 msgctxt "view~map.legend.map"
 msgid "Legend/Map"
-msgstr "Legenda/karta"
+msgstr "Legenda/zemljevid"
 
 #: view~map.legendmenu.title
 msgctxt "view~map.legendmenu.title"
@@ -1597,57 +1614,57 @@ msgstr "Lociranje"
 #: view~map.map
 msgctxt "view~map.map"
 msgid "Map"
-msgstr "Karta"
+msgstr "Zemljevid"
 
 #: view~map.map.only
 msgctxt "view~map.map.only"
 msgid "Map only"
-msgstr "Samo karta"
+msgstr "Samo zemljevid"
 
 #: view~map.measure.navbar.title
 msgctxt "view~map.measure.navbar.title"
 msgid "Measure"
-msgstr ""
+msgstr "Izmeri"
 
 #: view~map.measure.toolbar.angle
 msgctxt "view~map.measure.toolbar.angle"
 msgid "Angle"
-msgstr ""
+msgstr "Kot"
 
 #: view~map.measure.toolbar.area
 msgctxt "view~map.measure.toolbar.area"
 msgid "Area"
-msgstr ""
+msgstr "Območje"
 
 #: view~map.measure.toolbar.length
 msgctxt "view~map.measure.toolbar.length"
 msgid "Length"
-msgstr ""
+msgstr "Dolžina"
 
 #: view~map.measure.toolbar.perimeter
 msgctxt "view~map.measure.toolbar.perimeter"
 msgid "Perimeter"
-msgstr ""
+msgstr "Obseg"
 
 #: view~map.measure.toolbar.title
 msgctxt "view~map.measure.toolbar.title"
 msgid "Measures"
-msgstr ""
+msgstr "Ukrepi"
 
 #: view~map.menu.close.hover
 msgctxt "view~map.menu.close.hover"
 msgid "Hide the menu"
-msgstr ""
+msgstr "Skrij meni"
 
 #: view~map.menu.show.hover
 msgctxt "view~map.menu.show.hover"
 msgid "Show the menu"
-msgstr ""
+msgstr "Prikaži meni"
 
 #: view~map.message.zoominmax
 msgctxt "view~map.message.zoominmax"
 msgid "No deeper zoom available for this base layer"
-msgstr ""
+msgstr "Za osnovno plast ni na voljo globlje povečave"
 
 #: view~map.metadata.contact.email
 msgctxt "view~map.metadata.contact.email"
@@ -1702,12 +1719,12 @@ msgstr "Lastnosti"
 #: view~map.metadata.h2.resources
 msgctxt "view~map.metadata.h2.resources"
 msgid "Resources"
-msgstr ""
+msgstr "Viri"
 
 #: view~map.metadata.hide
 msgctxt "view~map.metadata.hide"
 msgid "Hide information"
-msgstr ""
+msgstr "Skrij informacije"
 
 #: view~map.metadata.link.label
 msgctxt "view~map.metadata.link.label"
@@ -1727,7 +1744,7 @@ msgstr "Koordinatni sistem"
 #: view~map.metadata.properties.wmsGetCapabilitiesUrl
 msgctxt "view~map.metadata.properties.wmsGetCapabilitiesUrl"
 msgid "Web Map Service"
-msgstr ""
+msgstr "Storitev spletnega zemljevida"
 
 #: view~map.metadata.resources.website
 msgctxt "view~map.metadata.resources.website"
@@ -1742,7 +1759,7 @@ msgstr "Naslednji"
 #: view~map.navbar.pan.hover
 msgctxt "view~map.navbar.pan.hover"
 msgid "Pan map"
-msgstr ""
+msgstr "Premikaj zemljevid"
 
 #: view~map.navbar.previous.hover
 msgctxt "view~map.navbar.previous.hover"
@@ -1792,7 +1809,7 @@ msgstr "Merilo"
 #: view~map.overviewmap.hover
 msgctxt "view~map.overviewmap.hover"
 msgid "Move the rectangle to pan the map"
-msgstr ""
+msgstr "Premaknite pravokotnik, da pomaknete zemljevid"
 
 #: view~map.permalink.embed.size.large
 msgctxt "view~map.permalink.embed.size.large"
@@ -1802,87 +1819,87 @@ msgstr "Veliko"
 #: view~map.permalink.embed.size.medium
 msgctxt "view~map.permalink.embed.size.medium"
 msgid "Medium"
-msgstr ""
+msgstr "Srednje"
 
 #: view~map.permalink.embed.size.personalized
 msgctxt "view~map.permalink.embed.size.personalized"
 msgid "Personalized"
-msgstr ""
+msgstr "Personalizirano"
 
 #: view~map.permalink.embed.size.small
 msgctxt "view~map.permalink.embed.size.small"
 msgid "Small"
-msgstr ""
+msgstr "majhna"
 
 #: view~map.permalink.embed.tab
 msgctxt "view~map.permalink.embed.tab"
 msgid "Embed"
-msgstr ""
+msgstr "Integrirano"
 
 #: view~map.permalink.embed.tab.title
 msgctxt "view~map.permalink.embed.tab.title"
 msgid "Embed the current map"
-msgstr ""
+msgstr "Integrirano v trenutni zemljevid"
 
 #: view~map.permalink.geobookmark.button.add
 msgctxt "view~map.permalink.geobookmark.button.add"
 msgid "Add a bookmark"
-msgstr ""
+msgstr "Dodajte zaznamek"
 
 #: view~map.permalink.geobookmark.button.del
 msgctxt "view~map.permalink.geobookmark.button.del"
 msgid "Remove this bookmark"
-msgstr ""
+msgstr "Odstrani zaznamek"
 
 #: view~map.permalink.geobookmark.button.run
 msgctxt "view~map.permalink.geobookmark.button.run"
 msgid "Use this bookmark"
-msgstr ""
+msgstr "Uporabite zaznamek"
 
 #: view~map.permalink.geobookmark.name.placeholder
 msgctxt "view~map.permalink.geobookmark.name.placeholder"
 msgid "Bookmark name"
-msgstr ""
+msgstr "Ime zaznamka"
 
 #: view~map.permalink.geobookmark.none
 msgctxt "view~map.permalink.geobookmark.none"
 msgid "No bookmark yet."
-msgstr ""
+msgstr "Zaznamka še ni."
 
 #: view~map.permalink.geobookmark.title
 msgctxt "view~map.permalink.geobookmark.title"
 msgid "Bookmarks"
-msgstr ""
+msgstr "Zaznamki"
 
 #: view~map.permalink.navbar.title
 msgctxt "view~map.permalink.navbar.title"
 msgid "Permalink"
-msgstr ""
+msgstr "Stalna povezava"
 
 #: view~map.permalink.share.link
 msgctxt "view~map.permalink.share.link"
 msgid "Link to current map"
-msgstr ""
+msgstr "Povezava do trenutnega zemljevida"
 
 #: view~map.permalink.share.tab
 msgctxt "view~map.permalink.share.tab"
 msgid "Share"
-msgstr ""
+msgstr "Deli"
 
 #: view~map.permalink.share.tab.title
 msgctxt "view~map.permalink.share.tab.title"
 msgid "Share the link to current map"
-msgstr ""
+msgstr "Delite povezavo do trenutnega zemljevida"
 
 #: view~map.permalink.toolbar.title
 msgctxt "view~map.permalink.toolbar.title"
 msgid "Permalink"
-msgstr ""
+msgstr "Stalna povezava"
 
 #: view~map.popup.table.th.band
 msgctxt "view~map.popup.table.th.band"
 msgid "Band"
-msgstr ""
+msgstr "Pas"
 
 #: view~map.popup.table.th.data
 msgctxt "view~map.popup.table.th.data"
@@ -1932,7 +1949,7 @@ msgstr "Iščem"
 #: view~map.search.nominatim.placeholder
 msgctxt "view~map.search.nominatim.placeholder"
 msgid "Search"
-msgstr "Išči"
+msgstr "Iskanje"
 
 #: view~map.selectiontool.navbar.title
 msgctxt "view~map.selectiontool.navbar.title"
@@ -1962,7 +1979,7 @@ msgstr "Spremeni obliko sloja"
 #: view~map.switcher.layer.unfilter.title
 msgctxt "view~map.switcher.layer.unfilter.title"
 msgid "Deactivate current filter"
-msgstr ""
+msgstr "Deaktivirajte trenutni filter"
 
 #: view~map.switcher.layer.zoomToExtent.title
 msgctxt "view~map.switcher.layer.zoomToExtent.title"
@@ -1972,12 +1989,12 @@ msgstr "Prikaži sloj"
 #: view~map.switcher.layers.collapse.title
 msgctxt "view~map.switcher.layers.collapse.title"
 msgid "Collapse all"
-msgstr ""
+msgstr "Strniti vse"
 
 #: view~map.switcher.layers.expand.title
 msgctxt "view~map.switcher.layers.expand.title"
 msgid "Expand all"
-msgstr ""
+msgstr "Razširi vse"
 
 #: view~map.switchermenu.title
 msgctxt "view~map.switchermenu.title"
@@ -1987,7 +2004,7 @@ msgstr "Sloji"
 #: view~map.timemanager.navbar.title
 msgctxt "view~map.timemanager.navbar.title"
 msgid "Time Manager"
-msgstr ""
+msgstr "Upravitelj časa"
 
 #: view~map.timemanager.toolbar.next
 msgctxt "view~map.timemanager.toolbar.next"
@@ -2012,12 +2029,12 @@ msgstr "Prejšnji"
 #: view~map.timemanager.toolbar.title
 msgctxt "view~map.timemanager.toolbar.title"
 msgid "Time Manager"
-msgstr ""
+msgstr "Upravitelj časa"
 
 #: view~map.title.h1
 msgctxt "view~map.title.h1"
 msgid "Lizmap Web Client"
-msgstr "Lizmap spletni odjemalec"
+msgstr "Spletni odjemalec"
 
 #: view~map.title.h2
 msgctxt "view~map.title.h2"
@@ -2027,12 +2044,12 @@ msgstr "Qgis demo strežnik"
 #: view~map.toolbar.content.stop
 msgctxt "view~map.toolbar.content.stop"
 msgid "Stop"
-msgstr "Stop"
+msgstr "Ustavi"
 
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
 msgid "Underway..."
-msgstr ""
+msgstr "V teku ..."
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"
@@ -2042,7 +2059,7 @@ msgstr "Namig"
 #: view~map.tooltip.toolbar.layer
 msgctxt "view~map.tooltip.toolbar.layer"
 msgid "Highlight layer"
-msgstr "Osvetli sloj"
+msgstr "Namigi za sloj"
 
 #: view~map.tooltip.toolbar.title
 msgctxt "view~map.tooltip.toolbar.title"
@@ -2060,11 +2077,13 @@ msgid ""
 "Please write a small text to explain why you would like to have access to "
 "the maps."
 msgstr ""
+"Napišite kratko besedilo, da pojasnite, zakaj želite imeti dostop do "
+"zemljevidov."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"
 msgid "Why do you request an account?"
-msgstr ""
+msgstr "Zakaj zahtevate račun?"
 
 #: view~user.form.country.label
 msgctxt "view~user.form.country.label"

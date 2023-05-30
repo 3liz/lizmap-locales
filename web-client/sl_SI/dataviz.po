@@ -1,10 +1,14 @@
 # 
+# Translators:
+# Jože Detečnik <joze.detecnik@3tav.si>, 2023
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 dataviz\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-10 15:03++0000\n"
+"POT-Creation-Date: 2023-05-29 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
+"Last-Translator: Jože Detečnik <joze.detecnik@3tav.si>, 2023\n"
 "Language-Team: Slovenian (https://app.transifex.com/3liz-1/teams/62012/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,120 +19,123 @@ msgstr ""
 #: dataviz~dataviz.dock.subtitle
 msgctxt "dataviz~dataviz.dock.subtitle"
 msgid "Dataviz"
-msgstr ""
+msgstr "Grafikoni"
 
 #: dataviz~dataviz.dock.title
 msgctxt "dataviz~dataviz.dock.title"
 msgid "Dataviz"
-msgstr ""
+msgstr "Grafikoni"
 
 #: dataviz~dataviz.log.access_denied.detail
 msgctxt "dataviz~dataviz.log.access_denied.detail"
 msgid ""
 "You have no right to access this ressource. Have you used the right login ?"
 msgstr ""
+"Nimate pravice do dostopa do tega vira. Ali ste uporabili pravo prijavo?"
 
 #: dataviz~dataviz.log.access_denied.title
 msgctxt "dataviz~dataviz.log.access_denied.title"
 msgid "Access denied"
-msgstr ""
+msgstr "Dostop zavrnjen"
 
 #: dataviz~dataviz.log.invalid_plot_type.detail
 msgctxt "dataviz~dataviz.log.invalid_plot_type.detail"
 msgid "The given plot type \"%s\" is invalid."
-msgstr ""
+msgstr "Podan tip izrisa \"%s\" ni veljaven."
 
 #: dataviz~dataviz.log.invalid_plot_type.title
 msgctxt "dataviz~dataviz.log.invalid_plot_type.title"
 msgid "Invalid plot type"
-msgstr ""
+msgstr "Neveljavna vrsta ploskve"
 
 #: dataviz~dataviz.log.layer_not_found.detail
 msgctxt "dataviz~dataviz.log.layer_not_found.detail"
 msgid ""
 "The layer with the given ID \"%s\" cannot be found in the published QGIS "
 "project."
-msgstr ""
+msgstr "Plasti z danim ID-jem \"%s\" ni mogoče najti v objavljenem projektu QGIS."
 
 #: dataviz~dataviz.log.layer_not_found.title
 msgctxt "dataviz~dataviz.log.layer_not_found.title"
 msgid "Layer not found"
-msgstr ""
+msgstr "Sloja ni mogoče najti"
 
 #: dataviz~dataviz.log.no_configuration.title
 msgctxt "dataviz~dataviz.log.no_configuration.title"
 msgid "There is no dataviz configuration for this project yet."
-msgstr ""
+msgstr "Za projekt še ni konfiguracije dataviz."
 
 #: dataviz~dataviz.log.no_data.detail
 msgctxt "dataviz~dataviz.log.no_data.detail"
 msgid "The plot source data cannot be fetched from the vector layer \"%s\"."
-msgstr ""
+msgstr "Izvornih podatkov risbe ni mogoče pridobiti iz vektorske plasti \"%s\"."
 
 #: dataviz~dataviz.log.no_data.title
 msgctxt "dataviz~dataviz.log.no_data.title"
 msgid "Plot data not available"
-msgstr ""
+msgstr "Podatki niso na voljo"
 
 #: dataviz~dataviz.log.no_layers.detail
 msgctxt "dataviz~dataviz.log.no_layers.detail"
 msgid "The table of layers inside the dataviz configuration is empty."
-msgstr ""
+msgstr "Tabela plasti znotraj konfiguracije grafikona je prazna."
 
 #: dataviz~dataviz.log.no_layers.title
 msgctxt "dataviz~dataviz.log.no_layers.title"
 msgid "Dataviz layers is empty"
-msgstr ""
+msgstr "Plasti grafikona so prazne"
 
 #: dataviz~dataviz.log.plot_configuration_not_found.detail
 msgctxt "dataviz~dataviz.log.plot_configuration_not_found.detail"
 msgid ""
 "The plot configuration cannot be found or parsed by Lizmap dataviz API."
 msgstr ""
+"Konfiguracije izrisa ni mogoče najti ali razčleniti z API-jem Lizmap "
+"dataviz."
 
 #: dataviz~dataviz.log.plot_configuration_not_found.title
 msgctxt "dataviz~dataviz.log.plot_configuration_not_found.title"
 msgid "Plot configuration not found"
-msgstr ""
+msgstr "Konfiguracije parcele ni bilo mogoče najti"
 
 #: dataviz~dataviz.log.project_not_found.detail
 msgctxt "dataviz~dataviz.log.project_not_found.detail"
 msgid ""
 "The QGIS project \"%s.qgs\" does not exist or is not available in the "
 "repository \"%s\"."
-msgstr ""
+msgstr "Projekt QGIS \"%s.qgs\" ne obstaja ali ni na voljo v repozitoriju \"%s\"."
 
 #: dataviz~dataviz.log.project_not_found.title
 msgctxt "dataviz~dataviz.log.project_not_found.title"
 msgid "Lizmap project not found"
-msgstr ""
+msgstr "Projekt ni bil najden"
 
 #: dataviz~dataviz.log.repository_not_found.detail
 msgctxt "dataviz~dataviz.log.repository_not_found.detail"
 msgid "The Lizmap repository \"%s\" does not exist or is not available."
-msgstr ""
+msgstr "Repozitorij \"%s\" ne obstaja ali ni na voljo."
 
 #: dataviz~dataviz.log.repository_not_found.title
 msgctxt "dataviz~dataviz.log.repository_not_found.title"
 msgid "Lizmap repository not found"
-msgstr ""
+msgstr "Repozitorij ni bil najden"
 
 #: dataviz~dataviz.log.request_not_supported.detail
 msgctxt "dataviz~dataviz.log.request_not_supported.detail"
 msgid "The given request \"%s\" is not supported by Lizmap dataviz API."
-msgstr ""
+msgstr "Zahteve \"%s\" ne podpira API grafikona."
 
 #: dataviz~dataviz.log.request_not_supported.title
 msgctxt "dataviz~dataviz.log.request_not_supported.title"
 msgid "Request is not supported"
-msgstr ""
+msgstr "Zahteva ni podprta"
 
 #: dataviz~dataviz.log.wrong_credentials.detail
 msgctxt "dataviz~dataviz.log.wrong_credentials.detail"
 msgid "The given login and password are incorrect. Cannot authenticate."
-msgstr ""
+msgstr "Podana prijava in geslo sta napačna. Ni mogoče preveriti pristnosti."
 
 #: dataviz~dataviz.log.wrong_credentials.title
 msgctxt "dataviz~dataviz.log.wrong_credentials.title"
 msgid "Wrong credentials"
-msgstr ""
+msgstr "Napačne poverilnice"

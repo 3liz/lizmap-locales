@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-10 15:03++0000\n"
+"POT-Creation-Date: 2023-05-29 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2023\n"
 "Language-Team: Portuguese (https://app.transifex.com/3liz-1/teams/62012/pt/)\n"
@@ -894,6 +894,17 @@ msgctxt "admin~admin.form.admin_theme.headerTitleColor.label"
 msgid "Header - title color"
 msgstr "Cabeçalho - cor do título"
 
+#: admin~admin.form.admin_theme.helpcolor
+msgctxt "admin~admin.form.admin_theme.helpcolor"
+msgid ""
+"You can select colors with this <a href=\"https://mdn.github.io/css-"
+"examples/tools/color-picker/\" target=\"_blank\">colorpicker</a> (e.g. "
+"<code>rgb(148 193 31 / 0.5)</code>)."
+msgstr ""
+"É possível selecionar cores com este <a href=\"https://mdn.github.io/css-"
+"examples/tools/color-picker/\" target=\"_blank\">seletor de cores</a> (ex. "
+"<code>RGB(148 193 31 / 0.5)</code>)."
+
 #: admin~admin.form.admin_theme.menuBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.help"
 msgid "The color of the menu left bar background."
@@ -1630,6 +1641,16 @@ msgstr ""
 "o plugin Lizmap do servidor (na inicialização do servidor QGIS e ao carregar"
 " esta página da web). Pode ser necessário aumentar o nível de depuração."
 
+#: admin~admin.server.information.qgis.error.fetching.information.lizmap.logs.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.lizmap.logs.html"
+msgid ""
+"Your Lizmap Web Client <strong>logs</strong> does not contain any warnings "
+"about reaching QGIS server"
+msgstr ""
+"Os <strong>registos</strong> do Lizmap Web Client não contêm quaisquer "
+"avisos sobre o acesso ao servidor QGIS"
+
 #: admin~admin.server.information.qgis.error.fetching.information.plugin.version.html
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.plugin.version.html"
@@ -1639,6 +1660,16 @@ msgid ""
 msgstr ""
 "O <strong>plugin Lizmap do serividor QGIS</strong> está instalado no "
 "servidor com uma versão igual ou superior a <strong>%s</strong>"
+
+#: admin~admin.server.information.qgis.error.fetching.information.qgis.url.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.qgis.url.html"
+msgid ""
+"The URL to reach QGIS server is <strong>correct</strong> in your "
+"administration panel"
+msgstr ""
+"O URL para acesso ao servidor QGIS está <strong>correto</strong> no painel "
+"de administração"
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.version.html
 msgctxt ""
@@ -1706,6 +1737,18 @@ msgstr ""
 "O QGIS Server está instalado corretamente e retorna a resposta esperada para"
 " pedidos OGC."
 
+#: admin~admin.server.information.qgis.unknown
+msgctxt "admin~admin.server.information.qgis.unknown"
+msgid ""
+"QGIS server minimum %s and Lizmap QGIS server plugin minimum %s need to be "
+"installed and configured correctly. Your QGIS server couldn't be reached "
+"correctly with the given URL \"%s\"."
+msgstr ""
+"A versão mínima do servidor QGIS %s bem como a versão mínima do plugin para "
+"o servidor QGIS %s necessitam de ser corretamente instaladas e configuradas."
+" O servidor QGIS não pôde ser acedido corretamente através do URL fornecido "
+"\"%s\"."
+
 #: admin~admin.server.information.qgis.update
 msgctxt "admin~admin.server.information.qgis.update"
 msgid ""
@@ -1719,6 +1762,11 @@ msgstr ""
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Número"
+
+#: admin~admin.server.information.webdav.url
+msgctxt "admin~admin.server.information.webdav.url"
+msgid "URL of the WebDAV server"
+msgstr "URL do servidor WebDAV"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"

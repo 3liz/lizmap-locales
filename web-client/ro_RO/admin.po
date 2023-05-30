@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-10 15:03++0000\n"
+"POT-Creation-Date: 2023-05-29 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2023\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -888,6 +888,17 @@ msgctxt "admin~admin.form.admin_theme.headerTitleColor.label"
 msgid "Header - title color"
 msgstr "Culoare titlu antet"
 
+#: admin~admin.form.admin_theme.helpcolor
+msgctxt "admin~admin.form.admin_theme.helpcolor"
+msgid ""
+"You can select colors with this <a href=\"https://mdn.github.io/css-"
+"examples/tools/color-picker/\" target=\"_blank\">colorpicker</a> (e.g. "
+"<code>rgb(148 193 31 / 0.5)</code>)."
+msgstr ""
+"Poți selecta culori cu <a href=\"https://mdn.github.io/css-"
+"examples/tools/color-picker/\" target=\"_blank\">selectorul de culori</a> "
+"(de ex. <code>rgb(148 193 31 / 0.5)</code>)."
+
 #: admin~admin.form.admin_theme.menuBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.help"
 msgid "The color of the menu left bar background."
@@ -1627,6 +1638,16 @@ msgstr ""
 "încărcarea acestei pagini web). Poate fi necesar să ridici nivelul de "
 "depanare."
 
+#: admin~admin.server.information.qgis.error.fetching.information.lizmap.logs.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.lizmap.logs.html"
+msgid ""
+"Your Lizmap Web Client <strong>logs</strong> does not contain any warnings "
+"about reaching QGIS server"
+msgstr ""
+"<strong>Jurnalele</strong> Lizmap Web Client nu conțin niciun avertisment "
+"despre accesarea serverului QGIS"
+
 #: admin~admin.server.information.qgis.error.fetching.information.plugin.version.html
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.plugin.version.html"
@@ -1636,6 +1657,16 @@ msgid ""
 msgstr ""
 "<strong>Plugin-ul Lizmap QGIS server</strong> este instalat pe server cu "
 "versiunea nu mai mică decât <strong>%s</strong>"
+
+#: admin~admin.server.information.qgis.error.fetching.information.qgis.url.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.qgis.url.html"
+msgid ""
+"The URL to reach QGIS server is <strong>correct</strong> in your "
+"administration panel"
+msgstr ""
+"Adresa URL pentru a ajunge la serverul QGIS este <strong>corectă</strong> în"
+" panoul de administrare"
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.version.html
 msgctxt ""
@@ -1702,6 +1733,17 @@ msgstr ""
 "Serverul QGIS este instalat corect și returnează răspunsul așteptat pentru "
 "solicitările OGC."
 
+#: admin~admin.server.information.qgis.unknown
+msgctxt "admin~admin.server.information.qgis.unknown"
+msgid ""
+"QGIS server minimum %s and Lizmap QGIS server plugin minimum %s need to be "
+"installed and configured correctly. Your QGIS server couldn't be reached "
+"correctly with the given URL \"%s\"."
+msgstr ""
+"Serverul QGIS minim %s și plugin-ul serverului Lizmap QGIS minim %s trebuie "
+"instalate și configurate corect. Serverul QGIS nu a putut fi accesat corect "
+"cu adresa URL „%s”."
+
 #: admin~admin.server.information.qgis.update
 msgctxt "admin~admin.server.information.qgis.update"
 msgid ""
@@ -1715,6 +1757,11 @@ msgstr ""
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Număr"
+
+#: admin~admin.server.information.webdav.url
+msgctxt "admin~admin.server.information.webdav.url"
+msgid "URL of the WebDAV server"
+msgstr "Adresa URL a serverului WebDAV"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
