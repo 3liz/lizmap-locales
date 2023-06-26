@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-10 15:03++0000\n"
+"POT-Creation-Date: 2023-06-26 15:03++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Samuel Mesa <samuelmesa@gmail.com>, 2018-2019\n"
 "Language-Team: Spanish (http://app.transifex.com/3liz-1/lizmap-locales/language/es/)\n"
@@ -815,6 +815,14 @@ msgctxt "admin~admin.form.admin_theme.headerTitleColor.label"
 msgid "Header - title color"
 msgstr "Cabecera - color del título"
 
+#: admin~admin.form.admin_theme.helpcolor
+msgctxt "admin~admin.form.admin_theme.helpcolor"
+msgid ""
+"You can select colors with this <a href=\"https://mdn.github.io/css-"
+"examples/tools/color-picker/\" target=\"_blank\">colorpicker</a> (e.g. "
+"<code>rgb(148 193 31 / 0.5)</code>)."
+msgstr ""
+
 #: admin~admin.form.admin_theme.menuBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.help"
 msgid "The color of the menu left bar background."
@@ -1485,12 +1493,36 @@ msgid ""
 "webpage). You might need to increase debug level."
 msgstr ""
 
+#: admin~admin.server.information.qgis.error.fetching.information.lizmap.logs.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.lizmap.logs.html"
+msgid ""
+"Your Lizmap Web Client <strong>logs</strong> does not contain any warnings "
+"about reaching QGIS server"
+msgstr ""
+
 #: admin~admin.server.information.qgis.error.fetching.information.plugin.version.html
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.plugin.version.html"
 msgid ""
 "The <strong>Lizmap QGIS server plugin</strong> is installed on the server "
 "with a version above or equal to <strong>%s</strong>"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.qgis.lizmap.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.qgis.lizmap.html"
+msgid ""
+"The URL to reach the Lizmap API on QGIS Server is <strong>correct</strong> "
+"in your administration panel, if you use Py-QGIS-Server"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.qgis.url.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.qgis.url.html"
+msgid ""
+"The URL to reach QGIS server is <strong>correct</strong> in your "
+"administration panel"
 msgstr ""
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.version.html
@@ -1524,6 +1556,11 @@ msgctxt "admin~admin.server.information.qgis.plugin.action"
 msgid "Action"
 msgstr "Acción"
 
+#: admin~admin.server.information.qgis.plugin.atlasprint
+msgctxt "admin~admin.server.information.qgis.plugin.atlasprint"
+msgid "The plugin is not used anymore and is deprecated. It can be removed."
+msgstr ""
+
 #: admin~admin.server.information.qgis.plugin.version
 msgctxt "admin~admin.server.information.qgis.plugin.version"
 msgid "Version"
@@ -1553,6 +1590,14 @@ msgid ""
 " requests."
 msgstr ""
 
+#: admin~admin.server.information.qgis.unknown
+msgctxt "admin~admin.server.information.qgis.unknown"
+msgid ""
+"QGIS server minimum %s and Lizmap QGIS server plugin minimum %s need to be "
+"installed and configured correctly. Your QGIS server couldn't be reached "
+"correctly with the given URL \"%s\"."
+msgstr ""
+
 #: admin~admin.server.information.qgis.update
 msgctxt "admin~admin.server.information.qgis.update"
 msgid ""
@@ -1563,6 +1608,11 @@ msgstr ""
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
+msgstr ""
+
+#: admin~admin.server.information.webdav.url
+msgctxt "admin~admin.server.information.webdav.url"
+msgid "URL of the WebDAV server"
 msgstr ""
 
 #: admin~admin.theme.button.remove.logo.confirm.label
