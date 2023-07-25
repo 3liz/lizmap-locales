@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 15:03++0000\n"
+"POT-Creation-Date: 2023-07-24 15:03++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2019\n"
 "Language-Team: Dutch (http://app.transifex.com/3liz-1/lizmap-locales/language/nl/)\n"
@@ -1302,15 +1302,13 @@ msgstr ""
 #: admin~admin.project.rules.list.blocking.target.html
 msgctxt "admin~admin.project.rules.list.blocking.target.html"
 msgid ""
-"Light coral if the project is designed for Lizmap Web Client version equal "
-"or less than <strong>%s</strong>."
+"The project is designed for Lizmap Web Client version equal or less than "
+"<strong>%s</strong>."
 msgstr ""
 
 #: admin~admin.project.rules.list.custom.projection
 msgctxt "admin~admin.project.rules.list.custom.projection"
-msgid ""
-"Light coral if the project is using a <strong>user-defined</strong> "
-"projection."
+msgid "The project is using a <strong>user-defined</strong> projection."
 msgstr ""
 
 #: admin~admin.project.rules.list.description.html
@@ -1323,22 +1321,19 @@ msgstr ""
 
 #: admin~admin.project.rules.list.error.loading.html
 msgctxt "admin~admin.project.rules.list.error.loading.html"
-msgid ""
-"Light coral if the project takes longer than <strong>%s</strong> seconds to "
-"load."
+msgid "The project takes longer than <strong>%s</strong> seconds to load."
 msgstr ""
 
 #: admin~admin.project.rules.list.error.memory.html
 msgctxt "admin~admin.project.rules.list.error.memory.html"
 msgid ""
-"Light coral if the project takes more than <strong>%s</strong> Mo of the "
-"server memory to load."
+"The project takes more than <strong>%s</strong> Mo of the server memory to "
+"load."
 msgstr ""
 
 #: admin~admin.project.rules.list.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
-msgid ""
-"Light yellow if the count is greater or equal to <strong>%s</strong> layers."
+msgid "The count is greater or equal to <strong>%s</strong> layers."
 msgstr ""
 
 #: admin~admin.project.rules.list.introduction
@@ -1349,49 +1344,44 @@ msgstr ""
 #: admin~admin.project.rules.list.invalid.datasource.html
 msgctxt "admin~admin.project.rules.list.invalid.datasource.html"
 msgid ""
-"Light coral if the project has some <strong>invalid layer "
-"datasource</strong> when QGIS server loaded the project."
+"The project has some <strong>invalid layer datasource</strong> when QGIS "
+"server loaded the project."
 msgstr ""
 
-#: admin~admin.project.rules.list.qgis.version.light.coral.html
-msgctxt "admin~admin.project.rules.list.qgis.version.light.coral.html"
+#: admin~admin.project.rules.list.qgis.version.error.html
+msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
 msgid ""
-"Light coral if the QGIS desktop version <strong>is above</strong> QGIS "
-"server. Current value greater or equal than <strong>%s</strong>."
+"The desktop version <strong>is above</strong> QGIS server. Current value "
+"greater or equal than <strong>%s</strong>."
 msgstr ""
 
-#: admin~admin.project.rules.list.qgis.version.light.yellow.html
-msgctxt "admin~admin.project.rules.list.qgis.version.light.yellow.html"
+#: admin~admin.project.rules.list.qgis.version.warning.html
+msgctxt "admin~admin.project.rules.list.qgis.version.warning.html"
 msgid ""
-"Light yellow if the QGIS project version is too old compared to the current "
-"QGIS Server version. Current value less or equal to <strong>%s</strong>."
+"The project version is too old compared to the current QGIS Server version. "
+"Current value less or equal to <strong>%s</strong>."
 msgstr ""
 
 #: admin~admin.project.rules.list.target.version.html
 msgctxt "admin~admin.project.rules.list.target.version.html"
-msgid ""
-"Light yellow if the project is designed for Lizmap Web Client "
-"<strong>%s</strong>."
+msgid "The project is designed for Lizmap Web Client <strong>%s</strong>."
 msgstr ""
 
 #: admin~admin.project.rules.list.very.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
-msgid ""
-"Light coral if the count is greater or equal to <strong>%s</strong> layers."
+msgid "The count is greater or equal to <strong>%s</strong> layers."
 msgstr ""
 
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
-msgid ""
-"Light yellow if the project takes longer than <strong>%s</strong> seconds to"
-" load."
+msgid "The project takes longer than <strong>%s</strong> seconds to load."
 msgstr ""
 
 #: admin~admin.project.rules.list.warning.memory.html
 msgctxt "admin~admin.project.rules.list.warning.memory.html"
 msgid ""
-"Light yellow if the project takes more than <strong>%s</strong> Mo of the "
-"server memory to load."
+"The project takes more than <strong>%s</strong> Mo of the server memory to "
+"load."
 msgstr ""
 
 #: admin~admin.project.rules.list.warnings.html
@@ -1794,13 +1784,13 @@ msgstr "Toevoegen"
 
 #: admin~user.acl.form.add.to.group
 msgctxt "admin~user.acl.form.add.to.group"
-msgid "Add him to this group"
-msgstr "Voeg hem toe aan deze groep"
+msgid "Add the user to this group"
+msgstr "Voeg de gebruiker toe aan deze groep"
 
 #: admin~user.acl.form.remove.from.group
 msgctxt "admin~user.acl.form.remove.from.group"
-msgid "Remove him from this group"
-msgstr "Verwijder hem uit deze groep"
+msgid "Remove the user from this group"
+msgstr "Verwijder de gebruiker uit deze groep"
 
 #: admin~user.acl.form.title
 msgctxt "admin~user.acl.form.title"

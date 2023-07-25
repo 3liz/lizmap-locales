@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 15:03++0000\n"
+"POT-Creation-Date: 2023-07-24 15:03++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020-2023\n"
 "Language-Team: Romanian (http://app.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
@@ -1301,16 +1301,14 @@ msgstr "<strong>Blocare</strong>, aceste proiecte nu mai sunt vizibile:"
 #: admin~admin.project.rules.list.blocking.target.html
 msgctxt "admin~admin.project.rules.list.blocking.target.html"
 msgid ""
-"Light coral if the project is designed for Lizmap Web Client version equal "
-"or less than <strong>%s</strong>."
-msgstr "Coral deschis, dacă proiectul este destinat pentru versiunea Lizmap Web Client egală sau mai mică decât <strong>%s</strong>."
+"The project is designed for Lizmap Web Client version equal or less than "
+"<strong>%s</strong>."
+msgstr ""
 
 #: admin~admin.project.rules.list.custom.projection
 msgctxt "admin~admin.project.rules.list.custom.projection"
-msgid ""
-"Light coral if the project is using a <strong>user-defined</strong> "
-"projection."
-msgstr "Coral deschis, dacă proiectul folosește o proiecție <strong>definită de utilizator</strong>."
+msgid "The project is using a <strong>user-defined</strong> projection."
+msgstr ""
 
 #: admin~admin.project.rules.list.description.html
 msgctxt "admin~admin.project.rules.list.description.html"
@@ -1322,23 +1320,20 @@ msgstr "Având în vedere versiunea curentă a Lizmap Web Client <strong>%s</str
 
 #: admin~admin.project.rules.list.error.loading.html
 msgctxt "admin~admin.project.rules.list.error.loading.html"
-msgid ""
-"Light coral if the project takes longer than <strong>%s</strong> seconds to "
-"load."
-msgstr "Coral deschis, dacă încărcarea proiectului durează mai mult de <strong>%s</strong> secunde."
+msgid "The project takes longer than <strong>%s</strong> seconds to load."
+msgstr ""
 
 #: admin~admin.project.rules.list.error.memory.html
 msgctxt "admin~admin.project.rules.list.error.memory.html"
 msgid ""
-"Light coral if the project takes more than <strong>%s</strong> Mo of the "
-"server memory to load."
-msgstr "Coral deschis, dacă proiectul ocupă mai mult de <strong>%s</strong> MB."
+"The project takes more than <strong>%s</strong> Mo of the server memory to "
+"load."
+msgstr ""
 
 #: admin~admin.project.rules.list.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
-msgid ""
-"Light yellow if the count is greater or equal to <strong>%s</strong> layers."
-msgstr "Galben deschis, dacă cantitatea este mai mare sau egală cu <strong>%s</strong> straturi."
+msgid "The count is greater or equal to <strong>%s</strong> layers."
+msgstr ""
 
 #: admin~admin.project.rules.list.introduction
 msgctxt "admin~admin.project.rules.list.introduction"
@@ -1348,50 +1343,45 @@ msgstr "Explicații despre culorile utilizate în tabelul de mai sus"
 #: admin~admin.project.rules.list.invalid.datasource.html
 msgctxt "admin~admin.project.rules.list.invalid.datasource.html"
 msgid ""
-"Light coral if the project has some <strong>invalid layer "
-"datasource</strong> when QGIS server loaded the project."
-msgstr "Coral deschis, dacă proiectul are o <strong>sursă de date nevalidă</strong> când serverul QGIS a încărcat proiectul."
+"The project has some <strong>invalid layer datasource</strong> when QGIS "
+"server loaded the project."
+msgstr ""
 
-#: admin~admin.project.rules.list.qgis.version.light.coral.html
-msgctxt "admin~admin.project.rules.list.qgis.version.light.coral.html"
+#: admin~admin.project.rules.list.qgis.version.error.html
+msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
 msgid ""
-"Light coral if the QGIS desktop version <strong>is above</strong> QGIS "
-"server. Current value greater or equal than <strong>%s</strong>."
-msgstr "Coral deschis, dacă versiunea QGIS desktop <strong>este mai mare</strong> decât cea a serverului QGIS. Valoarea curentă este mai mare sau egală cu <strong>%s</strong>."
+"The desktop version <strong>is above</strong> QGIS server. Current value "
+"greater or equal than <strong>%s</strong>."
+msgstr ""
 
-#: admin~admin.project.rules.list.qgis.version.light.yellow.html
-msgctxt "admin~admin.project.rules.list.qgis.version.light.yellow.html"
+#: admin~admin.project.rules.list.qgis.version.warning.html
+msgctxt "admin~admin.project.rules.list.qgis.version.warning.html"
 msgid ""
-"Light yellow if the QGIS project version is too old compared to the current "
-"QGIS Server version. Current value less or equal to <strong>%s</strong>."
-msgstr "Galben deschis, dacă versiunea proiectului QGIS este prea veche în comparație cu versiunea curentă a serverului QGIS. Valoarea curentă este mai mică sau egală cu <strong>%s</strong>."
+"The project version is too old compared to the current QGIS Server version. "
+"Current value less or equal to <strong>%s</strong>."
+msgstr ""
 
 #: admin~admin.project.rules.list.target.version.html
 msgctxt "admin~admin.project.rules.list.target.version.html"
-msgid ""
-"Light yellow if the project is designed for Lizmap Web Client "
-"<strong>%s</strong>."
-msgstr "Galben deschis dacă proiectul este destinat pentru Lizmap Web Client <strong>%s</strong>."
+msgid "The project is designed for Lizmap Web Client <strong>%s</strong>."
+msgstr ""
 
 #: admin~admin.project.rules.list.very.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
-msgid ""
-"Light coral if the count is greater or equal to <strong>%s</strong> layers."
-msgstr "Coral deschis, dacă cantitatea este mai mare sau egală cu <strong>%s</strong> straturi."
+msgid "The count is greater or equal to <strong>%s</strong> layers."
+msgstr ""
 
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
-msgid ""
-"Light yellow if the project takes longer than <strong>%s</strong> seconds to"
-" load."
-msgstr "Galben deschis, dacă încărcarea proiectului durează mai mult de <strong>%s</strong> secunde."
+msgid "The project takes longer than <strong>%s</strong> seconds to load."
+msgstr ""
 
 #: admin~admin.project.rules.list.warning.memory.html
 msgctxt "admin~admin.project.rules.list.warning.memory.html"
 msgid ""
-"Light yellow if the project takes more than <strong>%s</strong> Mo of the "
-"server memory to load."
-msgstr "Galben deschis, dacă proiectul ocupă mai mult de <strong>%s</strong> MB a memoriei serverului de încărcat."
+"The project takes more than <strong>%s</strong> Mo of the server memory to "
+"load."
+msgstr ""
 
 #: admin~admin.project.rules.list.warnings.html
 msgctxt "admin~admin.project.rules.list.warnings.html"
@@ -1511,7 +1501,7 @@ msgctxt ""
 msgid ""
 "The URL to reach the Lizmap API on QGIS Server is <strong>correct</strong> "
 "in your administration panel, if you use Py-QGIS-Server"
-msgstr ""
+msgstr "Adresa URL pentru a accesa API-ul Lizmap de pe serverul QGIS este <strong>corectă</strong> în panoul de administrare, dacă utilizezi Py-QGIS-Server"
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.url.html
 msgctxt ""
@@ -1793,13 +1783,13 @@ msgstr "Adăugare"
 
 #: admin~user.acl.form.add.to.group
 msgctxt "admin~user.acl.form.add.to.group"
-msgid "Add him to this group"
-msgstr "Adaugă-l în acest grup"
+msgid "Add the user to this group"
+msgstr "Adăugați utilizatorul la acest grup"
 
 #: admin~user.acl.form.remove.from.group
 msgctxt "admin~user.acl.form.remove.from.group"
-msgid "Remove him from this group"
-msgstr "Elimină-l din acest grup"
+msgid "Remove the user from this group"
+msgstr "Eliminați utilizatorul din acest grup"
 
 #: admin~user.acl.form.title
 msgctxt "admin~user.acl.form.title"
