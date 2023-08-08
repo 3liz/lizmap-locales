@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-29 15:03++0000\n"
+"POT-Creation-Date: 2023-08-07 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: Xan Vieiro <gallaecia6@gmail.com>, 2023\n"
 "Language-Team: Galician (https://app.transifex.com/3liz-1/teams/62012/gl/)\n"
@@ -1101,19 +1101,9 @@ msgctxt "admin~admin.menu.lizmap.logs.view.label"
 msgid "View logs"
 msgstr "Ver rexistros"
 
-#: admin~admin.menu.lizmap.project.image.label
-msgctxt "admin~admin.menu.lizmap.project.image.label"
-msgid "Image"
-msgstr ""
-
 #: admin~admin.menu.lizmap.project.list.label
 msgctxt "admin~admin.menu.lizmap.project.list.label"
 msgid "QGIS projects"
-msgstr ""
-
-#: admin~admin.menu.lizmap.project.sidebar.title.label
-msgctxt "admin~admin.menu.lizmap.project.sidebar.title.label"
-msgid "Project details"
 msgstr ""
 
 #: admin~admin.menu.lizmap.repositories.label
@@ -1134,6 +1124,14 @@ msgstr ""
 #: admin~admin.menu.server.label
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
+msgstr ""
+
+#: admin~admin.project.error.some.projects.not.displayed
+msgctxt "admin~admin.project.error.some.projects.not.displayed"
+msgid ""
+"Some projects, listed below, can not be displayed in the main web interface "
+"because they need an update from the GIS administrator. Please read the "
+"guidelines about colours by clicking on the button \"%s\"."
 msgstr ""
 
 #: admin~admin.project.list.column.authorized.groups.label
@@ -1165,6 +1163,11 @@ msgstr "Non"
 msgctxt "admin~admin.project.list.column.hidden.project.yes.label"
 msgid "Yes"
 msgstr "Si"
+
+#: admin~admin.project.list.column.inspection.file.time.label
+msgctxt "admin~admin.project.list.column.inspection.file.time.label"
+msgid "Inspection time"
+msgstr ""
 
 #: admin~admin.project.list.column.invalid.layers.count.error.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.error.label"
@@ -1307,6 +1310,11 @@ msgctxt "admin~admin.project.list.column.repository.label"
 msgid "Repository"
 msgstr "Repositorio"
 
+#: admin~admin.project.list.column.show.line.hidden.columns
+msgctxt "admin~admin.project.list.column.show.line.hidden.columns"
+msgid "Show/Hide the hidden columns"
+msgstr ""
+
 #: admin~admin.project.list.column.target.lizmap.version.label
 msgctxt "admin~admin.project.list.column.target.lizmap.version.label"
 msgid "Target version"
@@ -1333,12 +1341,20 @@ msgid ""
 " more up to date target version of Lizmap Web Client"
 msgstr ""
 
-#: admin~admin.project.not.displayed
-msgctxt "admin~admin.project.not.displayed"
+#: admin~admin.project.list.no.hidden.column.content
+msgctxt "admin~admin.project.list.no.hidden.column.content"
 msgid ""
-"Some projects, listed below, can not be displayed in the main web interface "
-"because they need an update from the GIS administrator. Please read the "
-"guidelines about colours under this table."
+"No extra content for this project in the following hidden table columns"
+msgstr ""
+
+#: admin~admin.project.modal.button.close
+msgctxt "admin~admin.project.modal.button.close"
+msgid "Close"
+msgstr "Pechar"
+
+#: admin~admin.project.modal.title
+msgctxt "admin~admin.project.modal.title"
+msgid "Table legend"
 msgstr ""
 
 #: admin~admin.project.rules.list.blocking.description
@@ -1356,15 +1372,13 @@ msgstr ""
 #: admin~admin.project.rules.list.blocking.target.html
 msgctxt "admin~admin.project.rules.list.blocking.target.html"
 msgid ""
-"Light coral if the project is designed for Lizmap Web Client version equal "
-"or less than <strong>%s</strong>."
+"The project is designed for Lizmap Web Client version equal or less than "
+"<strong>%s</strong>."
 msgstr ""
 
 #: admin~admin.project.rules.list.custom.projection
 msgctxt "admin~admin.project.rules.list.custom.projection"
-msgid ""
-"Light coral if the project is using a <strong>user-defined</strong> "
-"projection."
+msgid "The project is using a <strong>user-defined</strong> projection."
 msgstr ""
 
 #: admin~admin.project.rules.list.description.html
@@ -1377,22 +1391,19 @@ msgstr ""
 
 #: admin~admin.project.rules.list.error.loading.html
 msgctxt "admin~admin.project.rules.list.error.loading.html"
-msgid ""
-"Light coral if the project takes longer than <strong>%s</strong> seconds to "
-"load."
+msgid "The project takes longer than <strong>%s</strong> seconds to load."
 msgstr ""
 
 #: admin~admin.project.rules.list.error.memory.html
 msgctxt "admin~admin.project.rules.list.error.memory.html"
 msgid ""
-"Light coral if the project takes more than <strong>%s</strong> Mo of the "
-"server memory to load."
+"The project takes more than <strong>%s</strong> Mo of the server memory to "
+"load."
 msgstr ""
 
 #: admin~admin.project.rules.list.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
-msgid ""
-"Light yellow if the count is greater or equal to <strong>%s</strong> layers."
+msgid "The count is greater or equal to <strong>%s</strong> layers."
 msgstr ""
 
 #: admin~admin.project.rules.list.introduction
@@ -1403,49 +1414,44 @@ msgstr ""
 #: admin~admin.project.rules.list.invalid.datasource.html
 msgctxt "admin~admin.project.rules.list.invalid.datasource.html"
 msgid ""
-"Light coral if the project has some <strong>invalid layer "
-"datasource</strong> when QGIS server loaded the project."
+"The project has some <strong>invalid layer datasource</strong> when QGIS "
+"server loaded the project."
 msgstr ""
 
-#: admin~admin.project.rules.list.qgis.version.light.coral.html
-msgctxt "admin~admin.project.rules.list.qgis.version.light.coral.html"
+#: admin~admin.project.rules.list.qgis.version.error.html
+msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
 msgid ""
-"Light coral if the QGIS desktop version <strong>is above</strong> QGIS "
-"server. Current value greater or equal than <strong>%s</strong>."
+"The desktop version <strong>is above</strong> QGIS server. Current value "
+"greater or equal than <strong>%s</strong>."
 msgstr ""
 
-#: admin~admin.project.rules.list.qgis.version.light.yellow.html
-msgctxt "admin~admin.project.rules.list.qgis.version.light.yellow.html"
+#: admin~admin.project.rules.list.qgis.version.warning.html
+msgctxt "admin~admin.project.rules.list.qgis.version.warning.html"
 msgid ""
-"Light yellow if the QGIS project version is too old compared to the current "
-"QGIS Server version. Current value less or equal to <strong>%s</strong>."
+"The project version is too old compared to the current QGIS Server version. "
+"Current value less or equal to <strong>%s</strong>."
 msgstr ""
 
 #: admin~admin.project.rules.list.target.version.html
 msgctxt "admin~admin.project.rules.list.target.version.html"
-msgid ""
-"Light yellow if the project is designed for Lizmap Web Client "
-"<strong>%s</strong>."
+msgid "The project is designed for Lizmap Web Client <strong>%s</strong>."
 msgstr ""
 
 #: admin~admin.project.rules.list.very.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
-msgid ""
-"Light coral if the count is greater or equal to <strong>%s</strong> layers."
+msgid "The count is greater or equal to <strong>%s</strong> layers."
 msgstr ""
 
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
-msgid ""
-"Light yellow if the project takes longer than <strong>%s</strong> seconds to"
-" load."
+msgid "The project takes longer than <strong>%s</strong> seconds to load."
 msgstr ""
 
 #: admin~admin.project.rules.list.warning.memory.html
 msgctxt "admin~admin.project.rules.list.warning.memory.html"
 msgid ""
-"Light yellow if the project takes more than <strong>%s</strong> Mo of the "
-"server memory to load."
+"The project takes more than <strong>%s</strong> Mo of the server memory to "
+"load."
 msgstr ""
 
 #: admin~admin.project.rules.list.warnings.html
@@ -1558,6 +1564,14 @@ msgctxt ""
 msgid ""
 "The <strong>Lizmap QGIS server plugin</strong> is installed on the server "
 "with a version above or equal to <strong>%s</strong>"
+msgstr ""
+
+#: admin~admin.server.information.qgis.error.fetching.information.qgis.lizmap.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.qgis.lizmap.html"
+msgid ""
+"The URL to reach the Lizmap API on QGIS Server is <strong>correct</strong> "
+"in your administration panel, if you use Py-QGIS-Server"
 msgstr ""
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.url.html
@@ -1835,13 +1849,13 @@ msgstr "Engadir"
 
 #: admin~user.acl.form.add.to.group
 msgctxt "admin~user.acl.form.add.to.group"
-msgid "Add him to this group"
-msgstr "Engadilo a este grupo"
+msgid "Add the user to this group"
+msgstr "Engadir o usuario a este grupo"
 
 #: admin~user.acl.form.remove.from.group
 msgctxt "admin~user.acl.form.remove.from.group"
-msgid "Remove him from this group"
-msgstr "Eliminalo deste grupo"
+msgid "Remove the user from this group"
+msgstr "Eliminar o usuario deste grupo"
 
 #: admin~user.acl.form.title
 msgctxt "admin~user.acl.form.title"

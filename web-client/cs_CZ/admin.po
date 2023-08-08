@@ -1,16 +1,16 @@
 # 
 # Translators:
 # Laurent Jouanneau <dev@ljouanneau.com>, 2022
-# Jiří Sobotík <jiri.sobotik@centrum.cz>, 2022
 # Jiří Podhorecký, 2023
+# Jiří Sobotík <jiri.sobotik@centrum.cz>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-29 15:03++0000\n"
+"POT-Creation-Date: 2023-08-07 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
-"Last-Translator: Jiří Podhorecký, 2023\n"
+"Last-Translator: Jiří Sobotík <jiri.sobotik@centrum.cz>, 2023\n"
 "Language-Team: Czech (https://app.transifex.com/3liz-1/teams/62012/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1125,20 +1125,10 @@ msgctxt "admin~admin.menu.lizmap.logs.view.label"
 msgid "View logs"
 msgstr "Zobrazit logy"
 
-#: admin~admin.menu.lizmap.project.image.label
-msgctxt "admin~admin.menu.lizmap.project.image.label"
-msgid "Image"
-msgstr "Obraz"
-
 #: admin~admin.menu.lizmap.project.list.label
 msgctxt "admin~admin.menu.lizmap.project.list.label"
 msgid "QGIS projects"
 msgstr "QGIS projekty"
-
-#: admin~admin.menu.lizmap.project.sidebar.title.label
-msgctxt "admin~admin.menu.lizmap.project.sidebar.title.label"
-msgid "Project details"
-msgstr "Detaily projektu"
 
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
@@ -1159,6 +1149,14 @@ msgstr "Informace o serveru"
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
 msgstr "Server"
+
+#: admin~admin.project.error.some.projects.not.displayed
+msgctxt "admin~admin.project.error.some.projects.not.displayed"
+msgid ""
+"Some projects, listed below, can not be displayed in the main web interface "
+"because they need an update from the GIS administrator. Please read the "
+"guidelines about colours by clicking on the button \"%s\"."
+msgstr ""
 
 #: admin~admin.project.list.column.authorized.groups.label
 msgctxt "admin~admin.project.list.column.authorized.groups.label"
@@ -1189,6 +1187,11 @@ msgstr "Ne"
 msgctxt "admin~admin.project.list.column.hidden.project.yes.label"
 msgid "Yes"
 msgstr "Ano"
+
+#: admin~admin.project.list.column.inspection.file.time.label
+msgctxt "admin~admin.project.list.column.inspection.file.time.label"
+msgid "Inspection time"
+msgstr ""
 
 #: admin~admin.project.list.column.invalid.layers.count.error.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.error.label"
@@ -1342,6 +1345,11 @@ msgctxt "admin~admin.project.list.column.repository.label"
 msgid "Repository"
 msgstr "Repozitáře"
 
+#: admin~admin.project.list.column.show.line.hidden.columns
+msgctxt "admin~admin.project.list.column.show.line.hidden.columns"
+msgid "Show/Hide the hidden columns"
+msgstr ""
+
 #: admin~admin.project.list.column.target.lizmap.version.label
 msgctxt "admin~admin.project.list.column.target.lizmap.version.label"
 msgid "Target version"
@@ -1374,16 +1382,21 @@ msgstr ""
 "Otevřete projekt na ploše QGIS s aktualizovanou verzí zásuvného modulu a "
 "aktuálnější cílovou verzí Lizmap Web Client."
 
-#: admin~admin.project.not.displayed
-msgctxt "admin~admin.project.not.displayed"
+#: admin~admin.project.list.no.hidden.column.content
+msgctxt "admin~admin.project.list.no.hidden.column.content"
 msgid ""
-"Some projects, listed below, can not be displayed in the main web interface "
-"because they need an update from the GIS administrator. Please read the "
-"guidelines about colours under this table."
+"No extra content for this project in the following hidden table columns"
 msgstr ""
-"Některé projekty, uvedené níže, nelze zobrazit v hlavním webovém rozhraní, "
-"protože vyžadují aktualizaci od správce GIS. Přečtěte si prosím pokyny "
-"týkající se barev pod touto tabulkou."
+
+#: admin~admin.project.modal.button.close
+msgctxt "admin~admin.project.modal.button.close"
+msgid "Close"
+msgstr "Zavřít"
+
+#: admin~admin.project.modal.title
+msgctxt "admin~admin.project.modal.title"
+msgid "Table legend"
+msgstr ""
 
 #: admin~admin.project.rules.list.blocking.description
 msgctxt "admin~admin.project.rules.list.blocking.description"
@@ -1401,20 +1414,16 @@ msgstr "<strong>Zablokování</strong>, tyto projekty již nejsou viditelné :"
 #: admin~admin.project.rules.list.blocking.target.html
 msgctxt "admin~admin.project.rules.list.blocking.target.html"
 msgid ""
-"Light coral if the project is designed for Lizmap Web Client version equal "
-"or less than <strong>%s</strong>."
+"The project is designed for Lizmap Web Client version equal or less than "
+"<strong>%s</strong>."
 msgstr ""
-"Light coral, pokud je projekt určen pro verzi Lizmap Web Client rovnou nebo "
-"nižší než <strong>%s</strong>."
+"Projekt je určen pro Lizmap Web Client verze rovné nebo nižší než "
+"<strong>%s</strong>."
 
 #: admin~admin.project.rules.list.custom.projection
 msgctxt "admin~admin.project.rules.list.custom.projection"
-msgid ""
-"Light coral if the project is using a <strong>user-defined</strong> "
-"projection."
-msgstr ""
-"Light coral, pokud projekt používá <strong>uživatelsky definovanou</strong> "
-"projekci."
+msgid "The project is using a <strong>user-defined</strong> projection."
+msgstr "Projekt používá projekci <strong>definovanou uživatelem</strong>."
 
 #: admin~admin.project.rules.list.description.html
 msgctxt "admin~admin.project.rules.list.description.html"
@@ -1429,28 +1438,20 @@ msgstr ""
 
 #: admin~admin.project.rules.list.error.loading.html
 msgctxt "admin~admin.project.rules.list.error.loading.html"
-msgid ""
-"Light coral if the project takes longer than <strong>%s</strong> seconds to "
-"load."
-msgstr ""
-"Light coral, pokud načtení projektu trvá déle než <strong>%s</strong> "
-"sekund."
+msgid "The project takes longer than <strong>%s</strong> seconds to load."
+msgstr "Načtení projektu trvá déle než <strong>%s</strong> sekund."
 
 #: admin~admin.project.rules.list.error.memory.html
 msgctxt "admin~admin.project.rules.list.error.memory.html"
 msgid ""
-"Light coral if the project takes more than <strong>%s</strong> Mo of the "
-"server memory to load."
-msgstr ""
-"Light coral, pokud projekt zabere více než <strong>%s</strong> Mo paměti "
-"serveru."
+"The project takes more than <strong>%s</strong> Mo of the server memory to "
+"load."
+msgstr "Projekt zabírá více než <strong>%s</strong> Mo paměti serveru."
 
 #: admin~admin.project.rules.list.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
-msgid ""
-"Light yellow if the count is greater or equal to <strong>%s</strong> layers."
-msgstr ""
-"Světle žlutá, pokud je počet větší nebo roven <strong%s></strong> vrstev."
+msgid "The count is greater or equal to <strong>%s</strong> layers."
+msgstr "Počet je větší nebo roven <strong>%s</strong> vrstvám."
 
 #: admin~admin.project.rules.list.introduction
 msgctxt "admin~admin.project.rules.list.introduction"
@@ -1460,65 +1461,51 @@ msgstr "Vysvětlení k barvám použitým ve výše uvedené tabulce"
 #: admin~admin.project.rules.list.invalid.datasource.html
 msgctxt "admin~admin.project.rules.list.invalid.datasource.html"
 msgid ""
-"Light coral if the project has some <strong>invalid layer "
-"datasource</strong> when QGIS server loaded the project."
+"The project has some <strong>invalid layer datasource</strong> when QGIS "
+"server loaded the project."
 msgstr ""
-"Světle růžová, pokud má projekt při načítání serveru QGIS nějaký "
-"<strong>neplatný datový zdroj vrstvy</strong>."
+"Projekt má při načtení serveru QGIS nějaký <strong>neplatný datový zdroj "
+"vrstvy</strong>."
 
-#: admin~admin.project.rules.list.qgis.version.light.coral.html
-msgctxt "admin~admin.project.rules.list.qgis.version.light.coral.html"
+#: admin~admin.project.rules.list.qgis.version.error.html
+msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
 msgid ""
-"Light coral if the QGIS desktop version <strong>is above</strong> QGIS "
-"server. Current value greater or equal than <strong>%s</strong>."
+"The desktop version <strong>is above</strong> QGIS server. Current value "
+"greater or equal than <strong>%s</strong>."
 msgstr ""
-"Světle růžová, pokud je verze QGIS pro stolní počítače "
-"<strong>vyšší</strong> než server QGIS. Aktuální hodnota větší nebo rovna "
-"<strong>%s</strong>."
+"Verze pro stolní počítače <strong>je vyšší než</strong> server QGIS. "
+"Aktuální hodnota je větší nebo rovna <strong>%s</strong>."
 
-#: admin~admin.project.rules.list.qgis.version.light.yellow.html
-msgctxt "admin~admin.project.rules.list.qgis.version.light.yellow.html"
+#: admin~admin.project.rules.list.qgis.version.warning.html
+msgctxt "admin~admin.project.rules.list.qgis.version.warning.html"
 msgid ""
-"Light yellow if the QGIS project version is too old compared to the current "
-"QGIS Server version. Current value less or equal to <strong>%s</strong>."
+"The project version is too old compared to the current QGIS Server version. "
+"Current value less or equal to <strong>%s</strong>."
 msgstr ""
-"Světle žlutá, pokud je verze projektu QGIS příliš stará ve srovnání s "
-"aktuální verzí serveru QGIS. Aktuální hodnota menší nebo rovna "
-"<strong>%s</strong>."
+"Verze projektu je příliš stará ve srovnání s aktuální verzí serveru QGIS. "
+"Aktuální hodnota je menší nebo rovna <strong>%s</strong>."
 
 #: admin~admin.project.rules.list.target.version.html
 msgctxt "admin~admin.project.rules.list.target.version.html"
-msgid ""
-"Light yellow if the project is designed for Lizmap Web Client "
-"<strong>%s</strong>."
-msgstr ""
-"Světle žlutá, pokud je projekt určen pro Lizmap Web Client "
-"<strong>%s</strong>."
+msgid "The project is designed for Lizmap Web Client <strong>%s</strong>."
+msgstr "Projekt je určen pro Lizmap Web Client <strong>%s</strong>."
 
 #: admin~admin.project.rules.list.very.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
-msgid ""
-"Light coral if the count is greater or equal to <strong>%s</strong> layers."
-msgstr ""
-"Světle růžová, pokud je počet větší nebo roven <strong>%s</strong> vrstev."
+msgid "The count is greater or equal to <strong>%s</strong> layers."
+msgstr "Počet je větší nebo roven <strong>%s</strong> vrstvám."
 
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
-msgid ""
-"Light yellow if the project takes longer than <strong>%s</strong> seconds to"
-" load."
-msgstr ""
-"Světle žlutá, pokud načtení projektu trvá déle než <strong>%s</strong> "
-"sekund."
+msgid "The project takes longer than <strong>%s</strong> seconds to load."
+msgstr "Načtení projektu trvá déle než <strong>%s</strong> sekund."
 
 #: admin~admin.project.rules.list.warning.memory.html
 msgctxt "admin~admin.project.rules.list.warning.memory.html"
 msgid ""
-"Light yellow if the project takes more than <strong>%s</strong> Mo of the "
-"server memory to load."
-msgstr ""
-"Svítí žlutě, pokud načtení projektu zabere více než <strong>%s</strong> Mo "
-"paměti serveru."
+"The project takes more than <strong>%s</strong> Mo of the server memory to "
+"load."
+msgstr "Projekt zabírá více než <strong>%s</strong> Mo paměti serveru."
 
 #: admin~admin.project.rules.list.warnings.html
 msgctxt "admin~admin.project.rules.list.warnings.html"
@@ -1647,6 +1634,16 @@ msgid ""
 msgstr ""
 "<strong>Serverový plugin Lizmap QGIS</strong> je nainstalován na serveru s "
 "verzí vyšší nebo rovnou <strong>%s</strong>"
+
+#: admin~admin.server.information.qgis.error.fetching.information.qgis.lizmap.html
+msgctxt ""
+"admin~admin.server.information.qgis.error.fetching.information.qgis.lizmap.html"
+msgid ""
+"The URL to reach the Lizmap API on QGIS Server is <strong>correct</strong> "
+"in your administration panel, if you use Py-QGIS-Server"
+msgstr ""
+"Pokud používáte Py-QGIS-Server, je adresa URL pro přístup k rozhraní Lizmap "
+"API na serveru QGIS v panelu administrace <strong>správná</strong>."
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.url.html
 msgctxt ""
@@ -1935,13 +1932,13 @@ msgstr "Nový"
 
 #: admin~user.acl.form.add.to.group
 msgctxt "admin~user.acl.form.add.to.group"
-msgid "Add him to this group"
-msgstr "Přidat do skupiny"
+msgid "Add the user to this group"
+msgstr "Přidat uživatele do této skupiny"
 
 #: admin~user.acl.form.remove.from.group
 msgctxt "admin~user.acl.form.remove.from.group"
-msgid "Remove him from this group"
-msgstr "Smazat ze skupiny"
+msgid "Remove the user from this group"
+msgstr "Odstranit uživatele z této skupiny"
 
 #: admin~user.acl.form.title
 msgctxt "admin~user.acl.form.title"
