@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-24 15:03++0000\n"
+"POT-Creation-Date: 2023-08-28 08:14++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2022-2023\n"
 "Language-Team: French (http://app.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
@@ -186,7 +186,7 @@ msgstr "Projets"
 
 #: admin~admin.configuration.services.section.qgis.label
 msgctxt "admin~admin.configuration.services.section.qgis.label"
-msgid "Qgis server"
+msgid "QGIS server"
 msgstr "QGIS serveur"
 
 #: admin~admin.configuration.services.section.system.label
@@ -242,7 +242,7 @@ msgstr "Modifier le répertoire"
 #: admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain
 msgctxt ""
 "admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain"
-msgid "Content is not a valid URL or a list of URL."
+msgid "Content is not a valid URL or a list of URLs."
 msgstr "Le contenu n'est pas une URL valide ou une liste d'URL."
 
 #: admin~admin.form.admin_section.message.configure.rights
@@ -267,7 +267,7 @@ msgstr "(%s groupe(s) concerné(s))"
 
 #: admin~admin.form.admin_section.message.data.saved
 msgctxt "admin~admin.form.admin_section.message.data.saved"
-msgid "The repository data have been saved."
+msgid "The repository data has been saved."
 msgstr "Les données du répertoire ont été enregistrées."
 
 #: admin~admin.form.admin_section.message.path.not_authorized
@@ -309,15 +309,15 @@ msgstr "Autoriser les thèmes/codes javascript pour ce répertoire"
 #: admin~admin.form.admin_section.repository.help
 msgctxt "admin~admin.form.admin_section.repository.help"
 msgid ""
-"Repository unique identifier, must only contain characters between a-z and "
-"0-9 (no space, no special character). This identifier can not be edited "
+"Repository unique identifier, it must only contain characters between a-z "
+"and 0-9 (no space, no special character). This identifier can not be edited "
 "later."
 msgstr "Identifiant unique du répertoire. Il doit contenir uniquement des caractères entre a-z et 0-9 (pas d'espace ou de caractère spéciale). Cet identifiant ne peut pas être changé plus tard."
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
-msgid "Id"
-msgstr "Identifiant"
+msgid "ID"
+msgstr "ID"
 
 #: admin~admin.form.admin_section.repository.label.help
 msgctxt "admin~admin.form.admin_section.repository.label.help"
@@ -422,9 +422,9 @@ msgstr "Durée de vie du cache (s)"
 #: admin~admin.form.admin_services.cacheRedisDb.help
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
-"Redis database index: integer >= 0 , optional (used if Redis is chosen for "
-"the cache storage)"
-msgstr "Redis database index : entier >= 0 , optionnel (utilisé seulement si Redis est choisi pour stocker le cache)"
+"Redis database index: integer ≥ 0, optional (used if Redis is chosen for the"
+" cache storage)"
+msgstr "Index de la base de données Redis : entier ≥ 0 , optionnel (utilisé seulement si Redis est choisi pour stocker le cache)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -490,8 +490,8 @@ msgstr "Redis"
 
 #: admin~admin.form.admin_services.cacheStorageType.sqlite.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.sqlite.label"
-msgid "Sqlite database"
-msgstr "Bases de donnée Sqlite"
+msgid "SQLite database"
+msgstr "Bases de donnée SQLite"
 
 #: admin~admin.form.admin_services.debugMode.0.label
 msgctxt "admin~admin.form.admin_services.debugMode.0.label"
@@ -537,8 +537,8 @@ msgstr "Il n'y a pas d'adresse email d'expéditeur configurée dans Lizmap. Des 
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
 msgid ""
-"Be sure the web server is able to send emails, or setup SMTP parameters into"
-" the configuration files of Lizmap."
+"Be sure the web server is able to send emails or setup SMTP parameters into "
+"the configuration files of Lizmap."
 msgstr "Soyez sûr que le serveur web peut envoyer des emails, ou configurez les paramètres SMTP dans les fichiers de configuration de Lizmap."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
@@ -591,7 +591,7 @@ msgstr "Les données ont été enregistrées."
 
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
 msgctxt "admin~admin.form.admin_services.message.wmsPublicUrlList.wrong"
-msgid "The WMS subdomain URLs structure is not valide."
+msgid "The WMS subdomain URLs structure is not valid."
 msgstr "La structure des URLs WMS de sous-domaines n'est pas valide."
 
 #: admin~admin.form.admin_services.no.label
@@ -626,7 +626,7 @@ msgstr "Version de QGIS Serveur"
 
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
-msgid "Does the server use relative path from root folder?"
+msgid "Does the server use a relative path from the root folder?"
 msgstr "Le serveur QGIS utilise-t-il des chemins relatifs au dossier racine ?"
 
 #: admin~admin.form.admin_services.requestProxy.disabled
@@ -696,8 +696,8 @@ msgstr "Enregistrer"
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.help"
 msgid ""
 "Images uploaded when editing features will have this maximum width and "
-"height (in pixels). A recommended value is 1920 (HD size). Maximum value is "
-"3840 and minimum value is 480."
+"height (in pixels). A recommended value is 1920 (HD size). The maximum value"
+" is 3840 and the minimum value is 480."
 msgstr "Les images téléversées lors de l'édition des éléments SIG auront cette largeur et hauteur maximale (en pixel). Une valeur recommandée est 1920 (taille HD). Valeur maximum 3840, et minimum 480."
 
 #: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label
@@ -768,8 +768,8 @@ msgstr "Entête - Couleur de fond"
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
-msgid "The image to be used for the header background (400ko Maximum)."
-msgstr "L'image à utiliser comme arrière-plan de l'entête (400ko Maximum)."
+msgid "The image to be used for the header background (400 ko maximum)."
+msgstr "L'image à utiliser comme arrière-plan de l'entête (400 ko maximum)."
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
@@ -778,8 +778,8 @@ msgstr "En-tête - image d'arrière plan"
 
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
-msgid "The image to be used for the header logo (200ko Maximum)."
-msgstr "Image utilisée pour le logo de l'entête (200ko Maximum)."
+msgid "The image to be used for the header logo (200 ko maximum)."
+msgstr "Image utilisée pour le logo de l'entête (200 ko maximum)."
 
 #: admin~admin.form.admin_theme.headerLogo.label
 msgctxt "admin~admin.form.admin_theme.headerLogo.label"
@@ -891,13 +891,13 @@ msgstr "Logs détaillés"
 
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
-msgid "A feature has been deleted by a user."
-msgstr "Un objet a été supprimé par un utilisateur."
+msgid "A user has deleted a feature."
+msgstr "Un utilisateur a supprimé une entité."
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
-msgid "A feature has been created or modified by a user."
-msgstr "Un objet a été créé ou modifié par un utilisateur."
+msgid "A user has created or modified a feature."
+msgstr "Un utilisateur a crée ou supprimé une entité."
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
@@ -946,7 +946,7 @@ msgstr "Écraser le fichier de logs d'erreurs. "
 
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
-msgid "Are you sure you want to erase the error log file ?"
+msgid "Are you sure you want to erase the error log file?"
 msgstr "Êtes-vous sûr de vouloir écraser le fichier de logs d'erreurs ?"
 
 #: admin~admin.logs.error.file.erase.ok
@@ -1051,20 +1051,10 @@ msgctxt "admin~admin.menu.lizmap.logs.view.label"
 msgid "View logs"
 msgstr "Voir les logs"
 
-#: admin~admin.menu.lizmap.project.image.label
-msgctxt "admin~admin.menu.lizmap.project.image.label"
-msgid "Image"
-msgstr "Image"
-
 #: admin~admin.menu.lizmap.project.list.label
 msgctxt "admin~admin.menu.lizmap.project.list.label"
 msgid "QGIS projects"
 msgstr "Projets QGIS"
-
-#: admin~admin.menu.lizmap.project.sidebar.title.label
-msgctxt "admin~admin.menu.lizmap.project.sidebar.title.label"
-msgid "Project details"
-msgstr "Détail du projet"
 
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
@@ -1085,6 +1075,14 @@ msgstr "Informations serveur"
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
 msgstr "Serveur"
+
+#: admin~admin.project.error.some.projects.not.displayed
+msgctxt "admin~admin.project.error.some.projects.not.displayed"
+msgid ""
+"Some projects, listed below, can not be displayed in the main web interface "
+"because they need an update from the GIS administrator. Please read the "
+"guidelines about colours by clicking on the button \"%s\"."
+msgstr "Quelques projets, listés ci-dessous, ne peuvent pas être consultés dans l'interface principale parce qu'ils nécessitent une mise à jour de la part de l'administrateur SIG. Veuillez lire les règles à propos des couleurs en cliquant sur le bouton \"%s\"."
 
 #: admin~admin.project.list.column.authorized.groups.label
 msgctxt "admin~admin.project.list.column.authorized.groups.label"
@@ -1116,13 +1114,18 @@ msgctxt "admin~admin.project.list.column.hidden.project.yes.label"
 msgid "Yes"
 msgstr "Oui"
 
+#: admin~admin.project.list.column.inspection.file.time.label
+msgctxt "admin~admin.project.list.column.inspection.file.time.label"
+msgid "Inspection time"
+msgstr "Date/heure de l'inspection"
+
 #: admin~admin.project.list.column.invalid.layers.count.error.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.error.label"
 msgid ""
-"Some layers cannot be read by QGIS. Please check that the server can access the layer data. \n"
-"* For file based layers, the path must be accessible.\n"
+"QGIS cannot read some layers. Please check that the server can access the layer data. \n"
+"* For file based layers, the path must be accessible. \n"
 "* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
-msgstr "Quelques couches ne peuvent pas être lues par QGIS. Veuillez vérifier que le serveur puisse accéder aux données des couches.\n* Pour les couches type fichier, le chemin doit être accessible.\n* Pour les couches type PostgreSQL, le serveur Lizmap doit pouvoir se connecter à la base de données."
+msgstr "QGIS ne peut pas lire quelques couches. Veuillez vérifier que le serveur puisse accéder aux données des couches.\n* Pour les couches type fichier, le chemin doit être accessible.\n* Pour les couches type PostgreSQL, le serveur Lizmap doit pouvoir se connecter à la base de données."
 
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
@@ -1257,6 +1260,11 @@ msgctxt "admin~admin.project.list.column.repository.label"
 msgid "Repository"
 msgstr "Répertoires"
 
+#: admin~admin.project.list.column.show.line.hidden.columns
+msgctxt "admin~admin.project.list.column.show.line.hidden.columns"
+msgid "Show/Hide the hidden columns"
+msgstr "Afficher/masquer les colonnes"
+
 #: admin~admin.project.list.column.target.lizmap.version.label
 msgctxt "admin~admin.project.list.column.target.lizmap.version.label"
 msgid "Target version"
@@ -1271,25 +1279,32 @@ msgstr "Version cible du client web Lizmap :"
 msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
 msgid ""
 "This project can not be displayed in the landing page. Open the project in "
-"QGIS desktop with an updated version of the plugin and a more up to date "
-"target version of Lizmap Web Client"
-msgstr "Ce projet ne pas être affiché dans la page d’accueil. Ouvrez le projet dans QGIS bureautique avec une version à jour de l'extension Lizmap et version cible de Lizmap Web Client plus à jour."
+"QGIS desktop with an updated version of the plugin"
+msgstr "Ce projet ne pas être affiché dans la page d’accueil. Ouvrez le projet dans QGIS bureautique avec une version à jour de l'extension Lizmap."
 
 #: admin~admin.project.list.column.update.soon.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.soon.in.qgis.desktop"
 msgid ""
-"In a next version of Lizmap Web Client, this project won't be displayed. "
-"Open the project in QGIS desktop with an updated version of the plugin and a"
-" more up to date target version of Lizmap Web Client"
-msgstr "Dans la prochaine version de Lizmap Web Client, ce projet ne sera pas affiché. Ouvrez le projet dans QGIS Bureautique avec une version à jour de l'extension Lizmap et une version cible de Lizmap Web Client plus à jour."
+"In the next version of Lizmap Web Client, this project won't be displayed "
+"because it has been designed for a too old version of Lizmap Web Client. "
+"Open the project in QGIS desktop with an updated version of the plugin"
+msgstr "Dans la prochaine version de Lizmap Web Client, ce projet ne sera pas affichée dans la page d’accueil parce que le projet a été conçu pour une ancienne version de Lizmap Web Client. Ouvrez ce projet dans QGIS bureautique avec une version à jour de l'extension."
 
-#: admin~admin.project.not.displayed
-msgctxt "admin~admin.project.not.displayed"
+#: admin~admin.project.list.no.hidden.column.content
+msgctxt "admin~admin.project.list.no.hidden.column.content"
 msgid ""
-"Some projects, listed below, can not be displayed in the main web interface "
-"because they need an update from the GIS administrator. Please read the "
-"guidelines about colours under this table."
-msgstr "Quelques projets, listés ci-dessous, ne peuvent pas être consultés dans l'interface principale parce qu'ils nécessitent une mise à jour de la part de l'administrateur SIG. Veuillez lire les règles à propos des couleurs sous ce tableau."
+"No extra content for this project in the following hidden table columns"
+msgstr "Pas de contenu supplémentaire pour ce projet dans les colonnes suivantes du tableau"
+
+#: admin~admin.project.modal.button.close
+msgctxt "admin~admin.project.modal.button.close"
+msgid "Close"
+msgstr "Fermer"
+
+#: admin~admin.project.modal.title
+msgctxt "admin~admin.project.modal.title"
+msgid "Table legend"
+msgstr "Légende du tableau"
 
 #: admin~admin.project.rules.list.blocking.description
 msgctxt "admin~admin.project.rules.list.blocking.description"
@@ -1306,7 +1321,7 @@ msgstr "<strong>Bloquant</strong>, ces projets ne sont plus consultables désorm
 #: admin~admin.project.rules.list.blocking.target.html
 msgctxt "admin~admin.project.rules.list.blocking.target.html"
 msgid ""
-"The project is designed for Lizmap Web Client version equal or less than "
+"The project is designed for a Lizmap Web Client version equal or less than "
 "<strong>%s</strong>."
 msgstr "Le projet est destiné à une version cible de Lizmap Web Client égale ou inférieure à <strong>%s</strong>."
 
@@ -1453,7 +1468,7 @@ msgstr "Nous ne pouvons avoir les détails sur l'installation de votre serveur Q
 #: admin~admin.server.information.qgis.error.fetching.information.description
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.description"
-msgid "You must check that the followings steps are done :"
+msgid "You must check that the following steps are done :"
 msgstr "Vous devez vérifier les points suivants :"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
@@ -1601,14 +1616,9 @@ msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Nombre"
 
-#: admin~admin.server.information.webdav.url
-msgctxt "admin~admin.server.information.webdav.url"
-msgid "URL of the WebDAV server"
-msgstr "URL du serveur WebDAV"
-
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
-msgid "Remove this image (and use default one) ?"
+msgid "Remove this image (and use the default one)?"
 msgstr "Supprimer l'image (et retrouver celle par défaut) ?"
 
 #: admin~admin.theme.button.remove.logo.label

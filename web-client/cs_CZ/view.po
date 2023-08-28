@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-10 16:01++0200\n"
+"POT-Creation-Date: 2023-08-28 08:14++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Jiří Podhorecký, 2019-2020\n"
 "Language-Team: Czech (http://app.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
@@ -48,10 +48,15 @@ msgctxt "view~default.header.search.toggleKeywordsTitle.title"
 msgid "Toggle keywords/title search."
 msgstr "Přepnout vyhledávání klíčových slov / názvů."
 
-#: view~default.home.title
-msgctxt "view~default.home.title"
+#: view~default.home.menu
+msgctxt "view~default.home.menu"
 msgid "Home"
 msgstr "Úvodní strana"
+
+#: view~default.home.title
+msgctxt "view~default.home.title"
+msgid "Home page"
+msgstr ""
 
 #: view~default.project.abstract.label
 msgctxt "view~default.project.abstract.label"
@@ -112,8 +117,8 @@ msgstr "Přístup do repozitáře odepřen"
 
 #: view~default.repository.list.title
 msgctxt "view~default.repository.list.title"
-msgid "Projects"
-msgstr "Projekty"
+msgid "Repository page"
+msgstr ""
 
 #: view~default.server.information.error
 msgctxt "view~default.server.information.error"
@@ -121,6 +126,61 @@ msgid ""
 "This map cannot be displayed. Please contact the server administrator to "
 "check the server information panel."
 msgstr "Tuto mapu nelze zobrazit. Kontaktujte prosím správce serveru a zkontrolujte informační panel serveru."
+
+#: view~default.server.information.error.admin
+msgctxt "view~default.server.information.error.admin"
+msgid "Maps cannot be displayed. Please check the server information panel."
+msgstr "Mapy nelze zobrazit. Zkontrolujte informační panel serveru."
+
+#: view~dictionnary.action.choose
+msgctxt "view~dictionnary.action.choose"
+msgid "Choose an action to run"
+msgstr "Vyberte akci, kterou chcete spustit"
+
+#: view~dictionnary.action.close
+msgctxt "view~dictionnary.action.close"
+msgid "Close"
+msgstr "Zavřít"
+
+#: view~dictionnary.action.form.button.deactivate.help
+msgctxt "view~dictionnary.action.form.button.deactivate.help"
+msgid "Deactivate the active action"
+msgstr "Deaktivovat aktivní akci"
+
+#: view~dictionnary.action.form.button.deactivate.label
+msgctxt "view~dictionnary.action.form.button.deactivate.label"
+msgid "Deactivate"
+msgstr "Deaktivace"
+
+#: view~dictionnary.action.form.button.run.help
+msgctxt "view~dictionnary.action.form.button.run.help"
+msgid "Run the selected action"
+msgstr "Spustit vybranou akci"
+
+#: view~dictionnary.action.form.button.run.label
+msgctxt "view~dictionnary.action.form.button.run.label"
+msgid "Run"
+msgstr "Spustit"
+
+#: view~dictionnary.action.form.select.emptyItem.label
+msgctxt "view~dictionnary.action.form.select.emptyItem.label"
+msgid "Choose an action"
+msgstr "Zvolte akci"
+
+#: view~dictionnary.action.form.select.help
+msgctxt "view~dictionnary.action.form.select.help"
+msgid "To run an action, select one in the list and click the Run button"
+msgstr "Chcete-li spustit akci, vyberte ji v seznamu a klikněte na tlačítko Spustit."
+
+#: view~dictionnary.action.form.select.warning
+msgctxt "view~dictionnary.action.form.select.warning"
+msgid "You must first select an action in the list"
+msgstr "Nejprve musíte vybrat akci v seznamu"
+
+#: view~dictionnary.action.title
+msgctxt "view~dictionnary.action.title"
+msgid "Actions"
+msgstr "Akce"
 
 #: view~dictionnary.atlas.navbar.title
 msgctxt "view~dictionnary.atlas.navbar.title"
@@ -351,8 +411,18 @@ msgstr "Minimalizuj"
 
 #: view~dictionnary.digitizing.confirme.erase
 msgctxt "view~dictionnary.digitizing.confirme.erase"
-msgid "Are you sure you want to delete all features?"
-msgstr "Opravdu chcete odstranit všechny funkce?"
+msgid "Are you sure you want to delete this feature?"
+msgstr ""
+
+#: view~dictionnary.digitizing.constraint.angle
+msgctxt "view~dictionnary.digitizing.constraint.angle"
+msgid "Angle"
+msgstr "Úhel"
+
+#: view~dictionnary.digitizing.constraint.distance
+msgctxt "view~dictionnary.digitizing.constraint.distance"
+msgid "Distance"
+msgstr "Vzdálenost"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -379,10 +449,15 @@ msgctxt "view~dictionnary.digitizing.toolbar.drawTools"
 msgid "Draw tools"
 msgstr "Kreslící nástroje"
 
+#: view~dictionnary.digitizing.toolbar.edit
+msgctxt "view~dictionnary.digitizing.toolbar.edit"
+msgid "Edit (hold \"Shift\" to select multiple features)"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
-msgid "Delete all features"
-msgstr "Smazat všechny funkce"
+msgid "Delete some features"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
@@ -398,6 +473,11 @@ msgstr "Importovat v GeoJSON, GPX nebo KML"
 msgctxt "view~dictionnary.digitizing.toolbar.line"
 msgid "Line"
 msgstr "Čára"
+
+#: view~dictionnary.digitizing.toolbar.measure
+msgctxt "view~dictionnary.digitizing.toolbar.measure"
+msgid "Measures"
+msgstr "Měření"
 
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
@@ -417,21 +497,37 @@ msgstr "Uložit kresbu v prohlížeči"
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
-"Are you sure you want to cancel edition? You will lose any modifications "
-"made on the currently edited object."
-msgstr "Opravdu chcete zrušit vydání? Ztratíte veškeré úpravy provedené na aktuálně upravovaném objektu."
+"Are you sure you want to cancel the edition? You will lose any modifications"
+" made on the currently edited object."
+msgstr ""
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
 msgstr "Opravdu chcete smazat vybranou funkci?"
 
+#: view~dictionnary.edition.confirm.launch.child.creation
+msgctxt "view~dictionnary.edition.confirm.launch.child.creation"
+msgid ""
+"You are about to create a new child object for the currently edited object. \n"
+"Please check before that you have already saved your changes.\n"
+"\n"
+"Do you wish to continue?"
+msgstr ""
+
+#: view~dictionnary.edition.confirm.paste
+msgctxt "view~dictionnary.edition.confirm.paste"
+msgid ""
+"Are you sure you want to replace the existing geometry with the one in the "
+"clipboard?"
+msgstr ""
+
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
 msgid ""
 "Are you sure you want to delete the existing geometry and redraw it from "
-"scratch ?"
-msgstr "Jste si jisti, že chcete odstranit stávající geometrii a překreslit ji od začátku?"
+"scratch?"
+msgstr ""
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -454,6 +550,11 @@ msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
 msgstr "Tento formulář můžete skrýt tlačítkem zavřít, kdykoli potřebujete nakreslit geometrii."
+
+#: view~dictionnary.edition.geom.paste
+msgctxt "view~dictionnary.edition.geom.paste"
+msgid "Paste the geometry"
+msgstr ""
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -716,8 +817,8 @@ msgstr "Informace"
 
 #: view~dictionnary.layer.metadata.zoomToExtent.title
 msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
-msgid "Zoom to layer extent"
-msgstr "Přiblížit na vrstvu"
+msgid "Zoom to the layer extent"
+msgstr ""
 
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
@@ -786,8 +887,8 @@ msgstr "Metry"
 
 #: view~dictionnary.overviewbar.displayoverview.hover
 msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
-msgid "Display/Hide Overview"
-msgstr "Zobrazit/Skrýt přehled"
+msgid "Display/Hide overview"
+msgstr ""
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
@@ -796,8 +897,8 @@ msgstr "V tomto místě nebyl nalezen žádný objekt."
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
-msgid "Click to the map to get information."
-msgstr "Kliknutím na mapu získáte informace."
+msgid "Click on the map to get information."
+msgstr ""
 
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
@@ -814,15 +915,60 @@ msgctxt "view~dictionnary.print.activate"
 msgid "Place the rectangle for printing"
 msgstr "Výběr obdelníkem pro tisk"
 
+#: view~dictionnary.print.advanced
+msgctxt "view~dictionnary.print.advanced"
+msgid "Advanced"
+msgstr "Pokročilé"
+
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
 msgstr "Nastavit vlastní štítky pro tisk"
 
+#: view~dictionnary.print.gridIntervals
+msgctxt "view~dictionnary.print.gridIntervals"
+msgid "Grid intervals"
+msgstr ""
+
+#: view~dictionnary.print.labels
+msgctxt "view~dictionnary.print.labels"
+msgid "Labels"
+msgstr ""
+
+#: view~dictionnary.print.launch
+msgctxt "view~dictionnary.print.launch"
+msgid "Print"
+msgstr "Tisk"
+
+#: view~dictionnary.print.rotation
+msgctxt "view~dictionnary.print.rotation"
+msgid "Rotation"
+msgstr ""
+
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
-msgid "Print started. Please wait."
-msgstr "Tisk začíná. Počkejte prosím."
+msgid "Print started, please wait..."
+msgstr ""
+
+#: view~dictionnary.print.toolbar.dpi
+msgctxt "view~dictionnary.print.toolbar.dpi"
+msgid "DPI"
+msgstr "DPI"
+
+#: view~dictionnary.print.toolbar.format
+msgctxt "view~dictionnary.print.toolbar.format"
+msgid "Format"
+msgstr "Formát"
+
+#: view~dictionnary.print.toolbar.layout
+msgctxt "view~dictionnary.print.toolbar.layout"
+msgid "Layout"
+msgstr "Rozvržení"
+
+#: view~dictionnary.print.toolbar.scale
+msgctxt "view~dictionnary.print.toolbar.scale"
+msgid "Scale"
+msgstr "Měřítko"
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -952,9 +1098,9 @@ msgstr "Přichytávání"
 #: view~dictionnary.startup.error
 msgctxt "view~dictionnary.startup.error"
 msgid ""
-"An error occurred while loading this map. Some necessary resource may "
+"An error occurred while loading this map. Some necessary resources may "
 "temporarily be unavailable. Please try again later."
-msgstr "Při načítání této mapy došlo k chybě. Některé potřebné zdroje mohou být dočasně nedostupné. Zkuste to prosím později."
+msgstr ""
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
@@ -1013,8 +1159,13 @@ msgstr "Otevřít dokumentaci"
 
 #: view~dictionnary.tree.button.removeCache
 msgctxt "view~dictionnary.tree.button.removeCache"
-msgid "Remove cache server for this layer"
-msgstr "Vymazat mezipaměť serveru pro tuto vrstvu"
+msgid "Remove server's cache for this layer"
+msgstr ""
+
+#: view~dictionnary.tree.button.removeCache.confirmation
+msgctxt "view~dictionnary.tree.button.removeCache.confirmation"
+msgid "Remove server's cache for this layer?"
+msgstr ""
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
@@ -1085,6 +1236,11 @@ msgstr "Přesunout"
 msgctxt "view~edition.geomtool.nodetool.title"
 msgid "Node tool"
 msgstr "Uzlové body"
+
+#: view~edition.geomtool.pastegeom.title
+msgctxt "view~edition.geomtool.pastegeom.title"
+msgid "Paste the geometry"
+msgstr ""
 
 #: view~edition.geomtool.reshape.title
 msgctxt "view~edition.geomtool.reshape.title"
