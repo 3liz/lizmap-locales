@@ -9,15 +9,15 @@
 # rldhont <rldhont@gmail.com>, 2022
 # Paolo Cavallini <cavallini@faunalia.it>, 2022
 # Alessandro Fanna <alex@rospus.org>, 2022
-# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2022
+# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-24 15:03++0000\n"
+"POT-Creation-Date: 2023-10-02 15:06++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
-"Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2022\n"
+"Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023\n"
 "Language-Team: Italian (https://app.transifex.com/3liz-1/teams/62012/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -274,8 +274,8 @@ msgstr "(%s gruppo(i) interessato(i))"
 
 #: admin~admin.form.admin_section.message.data.saved
 msgctxt "admin~admin.form.admin_section.message.data.saved"
-msgid "The repository data have been saved."
-msgstr "I dati del repository sono stati salvati."
+msgid "The repository data has been saved."
+msgstr "Dati del repository salvati"
 
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
@@ -301,20 +301,23 @@ msgstr "Consenti temi e codice javascript per questo repository"
 #: admin~admin.form.admin_section.repository.help
 msgctxt "admin~admin.form.admin_section.repository.help"
 msgid ""
-"Repository unique identifier, must only contain characters between a-z and "
-"0-9 (no space, no special character). This identifier can not be edited "
+"Repository unique identifier, it must only contain characters between a-z "
+"and 0-9 (no space, no special character). This identifier can not be edited "
 "later."
 msgstr ""
+"Identificativo univoco del repository, deve contenere solamente caratteri "
+"alfanumerici a-z e 0-9 (non può contenere spazi e caratteri speciali). "
+"Questo identificativo non può essere modificato in seguito al salvataggio."
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
-msgid "Id"
-msgstr "Identificativo"
+msgid "ID"
+msgstr "ID"
 
 #: admin~admin.form.admin_section.repository.label.help
 msgctxt "admin~admin.form.admin_section.repository.label.help"
 msgid "Repository label, which will be displayed in the interface"
-msgstr ""
+msgstr "Etichetta del repository, mostrata nell'interfaccia"
 
 #: admin~admin.form.admin_section.repository.label.label
 msgctxt "admin~admin.form.admin_section.repository.label.label"
@@ -327,6 +330,8 @@ msgid ""
 "The directory in which QGIS projects and Lizmap configuration file must be "
 "stored."
 msgstr ""
+"La cartella in cui i progetti QGIS ed i file di configurazione di Lizmap "
+"devono essere salvati."
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -418,11 +423,11 @@ msgstr "Tempo di scadenza della cache del server"
 #: admin~admin.form.admin_services.cacheRedisDb.help
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
-"Redis database index: integer >= 0 , optional (used if Redis is chosen for "
-"the cache storage)"
+"Redis database index: integer ≥ 0, optional (used if Redis is chosen for the"
+" cache storage)"
 msgstr ""
-"Indfce del database Redis: intero >=0, opzionale (usato se si sceglie Redis "
-"come sistema di stoccaggio della cache)"
+"Indice del database Redis: numero intero ≥ 0,  opzionale (utilizzato se "
+"Redis viene scelto come tipo di archiviazione per la cache)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -494,8 +499,8 @@ msgstr "Redis"
 
 #: admin~admin.form.admin_services.cacheStorageType.sqlite.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.sqlite.label"
-msgid "Sqlite database"
-msgstr "Database Sqlite"
+msgid "SQLite database"
+msgstr "Database SQLite"
 
 #: admin~admin.form.admin_services.debugMode.0.label
 msgctxt "admin~admin.form.admin_services.debugMode.0.label"
@@ -529,6 +534,9 @@ msgid ""
 "sent by Lizmap, and therefore, some features like password recovery or email"
 " notifications won't work."
 msgstr ""
+"Per l'invio delle e-mail, è necessario un indirizzo e-mail del mittente. Se "
+"è vuoto, nessuna e-mail verrà inviata da Lizmap. Alcune funzionalità, quali "
+"il recupero password e le notifiche via e-mail non funzioneranno."
 
 #: admin~admin.form.admin_services.emails.no.server
 msgctxt "admin~admin.form.admin_services.emails.no.server"
@@ -537,13 +545,19 @@ msgid ""
 "recovery or email notifications cannot work. Contact the application "
 "administrator if you want to enable all email features."
 msgstr ""
+"Nessun indirizzo mittente e-mail configurato in Lizmap. Alcune funzionalità,"
+" quali il recupero password e le notifiche via e-mail non funzioneranno. "
+"Contatta l'amministratore dell'applicazione se vuoi abilitare tutte le "
+"funzionalità basate sull'e-mail."
 
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
 msgid ""
-"Be sure the web server is able to send emails, or setup SMTP parameters into"
-" the configuration files of Lizmap."
+"Be sure the web server is able to send emails or setup SMTP parameters into "
+"the configuration files of Lizmap."
 msgstr ""
+"Assicurati che il web server sia in grado di inviare e-mail, o imposta i "
+"parametri SMTP nei file di configurazione di Lizmap."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
@@ -572,6 +586,11 @@ msgid ""
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
 msgstr ""
+"È richiesto QGIS Server con versione pari o superiore a %s ed il plugin di "
+"Lizmap server con versione pari o superiore a %s. Se utilizzi il server "
+"FCGI, devi lasciare vuoto questo campo. In caso contrario, se utilizzi Py-"
+"Qgis-Server, specifica l'URL indicato nella configurazione di Py-Qgis-Server"
+" come indirizzo del plugin di Lizmap."
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
@@ -600,7 +619,7 @@ msgstr "I dati sono stati salvati."
 
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
 msgctxt "admin~admin.form.admin_services.message.wmsPublicUrlList.wrong"
-msgid "The WMS subdomain URLs structure is not valide."
+msgid "The WMS subdomain URLs structure is not valid."
 msgstr "La struttura URL dei sottodomini WMS non è valida."
 
 #: admin~admin.form.admin_services.no.label
@@ -650,8 +669,8 @@ msgstr "versione QGIS server"
 
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
-msgid "Does the server use relative path from root folder?"
-msgstr "Il server utilizza percorsi relativi a partire dalla cartella radice?"
+msgid "Does the server use a relative path from the root folder?"
+msgstr "Il server utilizza un percorso relativo dalla cartella radice?"
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
@@ -723,12 +742,12 @@ msgstr "Salva"
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.help"
 msgid ""
 "Images uploaded when editing features will have this maximum width and "
-"height (in pixels). A recommended value is 1920 (HD size). Maximum value is "
-"3840 and minimum value is 480."
+"height (in pixels). A recommended value is 1920 (HD size). The maximum value"
+" is 3840 and the minimum value is 480."
 msgstr ""
-"Le immagini caricate durante la modifica degli elementi avranno una "
-"larghezza ed un'altezza massima (in pixel). Un valore consigliato è pari a "
-"1920 (dimensioni HD). Il valore massimo è 3840 ed il valore minimo è 480."
+"Le immagini caricate durante l'editing degli elementi avranno questa "
+"dimensione massima in larghezza ed altezza (in pixel). Un valore consigliato"
+" è 1920 (dimensione HD). Il valore massimo è 3840 ed il valore minimo è 480."
 
 #: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label"
@@ -800,7 +819,7 @@ msgstr "Intestazione - colore di sfondo"
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
-msgid "The image to be used for the header background (400ko Maximum)."
+msgid "The image to be used for the header background (400 ko maximum)."
 msgstr "Immagine da usare per lo sfondo dell'intestazione (400 Kb max)"
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
@@ -810,8 +829,8 @@ msgstr "Intestazione - immagine di sfondo"
 
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
-msgid "The image to be used for the header logo (200ko Maximum)."
-msgstr "L'immagine da usare come logo dell'intestazione (max 200Kb)"
+msgid "The image to be used for the header logo (200 ko maximum)."
+msgstr "L'immagine da usare come logo dell'intestazione (200 Kb max)"
 
 #: admin~admin.form.admin_theme.headerLogo.label
 msgctxt "admin~admin.form.admin_theme.headerLogo.label"
@@ -855,6 +874,9 @@ msgid ""
 "examples/tools/color-picker/\" target=\"_blank\">colorpicker</a> (e.g. "
 "<code>rgb(148 193 31 / 0.5)</code>)."
 msgstr ""
+"Puoi selezionare i colori con questo <a href=\"https://mdn.github.io/css-"
+"examples/tools/color-picker/\" target=\"_blank\">strumento</a> (es. "
+"<code>rgb(148 193 31 / 0.5)</code>)."
 
 #: admin~admin.form.admin_theme.menuBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.help"
@@ -923,13 +945,13 @@ msgstr "Dettaglio messaggi di log"
 
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
-msgid "A feature has been deleted by a user."
-msgstr "Un elemento è stato eliminato da un utente."
+msgid "A user has deleted a feature."
+msgstr "Un utente ha eliminato un elemento."
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
-msgid "A feature has been created or modified by a user."
-msgstr "Un elemento è stato creato o modificato da un utente."
+msgid "A user has created or modified a feature."
+msgstr "Un utente ha creato o modificato un elemento."
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
@@ -978,8 +1000,8 @@ msgstr "Cancella il file di log degli errori"
 
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
-msgid "Are you sure you want to erase the error log file ?"
-msgstr " Sei sicuro di voler cancellare il file di log degli errori? "
+msgid "Are you sure you want to erase the error log file?"
+msgstr "Sei sicuro di voler eliminare il file di log degli errori?"
 
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
@@ -1139,8 +1161,8 @@ msgstr ""
 #: admin~admin.server.information.qgis.error.fetching.information.description
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.description"
-msgid "You must check that the followings steps are done :"
-msgstr ""
+msgid "You must check that the following steps are done :"
+msgstr "Devi assicurarti che siano stati effettuati i seguenti passaggi:"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
@@ -1161,6 +1183,8 @@ msgid ""
 "The <strong>environment variable</strong> described in the documentation "
 "link below is correctly set in your configuration"
 msgstr ""
+"La <strong>variabile d'ambiente</strong> descritta nella documentazione di "
+"cui al link sotto è correttamente impostata nella tua configurazione"
 
 #: admin~admin.server.information.qgis.error.fetching.information.help
 msgctxt "admin~admin.server.information.qgis.error.fetching.information.help"
@@ -1169,6 +1193,9 @@ msgid ""
 "the Lizmap server plugin (at QGIS server startup and when loading this "
 "webpage). You might need to increase debug level."
 msgstr ""
+"I <strong>log</strong> di QGIS server non contengono avvertimenti riguardo "
+"il plugin di Lizmap Server (all'avvio di QGIS server, ed al caricamento di "
+"questa pagina). Potresti dover aumentare il livello di logging di debug."
 
 #: admin~admin.server.information.qgis.error.fetching.information.plugin.version.html
 msgctxt ""
@@ -1177,18 +1204,22 @@ msgid ""
 "The <strong>Lizmap QGIS server plugin</strong> is installed on the server "
 "with a version above or equal to <strong>%s</strong>"
 msgstr ""
+"Il <strong>plugin Lizmap QGIS server</strong> è installato sul server con "
+"una versione pari o superiore a <strong>%s</strong>"
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.url
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.qgis.url"
 msgid "The URL to reach QGIS server is correct in Lizmap Web Client"
 msgstr ""
+"L'URL utilizzato per raggiungere QGIS server è impostato correttamente in "
+"Lizmap Web Client"
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.version.html
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.qgis.version.html"
 msgid "<strong>QGIS Server</strong> is above or equal to <strong>%s</strong>"
-msgstr ""
+msgstr "<strong>QGIS Server</strong> è pari o superiore a <strong>%s</strong>"
 
 #: admin~admin.server.information.qgis.label
 msgctxt "admin~admin.server.information.qgis.label"
@@ -1240,8 +1271,8 @@ msgstr "Numero"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
-msgid "Remove this image (and use default one) ?"
-msgstr "Rimuovi questa immagine (e usa quella di default)?"
+msgid "Remove this image (and use the default one)?"
+msgstr "Rimuovere questa immagine (ed utilizzare quella di default)?"
 
 #: admin~admin.theme.button.remove.logo.label
 msgctxt "admin~admin.theme.button.remove.logo.label"

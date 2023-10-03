@@ -3,14 +3,15 @@
 # Laurent Jouanneau <dev@ljouanneau.com>, 2021
 # rldhont <rldhont@gmail.com>, 2021
 # Sławomir Bienias <slawomir.bienias@gmail.com>, 2023
+# EnviroSolutions Sp. z o.o. <office@envirosolutions.pl>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-24 15:03++0000\n"
+"POT-Creation-Date: 2023-10-02 15:06++0000\n"
 "PO-Revision-Date: 2021-07-21 16:21+0000\n"
-"Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>, 2023\n"
+"Last-Translator: EnviroSolutions Sp. z o.o. <office@envirosolutions.pl>, 2023\n"
 "Language-Team: Polish (Poland) (https://app.transifex.com/3liz-1/teams/62012/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -265,8 +266,8 @@ msgstr "( dotyczy %s grup(y))"
 
 #: admin~admin.form.admin_section.message.data.saved
 msgctxt "admin~admin.form.admin_section.message.data.saved"
-msgid "The repository data have been saved."
-msgstr "Dane repozytorium zostały zapisane."
+msgid "The repository data has been saved."
+msgstr ""
 
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
@@ -292,18 +293,15 @@ msgstr "Zezwól na kod szablonów/javascript dla tego repozytorium"
 #: admin~admin.form.admin_section.repository.help
 msgctxt "admin~admin.form.admin_section.repository.help"
 msgid ""
-"Repository unique identifier, must only contain characters between a-z and "
-"0-9 (no space, no special character). This identifier can not be edited "
+"Repository unique identifier, it must only contain characters between a-z "
+"and 0-9 (no space, no special character). This identifier can not be edited "
 "later."
 msgstr ""
-"Unikalny identyfikator repozytorium, musi zawierać tylko znaki z przedziału "
-"a-z i 0-9 (bez spacji, bez znaków specjalnych). Identyfikator ten nie może "
-"być później edytowany."
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
-msgid "Id"
-msgstr "Id"
+msgid "ID"
+msgstr ""
 
 #: admin~admin.form.admin_section.repository.label.help
 msgctxt "admin~admin.form.admin_section.repository.label.help"
@@ -414,11 +412,9 @@ msgstr "Czas wygaśnięcia pamięci podręcznej (sek.)"
 #: admin~admin.form.admin_services.cacheRedisDb.help
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
-"Redis database index: integer >= 0 , optional (used if Redis is chosen for "
-"the cache storage)"
+"Redis database index: integer ≥ 0, optional (used if Redis is chosen for the"
+" cache storage)"
 msgstr ""
-"Indeks bazy danych Redis: integer >= 0, opcjonalne (używany, gdy Redis jest "
-"wykorzystany do przechowywania pamięci podręcznej)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -491,8 +487,8 @@ msgstr "Redis"
 
 #: admin~admin.form.admin_services.cacheStorageType.sqlite.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.sqlite.label"
-msgid "Sqlite database"
-msgstr "Baza danych Sqlite"
+msgid "SQLite database"
+msgstr ""
 
 #: admin~admin.form.admin_services.debugMode.0.label
 msgctxt "admin~admin.form.admin_services.debugMode.0.label"
@@ -545,11 +541,9 @@ msgstr ""
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
 msgid ""
-"Be sure the web server is able to send emails, or setup SMTP parameters into"
-" the configuration files of Lizmap."
+"Be sure the web server is able to send emails or setup SMTP parameters into "
+"the configuration files of Lizmap."
 msgstr ""
-"Upewnij się, że serwer WWW jest w stanie wysyłać e-maile, lub ustaw "
-"parametry SMTP w plikach konfiguracyjnych Lizmap."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
@@ -609,8 +603,8 @@ msgstr "Dane zostały zapisane."
 
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
 msgctxt "admin~admin.form.admin_services.message.wmsPublicUrlList.wrong"
-msgid "The WMS subdomain URLs structure is not valide."
-msgstr "Struktura subdomeny serwera WMS nie jest poprawna."
+msgid "The WMS subdomain URLs structure is not valid."
+msgstr ""
 
 #: admin~admin.form.admin_services.no.label
 msgctxt "admin~admin.form.admin_services.no.label"
@@ -659,8 +653,8 @@ msgstr "Wersja QGIS Server"
 
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
-msgid "Does the server use relative path from root folder?"
-msgstr "Czy serwer używa ścieżki względnej z folderu roota?"
+msgid "Does the server use a relative path from the root folder?"
+msgstr ""
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
@@ -732,12 +726,9 @@ msgstr "Zapisz"
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.help"
 msgid ""
 "Images uploaded when editing features will have this maximum width and "
-"height (in pixels). A recommended value is 1920 (HD size). Maximum value is "
-"3840 and minimum value is 480."
+"height (in pixels). A recommended value is 1920 (HD size). The maximum value"
+" is 3840 and the minimum value is 480."
 msgstr ""
-"Obrazy wgrywane podczas funkcji edycji będą miały podaną maksymalną "
-"szerokość i wysokość (w pikselach). Zalecana wartość to 1920 (rozmiar HD). "
-"Maksymalna wartość to 3840, a minimalna to 480."
 
 #: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label"
@@ -809,9 +800,8 @@ msgstr "Nagłówek - kolor tła"
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
-msgid "The image to be used for the header background (400ko Maximum)."
+msgid "The image to be used for the header background (400 ko maximum)."
 msgstr ""
-"Obraz, który będzie użyty jako tło nagłówka (maksymalny rozmiar 400 KB)"
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
@@ -820,8 +810,8 @@ msgstr "Nagłówek - obraz tła"
 
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
-msgid "The image to be used for the header logo (200ko Maximum)."
-msgstr "Obrazek, który ma być użyty jako logo (maksymalnie 200ko)."
+msgid "The image to be used for the header logo (200 ko maximum)."
+msgstr ""
 
 #: admin~admin.form.admin_theme.headerLogo.label
 msgctxt "admin~admin.form.admin_theme.headerLogo.label"
@@ -933,13 +923,13 @@ msgstr "Szczegóły logów"
 
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
-msgid "A feature has been deleted by a user."
-msgstr "Obiekt został usunięty przez użytkownika."
+msgid "A user has deleted a feature."
+msgstr ""
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
-msgid "A feature has been created or modified by a user."
-msgstr "Obiekt został stworzony lub zmodyfikowany przez użytkownika."
+msgid "A user has created or modified a feature."
+msgstr ""
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
@@ -988,8 +978,8 @@ msgstr "Wyczyść plik logów błędów."
 
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
-msgid "Are you sure you want to erase the error log file ?"
-msgstr "Jesteś pewny, że chcesz wyczyścić zawartość pliku logów błędów?"
+msgid "Are you sure you want to erase the error log file?"
+msgstr ""
 
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
@@ -1083,7 +1073,7 @@ msgstr "Zawartość strony początkowej"
 #: admin~admin.menu.lizmap.logs.label
 msgctxt "admin~admin.menu.lizmap.logs.label"
 msgid "Lizmap Logs"
-msgstr "Logi LizMap"
+msgstr "Logi LizMapy"
 
 #: admin~admin.menu.lizmap.logs.view.label
 msgctxt "admin~admin.menu.lizmap.logs.view.label"
@@ -1147,7 +1137,7 @@ msgstr ""
 #: admin~admin.server.information.qgis.error.fetching.information.description
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.description"
-msgid "You must check that the followings steps are done :"
+msgid "You must check that the following steps are done :"
 msgstr ""
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
@@ -1248,8 +1238,8 @@ msgstr "Liczba"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
-msgid "Remove this image (and use default one) ?"
-msgstr "Usunąć ten obrazek (i użyć domyślnego)?"
+msgid "Remove this image (and use the default one)?"
+msgstr ""
 
 #: admin~admin.theme.button.remove.logo.label
 msgctxt "admin~admin.theme.button.remove.logo.label"
