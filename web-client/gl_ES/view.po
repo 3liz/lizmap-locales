@@ -2,15 +2,15 @@
 # Translators:
 # rldhont <rldhont@gmail.com>, 2022
 # Laurent Jouanneau <dev@ljouanneau.com>, 2022
-# Xan Vieiro <gallaecia6@gmail.com>, 2022
+# Xan Vieiro <gallaecia6@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-07 15:03++0000\n"
+"POT-Creation-Date: 2023-10-02 15:05++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
-"Last-Translator: Xan Vieiro <gallaecia6@gmail.com>, 2022\n"
+"Last-Translator: Xan Vieiro <gallaecia6@gmail.com>, 2023\n"
 "Language-Team: Galician (https://app.transifex.com/3liz-1/teams/62012/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -420,7 +420,7 @@ msgstr "Polígono"
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
-msgstr ""
+msgstr "Garde o debuxo no navegador"
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -464,6 +464,8 @@ msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
 msgstr ""
+"Pode agochar este formulario co botón pechar cando precise debuxar a "
+"xeometría."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -471,6 +473,7 @@ msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
 msgstr ""
+"Non pode gardar este obxecto sen unha xeometría. Debuxe a xeometría no mapa."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -485,7 +488,7 @@ msgstr "Mapa"
 #: view~dictionnary.edition.revertgeom.success
 msgctxt "view~dictionnary.edition.revertgeom.success"
 msgid "Geometry has been reversed. You can now save the form."
-msgstr ""
+msgstr "Inverteuse a xeometría. Agora xa pode gardar o formulario."
 
 #: view~dictionnary.edition.select.activate
 msgctxt "view~dictionnary.edition.select.activate"
@@ -529,7 +532,7 @@ msgstr "Datos do mapa"
 #: view~dictionnary.externalsearch.noquery
 msgctxt "view~dictionnary.externalsearch.noquery"
 msgid "Search query is empty"
-msgstr ""
+msgstr "A consulta de busca está baleira"
 
 #: view~dictionnary.externalsearch.notfound
 msgctxt "view~dictionnary.externalsearch.notfound"
@@ -669,7 +672,7 @@ msgstr "Requírese permiso para exportar a capa."
 #: view~dictionnary.layer.export.unknown.export.error
 msgctxt "view~dictionnary.layer.export.unknown.export.error"
 msgid "The server reported an error 400 during the export of the layer."
-msgstr ""
+msgstr "O servidor reportou un erro 400 durante a exportación da capa."
 
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
@@ -809,7 +812,7 @@ msgstr "Non se atopou ningún obxecto nesta localización"
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
 msgid "Click to the map to get information."
-msgstr ""
+msgstr "Faga clic no mapa para obter información."
 
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
@@ -834,7 +837,7 @@ msgstr "Establecer etiquetas predeterminadas para a impresión"
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
 msgid "Print started. Please wait."
-msgstr ""
+msgstr "Comezou a impresión. Agarde, por favor."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -894,37 +897,37 @@ msgstr "Operadores xeométricos"
 #: view~dictionnary.selectiontool.toolbar.geomOperator.contains
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.contains"
 msgid "Contains"
-msgstr ""
+msgstr "Contén"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.crosses
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.crosses"
 msgid "Crosses"
-msgstr ""
+msgstr "Cruza"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.disjoint
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.disjoint"
 msgid "Disjoint"
-msgstr ""
+msgstr "Disxuntos"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.intersects
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.intersects"
 msgid "Intersects"
-msgstr ""
+msgstr "Intercepta"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.overlaps
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.overlaps"
 msgid "Overlaps"
-msgstr ""
+msgstr "Solapa"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.touches
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.touches"
 msgid "Touches"
-msgstr ""
+msgstr "Toca"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.within
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.within"
 msgid "Within"
-msgstr ""
+msgstr "Dentro"
 
 #: view~dictionnary.selectiontool.toolbar.layer
 msgctxt "view~dictionnary.selectiontool.toolbar.layer"
@@ -934,22 +937,22 @@ msgstr "Capa de selección"
 #: view~dictionnary.selectiontool.toolbar.layers.multiple
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.multiple"
 msgid "Multiple layers"
-msgstr ""
+msgstr "Múltiples capas"
 
 #: view~dictionnary.selectiontool.toolbar.layers.selectable
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectable"
 msgid "Selectable layers"
-msgstr ""
+msgstr "Capas seleccionables"
 
 #: view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible"
 msgid "Selectable and visible layers"
-msgstr ""
+msgstr "Capas seleccionables e capas visibles"
 
 #: view~dictionnary.selectiontool.toolbar.layers.single
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.single"
 msgid "Single layers"
-msgstr ""
+msgstr "Capas sinxelas"
 
 #: view~dictionnary.selectiontool.toolbar.title
 msgctxt "view~dictionnary.selectiontool.toolbar.title"
@@ -1106,12 +1109,12 @@ msgstr "Cambiar forma"
 #: view~edition.geomtool.restartdrawing.title
 msgctxt "view~edition.geomtool.restartdrawing.title"
 msgid "Redraw the geometry"
-msgstr ""
+msgstr "Debuxar de novo a xeometría"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
 msgid "Reverse the geometry"
-msgstr ""
+msgstr "Inverter a xeometría"
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1154,7 +1157,7 @@ msgstr "Non está dispoñible a creación de entidades para a capa \"%s\"."
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
 msgid "Given fields do not exist."
-msgstr ""
+msgstr "Non existen os campos indicados."
 
 #: view~edition.link.error.no.modify.attributes
 msgctxt "view~edition.link.error.no.modify.attributes"
@@ -1164,17 +1167,17 @@ msgstr "Non está dispoñible a modificación de atributos para a capa \"%s\"."
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not been configured to have an attribute table."
-msgstr ""
+msgstr "Non se configuraron as capas para ter unha táboa de atributos."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
 msgid "An error occurred while adding linked data."
-msgstr ""
+msgstr "Produciuse un erro ó engadir os datos enlazados."
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
 msgid "The layer does not exist."
-msgstr ""
+msgstr "A capa non existe."
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
@@ -1194,7 +1197,7 @@ msgstr "%s: erro de comprobación"
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
 msgid "An error occurred while creating the object."
-msgstr ""
+msgstr "Produciuse un erro ó crear o obxecto."
 
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
@@ -1224,7 +1227,7 @@ msgstr "Produciuse un erro ó obter o formulario"
 #: view~edition.message.error.geometry.outside.polygons
 msgctxt "view~edition.message.error.geometry.outside.polygons"
 msgid "The given geometry is outside the authorized polygon."
-msgstr ""
+msgstr "A xeometría indicada está fóra do polígono autorizado."
 
 #: view~edition.message.error.layer.editable
 msgctxt "view~edition.message.error.layer.editable"
@@ -1247,6 +1250,7 @@ msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
 msgstr ""
+"Non pode gardar este obxecto sen unha xeometría. Debuxe a xeometría no mapa."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1320,6 +1324,7 @@ msgstr "Edición"
 msgctxt "view~edition.modification.msg"
 msgid "Click features on the map to access edition tools."
 msgstr ""
+"Fai clic nas entidades do mapa para acceder ás ferramentas de edición."
 
 #: view~edition.navbar.title
 msgctxt "view~edition.navbar.title"
@@ -1484,7 +1489,7 @@ msgstr "Edición"
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
 msgid "An error occurred while removing link."
-msgstr ""
+msgstr "Produciuse un erro ó eliminar a ligazón."
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
@@ -1804,7 +1809,7 @@ msgstr "Escala"
 #: view~map.overviewmap.hover
 msgctxt "view~map.overviewmap.hover"
 msgid "Move the rectangle to pan the map"
-msgstr ""
+msgstr "Mover o rectángulo para desprazar o mapa"
 
 #: view~map.permalink.embed.size.large
 msgctxt "view~map.permalink.embed.size.large"
@@ -2072,6 +2077,7 @@ msgid ""
 "Please write a small text to explain why you would like to have access to "
 "the maps."
 msgstr ""
+"Escriba un texto breve para explicar por que querería ter acceso ós mapas."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-07 15:03++0000\n"
+"POT-Creation-Date: 2023-10-02 15:05++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: yamamoto ryuzo <ryu@yamakun.net>, 2023\n"
 "Language-Team: Japanese (https://app.transifex.com/3liz-1/teams/62012/ja/)\n"
@@ -242,7 +242,7 @@ msgstr "リポジトリの変更‎"
 #: admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain
 msgctxt ""
 "admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain"
-msgid "Content is not a valid URL or a list of URL."
+msgid "Content is not a valid URL or a list of URLs."
 msgstr ""
 
 #: admin~admin.form.admin_section.message.configure.rights
@@ -267,8 +267,8 @@ msgstr "(%s‎関係す（複数）グループ)‎"
 
 #: admin~admin.form.admin_section.message.data.saved
 msgctxt "admin~admin.form.admin_section.message.data.saved"
-msgid "The repository data have been saved."
-msgstr "リポジトリにデータが保存されました。‎"
+msgid "The repository data has been saved."
+msgstr ""
 
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
@@ -309,15 +309,15 @@ msgstr "リポジトリのテーマ/JavaScript コードを許可する‎"
 #: admin~admin.form.admin_section.repository.help
 msgctxt "admin~admin.form.admin_section.repository.help"
 msgid ""
-"Repository unique identifier, must only contain characters between a-z and "
-"0-9 (no space, no special character). This identifier can not be edited "
+"Repository unique identifier, it must only contain characters between a-z "
+"and 0-9 (no space, no special character). This identifier can not be edited "
 "later."
 msgstr ""
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
-msgid "Id"
-msgstr "Id"
+msgid "ID"
+msgstr ""
 
 #: admin~admin.form.admin_section.repository.label.help
 msgctxt "admin~admin.form.admin_section.repository.label.help"
@@ -424,10 +424,9 @@ msgstr "‎サーバー・キャッシュの有効期限（秒）"
 #: admin~admin.form.admin_services.cacheRedisDb.help
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
-"Redis database index: integer >= 0 , optional (used if Redis is chosen for "
-"the cache storage)"
+"Redis database index: integer ≥ 0, optional (used if Redis is chosen for the"
+" cache storage)"
 msgstr ""
-"‎Redis データベースインデックス: 整数 >= 0 ,オプション (キャッシュストレージに Redis が選択されている場合に使用)‎"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -493,8 +492,8 @@ msgstr "Redis"
 
 #: admin~admin.form.admin_services.cacheStorageType.sqlite.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.sqlite.label"
-msgid "Sqlite database"
-msgstr "SQLite データベース‎"
+msgid "SQLite database"
+msgstr ""
 
 #: admin~admin.form.admin_services.debugMode.0.label
 msgctxt "admin~admin.form.admin_services.debugMode.0.label"
@@ -542,9 +541,9 @@ msgstr ""
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
 msgid ""
-"Be sure the web server is able to send emails, or setup SMTP parameters into"
-" the configuration files of Lizmap."
-msgstr "Webサーバーがメール送信可能であることを確認するか、Lizmapの設定ファイルにSMTPパラメータを設定してください。"
+"Be sure the web server is able to send emails or setup SMTP parameters into "
+"the configuration files of Lizmap."
+msgstr ""
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
@@ -599,8 +598,8 @@ msgstr "‎データが保存されました。‎"
 
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
 msgctxt "admin~admin.form.admin_services.message.wmsPublicUrlList.wrong"
-msgid "The WMS subdomain URLs structure is not valide."
-msgstr "‎WMS サブドメイン URL の構造が有効ではありません。‎"
+msgid "The WMS subdomain URLs structure is not valid."
+msgstr ""
 
 #: admin~admin.form.admin_services.no.label
 msgctxt "admin~admin.form.admin_services.no.label"
@@ -649,8 +648,8 @@ msgstr "‎QGISサーバーバージョン‎"
 
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
-msgid "Does the server use relative path from root folder?"
-msgstr "‎サーバーはルート フォルダからの相対パスを使用しますか?‎"
+msgid "Does the server use a relative path from the root folder?"
+msgstr ""
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
@@ -721,11 +720,9 @@ msgstr "保存"
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.help"
 msgid ""
 "Images uploaded when editing features will have this maximum width and "
-"height (in pixels). A recommended value is 1920 (HD size). Maximum value is "
-"3840 and minimum value is 480."
+"height (in pixels). A recommended value is 1920 (HD size). The maximum value"
+" is 3840 and the minimum value is 480."
 msgstr ""
-"‎地物の編集時にアップロードされる画像の幅と高さ（ピクセル単位）の設定。推奨値は 1920 (HD サイズ) です。最大値は 3840、最小値は 480"
-" です。‎"
 
 #: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label"
@@ -795,8 +792,8 @@ msgstr "‎ヘッダー - 背景色‎"
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
-msgid "The image to be used for the header background (400ko Maximum)."
-msgstr "‎ヘッダーの背景に使用するイメージ (400ko 最大)。‎"
+msgid "The image to be used for the header background (400 ko maximum)."
+msgstr ""
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
@@ -805,8 +802,8 @@ msgstr "‎ヘッダー - 背景画像‎"
 
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
-msgid "The image to be used for the header logo (200ko Maximum)."
-msgstr "‎ヘッダー ロゴ (200ko 最大) に使用するイメージ。‎"
+msgid "The image to be used for the header logo (200 ko maximum)."
+msgstr ""
 
 #: admin~admin.form.admin_theme.headerLogo.label
 msgctxt "admin~admin.form.admin_theme.headerLogo.label"
@@ -918,13 +915,13 @@ msgstr "‎ログの詳細‎"
 
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
-msgid "A feature has been deleted by a user."
-msgstr "‎ユーザーが地物を削除しました。‎"
+msgid "A user has deleted a feature."
+msgstr ""
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
-msgid "A feature has been created or modified by a user."
-msgstr "‎ユーザーが地物を作成または変更しました。‎"
+msgid "A user has created or modified a feature."
+msgstr ""
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
@@ -973,8 +970,8 @@ msgstr "‎エラー ログ ファイルを消去します。‎"
 
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
-msgid "Are you sure you want to erase the error log file ?"
-msgstr "‎エラー ログ ファイルを消去しますか ?‎"
+msgid "Are you sure you want to erase the error log file?"
+msgstr ""
 
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
@@ -1149,13 +1146,10 @@ msgstr ""
 #: admin~admin.project.list.column.invalid.layers.count.error.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.error.label"
 msgid ""
-"Some layers cannot be read by QGIS. Please check that the server can access the layer data. \n"
-"* For file based layers, the path must be accessible.\n"
+"QGIS cannot read some layers. Please check that the server can access the layer data. \n"
+"* For file based layers, the path must be accessible. \n"
 "* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
 msgstr ""
-"‎いくつかの層はQGISによって読取ることができません。サーバーがレイヤデータにアクセスできることを確認してください。‎‎* "
-"ファイルベースのレイヤーの場合、パスはアクセス可能である必要があります。‎‎* "
-"PostgreSQLレイヤーの場合、Lizmapサーバはデータベースサーバに接続できなければなりません。‎"
 
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
@@ -1309,21 +1303,16 @@ msgstr "Lizmap Web クライアントのターゲット バージョン‎"
 msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
 msgid ""
 "This project can not be displayed in the landing page. Open the project in "
-"QGIS desktop with an updated version of the plugin and a more up to date "
-"target version of Lizmap Web Client"
+"QGIS desktop with an updated version of the plugin"
 msgstr ""
-"このプロジェクトはランディングページに表示することができません。プラグインのバージョンを更新し、Lizmap Web "
-"Clientのターゲットバージョンを最新にした状態で、QGIS desktopでプロジェクトを開きます。"
 
 #: admin~admin.project.list.column.update.soon.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.soon.in.qgis.desktop"
 msgid ""
-"In a next version of Lizmap Web Client, this project won't be displayed. "
-"Open the project in QGIS desktop with an updated version of the plugin and a"
-" more up to date target version of Lizmap Web Client"
+"In the next version of Lizmap Web Client, this project won't be displayed "
+"because it has been designed for a too old version of Lizmap Web Client. "
+"Open the project in QGIS desktop with an updated version of the plugin"
 msgstr ""
-"Lizmap Web Clientの次のバージョンでは、このプロジェクトは表示されません。プラグインのバージョンを更新し、Lizmap Web "
-"Clientのターゲットバージョンを最新にした状態で、QGIS desktopでプロジェクトを開いてみてください。"
 
 #: admin~admin.project.list.no.hidden.column.content
 msgctxt "admin~admin.project.list.no.hidden.column.content"
@@ -1339,7 +1328,7 @@ msgstr "閉じる"
 #: admin~admin.project.modal.title
 msgctxt "admin~admin.project.modal.title"
 msgid "Table legend"
-msgstr ""
+msgstr "表の凡例"
 
 #: admin~admin.project.rules.list.blocking.description
 msgctxt "admin~admin.project.rules.list.blocking.description"
@@ -1356,7 +1345,7 @@ msgstr ""
 #: admin~admin.project.rules.list.blocking.target.html
 msgctxt "admin~admin.project.rules.list.blocking.target.html"
 msgid ""
-"The project is designed for Lizmap Web Client version equal or less than "
+"The project is designed for a Lizmap Web Client version equal or less than "
 "<strong>%s</strong>."
 msgstr ""
 
@@ -1452,6 +1441,8 @@ msgid ""
 "the \"Server information\" menu. The configuration of QGIS Server is "
 "currently not correct."
 msgstr ""
+"プロジェクトを確認する前に、「サーバー情報」メニューでQGISサーバーの設定を確認する必要があります。QGIS "
+"Serverの設定が現在正しくありません。"
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
@@ -1503,7 +1494,7 @@ msgstr "‎QGIS Serverのインストール(バージョン、プラグインな
 #: admin~admin.server.information.qgis.error.fetching.information.description
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.description"
-msgid "You must check that the followings steps are done :"
+msgid "You must check that the following steps are done :"
 msgstr ""
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
@@ -1522,8 +1513,9 @@ msgstr "‎QGISサーバーに関する情報にアクセスできない‎"
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.environment.variable"
 msgid ""
-"The <strong>environment variable</strong> described in the documentation "
-"link below is correctly set in your configuration"
+"The <strong>environment variable</strong> about the <strong>Lizmap server "
+"plugin</strong> described in the documentation link below is correctly set "
+"in your configuration"
 msgstr ""
 
 #: admin~admin.server.information.qgis.error.fetching.information.help
@@ -1646,15 +1638,10 @@ msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Number"
 
-#: admin~admin.server.information.webdav.url
-msgctxt "admin~admin.server.information.webdav.url"
-msgid "URL of the WebDAV server"
-msgstr ""
-
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
-msgid "Remove this image (and use default one) ?"
-msgstr "‎このイメージを削除する (およびデフォルトのイメージを使用する) ?‎"
+msgid "Remove this image (and use the default one)?"
+msgstr ""
 
 #: admin~admin.theme.button.remove.logo.label
 msgctxt "admin~admin.theme.button.remove.logo.label"
@@ -1669,7 +1656,7 @@ msgstr "‎テーマ設定"
 #: admin~admin.theme.error.no.access
 msgctxt "admin~admin.theme.error.no.access"
 msgid "You have no right to access the theme configuration page."
-msgstr ""
+msgstr "テーマ設定ページにアクセスする権利はありません。"
 
 #: admin~admin.upload.image.error.file.bigger
 msgctxt "admin~admin.upload.image.error.file.bigger"
@@ -1734,22 +1721,22 @@ msgstr "‎既定のグループ‎"
 #: admin~jacl2.lizmap.admin.home.page.update
 msgctxt "admin~jacl2.lizmap.admin.home.page.update"
 msgid "View and update the home page content"
-msgstr ""
+msgstr "ホームページのコンテンツの表示と更新"
 
 #: admin~jacl2.lizmap.admin.lizmap.log.delete
 msgctxt "admin~jacl2.lizmap.admin.lizmap.log.delete"
 msgid "Delete the lizmap logs"
-msgstr ""
+msgstr "Lizmapのログを削除する"
 
 #: admin~jacl2.lizmap.admin.lizmap.log.view
 msgctxt "admin~jacl2.lizmap.admin.lizmap.log.view"
 msgid "View the lizmap logs"
-msgstr ""
+msgstr "Lizmapのログを見る"
 
 #: admin~jacl2.lizmap.admin.project.list.view
 msgctxt "admin~jacl2.lizmap.admin.project.list.view"
 msgid "View the list of QGIS projects"
-msgstr ""
+msgstr "QGISプロジェクト一覧を見る"
 
 #: admin~jacl2.lizmap.admin.repositories.create
 msgctxt "admin~jacl2.lizmap.admin.repositories.create"
@@ -1774,7 +1761,7 @@ msgstr "‎リポジトリの表示‎"
 #: admin~jacl2.lizmap.admin.server.information.view
 msgctxt "admin~jacl2.lizmap.admin.server.information.view"
 msgid "View the detailed server information"
-msgstr ""
+msgstr "サーバーの詳細情報を見る"
 
 #: admin~jacl2.lizmap.admin.services.update
 msgctxt "admin~jacl2.lizmap.admin.services.update"
@@ -1789,12 +1776,12 @@ msgstr "‎サービスの表示‎"
 #: admin~jacl2.lizmap.admin.theme.update
 msgctxt "admin~jacl2.lizmap.admin.theme.update"
 msgid "Update the application theme"
-msgstr ""
+msgstr "アプリケーションテーマの更新"
 
 #: admin~jacl2.lizmap.admin.theme.view
 msgctxt "admin~jacl2.lizmap.admin.theme.view"
 msgid "View the application theme"
-msgstr ""
+msgstr "アプリケーションテーマを見る"
 
 #: admin~jacl2.lizmap.grp
 msgctxt "admin~jacl2.lizmap.grp"
@@ -1834,12 +1821,12 @@ msgstr "追加"
 #: admin~user.acl.form.add.to.group
 msgctxt "admin~user.acl.form.add.to.group"
 msgid "Add the user to this group"
-msgstr ""
+msgstr "ユーザーをこのグループに追加する"
 
 #: admin~user.acl.form.remove.from.group
 msgctxt "admin~user.acl.form.remove.from.group"
 msgid "Remove the user from this group"
-msgstr ""
+msgstr "このグループからユーザーを削除する"
 
 #: admin~user.acl.form.title
 msgctxt "admin~user.acl.form.title"
