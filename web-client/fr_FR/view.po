@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 08:14++0000\n"
+"POT-Creation-Date: 2023-10-13 12:56++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2020-2023\n"
 "Language-Team: French (http://app.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
@@ -482,6 +482,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.measure"
 msgid "Measures"
 msgstr "Mesures"
 
+#: view~dictionnary.digitizing.toolbar.newText
+msgctxt "view~dictionnary.digitizing.toolbar.newText"
+msgid "New text"
+msgstr "Nouveau texte"
+
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
 msgid "Point"
@@ -496,6 +501,21 @@ msgstr "Polygone"
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
 msgstr "Sauvegarder le dessin dans le navigateur"
+
+#: view~dictionnary.digitizing.toolbar.text
+msgctxt "view~dictionnary.digitizing.toolbar.text"
+msgid "Text"
+msgstr "Texte"
+
+#: view~dictionnary.digitizing.toolbar.textRotation
+msgctxt "view~dictionnary.digitizing.toolbar.textRotation"
+msgid "Rotation"
+msgstr "Rotation"
+
+#: view~dictionnary.digitizing.toolbar.textScale
+msgctxt "view~dictionnary.digitizing.toolbar.textScale"
+msgid "Size"
+msgstr "Taille"
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -758,6 +778,11 @@ msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "Une autorisation est nécessaire pour l'export de couche."
 
+#: view~dictionnary.layer.export.started
+msgctxt "view~dictionnary.layer.export.started"
+msgid "Export started, please wait…"
+msgstr "Export en cours, veuillez attendre…"
+
 #: view~dictionnary.layer.export.unknown.export.error
 msgctxt "view~dictionnary.layer.export.unknown.export.error"
 msgid "The server reported an error 400 during the export of the layer."
@@ -950,7 +975,7 @@ msgstr "Rotation"
 
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
-msgid "Print started, please wait..."
+msgid "Print started, please wait…"
 msgstr "Impression démarrée, patientez s'il vous plaît…"
 
 #: view~dictionnary.print.toolbar.dpi
@@ -2182,8 +2207,8 @@ msgstr "Arrêter"
 
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
-msgid "Underway..."
-msgstr "En cours..."
+msgid "Underway…"
+msgstr "En cours…"
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"

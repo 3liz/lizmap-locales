@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 08:14++0000\n"
+"POT-Creation-Date: 2023-10-13 12:56++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Mats Elfström <mats.elfstrom@giskraft.se>, 2021\n"
 "Language-Team: Swedish (Sweden) (http://app.transifex.com/3liz-1/lizmap-locales/language/sv_SE/)\n"
@@ -477,6 +477,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.measure"
 msgid "Measures"
 msgstr "Mätningar"
 
+#: view~dictionnary.digitizing.toolbar.newText
+msgctxt "view~dictionnary.digitizing.toolbar.newText"
+msgid "New text"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
 msgid "Point"
@@ -491,6 +496,21 @@ msgstr "Polygon"
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
 msgstr "Spara ritningen i webbläsaren"
+
+#: view~dictionnary.digitizing.toolbar.text
+msgctxt "view~dictionnary.digitizing.toolbar.text"
+msgid "Text"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.textRotation
+msgctxt "view~dictionnary.digitizing.toolbar.textRotation"
+msgid "Rotation"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.textScale
+msgctxt "view~dictionnary.digitizing.toolbar.textScale"
+msgid "Size"
+msgstr ""
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -753,6 +773,11 @@ msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "Man måste ha rättigheter för att exportera lager."
 
+#: view~dictionnary.layer.export.started
+msgctxt "view~dictionnary.layer.export.started"
+msgid "Export started, please wait…"
+msgstr ""
+
 #: view~dictionnary.layer.export.unknown.export.error
 msgctxt "view~dictionnary.layer.export.unknown.export.error"
 msgid "The server reported an error 400 during the export of the layer."
@@ -945,7 +970,7 @@ msgstr ""
 
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
-msgid "Print started, please wait..."
+msgid "Print started, please wait…"
 msgstr ""
 
 #: view~dictionnary.print.toolbar.dpi
@@ -2177,8 +2202,8 @@ msgstr "Stop"
 
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
-msgid "Underway..."
-msgstr "På väg..."
+msgid "Underway…"
+msgstr ""
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"

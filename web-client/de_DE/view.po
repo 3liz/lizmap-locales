@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 08:14++0000\n"
+"POT-Creation-Date: 2023-10-13 12:56++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Dominik Visca, 2020-2021\n"
 "Language-Team: German (http://app.transifex.com/3liz-1/lizmap-locales/language/de/)\n"
@@ -92,7 +92,7 @@ msgctxt "view~default.project.needs.update"
 msgid ""
 "The project needs an update from the GIS administrator. Please contact the "
 "GIS administrator to check the QGIS projects panel."
-msgstr ""
+msgstr "Das Projekt benötigt ein Update vom GIS Administrator. Bitte kontaktieren Sie den GIS Administrator, um das Projekt zu überprüfen."
 
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
@@ -129,12 +129,12 @@ msgctxt "view~default.server.information.error"
 msgid ""
 "This map cannot be displayed. Please contact the server administrator to "
 "check the server information panel."
-msgstr ""
+msgstr "Diese Karte kann nicht angezeigt werden. Bitte kontaktieren Sie den Server Administrator um das Serverinformationspanel zu überprüfen."
 
 #: view~default.server.information.error.admin
 msgctxt "view~default.server.information.error.admin"
 msgid "Maps cannot be displayed. Please check the server information panel."
-msgstr ""
+msgstr "Karten können nicht angezeigt werden. Bitte überprüfen Sie das Serverinformationspanel."
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
@@ -483,6 +483,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.measure"
 msgid "Measures"
 msgstr "Grössen"
 
+#: view~dictionnary.digitizing.toolbar.newText
+msgctxt "view~dictionnary.digitizing.toolbar.newText"
+msgid "New text"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
 msgid "Point"
@@ -497,6 +502,21 @@ msgstr "Polygon"
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
 msgstr "Zeichnung im Browser speichern"
+
+#: view~dictionnary.digitizing.toolbar.text
+msgctxt "view~dictionnary.digitizing.toolbar.text"
+msgid "Text"
+msgstr "Text"
+
+#: view~dictionnary.digitizing.toolbar.textRotation
+msgctxt "view~dictionnary.digitizing.toolbar.textRotation"
+msgid "Rotation"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.textScale
+msgctxt "view~dictionnary.digitizing.toolbar.textScale"
+msgid "Size"
+msgstr ""
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -622,7 +642,7 @@ msgstr "Kartendaten"
 #: view~dictionnary.externalsearch.noquery
 msgctxt "view~dictionnary.externalsearch.noquery"
 msgid "Search query is empty"
-msgstr ""
+msgstr "Sucheingabe ist leer"
 
 #: view~dictionnary.externalsearch.notfound
 msgctxt "view~dictionnary.externalsearch.notfound"
@@ -759,10 +779,15 @@ msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "Berechtigung zum Exportieren der Ebene erforderlich."
 
+#: view~dictionnary.layer.export.started
+msgctxt "view~dictionnary.layer.export.started"
+msgid "Export started, please wait…"
+msgstr "Export gestartet, einen Augenblick bitte..."
+
 #: view~dictionnary.layer.export.unknown.export.error
 msgctxt "view~dictionnary.layer.export.unknown.export.error"
 msgid "The server reported an error 400 during the export of the layer."
-msgstr ""
+msgstr "Der Server meldet \"Fehler 400\" beim export des Layers"
 
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
@@ -951,7 +976,7 @@ msgstr ""
 
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
-msgid "Print started, please wait..."
+msgid "Print started, please wait…"
 msgstr ""
 
 #: view~dictionnary.print.toolbar.dpi
@@ -1109,7 +1134,7 @@ msgstr ""
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
 msgid "Go back to the home page."
-msgstr ""
+msgstr "Zurück zur Startseite"
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -1254,12 +1279,12 @@ msgstr "Verformen"
 #: view~edition.geomtool.restartdrawing.title
 msgctxt "view~edition.geomtool.restartdrawing.title"
 msgid "Redraw the geometry"
-msgstr ""
+msgstr "Geometrie neuzeichnen"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
 msgid "Reverse the geometry"
-msgstr ""
+msgstr "Geometrie umkehren"
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1298,7 +1323,7 @@ msgstr "Element anlegen ist für den Layer \"%s\" nicht verfügbar."
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
 msgid "Given fields do not exist."
-msgstr ""
+msgstr "Angegebene(s) Felde(r) existier(en/t) nicht."
 
 #: view~edition.link.error.no.modify.attributes
 msgctxt "view~edition.link.error.no.modify.attributes"
@@ -1308,17 +1333,17 @@ msgstr "Attribute ändern ist für den Layer \"\" nicht verfügbar."
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not been configured to have an attribute table."
-msgstr ""
+msgstr "Die Ebenen sind nicht dafür konfiguriert eine Attributtabelle anzuzeigen!"
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
 msgid "An error occurred while adding linked data."
-msgstr ""
+msgstr "Beim Hinzufügen der verknüpften Daten ist ein Fehler aufgetreten."
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
 msgid "The layer does not exist."
-msgstr ""
+msgstr "Der Layer existiert nicht."
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
@@ -1338,7 +1363,7 @@ msgstr "%s: Überprüfung fehlgeschlagen"
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
 msgid "An error occurred while creating the object."
-msgstr ""
+msgstr "Beim Erstellen des Objekts ist ein Fehler aufgetreten."
 
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
@@ -1624,7 +1649,7 @@ msgstr "Editieren"
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
 msgid "An error occurred while removing link."
-msgstr ""
+msgstr "Beim Löschen der Verbindung ist ein Fehler aufgetreten."
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
@@ -2183,8 +2208,8 @@ msgstr "Stopp"
 
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
-msgid "Underway..."
-msgstr "bitte warten..."
+msgid "Underway…"
+msgstr "Bitte warten..."
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"
@@ -2211,7 +2236,7 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have access to "
 "the maps."
-msgstr ""
+msgstr "Bitte hinterlassen Sie eine kurze Erklärung, warum Sie Zugriff auf unsere Karten wünschen."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

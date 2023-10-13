@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 08:14++0000\n"
+"POT-Creation-Date: 2023-10-13 12:56++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Jiří Podhorecký, 2023\n"
 "Language-Team: Czech (http://app.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
@@ -241,7 +241,7 @@ msgstr "Upravit repozitář"
 msgctxt ""
 "admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain"
 msgid "Content is not a valid URL or a list of URLs."
-msgstr ""
+msgstr "Obsah není platnou adresou URL nebo seznamem adres URL."
 
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
@@ -266,7 +266,7 @@ msgstr "(%s příslušné skupin(y))"
 #: admin~admin.form.admin_section.message.data.saved
 msgctxt "admin~admin.form.admin_section.message.data.saved"
 msgid "The repository data has been saved."
-msgstr ""
+msgstr "Data úložiště byla uložena."
 
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
@@ -295,7 +295,7 @@ msgstr "Seznam adres URL oddělených čárkou, například \"https://domain1.co
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.accessControlAllowOrigin.label"
-msgid "List of websites allowed to access the map services (WMS/WMTS/WFS...)"
+msgid "List of websites allowed to access the map services (WMS/WMTS/WFS…)"
 msgstr "Seznam webových stránek s povoleným přístupem k mapovým službám (WMS/WMTS/WFS...)"
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
@@ -310,12 +310,12 @@ msgid ""
 "Repository unique identifier, it must only contain characters between a-z "
 "and 0-9 (no space, no special character). This identifier can not be edited "
 "later."
-msgstr ""
+msgstr "Jedinečný identifikátor úložiště, musí obsahovat pouze znaky a-z a 0-9 (bez mezer a speciálních znaků). Tento identifikátor nelze později upravovat."
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: admin~admin.form.admin_section.repository.label.help
 msgctxt "admin~admin.form.admin_section.repository.label.help"
@@ -422,7 +422,7 @@ msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
 "Redis database index: integer ≥ 0, optional (used if Redis is chosen for the"
 " cache storage)"
-msgstr ""
+msgstr "Index databáze Redis: celé číslo ≥ 0, nepovinné (používá se, pokud je pro ukládání do mezipaměti vybrán Redis)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -489,7 +489,7 @@ msgstr "Redis"
 #: admin~admin.form.admin_services.cacheStorageType.sqlite.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.sqlite.label"
 msgid "SQLite database"
-msgstr ""
+msgstr "Databáze SQLite"
 
 #: admin~admin.form.admin_services.debugMode.0.label
 msgctxt "admin~admin.form.admin_services.debugMode.0.label"
@@ -537,7 +537,7 @@ msgctxt "admin~admin.form.admin_services.emails.server.help"
 msgid ""
 "Be sure the web server is able to send emails or setup SMTP parameters into "
 "the configuration files of Lizmap."
-msgstr ""
+msgstr "Ujistěte se, že webový server umí odesílat e-maily, nebo nastavte parametry SMTP do konfiguračních souborů aplikace Lizmap."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
@@ -590,7 +590,7 @@ msgstr "Data byla uložena"
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
 msgctxt "admin~admin.form.admin_services.message.wmsPublicUrlList.wrong"
 msgid "The WMS subdomain URLs structure is not valid."
-msgstr ""
+msgstr "Struktura adres URL subdomény WMS není platná."
 
 #: admin~admin.form.admin_services.no.label
 msgctxt "admin~admin.form.admin_services.no.label"
@@ -625,7 +625,7 @@ msgstr "Verze Qgis serveru"
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use a relative path from the root folder?"
-msgstr ""
+msgstr "Používá server relativní cestu od kořenové složky?"
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
@@ -696,7 +696,7 @@ msgid ""
 "Images uploaded when editing features will have this maximum width and "
 "height (in pixels). A recommended value is 1920 (HD size). The maximum value"
 " is 3840 and the minimum value is 480."
-msgstr ""
+msgstr "Obrázky nahrané při úpravách funkcí budou mít tuto maximální šířku a výšku (v pixelech). Doporučená hodnota je 1920 (velikost HD). Maximální hodnota je 3840 a minimální hodnota je 480."
 
 #: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label"
@@ -767,7 +767,7 @@ msgstr "Záhlaví - barva pozadí"
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
 msgid "The image to be used for the header background (400 ko maximum)."
-msgstr ""
+msgstr "Obrázek, který se použije na pozadí záhlaví (maximálně 400 ko)."
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
@@ -777,7 +777,7 @@ msgstr "Záhlaví - obrázek na pozadí"
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
 msgid "The image to be used for the header logo (200 ko maximum)."
-msgstr ""
+msgstr "Obrázek, který se použije pro logo v záhlaví (maximálně 200 ko)."
 
 #: admin~admin.form.admin_theme.headerLogo.label
 msgctxt "admin~admin.form.admin_theme.headerLogo.label"
@@ -857,6 +857,33 @@ msgctxt "admin~admin.header.admin"
 msgid "Administration"
 msgstr "Administrace"
 
+#: admin~admin.landingPageContent.bottom
+msgctxt "admin~admin.landingPageContent.bottom"
+msgid "Content at the bottom of the landing page"
+msgstr ""
+
+#: admin~admin.landingPageContent.error.save
+msgctxt "admin~admin.landingPageContent.error.save"
+msgid "Error while saving the landing page contents"
+msgstr ""
+
+#: admin~admin.landingPageContent.error.submit
+msgctxt "admin~admin.landingPageContent.error.submit"
+msgid ""
+"An error occurred while saving the content. Your session has been "
+"terminated, please retry."
+msgstr ""
+
+#: admin~admin.landingPageContent.saved
+msgctxt "admin~admin.landingPageContent.saved"
+msgid "Content of the landing page has been saved"
+msgstr ""
+
+#: admin~admin.landingPageContent.top
+msgctxt "admin~admin.landingPageContent.top"
+msgid "Content at the top of the landing page"
+msgstr ""
+
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
 msgid "Content"
@@ -890,12 +917,12 @@ msgstr "Detaily logů"
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
 msgid "A user has deleted a feature."
-msgstr ""
+msgstr "Uživatel odstranil funkci."
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
 msgid "A user has created or modified a feature."
-msgstr ""
+msgstr "Uživatel vytvořil nebo upravil funkci."
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
@@ -945,7 +972,7 @@ msgstr "Vymazat soubor protokolu chyb"
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
 msgid "Are you sure you want to erase the error log file?"
-msgstr ""
+msgstr "Opravdu chcete vymazat soubor protokolu chyb?"
 
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
@@ -1080,7 +1107,7 @@ msgid ""
 "Some projects, listed below, can not be displayed in the main web interface "
 "because they need an update from the GIS administrator. Please read the "
 "guidelines about colours by clicking on the button \"%s\"."
-msgstr ""
+msgstr "Některé projekty, uvedené níže, nelze zobrazit v hlavním webovém rozhraní, protože vyžadují aktualizaci od správce GIS. Přečtěte si prosím pokyny k barvám kliknutím na tlačítko \"%s\"."
 
 #: admin~admin.project.list.column.authorized.groups.label
 msgctxt "admin~admin.project.list.column.authorized.groups.label"
@@ -1115,7 +1142,7 @@ msgstr "Ano"
 #: admin~admin.project.list.column.inspection.file.time.label
 msgctxt "admin~admin.project.list.column.inspection.file.time.label"
 msgid "Inspection time"
-msgstr ""
+msgstr "Čas kontroly"
 
 #: admin~admin.project.list.column.invalid.layers.count.error.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.error.label"
@@ -1123,7 +1150,7 @@ msgid ""
 "QGIS cannot read some layers. Please check that the server can access the layer data. \n"
 "* For file based layers, the path must be accessible. \n"
 "* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
-msgstr ""
+msgstr "QGIS nemůže načíst některé vrstvy. Zkontrolujte, zda má server přístup k datům vrstev. \n* U vrstev založených na souborech musí být přístupná cesta. \n* U vrstev založených na PostgreSQL musí být server Lizmap schopen se připojit k databázovému serveru."
 
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
@@ -1261,7 +1288,7 @@ msgstr "Repozitáře"
 #: admin~admin.project.list.column.show.line.hidden.columns
 msgctxt "admin~admin.project.list.column.show.line.hidden.columns"
 msgid "Show/Hide the hidden columns"
-msgstr ""
+msgstr "Zobrazit / skrýt skryté sloupce"
 
 #: admin~admin.project.list.column.target.lizmap.version.label
 msgctxt "admin~admin.project.list.column.target.lizmap.version.label"
@@ -1278,7 +1305,7 @@ msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
 msgid ""
 "This project can not be displayed in the landing page. Open the project in "
 "QGIS desktop with an updated version of the plugin"
-msgstr ""
+msgstr "Tento projekt nelze zobrazit na vstupní stránce. Otevřete projekt na ploše QGIS s aktualizovanou verzí zásuvného modulu."
 
 #: admin~admin.project.list.column.update.soon.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.soon.in.qgis.desktop"
@@ -1286,13 +1313,13 @@ msgid ""
 "In the next version of Lizmap Web Client, this project won't be displayed "
 "because it has been designed for a too old version of Lizmap Web Client. "
 "Open the project in QGIS desktop with an updated version of the plugin"
-msgstr ""
+msgstr "V příští verzi Lizmap Web Client se tento projekt nezobrazí, protože byl navržen pro příliš starou verzi Lizmap Web Client. Otevřete projekt na ploše QGIS s aktualizovanou verzí zásuvného modulu."
 
 #: admin~admin.project.list.no.hidden.column.content
 msgctxt "admin~admin.project.list.no.hidden.column.content"
 msgid ""
 "No extra content for this project in the following hidden table columns"
-msgstr ""
+msgstr "Žádný další obsah pro tento projekt v následujících skrytých sloupcích tabulky"
 
 #: admin~admin.project.modal.button.close
 msgctxt "admin~admin.project.modal.button.close"
@@ -1302,7 +1329,7 @@ msgstr "Zavřít"
 #: admin~admin.project.modal.title
 msgctxt "admin~admin.project.modal.title"
 msgid "Table legend"
-msgstr ""
+msgstr "Legenda k tabulce"
 
 #: admin~admin.project.rules.list.blocking.description
 msgctxt "admin~admin.project.rules.list.blocking.description"
@@ -1321,7 +1348,7 @@ msgctxt "admin~admin.project.rules.list.blocking.target.html"
 msgid ""
 "The project is designed for a Lizmap Web Client version equal or less than "
 "<strong>%s</strong>."
-msgstr ""
+msgstr "Projekt je určen pro verzi klienta Lizmap Web Client rovnou nebo nižší než <strong>%s</strong>."
 
 #: admin~admin.project.rules.list.custom.projection
 msgctxt "admin~admin.project.rules.list.custom.projection"
@@ -1467,7 +1494,7 @@ msgstr "Nemůžeme získat podrobnosti o vaší instalaci serveru QGIS (verze, z
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.description"
 msgid "You must check that the following steps are done :"
-msgstr ""
+msgstr "Musíte zkontrolovat, zda jsou provedeny následující kroky :"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
@@ -1485,9 +1512,10 @@ msgstr "Nemáte přístup k informacím o serveru QGIS."
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.environment.variable"
 msgid ""
-"The <strong>environment variable</strong> described in the documentation "
-"link below is correctly set in your configuration"
-msgstr "<strong>Proměnná prostředí</strong> popsaná v níže uvedeném odkazu v dokumentaci je v konfiguraci nastavena správně."
+"The <strong>environment variable</strong> about the <strong>Lizmap server "
+"plugin</strong> described in the documentation link below is correctly set "
+"in your configuration"
+msgstr "<strong>Proměnná prostředí</strong> týkající se <strong>zásuvného modulu serveru Lizmap</strong> popsaná v níže uvedeném odkazu dokumentace je ve vaší konfiguraci nastavena správně."
 
 #: admin~admin.server.information.qgis.error.fetching.information.help
 msgctxt "admin~admin.server.information.qgis.error.fetching.information.help"
@@ -1614,10 +1642,15 @@ msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Číslo"
 
+#: admin~admin.server.information.webdav.url
+msgctxt "admin~admin.server.information.webdav.url"
+msgid "URL of the WebDAV server"
+msgstr "URL adresa serveru WebDAV"
+
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
 msgid "Remove this image (and use the default one)?"
-msgstr ""
+msgstr "Odstranit tento obrázek (a použít výchozí)?"
 
 #: admin~admin.theme.button.remove.logo.label
 msgctxt "admin~admin.theme.button.remove.logo.label"

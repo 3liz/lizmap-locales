@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 08:14++0000\n"
+"POT-Creation-Date: 2023-10-13 12:56++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2022-2023\n"
 "Language-Team: French (http://app.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
@@ -297,7 +297,7 @@ msgstr "Liste d’URL séparées par virgule, comme 'https://domaine1.com,https:
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.accessControlAllowOrigin.label"
-msgid "List of websites allowed to access the map services (WMS/WMTS/WFS...)"
+msgid "List of websites allowed to access the map services (WMS/WMTS/WFS…)"
 msgstr "Liste des sites internet autorisés à l'accès des services cartographiques (WMS, WMTS, WFS…)"
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
@@ -858,6 +858,33 @@ msgstr "Numéro de version"
 msgctxt "admin~admin.header.admin"
 msgid "Administration"
 msgstr "Administration"
+
+#: admin~admin.landingPageContent.bottom
+msgctxt "admin~admin.landingPageContent.bottom"
+msgid "Content at the bottom of the landing page"
+msgstr "Contenu inférieur de la page d’accueil"
+
+#: admin~admin.landingPageContent.error.save
+msgctxt "admin~admin.landingPageContent.error.save"
+msgid "Error while saving the landing page contents"
+msgstr "Erreur lors de l'enregistrement de la page d’accueil"
+
+#: admin~admin.landingPageContent.error.submit
+msgctxt "admin~admin.landingPageContent.error.submit"
+msgid ""
+"An error occurred while saving the content. Your session has been "
+"terminated, please retry."
+msgstr "Une erreur s'est produite lors de l'enregistrement du contenu. Votre session a été interrompue, veuillez réessayer."
+
+#: admin~admin.landingPageContent.saved
+msgctxt "admin~admin.landingPageContent.saved"
+msgid "Content of the landing page has been saved"
+msgstr "Le contenu de la page d'accueil a été sauvegardé"
+
+#: admin~admin.landingPageContent.top
+msgctxt "admin~admin.landingPageContent.top"
+msgid "Content at the top of the landing page"
+msgstr "Contenu supérieur de la page d’accueil"
 
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
@@ -1487,9 +1514,10 @@ msgstr "Vous n'avez pas accès aux informations sur QGIS Serveur."
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.environment.variable"
 msgid ""
-"The <strong>environment variable</strong> described in the documentation "
-"link below is correctly set in your configuration"
-msgstr "La <strong>variable d'environnement</strong> décrite dans le lien de la documentation ci-dessous est correctement renseignée dans votre configuration."
+"The <strong>environment variable</strong> about the <strong>Lizmap server "
+"plugin</strong> described in the documentation link below is correctly set "
+"in your configuration"
+msgstr "La <strong>variable d'environnement</strong> concernant <strong>l'extension Lizmap serveur</strong> décrite dans le lien de la documentation ci-dessous est correctement renseignée dans votre configuration."
 
 #: admin~admin.server.information.qgis.error.fetching.information.help
 msgctxt "admin~admin.server.information.qgis.error.fetching.information.help"
@@ -1615,6 +1643,11 @@ msgstr "QGIS Serveur doit être mise à jour au moins avec la version %spour cet
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Nombre"
+
+#: admin~admin.server.information.webdav.url
+msgctxt "admin~admin.server.information.webdav.url"
+msgid "URL of the WebDAV server"
+msgstr "URL du serveur WebDAV"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"

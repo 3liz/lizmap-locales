@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 08:14++0000\n"
+"POT-Creation-Date: 2023-10-13 12:56++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2016-2018,2020,2022-2023\n"
 "Language-Team: Portuguese (http://app.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
@@ -481,6 +481,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.measure"
 msgid "Measures"
 msgstr "Medições"
 
+#: view~dictionnary.digitizing.toolbar.newText
+msgctxt "view~dictionnary.digitizing.toolbar.newText"
+msgid "New text"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
 msgid "Point"
@@ -495,6 +500,21 @@ msgstr "Polígono"
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
 msgstr "Guardar o desenho no browser"
+
+#: view~dictionnary.digitizing.toolbar.text
+msgctxt "view~dictionnary.digitizing.toolbar.text"
+msgid "Text"
+msgstr "Texto"
+
+#: view~dictionnary.digitizing.toolbar.textRotation
+msgctxt "view~dictionnary.digitizing.toolbar.textRotation"
+msgid "Rotation"
+msgstr "Rotação"
+
+#: view~dictionnary.digitizing.toolbar.textScale
+msgctxt "view~dictionnary.digitizing.toolbar.textScale"
+msgid "Size"
+msgstr ""
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -757,6 +777,11 @@ msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "É necessária permissão para exportar a camada."
 
+#: view~dictionnary.layer.export.started
+msgctxt "view~dictionnary.layer.export.started"
+msgid "Export started, please wait…"
+msgstr ""
+
 #: view~dictionnary.layer.export.unknown.export.error
 msgctxt "view~dictionnary.layer.export.unknown.export.error"
 msgid "The server reported an error 400 during the export of the layer."
@@ -949,7 +974,7 @@ msgstr "Rotação"
 
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
-msgid "Print started, please wait..."
+msgid "Print started, please wait…"
 msgstr ""
 
 #: view~dictionnary.print.toolbar.dpi
@@ -2181,8 +2206,8 @@ msgstr "Parar"
 
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
-msgid "Underway..."
-msgstr "Em curso..."
+msgid "Underway…"
+msgstr ""
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"

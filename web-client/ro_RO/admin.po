@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 08:14++0000\n"
+"POT-Creation-Date: 2023-10-13 12:56++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020-2023\n"
 "Language-Team: Romanian (http://app.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
@@ -238,7 +238,7 @@ msgstr "Modifică depozitul de date."
 msgctxt ""
 "admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain"
 msgid "Content is not a valid URL or a list of URLs."
-msgstr ""
+msgstr "Conținutul nu este o adresă URL validă sau o listă de adrese URL."
 
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
@@ -263,7 +263,7 @@ msgstr "( %sgrup(uri) atinse)"
 #: admin~admin.form.admin_section.message.data.saved
 msgctxt "admin~admin.form.admin_section.message.data.saved"
 msgid "The repository data has been saved."
-msgstr ""
+msgstr "Datele din depozit au fost salvate."
 
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
@@ -292,7 +292,7 @@ msgstr "Listă de adrese URL separate prin virgulă, cum ar fi „https://domain
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.accessControlAllowOrigin.label"
-msgid "List of websites allowed to access the map services (WMS/WMTS/WFS...)"
+msgid "List of websites allowed to access the map services (WMS/WMTS/WFS…)"
 msgstr "Lista paginilor web autorizate să acceseze serviciile de hărți (WMS/WMTS/WFS...)"
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
@@ -307,12 +307,12 @@ msgid ""
 "Repository unique identifier, it must only contain characters between a-z "
 "and 0-9 (no space, no special character). This identifier can not be edited "
 "later."
-msgstr ""
+msgstr "Identificatorul unic al depozitului, trebuie să conțină doar caractere între a-z și 0-9 (fără spațiu, fără caractere speciale). Acest identificator nu poate fi editat ulterior."
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: admin~admin.form.admin_section.repository.label.help
 msgctxt "admin~admin.form.admin_section.repository.label.help"
@@ -419,7 +419,7 @@ msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
 "Redis database index: integer ≥ 0, optional (used if Redis is chosen for the"
 " cache storage)"
-msgstr ""
+msgstr "Indexul bazei de date Redis: întreg ≥ 0, opțional (utilizat dacă este ales Redis pentru stocarea cache)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -486,7 +486,7 @@ msgstr "Redis"
 #: admin~admin.form.admin_services.cacheStorageType.sqlite.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.sqlite.label"
 msgid "SQLite database"
-msgstr ""
+msgstr "Bază de date Sqlite"
 
 #: admin~admin.form.admin_services.debugMode.0.label
 msgctxt "admin~admin.form.admin_services.debugMode.0.label"
@@ -534,7 +534,7 @@ msgctxt "admin~admin.form.admin_services.emails.server.help"
 msgid ""
 "Be sure the web server is able to send emails or setup SMTP parameters into "
 "the configuration files of Lizmap."
-msgstr ""
+msgstr "Asigură-te că serverul web este capabil să trimită e-mailuri sau să seteze parametrii SMTP în fișierele de configurare ale Lizmap."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
@@ -587,7 +587,7 @@ msgstr "Datele au fost salvate"
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
 msgctxt "admin~admin.form.admin_services.message.wmsPublicUrlList.wrong"
 msgid "The WMS subdomain URLs structure is not valid."
-msgstr ""
+msgstr "Structura URL-urilor subdomeniului WMS nu este valabilă."
 
 #: admin~admin.form.admin_services.no.label
 msgctxt "admin~admin.form.admin_services.no.label"
@@ -622,7 +622,7 @@ msgstr "Versiune Server QGIS"
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use a relative path from the root folder?"
-msgstr ""
+msgstr "Serverul folosește o cale relativă din dosarul rădăcină?"
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
@@ -693,7 +693,7 @@ msgid ""
 "Images uploaded when editing features will have this maximum width and "
 "height (in pixels). A recommended value is 1920 (HD size). The maximum value"
 " is 3840 and the minimum value is 480."
-msgstr ""
+msgstr "Imaginile încărcate la editarea obiectelor vor avea această lățime și înălțime maximă (în pixeli). O valoare recomandată este 1920 (dimensiune HD). Valoarea maximă este 3840 și valoarea minimă este 480."
 
 #: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label"
@@ -764,7 +764,7 @@ msgstr "Culoare fundal antet"
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
 msgid "The image to be used for the header background (400 ko maximum)."
-msgstr ""
+msgstr "Imaginea care va fi utilizată pentru fundalul antetului (400 KO Maxim)."
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
@@ -774,7 +774,7 @@ msgstr "Antet - imagine de fundal"
 #: admin~admin.form.admin_theme.headerLogo.help
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
 msgid "The image to be used for the header logo (200 ko maximum)."
-msgstr ""
+msgstr "Imaginea folosită pentru sigla antetului (200 KO maxim)."
 
 #: admin~admin.form.admin_theme.headerLogo.label
 msgctxt "admin~admin.form.admin_theme.headerLogo.label"
@@ -854,6 +854,33 @@ msgctxt "admin~admin.header.admin"
 msgid "Administration"
 msgstr "Administrare"
 
+#: admin~admin.landingPageContent.bottom
+msgctxt "admin~admin.landingPageContent.bottom"
+msgid "Content at the bottom of the landing page"
+msgstr ""
+
+#: admin~admin.landingPageContent.error.save
+msgctxt "admin~admin.landingPageContent.error.save"
+msgid "Error while saving the landing page contents"
+msgstr ""
+
+#: admin~admin.landingPageContent.error.submit
+msgctxt "admin~admin.landingPageContent.error.submit"
+msgid ""
+"An error occurred while saving the content. Your session has been "
+"terminated, please retry."
+msgstr ""
+
+#: admin~admin.landingPageContent.saved
+msgctxt "admin~admin.landingPageContent.saved"
+msgid "Content of the landing page has been saved"
+msgstr ""
+
+#: admin~admin.landingPageContent.top
+msgctxt "admin~admin.landingPageContent.top"
+msgid "Content at the top of the landing page"
+msgstr ""
+
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
 msgid "Content"
@@ -887,12 +914,12 @@ msgstr "Detalii jurnal"
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
 msgid "A user has deleted a feature."
-msgstr ""
+msgstr "Un utilizator a șters un obiect."
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
 msgid "A user has created or modified a feature."
-msgstr ""
+msgstr "Un utilizator a creat sau modificat un obiect."
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
@@ -942,7 +969,7 @@ msgstr "Șterge fișierul jurnal de erori"
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
 msgid "Are you sure you want to erase the error log file?"
-msgstr ""
+msgstr "Sigur dorești să ștergi fișierul jurnal de erori?"
 
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
@@ -1120,7 +1147,7 @@ msgid ""
 "QGIS cannot read some layers. Please check that the server can access the layer data. \n"
 "* For file based layers, the path must be accessible. \n"
 "* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
-msgstr ""
+msgstr "Unele straturi nu pot fi citite de QGIS. Verifică dacă serverul poate accesa datele stratului.\n* Pentru straturile bazate pe fișiere, calea trebuie să fie accesibilă.\n* Pentru straturile PostgreSQL, serverul Lizmap trebuie să se poată conecta la serverul bazei de date."
 
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
@@ -1275,7 +1302,7 @@ msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
 msgid ""
 "This project can not be displayed in the landing page. Open the project in "
 "QGIS desktop with an updated version of the plugin"
-msgstr ""
+msgstr "Acest proiect nu poate fi afișat în pagina de destinație. Deschide proiectul în QGIS desktop cu o versiune actualizată a plugin-ului"
 
 #: admin~admin.project.list.column.update.soon.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.soon.in.qgis.desktop"
@@ -1283,7 +1310,7 @@ msgid ""
 "In the next version of Lizmap Web Client, this project won't be displayed "
 "because it has been designed for a too old version of Lizmap Web Client. "
 "Open the project in QGIS desktop with an updated version of the plugin"
-msgstr ""
+msgstr "În următoarea versiune a Lizmap Web Client, acest proiect nu va fi afișat deoarece a fost proiectat pentru o versiune prea veche a Lizmap Web Client. Deschide proiectul în QGIS desktop cu o versiune actualizată a plugin-ului"
 
 #: admin~admin.project.list.no.hidden.column.content
 msgctxt "admin~admin.project.list.no.hidden.column.content"
@@ -1318,7 +1345,7 @@ msgctxt "admin~admin.project.rules.list.blocking.target.html"
 msgid ""
 "The project is designed for a Lizmap Web Client version equal or less than "
 "<strong>%s</strong>."
-msgstr ""
+msgstr "Proiectul este conceput pentru versiunea Lizmap Web Client egală sau mai mică decât <strong>%s</strong>."
 
 #: admin~admin.project.rules.list.custom.projection
 msgctxt "admin~admin.project.rules.list.custom.projection"
@@ -1464,7 +1491,7 @@ msgstr "Nu putem obține detalii despre instalarea dvs. QGIS Server (versiune, p
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.description"
 msgid "You must check that the following steps are done :"
-msgstr ""
+msgstr "Trebuie să verifici dacă sunt îndepliniți următorii pași:"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
@@ -1482,9 +1509,10 @@ msgstr "Lipsește accesul la informațiile despre Serverul QGIS"
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.environment.variable"
 msgid ""
-"The <strong>environment variable</strong> described in the documentation "
-"link below is correctly set in your configuration"
-msgstr "<strong>Variabila de mediu</strong> descrisă în linkul de documentație de mai jos este setată corect în configurație"
+"The <strong>environment variable</strong> about the <strong>Lizmap server "
+"plugin</strong> described in the documentation link below is correctly set "
+"in your configuration"
+msgstr "<strong>Variabila de mediu</strong> a <strong>plugin-ului Lizmap server</strong> descrisă în linkul de documentație de mai jos este setată corect în configurație"
 
 #: admin~admin.server.information.qgis.error.fetching.information.help
 msgctxt "admin~admin.server.information.qgis.error.fetching.information.help"
@@ -1611,10 +1639,15 @@ msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Număr"
 
+#: admin~admin.server.information.webdav.url
+msgctxt "admin~admin.server.information.webdav.url"
+msgid "URL of the WebDAV server"
+msgstr "Adresa URL a serverului WebDAV"
+
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
 msgid "Remove this image (and use the default one)?"
-msgstr ""
+msgstr "Elimini această imagine (și o utilizezi pe cea implicită)?"
 
 #: admin~admin.theme.button.remove.logo.label
 msgctxt "admin~admin.theme.button.remove.logo.label"

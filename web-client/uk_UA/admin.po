@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 08:14++0000\n"
+"POT-Creation-Date: 2023-10-13 12:56++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Кадастр Муниципальный, 2021-2022\n"
 "Language-Team: Ukrainian (Ukraine) (http://app.transifex.com/3liz-1/lizmap-locales/language/uk_UA/)\n"
@@ -291,7 +291,7 @@ msgstr ""
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.accessControlAllowOrigin.label"
-msgid "List of websites allowed to access the map services (WMS/WMTS/WFS...)"
+msgid "List of websites allowed to access the map services (WMS/WMTS/WFS…)"
 msgstr ""
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
@@ -852,6 +852,33 @@ msgstr "Номер версії"
 msgctxt "admin~admin.header.admin"
 msgid "Administration"
 msgstr "Адміністрація"
+
+#: admin~admin.landingPageContent.bottom
+msgctxt "admin~admin.landingPageContent.bottom"
+msgid "Content at the bottom of the landing page"
+msgstr ""
+
+#: admin~admin.landingPageContent.error.save
+msgctxt "admin~admin.landingPageContent.error.save"
+msgid "Error while saving the landing page contents"
+msgstr ""
+
+#: admin~admin.landingPageContent.error.submit
+msgctxt "admin~admin.landingPageContent.error.submit"
+msgid ""
+"An error occurred while saving the content. Your session has been "
+"terminated, please retry."
+msgstr ""
+
+#: admin~admin.landingPageContent.saved
+msgctxt "admin~admin.landingPageContent.saved"
+msgid "Content of the landing page has been saved"
+msgstr ""
+
+#: admin~admin.landingPageContent.top
+msgctxt "admin~admin.landingPageContent.top"
+msgid "Content at the top of the landing page"
+msgstr ""
 
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
@@ -1481,8 +1508,9 @@ msgstr "Ви не маєте доступу до інформації про с�
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.environment.variable"
 msgid ""
-"The <strong>environment variable</strong> described in the documentation "
-"link below is correctly set in your configuration"
+"The <strong>environment variable</strong> about the <strong>Lizmap server "
+"plugin</strong> described in the documentation link below is correctly set "
+"in your configuration"
 msgstr ""
 
 #: admin~admin.server.information.qgis.error.fetching.information.help
@@ -1609,6 +1637,11 @@ msgstr "Сервер QGIS потрібно оновити принаймні д�
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Номер"
+
+#: admin~admin.server.information.webdav.url
+msgctxt "admin~admin.server.information.webdav.url"
+msgid "URL of the WebDAV server"
+msgstr ""
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
