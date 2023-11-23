@@ -1,16 +1,16 @@
 # 
 # Translators:
 # Jean-Louis Stanus <rammstan@msn.com>, 2017
-# Nico Veenstra <nvbgm@gmx.net>, 2019
+# Nico Veenstra <nvbgm@gmx.net>, 2019,2023
 # Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2017-2018
 # Thierry <thierry.chavalle@gate-16.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 12:56++0000\n"
+"POT-Creation-Date: 2022-10-10 16:01++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2019\n"
+"Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2019,2023\n"
 "Language-Team: Dutch (http://app.transifex.com/3liz-1/lizmap-locales/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,17 +46,12 @@ msgstr "Typ om de kaarten te filteren"
 #: view~default.header.search.toggleKeywordsTitle.title
 msgctxt "view~default.header.search.toggleKeywordsTitle.title"
 msgid "Toggle keywords/title search."
-msgstr ""
-
-#: view~default.home.menu
-msgctxt "view~default.home.menu"
-msgid "Home"
-msgstr "Home"
+msgstr "Schakel tussen zoeken op trefwoorden/titel."
 
 #: view~default.home.title
 msgctxt "view~default.home.title"
-msgid "Home page"
-msgstr ""
+msgid "Home"
+msgstr "Home"
 
 #: view~default.project.abstract.label
 msgctxt "view~default.project.abstract.label"
@@ -88,7 +83,7 @@ msgctxt "view~default.project.needs.update"
 msgid ""
 "The project needs an update from the GIS administrator. Please contact the "
 "GIS administrator to check the QGIS projects panel."
-msgstr ""
+msgstr "Het project heeft een update nodig van de GIS-beheerder. Neem contact op met de GIS-beheerder om het paneel Projecten van QGIS te controleren."
 
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
@@ -117,8 +112,8 @@ msgstr "U heeft geen toegang tot deze gegevensbank"
 
 #: view~default.repository.list.title
 msgctxt "view~default.repository.list.title"
-msgid "Repository page"
-msgstr ""
+msgid "Projects"
+msgstr "Projecten"
 
 #: view~default.server.information.error
 msgctxt "view~default.server.information.error"
@@ -126,61 +121,6 @@ msgid ""
 "This map cannot be displayed. Please contact the server administrator to "
 "check the server information panel."
 msgstr ""
-
-#: view~default.server.information.error.admin
-msgctxt "view~default.server.information.error.admin"
-msgid "Maps cannot be displayed. Please check the server information panel."
-msgstr ""
-
-#: view~dictionnary.action.choose
-msgctxt "view~dictionnary.action.choose"
-msgid "Choose an action to run"
-msgstr ""
-
-#: view~dictionnary.action.close
-msgctxt "view~dictionnary.action.close"
-msgid "Close"
-msgstr "Sluiten"
-
-#: view~dictionnary.action.form.button.deactivate.help
-msgctxt "view~dictionnary.action.form.button.deactivate.help"
-msgid "Deactivate the active action"
-msgstr ""
-
-#: view~dictionnary.action.form.button.deactivate.label
-msgctxt "view~dictionnary.action.form.button.deactivate.label"
-msgid "Deactivate"
-msgstr "Deactiveren"
-
-#: view~dictionnary.action.form.button.run.help
-msgctxt "view~dictionnary.action.form.button.run.help"
-msgid "Run the selected action"
-msgstr ""
-
-#: view~dictionnary.action.form.button.run.label
-msgctxt "view~dictionnary.action.form.button.run.label"
-msgid "Run"
-msgstr ""
-
-#: view~dictionnary.action.form.select.emptyItem.label
-msgctxt "view~dictionnary.action.form.select.emptyItem.label"
-msgid "Choose an action"
-msgstr ""
-
-#: view~dictionnary.action.form.select.help
-msgctxt "view~dictionnary.action.form.select.help"
-msgid "To run an action, select one in the list and click the Run button"
-msgstr ""
-
-#: view~dictionnary.action.form.select.warning
-msgctxt "view~dictionnary.action.form.select.warning"
-msgid "You must first select an action in the list"
-msgstr ""
-
-#: view~dictionnary.action.title
-msgctxt "view~dictionnary.action.title"
-msgid "Actions"
-msgstr "Acties"
 
 #: view~dictionnary.atlas.navbar.title
 msgctxt "view~dictionnary.atlas.navbar.title"
@@ -411,18 +351,8 @@ msgstr "Verkleinen"
 
 #: view~dictionnary.digitizing.confirme.erase
 msgctxt "view~dictionnary.digitizing.confirme.erase"
-msgid "Are you sure you want to delete this feature?"
-msgstr ""
-
-#: view~dictionnary.digitizing.constraint.angle
-msgctxt "view~dictionnary.digitizing.constraint.angle"
-msgid "Angle"
-msgstr ""
-
-#: view~dictionnary.digitizing.constraint.distance
-msgctxt "view~dictionnary.digitizing.constraint.distance"
-msgid "Distance"
-msgstr "Afstand"
+msgid "Are you sure you want to delete all features?"
+msgstr "Bent u zeker dat u alle features wil verwijderen?"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -449,15 +379,10 @@ msgctxt "view~dictionnary.digitizing.toolbar.drawTools"
 msgid "Draw tools"
 msgstr "Tekengereedschap"
 
-#: view~dictionnary.digitizing.toolbar.edit
-msgctxt "view~dictionnary.digitizing.toolbar.edit"
-msgid "Edit (hold \"Shift\" to select multiple features)"
-msgstr ""
-
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
-msgid "Delete some features"
-msgstr ""
+msgid "Delete all features"
+msgstr "Verwijder alle features"
 
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
@@ -474,16 +399,6 @@ msgctxt "view~dictionnary.digitizing.toolbar.line"
 msgid "Line"
 msgstr "Lijn"
 
-#: view~dictionnary.digitizing.toolbar.measure
-msgctxt "view~dictionnary.digitizing.toolbar.measure"
-msgid "Measures"
-msgstr "Eenheden"
-
-#: view~dictionnary.digitizing.toolbar.newText
-msgctxt "view~dictionnary.digitizing.toolbar.newText"
-msgid "New text"
-msgstr ""
-
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
 msgid "Point"
@@ -499,54 +414,23 @@ msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
 msgstr ""
 
-#: view~dictionnary.digitizing.toolbar.text
-msgctxt "view~dictionnary.digitizing.toolbar.text"
-msgid "Text"
-msgstr "Tekst"
-
-#: view~dictionnary.digitizing.toolbar.textRotation
-msgctxt "view~dictionnary.digitizing.toolbar.textRotation"
-msgid "Rotation"
-msgstr ""
-
-#: view~dictionnary.digitizing.toolbar.textScale
-msgctxt "view~dictionnary.digitizing.toolbar.textScale"
-msgid "Size"
-msgstr ""
-
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
-"Are you sure you want to cancel the edition? You will lose any modifications"
-" made on the currently edited object."
-msgstr ""
+"Are you sure you want to cancel edition? You will lose any modifications "
+"made on the currently edited object."
+msgstr "Wenst u wijzingen ongedaan te maken? Alle aanpassignen op het object in bewerking zullen verloren gaan."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
 msgstr "Bent u zeker dat u de geselecteerde feature wenst te schrappen?"
 
-#: view~dictionnary.edition.confirm.launch.child.creation
-msgctxt "view~dictionnary.edition.confirm.launch.child.creation"
-msgid ""
-"You are about to create a new child object for the currently edited object. \n"
-"Please check before that you have already saved your changes.\n"
-"\n"
-"Do you wish to continue?"
-msgstr ""
-
-#: view~dictionnary.edition.confirm.paste
-msgctxt "view~dictionnary.edition.confirm.paste"
-msgid ""
-"Are you sure you want to replace the existing geometry with the one in the "
-"clipboard?"
-msgstr ""
-
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
 msgid ""
 "Are you sure you want to delete the existing geometry and redraw it from "
-"scratch?"
+"scratch ?"
 msgstr ""
 
 #: view~dictionnary.edition.datepicker.open
@@ -569,19 +453,14 @@ msgctxt "view~dictionnary.edition.draw.activate.mobile"
 msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
-msgstr ""
-
-#: view~dictionnary.edition.geom.paste
-msgctxt "view~dictionnary.edition.geom.paste"
-msgid "Paste the geometry"
-msgstr ""
+msgstr "U kunt dit formulier verbergen met de knop Sluiten wanneer u de geometrie moet tekenen."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
-msgstr ""
+msgstr "U kunt dit object niet opslaan zonder een geometrie. Teken de geometrie op de kaart."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -596,7 +475,7 @@ msgstr "Kaart"
 #: view~dictionnary.edition.revertgeom.success
 msgctxt "view~dictionnary.edition.revertgeom.success"
 msgid "Geometry has been reversed. You can now save the form."
-msgstr ""
+msgstr "De geometrie is omgekeerd. U kunt het formulier nu opslaan."
 
 #: view~dictionnary.edition.select.activate
 msgctxt "view~dictionnary.edition.select.activate"
@@ -775,11 +654,6 @@ msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr "Rechts is nodig om laag te exporteren."
 
-#: view~dictionnary.layer.export.started
-msgctxt "view~dictionnary.layer.export.started"
-msgid "Export started, please wait…"
-msgstr ""
-
 #: view~dictionnary.layer.export.unknown.export.error
 msgctxt "view~dictionnary.layer.export.unknown.export.error"
 msgid "The server reported an error 400 during the export of the layer."
@@ -842,8 +716,8 @@ msgstr "Informatie"
 
 #: view~dictionnary.layer.metadata.zoomToExtent.title
 msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
-msgid "Zoom to the layer extent"
-msgstr ""
+msgid "Zoom to layer extent"
+msgstr "Uitvergroten of verkleinen gepast aan de laag"
 
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
@@ -912,8 +786,8 @@ msgstr "Meter"
 
 #: view~dictionnary.overviewbar.displayoverview.hover
 msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
-msgid "Display/Hide overview"
-msgstr ""
+msgid "Display/Hide Overview"
+msgstr "Tonen/verbergen overzicht"
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
@@ -922,7 +796,7 @@ msgstr "Geen object werd gevonden op deze locatie."
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
-msgid "Click on the map to get information."
+msgid "Click to the map to get information."
 msgstr ""
 
 #: view~dictionnary.popup.table.compact
@@ -940,60 +814,15 @@ msgctxt "view~dictionnary.print.activate"
 msgid "Place the rectangle for printing"
 msgstr "Plaats de rechthoek voor het afdrukken"
 
-#: view~dictionnary.print.advanced
-msgctxt "view~dictionnary.print.advanced"
-msgid "Advanced"
-msgstr ""
-
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
 msgstr ""
 
-#: view~dictionnary.print.gridIntervals
-msgctxt "view~dictionnary.print.gridIntervals"
-msgid "Grid intervals"
-msgstr ""
-
-#: view~dictionnary.print.labels
-msgctxt "view~dictionnary.print.labels"
-msgid "Labels"
-msgstr ""
-
-#: view~dictionnary.print.launch
-msgctxt "view~dictionnary.print.launch"
-msgid "Print"
-msgstr "Afdrukken"
-
-#: view~dictionnary.print.rotation
-msgctxt "view~dictionnary.print.rotation"
-msgid "Rotation"
-msgstr ""
-
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
-msgid "Print started, please wait…"
+msgid "Print started. Please wait."
 msgstr ""
-
-#: view~dictionnary.print.toolbar.dpi
-msgctxt "view~dictionnary.print.toolbar.dpi"
-msgid "DPI"
-msgstr "DPI"
-
-#: view~dictionnary.print.toolbar.format
-msgctxt "view~dictionnary.print.toolbar.format"
-msgid "Format"
-msgstr "Formaat"
-
-#: view~dictionnary.print.toolbar.layout
-msgctxt "view~dictionnary.print.toolbar.layout"
-msgid "Layout"
-msgstr ""
-
-#: view~dictionnary.print.toolbar.scale
-msgctxt "view~dictionnary.print.toolbar.scale"
-msgid "Scale"
-msgstr "Schaal"
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1123,7 +952,7 @@ msgstr ""
 #: view~dictionnary.startup.error
 msgctxt "view~dictionnary.startup.error"
 msgid ""
-"An error occurred while loading this map. Some necessary resources may "
+"An error occurred while loading this map. Some necessary resource may "
 "temporarily be unavailable. Please try again later."
 msgstr ""
 
@@ -1184,13 +1013,8 @@ msgstr "Open documentatie"
 
 #: view~dictionnary.tree.button.removeCache
 msgctxt "view~dictionnary.tree.button.removeCache"
-msgid "Remove server's cache for this layer"
-msgstr ""
-
-#: view~dictionnary.tree.button.removeCache.confirmation
-msgctxt "view~dictionnary.tree.button.removeCache.confirmation"
-msgid "Remove server's cache for this layer?"
-msgstr ""
+msgid "Remove cache server for this layer"
+msgstr "Verwijder cache voor deze laag"
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
@@ -1261,11 +1085,6 @@ msgstr "Slepen"
 msgctxt "view~edition.geomtool.nodetool.title"
 msgid "Node tool"
 msgstr "Node gereedschap"
-
-#: view~edition.geomtool.pastegeom.title
-msgctxt "view~edition.geomtool.pastegeom.title"
-msgid "Paste the geometry"
-msgstr ""
 
 #: view~edition.geomtool.reshape.title
 msgctxt "view~edition.geomtool.reshape.title"
@@ -1411,7 +1230,7 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
-msgstr ""
+msgstr "U kunt dit object niet opslaan zonder een geometrie. Teken de geometrie op de kaart."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -2204,8 +2023,8 @@ msgstr "Stop"
 
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
-msgid "Underway…"
-msgstr ""
+msgid "Underway..."
+msgstr "In verwerking"
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"
