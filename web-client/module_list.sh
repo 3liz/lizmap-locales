@@ -21,6 +21,14 @@ case $LOCALES_BRANCH in
     export OFFICIAL_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
     export MODULES="$MODULES action"
     ;;
+    lizmap_3_7)
+    export LIZMAP_BRANCH=release_3_7
+    export TX_BRANCH=lizmap-3-7
+    export AVAILABLE_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
+    export AVAILABLE_SHORT_LOCALES="cs de el es eu fi fr gl hu_HU it ja nl no pl_PL pt_BR pt ro ru sv_SE sl sk uk"
+    export OFFICIAL_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
+    export MODULES="$MODULES action"
+    ;;
     lizmap_3_6)
     export LIZMAP_BRANCH=release_3_6
     export TX_BRANCH=lizmap-3-6
@@ -29,24 +37,8 @@ case $LOCALES_BRANCH in
     export OFFICIAL_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
     export MODULES="$MODULES action"
     ;;
-    lizmap_3_5)
-    export LIZMAP_BRANCH=release_3_5
-    export TX_BRANCH=lizmap-3-5
-    export AVAILABLE_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
-    export AVAILABLE_SHORT_LOCALES="cs de el es eu fi fr gl hu_HU it ja nl no pl_PL pt_BR pt ro ru sv_SE sl sk uk"
-    export OFFICIAL_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
-    export MODULES="$MODULES action"
-    ;;
-    lizmap_3_4)
-    export LIZMAP_BRANCH=release_3_4
-    export TX_BRANCH=lizmap-3-4
-    export AVAILABLE_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
-    export AVAILABLE_SHORT_LOCALES="cs de el es eu fi fr gl hu_HU it ja nl no pl_PL pt_BR pt ro ru sv_SE sl sk uk"
-    export OFFICIAL_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
-    export MODULES="$MODULES action"
-    ;;
     *)
-    echo "Error: branch $LOCALES_BRANCH not supported"
+    echo "Error module_list.sh: branch $LOCALES_BRANCH not supported"
     exit 1
     ;;
 esac
