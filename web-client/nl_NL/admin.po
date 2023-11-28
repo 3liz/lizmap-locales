@@ -2,17 +2,17 @@
 # Translators:
 # t j, 2022
 # Laurent Jouanneau <dev@ljouanneau.com>, 2022
-# Nico Veenstra <nvbgm@gmx.net>, 2022
 # Jean-Louis Stanus <rammstan@msn.com>, 2023
 # Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2023
+# Nico Veenstra <nvbgm@gmx.net>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 09:27++0000\n"
+"POT-Creation-Date: 2023-11-27 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
-"Last-Translator: Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2023\n"
+"Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2023\n"
 "Language-Team: Dutch (https://app.transifex.com/3liz-1/teams/62012/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,12 +33,12 @@ msgstr "Opruimen cache"
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
 msgid "The cache for the layer %s has been successfully emptied."
-msgstr ""
+msgstr "De cache voor de laag %s is succesvol geleegd."
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
 msgid "The cache for the repository %s has been successfully emptied."
-msgstr ""
+msgstr "De cache voor de repository %s is succesvol geleegd."
 
 #: admin~admin.config.services.allowUserAccountRequest.noemail
 msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
@@ -46,6 +46,8 @@ msgid ""
 "This option cannot be enabled while the sender email is not defined. Please "
 "contact the application administrator."
 msgstr ""
+"Deze optie kan niet worden ingeschakeld als de afzender-e-mail niet is "
+"gedefinieerd. Neem contact op met de applicatiebeheerder."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -177,7 +179,7 @@ msgstr "Emails"
 #: admin~admin.configuration.services.section.features.label
 msgctxt "admin~admin.configuration.services.section.features.label"
 msgid "GIS features properties"
-msgstr ""
+msgstr "GIS functies eigenschappen"
 
 #: admin~admin.configuration.services.section.interface.label
 msgctxt "admin~admin.configuration.services.section.interface.label"
@@ -207,7 +209,7 @@ msgstr "Maximum hoogte voor GetMap verzoek"
 #: admin~admin.configuration.services.wmsMaxWidth.label
 msgctxt "admin~admin.configuration.services.wmsMaxWidth.label"
 msgid "Maximum Width for GetMap request"
-msgstr ""
+msgstr "Maximale breedte voor GetMap-verzoek"
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
@@ -248,7 +250,7 @@ msgstr "Wijzig de opslagplaats"
 msgctxt ""
 "admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain"
 msgid "Content is not a valid URL or a list of URLs."
-msgstr ""
+msgstr "Inhoud is geen geldige URL of een lijst met URL's."
 
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
@@ -273,7 +275,7 @@ msgstr "(%s betrokken groep(en))"
 #: admin~admin.form.admin_section.message.data.saved
 msgctxt "admin~admin.form.admin_section.message.data.saved"
 msgid "The repository data has been saved."
-msgstr ""
+msgstr "De repositorygegevens zijn opgeslagen."
 
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
@@ -283,7 +285,7 @@ msgstr "Het opgegeven pad voor de gegevensbank wordt niet toegestaan"
 #: admin~admin.form.admin_section.message.path.wrong
 msgctxt "admin~admin.form.admin_section.message.path.wrong"
 msgid "The path given for the repository does not exist on the server."
-msgstr ""
+msgstr "Het opgegeven pad voor de repository bestaat niet op de server."
 
 #: admin~admin.form.admin_section.message.repository.wrong
 msgctxt "admin~admin.form.admin_section.message.repository.wrong"
@@ -298,12 +300,16 @@ msgid ""
 "'https://domain1.com,https://www.domain2.com'. Path and query parameters "
 "will be removed from the URL."
 msgstr ""
+"Lijst met URL's gescheiden door een komma, zoals "
+"'https://domein1.com,https://www.domein2.com'. Pad- en queryparameters "
+"worden uit de URL verwijderd."
 
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.accessControlAllowOrigin.label"
 msgid "List of websites allowed to access the map services (WMS/WMTS/WFS…)"
 msgstr ""
+"Lijst met websites die toegang hebben tot de kaartdiensten (WMS/WMTS/WFS…)"
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
 msgctxt ""
@@ -318,16 +324,19 @@ msgid ""
 "and 0-9 (no space, no special character). This identifier can not be edited "
 "later."
 msgstr ""
+"Unieke repository-ID, deze mag alleen tekens tussen a-z en 0-9 bevatten "
+"(geen spatie, geen speciaal teken). Deze identificatie kan later niet worden"
+" bewerkt."
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: admin~admin.form.admin_section.repository.label.help
 msgctxt "admin~admin.form.admin_section.repository.label.help"
 msgid "Repository label, which will be displayed in the interface"
-msgstr ""
+msgstr "Repositorylabel, dat in de interface wordt weergegeven"
 
 #: admin~admin.form.admin_section.repository.label.label
 msgctxt "admin~admin.form.admin_section.repository.label.label"
@@ -340,6 +349,8 @@ msgid ""
 "The directory in which QGIS projects and Lizmap configuration file must be "
 "stored."
 msgstr ""
+"De map waarin de projecten van QGIS en het Lizmap-configuratiebestand moeten"
+" worden opgeslagen."
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -440,6 +451,8 @@ msgid ""
 "Redis database index: integer ≥ 0, optional (used if Redis is chosen for the"
 " cache storage)"
 msgstr ""
+"Redis-database-index\\: geheel getal ≥ 0, optioneel (gebruikt als Redis is "
+"gekozen voor de cacheopslag)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -507,7 +520,7 @@ msgstr "Redis"
 #: admin~admin.form.admin_services.cacheStorageType.sqlite.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.sqlite.label"
 msgid "SQLite database"
-msgstr ""
+msgstr "SQLite database"
 
 #: admin~admin.form.admin_services.debugMode.0.label
 msgctxt "admin~admin.form.admin_services.debugMode.0.label"
@@ -541,6 +554,9 @@ msgid ""
 "sent by Lizmap, and therefore, some features like password recovery or email"
 " notifications won't work."
 msgstr ""
+"Om e-mails te kunnen versturen heeft Lizmap een afzenderadres nodig. Indien "
+"leeg, worden er geen e-mails verzonden door Lizmap en daarom zullen sommige "
+"functies, zoals wachtwoordherstel of e-mailmeldingen, niet werken."
 
 #: admin~admin.form.admin_services.emails.no.server
 msgctxt "admin~admin.form.admin_services.emails.no.server"
@@ -549,6 +565,9 @@ msgid ""
 "recovery or email notifications cannot work. Contact the application "
 "administrator if you want to enable all email features."
 msgstr ""
+"Er is geen afzenderadres geconfigureerd in Lizmap. Sommige functies, zoals "
+"wachtwoordherstel of e-mailmeldingen, werken niet. Neem contact op met de "
+"applicatiebeheerder als u alle e-mailfuncties wilt inschakelen."
 
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
@@ -556,6 +575,8 @@ msgid ""
 "Be sure the web server is able to send emails or setup SMTP parameters into "
 "the configuration files of Lizmap."
 msgstr ""
+"Zorg ervoor dat de webserver e-mails kan verzenden of SMTP-parameters kan "
+"instellen in de configuratiebestanden van Lizmap."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
@@ -584,11 +605,19 @@ msgid ""
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
 msgstr ""
+"QGIS Server %s of hoger is vereist, evenals de Lizmap server plug-in %s of "
+"hoger. Als u de FCGI-server gebruikt, moet u dit veld leeg laten. Anders, "
+"als u Py-Qgis-Server gebruikt, geef dan de URL aan die is geconfigureerd in "
+"de Py-Qgis-Server-configuratie over de URL van de Lizmap-plug-in."
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
 msgid "Base URL of the Lizmap plugin API for QGIS Server"
 msgstr ""
+"QGIS Server %s of hoger is vereist, evenals de Lizmap server plug-in %s of "
+"hoger. Als u de FCGI-server gebruikt, moet u dit veld leeg laten. Anders, "
+"als u Py-Qgis-Server gebruikt, geef dan de URL aan die is geconfigureerd in "
+"de Py-Qgis-Server-configuratie over de URL van de Lizmap-plug-in."
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
@@ -602,7 +631,7 @@ msgstr ""
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
 msgid "The directory does not exist or is not writable. You can use: %s"
-msgstr ""
+msgstr "De map bestaat niet of is niet beschrijfbaar. Je kunt: %s gebruiken"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -612,7 +641,7 @@ msgstr "Gegevens zijn opgeslagen."
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
 msgctxt "admin~admin.form.admin_services.message.wmsPublicUrlList.wrong"
 msgid "The WMS subdomain URLs structure is not valid."
-msgstr ""
+msgstr "De structuur van de WMS-subdomein-URL's is niet geldig."
 
 #: admin~admin.form.admin_services.no.label
 msgctxt "admin~admin.form.admin_services.no.label"
@@ -662,7 +691,7 @@ msgstr "QGIS server versie"
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use a relative path from the root folder?"
-msgstr ""
+msgstr "Gebruikt de server een relatief pad vanuit de hoofdmap?"
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
@@ -737,11 +766,14 @@ msgid ""
 "height (in pixels). A recommended value is 1920 (HD size). The maximum value"
 " is 3840 and the minimum value is 480."
 msgstr ""
+"Afbeeldingen die worden geüpload tijdens het bewerken van objecten hebben "
+"deze maximale breedte en hoogte (in pixels). Een aanbevolen waarde is 1920 "
+"(HD-formaat). De maximale waarde is 3840 en de minimale waarde is 480."
 
 #: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label"
 msgid "Maximum width/height of uploaded images for features"
-msgstr ""
+msgstr "Maximale breedte/hoogte van geüploade afbeeldingen voor functies"
 
 #: admin~admin.form.admin_services.wmsMaxHeight.label
 msgctxt "admin~admin.form.admin_services.wmsMaxHeight.label"
@@ -751,7 +783,7 @@ msgstr "Maximum hoogte voor GetMap verzoek"
 #: admin~admin.form.admin_services.wmsMaxWidth.label
 msgctxt "admin~admin.form.admin_services.wmsMaxWidth.label"
 msgid "Default max. Width for GetMap request"
-msgstr ""
+msgstr "Standaard max. Breedte voor GetMap-verzoek"
 
 #: admin~admin.form.admin_services.wmsPublicUrlList.label
 msgctxt "admin~admin.form.admin_services.wmsPublicUrlList.label"
@@ -810,6 +842,8 @@ msgstr "Koptekst - kleur van de achtergrond "
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
 msgid "The image to be used for the header background (400 ko maximum)."
 msgstr ""
+"De afbeelding die moet worden gebruikt voor de koptekstachtergrond (maximaal"
+" 400 kb)."
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
@@ -820,6 +854,8 @@ msgstr "Header - achtergrond afbeelding"
 msgctxt "admin~admin.form.admin_theme.headerLogo.help"
 msgid "The image to be used for the header logo (200 ko maximum)."
 msgstr ""
+"De afbeelding die moet worden gebruikt voor het headerlogo (maximaal 200 "
+"ko)."
 
 #: admin~admin.form.admin_theme.headerLogo.label
 msgctxt "admin~admin.form.admin_theme.headerLogo.label"
@@ -863,6 +899,8 @@ msgid ""
 "examples/tools/color-picker/\" target=\"_blank\">colorpicker</a> (e.g. "
 "<code>rgb(148 193 31 / 0.5)</code>)."
 msgstr ""
+"Met deze kleurenkiezer kunt u kleuren selecteren (bijvoorbeeld rgb(148 193 "
+"31 / 0,5))."
 
 #: admin~admin.form.admin_theme.menuBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.help"
@@ -932,12 +970,12 @@ msgstr "Detail logboek"
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
 msgid "A user has deleted a feature."
-msgstr ""
+msgstr "Een gebruiker heeft een functie verwijderd."
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
 msgid "A user has created or modified a feature."
-msgstr ""
+msgstr "Een gebruiker heeft een functie gemaakt of gewijzigd."
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
@@ -987,7 +1025,7 @@ msgstr "Wis de error log file"
 #: admin~admin.logs.error.file.erase.confirm
 msgctxt "admin~admin.logs.error.file.erase.confirm"
 msgid "Are you sure you want to erase the error log file?"
-msgstr ""
+msgstr "Weet u zeker dat u het foutenlogbestand wilt wissen?"
 
 #: admin~admin.logs.error.file.erase.ok
 msgctxt "admin~admin.logs.error.file.erase.ok"
@@ -1111,12 +1149,12 @@ msgstr "Thema"
 #: admin~admin.menu.server.information.label
 msgctxt "admin~admin.menu.server.information.label"
 msgid "Server information"
-msgstr ""
+msgstr "Server informatie"
 
 #: admin~admin.menu.server.label
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #: admin~admin.project.error.some.projects.not.displayed
 msgctxt "admin~admin.project.error.some.projects.not.displayed"
@@ -1125,6 +1163,9 @@ msgid ""
 "because they need an update from the GIS administrator. Please read the "
 "guidelines about colours by clicking on the button \"%s\"."
 msgstr ""
+"Sommige projecten, hieronder opgesomd, kunnen niet worden weergegeven in de "
+"hoofdwebinterface omdat ze een update nodig hebben van de GIS-beheerder. "
+"Lees de richtlijnen over kleuren door op de knop \"%s\" te klikken."
 
 #: admin~admin.project.list.column.authorized.groups.label
 msgctxt "admin~admin.project.list.column.authorized.groups.label"
@@ -1168,6 +1209,9 @@ msgid ""
 "* For file based layers, the path must be accessible. \n"
 "* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
 msgstr ""
+"QGIS kan sommige lagen niet lezen. Controleer of de server toegang heeft tot de laaggegevens. \n"
+"* Voor op bestanden gebaseerde lagen moet het pad toegankelijk zijn.\n"
+" * Voor PostgreSQL-lagen moet de Lizmap-server verbinding kunnen maken met de databaseserver."
 
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
@@ -1286,6 +1330,8 @@ msgid ""
 "The QGIS project has been saved with a QGIS desktop version above the QGIS "
 "server installed in your server"
 msgstr ""
+"Het project van QGIS is opgeslagen met een desktopversie van QGIS boven de "
+"server van QGIS die op uw server is geïnstalleerd"
 
 #: admin~admin.project.list.column.qgis.desktop.version.label
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.label"
@@ -1331,6 +1377,10 @@ msgid ""
 "because it has been designed for a too old version of Lizmap Web Client. "
 "Open the project in QGIS desktop with an updated version of the plugin"
 msgstr ""
+"In de volgende versie van Lizmap Web Client zal dit project niet worden "
+"weergegeven omdat het is ontworpen voor een te oude versie van Lizmap Web "
+"Client. Open het project in het bureaublad van QGIS met een bijgewerkte "
+"versie van de plug-in"
 
 #: admin~admin.project.list.no.hidden.column.content
 msgctxt "admin~admin.project.list.no.hidden.column.content"
@@ -1473,7 +1523,7 @@ msgstr "Datum"
 #: admin~admin.server.information.lizmap.info.version
 msgctxt "admin~admin.server.information.lizmap.info.version"
 msgid "Version"
-msgstr ""
+msgstr "Versie"
 
 #: admin~admin.server.information.lizmap.label
 msgctxt "admin~admin.server.information.lizmap.label"
@@ -1498,7 +1548,7 @@ msgstr ""
 #: admin~admin.server.information.qgis.commit_id
 msgctxt "admin~admin.server.information.qgis.commit_id"
 msgid "Commit ID"
-msgstr ""
+msgstr "Commit-ID"
 
 #: admin~admin.server.information.qgis.error.fetching.information
 msgctxt "admin~admin.server.information.qgis.error.fetching.information"
@@ -1506,24 +1556,26 @@ msgid ""
 "We cannot get the details about your QGIS Server installation (version, "
 "plugins, etc.)."
 msgstr ""
+"We kunnen de details over uw installatie van QGIS Server (versie, plug-ins, "
+"etc.) niet verkrijgen."
 
 #: admin~admin.server.information.qgis.error.fetching.information.description
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.description"
 msgid "You must check that the following steps are done :"
-msgstr ""
+msgstr "U moet controleren of de volgende stappen zijn uitgevoerd:"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.HTTP_ERROR"
 msgid "QGIS Server returns an HTTP error about the Lizmap plugin:"
-msgstr ""
+msgstr "QGIS Server retourneert een HTTP-fout over de plug-in Lizmap:"
 
 #: admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.detail.NO_ACCESS"
 msgid "You don't have access to information about QGIS Server"
-msgstr ""
+msgstr "U hebt geen toegang tot informatie over QGIS Server"
 
 #: admin~admin.server.information.qgis.error.fetching.information.environment.variable
 msgctxt ""
@@ -1541,6 +1593,10 @@ msgid ""
 "the Lizmap server plugin (at QGIS server startup and when loading this "
 "webpage). You might need to increase debug level."
 msgstr ""
+"Uw <strong>serverlogboeken</strong> van QGIS bevatten geen waarschuwingen "
+"over de Lizmap-serverplug-in (bij het opstarten van de server van QGIS en "
+"bij het laden van deze webpagina). Mogelijk moet u het foutopsporingsniveau "
+"verhogen."
 
 #: admin~admin.server.information.qgis.error.fetching.information.lizmap.logs.html
 msgctxt ""
@@ -1557,6 +1613,8 @@ msgid ""
 "The <strong>Lizmap QGIS server plugin</strong> is installed on the server "
 "with a version above or equal to <strong>%s</strong>"
 msgstr ""
+"De <strong>Lizmap QGIS server plug-in</strong> is geïnstalleerd op de server"
+" met een versie hoger dan of gelijk aan <strong>%s</strong>"
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.lizmap.html
 msgctxt ""
@@ -1579,16 +1637,17 @@ msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.qgis.version.html"
 msgid "<strong>QGIS Server</strong> is above or equal to <strong>%s</strong>"
 msgstr ""
+"<strong>QGIS Server</strong> is groter dan of gelijk aan <strong>%s</strong>"
 
 #: admin~admin.server.information.qgis.label
 msgctxt "admin~admin.server.information.qgis.label"
 msgid "QGIS Server"
-msgstr ""
+msgstr "QGIS Server"
 
 #: admin~admin.server.information.qgis.metadata
 msgctxt "admin~admin.server.information.qgis.metadata"
 msgid "Version"
-msgstr ""
+msgstr "Versie"
 
 #: admin~admin.server.information.qgis.name
 msgctxt "admin~admin.server.information.qgis.name"
@@ -1608,12 +1667,12 @@ msgstr ""
 #: admin~admin.server.information.qgis.plugin.version
 msgctxt "admin~admin.server.information.qgis.plugin.version"
 msgid "Version"
-msgstr ""
+msgstr "Versie"
 
 #: admin~admin.server.information.qgis.plugins
 msgctxt "admin~admin.server.information.qgis.plugins"
 msgid "Plugins"
-msgstr ""
+msgstr "Plugins"
 
 #: admin~admin.server.information.qgis.plugins.version
 msgctxt "admin~admin.server.information.qgis.plugins.version"
@@ -1626,6 +1685,8 @@ msgid ""
 "QGIS Server is not correctly installed in your server or the URL for OGC "
 "requests given in Lizmap configuration is not correct."
 msgstr ""
+"QGIS Server is niet correct geïnstalleerd op uw server of de URL voor OGC-"
+"verzoeken gegeven in de Lizmap-configuratie is niet correct."
 
 #: admin~admin.server.information.qgis.test.ok
 msgctxt "admin~admin.server.information.qgis.test.ok"
@@ -1633,6 +1694,8 @@ msgid ""
 "QGIS Server is correctly installed and returns the expected response for OGC"
 " requests."
 msgstr ""
+"QGIS Server is correct geïnstalleerd en retourneert het verwachte antwoord "
+"voor OGC-verzoeken."
 
 #: admin~admin.server.information.qgis.unknown
 msgctxt "admin~admin.server.information.qgis.unknown"
@@ -1641,6 +1704,9 @@ msgid ""
 "installed and configured correctly. Your QGIS server couldn't be reached "
 "correctly with the given URL \"%s\"."
 msgstr ""
+"QGIS server minimaal %s en Lizmap QGIS server plug-in minimaal %s moeten "
+"correct worden geïnstalleerd en geconfigureerd. Uw server van QGIS kon niet "
+"correct worden bereikt met de opgegeven URL \"%s\"."
 
 #: admin~admin.server.information.qgis.update
 msgctxt "admin~admin.server.information.qgis.update"
@@ -1652,12 +1718,12 @@ msgstr ""
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
-msgstr ""
+msgstr "Nummer"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
 msgid "Remove this image (and use the default one)?"
-msgstr ""
+msgstr "Deze afbeelding verwijderen (en de standaardafbeelding gebruiken)?"
 
 #: admin~admin.theme.button.remove.logo.label
 msgctxt "admin~admin.theme.button.remove.logo.label"
@@ -1707,7 +1773,7 @@ msgstr "De file is gedeeltelijk geupload"
 #: admin~admin.upload.image.error.file.save
 msgctxt "admin~admin.upload.image.error.file.save"
 msgid "An error occurred during the save"
-msgstr ""
+msgstr "Er is een fout opgetreden tijdens het opslaan"
 
 #: admin~admin.upload.image.error.file.wrongType
 msgctxt "admin~admin.upload.image.error.file.wrongType"
@@ -1828,6 +1894,8 @@ msgstr "Laat exporteren van lagen toe"
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "See all the data of the filtered layers (attribute or spatial filters)"
 msgstr ""
+"Bekijk alle gegevens van de gefilterde lagen (attribuut- of ruimtelijke "
+"filters)"
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"

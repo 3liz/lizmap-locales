@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 09:27++0000\n"
+"POT-Creation-Date: 2023-11-27 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: Jože Detečnik <joze.detecnik@3tav.si>, 2023\n"
 "Language-Team: Slovenian (https://app.transifex.com/3liz-1/teams/62012/sl/)\n"
@@ -45,7 +45,7 @@ msgstr "Vnesite za filtriranje zemljevidov."
 #: view~default.header.search.toggleKeywordsTitle.title
 msgctxt "view~default.header.search.toggleKeywordsTitle.title"
 msgid "Toggle keywords/title search."
-msgstr "Preklopi iskanje po ključnih besedah/naslovu."
+msgstr "Preklopi iskanje: ključne besede/naslov."
 
 #: view~default.home.title
 msgctxt "view~default.home.title"
@@ -60,7 +60,7 @@ msgstr "Povzetek"
 #: view~default.project.access.denied
 msgctxt "view~default.project.access.denied"
 msgid "Access denied for this project."
-msgstr "Dostop za ta projekt zavrnjen."
+msgstr "Dostop do projekta je zavrnjen."
 
 #: view~default.project.bbox.label
 msgctxt "view~default.project.bbox.label"
@@ -122,8 +122,8 @@ msgid ""
 "This map cannot be displayed. Please contact the server administrator to "
 "check the server information panel."
 msgstr ""
-"Tega zemljevida ni mogoče prikazati. Obrnite se na skrbnika strežnika, da "
-"preveri informacijsko ploščo strežnika."
+"Zemljevida ni mogoče prikazati. Obrnite se na skrbnika, da preveri "
+"informacijsko ploščo strežnika."
 
 #: view~default.server.information.error.admin
 msgctxt "view~default.server.information.error.admin"
@@ -189,7 +189,7 @@ msgstr "Info"
 #: view~dictionnary.attributeLayers.btn.remove.link.title
 msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
 msgid "Unlink child"
-msgstr "Odstrani otroka"
+msgstr "Odstrani podrobnosti"
 
 #: view~dictionnary.attributeLayers.btn.select.title
 msgctxt "view~dictionnary.attributeLayers.btn.select.title"
@@ -211,7 +211,7 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "Plast ni vidna. Povečajte v merilu, v katerem so vidne značilnosti."
+msgstr "Plast ni vidna. Povečajte merilo."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -223,7 +223,7 @@ msgstr "Potrebna je aktivirana linija."
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
 msgid "Create a child"
-msgstr "Ustvarite otroka"
+msgstr "Nova podrobnost"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title
 msgctxt ""
@@ -301,7 +301,7 @@ msgstr "Izberite iskano vrstico"
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
 msgid "Toggle children tables"
-msgstr "Preklopi otroške tabele"
+msgstr "Prikaz/skrij podrobnosti"
 
 #: view~dictionnary.attributeLayers.toolbar.cb.data.detail.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.cb.data.detail.title"
@@ -673,7 +673,7 @@ msgstr "Za izvoz plasti je potrebna pravica."
 #: view~dictionnary.layer.export.started
 msgctxt "view~dictionnary.layer.export.started"
 msgid "Export started, please wait…"
-msgstr ""
+msgstr "Izvoz se je začel, prosim počakajte..."
 
 #: view~dictionnary.layer.export.unknown.export.error
 msgctxt "view~dictionnary.layer.export.unknown.export.error"
@@ -968,7 +968,7 @@ msgstr "Izbiranje"
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
-msgstr "Snemanje"
+msgstr "Lepljenje"
 
 #: view~dictionnary.startup.error
 msgctxt "view~dictionnary.startup.error"
@@ -1499,7 +1499,7 @@ msgstr "Med odstranjevanjem povezave je prišlo do napake."
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
 msgid "The child feature has correctly been unlinked."
-msgstr "Povezava s podrejeno funkcijo je bila pravilno prekinjena."
+msgstr "Povezava s podrobnostjo je odstranjena."
 
 #: view~edition.upload.choice.delete
 msgctxt "view~edition.upload.choice.delete"
@@ -2054,7 +2054,7 @@ msgstr "Ustavi"
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
 msgid "Underway…"
-msgstr ""
+msgstr "Prihaja..."
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"
