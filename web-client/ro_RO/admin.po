@@ -1,15 +1,17 @@
 # 
 # Translators:
-# Igor Sorocean <sorocean.igor@gmail.com>, 2020-2023
-# Tudor Bărăscu <tudorbarascu@yahoo.com>, 2017
+# Laurent Jouanneau <dev@ljouanneau.com>, 2023
+# Tudor Bărăscu <tudorbarascu@yahoo.com>, 2023
+# Igor Sorocean <sorocean.igor@gmail.com>, 2023
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-20 15:03++0000\n"
-"PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020-2023\n"
-"Language-Team: Romanian (http://app.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
+"POT-Creation-Date: 2023-11-30 15:58++0100\n"
+"PO-Revision-Date: 2023-11-28 15:42+0000\n"
+"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2023\n"
+"Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,7 +43,9 @@ msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
 "This option cannot be enabled while the sender email is not defined. Please "
 "contact the application administrator."
-msgstr "Această opțiune nu poate fi activată în timp ce e-mailul expeditorului nu este definit. Contactează administratorul aplicației."
+msgstr ""
+"Această opțiune nu poate fi activată în timp ce e-mailul expeditorului nu "
+"este definit. Contactează administratorul aplicației."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -102,7 +106,8 @@ msgstr "E-mail administrator"
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of Ldap authentication"
-msgstr "Această opțiune este dezactivată din cauza utilizării autentificării Ldap"
+msgstr ""
+"Această opțiune este dezactivată din cauza utilizării autentificării Ldap"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -122,7 +127,7 @@ msgstr "Dosarul rădăcină al cache-ului"
 #: admin~admin.configuration.services.cacheStorageType.label
 msgctxt "admin~admin.configuration.services.cacheStorageType.label"
 msgid "Server cache storage type"
-msgstr "Tipul stocării de cache al serverului"
+msgstr "Tipul storage-ului de cache al serverului"
 
 #: admin~admin.configuration.services.debugMode.label
 msgctxt "admin~admin.configuration.services.debugMode.label"
@@ -287,13 +292,18 @@ msgid ""
 "List of URL separated by a comma, like "
 "'https://domain1.com,https://www.domain2.com'. Path and query parameters "
 "will be removed from the URL."
-msgstr "Listă de adrese URL separate prin virgulă, cum ar fi „https://domain1.com,https://www.domain2.com”. Calea și parametrii de interogare vor fi eliminați din adresa URL."
+msgstr ""
+"Listă de adrese URL separate prin virgulă, cum ar fi "
+"„https://domain1.com,https://www.domain2.com”. Calea și parametrii de "
+"interogare vor fi eliminați din adresa URL."
 
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.accessControlAllowOrigin.label"
 msgid "List of websites allowed to access the map services (WMS/WMTS/WFS…)"
-msgstr "Lista paginilor web autorizate să acceseze serviciile de hărți (WMS/WMTS/WFS...)"
+msgstr ""
+"Lista paginilor web autorizate să acceseze serviciile de hărți "
+"(WMS/WMTS/WFS...)"
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
 msgctxt ""
@@ -307,7 +317,10 @@ msgid ""
 "Repository unique identifier, it must only contain characters between a-z "
 "and 0-9 (no space, no special character). This identifier can not be edited "
 "later."
-msgstr "Identificatorul unic al depozitului, trebuie să conțină doar caractere între a-z și 0-9 (fără spațiu, fără caractere speciale). Acest identificator nu poate fi editat ulterior."
+msgstr ""
+"Identificatorul unic al depozitului, trebuie să conțină doar caractere între"
+" a-z și 0-9 (fără spațiu, fără caractere speciale). Acest identificator nu "
+"poate fi editat ulterior."
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
@@ -329,7 +342,9 @@ msgctxt "admin~admin.form.admin_section.repository.path.help"
 msgid ""
 "The directory in which QGIS projects and Lizmap configuration file must be "
 "stored."
-msgstr "Dosarul în care trebuie stocate proiectele QGIS și fișierul de configurare Lizmap."
+msgstr ""
+"Dosarul în care trebuie stocate proiectele QGIS și fișierul de configurare "
+"Lizmap."
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -356,14 +371,19 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
 msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
-msgstr "O adresă de e-mail a expeditorului este necesară pentru a trimite notificări sau cereri pentru creare de conturi"
+msgstr ""
+"O adresă de e-mail a expeditorului este necesară pentru a trimite notificări"
+" sau cereri pentru creare de conturi"
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "Adresa de e-mail folosită pentru a trimite e-mailuri. Dacă lipsește, Lizmap nu va trimite niciun e-mail. Asigură-te că serverul are dreptul să trimită e-mail cu această adresă."
+msgstr ""
+"Adresa de e-mail folosită pentru a trimite e-mailuri. Dacă lipsește, Lizmap "
+"nu va trimite niciun e-mail. Asigură-te că serverul are dreptul să trimită "
+"e-mail cu această adresă."
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
@@ -373,7 +393,9 @@ msgstr "Adresa expeditorului e-mailurilor"
 #: admin~admin.form.admin_services.adminSenderEmail.readonly.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.readonly.help"
 msgid "E-mail address used to send e-mails. It cannot be modified."
-msgstr "Adresă de e-mail folosită pentru a trimite e-mailuri. Nu poate fi modificată."
+msgstr ""
+"Adresă de e-mail folosită pentru a trimite e-mailuri. Nu poate fi "
+"modificată."
 
 #: admin~admin.form.admin_services.adminSenderName.help
 msgctxt "admin~admin.form.admin_services.adminSenderName.help"
@@ -390,7 +412,9 @@ msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
 msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
-msgstr "Dacă este activat, vizitatorii pot completa un formular pentru a solicita un cont. Adresa expeditorului pentru e-mailurile ar trebui să fie setată."
+msgstr ""
+"Dacă este activat, vizitatorii pot completa un formular pentru a solicita un"
+" cont. Adresa expeditorului pentru e-mailurile ar trebui să fie setată."
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
@@ -407,19 +431,23 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr "0 înseamnă că nu expiră, alt număr natural reprezintă secundele (maxim 2592000 s = 30 zile)"
+msgstr ""
+"0 înseamnă că nu expiră, alt număr natural reprezintă secundele (maxim "
+"2592000 s = 30 zile)"
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
 msgid "Server cache expiration time(s)"
-msgstr "Timp expirare cache server (s)"
+msgstr "Timpul expirare cache server (s)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.help
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.help"
 msgid ""
 "Redis database index: integer ≥ 0, optional (used if Redis is chosen for the"
 " cache storage)"
-msgstr "Indexul bazei de date Redis: întreg ≥ 0, opțional (utilizat dacă este ales Redis pentru stocarea cache)"
+msgstr ""
+"Indexul bazei de date Redis: întreg ≥ 0, opțional (utilizat dacă este ales "
+"Redis pentru stocarea cache)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -506,7 +534,7 @@ msgstr "Mod depanare"
 #: admin~admin.form.admin_services.defaultProject.label
 msgctxt "admin~admin.form.admin_services.defaultProject.label"
 msgid "Default project"
-msgstr "Proiect implicit"
+msgstr "Proiectul implicit"
 
 #: admin~admin.form.admin_services.defaultRepository.label
 msgctxt "admin~admin.form.admin_services.defaultRepository.label"
@@ -519,7 +547,11 @@ msgid ""
 "To send emails, Lizmap needs a sender address. If empty, no emails will be "
 "sent by Lizmap, and therefore, some features like password recovery or email"
 " notifications won't work."
-msgstr "Pentru a trimite e-mailuri, Lizmap are nevoie de o adresă de expeditor. Dacă este goală, Lizmap nu va trimite niciun e-mail și, prin urmare, unele funcții precum recuperarea parolei sau notificările prin e-mail nu vor funcționa."
+msgstr ""
+"Pentru a trimite e-mailuri, Lizmap are nevoie de o adresă de expeditor. Dacă"
+" este goală, Lizmap nu va trimite niciun e-mail și, prin urmare, unele "
+"funcții precum recuperarea parolei sau notificările prin e-mail nu vor "
+"funcționa."
 
 #: admin~admin.form.admin_services.emails.no.server
 msgctxt "admin~admin.form.admin_services.emails.no.server"
@@ -527,21 +559,29 @@ msgid ""
 "No sender address is configured in Lizmap. Some features like password "
 "recovery or email notifications cannot work. Contact the application "
 "administrator if you want to enable all email features."
-msgstr "Nicio adresă de expeditor nu este configurată în Lizmap. Unele funcții precum recuperarea parolei sau notificările prin e-mail nu pot funcționa. Contactați administratorul aplicației dacă doriți să activați toate funcțiile de e-mail."
+msgstr ""
+"Nicio adresă de expeditor nu este configurată în Lizmap. Unele funcții "
+"precum recuperarea parolei sau notificările prin e-mail nu pot funcționa. "
+"Contactați administratorul aplicației dacă doriți să activați toate "
+"funcțiile de e-mail."
 
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
 msgid ""
 "Be sure the web server is able to send emails or setup SMTP parameters into "
 "the configuration files of Lizmap."
-msgstr "Asigură-te că serverul web este capabil să trimită e-mailuri sau să seteze parametrii SMTP în fișierele de configurare ale Lizmap."
+msgstr ""
+"Asigură-te că serverul web este capabil să trimită e-mailuri sau să seteze "
+"parametrii SMTP în fișierele de configurare ale Lizmap."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.help
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
 msgid ""
 "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
 "\"tracking ID\"."
-msgstr "ID-ul Google Analytics este de forma 'UA-XXXX-Y'. Mai este denumit și \"tracking ID\"."
+msgstr ""
+"ID-ul Google Analytics este de forma 'UA-XXXX-Y'. Mai este denumit și "
+"\"tracking ID\"."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.label
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
@@ -560,7 +600,12 @@ msgid ""
 "or above. If you are using the FCGI server, you must let empty this field. "
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
-msgstr "Este necesar serverul QGIS %s sau o versiune superioară, precum și plugin-ul Server Lizmap %s sau o versiune superioară. Dacă utilizați serverul FCGI, trebuie să lăsați gol acest câmp. Altfel, dacă utilizați Py-Qgis-Server, indicați adresa URL configurată în configurația Py-Qgis-Server despre URL-ul plugin-ului Lizmap."
+msgstr ""
+"Este necesar serverul QGIS %s sau o versiune superioară, precum și plugin-ul"
+" Server Lizmap %s sau o versiune superioară. Dacă utilizați serverul FCGI, "
+"trebuie să lăsați gol acest câmp. Altfel, dacă utilizați Py-Qgis-Server, "
+"indicați adresa URL configurată în configurația Py-Qgis-Server despre URL-ul"
+" plugin-ului Lizmap."
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
@@ -572,7 +617,9 @@ msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr "Timpul de expirare al cache-ului serverului trebuie să fie un număr natural între 0 și 2592000 secunde."
+msgstr ""
+"Timpul de expirare al cache-ului serverului trebuie să fie un număr natural "
+"între 0 și 2592000 secunde."
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
@@ -637,7 +684,8 @@ msgstr "Utilizați un server proxy"
 #: admin~admin.form.admin_services.requestProxy.label
 msgctxt "admin~admin.form.admin_services.requestProxy.label"
 msgid "Use a proxy server to do requests to external services"
-msgstr "Utilizați un server proxy pentru a face solicitări către servicii externe"
+msgstr ""
+"Utilizați un server proxy pentru a face solicitări către servicii externe"
 
 #: admin~admin.form.admin_services.requestProxyHost.label
 msgctxt "admin~admin.form.admin_services.requestProxyHost.label"
@@ -675,7 +723,10 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr "Directorul rădăcină al depozitelor de date poate limita directorul Lizmap la 1 director. Dacă o care e setată aici, definirea unei căi catre un director Limap nu mai este posibilă."
+msgstr ""
+"Directorul rădăcină al depozitelor de date poate limita directorul Lizmap la"
+" 1 director. Dacă o care e setată aici, definirea unei căi catre un director"
+" Limap nu mai este posibilă."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -693,7 +744,10 @@ msgid ""
 "Images uploaded when editing features will have this maximum width and "
 "height (in pixels). A recommended value is 1920 (HD size). The maximum value"
 " is 3840 and the minimum value is 480."
-msgstr "Imaginile încărcate la editarea obiectelor vor avea această lățime și înălțime maximă (în pixeli). O valoare recomandată este 1920 (dimensiune HD). Valoarea maximă este 3840 și valoarea minimă este 480."
+msgstr ""
+"Imaginile încărcate la editarea obiectelor vor avea această lățime și "
+"înălțime maximă (în pixeli). O valoare recomandată este 1920 (dimensiune "
+"HD). Valoarea maximă este 3840 și valoarea minimă este 480."
 
 #: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.label"
@@ -729,7 +783,9 @@ msgstr "Da"
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
-msgstr "Poți scrie orice sintaxă CSS pentru suprascrie stilul Lizmap (pentru utilizatorii avansați)"
+msgstr ""
+"Poți scrie orice sintaxă CSS pentru suprascrie stilul Lizmap (pentru "
+"utilizatorii avansați)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
@@ -764,7 +820,8 @@ msgstr "Culoare fundal antet"
 #: admin~admin.form.admin_theme.headerBackgroundImage.help
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.help"
 msgid "The image to be used for the header background (400 ko maximum)."
-msgstr "Imaginea care va fi utilizată pentru fundalul antetului (400 KO Maxim)."
+msgstr ""
+"Imaginea care va fi utilizată pentru fundalul antetului (400 KO Maxim)."
 
 #: admin~admin.form.admin_theme.headerBackgroundImage.label
 msgctxt "admin~admin.form.admin_theme.headerBackgroundImage.label"
@@ -817,7 +874,10 @@ msgid ""
 "You can select colors with this <a href=\"https://mdn.github.io/css-"
 "examples/tools/color-picker/\" target=\"_blank\">colorpicker</a> (e.g. "
 "<code>rgb(148 193 31 / 0.5)</code>)."
-msgstr "Poți selecta culori cu <a href=\"https://mdn.github.io/css-examples/tools/color-picker/\" target=\"_blank\">selectorul de culori</a> (de ex. <code>rgb(148 193 31 / 0.5)</code>)."
+msgstr ""
+"Poți selecta culori cu <a href=\"https://mdn.github.io/css-"
+"examples/tools/color-picker/\" target=\"_blank\">selectorul de culori</a> "
+"(de ex. <code>rgb(148 193 31 / 0.5)</code>)."
 
 #: admin~admin.form.admin_theme.menuBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.menuBackgroundColor.help"
@@ -869,7 +929,9 @@ msgctxt "admin~admin.landingPageContent.error.submit"
 msgid ""
 "An error occurred while saving the content. Your session has been "
 "terminated, please retry."
-msgstr "A apărut o eroare la salvarea conținutului. Sesiunea a fost încheiată, reîncearcă."
+msgstr ""
+"A apărut o eroare la salvarea conținutului. Sesiunea a fost încheiată, "
+"reîncearcă."
 
 #: admin~admin.landingPageContent.saved
 msgctxt "admin~admin.landingPageContent.saved"
@@ -929,7 +991,9 @@ msgstr "Un utilizator s-a autentificat."
 #: admin~admin.logs.email.popup.body
 msgctxt "admin~admin.logs.email.popup.body"
 msgid "A user has opened a feature information popup."
-msgstr "Un utilizator a deschis un balon informativ cu informații despre caracteristici."
+msgstr ""
+"Un utilizator a deschis un balon informativ cu informații despre "
+"caracteristici."
 
 #: admin~admin.logs.email.print.body
 msgctxt "admin~admin.logs.email.print.body"
@@ -981,17 +1045,21 @@ msgctxt "admin~admin.logs.error.file.too.big"
 msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
-msgstr "Fișierul jurnal de erori este prea mare. Ia în considerare utilizarea repetării jurnalului pentru jurnalele Lizmap Web Client."
+msgstr ""
+"Fișierul jurnal de erori este prea mare. Ia în considerare utilizarea "
+"repetării jurnalului pentru jurnalele Lizmap Web Client."
 
 #: admin~admin.logs.error.no.delete.right
 msgctxt "admin~admin.logs.error.no.delete.right"
 msgid "You have no right to delete the logs."
-msgstr "Nu aveți dreptul să ștergeți jurnalele."
+msgstr "Nu ai dreptul să ștergi jurnalele."
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the Lizmap Web Client application error log file"
-msgstr "Ultimele rânduri ale fișierului jurnal de erori al aplicației Lizmap Web Client"
+msgstr ""
+"Ultimele rânduri ale fișierului jurnal de erori al aplicației Lizmap Web "
+"Client"
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
@@ -1021,12 +1089,12 @@ msgstr "Cheie"
 #: admin~admin.logs.next_page
 msgctxt "admin~admin.logs.next_page"
 msgid "Next"
-msgstr "Următoarea"
+msgstr "Următorul"
 
 #: admin~admin.logs.previous_page
 msgctxt "admin~admin.logs.previous_page"
 msgid "Previous"
-msgstr "Precedenta"
+msgstr "Anterior"
 
 #: admin~admin.logs.project
 msgctxt "admin~admin.logs.project"
@@ -1104,7 +1172,10 @@ msgid ""
 "Some projects, listed below, can not be displayed in the main web interface "
 "because they need an update from the GIS administrator. Please read the "
 "guidelines about colours by clicking on the button \"%s\"."
-msgstr "Unele proiecte, enumerate mai jos, nu pot fi afișate în interfața web principală deoarece au nevoie de o actualizare de la administratorul GIS. Citește instrucțiunile despre culori făcând clic pe butonul \"%s\"."
+msgstr ""
+"Unele proiecte, enumerate mai jos, nu pot fi afișate în interfața web "
+"principală deoarece au nevoie de o actualizare de la administratorul GIS. "
+"Citește instrucțiunile despre culori făcând clic pe butonul \"%s\"."
 
 #: admin~admin.project.list.column.authorized.groups.label
 msgctxt "admin~admin.project.list.column.authorized.groups.label"
@@ -1147,7 +1218,10 @@ msgid ""
 "QGIS cannot read some layers. Please check that the server can access the layer data. \n"
 "* For file based layers, the path must be accessible. \n"
 "* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
-msgstr "Unele straturi nu pot fi citite de QGIS. Verifică dacă serverul poate accesa datele stratului.\n* Pentru straturile bazate pe fișiere, calea trebuie să fie accesibilă.\n* Pentru straturile PostgreSQL, serverul Lizmap trebuie să se poată conecta la serverul bazei de date."
+msgstr ""
+"Unele straturi nu pot fi citite de QGIS. Verifică dacă serverul poate accesa datele stratului.\n"
+"* Pentru straturile bazate pe fișiere, calea trebuie să fie accesibilă.\n"
+"* Pentru straturile PostgreSQL, serverul Lizmap trebuie să se poată conecta la serverul bazei de date."
 
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
@@ -1164,7 +1238,9 @@ msgctxt "admin~admin.project.list.column.layers.count.error.label"
 msgid ""
 "This project has a huge number of layers. Performance could be highly "
 "degraded."
-msgstr "Acest proiect are un număr mare de straturi. Performanța ar putea fi foarte degradată."
+msgstr ""
+"Acest proiect are un număr mare de straturi. Performanța ar putea fi foarte "
+"degradată."
 
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
@@ -1196,7 +1272,9 @@ msgctxt "admin~admin.project.list.column.loading.time.error.label"
 msgid ""
 "The project loading time is very long. Please try to simplify your QGIS "
 "project for better performance."
-msgstr "Timpul de încărcare a proiectului este foarte lung. Încearcă să simplifici proiectul QGIS pentru o performanță mai bună."
+msgstr ""
+"Timpul de încărcare a proiectului este foarte lung. Încearcă să simplifici "
+"proiectul QGIS pentru o performanță mai bună."
 
 #: admin~admin.project.list.column.loading.time.label
 msgctxt "admin~admin.project.list.column.loading.time.label"
@@ -1218,7 +1296,9 @@ msgctxt "admin~admin.project.list.column.memory.usage.error.label"
 msgid ""
 "The project memory usage is very high. Please try to simplify your QGIS "
 "project for better performance."
-msgstr "Utilizarea memoriei proiectului este foarte mare. Încearcă să simplifici proiectul QGIS pentru o performanță mai bună."
+msgstr ""
+"Utilizarea memoriei proiectului este foarte mare. Încearcă să simplifici "
+"proiectul QGIS pentru o performanță mai bună."
 
 #: admin~admin.project.list.column.memory.usage.label
 msgctxt "admin~admin.project.list.column.memory.usage.label"
@@ -1265,7 +1345,9 @@ msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
 msgid ""
 "The QGIS project has been saved with a QGIS desktop version above the QGIS "
 "server installed in your server"
-msgstr "Proiectul QGIS a fost salvat cu o versiune mai recentă a QGIS Desktop decât versiunea Serverului QGIS instalată pe server"
+msgstr ""
+"Proiectul QGIS a fost salvat cu o versiune mai recentă a QGIS Desktop decât "
+"versiunea Serverului QGIS instalată pe server"
 
 #: admin~admin.project.list.column.qgis.desktop.version.label
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.label"
@@ -1302,7 +1384,9 @@ msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
 msgid ""
 "This project can not be displayed in the landing page. Open the project in "
 "QGIS desktop with an updated version of the plugin"
-msgstr "Acest proiect nu poate fi afișat în pagina de destinație. Deschide proiectul în QGIS desktop cu o versiune actualizată a plugin-ului"
+msgstr ""
+"Acest proiect nu poate fi afișat în pagina de destinație. Deschide proiectul"
+" în QGIS desktop cu o versiune actualizată a plugin-ului"
 
 #: admin~admin.project.list.column.update.soon.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.soon.in.qgis.desktop"
@@ -1310,13 +1394,18 @@ msgid ""
 "In the next version of Lizmap Web Client, this project won't be displayed "
 "because it has been designed for a too old version of Lizmap Web Client. "
 "Open the project in QGIS desktop with an updated version of the plugin"
-msgstr "În următoarea versiune a Lizmap Web Client, acest proiect nu va fi afișat deoarece a fost proiectat pentru o versiune prea veche a Lizmap Web Client. Deschide proiectul în QGIS desktop cu o versiune actualizată a plugin-ului"
+msgstr ""
+"În următoarea versiune a Lizmap Web Client, acest proiect nu va fi afișat "
+"deoarece a fost proiectat pentru o versiune prea veche a Lizmap Web Client. "
+"Deschide proiectul în QGIS desktop cu o versiune actualizată a plugin-ului"
 
 #: admin~admin.project.list.no.hidden.column.content
 msgctxt "admin~admin.project.list.no.hidden.column.content"
 msgid ""
 "No extra content for this project in the following hidden table columns"
-msgstr "Nu există conținut suplimentar pentru acest proiect în următoarele coloane ascunse ale tabelului"
+msgstr ""
+"Nu există conținut suplimentar pentru acest proiect în următoarele coloane "
+"ascunse ale tabelului"
 
 #: admin~admin.project.modal.button.close
 msgctxt "admin~admin.project.modal.button.close"
@@ -1333,7 +1422,9 @@ msgctxt "admin~admin.project.rules.list.blocking.description"
 msgid ""
 "Some projects are not visible anymore without any updates from the GIS "
 "administrator."
-msgstr "Unele proiecte nu mai sunt vizibile fără actualizări de la administratorul GIS."
+msgstr ""
+"Unele proiecte nu mai sunt vizibile fără actualizări de la administratorul "
+"GIS."
 
 #: admin~admin.project.rules.list.blocking.html
 msgctxt "admin~admin.project.rules.list.blocking.html"
@@ -1345,12 +1436,15 @@ msgctxt "admin~admin.project.rules.list.blocking.target.html"
 msgid ""
 "The project is designed for a Lizmap Web Client version equal or less than "
 "<strong>%s</strong>."
-msgstr "Proiectul este conceput pentru versiunea Lizmap Web Client egală sau mai mică decât <strong>%s</strong>."
+msgstr ""
+"Proiectul este conceput pentru versiunea Lizmap Web Client egală sau mai "
+"mică decât <strong>%s</strong>."
 
 #: admin~admin.project.rules.list.custom.projection
 msgctxt "admin~admin.project.rules.list.custom.projection"
 msgid "The project is using a <strong>user-defined</strong> projection."
-msgstr "Proiectul folosește o proiecție <strong>definită de utilizator</strong>."
+msgstr ""
+"Proiectul folosește o proiecție <strong>definită de utilizator</strong>."
 
 #: admin~admin.project.rules.list.description.html
 msgctxt "admin~admin.project.rules.list.description.html"
@@ -1358,19 +1452,25 @@ msgid ""
 "Given your current Lizmap Web Client version <strong>%s</strong> and QGIS "
 "Server version <strong>%s</strong>, there are some rules about the table "
 "above :"
-msgstr "Având în vedere versiunea curentă a Lizmap Web Client <strong>%s</strong> și versiunea QGIS Server <strong>%s</strong>, există câteva reguli despre tabelul de mai sus:"
+msgstr ""
+"Având în vedere versiunea curentă a Lizmap Web Client <strong>%s</strong> și"
+" versiunea QGIS Server <strong>%s</strong>, există câteva reguli despre "
+"tabelul de mai sus:"
 
 #: admin~admin.project.rules.list.error.loading.html
 msgctxt "admin~admin.project.rules.list.error.loading.html"
 msgid "The project takes longer than <strong>%s</strong> seconds to load."
-msgstr "Încărcarea proiectului durează mai mult de <strong>%s</strong> secunde."
+msgstr ""
+"Încărcarea proiectului durează mai mult de <strong>%s</strong> secunde."
 
 #: admin~admin.project.rules.list.error.memory.html
 msgctxt "admin~admin.project.rules.list.error.memory.html"
 msgid ""
 "The project takes more than <strong>%s</strong> Mo of the server memory to "
 "load."
-msgstr "Proiectul necesită mai mult de <strong>%s</strong> MO din memoria serverului pentru a se încărca."
+msgstr ""
+"Proiectul necesită mai mult de <strong>%s</strong> MO din memoria serverului"
+" pentru a se încărca."
 
 #: admin~admin.project.rules.list.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
@@ -1387,21 +1487,28 @@ msgctxt "admin~admin.project.rules.list.invalid.datasource.html"
 msgid ""
 "The project has some <strong>invalid layer datasource</strong> when QGIS "
 "server loaded the project."
-msgstr "Proiectul are câteva <strong>straturi cu surse de date nevalide</strong> când serverul QGIS încarcă proiectul."
+msgstr ""
+"Proiectul are câteva <strong>straturi cu surse de date nevalide</strong> "
+"când serverul QGIS încarcă proiectul."
 
 #: admin~admin.project.rules.list.qgis.version.error.html
 msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
 msgid ""
 "The desktop version <strong>is above</strong> QGIS server. Current value "
 "greater or equal than <strong>%s</strong>."
-msgstr "Versiunea desktop <strong>este ma mare</strong> decât serverul QGIS. Valoarea curentă este mai mare sau egală cu <strong>%s</strong>."
+msgstr ""
+"Versiunea desktop <strong>este ma mare</strong> decât serverul QGIS. "
+"Valoarea curentă este mai mare sau egală cu <strong>%s</strong>."
 
 #: admin~admin.project.rules.list.qgis.version.warning.html
 msgctxt "admin~admin.project.rules.list.qgis.version.warning.html"
 msgid ""
 "The project version is too old compared to the current QGIS Server version. "
 "Current value less or equal to <strong>%s</strong>."
-msgstr "Versiunea proiectului este prea veche în comparație cu versiunea actuală a serverului QGIS. Valoarea curentă este mai mică sau egală cu <strong>%s</strong>."
+msgstr ""
+"Versiunea proiectului este prea veche în comparație cu versiunea actuală a "
+"serverului QGIS. Valoarea curentă este mai mică sau egală cu "
+"<strong>%s</strong>."
 
 #: admin~admin.project.rules.list.target.version.html
 msgctxt "admin~admin.project.rules.list.target.version.html"
@@ -1416,21 +1523,26 @@ msgstr "Cantitatea este mai mare sau egală cu <strong>%s</strong> straturi."
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
 msgid "The project takes longer than <strong>%s</strong> seconds to load."
-msgstr "Încărcarea proiectului durează mai mult de <strong>%s</strong> secunde."
+msgstr ""
+"Încărcarea proiectului durează mai mult de <strong>%s</strong> secunde."
 
 #: admin~admin.project.rules.list.warning.memory.html
 msgctxt "admin~admin.project.rules.list.warning.memory.html"
 msgid ""
 "The project takes more than <strong>%s</strong> Mo of the server memory to "
 "load."
-msgstr "Proiectul necesită mai mult de <strong>%s</strong> MO din memoria serverului pentru a se încărca."
+msgstr ""
+"Proiectul necesită mai mult de <strong>%s</strong> MO din memoria serverului"
+" pentru a se încărca."
 
 #: admin~admin.project.rules.list.warnings.html
 msgctxt "admin~admin.project.rules.list.warnings.html"
 msgid ""
 "<strong>Warnings</strong>, projects are still visible, but you should have a"
 " look to these projects :"
-msgstr "<strong>Avertisment</strong>, proiectele sunt încă vizibile, dar ar trebui să arunci o privire la aceste proiecte:"
+msgstr ""
+"<strong>Avertisment</strong>, proiectele sunt încă vizibile, dar ar trebui "
+"să arunci o privire la aceste proiecte:"
 
 #: admin~admin.server.information.error
 msgctxt "admin~admin.server.information.error"
@@ -1438,7 +1550,10 @@ msgid ""
 "Before checking your projects, you must check your QGIS server settings in "
 "the \"Server information\" menu. The configuration of QGIS Server is "
 "currently not correct."
-msgstr "Înainte de a verifica proiectele, trebuie să verifici setările serverului QGIS în meniul „Informații despre server”. Configurația QGIS Server nu este în prezent corectă."
+msgstr ""
+"Înainte de a verifica proiectele, trebuie să verifici setările serverului "
+"QGIS în meniul „Informații despre server”. Configurația QGIS Server nu este "
+"în prezent corectă."
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
@@ -1485,7 +1600,9 @@ msgctxt "admin~admin.server.information.qgis.error.fetching.information"
 msgid ""
 "We cannot get the details about your QGIS Server installation (version, "
 "plugins, etc.)."
-msgstr "Nu putem obține detalii despre instalarea dvs. QGIS Server (versiune, plugin-uri etc.)."
+msgstr ""
+"Nu putem obține detalii despre instalarea dvs. QGIS Server (versiune, "
+"plugin-uri etc.)."
 
 #: admin~admin.server.information.qgis.error.fetching.information.description
 msgctxt ""
@@ -1512,7 +1629,10 @@ msgid ""
 "The <strong>environment variable</strong> about the <strong>Lizmap server "
 "plugin</strong> described in the documentation link below is correctly set "
 "in your configuration"
-msgstr "<strong>Variabila de mediu</strong> a <strong>plugin-ului Lizmap server</strong> descrisă în linkul de documentație de mai jos este setată corect în configurație"
+msgstr ""
+"<strong>Variabila de mediu</strong> a <strong>plugin-ului Lizmap "
+"server</strong> descrisă în linkul de documentație de mai jos este setată "
+"corect în configurație"
 
 #: admin~admin.server.information.qgis.error.fetching.information.help
 msgctxt "admin~admin.server.information.qgis.error.fetching.information.help"
@@ -1520,7 +1640,11 @@ msgid ""
 "Your QGIS server <strong>logs</strong> does not contain any warnings about "
 "the Lizmap server plugin (at QGIS server startup and when loading this "
 "webpage). You might need to increase debug level."
-msgstr "<strong>Jurnalele</strong> serverului QGIS nu conțin niciun avertisment despre plugin-ul serverului Lizmap (la pornirea serverului QGIS și la încărcarea acestei pagini web). Poate fi necesar să ridici nivelul de depanare."
+msgstr ""
+"<strong>Jurnalele</strong> serverului QGIS nu conțin niciun avertisment "
+"despre plugin-ul serverului Lizmap (la pornirea serverului QGIS și la "
+"încărcarea acestei pagini web). Poate fi necesar să ridici nivelul de "
+"depanare."
 
 #: admin~admin.server.information.qgis.error.fetching.information.lizmap.logs.html
 msgctxt ""
@@ -1528,7 +1652,9 @@ msgctxt ""
 msgid ""
 "Your Lizmap Web Client <strong>logs</strong> does not contain any warnings "
 "about reaching QGIS server"
-msgstr "<strong>Jurnalele</strong> Lizmap Web Client nu conțin niciun avertisment despre accesarea serverului QGIS"
+msgstr ""
+"<strong>Jurnalele</strong> Lizmap Web Client nu conțin niciun avertisment "
+"despre accesarea serverului QGIS"
 
 #: admin~admin.server.information.qgis.error.fetching.information.plugin.version.html
 msgctxt ""
@@ -1536,7 +1662,9 @@ msgctxt ""
 msgid ""
 "The <strong>Lizmap QGIS server plugin</strong> is installed on the server "
 "with a version above or equal to <strong>%s</strong>"
-msgstr "<strong>Plugin-ul Lizmap QGIS server</strong> este instalat pe server cu versiunea nu mai mică decât <strong>%s</strong>"
+msgstr ""
+"<strong>Plugin-ul Lizmap QGIS server</strong> este instalat pe server cu "
+"versiunea nu mai mică decât <strong>%s</strong>"
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.lizmap.html
 msgctxt ""
@@ -1544,7 +1672,10 @@ msgctxt ""
 msgid ""
 "The URL to reach the Lizmap API on QGIS Server is <strong>correct</strong> "
 "in your administration panel, if you use Py-QGIS-Server"
-msgstr "Adresa URL pentru a accesa API-ul Lizmap de pe serverul QGIS este <strong>corectă</strong> în panoul de administrare, dacă utilizezi Py-QGIS-Server"
+msgstr ""
+"Adresa URL pentru a accesa API-ul Lizmap de pe serverul QGIS este "
+"<strong>corectă</strong> în panoul de administrare, dacă utilizezi Py-QGIS-"
+"Server"
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.url.html
 msgctxt ""
@@ -1552,13 +1683,16 @@ msgctxt ""
 msgid ""
 "The URL to reach QGIS server is <strong>correct</strong> in your "
 "administration panel"
-msgstr "Adresa URL pentru a ajunge la serverul QGIS este <strong>corectă</strong> în panoul de administrare"
+msgstr ""
+"Adresa URL pentru a ajunge la serverul QGIS este <strong>corectă</strong> în"
+" panoul de administrare"
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.version.html
 msgctxt ""
 "admin~admin.server.information.qgis.error.fetching.information.qgis.version.html"
 msgid "<strong>QGIS Server</strong> is above or equal to <strong>%s</strong>"
-msgstr "<strong>Serverul QGIS</strong> este peste sau egal cu <strong>%s</strong>"
+msgstr ""
+"<strong>Serverul QGIS</strong> este peste sau egal cu <strong>%s</strong>"
 
 #: admin~admin.server.information.qgis.label
 msgctxt "admin~admin.server.information.qgis.label"
@@ -1610,14 +1744,18 @@ msgctxt "admin~admin.server.information.qgis.test.error"
 msgid ""
 "QGIS Server is not correctly installed in your server or the URL for OGC "
 "requests given in Lizmap configuration is not correct."
-msgstr "Serverul QGIS nu este instalat corect pe serverul dvs. sau adresa URL pentru solicitările OGC furnizată în configurația Lizmap nu este corectă."
+msgstr ""
+"Serverul QGIS nu este instalat corect pe serverul dvs. sau adresa URL pentru"
+" solicitările OGC furnizată în configurația Lizmap nu este corectă."
 
 #: admin~admin.server.information.qgis.test.ok
 msgctxt "admin~admin.server.information.qgis.test.ok"
 msgid ""
 "QGIS Server is correctly installed and returns the expected response for OGC"
 " requests."
-msgstr "Serverul QGIS este instalat corect și returnează răspunsul așteptat pentru solicitările OGC."
+msgstr ""
+"Serverul QGIS este instalat corect și returnează răspunsul așteptat pentru "
+"solicitările OGC."
 
 #: admin~admin.server.information.qgis.unknown
 msgctxt "admin~admin.server.information.qgis.unknown"
@@ -1625,14 +1763,19 @@ msgid ""
 "QGIS server minimum %s and Lizmap QGIS server plugin minimum %s need to be "
 "installed and configured correctly. Your QGIS server couldn't be reached "
 "correctly with the given URL \"%s\"."
-msgstr "Serverul QGIS minim %s și plugin-ul serverului Lizmap QGIS minim %s trebuie instalate și configurate corect. Serverul QGIS nu a putut fi accesat corect cu adresa URL „%s”."
+msgstr ""
+"Serverul QGIS minim %s și plugin-ul serverului Lizmap QGIS minim %s trebuie "
+"instalate și configurate corect. Serverul QGIS nu a putut fi accesat corect "
+"cu adresa URL „%s”."
 
 #: admin~admin.server.information.qgis.update
 msgctxt "admin~admin.server.information.qgis.update"
 msgid ""
 "QGIS Server needs to be updated at least to version %s for this version of "
 "Lizmap Web Client."
-msgstr "Serverul QGIS trebuie actualizat cel puțin la versiunea %s pentru această versiune a Lizmap Web Client."
+msgstr ""
+"Serverul QGIS trebuie actualizat cel puțin la versiunea %s pentru această "
+"versiune a Lizmap Web Client."
 
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
@@ -1662,7 +1805,7 @@ msgstr "Configurare temă"
 #: admin~admin.theme.error.no.access
 msgctxt "admin~admin.theme.error.no.access"
 msgid "You have no right to access the theme configuration page."
-msgstr "Nu aveți dreptul de a accesa pagina de configurare a temei."
+msgstr "Nu ai dreptul de a accesa pagina de configurare a temei."
 
 #: admin~admin.upload.image.error.file.bigger
 msgctxt "admin~admin.upload.image.error.file.bigger"
@@ -1817,7 +1960,9 @@ msgstr "Permite exportul de straturi"
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "See all the data of the filtered layers (attribute or spatial filters)"
-msgstr "Vizualizarea tuturor datelor straturilor filtrate (filtre de atribute sau spațiale)"
+msgstr ""
+"Vizualizarea tuturor datelor straturilor filtrate (filtre de atribute sau "
+"spațiale)"
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
@@ -1849,7 +1994,9 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr "Cineva a solicitat un cont Lizmap pentru a putea accesa hărțile, cu autentificarea %s și adresa de e-mail %s."
+msgstr ""
+"Cineva a solicitat un cont Lizmap pentru a putea accesa hărțile, cu "
+"autentificarea %s și adresa de e-mail %s."
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"

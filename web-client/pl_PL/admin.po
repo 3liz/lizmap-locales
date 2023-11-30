@@ -1,16 +1,19 @@
 # 
 # Translators:
+# Adrian Kowalski <ad.kowalski@gmail.com>, 2023
 # EnviroSolutions Sp. z o.o. <office@envirosolutions.pl>, 2023
-# rldhont <rldhont@gmail.com>, 2016
-# Sławomir Bienias <slawomir.bienias@gmail.com>, 2016-2023
+# Laurent Jouanneau <dev@ljouanneau.com>, 2023
+# rldhont <rldhont@gmail.com>, 2023
+# Sławomir Bienias <slawomir.bienias@gmail.com>, 2023
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-20 15:03++0000\n"
-"PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: EnviroSolutions Sp. z o.o. <office@envirosolutions.pl>, 2023\n"
-"Language-Team: Polish (Poland) (http://app.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
+"POT-Creation-Date: 2023-11-30 15:58++0100\n"
+"PO-Revision-Date: 2023-11-28 15:42+0000\n"
+"Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>, 2023\n"
+"Language-Team: Polish (Poland) (https://app.transifex.com/3liz-1/teams/62012/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -42,7 +45,9 @@ msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
 msgid ""
 "This option cannot be enabled while the sender email is not defined. Please "
 "contact the application administrator."
-msgstr "Tej opcji nie można włączyć, gdy nie jest zdefiniowany e-mail nadawcy. Należy skontaktować się z administratorem aplikacji."
+msgstr ""
+"Tej opcji nie można włączyć, gdy nie jest zdefiniowany e-mail nadawcy. "
+"Należy skontaktować się z administratorem aplikacji."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -259,7 +264,7 @@ msgstr "Repozytorium nie zostało usunięte"
 #: admin~admin.form.admin_section.message.data.removed.groups.concerned
 msgctxt "admin~admin.form.admin_section.message.data.removed.groups.concerned"
 msgid "(%s group(s) concerned)"
-msgstr "(%s dotyczy grup)"
+msgstr "( dotyczy %s grup(y))"
 
 #: admin~admin.form.admin_section.message.data.saved
 msgctxt "admin~admin.form.admin_section.message.data.saved"
@@ -288,7 +293,10 @@ msgid ""
 "List of URL separated by a comma, like "
 "'https://domain1.com,https://www.domain2.com'. Path and query parameters "
 "will be removed from the URL."
-msgstr "Lista adresów URL oddzielonych przecinkiem, na przykład: 'https://domena1.com,https://www.domena2.com'. Ścieżka i parametry zapytania zostaną usunięte z adresu URL."
+msgstr ""
+"Lista adresów URL oddzielonych przecinkiem, na przykład: "
+"'https://domena1.com,https://www.domena2.com'. Ścieżka i parametry zapytania"
+" zostaną usunięte z adresu URL."
 
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
@@ -330,7 +338,9 @@ msgctxt "admin~admin.form.admin_section.repository.path.help"
 msgid ""
 "The directory in which QGIS projects and Lizmap configuration file must be "
 "stored."
-msgstr "Katalog, w którym muszą być przechowywane projekty QGIS i plik konfiguracyjny Lizmap."
+msgstr ""
+"Katalog, w którym muszą być przechowywane projekty QGIS i plik "
+"konfiguracyjny Lizmap."
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -357,14 +367,19 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
 msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
-msgstr "Adres e-mail wysyłającego jest wymagany, by wysyłać powiadomienia lub zapytania o utworzenie nowego konta"
+msgstr ""
+"Adres e-mail wysyłającego jest wymagany, by wysyłać powiadomienia lub "
+"zapytania o utworzenie nowego konta"
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "Adres e-mail używany do wysyłania e-maili. Jeśli pozostanie pusty, żadna wiadomość nie zostanie wysłana z systemu Lizmap. Upewnij się, że Twój serwer pozwala na wysyłanie e-maili z tego adresu."
+msgstr ""
+"Adres e-mail używany do wysyłania e-maili. Jeśli pozostanie pusty, żadna "
+"wiadomość nie zostanie wysłana z systemu Lizmap. Upewnij się, że Twój serwer"
+" pozwala na wysyłanie e-maili z tego adresu."
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
@@ -391,7 +406,9 @@ msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
 msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
-msgstr "Jeśli włączone, odwiedzający może wypełnić formularz pozwalający założyć nowe konto. Pole Nadawcy e-mail powinno być wypełnione."
+msgstr ""
+"Jeśli włączone, odwiedzający może wypełnić formularz pozwalający założyć "
+"nowe konto. Pole Nadawcy e-mail powinno być wypełnione."
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
@@ -408,7 +425,9 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr "0 - bez wygaśnięcia; każda inna wartość musi być podana w liczbach całkowitych i wyrażana jest w sekundach (maksymalnie: 2592000 s = 30 dni)"
+msgstr ""
+"0 - bez wygaśnięcia; każda inna wartość musi być podana w liczbach "
+"całkowitych i wyrażana jest w sekundach (maksymalnie: 2592000 s = 30 dni)"
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
@@ -430,7 +449,9 @@ msgstr "Indeks bazy danych Redis"
 #: admin~admin.form.admin_services.cacheRedisHost.help
 msgctxt "admin~admin.form.admin_services.cacheRedisHost.help"
 msgid "Redis host (used if Redis is chosen for the cache storage)"
-msgstr "Host Redis (używany, gdy Redis jest wykorzystany do przechowywania pamięci podręcznej)"
+msgstr ""
+"Host Redis (używany, gdy Redis jest wykorzystany do przechowywania pamięci "
+"podręcznej)"
 
 #: admin~admin.form.admin_services.cacheRedisHost.label
 msgctxt "admin~admin.form.admin_services.cacheRedisHost.label"
@@ -442,7 +463,9 @@ msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
 msgid ""
 "Redis key prefix: string, optional (used if Redis is chosen for the cache "
 "storage)"
-msgstr "Prefiks klucza Redis: string, opcjonalne (używany, gdy Redis jest wykorzystany do przechowywania pamięci podręcznej)"
+msgstr ""
+"Prefiks klucza Redis: string, opcjonalne (używany, gdy Redis jest "
+"wykorzystany do przechowywania pamięci podręcznej)"
 
 #: admin~admin.form.admin_services.cacheRedisKeyPrefix.label
 msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.label"
@@ -452,7 +475,9 @@ msgstr "Prefix klucza Redis"
 #: admin~admin.form.admin_services.cacheRedisPort.help
 msgctxt "admin~admin.form.admin_services.cacheRedisPort.help"
 msgid "Redis port (used if Redis is chosen for the cache storage)"
-msgstr "Port Redis (używany, gdy Redis jest wykorzystany do przechowywania pamięci podręcznej)"
+msgstr ""
+"Port Redis (używany, gdy Redis jest wykorzystany do przechowywania pamięci "
+"podręcznej)"
 
 #: admin~admin.form.admin_services.cacheRedisPort.label
 msgctxt "admin~admin.form.admin_services.cacheRedisPort.label"
@@ -462,7 +487,8 @@ msgstr "Port Redis"
 #: admin~admin.form.admin_services.cacheRootDirectory.help
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.help"
 msgid "Choose a writable directory where to store cache files."
-msgstr "Wpisz zapisywalną ścieżkę, gdzie będzie przechowywana pamięć podręczna."
+msgstr ""
+"Wpisz zapisywalną ścieżkę, gdzie będzie przechowywana pamięć podręczna."
 
 #: admin~admin.form.admin_services.cacheRootDirectory.label
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.label"
@@ -520,7 +546,10 @@ msgid ""
 "To send emails, Lizmap needs a sender address. If empty, no emails will be "
 "sent by Lizmap, and therefore, some features like password recovery or email"
 " notifications won't work."
-msgstr "Aby wysyłać wiadomości e-mail, Lizmap potrzebuje adresu nadawcy. Jeśli jest pusty, Lizmap nie będzie wysyłał żadnych e-maili, a zatem niektóre funkcje, takie jak odzyskiwanie hasła lub powiadomienia e-mail, nie będą działać."
+msgstr ""
+"Aby wysyłać wiadomości e-mail, Lizmap potrzebuje adresu nadawcy. Jeśli jest "
+"pusty, Lizmap nie będzie wysyłał żadnych e-maili, a zatem niektóre funkcje, "
+"takie jak odzyskiwanie hasła lub powiadomienia e-mail, nie będą działać."
 
 #: admin~admin.form.admin_services.emails.no.server
 msgctxt "admin~admin.form.admin_services.emails.no.server"
@@ -528,7 +557,11 @@ msgid ""
 "No sender address is configured in Lizmap. Some features like password "
 "recovery or email notifications cannot work. Contact the application "
 "administrator if you want to enable all email features."
-msgstr "W programie Lizmap nie skonfigurowano adresu nadawcy. Niektóre funkcje, takie jak odzyskiwanie hasła lub powiadomienia e-mail, nie mogą działać. Skontaktuj się z administratorem aplikacji, jeśli chcesz włączyć wszystkie funkcje poczty elektronicznej."
+msgstr ""
+"W programie Lizmap nie skonfigurowano adresu nadawcy. Niektóre funkcje, "
+"takie jak odzyskiwanie hasła lub powiadomienia e-mail, nie mogą działać. "
+"Skontaktuj się z administratorem aplikacji, jeśli chcesz włączyć wszystkie "
+"funkcje poczty elektronicznej."
 
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
@@ -542,7 +575,9 @@ msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
 msgid ""
 "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
 "\"tracking ID\"."
-msgstr "Numer ID Google Analytics w formie 'UA-XXXX-Y'. Jest również nazywany jako \"tracking ID\"."
+msgstr ""
+"Numer ID Google Analytics w formie 'UA-XXXX-Y'. Jest również nazywany jako "
+"\"tracking ID\"."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.label
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
@@ -561,7 +596,11 @@ msgid ""
 "or above. If you are using the FCGI server, you must let empty this field. "
 "Else if you are using Py-Qgis-Server, indicate the URL configured into the "
 "Py-Qgis-Server configuration about the Lizmap plugin URL."
-msgstr "Wymagany jest QGIS Server %s lub wyższy, a także plugin Lizmap server %s lub wyższy. Jeśli używasz serwera FCGI, musisz zostawić to pole puste. W przeciwnym razie, jeśli używasz Py-Qgis-Server, podaj adres URL skonfigurowany w konfiguracji Py-Qgis-Server w adresie URL wtyczki Lizmap."
+msgstr ""
+"Wymagany jest QGIS Server %s lub wyższy, a także plugin Lizmap server %s lub"
+" wyższy. Jeśli używasz serwera FCGI, musisz zostawić to pole puste. W "
+"przeciwnym razie, jeśli używasz Py-Qgis-Server, podaj adres URL "
+"skonfigurowany w konfiguracji Py-Qgis-Server w adresie URL wtyczki Lizmap."
 
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
@@ -573,7 +612,9 @@ msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr "Czas wygaśnięcia pamięci podręcznej musi być liczbą całkowitą między 0 a 2592000 sekund."
+msgstr ""
+"Czas wygaśnięcia pamięci podręcznej musi być liczbą całkowitą między 0 a "
+"2592000 sekund."
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
@@ -676,7 +717,10 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr "Katalog repozytoriów Roota może spowodować limit katalogów Lizmap do 1 foldera. Jeśli ustawiona zostanie tutaj ścieżka, nie będzie możliwe zdefiniowanie ścieżki dla Lizmap."
+msgstr ""
+"Katalog repozytoriów Roota może spowodować limit katalogów Lizmap do 1 "
+"foldera. Jeśli ustawiona zostanie tutaj ścieżka, nie będzie możliwe "
+"zdefiniowanie ścieżki dla Lizmap."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -730,7 +774,9 @@ msgstr "Tak"
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
-msgstr "Możesz tu napisać kod CSS, by nadpisać domyślne ustawienia stylu Lizmap (dla zaawansowanych użytkowników)"
+msgstr ""
+"Możesz tu napisać kod CSS, by nadpisać domyślne ustawienia stylu Lizmap (dla"
+" zaawansowanych użytkowników)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
@@ -982,7 +1028,9 @@ msgctxt "admin~admin.logs.error.file.too.big"
 msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
-msgstr "Plik logu błędów jest za duży. Rozważ użycie logów rotacyjnych dla logów Lizmap Web Client."
+msgstr ""
+"Plik logu błędów jest za duży. Rozważ użycie logów rotacyjnych dla logów "
+"Lizmap Web Client."
 
 #: admin~admin.logs.error.no.delete.right
 msgctxt "admin~admin.logs.error.no.delete.right"
@@ -1120,7 +1168,9 @@ msgstr "Układ współrzędnych"
 #: admin~admin.project.list.column.crs.user.warning.label
 msgctxt "admin~admin.project.list.column.crs.user.warning.label"
 msgid "Please avoid user-defined projections for projects and layers."
-msgstr "Należy unikać układów definiowanych przez użytkownika dla projektów i warstw."
+msgstr ""
+"Należy unikać układów definiowanych przez użytkownika dla projektów i "
+"warstw."
 
 #: admin~admin.project.list.column.hidden.project.label
 msgctxt "admin~admin.project.list.column.hidden.project.label"
@@ -1165,7 +1215,9 @@ msgctxt "admin~admin.project.list.column.layers.count.error.label"
 msgid ""
 "This project has a huge number of layers. Performance could be highly "
 "degraded."
-msgstr "Ten projekt składa się z ogromnej liczby warstw. Wydajność może ulec znacznemu pogorszeniu."
+msgstr ""
+"Ten projekt składa się z ogromnej liczby warstw. Wydajność może ulec "
+"znacznemu pogorszeniu."
 
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
@@ -1180,7 +1232,8 @@ msgstr ""
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
 msgid "This project has many layers. Performance could be degraded."
-msgstr "Ten projekt składa się z wielu warstw. Wydajność może ulec pogorszeniu."
+msgstr ""
+"Ten projekt składa się z wielu warstw. Wydajność może ulec pogorszeniu."
 
 #: admin~admin.project.list.column.layout.count.label
 msgctxt "admin~admin.project.list.column.layout.count.label"
@@ -1197,7 +1250,9 @@ msgctxt "admin~admin.project.list.column.loading.time.error.label"
 msgid ""
 "The project loading time is very long. Please try to simplify your QGIS "
 "project for better performance."
-msgstr "Czas ładowania projektu jest bardzo długi. Spróbuj uprościć swój projekt QGIS, aby uzyskać lepszą wydajność."
+msgstr ""
+"Czas ładowania projektu jest bardzo długi. Spróbuj uprościć swój projekt "
+"QGIS, aby uzyskać lepszą wydajność."
 
 #: admin~admin.project.list.column.loading.time.label
 msgctxt "admin~admin.project.list.column.loading.time.label"
@@ -1219,7 +1274,9 @@ msgctxt "admin~admin.project.list.column.memory.usage.error.label"
 msgid ""
 "The project memory usage is very high. Please try to simplify your QGIS "
 "project for better performance."
-msgstr "Zużycie pamięci w projekcie jest bardzo wysokie. Spróbuj uprościć swój projekt QGIS, aby uzyskać lepszą wydajność."
+msgstr ""
+"Zużycie pamięci w projekcie jest bardzo wysokie. Spróbuj uprościć swój "
+"projekt QGIS, aby uzyskać lepszą wydajność."
 
 #: admin~admin.project.list.column.memory.usage.label
 msgctxt "admin~admin.project.list.column.memory.usage.label"
@@ -1266,7 +1323,9 @@ msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
 msgid ""
 "The QGIS project has been saved with a QGIS desktop version above the QGIS "
 "server installed in your server"
-msgstr "Projekt QGIS został zapisany w wersji desktopowej QGIS wyższej niż QGIS Server zainstalowany na serwerze."
+msgstr ""
+"Projekt QGIS został zapisany w wersji desktopowej QGIS wyższej niż QGIS "
+"Server zainstalowany na serwerze."
 
 #: admin~admin.project.list.column.qgis.desktop.version.label
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.label"
@@ -1276,7 +1335,9 @@ msgstr "QGIS Desktop"
 #: admin~admin.project.list.column.qgis.desktop.version.too.old
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.too.old"
 msgid "The QGIS project has been saved with an old version of QGIS desktop"
-msgstr "Projekt QGIS został zapisany przy użyciu starej wersji programu QGIS Desktop."
+msgstr ""
+"Projekt QGIS został zapisany przy użyciu starej wersji programu QGIS "
+"Desktop."
 
 #: admin~admin.project.list.column.repository.label
 msgctxt "admin~admin.project.list.column.repository.label"
@@ -1486,7 +1547,9 @@ msgctxt "admin~admin.server.information.qgis.error.fetching.information"
 msgid ""
 "We cannot get the details about your QGIS Server installation (version, "
 "plugins, etc.)."
-msgstr "Nie możemy uzyskać szczegółowych informacji o Twojej instalacji QGIS Server (wersja, wtyczki, itp.)."
+msgstr ""
+"Nie możemy uzyskać szczegółowych informacji o Twojej instalacji QGIS Server "
+"(wersja, wtyczki, itp.)."
 
 #: admin~admin.server.information.qgis.error.fetching.information.description
 msgctxt ""
@@ -1611,14 +1674,18 @@ msgctxt "admin~admin.server.information.qgis.test.error"
 msgid ""
 "QGIS Server is not correctly installed in your server or the URL for OGC "
 "requests given in Lizmap configuration is not correct."
-msgstr "QGIS Server nie jest poprawnie zainstalowany na Twoim serwerze lub URL dla żądań OGC podany w konfiguracji Lizmap nie jest poprawny."
+msgstr ""
+"QGIS Server nie jest poprawnie zainstalowany na Twoim serwerze lub URL dla "
+"żądań OGC podany w konfiguracji Lizmap nie jest poprawny."
 
 #: admin~admin.server.information.qgis.test.ok
 msgctxt "admin~admin.server.information.qgis.test.ok"
 msgid ""
 "QGIS Server is correctly installed and returns the expected response for OGC"
 " requests."
-msgstr "QGIS Server jest poprawnie zainstalowany i zwraca oczekiwaną odpowiedź dla żądań OGC."
+msgstr ""
+"QGIS Server jest poprawnie zainstalowany i zwraca oczekiwaną odpowiedź dla "
+"żądań OGC."
 
 #: admin~admin.server.information.qgis.unknown
 msgctxt "admin~admin.server.information.qgis.unknown"
@@ -1633,7 +1700,9 @@ msgctxt "admin~admin.server.information.qgis.update"
 msgid ""
 "QGIS Server needs to be updated at least to version %s for this version of "
 "Lizmap Web Client."
-msgstr "QGIS Server musi być zaktualizowany co najmniej do wersji %s dla tej wersji Lizmap Web Client."
+msgstr ""
+"QGIS Server musi być zaktualizowany co najmniej do wersji %s dla tej wersji "
+"Lizmap Web Client."
 
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
@@ -1818,7 +1887,9 @@ msgstr "Zezwól na eksport warstw"
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "See all the data of the filtered layers (attribute or spatial filters)"
-msgstr "Zobacz wszystkie dane filtrowanych warstw (filtry atrybutów lub przestrzenne)"
+msgstr ""
+"Zobacz wszystkie dane filtrowanych warstw (filtry atrybutów lub "
+"przestrzenne)"
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
@@ -1850,7 +1921,9 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr "Ktoś wypełnił formularz rejestracyjny, by mieć dostęp do map, jego login to %s, a e-mail to %s."
+msgstr ""
+"Ktoś wypełnił formularz rejestracyjny, by mieć dostęp do map, jego login to "
+"%s, a e-mail to %s."
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"

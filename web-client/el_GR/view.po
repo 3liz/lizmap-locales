@@ -1,15 +1,16 @@
 # 
 # Translators:
-# rldhont <rldhont@gmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
+# Laurent Jouanneau <dev@ljouanneau.com>, 2023
+# rldhont <rldhont@gmail.com>, 2023
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-10 16:01++0200\n"
-"PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>, 2016\n"
-"Language-Team: Greek (http://app.transifex.com/3liz-1/lizmap-locales/language/el/)\n"
+"POT-Creation-Date: 2023-11-30 15:58++0100\n"
+"PO-Revision-Date: 2023-11-28 15:42+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>, 2023\n"
+"Language-Team: Greek (https://app.transifex.com/3liz-1/teams/62012/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,9 +47,14 @@ msgctxt "view~default.header.search.toggleKeywordsTitle.title"
 msgid "Toggle keywords/title search."
 msgstr ""
 
+#: view~default.home.menu
+msgctxt "view~default.home.menu"
+msgid "Home"
+msgstr ""
+
 #: view~default.home.title
 msgctxt "view~default.home.title"
-msgid "Home"
+msgid "Home page"
 msgstr ""
 
 #: view~default.project.abstract.label
@@ -110,14 +116,69 @@ msgstr "Δεν έχετε τα δικαιώματα για να δείτε αυ�
 
 #: view~default.repository.list.title
 msgctxt "view~default.repository.list.title"
-msgid "Projects"
-msgstr "Εργα ή projects"
+msgid "Repository page"
+msgstr ""
 
 #: view~default.server.information.error
 msgctxt "view~default.server.information.error"
 msgid ""
 "This map cannot be displayed. Please contact the server administrator to "
 "check the server information panel."
+msgstr ""
+
+#: view~default.server.information.error.admin
+msgctxt "view~default.server.information.error.admin"
+msgid "Maps cannot be displayed. Please check the server information panel."
+msgstr ""
+
+#: view~dictionnary.action.choose
+msgctxt "view~dictionnary.action.choose"
+msgid "Choose an action to run"
+msgstr ""
+
+#: view~dictionnary.action.close
+msgctxt "view~dictionnary.action.close"
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: view~dictionnary.action.form.button.deactivate.help
+msgctxt "view~dictionnary.action.form.button.deactivate.help"
+msgid "Deactivate the active action"
+msgstr ""
+
+#: view~dictionnary.action.form.button.deactivate.label
+msgctxt "view~dictionnary.action.form.button.deactivate.label"
+msgid "Deactivate"
+msgstr ""
+
+#: view~dictionnary.action.form.button.run.help
+msgctxt "view~dictionnary.action.form.button.run.help"
+msgid "Run the selected action"
+msgstr ""
+
+#: view~dictionnary.action.form.button.run.label
+msgctxt "view~dictionnary.action.form.button.run.label"
+msgid "Run"
+msgstr ""
+
+#: view~dictionnary.action.form.select.emptyItem.label
+msgctxt "view~dictionnary.action.form.select.emptyItem.label"
+msgid "Choose an action"
+msgstr ""
+
+#: view~dictionnary.action.form.select.help
+msgctxt "view~dictionnary.action.form.select.help"
+msgid "To run an action, select one in the list and click the Run button"
+msgstr ""
+
+#: view~dictionnary.action.form.select.warning
+msgctxt "view~dictionnary.action.form.select.warning"
+msgid "You must first select an action in the list"
+msgstr ""
+
+#: view~dictionnary.action.title
+msgctxt "view~dictionnary.action.title"
+msgid "Actions"
 msgstr ""
 
 #: view~dictionnary.atlas.navbar.title
@@ -133,12 +194,12 @@ msgstr "Μετά"
 #: view~dictionnary.atlas.toolbar.pause
 msgctxt "view~dictionnary.atlas.toolbar.pause"
 msgid "Pause"
-msgstr "Διάλειμμα"
+msgstr "Παύση"
 
 #: view~dictionnary.atlas.toolbar.play
 msgctxt "view~dictionnary.atlas.toolbar.play"
 msgid "Play"
-msgstr "Ανάγνωση"
+msgstr "Διάλεξη"
 
 #: view~dictionnary.atlas.toolbar.prev
 msgctxt "view~dictionnary.atlas.toolbar.prev"
@@ -349,7 +410,30 @@ msgstr ""
 
 #: view~dictionnary.digitizing.confirme.erase
 msgctxt "view~dictionnary.digitizing.confirme.erase"
-msgid "Are you sure you want to delete all features?"
+msgid "Are you sure you want to delete this feature?"
+msgstr ""
+
+#: view~dictionnary.digitizing.constraint.angle
+msgctxt "view~dictionnary.digitizing.constraint.angle"
+msgid "Angle"
+msgstr ""
+
+#: view~dictionnary.digitizing.constraint.details
+msgctxt "view~dictionnary.digitizing.constraint.details"
+msgid ""
+"You can constrain digitizing by setting values for the distance of the "
+"current segment and the angle between the last segment and the current "
+"segment."
+msgstr ""
+
+#: view~dictionnary.digitizing.constraint.distance
+msgctxt "view~dictionnary.digitizing.constraint.distance"
+msgid "Distance"
+msgstr ""
+
+#: view~dictionnary.digitizing.constraint.title
+msgctxt "view~dictionnary.digitizing.constraint.title"
+msgid "Constraints"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.box
@@ -377,9 +461,14 @@ msgctxt "view~dictionnary.digitizing.toolbar.drawTools"
 msgid "Draw tools"
 msgstr ""
 
+#: view~dictionnary.digitizing.toolbar.edit
+msgctxt "view~dictionnary.digitizing.toolbar.edit"
+msgid "Edit (hold \"Shift\" to select multiple features)"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
-msgid "Delete all features"
+msgid "Delete some features"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.freehand
@@ -397,6 +486,16 @@ msgctxt "view~dictionnary.digitizing.toolbar.line"
 msgid "Line"
 msgstr ""
 
+#: view~dictionnary.digitizing.toolbar.measure
+msgctxt "view~dictionnary.digitizing.toolbar.measure"
+msgid "Measures"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.newText
+msgctxt "view~dictionnary.digitizing.toolbar.newText"
+msgid "New text"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
 msgid "Point"
@@ -412,11 +511,38 @@ msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
 msgstr ""
 
+#: view~dictionnary.digitizing.toolbar.text
+msgctxt "view~dictionnary.digitizing.toolbar.text"
+msgid "Object labelling"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.text.hint
+msgctxt "view~dictionnary.digitizing.toolbar.text.hint"
+msgid ""
+"You can change the label text content, size and rotation for the selected "
+"objects."
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.textLabel
+msgctxt "view~dictionnary.digitizing.toolbar.textLabel"
+msgid "Text"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.textRotation
+msgctxt "view~dictionnary.digitizing.toolbar.textRotation"
+msgid "Rotation"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.textScale
+msgctxt "view~dictionnary.digitizing.toolbar.textScale"
+msgid "Size"
+msgstr ""
+
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
-"Are you sure you want to cancel edition? You will lose any modifications "
-"made on the currently edited object."
+"Are you sure you want to cancel the edition? You will lose any modifications"
+" made on the currently edited object."
 msgstr ""
 
 #: view~dictionnary.edition.confirm.delete
@@ -424,11 +550,27 @@ msgctxt "view~dictionnary.edition.confirm.delete"
 msgid "Are you sure you want to delete the selected feature?"
 msgstr "Είστε σίγουροι που θέλετε να σβήσετε το διαλεγμένο αρχείο;"
 
+#: view~dictionnary.edition.confirm.launch.child.creation
+msgctxt "view~dictionnary.edition.confirm.launch.child.creation"
+msgid ""
+"You are about to create a new child object for the currently edited object. \n"
+"Please check before that you have already saved your changes.\n"
+"\n"
+"Do you wish to continue?"
+msgstr ""
+
+#: view~dictionnary.edition.confirm.paste
+msgctxt "view~dictionnary.edition.confirm.paste"
+msgid ""
+"Are you sure you want to replace the existing geometry with the one in the "
+"clipboard?"
+msgstr ""
+
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
 msgid ""
 "Are you sure you want to delete the existing geometry and redraw it from "
-"scratch ?"
+"scratch?"
 msgstr ""
 
 #: view~dictionnary.edition.datepicker.open
@@ -451,6 +593,11 @@ msgctxt "view~dictionnary.edition.draw.activate.mobile"
 msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
+msgstr ""
+
+#: view~dictionnary.edition.geom.paste
+msgctxt "view~dictionnary.edition.geom.paste"
+msgid "Paste the geometry"
 msgstr ""
 
 #: view~dictionnary.edition.message.error.no.geometry
@@ -500,7 +647,7 @@ msgstr ""
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
 msgid "Edition"
-msgstr "Εκδοσεις"
+msgstr "Επεξεργασία"
 
 #: view~dictionnary.embed.open.map
 msgctxt "view~dictionnary.embed.open.map"
@@ -652,6 +799,11 @@ msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
 msgstr ""
 
+#: view~dictionnary.layer.export.started
+msgctxt "view~dictionnary.layer.export.started"
+msgid "Export started, please wait…"
+msgstr ""
+
 #: view~dictionnary.layer.export.unknown.export.error
 msgctxt "view~dictionnary.layer.export.unknown.export.error"
 msgid "The server reported an error 400 during the export of the layer."
@@ -714,7 +866,7 @@ msgstr "Πληροφορία"
 
 #: view~dictionnary.layer.metadata.zoomToExtent.title
 msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
-msgid "Zoom to layer extent"
+msgid "Zoom to the layer extent"
 msgstr ""
 
 #: view~dictionnary.measure.activate.angle
@@ -784,8 +936,8 @@ msgstr ""
 
 #: view~dictionnary.overviewbar.displayoverview.hover
 msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
-msgid "Display/Hide Overview"
-msgstr "Εμφάνιση/Απόκρυψη του χάρτη overview"
+msgid "Display/Hide overview"
+msgstr ""
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
@@ -794,7 +946,7 @@ msgstr ""
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
-msgid "Click to the map to get information."
+msgid "Click on the map to get information."
 msgstr ""
 
 #: view~dictionnary.popup.table.compact
@@ -810,17 +962,64 @@ msgstr ""
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
 msgid "Place the rectangle for printing"
-msgstr "Βάλτε το τετράγωνο στο χάρτη και κάντε κλικ στο κουμπί Εκτύπωση αριστερά στην οθώνη"
+msgstr ""
+"Βάλτε το τετράγωνο στο χάρτη και κάντε κλικ στο κουμπί Εκτύπωση αριστερά "
+"στην οθώνη"
+
+#: view~dictionnary.print.advanced
+msgctxt "view~dictionnary.print.advanced"
+msgid "Advanced"
+msgstr ""
 
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
 msgstr ""
 
+#: view~dictionnary.print.gridIntervals
+msgctxt "view~dictionnary.print.gridIntervals"
+msgid "Grid intervals"
+msgstr ""
+
+#: view~dictionnary.print.labels
+msgctxt "view~dictionnary.print.labels"
+msgid "Labels"
+msgstr ""
+
+#: view~dictionnary.print.launch
+msgctxt "view~dictionnary.print.launch"
+msgid "Print"
+msgstr "Εκτύπωση"
+
+#: view~dictionnary.print.rotation
+msgctxt "view~dictionnary.print.rotation"
+msgid "Rotation"
+msgstr ""
+
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
-msgid "Print started. Please wait."
+msgid "Print started, please wait…"
 msgstr ""
+
+#: view~dictionnary.print.toolbar.dpi
+msgctxt "view~dictionnary.print.toolbar.dpi"
+msgid "DPI"
+msgstr ""
+
+#: view~dictionnary.print.toolbar.format
+msgctxt "view~dictionnary.print.toolbar.format"
+msgid "Format"
+msgstr ""
+
+#: view~dictionnary.print.toolbar.layout
+msgctxt "view~dictionnary.print.toolbar.layout"
+msgid "Layout"
+msgstr ""
+
+#: view~dictionnary.print.toolbar.scale
+msgctxt "view~dictionnary.print.toolbar.scale"
+msgid "Scale"
+msgstr "Κλίμακα"
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -950,7 +1149,7 @@ msgstr ""
 #: view~dictionnary.startup.error
 msgctxt "view~dictionnary.startup.error"
 msgid ""
-"An error occurred while loading this map. Some necessary resource may "
+"An error occurred while loading this map. Some necessary resources may "
 "temporarily be unavailable. Please try again later."
 msgstr ""
 
@@ -977,12 +1176,12 @@ msgstr ""
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
 msgid "Pause"
-msgstr "Διάλειμμα"
+msgstr "Παύση"
 
 #: view~dictionnary.timemanager.toolbar.play
 msgctxt "view~dictionnary.timemanager.toolbar.play"
 msgid "Play"
-msgstr "Ανάγνωση"
+msgstr "Διάλεξη"
 
 #: view~dictionnary.toolbar.content.stop
 msgctxt "view~dictionnary.toolbar.content.stop"
@@ -1011,8 +1210,13 @@ msgstr "Να δουμε την τεκμηρίωση"
 
 #: view~dictionnary.tree.button.removeCache
 msgctxt "view~dictionnary.tree.button.removeCache"
-msgid "Remove cache server for this layer"
-msgstr "Να σβήσουμε το server cache  για αυτό το στρώμα δεδομένων"
+msgid "Remove server's cache for this layer"
+msgstr ""
+
+#: view~dictionnary.tree.button.removeCache.confirmation
+msgctxt "view~dictionnary.tree.button.removeCache.confirmation"
+msgid "Remove server's cache for this layer?"
+msgstr ""
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
@@ -1057,7 +1261,7 @@ msgstr "Ακύρωση"
 #: view~edition.form.data.saved
 msgctxt "view~edition.form.data.saved"
 msgid "Data has been saved."
-msgstr "Αποθηκευμένα δεδομένα."
+msgstr "Τα δεδομένα είναι αποθηκευμένα."
 
 #: view~edition.form.reset.label
 msgctxt "view~edition.form.reset.label"
@@ -1082,6 +1286,11 @@ msgstr ""
 #: view~edition.geomtool.nodetool.title
 msgctxt "view~edition.geomtool.nodetool.title"
 msgid "Node tool"
+msgstr ""
+
+#: view~edition.geomtool.pastegeom.title
+msgctxt "view~edition.geomtool.pastegeom.title"
+msgid "Paste the geometry"
 msgstr ""
 
 #: view~edition.geomtool.reshape.title
@@ -1557,7 +1766,7 @@ msgstr "Γνωστοποίηση της τοποθεσίας"
 #: view~map.layers
 msgctxt "view~map.layers"
 msgid "Layers"
-msgstr "Στρώματα"
+msgstr "Υπόμνημα"
 
 #: view~map.legend
 msgctxt "view~map.legend"
@@ -2021,8 +2230,8 @@ msgstr "Ακύρωση"
 
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
-msgid "Underway..."
-msgstr "Εν λειτουργία..."
+msgid "Underway…"
+msgstr ""
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"
