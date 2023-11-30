@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-20 15:03++0000\n"
+"POT-Creation-Date: 2023-11-30 16:00++0100\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2019\n"
 "Language-Team: Dutch (http://app.transifex.com/3liz-1/lizmap-locales/language/nl/)\n"
@@ -183,7 +183,7 @@ msgstr "Projecten"
 #: admin~admin.configuration.services.section.qgis.label
 msgctxt "admin~admin.configuration.services.section.qgis.label"
 msgid "QGIS server"
-msgstr ""
+msgstr "QGIS server"
 
 #: admin~admin.configuration.services.section.system.label
 msgctxt "admin~admin.configuration.services.section.system.label"
@@ -208,7 +208,7 @@ msgstr "Lijst URLs van WMS subdomeinen (optioneel)"
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
 msgid "QGIS server URL"
-msgstr ""
+msgstr "QGIS server URL"
 
 #: admin~admin.form.admin_section.data.label
 msgctxt "admin~admin.form.admin_section.data.label"
@@ -239,7 +239,7 @@ msgstr "Wijzig de opslagplaats"
 msgctxt ""
 "admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain"
 msgid "Content is not a valid URL or a list of URLs."
-msgstr ""
+msgstr "Inhoud is geen geldige URL of een lijst met URL's."
 
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
@@ -288,13 +288,13 @@ msgid ""
 "List of URL separated by a comma, like "
 "'https://domain1.com,https://www.domain2.com'. Path and query parameters "
 "will be removed from the URL."
-msgstr ""
+msgstr "Lijst met URL's gescheiden door een komma, zoals 'https://domein1.com,https://www.domein2.com'. Pad- en queryparameters worden uit de URL verwijderd."
 
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.accessControlAllowOrigin.label"
 msgid "List of websites allowed to access the map services (WMS/WMTS/WFS…)"
-msgstr ""
+msgstr "Lijst met websites die toegang hebben tot de kaartdiensten (WMS/WMTS/WFS…)"
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
 msgctxt ""
@@ -374,7 +374,7 @@ msgstr "Adres van de afzender van e-mails"
 #: admin~admin.form.admin_services.adminSenderEmail.readonly.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.readonly.help"
 msgid "E-mail address used to send e-mails. It cannot be modified."
-msgstr ""
+msgstr "E-mailadres dat wordt gebruikt om e-mails te verzenden. Het kan niet worden gewijzigd."
 
 #: admin~admin.form.admin_services.adminSenderName.help
 msgctxt "admin~admin.form.admin_services.adminSenderName.help"
@@ -719,7 +719,7 @@ msgstr "Lijst URLs van WMS subdomeinen (optioneel)"
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
 msgid "QGIS server URL"
-msgstr ""
+msgstr "QGIS server URL"
 
 #: admin~admin.form.admin_services.yes.label
 msgctxt "admin~admin.form.admin_services.yes.label"
@@ -858,29 +858,29 @@ msgstr "Beheer"
 #: admin~admin.landingPageContent.bottom
 msgctxt "admin~admin.landingPageContent.bottom"
 msgid "Content at the bottom of the landing page"
-msgstr ""
+msgstr "Inhoud onderaan de landingspagina"
 
 #: admin~admin.landingPageContent.error.save
 msgctxt "admin~admin.landingPageContent.error.save"
 msgid "Error while saving the landing page contents"
-msgstr ""
+msgstr "Fout bij het opslaan van de inhoud van de landingspagina"
 
 #: admin~admin.landingPageContent.error.submit
 msgctxt "admin~admin.landingPageContent.error.submit"
 msgid ""
 "An error occurred while saving the content. Your session has been "
 "terminated, please retry."
-msgstr ""
+msgstr "Er is een fout opgetreden bij het opslaan van de inhoud. Uw sessie is beëindigd. Probeer het opnieuw."
 
 #: admin~admin.landingPageContent.saved
 msgctxt "admin~admin.landingPageContent.saved"
 msgid "Content of the landing page has been saved"
-msgstr ""
+msgstr "De inhoud van de landingspagina is opgeslagen"
 
 #: admin~admin.landingPageContent.top
 msgctxt "admin~admin.landingPageContent.top"
 msgid "Content at the top of the landing page"
-msgstr ""
+msgstr "Inhoud bovenaan de landingspagina"
 
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
@@ -987,7 +987,7 @@ msgstr "De error log file is te groot. Overweeg om log rotatie voor Lizmap Web C
 #: admin~admin.logs.error.no.delete.right
 msgctxt "admin~admin.logs.error.no.delete.right"
 msgid "You have no right to delete the logs."
-msgstr ""
+msgstr "U heeft niet het recht om de logs te verwijderen."
 
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
@@ -1077,7 +1077,7 @@ msgstr "Consulteren logboek"
 #: admin~admin.menu.lizmap.project.list.label
 msgctxt "admin~admin.menu.lizmap.project.list.label"
 msgid "QGIS projects"
-msgstr ""
+msgstr "QGIS projecten"
 
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
@@ -1105,7 +1105,7 @@ msgid ""
 "Some projects, listed below, can not be displayed in the main web interface "
 "because they need an update from the GIS administrator. Please read the "
 "guidelines about colours by clicking on the button \"%s\"."
-msgstr ""
+msgstr "Sommige projecten, hieronder opgesomd, kunnen niet worden weergegeven in de hoofdwebinterface omdat ze een update nodig hebben van de GIS-beheerder. Lees de richtlijnen over kleuren door op de knop \"%s\" te klikken."
 
 #: admin~admin.project.list.column.authorized.groups.label
 msgctxt "admin~admin.project.list.column.authorized.groups.label"
@@ -1120,7 +1120,7 @@ msgstr "Projectie"
 #: admin~admin.project.list.column.crs.user.warning.label
 msgctxt "admin~admin.project.list.column.crs.user.warning.label"
 msgid "Please avoid user-defined projections for projects and layers."
-msgstr ""
+msgstr "Vermijd door de gebruiker gedefinieerde projecties voor projecten en lagen."
 
 #: admin~admin.project.list.column.hidden.project.label
 msgctxt "admin~admin.project.list.column.hidden.project.label"
@@ -1140,7 +1140,7 @@ msgstr "Ja"
 #: admin~admin.project.list.column.inspection.file.time.label
 msgctxt "admin~admin.project.list.column.inspection.file.time.label"
 msgid "Inspection time"
-msgstr ""
+msgstr "Inspectie tijd"
 
 #: admin~admin.project.list.column.invalid.layers.count.error.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.error.label"
@@ -1148,24 +1148,24 @@ msgid ""
 "QGIS cannot read some layers. Please check that the server can access the layer data. \n"
 "* For file based layers, the path must be accessible. \n"
 "* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
-msgstr ""
+msgstr "QGIS kan sommige lagen niet lezen. Controleer of de server toegang heeft tot de laaggegevens. * Voor op bestanden gebaseerde lagen moet het pad toegankelijk zijn. * Voor PostgreSQL-lagen moet de Lizmap-server verbinding kunnen maken met de databaseserver."
 
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
 msgid "Invalid layers"
-msgstr ""
+msgstr "Ongeldige lagen"
 
 #: admin~admin.project.list.column.invalid.layers.list.label
 msgctxt "admin~admin.project.list.column.invalid.layers.list.label"
 msgid "List of invalid layers"
-msgstr ""
+msgstr "Lijst met ongeldige lagen"
 
 #: admin~admin.project.list.column.layers.count.error.label
 msgctxt "admin~admin.project.list.column.layers.count.error.label"
 msgid ""
 "This project has a huge number of layers. Performance could be highly "
 "degraded."
-msgstr ""
+msgstr "Dit project heeft een groot aantal lagen. De prestaties kunnen sterk verslechteren."
 
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
@@ -1175,66 +1175,66 @@ msgstr "Lagen"
 #: admin~admin.project.list.column.layers.count.label.longer
 msgctxt "admin~admin.project.list.column.layers.count.label.longer"
 msgid "Layer count"
-msgstr ""
+msgstr "Aantal lagen"
 
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
 msgid "This project has many layers. Performance could be degraded."
-msgstr ""
+msgstr "Dit project kent vele lagen. De prestaties kunnen verslechteren."
 
 #: admin~admin.project.list.column.layout.count.label
 msgctxt "admin~admin.project.list.column.layout.count.label"
 msgid "Layouts"
-msgstr ""
+msgstr "Indelingen"
 
 #: admin~admin.project.list.column.lizmap.plugin.version.label
 msgctxt "admin~admin.project.list.column.lizmap.plugin.version.label"
 msgid "Lizmap plugin"
-msgstr ""
+msgstr "Lizmap plugin"
 
 #: admin~admin.project.list.column.loading.time.error.label
 msgctxt "admin~admin.project.list.column.loading.time.error.label"
 msgid ""
 "The project loading time is very long. Please try to simplify your QGIS "
 "project for better performance."
-msgstr ""
+msgstr "De laadtijd van het project is erg lang. Probeer alstublieft uw project van QGIS te vereenvoudigen voor betere prestaties."
 
 #: admin~admin.project.list.column.loading.time.label
 msgctxt "admin~admin.project.list.column.loading.time.label"
 msgid "Loading time (s)"
-msgstr ""
+msgstr "Laadtijd(en)"
 
 #: admin~admin.project.list.column.loading.time.label.alt
 msgctxt "admin~admin.project.list.column.loading.time.label.alt"
 msgid "Loading time"
-msgstr ""
+msgstr "Laadtijd"
 
 #: admin~admin.project.list.column.loading.time.warning.label
 msgctxt "admin~admin.project.list.column.loading.time.warning.label"
 msgid "The project loading time is a bit long."
-msgstr ""
+msgstr "De laadtijd van het project is een beetje lang."
 
 #: admin~admin.project.list.column.memory.usage.error.label
 msgctxt "admin~admin.project.list.column.memory.usage.error.label"
 msgid ""
 "The project memory usage is very high. Please try to simplify your QGIS "
 "project for better performance."
-msgstr ""
+msgstr "Het projectgeheugengebruik is erg hoog. Probeer alstublieft uw project van QGIS te vereenvoudigen voor betere prestaties."
 
 #: admin~admin.project.list.column.memory.usage.label
 msgctxt "admin~admin.project.list.column.memory.usage.label"
 msgid "Memory (Mo)"
-msgstr ""
+msgstr "Geheugen (Mo)"
 
 #: admin~admin.project.list.column.memory.usage.label.alt
 msgctxt "admin~admin.project.list.column.memory.usage.label.alt"
 msgid "Memory"
-msgstr ""
+msgstr "Geheugen "
 
 #: admin~admin.project.list.column.memory.usage.warning.label
 msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
 msgid "The project memory usage is a bit high."
-msgstr ""
+msgstr "Het projectgeheugengebruik is een beetje hoog."
 
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
@@ -1266,7 +1266,7 @@ msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
 msgid ""
 "The QGIS project has been saved with a QGIS desktop version above the QGIS "
 "server installed in your server"
-msgstr ""
+msgstr "Het project van QGIS is opgeslagen met een desktopversie van QGIS boven de server van QGIS die op uw server is geïnstalleerd"
 
 #: admin~admin.project.list.column.qgis.desktop.version.label
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.label"
@@ -1303,7 +1303,7 @@ msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
 msgid ""
 "This project can not be displayed in the landing page. Open the project in "
 "QGIS desktop with an updated version of the plugin"
-msgstr ""
+msgstr "Dit project kan niet worden weergegeven op de landingspagina. Open het project in het bureaublad van QGIS met een bijgewerkte versie van de plug-in"
 
 #: admin~admin.project.list.column.update.soon.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.soon.in.qgis.desktop"
@@ -1311,7 +1311,7 @@ msgid ""
 "In the next version of Lizmap Web Client, this project won't be displayed "
 "because it has been designed for a too old version of Lizmap Web Client. "
 "Open the project in QGIS desktop with an updated version of the plugin"
-msgstr ""
+msgstr "In de volgende versie van Lizmap Web Client zal dit project niet worden weergegeven omdat het is ontworpen voor een te oude versie van Lizmap Web Client. Open het project in het bureaublad van QGIS met een bijgewerkte versie van de plug-in"
 
 #: admin~admin.project.list.no.hidden.column.content
 msgctxt "admin~admin.project.list.no.hidden.column.content"
@@ -1339,19 +1339,19 @@ msgstr ""
 #: admin~admin.project.rules.list.blocking.html
 msgctxt "admin~admin.project.rules.list.blocking.html"
 msgid "<strong>Blocking</strong>, these projects are not visible anymore :"
-msgstr ""
+msgstr "<strong>Blokkerend</strong>, deze projecten zijn niet meer zichtbaar:"
 
 #: admin~admin.project.rules.list.blocking.target.html
 msgctxt "admin~admin.project.rules.list.blocking.target.html"
 msgid ""
 "The project is designed for a Lizmap Web Client version equal or less than "
 "<strong>%s</strong>."
-msgstr ""
+msgstr "Het project is ontworpen voor een Lizmap Web Client-versie gelijk aan of kleiner dan <strong>%s</strong>."
 
 #: admin~admin.project.rules.list.custom.projection
 msgctxt "admin~admin.project.rules.list.custom.projection"
 msgid "The project is using a <strong>user-defined</strong> projection."
-msgstr ""
+msgstr "Het project maakt gebruik van een door de <strong>gebruiker gedefinieerde</strong> projectie."
 
 #: admin~admin.project.rules.list.description.html
 msgctxt "admin~admin.project.rules.list.description.html"
@@ -1359,12 +1359,12 @@ msgid ""
 "Given your current Lizmap Web Client version <strong>%s</strong> and QGIS "
 "Server version <strong>%s</strong>, there are some rules about the table "
 "above :"
-msgstr ""
+msgstr "Gegeven uw huidige Lizmap Web Client versie <strong>%s</strong> en QGIS Server versie <strong>%s</strong>, zijn er enkele regels voor de bovenstaande tabel:"
 
 #: admin~admin.project.rules.list.error.loading.html
 msgctxt "admin~admin.project.rules.list.error.loading.html"
 msgid "The project takes longer than <strong>%s</strong> seconds to load."
-msgstr ""
+msgstr "Het laden van het project duurt langer dan <strong>%s</strong> seconden."
 
 #: admin~admin.project.rules.list.error.memory.html
 msgctxt "admin~admin.project.rules.list.error.memory.html"
@@ -1417,7 +1417,7 @@ msgstr ""
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
 msgid "The project takes longer than <strong>%s</strong> seconds to load."
-msgstr ""
+msgstr "Het laden van het project duurt langer dan <strong>%s</strong> seconden."
 
 #: admin~admin.project.rules.list.warning.memory.html
 msgctxt "admin~admin.project.rules.list.warning.memory.html"
@@ -1626,7 +1626,7 @@ msgid ""
 "QGIS server minimum %s and Lizmap QGIS server plugin minimum %s need to be "
 "installed and configured correctly. Your QGIS server couldn't be reached "
 "correctly with the given URL \"%s\"."
-msgstr ""
+msgstr "QGIS server minimaal %s en Lizmap QGIS server plug-in minimaal %s moeten correct worden geïnstalleerd en geconfigureerd. Uw server van QGIS kon niet correct worden bereikt met de opgegeven URL \"%s\"."
 
 #: admin~admin.server.information.qgis.update
 msgctxt "admin~admin.server.information.qgis.update"
