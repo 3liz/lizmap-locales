@@ -23,8 +23,7 @@ push-to-transifex:
         LOCALE_BRANCH: lizmap_3_6
 
   script:
-    - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
-    - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
+    - export TX_TOKEN=${TRANSIFEX_TOKEN}
     - from_lwc_to_transifex ${LWC_BRANCH} ${LOCALE_BRANCH}
   tags:
     - factory-plain
@@ -37,8 +36,7 @@ pull-from-transifex-master:
   image:
     name: $REGISTRY_URI/infra/transifex-lwc:latest
   script:
-    - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
-    - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
+    - export TX_TOKEN=${TRANSIFEX_TOKEN}
     - from_transifex_to_lwc master master
   tags:
     - factory-plain
@@ -51,8 +49,7 @@ pull-from-transifex-3-7:
   image:
     name: $REGISTRY_URI/infra/transifex-lwc:latest
   script:
-    - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
-    - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
+    - export TX_TOKEN=${TRANSIFEX_TOKEN}
     - from_transifex_to_lwc release_3_7 lizmap_3_7
   tags:
     - factory-plain
@@ -65,8 +62,7 @@ pull-from-transifex-3-6:
   image:
     name: $REGISTRY_URI/infra/transifex-lwc:latest
   script:
-    - echo "token = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
-    - echo "password = ${TRANSIFEX_TOKEN}" >> /root/.transifexrc
+    - export TX_TOKEN=${TRANSIFEX_TOKEN}
     - from_transifex_to_lwc release_3_6 lizmap_3_6
   tags:
     - factory-plain
