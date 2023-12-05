@@ -20,12 +20,8 @@ You should create a `~/.transifexrc` file containing:
 
 ```ini
 [https://www.transifex.com]
-api_hostname = https://api.transifex.com
-hostname = https://www.transifex.com
 rest_hostname = https://rest.api.transifex.com
-username = EMAIL
-password = PASSWORD/TOKEN
-token         = PASSWORD/TOKEN
+token         = TOKEN
 ```
 
 In the password parameter, you should set an API Key [you have to generate from your
