@@ -26,7 +26,7 @@ push-to-transifex:
     - export TX_TOKEN=${TRANSIFEX_TOKEN}
     - from_lwc_to_transifex ${LWC_BRANCH} ${LOCALE_BRANCH}
   tags:
-    - factory-plain
+    - factory-dind
 
 pull-from-transifex-master:
   stage: build
@@ -39,7 +39,7 @@ pull-from-transifex-master:
     - export TX_TOKEN=${TRANSIFEX_TOKEN}
     - from_transifex_to_lwc master master
   tags:
-    - factory-plain
+    - factory-dind
 
 pull-from-transifex-3-7:
   stage: build
@@ -52,7 +52,7 @@ pull-from-transifex-3-7:
     - export TX_TOKEN=${TRANSIFEX_TOKEN}
     - from_transifex_to_lwc release_3_7 lizmap_3_7
   tags:
-    - factory-plain
+    - factory-dind
 
 pull-from-transifex-3-6:
   stage: build
@@ -65,4 +65,4 @@ pull-from-transifex-3-6:
     - export TX_TOKEN=${TRANSIFEX_TOKEN}
     - from_transifex_to_lwc release_3_6 lizmap_3_6
   tags:
-    - factory-plain
+    - factory-dind
