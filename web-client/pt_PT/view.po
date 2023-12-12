@@ -4,14 +4,15 @@
 # Laurent Jouanneau <dev@ljouanneau.com>, 2023
 # rldhont <rldhont@gmail.com>, 2023
 # José Macau <jose.macau@gmail.com>, 2023
+# Sérgio Pinheiro <sergiuspinheiro@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-30 15:58++0100\n"
+"POT-Creation-Date: 2023-12-04 15:03++0000\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
-"Last-Translator: José Macau <jose.macau@gmail.com>, 2023\n"
+"Last-Translator: Sérgio Pinheiro <sergiuspinheiro@gmail.com>, 2023\n"
 "Language-Team: Portuguese (https://app.transifex.com/3liz-1/teams/62012/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -427,7 +428,7 @@ msgstr "Minimizar"
 #: view~dictionnary.digitizing.confirme.erase
 msgctxt "view~dictionnary.digitizing.confirme.erase"
 msgid "Are you sure you want to delete this feature?"
-msgstr ""
+msgstr "Tem a certeza que pretende eliminar este elemento?"
 
 #: view~dictionnary.digitizing.constraint.angle
 msgctxt "view~dictionnary.digitizing.constraint.angle"
@@ -441,6 +442,8 @@ msgid ""
 "current segment and the angle between the last segment and the current "
 "segment."
 msgstr ""
+"Pode restringir a digitalização definindo valores para a distância do "
+"segmento atual e o ângulo entre o último segmento e o segmento atual."
 
 #: view~dictionnary.digitizing.constraint.distance
 msgctxt "view~dictionnary.digitizing.constraint.distance"
@@ -450,7 +453,7 @@ msgstr "Distância"
 #: view~dictionnary.digitizing.constraint.title
 msgctxt "view~dictionnary.digitizing.constraint.title"
 msgid "Constraints"
-msgstr ""
+msgstr "Restrições"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -481,11 +484,12 @@ msgstr "Ferramentas de desenho"
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
 msgid "Edit (hold \"Shift\" to select multiple features)"
 msgstr ""
+"Editar (mantenha pressionado o \"Shift\" para selecionar vários elementos)"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
 msgid "Delete some features"
-msgstr ""
+msgstr "Eliminar alguns elementos"
 
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
@@ -510,7 +514,7 @@ msgstr "Medições"
 #: view~dictionnary.digitizing.toolbar.newText
 msgctxt "view~dictionnary.digitizing.toolbar.newText"
 msgid "New text"
-msgstr ""
+msgstr "Novo texto"
 
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
@@ -530,7 +534,7 @@ msgstr "Guardar o desenho no browser"
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
 msgid "Object labelling"
-msgstr ""
+msgstr " Etiquetas de objetos"
 
 #: view~dictionnary.digitizing.toolbar.text.hint
 msgctxt "view~dictionnary.digitizing.toolbar.text.hint"
@@ -538,6 +542,8 @@ msgid ""
 "You can change the label text content, size and rotation for the selected "
 "objects."
 msgstr ""
+"Pode alterar o conteúdo, o tamanho e a rotação do texto das etiquetas dos "
+"objetos selecionados."
 
 #: view~dictionnary.digitizing.toolbar.textLabel
 msgctxt "view~dictionnary.digitizing.toolbar.textLabel"
@@ -552,7 +558,7 @@ msgstr "Rotação"
 #: view~dictionnary.digitizing.toolbar.textScale
 msgctxt "view~dictionnary.digitizing.toolbar.textScale"
 msgid "Size"
-msgstr ""
+msgstr "Tamanho"
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -560,6 +566,8 @@ msgid ""
 "Are you sure you want to cancel the edition? You will lose any modifications"
 " made on the currently edited object."
 msgstr ""
+"Tem certeza de que pretende cancelar a edição? Vai perder todas as "
+"alterações feitas no objeto em edição."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -585,6 +593,8 @@ msgid ""
 "Are you sure you want to replace the existing geometry with the one in the "
 "clipboard?"
 msgstr ""
+"Tem certeza de que pretende substituir a geometria existente pela da área de"
+" transferência?"
 
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
@@ -893,7 +903,7 @@ msgstr "Informação"
 #: view~dictionnary.layer.metadata.zoomToExtent.title
 msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
 msgid "Zoom to the layer extent"
-msgstr ""
+msgstr "Zoom para a extensão da camada"
 
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
@@ -963,7 +973,7 @@ msgstr "Metros"
 #: view~dictionnary.overviewbar.displayoverview.hover
 msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
 msgid "Display/Hide overview"
-msgstr ""
+msgstr "Mostrar/Ocultar enquadramento"
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
@@ -973,7 +983,7 @@ msgstr "Local sem informação."
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
 msgid "Click on the map to get information."
-msgstr ""
+msgstr "Clicar no mapa para obter informação."
 
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
@@ -1023,7 +1033,7 @@ msgstr "Rotação"
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
 msgid "Print started, please wait…"
-msgstr ""
+msgstr "Impressão iniciada, por favor, aguarde..."
 
 #: view~dictionnary.print.toolbar.dpi
 msgctxt "view~dictionnary.print.toolbar.dpi"
@@ -1176,6 +1186,8 @@ msgid ""
 "An error occurred while loading this map. Some necessary resources may "
 "temporarily be unavailable. Please try again later."
 msgstr ""
+"Ocorreu um erro ao carregar este mapa. Alguns recursos necessários podem "
+"estar temporariamente indisponíveis. Tente novamente mais tarde."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
@@ -1235,12 +1247,12 @@ msgstr "Abrir Documentação"
 #: view~dictionnary.tree.button.removeCache
 msgctxt "view~dictionnary.tree.button.removeCache"
 msgid "Remove server's cache for this layer"
-msgstr ""
+msgstr "Remover a cache do servidor para esta camada"
 
 #: view~dictionnary.tree.button.removeCache.confirmation
 msgctxt "view~dictionnary.tree.button.removeCache.confirmation"
 msgid "Remove server's cache for this layer?"
-msgstr ""
+msgstr "Remover a cache do servidor para esta camada?"
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
