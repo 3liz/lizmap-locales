@@ -7,14 +7,15 @@
 # Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2022
 # Jean-Louis Stanus <rammstan@msn.com>, 2022
 # Nico Veenstra <nvbgm@gmx.net>, 2023
+# Hidde Wieringa <hidde@hiddewieringa.nl>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-30 15:53++0100\n"
+"POT-Creation-Date: 2023-12-04 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
-"Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2023\n"
+"Last-Translator: Hidde Wieringa <hidde@hiddewieringa.nl>, 2023\n"
 "Language-Team: Dutch (https://app.transifex.com/3liz-1/teams/62012/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -431,7 +432,7 @@ msgstr "Veelhoek"
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
-msgstr ""
+msgstr "Sla tekening op in de browser"
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -453,6 +454,8 @@ msgid ""
 "Are you sure you want to delete the existing geometry and redraw it from "
 "scratch ?"
 msgstr ""
+"Weet je zeer dat je de bestaande geometrie wilt verwijderen en opnieuw wilt "
+"beginnen met tekenen?"
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -545,7 +548,7 @@ msgstr "Gegevens van de kaart"
 #: view~dictionnary.externalsearch.noquery
 msgctxt "view~dictionnary.externalsearch.noquery"
 msgid "Search query is empty"
-msgstr ""
+msgstr "Zoekopdracht is leeg"
 
 #: view~dictionnary.externalsearch.notfound
 msgctxt "view~dictionnary.externalsearch.notfound"
@@ -685,12 +688,14 @@ msgstr "Rechts is nodig om laag te exporteren."
 #: view~dictionnary.layer.export.started
 msgctxt "view~dictionnary.layer.export.started"
 msgid "Export started, please wait…"
-msgstr ""
+msgstr "Export begonnen, een momentje geduld..."
 
 #: view~dictionnary.layer.export.unknown.export.error
 msgctxt "view~dictionnary.layer.export.unknown.export.error"
 msgid "The server reported an error 400 during the export of the layer."
 msgstr ""
+"De server heeft een fout 400 gerapporteerd tijdens het exporteren van de "
+"laag."
 
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
@@ -755,7 +760,7 @@ msgstr "Uitvergroten of verkleinen gepast aan de laag"
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
 msgid "Click on the map to start measuring an angle."
-msgstr ""
+msgstr "Klik op de kaart om een hoek te meten."
 
 #: view~dictionnary.measure.activate.area
 msgctxt "view~dictionnary.measure.activate.area"
@@ -785,7 +790,7 @@ msgstr "Positie van de cursor"
 #: view~dictionnary.mouseposition.removeCenterPoint
 msgctxt "view~dictionnary.mouseposition.removeCenterPoint"
 msgid "Remove center point"
-msgstr ""
+msgstr "Verwijder middenpunt"
 
 #: view~dictionnary.mouseposition.select
 msgctxt "view~dictionnary.mouseposition.select"
@@ -830,17 +835,17 @@ msgstr "Geen object werd gevonden op deze locatie."
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
 msgid "Click to the map to get information."
-msgstr ""
+msgstr "Klik op de kaart voor meer informatie."
 
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
 msgid "Compact tables"
-msgstr ""
+msgstr "Maak tabellen compacter"
 
 #: view~dictionnary.popup.table.explode
 msgctxt "view~dictionnary.popup.table.explode"
 msgid "Explode tables"
-msgstr ""
+msgstr "Maak tabellen groter"
 
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
@@ -850,12 +855,12 @@ msgstr "Plaats de rechthoek voor het afdrukken"
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
-msgstr ""
+msgstr "Stel eigen labels in voor printen"
 
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
 msgid "Print started. Please wait."
-msgstr ""
+msgstr "Print begonnen, een momentje geduld..."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -880,7 +885,7 @@ msgstr "Filter"
 #: view~dictionnary.selectiontool.toolbar.action.invert
 msgctxt "view~dictionnary.selectiontool.toolbar.action.invert"
 msgid "Invert selection"
-msgstr ""
+msgstr "Keer selectie om"
 
 #: view~dictionnary.selectiontool.toolbar.action.type.minus
 msgctxt "view~dictionnary.selectiontool.toolbar.action.type.minus"
@@ -905,47 +910,47 @@ msgstr "Schakel alles uit"
 #: view~dictionnary.selectiontool.toolbar.buffer
 msgctxt "view~dictionnary.selectiontool.toolbar.buffer"
 msgid "Buffer"
-msgstr ""
+msgstr "Buffer"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator"
 msgid "Geometric operators"
-msgstr ""
+msgstr "Geometrische operaties"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.contains
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.contains"
 msgid "Contains"
-msgstr ""
+msgstr "Bevat"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.crosses
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.crosses"
 msgid "Crosses"
-msgstr ""
+msgstr "Kruist"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.disjoint
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.disjoint"
 msgid "Disjoint"
-msgstr ""
+msgstr "Los"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.intersects
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.intersects"
 msgid "Intersects"
-msgstr ""
+msgstr "Heeft overlap met"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.overlaps
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.overlaps"
 msgid "Overlaps"
-msgstr ""
+msgstr "Overlapt"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.touches
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.touches"
 msgid "Touches"
-msgstr ""
+msgstr "Raakt"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.within
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.within"
 msgid "Within"
-msgstr ""
+msgstr "Binnen"
 
 #: view~dictionnary.selectiontool.toolbar.layer
 msgctxt "view~dictionnary.selectiontool.toolbar.layer"
@@ -955,22 +960,22 @@ msgstr "Selectie laag"
 #: view~dictionnary.selectiontool.toolbar.layers.multiple
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.multiple"
 msgid "Multiple layers"
-msgstr ""
+msgstr "Meerdere lagen"
 
 #: view~dictionnary.selectiontool.toolbar.layers.selectable
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectable"
 msgid "Selectable layers"
-msgstr ""
+msgstr "Selecteerbare lagen"
 
 #: view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectableAndVisible"
 msgid "Selectable and visible layers"
-msgstr ""
+msgstr "Selecteerbare en zichtbare lagen"
 
 #: view~dictionnary.selectiontool.toolbar.layers.single
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.single"
 msgid "Single layers"
-msgstr ""
+msgstr "Enkele lagen"
 
 #: view~dictionnary.selectiontool.toolbar.title
 msgctxt "view~dictionnary.selectiontool.toolbar.title"
@@ -980,7 +985,7 @@ msgstr "Selectie"
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
-msgstr ""
+msgstr "Uitlijnen"
 
 #: view~dictionnary.startup.error
 msgctxt "view~dictionnary.startup.error"
@@ -988,11 +993,13 @@ msgid ""
 "An error occurred while loading this map. Some necessary resource may "
 "temporarily be unavailable. Please try again later."
 msgstr ""
+"Een fout is opgetreden tijdens het laden van de kaart. Sommige inhoud zou "
+"tijdelijk onbeschikbaar kunnen zijn. Probeer later opnieuw."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
 msgid "Go back to the home page."
-msgstr ""
+msgstr "Ga terug naar de thuispagina."
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -1002,12 +1009,12 @@ msgstr "Exporteren"
 #: view~dictionnary.switcher.layer.export.warn
 msgctxt "view~dictionnary.switcher.layer.export.warn"
 msgid "Please select a single layer to export"
-msgstr ""
+msgstr "Selecteer een enkele laag om te exporteren."
 
 #: view~dictionnary.switcherLayersActions.themeSelector.title
 msgctxt "view~dictionnary.switcherLayersActions.themeSelector.title"
 msgid "Select theme"
-msgstr ""
+msgstr "Selecteer thema"
 
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
@@ -1127,12 +1134,12 @@ msgstr "Hervormen"
 #: view~edition.geomtool.restartdrawing.title
 msgctxt "view~edition.geomtool.restartdrawing.title"
 msgid "Redraw the geometry"
-msgstr ""
+msgstr "Teken de geometrie opnieuw"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
 msgid "Reverse the geometry"
-msgstr ""
+msgstr "Keer de geometrie om"
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1175,7 +1182,7 @@ msgstr "De maak functie voor de laag \" %s \" is niet beschikbaar."
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
 msgid "Given fields do not exist."
-msgstr ""
+msgstr "Gegeven velden bestaan niet."
 
 #: view~edition.link.error.no.modify.attributes
 msgctxt "view~edition.link.error.no.modify.attributes"
@@ -1186,16 +1193,19 @@ msgstr "Wijzigen van attributen voor de laag \"%s\" is niet beschikbaar."
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not been configured to have an attribute table."
 msgstr ""
+"De lagen zijn niet geconfigureerd om een tabel met eigenschappen te "
+"bevatten."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
 msgid "An error occurred while adding linked data."
 msgstr ""
+"Er is een fout opgetreden tijdens het toevoegen van gekoppelde gegevens."
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
 msgid "The layer does not exist."
-msgstr ""
+msgstr "De laag bestaat niet."
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
@@ -1210,12 +1220,12 @@ msgstr "De bbox moet 4 floats zijn gescheiden door ','."
 #: view~edition.message.error.constraint
 msgctxt "view~edition.message.error.constraint"
 msgid "%s: check failed"
-msgstr ""
+msgstr "%s: controle mislukt"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
 msgid "An error occurred while creating the object."
-msgstr ""
+msgstr "Er is een fout opgetreden tijdens het aanmaken van het object."
 
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
@@ -1230,7 +1240,7 @@ msgstr "Het verwijderen is mislukt."
 #: view~edition.message.error.feature.editable
 msgctxt "view~edition.message.error.feature.editable"
 msgid "The feature is not editable."
-msgstr ""
+msgstr "Het object kan niet worden bewerkt."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -1245,7 +1255,7 @@ msgstr "Er is een fout opgetreden bij het ophalen van het formulier"
 #: view~edition.message.error.geometry.outside.polygons
 msgctxt "view~edition.message.error.geometry.outside.polygons"
 msgid "The given geometry is outside the authorized polygon."
-msgstr ""
+msgstr "De geometrie ligt buiten het toegestane polygoon."
 
 #: view~edition.message.error.layer.editable
 msgctxt "view~edition.message.error.layer.editable"
@@ -1344,7 +1354,7 @@ msgstr "Editie"
 #: view~edition.modification.msg
 msgctxt "view~edition.modification.msg"
 msgid "Click features on the map to access edition tools."
-msgstr ""
+msgstr "Klik op objecten op de kaart om wijzigingen te maken."
 
 #: view~edition.navbar.title
 msgctxt "view~edition.navbar.title"
@@ -1389,22 +1399,22 @@ msgstr "Y:"
 #: view~edition.segment.angle.label
 msgctxt "view~edition.segment.angle.label"
 msgid "Angle (°):"
-msgstr ""
+msgstr "Hoek (°):"
 
 #: view~edition.segment.length.label
 msgctxt "view~edition.segment.length.label"
 msgid "Length (m):"
-msgstr ""
+msgstr "Lengte (m):"
 
 #: view~edition.tab.digitization.title
 msgctxt "view~edition.tab.digitization.title"
 msgid "Digitization"
-msgstr ""
+msgstr "Digitalisatie"
 
 #: view~edition.tab.form.title
 msgctxt "view~edition.tab.form.title"
 msgid "Form"
-msgstr ""
+msgstr "Formulier"
 
 #: view~edition.toolbar.cancel.title
 msgctxt "view~edition.toolbar.cancel.title"
@@ -1509,7 +1519,7 @@ msgstr "Editie"
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
 msgid "An error occurred while removing link."
-msgstr ""
+msgstr "Er is een fout opgetreden tijdens het verwijderen van de link."
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
@@ -1529,7 +1539,7 @@ msgstr "Behouden"
 #: view~edition.upload.choice.update
 msgctxt "view~edition.upload.choice.update"
 msgid "Add/Update"
-msgstr ""
+msgstr "Toevoegen/Aanpassen"
 
 #: view~map.attributeLayers.navbar.title
 msgctxt "view~map.attributeLayers.navbar.title"
@@ -1589,7 +1599,7 @@ msgstr "Verkleinen"
 #: view~map.draw.navbar.title
 msgctxt "view~map.draw.navbar.title"
 msgid "Draw"
-msgstr ""
+msgstr "Tekenen"
 
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"
@@ -1829,7 +1839,7 @@ msgstr "Schaal"
 #: view~map.overviewmap.hover
 msgctxt "view~map.overviewmap.hover"
 msgid "Move the rectangle to pan the map"
-msgstr ""
+msgstr "Beweeg het vierkant om het panoramische weergave te wijzigen"
 
 #: view~map.permalink.embed.size.large
 msgctxt "view~map.permalink.embed.size.large"
@@ -2069,7 +2079,7 @@ msgstr "Stop"
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
 msgid "Underway…"
-msgstr ""
+msgstr "Aan de gang..."
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"
@@ -2096,7 +2106,7 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have access to "
 "the maps."
-msgstr ""
+msgstr "Ligt kort toe waarom u toegang wenst tot de kaarten."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

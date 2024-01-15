@@ -7,14 +7,15 @@
 # rldhont <rldhont@gmail.com>, 2023
 # Laurent Jouanneau <dev@ljouanneau.com>, 2023
 # tbnobody, 2023
+# meyerlor <sn1ks@utok-gaming.de>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-27 15:03++0000\n"
+"POT-Creation-Date: 2023-12-04 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
-"Last-Translator: tbnobody, 2023\n"
+"Last-Translator: meyerlor <sn1ks@utok-gaming.de>, 2023\n"
 "Language-Team: German (https://app.transifex.com/3liz-1/teams/62012/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,12 +36,12 @@ msgstr "Cache leeren"
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
 msgid "The cache for the layer %s has been successfully emptied."
-msgstr ""
+msgstr "Der Cache für den Layer %s wurde erfolgreich geleert."
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
 msgid "The cache for the repository %s has been successfully emptied."
-msgstr ""
+msgstr "Der Cache für das Verzeichnis %s wurde erfolgreich geleert."
 
 #: admin~admin.config.services.allowUserAccountRequest.noemail
 msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
@@ -48,6 +49,8 @@ msgid ""
 "This option cannot be enabled while the sender email is not defined. Please "
 "contact the application administrator."
 msgstr ""
+"Diese Option kann nicht aktiviert werden, solange keine Absender-E-Mail-"
+"Adresse angegeben ist. Bitte kontaktieren Sie den Administrator."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -251,7 +254,7 @@ msgstr "Verzeichnis anpassen"
 msgctxt ""
 "admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain"
 msgid "Content is not a valid URL or a list of URLs."
-msgstr ""
+msgstr "Der Inhalt ist keine valide URL oder Liste von URLs."
 
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
@@ -276,7 +279,7 @@ msgstr "(%s Gruppe(n) betroffen)"
 #: admin~admin.form.admin_section.message.data.saved
 msgctxt "admin~admin.form.admin_section.message.data.saved"
 msgid "The repository data has been saved."
-msgstr ""
+msgstr "Verzeichnisdaten wurden gespeichert."
 
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
@@ -287,6 +290,7 @@ msgstr "Der für das Verzeichnis angegebene Pfad ist nicht authentifiziert."
 msgctxt "admin~admin.form.admin_section.message.path.wrong"
 msgid "The path given for the repository does not exist on the server."
 msgstr ""
+"Der angegebene Pfad für das Verzeichnis existiert nicht auf dem Server."
 
 #: admin~admin.form.admin_section.message.repository.wrong
 msgctxt "admin~admin.form.admin_section.message.repository.wrong"
@@ -301,12 +305,17 @@ msgid ""
 "'https://domain1.com,https://www.domain2.com'. Path and query parameters "
 "will be removed from the URL."
 msgstr ""
+"Liste von URLs durch Kommata separiert, z.B.  "
+"'https://domain1.com,https://www.domain2.com' . Pfade und Abfrageparamter "
+"werden von der URL entfernt."
 
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.accessControlAllowOrigin.label"
 msgid "List of websites allowed to access the map services (WMS/WMTS/WFS…)"
 msgstr ""
+"Liste von Websiten, die auf die Map-Services zugreifen dürfen "
+"(WMS/WMTS/WFS...)"
 
 #: admin~admin.form.admin_section.repository.allowUserDefinedThemes.label
 msgctxt ""
@@ -321,11 +330,14 @@ msgid ""
 "and 0-9 (no space, no special character). This identifier can not be edited "
 "later."
 msgstr ""
+"Eindeutige Verzeichnis-ID. Darf nur Zeichen von a-z und 0-9 enthalten (keine"
+" Leerzeichen, keine Sonderzeichen). Diese ID kann später nicht bearbeitet "
+"werden."
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: admin~admin.form.admin_section.repository.label.help
 msgctxt "admin~admin.form.admin_section.repository.label.help"

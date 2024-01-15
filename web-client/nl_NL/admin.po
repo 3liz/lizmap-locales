@@ -5,14 +5,15 @@
 # Jean-Louis Stanus <rammstan@msn.com>, 2023
 # Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2023
 # Nico Veenstra <nvbgm@gmx.net>, 2023
+# Hidde Wieringa <hidde@hiddewieringa.nl>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-30 15:53++0100\n"
+"POT-Creation-Date: 2023-12-04 15:03++0000\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
-"Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2023\n"
+"Last-Translator: Hidde Wieringa <hidde@hiddewieringa.nl>, 2023\n"
 "Language-Team: Dutch (https://app.transifex.com/3liz-1/teams/62012/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1316,12 +1317,12 @@ msgstr "Overzicht"
 #: admin~admin.project.list.column.project.file.time.label
 msgctxt "admin~admin.project.list.column.project.file.time.label"
 msgid "Last modified"
-msgstr ""
+msgstr "Laatst aangepast"
 
 #: admin~admin.project.list.column.project.has.log.label
 msgctxt "admin~admin.project.list.column.project.has.log.label"
 msgid "QGIS Server logs"
-msgstr ""
+msgstr "QGIS Server logs"
 
 #: admin~admin.project.list.column.project.label
 msgctxt "admin~admin.project.list.column.project.label"
@@ -1331,7 +1332,7 @@ msgstr "Project"
 #: admin~admin.project.list.column.project.qgis.log.label
 msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
-msgstr ""
+msgstr "QGIS Server logs"
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
@@ -1345,12 +1346,12 @@ msgstr ""
 #: admin~admin.project.list.column.qgis.desktop.version.label
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.label"
 msgid "QGIS Desktop"
-msgstr ""
+msgstr "QGIS Desktop"
 
 #: admin~admin.project.list.column.qgis.desktop.version.too.old
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.too.old"
 msgid "The QGIS project has been saved with an old version of QGIS desktop"
-msgstr ""
+msgstr "Het QGIS project is opgeslagen met een oude versie van QGIS desktop"
 
 #: admin~admin.project.list.column.repository.label
 msgctxt "admin~admin.project.list.column.repository.label"
@@ -1360,17 +1361,17 @@ msgstr "Opslagplaats"
 #: admin~admin.project.list.column.show.line.hidden.columns
 msgctxt "admin~admin.project.list.column.show.line.hidden.columns"
 msgid "Show/Hide the hidden columns"
-msgstr ""
+msgstr "Toon/Verberg de verborgen kolommen"
 
 #: admin~admin.project.list.column.target.lizmap.version.label
 msgctxt "admin~admin.project.list.column.target.lizmap.version.label"
 msgid "Target version"
-msgstr ""
+msgstr "Doelversie"
 
 #: admin~admin.project.list.column.target.lizmap.version.label.longer
 msgctxt "admin~admin.project.list.column.target.lizmap.version.label.longer"
 msgid "Target version of Lizmap Web Client"
-msgstr ""
+msgstr "Doelversie van Lizmap Web Client"
 
 #: admin~admin.project.list.column.update.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
@@ -1398,6 +1399,7 @@ msgctxt "admin~admin.project.list.no.hidden.column.content"
 msgid ""
 "No extra content for this project in the following hidden table columns"
 msgstr ""
+"Geen extra inhoud voor dit project in de volgende verborgen tabelkolommen"
 
 #: admin~admin.project.modal.button.close
 msgctxt "admin~admin.project.modal.button.close"
@@ -1407,7 +1409,7 @@ msgstr "Sluiten"
 #: admin~admin.project.modal.title
 msgctxt "admin~admin.project.modal.title"
 msgid "Table legend"
-msgstr ""
+msgstr "Tabellegenda"
 
 #: admin~admin.project.rules.list.blocking.description
 msgctxt "admin~admin.project.rules.list.blocking.description"
@@ -1415,6 +1417,8 @@ msgid ""
 "Some projects are not visible anymore without any updates from the GIS "
 "administrator."
 msgstr ""
+"Sommige projecten zijn niet meer zichtbaar zonder updates van de GIS "
+"beheerder."
 
 #: admin~admin.project.rules.list.blocking.html
 msgctxt "admin~admin.project.rules.list.blocking.html"
@@ -1460,16 +1464,18 @@ msgid ""
 "The project takes more than <strong>%s</strong> Mo of the server memory to "
 "load."
 msgstr ""
+"Dit project neemt meer dan <strong>%s</strong> Mb van server geheugen om in "
+"te laden."
 
 #: admin~admin.project.rules.list.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
 msgid "The count is greater or equal to <strong>%s</strong> layers."
-msgstr ""
+msgstr "Het aantal lagen is <strong>%s</strong> of meer."
 
 #: admin~admin.project.rules.list.introduction
 msgctxt "admin~admin.project.rules.list.introduction"
 msgid "Explanation about colours used in the table above"
-msgstr ""
+msgstr "Uitleg over de kleuren in de tabel hierboven"
 
 #: admin~admin.project.rules.list.invalid.datasource.html
 msgctxt "admin~admin.project.rules.list.invalid.datasource.html"
@@ -1477,6 +1483,8 @@ msgid ""
 "The project has some <strong>invalid layer datasource</strong> when QGIS "
 "server loaded the project."
 msgstr ""
+"Dit project heeft een <strong>ongeldige laaggegevensbron</strong> bij het "
+"inladen van het project in QGIS server."
 
 #: admin~admin.project.rules.list.qgis.version.error.html
 msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
@@ -1484,6 +1492,8 @@ msgid ""
 "The desktop version <strong>is above</strong> QGIS server. Current value "
 "greater or equal than <strong>%s</strong>."
 msgstr ""
+"De desktop versie <strong>is hoger dan</strong> QGIS server. Huidige waarde "
+"groter of gelijk aan <strong>%s</strong>."
 
 #: admin~admin.project.rules.list.qgis.version.warning.html
 msgctxt "admin~admin.project.rules.list.qgis.version.warning.html"
@@ -1491,16 +1501,18 @@ msgid ""
 "The project version is too old compared to the current QGIS Server version. "
 "Current value less or equal to <strong>%s</strong>."
 msgstr ""
+"De projectversie is te oud vergeleken met de huidige QGIS Server versie. "
+"Huidige versie is kleiner of gelijk aan <strong>%s</strong>."
 
 #: admin~admin.project.rules.list.target.version.html
 msgctxt "admin~admin.project.rules.list.target.version.html"
 msgid "The project is designed for Lizmap Web Client <strong>%s</strong>."
-msgstr ""
+msgstr "Dit project is ontworpen voor Lizmap Web Client <strong>%s</strong>."
 
 #: admin~admin.project.rules.list.very.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
 msgid "The count is greater or equal to <strong>%s</strong> layers."
-msgstr ""
+msgstr "Het aantal lagen is <strong>%s</strong> of meer."
 
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
@@ -1514,6 +1526,8 @@ msgid ""
 "The project takes more than <strong>%s</strong> Mo of the server memory to "
 "load."
 msgstr ""
+"Dit project neemt meer dan <strong>%s</strong> Mb van server geheugen om in "
+"te laden."
 
 #: admin~admin.project.rules.list.warnings.html
 msgctxt "admin~admin.project.rules.list.warnings.html"
@@ -1521,6 +1535,8 @@ msgid ""
 "<strong>Warnings</strong>, projects are still visible, but you should have a"
 " look to these projects :"
 msgstr ""
+"<strong>Waarschuwing</strong>, projecten zijn nog steeds zichtbaar, "
+"controleer deze projecten:"
 
 #: admin~admin.server.information.error
 msgctxt "admin~admin.server.information.error"
@@ -1529,6 +1545,9 @@ msgid ""
 "the \"Server information\" menu. The configuration of QGIS Server is "
 "currently not correct."
 msgstr ""
+"Voordat de projecten worden gecontroleerd, moeten altijd te QGIS Server "
+"instellingen in de \"Server informatie\" worden gecontroleerd. De "
+"configuratie van QGIS Server is momenteel niet correct."
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
@@ -1553,17 +1572,17 @@ msgstr "Lizmap Web Client"
 #: admin~admin.server.information.lizmap.url
 msgctxt "admin~admin.server.information.lizmap.url"
 msgid "URL in the QGIS desktop plugin"
-msgstr ""
+msgstr "URL in de QGIS desktop plugin"
 
 #: admin~admin.server.information.plugin.update
 msgctxt "admin~admin.server.information.plugin.update"
 msgid "The %s plugin needs to be updated."
-msgstr ""
+msgstr "De %s plugin moet worden geüpdatet."
 
 #: admin~admin.server.information.qgis.action
 msgctxt "admin~admin.server.information.qgis.action"
 msgid "Action"
-msgstr ""
+msgstr "Actie"
 
 #: admin~admin.server.information.qgis.commit_id
 msgctxt "admin~admin.server.information.qgis.commit_id"
@@ -1605,6 +1624,9 @@ msgid ""
 "plugin</strong> described in the documentation link below is correctly set "
 "in your configuration"
 msgstr ""
+"De <strong>omgevingsvariabele</strong> over de <strong>Lizmap server "
+"plugin</strong> zoals beschreven in de link hieronder naar de documentatie, "
+"is correct ingesteld in de configuratie"
 
 #: admin~admin.server.information.qgis.error.fetching.information.help
 msgctxt "admin~admin.server.information.qgis.error.fetching.information.help"
@@ -1625,6 +1647,8 @@ msgid ""
 "Your Lizmap Web Client <strong>logs</strong> does not contain any warnings "
 "about reaching QGIS server"
 msgstr ""
+"De Lizmap Web Client <strong>logs</strong> bevatten geen waarschuwingen over"
+" het benaderen van QGIS server"
 
 #: admin~admin.server.information.qgis.error.fetching.information.plugin.version.html
 msgctxt ""
@@ -1643,6 +1667,8 @@ msgid ""
 "The URL to reach the Lizmap API on QGIS Server is <strong>correct</strong> "
 "in your administration panel, if you use Py-QGIS-Server"
 msgstr ""
+"De URL om de Lizmap API in QGIS Server is <strong>correct</strong> in het "
+"beheerderspaneel, als er gebruik wordt gemaakt van Py-QGIS-Server"
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.url.html
 msgctxt ""
@@ -1651,6 +1677,8 @@ msgid ""
 "The URL to reach QGIS server is <strong>correct</strong> in your "
 "administration panel"
 msgstr ""
+"De URL om QGIS server te bereiken is <strong>correct</strong> in het "
+"beheerderspaneel"
 
 #: admin~admin.server.information.qgis.error.fetching.information.qgis.version.html
 msgctxt ""
@@ -1677,12 +1705,12 @@ msgstr "Naam"
 #: admin~admin.server.information.qgis.plugin
 msgctxt "admin~admin.server.information.qgis.plugin"
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #: admin~admin.server.information.qgis.plugin.action
 msgctxt "admin~admin.server.information.qgis.plugin.action"
 msgid "Action"
-msgstr ""
+msgstr "Actie"
 
 #: admin~admin.server.information.qgis.plugin.version
 msgctxt "admin~admin.server.information.qgis.plugin.version"
@@ -1734,6 +1762,8 @@ msgid ""
 "QGIS Server needs to be updated at least to version %s for this version of "
 "Lizmap Web Client."
 msgstr ""
+"QGIS Server moet worden geüpdatet naar ten minste versie %s voor deze versie"
+" van Lizmap Web Client. "
 
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
@@ -1758,7 +1788,7 @@ msgstr "Configuratie van het thema"
 #: admin~admin.theme.error.no.access
 msgctxt "admin~admin.theme.error.no.access"
 msgid "You have no right to access the theme configuration page."
-msgstr ""
+msgstr "Je hebt geen rechten om de thema configuratiepagina te bezoeken."
 
 #: admin~admin.upload.image.error.file.bigger
 msgctxt "admin~admin.upload.image.error.file.bigger"
@@ -1823,22 +1853,22 @@ msgstr "standaard groep"
 #: admin~jacl2.lizmap.admin.home.page.update
 msgctxt "admin~jacl2.lizmap.admin.home.page.update"
 msgid "View and update the home page content"
-msgstr ""
+msgstr "Toon en update de inhoud van de thuispagina"
 
 #: admin~jacl2.lizmap.admin.lizmap.log.delete
 msgctxt "admin~jacl2.lizmap.admin.lizmap.log.delete"
 msgid "Delete the lizmap logs"
-msgstr ""
+msgstr "Verwijder de lizmap logs"
 
 #: admin~jacl2.lizmap.admin.lizmap.log.view
 msgctxt "admin~jacl2.lizmap.admin.lizmap.log.view"
 msgid "View the lizmap logs"
-msgstr ""
+msgstr "Toon de lizmap logs"
 
 #: admin~jacl2.lizmap.admin.project.list.view
 msgctxt "admin~jacl2.lizmap.admin.project.list.view"
 msgid "View the list of QGIS projects"
-msgstr ""
+msgstr "Toon de lijst met QGIS projecten"
 
 #: admin~jacl2.lizmap.admin.repositories.create
 msgctxt "admin~jacl2.lizmap.admin.repositories.create"
@@ -1863,7 +1893,7 @@ msgstr "Consulteer gegevensbanken"
 #: admin~jacl2.lizmap.admin.server.information.view
 msgctxt "admin~jacl2.lizmap.admin.server.information.view"
 msgid "View the detailed server information"
-msgstr ""
+msgstr "Toon de gedetailleerde serverinformatie"
 
 #: admin~jacl2.lizmap.admin.services.update
 msgctxt "admin~jacl2.lizmap.admin.services.update"
@@ -1878,12 +1908,12 @@ msgstr "Consulteer services"
 #: admin~jacl2.lizmap.admin.theme.update
 msgctxt "admin~jacl2.lizmap.admin.theme.update"
 msgid "Update the application theme"
-msgstr ""
+msgstr "Update het applicatiethema"
 
 #: admin~jacl2.lizmap.admin.theme.view
 msgctxt "admin~jacl2.lizmap.admin.theme.view"
 msgid "View the application theme"
-msgstr ""
+msgstr "Toon het applicatiethema"
 
 #: admin~jacl2.lizmap.grp
 msgctxt "admin~jacl2.lizmap.grp"
