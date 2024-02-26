@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-11-30 16:00++0100\n"
-"PO-Revision-Date: 2023-11-30 16:00++0100\n"
+"POT-Creation-Date: 2024-02-26 15:32++0100\n"
+"PO-Revision-Date: 2024-02-26 15:32++0100\n"
 "Language: \n"
 
 #: view~default.header.connect
@@ -69,6 +69,16 @@ msgstr ""
 #: view~default.project.close.map.metadata
 msgctxt "view~default.project.close.map.metadata"
 msgid "Close"
+msgstr ""
+
+#: view~default.project.has.warnings
+msgctxt "view~default.project.has.warnings"
+msgid "The project has some warnings in the QGIS desktop Lizmap plugin which must be fixed. <br/>Only administrators or publishers can see this message."
+msgstr ""
+
+#: view~default.project.has.warnings.link
+msgctxt "view~default.project.has.warnings.link"
+msgid "Visit the QGIS project page in the administration panel."
 msgstr ""
 
 #: view~default.project.keywordList.label
@@ -540,6 +550,22 @@ msgctxt "view~dictionnary.edition.confirm.paste"
 msgid "Are you sure you want to replace the existing geometry with the one in the clipboard?"
 msgstr ""
 
+#: view~dictionnary.edition.confirm.pivot.delete
+msgctxt "view~dictionnary.edition.confirm.pivot.delete"
+msgid ""
+"Are you sure you want to delete the selected feature? \n"
+"\n"
+"The related links with the following layers:\n"
+" %s \n"
+"\n"
+"will be also deleted"
+msgstr ""
+
+#: view~dictionnary.edition.confirm.pivot.unlink
+msgctxt "view~dictionnary.edition.confirm.pivot.unlink"
+msgid "Are you sure you want to unlink the selected feature from \"%l\" layer?"
+msgstr ""
+
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
 msgid "Are you sure you want to delete the existing geometry and redraw it from scratch?"
@@ -568,6 +594,11 @@ msgstr ""
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
 msgid "Paste the geometry"
+msgstr ""
+
+#: view~dictionnary.edition.link.pivot.add
+msgctxt "view~dictionnary.edition.link.pivot.add"
+msgid "The new record will be linked to the feature ID \"%f\" of \"%l\" layer"
 msgstr ""
 
 #: view~dictionnary.edition.message.error.no.geometry
@@ -1328,6 +1359,21 @@ msgstr ""
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
 msgid "Selected features have been correctly linked."
+msgstr ""
+
+#: view~edition.linkaddedfeature.error.linkfeature.association
+msgctxt "view~edition.linkaddedfeature.error.linkfeature.association"
+msgid "The association of the new \"%s\" feature to the \"%s\" layer has failed"
+msgstr ""
+
+#: view~edition.linkaddedfeature.error.linkfeature.invalid.parameters
+msgctxt "view~edition.linkaddedfeature.error.linkfeature.invalid.parameters"
+msgid "Required parameter for link the new feature are invalid"
+msgstr ""
+
+#: view~edition.linkaddedfeature.success.linkfeature
+msgctxt "view~edition.linkaddedfeature.success.linkfeature"
+msgid "The new feature of layer \"%s\" was successfully linked to the layer \"%s\""
 msgstr ""
 
 #: view~edition.message.error.bbox
