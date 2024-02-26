@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 11:13++0100\n"
+"POT-Creation-Date: 2024-02-26 15:34++0100\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: Jiří Podhorecký, 2023\n"
 "Language-Team: Czech (https://app.transifex.com/3liz-1/teams/62012/cs/)\n"
@@ -1265,6 +1265,16 @@ msgctxt "admin~admin.project.list.column.lizmap.plugin.version.label"
 msgid "Lizmap plugin"
 msgstr "Lizmap plugin"
 
+#: admin~admin.project.list.column.lizmap.warnings.count.label
+msgctxt "admin~admin.project.list.column.lizmap.warnings.count.label"
+msgid "Warnings"
+msgstr ""
+
+#: admin~admin.project.list.column.lizmap.warnings.explanations.label
+msgctxt "admin~admin.project.list.column.lizmap.warnings.explanations.label"
+msgid "Check your Lizmap plugin in QGIS Desktop to fix these warnings"
+msgstr ""
+
 #: admin~admin.project.list.column.loading.time.error.label
 msgctxt "admin~admin.project.list.column.loading.time.error.label"
 msgid ""
@@ -1483,6 +1493,13 @@ msgid ""
 msgstr ""
 "Projekt má při načtení ze serveru QGIS nějaký <strong>neplatný datový zdroj "
 "vrstvy</strong>."
+
+#: admin~admin.project.rules.list.plugin.warnings.html
+msgctxt "admin~admin.project.rules.list.plugin.warnings.html"
+msgid ""
+"The project has <strong>at least one</strong> warning in the QGIS Desktop "
+"plugin"
+msgstr ""
 
 #: admin~admin.project.rules.list.qgis.version.error.html
 msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
@@ -1704,12 +1721,6 @@ msgstr "Zásuvný modul"
 msgctxt "admin~admin.server.information.qgis.plugin.action"
 msgid "Action"
 msgstr "Akce"
-
-#: admin~admin.server.information.qgis.plugin.atlasprint
-msgctxt "admin~admin.server.information.qgis.plugin.atlasprint"
-msgid "The plugin is not used anymore and is deprecated. It can be removed."
-msgstr ""
-"Tento zásuvný modul se již nepoužívá a je zastaralý. Může být odstraněn."
 
 #: admin~admin.server.information.qgis.plugin.version
 msgctxt "admin~admin.server.information.qgis.plugin.version"

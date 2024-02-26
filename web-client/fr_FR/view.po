@@ -3,17 +3,17 @@
 # Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2023
 # Nicolas Boisteault <nboisteault@gmail.com>, 2023
 # Michael Douchin <kimaidou@gmail.com>, 2023
-# etrimaille <gustrimaille@yahoo.fr>, 2023
 # Laurent Jouanneau <dev@ljouanneau.com>, 2023
 # rldhont <rldhont@gmail.com>, 2023
+# etrimaille <gustrimaille@yahoo.fr>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 11:13++0100\n"
+"POT-Creation-Date: 2024-02-26 15:34++0100\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>, 2023\n"
+"Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/3liz-1/teams/62012/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,6 +81,21 @@ msgstr "Emprise"
 msgctxt "view~default.project.close.map.metadata"
 msgid "Close"
 msgstr "Fermer"
+
+#: view~default.project.has.warnings
+msgctxt "view~default.project.has.warnings"
+msgid ""
+"The project has some warnings in the QGIS desktop Lizmap plugin which must "
+"be fixed. <br/>Only administrators or publishers can see this message."
+msgstr ""
+"Le projet présente quelques avertissements dans l'extension Lizmap QGIS "
+"Bureautique qui doivent être corrigés. <br/>Seuls les administrateurs ou les"
+" éditeurs peuvent voir ce message."
+
+#: view~default.project.has.warnings.link
+msgctxt "view~default.project.has.warnings.link"
+msgid "Visit the QGIS project page in the administration panel."
+msgstr "Visitez la page des projet QGIS dans le panneau d'administration."
 
 #: view~default.project.keywordList.label
 msgctxt "view~default.project.keywordList.label"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 11:13++0100\n"
+"POT-Creation-Date: 2024-02-26 15:34++0100\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/3liz-1/teams/62012/fr/)\n"
@@ -1288,6 +1288,18 @@ msgctxt "admin~admin.project.list.column.lizmap.plugin.version.label"
 msgid "Lizmap plugin"
 msgstr "Extension Lizmap"
 
+#: admin~admin.project.list.column.lizmap.warnings.count.label
+msgctxt "admin~admin.project.list.column.lizmap.warnings.count.label"
+msgid "Warnings"
+msgstr "Avertissements"
+
+#: admin~admin.project.list.column.lizmap.warnings.explanations.label
+msgctxt "admin~admin.project.list.column.lizmap.warnings.explanations.label"
+msgid "Check your Lizmap plugin in QGIS Desktop to fix these warnings"
+msgstr ""
+"Vérifiez votre extension Lizmap dans QGIS Bureautique pour corriger ces "
+"avertissements."
+
 #: admin~admin.project.list.column.loading.time.error.label
 msgctxt "admin~admin.project.list.column.loading.time.error.label"
 msgid ""
@@ -1513,6 +1525,15 @@ msgid ""
 msgstr ""
 "Le projet a quelques <strong>sources de données invalides pour des "
 "couches</strong> quand QGIS serveur a chargé le projet."
+
+#: admin~admin.project.rules.list.plugin.warnings.html
+msgctxt "admin~admin.project.rules.list.plugin.warnings.html"
+msgid ""
+"The project has <strong>at least one</strong> warning in the QGIS Desktop "
+"plugin"
+msgstr ""
+"Le projet a <strong>au moins un</strong> avertissement dans l'extension QGIS"
+" Bureautique"
 
 #: admin~admin.project.rules.list.qgis.version.error.html
 msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
@@ -1740,12 +1761,6 @@ msgstr "Extension"
 msgctxt "admin~admin.server.information.qgis.plugin.action"
 msgid "Action"
 msgstr "Action"
-
-#: admin~admin.server.information.qgis.plugin.atlasprint
-msgctxt "admin~admin.server.information.qgis.plugin.atlasprint"
-msgid "The plugin is not used anymore and is deprecated. It can be removed."
-msgstr ""
-"L'extension n'est plus utilisée et est dépréciée. Elle peut être supprimée."
 
 #: admin~admin.server.information.qgis.plugin.version
 msgctxt "admin~admin.server.information.qgis.plugin.version"

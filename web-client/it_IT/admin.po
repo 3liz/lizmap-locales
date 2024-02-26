@@ -5,19 +5,19 @@
 # Alessandro Fanna <alex@rospus.org>, 2023
 # Roberto Marzocchi <roberto.marzocchi@gter.it>, 2023
 # Laurent Jouanneau <dev@ljouanneau.com>, 2023
-# marcobra <marcobra.ubuntu@gmail.com>, 2023
 # rldhont <rldhont@gmail.com>, 2023
 # Stefano Campus <skampus@gmail.com>, 2023
 # Paolo Cavallini <cavallini@faunalia.it>, 2023
 # Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023
+# marcobra <marcobra.ubuntu@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 11:13++0100\n"
+"POT-Creation-Date: 2024-02-26 15:34++0100\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
-"Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023\n"
+"Last-Translator: marcobra <marcobra.ubuntu@gmail.com>, 2024\n"
 "Language-Team: Italian (https://app.transifex.com/3liz-1/teams/62012/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -356,7 +356,7 @@ msgstr ""
 #: admin~admin.form.admin_section.repository.path.invalid
 msgctxt "admin~admin.form.admin_section.repository.path.invalid"
 msgid "Path not found"
-msgstr ""
+msgstr "Percorso non trovato"
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -1284,6 +1284,16 @@ msgctxt "admin~admin.project.list.column.lizmap.plugin.version.label"
 msgid "Lizmap plugin"
 msgstr "Lizmap plugin"
 
+#: admin~admin.project.list.column.lizmap.warnings.count.label
+msgctxt "admin~admin.project.list.column.lizmap.warnings.count.label"
+msgid "Warnings"
+msgstr ""
+
+#: admin~admin.project.list.column.lizmap.warnings.explanations.label
+msgctxt "admin~admin.project.list.column.lizmap.warnings.explanations.label"
+msgid "Check your Lizmap plugin in QGIS Desktop to fix these warnings"
+msgstr ""
+
 #: admin~admin.project.list.column.loading.time.error.label
 msgctxt "admin~admin.project.list.column.loading.time.error.label"
 msgid ""
@@ -1512,6 +1522,13 @@ msgstr ""
 "Il progetto ha alcune <strong>sorgenti dati dei layer non valide</strong> al"
 " momento del caricamento da parte di QGIS Server."
 
+#: admin~admin.project.rules.list.plugin.warnings.html
+msgctxt "admin~admin.project.rules.list.plugin.warnings.html"
+msgid ""
+"The project has <strong>at least one</strong> warning in the QGIS Desktop "
+"plugin"
+msgstr ""
+
 #: admin~admin.project.rules.list.qgis.version.error.html
 msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
 msgid ""
@@ -1736,11 +1753,6 @@ msgstr "Plugin"
 msgctxt "admin~admin.server.information.qgis.plugin.action"
 msgid "Action"
 msgstr "Azione"
-
-#: admin~admin.server.information.qgis.plugin.atlasprint
-msgctxt "admin~admin.server.information.qgis.plugin.atlasprint"
-msgid "The plugin is not used anymore and is deprecated. It can be removed."
-msgstr "Il plugin è deprecato e non viene più utilizzato. Può essere rimosso."
 
 #: admin~admin.server.information.qgis.plugin.version
 msgctxt "admin~admin.server.information.qgis.plugin.version"
