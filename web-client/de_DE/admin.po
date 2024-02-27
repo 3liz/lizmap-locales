@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 15:03++0000\n"
+"POT-Creation-Date: 2024-02-27 10:28++0100\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: tbnobody, 2023\n"
 "Language-Team: German (http://app.transifex.com/3liz-1/lizmap-locales/language/de/)\n"
@@ -332,6 +332,11 @@ msgctxt "admin~admin.form.admin_section.repository.path.help"
 msgid ""
 "The directory in which QGIS projects and Lizmap configuration file must be "
 "stored."
+msgstr ""
+
+#: admin~admin.form.admin_section.repository.path.invalid
+msgctxt "admin~admin.form.admin_section.repository.path.invalid"
+msgid "Path not found"
 msgstr ""
 
 #: admin~admin.form.admin_section.repository.path.label
@@ -1194,6 +1199,16 @@ msgctxt "admin~admin.project.list.column.lizmap.plugin.version.label"
 msgid "Lizmap plugin"
 msgstr ""
 
+#: admin~admin.project.list.column.lizmap.warnings.count.label
+msgctxt "admin~admin.project.list.column.lizmap.warnings.count.label"
+msgid "Warnings"
+msgstr ""
+
+#: admin~admin.project.list.column.lizmap.warnings.explanations.label
+msgctxt "admin~admin.project.list.column.lizmap.warnings.explanations.label"
+msgid "Check your Lizmap plugin in QGIS Desktop to fix these warnings"
+msgstr ""
+
 #: admin~admin.project.list.column.loading.time.error.label
 msgctxt "admin~admin.project.list.column.loading.time.error.label"
 msgid ""
@@ -1392,6 +1407,13 @@ msgid ""
 "server loaded the project."
 msgstr ""
 
+#: admin~admin.project.rules.list.plugin.warnings.html
+msgctxt "admin~admin.project.rules.list.plugin.warnings.html"
+msgid ""
+"The project has <strong>at least one</strong> warning in the QGIS Desktop "
+"plugin"
+msgstr ""
+
 #: admin~admin.project.rules.list.qgis.version.error.html
 msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
 msgid ""
@@ -1587,11 +1609,6 @@ msgstr ""
 msgctxt "admin~admin.server.information.qgis.plugin.action"
 msgid "Action"
 msgstr "Aktion"
-
-#: admin~admin.server.information.qgis.plugin.atlasprint
-msgctxt "admin~admin.server.information.qgis.plugin.atlasprint"
-msgid "The plugin is not used anymore and is deprecated. It can be removed."
-msgstr ""
 
 #: admin~admin.server.information.qgis.plugin.version
 msgctxt "admin~admin.server.information.qgis.plugin.version"

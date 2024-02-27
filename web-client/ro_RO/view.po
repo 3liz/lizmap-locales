@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-30 16:00++0100\n"
+"POT-Creation-Date: 2024-02-27 12:36++0100\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020-2024\n"
 "Language-Team: Romanian (http://app.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
@@ -564,6 +564,22 @@ msgid ""
 "clipboard?"
 msgstr "Sigur dorești să înlocuiești geometria existentă cu cea din clipboard?"
 
+#: view~dictionnary.edition.confirm.pivot.delete
+msgctxt "view~dictionnary.edition.confirm.pivot.delete"
+msgid ""
+"Are you sure you want to delete the selected feature? \n"
+"\n"
+"The related links with the following layers:\n"
+" %s \n"
+"\n"
+"will be also deleted"
+msgstr "Ești sigur că dorești să ștergi obiectul selectat?\n\nLinkurile asociate cu următoarele straturi:\n%s\n\nvor fi de asemenea șterse"
+
+#: view~dictionnary.edition.confirm.pivot.unlink
+msgctxt "view~dictionnary.edition.confirm.pivot.unlink"
+msgid "Are you sure you want to unlink the selected feature from \"%l\" layer?"
+msgstr "Ești sigur că dorești să deconectezi obiectul selectat din stratul \"%l\"?"
+
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
 msgid ""
@@ -597,6 +613,11 @@ msgstr "Poți ascunde acest formular cu butonul de închidere ori de câte ori t
 msgctxt "view~dictionnary.edition.geom.paste"
 msgid "Paste the geometry"
 msgstr "Lipește geometria"
+
+#: view~dictionnary.edition.link.pivot.add
+msgctxt "view~dictionnary.edition.link.pivot.add"
+msgid "The new record will be linked to the feature ID \"%f\" of \"%l\" layer"
+msgstr "Noua înregistrare va fi legată de ID-ul caracteristicii \"%f\" a stratului \"%l\""
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -1017,6 +1038,18 @@ msgctxt "view~dictionnary.print.toolbar.scale"
 msgid "Scale"
 msgstr "Scară"
 
+#: view~dictionnary.project.has.warnings
+msgctxt "view~dictionnary.project.has.warnings"
+msgid ""
+"The project has some warnings in the QGIS desktop Lizmap plugin which must "
+"be fixed. Only administrators or publishers can see this message."
+msgstr "Proiectul are câteva avertismente în plugin-ul QGIS desktop Lizmap care trebuie rezolvate. Doar administratorii sau editorii pot vedea acest mesaj."
+
+#: view~dictionnary.project.has.warnings.link
+msgctxt "view~dictionnary.project.has.warnings.link"
+msgid "Visit the QGIS project page in the administration panel."
+msgstr "Vizitează pagina proiectului QGIS în panoul de administrare."
+
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
 msgid "%s selected objects"
@@ -1367,6 +1400,21 @@ msgstr "Stratul nu există."
 msgctxt "view~edition.link.success"
 msgid "Selected features have been correctly linked."
 msgstr "Obiectele selectate au fost corelate corect."
+
+#: view~edition.linkaddedfeature.error.linkfeature.association
+msgctxt "view~edition.linkaddedfeature.error.linkfeature.association"
+msgid "The association of the new \"%s\" feature to the \"%s\" layer has failed"
+msgstr "Asocierea noului obiect \"%s\" cu stratul \"%s\" a eșuat."
+
+#: view~edition.linkaddedfeature.error.linkfeature.invalid.parameters
+msgctxt "view~edition.linkaddedfeature.error.linkfeature.invalid.parameters"
+msgid "Required parameter for link the new feature are invalid"
+msgstr "Parametrul necesar pentru legătura cu noul obiect este greșit."
+
+#: view~edition.linkaddedfeature.success.linkfeature
+msgctxt "view~edition.linkaddedfeature.success.linkfeature"
+msgid "The new feature of layer \"%s\" was successfully linked to the layer \"%s\""
+msgstr "Noul obiect al stratului \"%s\" a fost legat cu succes de stratul \"%s\""
 
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"

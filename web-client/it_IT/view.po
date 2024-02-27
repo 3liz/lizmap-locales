@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-30 16:00++0100\n"
+"POT-Creation-Date: 2024-02-27 12:36++0100\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023\n"
 "Language-Team: Italian (http://app.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
@@ -571,6 +571,22 @@ msgid ""
 "clipboard?"
 msgstr "Sei sicuro di voler sostituire la geometria esistente con quella contenuta negli appunti?"
 
+#: view~dictionnary.edition.confirm.pivot.delete
+msgctxt "view~dictionnary.edition.confirm.pivot.delete"
+msgid ""
+"Are you sure you want to delete the selected feature? \n"
+"\n"
+"The related links with the following layers:\n"
+" %s \n"
+"\n"
+"will be also deleted"
+msgstr ""
+
+#: view~dictionnary.edition.confirm.pivot.unlink
+msgctxt "view~dictionnary.edition.confirm.pivot.unlink"
+msgid "Are you sure you want to unlink the selected feature from \"%l\" layer?"
+msgstr ""
+
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
 msgid ""
@@ -604,6 +620,11 @@ msgstr "Puoi nascondere questo modulo con il pulsante di chiusura ogni volta che
 msgctxt "view~dictionnary.edition.geom.paste"
 msgid "Paste the geometry"
 msgstr "Incolla la geometria"
+
+#: view~dictionnary.edition.link.pivot.add
+msgctxt "view~dictionnary.edition.link.pivot.add"
+msgid "The new record will be linked to the feature ID \"%f\" of \"%l\" layer"
+msgstr ""
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -1024,6 +1045,18 @@ msgctxt "view~dictionnary.print.toolbar.scale"
 msgid "Scale"
 msgstr "Scala"
 
+#: view~dictionnary.project.has.warnings
+msgctxt "view~dictionnary.project.has.warnings"
+msgid ""
+"The project has some warnings in the QGIS desktop Lizmap plugin which must "
+"be fixed. Only administrators or publishers can see this message."
+msgstr ""
+
+#: view~dictionnary.project.has.warnings.link
+msgctxt "view~dictionnary.project.has.warnings.link"
+msgid "Visit the QGIS project page in the administration panel."
+msgstr ""
+
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
 msgid "%s selected objects"
@@ -1374,6 +1407,21 @@ msgstr "Il livello non esiste."
 msgctxt "view~edition.link.success"
 msgid "Selected features have been correctly linked."
 msgstr "Gli elementi selezionati sono stati collegati correttamente."
+
+#: view~edition.linkaddedfeature.error.linkfeature.association
+msgctxt "view~edition.linkaddedfeature.error.linkfeature.association"
+msgid "The association of the new \"%s\" feature to the \"%s\" layer has failed"
+msgstr ""
+
+#: view~edition.linkaddedfeature.error.linkfeature.invalid.parameters
+msgctxt "view~edition.linkaddedfeature.error.linkfeature.invalid.parameters"
+msgid "Required parameter for link the new feature are invalid"
+msgstr ""
+
+#: view~edition.linkaddedfeature.success.linkfeature
+msgctxt "view~edition.linkaddedfeature.success.linkfeature"
+msgid "The new feature of layer \"%s\" was successfully linked to the layer \"%s\""
+msgstr ""
 
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"

@@ -1,6 +1,6 @@
 # 
 # Translators:
-# etrimaille <gustrimaille@yahoo.fr>, 2022-2023
+# etrimaille <gustrimaille@yahoo.fr>, 2022-2024
 # Laurent Jouanneau <dev@ljouanneau.com>, 2018-2019,2021-2022
 # Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2018
 # Michael Douchin <kimaidou@gmail.com>, 2017
@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 15:03++0000\n"
+"POT-Creation-Date: 2024-02-27 10:28++0100\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2022-2023\n"
+"Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2022-2024\n"
 "Language-Team: French (http://app.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -335,6 +335,11 @@ msgid ""
 "The directory in which QGIS projects and Lizmap configuration file must be "
 "stored."
 msgstr "Le répertoire dans lequel les projets QGIS et les configurations Lizmap doivent être stockés."
+
+#: admin~admin.form.admin_section.repository.path.invalid
+msgctxt "admin~admin.form.admin_section.repository.path.invalid"
+msgid "Path not found"
+msgstr "Chemin non trouvé"
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -1196,6 +1201,16 @@ msgctxt "admin~admin.project.list.column.lizmap.plugin.version.label"
 msgid "Lizmap plugin"
 msgstr "Extension Lizmap"
 
+#: admin~admin.project.list.column.lizmap.warnings.count.label
+msgctxt "admin~admin.project.list.column.lizmap.warnings.count.label"
+msgid "Warnings"
+msgstr "Avertissements"
+
+#: admin~admin.project.list.column.lizmap.warnings.explanations.label
+msgctxt "admin~admin.project.list.column.lizmap.warnings.explanations.label"
+msgid "Check your Lizmap plugin in QGIS Desktop to fix these warnings"
+msgstr "Vérifiez votre extension Lizmap dans QGIS Bureautique pour corriger ces avertissements."
+
 #: admin~admin.project.list.column.loading.time.error.label
 msgctxt "admin~admin.project.list.column.loading.time.error.label"
 msgid ""
@@ -1394,6 +1409,13 @@ msgid ""
 "server loaded the project."
 msgstr "Le projet a quelques <strong>sources de données invalides pour des couches</strong> quand QGIS serveur a chargé le projet."
 
+#: admin~admin.project.rules.list.plugin.warnings.html
+msgctxt "admin~admin.project.rules.list.plugin.warnings.html"
+msgid ""
+"The project has <strong>at least one</strong> warning in the QGIS Desktop "
+"plugin"
+msgstr "Le projet a <strong>au moins un</strong> avertissement dans l'extension QGIS Bureautique"
+
 #: admin~admin.project.rules.list.qgis.version.error.html
 msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
 msgid ""
@@ -1589,11 +1611,6 @@ msgstr "Extension"
 msgctxt "admin~admin.server.information.qgis.plugin.action"
 msgid "Action"
 msgstr "Action"
-
-#: admin~admin.server.information.qgis.plugin.atlasprint
-msgctxt "admin~admin.server.information.qgis.plugin.atlasprint"
-msgid "The plugin is not used anymore and is deprecated. It can be removed."
-msgstr "L'extension n'est plus utilisée et est dépréciée. Elle peut être supprimée."
 
 #: admin~admin.server.information.qgis.plugin.version
 msgctxt "admin~admin.server.information.qgis.plugin.version"

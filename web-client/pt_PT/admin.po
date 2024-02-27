@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 15:03++0000\n"
+"POT-Creation-Date: 2024-02-27 10:28++0100\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2017-2020,2022-2023\n"
 "Language-Team: Portuguese (http://app.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
@@ -333,6 +333,11 @@ msgid ""
 "The directory in which QGIS projects and Lizmap configuration file must be "
 "stored."
 msgstr "O diretório no qual os projetos do QGIS e os ficheiros de configuração do Lizmap devem ser guardados."
+
+#: admin~admin.form.admin_section.repository.path.invalid
+msgctxt "admin~admin.form.admin_section.repository.path.invalid"
+msgid "Path not found"
+msgstr "Caminho não encontrado"
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -1194,6 +1199,16 @@ msgctxt "admin~admin.project.list.column.lizmap.plugin.version.label"
 msgid "Lizmap plugin"
 msgstr "Plugin Lizmap"
 
+#: admin~admin.project.list.column.lizmap.warnings.count.label
+msgctxt "admin~admin.project.list.column.lizmap.warnings.count.label"
+msgid "Warnings"
+msgstr "Advertências"
+
+#: admin~admin.project.list.column.lizmap.warnings.explanations.label
+msgctxt "admin~admin.project.list.column.lizmap.warnings.explanations.label"
+msgid "Check your Lizmap plugin in QGIS Desktop to fix these warnings"
+msgstr "Verificar o plugin Lizmap no QGIS Desktop para corrigir estes avisos"
+
 #: admin~admin.project.list.column.loading.time.error.label
 msgctxt "admin~admin.project.list.column.loading.time.error.label"
 msgid ""
@@ -1392,6 +1407,13 @@ msgid ""
 "server loaded the project."
 msgstr "Verificou-se que o projeto tem alguma <strong>camada com fonte de dados inválida </strong> quando o servidor QGIS carregou o mesmo."
 
+#: admin~admin.project.rules.list.plugin.warnings.html
+msgctxt "admin~admin.project.rules.list.plugin.warnings.html"
+msgid ""
+"The project has <strong>at least one</strong> warning in the QGIS Desktop "
+"plugin"
+msgstr "O projeto tem <strong>pelo menos um aviso</strong> aviso no plugin do QGIS Desktop"
+
 #: admin~admin.project.rules.list.qgis.version.error.html
 msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
 msgid ""
@@ -1587,11 +1609,6 @@ msgstr "Plugin"
 msgctxt "admin~admin.server.information.qgis.plugin.action"
 msgid "Action"
 msgstr "Ação"
-
-#: admin~admin.server.information.qgis.plugin.atlasprint
-msgctxt "admin~admin.server.information.qgis.plugin.atlasprint"
-msgid "The plugin is not used anymore and is deprecated. It can be removed."
-msgstr "O plugin já não está a ser utilizado, encontrando-se o mesmo obsoleto. O plugin pode ser removido."
 
 #: admin~admin.server.information.qgis.plugin.version
 msgctxt "admin~admin.server.information.qgis.plugin.version"
