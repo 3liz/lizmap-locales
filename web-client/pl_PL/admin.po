@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-26 15:34++0100\n"
+"POT-Creation-Date: 2024-03-15 11:13++0100\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: Adrian Kowalski <ad.kowalski@gmail.com>, 2024\n"
 "Language-Team: Polish (Poland) (https://app.transifex.com/3liz-1/teams/62012/pl_PL/)\n"
@@ -1335,6 +1335,11 @@ msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
 msgid "The project memory usage is a bit high."
 msgstr "Zużycie pamięci w projekcie jest nieco wysokie."
 
+#: admin~admin.project.list.column.path.label
+msgctxt "admin~admin.project.list.column.path.label"
+msgid "Path"
+msgstr ""
+
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
 msgid "Abstract"
@@ -1359,6 +1364,14 @@ msgstr "Projekt"
 msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
 msgstr "Logi QGIS Servera"
+
+#: admin~admin.project.list.column.qgis.desktop.recent.label
+msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label"
+msgid ""
+"This QGIS project has been recently updated in QGIS Desktop, but with a too "
+"old Lizmap plugin version. You should upgrade your plugin in the QGIS plugin"
+" manager."
+msgstr ""
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"

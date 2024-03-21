@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 12:38++0100\n"
+"POT-Creation-Date: 2024-03-15 11:13++0100\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2024\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -1074,7 +1074,7 @@ msgstr "Jurnal de erori"
 #: admin~admin.logs.export.button
 msgctxt "admin~admin.logs.export.button"
 msgid "Export"
-msgstr "Exportare"
+msgstr "Exportă"
 
 #: admin~admin.logs.first_page
 msgctxt "admin~admin.logs.first_page"
@@ -1332,6 +1332,11 @@ msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
 msgid "The project memory usage is a bit high."
 msgstr "Utilizarea memoriei de către proiect este cam mare."
 
+#: admin~admin.project.list.column.path.label
+msgctxt "admin~admin.project.list.column.path.label"
+msgid "Path"
+msgstr "Cale"
+
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
 msgid "Abstract"
@@ -1356,6 +1361,17 @@ msgstr "Proiect"
 msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
 msgstr "Jurnalele serverului QGIS"
+
+#: admin~admin.project.list.column.qgis.desktop.recent.label
+msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label"
+msgid ""
+"This QGIS project has been recently updated in QGIS Desktop, but with a too "
+"old Lizmap plugin version. You should upgrade your plugin in the QGIS plugin"
+" manager."
+msgstr ""
+"Acest proiect QGIS a fost actualizat recent în QGIS Desktop, dar cu o "
+"versiune prea veche a plugin-ului Lizmap. Ar trebui să actualizezi plugin-ul"
+" în managerul de plugin QGIS."
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
