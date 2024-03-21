@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 10:28++0100\n"
+"POT-Creation-Date: 2024-03-21 14:22++0100\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2022-2024\n"
 "Language-Team: French (http://app.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
@@ -864,10 +864,10 @@ msgctxt "admin~admin.header.admin"
 msgid "Administration"
 msgstr "Administration"
 
-#: admin~admin.landingPageContent.bottom
-msgctxt "admin~admin.landingPageContent.bottom"
-msgid "Content at the bottom of the landing page"
-msgstr "Contenu inférieur de la page d’accueil"
+#: admin~admin.landingPageContent.authed
+msgctxt "admin~admin.landingPageContent.authed"
+msgid "Content for authenticated users"
+msgstr "Contenu pour les utilisateurs authentifiés"
 
 #: admin~admin.landingPageContent.error.save
 msgctxt "admin~admin.landingPageContent.error.save"
@@ -881,15 +881,45 @@ msgid ""
 "terminated, please retry."
 msgstr "Une erreur s'est produite lors de l'enregistrement du contenu. Votre session a été interrompue, veuillez réessayer."
 
+#: admin~admin.landingPageContent.group.bottom
+msgctxt "admin~admin.landingPageContent.group.bottom"
+msgid "Bottom of the landing page"
+msgstr "Bas de la page d'accueil"
+
+#: admin~admin.landingPageContent.group.top
+msgctxt "admin~admin.landingPageContent.group.top"
+msgid "Top of the landing page"
+msgstr "Haut de la page d'accueil"
+
 #: admin~admin.landingPageContent.saved
 msgctxt "admin~admin.landingPageContent.saved"
 msgid "Content of the landing page has been saved"
 msgstr "Le contenu de la page d'accueil a été sauvegardé"
 
-#: admin~admin.landingPageContent.top
-msgctxt "admin~admin.landingPageContent.top"
-msgid "Content at the top of the landing page"
-msgstr "Contenu supérieur de la page d’accueil"
+#: admin~admin.landingPageContent.unauthed
+msgctxt "admin~admin.landingPageContent.unauthed"
+msgid "Content for unauthenticated users"
+msgstr "Contenu pour les utilisateurs non authentifiés"
+
+#: admin~admin.landingPageContent.unauthed.position
+msgctxt "admin~admin.landingPageContent.unauthed.position"
+msgid "Add content for unauthenticated user to authenticated users"
+msgstr "Ajouter le contenu des utilisateurs non authentifiés aux utilisateurs authentifiés"
+
+#: admin~admin.landingPageContent.unauthed.position.after
+msgctxt "admin~admin.landingPageContent.unauthed.position.after"
+msgid "After content for authenticated"
+msgstr "Après le contenu pour les personnes authentifiées"
+
+#: admin~admin.landingPageContent.unauthed.position.before
+msgctxt "admin~admin.landingPageContent.unauthed.position.before"
+msgid "Before content for authenticated"
+msgstr "Avant le contenu pour les personnes authentifiées"
+
+#: admin~admin.landingPageContent.unauthed.position.no
+msgctxt "admin~admin.landingPageContent.unauthed.position.no"
+msgid "No"
+msgstr "Non"
 
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
@@ -1255,6 +1285,11 @@ msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
 msgid "The project memory usage is a bit high."
 msgstr "L'usage de la mémoire pour ce projet est un peu élevé."
 
+#: admin~admin.project.list.column.path.label
+msgctxt "admin~admin.project.list.column.path.label"
+msgid "Path"
+msgstr "Chemin"
+
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
 msgid "Abstract"
@@ -1279,6 +1314,14 @@ msgstr "Projet"
 msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
 msgstr "Logs QGIS serveur"
+
+#: admin~admin.project.list.column.qgis.desktop.recent.label
+msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label"
+msgid ""
+"This QGIS project has been recently updated in QGIS Desktop, but with a too "
+"old Lizmap plugin version. You should upgrade your plugin in the QGIS plugin"
+" manager."
+msgstr "Ce projet QGIS a été récemment mis à jour dans QGIS Bureautique, mais avec une version trop ancienne de l'extension Lizmap. Vous devez mettre à jour votre extension dans le gestionnaire des extensions de QGIS."
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"

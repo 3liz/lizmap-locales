@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 12:36++0100\n"
+"POT-Creation-Date: 2024-03-21 14:22++0100\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020-2024\n"
 "Language-Team: Romanian (http://app.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
@@ -242,12 +242,12 @@ msgstr "Eliminare legătură"
 #: view~dictionnary.attributeLayers.btn.select.title
 msgctxt "view~dictionnary.attributeLayers.btn.select.title"
 msgid "Select"
-msgstr "Selectare"
+msgstr "Selectează"
 
 #: view~dictionnary.attributeLayers.btn.unselect.title
 msgctxt "view~dictionnary.attributeLayers.btn.unselect.title"
 msgid "Unselect"
-msgstr "Deselectare"
+msgstr "Deselectează"
 
 #: view~dictionnary.attributeLayers.btn.zoom.title
 msgctxt "view~dictionnary.attributeLayers.btn.zoom.title"
@@ -282,12 +282,12 @@ msgstr "Creează un obiect"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
 msgid "Export"
-msgstr "Exportare"
+msgstr "Exportă"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
 msgid "Filter"
-msgstr "Filtrare"
+msgstr "Filtrează"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.hide.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.hide.title"
@@ -573,7 +573,7 @@ msgid ""
 " %s \n"
 "\n"
 "will be also deleted"
-msgstr "Ești sigur că dorești să ștergi obiectul selectat?\n\nLinkurile asociate cu următoarele straturi:\n%s\n\nvor fi de asemenea șterse"
+msgstr "Ești sigur că dorești să ștergi obiectul selectat?\n\nLink-urile asociate cu următoarele straturi:\n%s\n\nvor fi de asemenea șterse"
 
 #: view~dictionnary.edition.confirm.pivot.unlink
 msgctxt "view~dictionnary.edition.confirm.pivot.unlink"
@@ -696,12 +696,12 @@ msgstr "Căutare"
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"
 msgid "Export"
-msgstr "Exportare"
+msgstr "Exportă"
 
 #: view~dictionnary.filter.btn.export.title
 msgctxt "view~dictionnary.filter.btn.export.title"
 msgid "Export filtered features"
-msgstr "Exportare obiecte filtrate"
+msgstr "Exportă obiectele filtrate"
 
 #: view~dictionnary.filter.btn.reset.label
 msgctxt "view~dictionnary.filter.btn.reset.label"
@@ -711,7 +711,7 @@ msgstr "Resetare"
 #: view~dictionnary.filter.btn.reset.title
 msgctxt "view~dictionnary.filter.btn.reset.title"
 msgid "Reset the filter"
-msgstr "Resetare filtru"
+msgstr "Resetează filtrul"
 
 #: view~dictionnary.filter.btn.zoom.label
 msgctxt "view~dictionnary.filter.btn.zoom.label"
@@ -1068,22 +1068,22 @@ msgstr "1 obiect selectat"
 #: view~dictionnary.selectiontool.toolbar.action.filter
 msgctxt "view~dictionnary.selectiontool.toolbar.action.filter"
 msgid "Filter"
-msgstr "Filtrare"
+msgstr "Filtrează"
 
 #: view~dictionnary.selectiontool.toolbar.action.invert
 msgctxt "view~dictionnary.selectiontool.toolbar.action.invert"
 msgid "Invert selection"
-msgstr "Inversare selectare"
+msgstr "Inversează selecția"
 
 #: view~dictionnary.selectiontool.toolbar.action.type.minus
 msgctxt "view~dictionnary.selectiontool.toolbar.action.type.minus"
 msgid "Remove from selection"
-msgstr "Eliminare din selectare"
+msgstr "Elimină din selecție"
 
 #: view~dictionnary.selectiontool.toolbar.action.type.plus
 msgctxt "view~dictionnary.selectiontool.toolbar.action.type.plus"
 msgid "Add to selection"
-msgstr "Adăugare la selectare"
+msgstr "Adaugă la selecție"
 
 #: view~dictionnary.selectiontool.toolbar.action.type.refresh
 msgctxt "view~dictionnary.selectiontool.toolbar.action.type.refresh"
@@ -1168,7 +1168,24 @@ msgstr "Straturi individuale"
 #: view~dictionnary.selectiontool.toolbar.title
 msgctxt "view~dictionnary.selectiontool.toolbar.title"
 msgid "Selection"
-msgstr "Selectare"
+msgstr "Selectează"
+
+#: view~dictionnary.snapping.list.disabled
+msgctxt "view~dictionnary.snapping.list.disabled"
+msgid ""
+"This layer is hidden. Turn on the layer on the layer panel to toggle "
+"snapping on it"
+msgstr ""
+
+#: view~dictionnary.snapping.list.title
+msgctxt "view~dictionnary.snapping.list.title"
+msgid "Snap on"
+msgstr "Legare"
+
+#: view~dictionnary.snapping.list.toggle
+msgctxt "view~dictionnary.snapping.list.toggle"
+msgid "Toggle snapping for this layer"
+msgstr ""
 
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
@@ -1195,7 +1212,7 @@ msgstr "Exportare"
 #: view~dictionnary.switcher.layer.export.warn
 msgctxt "view~dictionnary.switcher.layer.export.warn"
 msgid "Please select a single layer to export"
-msgstr "Selectează un singur strat pentru exportare"
+msgstr "Selectează un singur strat pentru export"
 
 #: view~dictionnary.switcherLayersActions.themeSelector.title
 msgctxt "view~dictionnary.switcherLayersActions.themeSelector.title"
@@ -1705,7 +1722,7 @@ msgstr "Deselectare"
 #: view~edition.toolbar.select.unselect.tooltip
 msgctxt "view~edition.toolbar.select.unselect.tooltip"
 msgid "Unselect the selected object."
-msgstr "Deselectare obiect selectat."
+msgstr "Deselectează obiectul selectat."
 
 #: view~edition.toolbar.title
 msgctxt "view~edition.toolbar.title"

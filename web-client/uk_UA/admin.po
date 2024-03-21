@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 10:28++0100\n"
+"POT-Creation-Date: 2024-03-21 14:22++0100\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Кадастр Муниципальный, 2021-2022\n"
 "Language-Team: Ukrainian (Ukraine) (http://app.transifex.com/3liz-1/lizmap-locales/language/uk_UA/)\n"
@@ -858,9 +858,9 @@ msgctxt "admin~admin.header.admin"
 msgid "Administration"
 msgstr "Адміністрація"
 
-#: admin~admin.landingPageContent.bottom
-msgctxt "admin~admin.landingPageContent.bottom"
-msgid "Content at the bottom of the landing page"
+#: admin~admin.landingPageContent.authed
+msgctxt "admin~admin.landingPageContent.authed"
+msgid "Content for authenticated users"
 msgstr ""
 
 #: admin~admin.landingPageContent.error.save
@@ -875,15 +875,45 @@ msgid ""
 "terminated, please retry."
 msgstr ""
 
+#: admin~admin.landingPageContent.group.bottom
+msgctxt "admin~admin.landingPageContent.group.bottom"
+msgid "Bottom of the landing page"
+msgstr ""
+
+#: admin~admin.landingPageContent.group.top
+msgctxt "admin~admin.landingPageContent.group.top"
+msgid "Top of the landing page"
+msgstr ""
+
 #: admin~admin.landingPageContent.saved
 msgctxt "admin~admin.landingPageContent.saved"
 msgid "Content of the landing page has been saved"
 msgstr ""
 
-#: admin~admin.landingPageContent.top
-msgctxt "admin~admin.landingPageContent.top"
-msgid "Content at the top of the landing page"
+#: admin~admin.landingPageContent.unauthed
+msgctxt "admin~admin.landingPageContent.unauthed"
+msgid "Content for unauthenticated users"
 msgstr ""
+
+#: admin~admin.landingPageContent.unauthed.position
+msgctxt "admin~admin.landingPageContent.unauthed.position"
+msgid "Add content for unauthenticated user to authenticated users"
+msgstr ""
+
+#: admin~admin.landingPageContent.unauthed.position.after
+msgctxt "admin~admin.landingPageContent.unauthed.position.after"
+msgid "After content for authenticated"
+msgstr ""
+
+#: admin~admin.landingPageContent.unauthed.position.before
+msgctxt "admin~admin.landingPageContent.unauthed.position.before"
+msgid "Before content for authenticated"
+msgstr ""
+
+#: admin~admin.landingPageContent.unauthed.position.no
+msgctxt "admin~admin.landingPageContent.unauthed.position.no"
+msgid "No"
+msgstr "Ні"
 
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
@@ -1249,6 +1279,11 @@ msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
 msgid "The project memory usage is a bit high."
 msgstr "Використання пам’яті проекту є дещо високим."
 
+#: admin~admin.project.list.column.path.label
+msgctxt "admin~admin.project.list.column.path.label"
+msgid "Path"
+msgstr ""
+
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
 msgid "Abstract"
@@ -1273,6 +1308,14 @@ msgstr "Проєкт"
 msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
 msgstr "Журнали сервера QGIS"
+
+#: admin~admin.project.list.column.qgis.desktop.recent.label
+msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label"
+msgid ""
+"This QGIS project has been recently updated in QGIS Desktop, but with a too "
+"old Lizmap plugin version. You should upgrade your plugin in the QGIS plugin"
+" manager."
+msgstr ""
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"

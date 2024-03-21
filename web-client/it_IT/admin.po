@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 10:28++0100\n"
+"POT-Creation-Date: 2024-03-21 14:22++0100\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: marcobra <marcobra.ubuntu@gmail.com>, 2022-2023\n"
 "Language-Team: Italian (http://app.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
@@ -864,10 +864,10 @@ msgctxt "admin~admin.header.admin"
 msgid "Administration"
 msgstr "Amministrazione"
 
-#: admin~admin.landingPageContent.bottom
-msgctxt "admin~admin.landingPageContent.bottom"
-msgid "Content at the bottom of the landing page"
-msgstr "Contenuto in fondo alla pagina di destinazione"
+#: admin~admin.landingPageContent.authed
+msgctxt "admin~admin.landingPageContent.authed"
+msgid "Content for authenticated users"
+msgstr ""
 
 #: admin~admin.landingPageContent.error.save
 msgctxt "admin~admin.landingPageContent.error.save"
@@ -881,15 +881,45 @@ msgid ""
 "terminated, please retry."
 msgstr "C'è stato un errore durante il salvataggio del contenuto. La tua sessione è stata terminata, ti preghiamo di riprovare"
 
+#: admin~admin.landingPageContent.group.bottom
+msgctxt "admin~admin.landingPageContent.group.bottom"
+msgid "Bottom of the landing page"
+msgstr ""
+
+#: admin~admin.landingPageContent.group.top
+msgctxt "admin~admin.landingPageContent.group.top"
+msgid "Top of the landing page"
+msgstr ""
+
 #: admin~admin.landingPageContent.saved
 msgctxt "admin~admin.landingPageContent.saved"
 msgid "Content of the landing page has been saved"
 msgstr "Il contenuto della pagina di destinazione è stato salvato"
 
-#: admin~admin.landingPageContent.top
-msgctxt "admin~admin.landingPageContent.top"
-msgid "Content at the top of the landing page"
-msgstr "Contenuto all'inizio della pagina di destinazione"
+#: admin~admin.landingPageContent.unauthed
+msgctxt "admin~admin.landingPageContent.unauthed"
+msgid "Content for unauthenticated users"
+msgstr ""
+
+#: admin~admin.landingPageContent.unauthed.position
+msgctxt "admin~admin.landingPageContent.unauthed.position"
+msgid "Add content for unauthenticated user to authenticated users"
+msgstr ""
+
+#: admin~admin.landingPageContent.unauthed.position.after
+msgctxt "admin~admin.landingPageContent.unauthed.position.after"
+msgid "After content for authenticated"
+msgstr ""
+
+#: admin~admin.landingPageContent.unauthed.position.before
+msgctxt "admin~admin.landingPageContent.unauthed.position.before"
+msgid "Before content for authenticated"
+msgstr ""
+
+#: admin~admin.landingPageContent.unauthed.position.no
+msgctxt "admin~admin.landingPageContent.unauthed.position.no"
+msgid "No"
+msgstr "No"
 
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
@@ -1204,12 +1234,12 @@ msgstr "Lizmap plugin"
 #: admin~admin.project.list.column.lizmap.warnings.count.label
 msgctxt "admin~admin.project.list.column.lizmap.warnings.count.label"
 msgid "Warnings"
-msgstr ""
+msgstr "Avvisi"
 
 #: admin~admin.project.list.column.lizmap.warnings.explanations.label
 msgctxt "admin~admin.project.list.column.lizmap.warnings.explanations.label"
 msgid "Check your Lizmap plugin in QGIS Desktop to fix these warnings"
-msgstr ""
+msgstr "Controlla il tuo plugin Lizmap in QGIS Desktop per risolvere questi avvisi"
 
 #: admin~admin.project.list.column.loading.time.error.label
 msgctxt "admin~admin.project.list.column.loading.time.error.label"
@@ -1255,6 +1285,11 @@ msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
 msgid "The project memory usage is a bit high."
 msgstr "L'utilizzo della memoria del progetto è un po' elevato."
 
+#: admin~admin.project.list.column.path.label
+msgctxt "admin~admin.project.list.column.path.label"
+msgid "Path"
+msgstr ""
+
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
 msgid "Abstract"
@@ -1279,6 +1314,14 @@ msgstr "Progetto"
 msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
 msgstr "Log del server QGIS"
+
+#: admin~admin.project.list.column.qgis.desktop.recent.label
+msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label"
+msgid ""
+"This QGIS project has been recently updated in QGIS Desktop, but with a too "
+"old Lizmap plugin version. You should upgrade your plugin in the QGIS plugin"
+" manager."
+msgstr ""
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
@@ -1414,7 +1457,7 @@ msgctxt "admin~admin.project.rules.list.plugin.warnings.html"
 msgid ""
 "The project has <strong>at least one</strong> warning in the QGIS Desktop "
 "plugin"
-msgstr ""
+msgstr "Il progetto ha <strong>almeno un</strong> avviso nel plugin QGIS Desktop"
 
 #: admin~admin.project.rules.list.qgis.version.error.html
 msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
