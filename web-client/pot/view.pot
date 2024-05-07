@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-03-21 14:22++0100\n"
-"PO-Revision-Date: 2024-03-21 14:22++0100\n"
+"POT-Creation-Date: 2024-05-07 14:35++0200\n"
+"PO-Revision-Date: 2024-05-07 14:35++0200\n"
 "Language: \n"
 
 #: view~default.header.connect
@@ -591,9 +591,19 @@ msgctxt "view~dictionnary.edition.link.pivot.add"
 msgid "The new record will be linked to the feature ID \"%f\" of \"%l\" layer"
 msgstr ""
 
+#: view~dictionnary.edition.message.error.fetch.form
+msgctxt "view~dictionnary.edition.message.error.fetch.form"
+msgid "Error while fetching the editing form for that layer. Please contact the system administrator."
+msgstr ""
+
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid "You cannot save this object without a geometry. Please draw the geometry on the map."
+msgstr ""
+
+#: view~dictionnary.edition.message.error.send.feature
+msgctxt "view~dictionnary.edition.message.error.send.feature"
+msgid "Error while saving the edited feature. Please contact the system administrator."
 msgstr ""
 
 #: view~dictionnary.edition.point.coord.crs.layer
@@ -921,6 +931,46 @@ msgctxt "view~dictionnary.mouseposition.units.m"
 msgid "Meters"
 msgstr ""
 
+#: view~dictionnary.navbar.next.hover
+msgctxt "view~dictionnary.navbar.next.hover"
+msgid "Next"
+msgstr ""
+
+#: view~dictionnary.navbar.pan.hover
+msgctxt "view~dictionnary.navbar.pan.hover"
+msgid "Pan map"
+msgstr ""
+
+#: view~dictionnary.navbar.previous.hover
+msgctxt "view~dictionnary.navbar.previous.hover"
+msgid "Previous"
+msgstr ""
+
+#: view~dictionnary.navbar.slider.hover
+msgctxt "view~dictionnary.navbar.slider.hover"
+msgid "Slide to zoom in or out"
+msgstr ""
+
+#: view~dictionnary.navbar.zoom.hover
+msgctxt "view~dictionnary.navbar.zoom.hover"
+msgid "Zoom by rectangle"
+msgstr ""
+
+#: view~dictionnary.navbar.zoomextent.hover
+msgctxt "view~dictionnary.navbar.zoomextent.hover"
+msgid "Zoom to initial map extent"
+msgstr ""
+
+#: view~dictionnary.navbar.zoomin.hover
+msgctxt "view~dictionnary.navbar.zoomin.hover"
+msgid "Zoom in"
+msgstr ""
+
+#: view~dictionnary.navbar.zoomout.hover
+msgctxt "view~dictionnary.navbar.zoomout.hover"
+msgid "Zoom out"
+msgstr ""
+
 #: view~dictionnary.overviewbar.displayoverview.hover
 msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
 msgid "Display/Hide overview"
@@ -959,6 +1009,11 @@ msgstr ""
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
+msgstr ""
+
+#: view~dictionnary.print.error
+msgctxt "view~dictionnary.print.error"
+msgid "The output is currently not available. Please contact the system administrator."
 msgstr ""
 
 #: view~dictionnary.print.gridIntervals
