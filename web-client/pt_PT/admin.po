@@ -1,7 +1,7 @@
 # 
 # Translators:
 # João Gaspar <joao.f.r.gaspar@gmail.com>, 2016-2017
-# José Macau <jose.macau@gmail.com>, 2017-2020,2022-2023
+# José Macau <jose.macau@gmail.com>, 2017-2020,2022-2024
 # rldhont <rldhont@gmail.com>, 2016
 # Rui <xymarior@yandex.com>, 2019
 # José Macau <jose.macau@gmail.com>, 2017
@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-21 14:22++0100\n"
+"POT-Creation-Date: 2024-05-07 14:35++0200\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: José Macau <jose.macau@gmail.com>, 2017-2020,2022-2023\n"
+"Last-Translator: José Macau <jose.macau@gmail.com>, 2017-2020,2022-2024\n"
 "Language-Team: Portuguese (http://app.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -865,12 +865,12 @@ msgstr "Administração"
 #: admin~admin.landingPageContent.authed
 msgctxt "admin~admin.landingPageContent.authed"
 msgid "Content for authenticated users"
-msgstr ""
+msgstr "Conteúdo para utilizadores autenticados"
 
 #: admin~admin.landingPageContent.error.save
 msgctxt "admin~admin.landingPageContent.error.save"
 msgid "Error while saving the landing page contents"
-msgstr "Erro ao guardar o conteúdo da Homepage"
+msgstr "Erro ao guardar o conteúdo da página inicial"
 
 #: admin~admin.landingPageContent.error.submit
 msgctxt "admin~admin.landingPageContent.error.submit"
@@ -882,37 +882,37 @@ msgstr "Ocorreu um erro ao guardar o conteúdo. A sessão foi encerrada. Tentar 
 #: admin~admin.landingPageContent.group.bottom
 msgctxt "admin~admin.landingPageContent.group.bottom"
 msgid "Bottom of the landing page"
-msgstr ""
+msgstr "Parte inferior da página inicial"
 
 #: admin~admin.landingPageContent.group.top
 msgctxt "admin~admin.landingPageContent.group.top"
 msgid "Top of the landing page"
-msgstr ""
+msgstr "Cabeçalho da página inicial"
 
 #: admin~admin.landingPageContent.saved
 msgctxt "admin~admin.landingPageContent.saved"
 msgid "Content of the landing page has been saved"
-msgstr "O conteúdo da Homepage foi guardado"
+msgstr "O conteúdo da página inicial foi guardado"
 
 #: admin~admin.landingPageContent.unauthed
 msgctxt "admin~admin.landingPageContent.unauthed"
 msgid "Content for unauthenticated users"
-msgstr ""
+msgstr "Conteúdo para utilizadores não autenticados"
 
 #: admin~admin.landingPageContent.unauthed.position
 msgctxt "admin~admin.landingPageContent.unauthed.position"
 msgid "Add content for unauthenticated user to authenticated users"
-msgstr ""
+msgstr "Adicionar conteúdo de utilizadores não autenticados a utilizadores autenticados"
 
 #: admin~admin.landingPageContent.unauthed.position.after
 msgctxt "admin~admin.landingPageContent.unauthed.position.after"
 msgid "After content for authenticated"
-msgstr ""
+msgstr "Após o conteúdo para utilizador autenticado"
 
 #: admin~admin.landingPageContent.unauthed.position.before
 msgctxt "admin~admin.landingPageContent.unauthed.position.before"
 msgid "Before content for authenticated"
-msgstr ""
+msgstr "Antes do conteúdo para utilizador autenticado"
 
 #: admin~admin.landingPageContent.unauthed.position.no
 msgctxt "admin~admin.landingPageContent.unauthed.position.no"
@@ -1286,7 +1286,7 @@ msgstr "A utilização de memória por parte do projeto é um pouco alta."
 #: admin~admin.project.list.column.path.label
 msgctxt "admin~admin.project.list.column.path.label"
 msgid "Path"
-msgstr ""
+msgstr "Caminho"
 
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
@@ -1319,7 +1319,7 @@ msgid ""
 "This QGIS project has been recently updated in QGIS Desktop, but with a too "
 "old Lizmap plugin version. You should upgrade your plugin in the QGIS plugin"
 " manager."
-msgstr ""
+msgstr "Este projeto QGIS foi atualizado recentemente através do QGIS Desktop, mas com uma versão demasiado antiga do plugin Lizmap. O plugin deverá ser atualizado no gestor de plugins QGIS."
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
@@ -1363,7 +1363,7 @@ msgctxt "admin~admin.project.list.column.update.in.qgis.desktop"
 msgid ""
 "This project can not be displayed in the landing page. Open the project in "
 "QGIS desktop with an updated version of the plugin"
-msgstr "Este projeto não pode ser apresentado na página de destino. Abrir o projeto na área de trabalho do QGIS com uma versão atualizada do plugin e uma versão de destino mais atualizada do Lizmap Web Client"
+msgstr "Este projeto não pode ser apresentado na página inicial. Abrir o projeto na área de trabalho do QGIS com uma versão atualizada do plugin e uma versão de destino mais atualizada do Lizmap Web Client"
 
 #: admin~admin.project.list.column.update.soon.in.qgis.desktop
 msgctxt "admin~admin.project.list.column.update.soon.in.qgis.desktop"

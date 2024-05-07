@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-21 14:22++0100\n"
+"POT-Creation-Date: 2024-05-07 14:35++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: marcobra <marcobra.ubuntu@gmail.com>, 2021,2024\n"
 "Language-Team: Italian (http://app.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
@@ -626,12 +626,26 @@ msgctxt "view~dictionnary.edition.link.pivot.add"
 msgid "The new record will be linked to the feature ID \"%f\" of \"%l\" layer"
 msgstr "Il nuovo record sarà collegato all'ID dell'elemento \"%f\" del livello \"%l\""
 
+#: view~dictionnary.edition.message.error.fetch.form
+msgctxt "view~dictionnary.edition.message.error.fetch.form"
+msgid ""
+"Error while fetching the editing form for that layer. Please contact the "
+"system administrator."
+msgstr ""
+
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
 msgstr "Non puoi salvare questo oggetto senza una geometria. Disegna la geometria sulla mappa."
+
+#: view~dictionnary.edition.message.error.send.feature
+msgctxt "view~dictionnary.edition.message.error.send.feature"
+msgid ""
+"Error while saving the edited feature. Please contact the system "
+"administrator."
+msgstr ""
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -960,6 +974,46 @@ msgctxt "view~dictionnary.mouseposition.units.m"
 msgid "Meters"
 msgstr "Metri"
 
+#: view~dictionnary.navbar.next.hover
+msgctxt "view~dictionnary.navbar.next.hover"
+msgid "Next"
+msgstr "Zoom successivo"
+
+#: view~dictionnary.navbar.pan.hover
+msgctxt "view~dictionnary.navbar.pan.hover"
+msgid "Pan map"
+msgstr "Sposta mappa"
+
+#: view~dictionnary.navbar.previous.hover
+msgctxt "view~dictionnary.navbar.previous.hover"
+msgid "Previous"
+msgstr "Zoom precedente"
+
+#: view~dictionnary.navbar.slider.hover
+msgctxt "view~dictionnary.navbar.slider.hover"
+msgid "Slide to zoom in or out"
+msgstr "Cursore per ingrandire o ridurre la mappa"
+
+#: view~dictionnary.navbar.zoom.hover
+msgctxt "view~dictionnary.navbar.zoom.hover"
+msgid "Zoom by rectangle"
+msgstr "Zoom con un rettangolo"
+
+#: view~dictionnary.navbar.zoomextent.hover
+msgctxt "view~dictionnary.navbar.zoomextent.hover"
+msgid "Zoom to initial map extent"
+msgstr "Zoom all'estensione iniziale"
+
+#: view~dictionnary.navbar.zoomin.hover
+msgctxt "view~dictionnary.navbar.zoomin.hover"
+msgid "Zoom in"
+msgstr "Ingrandisci"
+
+#: view~dictionnary.navbar.zoomout.hover
+msgctxt "view~dictionnary.navbar.zoomout.hover"
+msgid "Zoom out"
+msgstr "Riduci"
+
 #: view~dictionnary.overviewbar.displayoverview.hover
 msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
 msgid "Display/Hide overview"
@@ -999,6 +1053,13 @@ msgstr "Avanzato"
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
 msgstr "Imposta etichette personalizzate per la stampa"
+
+#: view~dictionnary.print.error
+msgctxt "view~dictionnary.print.error"
+msgid ""
+"The output is currently not available. Please contact the system "
+"administrator."
+msgstr ""
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"
