@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-15 11:13++0100\n"
+"POT-Creation-Date: 2024-05-07 14:23++0200\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2024\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -235,7 +235,7 @@ msgstr "Șterge"
 #: view~dictionnary.attributeLayers.btn.edit.title
 msgctxt "view~dictionnary.attributeLayers.btn.edit.title"
 msgid "Edit"
-msgstr "Editare"
+msgstr "Editează"
 
 #: view~dictionnary.attributeLayers.btn.info.title
 msgctxt "view~dictionnary.attributeLayers.btn.info.title"
@@ -623,6 +623,13 @@ msgctxt "view~dictionnary.edition.geom.paste"
 msgid "Paste the geometry"
 msgstr "Lipește geometria"
 
+#: view~dictionnary.edition.message.error.fetch.form
+msgctxt "view~dictionnary.edition.message.error.fetch.form"
+msgid ""
+"Error while fetching the editing form for that layer. Please contact the "
+"system administrator."
+msgstr ""
+
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
@@ -630,6 +637,13 @@ msgid ""
 "the map."
 msgstr ""
 "Nu poți salva acest obiect fără o geometrie. Desenează geometria pe hartă."
+
+#: view~dictionnary.edition.message.error.send.feature
+msgctxt "view~dictionnary.edition.message.error.send.feature"
+msgid ""
+"Error while saving the edited feature. Please contact the system "
+"administrator."
+msgstr ""
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -673,7 +687,7 @@ msgstr "A apărut o eroare tehnică. Împărțirea nu se poate face."
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
 msgid "Edition"
-msgstr "Editare"
+msgstr "Editează"
 
 #: view~dictionnary.embed.open.map
 msgctxt "view~dictionnary.embed.open.map"
@@ -838,7 +852,7 @@ msgstr "Serverul a raportat o eroare 400 în timpul exportului stratului."
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
 msgid "Export"
-msgstr "Exportare"
+msgstr "Exportă"
 
 #: view~dictionnary.layer.metadata.layer.abstract
 msgctxt "view~dictionnary.layer.metadata.layer.abstract"
@@ -999,6 +1013,13 @@ msgstr "Avansat"
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
 msgstr "Setează etichete personalizate pentru imprimare"
+
+#: view~dictionnary.print.error
+msgctxt "view~dictionnary.print.error"
+msgid ""
+"The output is currently not available. Please contact the system "
+"administrator."
+msgstr ""
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"
@@ -1201,7 +1222,7 @@ msgstr "Revenire la pagina de start."
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
-msgstr "Exportare"
+msgstr "Exportă"
 
 #: view~dictionnary.switcher.layer.export.warn
 msgctxt "view~dictionnary.switcher.layer.export.warn"
@@ -1552,7 +1573,7 @@ msgstr "Niciun obiect găsit aici."
 #: view~edition.modal.title.default
 msgctxt "view~edition.modal.title.default"
 msgid "Edition"
-msgstr "Editare"
+msgstr "Editează"
 
 #: view~edition.modification.msg
 msgctxt "view~edition.modification.msg"
@@ -1563,7 +1584,7 @@ msgstr ""
 #: view~edition.navbar.title
 msgctxt "view~edition.navbar.title"
 msgid "Edition"
-msgstr "Editare"
+msgstr "Editează"
 
 #: view~edition.point.coord.add.label
 msgctxt "view~edition.point.coord.add.label"
@@ -1718,7 +1739,7 @@ msgstr "Deselectează obiectul selectat."
 #: view~edition.toolbar.title
 msgctxt "view~edition.toolbar.title"
 msgid "Edition"
-msgstr "Editare"
+msgstr "Editează"
 
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
@@ -2198,7 +2219,7 @@ msgstr "Selectare"
 #: view~map.switcher.layer.export.title
 msgctxt "view~map.switcher.layer.export.title"
 msgid "Export"
-msgstr "Exportare"
+msgstr "Exportă"
 
 #: view~map.switcher.layer.metadata.title
 msgctxt "view~map.switcher.layer.metadata.title"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-15 11:13++0100\n"
+"POT-Creation-Date: 2024-05-07 14:23++0200\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: Majky Beast <maros.michalov@hrdlicka.sk>, 2023\n"
 "Language-Team: Slovak (https://app.transifex.com/3liz-1/teams/62012/sk/)\n"
@@ -602,11 +602,25 @@ msgctxt "view~dictionnary.edition.geom.paste"
 msgid "Paste the geometry"
 msgstr ""
 
+#: view~dictionnary.edition.message.error.fetch.form
+msgctxt "view~dictionnary.edition.message.error.fetch.form"
+msgid ""
+"Error while fetching the editing form for that layer. Please contact the "
+"system administrator."
+msgstr ""
+
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
+msgstr ""
+
+#: view~dictionnary.edition.message.error.send.feature
+msgctxt "view~dictionnary.edition.message.error.send.feature"
+msgid ""
+"Error while saving the edited feature. Please contact the system "
+"administrator."
 msgstr ""
 
 #: view~dictionnary.edition.point.coord.crs.layer
@@ -977,6 +991,13 @@ msgstr "Pokročilé"
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
 msgstr "Nastavte vlastné popisky pre tlač"
+
+#: view~dictionnary.print.error
+msgctxt "view~dictionnary.print.error"
+msgid ""
+"The output is currently not available. Please contact the system "
+"administrator."
+msgstr ""
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"

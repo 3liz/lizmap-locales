@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-15 11:13++0100\n"
+"POT-Creation-Date: 2024-05-07 14:23++0200\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/3liz-1/teams/62012/fr/)\n"
@@ -636,6 +636,15 @@ msgctxt "view~dictionnary.edition.geom.paste"
 msgid "Paste the geometry"
 msgstr "Coller la géométrie"
 
+#: view~dictionnary.edition.message.error.fetch.form
+msgctxt "view~dictionnary.edition.message.error.fetch.form"
+msgid ""
+"Error while fetching the editing form for that layer. Please contact the "
+"system administrator."
+msgstr ""
+"Erreur lors de la récupération du formulaire d'édition pour cette couche. "
+"Veuillez contacter l'administrateur du système."
+
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
@@ -644,6 +653,15 @@ msgid ""
 msgstr ""
 "Vous ne pouvez pas enregistrer cet objet sans géométrie. Veuillez la "
 "dessiner sur la carte."
+
+#: view~dictionnary.edition.message.error.send.feature
+msgctxt "view~dictionnary.edition.message.error.send.feature"
+msgid ""
+"Error while saving the edited feature. Please contact the system "
+"administrator."
+msgstr ""
+"Erreur lors de l'enregistrement de l'entité modifiée. Veuillez contacter "
+"l'administrateur du système."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -1015,6 +1033,15 @@ msgstr "Avancé"
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
 msgstr "Personnaliser l'impression"
+
+#: view~dictionnary.print.error
+msgctxt "view~dictionnary.print.error"
+msgid ""
+"The output is currently not available. Please contact the system "
+"administrator."
+msgstr ""
+"La sortie n'est pas disponible actuellement. Veuillez contacter "
+"l'administrateur du système."
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"
