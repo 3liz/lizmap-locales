@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 14:23++0200\n"
+"POT-Creation-Date: 2024-05-24 16:48++0200\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/3liz-1/teams/62012/nl/)\n"
@@ -1082,20 +1082,24 @@ msgctxt "view~dictionnary.print.toolbar.scale"
 msgid "Scale"
 msgstr "Schaal"
 
+#: view~dictionnary.project.admin.panel.info
+msgctxt "view~dictionnary.project.admin.panel.info"
+msgid "Only administrators or publishers can see this message."
+msgstr ""
+
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
-"be fixed. Only administrators or publishers can see this message."
+"be fixed."
 msgstr ""
-"Het project heeft enkele waarschuwingen in de plug-in Lizmap voor het "
-"bureaublad van QGIS die moeten worden opgelost. Alleen beheerders of "
-"uitgevers kunnen dit bericht zien."
 
-#: view~dictionnary.project.has.warnings.link
-msgctxt "view~dictionnary.project.has.warnings.link"
-msgid "Visit the QGIS project page in the administration panel."
-msgstr "Bezoek de projectpagina van QGIS in het beheerpaneel."
+#: view~dictionnary.project.plugin.outdated.warning
+msgctxt "view~dictionnary.project.plugin.outdated.warning"
+msgid ""
+"The project has been recently updated in QGIS Desktop, but with an outdated "
+"version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
+msgstr ""
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1295,6 +1299,11 @@ msgstr "Verwijder server cache voor deze laag"
 msgctxt "view~dictionnary.tree.button.removeCache.confirmation"
 msgid "Remove server's cache for this layer?"
 msgstr "Wil je de server cache voor deze laag verwijderen?"
+
+#: view~dictionnary.visit.admin.panel.project.page
+msgctxt "view~dictionnary.visit.admin.panel.project.page"
+msgid "Visit the QGIS project page in the administration panel."
+msgstr "Bezoek de projectpagina van QGIS in het beheerpaneel."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"

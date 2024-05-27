@@ -8,14 +8,14 @@
 # Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2023
 # Fabio Pifferini <fabio.pifferini@masotti.ch>, 2023
 # Paolo Cavallini <cavallini@faunalia.it>, 2023
-# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023
+# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2024
 # marcobra <marcobra.ubuntu@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 14:23++0200\n"
+"POT-Creation-Date: 2024-05-24 16:48++0200\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: marcobra <marcobra.ubuntu@gmail.com>, 2024\n"
 "Language-Team: Italian (https://app.transifex.com/3liz-1/teams/62012/it/)\n"
@@ -641,6 +641,8 @@ msgid ""
 "Error while fetching the editing form for that layer. Please contact the "
 "system administrator."
 msgstr ""
+"Errore durante il caricamento del form di inserimento per questo layer. "
+"Contatta l'amministratore di sistema."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -657,6 +659,8 @@ msgid ""
 "Error while saving the edited feature. Please contact the system "
 "administrator."
 msgstr ""
+"Errore durante il salvataggio dell'elemento modificato. Contatta "
+"l'amministratore di sistema."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -1035,6 +1039,8 @@ msgid ""
 "The output is currently not available. Please contact the system "
 "administrator."
 msgstr ""
+"L'output non è al momento disponibile. Contattare l'amministratore di "
+"sistema."
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"
@@ -1081,20 +1087,24 @@ msgctxt "view~dictionnary.print.toolbar.scale"
 msgid "Scale"
 msgstr "Scala"
 
+#: view~dictionnary.project.admin.panel.info
+msgctxt "view~dictionnary.project.admin.panel.info"
+msgid "Only administrators or publishers can see this message."
+msgstr ""
+
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
-"be fixed. Only administrators or publishers can see this message."
+"be fixed."
 msgstr ""
-"Il progetto presenta alcuni avvisi nel plugin Lizmap di QGIS desktop che "
-"devono essere corretti. Solo gli amministratori o i pubblicatori possono "
-"visualizzare questo messaggio."
 
-#: view~dictionnary.project.has.warnings.link
-msgctxt "view~dictionnary.project.has.warnings.link"
-msgid "Visit the QGIS project page in the administration panel."
-msgstr "Visita la pagina del progetto QGIS nel pannello di amministrazione."
+#: view~dictionnary.project.plugin.outdated.warning
+msgctxt "view~dictionnary.project.plugin.outdated.warning"
+msgid ""
+"The project has been recently updated in QGIS Desktop, but with an outdated "
+"version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
+msgstr ""
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1294,6 +1304,11 @@ msgstr "Rimuovi la cache dal server per questo layer"
 msgctxt "view~dictionnary.tree.button.removeCache.confirmation"
 msgid "Remove server's cache for this layer?"
 msgstr "Rimuovi la cache dal server per questo layer?"
+
+#: view~dictionnary.visit.admin.panel.project.page
+msgctxt "view~dictionnary.visit.admin.panel.project.page"
+msgid "Visit the QGIS project page in the administration panel."
+msgstr "Visita la pagina del progetto QGIS nel pannello di amministrazione."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"

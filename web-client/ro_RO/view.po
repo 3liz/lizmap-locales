@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 10:33++0200\n"
+"POT-Creation-Date: 2024-05-24 16:48++0200\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2024\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -1070,19 +1070,29 @@ msgctxt "view~dictionnary.print.toolbar.scale"
 msgid "Scale"
 msgstr "Scară"
 
+#: view~dictionnary.project.admin.panel.info
+msgctxt "view~dictionnary.project.admin.panel.info"
+msgid "Only administrators or publishers can see this message."
+msgstr "Numai administratorii sau editorii pot vedea acest mesaj."
+
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
-"be fixed. Only administrators or publishers can see this message."
+"be fixed."
 msgstr ""
-"Proiectul are câteva avertismente în plugin-ul QGIS desktop Lizmap care "
-"trebuie rezolvate. Doar administratorii sau editorii pot vedea acest mesaj."
+"Proiectul are câteva avertismente în plugin-ul Lizmap care trebuie "
+"remediate."
 
-#: view~dictionnary.project.has.warnings.link
-msgctxt "view~dictionnary.project.has.warnings.link"
-msgid "Visit the QGIS project page in the administration panel."
-msgstr "Vizitează pagina proiectului QGIS în panoul de administrare."
+#: view~dictionnary.project.plugin.outdated.warning
+msgctxt "view~dictionnary.project.plugin.outdated.warning"
+msgid ""
+"The project has been recently updated in QGIS Desktop, but with an outdated "
+"version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
+msgstr ""
+"Proiectul a fost actualizat recent în QGIS Desktop, dar cu o versiune "
+"învechită a plugin-ului Lizmap. Trebuie să actualizezi plugin-ul în QGIS "
+"Desktop."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1282,6 +1292,11 @@ msgstr "Elimină memoria cache a serverului pentru acest strat"
 msgctxt "view~dictionnary.tree.button.removeCache.confirmation"
 msgid "Remove server's cache for this layer?"
 msgstr "Elimini memoria cache a serverului pentru acest strat?"
+
+#: view~dictionnary.visit.admin.panel.project.page
+msgctxt "view~dictionnary.visit.admin.panel.project.page"
+msgid "Visit the QGIS project page in the administration panel."
+msgstr "Vizitează pagina proiectului QGIS în panoul de administrare."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
