@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 14:35++0200\n"
+"POT-Creation-Date: 2024-06-05 15:29++0200\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Adrian Kowalski <ad.kowalski@gmail.com>, 2024\n"
 "Language-Team: Polish (Poland) (http://app.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
@@ -288,8 +288,10 @@ msgctxt ""
 msgid ""
 "List of URL separated by a comma, like "
 "'https://domain1.com,https://www.domain2.com'. Path and query parameters "
-"will be removed from the URL."
-msgstr "Lista adresów URL oddzielonych przecinkiem, na przykład: 'https://domena1.com,https://www.domena2.com'. Ścieżka i parametry zapytania zostaną usunięte z adresu URL."
+"will be removed from the URL. This setting will affect CORS headers : Cross "
+"Origin Resource Sharing. Read the article on Wikipedia "
+"https://wikipedia.org/wiki/Cross-origin_resource_sharing"
+msgstr ""
 
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
@@ -1312,12 +1314,22 @@ msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
 msgstr "Logi QGIS Servera"
 
-#: admin~admin.project.list.column.qgis.desktop.recent.label
-msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label"
+#: admin~admin.project.list.column.qgis.desktop.recent.label.html
+msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label.html"
 msgid ""
 "This QGIS project has been recently updated in QGIS Desktop, but with a too "
-"old Lizmap plugin version. You should upgrade your plugin in the QGIS plugin"
-" manager."
+"old Lizmap plugin version. You should upgrade your plugin in your QGIS "
+"plugin manager."
+msgstr ""
+
+#: admin~admin.project.list.column.qgis.desktop.recent.version.label.html
+msgctxt ""
+"admin~admin.project.list.column.qgis.desktop.recent.version.label.html"
+msgid ""
+"The QGIS project has been recently updated in QGIS Desktop, but with a too "
+"old Lizmap plugin version. <strong>Always</strong> install the "
+"<strong>latest version available</strong> in your QGIS plugin manager. It "
+"must be at least <strong>%s</strong>."
 msgstr ""
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server

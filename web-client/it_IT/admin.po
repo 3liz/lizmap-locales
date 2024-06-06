@@ -6,14 +6,14 @@
 # rldhont <rldhont@gmail.com>, 2016
 # Roberto Marzocchi <roberto.marzocchi@gter.it>, 2019
 # Stefano Campus <skampus@gmail.com>, 2018,2020
-# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023
+# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2024
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 14:35++0200\n"
+"POT-Creation-Date: 2024-06-05 15:29++0200\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: marcobra <marcobra.ubuntu@gmail.com>, 2022-2023\n"
+"Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2024\n"
 "Language-Team: Italian (http://app.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -291,8 +291,10 @@ msgctxt ""
 msgid ""
 "List of URL separated by a comma, like "
 "'https://domain1.com,https://www.domain2.com'. Path and query parameters "
-"will be removed from the URL."
-msgstr "Lista di URL separati da virgola, ad esempio 'https://domain1.com,https://www.domain2.com'. Eventuali percorsi e parametri dopo il dominio verranno eliminati dall'URL."
+"will be removed from the URL. This setting will affect CORS headers : Cross "
+"Origin Resource Sharing. Read the article on Wikipedia "
+"https://wikipedia.org/wiki/Cross-origin_resource_sharing"
+msgstr ""
 
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
@@ -867,7 +869,7 @@ msgstr "Amministrazione"
 #: admin~admin.landingPageContent.authed
 msgctxt "admin~admin.landingPageContent.authed"
 msgid "Content for authenticated users"
-msgstr ""
+msgstr "Contenuto per utenti autenticati"
 
 #: admin~admin.landingPageContent.error.save
 msgctxt "admin~admin.landingPageContent.error.save"
@@ -884,12 +886,12 @@ msgstr "C'è stato un errore durante il salvataggio del contenuto. La tua sessio
 #: admin~admin.landingPageContent.group.bottom
 msgctxt "admin~admin.landingPageContent.group.bottom"
 msgid "Bottom of the landing page"
-msgstr ""
+msgstr "In fondo alla pagina principale"
 
 #: admin~admin.landingPageContent.group.top
 msgctxt "admin~admin.landingPageContent.group.top"
 msgid "Top of the landing page"
-msgstr ""
+msgstr "All'inizio della pagina principale"
 
 #: admin~admin.landingPageContent.saved
 msgctxt "admin~admin.landingPageContent.saved"
@@ -899,22 +901,22 @@ msgstr "Il contenuto della pagina di destinazione è stato salvato"
 #: admin~admin.landingPageContent.unauthed
 msgctxt "admin~admin.landingPageContent.unauthed"
 msgid "Content for unauthenticated users"
-msgstr ""
+msgstr "Contenuto per utenti non autenticati"
 
 #: admin~admin.landingPageContent.unauthed.position
 msgctxt "admin~admin.landingPageContent.unauthed.position"
 msgid "Add content for unauthenticated user to authenticated users"
-msgstr ""
+msgstr "Aggiungi il contenuto per utenti non autenticati a quello per utenti autenticati"
 
 #: admin~admin.landingPageContent.unauthed.position.after
 msgctxt "admin~admin.landingPageContent.unauthed.position.after"
 msgid "After content for authenticated"
-msgstr ""
+msgstr "Dopo il contenuto per utenti autenticati"
 
 #: admin~admin.landingPageContent.unauthed.position.before
 msgctxt "admin~admin.landingPageContent.unauthed.position.before"
 msgid "Before content for authenticated"
-msgstr ""
+msgstr "Prima del contenuto per utenti autenticati"
 
 #: admin~admin.landingPageContent.unauthed.position.no
 msgctxt "admin~admin.landingPageContent.unauthed.position.no"
@@ -1288,7 +1290,7 @@ msgstr "L'utilizzo della memoria del progetto è un po' elevato."
 #: admin~admin.project.list.column.path.label
 msgctxt "admin~admin.project.list.column.path.label"
 msgid "Path"
-msgstr ""
+msgstr "Percorso"
 
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
@@ -1315,12 +1317,22 @@ msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
 msgstr "Log del server QGIS"
 
-#: admin~admin.project.list.column.qgis.desktop.recent.label
-msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label"
+#: admin~admin.project.list.column.qgis.desktop.recent.label.html
+msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label.html"
 msgid ""
 "This QGIS project has been recently updated in QGIS Desktop, but with a too "
-"old Lizmap plugin version. You should upgrade your plugin in the QGIS plugin"
-" manager."
+"old Lizmap plugin version. You should upgrade your plugin in your QGIS "
+"plugin manager."
+msgstr ""
+
+#: admin~admin.project.list.column.qgis.desktop.recent.version.label.html
+msgctxt ""
+"admin~admin.project.list.column.qgis.desktop.recent.version.label.html"
+msgid ""
+"The QGIS project has been recently updated in QGIS Desktop, but with a too "
+"old Lizmap plugin version. <strong>Always</strong> install the "
+"<strong>latest version available</strong> in your QGIS plugin manager. It "
+"must be at least <strong>%s</strong>."
 msgstr ""
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server

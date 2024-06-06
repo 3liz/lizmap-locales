@@ -7,14 +7,14 @@
 # rldhont <rldhont@gmail.com>, 2016
 # rldhont <rldhont@gmail.com>, 2016
 # Stefano Campus <skampus@gmail.com>, 2020
-# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023
+# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2024
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 14:35++0200\n"
+"POT-Creation-Date: 2024-06-05 15:29++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: marcobra <marcobra.ubuntu@gmail.com>, 2021,2024\n"
+"Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2024\n"
 "Language-Team: Italian (http://app.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -631,7 +631,7 @@ msgctxt "view~dictionnary.edition.message.error.fetch.form"
 msgid ""
 "Error while fetching the editing form for that layer. Please contact the "
 "system administrator."
-msgstr ""
+msgstr "Errore durante il caricamento del modulo di inserimento per questo layer. Contatta l'amministratore di sistema."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -645,7 +645,7 @@ msgctxt "view~dictionnary.edition.message.error.send.feature"
 msgid ""
 "Error while saving the edited feature. Please contact the system "
 "administrator."
-msgstr ""
+msgstr "Errore durante il salvataggio dell'elemento modificato. Contatta l'amministratore di sistema."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -1059,7 +1059,7 @@ msgctxt "view~dictionnary.print.error"
 msgid ""
 "The output is currently not available. Please contact the system "
 "administrator."
-msgstr ""
+msgstr "L'output non è al momento disponibile. Contatta l'amministratore di sistema."
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"
@@ -1106,17 +1106,24 @@ msgctxt "view~dictionnary.print.toolbar.scale"
 msgid "Scale"
 msgstr "Scala"
 
+#: view~dictionnary.project.admin.panel.info
+msgctxt "view~dictionnary.project.admin.panel.info"
+msgid "Only administrators or publishers can see this message."
+msgstr ""
+
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
-"be fixed. Only administrators or publishers can see this message."
-msgstr "Il progetto presenta alcuni avvisi nel plugin Lizmap di QGIS desktop che devono essere corretti. Solo gli amministratori o i pubblicatori possono visualizzare questo messaggio."
+"be fixed."
+msgstr ""
 
-#: view~dictionnary.project.has.warnings.link
-msgctxt "view~dictionnary.project.has.warnings.link"
-msgid "Visit the QGIS project page in the administration panel."
-msgstr "Visita la pagina del progetto QGIS nel pannello di amministrazione."
+#: view~dictionnary.project.plugin.outdated.warning
+msgctxt "view~dictionnary.project.plugin.outdated.warning"
+msgid ""
+"The project has been recently updated in QGIS Desktop, but with an outdated "
+"version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
+msgstr ""
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1243,7 +1250,7 @@ msgctxt "view~dictionnary.snapping.list.disabled"
 msgid ""
 "This layer is hidden. Turn on the layer on the layer panel to toggle "
 "snapping on it"
-msgstr ""
+msgstr "Questo layer è nascosto. Accendilo nel pannello della legenda per consentire l'attivazione dell'aggancio su questo layer."
 
 #: view~dictionnary.snapping.list.title
 msgctxt "view~dictionnary.snapping.list.title"
@@ -1253,7 +1260,7 @@ msgstr "Aggancia su"
 #: view~dictionnary.snapping.list.toggle
 msgctxt "view~dictionnary.snapping.list.toggle"
 msgid "Toggle snapping for this layer"
-msgstr ""
+msgstr "Attiva l'aggancio per questo layer"
 
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
@@ -1302,6 +1309,11 @@ msgctxt "view~dictionnary.toolbar.content.stop"
 msgid "Stop"
 msgstr "Stop"
 
+#: view~dictionnary.tooltip.loading.error
+msgctxt "view~dictionnary.tooltip.loading.error"
+msgid "An error prevented to load the tooltip data"
+msgstr ""
+
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
 msgid "Display/Hide"
@@ -1331,6 +1343,11 @@ msgstr "Rimuovi la cache dal server per questo layer"
 msgctxt "view~dictionnary.tree.button.removeCache.confirmation"
 msgid "Remove server's cache for this layer?"
 msgstr "Rimuovi la cache dal server per questo layer?"
+
+#: view~dictionnary.visit.admin.panel.project.page
+msgctxt "view~dictionnary.visit.admin.panel.project.page"
+msgid "Visit the QGIS project page in the administration panel."
+msgstr "Visita la pagina del progetto QGIS nel pannello di amministrazione."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"

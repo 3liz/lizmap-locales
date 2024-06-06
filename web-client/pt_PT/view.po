@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 14:35++0200\n"
+"POT-Creation-Date: 2024-06-05 15:29++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2016-2018,2020,2022-2024\n"
 "Language-Team: Portuguese (http://app.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
@@ -1104,17 +1104,24 @@ msgctxt "view~dictionnary.print.toolbar.scale"
 msgid "Scale"
 msgstr "Escala"
 
+#: view~dictionnary.project.admin.panel.info
+msgctxt "view~dictionnary.project.admin.panel.info"
+msgid "Only administrators or publishers can see this message."
+msgstr ""
+
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
-"be fixed. Only administrators or publishers can see this message."
-msgstr "O projeto tem alguns avisos no plugin Lizmap do QGIS Desktop que devem ser corrigidos. Apenas os administradores ou os editores podem visualizar esta mensagem."
+"be fixed."
+msgstr ""
 
-#: view~dictionnary.project.has.warnings.link
-msgctxt "view~dictionnary.project.has.warnings.link"
-msgid "Visit the QGIS project page in the administration panel."
-msgstr "Visitar a página do projeto QGIS no painel de administração."
+#: view~dictionnary.project.plugin.outdated.warning
+msgctxt "view~dictionnary.project.plugin.outdated.warning"
+msgid ""
+"The project has been recently updated in QGIS Desktop, but with an outdated "
+"version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
+msgstr ""
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1300,6 +1307,11 @@ msgctxt "view~dictionnary.toolbar.content.stop"
 msgid "Stop"
 msgstr "Parar"
 
+#: view~dictionnary.tooltip.loading.error
+msgctxt "view~dictionnary.tooltip.loading.error"
+msgid "An error prevented to load the tooltip data"
+msgstr ""
+
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
 msgid "Display/Hide"
@@ -1329,6 +1341,11 @@ msgstr "Remover a cache do servidor para esta camada"
 msgctxt "view~dictionnary.tree.button.removeCache.confirmation"
 msgid "Remove server's cache for this layer?"
 msgstr "Remover a cache do servidor para esta camada?"
+
+#: view~dictionnary.visit.admin.panel.project.page
+msgctxt "view~dictionnary.visit.admin.panel.project.page"
+msgid "Visit the QGIS project page in the administration panel."
+msgstr "Visitar a página do projeto QGIS no painel de administração."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
