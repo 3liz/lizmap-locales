@@ -1,14 +1,16 @@
 # 
 # Translators:
-# rldhont <rldhont@gmail.com>, 2016
+# Laurent Jouanneau <dev@ljouanneau.com>, 2024
+# rldhont <rldhont@gmail.com>, 2024
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.8 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 15:29++0200\n"
-"PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>, 2016\n"
-"Language-Team: Greek (http://app.transifex.com/3liz-1/lizmap-locales/language/el/)\n"
+"POT-Creation-Date: 2024-06-10 13:21++0000\n"
+"PO-Revision-Date: 2024-06-10 13:22+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>, 2024\n"
+"Language-Team: Greek (https://app.transifex.com/3liz-1/teams/62012/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -90,7 +92,7 @@ msgstr "Διαμόρφωση Lizmap"
 #: admin~admin.configuration.repository.label
 msgctxt "admin~admin.configuration.repository.label"
 msgid "Repository"
-msgstr "Φάκελοι"
+msgstr "Κατάθεση"
 
 #: admin~admin.configuration.services.adminContactEmail.label
 msgctxt "admin~admin.configuration.services.adminContactEmail.label"
@@ -413,7 +415,9 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr "0 σημαίνει ότι δεν έληξε αλλκιώς δώστε ένα reel σε δευτερόλεπτα (Max 2592000 = 30 μέρες)"
+msgstr ""
+"0 σημαίνει ότι δεν έληξε αλλκιώς δώστε ένα reel σε δευτερόλεπτα (Max 2592000"
+" = 30 μέρες)"
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
@@ -472,7 +476,7 @@ msgstr "Διαλέφτε ένα φάκελο του δίσκου για αποθ
 #: admin~admin.form.admin_services.cacheRootDirectory.label
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.label"
 msgid "Cache root directory"
-msgstr "Φάκελος Root του cache"
+msgstr "Φάκελος του cache"
 
 #: admin~admin.form.admin_services.cacheStorageType.file.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.file.label"
@@ -507,7 +511,7 @@ msgstr "Log"
 #: admin~admin.form.admin_services.debugMode.label
 msgctxt "admin~admin.form.admin_services.debugMode.label"
 msgid "Debug mode"
-msgstr "Mod debug"
+msgstr "Κατάσταση debug"
 
 #: admin~admin.form.admin_services.defaultProject.label
 msgctxt "admin~admin.form.admin_services.defaultProject.label"
@@ -547,7 +551,9 @@ msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
 msgid ""
 "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
 "\"tracking ID\"."
-msgstr "Το Google Analytics ID είναι της μόρφης αυτή 'UA-XXXX-Y'. Το λέμε \"tracking ID\"."
+msgstr ""
+"Το Google Analytics ID είναι της μόρφης αυτή 'UA-XXXX-Y'. Το λέμε \"tracking"
+" ID\"."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.label
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
@@ -578,7 +584,8 @@ msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr "Η διαρκεία ζωής του cache πρέπει να είναι μεταξύ 0 και 2592000 δευτερόλεπτα."
+msgstr ""
+"Η διαρκεία ζωής του cache πρέπει να είναι μεταξύ 0 και 2592000 δευτερόλεπτα."
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
@@ -1087,7 +1094,7 @@ msgstr "Χρήστης"
 #: admin~admin.logs.view.button
 msgctxt "admin~admin.logs.view.button"
 msgid "View"
-msgstr "Προβολή"
+msgstr "Εμφάνιση"
 
 #: admin~admin.menu.configuration.main.label
 msgctxt "admin~admin.menu.configuration.main.label"
@@ -1920,7 +1927,9 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr "Κάποιος ζήτησε μια πρόσβαση στους χάρτες Lizmap με login %s και το courriel %s."
+msgstr ""
+"Κάποιος ζήτησε μια πρόσβαση στους χάρτες Lizmap με login %s και το courriel "
+"%s."
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"

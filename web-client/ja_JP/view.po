@@ -1,16 +1,15 @@
 # 
 # Translators:
-# yamamoto ryuzo <ryu@yamakun.net>, 2022
-# yamamoto ryuzo <ryu@yamakun.net>, 2021-2022
-# yamamoto ryuzo <ryu@yamakun.net>, 2021
+# yamamoto ryuzo <ryu@yamakun.net>, 2024
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 15:29++0200\n"
-"PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: yamamoto ryuzo <ryu@yamakun.net>, 2022\n"
-"Language-Team: Japanese (http://app.transifex.com/3liz-1/lizmap-locales/language/ja/)\n"
+"POT-Creation-Date: 2024-06-10 13:21++0000\n"
+"PO-Revision-Date: 2024-06-10 13:22+0000\n"
+"Last-Translator: yamamoto ryuzo <ryu@yamakun.net>, 2024\n"
+"Language-Team: Japanese (https://app.transifex.com/3liz-1/teams/62012/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -279,7 +278,7 @@ msgstr "Create a child"
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
 msgid "Create feature"
-msgstr "地物作成"
+msgstr "地物の作成"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
@@ -320,7 +319,7 @@ msgstr "表示"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title"
 msgid "Unselect all"
-msgstr "選択解除‎"
+msgstr "‎すべて選択解除‎"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.detail
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
@@ -660,7 +659,7 @@ msgstr "‎ジオメトリを反転しました。フォームを保存できま
 #: view~dictionnary.edition.select.activate
 msgctxt "view~dictionnary.edition.select.activate"
 msgid "Click on one of the layer's features to select it."
-msgstr "‎レイヤ地物のいずれかをクリックして選択します。‎"
+msgstr "‎レイヤの地物のいずれかをクリックして選択します。‎"
 
 #: view~dictionnary.edition.select.modify.activate
 msgctxt "view~dictionnary.edition.select.modify.activate"
@@ -737,7 +736,7 @@ msgstr "拡大"
 #: view~dictionnary.filter.btn.zoom.title
 msgctxt "view~dictionnary.filter.btn.zoom.title"
 msgid "Zoom to filtered features"
-msgstr "‎フィルター処理された地物を拡大する‎"
+msgstr "‎フィルター処理された地物にズームする‎"
 
 #: view~dictionnary.filter.input.text.placeholder
 msgctxt "view~dictionnary.filter.input.text.placeholder"
@@ -912,7 +911,7 @@ msgstr "‎マップをクリックして、角度の計測を開始します。
 #: view~dictionnary.measure.activate.area
 msgctxt "view~dictionnary.measure.activate.area"
 msgid "Click on the map to start measuring an area."
-msgstr "‎地図をクリックして、エリアの計測を計測します。‎"
+msgstr "‎地図をクリックして、エリアの計測を開始します。‎"
 
 #: view~dictionnary.measure.activate.length
 msgctxt "view~dictionnary.measure.activate.length"
@@ -1347,7 +1346,7 @@ msgstr ""
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
 msgid "You have not the right to use the edition tools."
-msgstr "編集ツールを使用する権利がありません。‎"
+msgstr "編集ツールを使用する権利はありません。‎"
 
 #: view~edition.form.action.future.close
 msgctxt "view~edition.form.action.future.close"
@@ -1461,7 +1460,8 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "‎両方のレイヤに対して複数のオブジェクトをリンクすることはできません。レイヤの 1 つにオブジェクトを 1 つだけ選択して再試行してください。‎"
+msgstr ""
+"‎両方のレイヤに対して複数のオブジェクトをリンクすることはできません。レイヤの 1 つにオブジェクトを 1 つだけ選択して再試行してください。‎"
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1516,7 +1516,7 @@ msgstr ""
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"
 msgid "The bbox has to be 4 floats separated by ','."
-msgstr "‎bbox は、4桁毎に浮動小数点数を ',' で区切る必要があります。‎\nThe bbox has to be 4 floats separated by ','."
+msgstr "‎bbox は、4桁毎に浮動小数点数を ',' で区切る必要があります。‎"
 
 #: view~edition.message.error.constraint
 msgctxt "view~edition.message.error.constraint"
@@ -1566,7 +1566,7 @@ msgstr "‎レイヤは編集できません。‎"
 #: view~edition.message.error.layer.editable.create
 msgctxt "view~edition.message.error.layer.editable.create"
 msgid "Create feature for the layer is not available."
-msgstr "‎レイヤの地物は使用できません。‎"
+msgstr "‎レイヤの作成した地物は使用できません。‎"
 
 #: view~edition.message.error.layer.editable.delete
 msgctxt "view~edition.message.error.layer.editable.delete"
@@ -1583,7 +1583,7 @@ msgstr "‎ジオメトリなしでは、このオブジェクトを保存でき
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
 msgid "The 'featureId' parameter is mandatory."
-msgstr "‎'‎地物ID‎'  パラメーターは必須です。‎"
+msgstr "‎'地物Id' パラメーターは必須です。‎"
 
 #: view~edition.message.error.parameter.project
 msgctxt "view~edition.message.error.parameter.project"
@@ -1632,7 +1632,7 @@ msgstr "‎オブジェクトが正常に作成されました。‎"
 #: view~edition.message.success.delete
 msgctxt "view~edition.message.success.delete"
 msgid "The feature has been deleted."
-msgstr "地物は削除されました。‎"
+msgstr "‎地物は削除されました。‎"
 
 #: view~edition.modal.message.no.feature.found
 msgctxt "view~edition.modal.message.no.feature.found"
@@ -1872,7 +1872,7 @@ msgstr "閉じる"
 #: view~map.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~map.bottomdock.toolbar.btn.glue.activate.title"
 msgid "Pin"
-msgstr "Pin"
+msgstr "固定"
 
 #: view~map.bottomdock.toolbar.btn.glue.deactivate.title
 msgctxt "view~map.bottomdock.toolbar.btn.glue.deactivate.title"

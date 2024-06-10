@@ -1,14 +1,16 @@
 # 
 # Translators:
-# Majky Beast <maros.michalov@hrdlicka.sk>, 2020
+# Laurent Jouanneau <dev@ljouanneau.com>, 2024
+# Majky Beast <maros.michalov@hrdlicka.sk>, 2024
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.8 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 15:29++0200\n"
-"PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: Majky Beast <maros.michalov@hrdlicka.sk>, 2020\n"
-"Language-Team: Slovak (http://app.transifex.com/3liz-1/lizmap-locales/language/sk/)\n"
+"POT-Creation-Date: 2024-06-10 13:21++0000\n"
+"PO-Revision-Date: 2024-06-10 13:22+0000\n"
+"Last-Translator: Majky Beast <maros.michalov@hrdlicka.sk>, 2024\n"
+"Language-Team: Slovak (https://app.transifex.com/3liz-1/teams/62012/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -362,14 +364,19 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
 msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
-msgstr "E-mailová adresa odosielateľa sa vyžaduje na odoslanie oznámenia alebo žiadosti o vytvorenie účtu"
+msgstr ""
+"E-mailová adresa odosielateľa sa vyžaduje na odoslanie oznámenia alebo "
+"žiadosti o vytvorenie účtu"
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "E-mailová adresa používaná na odosielanie e-mailov. Ak sú prázdne, server Lizmap nebude posielať žiadne e-maily. Uistite sa, že váš server má povolené odosielať e-maily s touto adresou."
+msgstr ""
+"E-mailová adresa používaná na odosielanie e-mailov. Ak sú prázdne, server "
+"Lizmap nebude posielať žiadne e-maily. Uistite sa, že váš server má povolené"
+" odosielať e-maily s touto adresou."
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
@@ -396,7 +403,9 @@ msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
 msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
-msgstr "Pri zapnutí, návštevníci môžu vyplniť formulár so žiadosťou o účet. Pre e-maily by mala byť nastavená adresa odosielateľa."
+msgstr ""
+"Pri zapnutí, návštevníci môžu vyplniť formulár so žiadosťou o účet. Pre "
+"e-maily by mala byť nastavená adresa odosielateľa."
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
@@ -413,7 +422,9 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr "0 znamená žiadne vypršanie platnosti, inak zadajte celé číslo v sekundách (max: 2592000 s = 30 dní)"
+msgstr ""
+"0 znamená žiadne vypršanie platnosti, inak zadajte celé číslo v sekundách "
+"(max: 2592000 s = 30 dní)"
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
@@ -435,7 +446,9 @@ msgstr "Register databázy Redis"
 #: admin~admin.form.admin_services.cacheRedisHost.help
 msgctxt "admin~admin.form.admin_services.cacheRedisHost.help"
 msgid "Redis host (used if Redis is chosen for the cache storage)"
-msgstr "Hostiteľ Redis (používa sa, ak je pre ukladací priestor medzipamäte vybraný Redis)"
+msgstr ""
+"Hostiteľ Redis (používa sa, ak je pre ukladací priestor medzipamäte vybraný "
+"Redis)"
 
 #: admin~admin.form.admin_services.cacheRedisHost.label
 msgctxt "admin~admin.form.admin_services.cacheRedisHost.label"
@@ -447,7 +460,9 @@ msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
 msgid ""
 "Redis key prefix: string, optional (used if Redis is chosen for the cache "
 "storage)"
-msgstr "Predpona kľúča Redis: reťazec, voliteľný (používa sa, ak je pre medzipamäť cache vybraný Redis)"
+msgstr ""
+"Predpona kľúča Redis: reťazec, voliteľný (používa sa, ak je pre medzipamäť "
+"cache vybraný Redis)"
 
 #: admin~admin.form.admin_services.cacheRedisKeyPrefix.label
 msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.label"
@@ -457,7 +472,9 @@ msgstr "Predpona kľúča Redis"
 #: admin~admin.form.admin_services.cacheRedisPort.help
 msgctxt "admin~admin.form.admin_services.cacheRedisPort.help"
 msgid "Redis port (used if Redis is chosen for the cache storage)"
-msgstr "Port Redis (používa sa, ak je pre ukladací priestor medzipamäte vybraný Redis)"
+msgstr ""
+"Port Redis (používa sa, ak je pre ukladací priestor medzipamäte vybraný "
+"Redis)"
 
 #: admin~admin.form.admin_services.cacheRedisPort.label
 msgctxt "admin~admin.form.admin_services.cacheRedisPort.label"
@@ -547,7 +564,8 @@ msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
 msgid ""
 "The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
 "\"tracking ID\"."
-msgstr "ID Google Analytics má tvar „UA-XXXX-Y“. Nazýva sa to aj „ID sledovania“."
+msgstr ""
+"ID Google Analytics má tvar „UA-XXXX-Y“. Nazýva sa to aj „ID sledovania“."
 
 #: admin~admin.form.admin_services.googleAnalyticsID.label
 msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
@@ -578,7 +596,9 @@ msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr "Čas vypršania platnosti medzipamäte servera musí byť celé číslo od 0 do 2592 000 sekúnd."
+msgstr ""
+"Čas vypršania platnosti medzipamäte servera musí byť celé číslo od 0 do 2592"
+" 000 sekúnd."
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
@@ -681,7 +701,9 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr "Koreňový priečinok úložísk môže obmedziť adresár Lizmap na 1 priečinok. Ak je tu nastavená cesta, už nie je možné definovať cestu k adresáru Lizmap."
+msgstr ""
+"Koreňový priečinok úložísk môže obmedziť adresár Lizmap na 1 priečinok. Ak "
+"je tu nastavená cesta, už nie je možné definovať cestu k adresáru Lizmap."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -735,7 +757,9 @@ msgstr "Áno"
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
-msgstr "Môžete napísať ľubovoľnú syntax CSS, aby ste prepísali štýl Lizmap (pre pokročilých používateľov)"
+msgstr ""
+"Môžete napísať ľubovoľnú syntax CSS, aby ste prepísali štýl Lizmap (pre "
+"pokročilých používateľov)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
@@ -1017,7 +1041,9 @@ msgctxt "admin~admin.logs.error.file.too.big"
 msgid ""
 "The error log file is too big. Consider using log rotation for Lizmap Web "
 "Client logs."
-msgstr "Súbor protokolu chýb je príliš veľký. Zvážte použitie rotácie protokolov pre protokoly webového klienta Lizmap."
+msgstr ""
+"Súbor protokolu chýb je príliš veľký. Zvážte použitie rotácie protokolov pre"
+" protokoly webového klienta Lizmap."
 
 #: admin~admin.logs.error.no.delete.right
 msgctxt "admin~admin.logs.error.no.delete.right"
@@ -1920,7 +1946,9 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr "Niekto požiadal o účet Lizmap, aby mal prístup k mapám s prihlásením a e-mailom %s."
+msgstr ""
+"Niekto požiadal o účet Lizmap, aby mal prístup k mapám s prihlásením a "
+"e-mailom %s."
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"

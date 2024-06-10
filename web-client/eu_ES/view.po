@@ -1,16 +1,17 @@
 # 
 # Translators:
-# Aitor Gil <nofunat88@hotmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
+# Laurent Jouanneau <dev@ljouanneau.com>, 2024
+# rldhont <rldhont@gmail.com>, 2024
+# Aitor Gil <nofunat88@hotmail.com>, 2024
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 15:29++0200\n"
-"PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>, 2016\n"
-"Language-Team: Basque (http://app.transifex.com/3liz-1/lizmap-locales/language/eu/)\n"
+"POT-Creation-Date: 2024-06-10 13:21++0000\n"
+"PO-Revision-Date: 2024-06-10 13:22+0000\n"
+"Last-Translator: Aitor Gil <nofunat88@hotmail.com>, 2024\n"
+"Language-Team: Basque (https://app.transifex.com/3liz-1/teams/62012/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -107,7 +108,7 @@ msgstr "Proiekzioa"
 #: view~default.project.title.label
 msgctxt "view~default.project.title.label"
 msgid "Title"
-msgstr "Tituloa"
+msgstr "Izenburua"
 
 #: view~default.repository.access.denied
 msgctxt "view~default.repository.access.denied"
@@ -189,12 +190,12 @@ msgstr ""
 #: view~dictionnary.atlas.toolbar.next
 msgctxt "view~dictionnary.atlas.toolbar.next"
 msgid "Next"
-msgstr "Siguiente"
+msgstr "Hurrengoa"
 
 #: view~dictionnary.atlas.toolbar.pause
 msgctxt "view~dictionnary.atlas.toolbar.pause"
 msgid "Pause"
-msgstr "Eten"
+msgstr "Gelditu"
 
 #: view~dictionnary.atlas.toolbar.play
 msgctxt "view~dictionnary.atlas.toolbar.play"
@@ -204,7 +205,7 @@ msgstr "Erreproduzitu"
 #: view~dictionnary.atlas.toolbar.prev
 msgctxt "view~dictionnary.atlas.toolbar.prev"
 msgid "Previous"
-msgstr "Anterior"
+msgstr "Aurrekoa"
 
 #: view~dictionnary.atlas.toolbar.stop
 msgctxt "view~dictionnary.atlas.toolbar.stop"
@@ -707,7 +708,7 @@ msgstr "Ez dago emaitzarik"
 #: view~dictionnary.externalsearch.search
 msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
-msgstr "Bilaketa"
+msgstr "Bilatzen"
 
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"
@@ -852,7 +853,7 @@ msgstr "Exportatu"
 #: view~dictionnary.layer.metadata.layer.abstract
 msgctxt "view~dictionnary.layer.metadata.layer.abstract"
 msgid "Description"
-msgstr "Deskripzioa"
+msgstr "Azalpena"
 
 #: view~dictionnary.layer.metadata.layer.info.see
 msgctxt "view~dictionnary.layer.metadata.layer.info.see"
@@ -1292,7 +1293,7 @@ msgstr ""
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
 msgid "Pause"
-msgstr "Eten"
+msgstr "Gelditu"
 
 #: view~dictionnary.timemanager.toolbar.play
 msgctxt "view~dictionnary.timemanager.toolbar.play"
@@ -1461,7 +1462,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Ezin duzu hainbat objetu estekatu geruza bietan. Mesedez, aukeratu objektu bakarra geruza bakarrean."
+msgstr ""
+"Ezin duzu hainbat objetu estekatu geruza bietan. Mesedez, aukeratu objektu "
+"bakarra geruza bakarrean."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1657,7 +1660,7 @@ msgstr "Edizioa"
 #: view~edition.point.coord.add.label
 msgctxt "view~edition.point.coord.add.label"
 msgid "Add"
-msgstr "Añadir"
+msgstr "Gehitu"
 
 #: view~edition.point.coord.crs.label
 msgctxt "view~edition.point.coord.crs.label"
@@ -1712,7 +1715,7 @@ msgstr ""
 #: view~edition.toolbar.cancel.title
 msgctxt "view~edition.toolbar.cancel.title"
 msgid "Cancel"
-msgstr "Ezeztatu"
+msgstr "Deuseztatu"
 
 #: view~edition.toolbar.cancel.tooltip
 msgctxt "view~edition.toolbar.cancel.tooltip"
@@ -1757,7 +1760,7 @@ msgstr "Objektu berriak sortzeko tresna aktibatu."
 #: view~edition.toolbar.select.attr.title
 msgctxt "view~edition.toolbar.select.attr.title"
 msgid "Modify"
-msgstr "Aldatu"
+msgstr "Editatu"
 
 #: view~edition.toolbar.select.attr.tooltip
 msgctxt "view~edition.toolbar.select.attr.tooltip"
@@ -1907,7 +1910,7 @@ msgstr "Geokokatu"
 #: view~map.layers
 msgctxt "view~map.layers"
 msgid "Layers"
-msgstr "Geruzak"
+msgstr "Legenda"
 
 #: view~map.legend
 msgctxt "view~map.legend"
