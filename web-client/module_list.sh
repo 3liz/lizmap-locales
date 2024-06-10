@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export MODULES="admin dataviz filter view"
+export MODULES="admin dataviz filter view action"
 
 # all locales that are available into transifex. See below for each branch
 export AVAILABLE_LOCALES=""
@@ -19,7 +19,13 @@ case $LOCALES_BRANCH in
     export AVAILABLE_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
     export AVAILABLE_SHORT_LOCALES="cs de el es eu fi fr gl hu_HU it ja nl no pl_PL pt_BR pt ro ru sv_SE sl sk uk"
     export OFFICIAL_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
-    export MODULES="$MODULES action"
+    ;;
+    lizmap_3_8)
+    export LIZMAP_BRANCH=release_3_8
+    export TX_BRANCH=lizmap-3-8
+    export AVAILABLE_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
+    export AVAILABLE_SHORT_LOCALES="cs de el es eu fi fr gl hu_HU it ja nl no pl_PL pt_BR pt ro ru sv_SE sl sk uk"
+    export OFFICIAL_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
     ;;
     lizmap_3_7)
     export LIZMAP_BRANCH=release_3_7
@@ -27,7 +33,6 @@ case $LOCALES_BRANCH in
     export AVAILABLE_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
     export AVAILABLE_SHORT_LOCALES="cs de el es eu fi fr gl hu_HU it ja nl no pl_PL pt_BR pt ro ru sv_SE sl sk uk"
     export OFFICIAL_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
-    export MODULES="$MODULES action"
     ;;
     lizmap_3_6)
     export LIZMAP_BRANCH=release_3_6
@@ -35,7 +40,6 @@ case $LOCALES_BRANCH in
     export AVAILABLE_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
     export AVAILABLE_SHORT_LOCALES="cs de el es eu fi fr gl hu_HU it ja nl no pl_PL pt_BR pt ro ru sv_SE sl sk uk"
     export OFFICIAL_LOCALES="cs_CZ de_DE el_GR es_ES eu_ES fi_FI fr_FR gl_ES hu_HU it_IT ja_JP nl_NL no_NO pl_PL pt_BR pt_PT ro_RO ru_RU sv_SE sl_SI sk_SK uk_UA"
-    export MODULES="$MODULES action"
     ;;
     *)
     echo "Error module_list.sh: branch $LOCALES_BRANCH not supported"
