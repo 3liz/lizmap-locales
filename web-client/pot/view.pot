@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-05-07 14:05++0200\n"
-"PO-Revision-Date: 2024-05-07 14:05++0200\n"
+"POT-Creation-Date: 2024-07-03 14:01++0200\n"
+"PO-Revision-Date: 2024-07-03 14:01++0200\n"
 "Language: \n"
 
 #: view~default.header.connect
@@ -399,6 +399,11 @@ msgstr ""
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
+msgstr ""
+
+#: view~dictionnary.download.error
+msgctxt "view~dictionnary.download.error"
+msgid "Download has failed."
 msgstr ""
 
 #: view~dictionnary.edition.confirm.cancel
@@ -806,14 +811,19 @@ msgctxt "view~dictionnary.print.started"
 msgid "Print started. Please wait."
 msgstr ""
 
-#: view~dictionnary.project.has.warnings
-msgctxt "view~dictionnary.project.has.warnings"
-msgid "The project has some warnings in the QGIS desktop Lizmap plugin which must be fixed. Only administrators or publishers can see this message."
+#: view~dictionnary.project.admin.panel.info
+msgctxt "view~dictionnary.project.admin.panel.info"
+msgid "Only administrators or publishers can see this message."
 msgstr ""
 
-#: view~dictionnary.project.has.warnings.link
-msgctxt "view~dictionnary.project.has.warnings.link"
-msgid "Visit the QGIS project page in the administration panel."
+#: view~dictionnary.project.has.warnings
+msgctxt "view~dictionnary.project.has.warnings"
+msgid "The project has some warnings in the QGIS desktop Lizmap plugin which must be fixed."
+msgstr ""
+
+#: view~dictionnary.project.plugin.outdated.warning
+msgctxt "view~dictionnary.project.plugin.outdated.warning"
+msgid "The project has been recently updated in QGIS Desktop, but with an outdated version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
 msgstr ""
 
 #: view~dictionnary.selectiontool.results.more
@@ -1004,6 +1014,11 @@ msgstr ""
 #: view~dictionnary.tree.button.removeCache
 msgctxt "view~dictionnary.tree.button.removeCache"
 msgid "Remove cache server for this layer"
+msgstr ""
+
+#: view~dictionnary.visit.admin.panel.project.page
+msgctxt "view~dictionnary.visit.admin.panel.project.page"
+msgid "Visit the QGIS project page in the administration panel."
 msgstr ""
 
 #: view~edition.access.denied
