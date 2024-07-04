@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 14:05++0200\n"
+"POT-Creation-Date: 2024-07-03 14:01++0200\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2024\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -424,6 +424,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
 msgstr "Salvare desen în browser"
 
+#: view~dictionnary.download.error
+msgctxt "view~dictionnary.download.error"
+msgid "Download has failed."
+msgstr ""
+
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
@@ -560,7 +565,7 @@ msgstr "Exportă obiectele filtrate"
 #: view~dictionnary.filter.btn.reset.label
 msgctxt "view~dictionnary.filter.btn.reset.label"
 msgid "Reset"
-msgstr "Resetați"
+msgstr "Resetează"
 
 #: view~dictionnary.filter.btn.reset.title
 msgctxt "view~dictionnary.filter.btn.reset.title"
@@ -847,19 +852,29 @@ msgctxt "view~dictionnary.print.started"
 msgid "Print started. Please wait."
 msgstr "Imprimare pornită. Așteaptă."
 
+#: view~dictionnary.project.admin.panel.info
+msgctxt "view~dictionnary.project.admin.panel.info"
+msgid "Only administrators or publishers can see this message."
+msgstr "Numai administratorii sau editorii pot vedea acest mesaj."
+
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
-"be fixed. Only administrators or publishers can see this message."
+"be fixed."
 msgstr ""
-"Proiectul are câteva avertismente în plugin-ul QGIS desktop Lizmap care "
-"trebuie rezolvate. Doar administratorii sau editorii pot vedea acest mesaj."
+"Proiectul are câteva avertismente în plugin-ul Lizmap care trebuie "
+"remediate."
 
-#: view~dictionnary.project.has.warnings.link
-msgctxt "view~dictionnary.project.has.warnings.link"
-msgid "Visit the QGIS project page in the administration panel."
-msgstr "Vizitează pagina proiectului QGIS în panoul de administrare."
+#: view~dictionnary.project.plugin.outdated.warning
+msgctxt "view~dictionnary.project.plugin.outdated.warning"
+msgid ""
+"The project has been recently updated in QGIS Desktop, but with an outdated "
+"version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
+msgstr ""
+"Proiectul a fost actualizat recent în QGIS Desktop, dar cu o versiune "
+"învechită a plugin-ului Lizmap. Trebuie să actualizezi plugin-ul în QGIS "
+"Desktop."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1055,6 +1070,11 @@ msgctxt "view~dictionnary.tree.button.removeCache"
 msgid "Remove cache server for this layer"
 msgstr "Elimină cache-ul de pe server pentru acest strat"
 
+#: view~dictionnary.visit.admin.panel.project.page
+msgctxt "view~dictionnary.visit.admin.panel.project.page"
+msgid "Visit the QGIS project page in the administration panel."
+msgstr "Vizitează pagina proiectului QGIS în panoul de administrare."
+
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
 msgid "You have not the right to use the edition tools."
@@ -1103,7 +1123,7 @@ msgstr "Datele au fost salvate"
 #: view~edition.form.reset.label
 msgctxt "view~edition.form.reset.label"
 msgid "Reset"
-msgstr "Resetare"
+msgstr "Resetează"
 
 #: view~edition.form.submit.label
 msgctxt "view~edition.form.submit.label"

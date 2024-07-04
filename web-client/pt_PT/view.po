@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 14:05++0200\n"
+"POT-Creation-Date: 2024-07-03 14:01++0200\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2024\n"
 "Language-Team: Portuguese (https://app.transifex.com/3liz-1/teams/62012/pt/)\n"
@@ -430,6 +430,11 @@ msgstr "Polígono"
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
 msgstr "Guardar o desenho no browser"
+
+#: view~dictionnary.download.error
+msgctxt "view~dictionnary.download.error"
+msgid "Download has failed."
+msgstr ""
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -854,20 +859,29 @@ msgctxt "view~dictionnary.print.started"
 msgid "Print started. Please wait."
 msgstr "Impressão iniciada. Por favor, aguardar."
 
+#: view~dictionnary.project.admin.panel.info
+msgctxt "view~dictionnary.project.admin.panel.info"
+msgid "Only administrators or publishers can see this message."
+msgstr "Apenas os administradores ou editores podem visualizar esta mensagem."
+
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
-"be fixed. Only administrators or publishers can see this message."
+"be fixed."
 msgstr ""
 "O projeto tem alguns avisos no plugin Lizmap do QGIS Desktop que devem ser "
-"corrigidos. Apenas os administradores ou os editores podem visualizar esta "
-"mensagem."
+"corrigidos."
 
-#: view~dictionnary.project.has.warnings.link
-msgctxt "view~dictionnary.project.has.warnings.link"
-msgid "Visit the QGIS project page in the administration panel."
-msgstr "Visitar a página do projeto QGIS no painel de administração."
+#: view~dictionnary.project.plugin.outdated.warning
+msgctxt "view~dictionnary.project.plugin.outdated.warning"
+msgid ""
+"The project has been recently updated in QGIS Desktop, but with an outdated "
+"version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
+msgstr ""
+"O projeto foi atualizado recentemente no QGIS Desktop, mas com uma versão "
+"desatualizada do plugin Lizmap. O plugin deverá ser atualizado no QGIS "
+"Desktop."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1062,6 +1076,11 @@ msgstr "Abrir Documentação"
 msgctxt "view~dictionnary.tree.button.removeCache"
 msgid "Remove cache server for this layer"
 msgstr "Remover a cache desta camada"
+
+#: view~dictionnary.visit.admin.panel.project.page
+msgctxt "view~dictionnary.visit.admin.panel.project.page"
+msgid "Visit the QGIS project page in the administration panel."
+msgstr "Visitar a página do projeto QGIS no painel de administração."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"

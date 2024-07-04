@@ -1,17 +1,17 @@
 # 
 # Translators:
 # Michael Douchin <kimaidou@gmail.com>, 2022
-# Nicolas Boisteault <nboisteault@gmail.com>, 2022
 # Laurent Jouanneau <dev@ljouanneau.com>, 2022
 # Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2022
 # rldhont <rldhont@gmail.com>, 2022
+# Nicolas Boisteault <nboisteault@gmail.com>, 2024
 # etrimaille <gustrimaille@yahoo.fr>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 14:05++0200\n"
+"POT-Creation-Date: 2024-07-03 14:01++0200\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/3liz-1/teams/62012/fr/)\n"
@@ -1364,16 +1364,31 @@ msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
 msgstr "Logs QGIS serveur"
 
-#: admin~admin.project.list.column.qgis.desktop.recent.label
-msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label"
+#: admin~admin.project.list.column.qgis.desktop.recent.label.html
+msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label.html"
 msgid ""
 "This QGIS project has been recently updated in QGIS Desktop, but with a too "
-"old Lizmap plugin version. You should upgrade your plugin in the QGIS plugin"
-" manager."
+"old Lizmap plugin version. You should upgrade your plugin in your QGIS "
+"plugin manager."
 msgstr ""
 "Ce projet QGIS a été récemment mis à jour dans QGIS Bureautique, mais avec "
 "une version trop ancienne de l'extension Lizmap. Vous devez mettre à jour "
-"votre extension dans le gestionnaire des extensions de QGIS."
+"votre extension dans votre gestionnaire des extensions de QGIS."
+
+#: admin~admin.project.list.column.qgis.desktop.recent.version.label.html
+msgctxt ""
+"admin~admin.project.list.column.qgis.desktop.recent.version.label.html"
+msgid ""
+"The QGIS project has been recently updated in QGIS Desktop, but with a too "
+"old Lizmap plugin version. <strong>Always</strong> install the "
+"<strong>latest version available</strong> in your QGIS plugin manager. It "
+"must be at least <strong>%s</strong>."
+msgstr ""
+"Le projet QGIS a été récemment mis à jour dans QGIS Bureautique, mais avec "
+"une version trop ancienne de l'extension Lizmap. Installez "
+"<strong>toujours</strong> la <strong>dernière version disponible</strong> "
+"dans votre gestionnaire de extensions QGIS. Elle doit être au moins "
+"<strong>%s</strong>."
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
@@ -2011,7 +2026,7 @@ msgstr "Ajouter l'utilisateur dans le groupe"
 #: admin~user.acl.form.remove.from.group
 msgctxt "admin~user.acl.form.remove.from.group"
 msgid "Remove the user from this group"
-msgstr "Enlèver l'utilisateur du groupe"
+msgstr "Retirer l'utilisateur de ce groupe"
 
 #: admin~user.acl.form.title
 msgctxt "admin~user.acl.form.title"

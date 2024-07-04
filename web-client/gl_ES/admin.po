@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.6 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 14:05++0200\n"
+"POT-Creation-Date: 2024-07-03 14:01++0200\n"
 "PO-Revision-Date: 2022-07-29 15:01+0000\n"
 "Last-Translator: Xan Vieiro <gallaecia6@gmail.com>, 2023\n"
 "Language-Team: Galician (https://app.transifex.com/3liz-1/teams/62012/gl/)\n"
@@ -1301,12 +1301,22 @@ msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
 msgstr ""
 
-#: admin~admin.project.list.column.qgis.desktop.recent.label
-msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label"
+#: admin~admin.project.list.column.qgis.desktop.recent.label.html
+msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label.html"
 msgid ""
 "This QGIS project has been recently updated in QGIS Desktop, but with a too "
-"old Lizmap plugin version. You should upgrade your plugin in the QGIS plugin"
-" manager."
+"old Lizmap plugin version. You should upgrade your plugin in your QGIS "
+"plugin manager."
+msgstr ""
+
+#: admin~admin.project.list.column.qgis.desktop.recent.version.label.html
+msgctxt ""
+"admin~admin.project.list.column.qgis.desktop.recent.version.label.html"
+msgid ""
+"The QGIS project has been recently updated in QGIS Desktop, but with a too "
+"old Lizmap plugin version. <strong>Always</strong> install the "
+"<strong>latest version available</strong> in your QGIS plugin manager. It "
+"must be at least <strong>%s</strong>."
 msgstr ""
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
