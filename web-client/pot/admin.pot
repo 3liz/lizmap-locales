@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-05-24 16:48++0200\n"
-"PO-Revision-Date: 2024-05-24 16:48++0200\n"
+"POT-Creation-Date: 2024-07-04 17:39++0200\n"
+"PO-Revision-Date: 2024-07-04 17:39++0200\n"
 "Language: \n"
 
 #: admin~admin.cache.button.remove.repository.cache.confirm.label
@@ -1209,9 +1209,14 @@ msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
 msgstr ""
 
-#: admin~admin.project.list.column.qgis.desktop.recent.label
-msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label"
-msgid "This QGIS project has been recently updated in QGIS Desktop, but with a too old Lizmap plugin version. You should upgrade your plugin in the QGIS plugin manager."
+#: admin~admin.project.list.column.qgis.desktop.recent.label.html
+msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label.html"
+msgid "This QGIS project has been recently updated in QGIS Desktop, but with a too old Lizmap plugin version. You should upgrade your plugin in your QGIS plugin manager."
+msgstr ""
+
+#: admin~admin.project.list.column.qgis.desktop.recent.version.label.html
+msgctxt "admin~admin.project.list.column.qgis.desktop.recent.version.label.html"
+msgid "The QGIS project has been recently updated in QGIS Desktop, but with a too old Lizmap plugin version. <strong>Always</strong> install the <strong>latest version available</strong> in your QGIS plugin manager. It must be at least <strong>%s</strong>."
 msgstr ""
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
