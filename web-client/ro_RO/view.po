@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-10 13:21++0000\n"
+"POT-Creation-Date: 2024-07-19 16:02++0200\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2024\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -416,10 +416,15 @@ msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
 msgstr "Minimizare"
 
-#: view~dictionnary.digitizing.confirme.erase
-msgctxt "view~dictionnary.digitizing.confirme.erase"
+#: view~dictionnary.digitizing.confirm.erase
+msgctxt "view~dictionnary.digitizing.confirm.erase"
 msgid "Are you sure you want to delete this feature?"
 msgstr "Sigur dorești să ștergi acest obiect?"
+
+#: view~dictionnary.digitizing.confirm.erase.all
+msgctxt "view~dictionnary.digitizing.confirm.erase.all"
+msgid "Are you sure you want to delete all features?"
+msgstr "Sigur dorești să ștergi toate obiectele?"
 
 #: view~dictionnary.digitizing.constraint.angle
 msgctxt "view~dictionnary.digitizing.constraint.angle"
@@ -482,6 +487,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.erase"
 msgid "Delete some features"
 msgstr "Șterge unele obiecte"
 
+#: view~dictionnary.digitizing.toolbar.erase.all
+msgctxt "view~dictionnary.digitizing.toolbar.erase.all"
+msgid "Delete all features"
+msgstr "Șterge toate obiectele"
+
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
 msgid "Free hand"
@@ -521,6 +531,16 @@ msgstr "Poligon"
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
 msgstr "Salvare desen în browser"
+
+#: view~dictionnary.digitizing.toolbar.save.remove
+msgctxt "view~dictionnary.digitizing.toolbar.save.remove"
+msgid "Remove draw from the browser"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.save.state
+msgctxt "view~dictionnary.digitizing.toolbar.save.state"
+msgid "The drawing changes will be saved in the browser"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
