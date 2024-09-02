@@ -19,8 +19,8 @@ push-to-transifex:
       - LWC_BRANCH: release_3_7
         LOCALE_BRANCH: lizmap_3_7
 
-      - LWC_BRANCH: release_3_6
-        LOCALE_BRANCH: lizmap_3_6
+      - LWC_BRANCH: release_3_8
+        LOCALE_BRANCH: lizmap_3_8
 
   script:
     - export TX_TOKEN=${TRANSIFEX_TOKEN}
@@ -54,7 +54,7 @@ pull-from-transifex-3-7:
   tags:
     - factory-dind
 
-pull-from-transifex-3-6:
+pull-from-transifex-3-8:
   stage: build
   when: manual
   only:
@@ -63,6 +63,6 @@ pull-from-transifex-3-6:
     name: $REGISTRY_URI/infra/transifex-lwc:latest
   script:
     - export TX_TOKEN=${TRANSIFEX_TOKEN}
-    - from_transifex_to_lwc release_3_6 lizmap_3_6
+    - from_transifex_to_lwc release_3_8 lizmap_3_8
   tags:
     - factory-dind
