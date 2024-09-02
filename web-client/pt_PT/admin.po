@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 15:29++0200\n"
+"POT-Creation-Date: 2024-09-02 11:00++0200\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2017-2020,2022-2024\n"
 "Language-Team: Portuguese (http://app.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
@@ -292,7 +292,7 @@ msgid ""
 "will be removed from the URL. This setting will affect CORS headers : Cross "
 "Origin Resource Sharing. Read the article on Wikipedia "
 "https://wikipedia.org/wiki/Cross-origin_resource_sharing"
-msgstr ""
+msgstr "Lista de URLs separados por vírgula, como 'https://domain1.com, https://www.domain2.com'. O caminho e os parâmetros de consulta serão removidos do URL. Esta configuração afetará os cabeçalhos CORS: Partilha de recursos entre origens. Ler o artigo na Wikipedia https://wikipedia.org/wiki/Cross-origin_resource_sharing"
 
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
@@ -1321,7 +1321,7 @@ msgid ""
 "This QGIS project has been recently updated in QGIS Desktop, but with a too "
 "old Lizmap plugin version. You should upgrade your plugin in your QGIS "
 "plugin manager."
-msgstr ""
+msgstr "Este projeto QGIS foi atualizado recentemente no QGIS Desktop, mas com uma versão muito antiga do plugin Lizmap. Atualizar o plugin no gestor de plugins do QGIS."
 
 #: admin~admin.project.list.column.qgis.desktop.recent.version.label.html
 msgctxt ""
@@ -1331,7 +1331,7 @@ msgid ""
 "old Lizmap plugin version. <strong>Always</strong> install the "
 "<strong>latest version available</strong> in your QGIS plugin manager. It "
 "must be at least <strong>%s</strong>."
-msgstr ""
+msgstr "O projeto QGIS foi atualizado recentemente no QGIS Desktop, mas com uma versão muito antiga do plugin Lizmap. <strong>Regra geral</strong> instalar a <strong>versão mais recente disponível</strong> no gestor de plugins do QGIS. Deverá ser no mínimo <strong>%s</strong>."
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
@@ -1527,8 +1527,8 @@ msgstr "Informação"
 
 #: admin~admin.server.information.lizmap.info.date
 msgctxt "admin~admin.server.information.lizmap.info.date"
-msgid "Date"
-msgstr "Data"
+msgid "Date of release"
+msgstr ""
 
 #: admin~admin.server.information.lizmap.info.version
 msgctxt "admin~admin.server.information.lizmap.info.version"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 15:29++0200\n"
+"POT-Creation-Date: 2024-09-02 11:00++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2019,2023\n"
 "Language-Team: Dutch (http://app.transifex.com/3liz-1/lizmap-locales/language/nl/)\n"
@@ -409,10 +409,15 @@ msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
 msgstr "Verkleinen"
 
-#: view~dictionnary.digitizing.confirme.erase
-msgctxt "view~dictionnary.digitizing.confirme.erase"
+#: view~dictionnary.digitizing.confirm.erase
+msgctxt "view~dictionnary.digitizing.confirm.erase"
 msgid "Are you sure you want to delete this feature?"
 msgstr "Weet u zeker dat u deze functie wilt verwijderen?"
+
+#: view~dictionnary.digitizing.confirm.erase.all
+msgctxt "view~dictionnary.digitizing.confirm.erase.all"
+msgid "Are you sure you want to delete all features?"
+msgstr "Bent u zeker dat u alle features wil verwijderen?"
 
 #: view~dictionnary.digitizing.constraint.angle
 msgctxt "view~dictionnary.digitizing.constraint.angle"
@@ -472,6 +477,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.erase"
 msgid "Delete some features"
 msgstr "Verwijder enkele functies"
 
+#: view~dictionnary.digitizing.toolbar.erase.all
+msgctxt "view~dictionnary.digitizing.toolbar.erase.all"
+msgid "Delete all features"
+msgstr "Verwijder alle features"
+
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
 msgid "Free hand"
@@ -511,6 +521,16 @@ msgstr "Veelhoek"
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
 msgstr "Sla tekening op in de browser"
+
+#: view~dictionnary.digitizing.toolbar.save.remove
+msgctxt "view~dictionnary.digitizing.toolbar.save.remove"
+msgid "Remove draw from the browser"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.save.state
+msgctxt "view~dictionnary.digitizing.toolbar.save.state"
+msgid "The drawing changes will be saved in the browser"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -576,12 +596,12 @@ msgid ""
 " %s \n"
 "\n"
 "will be also deleted"
-msgstr ""
+msgstr "Weet u zeker dat u het geselecteerde element wilt verwijderen?\n\n De gerelateerde links met de volgende lagen: \n%s\n\n worden ook verwijderd"
 
 #: view~dictionnary.edition.confirm.pivot.unlink
 msgctxt "view~dictionnary.edition.confirm.pivot.unlink"
 msgid "Are you sure you want to unlink the selected feature from \"%l\" layer?"
-msgstr ""
+msgstr "Weet u zeker dat u het geselecteerde object wilt ontkoppelen van de laag \"%l\"?"
 
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
@@ -620,14 +640,14 @@ msgstr "Plak de geometrie"
 #: view~dictionnary.edition.link.pivot.add
 msgctxt "view~dictionnary.edition.link.pivot.add"
 msgid "The new record will be linked to the feature ID \"%f\" of \"%l\" layer"
-msgstr ""
+msgstr "Het nieuwe record zal worden gekoppeld aan de object-ID \"%f\" van laag \"%l\"."
 
 #: view~dictionnary.edition.message.error.fetch.form
 msgctxt "view~dictionnary.edition.message.error.fetch.form"
 msgid ""
 "Error while fetching the editing form for that layer. Please contact the "
 "system administrator."
-msgstr ""
+msgstr "Fout bij het ophalen van het bewerkingsformulier voor die laag. Neem contact op met de systeembeheerder."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -641,7 +661,7 @@ msgctxt "view~dictionnary.edition.message.error.send.feature"
 msgid ""
 "Error while saving the edited feature. Please contact the system "
 "administrator."
-msgstr ""
+msgstr "Fout bij het opslaan van het bewerkte object. Neem contact op met de systeembeheerder."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -709,6 +729,42 @@ msgstr "Geen resultaten"
 msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
 msgstr "Zoeken"
+
+#: view~dictionnary.featuresTable.item.active.hover
+msgctxt "view~dictionnary.featuresTable.item.active.hover"
+msgid ""
+"Click to close the feature information and go back to the list of features"
+msgstr ""
+
+#: view~dictionnary.featuresTable.item.draggable.dropped
+msgctxt "view~dictionnary.featuresTable.item.draggable.dropped"
+msgid "You have successfully moved this feature"
+msgstr ""
+
+#: view~dictionnary.featuresTable.item.draggable.hover
+msgctxt "view~dictionnary.featuresTable.item.draggable.hover"
+msgid "You can drag and drop the feature to move it above or below"
+msgstr ""
+
+#: view~dictionnary.featuresTable.item.hover
+msgctxt "view~dictionnary.featuresTable.item.hover"
+msgid "Click on the feature to display its detailed information"
+msgstr ""
+
+#: view~dictionnary.featuresTable.toolbar.close
+msgctxt "view~dictionnary.featuresTable.toolbar.close"
+msgid "Go back to the list of features"
+msgstr ""
+
+#: view~dictionnary.featuresTable.toolbar.next
+msgctxt "view~dictionnary.featuresTable.toolbar.next"
+msgid "Go to the next feature"
+msgstr ""
+
+#: view~dictionnary.featuresTable.toolbar.previous
+msgctxt "view~dictionnary.featuresTable.toolbar.previous"
+msgid "Go to the previous feature"
+msgstr ""
 
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"
@@ -1055,7 +1111,7 @@ msgctxt "view~dictionnary.print.error"
 msgid ""
 "The output is currently not available. Please contact the system "
 "administrator."
-msgstr ""
+msgstr "Fout bij het opslaan van het bewerkte object. Neem contact op met de systeembeheerder."
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"
@@ -1105,21 +1161,21 @@ msgstr "Schaal"
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
-msgstr ""
+msgstr "Alleen beheerders of uitgevers kunnen dit bericht zien."
 
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
 "be fixed."
-msgstr ""
+msgstr "Het project heeft enkele waarschuwingen in de plug-in Lizmap voor het bureaublad van QGIS die moeten worden opgelost."
 
 #: view~dictionnary.project.plugin.outdated.warning
 msgctxt "view~dictionnary.project.plugin.outdated.warning"
 msgid ""
 "The project has been recently updated in QGIS Desktop, but with an outdated "
 "version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
-msgstr ""
+msgstr "Het project is onlangs bijgewerkt in QGIS Desktop, maar met een verouderde versie van de plug-in Lizmap. U moet uw plug-in upgraden in QGIS Desktop."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1246,17 +1302,17 @@ msgctxt "view~dictionnary.snapping.list.disabled"
 msgid ""
 "This layer is hidden. Turn on the layer on the layer panel to toggle "
 "snapping on it"
-msgstr ""
+msgstr "Deze laag is verborgen. Schakel de laag in het lagenpaneel in om het klikken erop in of uit te schakelen"
 
 #: view~dictionnary.snapping.list.title
 msgctxt "view~dictionnary.snapping.list.title"
 msgid "Snap on"
-msgstr ""
+msgstr "Klik aan"
 
 #: view~dictionnary.snapping.list.toggle
 msgctxt "view~dictionnary.snapping.list.toggle"
 msgid "Toggle snapping for this layer"
-msgstr ""
+msgstr "Schakel het snappen voor deze laag in of uit"
 
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
@@ -1308,7 +1364,7 @@ msgstr "Stop"
 #: view~dictionnary.tooltip.loading.error
 msgctxt "view~dictionnary.tooltip.loading.error"
 msgid "An error prevented to load the tooltip data"
-msgstr ""
+msgstr "Een fout verhinderde het laden van de tooltipgegevens"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -1502,17 +1558,17 @@ msgstr "Geselecteerde functies zijn correct gekoppeld."
 #: view~edition.linkaddedfeature.error.linkfeature.association
 msgctxt "view~edition.linkaddedfeature.error.linkfeature.association"
 msgid "The association of the new \"%s\" feature to the \"%s\" layer has failed"
-msgstr ""
+msgstr "De koppeling van het nieuwe object \"%s\" aan de laag \"%s\" is mislukt"
 
 #: view~edition.linkaddedfeature.error.linkfeature.invalid.parameters
 msgctxt "view~edition.linkaddedfeature.error.linkfeature.invalid.parameters"
 msgid "Required parameter for link the new feature are invalid"
-msgstr ""
+msgstr "Vereiste parameter voor het koppelen van de nieuwe functie is ongeldig"
 
 #: view~edition.linkaddedfeature.success.linkfeature
 msgctxt "view~edition.linkaddedfeature.success.linkfeature"
 msgid "The new feature of layer \"%s\" was successfully linked to the layer \"%s\""
-msgstr ""
+msgstr "Het nieuwe kenmerk van laag \"%s\" is succesvol gekoppeld aan de laag \"%s\""
 
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"

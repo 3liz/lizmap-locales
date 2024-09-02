@@ -1,16 +1,16 @@
 # 
 # Translators:
-# Jiří Podhorecký, 2020
+# Jiří Podhorecký <jirka.p@volny.cz>, 2020
 # Jiří Sobotík <jiri.sobotik@centrum.cz>, 2018
-# Jiří Podhorecký, 2019-2020
-# Jiří Podhorecký, 2019
+# Jiří Podhorecký <jirka.p@volny.cz>, 2019-2020
+# Jiří Podhorecký <jirka.p@volny.cz>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 15:29++0200\n"
+"POT-Creation-Date: 2024-09-02 11:00++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: Jiří Podhorecký, 2019-2020\n"
+"Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2019-2020\n"
 "Language-Team: Czech (http://app.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -409,10 +409,15 @@ msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
 msgstr "Minimalizuj"
 
-#: view~dictionnary.digitizing.confirme.erase
-msgctxt "view~dictionnary.digitizing.confirme.erase"
+#: view~dictionnary.digitizing.confirm.erase
+msgctxt "view~dictionnary.digitizing.confirm.erase"
 msgid "Are you sure you want to delete this feature?"
 msgstr "Opravdu chcete smazat tuto funkci?"
+
+#: view~dictionnary.digitizing.confirm.erase.all
+msgctxt "view~dictionnary.digitizing.confirm.erase.all"
+msgid "Are you sure you want to delete all features?"
+msgstr "Opravdu chcete odstranit všechny funkce?"
 
 #: view~dictionnary.digitizing.constraint.angle
 msgctxt "view~dictionnary.digitizing.constraint.angle"
@@ -472,6 +477,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.erase"
 msgid "Delete some features"
 msgstr "Smazat některé funkce"
 
+#: view~dictionnary.digitizing.toolbar.erase.all
+msgctxt "view~dictionnary.digitizing.toolbar.erase.all"
+msgid "Delete all features"
+msgstr "Smazat všechny funkce"
+
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
 msgid "Free hand"
@@ -511,6 +521,16 @@ msgstr "Polygon"
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
 msgstr "Uložit kresbu v prohlížeči"
+
+#: view~dictionnary.digitizing.toolbar.save.remove
+msgctxt "view~dictionnary.digitizing.toolbar.save.remove"
+msgid "Remove draw from the browser"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.save.state
+msgctxt "view~dictionnary.digitizing.toolbar.save.state"
+msgid "The drawing changes will be saved in the browser"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -709,6 +729,42 @@ msgstr "Bez výsledku"
 msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
 msgstr "Vyhledávání"
+
+#: view~dictionnary.featuresTable.item.active.hover
+msgctxt "view~dictionnary.featuresTable.item.active.hover"
+msgid ""
+"Click to close the feature information and go back to the list of features"
+msgstr ""
+
+#: view~dictionnary.featuresTable.item.draggable.dropped
+msgctxt "view~dictionnary.featuresTable.item.draggable.dropped"
+msgid "You have successfully moved this feature"
+msgstr ""
+
+#: view~dictionnary.featuresTable.item.draggable.hover
+msgctxt "view~dictionnary.featuresTable.item.draggable.hover"
+msgid "You can drag and drop the feature to move it above or below"
+msgstr ""
+
+#: view~dictionnary.featuresTable.item.hover
+msgctxt "view~dictionnary.featuresTable.item.hover"
+msgid "Click on the feature to display its detailed information"
+msgstr ""
+
+#: view~dictionnary.featuresTable.toolbar.close
+msgctxt "view~dictionnary.featuresTable.toolbar.close"
+msgid "Go back to the list of features"
+msgstr ""
+
+#: view~dictionnary.featuresTable.toolbar.next
+msgctxt "view~dictionnary.featuresTable.toolbar.next"
+msgid "Go to the next feature"
+msgstr ""
+
+#: view~dictionnary.featuresTable.toolbar.previous
+msgctxt "view~dictionnary.featuresTable.toolbar.previous"
+msgid "Go to the previous feature"
+msgstr ""
 
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 15:29++0200\n"
+"POT-Creation-Date: 2024-09-02 11:00++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2016-2018,2020,2022-2024\n"
 "Language-Team: Portuguese (http://app.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
@@ -411,10 +411,15 @@ msgctxt "view~dictionnary.bottomdock.toolbar.btn.size.minimize.title"
 msgid "Minimize"
 msgstr "Minimizar"
 
-#: view~dictionnary.digitizing.confirme.erase
-msgctxt "view~dictionnary.digitizing.confirme.erase"
+#: view~dictionnary.digitizing.confirm.erase
+msgctxt "view~dictionnary.digitizing.confirm.erase"
 msgid "Are you sure you want to delete this feature?"
 msgstr "Tem a certeza que pretende eliminar este elemento?"
+
+#: view~dictionnary.digitizing.confirm.erase.all
+msgctxt "view~dictionnary.digitizing.confirm.erase.all"
+msgid "Are you sure you want to delete all features?"
+msgstr "Eliminar mesmo todos os elementos?"
 
 #: view~dictionnary.digitizing.constraint.angle
 msgctxt "view~dictionnary.digitizing.constraint.angle"
@@ -474,6 +479,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.erase"
 msgid "Delete some features"
 msgstr "Eliminar alguns elementos"
 
+#: view~dictionnary.digitizing.toolbar.erase.all
+msgctxt "view~dictionnary.digitizing.toolbar.erase.all"
+msgid "Delete all features"
+msgstr "Eliminar todos os elementos"
+
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
 msgid "Free hand"
@@ -513,6 +523,16 @@ msgstr "Polígono"
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
 msgstr "Guardar o desenho no browser"
+
+#: view~dictionnary.digitizing.toolbar.save.remove
+msgctxt "view~dictionnary.digitizing.toolbar.save.remove"
+msgid "Remove draw from the browser"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.save.state
+msgctxt "view~dictionnary.digitizing.toolbar.save.state"
+msgid "The drawing changes will be saved in the browser"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -629,7 +649,7 @@ msgctxt "view~dictionnary.edition.message.error.fetch.form"
 msgid ""
 "Error while fetching the editing form for that layer. Please contact the "
 "system administrator."
-msgstr ""
+msgstr "Erro ao procurar o formulário de edição dessa camada. Contactar o administrador do sistema."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -643,7 +663,7 @@ msgctxt "view~dictionnary.edition.message.error.send.feature"
 msgid ""
 "Error while saving the edited feature. Please contact the system "
 "administrator."
-msgstr ""
+msgstr "Erro ao guardar o elemento editado. Contactar o administrador do sistema."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -711,6 +731,42 @@ msgstr "Sem resultados"
 msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
 msgstr "A procurar"
+
+#: view~dictionnary.featuresTable.item.active.hover
+msgctxt "view~dictionnary.featuresTable.item.active.hover"
+msgid ""
+"Click to close the feature information and go back to the list of features"
+msgstr ""
+
+#: view~dictionnary.featuresTable.item.draggable.dropped
+msgctxt "view~dictionnary.featuresTable.item.draggable.dropped"
+msgid "You have successfully moved this feature"
+msgstr ""
+
+#: view~dictionnary.featuresTable.item.draggable.hover
+msgctxt "view~dictionnary.featuresTable.item.draggable.hover"
+msgid "You can drag and drop the feature to move it above or below"
+msgstr ""
+
+#: view~dictionnary.featuresTable.item.hover
+msgctxt "view~dictionnary.featuresTable.item.hover"
+msgid "Click on the feature to display its detailed information"
+msgstr ""
+
+#: view~dictionnary.featuresTable.toolbar.close
+msgctxt "view~dictionnary.featuresTable.toolbar.close"
+msgid "Go back to the list of features"
+msgstr ""
+
+#: view~dictionnary.featuresTable.toolbar.next
+msgctxt "view~dictionnary.featuresTable.toolbar.next"
+msgid "Go to the next feature"
+msgstr ""
+
+#: view~dictionnary.featuresTable.toolbar.previous
+msgctxt "view~dictionnary.featuresTable.toolbar.previous"
+msgid "Go to the previous feature"
+msgstr ""
 
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"
@@ -1057,7 +1113,7 @@ msgctxt "view~dictionnary.print.error"
 msgid ""
 "The output is currently not available. Please contact the system "
 "administrator."
-msgstr ""
+msgstr "A saída não está disponível no momento. Contactar o administrador do sistema."
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"
@@ -1107,21 +1163,21 @@ msgstr "Escala"
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
-msgstr ""
+msgstr "Apenas os administradores ou editores podem visualizar esta mensagem."
 
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
 "be fixed."
-msgstr ""
+msgstr "O projeto tem alguns avisos no plugin Lizmap do QGIS Desktop que devem ser corrigidos."
 
 #: view~dictionnary.project.plugin.outdated.warning
 msgctxt "view~dictionnary.project.plugin.outdated.warning"
 msgid ""
 "The project has been recently updated in QGIS Desktop, but with an outdated "
 "version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
-msgstr ""
+msgstr "O projeto foi atualizado recentemente no QGIS Desktop, mas com uma versão desatualizada do plugin Lizmap. O plugin deverá ser atualizado no QGIS Desktop."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1310,7 +1366,7 @@ msgstr "Parar"
 #: view~dictionnary.tooltip.loading.error
 msgctxt "view~dictionnary.tooltip.loading.error"
 msgid "An error prevented to load the tooltip data"
-msgstr ""
+msgstr "Um erro impediu o carregamento dos dados para a ferramenta de dicas do mapa"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
