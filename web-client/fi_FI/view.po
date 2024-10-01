@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-01 12:09++0200\n"
+"POT-Creation-Date: 2024-09-30 14:44++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2024\n"
 "Language-Team: Finnish (https://app.transifex.com/3liz-1/teams/62012/fi/)\n"
@@ -1329,9 +1329,40 @@ msgid ""
 "temporarily be unavailable. Please try again later."
 msgstr ""
 
+#: view~dictionnary.startup.error.administrator
+msgctxt "view~dictionnary.startup.error.administrator"
+msgid ""
+"Please notify the administrator of this map to <strong>connect</strong> and "
+"<strong>visit</strong> this map."
+msgstr ""
+
+#: view~dictionnary.startup.error.developer.tools
+msgctxt "view~dictionnary.startup.error.developer.tools"
+msgid ""
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
+"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+msgstr ""
+
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
-msgid "Go back to the home page."
+msgid "Home"
+msgstr "Alku"
+
+#: view~dictionnary.startup.goToRepositoryAdmin
+msgctxt "view~dictionnary.startup.goToRepositoryAdmin"
+msgid "Maps management page"
+msgstr ""
+
+#: view~dictionnary.startup.projectWithoutJSLink
+msgctxt "view~dictionnary.startup.projectWithoutJSLink"
+msgid "This map without additional JavaScript"
+msgstr ""
+
+#: view~dictionnary.startup.user_defined_js
+msgctxt "view~dictionnary.startup.user_defined_js"
+msgid ""
+"This map contains some users additional JavaScript scripts. This can be the "
+"cause of this message, try disabling them."
 msgstr ""
 
 #: view~dictionnary.switcher.layer.export.title

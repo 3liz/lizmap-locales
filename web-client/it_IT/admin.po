@@ -4,20 +4,20 @@
 # Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2024
 # Laurent Jouanneau <dev@ljouanneau.com>, 2024
 # Roberto Marzocchi <roberto.marzocchi@gter.it>, 2024
-# marcobra <marcobra.ubuntu@gmail.com>, 2024
 # Stefano Campus <skampus@gmail.com>, 2024
-# rldhont <rldhont@gmail.com>, 2024
+# marcobra <marcobra.ubuntu@gmail.com>, 2024
 # Ulisse Cavallini <github@cavallini.anonaddy.com>, 2024
-# Alessandro Fanna <alex@rospus.org>, 2024
 # Paolo Cavallini <cavallini@faunalia.it>, 2024
+# Alessandro Fanna <alex@rospus.org>, 2024
+# rldhont <rldhont@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-17 15:05++0000\n"
+"POT-Creation-Date: 2024-09-30 14:44++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
-"Last-Translator: Paolo Cavallini <cavallini@faunalia.it>, 2024\n"
+"Last-Translator: rldhont <rldhont@gmail.com>, 2024\n"
 "Language-Team: Italian (https://app.transifex.com/3liz-1/teams/62012/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1290,13 +1290,13 @@ msgstr ""
 
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
-msgid "Layers"
-msgstr "Layer"
+msgid "Layers/Groups"
+msgstr ""
 
 #: admin~admin.project.list.column.layers.count.label.longer
 msgctxt "admin~admin.project.list.column.layers.count.label.longer"
-msgid "Layer count"
-msgstr "Conteggio dei layer"
+msgid "Layer and group count"
+msgstr ""
 
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
@@ -1560,8 +1560,8 @@ msgstr ""
 
 #: admin~admin.project.rules.list.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
-msgid "The count is greater or equal to <strong>%s</strong> layers."
-msgstr "Il conteggio è maggiore o uguale a <strong>%s</strong> layer."
+msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
+msgstr ""
 
 #: admin~admin.project.rules.list.introduction
 msgctxt "admin~admin.project.rules.list.introduction"
@@ -1610,8 +1610,8 @@ msgstr "Il progetto è stato creato per Lizmap Web Client <strong>%s</strong>."
 
 #: admin~admin.project.rules.list.very.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
-msgid "The count is greater or equal to <strong>%s</strong> layers."
-msgstr "Il conteggio è maggiore o uguale a <strong>%s</strong> layer."
+msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
+msgstr ""
 
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
@@ -1673,10 +1673,30 @@ msgctxt "admin~admin.server.information.lizmap.url"
 msgid "URL in the QGIS desktop plugin"
 msgstr "URL per il plugin di QGIS desktop"
 
+#: admin~admin.server.information.module
+msgctxt "admin~admin.server.information.module"
+msgid "Module"
+msgstr ""
+
+#: admin~admin.server.information.module.version
+msgctxt "admin~admin.server.information.module.version"
+msgid "Version"
+msgstr "Versione"
+
+#: admin~admin.server.information.modules
+msgctxt "admin~admin.server.information.modules"
+msgid "Modules"
+msgstr ""
+
+#: admin~admin.server.information.no.module
+msgctxt "admin~admin.server.information.no.module"
+msgid "No module installed"
+msgstr ""
+
 #: admin~admin.server.information.plugin.update
 msgctxt "admin~admin.server.information.plugin.update"
-msgid "The %s plugin needs to be updated."
-msgstr "Il plugin %s deve essere aggiornato."
+msgid "The plugin must be updated."
+msgstr ""
 
 #: admin~admin.server.information.qgis.action
 msgctxt "admin~admin.server.information.qgis.action"
@@ -1805,10 +1825,10 @@ msgctxt "admin~admin.server.information.qgis.plugin"
 msgid "Plugin"
 msgstr "Plugin"
 
-#: admin~admin.server.information.qgis.plugin.action
-msgctxt "admin~admin.server.information.qgis.plugin.action"
-msgid "Action"
-msgstr "Azione"
+#: admin~admin.server.information.qgis.plugin.help
+msgctxt "admin~admin.server.information.qgis.plugin.help"
+msgid "Help"
+msgstr "Aiuto"
 
 #: admin~admin.server.information.qgis.plugin.version
 msgctxt "admin~admin.server.information.qgis.plugin.version"
@@ -1868,11 +1888,6 @@ msgstr ""
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Numero"
-
-#: admin~admin.server.information.webdav.url
-msgctxt "admin~admin.server.information.webdav.url"
-msgid "URL of the WebDAV server"
-msgstr "URL del server WebDAV"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"

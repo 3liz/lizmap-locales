@@ -3,21 +3,21 @@
 # Fabio Pifferini <fabio.pifferini@masotti.ch>, 2024
 # Laurent Jouanneau <dev@ljouanneau.com>, 2024
 # Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2024
-# Marco Cassola <cassolamrc@gmail.com>, 2024
 # Alessandro Fanna <alex@rospus.org>, 2024
 # rldhont <rldhont@gmail.com>, 2024
 # marcobra <marcobra.ubuntu@gmail.com>, 2024
 # Ulisse Cavallini <github@cavallini.anonaddy.com>, 2024
 # Paolo Cavallini <cavallini@faunalia.it>, 2024
 # Stefano Campus <skampus@gmail.com>, 2024
+# Marco Cassola <cassolamrc@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-01 12:09++0200\n"
+"POT-Creation-Date: 2024-09-30 14:44++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
-"Last-Translator: Stefano Campus <skampus@gmail.com>, 2024\n"
+"Last-Translator: Marco Cassola <cassolamrc@gmail.com>, 2024\n"
 "Language-Team: Italian (https://app.transifex.com/3liz-1/teams/62012/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1381,10 +1381,41 @@ msgstr ""
 "Si è verificato un errore durante il caricamento della mappa. Alcune risorse"
 " potrebbero essere temporaneamente non disponibili. Riprova più tardi."
 
+#: view~dictionnary.startup.error.administrator
+msgctxt "view~dictionnary.startup.error.administrator"
+msgid ""
+"Please notify the administrator of this map to <strong>connect</strong> and "
+"<strong>visit</strong> this map."
+msgstr ""
+
+#: view~dictionnary.startup.error.developer.tools
+msgctxt "view~dictionnary.startup.error.developer.tools"
+msgid ""
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
+"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+msgstr ""
+
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
-msgid "Go back to the home page."
-msgstr "Torna alla pagina iniziale."
+msgid "Home"
+msgstr "Home"
+
+#: view~dictionnary.startup.goToRepositoryAdmin
+msgctxt "view~dictionnary.startup.goToRepositoryAdmin"
+msgid "Maps management page"
+msgstr ""
+
+#: view~dictionnary.startup.projectWithoutJSLink
+msgctxt "view~dictionnary.startup.projectWithoutJSLink"
+msgid "This map without additional JavaScript"
+msgstr ""
+
+#: view~dictionnary.startup.user_defined_js
+msgctxt "view~dictionnary.startup.user_defined_js"
+msgid ""
+"This map contains some users additional JavaScript scripts. This can be the "
+"cause of this message, try disabling them."
+msgstr ""
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"

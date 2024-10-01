@@ -6,16 +6,16 @@
 # Jean-Louis Stanus <rammstan@msn.com>, 2024
 # Hidde Wieringa <hidde@hiddewieringa.nl>, 2024
 # Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2024
-# Nico Veenstra <nvbgm@gmx.net>, 2024
 # t j, 2024
+# Nico Veenstra <nvbgm@gmx.net>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-01 12:09++0200\n"
+"POT-Creation-Date: 2024-09-30 14:44++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
-"Last-Translator: t j, 2024\n"
+"Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/3liz-1/teams/62012/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1391,10 +1391,41 @@ msgstr ""
 "Een fout is opgetreden tijdens het laden van de kaart. Sommige inhoud zou "
 "tijdelijk onbeschikbaar kunnen zijn. Probeer later opnieuw."
 
+#: view~dictionnary.startup.error.administrator
+msgctxt "view~dictionnary.startup.error.administrator"
+msgid ""
+"Please notify the administrator of this map to <strong>connect</strong> and "
+"<strong>visit</strong> this map."
+msgstr ""
+
+#: view~dictionnary.startup.error.developer.tools
+msgctxt "view~dictionnary.startup.error.developer.tools"
+msgid ""
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
+"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+msgstr ""
+
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
-msgid "Go back to the home page."
-msgstr "Ga terug naar de thuispagina."
+msgid "Home"
+msgstr "Home"
+
+#: view~dictionnary.startup.goToRepositoryAdmin
+msgctxt "view~dictionnary.startup.goToRepositoryAdmin"
+msgid "Maps management page"
+msgstr ""
+
+#: view~dictionnary.startup.projectWithoutJSLink
+msgctxt "view~dictionnary.startup.projectWithoutJSLink"
+msgid "This map without additional JavaScript"
+msgstr ""
+
+#: view~dictionnary.startup.user_defined_js
+msgctxt "view~dictionnary.startup.user_defined_js"
+msgid ""
+"This map contains some users additional JavaScript scripts. This can be the "
+"cause of this message, try disabling them."
+msgstr ""
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
