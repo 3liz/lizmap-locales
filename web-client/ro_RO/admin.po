@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-01 11:33++0200\n"
+"POT-Creation-Date: 2024-09-30 14:43++0000\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2024\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -1253,13 +1253,13 @@ msgstr ""
 
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
-msgid "Layers"
-msgstr "Straturi"
+msgid "Layers/Groups"
+msgstr "Straturi/Grupuri"
 
 #: admin~admin.project.list.column.layers.count.label.longer
 msgctxt "admin~admin.project.list.column.layers.count.label.longer"
-msgid "Layer count"
-msgstr "Cantitate straturi"
+msgid "Layer and group count"
+msgstr "Cantitatea de straturi și grupuri"
 
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
@@ -1525,8 +1525,9 @@ msgstr ""
 
 #: admin~admin.project.rules.list.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
-msgid "The count is greater or equal to <strong>%s</strong> layers."
-msgstr "Cantitatea este mai mare sau egală cu <strong>%s</strong> straturi."
+msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
+msgstr ""
+"Cantitatea este mai mare sau egală cu <strong>%s</strong> straturi/grupuri."
 
 #: admin~admin.project.rules.list.introduction
 msgctxt "admin~admin.project.rules.list.introduction"
@@ -1577,8 +1578,9 @@ msgstr "Proiectul este conceput pentru Lizmap Web Client <strong>%s</strong>."
 
 #: admin~admin.project.rules.list.very.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
-msgid "The count is greater or equal to <strong>%s</strong> layers."
-msgstr "Cantitatea este mai mare sau egală cu <strong>%s</strong> straturi."
+msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
+msgstr ""
+"Cantitatea este mai mare sau egală cu <strong>%s</strong> straturi/grupuri."
 
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
@@ -2009,8 +2011,8 @@ msgstr "Folosește unealta editare"
 
 #: admin~jacl2.lizmap.tools.layer.export
 msgctxt "admin~jacl2.lizmap.tools.layer.export"
-msgid "Allow export of layers"
-msgstr "Permite exportul de straturi"
+msgid "Allow export of vector layers"
+msgstr "Permite exportul straturilor vectoriale"
 
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"

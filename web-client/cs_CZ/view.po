@@ -3,15 +3,15 @@
 # Laurent Jouanneau <dev@ljouanneau.com>, 2023
 # rldhont <rldhont@gmail.com>, 2023
 # Jiří Sobotík <jiri.sobotik@centrum.cz>, 2023
-# Jiří Podhorecký, 2023
+# Jiří Podhorecký <jirka.p@volny.cz>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-01 11:33++0200\n"
+"POT-Creation-Date: 2024-09-30 14:43++0000\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
-"Last-Translator: Jiří Podhorecký, 2023\n"
+"Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2024\n"
 "Language-Team: Czech (https://app.transifex.com/3liz-1/teams/62012/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -627,6 +627,8 @@ msgid ""
 "Error while fetching the editing form for that layer. Please contact the "
 "system administrator."
 msgstr ""
+"Chyba při načítání editačního formuláře pro tuto vrstvu. Obraťte se na "
+"správce systému."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -642,6 +644,7 @@ msgid ""
 "Error while saving the edited feature. Please contact the system "
 "administrator."
 msgstr ""
+"Chyba při ukládání upraveného prvku. Kontaktujte prosím správce systému."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -1018,6 +1021,7 @@ msgid ""
 "The output is currently not available. Please contact the system "
 "administrator."
 msgstr ""
+"Výstup momentálně není k dispozici. Kontaktujte prosím správce systému."
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"
@@ -1067,7 +1071,7 @@ msgstr "Měřítko"
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
-msgstr ""
+msgstr "Tuto zprávu mohou zobrazit pouze administrátoři nebo vydavatelé."
 
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
@@ -1075,6 +1079,8 @@ msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
 "be fixed."
 msgstr ""
+"Projekt má některá varování v QGIS desktopovém pluginu Lizmap, která musí "
+"být opravena."
 
 #: view~dictionnary.project.plugin.outdated.warning
 msgctxt "view~dictionnary.project.plugin.outdated.warning"
@@ -1082,6 +1088,8 @@ msgid ""
 "The project has been recently updated in QGIS Desktop, but with an outdated "
 "version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
 msgstr ""
+"Projekt byl nedávno aktualizován v QGIS Desktop, ale se zastaralou verzí "
+"pluginu Lizmap. Musíte upgradovat svůj plugin v QGIS Desktop."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1222,6 +1230,25 @@ msgctxt "view~dictionnary.startup.goToProject"
 msgid "Go back to the home page."
 msgstr "Vraťte se na domovskou stránku."
 
+#: view~dictionnary.startup.goToRepositoryAdmin
+msgctxt "view~dictionnary.startup.goToRepositoryAdmin"
+msgid "Go to maps management page"
+msgstr "Přejít na stránku správy map"
+
+#: view~dictionnary.startup.projectWithoutJSLink
+msgctxt "view~dictionnary.startup.projectWithoutJSLink"
+msgid "Project with user's scripts disabled"
+msgstr "Projekt s vypnutými uživatelskými skripty"
+
+#: view~dictionnary.startup.user_defined_js
+msgctxt "view~dictionnary.startup.user_defined_js"
+msgid ""
+"There's some user defined JavaScript scripts, that can be the cause of this "
+"message, try disabling them."
+msgstr ""
+"Příčinou této zprávy mohou být skripty JavaScriptu definované uživatelem, "
+"zkuste je zakázat."
+
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
@@ -1285,7 +1312,7 @@ msgstr "Odstranit mezipaměť serveru pro tuto vrstvu?"
 #: view~dictionnary.visit.admin.panel.project.page
 msgctxt "view~dictionnary.visit.admin.panel.project.page"
 msgid "Visit the QGIS project page in the administration panel."
-msgstr ""
+msgstr "Navštivte stránku projektu QGIS v administračním panelu."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
