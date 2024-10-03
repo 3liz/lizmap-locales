@@ -1,5 +1,6 @@
 # 
 # Translators:
+# Jiří Podhorecký <jirka.p@volny.cz>, 2024
 # Jiří Podhorecký <jirka.p@volny.cz>, 2020
 # Jiří Sobotík <jiri.sobotik@centrum.cz>, 2018
 # Jiří Podhorecký <jirka.p@volny.cz>, 2019-2020
@@ -8,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-02 11:00++0200\n"
+"POT-Creation-Date: 2024-09-30 14:45++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2019-2020\n"
+"Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2024\n"
 "Language-Team: Czech (http://app.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -489,8 +490,8 @@ msgstr "Od ruky"
 
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
-msgid "Import in GeoJSON, GPX or KML"
-msgstr "Importovat v GeoJSON, GPX nebo KML"
+msgid "Import in GeoJSON, GPX, KML or zipped Shapefile"
+msgstr "Import ve formátu GeoJSON, GPX, KML nebo zazipovaném souboru Shapefile"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -525,12 +526,12 @@ msgstr "Uložit kresbu v prohlížeči"
 #: view~dictionnary.digitizing.toolbar.save.remove
 msgctxt "view~dictionnary.digitizing.toolbar.save.remove"
 msgid "Remove draw from the browser"
-msgstr ""
+msgstr "Odebrat zákres z prohlížeče"
 
 #: view~dictionnary.digitizing.toolbar.save.state
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
-msgstr ""
+msgstr "Změny zákresu se uloží do prohlížeče"
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -596,12 +597,12 @@ msgid ""
 " %s \n"
 "\n"
 "will be also deleted"
-msgstr ""
+msgstr "Opravdu chcete smazat vybranou funkci?\n\nSouvisející odkazy s následujícími vrstvami:\n%s\n\nbude také smazána"
 
 #: view~dictionnary.edition.confirm.pivot.unlink
 msgctxt "view~dictionnary.edition.confirm.pivot.unlink"
 msgid "Are you sure you want to unlink the selected feature from \"%l\" layer?"
-msgstr ""
+msgstr "Opravdu chcete zrušit propojení vybraného prvku s vrstvou \"%l\"?"
 
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
@@ -640,14 +641,14 @@ msgstr "Vložte geometrii"
 #: view~dictionnary.edition.link.pivot.add
 msgctxt "view~dictionnary.edition.link.pivot.add"
 msgid "The new record will be linked to the feature ID \"%f\" of \"%l\" layer"
-msgstr ""
+msgstr "Nový záznam bude propojen s ID prvku \"%f\" vrstvy \"%l\"."
 
 #: view~dictionnary.edition.message.error.fetch.form
 msgctxt "view~dictionnary.edition.message.error.fetch.form"
 msgid ""
 "Error while fetching the editing form for that layer. Please contact the "
 "system administrator."
-msgstr ""
+msgstr "Chyba při načítání editačního formuláře pro tuto vrstvu. Obraťte se na správce systému."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -661,7 +662,7 @@ msgctxt "view~dictionnary.edition.message.error.send.feature"
 msgid ""
 "Error while saving the edited feature. Please contact the system "
 "administrator."
-msgstr ""
+msgstr "Chyba při ukládání upraveného prvku. Kontaktujte prosím správce systému."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -734,37 +735,37 @@ msgstr "Vyhledávání"
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
 msgid ""
 "Click to close the feature information and go back to the list of features"
-msgstr ""
+msgstr "Kliknutím zavřete informace o funkci a vrátíte se zpět na seznam funkcí"
 
 #: view~dictionnary.featuresTable.item.draggable.dropped
 msgctxt "view~dictionnary.featuresTable.item.draggable.dropped"
 msgid "You have successfully moved this feature"
-msgstr ""
+msgstr "Úspěšně jste přesunuli tuto funkci"
 
 #: view~dictionnary.featuresTable.item.draggable.hover
 msgctxt "view~dictionnary.featuresTable.item.draggable.hover"
 msgid "You can drag and drop the feature to move it above or below"
-msgstr ""
+msgstr "Prvek můžete přetáhnout a přesunout nad nebo pod"
 
 #: view~dictionnary.featuresTable.item.hover
 msgctxt "view~dictionnary.featuresTable.item.hover"
 msgid "Click on the feature to display its detailed information"
-msgstr ""
+msgstr "Kliknutím na funkci zobrazíte její podrobné informace"
 
 #: view~dictionnary.featuresTable.toolbar.close
 msgctxt "view~dictionnary.featuresTable.toolbar.close"
 msgid "Go back to the list of features"
-msgstr ""
+msgstr "Přejděte zpět na seznam funkcí"
 
 #: view~dictionnary.featuresTable.toolbar.next
 msgctxt "view~dictionnary.featuresTable.toolbar.next"
 msgid "Go to the next feature"
-msgstr ""
+msgstr "Přejděte na další funkci"
 
 #: view~dictionnary.featuresTable.toolbar.previous
 msgctxt "view~dictionnary.featuresTable.toolbar.previous"
 msgid "Go to the previous feature"
-msgstr ""
+msgstr "Přejděte na předchozí funkci"
 
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"
@@ -1111,7 +1112,7 @@ msgctxt "view~dictionnary.print.error"
 msgid ""
 "The output is currently not available. Please contact the system "
 "administrator."
-msgstr ""
+msgstr "Výstup momentálně není k dispozici. Kontaktujte prosím správce systému."
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"
@@ -1161,21 +1162,21 @@ msgstr "Měřítko"
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
-msgstr ""
+msgstr "Tuto zprávu mohou zobrazit pouze administrátoři nebo vydavatelé."
 
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
 "be fixed."
-msgstr ""
+msgstr "Projekt má některá varování v QGIS desktopovém pluginu Lizmap, která musí být opravena."
 
 #: view~dictionnary.project.plugin.outdated.warning
 msgctxt "view~dictionnary.project.plugin.outdated.warning"
 msgid ""
 "The project has been recently updated in QGIS Desktop, but with an outdated "
 "version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
-msgstr ""
+msgstr "Projekt byl nedávno aktualizován v QGIS Desktop, ale se zastaralou verzí pluginu Lizmap. Musíte upgradovat svůj plugin v QGIS Desktop."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1302,7 +1303,7 @@ msgctxt "view~dictionnary.snapping.list.disabled"
 msgid ""
 "This layer is hidden. Turn on the layer on the layer panel to toggle "
 "snapping on it"
-msgstr ""
+msgstr "Tato vrstva je skrytá. Zapnutím vrstvy na panelu vrstvy přepnete přichycení k ní"
 
 #: view~dictionnary.snapping.list.title
 msgctxt "view~dictionnary.snapping.list.title"
@@ -1312,7 +1313,7 @@ msgstr "Přichytit"
 #: view~dictionnary.snapping.list.toggle
 msgctxt "view~dictionnary.snapping.list.toggle"
 msgid "Toggle snapping for this layer"
-msgstr ""
+msgstr "Přepněte u této vrstvy přichycení"
 
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
@@ -1326,10 +1327,41 @@ msgid ""
 "temporarily be unavailable. Please try again later."
 msgstr "Nastala chyba při načítání této mapy. Některé nezbytné zdroje mohou být dočasně nedostupné. Zkuste to prosím později znovu."
 
+#: view~dictionnary.startup.error.administrator
+msgctxt "view~dictionnary.startup.error.administrator"
+msgid ""
+"Please notify the administrator of this map to <strong>connect</strong> and "
+"<strong>visit</strong> this map."
+msgstr "Upozorněte prosím správce této mapy, aby se <strong>připojil</strong> a <strong>navštívil</strong> tuto mapu."
+
+#: view~dictionnary.startup.error.developer.tools
+msgctxt "view~dictionnary.startup.error.developer.tools"
+msgid ""
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
+"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+msgstr "Možná vám napoví otevření \"Nástrojů pro vývojáře\" ve webovém prohlížeči. Obvykle je to klávesa <kbd>F12</kbd>. Zkontrolujte \"Console\" a \"Networks\"."
+
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
-msgid "Go back to the home page."
-msgstr "Vraťte se na domovskou stránku."
+msgid "Home"
+msgstr "Úvodní strana"
+
+#: view~dictionnary.startup.goToRepositoryAdmin
+msgctxt "view~dictionnary.startup.goToRepositoryAdmin"
+msgid "Maps management page"
+msgstr "Stránka pro správu map"
+
+#: view~dictionnary.startup.projectWithoutJSLink
+msgctxt "view~dictionnary.startup.projectWithoutJSLink"
+msgid "This map without additional JavaScript"
+msgstr "Tato mapa bez dalšího JavaScriptu"
+
+#: view~dictionnary.startup.user_defined_js
+msgctxt "view~dictionnary.startup.user_defined_js"
+msgid ""
+"This map contains some users additional JavaScript scripts. This can be the "
+"cause of this message, try disabling them."
+msgstr "Tato mapa obsahuje některé uživatelské skripty JavaScriptu navíc. To může být příčinou této zprávy, zkuste je vypnout."
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -1364,7 +1396,7 @@ msgstr "Stop"
 #: view~dictionnary.tooltip.loading.error
 msgctxt "view~dictionnary.tooltip.loading.error"
 msgid "An error prevented to load the tooltip data"
-msgstr ""
+msgstr "Při načítání dat popisku nedošlo k chybě"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -1399,7 +1431,7 @@ msgstr "Odstranit mezipaměť serveru pro tuto vrstvu?"
 #: view~dictionnary.visit.admin.panel.project.page
 msgctxt "view~dictionnary.visit.admin.panel.project.page"
 msgid "Visit the QGIS project page in the administration panel."
-msgstr ""
+msgstr "Navštivte stránku projektu QGIS v administračním panelu."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
@@ -1558,17 +1590,17 @@ msgstr "Vybrané funkce byly správně propojeny."
 #: view~edition.linkaddedfeature.error.linkfeature.association
 msgctxt "view~edition.linkaddedfeature.error.linkfeature.association"
 msgid "The association of the new \"%s\" feature to the \"%s\" layer has failed"
-msgstr ""
+msgstr "Přidružení nového prvku „%s“ k vrstvě „%s“ se nezdařilo"
 
 #: view~edition.linkaddedfeature.error.linkfeature.invalid.parameters
 msgctxt "view~edition.linkaddedfeature.error.linkfeature.invalid.parameters"
 msgid "Required parameter for link the new feature are invalid"
-msgstr ""
+msgstr "Požadovaný parametr pro odkaz na novou funkci je neplatný"
 
 #: view~edition.linkaddedfeature.success.linkfeature
 msgctxt "view~edition.linkaddedfeature.success.linkfeature"
 msgid "The new feature of layer \"%s\" was successfully linked to the layer \"%s\""
-msgstr ""
+msgstr "Nový prvek vrstvy \"%s\" byl úspěšně propojen s vrstvou \"%s\""
 
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"

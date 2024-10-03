@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-02 11:00++0200\n"
+"POT-Creation-Date: 2024-09-30 14:45++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2017-2020,2022-2024\n"
 "Language-Team: Portuguese (http://app.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
@@ -1208,13 +1208,13 @@ msgstr "Este projeto contém um grande número de camadas. O desempenho pode ser
 
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
-msgid "Layers"
-msgstr "Camadas"
+msgid "Layers/Groups"
+msgstr ""
 
 #: admin~admin.project.list.column.layers.count.label.longer
 msgctxt "admin~admin.project.list.column.layers.count.label.longer"
-msgid "Layer count"
-msgstr "Contagem de camadas"
+msgid "Layer and group count"
+msgstr ""
 
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
@@ -1447,8 +1447,8 @@ msgstr "O projeto necessita mais de <strong>%s</strong> MB de memória do servid
 
 #: admin~admin.project.rules.list.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
-msgid "The count is greater or equal to <strong>%s</strong> layers."
-msgstr "A quantidade é maior ou igual a <strong>%s</strong> camadas."
+msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
+msgstr ""
 
 #: admin~admin.project.rules.list.introduction
 msgctxt "admin~admin.project.rules.list.introduction"
@@ -1490,8 +1490,8 @@ msgstr "O projeto foi desenhado para a versão do Lizmap Web Client <strong>%s</
 
 #: admin~admin.project.rules.list.very.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
-msgid "The count is greater or equal to <strong>%s</strong> layers."
-msgstr "A quantidade é maior ou igual a <strong>%s</strong> camadas."
+msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
+msgstr ""
 
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
@@ -1528,7 +1528,7 @@ msgstr "Informação"
 #: admin~admin.server.information.lizmap.info.date
 msgctxt "admin~admin.server.information.lizmap.info.date"
 msgid "Date of release"
-msgstr ""
+msgstr "Data da versão"
 
 #: admin~admin.server.information.lizmap.info.version
 msgctxt "admin~admin.server.information.lizmap.info.version"
@@ -1545,10 +1545,30 @@ msgctxt "admin~admin.server.information.lizmap.url"
 msgid "URL in the QGIS desktop plugin"
 msgstr "URL no plugin do QGIS Desktop"
 
+#: admin~admin.server.information.module
+msgctxt "admin~admin.server.information.module"
+msgid "Module"
+msgstr ""
+
+#: admin~admin.server.information.module.version
+msgctxt "admin~admin.server.information.module.version"
+msgid "Version"
+msgstr "Versão"
+
+#: admin~admin.server.information.modules
+msgctxt "admin~admin.server.information.modules"
+msgid "Modules"
+msgstr ""
+
+#: admin~admin.server.information.no.module
+msgctxt "admin~admin.server.information.no.module"
+msgid "No module installed"
+msgstr ""
+
 #: admin~admin.server.information.plugin.update
 msgctxt "admin~admin.server.information.plugin.update"
-msgid "The %s plugin needs to be updated."
-msgstr "O plugin %s necessita de ser atualizado."
+msgid "The plugin must be updated."
+msgstr ""
 
 #: admin~admin.server.information.qgis.action
 msgctxt "admin~admin.server.information.qgis.action"
@@ -1660,10 +1680,10 @@ msgctxt "admin~admin.server.information.qgis.plugin"
 msgid "Plugin"
 msgstr "Plugin"
 
-#: admin~admin.server.information.qgis.plugin.action
-msgctxt "admin~admin.server.information.qgis.plugin.action"
-msgid "Action"
-msgstr "Ação"
+#: admin~admin.server.information.qgis.plugin.help
+msgctxt "admin~admin.server.information.qgis.plugin.help"
+msgid "Help"
+msgstr "Ajuda"
 
 #: admin~admin.server.information.qgis.plugin.version
 msgctxt "admin~admin.server.information.qgis.plugin.version"
@@ -1713,11 +1733,6 @@ msgstr "O QGIS Server necessita de ser atualizado pelo menos para a versão %s  
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Número"
-
-#: admin~admin.server.information.webdav.url
-msgctxt "admin~admin.server.information.webdav.url"
-msgid "URL of the WebDAV server"
-msgstr "URL do servidor WebDAV"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
@@ -1886,8 +1901,8 @@ msgstr "Utilizar a ferramenta de Edição"
 
 #: admin~jacl2.lizmap.tools.layer.export
 msgctxt "admin~jacl2.lizmap.tools.layer.export"
-msgid "Allow export of layers"
-msgstr "Permitir exportação de camadas"
+msgid "Allow export of vector layers"
+msgstr "Permitir a exportação de camadas vetoriais"
 
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"

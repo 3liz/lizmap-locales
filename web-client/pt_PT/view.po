@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-02 11:00++0200\n"
+"POT-Creation-Date: 2024-09-30 14:45++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2016-2018,2020,2022-2024\n"
 "Language-Team: Portuguese (http://app.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
@@ -491,8 +491,8 @@ msgstr "Mão livre"
 
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
-msgid "Import in GeoJSON, GPX or KML"
-msgstr "Importar GeoJSON, GPX ou KML"
+msgid "Import in GeoJSON, GPX, KML or zipped Shapefile"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -527,12 +527,12 @@ msgstr "Guardar o desenho no browser"
 #: view~dictionnary.digitizing.toolbar.save.remove
 msgctxt "view~dictionnary.digitizing.toolbar.save.remove"
 msgid "Remove draw from the browser"
-msgstr ""
+msgstr "Remover o desenho do browser"
 
 #: view~dictionnary.digitizing.toolbar.save.state
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
-msgstr ""
+msgstr "As alterações do desenho serão guardadas no browser"
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -736,37 +736,37 @@ msgstr "A procurar"
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
 msgid ""
 "Click to close the feature information and go back to the list of features"
-msgstr ""
+msgstr "Clicar para fechar as informações do elemento e voltar para a lista de elementos"
 
 #: view~dictionnary.featuresTable.item.draggable.dropped
 msgctxt "view~dictionnary.featuresTable.item.draggable.dropped"
 msgid "You have successfully moved this feature"
-msgstr ""
+msgstr "Este elemento foi movido com sucesso"
 
 #: view~dictionnary.featuresTable.item.draggable.hover
 msgctxt "view~dictionnary.featuresTable.item.draggable.hover"
 msgid "You can drag and drop the feature to move it above or below"
-msgstr ""
+msgstr "É possível arrastar e largar o elemento para movê-lo para cima ou para baixo"
 
 #: view~dictionnary.featuresTable.item.hover
 msgctxt "view~dictionnary.featuresTable.item.hover"
 msgid "Click on the feature to display its detailed information"
-msgstr ""
+msgstr "Clicar no elemento para apresentar as suas informações detalhadas"
 
 #: view~dictionnary.featuresTable.toolbar.close
 msgctxt "view~dictionnary.featuresTable.toolbar.close"
 msgid "Go back to the list of features"
-msgstr ""
+msgstr "Voltar para a lista de elementos"
 
 #: view~dictionnary.featuresTable.toolbar.next
 msgctxt "view~dictionnary.featuresTable.toolbar.next"
 msgid "Go to the next feature"
-msgstr ""
+msgstr "Ir para o próximo elemento"
 
 #: view~dictionnary.featuresTable.toolbar.previous
 msgctxt "view~dictionnary.featuresTable.toolbar.previous"
 msgid "Go to the previous feature"
-msgstr ""
+msgstr "Ir para o elemento anterior"
 
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"
@@ -1328,10 +1328,41 @@ msgid ""
 "temporarily be unavailable. Please try again later."
 msgstr "Ocorreu um erro ao carregar este mapa. Alguns recursos necessários podem estar temporariamente indisponíveis. Tente novamente mais tarde."
 
+#: view~dictionnary.startup.error.administrator
+msgctxt "view~dictionnary.startup.error.administrator"
+msgid ""
+"Please notify the administrator of this map to <strong>connect</strong> and "
+"<strong>visit</strong> this map."
+msgstr ""
+
+#: view~dictionnary.startup.error.developer.tools
+msgctxt "view~dictionnary.startup.error.developer.tools"
+msgid ""
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
+"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+msgstr ""
+
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
-msgid "Go back to the home page."
-msgstr "Voltar para a página inicial."
+msgid "Home"
+msgstr "Início"
+
+#: view~dictionnary.startup.goToRepositoryAdmin
+msgctxt "view~dictionnary.startup.goToRepositoryAdmin"
+msgid "Maps management page"
+msgstr ""
+
+#: view~dictionnary.startup.projectWithoutJSLink
+msgctxt "view~dictionnary.startup.projectWithoutJSLink"
+msgid "This map without additional JavaScript"
+msgstr ""
+
+#: view~dictionnary.startup.user_defined_js
+msgctxt "view~dictionnary.startup.user_defined_js"
+msgid ""
+"This map contains some users additional JavaScript scripts. This can be the "
+"cause of this message, try disabling them."
+msgstr ""
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"

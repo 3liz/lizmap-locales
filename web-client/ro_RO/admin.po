@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-02 11:00++0200\n"
+"POT-Creation-Date: 2024-09-30 14:45++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020-2024\n"
 "Language-Team: Romanian (http://app.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
@@ -1205,13 +1205,13 @@ msgstr "Acest proiect are un număr mare de straturi. Performanța ar putea fi f
 
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
-msgid "Layers"
-msgstr "Straturi"
+msgid "Layers/Groups"
+msgstr "Straturi/Grupuri"
 
 #: admin~admin.project.list.column.layers.count.label.longer
 msgctxt "admin~admin.project.list.column.layers.count.label.longer"
-msgid "Layer count"
-msgstr "Cantitate straturi"
+msgid "Layer and group count"
+msgstr "Cantitatea de straturi și grupuri"
 
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
@@ -1444,8 +1444,8 @@ msgstr "Proiectul necesită mai mult de <strong>%s</strong> MO din memoria serve
 
 #: admin~admin.project.rules.list.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
-msgid "The count is greater or equal to <strong>%s</strong> layers."
-msgstr "Cantitatea este mai mare sau egală cu <strong>%s</strong> straturi."
+msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
+msgstr "Cantitatea este mai mare sau egală cu <strong>%s</strong> straturi/grupuri."
 
 #: admin~admin.project.rules.list.introduction
 msgctxt "admin~admin.project.rules.list.introduction"
@@ -1487,8 +1487,8 @@ msgstr "Proiectul este conceput pentru Lizmap Web Client <strong>%s</strong>."
 
 #: admin~admin.project.rules.list.very.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
-msgid "The count is greater or equal to <strong>%s</strong> layers."
-msgstr "Cantitatea este mai mare sau egală cu <strong>%s</strong> straturi."
+msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
+msgstr "Cantitatea este mai mare sau egală cu <strong>%s</strong> straturi/grupuri."
 
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
@@ -1542,10 +1542,30 @@ msgctxt "admin~admin.server.information.lizmap.url"
 msgid "URL in the QGIS desktop plugin"
 msgstr "URL în plugin-ul desktop QGIS"
 
+#: admin~admin.server.information.module
+msgctxt "admin~admin.server.information.module"
+msgid "Module"
+msgstr "Modul"
+
+#: admin~admin.server.information.module.version
+msgctxt "admin~admin.server.information.module.version"
+msgid "Version"
+msgstr "Versiune"
+
+#: admin~admin.server.information.modules
+msgctxt "admin~admin.server.information.modules"
+msgid "Modules"
+msgstr "Module"
+
+#: admin~admin.server.information.no.module
+msgctxt "admin~admin.server.information.no.module"
+msgid "No module installed"
+msgstr "Niciun modul instalat"
+
 #: admin~admin.server.information.plugin.update
 msgctxt "admin~admin.server.information.plugin.update"
-msgid "The %s plugin needs to be updated."
-msgstr "Plugin-ul %s trebuie actualizat."
+msgid "The plugin must be updated."
+msgstr "Plugin-ul trebuie actualizat."
 
 #: admin~admin.server.information.qgis.action
 msgctxt "admin~admin.server.information.qgis.action"
@@ -1657,10 +1677,10 @@ msgctxt "admin~admin.server.information.qgis.plugin"
 msgid "Plugin"
 msgstr "Plugin"
 
-#: admin~admin.server.information.qgis.plugin.action
-msgctxt "admin~admin.server.information.qgis.plugin.action"
-msgid "Action"
-msgstr "Acțiune"
+#: admin~admin.server.information.qgis.plugin.help
+msgctxt "admin~admin.server.information.qgis.plugin.help"
+msgid "Help"
+msgstr "Ajutor"
 
 #: admin~admin.server.information.qgis.plugin.version
 msgctxt "admin~admin.server.information.qgis.plugin.version"
@@ -1710,11 +1730,6 @@ msgstr "Serverul QGIS trebuie actualizat cel puțin la versiunea %s pentru aceas
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Număr"
-
-#: admin~admin.server.information.webdav.url
-msgctxt "admin~admin.server.information.webdav.url"
-msgid "URL of the WebDAV server"
-msgstr "Adresa URL a serverului WebDAV"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
@@ -1883,8 +1898,8 @@ msgstr "Folosește unealta editare"
 
 #: admin~jacl2.lizmap.tools.layer.export
 msgctxt "admin~jacl2.lizmap.tools.layer.export"
-msgid "Allow export of layers"
-msgstr "Permite exportul de straturi"
+msgid "Allow export of vector layers"
+msgstr "Permite exportul straturilor vectoriale"
 
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
