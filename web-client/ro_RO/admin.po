@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-30 14:44++0000\n"
+"POT-Creation-Date: 2024-11-06 14:05++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2024\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -498,12 +498,12 @@ msgstr "Port Redis"
 #: admin~admin.form.admin_services.cacheRootDirectory.help
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.help"
 msgid "Choose a writable directory where to store cache files."
-msgstr "Alege un director unde ai drepturi de scriere pentru a stoca cache-ul"
+msgstr "Alege un dosar unde ai drepturi de scriere pentru a stoca cache-ul"
 
 #: admin~admin.form.admin_services.cacheRootDirectory.label
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.label"
 msgid "Cache root directory"
-msgstr "Directorul rădăcină al cache-ului"
+msgstr "Dosarul rădăcină al cache-ului"
 
 #: admin~admin.form.admin_services.cacheStorageType.file.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.file.label"
@@ -633,7 +633,7 @@ msgstr ""
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
 msgid "The directory does not exist or is not writable. You can use: %s"
-msgstr "Directorul nu există sau nu poate fi scris. Poți utiliza: %s"
+msgstr "Dosarul nu există sau nu poate fi scris. Poți utiliza: %s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -733,9 +733,9 @@ msgid ""
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
 msgstr ""
-"Directorul rădăcină al depozitelor de date poate limita directorul Lizmap la"
-" 1 director. Dacă o care e setată aici, definirea unei căi catre un director"
-" Limap nu mai este posibilă."
+"Dosarul rădăcină al depozitelor de date poate limita dosarul Lizmap la 1 "
+"dosar. Dacă o care e setată aici, definirea unei căi catre un dosar Limap nu"
+" mai este posibilă."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -1286,12 +1286,12 @@ msgstr ""
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
 msgid "Layers/Groups"
-msgstr ""
+msgstr "Straturi/Grupuri"
 
 #: admin~admin.project.list.column.layers.count.label.longer
 msgctxt "admin~admin.project.list.column.layers.count.label.longer"
 msgid "Layer and group count"
-msgstr ""
+msgstr "Cantitatea de straturi și grupuri"
 
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
@@ -1559,6 +1559,7 @@ msgstr ""
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
 msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
 msgstr ""
+"Cantitatea este mai mare sau egală cu <strong>%s</strong> straturi/grupuri."
 
 #: admin~admin.project.rules.list.introduction
 msgctxt "admin~admin.project.rules.list.introduction"
@@ -1611,6 +1612,7 @@ msgstr "Proiectul este conceput pentru Lizmap Web Client <strong>%s</strong>."
 msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
 msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
 msgstr ""
+"Cantitatea este mai mare sau egală cu <strong>%s</strong> straturi/grupuri."
 
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
@@ -1675,7 +1677,7 @@ msgstr "URL în plugin-ul desktop QGIS"
 #: admin~admin.server.information.module
 msgctxt "admin~admin.server.information.module"
 msgid "Module"
-msgstr ""
+msgstr "Modul"
 
 #: admin~admin.server.information.module.version
 msgctxt "admin~admin.server.information.module.version"
@@ -1685,17 +1687,17 @@ msgstr "Versiune"
 #: admin~admin.server.information.modules
 msgctxt "admin~admin.server.information.modules"
 msgid "Modules"
-msgstr ""
+msgstr "Module"
 
 #: admin~admin.server.information.no.module
 msgctxt "admin~admin.server.information.no.module"
 msgid "No module installed"
-msgstr ""
+msgstr "Niciun modul instalat"
 
 #: admin~admin.server.information.plugin.update
 msgctxt "admin~admin.server.information.plugin.update"
 msgid "The plugin must be updated."
-msgstr ""
+msgstr "Plugin-ul trebuie actualizat."
 
 #: admin~admin.server.information.qgis.action
 msgctxt "admin~admin.server.information.qgis.action"

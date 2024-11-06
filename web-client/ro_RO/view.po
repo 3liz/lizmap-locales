@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-30 14:44++0000\n"
+"POT-Creation-Date: 2024-11-06 14:05++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2024\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -747,6 +747,11 @@ msgctxt "view~dictionnary.embed.open.map"
 msgid "Open the map in full screen"
 msgstr "Deschide harta pe ecran complet"
 
+#: view~dictionnary.externalsearch.ignlimit
+msgctxt "view~dictionnary.externalsearch.ignlimit"
+msgid "IGN search must contain between 3 and 200 characters"
+msgstr ""
+
 #: view~dictionnary.externalsearch.mapdata
 msgctxt "view~dictionnary.externalsearch.mapdata"
 msgid "Map data"
@@ -1381,6 +1386,8 @@ msgid ""
 "Please notify the administrator of this map to <strong>connect</strong> and "
 "<strong>visit</strong> this map."
 msgstr ""
+"Notifică administratorul acestei hărți pentru a <strong>te conecta</strong> "
+"și <strong>vizita</strong> această hartă."
 
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
@@ -1388,6 +1395,9 @@ msgid ""
 "Maybe you will have a clue by opening your \"Developer tools\" in your web-"
 "browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
 msgstr ""
+"Poate că vei avea un indiciu deschizând „Instrumentele pentru dezvoltatori” "
+"în browser-ul web. De obicei este <kbd>F12</kbd>. Verifică „Consola” și "
+"„Rețeaua”."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
@@ -1397,12 +1407,12 @@ msgstr "Acasă"
 #: view~dictionnary.startup.goToRepositoryAdmin
 msgctxt "view~dictionnary.startup.goToRepositoryAdmin"
 msgid "Maps management page"
-msgstr ""
+msgstr "Pagina de gestionare a hărților"
 
 #: view~dictionnary.startup.projectWithoutJSLink
 msgctxt "view~dictionnary.startup.projectWithoutJSLink"
 msgid "This map without additional JavaScript"
-msgstr ""
+msgstr "Această hartă fără JavaScript suplimentar"
 
 #: view~dictionnary.startup.user_defined_js
 msgctxt "view~dictionnary.startup.user_defined_js"
@@ -1410,6 +1420,9 @@ msgid ""
 "This map contains some users additional JavaScript scripts. This can be the "
 "cause of this message, try disabling them."
 msgstr ""
+"Această hartă conține fișiere JavaScript suplimentare pentru unii "
+"utilizatori. Aceasta poate fi cauza acestui mesaj, încearcă să le "
+"dezactivezi."
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -1755,8 +1768,8 @@ msgstr "Nu există câmpuri disponibile pentru salvarea formularului."
 msgctxt "view~edition.message.error.upload.layer"
 msgid "The layer \"%s\" directory for uploading media is not writable."
 msgstr ""
-"Nu se poate scrie în directorul stratului „%s” pentru încărcarea "
-"conținutului media."
+"Nu se poate scrie în dosarul stratului „%s” pentru încărcarea conținutului "
+"media."
 
 #: view~edition.message.error.upload.layer.field
 msgctxt "view~edition.message.error.upload.layer.field"
@@ -1764,8 +1777,8 @@ msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
 msgstr ""
-"Nu se poate scrie în câmpul „%s” al stratului „%s” pentru încărcarea "
-"conținutului media."
+"Dosarul câmpului „%s” al stratului „%s” pentru încărcarea conținutului media"
+" nu poate fi scris."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -2549,8 +2562,7 @@ msgid ""
 "Please write a small text to explain why you would like to have access to "
 "the maps."
 msgstr ""
-"Vă rugăm să scrieți un mic text pentru a explica de ce ați dori să aveți "
-"acces la hărți."
+"Scrie un mic text pentru a explica de ce ai dori să ai acces la hărți."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"
