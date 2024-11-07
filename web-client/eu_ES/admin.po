@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 14:05++0000\n"
+"POT-Creation-Date: 2024-11-07 14:53++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Language-Team: Basque (Spain) (https://app.transifex.com/3liz-1/teams/62012/eu_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -97,7 +97,7 @@ msgstr ""
 #: admin~admin.configuration.services.allowUserAccountRequests.help.deactivated
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
-msgid "This option is deactivated because of the use of Ldap authentication"
+msgid "This option is deactivated because of the use of LDAP authentication"
 msgstr ""
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
@@ -142,7 +142,7 @@ msgstr ""
 
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
-msgid "Only maps"
+msgid "Disable landing page"
 msgstr ""
 
 #: admin~admin.configuration.services.rootRepositories.label
@@ -607,9 +607,14 @@ msgctxt "admin~admin.form.admin_services.on.label"
 msgid "On"
 msgstr ""
 
+#: admin~admin.form.admin_services.onlyMaps.help
+msgctxt "admin~admin.form.admin_services.onlyMaps.help"
+msgid "If set to \"On\", no landing page will be available."
+msgstr ""
+
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
-msgid "Only maps"
+msgid "Disable landing page"
 msgstr ""
 
 #: admin~admin.form.admin_services.projectSwitcher.label
