@@ -1,9 +1,9 @@
 # 
 # Translators:
 # Marco Cassola <cassolamrc@gmail.com>, 2023
+# Roberto Marzocchi <roberto.marzocchi@gter.it>, 2023
 # Nicla Maria Notarangelo <nicla_n@yahoo.it>, 2023
 # Alessandro Fanna <alex@rospus.org>, 2023
-# Roberto Marzocchi <roberto.marzocchi@gter.it>, 2023
 # Laurent Jouanneau <dev@ljouanneau.com>, 2023
 # rldhont <rldhont@gmail.com>, 2023
 # Stefano Campus <skampus@gmail.com>, 2023
@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-30 14:43++0000\n"
+"POT-Creation-Date: 2024-12-11 15:08++0000\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2024\n"
 "Language-Team: Italian (https://app.transifex.com/3liz-1/teams/62012/it/)\n"
@@ -112,10 +112,8 @@ msgstr "E-mail amministratore"
 #: admin~admin.configuration.services.allowUserAccountRequests.help.deactivated
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
-msgid "This option is deactivated because of the use of Ldap authentication"
+msgid "This option is deactivated because of the use of LDAP authentication"
 msgstr ""
-"Quest'opzione è stata disattivata in quanto si sta usando l'autenticazione "
-"LDAP"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -159,8 +157,8 @@ msgstr "Servizi"
 
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
-msgid "Only maps"
-msgstr "Solo mappe"
+msgid "Disable landing page"
+msgstr ""
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
@@ -667,10 +665,15 @@ msgctxt "admin~admin.form.admin_services.on.label"
 msgid "On"
 msgstr "Acceso"
 
+#: admin~admin.form.admin_services.onlyMaps.help
+msgctxt "admin~admin.form.admin_services.onlyMaps.help"
+msgid "If set to \"On\", no landing page will be available."
+msgstr ""
+
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
-msgid "Only maps"
-msgstr "Solo mappe"
+msgid "Disable landing page"
+msgstr ""
 
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"

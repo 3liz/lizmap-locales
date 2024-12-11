@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-30 14:43++0000\n"
+"POT-Creation-Date: 2024-12-11 15:08++0000\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2024\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -105,9 +105,9 @@ msgstr "E-mail administrator"
 #: admin~admin.configuration.services.allowUserAccountRequests.help.deactivated
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
-msgid "This option is deactivated because of the use of Ldap authentication"
+msgid "This option is deactivated because of the use of LDAP authentication"
 msgstr ""
-"Această opțiune este dezactivată din cauza utilizării autentificării Ldap"
+"Această opțiune este dezactivată din cauza utilizării autentificării LDAP"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -151,8 +151,8 @@ msgstr "Servicii"
 
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
-msgid "Only maps"
-msgstr "Numai hărți"
+msgid "Disable landing page"
+msgstr "Dezactivează pagina principală"
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
@@ -660,10 +660,17 @@ msgctxt "admin~admin.form.admin_services.on.label"
 msgid "On"
 msgstr "Pornit"
 
+#: admin~admin.form.admin_services.onlyMaps.help
+msgctxt "admin~admin.form.admin_services.onlyMaps.help"
+msgid "If set to \"On\", no landing page will be available."
+msgstr ""
+"Dacă este setat la „Activat”, nicio pagină de principală nu va fi "
+"disponibilă."
+
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
-msgid "Only maps"
-msgstr "Numai hărți"
+msgid "Disable landing page"
+msgstr "Dezactivează pagina principală"
 
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"

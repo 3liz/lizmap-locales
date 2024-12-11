@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-30 14:43++0000\n"
+"POT-Creation-Date: 2024-12-11 15:08++0000\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/3liz-1/teams/62012/fr/)\n"
@@ -108,9 +108,9 @@ msgstr "Courriel de l'administrateur"
 #: admin~admin.configuration.services.allowUserAccountRequests.help.deactivated
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
-msgid "This option is deactivated because of the use of Ldap authentication"
+msgid "This option is deactivated because of the use of LDAP authentication"
 msgstr ""
-"Cette option est désactivée parce que l'authentification ldap est utilisée"
+"Cette option est désactivée parce que l'authentification LDAP est utilisée"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -154,8 +154,8 @@ msgstr "Services"
 
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
-msgid "Only maps"
-msgstr "Seulement des cartes"
+msgid "Disable landing page"
+msgstr "Désactiver la page d'accueil"
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
@@ -672,10 +672,15 @@ msgctxt "admin~admin.form.admin_services.on.label"
 msgid "On"
 msgstr "On"
 
+#: admin~admin.form.admin_services.onlyMaps.help
+msgctxt "admin~admin.form.admin_services.onlyMaps.help"
+msgid "If set to \"On\", no landing page will be available."
+msgstr "Si paramétré à \"On\", alors la page d'accueil est activé"
+
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
-msgid "Only maps"
-msgstr "Seulement des cartes"
+msgid "Disable landing page"
+msgstr "Désactiver la page d'accueil"
 
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
@@ -2036,7 +2041,7 @@ msgstr "Permettre l'export de couches vecteurs"
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "See all the data of the filtered layers (attribute or spatial filters)"
 msgstr ""
-"Voir toutes les données des couches filtrées (attributs ou filtres spaciaux)"
+"Voir toutes les données des couches filtrées (attributs ou filtres spatiaux)"
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
