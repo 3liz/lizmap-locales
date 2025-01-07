@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.5 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-30 14:43++0000\n"
+"POT-Creation-Date: 2024-12-11 15:08++0000\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
 "Last-Translator: Adrian Kowalski <ad.kowalski@gmail.com>, 2024\n"
 "Language-Team: Polish (Poland) (https://app.transifex.com/3liz-1/teams/62012/pl_PL/)\n"
@@ -344,7 +344,7 @@ msgstr "Odśwież"
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
 msgid "Refresh the table data."
-msgstr "Odśwież tabelę atrybutów"
+msgstr "Odśwież tabelę atrybutów."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
 msgctxt ""
@@ -629,6 +629,8 @@ msgid ""
 "Error while fetching the editing form for that layer. Please contact the "
 "system administrator."
 msgstr ""
+"Wystąpił błąd podczas pobierania formularza edycji dla tej warstwy. "
+"Skontaktuj się z administratorem systemu."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -645,6 +647,8 @@ msgid ""
 "Error while saving the edited feature. Please contact the system "
 "administrator."
 msgstr ""
+"Błąd podczas zapisywania edytowanej funkcji. Skontaktuj się z "
+"administratorem systemu."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -773,7 +777,7 @@ msgstr "Jesteś pewien, że chcesz usunąć tę zakładkę?"
 #: view~dictionnary.geobookmark.name.required
 msgctxt "view~dictionnary.geobookmark.name.required"
 msgid "A name is required to create a bookmark."
-msgstr "Wymagana jest nazwa, aby stworzyć zakładkę"
+msgstr "Wymagana jest nazwa, aby stworzyć zakładkę."
 
 #: view~dictionnary.geolocate.infos.accuracy
 msgctxt "view~dictionnary.geolocate.infos.accuracy"
@@ -923,7 +927,7 @@ msgstr "Kliknij na mapie, aby zacząć pomiar powierzchni."
 #: view~dictionnary.measure.activate.length
 msgctxt "view~dictionnary.measure.activate.length"
 msgid "Click on the map to start measuring a length."
-msgstr "Kliknij na mapie, aby zacząć pomiar"
+msgstr "Kliknij na mapie, aby zacząć pomiar."
 
 #: view~dictionnary.measure.activate.perimeter
 msgctxt "view~dictionnary.measure.activate.perimeter"
@@ -1021,6 +1025,8 @@ msgid ""
 "The output is currently not available. Please contact the system "
 "administrator."
 msgstr ""
+"Dane wyjściowe są obecnie niedostępne. Skontaktuj się z administratorem "
+"systemu."
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"
@@ -1045,7 +1051,7 @@ msgstr "Obróć"
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
 msgid "Print started, please wait…"
-msgstr "Rozpoczęto drukowanie. Proszę czekać."
+msgstr "Rozpoczęto drukowanie. Proszę czekać…"
 
 #: view~dictionnary.print.toolbar.dpi
 msgctxt "view~dictionnary.print.toolbar.dpi"
@@ -1070,7 +1076,7 @@ msgstr "Skala"
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
-msgstr ""
+msgstr "Tylko administratorzy i wydawcy mogą zobaczyć tę wiadomość."
 
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
@@ -1078,6 +1084,8 @@ msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
 "be fixed."
 msgstr ""
+"W projekcie występują pewne ostrzeżenia w wtyczce QGIS Desktop Lizmap, które"
+" należy naprawić."
 
 #: view~dictionnary.project.plugin.outdated.warning
 msgctxt "view~dictionnary.project.plugin.outdated.warning"
@@ -1085,6 +1093,8 @@ msgid ""
 "The project has been recently updated in QGIS Desktop, but with an outdated "
 "version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
 msgstr ""
+"Projekt został niedawno zaktualizowany w QGIS Desktop, ale z przestarzałą "
+"wersją wtyczki Lizmap. Musisz uaktualnić swoją wtyczkę w QGIS Desktop."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1228,12 +1238,12 @@ msgstr "Wróć do strony głównej."
 #: view~dictionnary.startup.goToRepositoryAdmin
 msgctxt "view~dictionnary.startup.goToRepositoryAdmin"
 msgid "Go to maps management page"
-msgstr ""
+msgstr "Przejdź do strony zarządzania mapami"
 
 #: view~dictionnary.startup.projectWithoutJSLink
 msgctxt "view~dictionnary.startup.projectWithoutJSLink"
 msgid "Project with user's scripts disabled"
-msgstr ""
+msgstr "Projekt z wyłączonymi skryptami użytkownika"
 
 #: view~dictionnary.startup.user_defined_js
 msgctxt "view~dictionnary.startup.user_defined_js"
@@ -1241,6 +1251,8 @@ msgid ""
 "There's some user defined JavaScript scripts, that can be the cause of this "
 "message, try disabling them."
 msgstr ""
+"Istnieją pewne skrypty JavaScript zdefiniowane przez użytkownika, które mogą"
+" być przyczyną wyświetlania tego komunikatu. Spróbuj je wyłączyć."
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -1300,12 +1312,12 @@ msgstr "Usuń pamięć podręczną serwera dla tej warstwy"
 #: view~dictionnary.tree.button.removeCache.confirmation
 msgctxt "view~dictionnary.tree.button.removeCache.confirmation"
 msgid "Remove server's cache for this layer?"
-msgstr "Usuń pamięć podręczną serwera dla tej warstwy"
+msgstr "Usuń pamięć podręczną serwera dla tej warstwy?"
 
 #: view~dictionnary.visit.admin.panel.project.page
 msgctxt "view~dictionnary.visit.admin.panel.project.page"
 msgid "Visit the QGIS project page in the administration panel."
-msgstr ""
+msgstr "Odwiedź stronę projektu QGIS w panelu administracyjnym."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
@@ -1484,7 +1496,7 @@ msgstr "Napotkano błąd podczas tworzenia obiektu."
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
 msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr "Układ współrzędnych jest wymagany i musi być liczbą lub kodem EPSG:*."
+msgstr "układ współrzędnych jest wymagany i musi być liczbą lub kodem EPSG:*."
 
 #: view~edition.message.error.delete
 msgctxt "view~edition.message.error.delete"
@@ -1494,7 +1506,7 @@ msgstr "Usuwanie nie powiodło się."
 #: view~edition.message.error.feature.editable
 msgctxt "view~edition.message.error.feature.editable"
 msgid "The feature is not editable."
-msgstr "Ten obiekt nie jest edytowalny"
+msgstr "Ten obiekt nie jest edytowalny."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
@@ -1557,7 +1569,7 @@ msgstr ""
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
 msgid "An error has been raised when saving the form."
-msgstr "Napotkano błąd podczas zapisywania formularza"
+msgstr "Napotkano błąd podczas zapisywania formularza."
 
 #: view~edition.message.error.save.fields
 msgctxt "view~edition.message.error.save.fields"
@@ -1754,7 +1766,7 @@ msgstr "Przywróć początkowy stan geometrii."
 #: view~edition.toolbar.select.unselect.title
 msgctxt "view~edition.toolbar.select.unselect.title"
 msgid "Unsel."
-msgstr "Odznacz"
+msgstr "Odznacz."
 
 #: view~edition.toolbar.select.unselect.tooltip
 msgctxt "view~edition.toolbar.select.unselect.tooltip"
@@ -1889,7 +1901,7 @@ msgstr "Ładowanie mapy"
 #: view~map.locatemenu.title
 msgctxt "view~map.locatemenu.title"
 msgid "Locating"
-msgstr "Wyszukaj..."
+msgstr "Wyszukaj"
 
 #: view~map.map
 msgctxt "view~map.map"
@@ -2329,7 +2341,7 @@ msgstr "Stop"
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
 msgid "Underway…"
-msgstr "W toku..."
+msgstr "W toku…"
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"

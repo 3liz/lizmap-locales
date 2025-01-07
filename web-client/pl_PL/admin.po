@@ -108,7 +108,7 @@ msgstr "E-mail Administratora"
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of LDAP authentication"
-msgstr ""
+msgstr "Ta opcja nie jest aktywna z powodu uwierzyteniania LDAP"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -153,7 +153,7 @@ msgstr "Serwisy"
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
 msgid "Disable landing page"
-msgstr ""
+msgstr "Wyłącz stronę docelową"
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
@@ -296,6 +296,11 @@ msgid ""
 "Origin Resource Sharing. Read the article on Wikipedia "
 "https://wikipedia.org/wiki/Cross-origin_resource_sharing"
 msgstr ""
+"Lista adresów URL oddzielonych przecinkiem, np. "
+"'https://domena1.com,https://www.domena2.com'. Parametry ścieżki i zapytania"
+" zostaną usunięte z adresu URL. To ustawienie będzie miało wpływ na nagłówki"
+" CORS: Cross Origin Resource Sharing. Przeczytaj artykuł na Wikipedii "
+"https://wikipedia.org/wiki/Cross-origin_resource_sharing"
 
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
@@ -349,7 +354,7 @@ msgstr ""
 #: admin~admin.form.admin_section.repository.path.invalid
 msgctxt "admin~admin.form.admin_section.repository.path.invalid"
 msgid "Path not found"
-msgstr ""
+msgstr "Ścieżka nie została znaleziona"
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -664,12 +669,12 @@ msgstr "Włącz"
 #: admin~admin.form.admin_services.onlyMaps.help
 msgctxt "admin~admin.form.admin_services.onlyMaps.help"
 msgid "If set to \"On\", no landing page will be available."
-msgstr ""
+msgstr "Jeśli ustawione na „Wł.”, żadna strona docelowa nie będzie dostępna."
 
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
 msgid "Disable landing page"
-msgstr ""
+msgstr "Wyłącz stronę docelową"
 
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
@@ -1258,12 +1263,12 @@ msgstr ""
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
 msgid "Layers/Groups"
-msgstr ""
+msgstr "Warstwy/Grupy"
 
 #: admin~admin.project.list.column.layers.count.label.longer
 msgctxt "admin~admin.project.list.column.layers.count.label.longer"
 msgid "Layer and group count"
-msgstr ""
+msgstr "Liczba warstw i grup"
 
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
@@ -1284,12 +1289,12 @@ msgstr "Wtyczka Lizmap"
 #: admin~admin.project.list.column.lizmap.warnings.count.label
 msgctxt "admin~admin.project.list.column.lizmap.warnings.count.label"
 msgid "Warnings"
-msgstr ""
+msgstr "Ostrzeżenia"
 
 #: admin~admin.project.list.column.lizmap.warnings.explanations.label
 msgctxt "admin~admin.project.list.column.lizmap.warnings.explanations.label"
 msgid "Check your Lizmap plugin in QGIS Desktop to fix these warnings"
-msgstr ""
+msgstr "Sprawdź wtyczkę Lizmap w QGIS Desktop, aby naprawić te ostrzeżenia"
 
 #: admin~admin.project.list.column.loading.time.error.label
 msgctxt "admin~admin.project.list.column.loading.time.error.label"
@@ -1342,7 +1347,7 @@ msgstr "Zużycie pamięci w projekcie jest nieco wysokie."
 #: admin~admin.project.list.column.path.label
 msgctxt "admin~admin.project.list.column.path.label"
 msgid "Path"
-msgstr ""
+msgstr "Ścieżka"
 
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
@@ -1376,6 +1381,9 @@ msgid ""
 "old Lizmap plugin version. You should upgrade your plugin in your QGIS "
 "plugin manager."
 msgstr ""
+"Ten projekt QGIS został niedawno zaktualizowany w QGIS Desktop, ale ze zbyt "
+"starą wersją wtyczki Lizmap. Powinieneś uaktualnić swoją wtyczkę w "
+"menedżerze wtyczek QGIS."
 
 #: admin~admin.project.list.column.qgis.desktop.recent.version.label.html
 msgctxt ""
@@ -1386,6 +1394,10 @@ msgid ""
 "<strong>latest version available</strong> in your QGIS plugin manager. It "
 "must be at least <strong>%s</strong>."
 msgstr ""
+"Projekt QGIS został ostatnio zaktualizowany w QGIS Desktop, ale ze zbyt "
+"starą wersją wtyczki Lizmap. <strong>Zawsze</strong> instaluj "
+"<strong>najnowszą wersję dostępną</strong> w menedżerze wtyczek QGIS. Musi "
+"to być co najmniej <strong>%s</strong>."
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
@@ -1527,7 +1539,7 @@ msgstr ""
 #: admin~admin.project.rules.list.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
 msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
-msgstr ""
+msgstr "Liczba jest większa lub równa <strong>%s</strong> warstwom/grupom."
 
 #: admin~admin.project.rules.list.introduction
 msgctxt "admin~admin.project.rules.list.introduction"
@@ -1549,6 +1561,8 @@ msgid ""
 "The project has <strong>at least one</strong> warning in the QGIS Desktop "
 "plugin"
 msgstr ""
+"Projekt ma <strong>co najmniej jedno</strong> ostrzeżenie wtyczki QGIS "
+"Desktop"
 
 #: admin~admin.project.rules.list.qgis.version.error.html
 msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
@@ -1578,7 +1592,7 @@ msgstr ""
 #: admin~admin.project.rules.list.very.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
 msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
-msgstr ""
+msgstr "Liczba jest większa lub równa <strong>%s</strong> warstwom/grupom."
 
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
@@ -2010,7 +2024,7 @@ msgstr "Użyj narzędzi edycji"
 #: admin~jacl2.lizmap.tools.layer.export
 msgctxt "admin~jacl2.lizmap.tools.layer.export"
 msgid "Allow export of vector layers"
-msgstr ""
+msgstr "Zezwól na eksport warstw wektorowych"
 
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
