@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 14:53++0000\n"
+"POT-Creation-Date: 2025-01-07 12:00++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Last-Translator: 山本　竜三 <ryu@yamakun.net>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/3liz-1/teams/62012/ja/)\n"
@@ -1588,11 +1588,6 @@ msgctxt "admin~admin.server.information.qgis.action"
 msgid "Action"
 msgstr "‎アクション‎"
 
-#: admin~admin.server.information.qgis.commit_id
-msgctxt "admin~admin.server.information.qgis.commit_id"
-msgid "Commit ID"
-msgstr "‎コミット ID‎"
-
 #: admin~admin.server.information.qgis.error.fetching.information
 msgctxt "admin~admin.server.information.qgis.error.fetching.information"
 msgid ""
@@ -1746,6 +1741,16 @@ msgstr "Lizmap Web Clientのこのバージョンでは、QGIS Serverを少な�
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Number"
+
+#: admin~admin.server.information.qgis.wrapper
+msgctxt "admin~admin.server.information.qgis.wrapper"
+msgid "QJazz or Py-QGIS-Server"
+msgstr ""
+
+#: admin~admin.server.information.qgis.wrapper.not.installed
+msgctxt "admin~admin.server.information.qgis.wrapper.not.installed"
+msgid "Not installed"
+msgstr ""
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"

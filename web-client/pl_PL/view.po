@@ -2,16 +2,16 @@
 # Translators:
 # Laurent Jouanneau <dev@ljouanneau.com>, 2024
 # rldhont <rldhont@gmail.com>, 2024
-# Adrian Kowalski <ad.kowalski@gmail.com>, 2024
 # Sławomir Bienias <slawomir.bienias@gmail.com>, 2024
+# Adrian Kowalski <ad.kowalski@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 14:05++0000\n"
+"POT-Creation-Date: 2025-01-07 12:00++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
-"Last-Translator: Sławomir Bienias <slawomir.bienias@gmail.com>, 2024\n"
+"Last-Translator: Adrian Kowalski <ad.kowalski@gmail.com>, 2024\n"
 "Language-Team: Polish (Poland) (https://app.transifex.com/3liz-1/teams/62012/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -479,8 +479,10 @@ msgstr "Narzędzia rysowania"
 
 #: view~dictionnary.digitizing.toolbar.edit
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
-msgid "Edit (hold \"Shift\" to select multiple features)"
-msgstr "Edytuj (przytrzymaj „Shift”, aby wybrać wiele funkcji)"
+msgid ""
+"Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
+"delete a vertex)"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
@@ -535,12 +537,12 @@ msgstr "Zapisz rysunek w przeglądarce"
 #: view~dictionnary.digitizing.toolbar.save.remove
 msgctxt "view~dictionnary.digitizing.toolbar.save.remove"
 msgid "Remove draw from the browser"
-msgstr ""
+msgstr "Usuń rysunek z przeglądarki"
 
 #: view~dictionnary.digitizing.toolbar.save.state
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
-msgstr ""
+msgstr "Zmiany w rysunku zostaną zapisane w przeglądarce"
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -615,11 +617,17 @@ msgid ""
 "\n"
 "will be also deleted"
 msgstr ""
+"Czy na pewno chcesz usunąć wybraną funkcję?\n"
+"\n"
+"Powiązane linki z następującymi warstwami:\n"
+"%s\n"
+"\n"
+"zostaną również usunięte"
 
 #: view~dictionnary.edition.confirm.pivot.unlink
 msgctxt "view~dictionnary.edition.confirm.pivot.unlink"
 msgid "Are you sure you want to unlink the selected feature from \"%l\" layer?"
-msgstr ""
+msgstr "Czy na pewno chcesz odłączyć wybrany obiekt od warstwy \"%l\"?"
 
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
@@ -663,6 +671,7 @@ msgstr "Wklej geometrię"
 msgctxt "view~dictionnary.edition.link.pivot.add"
 msgid "The new record will be linked to the feature ID \"%f\" of \"%l\" layer"
 msgstr ""
+"Nowy rekord zostanie połączony z identyfikatorem funkcji „%f” warstwy „%l”"
 
 #: view~dictionnary.edition.message.error.fetch.form
 msgctxt "view~dictionnary.edition.message.error.fetch.form"
@@ -670,6 +679,8 @@ msgid ""
 "Error while fetching the editing form for that layer. Please contact the "
 "system administrator."
 msgstr ""
+"Wystąpił błąd podczas pobierania formularza edycji dla tej warstwy. "
+"Skontaktuj się z administratorem systemu."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -686,6 +697,8 @@ msgid ""
 "Error while saving the edited feature. Please contact the system "
 "administrator."
 msgstr ""
+"Błąd podczas zapisywania edytowanej funkcji. Skontaktuj się z "
+"administratorem systemu."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -739,7 +752,7 @@ msgstr "Otwórz mapę na pełnym ekranie"
 #: view~dictionnary.externalsearch.ignlimit
 msgctxt "view~dictionnary.externalsearch.ignlimit"
 msgid "IGN search must contain between 3 and 200 characters"
-msgstr ""
+msgstr "Wyszukiwanie IGN musi zawierać od 3 do 200 znaków"
 
 #: view~dictionnary.externalsearch.mapdata
 msgctxt "view~dictionnary.externalsearch.mapdata"
@@ -765,37 +778,38 @@ msgstr "Wyszukiwanie"
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
 msgid ""
 "Click to close the feature information and go back to the list of features"
-msgstr ""
+msgstr "Kliknij, aby zamknąć informacje o funkcji i powrócić do listy funkcji"
 
 #: view~dictionnary.featuresTable.item.draggable.dropped
 msgctxt "view~dictionnary.featuresTable.item.draggable.dropped"
 msgid "You have successfully moved this feature"
-msgstr ""
+msgstr "Pomyślnie przeniosłeś tę funkcję"
 
 #: view~dictionnary.featuresTable.item.draggable.hover
 msgctxt "view~dictionnary.featuresTable.item.draggable.hover"
 msgid "You can drag and drop the feature to move it above or below"
 msgstr ""
+"Możesz przeciągać i upuszczać funkcję, aby przenieść ją powyżej lub poniżej"
 
 #: view~dictionnary.featuresTable.item.hover
 msgctxt "view~dictionnary.featuresTable.item.hover"
 msgid "Click on the feature to display its detailed information"
-msgstr ""
+msgstr "Kliknij na funkcję, aby wyświetlić szczegółowe informacje"
 
 #: view~dictionnary.featuresTable.toolbar.close
 msgctxt "view~dictionnary.featuresTable.toolbar.close"
 msgid "Go back to the list of features"
-msgstr ""
+msgstr "Wróć do listy funkcji"
 
 #: view~dictionnary.featuresTable.toolbar.next
 msgctxt "view~dictionnary.featuresTable.toolbar.next"
 msgid "Go to the next feature"
-msgstr ""
+msgstr "Przejdź do następnego obiektu"
 
 #: view~dictionnary.featuresTable.toolbar.previous
 msgctxt "view~dictionnary.featuresTable.toolbar.previous"
 msgid "Go to the previous feature"
-msgstr ""
+msgstr "Przejdź do poprzedniego obiektu"
 
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"
@@ -1143,6 +1157,8 @@ msgid ""
 "The output is currently not available. Please contact the system "
 "administrator."
 msgstr ""
+"Dane wyjściowe są obecnie niedostępne. Skontaktuj się z administratorem "
+"systemu."
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"
@@ -1192,7 +1208,7 @@ msgstr "Skala"
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
-msgstr ""
+msgstr "Tylko administratorzy i wydawcy mogą zobaczyć tę wiadomość."
 
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
@@ -1200,6 +1216,8 @@ msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
 "be fixed."
 msgstr ""
+"W projekcie występują pewne ostrzeżenia w wtyczce QGIS Desktop Lizmap, które"
+" należy naprawić."
 
 #: view~dictionnary.project.plugin.outdated.warning
 msgctxt "view~dictionnary.project.plugin.outdated.warning"
@@ -1207,6 +1225,8 @@ msgid ""
 "The project has been recently updated in QGIS Desktop, but with an outdated "
 "version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
 msgstr ""
+"Projekt został niedawno zaktualizowany w QGIS Desktop, ale z przestarzałą "
+"wersją wtyczki Lizmap. Musisz uaktualnić swoją wtyczkę w QGIS Desktop."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1334,6 +1354,10 @@ msgid ""
 "This layer is hidden. Turn on the layer on the layer panel to toggle "
 "snapping on it"
 msgstr ""
+"84 / 5 000 \n"
+"Wyniki tłumaczenia\n"
+"Tłumaczenie\n"
+"Ta warstwa jest ukryta. Włącz warstwę na panelu warstw, aby przełączyć przyciąganie na nią"
 
 #: view~dictionnary.snapping.list.title
 msgctxt "view~dictionnary.snapping.list.title"
@@ -1343,7 +1367,7 @@ msgstr "Przyciągaj"
 #: view~dictionnary.snapping.list.toggle
 msgctxt "view~dictionnary.snapping.list.toggle"
 msgid "Toggle snapping for this layer"
-msgstr ""
+msgstr "Przełącz przyciąganie dla tej warstwy"
 
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
@@ -1365,13 +1389,19 @@ msgid ""
 "Please notify the administrator of this map to <strong>connect</strong> and "
 "<strong>visit</strong> this map."
 msgstr ""
+"Aby nawiązać <strong>połączenie</strong> i <strong>zobaczyć</strong> tę "
+"mapę, powiadom administratora tej mapy."
 
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
-"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"\n"
+"Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
+"Być może będziesz miał pojęcie, otwierając „Narzędzia programistyczne” w przeglądarce internetowej. Zazwyczaj jest to <kbd>F12</kbd>. Sprawdź „Konsolę” i „Sieci”.\n"
+"\n"
+"Odwiedź panel administracyjny i sprawdź na stronie dziennika, czy żądanie HTTP zakończyło się błędem związanym z tym projektem."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
@@ -1381,12 +1411,12 @@ msgstr "Strona główna"
 #: view~dictionnary.startup.goToRepositoryAdmin
 msgctxt "view~dictionnary.startup.goToRepositoryAdmin"
 msgid "Maps management page"
-msgstr ""
+msgstr "Strona zarządzania mapami"
 
 #: view~dictionnary.startup.projectWithoutJSLink
 msgctxt "view~dictionnary.startup.projectWithoutJSLink"
 msgid "This map without additional JavaScript"
-msgstr ""
+msgstr "Ta mapa nie zawiera dodatkowego JavaScript"
 
 #: view~dictionnary.startup.user_defined_js
 msgctxt "view~dictionnary.startup.user_defined_js"
@@ -1394,6 +1424,8 @@ msgid ""
 "This map contains some users additional JavaScript scripts. This can be the "
 "cause of this message, try disabling them."
 msgstr ""
+"Ta mapa zawiera dodatkowe skrypty JavaScript niektórych użytkowników. To "
+"może być przyczyną tego komunikatu, spróbuj je wyłączyć."
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -1428,7 +1460,7 @@ msgstr "Stop"
 #: view~dictionnary.tooltip.loading.error
 msgctxt "view~dictionnary.tooltip.loading.error"
 msgid "An error prevented to load the tooltip data"
-msgstr ""
+msgstr "Wystąpił błąd uniemożliwiający załadowanie danych podpowiedzi"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -1463,7 +1495,7 @@ msgstr "Usuń pamięć podręczną serwera dla tej warstwy"
 #: view~dictionnary.visit.admin.panel.project.page
 msgctxt "view~dictionnary.visit.admin.panel.project.page"
 msgid "Visit the QGIS project page in the administration panel."
-msgstr ""
+msgstr "Odwiedź stronę projektu QGIS w panelu administracyjnym."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
@@ -1627,17 +1659,17 @@ msgstr "Zaznaczone obiekty zostały połączone z sukcesem."
 #: view~edition.linkaddedfeature.error.linkfeature.association
 msgctxt "view~edition.linkaddedfeature.error.linkfeature.association"
 msgid "The association of the new \"%s\" feature to the \"%s\" layer has failed"
-msgstr ""
+msgstr "Powiązanie nowego obiektu \"%s\" z warstwą \"%s\" nie powiodło się"
 
 #: view~edition.linkaddedfeature.error.linkfeature.invalid.parameters
 msgctxt "view~edition.linkaddedfeature.error.linkfeature.invalid.parameters"
 msgid "Required parameter for link the new feature are invalid"
-msgstr ""
+msgstr "Wymagane parametry dla linku do nowego obiektu są nieprawidłowe"
 
 #: view~edition.linkaddedfeature.success.linkfeature
 msgctxt "view~edition.linkaddedfeature.success.linkfeature"
 msgid "The new feature of layer \"%s\" was successfully linked to the layer \"%s\""
-msgstr ""
+msgstr "Nowa funkcja warstwy \"%s\" została pomyślnie powiązana z warstwą \"%s\""
 
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"

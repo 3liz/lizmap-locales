@@ -1,15 +1,15 @@
 # 
 # Translators:
 # Tudor Bărăscu <tudorbarascu@yahoo.com>, 2024
-# Igor Sorocean <sorocean.igor@gmail.com>, 2024
+# Igor Sorocean <sorocean.igor@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 14:05++0000\n"
+"POT-Creation-Date: 2025-01-07 12:00++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
-"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2024\n"
+"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2025\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -478,9 +478,10 @@ msgstr "Unelte pentru desenare"
 
 #: view~dictionnary.digitizing.toolbar.edit
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
-msgid "Edit (hold \"Shift\" to select multiple features)"
+msgid ""
+"Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
+"delete a vertex)"
 msgstr ""
-"Editează (ține apăsată tasta \"Shift\" pentru a selecta mai multe obiecte)"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
@@ -1392,12 +1393,13 @@ msgstr ""
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
-"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"\n"
+"Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
-"Poate că vei avea un indiciu deschizând „Instrumentele pentru dezvoltatori” "
-"în browser-ul web. De obicei este <kbd>F12</kbd>. Verifică „Consola” și "
-"„Rețeaua”."
+"Poate că vei avea un indiciu deschizând „Instrumentele pentru dezvoltatori” în browser-ul web. De obicei este <kbd>F12</kbd>. Verifică „Consolă” și „Rețea”.\n"
+"\n"
+"Vizitează panoul de administrare și verifică în pagina de jurnal dacă o solicitare HTTP s-a încheiat cu o eroare legată de acest proiect."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"

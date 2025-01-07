@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 14:05++0000\n"
+"POT-Creation-Date: 2025-01-07 12:00++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Last-Translator: Sérgio Pinheiro <sergiuspinheiro@gmail.com>, 2024\n"
 "Language-Team: Portuguese (https://app.transifex.com/3liz-1/teams/62012/pt/)\n"
@@ -487,10 +487,10 @@ msgstr "Ferramentas de desenho"
 
 #: view~dictionnary.digitizing.toolbar.edit
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
-msgid "Edit (hold \"Shift\" to select multiple features)"
+msgid ""
+"Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
+"delete a vertex)"
 msgstr ""
-"Editar (manter pressionada a tecla \"Shift\" para selecionar vários "
-"elementos)"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
@@ -758,7 +758,7 @@ msgstr "Abrir o mapa em ecrã completo"
 #: view~dictionnary.externalsearch.ignlimit
 msgctxt "view~dictionnary.externalsearch.ignlimit"
 msgid "IGN search must contain between 3 and 200 characters"
-msgstr ""
+msgstr "A pesquisa IGN deve conter entre 3 e 200 caracteres"
 
 #: view~dictionnary.externalsearch.mapdata
 msgctxt "view~dictionnary.externalsearch.mapdata"
@@ -897,7 +897,7 @@ msgstr "Centrar"
 #: view~dictionnary.geolocate.toolbar.start
 msgctxt "view~dictionnary.geolocate.toolbar.start"
 msgid "Start"
-msgstr "Inicar"
+msgstr "Iniciar"
 
 #: view~dictionnary.geolocate.toolbar.stop
 msgctxt "view~dictionnary.geolocate.toolbar.stop"
@@ -1402,12 +1402,10 @@ msgstr ""
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
-"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"\n"
+"Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
-"Talvez tenha uma ideia se abrir as \"Developer tools\" no seu browser. "
-"Geralmente clicando na tecla <kbd>F12</kbd>. Verifique \"Console\" e "
-"\"Networks\"."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 14:05++0000\n"
+"POT-Creation-Date: 2025-01-07 12:00++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Last-Translator: Majky Beast <maros.michalov@hrdlicka.sk>, 2024\n"
 "Language-Team: Slovak (https://app.transifex.com/3liz-1/teams/62012/sk/)\n"
@@ -470,7 +470,9 @@ msgstr "Nástroje na kreslenie"
 
 #: view~dictionnary.digitizing.toolbar.edit
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
-msgid "Edit (hold \"Shift\" to select multiple features)"
+msgid ""
+"Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
+"delete a vertex)"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.erase
@@ -1344,8 +1346,9 @@ msgstr ""
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
-"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"\n"
+"Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
 
 #: view~dictionnary.startup.goToProject

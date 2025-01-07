@@ -5,15 +5,15 @@
 # Laurent Jouanneau <dev@ljouanneau.com>, 2024
 # rldhont <rldhont@gmail.com>, 2024
 # Nicolas Boisteault <nboisteault@gmail.com>, 2024
-# etrimaille <gustrimaille@yahoo.fr>, 2024
+# etrimaille <gustrimaille@yahoo.fr>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 14:05++0000\n"
+"POT-Creation-Date: 2025-01-07 12:00++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
-"Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2024\n"
+"Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2025\n"
 "Language-Team: French (https://app.transifex.com/3liz-1/teams/62012/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -489,8 +489,12 @@ msgstr "Outils de dessin"
 
 #: view~dictionnary.digitizing.toolbar.edit
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
-msgid "Edit (hold \"Shift\" to select multiple features)"
-msgstr "Éditer (maintenir \"Shift\" pour sélectionner plusieurs entités)"
+msgid ""
+"Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
+"delete a vertex)"
+msgstr ""
+"Éditer (maintenir \"Shift\" pour sélectionner plusieurs entités, maintenir "
+"\"Alt\" et cliquer pour supprimer un nœud)"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
@@ -1415,12 +1419,13 @@ msgstr ""
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
-"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"\n"
+"Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
-"Vous aurez peut-être une idée en ouvrant vos \"Outils de développement\" "
-"dans votre navigateur web. C'est généralement <kbd>F12</kbd>. Vérifiez les "
-"onglets \"Console\" et \"Réseaux\"."
+"Vous aurez peut-être une idée en ouvrant vos \"Outils de développement\" dans votre navigateur web. C'est généralement <kbd>F12</kbd>. Vérifiez les onglets \"Console\" et \"Réseaux\".\n"
+"\n"
+"Visitez le panneau d'administration et vérifiez dans la page des logs si une requête HTTP s'est terminée par une erreur liée à ce projet."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
