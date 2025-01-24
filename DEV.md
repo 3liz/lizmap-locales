@@ -44,7 +44,7 @@ When a new major version of lizmap has been released, you have to follow these
 steps: 
 
 1. On the master branch, edit the `web-client/module_list.sh` to reference the new branch
-2. Edit the `.tx/config` to reference all pot of each modules
+2. Edit the `.tx/config` to reference all pot of each modules, in alphabetical order, where its `locales` directory is not empty
 3. commit
 4. create a new branch `lizmap_X_Y` (replace X and Y) from master
   ```

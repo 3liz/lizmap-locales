@@ -2,6 +2,12 @@
 host = https://www.transifex.com
 lang_map = cs : cs_CZ, de : de_DE, el : el_GR, es : es_ES, eu : eu_ES, fi : fi_FI, fr : fr_FR, gl : gl_ES, hu_HU : hu_HU, it : it_IT, ja : ja_JP, nl : nl_NL, no : no_NO, pl_PL : pl_PL, pt_BR : pt_BR, pt : pt_PT, ro : ro_RO, ru : ru_RU, sv_SE : sv_SE, sl : sl_SI, sk : sk_SK, uk_UA : uk_UA
 
+[o:3liz-1:p:lizmap-locales:r:actionpot]
+file_filter = <lang>/action.po
+source_file = pot/action.pot
+source_lang = en
+type = PO
+
 [o:3liz-1:p:lizmap-locales:r:adminpot]
 file_filter = <lang>/admin.po
 source_file = pot/admin.pot
@@ -14,20 +20,14 @@ source_file = pot/dataviz.pot
 source_lang = en
 type = PO
 
-[o:3liz-1:p:lizmap-locales:r:viewpot]
-file_filter = <lang>/view.po
-source_file = pot/view.pot
-source_lang = en
-type = PO
-
-[o:3liz-1:p:lizmap-locales:r:actionpot]
-file_filter = <lang>/action.po
-source_file = pot/action.pot
-source_lang = en
-type = PO
-
 [o:3liz-1:p:lizmap-locales:r:filterpot]
 file_filter = <lang>/filter.po
 source_file = pot/filter.pot
+source_lang = en
+type = PO
+
+[o:3liz-1:p:lizmap-locales:r:viewpot]
+file_filter = <lang>/view.po
+source_file = pot/view.pot
 source_lang = en
 type = PO
