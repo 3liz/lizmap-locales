@@ -1,15 +1,17 @@
 # 
 # Translators:
-# kasza jozsef <kasza.nkataszri@gmail.com>, 2018-2019
-# kasza jozsef <kasza.nkataszri@gmail.com>, 2018
+# Laurent Jouanneau <dev@ljouanneau.com>, 2025
+# rldhont <rldhont@gmail.com>, 2025
+# kasza jozsef <kasza.nkataszri@gmail.com>, 2025
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.9 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 13:56++0000\n"
-"PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2018-2019\n"
-"Language-Team: Hungarian (Hungary) (http://app.transifex.com/3liz-1/lizmap-locales/language/hu_HU/)\n"
+"POT-Creation-Date: 2025-01-24 10:31++0000\n"
+"PO-Revision-Date: 2025-01-24 10:32+0000\n"
+"Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2025\n"
+"Language-Team: Hungarian (Hungary) (https://app.transifex.com/3liz-1/teams/62012/hu_HU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -128,6 +130,16 @@ msgstr ""
 #: view~default.server.information.error.admin
 msgctxt "view~default.server.information.error.admin"
 msgid "Maps cannot be displayed. Please check the server information panel."
+msgstr ""
+
+#: view~default.service.access.denied
+msgctxt "view~default.service.access.denied"
+msgid "Access denied to the service."
+msgstr ""
+
+#: view~default.service.access.forbidden
+msgctxt "view~default.service.access.forbidden"
+msgid "Access forbidden to the service."
 msgstr ""
 
 #: view~dictionnary.action.choose
@@ -260,7 +272,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "A réteg nem látható. Kérem, közelítsen/távolítson olyan méretig, melynél láthatók a térképelemek."
+msgstr ""
+"A réteg nem látható. Kérem, közelítsen/távolítson olyan méretig, melynél "
+"láthatók a térképelemek."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -283,7 +297,7 @@ msgstr "Elem létrehozása"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
 msgid "Export"
-msgstr "Exportálás"
+msgstr "Export"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.filter.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.filter.title"
@@ -440,6 +454,18 @@ msgctxt "view~dictionnary.digitizing.constraint.title"
 msgid "Constraints"
 msgstr ""
 
+#: view~dictionnary.digitizing.import.fetch.error
+msgctxt "view~dictionnary.digitizing.import.fetch.error"
+msgid "Error while fetching projection definition from epsg.io"
+msgstr ""
+
+#: view~dictionnary.digitizing.import.metadata.error
+msgctxt "view~dictionnary.digitizing.import.metadata.error"
+msgid ""
+"No metadata found. Make sure the projection of the fgb file is the same as "
+"the current project"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
 msgid "Box"
@@ -467,7 +493,9 @@ msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.edit
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
-msgid "Edit (hold \"Shift\" to select multiple features)"
+msgid ""
+"Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
+"delete a vertex)"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.erase
@@ -487,7 +515,7 @@ msgstr "Szabadkézi rajz"
 
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
-msgid "Import in GeoJSON, GPX, KML or zipped Shapefile"
+msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.line
@@ -515,6 +543,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.polygon"
 msgid "Polygon"
 msgstr "Poligon"
 
+#: view~dictionnary.digitizing.toolbar.rotate
+msgctxt "view~dictionnary.digitizing.toolbar.rotate"
+msgid "Rotate"
+msgstr "Forgatás"
+
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
@@ -529,6 +562,11 @@ msgstr ""
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
 msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.split
+msgctxt "view~dictionnary.digitizing.toolbar.split"
+msgid "Split"
+msgstr "Szeletel"
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -772,7 +810,7 @@ msgstr ""
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"
 msgid "Export"
-msgstr "Exportálás"
+msgstr "Export"
 
 #: view~dictionnary.filter.btn.export.title
 msgctxt "view~dictionnary.filter.btn.export.title"
@@ -1339,8 +1377,9 @@ msgstr ""
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
-"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"\n"
+"Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
 
 #: view~dictionnary.startup.goToProject
@@ -1368,7 +1407,7 @@ msgstr ""
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
-msgstr "Exportálás"
+msgstr "Export"
 
 #: view~dictionnary.switcher.layer.export.warn
 msgctxt "view~dictionnary.switcher.layer.export.warn"
@@ -1540,7 +1579,9 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Minden réteghez legalább egy objektumot ki kell jelölni a link létrehozásához."
+msgstr ""
+"Minden réteghez legalább egy objektumot ki kell jelölni a link "
+"létrehozásához."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -1552,7 +1593,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Nem kapcsolhat több objektumot mindkét réteghez. Kérem válasszon egy objektumot az egyik réteghez és próbálja újra."
+msgstr ""
+"Nem kapcsolhat több objektumot mindkét réteghez. Kérem válasszon egy "
+"objektumot az egyik réteghez és próbálja újra."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1607,7 +1650,9 @@ msgstr ""
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"
 msgid "The bbox has to be 4 floats separated by ','."
-msgstr "A határoló négyszög megadása 4 darab tört számmal lehetséges, ','-vel elválasztva."
+msgstr ""
+"A határoló négyszög megadása 4 darab tört számmal lehetséges, ','-vel "
+"elválasztva."
 
 #: view~edition.message.error.constraint
 msgctxt "view~edition.message.error.constraint"
@@ -1622,7 +1667,9 @@ msgstr ""
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
 msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr "crs megadása kötelező, melynek egész számnak, vagy ESPG:* formátumnak kell lennie."
+msgstr ""
+"crs megadása kötelező, melynek egész számnak, vagy ESPG:* formátumnak kell "
+"lennie."
 
 #: view~edition.message.error.delete
 msgctxt "view~edition.message.error.delete"
@@ -1686,7 +1733,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "A Lizmap nem találja a \"%s\" réteg elsődleges kulcsát. A szerkesztőeszköz használatához elengedhetetlen, hogy a táblának legyen elsődleges kulcsa."
+msgstr ""
+"A Lizmap nem találja a \"%s\" réteg elsődleges kulcsát. A szerkesztőeszköz "
+"használatához elengedhetetlen, hogy a táblának legyen elsődleges kulcsa."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1708,7 +1757,9 @@ msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "A/Az\"%s\" nevű mező, mely a/az \"%s\" réteg média-feltöltési könyvtára, nem írható."
+msgstr ""
+"A/Az\"%s\" nevű mező, mely a/az \"%s\" réteg média-feltöltési könyvtára, nem"
+" írható."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -2388,7 +2439,7 @@ msgstr "Információ"
 #: view~map.switcher.layer.style.title
 msgctxt "view~map.switcher.layer.style.title"
 msgid "Change layer style"
-msgstr "Réteg-stílus megváltoztatása"
+msgstr "Rétegstílus megváltoztatása"
 
 #: view~map.switcher.layer.unfilter.title
 msgctxt "view~map.switcher.layer.unfilter.title"
@@ -2398,7 +2449,7 @@ msgstr "Az aktuális szűrő kikapcsolása"
 #: view~map.switcher.layer.zoomToExtent.title
 msgctxt "view~map.switcher.layer.zoomToExtent.title"
 msgid "Zoom to layer extent"
-msgstr "Zoom a réteg külső határaihoz igazodva"
+msgstr "Zoom a réteg széleihez igazodva"
 
 #: view~map.switcher.layers.collapse.title
 msgctxt "view~map.switcher.layers.collapse.title"

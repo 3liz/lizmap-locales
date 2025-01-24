@@ -1,14 +1,16 @@
 # 
 # Translators:
-# kasza jozsef <kasza.nkataszri@gmail.com>, 2018-2019
+# Laurent Jouanneau <dev@ljouanneau.com>, 2025
+# kasza jozsef <kasza.nkataszri@gmail.com>, 2025
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.9 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 13:56++0000\n"
-"PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2018-2019\n"
-"Language-Team: Hungarian (Hungary) (http://app.transifex.com/3liz-1/lizmap-locales/language/hu_HU/)\n"
+"POT-Creation-Date: 2025-01-24 10:31++0000\n"
+"PO-Revision-Date: 2025-01-24 10:32+0000\n"
+"Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2025\n"
+"Language-Team: Hungarian (Hungary) (https://app.transifex.com/3liz-1/teams/62012/hu_HU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -100,8 +102,8 @@ msgstr "Adminisztrátor e-mail"
 #: admin~admin.configuration.services.allowUserAccountRequests.help.deactivated
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
-msgid "This option is deactivated because of the use of Ldap authentication"
-msgstr "Ez a lehetőség kikapcsolásra került az Ldap azonosítás miatt."
+msgid "This option is deactivated because of the use of LDAP authentication"
+msgstr ""
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -145,8 +147,8 @@ msgstr "Szolgáltatások"
 
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
-msgid "Only maps"
-msgstr "Csak térképek"
+msgid "Disable landing page"
+msgstr ""
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
@@ -362,14 +364,19 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
 msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
-msgstr "A küldő e-mail címe szükséges az értesítések küldéséhez vagy a felhasználói fiók létrehozásához."
+msgstr ""
+"A küldő e-mail címe szükséges az értesítések küldéséhez vagy a felhasználói "
+"fiók létrehozásához."
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "A küldéshez használt e-mail cím. Ha nincs megadva, a Lizmap nem tud leveleket küldeni. Győződjön meg róla, hogy a szerver képes e-maileket küldeni a megadott címről."
+msgstr ""
+"A küldéshez használt e-mail cím. Ha nincs megadva, a Lizmap nem tud "
+"leveleket küldeni. Győződjön meg róla, hogy a szerver képes e-maileket "
+"küldeni a megadott címről."
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
@@ -396,7 +403,9 @@ msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
 msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
-msgstr "Ha be van kapcsolva, a látogatók kitölthetnek egy adatlapot a hozzáférés igényléséhez. A küldő e-mail címének megadása szükséges"
+msgstr ""
+"Ha be van kapcsolva, a látogatók kitölthetnek egy adatlapot a hozzáférés "
+"igényléséhez. A küldő e-mail címének megadása szükséges"
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
@@ -413,7 +422,9 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr "0 = nincs lejárati idő, vagy adjon meg egy egész számot (maximum 2592000 másodperc = 30 nap)"
+msgstr ""
+"0 = nincs lejárati idő, vagy adjon meg egy egész számot (maximum 2592000 "
+"másodperc = 30 nap)"
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
@@ -512,7 +523,7 @@ msgstr "Hibakereső mód"
 #: admin~admin.form.admin_services.defaultProject.label
 msgctxt "admin~admin.form.admin_services.defaultProject.label"
 msgid "Default project"
-msgstr "Alapértelmezett projekt"
+msgstr "Projekt alapbeállítás"
 
 #: admin~admin.form.admin_services.defaultRepository.label
 msgctxt "admin~admin.form.admin_services.defaultRepository.label"
@@ -578,7 +589,9 @@ msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr "A szerver gyorsítótár lejárata érték 0 és 2592000 közötti egész érték kell legyen. /másodperc/"
+msgstr ""
+"A szerver gyorsítótár lejárata érték 0 és 2592000 közötti egész érték kell "
+"legyen. /másodperc/"
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
@@ -610,10 +623,15 @@ msgctxt "admin~admin.form.admin_services.on.label"
 msgid "On"
 msgstr "Be"
 
+#: admin~admin.form.admin_services.onlyMaps.help
+msgctxt "admin~admin.form.admin_services.onlyMaps.help"
+msgid "If set to \"On\", no landing page will be available."
+msgstr ""
+
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
-msgid "Only maps"
-msgstr "Csak térképek"
+msgid "Disable landing page"
+msgstr ""
 
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
@@ -681,7 +699,9 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr "A gyűjtemények gyökérkönyvtára 1 könyvtárra korlátozza a Lizmap-et. Ha ezt megadja, nem adhat meg Lizmap könyvtárat."
+msgstr ""
+"A gyűjtemények gyökérkönyvtára 1 könyvtárra korlátozza a Lizmap-et. Ha ezt "
+"megadja, nem adhat meg Lizmap könyvtárat."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -719,7 +739,7 @@ msgstr ""
 #: admin~admin.form.admin_services.wmsPublicUrlList.label
 msgctxt "admin~admin.form.admin_services.wmsPublicUrlList.label"
 msgid "WMS subdomain URLs list (optional)"
-msgstr "WMS al-domain URLs lista (nem kötelező)"
+msgstr "WMS aldomainek URL listája (nem kötelező)"
 
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
@@ -735,7 +755,9 @@ msgstr "Igen"
 msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
-msgstr "Bármilyen CSS szintaxis használható a Lizmap stílus változtatásához (haladó felhasználóknak)"
+msgstr ""
+"Bármilyen CSS szintaxis használható a Lizmap stílus változtatásához (haladó "
+"felhasználóknak)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
@@ -917,6 +939,36 @@ msgctxt "admin~admin.landingPageContent.unauthed.position.no"
 msgid "No"
 msgstr "Nem"
 
+#: admin~admin.logs.admin.file.erase
+msgctxt "admin~admin.logs.admin.file.erase"
+msgid "Erase the admin log file"
+msgstr ""
+
+#: admin~admin.logs.admin.file.erase.confirm
+msgctxt "admin~admin.logs.admin.file.erase.confirm"
+msgid "Are you sure you want to erase the admin log file?"
+msgstr ""
+
+#: admin~admin.logs.admin.file.erase.ok
+msgctxt "admin~admin.logs.admin.file.erase.ok"
+msgid "The admin log file has successfully been erased."
+msgstr ""
+
+#: admin~admin.logs.admin.no.delete.right
+msgctxt "admin~admin.logs.admin.no.delete.right"
+msgid "You have no right to delete the logs."
+msgstr ""
+
+#: admin~admin.logs.admin.sentence
+msgctxt "admin~admin.logs.admin.sentence"
+msgid "Last lines of the admin log file"
+msgstr ""
+
+#: admin~admin.logs.admin.title
+msgctxt "admin~admin.logs.admin.title"
+msgid "Admin log"
+msgstr ""
+
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
 msgid "Content"
@@ -965,7 +1017,8 @@ msgstr "Egy felhasználó bejelentkezett."
 #: admin~admin.logs.email.popup.body
 msgctxt "admin~admin.logs.email.popup.body"
 msgid "A user has opened a feature information popup."
-msgstr "Egy felhasználó megnyitotta valamelyik elem információs felugró-ablakát."
+msgstr ""
+"Egy felhasználó megnyitotta valamelyik elem információs felugró-ablakát."
 
 #: admin~admin.logs.email.print.body
 msgctxt "admin~admin.logs.email.print.body"
@@ -997,37 +1050,10 @@ msgctxt "admin~admin.logs.empty.ok"
 msgid "The log table %s has been successfully emptied."
 msgstr "A %s log-tábla sikeresen törölve. "
 
-#: admin~admin.logs.error.file.erase
-msgctxt "admin~admin.logs.error.file.erase"
-msgid "Erase the error log file"
-msgstr "A hibajegyzék törlése"
-
-#: admin~admin.logs.error.file.erase.confirm
-msgctxt "admin~admin.logs.error.file.erase.confirm"
-msgid "Are you sure you want to erase the error log file?"
-msgstr ""
-
-#: admin~admin.logs.error.file.erase.ok
-msgctxt "admin~admin.logs.error.file.erase.ok"
-msgid "The error log file has successfully been erased."
-msgstr "A hibajegyzék sikeresen törölve."
-
-#: admin~admin.logs.error.file.too.big
-msgctxt "admin~admin.logs.error.file.too.big"
-msgid ""
-"The error log file is too big. Consider using log rotation for Lizmap Web "
-"Client logs."
-msgstr "A hibajegyzék tárolására használt file túl nagy. Fontolja meg a jegyzékek automatikus kezelésének beállítását a Lizmap Webkliens jegyzékekhez."
-
-#: admin~admin.logs.error.no.delete.right
-msgctxt "admin~admin.logs.error.no.delete.right"
-msgid "You have no right to delete the logs."
-msgstr ""
-
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
-msgid "Last lines of the Lizmap Web Client application error log file"
-msgstr "A Lizmap Webkliens hibajegyzékének utolsó sora."
+msgid "Last lines of the error log file"
+msgstr ""
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
@@ -1037,7 +1063,12 @@ msgstr "Hibajegyzék"
 #: admin~admin.logs.export.button
 msgctxt "admin~admin.logs.export.button"
 msgid "Export"
-msgstr "Exportálás"
+msgstr "Export"
+
+#: admin~admin.logs.file.too.big
+msgctxt "admin~admin.logs.file.too.big"
+msgid "The log file is too big. Consider using log rotation for this log."
+msgstr ""
 
 #: admin~admin.logs.first_page
 msgctxt "admin~admin.logs.first_page"
@@ -1078,6 +1109,11 @@ msgstr "Gyűjtemény"
 msgctxt "admin~admin.logs.timestamp"
 msgid "Timestamp"
 msgstr "Időbélyeg"
+
+#: admin~admin.logs.title
+msgctxt "admin~admin.logs.title"
+msgid "Logs"
+msgstr ""
 
 #: admin~admin.logs.user
 msgctxt "admin~admin.logs.user"
@@ -1571,11 +1607,6 @@ msgctxt "admin~admin.server.information.qgis.action"
 msgid "Action"
 msgstr ""
 
-#: admin~admin.server.information.qgis.commit_id
-msgctxt "admin~admin.server.information.qgis.commit_id"
-msgid "Commit ID"
-msgstr ""
-
 #: admin~admin.server.information.qgis.error.fetching.information
 msgctxt "admin~admin.server.information.qgis.error.fetching.information"
 msgid ""
@@ -1728,6 +1759,16 @@ msgstr ""
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
+msgstr ""
+
+#: admin~admin.server.information.qgis.wrapper
+msgctxt "admin~admin.server.information.qgis.wrapper"
+msgid "QJazz or Py-QGIS-Server"
+msgstr ""
+
+#: admin~admin.server.information.qgis.wrapper.not.installed
+msgctxt "admin~admin.server.information.qgis.wrapper.not.installed"
+msgid "Not installed"
 msgstr ""
 
 #: admin~admin.theme.button.remove.logo.confirm.label
@@ -1935,7 +1976,9 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr "Valaki hozzáférést igényelt, hogy elérje a térképeket. Felhasználónév: %s, e-mail: %s."
+msgstr ""
+"Valaki hozzáférést igényelt, hogy elérje a térképeket. Felhasználónév: %s, "
+"e-mail: %s."
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"

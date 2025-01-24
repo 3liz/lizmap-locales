@@ -1,17 +1,18 @@
 # 
 # Translators:
-# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2016-2017
-# rldhont <rldhont@gmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
-# Кадастр Муниципальный, 2021-2022
+# Laurent Jouanneau <dev@ljouanneau.com>, 2025
+# rldhont <rldhont@gmail.com>, 2025
+# Кадастр Муниципальный, 2025
+# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2025
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.9 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 13:56++0000\n"
-"PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: Кадастр Муниципальный, 2021-2022\n"
-"Language-Team: Russian (http://app.transifex.com/3liz-1/lizmap-locales/language/ru/)\n"
+"POT-Creation-Date: 2025-01-24 10:31++0000\n"
+"PO-Revision-Date: 2025-01-24 10:32+0000\n"
+"Last-Translator: Petr Tsymbarovich <petr@tsymbarovich.ru>, 2025\n"
+"Language-Team: Russian (https://app.transifex.com/3liz-1/teams/62012/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -88,7 +89,9 @@ msgctxt "view~default.project.needs.update"
 msgid ""
 "The project needs an update from the GIS administrator. Please contact the "
 "GIS administrator to check the QGIS projects panel."
-msgstr "Проекту требуется обновление от администратора ГИС. Пожалуйста, свяжитесь с администратором ГИС, чтобы проверить панель проектов QGIS."
+msgstr ""
+"Проекту требуется обновление от администратора ГИС. Пожалуйста, свяжитесь с "
+"администратором ГИС, чтобы проверить панель проектов QGIS."
 
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
@@ -125,11 +128,23 @@ msgctxt "view~default.server.information.error"
 msgid ""
 "This map cannot be displayed. Please contact the server administrator to "
 "check the server information panel."
-msgstr "Эта карта не может быть отображена. Пожалуйста, свяжитесь с администратором сервера, чтобы проверить информационную панель сервера."
+msgstr ""
+"Эта карта не может быть отображена. Пожалуйста, свяжитесь с администратором "
+"сервера, чтобы проверить информационную панель сервера."
 
 #: view~default.server.information.error.admin
 msgctxt "view~default.server.information.error.admin"
 msgid "Maps cannot be displayed. Please check the server information panel."
+msgstr ""
+
+#: view~default.service.access.denied
+msgctxt "view~default.service.access.denied"
+msgid "Access denied to the service."
+msgstr ""
+
+#: view~default.service.access.forbidden
+msgctxt "view~default.service.access.forbidden"
+msgid "Access forbidden to the service."
 msgstr ""
 
 #: view~dictionnary.action.choose
@@ -442,10 +457,22 @@ msgctxt "view~dictionnary.digitizing.constraint.title"
 msgid "Constraints"
 msgstr ""
 
+#: view~dictionnary.digitizing.import.fetch.error
+msgctxt "view~dictionnary.digitizing.import.fetch.error"
+msgid "Error while fetching projection definition from epsg.io"
+msgstr ""
+
+#: view~dictionnary.digitizing.import.metadata.error
+msgctxt "view~dictionnary.digitizing.import.metadata.error"
+msgid ""
+"No metadata found. Make sure the projection of the fgb file is the same as "
+"the current project"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
 msgid "Box"
-msgstr "Квадрат"
+msgstr "Прямоугольник"
 
 #: view~dictionnary.digitizing.toolbar.circle
 msgctxt "view~dictionnary.digitizing.toolbar.circle"
@@ -469,7 +496,9 @@ msgstr "Инструменты рисования"
 
 #: view~dictionnary.digitizing.toolbar.edit
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
-msgid "Edit (hold \"Shift\" to select multiple features)"
+msgid ""
+"Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
+"delete a vertex)"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.erase
@@ -489,7 +518,7 @@ msgstr "Свободное выделение"
 
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
-msgid "Import in GeoJSON, GPX, KML or zipped Shapefile"
+msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.line
@@ -517,6 +546,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.polygon"
 msgid "Polygon"
 msgstr "Полигон"
 
+#: view~dictionnary.digitizing.toolbar.rotate
+msgctxt "view~dictionnary.digitizing.toolbar.rotate"
+msgid "Rotate"
+msgstr "Повернуть"
+
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
@@ -531,6 +565,11 @@ msgstr ""
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
 msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.split
+msgctxt "view~dictionnary.digitizing.toolbar.split"
+msgid "Split"
+msgstr "Разделить"
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -630,7 +669,9 @@ msgctxt "view~dictionnary.edition.draw.activate.mobile"
 msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
-msgstr "Вы можете скрыть эту форму с помощью кнопки закрытия всякий раз, когда вам нужно нарисовать геометрию."
+msgstr ""
+"Вы можете скрыть эту форму с помощью кнопки закрытия всякий раз, когда вам "
+"нужно нарисовать геометрию."
 
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
@@ -654,7 +695,9 @@ msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
-msgstr "Вы не можете сохранить этот объект без геометрии. Нарисуйте геометрию на карте."
+msgstr ""
+"Вы не можете сохранить этот объект без геометрии. Нарисуйте геометрию на "
+"карте."
 
 #: view~dictionnary.edition.message.error.send.feature
 msgctxt "view~dictionnary.edition.message.error.send.feature"
@@ -693,7 +736,9 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "Вы должны правильно заполнить форму, чтобы создать новый элемент после разделения геометрии."
+msgstr ""
+"Вы должны правильно заполнить форму, чтобы создать новый элемент после "
+"разделения геометрии."
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -844,7 +889,7 @@ msgstr "Следить"
 #: view~dictionnary.geolocate.toolbar.center
 msgctxt "view~dictionnary.geolocate.toolbar.center"
 msgid "Center"
-msgstr "Центрировать"
+msgstr "Центр"
 
 #: view~dictionnary.geolocate.toolbar.start
 msgctxt "view~dictionnary.geolocate.toolbar.start"
@@ -1250,7 +1295,7 @@ msgstr "Crosses"
 #: view~dictionnary.selectiontool.toolbar.geomOperator.disjoint
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.disjoint"
 msgid "Disjoint"
-msgstr "Не пересекат"
+msgstr "Не пересекает"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.intersects
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.intersects"
@@ -1300,7 +1345,7 @@ msgstr "Отдельные слои"
 #: view~dictionnary.selectiontool.toolbar.title
 msgctxt "view~dictionnary.selectiontool.toolbar.title"
 msgid "Selection"
-msgstr "Выделение"
+msgstr "Выбор"
 
 #: view~dictionnary.snapping.list.disabled
 msgctxt "view~dictionnary.snapping.list.disabled"
@@ -1341,8 +1386,9 @@ msgstr ""
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
-"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"\n"
+"Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
 
 #: view~dictionnary.startup.goToProject
@@ -1475,7 +1521,7 @@ msgstr "Отменить публикацию?"
 #: view~edition.form.cancel.label
 msgctxt "view~edition.form.cancel.label"
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
 
 #: view~edition.form.data.saved
 msgctxt "view~edition.form.data.saved"
@@ -1542,7 +1588,8 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Для создания связи для каждого слоя должен быть выбран хотя бы один объект."
+msgstr ""
+"Для создания связи для каждого слоя должен быть выбран хотя бы один объект."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -1554,7 +1601,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Вы не можете связать несколько объектов для обоих слоев. Выберите только один объект для одного из слоев и повторите попытку."
+msgstr ""
+"Вы не можете связать несколько объектов для обоих слоев. Выберите только "
+"один объект для одного из слоев и повторите попытку."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1609,7 +1658,7 @@ msgstr ""
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"
 msgid "The bbox has to be 4 floats separated by ','."
-msgstr "The bbox has to be 4 floats separated by ','."
+msgstr "Bbox должен состоять из 4 чисел, разделенных ','."
 
 #: view~edition.message.error.constraint
 msgctxt "view~edition.message.error.constraint"
@@ -1624,7 +1673,8 @@ msgstr "Произошла ошибка при создании объекта."
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
 msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr "Необходимо указать систему координат в формате целого числа или EPSG:*."
+msgstr ""
+"Необходимо указать систему координат в формате целого числа или EPSG:*."
 
 #: view~edition.message.error.delete
 msgctxt "view~edition.message.error.delete"
@@ -1671,7 +1721,9 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
-msgstr "Вы не можете сохранить этот объект без геометрии. Нарисуйте геометрию на карте."
+msgstr ""
+"Вы не можете сохранить этот объект без геометрии. Нарисуйте геометрию на "
+"карте."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1688,7 +1740,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap не может найти первичные ключи слоя \"%s\". Средству редактирования требуется определенный первичный ключ в таблице."
+msgstr ""
+"Lizmap не может найти первичные ключи слоя \"%s\". Средству редактирования "
+"требуется определенный первичный ключ в таблице."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1710,7 +1764,9 @@ msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "Поле \"%s\" каталог слоя \"%s\" для загрузки мультимедиа недоступно для записи."
+msgstr ""
+"Поле \"%s\" каталог слоя \"%s\" для загрузки мультимедиа недоступно для "
+"записи."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -1740,7 +1796,9 @@ msgstr "Публикация"
 #: view~edition.modification.msg
 msgctxt "view~edition.modification.msg"
 msgid "Click features on the map to access edition tools."
-msgstr "Щелкните объекты на карте, чтобы получить доступ к инструментам редактирования."
+msgstr ""
+"Щелкните объекты на карте, чтобы получить доступ к инструментам "
+"редактирования."
 
 #: view~edition.navbar.title
 msgctxt "view~edition.navbar.title"
@@ -2215,7 +2273,7 @@ msgstr "Шкала масштаба"
 #: view~map.overviewbar.scaletext.hover
 msgctxt "view~map.overviewbar.scaletext.hover"
 msgid "Scale"
-msgstr "Масштаб"
+msgstr "Масштабирование"
 
 #: view~map.overviewbar.scaletext.title
 msgctxt "view~map.overviewbar.scaletext.title"
@@ -2345,7 +2403,7 @@ msgstr "Формат"
 #: view~map.print.toolbar.scale
 msgctxt "view~map.print.toolbar.scale"
 msgid "Scale"
-msgstr "Масштаб"
+msgstr "Масштабирование"
 
 #: view~map.print.toolbar.template
 msgctxt "view~map.print.toolbar.template"
@@ -2375,7 +2433,7 @@ msgstr "Выбор"
 #: view~map.selectiontool.toolbar.title
 msgctxt "view~map.selectiontool.toolbar.title"
 msgid "Selection"
-msgstr "Выделение"
+msgstr "Выбор"
 
 #: view~map.switcher.layer.export.title
 msgctxt "view~map.switcher.layer.export.title"
@@ -2492,7 +2550,9 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have access to "
 "the maps."
-msgstr "Пожалуйста, напишите небольшой текст, чтобы объяснить, почему вы хотели бы иметь доступ к картам."
+msgstr ""
+"Пожалуйста, напишите небольшой текст, чтобы объяснить, почему вы хотели бы "
+"иметь доступ к картам."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"

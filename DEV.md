@@ -61,7 +61,10 @@ cd web-client
 ./update_from_lizmap.sh /path/to/lizmap-web-client/.jelixlocales.ini
 ./push_to_transifex.sh
 ```
-7. Verify on transifex that you have new package `lizmap-X-Y-*`
+7. On Transifex : https://app.transifex.com/3liz-1/lizmap-locales/content/
+   1. Update all new files about **name** and **Category**
+   2. Copy the **slug** into the name : `lizmap-X-Y--actionpot`
+   3. Add the category : `lizmap_X_Y`
 8. check strings of your language into Transifex, then :
   ```
 ./update_from_transifex.sh

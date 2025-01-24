@@ -1,15 +1,16 @@
 # 
 # Translators:
-# rldhont <rldhont@gmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
+# Laurent Jouanneau <dev@ljouanneau.com>, 2025
+# rldhont <rldhont@gmail.com>, 2025
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.9 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 13:56++0000\n"
-"PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>, 2016\n"
-"Language-Team: Greek (http://app.transifex.com/3liz-1/lizmap-locales/language/el/)\n"
+"POT-Creation-Date: 2025-01-24 10:31++0000\n"
+"PO-Revision-Date: 2025-01-24 10:32+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>, 2025\n"
+"Language-Team: Greek (https://app.transifex.com/3liz-1/teams/62012/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -130,6 +131,16 @@ msgctxt "view~default.server.information.error.admin"
 msgid "Maps cannot be displayed. Please check the server information panel."
 msgstr ""
 
+#: view~default.service.access.denied
+msgctxt "view~default.service.access.denied"
+msgid "Access denied to the service."
+msgstr ""
+
+#: view~default.service.access.forbidden
+msgctxt "view~default.service.access.forbidden"
+msgid "Access forbidden to the service."
+msgstr ""
+
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
 msgid "Choose an action to run"
@@ -193,12 +204,12 @@ msgstr "Μετά"
 #: view~dictionnary.atlas.toolbar.pause
 msgctxt "view~dictionnary.atlas.toolbar.pause"
 msgid "Pause"
-msgstr "Διάλειμμα"
+msgstr "Παύση"
 
 #: view~dictionnary.atlas.toolbar.play
 msgctxt "view~dictionnary.atlas.toolbar.play"
 msgid "Play"
-msgstr "Ανάγνωση"
+msgstr "Διάλεξη"
 
 #: view~dictionnary.atlas.toolbar.prev
 msgctxt "view~dictionnary.atlas.toolbar.prev"
@@ -440,6 +451,18 @@ msgctxt "view~dictionnary.digitizing.constraint.title"
 msgid "Constraints"
 msgstr ""
 
+#: view~dictionnary.digitizing.import.fetch.error
+msgctxt "view~dictionnary.digitizing.import.fetch.error"
+msgid "Error while fetching projection definition from epsg.io"
+msgstr ""
+
+#: view~dictionnary.digitizing.import.metadata.error
+msgctxt "view~dictionnary.digitizing.import.metadata.error"
+msgid ""
+"No metadata found. Make sure the projection of the fgb file is the same as "
+"the current project"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
 msgid "Box"
@@ -467,7 +490,9 @@ msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.edit
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
-msgid "Edit (hold \"Shift\" to select multiple features)"
+msgid ""
+"Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
+"delete a vertex)"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.erase
@@ -487,7 +512,7 @@ msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
-msgid "Import in GeoJSON, GPX, KML or zipped Shapefile"
+msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.line
@@ -515,6 +540,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.polygon"
 msgid "Polygon"
 msgstr ""
 
+#: view~dictionnary.digitizing.toolbar.rotate
+msgctxt "view~dictionnary.digitizing.toolbar.rotate"
+msgid "Rotate"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
@@ -528,6 +558,11 @@ msgstr ""
 #: view~dictionnary.digitizing.toolbar.save.state
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
+msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.split
+msgctxt "view~dictionnary.digitizing.toolbar.split"
+msgid "Split"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.text
@@ -701,7 +736,7 @@ msgstr ""
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
 msgid "Edition"
-msgstr "Εκδοσεις"
+msgstr "Επεξεργασία"
 
 #: view~dictionnary.embed.open.map
 msgctxt "view~dictionnary.embed.open.map"
@@ -1097,7 +1132,9 @@ msgstr ""
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
 msgid "Place the rectangle for printing"
-msgstr "Βάλτε το τετράγωνο στο χάρτη και κάντε κλικ στο κουμπί Εκτύπωση αριστερά στην οθώνη"
+msgstr ""
+"Βάλτε το τετράγωνο στο χάρτη και κάντε κλικ στο κουμπί Εκτύπωση αριστερά "
+"στην οθώνη"
 
 #: view~dictionnary.print.advanced
 msgctxt "view~dictionnary.print.advanced"
@@ -1339,8 +1376,9 @@ msgstr ""
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
-"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"\n"
+"Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
 
 #: view~dictionnary.startup.goToProject
@@ -1383,12 +1421,12 @@ msgstr ""
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
 msgid "Pause"
-msgstr "Διάλειμμα"
+msgstr "Παύση"
 
 #: view~dictionnary.timemanager.toolbar.play
 msgctxt "view~dictionnary.timemanager.toolbar.play"
 msgid "Play"
-msgstr "Ανάγνωση"
+msgstr "Διάλεξη"
 
 #: view~dictionnary.toolbar.content.stop
 msgctxt "view~dictionnary.toolbar.content.stop"
@@ -1478,7 +1516,7 @@ msgstr "Ακύρωση"
 #: view~edition.form.data.saved
 msgctxt "view~edition.form.data.saved"
 msgid "Data has been saved."
-msgstr "Αποθηκευμένα δεδομένα."
+msgstr "Τα δεδομένα είναι αποθηκευμένα."
 
 #: view~edition.form.reset.label
 msgctxt "view~edition.form.reset.label"
@@ -1998,7 +2036,7 @@ msgstr "Γνωστοποίηση της τοποθεσίας"
 #: view~map.layers
 msgctxt "view~map.layers"
 msgid "Layers"
-msgstr "Στρώματα"
+msgstr "Υπόμνημα"
 
 #: view~map.legend
 msgctxt "view~map.legend"

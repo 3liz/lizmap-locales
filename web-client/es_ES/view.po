@@ -1,18 +1,19 @@
 # 
 # Translators:
-# Arturo Lorenzo <shroomeater@gmail.com>, 2019
-# rldhont <rldhont@gmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
-# Samuel Mesa <samuelmesa@gmail.com>, 2018
-# Víctor Herreros <vherreros@ucm.es>, 2016-2017
+# Samuel Mesa <samuelmesa@gmail.com>, 2025
+# Laurent Jouanneau <dev@ljouanneau.com>, 2025
+# Arturo Lorenzo <shroomeater@gmail.com>, 2025
+# Víctor Herreros <vherreros@ucm.es>, 2025
+# rldhont <rldhont@gmail.com>, 2025
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.9 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 13:56++0000\n"
-"PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: Samuel Mesa <samuelmesa@gmail.com>, 2018\n"
-"Language-Team: Spanish (http://app.transifex.com/3liz-1/lizmap-locales/language/es/)\n"
+"POT-Creation-Date: 2025-01-24 10:31++0000\n"
+"PO-Revision-Date: 2025-01-24 10:32+0000\n"
+"Last-Translator: rldhont <rldhont@gmail.com>, 2025\n"
+"Language-Team: Spanish (https://app.transifex.com/3liz-1/teams/62012/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -133,6 +134,16 @@ msgctxt "view~default.server.information.error.admin"
 msgid "Maps cannot be displayed. Please check the server information panel."
 msgstr ""
 
+#: view~default.service.access.denied
+msgctxt "view~default.service.access.denied"
+msgid "Access denied to the service."
+msgstr ""
+
+#: view~default.service.access.forbidden
+msgctxt "view~default.service.access.forbidden"
+msgid "Access forbidden to the service."
+msgstr ""
+
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
 msgid "Choose an action to run"
@@ -196,7 +207,7 @@ msgstr "Siguiente"
 #: view~dictionnary.atlas.toolbar.pause
 msgctxt "view~dictionnary.atlas.toolbar.pause"
 msgid "Pause"
-msgstr "Pausa"
+msgstr "Parar"
 
 #: view~dictionnary.atlas.toolbar.play
 msgctxt "view~dictionnary.atlas.toolbar.play"
@@ -206,7 +217,7 @@ msgstr "Reproducir"
 #: view~dictionnary.atlas.toolbar.prev
 msgctxt "view~dictionnary.atlas.toolbar.prev"
 msgid "Previous"
-msgstr "Anterior"
+msgstr "Previo"
 
 #: view~dictionnary.atlas.toolbar.stop
 msgctxt "view~dictionnary.atlas.toolbar.stop"
@@ -263,7 +274,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "La capa no es visible. Por favor, haga zoom a una escala en la que las características sean visibles."
+msgstr ""
+"La capa no es visible. Por favor, haga zoom a una escala en la que las "
+"características sean visibles."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -343,7 +356,9 @@ msgstr "Refrescar los datos de la tabla."
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr "La extensión del mapa ha cambiado desde la última vez que se recolectaron datos."
+msgstr ""
+"La extensión del mapa ha cambiado desde la última vez que se recolectaron "
+"datos."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
@@ -443,6 +458,18 @@ msgctxt "view~dictionnary.digitizing.constraint.title"
 msgid "Constraints"
 msgstr ""
 
+#: view~dictionnary.digitizing.import.fetch.error
+msgctxt "view~dictionnary.digitizing.import.fetch.error"
+msgid "Error while fetching projection definition from epsg.io"
+msgstr ""
+
+#: view~dictionnary.digitizing.import.metadata.error
+msgctxt "view~dictionnary.digitizing.import.metadata.error"
+msgid ""
+"No metadata found. Make sure the projection of the fgb file is the same as "
+"the current project"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
 msgid "Box"
@@ -470,7 +497,9 @@ msgstr "Herramientas de dibujo"
 
 #: view~dictionnary.digitizing.toolbar.edit
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
-msgid "Edit (hold \"Shift\" to select multiple features)"
+msgid ""
+"Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
+"delete a vertex)"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.erase
@@ -490,7 +519,7 @@ msgstr "A mano alzada"
 
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
-msgid "Import in GeoJSON, GPX, KML or zipped Shapefile"
+msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.line
@@ -518,6 +547,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.polygon"
 msgid "Polygon"
 msgstr "Polígono"
 
+#: view~dictionnary.digitizing.toolbar.rotate
+msgctxt "view~dictionnary.digitizing.toolbar.rotate"
+msgid "Rotate"
+msgstr "Rotar"
+
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
@@ -532,6 +566,11 @@ msgstr ""
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
 msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.split
+msgctxt "view~dictionnary.digitizing.toolbar.split"
+msgid "Split"
+msgstr "Segmentar"
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -694,7 +733,9 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "Debe rellenar correctamente el formulario, para crear una nuevo objeto después de dividir la geometría"
+msgstr ""
+"Debe rellenar correctamente el formulario, para crear una nuevo objeto "
+"después de dividir la geometría"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -734,7 +775,7 @@ msgstr "No hay resultados"
 #: view~dictionnary.externalsearch.search
 msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
-msgstr "Búsqueda"
+msgstr "Buscando"
 
 #: view~dictionnary.featuresTable.item.active.hover
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
@@ -955,7 +996,7 @@ msgstr "Opacidad"
 #: view~dictionnary.layer.metadata.style.title
 msgctxt "view~dictionnary.layer.metadata.style.title"
 msgid "Change layer style"
-msgstr "Cambiar estilo de capa"
+msgstr "Cambiar el estilo de la capa"
 
 #: view~dictionnary.layer.metadata.title
 msgctxt "view~dictionnary.layer.metadata.title"
@@ -970,7 +1011,7 @@ msgstr ""
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
 msgid "Click on the map to start measuring an angle."
-msgstr "Haz clic en el mapa para iniciar a medir un ángulo."
+msgstr "Haz clic en el mapa para empezar a medir un ángulo."
 
 #: view~dictionnary.measure.activate.area
 msgctxt "view~dictionnary.measure.activate.area"
@@ -1090,12 +1131,12 @@ msgstr ""
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
 msgid "Compact tables"
-msgstr "Tablas compactas"
+msgstr "Compactar tablas"
 
 #: view~dictionnary.popup.table.explode
 msgctxt "view~dictionnary.popup.table.explode"
 msgid "Explode tables"
-msgstr "Expandir las tablas"
+msgstr "Expandir tablas"
 
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
@@ -1342,8 +1383,9 @@ msgstr ""
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
-"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"\n"
+"Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
 
 #: view~dictionnary.startup.goToProject
@@ -1386,7 +1428,7 @@ msgstr "Seleccione el tema"
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
 msgid "Pause"
-msgstr "Pausa"
+msgstr "Parar"
 
 #: view~dictionnary.timemanager.toolbar.play
 msgctxt "view~dictionnary.timemanager.toolbar.play"
@@ -1543,19 +1585,25 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Debe haber al menos un objeto seleccionado para cada capa para crear el enlace."
+msgstr ""
+"Debe haber al menos un objeto seleccionado para cada capa para crear el "
+"enlace."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
 msgid "The pivot, features1 and features2 parameters are mandatory."
-msgstr "Los parámtetros de pivote, características1 y características2 son obligatorios."
+msgstr ""
+"Los parámtetros de pivote, características1 y características2 son "
+"obligatorios."
 
 #: view~edition.link.error.multiple.ids
 msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "No puede enlazar múltiples objetos en ambas capas. Por favor, seleccione sólo un objeto para una de las capas y vuelva a intentarlo."
+msgstr ""
+"No puede enlazar múltiples objetos en ambas capas. Por favor, seleccione "
+"sólo un objeto para una de las capas y vuelva a intentarlo."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1689,7 +1737,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap no puede encontrar las llaves primarias de la capa \"%s\". La herramienta de edición necesita una llave primaria definida en la tabla."
+msgstr ""
+"Lizmap no puede encontrar las llaves primarias de la capa \"%s\". La "
+"herramienta de edición necesita una llave primaria definida en la tabla."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1704,14 +1754,18 @@ msgstr "No hay campos disponibles para guardar el formulario."
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
 msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr "El directorio de la capa \"%s\" para cargar multimedia no permite la escritura."
+msgstr ""
+"El directorio de la capa \"%s\" para cargar multimedia no permite la "
+"escritura."
 
 #: view~edition.message.error.upload.layer.field
 msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "El campo \"%s\" del directorio de la capa \"%s\" para cargar multimedia no permite la escritura."
+msgstr ""
+"El campo \"%s\" del directorio de la capa \"%s\" para cargar multimedia no "
+"permite la escritura."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -1751,7 +1805,7 @@ msgstr "Edición"
 #: view~edition.point.coord.add.label
 msgctxt "view~edition.point.coord.add.label"
 msgid "Add"
-msgstr "Agregar"
+msgstr "Añadir"
 
 #: view~edition.point.coord.crs.label
 msgctxt "view~edition.point.coord.crs.label"
@@ -2441,7 +2495,7 @@ msgstr "Reproducir"
 #: view~map.timemanager.toolbar.prev
 msgctxt "view~map.timemanager.toolbar.prev"
 msgid "Previous"
-msgstr "Anterior"
+msgstr "Previo"
 
 #: view~map.timemanager.toolbar.title
 msgctxt "view~map.timemanager.toolbar.title"

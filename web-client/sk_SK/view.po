@@ -1,15 +1,17 @@
 # 
 # Translators:
-# Majky Beast <maros.michalov@hrdlicka.sk>, 2020-2021
-# Stefan Tkacik, 2022
+# Stefan Tkacik, 2025
+# Laurent Jouanneau <dev@ljouanneau.com>, 2025
+# Majky Beast <maros.michalov@hrdlicka.sk>, 2025
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.9 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 13:56++0000\n"
-"PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: Stefan Tkacik, 2022\n"
-"Language-Team: Slovak (http://app.transifex.com/3liz-1/lizmap-locales/language/sk/)\n"
+"POT-Creation-Date: 2025-01-24 10:31++0000\n"
+"PO-Revision-Date: 2025-01-24 10:32+0000\n"
+"Last-Translator: Majky Beast <maros.michalov@hrdlicka.sk>, 2025\n"
+"Language-Team: Slovak (https://app.transifex.com/3liz-1/teams/62012/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -128,6 +130,16 @@ msgstr ""
 #: view~default.server.information.error.admin
 msgctxt "view~default.server.information.error.admin"
 msgid "Maps cannot be displayed. Please check the server information panel."
+msgstr ""
+
+#: view~default.service.access.denied
+msgctxt "view~default.service.access.denied"
+msgid "Access denied to the service."
+msgstr ""
+
+#: view~default.service.access.forbidden
+msgctxt "view~default.service.access.forbidden"
+msgid "Access forbidden to the service."
 msgstr ""
 
 #: view~dictionnary.action.choose
@@ -260,7 +272,8 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "Vrstva nie je viditeľná. Zväčšite mierku, v ktorej sú prvky viditeľné."
+msgstr ""
+"Vrstva nie je viditeľná. Zväčšite mierku, v ktorej sú prvky viditeľné."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -440,6 +453,18 @@ msgctxt "view~dictionnary.digitizing.constraint.title"
 msgid "Constraints"
 msgstr ""
 
+#: view~dictionnary.digitizing.import.fetch.error
+msgctxt "view~dictionnary.digitizing.import.fetch.error"
+msgid "Error while fetching projection definition from epsg.io"
+msgstr ""
+
+#: view~dictionnary.digitizing.import.metadata.error
+msgctxt "view~dictionnary.digitizing.import.metadata.error"
+msgid ""
+"No metadata found. Make sure the projection of the fgb file is the same as "
+"the current project"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
 msgid "Box"
@@ -467,7 +492,9 @@ msgstr "Nástroje na kreslenie"
 
 #: view~dictionnary.digitizing.toolbar.edit
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
-msgid "Edit (hold \"Shift\" to select multiple features)"
+msgid ""
+"Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
+"delete a vertex)"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.erase
@@ -487,7 +514,7 @@ msgstr "Voľná ​​ruka"
 
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
-msgid "Import in GeoJSON, GPX, KML or zipped Shapefile"
+msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.line
@@ -515,6 +542,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.polygon"
 msgid "Polygon"
 msgstr "Polygón"
 
+#: view~dictionnary.digitizing.toolbar.rotate
+msgctxt "view~dictionnary.digitizing.toolbar.rotate"
+msgid "Rotate"
+msgstr "Rotovať"
+
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
@@ -529,6 +561,11 @@ msgstr ""
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
 msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.split
+msgctxt "view~dictionnary.digitizing.toolbar.split"
+msgid "Split"
+msgstr "Rozdeliť"
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -691,7 +728,9 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "Mali by ste správne vyplniť formulár, aby ste po rozdelení geometrie vytvorili nový prvok"
+msgstr ""
+"Mali by ste správne vyplniť formulár, aby ste po rozdelení geometrie "
+"vytvorili nový prvok"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -1339,8 +1378,9 @@ msgstr ""
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
-"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"\n"
+"Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
 
 #: view~dictionnary.startup.goToProject
@@ -1368,7 +1408,7 @@ msgstr ""
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
-msgstr "Export"
+msgstr "export"
 
 #: view~dictionnary.switcher.layer.export.warn
 msgctxt "view~dictionnary.switcher.layer.export.warn"
@@ -1540,7 +1580,8 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Na vytvorenie odkazu musí byť pre každú vrstvu vybraný aspoň jeden objekt."
+msgstr ""
+"Na vytvorenie odkazu musí byť pre každú vrstvu vybraný aspoň jeden objekt."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -1552,7 +1593,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Nemôžete prepojiť viac objektov pre obe vrstvy. Pre jednu z vrstiev vyberte iba jeden objekt a skúste to znova."
+msgstr ""
+"Nemôžete prepojiť viac objektov pre obe vrstvy. Pre jednu z vrstiev vyberte "
+"iba jeden objekt a skúste to znova."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1686,7 +1729,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap nemôže nájsť primárne kľúče vrstvy \"%s\". Edičný nástroj potrebuje v tabuľke definovaný primárny kľúč."
+msgstr ""
+"Lizmap nemôže nájsť primárne kľúče vrstvy \"%s\". Edičný nástroj potrebuje v"
+" tabuľke definovaný primárny kľúč."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1708,7 +1753,9 @@ msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "Do poľa \"%s\" adresára vrstvy \"%s\" pre nahrávanie médií nie je možné zapisovať."
+msgstr ""
+"Do poľa \"%s\" adresára vrstvy \"%s\" pre nahrávanie médií nie je možné "
+"zapisovať."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -2078,7 +2125,8 @@ msgstr "Zobraziť ponuku"
 #: view~map.message.zoominmax
 msgctxt "view~map.message.zoominmax"
 msgid "No deeper zoom available for this base layer"
-msgstr "Pre túto základnú vrstvu nie je k dispozícii žiadne hlbšie priblíženie"
+msgstr ""
+"Pre túto základnú vrstvu nie je k dispozícii žiadne hlbšie priblíženie"
 
 #: view~map.metadata.contact.email
 msgctxt "view~map.metadata.contact.email"
