@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-07 12:00++0000\n"
+"POT-Creation-Date: 2025-01-17 10:36++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Last-Translator: Majky Beast <maros.michalov@hrdlicka.sk>, 2024\n"
 "Language-Team: Slovak (https://app.transifex.com/3liz-1/teams/62012/sk/)\n"
@@ -946,6 +946,36 @@ msgctxt "admin~admin.landingPageContent.unauthed.position.no"
 msgid "No"
 msgstr "Nie"
 
+#: admin~admin.logs.admin.file.erase
+msgctxt "admin~admin.logs.admin.file.erase"
+msgid "Erase the admin log file"
+msgstr ""
+
+#: admin~admin.logs.admin.file.erase.confirm
+msgctxt "admin~admin.logs.admin.file.erase.confirm"
+msgid "Are you sure you want to erase the admin log file?"
+msgstr ""
+
+#: admin~admin.logs.admin.file.erase.ok
+msgctxt "admin~admin.logs.admin.file.erase.ok"
+msgid "The admin log file has successfully been erased."
+msgstr ""
+
+#: admin~admin.logs.admin.no.delete.right
+msgctxt "admin~admin.logs.admin.no.delete.right"
+msgid "You have no right to delete the logs."
+msgstr ""
+
+#: admin~admin.logs.admin.sentence
+msgctxt "admin~admin.logs.admin.sentence"
+msgid "Last lines of the admin log file"
+msgstr ""
+
+#: admin~admin.logs.admin.title
+msgctxt "admin~admin.logs.admin.title"
+msgid "Admin log"
+msgstr ""
+
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
 msgid "Content"
@@ -1026,39 +1056,10 @@ msgctxt "admin~admin.logs.empty.ok"
 msgid "The log table %s has been successfully emptied."
 msgstr "Tabuľka protokolu bola úspešne vyprázdnená."
 
-#: admin~admin.logs.error.file.erase
-msgctxt "admin~admin.logs.error.file.erase"
-msgid "Erase the error log file"
-msgstr "Vymažte súbor protokolu chýb"
-
-#: admin~admin.logs.error.file.erase.confirm
-msgctxt "admin~admin.logs.error.file.erase.confirm"
-msgid "Are you sure you want to erase the error log file?"
-msgstr ""
-
-#: admin~admin.logs.error.file.erase.ok
-msgctxt "admin~admin.logs.error.file.erase.ok"
-msgid "The error log file has successfully been erased."
-msgstr "Súbor protokolu chýb bol úspešne vymazaný."
-
-#: admin~admin.logs.error.file.too.big
-msgctxt "admin~admin.logs.error.file.too.big"
-msgid ""
-"The error log file is too big. Consider using log rotation for Lizmap Web "
-"Client logs."
-msgstr ""
-"Súbor protokolu chýb je príliš veľký. Zvážte použitie rotácie protokolov pre"
-" protokoly webového klienta Lizmap."
-
-#: admin~admin.logs.error.no.delete.right
-msgctxt "admin~admin.logs.error.no.delete.right"
-msgid "You have no right to delete the logs."
-msgstr ""
-
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
-msgid "Last lines of the Lizmap Web Client application error log file"
-msgstr "Last lines of the Lizmap Web Client application error log file"
+msgid "Last lines of the error log file"
+msgstr ""
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
@@ -1069,6 +1070,11 @@ msgstr "Chybova protokolu"
 msgctxt "admin~admin.logs.export.button"
 msgid "Export"
 msgstr "export"
+
+#: admin~admin.logs.file.too.big
+msgctxt "admin~admin.logs.file.too.big"
+msgid "The log file is too big. Consider using log rotation for this log."
+msgstr ""
 
 #: admin~admin.logs.first_page
 msgctxt "admin~admin.logs.first_page"
@@ -1109,6 +1115,11 @@ msgstr "Úložisko"
 msgctxt "admin~admin.logs.timestamp"
 msgid "Timestamp"
 msgstr "Časová značka"
+
+#: admin~admin.logs.title
+msgctxt "admin~admin.logs.title"
+msgid "Logs"
+msgstr ""
 
 #: admin~admin.logs.user
 msgctxt "admin~admin.logs.user"

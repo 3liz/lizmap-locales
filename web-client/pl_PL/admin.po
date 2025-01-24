@@ -3,14 +3,14 @@
 # Laurent Jouanneau <dev@ljouanneau.com>, 2024
 # EnviroSolutions Sp. z o.o. <office@envirosolutions.pl>, 2024
 # rldhont <rldhont@gmail.com>, 2024
-# Sławomir Bienias <slawomir.bienias@gmail.com>, 2024
+# Sławomir Bienias <slawomir.bienias@gmail.com>, 2025
 # Adrian Kowalski <ad.kowalski@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-07 12:00++0000\n"
+"POT-Creation-Date: 2025-01-17 10:36++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Last-Translator: Adrian Kowalski <ad.kowalski@gmail.com>, 2025\n"
 "Language-Team: Polish (Poland) (https://app.transifex.com/3liz-1/teams/62012/pl_PL/)\n"
@@ -994,6 +994,37 @@ msgctxt "admin~admin.landingPageContent.unauthed.position.no"
 msgid "No"
 msgstr "Nie"
 
+#: admin~admin.logs.admin.file.erase
+msgctxt "admin~admin.logs.admin.file.erase"
+msgid "Erase the admin log file"
+msgstr "Wyczyść plik logów administratora"
+
+#: admin~admin.logs.admin.file.erase.confirm
+msgctxt "admin~admin.logs.admin.file.erase.confirm"
+msgid "Are you sure you want to erase the admin log file?"
+msgstr ""
+"Czy jesteś pewien, że chcesz wyczyścić zawartość pliku logów administratora?"
+
+#: admin~admin.logs.admin.file.erase.ok
+msgctxt "admin~admin.logs.admin.file.erase.ok"
+msgid "The admin log file has successfully been erased."
+msgstr "Plik logów administratora został pomyślnie wyczyszczony."
+
+#: admin~admin.logs.admin.no.delete.right
+msgctxt "admin~admin.logs.admin.no.delete.right"
+msgid "You have no right to delete the logs."
+msgstr "Nie masz praw do usunięcia logów."
+
+#: admin~admin.logs.admin.sentence
+msgctxt "admin~admin.logs.admin.sentence"
+msgid "Last lines of the admin log file"
+msgstr "Ostatnie linie pliku logu administratora"
+
+#: admin~admin.logs.admin.title
+msgctxt "admin~admin.logs.admin.title"
+msgid "Admin log"
+msgstr "Logi administratora"
+
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
 msgid "Content"
@@ -1074,39 +1105,10 @@ msgctxt "admin~admin.logs.empty.ok"
 msgid "The log table %s has been successfully emptied."
 msgstr "Tabela logów %s została pomyślnie wyczyszczona."
 
-#: admin~admin.logs.error.file.erase
-msgctxt "admin~admin.logs.error.file.erase"
-msgid "Erase the error log file"
-msgstr "Wyczyść plik logów błędów."
-
-#: admin~admin.logs.error.file.erase.confirm
-msgctxt "admin~admin.logs.error.file.erase.confirm"
-msgid "Are you sure you want to erase the error log file?"
-msgstr "Jesteś pewny, że chcesz wyczyścić zawartość pliku logów błędów?"
-
-#: admin~admin.logs.error.file.erase.ok
-msgctxt "admin~admin.logs.error.file.erase.ok"
-msgid "The error log file has successfully been erased."
-msgstr "Plik logów błędów został pomyślnie wyczyszczony."
-
-#: admin~admin.logs.error.file.too.big
-msgctxt "admin~admin.logs.error.file.too.big"
-msgid ""
-"The error log file is too big. Consider using log rotation for Lizmap Web "
-"Client logs."
-msgstr ""
-"Plik logu błędów jest za duży. Rozważ użycie logów rotacyjnych dla logów "
-"Lizmap Web Client."
-
-#: admin~admin.logs.error.no.delete.right
-msgctxt "admin~admin.logs.error.no.delete.right"
-msgid "You have no right to delete the logs."
-msgstr "Nie masz praw do usunięcia logów."
-
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
-msgid "Last lines of the Lizmap Web Client application error log file"
-msgstr "Ostatnie linie pliku logu błędów aplikacji Lizmap Web Client"
+msgid "Last lines of the error log file"
+msgstr "Ostatnie linie pliku logu błędów"
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
@@ -1117,6 +1119,13 @@ msgstr "Log błędu"
 msgctxt "admin~admin.logs.export.button"
 msgid "Export"
 msgstr "Eksportuj"
+
+#: admin~admin.logs.file.too.big
+msgctxt "admin~admin.logs.file.too.big"
+msgid "The log file is too big. Consider using log rotation for this log."
+msgstr ""
+"Plik logu błędów jest za duży. Rozważ użycie logów rotacyjnych dla tych "
+"logów."
 
 #: admin~admin.logs.first_page
 msgctxt "admin~admin.logs.first_page"
@@ -1157,6 +1166,11 @@ msgstr "Repozytorium"
 msgctxt "admin~admin.logs.timestamp"
 msgid "Timestamp"
 msgstr "Znacznik czasu"
+
+#: admin~admin.logs.title
+msgctxt "admin~admin.logs.title"
+msgid "Logs"
+msgstr "Logi"
 
 #: admin~admin.logs.user
 msgctxt "admin~admin.logs.user"
