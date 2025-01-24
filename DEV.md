@@ -5,10 +5,10 @@
 We are using Transifex, and so you will need their cli tool to push or pull
 translations.
 
-if you already contributed to the [lizmap documentation](https://github.com/3liz/lizmap-documentation), 
+if you already contributed to the [lizmap documentation](https://github.com/3liz/lizmap-documentation),
 you have already installed tools, so you can jump directly to the next section.
 
-It is recommended to install Virtualenv and to install Transifex into a 
+It is recommended to install Virtualenv and to install Transifex into a
 dedicated Python environnement. For example:
 
 ```bash
@@ -38,10 +38,10 @@ strings, you can download translated files with the script. See README.md web-cl
 
 A new language code for web-client should be added into `web-client/module_list.sh` and `.tx/config`.
 
-### Releasing a new version 
+### Releasing a new version
 
 When a new major version of lizmap has been released, you have to follow these
-steps: 
+steps:
 
 1. On the master branch, edit the `web-client/module_list.sh` to reference the new branch
 2. Edit the `.tx/config` to reference all pot of each modules, in alphabetical order, where its `locales` directory is not empty
@@ -50,15 +50,21 @@ steps:
   ```
 git checkout -b lizmap_X_Y
 ```
-5. Into lizmap-web-client, checkout the corresponding branch and edit `.jelixlocales.ini`
-   to verify that it references all modules
+5. Into lizmap-web-client :
+   1. checkout the corresponding branch
+   2. edit `.jelixlocales.ini`
+   3. verify that it references all modules
+   4. Update the version at the top of the file
 6. update EN locales from the lizmap-web-client branch and push to Transifex
   ```
 cd web-client
 ./update_from_lizmap.sh /path/to/lizmap-web-client/.jelixlocales.ini
 ./push_to_transifex.sh
 ```
-7. Verify on transifex that you have new package `lizmap-X-Y-*`
+7. On Transifex : https://app.transifex.com/3liz-1/lizmap-locales/content/
+   1. Update all new files about **name** and **Category**
+   2. Copy the **slug** into the name : `lizmap-X-Y--actionpot`
+   3. Add the category : `lizmap_X_Y`
 8. check strings of your language into Transifex, then :
   ```
 ./update_from_transifex.sh
