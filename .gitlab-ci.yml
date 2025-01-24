@@ -13,11 +13,11 @@ push-to-transifex:
   parallel:
     matrix:
 
-      - LWC_BRANCH: master
-        LOCALE_BRANCH: master
+#      - LWC_BRANCH: master
+#        LOCALE_BRANCH: master
 
-#      - LWC_BRANCH: release_3_9
-#        LOCALE_BRANCH: lizmap_3_9
+      - LWC_BRANCH: release_3_9
+        LOCALE_BRANCH: lizmap_3_9
 #
 #      - LWC_BRANCH: release_3_8
 #        LOCALE_BRANCH: lizmap_3_8
