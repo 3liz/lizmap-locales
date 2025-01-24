@@ -138,12 +138,12 @@ msgstr "Hărțile nu pot fi afișate. Verifică panoul informații despre server
 #: view~default.service.access.denied
 msgctxt "view~default.service.access.denied"
 msgid "Access denied to the service."
-msgstr ""
+msgstr "Acces refuzat la serviciu."
 
 #: view~default.service.access.forbidden
 msgctxt "view~default.service.access.forbidden"
 msgid "Access forbidden to the service."
-msgstr ""
+msgstr "Acces interzis la serviciu."
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
@@ -464,7 +464,7 @@ msgstr "Constrângeri"
 #: view~dictionnary.digitizing.import.fetch.error
 msgctxt "view~dictionnary.digitizing.import.fetch.error"
 msgid "Error while fetching projection definition from epsg.io"
-msgstr ""
+msgstr "Eroare la preluarea definiției proiecției de la epsg.io"
 
 #: view~dictionnary.digitizing.import.metadata.error
 msgctxt "view~dictionnary.digitizing.import.metadata.error"
@@ -472,6 +472,8 @@ msgid ""
 "No metadata found. Make sure the projection of the fgb file is the same as "
 "the current project"
 msgstr ""
+"Nu s -au găsit metadate. Asigură-te că proiecția fișierului FGB este aceeași"
+" ca în proiectul curent"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -525,7 +527,7 @@ msgstr "Liber"
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
 msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
-msgstr ""
+msgstr "Importează GeoJSON, GPX, KML, Shapefile arhivat sau FlatGeobuf"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
