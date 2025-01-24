@@ -50,8 +50,11 @@ steps:
   ```
 git checkout -b lizmap_X_Y
 ```
-5. Into lizmap-web-client, checkout the corresponding branch and edit `.jelixlocales.ini`
-   to verify that it references all modules
+5. Into lizmap-web-client :
+   1. checkout the corresponding branch
+   2. edit `.jelixlocales.ini`
+   3. verify that it references all modules
+   4. Update the version at the top of the file
 6. update EN locales from the lizmap-web-client branch and push to Transifex
   ```
 cd web-client
