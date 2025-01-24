@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 13:56++0000\n"
+"POT-Creation-Date: 2025-01-24 11:01++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2024\n"
 "Language-Team: Italian (http://app.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
@@ -106,8 +106,8 @@ msgstr "E-mail amministratore"
 #: admin~admin.configuration.services.allowUserAccountRequests.help.deactivated
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
-msgid "This option is deactivated because of the use of Ldap authentication"
-msgstr "Quest'opzione è stata disattivata in quanto si sta usando l'autenticazione LDAP"
+msgid "This option is deactivated because of the use of LDAP authentication"
+msgstr ""
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -151,8 +151,8 @@ msgstr "Servizi"
 
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
-msgid "Only maps"
-msgstr "Solo mappe"
+msgid "Disable landing page"
+msgstr ""
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
@@ -616,10 +616,15 @@ msgctxt "admin~admin.form.admin_services.on.label"
 msgid "On"
 msgstr "Acceso"
 
+#: admin~admin.form.admin_services.onlyMaps.help
+msgctxt "admin~admin.form.admin_services.onlyMaps.help"
+msgid "If set to \"On\", no landing page will be available."
+msgstr ""
+
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
-msgid "Only maps"
-msgstr "Solo mappe"
+msgid "Disable landing page"
+msgstr ""
 
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
@@ -923,6 +928,36 @@ msgctxt "admin~admin.landingPageContent.unauthed.position.no"
 msgid "No"
 msgstr "No"
 
+#: admin~admin.logs.admin.file.erase
+msgctxt "admin~admin.logs.admin.file.erase"
+msgid "Erase the admin log file"
+msgstr ""
+
+#: admin~admin.logs.admin.file.erase.confirm
+msgctxt "admin~admin.logs.admin.file.erase.confirm"
+msgid "Are you sure you want to erase the admin log file?"
+msgstr ""
+
+#: admin~admin.logs.admin.file.erase.ok
+msgctxt "admin~admin.logs.admin.file.erase.ok"
+msgid "The admin log file has successfully been erased."
+msgstr ""
+
+#: admin~admin.logs.admin.no.delete.right
+msgctxt "admin~admin.logs.admin.no.delete.right"
+msgid "You have no right to delete the logs."
+msgstr "Non hai i permessi necessari per eliminare i log."
+
+#: admin~admin.logs.admin.sentence
+msgctxt "admin~admin.logs.admin.sentence"
+msgid "Last lines of the admin log file"
+msgstr ""
+
+#: admin~admin.logs.admin.title
+msgctxt "admin~admin.logs.admin.title"
+msgid "Admin log"
+msgstr ""
+
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
 msgid "Content"
@@ -1003,37 +1038,10 @@ msgctxt "admin~admin.logs.empty.ok"
 msgid "The log table %s has been successfully emptied."
 msgstr "La tabella di log %s è stata svuotata."
 
-#: admin~admin.logs.error.file.erase
-msgctxt "admin~admin.logs.error.file.erase"
-msgid "Erase the error log file"
-msgstr "Cancella il file di log degli errori"
-
-#: admin~admin.logs.error.file.erase.confirm
-msgctxt "admin~admin.logs.error.file.erase.confirm"
-msgid "Are you sure you want to erase the error log file?"
-msgstr "Sei sicuro di voler eliminare il file di log degli errori?"
-
-#: admin~admin.logs.error.file.erase.ok
-msgctxt "admin~admin.logs.error.file.erase.ok"
-msgid "The error log file has successfully been erased."
-msgstr "Il log degli errori è stato cancellato."
-
-#: admin~admin.logs.error.file.too.big
-msgctxt "admin~admin.logs.error.file.too.big"
-msgid ""
-"The error log file is too big. Consider using log rotation for Lizmap Web "
-"Client logs."
-msgstr "Il file di registrazione degli errori è troppo grande. Prova ad usare la rotazione del log per i log  del Web Client di Lizmap."
-
-#: admin~admin.logs.error.no.delete.right
-msgctxt "admin~admin.logs.error.no.delete.right"
-msgid "You have no right to delete the logs."
-msgstr "Non hai i permessi necessari per eliminare i log."
-
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
-msgid "Last lines of the Lizmap Web Client application error log file"
-msgstr "Ultime linee del file di registrazione degli errori dell'applicazione Web Client di Lizmap"
+msgid "Last lines of the error log file"
+msgstr ""
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
@@ -1044,6 +1052,11 @@ msgstr "Log degli errori"
 msgctxt "admin~admin.logs.export.button"
 msgid "Export"
 msgstr "Esporta"
+
+#: admin~admin.logs.file.too.big
+msgctxt "admin~admin.logs.file.too.big"
+msgid "The log file is too big. Consider using log rotation for this log."
+msgstr ""
 
 #: admin~admin.logs.first_page
 msgctxt "admin~admin.logs.first_page"
@@ -1084,6 +1097,11 @@ msgstr "Repository"
 msgctxt "admin~admin.logs.timestamp"
 msgid "Timestamp"
 msgstr "Data e ora"
+
+#: admin~admin.logs.title
+msgctxt "admin~admin.logs.title"
+msgid "Logs"
+msgstr ""
 
 #: admin~admin.logs.user
 msgctxt "admin~admin.logs.user"
@@ -1577,11 +1595,6 @@ msgctxt "admin~admin.server.information.qgis.action"
 msgid "Action"
 msgstr "Azione"
 
-#: admin~admin.server.information.qgis.commit_id
-msgctxt "admin~admin.server.information.qgis.commit_id"
-msgid "Commit ID"
-msgstr "ID del commit"
-
 #: admin~admin.server.information.qgis.error.fetching.information
 msgctxt "admin~admin.server.information.qgis.error.fetching.information"
 msgid ""
@@ -1735,6 +1748,16 @@ msgstr "QGIS Server deve essere aggiornato ad una versione pari o superiore a %s
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Numero"
+
+#: admin~admin.server.information.qgis.wrapper
+msgctxt "admin~admin.server.information.qgis.wrapper"
+msgid "QJazz or Py-QGIS-Server"
+msgstr ""
+
+#: admin~admin.server.information.qgis.wrapper.not.installed
+msgctxt "admin~admin.server.information.qgis.wrapper.not.installed"
+msgid "Not installed"
+msgstr ""
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"

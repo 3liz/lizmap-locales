@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 13:56++0000\n"
+"POT-Creation-Date: 2025-01-24 11:01++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Basque (Spain) (http://app.transifex.com/3liz-1/lizmap-locales/language/eu_ES/)\n"
@@ -99,7 +99,7 @@ msgstr ""
 #: admin~admin.configuration.services.allowUserAccountRequests.help.deactivated
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
-msgid "This option is deactivated because of the use of Ldap authentication"
+msgid "This option is deactivated because of the use of LDAP authentication"
 msgstr ""
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
@@ -144,7 +144,7 @@ msgstr ""
 
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
-msgid "Only maps"
+msgid "Disable landing page"
 msgstr ""
 
 #: admin~admin.configuration.services.rootRepositories.label
@@ -609,9 +609,14 @@ msgctxt "admin~admin.form.admin_services.on.label"
 msgid "On"
 msgstr ""
 
+#: admin~admin.form.admin_services.onlyMaps.help
+msgctxt "admin~admin.form.admin_services.onlyMaps.help"
+msgid "If set to \"On\", no landing page will be available."
+msgstr ""
+
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
-msgid "Only maps"
+msgid "Disable landing page"
 msgstr ""
 
 #: admin~admin.form.admin_services.projectSwitcher.label
@@ -916,6 +921,36 @@ msgctxt "admin~admin.landingPageContent.unauthed.position.no"
 msgid "No"
 msgstr ""
 
+#: admin~admin.logs.admin.file.erase
+msgctxt "admin~admin.logs.admin.file.erase"
+msgid "Erase the admin log file"
+msgstr ""
+
+#: admin~admin.logs.admin.file.erase.confirm
+msgctxt "admin~admin.logs.admin.file.erase.confirm"
+msgid "Are you sure you want to erase the admin log file?"
+msgstr ""
+
+#: admin~admin.logs.admin.file.erase.ok
+msgctxt "admin~admin.logs.admin.file.erase.ok"
+msgid "The admin log file has successfully been erased."
+msgstr ""
+
+#: admin~admin.logs.admin.no.delete.right
+msgctxt "admin~admin.logs.admin.no.delete.right"
+msgid "You have no right to delete the logs."
+msgstr ""
+
+#: admin~admin.logs.admin.sentence
+msgctxt "admin~admin.logs.admin.sentence"
+msgid "Last lines of the admin log file"
+msgstr ""
+
+#: admin~admin.logs.admin.title
+msgctxt "admin~admin.logs.admin.title"
+msgid "Admin log"
+msgstr ""
+
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
 msgid "Content"
@@ -996,36 +1031,9 @@ msgctxt "admin~admin.logs.empty.ok"
 msgid "The log table %s has been successfully emptied."
 msgstr ""
 
-#: admin~admin.logs.error.file.erase
-msgctxt "admin~admin.logs.error.file.erase"
-msgid "Erase the error log file"
-msgstr ""
-
-#: admin~admin.logs.error.file.erase.confirm
-msgctxt "admin~admin.logs.error.file.erase.confirm"
-msgid "Are you sure you want to erase the error log file?"
-msgstr ""
-
-#: admin~admin.logs.error.file.erase.ok
-msgctxt "admin~admin.logs.error.file.erase.ok"
-msgid "The error log file has successfully been erased."
-msgstr ""
-
-#: admin~admin.logs.error.file.too.big
-msgctxt "admin~admin.logs.error.file.too.big"
-msgid ""
-"The error log file is too big. Consider using log rotation for Lizmap Web "
-"Client logs."
-msgstr ""
-
-#: admin~admin.logs.error.no.delete.right
-msgctxt "admin~admin.logs.error.no.delete.right"
-msgid "You have no right to delete the logs."
-msgstr ""
-
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
-msgid "Last lines of the Lizmap Web Client application error log file"
+msgid "Last lines of the error log file"
 msgstr ""
 
 #: admin~admin.logs.error.title
@@ -1036,6 +1044,11 @@ msgstr ""
 #: admin~admin.logs.export.button
 msgctxt "admin~admin.logs.export.button"
 msgid "Export"
+msgstr ""
+
+#: admin~admin.logs.file.too.big
+msgctxt "admin~admin.logs.file.too.big"
+msgid "The log file is too big. Consider using log rotation for this log."
 msgstr ""
 
 #: admin~admin.logs.first_page
@@ -1076,6 +1089,11 @@ msgstr ""
 #: admin~admin.logs.timestamp
 msgctxt "admin~admin.logs.timestamp"
 msgid "Timestamp"
+msgstr ""
+
+#: admin~admin.logs.title
+msgctxt "admin~admin.logs.title"
+msgid "Logs"
 msgstr ""
 
 #: admin~admin.logs.user
@@ -1570,11 +1588,6 @@ msgctxt "admin~admin.server.information.qgis.action"
 msgid "Action"
 msgstr ""
 
-#: admin~admin.server.information.qgis.commit_id
-msgctxt "admin~admin.server.information.qgis.commit_id"
-msgid "Commit ID"
-msgstr ""
-
 #: admin~admin.server.information.qgis.error.fetching.information
 msgctxt "admin~admin.server.information.qgis.error.fetching.information"
 msgid ""
@@ -1727,6 +1740,16 @@ msgstr ""
 #: admin~admin.server.information.qgis.version
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
+msgstr ""
+
+#: admin~admin.server.information.qgis.wrapper
+msgctxt "admin~admin.server.information.qgis.wrapper"
+msgid "QJazz or Py-QGIS-Server"
+msgstr ""
+
+#: admin~admin.server.information.qgis.wrapper.not.installed
+msgctxt "admin~admin.server.information.qgis.wrapper.not.installed"
+msgid "Not installed"
 msgstr ""
 
 #: admin~admin.theme.button.remove.logo.confirm.label

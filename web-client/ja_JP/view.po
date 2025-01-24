@@ -1,7 +1,7 @@
 # 
 # Translators:
 # 山本　竜三 <ryu@yamakun.net>, 2022
-# 山本　竜三 <ryu@yamakun.net>, 2021-2022
+# 山本　竜三 <ryu@yamakun.net>, 2021-2022,2025
 # 山本　竜三 <ryu@yamakun.net>, 2021
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 13:56++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: 山本　竜三 <ryu@yamakun.net>, 2022\n"
+"Last-Translator: 山本　竜三 <ryu@yamakun.net>, 2021-2022,2025\n"
 "Language-Team: Japanese (http://app.transifex.com/3liz-1/lizmap-locales/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,7 +55,7 @@ msgstr "ホーム"
 #: view~default.home.title
 msgctxt "view~default.home.title"
 msgid "Home page"
-msgstr ""
+msgstr "ホームページ"
 
 #: view~default.project.abstract.label
 msgctxt "view~default.project.abstract.label"
@@ -117,7 +117,7 @@ msgstr "リポジトリにアクセスできません。‎"
 #: view~default.repository.list.title
 msgctxt "view~default.repository.list.title"
 msgid "Repository page"
-msgstr ""
+msgstr "リポジトリページ"
 
 #: view~default.server.information.error
 msgctxt "view~default.server.information.error"
@@ -129,7 +129,7 @@ msgstr "この地図は表示できません。サーバー管理者に連絡し
 #: view~default.server.information.error.admin
 msgctxt "view~default.server.information.error.admin"
 msgid "Maps cannot be displayed. Please check the server information panel."
-msgstr ""
+msgstr "地図が表示されません。 サーバー情報パネルをご確認ください。"
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
@@ -411,7 +411,7 @@ msgstr "‎最小化"
 #: view~dictionnary.digitizing.confirm.erase
 msgctxt "view~dictionnary.digitizing.confirm.erase"
 msgid "Are you sure you want to delete this feature?"
-msgstr ""
+msgstr "本当にこの地物を削除しますか？"
 
 #: view~dictionnary.digitizing.confirm.erase.all
 msgctxt "view~dictionnary.digitizing.confirm.erase.all"
@@ -429,7 +429,7 @@ msgid ""
 "You can constrain digitizing by setting values for the distance of the "
 "current segment and the angle between the last segment and the current "
 "segment."
-msgstr ""
+msgstr "現在のセグメントの距離と、最後のセグメントと現在のセグメントの間の角度を設定することで、デジタイジングを制約することができます。"
 
 #: view~dictionnary.digitizing.constraint.distance
 msgctxt "view~dictionnary.digitizing.constraint.distance"
@@ -439,7 +439,7 @@ msgstr "‎距離‎"
 #: view~dictionnary.digitizing.constraint.title
 msgctxt "view~dictionnary.digitizing.constraint.title"
 msgid "Constraints"
-msgstr ""
+msgstr "制約条件"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -469,12 +469,12 @@ msgstr "‎描画ツール‎"
 #: view~dictionnary.digitizing.toolbar.edit
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
 msgid "Edit (hold \"Shift\" to select multiple features)"
-msgstr ""
+msgstr "編集（複数のフィーチャーを選択するには「Shift」を押したままにする）"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
 msgid "Delete some features"
-msgstr ""
+msgstr "いくつかの地物を削除する"
 
 #: view~dictionnary.digitizing.toolbar.erase.all
 msgctxt "view~dictionnary.digitizing.toolbar.erase.all"
@@ -489,7 +489,7 @@ msgstr "‎フリーハンド‎"
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
 msgid "Import in GeoJSON, GPX, KML or zipped Shapefile"
-msgstr ""
+msgstr "GeoJSON、GPX、KML、または圧縮シェイプファイルでのインポート"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -504,7 +504,7 @@ msgstr "計測"
 #: view~dictionnary.digitizing.toolbar.newText
 msgctxt "view~dictionnary.digitizing.toolbar.newText"
 msgid "New text"
-msgstr ""
+msgstr "新しいテキスト"
 
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
@@ -524,24 +524,24 @@ msgstr "‎ブラウザで描画を保存する‎"
 #: view~dictionnary.digitizing.toolbar.save.remove
 msgctxt "view~dictionnary.digitizing.toolbar.save.remove"
 msgid "Remove draw from the browser"
-msgstr ""
+msgstr "ブラウザから描画を削除する"
 
 #: view~dictionnary.digitizing.toolbar.save.state
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
-msgstr ""
+msgstr "描画の変更はブラウザに保存されます"
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
 msgid "Object labelling"
-msgstr ""
+msgstr "オブジェクトのラベリング"
 
 #: view~dictionnary.digitizing.toolbar.text.hint
 msgctxt "view~dictionnary.digitizing.toolbar.text.hint"
 msgid ""
 "You can change the label text content, size and rotation for the selected "
 "objects."
-msgstr ""
+msgstr "選択したオブジェクトのラベルテキストの内容、サイズ、回転を変更することができます。"
 
 #: view~dictionnary.digitizing.toolbar.textLabel
 msgctxt "view~dictionnary.digitizing.toolbar.textLabel"
@@ -551,19 +551,19 @@ msgstr "‎テキスト‎"
 #: view~dictionnary.digitizing.toolbar.textRotation
 msgctxt "view~dictionnary.digitizing.toolbar.textRotation"
 msgid "Rotation"
-msgstr ""
+msgstr "回転"
 
 #: view~dictionnary.digitizing.toolbar.textScale
 msgctxt "view~dictionnary.digitizing.toolbar.textScale"
 msgid "Size"
-msgstr ""
+msgstr "サイズ"
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel the edition? You will lose any modifications"
 " made on the currently edited object."
-msgstr ""
+msgstr "本当に編集をキャンセルしますか？ 現在編集中のオブジェクトに加えられた修正は失われます。"
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -577,14 +577,14 @@ msgid ""
 "Please check before that you have already saved your changes.\n"
 "\n"
 "Do you wish to continue?"
-msgstr ""
+msgstr "現在編集中のオブジェクトに新しい子オブジェクトを作成しようとしています. \n変更を保存したかどうか、事前に確認してください。\n\n続けますか？"
 
 #: view~dictionnary.edition.confirm.paste
 msgctxt "view~dictionnary.edition.confirm.paste"
 msgid ""
 "Are you sure you want to replace the existing geometry with the one in the "
 "clipboard?"
-msgstr ""
+msgstr "既存のジオメトリをクリップボード内のジオメトリに置き換えてよろしいでしょうか？"
 
 #: view~dictionnary.edition.confirm.pivot.delete
 msgctxt "view~dictionnary.edition.confirm.pivot.delete"
@@ -595,19 +595,19 @@ msgid ""
 " %s \n"
 "\n"
 "will be also deleted"
-msgstr ""
+msgstr "選択した地物を本当に削除しますか？ \n\n以下のレイヤーとの関連リンク：\n %s \n\nも削除されます。"
 
 #: view~dictionnary.edition.confirm.pivot.unlink
 msgctxt "view~dictionnary.edition.confirm.pivot.unlink"
 msgid "Are you sure you want to unlink the selected feature from \"%l\" layer?"
-msgstr ""
+msgstr "選択した地物を\"%l \"レイヤーからリンク解除しますか？"
 
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
 msgid ""
 "Are you sure you want to delete the existing geometry and redraw it from "
 "scratch?"
-msgstr ""
+msgstr "既存のジオメトリを削除して、一から描き直すということでよろしいでしょうか？"
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -634,19 +634,19 @@ msgstr "‎ジオメトリを描画する必要がある場合は、閉じるボ
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
 msgid "Paste the geometry"
-msgstr ""
+msgstr "ジオメトリを貼り付ける"
 
 #: view~dictionnary.edition.link.pivot.add
 msgctxt "view~dictionnary.edition.link.pivot.add"
 msgid "The new record will be linked to the feature ID \"%f\" of \"%l\" layer"
-msgstr ""
+msgstr "新しいレコードは \"%l\" レイヤーの地物ID%fにリンクされる。"
 
 #: view~dictionnary.edition.message.error.fetch.form
 msgctxt "view~dictionnary.edition.message.error.fetch.form"
 msgid ""
 "Error while fetching the editing form for that layer. Please contact the "
 "system administrator."
-msgstr ""
+msgstr "レイヤーの編集フォームを取得中にエラーが発生しました。 システム管理者に連絡してください。"
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
@@ -660,7 +660,7 @@ msgctxt "view~dictionnary.edition.message.error.send.feature"
 msgid ""
 "Error while saving the edited feature. Please contact the system "
 "administrator."
-msgstr ""
+msgstr "編集した機能の保存中にエラーが発生しました。 システム管理者に連絡してください。"
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -712,7 +712,7 @@ msgstr "‎マップを全画面表示で開く‎"
 #: view~dictionnary.externalsearch.ignlimit
 msgctxt "view~dictionnary.externalsearch.ignlimit"
 msgid "IGN search must contain between 3 and 200 characters"
-msgstr ""
+msgstr "IGN検索は、3文字以上200文字以内で行ってください。"
 
 #: view~dictionnary.externalsearch.mapdata
 msgctxt "view~dictionnary.externalsearch.mapdata"
@@ -738,37 +738,37 @@ msgstr "検索"
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
 msgid ""
 "Click to close the feature information and go back to the list of features"
-msgstr ""
+msgstr "クリックして機能情報を閉じ、機能リストに戻る"
 
 #: view~dictionnary.featuresTable.item.draggable.dropped
 msgctxt "view~dictionnary.featuresTable.item.draggable.dropped"
 msgid "You have successfully moved this feature"
-msgstr ""
+msgstr "地物の移動に成功しました"
 
 #: view~dictionnary.featuresTable.item.draggable.hover
 msgctxt "view~dictionnary.featuresTable.item.draggable.hover"
 msgid "You can drag and drop the feature to move it above or below"
-msgstr ""
+msgstr "ドラッグ＆ドロップで上下に移動できます。"
 
 #: view~dictionnary.featuresTable.item.hover
 msgctxt "view~dictionnary.featuresTable.item.hover"
 msgid "Click on the feature to display its detailed information"
-msgstr ""
+msgstr "地物をクリックすると詳細情報が表示されます。"
 
 #: view~dictionnary.featuresTable.toolbar.close
 msgctxt "view~dictionnary.featuresTable.toolbar.close"
 msgid "Go back to the list of features"
-msgstr ""
+msgstr "地物一覧に戻る"
 
 #: view~dictionnary.featuresTable.toolbar.next
 msgctxt "view~dictionnary.featuresTable.toolbar.next"
 msgid "Go to the next feature"
-msgstr ""
+msgstr "次の地物へ"
 
 #: view~dictionnary.featuresTable.toolbar.previous
 msgctxt "view~dictionnary.featuresTable.toolbar.previous"
 msgid "Go to the previous feature"
-msgstr ""
+msgstr "前の地物へ"
 
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"
@@ -898,7 +898,7 @@ msgstr "‎レイヤをエクスポート"
 #: view~dictionnary.layer.export.started
 msgctxt "view~dictionnary.layer.export.started"
 msgid "Export started, please wait…"
-msgstr ""
+msgstr "エクスポートを開始しました。"
 
 #: view~dictionnary.layer.export.unknown.export.error
 msgctxt "view~dictionnary.layer.export.unknown.export.error"
@@ -963,7 +963,7 @@ msgstr "‎情報‎"
 #: view~dictionnary.layer.metadata.zoomToExtent.title
 msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
 msgid "Zoom to the layer extent"
-msgstr ""
+msgstr "レイヤーの範囲にズーム"
 
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
@@ -1073,7 +1073,7 @@ msgstr "‎ズームアウト‎"
 #: view~dictionnary.overviewbar.displayoverview.hover
 msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
 msgid "Display/Hide overview"
-msgstr ""
+msgstr "概要の表示/非表示"
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
@@ -1083,7 +1083,7 @@ msgstr "オブジェクトが見つかりません。‎"
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
 msgid "Click on the map to get information."
-msgstr ""
+msgstr "地図をクリックすると情報が表示されます。"
 
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
@@ -1115,17 +1115,17 @@ msgctxt "view~dictionnary.print.error"
 msgid ""
 "The output is currently not available. Please contact the system "
 "administrator."
-msgstr ""
+msgstr "出力は現在利用できません。 システム管理者にお問い合わせください。"
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"
 msgid "Grid intervals"
-msgstr ""
+msgstr "グリッド間隔"
 
 #: view~dictionnary.print.labels
 msgctxt "view~dictionnary.print.labels"
 msgid "Labels"
-msgstr ""
+msgstr "ラベル"
 
 #: view~dictionnary.print.launch
 msgctxt "view~dictionnary.print.launch"
@@ -1135,12 +1135,12 @@ msgstr "印刷/ファイル出力"
 #: view~dictionnary.print.rotation
 msgctxt "view~dictionnary.print.rotation"
 msgid "Rotation"
-msgstr ""
+msgstr "回転"
 
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
 msgid "Print started, please wait…"
-msgstr ""
+msgstr "印刷が始まりました。"
 
 #: view~dictionnary.print.toolbar.dpi
 msgctxt "view~dictionnary.print.toolbar.dpi"
@@ -1165,21 +1165,21 @@ msgstr "縮尺"
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
-msgstr ""
+msgstr "このメッセージは管理者またはパブリッシャーのみが見ることができます。"
 
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
 "be fixed."
-msgstr ""
+msgstr "このプロジェクト‎には、QGISデスクトップのLizmapプラグインで修正しなければならない警告がいくつかあります。"
 
 #: view~dictionnary.project.plugin.outdated.warning
 msgctxt "view~dictionnary.project.plugin.outdated.warning"
 msgid ""
 "The project has been recently updated in QGIS Desktop, but with an outdated "
 "version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
-msgstr ""
+msgstr "このプロジェクト‎はQGIS Desktopで最近更新されましたが、Lizmapプラグインのバージョンが古いため、QGIS Desktopでプラグインをアップグレードする必要があります。 QGIS Desktopでプラグインをアップグレードする必要があります。"
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1306,7 +1306,7 @@ msgctxt "view~dictionnary.snapping.list.disabled"
 msgid ""
 "This layer is hidden. Turn on the layer on the layer panel to toggle "
 "snapping on it"
-msgstr ""
+msgstr "このレイヤーは非表示です。 レイヤーパネルでレイヤーをオンにして、スナップを切り替えます。"
 
 #: view~dictionnary.snapping.list.title
 msgctxt "view~dictionnary.snapping.list.title"
@@ -1316,7 +1316,7 @@ msgstr "‎スナップオン‎"
 #: view~dictionnary.snapping.list.toggle
 msgctxt "view~dictionnary.snapping.list.toggle"
 msgid "Toggle snapping for this layer"
-msgstr ""
+msgstr "このレイヤーのスナップを切り替える"
 
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
@@ -1352,19 +1352,19 @@ msgstr "ホーム"
 #: view~dictionnary.startup.goToRepositoryAdmin
 msgctxt "view~dictionnary.startup.goToRepositoryAdmin"
 msgid "Maps management page"
-msgstr ""
+msgstr "地図管理ページ"
 
 #: view~dictionnary.startup.projectWithoutJSLink
 msgctxt "view~dictionnary.startup.projectWithoutJSLink"
 msgid "This map without additional JavaScript"
-msgstr ""
+msgstr "JavaScriptを追加しない場合の地図"
 
 #: view~dictionnary.startup.user_defined_js
 msgctxt "view~dictionnary.startup.user_defined_js"
 msgid ""
 "This map contains some users additional JavaScript scripts. This can be the "
 "cause of this message, try disabling them."
-msgstr ""
+msgstr "このマップには、ユーザーが追加した JavaScript スクリプトが含まれています。 これがこのメッセージの原因である可能性がありますので、それらを無効にしてみてください。"
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -1399,7 +1399,7 @@ msgstr "停止"
 #: view~dictionnary.tooltip.loading.error
 msgctxt "view~dictionnary.tooltip.loading.error"
 msgid "An error prevented to load the tooltip data"
-msgstr ""
+msgstr "地図のtipsデータの読み込みに失敗しました。"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -1424,17 +1424,17 @@ msgstr "‎マニュアルを開く‎"
 #: view~dictionnary.tree.button.removeCache
 msgctxt "view~dictionnary.tree.button.removeCache"
 msgid "Remove server's cache for this layer"
-msgstr ""
+msgstr "このレイヤーのサーバーのキャッシュを削除する。"
 
 #: view~dictionnary.tree.button.removeCache.confirmation
 msgctxt "view~dictionnary.tree.button.removeCache.confirmation"
 msgid "Remove server's cache for this layer?"
-msgstr ""
+msgstr "このレイヤのサーバーのキャッシュを削除しますか？"
 
 #: view~dictionnary.visit.admin.panel.project.page
 msgctxt "view~dictionnary.visit.admin.panel.project.page"
 msgid "Visit the QGIS project page in the administration panel."
-msgstr ""
+msgstr "管理パネルのQGISプロジェクト‎ページにアクセスします。"
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
@@ -1509,7 +1509,7 @@ msgstr "‎ノードツール‎"
 #: view~edition.geomtool.pastegeom.title
 msgctxt "view~edition.geomtool.pastegeom.title"
 msgid "Paste the geometry"
-msgstr ""
+msgstr "ジオメトリを貼り付ける"
 
 #: view~edition.geomtool.reshape.title
 msgctxt "view~edition.geomtool.reshape.title"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 13:56++0000\n"
+"POT-Creation-Date: 2025-01-24 11:01++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Adrian Kowalski <ad.kowalski@gmail.com>, 2024\n"
 "Language-Team: Polish (Poland) (http://app.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
@@ -103,7 +103,7 @@ msgstr "E-mail Administratora"
 #: admin~admin.configuration.services.allowUserAccountRequests.help.deactivated
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
-msgid "This option is deactivated because of the use of Ldap authentication"
+msgid "This option is deactivated because of the use of LDAP authentication"
 msgstr "Ta opcja nie jest aktywna z powodu uwierzyteniania LDAP"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
@@ -148,8 +148,8 @@ msgstr "Serwisy"
 
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
-msgid "Only maps"
-msgstr "Tylko mapy"
+msgid "Disable landing page"
+msgstr "Wyłącz stronę docelową"
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
@@ -291,7 +291,7 @@ msgid ""
 "will be removed from the URL. This setting will affect CORS headers : Cross "
 "Origin Resource Sharing. Read the article on Wikipedia "
 "https://wikipedia.org/wiki/Cross-origin_resource_sharing"
-msgstr ""
+msgstr "Lista adresów URL oddzielonych przecinkiem, np. 'https://domena1.com,https://www.domena2.com'. Parametry ścieżki i zapytania zostaną usunięte z adresu URL. To ustawienie będzie miało wpływ na nagłówki CORS: Cross Origin Resource Sharing. Przeczytaj artykuł na Wikipedii https://wikipedia.org/wiki/Cross-origin_resource_sharing"
 
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
@@ -338,7 +338,7 @@ msgstr "Katalog, w którym muszą być przechowywane projekty QGIS i plik konfig
 #: admin~admin.form.admin_section.repository.path.invalid
 msgctxt "admin~admin.form.admin_section.repository.path.invalid"
 msgid "Path not found"
-msgstr ""
+msgstr "Ścieżka nie została znaleziona"
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -613,10 +613,15 @@ msgctxt "admin~admin.form.admin_services.on.label"
 msgid "On"
 msgstr "Włącz"
 
+#: admin~admin.form.admin_services.onlyMaps.help
+msgctxt "admin~admin.form.admin_services.onlyMaps.help"
+msgid "If set to \"On\", no landing page will be available."
+msgstr "Jeśli ustawione na „Wł.”, żadna strona docelowa nie będzie dostępna."
+
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
-msgid "Only maps"
-msgstr "Tylko mapy"
+msgid "Disable landing page"
+msgstr "Wyłącz stronę docelową"
 
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
@@ -866,7 +871,7 @@ msgstr "Administracja"
 #: admin~admin.landingPageContent.authed
 msgctxt "admin~admin.landingPageContent.authed"
 msgid "Content for authenticated users"
-msgstr ""
+msgstr "Treść dla uwierzytelnionych użytkowników"
 
 #: admin~admin.landingPageContent.error.save
 msgctxt "admin~admin.landingPageContent.error.save"
@@ -883,12 +888,12 @@ msgstr "Wystąpił błąd podczas zapisywania zawartości. Twoja sesja została 
 #: admin~admin.landingPageContent.group.bottom
 msgctxt "admin~admin.landingPageContent.group.bottom"
 msgid "Bottom of the landing page"
-msgstr ""
+msgstr "Dół strony docelowej"
 
 #: admin~admin.landingPageContent.group.top
 msgctxt "admin~admin.landingPageContent.group.top"
 msgid "Top of the landing page"
-msgstr ""
+msgstr "Góra strony docelowej"
 
 #: admin~admin.landingPageContent.saved
 msgctxt "admin~admin.landingPageContent.saved"
@@ -898,27 +903,57 @@ msgstr "Treść strony docelowej została zapisana"
 #: admin~admin.landingPageContent.unauthed
 msgctxt "admin~admin.landingPageContent.unauthed"
 msgid "Content for unauthenticated users"
-msgstr ""
+msgstr "Treść dla użytkowników nieuwierzytelnionych"
 
 #: admin~admin.landingPageContent.unauthed.position
 msgctxt "admin~admin.landingPageContent.unauthed.position"
 msgid "Add content for unauthenticated user to authenticated users"
-msgstr ""
+msgstr "Dodaj zawartość dla użytkowników nieuwierzytelnionych do użytkowników uwierzytelnionych"
 
 #: admin~admin.landingPageContent.unauthed.position.after
 msgctxt "admin~admin.landingPageContent.unauthed.position.after"
 msgid "After content for authenticated"
-msgstr ""
+msgstr "Po treści dla uwierzytelnionych"
 
 #: admin~admin.landingPageContent.unauthed.position.before
 msgctxt "admin~admin.landingPageContent.unauthed.position.before"
 msgid "Before content for authenticated"
-msgstr ""
+msgstr "Przed treścią uwierzytelnioną"
 
 #: admin~admin.landingPageContent.unauthed.position.no
 msgctxt "admin~admin.landingPageContent.unauthed.position.no"
 msgid "No"
 msgstr "Nie"
+
+#: admin~admin.logs.admin.file.erase
+msgctxt "admin~admin.logs.admin.file.erase"
+msgid "Erase the admin log file"
+msgstr "Wyczyść plik logów administratora"
+
+#: admin~admin.logs.admin.file.erase.confirm
+msgctxt "admin~admin.logs.admin.file.erase.confirm"
+msgid "Are you sure you want to erase the admin log file?"
+msgstr "Czy jesteś pewien, że chcesz wyczyścić zawartość pliku logów administratora?"
+
+#: admin~admin.logs.admin.file.erase.ok
+msgctxt "admin~admin.logs.admin.file.erase.ok"
+msgid "The admin log file has successfully been erased."
+msgstr "Plik logów administratora został pomyślnie wyczyszczony."
+
+#: admin~admin.logs.admin.no.delete.right
+msgctxt "admin~admin.logs.admin.no.delete.right"
+msgid "You have no right to delete the logs."
+msgstr "Nie masz praw do usunięcia logów."
+
+#: admin~admin.logs.admin.sentence
+msgctxt "admin~admin.logs.admin.sentence"
+msgid "Last lines of the admin log file"
+msgstr "Ostatnie linie pliku logu administratora"
+
+#: admin~admin.logs.admin.title
+msgctxt "admin~admin.logs.admin.title"
+msgid "Admin log"
+msgstr "Logi administratora"
 
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
@@ -1000,37 +1035,10 @@ msgctxt "admin~admin.logs.empty.ok"
 msgid "The log table %s has been successfully emptied."
 msgstr "Tabela logów %s została pomyślnie wyczyszczona."
 
-#: admin~admin.logs.error.file.erase
-msgctxt "admin~admin.logs.error.file.erase"
-msgid "Erase the error log file"
-msgstr "Wyczyść plik logów błędów."
-
-#: admin~admin.logs.error.file.erase.confirm
-msgctxt "admin~admin.logs.error.file.erase.confirm"
-msgid "Are you sure you want to erase the error log file?"
-msgstr "Jesteś pewny, że chcesz wyczyścić zawartość pliku logów błędów?"
-
-#: admin~admin.logs.error.file.erase.ok
-msgctxt "admin~admin.logs.error.file.erase.ok"
-msgid "The error log file has successfully been erased."
-msgstr "Plik logów błędów został pomyślnie wyczyszczony."
-
-#: admin~admin.logs.error.file.too.big
-msgctxt "admin~admin.logs.error.file.too.big"
-msgid ""
-"The error log file is too big. Consider using log rotation for Lizmap Web "
-"Client logs."
-msgstr "Plik logu błędów jest za duży. Rozważ użycie logów rotacyjnych dla logów Lizmap Web Client."
-
-#: admin~admin.logs.error.no.delete.right
-msgctxt "admin~admin.logs.error.no.delete.right"
-msgid "You have no right to delete the logs."
-msgstr "Nie masz praw do usunięcia logów."
-
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
-msgid "Last lines of the Lizmap Web Client application error log file"
-msgstr "Ostatnie linie pliku logu błędów aplikacji Lizmap Web Client"
+msgid "Last lines of the error log file"
+msgstr "Ostatnie linie pliku logu błędów"
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
@@ -1041,6 +1049,11 @@ msgstr "Log błędu"
 msgctxt "admin~admin.logs.export.button"
 msgid "Export"
 msgstr "Eksportuj"
+
+#: admin~admin.logs.file.too.big
+msgctxt "admin~admin.logs.file.too.big"
+msgid "The log file is too big. Consider using log rotation for this log."
+msgstr "Plik logu błędów jest za duży. Rozważ użycie logów rotacyjnych dla tych logów."
 
 #: admin~admin.logs.first_page
 msgctxt "admin~admin.logs.first_page"
@@ -1081,6 +1094,11 @@ msgstr "Repozytorium"
 msgctxt "admin~admin.logs.timestamp"
 msgid "Timestamp"
 msgstr "Znacznik czasu"
+
+#: admin~admin.logs.title
+msgctxt "admin~admin.logs.title"
+msgid "Logs"
+msgstr "Logi"
 
 #: admin~admin.logs.user
 msgctxt "admin~admin.logs.user"
@@ -1208,12 +1226,12 @@ msgstr "Ten projekt składa się z ogromnej liczby warstw. Wydajność może ule
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
 msgid "Layers/Groups"
-msgstr ""
+msgstr "Warstwy/Grupy"
 
 #: admin~admin.project.list.column.layers.count.label.longer
 msgctxt "admin~admin.project.list.column.layers.count.label.longer"
 msgid "Layer and group count"
-msgstr ""
+msgstr "Liczba warstw i grup"
 
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
@@ -1233,12 +1251,12 @@ msgstr "Wtyczka Lizmap"
 #: admin~admin.project.list.column.lizmap.warnings.count.label
 msgctxt "admin~admin.project.list.column.lizmap.warnings.count.label"
 msgid "Warnings"
-msgstr ""
+msgstr "Ostrzeżenia"
 
 #: admin~admin.project.list.column.lizmap.warnings.explanations.label
 msgctxt "admin~admin.project.list.column.lizmap.warnings.explanations.label"
 msgid "Check your Lizmap plugin in QGIS Desktop to fix these warnings"
-msgstr ""
+msgstr "Sprawdź wtyczkę Lizmap w QGIS Desktop, aby naprawić te ostrzeżenia"
 
 #: admin~admin.project.list.column.loading.time.error.label
 msgctxt "admin~admin.project.list.column.loading.time.error.label"
@@ -1287,7 +1305,7 @@ msgstr "Zużycie pamięci w projekcie jest nieco wysokie."
 #: admin~admin.project.list.column.path.label
 msgctxt "admin~admin.project.list.column.path.label"
 msgid "Path"
-msgstr ""
+msgstr "Ścieżka"
 
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
@@ -1320,7 +1338,7 @@ msgid ""
 "This QGIS project has been recently updated in QGIS Desktop, but with a too "
 "old Lizmap plugin version. You should upgrade your plugin in your QGIS "
 "plugin manager."
-msgstr ""
+msgstr "Ten projekt QGIS został niedawno zaktualizowany w QGIS Desktop, ale ze zbyt starą wersją wtyczki Lizmap. Powinieneś uaktualnić swoją wtyczkę w menedżerze wtyczek QGIS."
 
 #: admin~admin.project.list.column.qgis.desktop.recent.version.label.html
 msgctxt ""
@@ -1330,7 +1348,7 @@ msgid ""
 "old Lizmap plugin version. <strong>Always</strong> install the "
 "<strong>latest version available</strong> in your QGIS plugin manager. It "
 "must be at least <strong>%s</strong>."
-msgstr ""
+msgstr "Projekt QGIS został ostatnio zaktualizowany w QGIS Desktop, ale ze zbyt starą wersją wtyczki Lizmap. <strong>Zawsze</strong> instaluj <strong>najnowszą wersję dostępną</strong> w menedżerze wtyczek QGIS. Musi to być co najmniej <strong>%s</strong>."
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
@@ -1447,7 +1465,7 @@ msgstr "Projekt zajmuje więcej niż <strong>%s</strong> Mo pamięci serwera do 
 #: admin~admin.project.rules.list.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
 msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
-msgstr ""
+msgstr "Liczba jest większa lub równa <strong>%s</strong> warstwom/grupom."
 
 #: admin~admin.project.rules.list.introduction
 msgctxt "admin~admin.project.rules.list.introduction"
@@ -1466,7 +1484,7 @@ msgctxt "admin~admin.project.rules.list.plugin.warnings.html"
 msgid ""
 "The project has <strong>at least one</strong> warning in the QGIS Desktop "
 "plugin"
-msgstr ""
+msgstr "Projekt ma <strong>co najmniej jedno</strong> ostrzeżenie wtyczki QGIS Desktop"
 
 #: admin~admin.project.rules.list.qgis.version.error.html
 msgctxt "admin~admin.project.rules.list.qgis.version.error.html"
@@ -1490,7 +1508,7 @@ msgstr "Projekt jest zaprojektowany dla klienta sieciowego Lizmap <strong>%s</st
 #: admin~admin.project.rules.list.very.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
 msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
-msgstr ""
+msgstr "Liczba jest większa lub równa <strong>%s</strong> warstwom/grupom."
 
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
@@ -1527,7 +1545,7 @@ msgstr "Informacja"
 #: admin~admin.server.information.lizmap.info.date
 msgctxt "admin~admin.server.information.lizmap.info.date"
 msgid "Date of release"
-msgstr ""
+msgstr "Data wydania"
 
 #: admin~admin.server.information.lizmap.info.version
 msgctxt "admin~admin.server.information.lizmap.info.version"
@@ -1547,7 +1565,7 @@ msgstr "URL we wtyczce QGIS Desktop"
 #: admin~admin.server.information.module
 msgctxt "admin~admin.server.information.module"
 msgid "Module"
-msgstr ""
+msgstr "Moduł"
 
 #: admin~admin.server.information.module.version
 msgctxt "admin~admin.server.information.module.version"
@@ -1557,27 +1575,22 @@ msgstr "Wersja"
 #: admin~admin.server.information.modules
 msgctxt "admin~admin.server.information.modules"
 msgid "Modules"
-msgstr ""
+msgstr "Moduły"
 
 #: admin~admin.server.information.no.module
 msgctxt "admin~admin.server.information.no.module"
 msgid "No module installed"
-msgstr ""
+msgstr "Brak zainstalowanego modułu"
 
 #: admin~admin.server.information.plugin.update
 msgctxt "admin~admin.server.information.plugin.update"
 msgid "The plugin must be updated."
-msgstr ""
+msgstr "Wtyczka musi zostać zaktualizowana."
 
 #: admin~admin.server.information.qgis.action
 msgctxt "admin~admin.server.information.qgis.action"
 msgid "Action"
 msgstr "Akcja"
-
-#: admin~admin.server.information.qgis.commit_id
-msgctxt "admin~admin.server.information.qgis.commit_id"
-msgid "Commit ID"
-msgstr "Commit ID"
 
 #: admin~admin.server.information.qgis.error.fetching.information
 msgctxt "admin~admin.server.information.qgis.error.fetching.information"
@@ -1732,6 +1745,16 @@ msgstr "QGIS Server musi być zaktualizowany co najmniej do wersji %s dla tej we
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Liczba"
+
+#: admin~admin.server.information.qgis.wrapper
+msgctxt "admin~admin.server.information.qgis.wrapper"
+msgid "QJazz or Py-QGIS-Server"
+msgstr "QJazz lub Py-QGIS-Server"
+
+#: admin~admin.server.information.qgis.wrapper.not.installed
+msgctxt "admin~admin.server.information.qgis.wrapper.not.installed"
+msgid "Not installed"
+msgstr "Nie zainstalowany"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
@@ -1901,7 +1924,7 @@ msgstr "Użyj narzędzi edycji"
 #: admin~jacl2.lizmap.tools.layer.export
 msgctxt "admin~jacl2.lizmap.tools.layer.export"
 msgid "Allow export of vector layers"
-msgstr ""
+msgstr "Zezwól na eksport warstw wektorowych"
 
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
