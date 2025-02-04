@@ -2,16 +2,16 @@
 # Translators:
 # Laurent Jouanneau <dev@ljouanneau.com>, 2023
 # rldhont <rldhont@gmail.com>, 2023
-# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2023
 # Кадастр Муниципальный, 2023
+# Petr Tsymbarovich <petr@tsymbarovich.ru>, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap Web Client 3.5 admin\n"
+"Project-Id-Version: Lizmap Web Client 3.7 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 15:08++0000\n"
+"POT-Creation-Date: 2025-01-28 12:20++0000\n"
 "PO-Revision-Date: 2023-11-28 15:42+0000\n"
-"Last-Translator: Кадастр Муниципальный, 2023\n"
+"Last-Translator: Petr Tsymbarovich <petr@tsymbarovich.ru>, 2025\n"
 "Language-Team: Russian (https://app.transifex.com/3liz-1/teams/62012/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1575,11 +1575,6 @@ msgctxt "admin~admin.server.information.qgis.action"
 msgid "Action"
 msgstr "Действие"
 
-#: admin~admin.server.information.qgis.commit_id
-msgctxt "admin~admin.server.information.qgis.commit_id"
-msgid "Commit ID"
-msgstr "Идентификатор фиксации"
-
 #: admin~admin.server.information.qgis.error.fetching.information
 msgctxt "admin~admin.server.information.qgis.error.fetching.information"
 msgid ""
@@ -1687,6 +1682,11 @@ msgctxt "admin~admin.server.information.qgis.plugin.action"
 msgid "Action"
 msgstr "Действие"
 
+#: admin~admin.server.information.qgis.plugin.help
+msgctxt "admin~admin.server.information.qgis.plugin.help"
+msgid "Help"
+msgstr "Справка"
+
 #: admin~admin.server.information.qgis.plugin.version
 msgctxt "admin~admin.server.information.qgis.plugin.version"
 msgid "Version"
@@ -1741,6 +1741,16 @@ msgstr ""
 msgctxt "admin~admin.server.information.qgis.version"
 msgid "Number"
 msgstr "Номер"
+
+#: admin~admin.server.information.qgis.wrapper
+msgctxt "admin~admin.server.information.qgis.wrapper"
+msgid "QJazz or Py-QGIS-Server"
+msgstr ""
+
+#: admin~admin.server.information.qgis.wrapper.not.installed
+msgctxt "admin~admin.server.information.qgis.wrapper.not.installed"
+msgid "Not installed"
+msgstr ""
 
 #: admin~admin.server.information.webdav.url
 msgctxt "admin~admin.server.information.webdav.url"
