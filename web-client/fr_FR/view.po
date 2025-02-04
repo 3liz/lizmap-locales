@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 13:56++0000\n"
+"POT-Creation-Date: 2025-01-24 11:01++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2020-2024\n"
 "Language-Team: French (http://app.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
@@ -134,6 +134,16 @@ msgstr "Cette carte ne peut pas être affichée. Veuillez contacter l'administra
 msgctxt "view~default.server.information.error.admin"
 msgid "Maps cannot be displayed. Please check the server information panel."
 msgstr "Les cartes ne peuvent pas être affichées. Veuillez vérifier le panneau des informations de votre serveur."
+
+#: view~default.service.access.denied
+msgctxt "view~default.service.access.denied"
+msgid "Access denied to the service."
+msgstr "Accès refusé au service."
+
+#: view~default.service.access.forbidden
+msgctxt "view~default.service.access.forbidden"
+msgid "Access forbidden to the service."
+msgstr "Accès interdit au service."
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
@@ -445,6 +455,18 @@ msgctxt "view~dictionnary.digitizing.constraint.title"
 msgid "Constraints"
 msgstr "Contraintes"
 
+#: view~dictionnary.digitizing.import.fetch.error
+msgctxt "view~dictionnary.digitizing.import.fetch.error"
+msgid "Error while fetching projection definition from epsg.io"
+msgstr "Erreur lors de la récupération de la définition de projection depuis epsg.io"
+
+#: view~dictionnary.digitizing.import.metadata.error
+msgctxt "view~dictionnary.digitizing.import.metadata.error"
+msgid ""
+"No metadata found. Make sure the projection of the fgb file is the same as "
+"the current project"
+msgstr "Aucune métadonnée trouvée. Assurez-vous que la projection du fichier FGB est la même que celle du projet actuel"
+
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
 msgid "Box"
@@ -472,8 +494,10 @@ msgstr "Outils de dessin"
 
 #: view~dictionnary.digitizing.toolbar.edit
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
-msgid "Edit (hold \"Shift\" to select multiple features)"
-msgstr "Éditer (maintenir \"Shift\" pour sélectionner plusieurs entités)"
+msgid ""
+"Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
+"delete a vertex)"
+msgstr "Éditer (maintenir \"Shift\" pour sélectionner plusieurs entités, maintenir \"Alt\" et cliquer pour supprimer un nœud)"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
@@ -492,8 +516,8 @@ msgstr "Main levé"
 
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
-msgid "Import in GeoJSON, GPX, KML or zipped Shapefile"
-msgstr "Importation d'un GeoJSON, GPX, KML ou Shapefile zippé"
+msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
+msgstr "Importer en GeoJSON, GPX, KML, Shapefile zippé ou FlatGeobuf"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -520,6 +544,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.polygon"
 msgid "Polygon"
 msgstr "Polygone"
 
+#: view~dictionnary.digitizing.toolbar.rotate
+msgctxt "view~dictionnary.digitizing.toolbar.rotate"
+msgid "Rotate"
+msgstr "Pivoter"
+
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
@@ -534,6 +563,11 @@ msgstr "Supprimer le dessin du navigateur"
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
 msgstr "Les modifications apportées au dessin seront enregistrées dans le navigateur"
+
+#: view~dictionnary.digitizing.toolbar.split
+msgctxt "view~dictionnary.digitizing.toolbar.split"
+msgid "Split"
+msgstr "Scinder"
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -1344,9 +1378,10 @@ msgstr "Veuillez informer l'administrateur de cette carte pour qu'il <strong>se 
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
-"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
-msgstr "Vous aurez peut-être une idée en ouvrant vos \"Outils de développement\" dans votre navigateur web. C'est généralement <kbd>F12</kbd>. Vérifiez les onglets \"Console\" et \"Réseaux\"."
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"\n"
+"Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
+msgstr "Vous aurez peut-être une idée en ouvrant vos \"Outils de développement\" dans votre navigateur web. C'est généralement <kbd>F12</kbd>. Vérifiez les onglets \"Console\" et \"Réseaux\".\n\nVisitez le panneau d'administration et vérifiez dans la page des logs si une requête HTTP s'est terminée par une erreur liée à ce projet."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"

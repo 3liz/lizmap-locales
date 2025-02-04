@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 13:56++0000\n"
+"POT-Creation-Date: 2025-01-24 11:01++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2018-2019\n"
 "Language-Team: Hungarian (Hungary) (http://app.transifex.com/3liz-1/lizmap-locales/language/hu_HU/)\n"
@@ -128,6 +128,16 @@ msgstr ""
 #: view~default.server.information.error.admin
 msgctxt "view~default.server.information.error.admin"
 msgid "Maps cannot be displayed. Please check the server information panel."
+msgstr ""
+
+#: view~default.service.access.denied
+msgctxt "view~default.service.access.denied"
+msgid "Access denied to the service."
+msgstr ""
+
+#: view~default.service.access.forbidden
+msgctxt "view~default.service.access.forbidden"
+msgid "Access forbidden to the service."
 msgstr ""
 
 #: view~dictionnary.action.choose
@@ -440,6 +450,18 @@ msgctxt "view~dictionnary.digitizing.constraint.title"
 msgid "Constraints"
 msgstr ""
 
+#: view~dictionnary.digitizing.import.fetch.error
+msgctxt "view~dictionnary.digitizing.import.fetch.error"
+msgid "Error while fetching projection definition from epsg.io"
+msgstr ""
+
+#: view~dictionnary.digitizing.import.metadata.error
+msgctxt "view~dictionnary.digitizing.import.metadata.error"
+msgid ""
+"No metadata found. Make sure the projection of the fgb file is the same as "
+"the current project"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
 msgid "Box"
@@ -467,7 +489,9 @@ msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.edit
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
-msgid "Edit (hold \"Shift\" to select multiple features)"
+msgid ""
+"Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
+"delete a vertex)"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.erase
@@ -487,7 +511,7 @@ msgstr "Szabadkézi rajz"
 
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
-msgid "Import in GeoJSON, GPX, KML or zipped Shapefile"
+msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.line
@@ -515,6 +539,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.polygon"
 msgid "Polygon"
 msgstr "Poligon"
 
+#: view~dictionnary.digitizing.toolbar.rotate
+msgctxt "view~dictionnary.digitizing.toolbar.rotate"
+msgid "Rotate"
+msgstr "Forgatás"
+
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
@@ -529,6 +558,11 @@ msgstr ""
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
 msgstr ""
+
+#: view~dictionnary.digitizing.toolbar.split
+msgctxt "view~dictionnary.digitizing.toolbar.split"
+msgid "Split"
+msgstr "Szeletel"
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -1339,8 +1373,9 @@ msgstr ""
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
-"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"\n"
+"Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
 
 #: view~dictionnary.startup.goToProject

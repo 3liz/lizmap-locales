@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 13:56++0000\n"
+"POT-Creation-Date: 2025-01-24 11:01++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020-2024\n"
 "Language-Team: Romanian (http://app.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
@@ -128,6 +128,16 @@ msgstr "Această hartă nu poate fi afișată. Contactează administratorul serv
 msgctxt "view~default.server.information.error.admin"
 msgid "Maps cannot be displayed. Please check the server information panel."
 msgstr "Hărțile nu pot fi afișate. Verifică panoul informații despre server."
+
+#: view~default.service.access.denied
+msgctxt "view~default.service.access.denied"
+msgid "Access denied to the service."
+msgstr "Acces refuzat la serviciu."
+
+#: view~default.service.access.forbidden
+msgctxt "view~default.service.access.forbidden"
+msgid "Access forbidden to the service."
+msgstr "Acces interzis la serviciu."
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
@@ -439,6 +449,18 @@ msgctxt "view~dictionnary.digitizing.constraint.title"
 msgid "Constraints"
 msgstr "Constrângeri"
 
+#: view~dictionnary.digitizing.import.fetch.error
+msgctxt "view~dictionnary.digitizing.import.fetch.error"
+msgid "Error while fetching projection definition from epsg.io"
+msgstr "Eroare la preluarea definiției proiecției de la epsg.io"
+
+#: view~dictionnary.digitizing.import.metadata.error
+msgctxt "view~dictionnary.digitizing.import.metadata.error"
+msgid ""
+"No metadata found. Make sure the projection of the fgb file is the same as "
+"the current project"
+msgstr "Nu s -au găsit metadate. Asigură-te că proiecția fișierului FGB este aceeași ca în proiectul curent"
+
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
 msgid "Box"
@@ -466,8 +488,10 @@ msgstr "Unelte pentru desenare"
 
 #: view~dictionnary.digitizing.toolbar.edit
 msgctxt "view~dictionnary.digitizing.toolbar.edit"
-msgid "Edit (hold \"Shift\" to select multiple features)"
-msgstr "Editează (ține apăsată tasta \"Shift\" pentru a selecta mai multe obiecte)"
+msgid ""
+"Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
+"delete a vertex)"
+msgstr "Editează (ține apăsat „Shift” pentru a selecta mai multe obiecte, ține apăsat „Alt” și dă clic pentru a șterge un vârf)"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
@@ -486,8 +510,8 @@ msgstr "Liber"
 
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
-msgid "Import in GeoJSON, GPX, KML or zipped Shapefile"
-msgstr "Importează GeoJSON, GPX, KML sau Shapefile arhivat"
+msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
+msgstr "Importează GeoJSON, GPX, KML, Shapefile arhivat sau FlatGeobuf"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -514,6 +538,11 @@ msgctxt "view~dictionnary.digitizing.toolbar.polygon"
 msgid "Polygon"
 msgstr "Poligon"
 
+#: view~dictionnary.digitizing.toolbar.rotate
+msgctxt "view~dictionnary.digitizing.toolbar.rotate"
+msgid "Rotate"
+msgstr "Rotire"
+
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
@@ -528,6 +557,11 @@ msgstr "Elimină desenul din browser"
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
 msgstr "Modificările desenului vor fi salvate în browser"
+
+#: view~dictionnary.digitizing.toolbar.split
+msgctxt "view~dictionnary.digitizing.toolbar.split"
+msgid "Split"
+msgstr "Divizare"
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -1338,9 +1372,10 @@ msgstr "Notifică administratorul acestei hărți pentru a <strong>te conecta</s
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-"
-"browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\"."
-msgstr "Poate că vei avea un indiciu deschizând „Instrumentele pentru dezvoltatori” în browser-ul web. De obicei este <kbd>F12</kbd>. Verifică „Consola” și „Rețeaua”."
+"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"\n"
+"Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
+msgstr "Poate că vei avea un indiciu deschizând „Instrumentele pentru dezvoltatori” în browser-ul web. De obicei este <kbd>F12</kbd>. Verifică „Consolă” și „Rețea”.\n\nVizitează panoul de administrare și verifică în pagina de jurnal dacă o solicitare HTTP s-a încheiat cu o eroare legată de acest proiect."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
