@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-24 10:31++0000\n"
+"POT-Creation-Date: 2025-03-06 09:49++0000\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/3liz-1/teams/62012/pt/)\n"
@@ -144,12 +144,12 @@ msgstr ""
 #: view~default.service.access.denied
 msgctxt "view~default.service.access.denied"
 msgid "Access denied to the service."
-msgstr ""
+msgstr "Acesso negado ao serviço."
 
 #: view~default.service.access.forbidden
 msgctxt "view~default.service.access.forbidden"
 msgid "Access forbidden to the service."
-msgstr ""
+msgstr "Acesso proibido ao serviço."
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
@@ -473,7 +473,7 @@ msgstr "Restrições"
 #: view~dictionnary.digitizing.import.fetch.error
 msgctxt "view~dictionnary.digitizing.import.fetch.error"
 msgid "Error while fetching projection definition from epsg.io"
-msgstr ""
+msgstr "Erro ao pesquisar a definição de projeção do epsg.io"
 
 #: view~dictionnary.digitizing.import.metadata.error
 msgctxt "view~dictionnary.digitizing.import.metadata.error"
@@ -481,6 +481,8 @@ msgid ""
 "No metadata found. Make sure the projection of the fgb file is the same as "
 "the current project"
 msgstr ""
+"Não foram encontrados metadados. Verificar se a projeção do ficheiro fgb é "
+"correspondente ao projeto atual"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -535,6 +537,7 @@ msgstr "Mão livre"
 msgctxt "view~dictionnary.digitizing.toolbar.import"
 msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
 msgstr ""
+"Importar em formato GeoJSON, GPX, KML, Shapefile comprimido ou FlatGeobuf"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -1251,6 +1254,17 @@ msgstr "Escala"
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
 msgstr "Apenas os administradores ou editores podem visualizar esta mensagem."
+
+#: view~dictionnary.project.has.not.found.layers
+msgctxt "view~dictionnary.project.has.not.found.layers"
+msgid ""
+"Some layers are in the WMS capabilities (*.qgs file) but are not found in "
+"the Lizmap configuration file (*.qgs.cfg). Is the Lizmap configuration file "
+"up to date ?"
+msgstr ""
+"Algumas camadas encontram-se presentes nos recursos WMS (ficheiro *. qgs), "
+"mas não se encontram no ficheiro de configuração do Lizmap (*. qgs. cfg). O "
+"ficheiro de configuração do Lizmap está atualizado?"
 
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"

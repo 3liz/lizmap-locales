@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-24 10:31++0000\n"
+"POT-Creation-Date: 2025-03-06 09:49++0000\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
 "Last-Translator: 山本　竜三 <ryu@yamakun.net>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/3liz-1/teams/62012/ja/)\n"
@@ -1319,6 +1319,11 @@ msgctxt "admin~admin.project.list.column.project.abstract.label"
 msgid "Abstract"
 msgstr "‎要約‎"
 
+#: admin~admin.project.list.column.project.acl
+msgctxt "admin~admin.project.list.column.project.acl"
+msgid "The project is not accessible because of some group restrictions."
+msgstr ""
+
 #: admin~admin.project.list.column.project.file.time.label
 msgctxt "admin~admin.project.list.column.project.file.time.label"
 msgid "Last modified"
@@ -1545,6 +1550,13 @@ msgid ""
 msgstr ""
 "プロジェクトを確認する前に、「サーバー情報」メニューでQGISサーバーの設定を確認する必要があります。QGIS "
 "Serverの設定が現在正しくありません。"
+
+#: admin~admin.server.information.installation.not.complete.html
+msgctxt "admin~admin.server.information.installation.not.complete.html"
+msgid ""
+"Your installation is not complete. Did you run "
+"<code>lizmap/install/installer.php</code> ?"
+msgstr ""
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-24 10:31++0000\n"
+"POT-Creation-Date: 2025-03-06 09:49++0000\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2025\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: view~default.header.connect
 msgctxt "view~default.header.connect"
 msgid "Connect"
-msgstr "Conectare"
+msgstr "Autentifică-te"
 
 #: view~default.header.createAccount
 msgctxt "view~default.header.createAccount"
@@ -30,7 +30,7 @@ msgstr "Înregistrare"
 #: view~default.header.disconnect
 msgctxt "view~default.header.disconnect"
 msgid "Disconnect"
-msgstr "Deconectare"
+msgstr "Deconectează-te"
 
 #: view~default.header.menuitem.admin.label
 msgctxt "view~default.header.menuitem.admin.label"
@@ -472,8 +472,8 @@ msgid ""
 "No metadata found. Make sure the projection of the fgb file is the same as "
 "the current project"
 msgstr ""
-"Nu s -au găsit metadate. Asigură-te că proiecția fișierului FGB este aceeași"
-" ca în proiectul curent"
+"Nu s-au găsit metadate. Asigură-te că proiecția fișierului FGB este aceeași "
+"ca în proiectul curent"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -527,7 +527,7 @@ msgstr "Liber"
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
 msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
-msgstr "Importează GeoJSON, GPX, KML, Shapefile arhivat sau FlatGeobuf"
+msgstr "Importă GeoJSON, GPX, KML, Shapefile arhivat sau FlatGeobuf"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -1245,6 +1245,14 @@ msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
 msgstr "Numai administratorii sau editorii pot vedea acest mesaj."
 
+#: view~dictionnary.project.has.not.found.layers
+msgctxt "view~dictionnary.project.has.not.found.layers"
+msgid ""
+"Some layers are in the WMS capabilities (*.qgs file) but are not found in "
+"the Lizmap configuration file (*.qgs.cfg). Is the Lizmap configuration file "
+"up to date ?"
+msgstr ""
+
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
@@ -1423,8 +1431,8 @@ msgid ""
 "Please notify the administrator of this map to <strong>connect</strong> and "
 "<strong>visit</strong> this map."
 msgstr ""
-"Notifică administratorul acestei hărți pentru a <strong>te conecta</strong> "
-"și <strong>vizita</strong> această hartă."
+"Notifică administratorul acestei hărți pentru a <strong>te "
+"autentifica</strong> și <strong>vizita</strong> această hartă."
 
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
