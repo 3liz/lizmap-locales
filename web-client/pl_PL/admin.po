@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-24 11:01++0000\n"
+"POT-Creation-Date: 2025-03-06 09:52++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Adrian Kowalski <ad.kowalski@gmail.com>, 2024\n"
 "Language-Team: Polish (Poland) (http://app.transifex.com/3liz-1/lizmap-locales/language/pl_PL/)\n"
@@ -1312,6 +1312,11 @@ msgctxt "admin~admin.project.list.column.project.abstract.label"
 msgid "Abstract"
 msgstr "Streszczenie"
 
+#: admin~admin.project.list.column.project.acl
+msgctxt "admin~admin.project.list.column.project.acl"
+msgid "The project is not accessible because of some group restrictions."
+msgstr ""
+
 #: admin~admin.project.list.column.project.file.time.label
 msgctxt "admin~admin.project.list.column.project.file.time.label"
 msgid "Last modified"
@@ -1536,6 +1541,13 @@ msgid ""
 "the \"Server information\" menu. The configuration of QGIS Server is "
 "currently not correct."
 msgstr "Przed sprawdzeniem projektów należy sprawdzić ustawienia serwera QGIS w menu \"Informacje o serwerze\". Konfiguracja serwera QGIS jest obecnie niepoprawna."
+
+#: admin~admin.server.information.installation.not.complete.html
+msgctxt "admin~admin.server.information.installation.not.complete.html"
+msgid ""
+"Your installation is not complete. Did you run "
+"<code>lizmap/install/installer.php</code> ?"
+msgstr ""
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"

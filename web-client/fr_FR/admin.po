@@ -1,6 +1,6 @@
 # 
 # Translators:
-# etrimaille <gustrimaille@yahoo.fr>, 2022-2024
+# etrimaille <gustrimaille@yahoo.fr>, 2022-2025
 # Laurent Jouanneau <dev@ljouanneau.com>, 2018-2019,2021-2022
 # Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2018
 # Michael Douchin <kimaidou@gmail.com>, 2017
@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-24 11:01++0000\n"
+"POT-Creation-Date: 2025-03-06 09:52++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2022-2024\n"
+"Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2022-2025\n"
 "Language-Team: French (http://app.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1315,6 +1315,11 @@ msgctxt "admin~admin.project.list.column.project.abstract.label"
 msgid "Abstract"
 msgstr "Résumé"
 
+#: admin~admin.project.list.column.project.acl
+msgctxt "admin~admin.project.list.column.project.acl"
+msgid "The project is not accessible because of some group restrictions."
+msgstr "Le projet n'est pas accessible en raison des restrictions imposées par certains groupes."
+
 #: admin~admin.project.list.column.project.file.time.label
 msgctxt "admin~admin.project.list.column.project.file.time.label"
 msgid "Last modified"
@@ -1539,6 +1544,13 @@ msgid ""
 "the \"Server information\" menu. The configuration of QGIS Server is "
 "currently not correct."
 msgstr "Avant de vérifier vos projets, vous devez vérifier votre configuration QGIS serveur dans le menu \"Information serveur\". La configuration actuelle de QGIS serveur n'est pas correcte."
+
+#: admin~admin.server.information.installation.not.complete.html
+msgctxt "admin~admin.server.information.installation.not.complete.html"
+msgid ""
+"Your installation is not complete. Did you run "
+"<code>lizmap/install/installer.php</code> ?"
+msgstr "Votre installation n'est pas complète. Avez-vous exécuté <code>lizmap/install/installer.php</code> ?"
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
