@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-17 10:36++0000\n"
+"POT-Creation-Date: 2025-03-06 09:48++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2025\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: view~default.header.connect
 msgctxt "view~default.header.connect"
 msgid "Connect"
-msgstr "Conectare"
+msgstr "Autentifică-te"
 
 #: view~default.header.createAccount
 msgctxt "view~default.header.createAccount"
@@ -30,7 +30,7 @@ msgstr "Înregistrare"
 #: view~default.header.disconnect
 msgctxt "view~default.header.disconnect"
 msgid "Disconnect"
-msgstr "Deconectare"
+msgstr "Deconectează-te"
 
 #: view~default.header.menuitem.admin.label
 msgctxt "view~default.header.menuitem.admin.label"
@@ -503,7 +503,7 @@ msgstr "Liber"
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
 msgid "Import in GeoJSON, GPX or KML"
-msgstr "Importare GeoJSON, GPX sau KML"
+msgstr "Importă GeoJSON, GPX sau KML"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -1211,6 +1211,14 @@ msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
 msgstr "Numai administratorii sau editorii pot vedea acest mesaj."
 
+#: view~dictionnary.project.has.not.found.layers
+msgctxt "view~dictionnary.project.has.not.found.layers"
+msgid ""
+"Some layers are in the WMS capabilities (*.qgs file) but are not found in "
+"the Lizmap configuration file (*.qgs.cfg). Is the Lizmap configuration file "
+"up to date ?"
+msgstr ""
+
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
@@ -1389,8 +1397,8 @@ msgid ""
 "Please notify the administrator of this map to <strong>connect</strong> and "
 "<strong>visit</strong> this map."
 msgstr ""
-"Notifică administratorul acestei hărți pentru a <strong>te conecta</strong> "
-"și <strong>vizita</strong> această hartă."
+"Notifică administratorul acestei hărți pentru a <strong>te "
+"autentifica</strong> și <strong>vizita</strong> această hartă."
 
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
