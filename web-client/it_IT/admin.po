@@ -8,16 +8,16 @@
 # Laurent Jouanneau <dev@ljouanneau.com>, 2025
 # Stefano Campus <skampus@gmail.com>, 2025
 # Paolo Cavallini <cavallini@faunalia.it>, 2025
-# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2025
 # rldhont <rldhont@gmail.com>, 2025
+# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-06 09:49++0000\n"
+"POT-Creation-Date: 2025-03-13 12:11++0000\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>, 2025\n"
+"Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2025\n"
 "Language-Team: Italian (https://app.transifex.com/3liz-1/teams/62012/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -113,7 +113,7 @@ msgstr "E-mail amministratore"
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of LDAP authentication"
-msgstr ""
+msgstr "Questa opzione è disattivata dato che è in uso l'autenticazione LDAP"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -158,7 +158,7 @@ msgstr "Servizi"
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
 msgid "Disable landing page"
-msgstr ""
+msgstr "Disabilita la pagina principale"
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
@@ -301,6 +301,11 @@ msgid ""
 "Origin Resource Sharing. Read the article on Wikipedia "
 "https://wikipedia.org/wiki/Cross-origin_resource_sharing"
 msgstr ""
+"Lista di URL separati da virgola, ad esempio "
+"'https://domain1.com,https://www.domain2.com'. Il percorso ed i parametri di"
+" ricerca verranno rimossi dall'URL. Questa impostazione ha effetto sugli "
+"headers CORS: Cross Origin Resource Sharing. Leggi la pagina Wikipedia "
+"https://it.wikipedia.org/wiki/Cross-origin_resource_sharing"
 
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
@@ -587,19 +592,15 @@ msgstr ""
 "Assicurati che il web server sia in grado di inviare e-mail, o imposta i "
 "parametri SMTP nei file di configurazione di Lizmap."
 
-#: admin~admin.form.admin_services.googleAnalyticsID.help
-msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
-msgid ""
-"The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
-"\"tracking ID\"."
+#: admin~admin.form.admin_services.googleTag.help
+msgctxt "admin~admin.form.admin_services.googleTag.help"
+msgid "The Google Tag starts with 'G-'."
 msgstr ""
-"L'ID di monitoraggio di Google Analytics (anche chiamato Tracking ID) si "
-"presenta in modo simile a questo esempio: 'UA-XXXX-Y'."
 
-#: admin~admin.form.admin_services.googleAnalyticsID.label
-msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
-msgid "Google Analytics ID"
-msgstr "ID di monitoraggio di Google Analytics"
+#: admin~admin.form.admin_services.googleTag.label
+msgctxt "admin~admin.form.admin_services.googleTag.label"
+msgid "Google Tag"
+msgstr ""
 
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"
@@ -669,11 +670,13 @@ msgstr "Acceso"
 msgctxt "admin~admin.form.admin_services.onlyMaps.help"
 msgid "If set to \"On\", no landing page will be available."
 msgstr ""
+"Se impostata su \"Acceso\", la pagina principale sarà disattivata e non sarà"
+" disponibile"
 
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
 msgid "Disable landing page"
-msgstr ""
+msgstr "Disabilita la pagina principale"
 
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
@@ -995,17 +998,17 @@ msgstr "No"
 #: admin~admin.logs.admin.file.erase
 msgctxt "admin~admin.logs.admin.file.erase"
 msgid "Erase the admin log file"
-msgstr ""
+msgstr "Cancella il file di log degli errori"
 
 #: admin~admin.logs.admin.file.erase.confirm
 msgctxt "admin~admin.logs.admin.file.erase.confirm"
 msgid "Are you sure you want to erase the admin log file?"
-msgstr ""
+msgstr "Sei sicuro di voler eliminare il file di log amministratori"
 
 #: admin~admin.logs.admin.file.erase.ok
 msgctxt "admin~admin.logs.admin.file.erase.ok"
 msgid "The admin log file has successfully been erased."
-msgstr ""
+msgstr "Il file di log amministratori è stato eliminato."
 
 #: admin~admin.logs.admin.no.delete.right
 msgctxt "admin~admin.logs.admin.no.delete.right"
@@ -1015,12 +1018,12 @@ msgstr "Non hai i permessi necessari per eliminare i log."
 #: admin~admin.logs.admin.sentence
 msgctxt "admin~admin.logs.admin.sentence"
 msgid "Last lines of the admin log file"
-msgstr ""
+msgstr "Ultime righe del file di log amministratori"
 
 #: admin~admin.logs.admin.title
 msgctxt "admin~admin.logs.admin.title"
 msgid "Admin log"
-msgstr ""
+msgstr "Log amministratori"
 
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
@@ -1105,7 +1108,7 @@ msgstr "La tabella di log %s è stata svuotata."
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the error log file"
-msgstr ""
+msgstr "Ultime righe del file di log degli errori"
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
@@ -1121,6 +1124,8 @@ msgstr "Esporta"
 msgctxt "admin~admin.logs.file.too.big"
 msgid "The log file is too big. Consider using log rotation for this log."
 msgstr ""
+"Il file di log è troppo grande. Valuta l'uso di un programma di log rotation"
+" per questo file."
 
 #: admin~admin.logs.first_page
 msgctxt "admin~admin.logs.first_page"
@@ -1165,7 +1170,7 @@ msgstr "Data e ora"
 #: admin~admin.logs.title
 msgctxt "admin~admin.logs.title"
 msgid "Logs"
-msgstr ""
+msgstr "Log"
 
 #: admin~admin.logs.user
 msgctxt "admin~admin.logs.user"
@@ -1303,12 +1308,12 @@ msgstr ""
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
 msgid "Layers/Groups"
-msgstr ""
+msgstr "Livelli/Gruppi"
 
 #: admin~admin.project.list.column.layers.count.label.longer
 msgctxt "admin~admin.project.list.column.layers.count.label.longer"
 msgid "Layer and group count"
-msgstr ""
+msgstr "Numero di livelli e gruppi"
 
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
@@ -1399,7 +1404,7 @@ msgstr "Descrizione"
 #: admin~admin.project.list.column.project.acl
 msgctxt "admin~admin.project.list.column.project.acl"
 msgid "The project is not accessible because of some group restrictions."
-msgstr ""
+msgstr "Il progetto non è accessibile a causa di alcune restrizioni di gruppo"
 
 #: admin~admin.project.list.column.project.file.time.label
 msgctxt "admin~admin.project.list.column.project.file.time.label"
@@ -1428,6 +1433,9 @@ msgid ""
 "old Lizmap plugin version. You should upgrade your plugin in your QGIS "
 "plugin manager."
 msgstr ""
+"Questo progetto è stato recentemente aggiornato su QGIS Desktop, ma questo è"
+" avvenuto con una versione troppo vecchia del plugin di Lizmap. È necessario"
+" aggiornare il plugin tramite il gestore di plugin di QGIS."
 
 #: admin~admin.project.list.column.qgis.desktop.recent.version.label.html
 msgctxt ""
@@ -1438,6 +1446,11 @@ msgid ""
 "<strong>latest version available</strong> in your QGIS plugin manager. It "
 "must be at least <strong>%s</strong>."
 msgstr ""
+"Questo progetto è stato recentemente aggiornato su QGIS Desktop, ma questo è"
+" avvenuto con una versione troppo vecchia del plugin di Lizmap. Installa "
+"<strong>sempre</strong> <strong>l'ultima versione disponibile</strong> "
+"tramite il gestore di plugin di QGIS. Deve essere pari o superiore a "
+"<strong>%s</strong>."
 
 #: admin~admin.project.list.column.qgis.desktop.version.above.server
 msgctxt "admin~admin.project.list.column.qgis.desktop.version.above.server"
@@ -1579,6 +1592,7 @@ msgstr ""
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
 msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
 msgstr ""
+"Il conteggio è maggiore o uguale a <strong>%s</strong> livelli/gruppi."
 
 #: admin~admin.project.rules.list.introduction
 msgctxt "admin~admin.project.rules.list.introduction"
@@ -1629,6 +1643,7 @@ msgstr "Il progetto è stato creato per Lizmap Web Client <strong>%s</strong>."
 msgctxt "admin~admin.project.rules.list.very.important.count.layers.html"
 msgid "The count is greater or equal to <strong>%s</strong> layers/groups."
 msgstr ""
+"Il conteggio è maggiore o uguale a <strong>%s</strong> livelli/gruppi."
 
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
@@ -1671,6 +1686,8 @@ msgid ""
 "Your installation is not complete. Did you run "
 "<code>lizmap/install/installer.php</code> ?"
 msgstr ""
+"La tua installazione non è stata completata. Hai eseguito il file "
+"<code>lizmap/install/installer.php</code> ?"
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
@@ -1680,7 +1697,7 @@ msgstr "Informazioni"
 #: admin~admin.server.information.lizmap.info.date
 msgctxt "admin~admin.server.information.lizmap.info.date"
 msgid "Date of release"
-msgstr ""
+msgstr "Data di rilascio"
 
 #: admin~admin.server.information.lizmap.info.version
 msgctxt "admin~admin.server.information.lizmap.info.version"
@@ -1700,7 +1717,7 @@ msgstr "URL per il plugin di QGIS desktop"
 #: admin~admin.server.information.module
 msgctxt "admin~admin.server.information.module"
 msgid "Module"
-msgstr ""
+msgstr "Modulo"
 
 #: admin~admin.server.information.module.version
 msgctxt "admin~admin.server.information.module.version"
@@ -1710,17 +1727,17 @@ msgstr "Versione"
 #: admin~admin.server.information.modules
 msgctxt "admin~admin.server.information.modules"
 msgid "Modules"
-msgstr ""
+msgstr "Moduli"
 
 #: admin~admin.server.information.no.module
 msgctxt "admin~admin.server.information.no.module"
 msgid "No module installed"
-msgstr ""
+msgstr "Nessun modulo installato"
 
 #: admin~admin.server.information.plugin.update
 msgctxt "admin~admin.server.information.plugin.update"
 msgid "The plugin must be updated."
-msgstr ""
+msgstr "Il plugin deve essere aggiornato"
 
 #: admin~admin.server.information.qgis.action
 msgctxt "admin~admin.server.information.qgis.action"
@@ -1911,12 +1928,12 @@ msgstr "Numero"
 #: admin~admin.server.information.qgis.wrapper
 msgctxt "admin~admin.server.information.qgis.wrapper"
 msgid "QJazz or Py-QGIS-Server"
-msgstr ""
+msgstr "QJazz o Py-QGIS-Server"
 
 #: admin~admin.server.information.qgis.wrapper.not.installed
 msgctxt "admin~admin.server.information.qgis.wrapper.not.installed"
 msgid "Not installed"
-msgstr ""
+msgstr "Non installato"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
@@ -2086,7 +2103,7 @@ msgstr "Usa lo strumento edizione"
 #: admin~jacl2.lizmap.tools.layer.export
 msgctxt "admin~jacl2.lizmap.tools.layer.export"
 msgid "Allow export of vector layers"
-msgstr ""
+msgstr "Consenti l'esportazione di layer vettoriali"
 
 #: admin~jacl2.lizmap.tools.loginFilteredLayers.override
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"

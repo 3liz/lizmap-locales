@@ -1,17 +1,17 @@
 # 
 # Translators:
 # Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2025
-# Laurent Jouanneau <dev@ljouanneau.com>, 2025
 # Nicolas Boisteault <nboisteault@gmail.com>, 2025
 # rldhont <rldhont@gmail.com>, 2025
 # Michael Douchin <kimaidou@gmail.com>, 2025
+# Laurent Jouanneau <dev@ljouanneau.com>, 2025
 # etrimaille <gustrimaille@yahoo.fr>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-06 09:49++0000\n"
+"POT-Creation-Date: 2025-03-13 12:11++0000\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2025\n"
 "Language-Team: French (https://app.transifex.com/3liz-1/teams/62012/fr/)\n"
@@ -595,19 +595,15 @@ msgstr ""
 "Soyez sûr que le serveur web peut envoyer des emails, ou configurez les "
 "paramètres SMTP dans les fichiers de configuration de Lizmap."
 
-#: admin~admin.form.admin_services.googleAnalyticsID.help
-msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
-msgid ""
-"The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
-"\"tracking ID\"."
-msgstr ""
-"L'identifiant Google Analytics est de la forme 'UA-XXXX-Y'. Il est ausi "
-"appelé \"tracking ID\"."
+#: admin~admin.form.admin_services.googleTag.help
+msgctxt "admin~admin.form.admin_services.googleTag.help"
+msgid "The Google Tag starts with 'G-'."
+msgstr "La balise Google commence par « G- »."
 
-#: admin~admin.form.admin_services.googleAnalyticsID.label
-msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
-msgid "Google Analytics ID"
-msgstr "Identifiant Google Analytics"
+#: admin~admin.form.admin_services.googleTag.label
+msgctxt "admin~admin.form.admin_services.googleTag.label"
+msgid "Google Tag"
+msgstr "Google Tag"
 
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"
@@ -1027,7 +1023,7 @@ msgstr "Vous n'avez pas les droits pour supprimer les logs."
 #: admin~admin.logs.admin.sentence
 msgctxt "admin~admin.logs.admin.sentence"
 msgid "Last lines of the admin log file"
-msgstr "Écraser le fichier de logs d'administration."
+msgstr "Dernières lignes du fichier de logs d'administration"
 
 #: admin~admin.logs.admin.title
 msgctxt "admin~admin.logs.admin.title"

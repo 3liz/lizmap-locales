@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-06 09:49++0000\n"
+"POT-Creation-Date: 2025-03-13 12:11++0000\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
 "Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2025\n"
 "Language-Team: Czech (https://app.transifex.com/3liz-1/teams/62012/cs/)\n"
@@ -583,19 +583,15 @@ msgstr ""
 "Ujistěte se, že webový server umí odesílat e-maily, nebo nastavte parametry "
 "SMTP do konfiguračních souborů aplikace Lizmap."
 
-#: admin~admin.form.admin_services.googleAnalyticsID.help
-msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
-msgid ""
-"The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
-"\"tracking ID\"."
-msgstr ""
-"ID služby Google Analytics má formu \"UA-XXXX-Y\". Také se nazývá \"tracking"
-" ID\"."
+#: admin~admin.form.admin_services.googleTag.help
+msgctxt "admin~admin.form.admin_services.googleTag.help"
+msgid "The Google Tag starts with 'G-'."
+msgstr "Štítek Google začíná písmenem \"G-\"."
 
-#: admin~admin.form.admin_services.googleAnalyticsID.label
-msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
-msgid "Google Analytics ID"
-msgstr "Google Analytics ID"
+#: admin~admin.form.admin_services.googleTag.label
+msgctxt "admin~admin.form.admin_services.googleTag.label"
+msgid "Google Tag"
+msgstr "Štítek Google"
 
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"
@@ -1392,7 +1388,7 @@ msgstr "Projekce"
 #: admin~admin.project.list.column.project.acl
 msgctxt "admin~admin.project.list.column.project.acl"
 msgid "The project is not accessible because of some group restrictions."
-msgstr ""
+msgstr "Projekt není přístupný z důvodu omezení některých skupin."
 
 #: admin~admin.project.list.column.project.file.time.label
 msgctxt "admin~admin.project.list.column.project.file.time.label"
@@ -1660,6 +1656,8 @@ msgid ""
 "Your installation is not complete. Did you run "
 "<code>lizmap/install/installer.php</code> ?"
 msgstr ""
+"Instalace není dokončena. Spustili jste "
+"<code>lizmap/install/installer.php</code> ?"
 
 #: admin~admin.server.information.lizmap.info
 msgctxt "admin~admin.server.information.lizmap.info"
