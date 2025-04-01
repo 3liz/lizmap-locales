@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-06 09:48++0000\n"
+"POT-Creation-Date: 2025-03-13 12:10++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/3liz-1/teams/62012/nl/)\n"
@@ -584,19 +584,15 @@ msgstr ""
 "Zorg ervoor dat de webserver e-mails kan verzenden of SMTP-parameters kan "
 "instellen in de configuratiebestanden van Lizmap."
 
-#: admin~admin.form.admin_services.googleAnalyticsID.help
-msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
-msgid ""
-"The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
-"\"tracking ID\"."
+#: admin~admin.form.admin_services.googleTag.help
+msgctxt "admin~admin.form.admin_services.googleTag.help"
+msgid "The Google Tag starts with 'G-'."
 msgstr ""
-"Het Google Analytics ID heeft volgende structuur: \"UA-XXXX-Y\". Het wordt "
-"ook \"tracking ID\" genoemd."
 
-#: admin~admin.form.admin_services.googleAnalyticsID.label
-msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
-msgid "Google Analytics ID"
-msgstr "Google Analytics ID"
+#: admin~admin.form.admin_services.googleTag.label
+msgctxt "admin~admin.form.admin_services.googleTag.label"
+msgid "Google Tag"
+msgstr ""
 
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"

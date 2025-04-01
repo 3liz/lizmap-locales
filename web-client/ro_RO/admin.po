@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-06 09:48++0000\n"
+"POT-Creation-Date: 2025-03-13 12:10++0000\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2025\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -60,17 +60,17 @@ msgstr "Înapoi"
 #: admin~admin.configuration.button.modify.repository.label
 msgctxt "admin~admin.configuration.button.modify.repository.label"
 msgid "Modify"
-msgstr "Modificare"
+msgstr "Modifică"
 
 #: admin~admin.configuration.button.modify.service.label
 msgctxt "admin~admin.configuration.button.modify.service.label"
 msgid "Modify"
-msgstr "Modificare"
+msgstr "Modifică"
 
 #: admin~admin.configuration.button.modify.theme.label
 msgctxt "admin~admin.configuration.button.modify.theme.label"
 msgid "Modify"
-msgstr "Modificare"
+msgstr "Modifică"
 
 #: admin~admin.configuration.button.remove.repository.confirm.label
 msgctxt "admin~admin.configuration.button.remove.repository.confirm.label"
@@ -80,12 +80,12 @@ msgstr "Dorești să elimini acest depozit de date?"
 #: admin~admin.configuration.button.remove.repository.label
 msgctxt "admin~admin.configuration.button.remove.repository.label"
 msgid "Remove"
-msgstr "Eliminare"
+msgstr "Elimină"
 
 #: admin~admin.configuration.button.view.repository.label
 msgctxt "admin~admin.configuration.button.view.repository.label"
 msgid "View"
-msgstr "Vizualizare"
+msgstr "Vizualizează"
 
 #: admin~admin.configuration.h1
 msgctxt "admin~admin.configuration.h1"
@@ -363,7 +363,7 @@ msgstr "Calea către directorul local"
 #: admin~admin.form.admin_section.submit.label
 msgctxt "admin~admin.form.admin_section.submit.label"
 msgid "Save"
-msgstr "Salvare"
+msgstr "Salvează"
 
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
@@ -583,19 +583,15 @@ msgstr ""
 "Asigură-te că serverul web este capabil să trimită e-mailuri sau să seteze "
 "parametrii SMTP în fișierele de configurare ale Lizmap."
 
-#: admin~admin.form.admin_services.googleAnalyticsID.help
-msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
-msgid ""
-"The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
-"\"tracking ID\"."
-msgstr ""
-"ID-ul Google Analytics este de forma 'UA-XXXX-Y'. Mai este denumit și "
-"\"tracking ID\"."
+#: admin~admin.form.admin_services.googleTag.help
+msgctxt "admin~admin.form.admin_services.googleTag.help"
+msgid "The Google Tag starts with 'G-'."
+msgstr "Eticheta Google începe cu „G-”."
 
-#: admin~admin.form.admin_services.googleAnalyticsID.label
-msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
-msgid "Google Analytics ID"
-msgstr "ID Google Analytics"
+#: admin~admin.form.admin_services.googleTag.label
+msgctxt "admin~admin.form.admin_services.googleTag.label"
+msgid "Google Tag"
+msgstr "Eticheta Google"
 
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"
@@ -752,7 +748,7 @@ msgstr "Directorul rădăcină al depozitelor de date"
 #: admin~admin.form.admin_services.submit.label
 msgctxt "admin~admin.form.admin_services.submit.label"
 msgid "Save"
-msgstr "Salvare"
+msgstr "Salvează"
 
 #: admin~admin.form.admin_services.uploadedImageMaxWidthHeight.help
 msgctxt "admin~admin.form.admin_services.uploadedImageMaxWidthHeight.help"
@@ -1091,7 +1087,7 @@ msgstr "Un utilizator a accesat o hartă."
 #: admin~admin.logs.empty.button
 msgctxt "admin~admin.logs.empty.button"
 msgid "Empty"
-msgstr "Golire"
+msgstr "Golește"
 
 #: admin~admin.logs.empty.confirm
 msgctxt "admin~admin.logs.empty.confirm"
@@ -1178,7 +1174,7 @@ msgstr "Utilizator"
 #: admin~admin.logs.view.button
 msgctxt "admin~admin.logs.view.button"
 msgid "View"
-msgstr "Vizualizare"
+msgstr "Vizualizează"
 
 #: admin~admin.menu.configuration.main.label
 msgctxt "admin~admin.menu.configuration.main.label"
@@ -1931,7 +1927,7 @@ msgstr "Elimini această imagine (și o utilizezi pe cea implicită)?"
 #: admin~admin.theme.button.remove.logo.label
 msgctxt "admin~admin.theme.button.remove.logo.label"
 msgid "Remove"
-msgstr "Eliminare"
+msgstr "Elimină"
 
 #: admin~admin.theme.detail.title
 msgctxt "admin~admin.theme.detail.title"
@@ -2036,7 +2032,7 @@ msgstr "Ștergere depozite date"
 #: admin~jacl2.lizmap.admin.repositories.update
 msgctxt "admin~jacl2.lizmap.admin.repositories.update"
 msgid "Modify repositories"
-msgstr "Modificare depozite date"
+msgstr "Modifică depozitele de date"
 
 #: admin~jacl2.lizmap.admin.repositories.view
 msgctxt "admin~jacl2.lizmap.admin.repositories.view"
@@ -2051,7 +2047,7 @@ msgstr "Vizualizare informații detaliate despre server"
 #: admin~jacl2.lizmap.admin.services.update
 msgctxt "admin~jacl2.lizmap.admin.services.update"
 msgid "Modify services"
-msgstr "Modificare servicii"
+msgstr "Modifică serviciile"
 
 #: admin~jacl2.lizmap.admin.services.view
 msgctxt "admin~jacl2.lizmap.admin.services.view"
@@ -2103,17 +2099,17 @@ msgstr ""
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
 msgid "Add"
-msgstr "Adăugare"
+msgstr "Adaugă"
 
 #: admin~user.acl.form.add.to.group
 msgctxt "admin~user.acl.form.add.to.group"
 msgid "Add the user to this group"
-msgstr "Adăugați utilizatorul la acest grup"
+msgstr "Adaugă utilizatorul la acest grup"
 
 #: admin~user.acl.form.remove.from.group
 msgctxt "admin~user.acl.form.remove.from.group"
 msgid "Remove the user from this group"
-msgstr "Eliminați utilizatorul din acest grup"
+msgstr "Elimină utilizatorul din acest grup"
 
 #: admin~user.acl.form.title
 msgctxt "admin~user.acl.form.title"
