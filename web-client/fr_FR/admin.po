@@ -1,7 +1,7 @@
 # 
 # Translators:
 # etrimaille <gustrimaille@yahoo.fr>, 2022-2025
-# Laurent Jouanneau <dev@ljouanneau.com>, 2018-2019,2021-2022
+# Laurent Jouanneau <dev@ljouanneau.com>, 2018-2019,2021-2022,2025
 # Mathieu Bossaert <mathieu.bossaert@gmail.com>, 2018
 # Michael Douchin <kimaidou@gmail.com>, 2017
 # Nicolas Boisteault <nboisteault@gmail.com>, 2020,2022,2024
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-06 09:52++0000\n"
+"POT-Creation-Date: 2025-04-30 10:10++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2022-2025\n"
 "Language-Team: French (http://app.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
@@ -30,6 +30,11 @@ msgstr "Êtes-vous sûr de vouloir vider le cache pour ce répertoire ?"
 msgctxt "admin~admin.cache.button.remove.repository.cache.label"
 msgid "Empty cache"
 msgstr "Vider le cache"
+
+#: admin~admin.cache.button.remove.repository.cache.tooltip
+msgctxt "admin~admin.cache.button.remove.repository.cache.tooltip"
+msgid "Remove the cache related to the layers tiles"
+msgstr "Supprimez le cache relatif aux tuiles des couches"
 
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
@@ -63,6 +68,11 @@ msgctxt "admin~admin.configuration.button.modify.repository.label"
 msgid "Modify"
 msgstr "Modifier"
 
+#: admin~admin.configuration.button.modify.repository.tooltip
+msgctxt "admin~admin.configuration.button.modify.repository.tooltip"
+msgid "Change the settings of this repository"
+msgstr "Modifier les paramètres de ce répertoire"
+
 #: admin~admin.configuration.button.modify.service.label
 msgctxt "admin~admin.configuration.button.modify.service.label"
 msgid "Modify"
@@ -83,10 +93,20 @@ msgctxt "admin~admin.configuration.button.remove.repository.label"
 msgid "Remove"
 msgstr "Supprimer"
 
+#: admin~admin.configuration.button.remove.repository.tooltip
+msgctxt "admin~admin.configuration.button.remove.repository.tooltip"
+msgid "Remove this repository (it will not delete the files from the server)"
+msgstr "Supprimer cette configuration (cela ne supprimera pas les fichiers du serveur)"
+
 #: admin~admin.configuration.button.view.repository.label
 msgctxt "admin~admin.configuration.button.view.repository.label"
 msgid "View"
 msgstr "Voir"
+
+#: admin~admin.configuration.button.view.repository.tooltip
+msgctxt "admin~admin.configuration.button.view.repository.tooltip"
+msgid "Open the landing page with only this repository"
+msgstr "Ouvrez la page d’accueil avec seulement ce répertoire"
 
 #: admin~admin.configuration.h1
 msgctxt "admin~admin.configuration.h1"
@@ -548,17 +568,15 @@ msgid ""
 "the configuration files of Lizmap."
 msgstr "Soyez sûr que le serveur web peut envoyer des emails, ou configurez les paramètres SMTP dans les fichiers de configuration de Lizmap."
 
-#: admin~admin.form.admin_services.googleAnalyticsID.help
-msgctxt "admin~admin.form.admin_services.googleAnalyticsID.help"
-msgid ""
-"The Google Analytics ID is of the form 'UA-XXXX-Y'. It's also called the "
-"\"tracking ID\"."
-msgstr "L'identifiant Google Analytics est de la forme 'UA-XXXX-Y'. Il est ausi appelé \"tracking ID\"."
+#: admin~admin.form.admin_services.googleTag.help
+msgctxt "admin~admin.form.admin_services.googleTag.help"
+msgid "The Google Tag starts with 'G-'."
+msgstr "La balise Google commence par 'G-'."
 
-#: admin~admin.form.admin_services.googleAnalyticsID.label
-msgctxt "admin~admin.form.admin_services.googleAnalyticsID.label"
-msgid "Google Analytics ID"
-msgstr "Identifiant Google Analytics"
+#: admin~admin.form.admin_services.googleTag.label
+msgctxt "admin~admin.form.admin_services.googleTag.label"
+msgid "Google Tag"
+msgstr "Google Tag"
 
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"
@@ -625,6 +643,13 @@ msgstr "Si paramétré à \"On\", alors la page d'accueil est activé"
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
 msgid "Disable landing page"
 msgstr "Désactiver la page d'accueil"
+
+#: admin~admin.form.admin_services.projectSwitcher.help
+msgctxt "admin~admin.form.admin_services.projectSwitcher.help"
+msgid ""
+"With a new button in the left menu, it is possible to navigate to another "
+"project, keeping the same extent and scale."
+msgstr "Grâce à un nouveau bouton dans le menu de gauche, il est possible de naviguer vers un autre projet, en conservant la même étendue et la même échelle."
 
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
@@ -951,7 +976,7 @@ msgstr "Vous n'avez pas les droits pour supprimer les logs."
 #: admin~admin.logs.admin.sentence
 msgctxt "admin~admin.logs.admin.sentence"
 msgid "Last lines of the admin log file"
-msgstr "Écraser le fichier de logs d'administration."
+msgstr "Dernières lignes du fichier de logs d'administration"
 
 #: admin~admin.logs.admin.title
 msgctxt "admin~admin.logs.admin.title"

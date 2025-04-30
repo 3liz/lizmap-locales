@@ -7,14 +7,14 @@
 # rldhont <rldhont@gmail.com>, 2016
 # rldhont <rldhont@gmail.com>, 2016
 # Stefano Campus <skampus@gmail.com>, 2020
-# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2024
+# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2025
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-06 09:52++0000\n"
+"POT-Creation-Date: 2025-04-30 10:10++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2024\n"
+"Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2025\n"
 "Language-Team: Italian (http://app.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -139,12 +139,12 @@ msgstr "Le mappe non possono essere visualizzate. Controlla il pannello informaz
 #: view~default.service.access.denied
 msgctxt "view~default.service.access.denied"
 msgid "Access denied to the service."
-msgstr ""
+msgstr "Accesso negato per questo servizio."
 
 #: view~default.service.access.forbidden
 msgctxt "view~default.service.access.forbidden"
 msgid "Access forbidden to the service."
-msgstr ""
+msgstr "Accesso vietato per questo servizio."
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
@@ -459,14 +459,14 @@ msgstr "Vincoli"
 #: view~dictionnary.digitizing.import.fetch.error
 msgctxt "view~dictionnary.digitizing.import.fetch.error"
 msgid "Error while fetching projection definition from epsg.io"
-msgstr ""
+msgstr "Errore durante il recupero della definizione della proiezione da epsg.io"
 
 #: view~dictionnary.digitizing.import.metadata.error
 msgctxt "view~dictionnary.digitizing.import.metadata.error"
 msgid ""
 "No metadata found. Make sure the projection of the fgb file is the same as "
 "the current project"
-msgstr ""
+msgstr "Nessun metadato trovato. Assicurati che la proiezione del file fgb sia la stessa del progetto corrente"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -498,7 +498,7 @@ msgctxt "view~dictionnary.digitizing.toolbar.edit"
 msgid ""
 "Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
 "delete a vertex)"
-msgstr ""
+msgstr "Modifica (tieni premuto il tasto \"Shift\" per selezionare più elementi, tieni prenuto il tasto \"Alt\" e clicca per eliminare un vertice)"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
@@ -518,7 +518,7 @@ msgstr "A mano libera"
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
 msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
-msgstr ""
+msgstr "Importa file GeoJSON, GPX, KML, Shapefile zippato o FlatGeobuf"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -558,12 +558,12 @@ msgstr "Salva il disegno nel browser"
 #: view~dictionnary.digitizing.toolbar.save.remove
 msgctxt "view~dictionnary.digitizing.toolbar.save.remove"
 msgid "Remove draw from the browser"
-msgstr ""
+msgstr "Rimuovi il disegno dal browser"
 
 #: view~dictionnary.digitizing.toolbar.save.state
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
-msgstr ""
+msgstr "Le modifiche ai disegni verranno salvate nel browser"
 
 #: view~dictionnary.digitizing.toolbar.split
 msgctxt "view~dictionnary.digitizing.toolbar.split"
@@ -751,7 +751,7 @@ msgstr "Apri la mappa a tutto schermo"
 #: view~dictionnary.externalsearch.ignlimit
 msgctxt "view~dictionnary.externalsearch.ignlimit"
 msgid "IGN search must contain between 3 and 200 characters"
-msgstr ""
+msgstr "La ricerca IGN deve contenere un numero di caratteri tra 3 e 200"
 
 #: view~dictionnary.externalsearch.mapdata
 msgctxt "view~dictionnary.externalsearch.mapdata"
@@ -777,37 +777,37 @@ msgstr "Cerca"
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
 msgid ""
 "Click to close the feature information and go back to the list of features"
-msgstr ""
+msgstr "Clicca per chiudere il popup di informazioni sull'elemento e tornare alla lista di elementi"
 
 #: view~dictionnary.featuresTable.item.draggable.dropped
 msgctxt "view~dictionnary.featuresTable.item.draggable.dropped"
 msgid "You have successfully moved this feature"
-msgstr ""
+msgstr "Elemento spostato con successo"
 
 #: view~dictionnary.featuresTable.item.draggable.hover
 msgctxt "view~dictionnary.featuresTable.item.draggable.hover"
 msgid "You can drag and drop the feature to move it above or below"
-msgstr ""
+msgstr "Puoi trascinare l'elemento per spostarlo sopra o sotto e rilasciarlo"
 
 #: view~dictionnary.featuresTable.item.hover
 msgctxt "view~dictionnary.featuresTable.item.hover"
 msgid "Click on the feature to display its detailed information"
-msgstr ""
+msgstr "Clicca sull'elemento per mostrarne le informazioni di dettaglio"
 
 #: view~dictionnary.featuresTable.toolbar.close
 msgctxt "view~dictionnary.featuresTable.toolbar.close"
 msgid "Go back to the list of features"
-msgstr ""
+msgstr "Torna alla lista di elementi"
 
 #: view~dictionnary.featuresTable.toolbar.next
 msgctxt "view~dictionnary.featuresTable.toolbar.next"
 msgid "Go to the next feature"
-msgstr ""
+msgstr "Vai al prossimo elemento"
 
 #: view~dictionnary.featuresTable.toolbar.previous
 msgctxt "view~dictionnary.featuresTable.toolbar.previous"
 msgid "Go to the previous feature"
-msgstr ""
+msgstr "Passa all'elemento precedente"
 
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"
@@ -1204,7 +1204,7 @@ msgstr "Scala"
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
-msgstr ""
+msgstr "Solo gli amministratori ed i membri del gruppo publishers possono visualizzare questo messaggio."
 
 #: view~dictionnary.project.has.not.found.layers
 msgctxt "view~dictionnary.project.has.not.found.layers"
@@ -1212,21 +1212,21 @@ msgid ""
 "Some layers are in the WMS capabilities (*.qgs file) but are not found in "
 "the Lizmap configuration file (*.qgs.cfg). Is the Lizmap configuration file "
 "up to date ?"
-msgstr ""
+msgstr "Alcuni livelli sono presenti nelle capabilities WMS (file *.qgs) ma non sono presenti nel file di configurazione di Lizmap (*.qgs.cfg). Il file di configurazione di Lizmap è aggiornato?"
 
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
 "be fixed."
-msgstr ""
+msgstr "Questo progetto ha alcuni avvisi nel plugin Lizmap su QGIS Desktop, che devono essere risolti."
 
 #: view~dictionnary.project.plugin.outdated.warning
 msgctxt "view~dictionnary.project.plugin.outdated.warning"
 msgid ""
 "The project has been recently updated in QGIS Desktop, but with an outdated "
 "version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
-msgstr ""
+msgstr "Questo progetto è stato recentemente aggiornato su QGIS Desktop, ma questo è avvenuto con una versione troppo vecchia del plugin di Lizmap. È necessario aggiornare il plugin su QGIS Desktop."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1382,7 +1382,7 @@ msgctxt "view~dictionnary.startup.error.administrator"
 msgid ""
 "Please notify the administrator of this map to <strong>connect</strong> and "
 "<strong>visit</strong> this map."
-msgstr ""
+msgstr "Contatta l'amministratore di questa mappa per <strong>collegarti</strong> e <strong>navigare</strong> su questa mappa."
 
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
@@ -1390,7 +1390,7 @@ msgid ""
 "Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
 "\n"
 "Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
-msgstr ""
+msgstr "Potresti avere maggiori dettagli aprendo gli \"Strumenti per sviluppatori\" del tuo browser. Vengono solitamente aperti con il tasto <kbd>F12</kbd>. Controlla le schede \"Console\" e \"Networks\".\n\nVisita il pannello di amministrazione e verifica se nei log è presente una richiesta HTTP in errore per questo progetto."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
@@ -1400,19 +1400,19 @@ msgstr "Home"
 #: view~dictionnary.startup.goToRepositoryAdmin
 msgctxt "view~dictionnary.startup.goToRepositoryAdmin"
 msgid "Maps management page"
-msgstr ""
+msgstr "Pagina di gestione delle mappe"
 
 #: view~dictionnary.startup.projectWithoutJSLink
 msgctxt "view~dictionnary.startup.projectWithoutJSLink"
 msgid "This map without additional JavaScript"
-msgstr ""
+msgstr "Questa mappa senza JavaScript aggiuntivi"
 
 #: view~dictionnary.startup.user_defined_js
 msgctxt "view~dictionnary.startup.user_defined_js"
 msgid ""
 "This map contains some users additional JavaScript scripts. This can be the "
 "cause of this message, try disabling them."
-msgstr ""
+msgstr "Sono presenti alcuni script JavaScript personalizzati, che potrebbero causare questo messaggio, prova a disabilitarli."
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -1447,7 +1447,7 @@ msgstr "Stop"
 #: view~dictionnary.tooltip.loading.error
 msgctxt "view~dictionnary.tooltip.loading.error"
 msgid "An error prevented to load the tooltip data"
-msgstr ""
+msgstr "Un errore ha impedito il caricamento dei suggerimenti mappa"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
