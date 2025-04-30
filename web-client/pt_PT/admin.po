@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-13 12:11++0000\n"
+"POT-Creation-Date: 2025-04-30 10:09++0000\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/3liz-1/teams/62012/pt/)\n"
@@ -29,6 +29,11 @@ msgstr "Esvaziar a cache deste repositório?"
 msgctxt "admin~admin.cache.button.remove.repository.cache.label"
 msgid "Empty cache"
 msgstr "Esvaziar cache"
+
+#: admin~admin.cache.button.remove.repository.cache.tooltip
+msgctxt "admin~admin.cache.button.remove.repository.cache.tooltip"
+msgid "Remove the cache related to the layers tiles"
+msgstr "Remover a cache relacionada com os mosaicos das camadas"
 
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
@@ -64,6 +69,11 @@ msgctxt "admin~admin.configuration.button.modify.repository.label"
 msgid "Modify"
 msgstr "Modificar"
 
+#: admin~admin.configuration.button.modify.repository.tooltip
+msgctxt "admin~admin.configuration.button.modify.repository.tooltip"
+msgid "Change the settings of this repository"
+msgstr "Alterar as definições deste repositório"
+
 #: admin~admin.configuration.button.modify.service.label
 msgctxt "admin~admin.configuration.button.modify.service.label"
 msgid "Modify"
@@ -84,10 +94,21 @@ msgctxt "admin~admin.configuration.button.remove.repository.label"
 msgid "Remove"
 msgstr "Eliminar"
 
+#: admin~admin.configuration.button.remove.repository.tooltip
+msgctxt "admin~admin.configuration.button.remove.repository.tooltip"
+msgid "Remove this repository (it will not delete the files from the server)"
+msgstr ""
+"Remover este repositório (isto não irá eliminar os ficheiros do servidor)"
+
 #: admin~admin.configuration.button.view.repository.label
 msgctxt "admin~admin.configuration.button.view.repository.label"
 msgid "View"
 msgstr "Ver"
+
+#: admin~admin.configuration.button.view.repository.tooltip
+msgctxt "admin~admin.configuration.button.view.repository.tooltip"
+msgid "Open the landing page with only this repository"
+msgstr "Abrir a página inicial apenas com este repositório"
 
 #: admin~admin.configuration.h1
 msgctxt "admin~admin.configuration.h1"
@@ -594,12 +615,12 @@ msgstr ""
 #: admin~admin.form.admin_services.googleTag.help
 msgctxt "admin~admin.form.admin_services.googleTag.help"
 msgid "The Google Tag starts with 'G-'."
-msgstr ""
+msgstr "A Tag do Google começa por \"G-\"."
 
 #: admin~admin.form.admin_services.googleTag.label
 msgctxt "admin~admin.form.admin_services.googleTag.label"
 msgid "Google Tag"
-msgstr ""
+msgstr "Tag do Google"
 
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"
@@ -676,6 +697,13 @@ msgstr ""
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
 msgid "Disable landing page"
 msgstr "Desativar a Homepage"
+
+#: admin~admin.form.admin_services.projectSwitcher.help
+msgctxt "admin~admin.form.admin_services.projectSwitcher.help"
+msgid ""
+"With a new button in the left menu, it is possible to navigate to another "
+"project, keeping the same extent and scale."
+msgstr ""
 
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"

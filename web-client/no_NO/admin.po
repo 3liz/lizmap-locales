@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-13 12:11++0000\n"
+"POT-Creation-Date: 2025-04-30 10:09++0000\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
 "Last-Translator: Stefan Blumentrath <stefan.blumentrath@gmx.de>, 2025\n"
 "Language-Team: Norwegian (https://app.transifex.com/3liz-1/teams/62012/no/)\n"
@@ -24,6 +24,11 @@ msgstr ""
 #: admin~admin.cache.button.remove.repository.cache.label
 msgctxt "admin~admin.cache.button.remove.repository.cache.label"
 msgid "Empty cache"
+msgstr ""
+
+#: admin~admin.cache.button.remove.repository.cache.tooltip
+msgctxt "admin~admin.cache.button.remove.repository.cache.tooltip"
+msgid "Remove the cache related to the layers tiles"
 msgstr ""
 
 #: admin~admin.cache.layer.removed
@@ -58,6 +63,11 @@ msgctxt "admin~admin.configuration.button.modify.repository.label"
 msgid "Modify"
 msgstr "Endre"
 
+#: admin~admin.configuration.button.modify.repository.tooltip
+msgctxt "admin~admin.configuration.button.modify.repository.tooltip"
+msgid "Change the settings of this repository"
+msgstr ""
+
 #: admin~admin.configuration.button.modify.service.label
 msgctxt "admin~admin.configuration.button.modify.service.label"
 msgid "Modify"
@@ -78,10 +88,20 @@ msgctxt "admin~admin.configuration.button.remove.repository.label"
 msgid "Remove"
 msgstr "Fjern"
 
+#: admin~admin.configuration.button.remove.repository.tooltip
+msgctxt "admin~admin.configuration.button.remove.repository.tooltip"
+msgid "Remove this repository (it will not delete the files from the server)"
+msgstr ""
+
 #: admin~admin.configuration.button.view.repository.label
 msgctxt "admin~admin.configuration.button.view.repository.label"
 msgid "View"
 msgstr "Vis"
+
+#: admin~admin.configuration.button.view.repository.tooltip
+msgctxt "admin~admin.configuration.button.view.repository.tooltip"
+msgid "Open the landing page with only this repository"
+msgstr ""
 
 #: admin~admin.configuration.h1
 msgctxt "admin~admin.configuration.h1"
@@ -617,6 +637,13 @@ msgstr ""
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
 msgid "Disable landing page"
+msgstr ""
+
+#: admin~admin.form.admin_services.projectSwitcher.help
+msgctxt "admin~admin.form.admin_services.projectSwitcher.help"
+msgid ""
+"With a new button in the left menu, it is possible to navigate to another "
+"project, keeping the same extent and scale."
 msgstr ""
 
 #: admin~admin.form.admin_services.projectSwitcher.label
