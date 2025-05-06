@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-30 10:09++0000\n"
+"POT-Creation-Date: 2025-05-06 12:55++0000\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
 "Last-Translator: Majky Beast <maros.michalov@hrdlicka.sk>, 2025\n"
 "Language-Team: Slovak (https://app.transifex.com/3liz-1/teams/62012/sk/)\n"
@@ -68,11 +68,6 @@ msgctxt "view~default.project.access.denied"
 msgid "Access denied for this project."
 msgstr "Prístup bol pre tento projekt zamietnutý."
 
-#: view~default.project.bbox.label
-msgctxt "view~default.project.bbox.label"
-msgid "Bounding Box"
-msgstr "Ohraničujúci Box"
-
 #: view~default.project.close.map.metadata
 msgctxt "view~default.project.close.map.metadata"
 msgid "Close"
@@ -99,11 +94,6 @@ msgstr "Načítajte mapu"
 msgctxt "view~default.project.open.map.metadata"
 msgid "View metadata"
 msgstr "Zobraziť metadáta"
-
-#: view~default.project.projection.label
-msgctxt "view~default.project.projection.label"
-msgid "Projection"
-msgstr "Projekcia"
 
 #: view~default.project.title.label
 msgctxt "view~default.project.title.label"
@@ -544,8 +534,8 @@ msgstr "Polygón"
 
 #: view~dictionnary.digitizing.toolbar.rotate
 msgctxt "view~dictionnary.digitizing.toolbar.rotate"
-msgid "Rotate"
-msgstr "Rotovať"
+msgid "Rotate the selected geometry"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
@@ -562,10 +552,15 @@ msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
 msgstr ""
 
+#: view~dictionnary.digitizing.toolbar.scaling
+msgctxt "view~dictionnary.digitizing.toolbar.scaling"
+msgid "Scale the selected geometry (hold \"Shift\" to lock proportions)"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.split
 msgctxt "view~dictionnary.digitizing.toolbar.split"
-msgid "Split"
-msgstr "Rozdeliť"
+msgid "Split the geometry intersecting the drawing line"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
