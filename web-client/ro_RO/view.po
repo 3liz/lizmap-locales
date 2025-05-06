@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-30 10:10++0000\n"
+"POT-Creation-Date: 2025-05-06 12:56++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020-2025\n"
 "Language-Team: Romanian (http://app.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
@@ -65,11 +65,6 @@ msgctxt "view~default.project.access.denied"
 msgid "Access denied for this project."
 msgstr "Acces refuzat pentru acest proiect."
 
-#: view~default.project.bbox.label
-msgctxt "view~default.project.bbox.label"
-msgid "Bounding Box"
-msgstr "Extindere"
-
 #: view~default.project.close.map.metadata
 msgctxt "view~default.project.close.map.metadata"
 msgid "Close"
@@ -96,11 +91,6 @@ msgstr "Deschide harta"
 msgctxt "view~default.project.open.map.metadata"
 msgid "View metadata"
 msgstr "Vizualizare meta-date"
-
-#: view~default.project.projection.label
-msgctxt "view~default.project.projection.label"
-msgid "Projection"
-msgstr "Proiecție"
 
 #: view~default.project.title.label
 msgctxt "view~default.project.title.label"
@@ -540,8 +530,8 @@ msgstr "Poligon"
 
 #: view~dictionnary.digitizing.toolbar.rotate
 msgctxt "view~dictionnary.digitizing.toolbar.rotate"
-msgid "Rotate"
-msgstr "Rotire"
+msgid "Rotate the selected geometry"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
@@ -558,10 +548,15 @@ msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
 msgstr "Modificările desenului vor fi salvate în browser"
 
+#: view~dictionnary.digitizing.toolbar.scaling
+msgctxt "view~dictionnary.digitizing.toolbar.scaling"
+msgid "Scale the selected geometry (hold \"Shift\" to lock proportions)"
+msgstr ""
+
 #: view~dictionnary.digitizing.toolbar.split
 msgctxt "view~dictionnary.digitizing.toolbar.split"
-msgid "Split"
-msgstr "Divizare"
+msgid "Split the geometry intersecting the drawing line"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -795,12 +790,12 @@ msgstr "Revin-o la lista obiectelor"
 #: view~dictionnary.featuresTable.toolbar.next
 msgctxt "view~dictionnary.featuresTable.toolbar.next"
 msgid "Go to the next feature"
-msgstr "Treci la următorul obiect"
+msgstr "Următorul obiect"
 
 #: view~dictionnary.featuresTable.toolbar.previous
 msgctxt "view~dictionnary.featuresTable.toolbar.previous"
 msgid "Go to the previous feature"
-msgstr "Accesează obiectul anterior"
+msgstr "Obiectul anterior"
 
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"

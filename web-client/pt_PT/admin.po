@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-30 10:10++0000\n"
+"POT-Creation-Date: 2025-05-06 12:56++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Sérgio Pinheiro <sergiuspinheiro@gmail.com>, 2024\n"
 "Language-Team: Portuguese (http://app.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
@@ -648,7 +648,7 @@ msgctxt "admin~admin.form.admin_services.projectSwitcher.help"
 msgid ""
 "With a new button in the left menu, it is possible to navigate to another "
 "project, keeping the same extent and scale."
-msgstr ""
+msgstr "Com um novo botão no menu à esquerda, é possível navegar para outro projeto, mantendo a mesma extensão e escala."
 
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
@@ -1789,6 +1789,14 @@ msgstr "Número"
 msgctxt "admin~admin.server.information.qgis.wrapper"
 msgid "QJazz or Py-QGIS-Server"
 msgstr "QJazz ou Py-QGIS-Server"
+
+#: admin~admin.server.information.qgis.wrapper.force.html
+msgctxt "admin~admin.server.information.qgis.wrapper.force.html"
+msgid ""
+"This installation does not allow QGIS with FCGI, either Py-QGIS-Server or "
+"QJazz must be used. This check about the QGIS wrapper can be disabled in "
+"<code>lizmap/var/config/localconfig.ini.php.dist</code>."
+msgstr ""
 
 #: admin~admin.server.information.qgis.wrapper.not.installed
 msgctxt "admin~admin.server.information.qgis.wrapper.not.installed"
