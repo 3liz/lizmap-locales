@@ -1,14 +1,16 @@
 # 
 # Translators:
-# Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2016
+# Laurent Jouanneau <dev@ljouanneau.com>, 2025
+# Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2025
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.10 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 12:56++0000\n"
-"PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2016\n"
-"Language-Team: Finnish (http://app.transifex.com/3liz-1/lizmap-locales/language/fi/)\n"
+"POT-Creation-Date: 2025-06-25 09:33++0000\n"
+"PO-Revision-Date: 2025-06-25 09:34+0000\n"
+"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2025\n"
+"Language-Team: Finnish (https://app.transifex.com/3liz-1/teams/62012/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -95,7 +97,7 @@ msgstr ""
 #: admin~admin.configuration.button.view.repository.label
 msgctxt "admin~admin.configuration.button.view.repository.label"
 msgid "View"
-msgstr "Näytä"
+msgstr "Näytää"
 
 #: admin~admin.configuration.button.view.repository.tooltip
 msgctxt "admin~admin.configuration.button.view.repository.tooltip"
@@ -433,7 +435,9 @@ msgctxt "admin~admin.form.admin_services.cacheExpiration.help"
 msgid ""
 "0 means no expiration, else give an integer in seconds (max: 2592000 s = 30 "
 "days)"
-msgstr "0 tarkoittaa ei vanhentumista, muuten anna kokonaisluku sekunneissa (max: 2592000 s = 30 päivää)"
+msgstr ""
+"0 tarkoittaa ei vanhentumista, muuten anna kokonaisluku sekunneissa (max: "
+"2592000 s = 30 päivää)"
 
 #: admin~admin.form.admin_services.cacheExpiration.label
 msgctxt "admin~admin.form.admin_services.cacheExpiration.label"
@@ -467,7 +471,9 @@ msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.help"
 msgid ""
 "Redis key prefix: string, optional (used if Redis is chosen for the cache "
 "storage)"
-msgstr "Redis avaimen etuliite: merkkijono, valinnainen  (käytetään jos Redis valittu välimuistin varastoksi)"
+msgstr ""
+"Redis avaimen etuliite: merkkijono, valinnainen  (käytetään jos Redis "
+"valittu välimuistin varastoksi)"
 
 #: admin~admin.form.admin_services.cacheRedisKeyPrefix.label
 msgctxt "admin~admin.form.admin_services.cacheRedisKeyPrefix.label"
@@ -492,7 +498,7 @@ msgstr "Valitse hakemisto jonne voi tallentaa välimuistin tiedostot."
 #: admin~admin.form.admin_services.cacheRootDirectory.label
 msgctxt "admin~admin.form.admin_services.cacheRootDirectory.label"
 msgid "Cache root directory"
-msgstr "Välimuistin juuren hakemisto"
+msgstr "Välimuistin juurihakemisto"
 
 #: admin~admin.form.admin_services.cacheStorageType.file.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.file.label"
@@ -596,7 +602,9 @@ msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
 "Server cache expiration time must be an integer between 0 and 2592000 "
 "seconds."
-msgstr "Palvelimen välimuistin aika tulee olla kokonaisluku 0 ja 2592000 sekuntin välillä."
+msgstr ""
+"Palvelimen välimuistin aika tulee olla kokonaisluku 0 ja 2592000 sekuntin "
+"välillä."
 
 #: admin~admin.form.admin_services.message.cacheRootDirectory.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
@@ -711,7 +719,10 @@ msgid ""
 "The root folder of repositories can limit the Lizmap directory to 1 folder. "
 "If a path is set here, it is no longer possible to define the path of a "
 "Lizmap directory."
-msgstr "Etäkirjaston juurihakemisto voi rajoittaa LizMap hakemiston 1:ksi hakemistoksi. Jos polku asetetaan täällä, ei sitä ole enää mahdollista määritellä LizMap hakemiston poluksi."
+msgstr ""
+"Etäkirjaston juurihakemisto voi rajoittaa LizMap hakemiston 1:ksi "
+"hakemistoksi. Jos polku asetetaan täällä, ei sitä ole enää mahdollista "
+"määritellä LizMap hakemiston poluksi."
 
 #: admin~admin.form.admin_services.rootRepositories.label
 msgctxt "admin~admin.form.admin_services.rootRepositories.label"
@@ -946,6 +957,16 @@ msgstr ""
 msgctxt "admin~admin.landingPageContent.unauthed.position.no"
 msgid "No"
 msgstr "Ei"
+
+#: admin~admin.log.qgis_login.hide
+msgctxt "admin~admin.log.qgis_login.hide"
+msgid "Hide QGIS login events"
+msgstr ""
+
+#: admin~admin.log.qgis_login.show
+msgctxt "admin~admin.log.qgis_login.show"
+msgid "Show QGIS login events"
+msgstr ""
 
 #: admin~admin.logs.admin.file.erase
 msgctxt "admin~admin.logs.admin.file.erase"
@@ -1790,7 +1811,9 @@ msgctxt "admin~admin.server.information.qgis.wrapper.force.html"
 msgid ""
 "This installation does not allow QGIS with FCGI, either Py-QGIS-Server or "
 "QJazz must be used. This check about the QGIS wrapper can be disabled in "
-"<code>lizmap/var/config/localconfig.ini.php.dist</code>."
+"<strong>your</strong> <code>localconfig.ini.php</code> following the "
+"original file <code>lizmap/var/config/localconfig.ini.php.dist</code> about "
+"the wrapper."
 msgstr ""
 
 #: admin~admin.server.information.qgis.wrapper.not.installed
@@ -2003,7 +2026,9 @@ msgctxt "admin~user.email.admin.body"
 msgid ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login %s and the e-mail %s."
-msgstr "Henkilö on pyytänyt Lizmap tiliä voidakseen käyttää karttoja, sisäänkirjoitustunnuksella %s ja sähköpostilla %s."
+msgstr ""
+"Henkilö on pyytänyt Lizmap tiliä voidakseen käyttää karttoja, "
+"sisäänkirjoitustunnuksella %s ja sähköpostilla %s."
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"

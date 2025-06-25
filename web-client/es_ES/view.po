@@ -1,18 +1,20 @@
 # 
 # Translators:
-# Arturo Lorenzo <shroomeater@gmail.com>, 2019
-# rldhont <rldhont@gmail.com>, 2016
-# rldhont <rldhont@gmail.com>, 2016
-# Samuel Mesa <samuelmesa@gmail.com>, 2018
-# Víctor Herreros <vherreros@ucm.es>, 2016-2017
+# Yann LEGROS, 2025
+# Samuel Mesa <samuelmesa@gmail.com>, 2025
+# Arturo Lorenzo <shroomeater@gmail.com>, 2025
+# Laurent Jouanneau <dev@ljouanneau.com>, 2025
+# rldhont <rldhont@gmail.com>, 2025
+# Víctor Herreros <vherreros@ucm.es>, 2025
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 12:56++0000\n"
-"PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: Samuel Mesa <samuelmesa@gmail.com>, 2018\n"
-"Language-Team: Spanish (http://app.transifex.com/3liz-1/lizmap-locales/language/es/)\n"
+"POT-Creation-Date: 2025-06-25 09:33++0000\n"
+"PO-Revision-Date: 2025-06-25 09:34+0000\n"
+"Last-Translator: Víctor Herreros <vherreros@ucm.es>, 2025\n"
+"Language-Team: Spanish (https://app.transifex.com/3liz-1/teams/62012/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -171,7 +173,9 @@ msgstr "Elige une acción"
 #: view~dictionnary.action.form.select.help
 msgctxt "view~dictionnary.action.form.select.help"
 msgid "To run an action, select one in the list and click the Run button"
-msgstr "Para ejecutar una acción, seleccione una de la lista y haga clic en el botón Ejecutar"
+msgstr ""
+"Para ejecutar una acción, seleccione una de la lista y haga clic en el botón"
+" Ejecutar"
 
 #: view~dictionnary.action.form.select.warning
 msgctxt "view~dictionnary.action.form.select.warning"
@@ -196,7 +200,7 @@ msgstr "Siguiente"
 #: view~dictionnary.atlas.toolbar.pause
 msgctxt "view~dictionnary.atlas.toolbar.pause"
 msgid "Pause"
-msgstr "Pausa"
+msgstr "Parar"
 
 #: view~dictionnary.atlas.toolbar.play
 msgctxt "view~dictionnary.atlas.toolbar.play"
@@ -206,7 +210,7 @@ msgstr "Reproducir"
 #: view~dictionnary.atlas.toolbar.prev
 msgctxt "view~dictionnary.atlas.toolbar.prev"
 msgid "Previous"
-msgstr "Anterior"
+msgstr "Previo"
 
 #: view~dictionnary.atlas.toolbar.stop
 msgctxt "view~dictionnary.atlas.toolbar.stop"
@@ -263,7 +267,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "La capa no es visible. Por favor, haga zoom a una escala en la que las características sean visibles."
+msgstr ""
+"La capa no es visible. Por favor, haga zoom a una escala en la que las "
+"características sean visibles."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -343,7 +349,9 @@ msgstr "Refrescar los datos de la tabla."
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
 msgid "The map extent has changed since the last time data were fetched."
-msgstr "La extensión del mapa ha cambiado desde la última vez que se recolectaron datos."
+msgstr ""
+"La extensión del mapa ha cambiado desde la última vez que se recolectaron "
+"datos."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
@@ -723,7 +731,9 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "Debe rellenar correctamente el formulario, para crear una nuevo objeto después de dividir la geometría"
+msgstr ""
+"Debe rellenar correctamente el formulario, para crear una nuevo objeto "
+"después de dividir la geometría"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -763,7 +773,7 @@ msgstr "No hay resultados"
 #: view~dictionnary.externalsearch.search
 msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
-msgstr "Búsqueda"
+msgstr "Buscando"
 
 #: view~dictionnary.featuresTable.item.active.hover
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
@@ -984,7 +994,7 @@ msgstr "Opacidad"
 #: view~dictionnary.layer.metadata.style.title
 msgctxt "view~dictionnary.layer.metadata.style.title"
 msgid "Change layer style"
-msgstr "Cambiar estilo de capa"
+msgstr "Cambiar el estilo de la capa"
 
 #: view~dictionnary.layer.metadata.title
 msgctxt "view~dictionnary.layer.metadata.title"
@@ -999,7 +1009,7 @@ msgstr ""
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
 msgid "Click on the map to start measuring an angle."
-msgstr "Haz clic en el mapa para iniciar a medir un ángulo."
+msgstr "Haz clic en el mapa para empezar a medir un ángulo."
 
 #: view~dictionnary.measure.activate.area
 msgctxt "view~dictionnary.measure.activate.area"
@@ -1119,12 +1129,12 @@ msgstr ""
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
 msgid "Compact tables"
-msgstr "Tablas compactas"
+msgstr "Compactar tablas"
 
 #: view~dictionnary.popup.table.explode
 msgctxt "view~dictionnary.popup.table.explode"
 msgid "Explode tables"
-msgstr "Expandir las tablas"
+msgstr "Expandir tablas"
 
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
@@ -1424,7 +1434,7 @@ msgstr "Seleccione el tema"
 #: view~dictionnary.timemanager.toolbar.pause
 msgctxt "view~dictionnary.timemanager.toolbar.pause"
 msgid "Pause"
-msgstr "Pausa"
+msgstr "Parar"
 
 #: view~dictionnary.timemanager.toolbar.play
 msgctxt "view~dictionnary.timemanager.toolbar.play"
@@ -1581,19 +1591,25 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Debe haber al menos un objeto seleccionado para cada capa para crear el enlace."
+msgstr ""
+"Debe haber al menos un objeto seleccionado para cada capa para crear el "
+"enlace."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
 msgid "The pivot, features1 and features2 parameters are mandatory."
-msgstr "Los parámtetros de pivote, características1 y características2 son obligatorios."
+msgstr ""
+"Los parámtetros de pivote, características1 y características2 son "
+"obligatorios."
 
 #: view~edition.link.error.multiple.ids
 msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "No puede enlazar múltiples objetos en ambas capas. Por favor, seleccione sólo un objeto para una de las capas y vuelva a intentarlo."
+msgstr ""
+"No puede enlazar múltiples objetos en ambas capas. Por favor, seleccione "
+"sólo un objeto para una de las capas y vuelva a intentarlo."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1727,7 +1743,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap no puede encontrar las llaves primarias de la capa \"%s\". La herramienta de edición necesita una llave primaria definida en la tabla."
+msgstr ""
+"Lizmap no puede encontrar las llaves primarias de la capa \"%s\". La "
+"herramienta de edición necesita una llave primaria definida en la tabla."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1742,14 +1760,18 @@ msgstr "No hay campos disponibles para guardar el formulario."
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
 msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr "El directorio de la capa \"%s\" para cargar multimedia no permite la escritura."
+msgstr ""
+"El directorio de la capa \"%s\" para cargar multimedia no permite la "
+"escritura."
 
 #: view~edition.message.error.upload.layer.field
 msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "El campo \"%s\" del directorio de la capa \"%s\" para cargar multimedia no permite la escritura."
+msgstr ""
+"El campo \"%s\" del directorio de la capa \"%s\" para cargar multimedia no "
+"permite la escritura."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -1789,7 +1811,7 @@ msgstr "Edición"
 #: view~edition.point.coord.add.label
 msgctxt "view~edition.point.coord.add.label"
 msgid "Add"
-msgstr "Agregar"
+msgstr "Añadir"
 
 #: view~edition.point.coord.crs.label
 msgctxt "view~edition.point.coord.crs.label"
@@ -2479,7 +2501,7 @@ msgstr "Reproducir"
 #: view~map.timemanager.toolbar.prev
 msgctxt "view~map.timemanager.toolbar.prev"
 msgid "Previous"
-msgstr "Anterior"
+msgstr "Previo"
 
 #: view~map.timemanager.toolbar.title
 msgctxt "view~map.timemanager.toolbar.title"

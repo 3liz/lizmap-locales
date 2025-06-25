@@ -1,14 +1,16 @@
 # 
 # Translators:
-# Igor Sorocean <sorocean.igor@gmail.com>, 2020-2025
+# Tudor Bărăscu <tudorbarascu@yahoo.com>, 2025
+# Igor Sorocean <sorocean.igor@gmail.com>, 2025
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Lizmap locales\n"
+"Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 12:56++0000\n"
-"PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020-2025\n"
-"Language-Team: Romanian (http://app.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
+"POT-Creation-Date: 2025-06-25 09:33++0000\n"
+"PO-Revision-Date: 2025-06-25 09:34+0000\n"
+"Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2025\n"
+"Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -80,7 +82,9 @@ msgctxt "view~default.project.needs.update"
 msgid ""
 "The project needs an update from the GIS administrator. Please contact the "
 "GIS administrator to check the QGIS projects panel."
-msgstr "Proiectul necesită o actualizare de la administratorul GIS. Contactează administratorul GIS pentru a verifica panoul de proiecte QGIS."
+msgstr ""
+"Proiectul necesită o actualizare de la administratorul GIS. Contactează "
+"administratorul GIS pentru a verifica panoul de proiecte QGIS."
 
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
@@ -112,7 +116,9 @@ msgctxt "view~default.server.information.error"
 msgid ""
 "This map cannot be displayed. Please contact the server administrator to "
 "check the server information panel."
-msgstr "Această hartă nu poate fi afișată. Contactează administratorul serverului pentru a verifica panoul de informații despre server."
+msgstr ""
+"Această hartă nu poate fi afișată. Contactează administratorul serverului "
+"pentru a verifica panoul de informații despre server."
 
 #: view~default.server.information.error.admin
 msgctxt "view~default.server.information.error.admin"
@@ -167,7 +173,9 @@ msgstr "Alege o acțiune"
 #: view~dictionnary.action.form.select.help
 msgctxt "view~dictionnary.action.form.select.help"
 msgid "To run an action, select one in the list and click the Run button"
-msgstr "Pentru a executa o acțiune, selectează una din listă și apasă butonul Executare"
+msgstr ""
+"Pentru a executa o acțiune, selectează una din listă și apasă butonul "
+"Executare"
 
 #: view~dictionnary.action.form.select.warning
 msgctxt "view~dictionnary.action.form.select.warning"
@@ -259,7 +267,9 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "Stratul nu este vizibil. Faceți zoom la o scară în care obiectele sunt vizibile."
+msgstr ""
+"Stratul nu este vizibil. Faceți zoom la o scară în care obiectele sunt "
+"vizibile."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
@@ -427,7 +437,9 @@ msgid ""
 "You can constrain digitizing by setting values for the distance of the "
 "current segment and the angle between the last segment and the current "
 "segment."
-msgstr "Poți restricționa digitizarea setând valori pentru distanța segmentului curent și unghiul dintre ultimul segment și segmentul curent."
+msgstr ""
+"Poți restricționa digitizarea setând valori pentru distanța segmentului "
+"curent și unghiul dintre ultimul segment și segmentul curent."
 
 #: view~dictionnary.digitizing.constraint.distance
 msgctxt "view~dictionnary.digitizing.constraint.distance"
@@ -449,7 +461,9 @@ msgctxt "view~dictionnary.digitizing.import.metadata.error"
 msgid ""
 "No metadata found. Make sure the projection of the fgb file is the same as "
 "the current project"
-msgstr "Nu s-au găsit metadate. Asigură-te că proiecția fișierului FGB este aceeași ca în proiectul curent"
+msgstr ""
+"Nu s-au găsit metadate. Asigură-te că proiecția fișierului FGB este aceeași "
+"ca în proiectul curent"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -481,7 +495,9 @@ msgctxt "view~dictionnary.digitizing.toolbar.edit"
 msgid ""
 "Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
 "delete a vertex)"
-msgstr "Editează (ține apăsat „Shift” pentru a selecta mai multe obiecte, ține apăsat „Alt” și dă clic pentru a șterge un vârf)"
+msgstr ""
+"Editează (ține apăsat „Shift” pentru a selecta mai multe obiecte, ține "
+"apăsat „Alt” și dă clic pentru a șterge un vârf)"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
@@ -501,7 +517,7 @@ msgstr "Liber"
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
 msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
-msgstr "Importează GeoJSON, GPX, KML, Shapefile arhivat sau FlatGeobuf"
+msgstr "Importă GeoJSON, GPX, KML, Shapefile arhivat sau FlatGeobuf"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -551,7 +567,8 @@ msgstr "Modificările desenului vor fi salvate în browser"
 #: view~dictionnary.digitizing.toolbar.scaling
 msgctxt "view~dictionnary.digitizing.toolbar.scaling"
 msgid "Scale the selected geometry (hold \"Shift\" to lock proportions)"
-msgstr "Scalarea geometriei selectate (menține „Shift” pentru a bloca proporțiile)"
+msgstr ""
+"Scalarea geometriei selectate (menține „Shift” pentru a bloca proporțiile)"
 
 #: view~dictionnary.digitizing.toolbar.split
 msgctxt "view~dictionnary.digitizing.toolbar.split"
@@ -568,7 +585,9 @@ msgctxt "view~dictionnary.digitizing.toolbar.text.hint"
 msgid ""
 "You can change the label text content, size and rotation for the selected "
 "objects."
-msgstr "Poți modifica conținutul textului etichetei, dimensiunea și rotația pentru obiectele selectate."
+msgstr ""
+"Poți modifica conținutul textului etichetei, dimensiunea și rotația pentru "
+"obiectele selectate."
 
 #: view~dictionnary.digitizing.toolbar.textLabel
 msgctxt "view~dictionnary.digitizing.toolbar.textLabel"
@@ -590,7 +609,9 @@ msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel the edition? You will lose any modifications"
 " made on the currently edited object."
-msgstr "Sigur vrei să anulezi editarea? Vei pierde orice modificări făcute asupra obiectului editat."
+msgstr ""
+"Sigur vrei să anulezi editarea? Vei pierde orice modificări făcute asupra "
+"obiectului editat."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -604,14 +625,19 @@ msgid ""
 "Please check before that you have already saved your changes.\n"
 "\n"
 "Do you wish to continue?"
-msgstr "Ești pe cale să creezi un nou sub-obiect pentru obiectul editat. \nVerifică înainte dacă ai salvat deja modificările. \n\nVrei să continui?"
+msgstr ""
+"Ești pe cale să creezi un nou sub-obiect pentru obiectul editat. \n"
+"Verifică înainte dacă ai salvat deja modificările. \n"
+"\n"
+"Vrei să continui?"
 
 #: view~dictionnary.edition.confirm.paste
 msgctxt "view~dictionnary.edition.confirm.paste"
 msgid ""
 "Are you sure you want to replace the existing geometry with the one in the "
 "clipboard?"
-msgstr "Sigur dorești să înlocuiești geometria existentă cu cea din clipboard?"
+msgstr ""
+"Sigur dorești să înlocuiești geometria existentă cu cea din clipboard?"
 
 #: view~dictionnary.edition.confirm.pivot.delete
 msgctxt "view~dictionnary.edition.confirm.pivot.delete"
@@ -622,19 +648,27 @@ msgid ""
 " %s \n"
 "\n"
 "will be also deleted"
-msgstr "Ești sigur că dorești să ștergi obiectul selectat?\n\nLink-urile asociate cu următoarele straturi:\n%s\n\nvor fi de asemenea șterse"
+msgstr ""
+"Ești sigur că dorești să ștergi obiectul selectat?\n"
+"\n"
+"Link-urile asociate cu următoarele straturi:\n"
+"%s\n"
+"\n"
+"vor fi de asemenea șterse"
 
 #: view~dictionnary.edition.confirm.pivot.unlink
 msgctxt "view~dictionnary.edition.confirm.pivot.unlink"
 msgid "Are you sure you want to unlink the selected feature from \"%l\" layer?"
-msgstr "Ești sigur că dorești să deconectezi obiectul selectat din stratul \"%l\"?"
+msgstr ""
+"Ești sigur că dorești să deconectezi obiectul selectat din stratul \"%l\"?"
 
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
 msgid ""
 "Are you sure you want to delete the existing geometry and redraw it from "
 "scratch?"
-msgstr "Sigur dorești să ștergi geometria existentă și să o redesenezi de la zero?"
+msgstr ""
+"Sigur dorești să ștergi geometria existentă și să o redesenezi de la zero?"
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -656,7 +690,9 @@ msgctxt "view~dictionnary.edition.draw.activate.mobile"
 msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
-msgstr "Poți ascunde acest formular cu butonul de închidere ori de câte ori trebuie să desenezi geometria."
+msgstr ""
+"Poți ascunde acest formular cu butonul de închidere ori de câte ori trebuie "
+"să desenezi geometria."
 
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
@@ -666,28 +702,34 @@ msgstr "Lipește geometria"
 #: view~dictionnary.edition.link.pivot.add
 msgctxt "view~dictionnary.edition.link.pivot.add"
 msgid "The new record will be linked to the feature ID \"%f\" of \"%l\" layer"
-msgstr "Noua înregistrare va fi legată de ID-ul caracteristicii \"%f\" a stratului \"%l\""
+msgstr ""
+"Noua înregistrare va fi legată de ID-ul caracteristicii \"%f\" a stratului "
+"\"%l\""
 
 #: view~dictionnary.edition.message.error.fetch.form
 msgctxt "view~dictionnary.edition.message.error.fetch.form"
 msgid ""
 "Error while fetching the editing form for that layer. Please contact the "
 "system administrator."
-msgstr "Eroare la preluarea formularului de editare pentru strat. Contactează administratorul de sistem."
+msgstr ""
+"Eroare la preluarea formularului de editare pentru strat. Contactează "
+"administratorul de sistem."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
-msgstr "Nu poți salva acest obiect fără o geometrie. Desenează geometria pe hartă."
+msgstr ""
+"Nu poți salva acest obiect fără o geometrie. Desenează geometria pe hartă."
 
 #: view~dictionnary.edition.message.error.send.feature
 msgctxt "view~dictionnary.edition.message.error.send.feature"
 msgid ""
 "Error while saving the edited feature. Please contact the system "
 "administrator."
-msgstr "Eroare la salvarea obiectului editat. Contactează administratorul de sistem."
+msgstr ""
+"Eroare la salvarea obiectului editat. Contactează administratorul de sistem."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -719,7 +761,9 @@ msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "După împărțirea geometriei, formularul trebuie completat corect pentru a crea un nou obiect"
+msgstr ""
+"După împărțirea geometriei, formularul trebuie completat corect pentru a "
+"crea un nou obiect"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -765,7 +809,9 @@ msgstr "Căutare"
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
 msgid ""
 "Click to close the feature information and go back to the list of features"
-msgstr "Clic pentru a închide informațiile despre obiecte și pentru a reveni la lista obiectelor"
+msgstr ""
+"Clic pentru a închide informațiile despre obiecte și pentru a reveni la "
+"lista obiectelor"
 
 #: view~dictionnary.featuresTable.item.draggable.dropped
 msgctxt "view~dictionnary.featuresTable.item.draggable.dropped"
@@ -1142,7 +1188,8 @@ msgctxt "view~dictionnary.print.error"
 msgid ""
 "The output is currently not available. Please contact the system "
 "administrator."
-msgstr "Ieșirea nu este disponibilă momentan. Contactează administratorul de sistem."
+msgstr ""
+"Ieșirea nu este disponibilă momentan. Contactează administratorul de sistem."
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"
@@ -1200,21 +1247,29 @@ msgid ""
 "Some layers are in the WMS capabilities (*.qgs file) but are not found in "
 "the Lizmap configuration file (*.qgs.cfg). Is the Lizmap configuration file "
 "up to date ?"
-msgstr "Unele straturi sunt indicate în capabilitățile WMS (*.QGS), dar nu se găsesc în fișierul de configurare LizMap (*.qgs.cfg). Fișierul de configurare Lizmap este actualizat?"
+msgstr ""
+"Unele straturi sunt indicate în capabilitățile WMS (*.QGS), dar nu se găsesc"
+" în fișierul de configurare LizMap (*.qgs.cfg). Fișierul de configurare "
+"Lizmap este actualizat?"
 
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
 "be fixed."
-msgstr "Proiectul are câteva avertismente în plugin-ul Lizmap care trebuie remediate."
+msgstr ""
+"Proiectul are câteva avertismente în plugin-ul Lizmap care trebuie "
+"remediate."
 
 #: view~dictionnary.project.plugin.outdated.warning
 msgctxt "view~dictionnary.project.plugin.outdated.warning"
 msgid ""
 "The project has been recently updated in QGIS Desktop, but with an outdated "
 "version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
-msgstr "Proiectul a fost actualizat recent în QGIS Desktop, dar cu o versiune învechită a plugin-ului Lizmap. Trebuie să actualizezi plugin-ul în QGIS Desktop."
+msgstr ""
+"Proiectul a fost actualizat recent în QGIS Desktop, dar cu o versiune "
+"învechită a plugin-ului Lizmap. Trebuie să actualizezi plugin-ul în QGIS "
+"Desktop."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1341,7 +1396,9 @@ msgctxt "view~dictionnary.snapping.list.disabled"
 msgid ""
 "This layer is hidden. Turn on the layer on the layer panel to toggle "
 "snapping on it"
-msgstr "Acest strat este ascuns. Activează stratul din panoul de straturi pentru a comuta legarea la acesta"
+msgstr ""
+"Acest strat este ascuns. Activează stratul din panoul de straturi pentru a "
+"comuta legarea la acesta"
 
 #: view~dictionnary.snapping.list.title
 msgctxt "view~dictionnary.snapping.list.title"
@@ -1363,14 +1420,18 @@ msgctxt "view~dictionnary.startup.error"
 msgid ""
 "An error occurred while loading this map. Some necessary resources may "
 "temporarily be unavailable. Please try again later."
-msgstr "A apărut o eroare la încărcarea acestei hărți. Este posibil ca anumite resurse necesare să fie temporar indisponibile. Încearcă din nou mai târziu."
+msgstr ""
+"A apărut o eroare la încărcarea acestei hărți. Este posibil ca anumite "
+"resurse necesare să fie temporar indisponibile. Încearcă din nou mai târziu."
 
 #: view~dictionnary.startup.error.administrator
 msgctxt "view~dictionnary.startup.error.administrator"
 msgid ""
 "Please notify the administrator of this map to <strong>connect</strong> and "
 "<strong>visit</strong> this map."
-msgstr "Notifică administratorul acestei hărți pentru a <strong>te autentifica</strong> și <strong>vizita</strong> această hartă."
+msgstr ""
+"Notifică administratorul acestei hărți pentru a <strong>te "
+"autentifica</strong> și <strong>vizita</strong> această hartă."
 
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
@@ -1378,7 +1439,10 @@ msgid ""
 "Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
 "\n"
 "Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
-msgstr "Poate că vei avea un indiciu deschizând „Instrumentele pentru dezvoltatori” în browser-ul web. De obicei este <kbd>F12</kbd>. Verifică „Consolă” și „Rețea”.\n\nVizitează panoul de administrare și verifică în pagina de jurnal dacă o solicitare HTTP s-a încheiat cu o eroare legată de acest proiect."
+msgstr ""
+"Poate că vei avea un indiciu deschizând „Instrumentele pentru dezvoltatori” în browser-ul web. De obicei este <kbd>F12</kbd>. Verifică „Consolă” și „Rețea”.\n"
+"\n"
+"Vizitează panoul de administrare și verifică în pagina de jurnal dacă o solicitare HTTP s-a încheiat cu o eroare legată de acest proiect."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
@@ -1400,7 +1464,10 @@ msgctxt "view~dictionnary.startup.user_defined_js"
 msgid ""
 "This map contains some users additional JavaScript scripts. This can be the "
 "cause of this message, try disabling them."
-msgstr "Această hartă conține fișiere JavaScript suplimentare pentru unii utilizatori. Aceasta poate fi cauza acestui mesaj, încearcă să le dezactivezi."
+msgstr ""
+"Această hartă conține fișiere JavaScript suplimentare pentru unii "
+"utilizatori. Aceasta poate fi cauza acestui mesaj, încearcă să le "
+"dezactivezi."
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -1577,7 +1644,9 @@ msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Pentru a crea legătura trebuie să existe cel puțin un obiect selectat pe fiecare strat."
+msgstr ""
+"Pentru a crea legătura trebuie să existe cel puțin un obiect selectat pe "
+"fiecare strat."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
@@ -1589,7 +1658,9 @@ msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Nu poți conecta obiecte multiple pentru ambele straturi. Selectează un singur obiect pentru unul dintre straturi și încearcă din nou."
+msgstr ""
+"Nu poți conecta obiecte multiple pentru ambele straturi. Selectează un "
+"singur obiect pentru unul dintre straturi și încearcă din nou."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
@@ -1706,7 +1777,8 @@ msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
-msgstr "Nu poți salva acest obiect fără o geometrie. Desenează geometria pe hartă."
+msgstr ""
+"Nu poți salva acest obiect fără o geometrie. Desenează geometria pe hartă."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
@@ -1723,7 +1795,9 @@ msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap nu poate găsi cheile primare ale stratului „%s”. Instrumentul de editare are nevoie de o cheie primară definită în tabelă."
+msgstr ""
+"Lizmap nu poate găsi cheile primare ale stratului „%s”. Instrumentul de "
+"editare are nevoie de o cheie primară definită în tabelă."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
@@ -1738,14 +1812,18 @@ msgstr "Nu există câmpuri disponibile pentru salvarea formularului."
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
 msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr "Nu se poate scrie în dosarul stratului „%s” pentru încărcarea conținutului media."
+msgstr ""
+"Nu se poate scrie în dosarul stratului „%s” pentru încărcarea conținutului "
+"media."
 
 #: view~edition.message.error.upload.layer.field
 msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "Dosarul câmpului „%s” al stratului „%s” pentru încărcarea conținutului media nu poate fi scris."
+msgstr ""
+"Dosarul câmpului „%s” al stratului „%s” pentru încărcarea conținutului media"
+" nu poate fi scris."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
@@ -1770,12 +1848,13 @@ msgstr "Niciun obiect găsit aici."
 #: view~edition.modal.title.default
 msgctxt "view~edition.modal.title.default"
 msgid "Edition"
-msgstr "Editare"
+msgstr "Editează"
 
 #: view~edition.modification.msg
 msgctxt "view~edition.modification.msg"
 msgid "Click features on the map to access edition tools."
-msgstr "Fă clic pe un obiect de pe hartă pentru a accesa instrumentele de editare."
+msgstr ""
+"Clic pe un obiect de pe hartă pentru a accesa instrumentele de editare."
 
 #: view~edition.navbar.title
 msgctxt "view~edition.navbar.title"
@@ -2527,7 +2606,8 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have access to "
 "the maps."
-msgstr "Scrie un mic text pentru a explica de ce ai dori să ai acces la hărți."
+msgstr ""
+"Scrie un mic text pentru a explica de ce ai dori să ai acces la hărți."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"
