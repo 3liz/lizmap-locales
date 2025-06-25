@@ -2,10 +2,10 @@
 
 ### Installing Transifex CLI
 
-We are using Transifex, and so you will need their cli tool to push or pull
+We are using Transifex, and so you will need their CLI tool to push or pull
 translations.
 
-if you already contributed to the [lizmap documentation](https://github.com/3liz/lizmap-documentation), 
+If you already contributed to the [lizmap documentation](https://github.com/3liz/lizmap-documentation),
 you have already installed tools, so you can jump directly to the next section.
 
 It is recommended to install Virtualenv and to install Transifex into a 
@@ -34,7 +34,7 @@ See [web-client/README.md](web-client/README.md).
 ### Adding a new language
 
 The language should be created into Transifex. When there are enough translated
-strings, you can download translated files with the script. See README.md web-client.
+strings, you can download translated files with the script. See [web-client/README.md](./web-client/README.md).
 
 A new language code for web-client should be added into `web-client/module_list.sh` and `.tx/config`.
 
