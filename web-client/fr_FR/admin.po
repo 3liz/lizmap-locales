@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 12:56++0000\n"
+"POT-Creation-Date: 2025-08-28 17:20++0200\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2022-2025\n"
 "Language-Team: French (http://app.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
@@ -637,7 +637,7 @@ msgstr "On"
 #: admin~admin.form.admin_services.onlyMaps.help
 msgctxt "admin~admin.form.admin_services.onlyMaps.help"
 msgid "If set to \"On\", no landing page will be available."
-msgstr "Si paramétré à \"On\", alors la page d'accueil est activé"
+msgstr "Si paramétré à \"On\", alors la page d'accueil est désactivé"
 
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
@@ -952,6 +952,16 @@ msgstr "Avant le contenu pour les personnes authentifiées"
 msgctxt "admin~admin.landingPageContent.unauthed.position.no"
 msgid "No"
 msgstr "Non"
+
+#: admin~admin.log.qgis_login.hide
+msgctxt "admin~admin.log.qgis_login.hide"
+msgid "Hide QGIS login events"
+msgstr "Cacher les événements de connexion de QGIS"
+
+#: admin~admin.log.qgis_login.show
+msgctxt "admin~admin.log.qgis_login.show"
+msgid "Show QGIS login events"
+msgstr "Afficher les événements de connexion de QGIS"
 
 #: admin~admin.logs.admin.file.erase
 msgctxt "admin~admin.logs.admin.file.erase"
@@ -1796,8 +1806,10 @@ msgctxt "admin~admin.server.information.qgis.wrapper.force.html"
 msgid ""
 "This installation does not allow QGIS with FCGI, either Py-QGIS-Server or "
 "QJazz must be used. This check about the QGIS wrapper can be disabled in "
-"<code>lizmap/var/config/localconfig.ini.php.dist</code>."
-msgstr "Cette installation ne permet pas l'utilisation de QGIS avec FCGI, Py-QGIS-Server ou QJazz doivent être utilisés. Cette vérification du wrapper QGIS peut être désactivée dans <code>lizmap/var/config/localconfig.ini.php.dist</code>."
+"<strong>your</strong> <code>localconfig.ini.php</code> following the "
+"original file <code>lizmap/var/config/localconfig.ini.php.dist</code> about "
+"the wrapper."
+msgstr "Cette installation ne permet pas l'utilisation de QGIS avec FCGI, Py-QGIS-Server ou QJazz doivent être utilisés. Cette vérification concernant le wrapper QGIS peut être désactivée dans <strong>votre</strong> fichier <code>localconfig.ini.php</code> en suivant le fichier original <code>lizmap/var/config/localconfig.ini.php.dist</code> concernant le wrapper."
 
 #: admin~admin.server.information.qgis.wrapper.not.installed
 msgctxt "admin~admin.server.information.qgis.wrapper.not.installed"

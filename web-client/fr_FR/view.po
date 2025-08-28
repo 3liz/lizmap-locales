@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 12:56++0000\n"
+"POT-Creation-Date: 2025-08-28 17:20++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: etrimaille <gustrimaille@yahoo.fr>, 2020-2025\n"
 "Language-Team: French (http://app.transifex.com/3liz-1/lizmap-locales/language/fr/)\n"
@@ -334,12 +334,12 @@ msgstr "Détail"
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
 msgid "Refresh"
-msgstr "Rafraichir"
+msgstr "Rafraîchir"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
 msgid "Refresh the table data."
-msgstr "Rafraichir la table des données."
+msgstr "Rafraîchir la table des données."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
 msgctxt ""
@@ -766,6 +766,11 @@ msgstr "Aucun résultat"
 msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
 msgstr "Recherche en cours"
+
+#: view~dictionnary.featuresTable.empty.message
+msgctxt "view~dictionnary.featuresTable.empty.message"
+msgid "This table is empty. There are no items to display."
+msgstr "Ce tableau est vide. Il n'y a aucun élément à afficher."
 
 #: view~dictionnary.featuresTable.item.active.hover
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
@@ -1385,6 +1390,23 @@ msgid ""
 "\n"
 "Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr "Vous aurez peut-être une idée en ouvrant vos \"Outils de développement\" dans votre navigateur web. C'est généralement <kbd>F12</kbd>. Vérifiez les onglets \"Console\" et \"Réseaux\".\n\nVisitez le panneau d'administration et vérifiez dans la page des logs si une requête HTTP s'est terminée par une erreur liée à ce projet."
+
+#: view~dictionnary.startup.features.empty
+msgctxt "view~dictionnary.startup.features.empty"
+msgid "No features to display"
+msgstr "Aucun élément à afficher"
+
+#: view~dictionnary.startup.features.error
+msgctxt "view~dictionnary.startup.features.error"
+msgid ""
+"Zooming to the feature given in the URL parameter is not possible: an error "
+"occurred while fetching the feature data."
+msgstr "Il n'est pas possible d'effectuer un zoom sur l'élément indiqué dans le paramètre URL : une erreur s'est produite lors de la récupération des données de l'élément."
+
+#: view~dictionnary.startup.features.loading
+msgctxt "view~dictionnary.startup.features.loading"
+msgid "Loading features, please wait..."
+msgstr "Chargement des éléments, veuillez patienter..."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"

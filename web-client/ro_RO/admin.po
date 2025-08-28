@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 12:56++0000\n"
+"POT-Creation-Date: 2025-08-28 17:20++0200\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020-2025\n"
 "Language-Team: Romanian (http://app.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
@@ -948,6 +948,16 @@ msgctxt "admin~admin.landingPageContent.unauthed.position.no"
 msgid "No"
 msgstr "Nu"
 
+#: admin~admin.log.qgis_login.hide
+msgctxt "admin~admin.log.qgis_login.hide"
+msgid "Hide QGIS login events"
+msgstr "Ascunde evenimentele de conectare QGIS"
+
+#: admin~admin.log.qgis_login.show
+msgctxt "admin~admin.log.qgis_login.show"
+msgid "Show QGIS login events"
+msgstr "Afișează evenimentele de conectare QGIS"
+
 #: admin~admin.logs.admin.file.erase
 msgctxt "admin~admin.logs.admin.file.erase"
 msgid "Erase the admin log file"
@@ -1791,8 +1801,10 @@ msgctxt "admin~admin.server.information.qgis.wrapper.force.html"
 msgid ""
 "This installation does not allow QGIS with FCGI, either Py-QGIS-Server or "
 "QJazz must be used. This check about the QGIS wrapper can be disabled in "
-"<code>lizmap/var/config/localconfig.ini.php.dist</code>."
-msgstr "Această instalare nu permite QGIS cu FCGI, trebuie utilizate fie PY-QGIS-Server, fie QJazz. Această verificare despre învelișul QGIS poate fi dezactivată în <code>lizmap/var/config/localconfig.ini.php.dist</code>."
+"<strong>your</strong> <code>localconfig.ini.php</code> following the "
+"original file <code>lizmap/var/config/localconfig.ini.php.dist</code> about "
+"the wrapper."
+msgstr "Această instalare nu permite QGIS cu FCGI, trebuie utilizate fie PY-QGIS-Server, fie QJazz. Această verificare despre învelișul QGIS poate fi dezactivată în <code>localconfig.ini.php</code> urmărind fișierului original <code>lizmap/var/config/localconfig.ini.php.dist</code>."
 
 #: admin~admin.server.information.qgis.wrapper.not.installed
 msgctxt "admin~admin.server.information.qgis.wrapper.not.installed"

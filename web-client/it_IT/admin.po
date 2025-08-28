@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 12:56++0000\n"
+"POT-Creation-Date: 2025-08-28 17:20++0200\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2025\n"
 "Language-Team: Italian (http://app.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
@@ -34,7 +34,7 @@ msgstr "Svuota cache"
 #: admin~admin.cache.button.remove.repository.cache.tooltip
 msgctxt "admin~admin.cache.button.remove.repository.cache.tooltip"
 msgid "Remove the cache related to the layers tiles"
-msgstr ""
+msgstr "Rimuovi la cache relativa ai tasselli dei layer"
 
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
@@ -71,7 +71,7 @@ msgstr "Modifica"
 #: admin~admin.configuration.button.modify.repository.tooltip
 msgctxt "admin~admin.configuration.button.modify.repository.tooltip"
 msgid "Change the settings of this repository"
-msgstr ""
+msgstr "Modifica le impostazioni di questo repository"
 
 #: admin~admin.configuration.button.modify.service.label
 msgctxt "admin~admin.configuration.button.modify.service.label"
@@ -96,7 +96,7 @@ msgstr "Rimuovi"
 #: admin~admin.configuration.button.remove.repository.tooltip
 msgctxt "admin~admin.configuration.button.remove.repository.tooltip"
 msgid "Remove this repository (it will not delete the files from the server)"
-msgstr ""
+msgstr "Rimuovi questo repository (non verranno cancellati i file sul server)"
 
 #: admin~admin.configuration.button.view.repository.label
 msgctxt "admin~admin.configuration.button.view.repository.label"
@@ -106,7 +106,7 @@ msgstr "Visualizza"
 #: admin~admin.configuration.button.view.repository.tooltip
 msgctxt "admin~admin.configuration.button.view.repository.tooltip"
 msgid "Open the landing page with only this repository"
-msgstr ""
+msgstr "Apri la pagina principale con solamente questo repository"
 
 #: admin~admin.configuration.h1
 msgctxt "admin~admin.configuration.h1"
@@ -571,12 +571,12 @@ msgstr "Assicurati che il web server sia in grado di inviare e-mail, o imposta i
 #: admin~admin.form.admin_services.googleTag.help
 msgctxt "admin~admin.form.admin_services.googleTag.help"
 msgid "The Google Tag starts with 'G-'."
-msgstr ""
+msgstr "Il Google Tag inizia per 'G-'."
 
 #: admin~admin.form.admin_services.googleTag.label
 msgctxt "admin~admin.form.admin_services.googleTag.label"
 msgid "Google Tag"
-msgstr ""
+msgstr "Google Tag"
 
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"
@@ -649,7 +649,7 @@ msgctxt "admin~admin.form.admin_services.projectSwitcher.help"
 msgid ""
 "With a new button in the left menu, it is possible to navigate to another "
 "project, keeping the same extent and scale."
-msgstr ""
+msgstr "Con un nuovo pulsante sul menu di sinistra, è possibile passare ad un altro progetto, mantenendo la stessa estensione spaziale e scala."
 
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
@@ -952,6 +952,16 @@ msgstr "Prima del contenuto per utenti autenticati"
 msgctxt "admin~admin.landingPageContent.unauthed.position.no"
 msgid "No"
 msgstr "No"
+
+#: admin~admin.log.qgis_login.hide
+msgctxt "admin~admin.log.qgis_login.hide"
+msgid "Hide QGIS login events"
+msgstr "Nascondi gli eventi di login in QGIS"
+
+#: admin~admin.log.qgis_login.show
+msgctxt "admin~admin.log.qgis_login.show"
+msgid "Show QGIS login events"
+msgstr "Mostra gli eventi di login in QGIS"
 
 #: admin~admin.logs.admin.file.erase
 msgctxt "admin~admin.logs.admin.file.erase"
@@ -1796,8 +1806,10 @@ msgctxt "admin~admin.server.information.qgis.wrapper.force.html"
 msgid ""
 "This installation does not allow QGIS with FCGI, either Py-QGIS-Server or "
 "QJazz must be used. This check about the QGIS wrapper can be disabled in "
-"<code>lizmap/var/config/localconfig.ini.php.dist</code>."
-msgstr ""
+"<strong>your</strong> <code>localconfig.ini.php</code> following the "
+"original file <code>lizmap/var/config/localconfig.ini.php.dist</code> about "
+"the wrapper."
+msgstr "Questa installazione non supporta QGIS con FCGI, è necessario utilizzare Py-QGIS-Server o QJazz. Questo controllo sulla modalità di avvio di QGIS Server può essere disabilitato nel <strong>vostro</strong> <code>localconfig.ini.php</code> seguendo le indicazioni a riguardo nel file originario <code>lizmap/var/config/localconfig.ini.php.dist</code>."
 
 #: admin~admin.server.information.qgis.wrapper.not.installed
 msgctxt "admin~admin.server.information.qgis.wrapper.not.installed"
