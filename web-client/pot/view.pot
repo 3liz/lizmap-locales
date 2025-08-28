@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-04-30 10:08++0000\n"
-"PO-Revision-Date: 2025-04-30 10:08++0000\n"
+"POT-Creation-Date: 2025-08-28 17:13++0200\n"
+"PO-Revision-Date: 2025-08-28 17:13++0200\n"
 "Language: \n"
 
 #: view~default.header.connect
@@ -696,6 +696,11 @@ msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
 msgstr ""
 
+#: view~dictionnary.featuresTable.empty.message
+msgctxt "view~dictionnary.featuresTable.empty.message"
+msgid "This table is empty. There are no items to display."
+msgstr ""
+
 #: view~dictionnary.featuresTable.item.active.hover
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
 msgid "Click to close the feature information and go back to the list of features"
@@ -703,7 +708,7 @@ msgstr ""
 
 #: view~dictionnary.featuresTable.item.draggable.dropped
 msgctxt "view~dictionnary.featuresTable.item.draggable.dropped"
-msgid "You have successfully moved this feature"
+msgid "You have successfully moved this"
 msgstr ""
 
 #: view~dictionnary.featuresTable.item.draggable.hover
@@ -1297,6 +1302,21 @@ msgid ""
 "Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
 "\n"
 "Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
+msgstr ""
+
+#: view~dictionnary.startup.features.empty
+msgctxt "view~dictionnary.startup.features.empty"
+msgid "No features to display"
+msgstr ""
+
+#: view~dictionnary.startup.features.error
+msgctxt "view~dictionnary.startup.features.error"
+msgid "Zooming to the feature given in the URL parameter is not possible: an error occurred while fetching the feature data."
+msgstr ""
+
+#: view~dictionnary.startup.features.loading
+msgctxt "view~dictionnary.startup.features.loading"
+msgid "Loading features, please wait..."
 msgstr ""
 
 #: view~dictionnary.startup.goToProject
