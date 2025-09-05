@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-30 10:08++0000\n"
+"POT-Creation-Date: 2025-09-01 11:54++0200\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2025\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -134,6 +134,26 @@ msgstr ""
 msgctxt "view~default.server.information.error.admin"
 msgid "Maps cannot be displayed. Please check the server information panel."
 msgstr "Hărțile nu pot fi afișate. Verifică panoul informații despre server."
+
+#: view~default.service.access.denied
+msgctxt "view~default.service.access.denied"
+msgid "Access denied to the service."
+msgstr "Acces refuzat la serviciu."
+
+#: view~default.service.access.forbidden
+msgctxt "view~default.service.access.forbidden"
+msgid "Access forbidden to the service."
+msgstr "Acces interzis la serviciu."
+
+#: view~default.service.access.wrong_credentials.detail
+msgctxt "view~default.service.access.wrong_credentials.detail"
+msgid "The given login and password are incorrect. Cannot authenticate."
+msgstr "Autentificarea și parola sunt incorecte. Nu se poate autentifica."
+
+#: view~default.service.access.wrong_credentials.title
+msgctxt "view~default.service.access.wrong_credentials.title"
+msgid "Wrong credentials"
+msgstr "Acreditări greșite"
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
@@ -775,6 +795,11 @@ msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
 msgstr "Căutare"
 
+#: view~dictionnary.featuresTable.empty.message
+msgctxt "view~dictionnary.featuresTable.empty.message"
+msgid "This table is empty. There are no items to display."
+msgstr "Acest tabel este gol. Nu există articole de afișat."
+
 #: view~dictionnary.featuresTable.item.active.hover
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
 msgid ""
@@ -1413,6 +1438,25 @@ msgstr ""
 "Poate că vei avea un indiciu deschizând „Instrumentele pentru dezvoltatori” în browser-ul web. De obicei este <kbd>F12</kbd>. Verifică „Consolă” și „Rețea”.\n"
 "\n"
 "Vizitează panoul de administrare și verifică în pagina de jurnal dacă o solicitare HTTP s-a încheiat cu o eroare legată de acest proiect."
+
+#: view~dictionnary.startup.features.empty
+msgctxt "view~dictionnary.startup.features.empty"
+msgid "No features to display"
+msgstr "Nu există obiecte de afișat"
+
+#: view~dictionnary.startup.features.error
+msgctxt "view~dictionnary.startup.features.error"
+msgid ""
+"Zooming to the feature given in the URL parameter is not possible: an error "
+"occurred while fetching the feature data."
+msgstr ""
+"Nu este posibil zoom-ul la obiectul dat specificat în parametrul URL: a "
+"apărut o eroare în timpul preluării datelor."
+
+#: view~dictionnary.startup.features.loading
+msgctxt "view~dictionnary.startup.features.loading"
+msgid "Loading features, please wait..."
+msgstr "Încărcare obiecte, așteaptă..."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"

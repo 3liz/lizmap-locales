@@ -4,18 +4,18 @@
 # rldhont <rldhont@gmail.com>, 2024
 # Laurent Jouanneau <dev@ljouanneau.com>, 2024
 # Jean-Louis Stanus <rammstan@msn.com>, 2024
-# Hidde Wieringa <hidde@hiddewieringa.nl>, 2024
 # Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2024
 # t j, 2024
 # Nico Veenstra <nvbgm@gmx.net>, 2024
+# Hidde Wieringa <hidde@hiddewieringa.nl>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-30 10:08++0000\n"
+"POT-Creation-Date: 2025-09-01 11:54++0200\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
-"Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2024\n"
+"Last-Translator: Hidde Wieringa <hidde@hiddewieringa.nl>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/3liz-1/teams/62012/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -142,6 +142,27 @@ msgid "Maps cannot be displayed. Please check the server information panel."
 msgstr ""
 "Kaarten kunnen niet worden weergegeven. Controleer het "
 "serverinformatiepaneel."
+
+#: view~default.service.access.denied
+msgctxt "view~default.service.access.denied"
+msgid "Access denied to the service."
+msgstr ""
+
+#: view~default.service.access.forbidden
+msgctxt "view~default.service.access.forbidden"
+msgid "Access forbidden to the service."
+msgstr ""
+
+#: view~default.service.access.wrong_credentials.detail
+msgctxt "view~default.service.access.wrong_credentials.detail"
+msgid "The given login and password are incorrect. Cannot authenticate."
+msgstr ""
+"De gegeven gebruikersnaam en wachtwoord zijn ongeldig. Can niet inloggen."
+
+#: view~default.service.access.wrong_credentials.title
+msgctxt "view~default.service.access.wrong_credentials.title"
+msgid "Wrong credentials"
+msgstr "Verkeerde inloggegevens"
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
@@ -790,6 +811,11 @@ msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
 msgstr "Zoeken"
 
+#: view~dictionnary.featuresTable.empty.message
+msgctxt "view~dictionnary.featuresTable.empty.message"
+msgid "This table is empty. There are no items to display."
+msgstr ""
+
 #: view~dictionnary.featuresTable.item.active.hover
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
 msgid ""
@@ -1419,6 +1445,23 @@ msgid ""
 "Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
 "\n"
 "Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
+msgstr ""
+
+#: view~dictionnary.startup.features.empty
+msgctxt "view~dictionnary.startup.features.empty"
+msgid "No features to display"
+msgstr ""
+
+#: view~dictionnary.startup.features.error
+msgctxt "view~dictionnary.startup.features.error"
+msgid ""
+"Zooming to the feature given in the URL parameter is not possible: an error "
+"occurred while fetching the feature data."
+msgstr ""
+
+#: view~dictionnary.startup.features.loading
+msgctxt "view~dictionnary.startup.features.loading"
+msgid "Loading features, please wait..."
 msgstr ""
 
 #: view~dictionnary.startup.goToProject

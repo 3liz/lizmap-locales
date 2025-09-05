@@ -3,13 +3,14 @@
 # Laurent Jouanneau <dev@ljouanneau.com>, 2024
 # rldhont <rldhont@gmail.com>, 2024
 # Sławomir Bienias <slawomir.bienias@gmail.com>, 2024
+# EnviroSolutions Sp. z o.o. <office@envirosolutions.pl>, 2025
 # Adrian Kowalski <ad.kowalski@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.8 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-30 10:08++0000\n"
+"POT-Creation-Date: 2025-09-01 11:54++0200\n"
 "PO-Revision-Date: 2024-06-10 13:22+0000\n"
 "Last-Translator: Adrian Kowalski <ad.kowalski@gmail.com>, 2025\n"
 "Language-Team: Polish (Poland) (https://app.transifex.com/3liz-1/teams/62012/pl_PL/)\n"
@@ -137,6 +138,26 @@ msgctxt "view~default.server.information.error.admin"
 msgid "Maps cannot be displayed. Please check the server information panel."
 msgstr ""
 "Nie można wyświetlić map. Proszę sprawdzić panel informacyjny serwera."
+
+#: view~default.service.access.denied
+msgctxt "view~default.service.access.denied"
+msgid "Access denied to the service."
+msgstr "Dostęp zabroniony do serwisu."
+
+#: view~default.service.access.forbidden
+msgctxt "view~default.service.access.forbidden"
+msgid "Access forbidden to the service."
+msgstr "Dostęp zapomniany do serwisu."
+
+#: view~default.service.access.wrong_credentials.detail
+msgctxt "view~default.service.access.wrong_credentials.detail"
+msgid "The given login and password are incorrect. Cannot authenticate."
+msgstr "Podane login lub hasło są niepoprawne. Błąd autoryzacji."
+
+#: view~default.service.access.wrong_credentials.title
+msgctxt "view~default.service.access.wrong_credentials.title"
+msgid "Wrong credentials"
+msgstr "Złe poświadczenia"
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
@@ -776,6 +797,11 @@ msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
 msgstr "Wyszukiwanie"
 
+#: view~dictionnary.featuresTable.empty.message
+msgctxt "view~dictionnary.featuresTable.empty.message"
+msgid "This table is empty. There are no items to display."
+msgstr ""
+
 #: view~dictionnary.featuresTable.item.active.hover
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
 msgid ""
@@ -785,7 +811,7 @@ msgstr "Kliknij, aby zamknąć informacje o funkcji i powrócić do listy funkcj
 #: view~dictionnary.featuresTable.item.draggable.dropped
 msgctxt "view~dictionnary.featuresTable.item.draggable.dropped"
 msgid "You have successfully moved this feature"
-msgstr "Pomyślnie przeniosłeś tę funkcję"
+msgstr "Pomyślnie przeniosłeś ten obiekt"
 
 #: view~dictionnary.featuresTable.item.draggable.hover
 msgctxt "view~dictionnary.featuresTable.item.draggable.hover"
@@ -1412,6 +1438,23 @@ msgstr ""
 "Być może będziesz miał pojęcie, otwierając „Narzędzia programistyczne” w przeglądarce internetowej. Zazwyczaj jest to <kbd>F12</kbd>. Sprawdź „Konsolę” i „Sieci”.\n"
 "\n"
 "Odwiedź panel administracyjny i sprawdź na stronie dziennika, czy żądanie HTTP zakończyło się błędem związanym z tym projektem."
+
+#: view~dictionnary.startup.features.empty
+msgctxt "view~dictionnary.startup.features.empty"
+msgid "No features to display"
+msgstr ""
+
+#: view~dictionnary.startup.features.error
+msgctxt "view~dictionnary.startup.features.error"
+msgid ""
+"Zooming to the feature given in the URL parameter is not possible: an error "
+"occurred while fetching the feature data."
+msgstr ""
+
+#: view~dictionnary.startup.features.loading
+msgctxt "view~dictionnary.startup.features.loading"
+msgid "Loading features, please wait..."
+msgstr ""
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
