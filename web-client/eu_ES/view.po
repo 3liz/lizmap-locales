@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-25 09:33++0000\n"
+"POT-Creation-Date: 2025-09-01 11:58++0200\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Language-Team: Basque (Spain) (https://app.transifex.com/3liz-1/teams/62012/eu_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -124,6 +124,16 @@ msgstr ""
 #: view~default.service.access.forbidden
 msgctxt "view~default.service.access.forbidden"
 msgid "Access forbidden to the service."
+msgstr ""
+
+#: view~default.service.access.wrong_credentials.detail
+msgctxt "view~default.service.access.wrong_credentials.detail"
+msgid "The given login and password are incorrect. Cannot authenticate."
+msgstr ""
+
+#: view~default.service.access.wrong_credentials.title
+msgctxt "view~default.service.access.wrong_credentials.title"
+msgid "Wrong credentials"
 msgstr ""
 
 #: view~dictionnary.action.choose
@@ -758,6 +768,11 @@ msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
 msgstr ""
 
+#: view~dictionnary.featuresTable.empty.message
+msgctxt "view~dictionnary.featuresTable.empty.message"
+msgid "This table is empty. There are no items to display."
+msgstr ""
+
 #: view~dictionnary.featuresTable.item.active.hover
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
 msgid ""
@@ -1375,6 +1390,23 @@ msgid ""
 "Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
 "\n"
 "Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
+msgstr ""
+
+#: view~dictionnary.startup.features.empty
+msgctxt "view~dictionnary.startup.features.empty"
+msgid "No features to display"
+msgstr ""
+
+#: view~dictionnary.startup.features.error
+msgctxt "view~dictionnary.startup.features.error"
+msgid ""
+"Zooming to the feature given in the URL parameter is not possible: an error "
+"occurred while fetching the feature data."
+msgstr ""
+
+#: view~dictionnary.startup.features.loading
+msgctxt "view~dictionnary.startup.features.loading"
+msgid "Loading features, please wait..."
 msgstr ""
 
 #: view~dictionnary.startup.goToProject

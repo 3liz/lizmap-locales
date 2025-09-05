@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-25 09:33++0000\n"
+"POT-Creation-Date: 2025-09-01 11:58++0200\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>, 2025\n"
 "Language-Team: French (https://app.transifex.com/3liz-1/teams/62012/fr/)\n"
@@ -142,6 +142,18 @@ msgstr "Accès refusé au service."
 msgctxt "view~default.service.access.forbidden"
 msgid "Access forbidden to the service."
 msgstr "Accès interdit au service."
+
+#: view~default.service.access.wrong_credentials.detail
+msgctxt "view~default.service.access.wrong_credentials.detail"
+msgid "The given login and password are incorrect. Cannot authenticate."
+msgstr ""
+"Le nom d'utilisateur et le mot de passe ne sont pas corrects. Impossible de "
+"s'authentifier."
+
+#: view~default.service.access.wrong_credentials.title
+msgctxt "view~default.service.access.wrong_credentials.title"
+msgid "Wrong credentials"
+msgstr "Identifiant incorrect"
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
@@ -827,6 +839,11 @@ msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
 msgstr "Rechercher"
 
+#: view~dictionnary.featuresTable.empty.message
+msgctxt "view~dictionnary.featuresTable.empty.message"
+msgid "This table is empty. There are no items to display."
+msgstr "Ce tableau est vide. Il n'y a aucune entité à afficher."
+
 #: view~dictionnary.featuresTable.item.active.hover
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
 msgid ""
@@ -1469,6 +1486,26 @@ msgstr ""
 "Vous aurez peut-être une idée en ouvrant vos \"Outils de développement\" dans votre navigateur web. C'est généralement <kbd>F12</kbd>. Vérifiez les onglets \"Console\" et \"Réseaux\".\n"
 "\n"
 "Visitez le panneau d'administration et vérifiez dans la page des logs si une requête HTTP s'est terminée par une erreur liée à ce projet."
+
+#: view~dictionnary.startup.features.empty
+msgctxt "view~dictionnary.startup.features.empty"
+msgid "No features to display"
+msgstr "Aucune entité à afficher"
+
+#: view~dictionnary.startup.features.error
+msgctxt "view~dictionnary.startup.features.error"
+msgid ""
+"Zooming to the feature given in the URL parameter is not possible: an error "
+"occurred while fetching the feature data."
+msgstr ""
+"Il n'est pas possible d'effectuer un zoom sur l'entité indiquée dans le "
+"paramètre URL : une erreur s'est produite lors de la récupération des "
+"données de l'élément."
+
+#: view~dictionnary.startup.features.loading
+msgctxt "view~dictionnary.startup.features.loading"
+msgid "Loading features, please wait..."
+msgstr "Chargement des entités, veuillez patienter..."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
