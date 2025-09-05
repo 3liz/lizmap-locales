@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 12:56++0000\n"
+"POT-Creation-Date: 2025-09-01 11:58++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2025\n"
 "Language-Team: Italian (http://app.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
@@ -135,6 +135,16 @@ msgstr "Accesso negato per questo servizio."
 msgctxt "view~default.service.access.forbidden"
 msgid "Access forbidden to the service."
 msgstr "Accesso vietato per questo servizio."
+
+#: view~default.service.access.wrong_credentials.detail
+msgctxt "view~default.service.access.wrong_credentials.detail"
+msgid "The given login and password are incorrect. Cannot authenticate."
+msgstr "Il login e password forniti non sono corretti. Impossibile autenticarsi."
+
+#: view~default.service.access.wrong_credentials.title
+msgctxt "view~default.service.access.wrong_credentials.title"
+msgid "Wrong credentials"
+msgstr "Credenziali errate"
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
@@ -538,7 +548,7 @@ msgstr "Poligono"
 #: view~dictionnary.digitizing.toolbar.rotate
 msgctxt "view~dictionnary.digitizing.toolbar.rotate"
 msgid "Rotate the selected geometry"
-msgstr ""
+msgstr "Ruota la geometria selezionata"
 
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
@@ -558,12 +568,12 @@ msgstr "Le modifiche ai disegni verranno salvate nel browser"
 #: view~dictionnary.digitizing.toolbar.scaling
 msgctxt "view~dictionnary.digitizing.toolbar.scaling"
 msgid "Scale the selected geometry (hold \"Shift\" to lock proportions)"
-msgstr ""
+msgstr "Scala la geometria selezionata (tieni premuto il tasto \"Shift\" per bloccare le proporzioni relative)"
 
 #: view~dictionnary.digitizing.toolbar.split
 msgctxt "view~dictionnary.digitizing.toolbar.split"
 msgid "Split the geometry intersecting the drawing line"
-msgstr ""
+msgstr "Dividi la geometria che interseca la linea disegnata"
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
@@ -767,6 +777,11 @@ msgstr "Nessun risultato"
 msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
 msgstr "Cerca"
+
+#: view~dictionnary.featuresTable.empty.message
+msgctxt "view~dictionnary.featuresTable.empty.message"
+msgid "This table is empty. There are no items to display."
+msgstr ""
 
 #: view~dictionnary.featuresTable.item.active.hover
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
@@ -1386,6 +1401,23 @@ msgid ""
 "\n"
 "Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr "Potresti avere maggiori dettagli aprendo gli \"Strumenti per sviluppatori\" del tuo browser. Vengono solitamente aperti con il tasto <kbd>F12</kbd>. Controlla le schede \"Console\" e \"Networks\".\n\nVisita il pannello di amministrazione e verifica se nei log è presente una richiesta HTTP in errore per questo progetto."
+
+#: view~dictionnary.startup.features.empty
+msgctxt "view~dictionnary.startup.features.empty"
+msgid "No features to display"
+msgstr ""
+
+#: view~dictionnary.startup.features.error
+msgctxt "view~dictionnary.startup.features.error"
+msgid ""
+"Zooming to the feature given in the URL parameter is not possible: an error "
+"occurred while fetching the feature data."
+msgstr ""
+
+#: view~dictionnary.startup.features.loading
+msgctxt "view~dictionnary.startup.features.loading"
+msgid "Loading features, please wait..."
+msgstr ""
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
