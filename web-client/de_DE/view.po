@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 12:55++0000\n"
+"POT-Creation-Date: 2025-09-01 11:56++0200\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
 "Last-Translator: meyerlor <sn1ks@utok-gaming.de>, 2025\n"
 "Language-Team: German (https://app.transifex.com/3liz-1/teams/62012/de/)\n"
@@ -143,6 +143,16 @@ msgstr "Verbindung zum Service verweigert"
 msgctxt "view~default.service.access.forbidden"
 msgid "Access forbidden to the service."
 msgstr "Verbindung zum Service verboten"
+
+#: view~default.service.access.wrong_credentials.detail
+msgctxt "view~default.service.access.wrong_credentials.detail"
+msgid "The given login and password are incorrect. Cannot authenticate."
+msgstr ""
+
+#: view~default.service.access.wrong_credentials.title
+msgctxt "view~default.service.access.wrong_credentials.title"
+msgid "Wrong credentials"
+msgstr ""
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
@@ -821,6 +831,11 @@ msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
 msgstr "Suche"
 
+#: view~dictionnary.featuresTable.empty.message
+msgctxt "view~dictionnary.featuresTable.empty.message"
+msgid "This table is empty. There are no items to display."
+msgstr ""
+
 #: view~dictionnary.featuresTable.item.active.hover
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
 msgid ""
@@ -1266,6 +1281,9 @@ msgid ""
 "the Lizmap configuration file (*.qgs.cfg). Is the Lizmap configuration file "
 "up to date ?"
 msgstr ""
+"Es gibt einige Layer, die in den WMS-Capabilities auftauchen (*.qgs Datei) "
+"aber nicht in der Lizmap Konfigurationsdatei (*.qgs.cfg). Ist die Lizmap "
+"Konfigurationsdstei auf aktuellstem stand?"
 
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
@@ -1454,6 +1472,23 @@ msgid ""
 "Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
 
+#: view~dictionnary.startup.features.empty
+msgctxt "view~dictionnary.startup.features.empty"
+msgid "No features to display"
+msgstr ""
+
+#: view~dictionnary.startup.features.error
+msgctxt "view~dictionnary.startup.features.error"
+msgid ""
+"Zooming to the feature given in the URL parameter is not possible: an error "
+"occurred while fetching the feature data."
+msgstr ""
+
+#: view~dictionnary.startup.features.loading
+msgctxt "view~dictionnary.startup.features.loading"
+msgid "Loading features, please wait..."
+msgstr ""
+
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
 msgid "Home"
@@ -1462,7 +1497,7 @@ msgstr "Home"
 #: view~dictionnary.startup.goToRepositoryAdmin
 msgctxt "view~dictionnary.startup.goToRepositoryAdmin"
 msgid "Maps management page"
-msgstr ""
+msgstr "Kartenverwaltung"
 
 #: view~dictionnary.startup.projectWithoutJSLink
 msgctxt "view~dictionnary.startup.projectWithoutJSLink"
@@ -1511,7 +1546,7 @@ msgstr "Stopp"
 #: view~dictionnary.tooltip.loading.error
 msgctxt "view~dictionnary.tooltip.loading.error"
 msgid "An error prevented to load the tooltip data"
-msgstr ""
+msgstr "Ein Fehler verhindert das Laden vom Tooltip"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -1715,7 +1750,7 @@ msgstr ""
 #: view~edition.linkaddedfeature.error.linkfeature.invalid.parameters
 msgctxt "view~edition.linkaddedfeature.error.linkfeature.invalid.parameters"
 msgid "Required parameter for link the new feature are invalid"
-msgstr ""
+msgstr "Ein Pflichtwert um das neue neue Feature zu verlinken fehlt"
 
 #: view~edition.linkaddedfeature.success.linkfeature
 msgctxt "view~edition.linkaddedfeature.success.linkfeature"
