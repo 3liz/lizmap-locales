@@ -59,6 +59,6 @@ fi
 
 echo $ALL_LOCALES
 
-tx pull $FORCE --mode default -l "$ALL_LOCALES" --branch $TX_BRANCH
+./tx pull $FORCE --mode default -l "$ALL_LOCALES" --branch $TX_BRANCH
 
 
