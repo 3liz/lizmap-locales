@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 12:56++0000\n"
+"POT-Creation-Date: 2025-09-01 11:58++0200\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2023-2025\n"
 "Language-Team: Czech (http://app.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
@@ -32,7 +32,7 @@ msgstr "Vyprázdnit mezipaměť"
 #: admin~admin.cache.button.remove.repository.cache.tooltip
 msgctxt "admin~admin.cache.button.remove.repository.cache.tooltip"
 msgid "Remove the cache related to the layers tiles"
-msgstr ""
+msgstr "Odstranit mezipaměť související s dlaždicemi vrstev"
 
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
@@ -69,7 +69,7 @@ msgstr "Upravit"
 #: admin~admin.configuration.button.modify.repository.tooltip
 msgctxt "admin~admin.configuration.button.modify.repository.tooltip"
 msgid "Change the settings of this repository"
-msgstr ""
+msgstr "Změnit nastavení tohoto úložiště"
 
 #: admin~admin.configuration.button.modify.service.label
 msgctxt "admin~admin.configuration.button.modify.service.label"
@@ -94,7 +94,7 @@ msgstr "Odstranit"
 #: admin~admin.configuration.button.remove.repository.tooltip
 msgctxt "admin~admin.configuration.button.remove.repository.tooltip"
 msgid "Remove this repository (it will not delete the files from the server)"
-msgstr ""
+msgstr "Odebrat tento repozitář (soubory ze serveru nebudou smazány)"
 
 #: admin~admin.configuration.button.view.repository.label
 msgctxt "admin~admin.configuration.button.view.repository.label"
@@ -104,7 +104,7 @@ msgstr "Zobrazit"
 #: admin~admin.configuration.button.view.repository.tooltip
 msgctxt "admin~admin.configuration.button.view.repository.tooltip"
 msgid "Open the landing page with only this repository"
-msgstr ""
+msgstr "Otevřít vstupní stránku pouze s tímto úložištěm"
 
 #: admin~admin.configuration.h1
 msgctxt "admin~admin.configuration.h1"
@@ -647,7 +647,7 @@ msgctxt "admin~admin.form.admin_services.projectSwitcher.help"
 msgid ""
 "With a new button in the left menu, it is possible to navigate to another "
 "project, keeping the same extent and scale."
-msgstr ""
+msgstr "Pomocí nového tlačítka v levém menu je možné přejít na jiný projekt při zachování stejného rozsahu a měřítka."
 
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
@@ -950,6 +950,16 @@ msgstr "Před obsah pro ověřené"
 msgctxt "admin~admin.landingPageContent.unauthed.position.no"
 msgid "No"
 msgstr "Ne"
+
+#: admin~admin.log.qgis_login.hide
+msgctxt "admin~admin.log.qgis_login.hide"
+msgid "Hide QGIS login events"
+msgstr "Skrýt události přihlášení do QGIS"
+
+#: admin~admin.log.qgis_login.show
+msgctxt "admin~admin.log.qgis_login.show"
+msgid "Show QGIS login events"
+msgstr "Zobrazit události přihlášení do QGIS"
 
 #: admin~admin.logs.admin.file.erase
 msgctxt "admin~admin.logs.admin.file.erase"
@@ -1794,8 +1804,10 @@ msgctxt "admin~admin.server.information.qgis.wrapper.force.html"
 msgid ""
 "This installation does not allow QGIS with FCGI, either Py-QGIS-Server or "
 "QJazz must be used. This check about the QGIS wrapper can be disabled in "
-"<code>lizmap/var/config/localconfig.ini.php.dist</code>."
-msgstr ""
+"<strong>your</strong> <code>localconfig.ini.php</code> following the "
+"original file <code>lizmap/var/config/localconfig.ini.php.dist</code> about "
+"the wrapper."
+msgstr "Tato instalace nepodporuje QGIS s FCGI, je nutné použít Py-QGIS-Server nebo QJazz. Tuto kontrolu wrapperu QGIS lze deaktivovat ve <strong>vašem</strong> souboru <code>localconfig.ini.php</code> podle původního souboru <code>lizmap/var/config/localconfig.ini.php.dist</code> týkajícího se wrapperu."
 
 #: admin~admin.server.information.qgis.wrapper.not.installed
 msgctxt "admin~admin.server.information.qgis.wrapper.not.installed"
