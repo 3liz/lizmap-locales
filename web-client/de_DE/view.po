@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 11:56++0200\n"
+"POT-Creation-Date: 2025-09-28 23:03++0000\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
 "Last-Translator: meyerlor <sn1ks@utok-gaming.de>, 2025\n"
 "Language-Team: German (https://app.transifex.com/3liz-1/teams/62012/de/)\n"
@@ -144,15 +144,20 @@ msgctxt "view~default.service.access.forbidden"
 msgid "Access forbidden to the service."
 msgstr "Verbindung zum Service verboten"
 
+#: view~default.service.access.unauthorized
+msgctxt "view~default.service.access.unauthorized"
+msgid "Access needs a valid authentication credentials"
+msgstr ""
+
 #: view~default.service.access.wrong_credentials.detail
 msgctxt "view~default.service.access.wrong_credentials.detail"
 msgid "The given login and password are incorrect. Cannot authenticate."
-msgstr ""
+msgstr "Der Loginname oder das Passwort sind falsch. Login nicht möglich."
 
 #: view~default.service.access.wrong_credentials.title
 msgctxt "view~default.service.access.wrong_credentials.title"
 msgid "Wrong credentials"
-msgstr ""
+msgstr "Falsche Zugangsdaten"
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
@@ -713,8 +718,8 @@ msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
 msgstr ""
-"Sie können dieses Formular mit dem Schliessen Button verbergen wenn Sie eine"
-" Geometrie zeichnen wollen."
+"Sie können das Attributformular mit dem \"Schliessen\" Button verbergen, "
+"wenn Sie eine Geometrie zeichnen wollen."
 
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
@@ -768,7 +773,7 @@ msgstr "Karte"
 #: view~dictionnary.edition.revertgeom.success
 msgctxt "view~dictionnary.edition.revertgeom.success"
 msgid "Geometry has been reversed. You can now save the form."
-msgstr "Geometrie umgekehrt. Sie können das Formular speichern."
+msgstr "Geometrie umgekehrt. Sie können das Attributformular speichern."
 
 #: view~dictionnary.edition.select.activate
 msgctxt "view~dictionnary.edition.select.activate"
@@ -786,8 +791,8 @@ msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
 msgstr ""
-"Sie sollten das Formular korrekt aufüllen um ein neues Element nach dem "
-"Teilen der Geometrie zu erzeugen. "
+"Sie sollten das Attributformular korrekt aufüllen um ein neues Element nach "
+"dem Teilen der Geometrie zu erzeugen. "
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
@@ -835,6 +840,7 @@ msgstr "Suche"
 msgctxt "view~dictionnary.featuresTable.empty.message"
 msgid "This table is empty. There are no items to display."
 msgstr ""
+"Die Attributtabelle ist leer, es können keine Objekte angezeigt werden."
 
 #: view~dictionnary.featuresTable.item.active.hover
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
@@ -1163,7 +1169,7 @@ msgstr "per Rechteck zoomen"
 #: view~dictionnary.navbar.zoomextent.hover
 msgctxt "view~dictionnary.navbar.zoomextent.hover"
 msgid "Zoom to initial map extent"
-msgstr "An anfangs Masstab zoomen"
+msgstr "Komplette Kartenausdehnung"
 
 #: view~dictionnary.navbar.zoomin.hover
 msgctxt "view~dictionnary.navbar.zoomin.hover"
@@ -1475,7 +1481,7 @@ msgstr ""
 #: view~dictionnary.startup.features.empty
 msgctxt "view~dictionnary.startup.features.empty"
 msgid "No features to display"
-msgstr ""
+msgstr "Es gibt keine Objekte, die angezeigt werden könnten."
 
 #: view~dictionnary.startup.features.error
 msgctxt "view~dictionnary.startup.features.error"
@@ -1487,7 +1493,7 @@ msgstr ""
 #: view~dictionnary.startup.features.loading
 msgctxt "view~dictionnary.startup.features.loading"
 msgid "Loading features, please wait..."
-msgstr ""
+msgstr "Lade Objekte, bitte warte..."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
@@ -1591,7 +1597,7 @@ msgstr "Sie sind nicht berechtigt, das Editierwerkzeug zu verwenden."
 #: view~edition.form.action.future.close
 msgctxt "view~edition.form.action.future.close"
 msgid "Close form"
-msgstr "Formular schließen"
+msgstr "Attributformular schließen"
 
 #: view~edition.form.action.future.create
 msgctxt "view~edition.form.action.future.create"
@@ -1601,7 +1607,7 @@ msgstr "Neues Element anlegen"
 #: view~edition.form.action.future.edit
 msgctxt "view~edition.form.action.future.edit"
 msgid "Reopen form"
-msgstr "Formular erneut öffnen"
+msgstr "Attributformular erneut öffnen"
 
 #: view~edition.form.action.future.label
 msgctxt "view~edition.form.action.future.label"
@@ -1797,7 +1803,7 @@ msgstr "Lizmap kann die Daten des Elements nicht per WFS ermitteln"
 #: view~edition.message.error.form.get
 msgctxt "view~edition.message.error.form.get"
 msgid "An error has been raised when getting the form"
-msgstr "Beim Erstellen des Formulars ist ein Fehler aufgetreten"
+msgstr "Beim Erstellen des Attributformulars ist ein Fehler aufgetreten"
 
 #: view~edition.message.error.geometry.outside.polygons
 msgctxt "view~edition.message.error.geometry.outside.polygons"
@@ -1850,7 +1856,7 @@ msgstr ""
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
 msgid "An error has been raised when saving the form."
-msgstr "Beim Speichern der Formulars ist ein Fehler aufgetreten."
+msgstr "Beim Speichern der Attributformulars ist ein Fehler aufgetreten."
 
 #: view~edition.message.error.save.fields
 msgctxt "view~edition.message.error.save.fields"
@@ -1959,7 +1965,7 @@ msgstr "Digitalisieren"
 #: view~edition.tab.form.title
 msgctxt "view~edition.tab.form.title"
 msgid "Form"
-msgstr "Form"
+msgstr "Attributformular"
 
 #: view~edition.toolbar.cancel.title
 msgctxt "view~edition.toolbar.cancel.title"
@@ -2354,7 +2360,7 @@ msgstr "per Rechteck zoomen"
 #: view~map.navbar.zoomextent.hover
 msgctxt "view~map.navbar.zoomextent.hover"
 msgid "Zoom to initial map extent"
-msgstr "An anfangs Masstab zoomen"
+msgstr "Komplette Kartenausdehnung"
 
 #: view~map.navbar.zoomin.hover
 msgctxt "view~map.navbar.zoomin.hover"

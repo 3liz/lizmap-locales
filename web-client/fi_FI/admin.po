@@ -2,14 +2,15 @@
 # Translators:
 # Laurent Jouanneau <dev@ljouanneau.com>, 2025
 # Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2025
+# Raine Ekman, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 11:56++0200\n"
+"POT-Creation-Date: 2025-09-28 23:03++0000\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
-"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2025\n"
+"Last-Translator: Raine Ekman, 2025\n"
 "Language-Team: Finnish (https://app.transifex.com/3liz-1/teams/62012/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,17 +31,17 @@ msgstr "Tyhjennä välimuisti"
 #: admin~admin.cache.button.remove.repository.cache.tooltip
 msgctxt "admin~admin.cache.button.remove.repository.cache.tooltip"
 msgid "Remove the cache related to the layers tiles"
-msgstr ""
+msgstr "Poista välimuisti tältä tasolta"
 
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
 msgid "The cache for the layer %s has been successfully emptied."
-msgstr ""
+msgstr "Tason %s välimuisti on tyhjennetty."
 
 #: admin~admin.cache.repository.removed
 msgctxt "admin~admin.cache.repository.removed"
 msgid "The cache for the repository %s has been successfully emptied."
-msgstr ""
+msgstr "Etäkirjaston %s välimuisti on onnistuneesti tyhjennetty."
 
 #: admin~admin.config.services.allowUserAccountRequest.noemail
 msgctxt "admin~admin.config.services.allowUserAccountRequest.noemail"
@@ -48,6 +49,8 @@ msgid ""
 "This option cannot be enabled while the sender email is not defined. Please "
 "contact the application administrator."
 msgstr ""
+"Tätä asetusta ei voi ottaa käyttöön kun lähettäjän sähköpostiosoitetta ei "
+"ole määritelty. Ota yhteys sovelluksen pääkäyttäjään."
 
 #: admin~admin.configuration.button.add.repository.label
 msgctxt "admin~admin.configuration.button.add.repository.label"
@@ -67,7 +70,7 @@ msgstr "Muokkaa"
 #: admin~admin.configuration.button.modify.repository.tooltip
 msgctxt "admin~admin.configuration.button.modify.repository.tooltip"
 msgid "Change the settings of this repository"
-msgstr ""
+msgstr "Muuta tämän etäkirjaston asetuksia"
 
 #: admin~admin.configuration.button.modify.service.label
 msgctxt "admin~admin.configuration.button.modify.service.label"
@@ -92,7 +95,7 @@ msgstr "Poista"
 #: admin~admin.configuration.button.remove.repository.tooltip
 msgctxt "admin~admin.configuration.button.remove.repository.tooltip"
 msgid "Remove this repository (it will not delete the files from the server)"
-msgstr ""
+msgstr "Poista tämä etäkirjasto (tiedostoja ei poisteta serveriltä)"
 
 #: admin~admin.configuration.button.view.repository.label
 msgctxt "admin~admin.configuration.button.view.repository.label"
@@ -123,7 +126,7 @@ msgstr "Ylläpitäjän sähköpostiosoite"
 msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of LDAP authentication"
-msgstr ""
+msgstr "Tämä vaihtoehto on pois käytöstä LDAP todennuksen vuoksi"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -183,7 +186,7 @@ msgstr "Välimuisti"
 #: admin~admin.configuration.services.section.emails.label
 msgctxt "admin~admin.configuration.services.section.emails.label"
 msgid "Emails"
-msgstr ""
+msgstr "Sähköpostit"
 
 #: admin~admin.configuration.services.section.features.label
 msgctxt "admin~admin.configuration.services.section.features.label"
@@ -203,7 +206,7 @@ msgstr "Projektit"
 #: admin~admin.configuration.services.section.qgis.label
 msgctxt "admin~admin.configuration.services.section.qgis.label"
 msgid "QGIS server"
-msgstr ""
+msgstr "QGIS-serveri"
 
 #: admin~admin.configuration.services.section.system.label
 msgctxt "admin~admin.configuration.services.section.system.label"
@@ -218,7 +221,7 @@ msgstr "Maksimi korkeus GetMap pyynnölle"
 #: admin~admin.configuration.services.wmsMaxWidth.label
 msgctxt "admin~admin.configuration.services.wmsMaxWidth.label"
 msgid "Maximum Width for GetMap request"
-msgstr ""
+msgstr "Maksimi leveys GetMap pyynnölle"
 
 #: admin~admin.configuration.services.wmsPublicUrlList.label
 msgctxt "admin~admin.configuration.services.wmsPublicUrlList.label"
@@ -228,7 +231,7 @@ msgstr "WMS alapalvelimen URL lista (valinnainen)"
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
 msgid "QGIS server URL"
-msgstr ""
+msgstr "QGIS-serverin URL"
 
 #: admin~admin.form.admin_section.data.label
 msgctxt "admin~admin.form.admin_section.data.label"
@@ -259,7 +262,7 @@ msgstr "Muokkaa etäkirjastoa"
 msgctxt ""
 "admin~admin.form.admin_section.message.accessControlAllowOrigin.bad.domain"
 msgid "Content is not a valid URL or a list of URLs."
-msgstr ""
+msgstr "Sisältö ei ole kelvollinen URL tai lista URLeista"
 
 #: admin~admin.form.admin_section.message.configure.rights
 msgctxt "admin~admin.form.admin_section.message.configure.rights"
@@ -284,7 +287,7 @@ msgstr "(koskettaa %s ryhmää)"
 #: admin~admin.form.admin_section.message.data.saved
 msgctxt "admin~admin.form.admin_section.message.data.saved"
 msgid "The repository data has been saved."
-msgstr ""
+msgstr "Etäkirjaston tiedot on tallennettu."
 
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
@@ -294,7 +297,7 @@ msgstr "Annetulle etäkirjastolle ei ole oikeuksia."
 #: admin~admin.form.admin_section.message.path.wrong
 msgctxt "admin~admin.form.admin_section.message.path.wrong"
 msgid "The path given for the repository does not exist on the server."
-msgstr ""
+msgstr "Annettua polkua etäkirjastoon ei ole olemassa palvelimella."
 
 #: admin~admin.form.admin_section.message.repository.wrong
 msgctxt "admin~admin.form.admin_section.message.repository.wrong"
@@ -322,7 +325,7 @@ msgstr ""
 msgctxt ""
 "admin~admin.form.admin_section.repository.allowUserDefinedThemes.label"
 msgid "Allow themes/javascript codes for this repository"
-msgstr ""
+msgstr "Salli teemat/javascript tälle etäkirjastolle"
 
 #: admin~admin.form.admin_section.repository.help
 msgctxt "admin~admin.form.admin_section.repository.help"
@@ -335,7 +338,7 @@ msgstr ""
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: admin~admin.form.admin_section.repository.label.help
 msgctxt "admin~admin.form.admin_section.repository.label.help"
@@ -357,7 +360,7 @@ msgstr ""
 #: admin~admin.form.admin_section.repository.path.invalid
 msgctxt "admin~admin.form.admin_section.repository.path.invalid"
 msgid "Path not found"
-msgstr ""
+msgstr "Polkua ei löydy"
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -372,12 +375,12 @@ msgstr "Tallenna"
 #: admin~admin.form.admin_services.adminContactEmail.help
 msgctxt "admin~admin.form.admin_services.adminContactEmail.help"
 msgid "E-mail address to which notifications will be sent"
-msgstr ""
+msgstr "Sähköpostiosoite jonne huomautukset lähetetään"
 
 #: admin~admin.form.admin_services.adminContactEmail.label
 msgctxt "admin~admin.form.admin_services.adminContactEmail.label"
 msgid "E-mail where to send notifications"
-msgstr ""
+msgstr "Sähköpostiosoite jonne huomautukset lähetetään"
 
 #: admin~admin.form.admin_services.adminSenderEmail.error.required
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.error.required"
@@ -385,6 +388,8 @@ msgid ""
 "A sender e-mail address is required to send notification or requests for "
 "account creation"
 msgstr ""
+"Lähettäjän sähköpostiosoite vaaditaan huomautusten tai tilin luomispyyntöjen"
+" lähettämiseksi."
 
 #: admin~admin.form.admin_services.adminSenderEmail.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
@@ -392,26 +397,29 @@ msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
 msgstr ""
+"Sähköpostiosoite josta sähköpostit lähetetään. Jos tämä on tyhjä, Lizmap ei "
+"lähetä sähköposteja. Varmista, että palvelimen on sallittu lähettää tästä "
+"osoitteesta sähköpostia."
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
 msgid "Sender address of e-mails"
-msgstr ""
+msgstr "Lähettäjän sähköpostiosoite"
 
 #: admin~admin.form.admin_services.adminSenderEmail.readonly.help
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.readonly.help"
 msgid "E-mail address used to send e-mails. It cannot be modified."
-msgstr ""
+msgstr "Lähettäjän sähköpostiosoite. Tätä asetusta ei voi muuttaa."
 
 #: admin~admin.form.admin_services.adminSenderName.help
 msgctxt "admin~admin.form.admin_services.adminSenderName.help"
 msgid "Name of the sender used to send e-mails."
-msgstr ""
+msgstr "Sähköpostien lähettäjän nimi."
 
 #: admin~admin.form.admin_services.adminSenderName.label
 msgctxt "admin~admin.form.admin_services.adminSenderName.label"
 msgid "Sender name of e-mails"
-msgstr ""
+msgstr "Sähköpostien lähettäjän nimi"
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.help
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.help"
@@ -419,6 +427,8 @@ msgid ""
 "If set to on, the visitors can fill a form to request an account. Sender "
 "address for e-mails should be set."
 msgstr ""
+"Jos asetettu voivat vierailija täyttää lomakkeen pyytääkseen tiliä. "
+"Lähettäjän sähköpostiosoite tulisi olla asetettuna."
 
 #: admin~admin.form.admin_services.allowUserAccountRequests.label
 msgctxt "admin~admin.form.admin_services.allowUserAccountRequests.label"
@@ -450,6 +460,8 @@ msgid ""
 "Redis database index: integer ≥ 0, optional (used if Redis is chosen for the"
 " cache storage)"
 msgstr ""
+"Redis tietokannan indeksi: kokonaisluku >=0 , valinnainen (käytetään jos "
+"Redis valittu välimuistin varastoksi)"
 
 #: admin~admin.form.admin_services.cacheRedisDb.label
 msgctxt "admin~admin.form.admin_services.cacheRedisDb.label"
@@ -518,7 +530,7 @@ msgstr "Redis"
 #: admin~admin.form.admin_services.cacheStorageType.sqlite.label
 msgctxt "admin~admin.form.admin_services.cacheStorageType.sqlite.label"
 msgid "SQLite database"
-msgstr ""
+msgstr "Sqlite-tietokanta"
 
 #: admin~admin.form.admin_services.debugMode.0.label
 msgctxt "admin~admin.form.admin_services.debugMode.0.label"
@@ -552,6 +564,9 @@ msgid ""
 "sent by Lizmap, and therefore, some features like password recovery or email"
 " notifications won't work."
 msgstr ""
+"Lizmap vaatii lähettäjän osoitteen lähettääkseen sähköpostia. Jos tämä on "
+"tyhjä, Lizmap ei lähetä sähköposteja, ja siksi jotkin ominaisuudet kuten "
+"salasanan palautus ja sähköpostihuomautukset eivät toimi."
 
 #: admin~admin.form.admin_services.emails.no.server
 msgctxt "admin~admin.form.admin_services.emails.no.server"
@@ -567,16 +582,18 @@ msgid ""
 "Be sure the web server is able to send emails or setup SMTP parameters into "
 "the configuration files of Lizmap."
 msgstr ""
+"Varmista, että web-palvelin pystyy lähettämään sähköpostia tai aseta SMTP-"
+"parametrit Lizmapin asetustiedostoihin."
 
 #: admin~admin.form.admin_services.googleTag.help
 msgctxt "admin~admin.form.admin_services.googleTag.help"
 msgid "The Google Tag starts with 'G-'."
-msgstr ""
+msgstr "Google-tagi alkaa 'G-'"
 
 #: admin~admin.form.admin_services.googleTag.label
 msgctxt "admin~admin.form.admin_services.googleTag.label"
 msgid "Google Tag"
-msgstr ""
+msgstr "Google-tagi"
 
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"
@@ -610,6 +627,7 @@ msgstr ""
 msgctxt "admin~admin.form.admin_services.message.cacheRootDirectory.wrong"
 msgid "The directory does not exist or is not writable. You can use: %s"
 msgstr ""
+"Hakemistoa ei ole olemassa tai sinne ei voi kirjoittaa. Voit käyttää: %s"
 
 #: admin~admin.form.admin_services.message.data.saved
 msgctxt "admin~admin.form.admin_services.message.data.saved"
@@ -619,7 +637,7 @@ msgstr "Tiedot on talletettu."
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
 msgctxt "admin~admin.form.admin_services.message.wmsPublicUrlList.wrong"
 msgid "The WMS subdomain URLs structure is not valid."
-msgstr ""
+msgstr "WMS aladomainin URL rakenne ei ole oikein."
 
 #: admin~admin.form.admin_services.no.label
 msgctxt "admin~admin.form.admin_services.no.label"
@@ -666,7 +684,7 @@ msgstr "QGIS palvelimen versio"
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use a relative path from the root folder?"
-msgstr ""
+msgstr "Käyttääköö palvelin suhteellista polkua juurihakemistosta?"
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
@@ -755,7 +773,7 @@ msgstr "Oletus maksimi korkeus GetMap pyynnölle"
 #: admin~admin.form.admin_services.wmsMaxWidth.label
 msgctxt "admin~admin.form.admin_services.wmsMaxWidth.label"
 msgid "Default max. Width for GetMap request"
-msgstr ""
+msgstr "Maksimileveyden oletus GetMap pyynnölle"
 
 #: admin~admin.form.admin_services.wmsPublicUrlList.label
 msgctxt "admin~admin.form.admin_services.wmsPublicUrlList.label"
@@ -765,7 +783,7 @@ msgstr "WMS alapalvelimen URL lista (valinnainen)"
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
 msgid "QGIS server URL"
-msgstr ""
+msgstr "QGIS-serverin URL"
 
 #: admin~admin.form.admin_services.yes.label
 msgctxt "admin~admin.form.admin_services.yes.label"
@@ -777,11 +795,13 @@ msgctxt "admin~admin.form.admin_theme.additionalCss.help"
 msgid ""
 "You can write any CSS syntax to override Lizmap style (for advanced users)"
 msgstr ""
+"Voit kirjoittaa CSS-syntaksia ilman rajoituksia ohittaaksesi Lizmapin tyylit"
+" (edistyneille käyttäjille)"
 
 #: admin~admin.form.admin_theme.additionalCss.label
 msgctxt "admin~admin.form.admin_theme.additionalCss.label"
 msgid "Additional CSS properties"
-msgstr ""
+msgstr "CSS-lisäominaisuudet"
 
 #: admin~admin.form.admin_theme.dockBackgroundColor.help
 msgctxt "admin~admin.form.admin_theme.dockBackgroundColor.help"
@@ -1081,12 +1101,12 @@ msgstr "Lokitaulu %s on onnistuneesti tyhjennetty."
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the error log file"
-msgstr ""
+msgstr "Virhelokin viimeiset rivit"
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
 msgid "Error log"
-msgstr ""
+msgstr "Virheloki"
 
 #: admin~admin.logs.export.button
 msgctxt "admin~admin.logs.export.button"
@@ -1096,7 +1116,7 @@ msgstr "Vie"
 #: admin~admin.logs.file.too.big
 msgctxt "admin~admin.logs.file.too.big"
 msgid "The log file is too big. Consider using log rotation for this log."
-msgstr ""
+msgstr "Lokitiedosto on liian iso. Harkitse lokin rotaatiota tälle lokille."
 
 #: admin~admin.logs.first_page
 msgctxt "admin~admin.logs.first_page"
@@ -1141,7 +1161,7 @@ msgstr "Aikaleima"
 #: admin~admin.logs.title
 msgctxt "admin~admin.logs.title"
 msgid "Logs"
-msgstr ""
+msgstr "Lokit"
 
 #: admin~admin.logs.user
 msgctxt "admin~admin.logs.user"
@@ -1176,12 +1196,12 @@ msgstr "Näytä lokit"
 #: admin~admin.menu.lizmap.project.list.label
 msgctxt "admin~admin.menu.lizmap.project.list.label"
 msgid "QGIS projects"
-msgstr ""
+msgstr "QGIS-projektit"
 
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
 msgid "Maps management"
-msgstr ""
+msgstr "Karttojen hallinta"
 
 #: admin~admin.menu.lizmap.theme.label
 msgctxt "admin~admin.menu.lizmap.theme.label"
@@ -1191,12 +1211,12 @@ msgstr "Teema"
 #: admin~admin.menu.server.information.label
 msgctxt "admin~admin.menu.server.information.label"
 msgid "Server information"
-msgstr ""
+msgstr "Tietoja serveristä"
 
 #: admin~admin.menu.server.label
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
-msgstr ""
+msgstr "Serveri"
 
 #: admin~admin.project.error.some.projects.not.displayed
 msgctxt "admin~admin.project.error.some.projects.not.displayed"
@@ -1252,19 +1272,19 @@ msgstr ""
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
 msgid "Invalid layers"
-msgstr ""
+msgstr "Virheellinen taso"
 
 #: admin~admin.project.list.column.invalid.layers.list.label
 msgctxt "admin~admin.project.list.column.invalid.layers.list.label"
 msgid "List of invalid layers"
-msgstr ""
+msgstr "Virheellisten tasojen lista"
 
 #: admin~admin.project.list.column.layers.count.error.label
 msgctxt "admin~admin.project.list.column.layers.count.error.label"
 msgid ""
 "This project has a huge number of layers. Performance could be highly "
 "degraded."
-msgstr ""
+msgstr "Projektissa on hyvin monta tasoa. Suorituskyky voi kärsiä."
 
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
@@ -1279,7 +1299,7 @@ msgstr ""
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
 msgid "This project has many layers. Performance could be degraded."
-msgstr ""
+msgstr "Projektissa on monta tasoa. Suorituskyky voi kärsiä."
 
 #: admin~admin.project.list.column.layout.count.label
 msgctxt "admin~admin.project.list.column.layout.count.label"
@@ -1338,17 +1358,17 @@ msgstr ""
 #: admin~admin.project.list.column.memory.usage.label.alt
 msgctxt "admin~admin.project.list.column.memory.usage.label.alt"
 msgid "Memory"
-msgstr ""
+msgstr "Muisti"
 
 #: admin~admin.project.list.column.memory.usage.warning.label
 msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
 msgid "The project memory usage is a bit high."
-msgstr ""
+msgstr "Projektin muistin käyttö on korkea"
 
 #: admin~admin.project.list.column.path.label
 msgctxt "admin~admin.project.list.column.path.label"
 msgid "Path"
-msgstr ""
+msgstr "Polku"
 
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
@@ -1363,12 +1383,12 @@ msgstr ""
 #: admin~admin.project.list.column.project.file.time.label
 msgctxt "admin~admin.project.list.column.project.file.time.label"
 msgid "Last modified"
-msgstr ""
+msgstr "Viimeksi muokattu"
 
 #: admin~admin.project.list.column.project.has.log.label
 msgctxt "admin~admin.project.list.column.project.has.log.label"
 msgid "QGIS Server logs"
-msgstr ""
+msgstr "QGIS-serverin loki"
 
 #: admin~admin.project.list.column.project.label
 msgctxt "admin~admin.project.list.column.project.label"
@@ -1378,7 +1398,7 @@ msgstr "Projekti"
 #: admin~admin.project.list.column.project.qgis.log.label
 msgctxt "admin~admin.project.list.column.project.qgis.log.label"
 msgid "QGIS Server logs"
-msgstr ""
+msgstr "QGIS-serverin loki"
 
 #: admin~admin.project.list.column.qgis.desktop.recent.label.html
 msgctxt "admin~admin.project.list.column.qgis.desktop.recent.label.html"
@@ -1423,7 +1443,7 @@ msgstr "Etäkirjasto"
 #: admin~admin.project.list.column.show.line.hidden.columns
 msgctxt "admin~admin.project.list.column.show.line.hidden.columns"
 msgid "Show/Hide the hidden columns"
-msgstr ""
+msgstr "Näytä/piilota piilotetut sarakkeet"
 
 #: admin~admin.project.list.column.target.lizmap.version.label
 msgctxt "admin~admin.project.list.column.target.lizmap.version.label"
@@ -1489,6 +1509,7 @@ msgstr ""
 msgctxt "admin~admin.project.rules.list.custom.projection"
 msgid "The project is using a <strong>user-defined</strong> projection."
 msgstr ""
+"Projekti käyttää <strong>käyttäjän määrittelemää</strong> projektiota."
 
 #: admin~admin.project.rules.list.description.html
 msgctxt "admin~admin.project.rules.list.description.html"
@@ -1501,7 +1522,7 @@ msgstr ""
 #: admin~admin.project.rules.list.error.loading.html
 msgctxt "admin~admin.project.rules.list.error.loading.html"
 msgid "The project takes longer than <strong>%s</strong> seconds to load."
-msgstr ""
+msgstr "Projektin lataaminen kestää yli <strong>%s</strong> sekuntia."
 
 #: admin~admin.project.rules.list.error.memory.html
 msgctxt "admin~admin.project.rules.list.error.memory.html"
@@ -1509,6 +1530,7 @@ msgid ""
 "The project takes more than <strong>%s</strong> Mo of the server memory to "
 "load."
 msgstr ""
+"Projektin lataaminen vaatii yli <strong>%s</strong> Mt serverin muistia."
 
 #: admin~admin.project.rules.list.important.count.layers.html
 msgctxt "admin~admin.project.rules.list.important.count.layers.html"
@@ -1561,7 +1583,7 @@ msgstr ""
 #: admin~admin.project.rules.list.warning.loading.html
 msgctxt "admin~admin.project.rules.list.warning.loading.html"
 msgid "The project takes longer than <strong>%s</strong> seconds to load."
-msgstr ""
+msgstr "Projektin lataaminen kestää yli <strong>%s</strong> sekuntia."
 
 #: admin~admin.project.rules.list.warning.memory.html
 msgctxt "admin~admin.project.rules.list.warning.memory.html"
@@ -1569,6 +1591,7 @@ msgid ""
 "The project takes more than <strong>%s</strong> Mo of the server memory to "
 "load."
 msgstr ""
+"Projektin lataaminen vaatii yli <strong>%s</strong> Mt serverin muistia."
 
 #: admin~admin.project.rules.list.warnings.html
 msgctxt "admin~admin.project.rules.list.warnings.html"
@@ -1600,12 +1623,12 @@ msgstr "Informaatio"
 #: admin~admin.server.information.lizmap.info.date
 msgctxt "admin~admin.server.information.lizmap.info.date"
 msgid "Date of release"
-msgstr ""
+msgstr "Julkaisupäivämäärä"
 
 #: admin~admin.server.information.lizmap.info.version
 msgctxt "admin~admin.server.information.lizmap.info.version"
 msgid "Version"
-msgstr ""
+msgstr "Versio"
 
 #: admin~admin.server.information.lizmap.label
 msgctxt "admin~admin.server.information.lizmap.label"
@@ -1625,7 +1648,7 @@ msgstr ""
 #: admin~admin.server.information.module.version
 msgctxt "admin~admin.server.information.module.version"
 msgid "Version"
-msgstr ""
+msgstr "Versio"
 
 #: admin~admin.server.information.modules
 msgctxt "admin~admin.server.information.modules"
@@ -1645,7 +1668,7 @@ msgstr ""
 #: admin~admin.server.information.qgis.action
 msgctxt "admin~admin.server.information.qgis.action"
 msgid "Action"
-msgstr ""
+msgstr "Toiminto"
 
 #: admin~admin.server.information.qgis.error.fetching.information
 msgctxt "admin~admin.server.information.qgis.error.fetching.information"
@@ -1730,12 +1753,12 @@ msgstr ""
 #: admin~admin.server.information.qgis.label
 msgctxt "admin~admin.server.information.qgis.label"
 msgid "QGIS Server"
-msgstr ""
+msgstr "QGIS-serveri"
 
 #: admin~admin.server.information.qgis.metadata
 msgctxt "admin~admin.server.information.qgis.metadata"
 msgid "Version"
-msgstr ""
+msgstr "Versio"
 
 #: admin~admin.server.information.qgis.name
 msgctxt "admin~admin.server.information.qgis.name"
@@ -1755,7 +1778,7 @@ msgstr "Apua"
 #: admin~admin.server.information.qgis.plugin.version
 msgctxt "admin~admin.server.information.qgis.plugin.version"
 msgid "Version"
-msgstr ""
+msgstr "Versio"
 
 #: admin~admin.server.information.qgis.plugins
 msgctxt "admin~admin.server.information.qgis.plugins"
@@ -1819,7 +1842,7 @@ msgstr ""
 #: admin~admin.server.information.qgis.wrapper.not.installed
 msgctxt "admin~admin.server.information.qgis.wrapper.not.installed"
 msgid "Not installed"
-msgstr ""
+msgstr "Ei asennettu"
 
 #: admin~admin.theme.button.remove.logo.confirm.label
 msgctxt "admin~admin.theme.button.remove.logo.confirm.label"
@@ -1849,12 +1872,12 @@ msgstr ""
 #: admin~admin.upload.image.error.file.invalid
 msgctxt "admin~admin.upload.image.error.file.invalid"
 msgid "Invalid file"
-msgstr ""
+msgstr "Virheellinen tiedosto"
 
 #: admin~admin.upload.image.error.file.missing
 msgctxt "admin~admin.upload.image.error.file.missing"
 msgid "File is missing"
-msgstr ""
+msgstr "Tiedosto puuttuu"
 
 #: admin~admin.upload.image.error.file.none
 msgctxt "admin~admin.upload.image.error.file.none"
@@ -1864,7 +1887,7 @@ msgstr ""
 #: admin~admin.upload.image.error.file.onDisk
 msgctxt "admin~admin.upload.image.error.file.onDisk"
 msgid "Failed to write file to disk"
-msgstr ""
+msgstr "Tiedostoa ei voitu kirjoittaa levylle"
 
 #: admin~admin.upload.image.error.file.partially
 msgctxt "admin~admin.upload.image.error.file.partially"
@@ -1874,17 +1897,17 @@ msgstr ""
 #: admin~admin.upload.image.error.file.save
 msgctxt "admin~admin.upload.image.error.file.save"
 msgid "An error occurred during the save"
-msgstr ""
+msgstr "Tapahtui virhe tallennettaessa"
 
 #: admin~admin.upload.image.error.file.wrongType
 msgctxt "admin~admin.upload.image.error.file.wrongType"
 msgid "Wrong file type. Only images are allowed"
-msgstr ""
+msgstr "Väärä tiedostotyyppi. Ainoastaan kuvat ovat sallittuja."
 
 #: admin~admin.upload.image.error.missing.temp
 msgctxt "admin~admin.upload.image.error.missing.temp"
 msgid "Missing a temporary folder"
-msgstr ""
+msgstr "Tilapäinen hakemisto puuttuu"
 
 #: admin~jacl2.lizmap.admin.access
 msgctxt "admin~jacl2.lizmap.admin.access"
@@ -1909,12 +1932,12 @@ msgstr ""
 #: admin~jacl2.lizmap.admin.lizmap.log.delete
 msgctxt "admin~jacl2.lizmap.admin.lizmap.log.delete"
 msgid "Delete the lizmap logs"
-msgstr ""
+msgstr "Poista lizmapin lokit"
 
 #: admin~jacl2.lizmap.admin.lizmap.log.view
 msgctxt "admin~jacl2.lizmap.admin.lizmap.log.view"
 msgid "View the lizmap logs"
-msgstr ""
+msgstr "Tarkastele lizmapin lokeja"
 
 #: admin~jacl2.lizmap.admin.project.list.view
 msgctxt "admin~jacl2.lizmap.admin.project.list.view"
