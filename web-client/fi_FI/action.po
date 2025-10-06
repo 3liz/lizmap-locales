@@ -1,14 +1,15 @@
 # 
 # Translators:
 # Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2025
+# Raine Ekman, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 action\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-25 09:33++0000\n"
+"POT-Creation-Date: 2025-09-01 11:58++0200\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
-"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2025\n"
+"Last-Translator: Raine Ekman, 2025\n"
 "Language-Team: Finnish (https://app.transifex.com/3liz-1/teams/62012/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 #: action~action.dock.action.choose
 msgctxt "action~action.dock.action.choose"
 msgid "Choose an action to run"
-msgstr ""
+msgstr "Valitse ajettava toiminto"
 
 #: action~action.dock.close
 msgctxt "action~action.dock.close"
@@ -29,7 +30,7 @@ msgstr "Sulje"
 #: action~action.dock.form.button.deactivate.help
 msgctxt "action~action.dock.form.button.deactivate.help"
 msgid "Deactivate the active action"
-msgstr ""
+msgstr "Poista aktiivisen toiminnon aktivointi"
 
 #: action~action.dock.form.button.deactivate.label
 msgctxt "action~action.dock.form.button.deactivate.label"
@@ -39,27 +40,27 @@ msgstr "Poista aktivointi"
 #: action~action.dock.form.button.run.help
 msgctxt "action~action.dock.form.button.run.help"
 msgid "Run the selected action"
-msgstr ""
+msgstr "Aja valittu toiminto"
 
 #: action~action.dock.form.button.run.label
 msgctxt "action~action.dock.form.button.run.label"
 msgid "Run"
-msgstr ""
+msgstr "Aja"
 
 #: action~action.dock.form.select.emptyItem.label
 msgctxt "action~action.dock.form.select.emptyItem.label"
 msgid "Choose an action"
-msgstr ""
+msgstr "Valitse toiminto"
 
 #: action~action.dock.form.select.help
 msgctxt "action~action.dock.form.select.help"
 msgid "To run an action, select one in the list and click the Run button"
-msgstr ""
+msgstr "Ajaaksesi toiminnon, valitse se listasta ja paina \"Aja\"-painiketta."
 
 #: action~action.dock.form.select.warning
 msgctxt "action~action.dock.form.select.warning"
 msgid "You must first select an action in the list"
-msgstr ""
+msgstr "Sinun on ensin valittava toiminto listasta"
 
 #: action~action.dock.title
 msgctxt "action~action.dock.title"
@@ -74,3 +75,6 @@ msgid ""
 "the documentation</a> and convert it in the new format, since the old format"
 " will not work in the future versions."
 msgstr ""
+"<b>Toimintomoduulin</b> JSON-asetustiedosto on vanhassa formaatissa. <a "
+"target=\"_blank\" href=\"%s\">Lue ohjeistus</a>ja muunna se uuteen "
+"formaattiin, koska vanha formaatti ei ole tuettu tulevissa versioissa."
