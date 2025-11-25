@@ -1,15 +1,15 @@
 # 
 # Translators:
 # Laurent Jouanneau <dev@ljouanneau.com>, 2025
-# Xan Vieiro <gallaecia6@gmail.com>, 2025
+# 64eb61c3646b0eedec63063110e7a69b_6f71a2b <c69f892a6e1afe2fdf22d9fb0d5cf7f2_168233>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-25 09:33++0000\n"
+"POT-Creation-Date: 2025-11-14 14:50++0100\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
-"Last-Translator: Xan Vieiro <gallaecia6@gmail.com>, 2025\n"
+"Last-Translator: 64eb61c3646b0eedec63063110e7a69b_6f71a2b <c69f892a6e1afe2fdf22d9fb0d5cf7f2_168233>, 2025\n"
 "Language-Team: Galician (https://app.transifex.com/3liz-1/teams/62012/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -286,6 +286,12 @@ msgctxt "admin~admin.form.admin_section.message.data.saved"
 msgid "The repository data has been saved."
 msgstr ""
 
+#: admin~admin.form.admin_section.message.iframeEmbedAllowOrigin.bad.domain
+msgctxt ""
+"admin~admin.form.admin_section.message.iframeEmbedAllowOrigin.bad.domain"
+msgid "Content is not '*' or a valid URL or a list of URLs."
+msgstr ""
+
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
 msgid "The path given for the repository is not authorized."
@@ -330,6 +336,21 @@ msgid ""
 "Repository unique identifier, it must only contain characters between a-z "
 "and 0-9 (no space, no special character). This identifier can not be edited "
 "later."
+msgstr ""
+
+#: admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.help
+msgctxt ""
+"admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.help"
+msgid ""
+"List of URL separated by a comma, like "
+"'https://domain1.com,https://www.domain2.com' or '*' to allow all website. "
+"Path and query parameters will be removed from the URL."
+msgstr ""
+
+#: admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.label
+msgctxt ""
+"admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.label"
+msgid "List of websites allowed to embed iframe"
 msgstr ""
 
 #: admin~admin.form.admin_section.repository.label

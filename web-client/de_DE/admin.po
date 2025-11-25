@@ -3,19 +3,19 @@
 # tbnobody, 2025
 # Niko Trujanovic, 2025
 # Georges Moes <g.moes@naturemwelt.lu>, 2025
-# meyerlor <sn1ks@utok-gaming.de>, 2025
 # rldhont <rldhont@gmail.com>, 2025
 # Felix Kuehne <felixdemern@googlemail.com>, 2025
 # Dominik Visca, 2025
 # Laurent Jouanneau <dev@ljouanneau.com>, 2025
+# meyerlor <sn1ks@utok-gaming.de>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-25 09:33++0000\n"
+"POT-Creation-Date: 2025-11-14 14:50++0100\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2025\n"
+"Last-Translator: meyerlor <sn1ks@utok-gaming.de>, 2025\n"
 "Language-Team: German (https://app.transifex.com/3liz-1/teams/62012/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +36,7 @@ msgstr "Cache leeren"
 #: admin~admin.cache.button.remove.repository.cache.tooltip
 msgctxt "admin~admin.cache.button.remove.repository.cache.tooltip"
 msgid "Remove the cache related to the layers tiles"
-msgstr ""
+msgstr "Löscht den Cache der Kachel-Layer"
 
 #: admin~admin.cache.layer.removed
 msgctxt "admin~admin.cache.layer.removed"
@@ -75,7 +75,7 @@ msgstr "Bearb."
 #: admin~admin.configuration.button.modify.repository.tooltip
 msgctxt "admin~admin.configuration.button.modify.repository.tooltip"
 msgid "Change the settings of this repository"
-msgstr ""
+msgstr "Ändert die Verzeichniseinstellungen"
 
 #: admin~admin.configuration.button.modify.service.label
 msgctxt "admin~admin.configuration.button.modify.service.label"
@@ -100,7 +100,7 @@ msgstr "Entfernen"
 #: admin~admin.configuration.button.remove.repository.tooltip
 msgctxt "admin~admin.configuration.button.remove.repository.tooltip"
 msgid "Remove this repository (it will not delete the files from the server)"
-msgstr ""
+msgstr "Lösche das Verzeichnis (entfernt keine Dateien auf dem Server)"
 
 #: admin~admin.configuration.button.view.repository.label
 msgctxt "admin~admin.configuration.button.view.repository.label"
@@ -110,7 +110,7 @@ msgstr "Anzeigen"
 #: admin~admin.configuration.button.view.repository.tooltip
 msgctxt "admin~admin.configuration.button.view.repository.tooltip"
 msgid "Open the landing page with only this repository"
-msgstr ""
+msgstr "Zeige auf der Startseite einzig dieses Verzeichnis an"
 
 #: admin~admin.configuration.h1
 msgctxt "admin~admin.configuration.h1"
@@ -132,6 +132,8 @@ msgctxt ""
 "admin~admin.configuration.services.allowUserAccountRequests.help.deactivated"
 msgid "This option is deactivated because of the use of LDAP authentication"
 msgstr ""
+"Diese Option ist deaktiviert aufgrund der Verwendung von LDAP-"
+"Authentifizierung"
 
 #: admin~admin.configuration.services.allowUserAccountRequests.label
 msgctxt "admin~admin.configuration.services.allowUserAccountRequests.label"
@@ -176,7 +178,7 @@ msgstr "Dienste"
 #: admin~admin.configuration.services.onlyMaps.label
 msgctxt "admin~admin.configuration.services.onlyMaps.label"
 msgid "Disable landing page"
-msgstr ""
+msgstr "Deaktiviere die Startseite"
 
 #: admin~admin.configuration.services.rootRepositories.label
 msgctxt "admin~admin.configuration.services.rootRepositories.label"
@@ -196,7 +198,7 @@ msgstr "E-Mails"
 #: admin~admin.configuration.services.section.features.label
 msgctxt "admin~admin.configuration.services.section.features.label"
 msgid "GIS features properties"
-msgstr ""
+msgstr "GIS Objekteigenschaften"
 
 #: admin~admin.configuration.services.section.interface.label
 msgctxt "admin~admin.configuration.services.section.interface.label"
@@ -211,7 +213,7 @@ msgstr "Projekte"
 #: admin~admin.configuration.services.section.qgis.label
 msgctxt "admin~admin.configuration.services.section.qgis.label"
 msgid "QGIS server"
-msgstr ""
+msgstr "QGIS Server"
 
 #: admin~admin.configuration.services.section.system.label
 msgctxt "admin~admin.configuration.services.section.system.label"
@@ -236,7 +238,7 @@ msgstr "WMS-Subdomain-URL-Liste (optional)"
 #: admin~admin.configuration.services.wmsServerURL.label
 msgctxt "admin~admin.configuration.services.wmsServerURL.label"
 msgid "QGIS server URL"
-msgstr ""
+msgstr "URL des QGIS Servers"
 
 #: admin~admin.form.admin_section.data.label
 msgctxt "admin~admin.form.admin_section.data.label"
@@ -294,6 +296,12 @@ msgctxt "admin~admin.form.admin_section.message.data.saved"
 msgid "The repository data has been saved."
 msgstr "Verzeichnisdaten wurden gespeichert."
 
+#: admin~admin.form.admin_section.message.iframeEmbedAllowOrigin.bad.domain
+msgctxt ""
+"admin~admin.form.admin_section.message.iframeEmbedAllowOrigin.bad.domain"
+msgid "Content is not '*' or a valid URL or a list of URLs."
+msgstr ""
+
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
 msgid "The path given for the repository is not authorized."
@@ -320,6 +328,11 @@ msgid ""
 "Origin Resource Sharing. Read the article on Wikipedia "
 "https://wikipedia.org/wiki/Cross-origin_resource_sharing"
 msgstr ""
+"Kommaseparierte Liste von URLS, z.B. "
+"'https://domain1.com,https://www.domain2.com'. Pfad sowie Abfrageparameter "
+"werden entfernt. Diese Einstellung wird alle CORS-headers betreffen. Lies "
+"den Artikel auf Wikipedia: https://wikipedia.org/wiki/Cross-"
+"origin_resource_sharing "
 
 #: admin~admin.form.admin_section.repository.accessControlAllowOrigin.label
 msgctxt ""
@@ -346,6 +359,21 @@ msgstr ""
 " Leerzeichen, keine Sonderzeichen). Diese ID kann später nicht bearbeitet "
 "werden."
 
+#: admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.help
+msgctxt ""
+"admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.help"
+msgid ""
+"List of URL separated by a comma, like "
+"'https://domain1.com,https://www.domain2.com' or '*' to allow all website. "
+"Path and query parameters will be removed from the URL."
+msgstr ""
+
+#: admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.label
+msgctxt ""
+"admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.label"
+msgid "List of websites allowed to embed iframe"
+msgstr ""
+
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
 msgid "ID"
@@ -354,7 +382,7 @@ msgstr "ID"
 #: admin~admin.form.admin_section.repository.label.help
 msgctxt "admin~admin.form.admin_section.repository.label.help"
 msgid "Repository label, which will be displayed in the interface"
-msgstr ""
+msgstr "Verzeichnislabel, welches im Interface angezeigt wird"
 
 #: admin~admin.form.admin_section.repository.label.label
 msgctxt "admin~admin.form.admin_section.repository.label.label"
@@ -367,11 +395,13 @@ msgid ""
 "The directory in which QGIS projects and Lizmap configuration file must be "
 "stored."
 msgstr ""
+"Das Verzeichnis, in dem QGIS-Projekte und die Lizmap-Konfigurationsdatei "
+"gespeichert wird."
 
 #: admin~admin.form.admin_section.repository.path.invalid
 msgctxt "admin~admin.form.admin_section.repository.path.invalid"
 msgid "Path not found"
-msgstr ""
+msgstr "Pfad nicht gefunden"
 
 #: admin~admin.form.admin_section.repository.path.label
 msgctxt "admin~admin.form.admin_section.repository.path.label"
@@ -421,6 +451,8 @@ msgstr "Absender-Adresse der E-Mails"
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.readonly.help"
 msgid "E-mail address used to send e-mails. It cannot be modified."
 msgstr ""
+"E-Mailadresse, welche als Absenderadresse verwendet wird. Kann nicht "
+"geändert werden."
 
 #: admin~admin.form.admin_services.adminSenderName.help
 msgctxt "admin~admin.form.admin_services.adminSenderName.help"
@@ -577,6 +609,10 @@ msgid ""
 "sent by Lizmap, and therefore, some features like password recovery or email"
 " notifications won't work."
 msgstr ""
+"Um Mails zu senden, braucht Lizmap eine Absendeadresse. Wenn das Feld leer "
+"gelassen wird, werden keine Mails von Lizmap gesendet - das bedeutet, dass "
+"einige Features wie die Passwortwiederherstellung oder Benachrichtigungen "
+"via Mail nicht funktionieren werden."
 
 #: admin~admin.form.admin_services.emails.no.server
 msgctxt "admin~admin.form.admin_services.emails.no.server"
@@ -596,16 +632,18 @@ msgid ""
 "Be sure the web server is able to send emails or setup SMTP parameters into "
 "the configuration files of Lizmap."
 msgstr ""
+"Stelle sicher, dass der Web-Server Mails versenden kann. Trage die SMTP "
+"Parameter in die Konfigurationsdateien von Lizmap ein."
 
 #: admin~admin.form.admin_services.googleTag.help
 msgctxt "admin~admin.form.admin_services.googleTag.help"
 msgid "The Google Tag starts with 'G-'."
-msgstr ""
+msgstr "Das Google-Tag startet mit 'G-'"
 
 #: admin~admin.form.admin_services.googleTag.label
 msgctxt "admin~admin.form.admin_services.googleTag.label"
 msgid "Google Tag"
-msgstr ""
+msgstr "Google-Tag"
 
 #: admin~admin.form.admin_services.h1
 msgctxt "admin~admin.form.admin_services.h1"
@@ -624,7 +662,7 @@ msgstr ""
 #: admin~admin.form.admin_services.lizmapPluginAPIURL.label
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
 msgid "Base URL of the Lizmap plugin API for QGIS Server"
-msgstr ""
+msgstr "Basis URL der Lizmap Plugin API für den QGIS Server"
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
@@ -648,7 +686,7 @@ msgstr "Daten wurden gespeichert."
 #: admin~admin.form.admin_services.message.wmsPublicUrlList.wrong
 msgctxt "admin~admin.form.admin_services.message.wmsPublicUrlList.wrong"
 msgid "The WMS subdomain URLs structure is not valid."
-msgstr ""
+msgstr "Die WMS-Subdomain-URL-Struktur ist fehlerhaft."
 
 #: admin~admin.form.admin_services.no.label
 msgctxt "admin~admin.form.admin_services.no.label"
@@ -668,12 +706,12 @@ msgstr "An"
 #: admin~admin.form.admin_services.onlyMaps.help
 msgctxt "admin~admin.form.admin_services.onlyMaps.help"
 msgid "If set to \"On\", no landing page will be available."
-msgstr ""
+msgstr "Wenn aktiv, wird keine Startseite angezeigt werden"
 
 #: admin~admin.form.admin_services.onlyMaps.label
 msgctxt "admin~admin.form.admin_services.onlyMaps.label"
 msgid "Disable landing page"
-msgstr ""
+msgstr "Deaktiviere die Startseite"
 
 #: admin~admin.form.admin_services.projectSwitcher.help
 msgctxt "admin~admin.form.admin_services.projectSwitcher.help"
@@ -681,6 +719,9 @@ msgid ""
 "With a new button in the left menu, it is possible to navigate to another "
 "project, keeping the same extent and scale."
 msgstr ""
+"Durch eine neue Schaltfläche in der linken Menüleiste kann direkt zu einem "
+"anderen Projekt gesprungen werden, unter Beibehaltung der aktuellen "
+"Kartenausdehnung und Maßstabs."
 
 #: admin~admin.form.admin_services.projectSwitcher.label
 msgctxt "admin~admin.form.admin_services.projectSwitcher.label"
@@ -695,7 +736,7 @@ msgstr "QGIS Server-Version"
 #: admin~admin.form.admin_services.relativeWMSPath.label
 msgctxt "admin~admin.form.admin_services.relativeWMSPath.label"
 msgid "Does the server use a relative path from the root folder?"
-msgstr ""
+msgstr "Benutzt der Server relative Pfade vom Root-Verzeichnis? "
 
 #: admin~admin.form.admin_services.requestProxy.disabled
 msgctxt "admin~admin.form.admin_services.requestProxy.disabled"
@@ -794,7 +835,7 @@ msgstr "WMS-Subdomain-URL-Liste (optional)"
 #: admin~admin.form.admin_services.wmsServerURL.label
 msgctxt "admin~admin.form.admin_services.wmsServerURL.label"
 msgid "QGIS server URL"
-msgstr ""
+msgstr "URL des QGIS Servers"
 
 #: admin~admin.form.admin_services.yes.label
 msgctxt "admin~admin.form.admin_services.yes.label"
@@ -940,7 +981,7 @@ msgstr ""
 #: admin~admin.landingPageContent.error.save
 msgctxt "admin~admin.landingPageContent.error.save"
 msgid "Error while saving the landing page contents"
-msgstr ""
+msgstr "Fehler beim Speichern Startseiteninhalts."
 
 #: admin~admin.landingPageContent.error.submit
 msgctxt "admin~admin.landingPageContent.error.submit"
@@ -948,26 +989,28 @@ msgid ""
 "An error occurred while saving the content. Your session has been "
 "terminated, please retry."
 msgstr ""
+"Ein Fehler trat beim Speichern des Inhalts auf. Deine Sitzung wurde beendet,"
+" bitte versuche es erneut."
 
 #: admin~admin.landingPageContent.group.bottom
 msgctxt "admin~admin.landingPageContent.group.bottom"
 msgid "Bottom of the landing page"
-msgstr ""
+msgstr "Unterer Bereich der Startseite"
 
 #: admin~admin.landingPageContent.group.top
 msgctxt "admin~admin.landingPageContent.group.top"
 msgid "Top of the landing page"
-msgstr ""
+msgstr "Oberer Bereich der Startseite"
 
 #: admin~admin.landingPageContent.saved
 msgctxt "admin~admin.landingPageContent.saved"
 msgid "Content of the landing page has been saved"
-msgstr ""
+msgstr "Inhalt der Startseite wurde gespeichert"
 
 #: admin~admin.landingPageContent.unauthed
 msgctxt "admin~admin.landingPageContent.unauthed"
 msgid "Content for unauthenticated users"
-msgstr ""
+msgstr "Inhalt für nicht angemeldete Nutzer"
 
 #: admin~admin.landingPageContent.unauthed.position
 msgctxt "admin~admin.landingPageContent.unauthed.position"
@@ -992,42 +1035,44 @@ msgstr "Nein"
 #: admin~admin.log.qgis_login.hide
 msgctxt "admin~admin.log.qgis_login.hide"
 msgid "Hide QGIS login events"
-msgstr ""
+msgstr "Verstecke Logins durchs QGIS-Plugin"
 
 #: admin~admin.log.qgis_login.show
 msgctxt "admin~admin.log.qgis_login.show"
 msgid "Show QGIS login events"
-msgstr ""
+msgstr "Zeige Logins durchs QGIS-Plugin an"
 
 #: admin~admin.logs.admin.file.erase
 msgctxt "admin~admin.logs.admin.file.erase"
 msgid "Erase the admin log file"
-msgstr ""
+msgstr "Lösche die Admin-Logdatei"
 
 #: admin~admin.logs.admin.file.erase.confirm
 msgctxt "admin~admin.logs.admin.file.erase.confirm"
 msgid "Are you sure you want to erase the admin log file?"
-msgstr ""
+msgstr "Bist du sicher, dass du die Admin-Logdatei löschen möchtest?"
 
 #: admin~admin.logs.admin.file.erase.ok
 msgctxt "admin~admin.logs.admin.file.erase.ok"
 msgid "The admin log file has successfully been erased."
-msgstr ""
+msgstr "Die Admin-Logdaei wurde erfolgreich gelöscht"
 
 #: admin~admin.logs.admin.no.delete.right
 msgctxt "admin~admin.logs.admin.no.delete.right"
 msgid "You have no right to delete the logs."
 msgstr ""
+"Du verfügst nicht über ausreichende Berechtigungen, um die Admin-Logdatei zu"
+" löschen"
 
 #: admin~admin.logs.admin.sentence
 msgctxt "admin~admin.logs.admin.sentence"
 msgid "Last lines of the admin log file"
-msgstr ""
+msgstr "Letzte Zeilen der Admin-Logdatei"
 
 #: admin~admin.logs.admin.title
 msgctxt "admin~admin.logs.admin.title"
 msgid "Admin log"
-msgstr ""
+msgstr "Admin-Logdatei"
 
 #: admin~admin.logs.content
 msgctxt "admin~admin.logs.content"
@@ -1062,12 +1107,12 @@ msgstr "Protokolldetails"
 #: admin~admin.logs.email.editionDeleteFeature.body
 msgctxt "admin~admin.logs.email.editionDeleteFeature.body"
 msgid "A user has deleted a feature."
-msgstr ""
+msgstr "Ein Nutzer hat ein Objekt gelöscht"
 
 #: admin~admin.logs.email.editionSaveFeature.body
 msgctxt "admin~admin.logs.email.editionSaveFeature.body"
 msgid "A user has created or modified a feature."
-msgstr ""
+msgstr "Ein Nutzer hat ein Objekt erzeugt oder geändert"
 
 #: admin~admin.logs.email.login.body
 msgctxt "admin~admin.logs.email.login.body"
@@ -1112,7 +1157,7 @@ msgstr "Die Protokolltabelle %s wurde erfolgreich gelöscht."
 #: admin~admin.logs.error.sentence
 msgctxt "admin~admin.logs.error.sentence"
 msgid "Last lines of the error log file"
-msgstr ""
+msgstr "Letzte Zeilen des Fehlerprotokolls"
 
 #: admin~admin.logs.error.title
 msgctxt "admin~admin.logs.error.title"
@@ -1128,6 +1173,8 @@ msgstr "Export"
 msgctxt "admin~admin.logs.file.too.big"
 msgid "The log file is too big. Consider using log rotation for this log."
 msgstr ""
+"Das Fehlerprotokoll ist zu groß. Das Einrichten einer automatisierten Log-"
+"Rotation würde das Problem lösen"
 
 #: admin~admin.logs.first_page
 msgctxt "admin~admin.logs.first_page"
@@ -1172,7 +1219,7 @@ msgstr "Zeitstempel"
 #: admin~admin.logs.title
 msgctxt "admin~admin.logs.title"
 msgid "Logs"
-msgstr ""
+msgstr "Logs"
 
 #: admin~admin.logs.user
 msgctxt "admin~admin.logs.user"
@@ -1207,7 +1254,7 @@ msgstr "Logs anzeigen"
 #: admin~admin.menu.lizmap.project.list.label
 msgctxt "admin~admin.menu.lizmap.project.list.label"
 msgid "QGIS projects"
-msgstr ""
+msgstr "QGIS Projekte"
 
 #: admin~admin.menu.lizmap.repositories.label
 msgctxt "admin~admin.menu.lizmap.repositories.label"
@@ -1222,12 +1269,12 @@ msgstr "Layout-Thema"
 #: admin~admin.menu.server.information.label
 msgctxt "admin~admin.menu.server.information.label"
 msgid "Server information"
-msgstr ""
+msgstr "Serverinformationen"
 
 #: admin~admin.menu.server.label
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #: admin~admin.project.error.some.projects.not.displayed
 msgctxt "admin~admin.project.error.some.projects.not.displayed"
@@ -1250,7 +1297,7 @@ msgstr "Projektion"
 #: admin~admin.project.list.column.crs.user.warning.label
 msgctxt "admin~admin.project.list.column.crs.user.warning.label"
 msgid "Please avoid user-defined projections for projects and layers."
-msgstr ""
+msgstr "Bitte vermeide selbst erzeugte Projektionen für Projekte und Layer"
 
 #: admin~admin.project.list.column.hidden.project.label
 msgctxt "admin~admin.project.list.column.hidden.project.label"
@@ -1279,16 +1326,19 @@ msgid ""
 "* For file based layers, the path must be accessible. \n"
 "* For PostgreSQL layers, the Lizmap server must be able to connect to the database server."
 msgstr ""
+"QGIS kann einige Layer nicht laden. Bitte stelle sicher, dass der Server auf die Daten zugreifen kann.\n"
+"* Für dateibasierte Layer muss der Dateipfad zugänglich sein (Berechtigungen richtig gesetzt?)\n"
+"* Für PostgreSQL-Layer muss der Lizmap Server sich mit dem Datenbankserver verbinden können"
 
 #: admin~admin.project.list.column.invalid.layers.count.label
 msgctxt "admin~admin.project.list.column.invalid.layers.count.label"
 msgid "Invalid layers"
-msgstr ""
+msgstr "Ungültige Layer"
 
 #: admin~admin.project.list.column.invalid.layers.list.label
 msgctxt "admin~admin.project.list.column.invalid.layers.list.label"
 msgid "List of invalid layers"
-msgstr ""
+msgstr "Liste der ungültigen Layer"
 
 #: admin~admin.project.list.column.layers.count.error.label
 msgctxt "admin~admin.project.list.column.layers.count.error.label"
@@ -1296,22 +1346,24 @@ msgid ""
 "This project has a huge number of layers. Performance could be highly "
 "degraded."
 msgstr ""
+"Das Projekt hat sehr (!) viele Layer. Die Performance könnte stark "
+"beeinträchtigt sein."
 
 #: admin~admin.project.list.column.layers.count.label
 msgctxt "admin~admin.project.list.column.layers.count.label"
 msgid "Layers/Groups"
-msgstr ""
+msgstr "Layer/Gruppen"
 
 #: admin~admin.project.list.column.layers.count.label.longer
 msgctxt "admin~admin.project.list.column.layers.count.label.longer"
 msgid "Layer and group count"
-msgstr ""
+msgstr "Anzahl an Gruppen und Layern"
 
 #: admin~admin.project.list.column.layers.count.warning.label
 msgctxt "admin~admin.project.list.column.layers.count.warning.label"
 msgid "This project has many layers. Performance could be degraded."
 msgstr ""
-"Das Projekt hat sehr viele Layer. Die Performance könnte beeinträchtigt sein"
+"Das Projekt hat viele Layer. Die Performance könnte beeinträchtigt sein"
 
 #: admin~admin.project.list.column.layout.count.label
 msgctxt "admin~admin.project.list.column.layout.count.label"
@@ -1326,12 +1378,13 @@ msgstr "Lizmap Plugin"
 #: admin~admin.project.list.column.lizmap.warnings.count.label
 msgctxt "admin~admin.project.list.column.lizmap.warnings.count.label"
 msgid "Warnings"
-msgstr ""
+msgstr "Warnungen"
 
 #: admin~admin.project.list.column.lizmap.warnings.explanations.label
 msgctxt "admin~admin.project.list.column.lizmap.warnings.explanations.label"
 msgid "Check your Lizmap plugin in QGIS Desktop to fix these warnings"
 msgstr ""
+"Sieh im Lizmap Plugin in QGIS Desktop nach um diese Warnungen zu beseitigen"
 
 #: admin~admin.project.list.column.loading.time.error.label
 msgctxt "admin~admin.project.list.column.loading.time.error.label"
@@ -1339,21 +1392,23 @@ msgid ""
 "The project loading time is very long. Please try to simplify your QGIS "
 "project for better performance."
 msgstr ""
+"Das Projekt läd sehr langsam. Versuche das QGIS Projekt zu vereinfachen um "
+"eine besser Performance zu erreichen"
 
 #: admin~admin.project.list.column.loading.time.label
 msgctxt "admin~admin.project.list.column.loading.time.label"
 msgid "Loading time (s)"
-msgstr ""
+msgstr "Ladezeit (s)"
 
 #: admin~admin.project.list.column.loading.time.label.alt
 msgctxt "admin~admin.project.list.column.loading.time.label.alt"
 msgid "Loading time"
-msgstr ""
+msgstr "Ladezeit"
 
 #: admin~admin.project.list.column.loading.time.warning.label
 msgctxt "admin~admin.project.list.column.loading.time.warning.label"
 msgid "The project loading time is a bit long."
-msgstr ""
+msgstr "Die Ladezeit des Projekts ist etwas lange"
 
 #: admin~admin.project.list.column.memory.usage.error.label
 msgctxt "admin~admin.project.list.column.memory.usage.error.label"
@@ -1361,26 +1416,28 @@ msgid ""
 "The project memory usage is very high. Please try to simplify your QGIS "
 "project for better performance."
 msgstr ""
+"Das Projekt benötigt sehr viel RAM. Bitte versuche das QGIS Projekt zu "
+"vereinfachen um eine bessere Performance zu erreichen"
 
 #: admin~admin.project.list.column.memory.usage.label
 msgctxt "admin~admin.project.list.column.memory.usage.label"
 msgid "Memory (Mo)"
-msgstr ""
+msgstr "RAM (Mo)"
 
 #: admin~admin.project.list.column.memory.usage.label.alt
 msgctxt "admin~admin.project.list.column.memory.usage.label.alt"
 msgid "Memory"
-msgstr ""
+msgstr "RAM"
 
 #: admin~admin.project.list.column.memory.usage.warning.label
 msgctxt "admin~admin.project.list.column.memory.usage.warning.label"
 msgid "The project memory usage is a bit high."
-msgstr ""
+msgstr "Das Projekt benötigt etwas viel RAM."
 
 #: admin~admin.project.list.column.path.label
 msgctxt "admin~admin.project.list.column.path.label"
 msgid "Path"
-msgstr ""
+msgstr "Pfad"
 
 #: admin~admin.project.list.column.project.abstract.label
 msgctxt "admin~admin.project.list.column.project.abstract.label"
