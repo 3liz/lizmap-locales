@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-28 23:03++0000\n"
+"POT-Creation-Date: 2025-11-14 14:51++0100\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
 "Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2025\n"
 "Language-Team: Czech (https://app.transifex.com/3liz-1/teams/62012/cs/)\n"
@@ -289,6 +289,12 @@ msgctxt "admin~admin.form.admin_section.message.data.saved"
 msgid "The repository data has been saved."
 msgstr "Data úložiště byla uložena."
 
+#: admin~admin.form.admin_section.message.iframeEmbedAllowOrigin.bad.domain
+msgctxt ""
+"admin~admin.form.admin_section.message.iframeEmbedAllowOrigin.bad.domain"
+msgid "Content is not '*' or a valid URL or a list of URLs."
+msgstr "Obsah není  '*' ani platná URL adresa ani seznam URL adres."
+
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
 msgid "The path given for the repository is not authorized."
@@ -343,6 +349,24 @@ msgid ""
 msgstr ""
 "Jedinečný identifikátor úložiště, musí obsahovat pouze znaky a-z a 0-9 (bez "
 "mezer a speciálních znaků). Tento identifikátor nelze později upravovat."
+
+#: admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.help
+msgctxt ""
+"admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.help"
+msgid ""
+"List of URL separated by a comma, like "
+"'https://domain1.com,https://www.domain2.com' or '*' to allow all website. "
+"Path and query parameters will be removed from the URL."
+msgstr ""
+"Seznam URL adres oddělených čárkou, například "
+"'https://domain1.com,https://www.domain2.com' nebo '*' pro povolení všech "
+"webových stránek. Parametry cesty a dotazu budou z URL adresy odstraněny."
+
+#: admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.label
+msgctxt ""
+"admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.label"
+msgid "List of websites allowed to embed iframe"
+msgstr "Seznam webových stránek, na které je povoleno vkládat iframe"
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"

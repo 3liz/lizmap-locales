@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 11:56++0200\n"
+"POT-Creation-Date: 2025-11-14 14:51++0100\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
 "Last-Translator: 山本　竜三 <ryu@yamakun.net>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/3liz-1/teams/62012/ja/)\n"
@@ -285,6 +285,12 @@ msgctxt "admin~admin.form.admin_section.message.data.saved"
 msgid "The repository data has been saved."
 msgstr ""
 
+#: admin~admin.form.admin_section.message.iframeEmbedAllowOrigin.bad.domain
+msgctxt ""
+"admin~admin.form.admin_section.message.iframeEmbedAllowOrigin.bad.domain"
+msgid "Content is not '*' or a valid URL or a list of URLs."
+msgstr ""
+
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
 msgid "The path given for the repository is not authorized."
@@ -329,6 +335,21 @@ msgid ""
 "Repository unique identifier, it must only contain characters between a-z "
 "and 0-9 (no space, no special character). This identifier can not be edited "
 "later."
+msgstr ""
+
+#: admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.help
+msgctxt ""
+"admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.help"
+msgid ""
+"List of URL separated by a comma, like "
+"'https://domain1.com,https://www.domain2.com' or '*' to allow all website. "
+"Path and query parameters will be removed from the URL."
+msgstr ""
+
+#: admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.label
+msgctxt ""
+"admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.label"
+msgid "List of websites allowed to embed iframe"
 msgstr ""
 
 #: admin~admin.form.admin_section.repository.label
