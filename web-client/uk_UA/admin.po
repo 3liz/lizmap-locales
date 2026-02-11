@@ -1,14 +1,14 @@
 # 
 # Translators:
-# Кадастр Муниципальный, 2025
+# Кадастр Муниципальный, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-14 14:50++0100\n"
+"POT-Creation-Date: 2026-02-11 08:27++0100\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
-"Last-Translator: Кадастр Муниципальный, 2025\n"
+"Last-Translator: Кадастр Муниципальный, 2026\n"
 "Language-Team: Ukrainian (Ukraine) (https://app.transifex.com/3liz-1/teams/62012/uk_UA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -639,6 +639,72 @@ msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
 msgid "Base URL of the Lizmap plugin API for QGIS Server"
 msgstr "Базова URL-адреса API плагіна Lizmap для сервера QGIS"
 
+#: admin~admin.form.admin_services.logLevel.alert.label
+msgctxt "admin~admin.form.admin_services.logLevel.alert.label"
+msgid ""
+"Alert: indicates that immediate action is necessary to resolve a critical "
+"issue."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.critical.label
+msgctxt "admin~admin.form.admin_services.logLevel.critical.label"
+msgid ""
+"Critical: signifies critical conditions in the program that demand "
+"intervention to prevent system failure."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.debug.label
+msgctxt "admin~admin.form.admin_services.logLevel.debug.label"
+msgid ""
+"Debug: intended for logging detailed information about the system for "
+"debugging purposes."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.emergency.label
+msgctxt "admin~admin.form.admin_services.logLevel.emergency.label"
+msgid ""
+"Emergency: indicates that the system is unusable and requires immediate "
+"attention."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.error.label
+msgctxt "admin~admin.form.admin_services.logLevel.error.label"
+msgid ""
+"Error: indicates error conditions that impair some operation but are less "
+"severe than critical situations."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.help
+msgctxt "admin~admin.form.admin_services.logLevel.help"
+msgid "Select the level of severity of the messages to log."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.info.label
+msgctxt "admin~admin.form.admin_services.logLevel.info.label"
+msgid ""
+"Info: includes messages that provide a record of the normal operation of the"
+" system."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.label
+msgctxt "admin~admin.form.admin_services.logLevel.label"
+msgid "Log level"
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.notice.label
+msgctxt "admin~admin.form.admin_services.logLevel.notice.label"
+msgid ""
+"Notice: applies to normal but significant conditions that may require "
+"monitoring."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.warning.label
+msgctxt "admin~admin.form.admin_services.logLevel.warning.label"
+msgid ""
+"Warning: signifies potential issues that may lead to errors or unexpected "
+"behavior in the future if not addressed."
+msgstr ""
+
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
 msgid ""
@@ -1225,6 +1291,11 @@ msgstr "Проекти QGIS"
 msgctxt "admin~admin.menu.lizmap.repositories.label"
 msgid "Maps management"
 msgstr "Керування картами"
+
+#: admin~admin.menu.lizmap.search.label
+msgctxt "admin~admin.menu.lizmap.search.label"
+msgid "Lizmap search"
+msgstr ""
 
 #: admin~admin.menu.lizmap.theme.label
 msgctxt "admin~admin.menu.lizmap.theme.label"
@@ -2057,6 +2128,96 @@ msgid "See all the data of the filtered layers (attribute or spatial filters)"
 msgstr ""
 "Переглянути всі дані відфільтрованих шарів (атрибутні або просторові "
 "фільтри)"
+
+#: admin~lizmap_search.button.profile.create
+msgctxt "admin~lizmap_search.button.profile.create"
+msgid "Create lizmap_search connection profile"
+msgstr ""
+
+#: admin~lizmap_search.button.profile.edit
+msgctxt "admin~lizmap_search.button.profile.edit"
+msgid "Modify lizmap_search connection profile"
+msgstr ""
+
+#: admin~lizmap_search.content.all_ok
+msgctxt "admin~lizmap_search.content.all_ok"
+msgid "The <code>lizmap_search</code> table/view exists"
+msgstr ""
+
+#: admin~lizmap_search.content.profile.dedicated
+msgctxt "admin~lizmap_search.content.profile.dedicated"
+msgid "and uses the dedicated profile."
+msgstr ""
+
+#: admin~lizmap_search.content.profile.dedicated.fail
+msgctxt "admin~lizmap_search.content.profile.dedicated.fail"
+msgid ""
+"The <code>lizmap_search</code> table/view is not queryable (see logs), edit "
+"the connection profile."
+msgstr ""
+
+#: admin~lizmap_search.content.profile.default
+msgctxt "admin~lizmap_search.content.profile.default"
+msgid "and uses the default profile."
+msgstr ""
+
+#: admin~lizmap_search.content.profile.default.fail
+msgctxt "admin~lizmap_search.content.profile.default.fail"
+msgid ""
+"The <code>lizmap_search</code> table/view does not exist or is not queryable"
+" with the default connection profile (see logs), you can create a dedicated "
+"connection profile."
+msgstr ""
+
+#: admin~lizmap_search.form.confirm_invalid
+msgctxt "admin~lizmap_search.form.confirm_invalid"
+msgid "Confirm save"
+msgstr ""
+
+#: admin~lizmap_search.form.database
+msgctxt "admin~lizmap_search.form.database"
+msgid "Database"
+msgstr ""
+
+#: admin~lizmap_search.form.error.connection_error
+msgctxt "admin~lizmap_search.form.error.connection_error"
+msgid "Could not connect to table with provided parameters, confirm values ?"
+msgstr ""
+
+#: admin~lizmap_search.form.error_message
+msgctxt "admin~lizmap_search.form.error_message"
+msgid "Error message"
+msgstr ""
+
+#: admin~lizmap_search.form.host
+msgctxt "admin~lizmap_search.form.host"
+msgid "Hostname"
+msgstr ""
+
+#: admin~lizmap_search.form.password
+msgctxt "admin~lizmap_search.form.password"
+msgid "Password"
+msgstr "Пароль"
+
+#: admin~lizmap_search.form.search_path
+msgctxt "admin~lizmap_search.form.search_path"
+msgid "Search path"
+msgstr ""
+
+#: admin~lizmap_search.form.user
+msgctxt "admin~lizmap_search.form.user"
+msgid "User"
+msgstr "Користувач"
+
+#: admin~lizmap_search.page.edit.title
+msgctxt "admin~lizmap_search.page.edit.title"
+msgid "Edit Lizmap search connection"
+msgstr ""
+
+#: admin~lizmap_search.page.show.title
+msgctxt "admin~lizmap_search.page.show.title"
+msgid "Lizmap search configuration"
+msgstr ""
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
