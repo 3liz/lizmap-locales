@@ -4,7 +4,7 @@
 # Laurent Jouanneau <dev@ljouanneau.com>, 2025
 # Sérgio Pinheiro <sergiuspinheiro@gmail.com>, 2025
 # rldhont <rldhont@gmail.com>, 2025
-# José Macau <jose.macau@gmail.com>, 2025
+# José Macau <jose.macau@gmail.com>, 2026
 # 
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-14 14:51++0100\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
-"Last-Translator: José Macau <jose.macau@gmail.com>, 2025\n"
+"Last-Translator: José Macau <jose.macau@gmail.com>, 2026\n"
 "Language-Team: Portuguese (https://app.transifex.com/3liz-1/teams/62012/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -297,7 +297,7 @@ msgstr "Os dados do repositório foram guardados."
 msgctxt ""
 "admin~admin.form.admin_section.message.iframeEmbedAllowOrigin.bad.domain"
 msgid "Content is not '*' or a valid URL or a list of URLs."
-msgstr ""
+msgstr "O conteúdo não é '*' nem um URL válido, nem uma lista de URLs."
 
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
@@ -363,12 +363,15 @@ msgid ""
 "'https://domain1.com,https://www.domain2.com' or '*' to allow all website. "
 "Path and query parameters will be removed from the URL."
 msgstr ""
+"Lista de URLs separadas por vírgulas, como "
+"‘https://domain1.com,https://www.domain2.com’, ou '*' para permitir todos os"
+" websites. O caminho e os parâmetros da query serão removidos do URL."
 
 #: admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.label"
 msgid "List of websites allowed to embed iframe"
-msgstr ""
+msgstr "Lista de websites autorizados a incorporar iframe"
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
@@ -1048,12 +1051,12 @@ msgstr "Não"
 #: admin~admin.log.qgis_login.hide
 msgctxt "admin~admin.log.qgis_login.hide"
 msgid "Hide QGIS login events"
-msgstr ""
+msgstr "Ocultar eventos de início de sessão do QGIS"
 
 #: admin~admin.log.qgis_login.show
 msgctxt "admin~admin.log.qgis_login.show"
 msgid "Show QGIS login events"
-msgstr ""
+msgstr "Mostrar eventos de início de sessão do QGIS"
 
 #: admin~admin.logs.admin.file.erase
 msgctxt "admin~admin.logs.admin.file.erase"
@@ -1997,6 +2000,12 @@ msgid ""
 "original file <code>lizmap/var/config/localconfig.ini.php.dist</code> about "
 "the wrapper."
 msgstr ""
+"Esta instalação não permite o uso do QGIS com FCGI; deve ser utilizado o Py-"
+"QGIS-Server ou o QJazz. Esta verificação relativa ao wrapper do QGIS pode "
+"ser desativada no <strong>ficheiro</strong> <code>localconfig.ini.php</code>"
+" seguindo o ficheiro original "
+"<code>lizmap/var/config/localconfig.ini.php.dist</code> na secção relativa "
+"ao wrapper."
 
 #: admin~admin.server.information.qgis.wrapper.not.installed
 msgctxt "admin~admin.server.information.qgis.wrapper.not.installed"
