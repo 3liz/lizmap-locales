@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 10:35++0200\n"
+"POT-Creation-Date: 2026-02-11 08:40++0100\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Stefan Blumentrath <stefan.blumentrath@gmx.de>, 2018\n"
 "Language-Team: Norwegian (http://app.transifex.com/3liz-1/lizmap-locales/language/no/)\n"
@@ -317,7 +317,7 @@ msgstr ""
 #: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
-msgid "Move selected to top"
+msgid "Display selection only"
 msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
@@ -340,20 +340,9 @@ msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
 msgid "Detail"
 msgstr "Detalj"
 
-#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.title"
-msgid "Refresh"
-msgstr "Oppdater"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip
-msgctxt "view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip"
-msgid "Refresh the table data."
-msgstr "Oppdater tabell data"
-
-#: view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed
-msgctxt ""
-"view~dictionnary.attributeLayers.toolbar.btn.refresh.table.tooltip.changed"
-msgid "The map extent has changed since the last time data were fetched."
+#: view~dictionnary.attributeLayers.toolbar.btn.filterByExtent.title
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.filterByExtent.title"
+msgid "Filter the table with the features in the current map extent"
 msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
@@ -598,6 +587,119 @@ msgstr ""
 #: view~dictionnary.digitizing.toolbar.textScale
 msgctxt "view~dictionnary.digitizing.toolbar.textScale"
 msgid "Size"
+msgstr ""
+
+#: view~dictionnary.dxfexport.description
+msgctxt "view~dictionnary.dxfexport.description"
+msgid "Export the current map view as a DXF file."
+msgstr ""
+
+#: view~dictionnary.dxfexport.error
+msgctxt "view~dictionnary.dxfexport.error"
+msgid "Error during DXF export. Please contact the system administrator."
+msgstr ""
+
+#: view~dictionnary.dxfexport.error.notfound
+msgctxt "view~dictionnary.dxfexport.error.notfound"
+msgid "Export service not found. Please contact the system administrator."
+msgstr ""
+
+#: view~dictionnary.dxfexport.error.server
+msgctxt "view~dictionnary.dxfexport.error.server"
+msgid ""
+"Server error during export. Please try again or contact the administrator."
+msgstr ""
+
+#: view~dictionnary.dxfexport.error.unavailable
+msgctxt "view~dictionnary.dxfexport.error.unavailable"
+msgid "Export service temporarily unavailable. Please try again later."
+msgstr ""
+
+#: view~dictionnary.dxfexport.force2d
+msgctxt "view~dictionnary.dxfexport.force2d"
+msgid "Force 2D (enables line widths)"
+msgstr ""
+
+#: view~dictionnary.dxfexport.launch
+msgctxt "view~dictionnary.dxfexport.launch"
+msgid "Export to DXF"
+msgstr ""
+
+#: view~dictionnary.dxfexport.layers_count
+msgctxt "view~dictionnary.dxfexport.layers_count"
+msgid "layers will be exported"
+msgstr ""
+
+#: view~dictionnary.dxfexport.layers_to_export
+msgctxt "view~dictionnary.dxfexport.layers_to_export"
+msgid "layers will be exported"
+msgstr ""
+
+#: view~dictionnary.dxfexport.mode
+msgctxt "view~dictionnary.dxfexport.mode"
+msgid "Export mode"
+msgstr ""
+
+#: view~dictionnary.dxfexport.mode.feature
+msgctxt "view~dictionnary.dxfexport.mode.feature"
+msgid "Feature symbology"
+msgstr ""
+
+#: view~dictionnary.dxfexport.mode.none
+msgctxt "view~dictionnary.dxfexport.mode.none"
+msgid "No symbology"
+msgstr ""
+
+#: view~dictionnary.dxfexport.mode.symbollayer
+msgctxt "view~dictionnary.dxfexport.mode.symbollayer"
+msgid "Symbol layer symbology"
+msgstr ""
+
+#: view~dictionnary.dxfexport.no_visible_layers
+msgctxt "view~dictionnary.dxfexport.no_visible_layers"
+msgid "No visible layers to export. Please enable at least one layer."
+msgstr ""
+
+#: view~dictionnary.dxfexport.no_wfs_layers
+msgctxt "view~dictionnary.dxfexport.no_wfs_layers"
+msgid ""
+"No WFS-enabled layers available for export. Only layers published as WFS can"
+" be exported to DXF."
+msgstr ""
+
+#: view~dictionnary.dxfexport.scale
+msgctxt "view~dictionnary.dxfexport.scale"
+msgid "Scale"
+msgstr "Skala"
+
+#: view~dictionnary.dxfexport.scale.current
+msgctxt "view~dictionnary.dxfexport.scale.current"
+msgid "Current"
+msgstr ""
+
+#: view~dictionnary.dxfexport.started
+msgctxt "view~dictionnary.dxfexport.started"
+msgid "DXF export started, please wait…"
+msgstr ""
+
+#: view~dictionnary.dxfexport.success
+msgctxt "view~dictionnary.dxfexport.success"
+msgid "DXF export completed successfully."
+msgstr ""
+
+#: view~dictionnary.dxfexport.use_mtext
+msgctxt "view~dictionnary.dxfexport.use_mtext"
+msgid "Use MTEXT for labels"
+msgstr ""
+
+#: view~dictionnary.dxfexport.use_title_as_layername
+msgctxt "view~dictionnary.dxfexport.use_title_as_layername"
+msgid "Use layer titles as DXF layer names"
+msgstr ""
+
+#: view~dictionnary.dxfexport.wfs_requirement
+msgctxt "view~dictionnary.dxfexport.wfs_requirement"
+msgid "Note: Only layers published as WFS can be exported to DXF."
 msgstr ""
 
 #: view~dictionnary.edition.confirm.cancel
@@ -2057,6 +2159,16 @@ msgstr "Minimer"
 #: view~map.draw.navbar.title
 msgctxt "view~map.draw.navbar.title"
 msgid "Draw"
+msgstr ""
+
+#: view~map.dxfexport.navbar.title
+msgctxt "view~map.dxfexport.navbar.title"
+msgid "DXF Export"
+msgstr ""
+
+#: view~map.dxfexport.toolbar.title
+msgctxt "view~map.dxfexport.toolbar.title"
+msgid "DXF Export"
 msgstr ""
 
 #: view~map.geolocate.navbar.title

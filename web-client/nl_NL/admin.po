@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 11:58++0200\n"
+"POT-Creation-Date: 2026-02-11 08:40++0100\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Hidde Wieringa <hidde@hiddewieringa.nl>, 2023\n"
 "Language-Team: Dutch (http://app.transifex.com/3liz-1/lizmap-locales/language/nl/)\n"
@@ -287,6 +287,12 @@ msgctxt "admin~admin.form.admin_section.message.data.saved"
 msgid "The repository data has been saved."
 msgstr "De repositorygegevens zijn opgeslagen."
 
+#: admin~admin.form.admin_section.message.iframeEmbedAllowOrigin.bad.domain
+msgctxt ""
+"admin~admin.form.admin_section.message.iframeEmbedAllowOrigin.bad.domain"
+msgid "Content is not '*' or a valid URL or a list of URLs."
+msgstr ""
+
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
 msgid "The path given for the repository is not authorized."
@@ -332,6 +338,21 @@ msgid ""
 "and 0-9 (no space, no special character). This identifier can not be edited "
 "later."
 msgstr "Unieke repository-ID, deze mag alleen tekens tussen a-z en 0-9 bevatten (geen spatie, geen speciaal teken). Deze identificatie kan later niet worden bewerkt."
+
+#: admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.help
+msgctxt ""
+"admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.help"
+msgid ""
+"List of URL separated by a comma, like "
+"'https://domain1.com,https://www.domain2.com' or '*' to allow all website. "
+"Path and query parameters will be removed from the URL."
+msgstr ""
+
+#: admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.label
+msgctxt ""
+"admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.label"
+msgid "List of websites allowed to embed iframe"
+msgstr ""
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
@@ -593,6 +614,72 @@ msgstr "QGIS Server %s of hoger is vereist, evenals de Lizmap server plug-in %s 
 msgctxt "admin~admin.form.admin_services.lizmapPluginAPIURL.label"
 msgid "Base URL of the Lizmap plugin API for QGIS Server"
 msgstr "QGIS Server %s of hoger is vereist, evenals de Lizmap server plug-in %s of hoger. Als u de FCGI-server gebruikt, moet u dit veld leeg laten. Anders, als u Py-Qgis-Server gebruikt, geef dan de URL aan die is geconfigureerd in de Py-Qgis-Server-configuratie over de URL van de Lizmap-plug-in."
+
+#: admin~admin.form.admin_services.logLevel.alert.label
+msgctxt "admin~admin.form.admin_services.logLevel.alert.label"
+msgid ""
+"Alert: indicates that immediate action is necessary to resolve a critical "
+"issue."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.critical.label
+msgctxt "admin~admin.form.admin_services.logLevel.critical.label"
+msgid ""
+"Critical: signifies critical conditions in the program that demand "
+"intervention to prevent system failure."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.debug.label
+msgctxt "admin~admin.form.admin_services.logLevel.debug.label"
+msgid ""
+"Debug: intended for logging detailed information about the system for "
+"debugging purposes."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.emergency.label
+msgctxt "admin~admin.form.admin_services.logLevel.emergency.label"
+msgid ""
+"Emergency: indicates that the system is unusable and requires immediate "
+"attention."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.error.label
+msgctxt "admin~admin.form.admin_services.logLevel.error.label"
+msgid ""
+"Error: indicates error conditions that impair some operation but are less "
+"severe than critical situations."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.help
+msgctxt "admin~admin.form.admin_services.logLevel.help"
+msgid "Select the level of severity of the messages to log."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.info.label
+msgctxt "admin~admin.form.admin_services.logLevel.info.label"
+msgid ""
+"Info: includes messages that provide a record of the normal operation of the"
+" system."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.label
+msgctxt "admin~admin.form.admin_services.logLevel.label"
+msgid "Log level"
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.notice.label
+msgctxt "admin~admin.form.admin_services.logLevel.notice.label"
+msgid ""
+"Notice: applies to normal but significant conditions that may require "
+"monitoring."
+msgstr ""
+
+#: admin~admin.form.admin_services.logLevel.warning.label
+msgctxt "admin~admin.form.admin_services.logLevel.warning.label"
+msgid ""
+"Warning: signifies potential issues that may lead to errors or unexpected "
+"behavior in the future if not addressed."
+msgstr ""
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
@@ -1174,6 +1261,11 @@ msgstr "QGIS projecten"
 msgctxt "admin~admin.menu.lizmap.repositories.label"
 msgid "Maps management"
 msgstr "Kaart management"
+
+#: admin~admin.menu.lizmap.search.label
+msgctxt "admin~admin.menu.lizmap.search.label"
+msgid "Lizmap search"
+msgstr ""
 
 #: admin~admin.menu.lizmap.theme.label
 msgctxt "admin~admin.menu.lizmap.theme.label"
@@ -1987,6 +2079,96 @@ msgstr ""
 msgctxt "admin~jacl2.lizmap.tools.loginFilteredLayers.override"
 msgid "See all the data of the filtered layers (attribute or spatial filters)"
 msgstr "Bekijk alle gegevens van de gefilterde lagen (attribuut- of ruimtelijke filters)"
+
+#: admin~lizmap_search.button.profile.create
+msgctxt "admin~lizmap_search.button.profile.create"
+msgid "Create lizmap_search connection profile"
+msgstr ""
+
+#: admin~lizmap_search.button.profile.edit
+msgctxt "admin~lizmap_search.button.profile.edit"
+msgid "Modify lizmap_search connection profile"
+msgstr ""
+
+#: admin~lizmap_search.content.all_ok
+msgctxt "admin~lizmap_search.content.all_ok"
+msgid "The <code>lizmap_search</code> table/view exists"
+msgstr ""
+
+#: admin~lizmap_search.content.profile.dedicated
+msgctxt "admin~lizmap_search.content.profile.dedicated"
+msgid "and uses the dedicated profile."
+msgstr ""
+
+#: admin~lizmap_search.content.profile.dedicated.fail
+msgctxt "admin~lizmap_search.content.profile.dedicated.fail"
+msgid ""
+"The <code>lizmap_search</code> table/view is not queryable (see logs), edit "
+"the connection profile."
+msgstr ""
+
+#: admin~lizmap_search.content.profile.default
+msgctxt "admin~lizmap_search.content.profile.default"
+msgid "and uses the default profile."
+msgstr ""
+
+#: admin~lizmap_search.content.profile.default.fail
+msgctxt "admin~lizmap_search.content.profile.default.fail"
+msgid ""
+"The <code>lizmap_search</code> table/view does not exist or is not queryable"
+" with the default connection profile (see logs), you can create a dedicated "
+"connection profile."
+msgstr ""
+
+#: admin~lizmap_search.form.confirm_invalid
+msgctxt "admin~lizmap_search.form.confirm_invalid"
+msgid "Confirm save"
+msgstr ""
+
+#: admin~lizmap_search.form.database
+msgctxt "admin~lizmap_search.form.database"
+msgid "Database"
+msgstr ""
+
+#: admin~lizmap_search.form.error.connection_error
+msgctxt "admin~lizmap_search.form.error.connection_error"
+msgid "Could not connect to table with provided parameters, confirm values ?"
+msgstr ""
+
+#: admin~lizmap_search.form.error_message
+msgctxt "admin~lizmap_search.form.error_message"
+msgid "Error message"
+msgstr ""
+
+#: admin~lizmap_search.form.host
+msgctxt "admin~lizmap_search.form.host"
+msgid "Hostname"
+msgstr ""
+
+#: admin~lizmap_search.form.password
+msgctxt "admin~lizmap_search.form.password"
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: admin~lizmap_search.form.search_path
+msgctxt "admin~lizmap_search.form.search_path"
+msgid "Search path"
+msgstr ""
+
+#: admin~lizmap_search.form.user
+msgctxt "admin~lizmap_search.form.user"
+msgid "User"
+msgstr "Gebruiker"
+
+#: admin~lizmap_search.page.edit.title
+msgctxt "admin~lizmap_search.page.edit.title"
+msgid "Edit Lizmap search connection"
+msgstr ""
+
+#: admin~lizmap_search.page.show.title
+msgctxt "admin~lizmap_search.page.show.title"
+msgid "Lizmap search configuration"
+msgstr ""
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"
