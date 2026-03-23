@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Marco Cassola <cassolamrc@gmail.com>, 2025
 # Alessandro Fanna <alex@rospus.org>, 2025
@@ -9,15 +8,15 @@
 # Stefano Campus <skampus@gmail.com>, 2025
 # Paolo Cavallini <cavallini@faunalia.it>, 2025
 # rldhont <rldhont@gmail.com>, 2025
-# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2025
+# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-14 14:51++0100\n"
+"POT-Creation-Date: 2026-03-23 17:12++0100\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
-"Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2025\n"
+"Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2026\n"
 "Language-Team: Italian (https://app.transifex.com/3liz-1/teams/62012/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -300,7 +299,7 @@ msgstr "Dati del repository salvati"
 msgctxt ""
 "admin~admin.form.admin_section.message.iframeEmbedAllowOrigin.bad.domain"
 msgid "Content is not '*' or a valid URL or a list of URLs."
-msgstr ""
+msgstr "Il contenuto non è '*', un URL valido, o una lista di URL."
 
 #: admin~admin.form.admin_section.message.path.not_authorized
 msgctxt "admin~admin.form.admin_section.message.path.not_authorized"
@@ -365,12 +364,16 @@ msgid ""
 "'https://domain1.com,https://www.domain2.com' or '*' to allow all website. "
 "Path and query parameters will be removed from the URL."
 msgstr ""
+"Lista di URL separati da virgola, ad esempio "
+"'https://domain1.com,https://www.domain2.com', oppure '*' per abilitare "
+"tutti i domini. Eventuali percorsi e parametri dopo il dominio verranno "
+"rimossi dall'URL."
 
 #: admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.label
 msgctxt ""
 "admin~admin.form.admin_section.repository.iframeEmbedAllowOrigin.label"
 msgid "List of websites allowed to embed iframe"
-msgstr ""
+msgstr "Lista di domini ai quali è consentito l'embed dell'iframe"
 
 #: admin~admin.form.admin_section.repository.label
 msgctxt "admin~admin.form.admin_section.repository.label"
