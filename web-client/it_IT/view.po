@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Marco Cassola <cassolamrc@gmail.com>, 2025
 # Fabio Pifferini <fabio.pifferini@masotti.ch>, 2025
@@ -8,16 +7,16 @@
 # Laurent Jouanneau <dev@ljouanneau.com>, 2025
 # marcobra <marcobra.ubuntu@gmail.com>, 2025
 # Paolo Cavallini <cavallini@faunalia.it>, 2025
-# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2025
 # rldhont <rldhont@gmail.com>, 2026
+# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-11 08:27++0100\n"
+"POT-Creation-Date: 2026-03-23 17:04++0100\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>, 2026\n"
+"Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2026\n"
 "Language-Team: Italian (https://app.transifex.com/3liz-1/teams/62012/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -148,7 +147,7 @@ msgstr "Accesso vietato per questo servizio."
 #: view~default.service.access.unauthorized
 msgctxt "view~default.service.access.unauthorized"
 msgid "Access needs a valid authentication credentials"
-msgstr ""
+msgstr "L'accesso richiede delle credenziali di autenticazione valide"
 
 #: view~default.service.access.wrong_credentials.detail
 msgctxt "view~default.service.access.wrong_credentials.detail"
@@ -338,7 +337,7 @@ msgstr "Collega gli elementi selezionati"
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
 msgid "Display selection only"
-msgstr ""
+msgstr "Mostra solo gli elementi selezionati"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
@@ -363,6 +362,12 @@ msgstr "Dettaglio"
 #: view~dictionnary.attributeLayers.toolbar.btn.filterByExtent.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.filterByExtent.title"
 msgid "Filter the table with the features in the current map extent"
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.btn.fit.filtered.extent.title
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.fit.filtered.extent.title"
+msgid "Zoom to filtered features extent"
 msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
@@ -629,22 +634,28 @@ msgstr ""
 msgctxt "view~dictionnary.dxfexport.error"
 msgid "Error during DXF export. Please contact the system administrator."
 msgstr ""
+"Errore durante l'esportazione del DXF. Contatta l'amministratore di sistema."
 
 #: view~dictionnary.dxfexport.error.notfound
 msgctxt "view~dictionnary.dxfexport.error.notfound"
 msgid "Export service not found. Please contact the system administrator."
 msgstr ""
+"Servizio di esportazione non disponibile. Contatta l'amministratore di "
+"sistema."
 
 #: view~dictionnary.dxfexport.error.server
 msgctxt "view~dictionnary.dxfexport.error.server"
 msgid ""
 "Server error during export. Please try again or contact the administrator."
 msgstr ""
+"Errore del server durante l'esportazione. Contatta l'amministratore di "
+"sistema o riprova più tardi."
 
 #: view~dictionnary.dxfexport.error.unavailable
 msgctxt "view~dictionnary.dxfexport.error.unavailable"
 msgid "Export service temporarily unavailable. Please try again later."
 msgstr ""
+"Servizio di esportazione temporaneamente non disponibile. Riprova più tardi."
 
 #: view~dictionnary.dxfexport.force2d
 msgctxt "view~dictionnary.dxfexport.force2d"
@@ -654,22 +665,22 @@ msgstr ""
 #: view~dictionnary.dxfexport.launch
 msgctxt "view~dictionnary.dxfexport.launch"
 msgid "Export to DXF"
-msgstr ""
+msgstr "Esporta in DXF"
 
 #: view~dictionnary.dxfexport.layers_count
 msgctxt "view~dictionnary.dxfexport.layers_count"
 msgid "layers will be exported"
-msgstr ""
+msgstr "layer da esportare"
 
 #: view~dictionnary.dxfexport.layers_to_export
 msgctxt "view~dictionnary.dxfexport.layers_to_export"
 msgid "layers will be exported"
-msgstr ""
+msgstr "layer da esportare"
 
 #: view~dictionnary.dxfexport.mode
 msgctxt "view~dictionnary.dxfexport.mode"
 msgid "Export mode"
-msgstr ""
+msgstr "Modalità di esportazione"
 
 #: view~dictionnary.dxfexport.mode.feature
 msgctxt "view~dictionnary.dxfexport.mode.feature"
@@ -939,7 +950,7 @@ msgstr "Cerca"
 #: view~dictionnary.featuresTable.empty.message
 msgctxt "view~dictionnary.featuresTable.empty.message"
 msgid "This table is empty. There are no items to display."
-msgstr ""
+msgstr "La tabella è vuota. Non ci sono elementi da visualizzare."
 
 #: view~dictionnary.featuresTable.item.active.hover
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
@@ -1410,6 +1421,11 @@ msgstr ""
 " avvenuto con una versione troppo vecchia del plugin di Lizmap. È necessario"
 " aggiornare il plugin su QGIS Desktop."
 
+#: view~dictionnary.selectiontool.message.start
+msgctxt "view~dictionnary.selectiontool.message.start"
+msgid "Selection tool activated. Draw a shape on the map to select features."
+msgstr ""
+
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
 msgid "%s selected objects"
@@ -1586,7 +1602,7 @@ msgstr ""
 #: view~dictionnary.startup.features.empty
 msgctxt "view~dictionnary.startup.features.empty"
 msgid "No features to display"
-msgstr ""
+msgstr "Nessun elemento da visualizzare"
 
 #: view~dictionnary.startup.features.error
 msgctxt "view~dictionnary.startup.features.error"
@@ -1594,11 +1610,13 @@ msgid ""
 "Zooming to the feature given in the URL parameter is not possible: an error "
 "occurred while fetching the feature data."
 msgstr ""
+"Impossibile effettuare lo zoom all'elemento presente nel parametro dell'URL:"
+" si è verificato un errore nel recuperare i dei dati dell'elemento."
 
 #: view~dictionnary.startup.features.loading
 msgctxt "view~dictionnary.startup.features.loading"
 msgid "Loading features, please wait..."
-msgstr ""
+msgstr "Caricamento degli elementi, attendere..."
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
@@ -1753,6 +1771,11 @@ msgstr "Salva"
 msgctxt "view~edition.geolocate.toolbar.title"
 msgid "Edition:"
 msgstr "Modifica:"
+
+#: view~edition.geomtool.copypastegeom.title
+msgctxt "view~edition.geomtool.copypastegeom.title"
+msgid "Copy and paste an existing geometry"
+msgstr ""
 
 #: view~edition.geomtool.drag.title
 msgctxt "view~edition.geomtool.drag.title"
@@ -2264,12 +2287,12 @@ msgstr "Disegna"
 #: view~map.dxfexport.navbar.title
 msgctxt "view~map.dxfexport.navbar.title"
 msgid "DXF Export"
-msgstr ""
+msgstr "Esportazione DXF"
 
 #: view~map.dxfexport.toolbar.title
 msgctxt "view~map.dxfexport.toolbar.title"
 msgid "DXF Export"
-msgstr ""
+msgstr "Esportazione DXF"
 
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"

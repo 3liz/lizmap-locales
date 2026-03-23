@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Laurent Jouanneau <dev@ljouanneau.com>, 2025
 # rldhont <rldhont@gmail.com>, 2025
@@ -8,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-11 08:27++0100\n"
+"POT-Creation-Date: 2026-03-23 17:04++0100\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2026\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/3liz-1/teams/62012/hu_HU/)\n"
@@ -348,6 +347,12 @@ msgstr "Részletek"
 #: view~dictionnary.attributeLayers.toolbar.btn.filterByExtent.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.filterByExtent.title"
 msgid "Filter the table with the features in the current map extent"
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.btn.fit.filtered.extent.title
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.fit.filtered.extent.title"
+msgid "Zoom to filtered features extent"
 msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
@@ -1343,6 +1348,11 @@ msgid ""
 "version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
 msgstr ""
 
+#: view~dictionnary.selectiontool.message.start
+msgctxt "view~dictionnary.selectiontool.message.start"
+msgid "Selection tool activated. Draw a shape on the map to select features."
+msgstr ""
+
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
 msgid "%s selected objects"
@@ -1675,6 +1685,11 @@ msgstr "Mentés"
 msgctxt "view~edition.geolocate.toolbar.title"
 msgid "Edition:"
 msgstr "Szerkesztőeszköz:"
+
+#: view~edition.geomtool.copypastegeom.title
+msgctxt "view~edition.geomtool.copypastegeom.title"
+msgid "Copy and paste an existing geometry"
+msgstr ""
 
 #: view~edition.geomtool.drag.title
 msgctxt "view~edition.geomtool.drag.title"
