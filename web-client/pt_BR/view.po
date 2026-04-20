@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-23 17:04++0100\n"
+"POT-Creation-Date: 2026-04-20 12:30++0200\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Last-Translator: Fábio Rodrigo Oliveira <farool2@gmail.com>, 2026\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/3liz-1/teams/62012/pt_BR/)\n"
@@ -360,6 +360,13 @@ msgstr ""
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
 msgid "Select searched line"
 msgstr "Selecionar a linha pesquisada"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn"
+msgid ""
+"You are about to select more than a 1000 features. This may take a few "
+"seconds to process. Are you sure you want to proceed?"
+msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
@@ -1324,6 +1331,11 @@ msgctxt "view~dictionnary.print.toolbar.scale"
 msgid "Scale"
 msgstr "Escala"
 
+#: view~dictionnary.print.toolbar.scale.toggle
+msgctxt "view~dictionnary.print.toolbar.scale.toggle"
+msgid "Toggle between preset scales and custom value"
+msgstr ""
+
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
@@ -1491,6 +1503,11 @@ msgstr ""
 #: view~dictionnary.snapping.list.toggle
 msgctxt "view~dictionnary.snapping.list.toggle"
 msgid "Toggle snapping for this layer"
+msgstr ""
+
+#: view~dictionnary.snapping.message.activated
+msgctxt "view~dictionnary.snapping.message.activated"
+msgid "Snapping has been automatically activated."
 msgstr ""
 
 #: view~dictionnary.snapping.title
@@ -2544,6 +2561,56 @@ msgctxt "view~map.popup.table.th.value"
 msgid "Value"
 msgstr "Valor"
 
+#: view~map.portfolio.button.deactivate.help
+msgctxt "view~map.portfolio.button.deactivate.help"
+msgid "Deactivate the portfolio"
+msgstr ""
+
+#: view~map.portfolio.button.deactivate.label
+msgctxt "view~map.portfolio.button.deactivate.label"
+msgid "Deactivate"
+msgstr "Desativar"
+
+#: view~map.portfolio.button.run.help
+msgctxt "view~map.portfolio.button.run.help"
+msgid "Run the portfolio"
+msgstr ""
+
+#: view~map.portfolio.button.run.label
+msgctxt "view~map.portfolio.button.run.label"
+msgid "Run"
+msgstr ""
+
+#: view~map.portfolio.select.choose
+msgctxt "view~map.portfolio.select.choose"
+msgid "Choose a portfolio"
+msgstr ""
+
+#: view~map.portfolio.select.emptyItem.label
+msgctxt "view~map.portfolio.select.emptyItem.label"
+msgid "No portfolio"
+msgstr ""
+
+#: view~map.portfolio.select.help
+msgctxt "view~map.portfolio.select.help"
+msgid "Select a portfolio"
+msgstr ""
+
+#: view~map.portfolio.select.warning
+msgctxt "view~map.portfolio.select.warning"
+msgid "No portfolio selected"
+msgstr ""
+
+#: view~map.portfolios.navbar.title
+msgctxt "view~map.portfolios.navbar.title"
+msgid "Portfolios"
+msgstr ""
+
+#: view~map.portfolios.toolbar.title
+msgctxt "view~map.portfolios.toolbar.title"
+msgid "Portfolios"
+msgstr ""
+
 #: view~map.print.navbar.title
 msgctxt "view~map.print.navbar.title"
 msgid "Print"
@@ -2573,6 +2640,11 @@ msgstr "Modelo"
 msgctxt "view~map.print.toolbar.title"
 msgid "Print"
 msgstr "Imprimir"
+
+#: view~map.search.clear
+msgctxt "view~map.search.clear"
+msgid "Clear search"
+msgstr ""
 
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"

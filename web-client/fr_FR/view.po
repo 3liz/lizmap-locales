@@ -3,14 +3,14 @@
 # Michael Douchin <kimaidou@gmail.com>, 2025
 # Nicolas Boisteault <nboisteault@gmail.com>, 2025
 # Laurent Jouanneau <dev@ljouanneau.com>, 2025
-# etrimaille <gustrimaille@yahoo.fr>, 2025
+# etrimaille <gustrimaille@yahoo.fr>, 2026
 # rldhont <rldhont@gmail.com>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-23 17:04++0100\n"
+"POT-Creation-Date: 2026-04-20 12:30++0200\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>, 2026\n"
 "Language-Team: French (https://app.transifex.com/3liz-1/teams/62012/fr/)\n"
@@ -370,12 +370,22 @@ msgstr ""
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.fit.filtered.extent.title"
 msgid "Zoom to filtered features extent"
-msgstr ""
+msgstr "Zoomer sur l'emprise des objets filtrés"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
 msgid "Select searched line"
 msgstr "Sélectionner les lignes recherchées"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn"
+msgid ""
+"You are about to select more than a 1000 features. This may take a few "
+"seconds to process. Are you sure you want to proceed?"
+msgstr ""
+"Vous êtes sur le point de sélectionner plus de 1000 objets. Le traitement de"
+" cette opération peut prendre plusieurs secondes. Êtes-vous certain de "
+"vouloir continuer ?"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
@@ -664,7 +674,7 @@ msgstr ""
 #: view~dictionnary.dxfexport.force2d
 msgctxt "view~dictionnary.dxfexport.force2d"
 msgid "Force 2D (enables line widths)"
-msgstr ""
+msgstr "Force 2D (permet de définir l'épaisseur des lignes)"
 
 #: view~dictionnary.dxfexport.launch
 msgctxt "view~dictionnary.dxfexport.launch"
@@ -699,12 +709,13 @@ msgstr "Pas de symbologie"
 #: view~dictionnary.dxfexport.mode.symbollayer
 msgctxt "view~dictionnary.dxfexport.mode.symbollayer"
 msgid "Symbol layer symbology"
-msgstr ""
+msgstr "Symbologie de la couche de symboles"
 
 #: view~dictionnary.dxfexport.no_visible_layers
 msgctxt "view~dictionnary.dxfexport.no_visible_layers"
 msgid "No visible layers to export. Please enable at least one layer."
 msgstr ""
+"Aucune couche visible à exporter. Veuillez activer au moins une couche."
 
 #: view~dictionnary.dxfexport.no_wfs_layers
 msgctxt "view~dictionnary.dxfexport.no_wfs_layers"
@@ -712,6 +723,8 @@ msgid ""
 "No WFS-enabled layers available for export. Only layers published as WFS can"
 " be exported to DXF."
 msgstr ""
+"Aucune couche publiée en WFS disponible à exporter. Seules les couches "
+"publiées en WFS peuvent être exportées en DXF."
 
 #: view~dictionnary.dxfexport.scale
 msgctxt "view~dictionnary.dxfexport.scale"
@@ -721,32 +734,33 @@ msgstr "Échelle"
 #: view~dictionnary.dxfexport.scale.current
 msgctxt "view~dictionnary.dxfexport.scale.current"
 msgid "Current"
-msgstr ""
+msgstr "Actuel"
 
 #: view~dictionnary.dxfexport.started
 msgctxt "view~dictionnary.dxfexport.started"
 msgid "DXF export started, please wait…"
-msgstr ""
+msgstr "Export DXF en cours, veuillez attendre..."
 
 #: view~dictionnary.dxfexport.success
 msgctxt "view~dictionnary.dxfexport.success"
 msgid "DXF export completed successfully."
-msgstr ""
+msgstr "Export DXF finalisé avec succès."
 
 #: view~dictionnary.dxfexport.use_mtext
 msgctxt "view~dictionnary.dxfexport.use_mtext"
 msgid "Use MTEXT for labels"
-msgstr ""
+msgstr "Utiliser MTEXT pour les étiquettes"
 
 #: view~dictionnary.dxfexport.use_title_as_layername
 msgctxt "view~dictionnary.dxfexport.use_title_as_layername"
 msgid "Use layer titles as DXF layer names"
-msgstr ""
+msgstr "Utiliser le titre des couches comme nom des couche DXF"
 
 #: view~dictionnary.dxfexport.wfs_requirement
 msgctxt "view~dictionnary.dxfexport.wfs_requirement"
 msgid "Note: Only layers published as WFS can be exported to DXF."
 msgstr ""
+"Note : Seulement les couches publiées en WFS peuvent être exportées en DXF."
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -1396,6 +1410,11 @@ msgctxt "view~dictionnary.print.toolbar.scale"
 msgid "Scale"
 msgstr "Échelle"
 
+#: view~dictionnary.print.toolbar.scale.toggle
+msgctxt "view~dictionnary.print.toolbar.scale.toggle"
+msgid "Toggle between preset scales and custom value"
+msgstr "Basculer entre les échelles prédéfinies et une valeur personnalisée"
+
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
@@ -1435,6 +1454,8 @@ msgstr ""
 msgctxt "view~dictionnary.selectiontool.message.start"
 msgid "Selection tool activated. Draw a shape on the map to select features."
 msgstr ""
+"L'outil de sélection est activé. Tracez une forme sur la carte pour "
+"sélectionner des objets."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1574,6 +1595,11 @@ msgstr "Accrochage sur"
 msgctxt "view~dictionnary.snapping.list.toggle"
 msgid "Toggle snapping for this layer"
 msgstr "Activer l'accrochage pour cette couche"
+
+#: view~dictionnary.snapping.message.activated
+msgctxt "view~dictionnary.snapping.message.activated"
+msgid "Snapping has been automatically activated."
+msgstr "L'accrochage a été activé automatiquement."
 
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
@@ -1788,7 +1814,7 @@ msgstr "Édition :"
 #: view~edition.geomtool.copypastegeom.title
 msgctxt "view~edition.geomtool.copypastegeom.title"
 msgid "Copy and paste an existing geometry"
-msgstr ""
+msgstr "Copier et coller une géométrie existante"
 
 #: view~edition.geomtool.drag.title
 msgctxt "view~edition.geomtool.drag.title"
@@ -2649,6 +2675,56 @@ msgctxt "view~map.popup.table.th.value"
 msgid "Value"
 msgstr "Valeur"
 
+#: view~map.portfolio.button.deactivate.help
+msgctxt "view~map.portfolio.button.deactivate.help"
+msgid "Deactivate the portfolio"
+msgstr "Désactiver le portfolio"
+
+#: view~map.portfolio.button.deactivate.label
+msgctxt "view~map.portfolio.button.deactivate.label"
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: view~map.portfolio.button.run.help
+msgctxt "view~map.portfolio.button.run.help"
+msgid "Run the portfolio"
+msgstr "Lancer le portfolio"
+
+#: view~map.portfolio.button.run.label
+msgctxt "view~map.portfolio.button.run.label"
+msgid "Run"
+msgstr "Lancer"
+
+#: view~map.portfolio.select.choose
+msgctxt "view~map.portfolio.select.choose"
+msgid "Choose a portfolio"
+msgstr "Choisir un portfolio"
+
+#: view~map.portfolio.select.emptyItem.label
+msgctxt "view~map.portfolio.select.emptyItem.label"
+msgid "No portfolio"
+msgstr "Aucun portfolio"
+
+#: view~map.portfolio.select.help
+msgctxt "view~map.portfolio.select.help"
+msgid "Select a portfolio"
+msgstr "Sélectionner un portfolio"
+
+#: view~map.portfolio.select.warning
+msgctxt "view~map.portfolio.select.warning"
+msgid "No portfolio selected"
+msgstr "Aucun portfolio sélectionné"
+
+#: view~map.portfolios.navbar.title
+msgctxt "view~map.portfolios.navbar.title"
+msgid "Portfolios"
+msgstr "Portfolios"
+
+#: view~map.portfolios.toolbar.title
+msgctxt "view~map.portfolios.toolbar.title"
+msgid "Portfolios"
+msgstr "Portfolios"
+
 #: view~map.print.navbar.title
 msgctxt "view~map.print.navbar.title"
 msgid "Print"
@@ -2678,6 +2754,11 @@ msgstr "Modèle"
 msgctxt "view~map.print.toolbar.title"
 msgid "Print"
 msgstr "Imprimer"
+
+#: view~map.search.clear
+msgctxt "view~map.search.clear"
+msgid "Clear search"
+msgstr "Effacer la recherche"
 
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"

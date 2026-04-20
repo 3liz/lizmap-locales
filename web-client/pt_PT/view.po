@@ -2,16 +2,16 @@
 # Sérgio Pinheiro <sergiuspinheiro@gmail.com>, 2025
 # João Gaspar <joao.f.r.gaspar@gmail.com>, 2025
 # rldhont <rldhont@gmail.com>, 2025
-# José Macau <jose.macau@gmail.com>, 2026
 # Laurent Jouanneau <dev@ljouanneau.com>, 2026
+# José Macau <jose.macau@gmail.com>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-23 17:04++0100\n"
+"POT-Creation-Date: 2026-04-20 12:30++0200\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
-"Last-Translator: Laurent Jouanneau <dev@ljouanneau.com>, 2026\n"
+"Last-Translator: José Macau <jose.macau@gmail.com>, 2026\n"
 "Language-Team: Portuguese (https://app.transifex.com/3liz-1/teams/62012/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -336,7 +336,7 @@ msgstr "Ligar elementos selecionados"
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
 msgid "Display selection only"
-msgstr ""
+msgstr "Mostrar apenas seleção"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
@@ -361,18 +361,27 @@ msgstr "Detalhe"
 #: view~dictionnary.attributeLayers.toolbar.btn.filterByExtent.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.filterByExtent.title"
 msgid "Filter the table with the features in the current map extent"
-msgstr ""
+msgstr "Filtrar a tabela com os elementos no enquadramento atual do mapa"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.fit.filtered.extent.title
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.fit.filtered.extent.title"
 msgid "Zoom to filtered features extent"
-msgstr ""
+msgstr "Ajustar o zoom ao enquadramento dos elementos filtrados"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
 msgid "Select searched line"
 msgstr "Selecionar linhas pesquisadas"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn"
+msgid ""
+"You are about to select more than a 1000 features. This may take a few "
+"seconds to process. Are you sure you want to proceed?"
+msgstr ""
+"Prestes a selecionar mais de 1000 elementos. Isto pode demorar alguns "
+"segundos a processar. Confirmar continuação?"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
@@ -627,73 +636,83 @@ msgstr "Tamanho"
 #: view~dictionnary.dxfexport.description
 msgctxt "view~dictionnary.dxfexport.description"
 msgid "Export the current map view as a DXF file."
-msgstr ""
+msgstr "Exportar a vista atual do mapa como ficheiro DXF."
 
 #: view~dictionnary.dxfexport.error
 msgctxt "view~dictionnary.dxfexport.error"
 msgid "Error during DXF export. Please contact the system administrator."
 msgstr ""
+"Erro durante a exportação DXF. Por favor contactar o administrador do "
+"sistema."
 
 #: view~dictionnary.dxfexport.error.notfound
 msgctxt "view~dictionnary.dxfexport.error.notfound"
 msgid "Export service not found. Please contact the system administrator."
 msgstr ""
+"Serviço de exportação não encontrado. Por favor contactar o administrador do"
+" sistema."
 
 #: view~dictionnary.dxfexport.error.server
 msgctxt "view~dictionnary.dxfexport.error.server"
 msgid ""
 "Server error during export. Please try again or contact the administrator."
 msgstr ""
+"Erro do servidor durante a exportação. Por favor tentar novamente ou "
+"contactar o administrador."
 
 #: view~dictionnary.dxfexport.error.unavailable
 msgctxt "view~dictionnary.dxfexport.error.unavailable"
 msgid "Export service temporarily unavailable. Please try again later."
 msgstr ""
+"Serviço de exportação temporariamente indisponível. Por favor tentar "
+"novamente mais tarde."
 
 #: view~dictionnary.dxfexport.force2d
 msgctxt "view~dictionnary.dxfexport.force2d"
 msgid "Force 2D (enables line widths)"
-msgstr ""
+msgstr "Forçar 2D (ativa espessura de linhas)."
 
 #: view~dictionnary.dxfexport.launch
 msgctxt "view~dictionnary.dxfexport.launch"
 msgid "Export to DXF"
-msgstr ""
+msgstr "Exportar para DXF"
 
 #: view~dictionnary.dxfexport.layers_count
 msgctxt "view~dictionnary.dxfexport.layers_count"
 msgid "layers will be exported"
-msgstr ""
+msgstr "as camadas serão exportadas"
 
 #: view~dictionnary.dxfexport.layers_to_export
 msgctxt "view~dictionnary.dxfexport.layers_to_export"
 msgid "layers will be exported"
-msgstr ""
+msgstr "as camadas serão exportadas"
 
 #: view~dictionnary.dxfexport.mode
 msgctxt "view~dictionnary.dxfexport.mode"
 msgid "Export mode"
-msgstr ""
+msgstr "Modo de exportação"
 
 #: view~dictionnary.dxfexport.mode.feature
 msgctxt "view~dictionnary.dxfexport.mode.feature"
 msgid "Feature symbology"
-msgstr ""
+msgstr "Simbologia dos elementos"
 
 #: view~dictionnary.dxfexport.mode.none
 msgctxt "view~dictionnary.dxfexport.mode.none"
 msgid "No symbology"
-msgstr ""
+msgstr "Sem simbologia"
 
 #: view~dictionnary.dxfexport.mode.symbollayer
 msgctxt "view~dictionnary.dxfexport.mode.symbollayer"
 msgid "Symbol layer symbology"
-msgstr ""
+msgstr "Simbologia por camada de símbolo"
 
 #: view~dictionnary.dxfexport.no_visible_layers
 msgctxt "view~dictionnary.dxfexport.no_visible_layers"
 msgid "No visible layers to export. Please enable at least one layer."
 msgstr ""
+"Não existem camadas visíveis para exportar. Por favor ativar pelo menos uma "
+"camada."
 
 #: view~dictionnary.dxfexport.no_wfs_layers
 msgctxt "view~dictionnary.dxfexport.no_wfs_layers"
@@ -701,6 +720,8 @@ msgid ""
 "No WFS-enabled layers available for export. Only layers published as WFS can"
 " be exported to DXF."
 msgstr ""
+"Não existem camadas com WFS disponível para exportação. Apenas camadas "
+"publicadas como WFS podem ser exportadas para DXF."
 
 #: view~dictionnary.dxfexport.scale
 msgctxt "view~dictionnary.dxfexport.scale"
@@ -710,32 +731,33 @@ msgstr "Escala"
 #: view~dictionnary.dxfexport.scale.current
 msgctxt "view~dictionnary.dxfexport.scale.current"
 msgid "Current"
-msgstr ""
+msgstr "Atual"
 
 #: view~dictionnary.dxfexport.started
 msgctxt "view~dictionnary.dxfexport.started"
 msgid "DXF export started, please wait…"
-msgstr ""
+msgstr "Exportação DXF iniciada, por favor aguardar…"
 
 #: view~dictionnary.dxfexport.success
 msgctxt "view~dictionnary.dxfexport.success"
 msgid "DXF export completed successfully."
-msgstr ""
+msgstr "Exportação DXF concluída com sucesso."
 
 #: view~dictionnary.dxfexport.use_mtext
 msgctxt "view~dictionnary.dxfexport.use_mtext"
 msgid "Use MTEXT for labels"
-msgstr ""
+msgstr "Utilizar MTEXT para etiquetas"
 
 #: view~dictionnary.dxfexport.use_title_as_layername
 msgctxt "view~dictionnary.dxfexport.use_title_as_layername"
 msgid "Use layer titles as DXF layer names"
-msgstr ""
+msgstr "Utilizar os títulos das camadas como nomes para camadas DXF"
 
 #: view~dictionnary.dxfexport.wfs_requirement
 msgctxt "view~dictionnary.dxfexport.wfs_requirement"
 msgid "Note: Only layers published as WFS can be exported to DXF."
 msgstr ""
+"Nota: Apenas camadas publicadas como WFS podem ser exportadas para DXF."
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -1374,6 +1396,11 @@ msgctxt "view~dictionnary.print.toolbar.scale"
 msgid "Scale"
 msgstr "Escala"
 
+#: view~dictionnary.print.toolbar.scale.toggle
+msgctxt "view~dictionnary.print.toolbar.scale.toggle"
+msgid "Toggle between preset scales and custom value"
+msgstr "Alternar entre escalas predefinidas e valor personalizado"
+
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
@@ -1413,6 +1440,8 @@ msgstr ""
 msgctxt "view~dictionnary.selectiontool.message.start"
 msgid "Selection tool activated. Draw a shape on the map to select features."
 msgstr ""
+"Ferramenta de seleção ativada. Desenhar uma forma no mapa para selecionar "
+"entidades."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1552,6 +1581,11 @@ msgstr "Atração"
 msgctxt "view~dictionnary.snapping.list.toggle"
 msgid "Toggle snapping for this layer"
 msgstr "Alternar atração para esta camada"
+
+#: view~dictionnary.snapping.message.activated
+msgctxt "view~dictionnary.snapping.message.activated"
+msgid "Snapping has been automatically activated."
+msgstr "A ferramenta de atração foi ativada automaticamente."
 
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
@@ -1764,7 +1798,7 @@ msgstr "Edição:"
 #: view~edition.geomtool.copypastegeom.title
 msgctxt "view~edition.geomtool.copypastegeom.title"
 msgid "Copy and paste an existing geometry"
-msgstr ""
+msgstr "Copiar e colar uma geometria existente"
 
 #: view~edition.geomtool.drag.title
 msgctxt "view~edition.geomtool.drag.title"
@@ -2272,12 +2306,12 @@ msgstr "Desenhar"
 #: view~map.dxfexport.navbar.title
 msgctxt "view~map.dxfexport.navbar.title"
 msgid "DXF Export"
-msgstr ""
+msgstr "Exportação DXF"
 
 #: view~map.dxfexport.toolbar.title
 msgctxt "view~map.dxfexport.toolbar.title"
 msgid "DXF Export"
-msgstr ""
+msgstr "Exportação DXF"
 
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"
@@ -2619,6 +2653,56 @@ msgctxt "view~map.popup.table.th.value"
 msgid "Value"
 msgstr "Valor"
 
+#: view~map.portfolio.button.deactivate.help
+msgctxt "view~map.portfolio.button.deactivate.help"
+msgid "Deactivate the portfolio"
+msgstr "Desativar o portefólio"
+
+#: view~map.portfolio.button.deactivate.label
+msgctxt "view~map.portfolio.button.deactivate.label"
+msgid "Deactivate"
+msgstr "Desativar"
+
+#: view~map.portfolio.button.run.help
+msgctxt "view~map.portfolio.button.run.help"
+msgid "Run the portfolio"
+msgstr "Executar o portefólio"
+
+#: view~map.portfolio.button.run.label
+msgctxt "view~map.portfolio.button.run.label"
+msgid "Run"
+msgstr "Executar"
+
+#: view~map.portfolio.select.choose
+msgctxt "view~map.portfolio.select.choose"
+msgid "Choose a portfolio"
+msgstr "Selecionar um portefólio"
+
+#: view~map.portfolio.select.emptyItem.label
+msgctxt "view~map.portfolio.select.emptyItem.label"
+msgid "No portfolio"
+msgstr "Sem portefólio"
+
+#: view~map.portfolio.select.help
+msgctxt "view~map.portfolio.select.help"
+msgid "Select a portfolio"
+msgstr "Selecionar um portefólio"
+
+#: view~map.portfolio.select.warning
+msgctxt "view~map.portfolio.select.warning"
+msgid "No portfolio selected"
+msgstr "Nenhum portefólio selecionado"
+
+#: view~map.portfolios.navbar.title
+msgctxt "view~map.portfolios.navbar.title"
+msgid "Portfolios"
+msgstr "Portefólios"
+
+#: view~map.portfolios.toolbar.title
+msgctxt "view~map.portfolios.toolbar.title"
+msgid "Portfolios"
+msgstr "Portefólios"
+
 #: view~map.print.navbar.title
 msgctxt "view~map.print.navbar.title"
 msgid "Print"
@@ -2648,6 +2732,11 @@ msgstr "Modelo"
 msgctxt "view~map.print.toolbar.title"
 msgid "Print"
 msgstr "Imprimir"
+
+#: view~map.search.clear
+msgctxt "view~map.search.clear"
+msgid "Clear search"
+msgstr "Limpar pesquisa"
 
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"
