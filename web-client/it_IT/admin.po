@@ -6,14 +6,14 @@
 # rldhont <rldhont@gmail.com>, 2016
 # Roberto Marzocchi <roberto.marzocchi@gter.it>, 2019
 # Stefano Campus <skampus@gmail.com>, 2018,2020
-# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2025
+# Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2026
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-11 08:40++0100\n"
+"POT-Creation-Date: 2026-04-20 12:21++0200\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2025\n"
+"Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2026\n"
 "Language-Team: Italian (http://app.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -623,66 +623,66 @@ msgctxt "admin~admin.form.admin_services.logLevel.alert.label"
 msgid ""
 "Alert: indicates that immediate action is necessary to resolve a critical "
 "issue."
-msgstr ""
+msgstr "Alert: indica che è necessaria un'azione immediata per risolvere un problema critico."
 
 #: admin~admin.form.admin_services.logLevel.critical.label
 msgctxt "admin~admin.form.admin_services.logLevel.critical.label"
 msgid ""
 "Critical: signifies critical conditions in the program that demand "
 "intervention to prevent system failure."
-msgstr ""
+msgstr "Critico: rappresenta una condizione critica nel programma che richiede un intervento per prevenire un guasto del sistema."
 
 #: admin~admin.form.admin_services.logLevel.debug.label
 msgctxt "admin~admin.form.admin_services.logLevel.debug.label"
 msgid ""
 "Debug: intended for logging detailed information about the system for "
 "debugging purposes."
-msgstr ""
+msgstr "Debug: utilizzato per registrare informazioni di dettaglio sul sistema per attività di debugging."
 
 #: admin~admin.form.admin_services.logLevel.emergency.label
 msgctxt "admin~admin.form.admin_services.logLevel.emergency.label"
 msgid ""
 "Emergency: indicates that the system is unusable and requires immediate "
 "attention."
-msgstr ""
+msgstr "Emergenza: indica che il sistema non è utilizzabile e richiede attenzione immediata."
 
 #: admin~admin.form.admin_services.logLevel.error.label
 msgctxt "admin~admin.form.admin_services.logLevel.error.label"
 msgid ""
 "Error: indicates error conditions that impair some operation but are less "
 "severe than critical situations."
-msgstr ""
+msgstr "Errore: indica una condizione di errore che impedisce alcune operazioni, meno grave degli errori critici."
 
 #: admin~admin.form.admin_services.logLevel.help
 msgctxt "admin~admin.form.admin_services.logLevel.help"
 msgid "Select the level of severity of the messages to log."
-msgstr ""
+msgstr "Seleziona il livello di severità dei messaggi da registrare nel log."
 
 #: admin~admin.form.admin_services.logLevel.info.label
 msgctxt "admin~admin.form.admin_services.logLevel.info.label"
 msgid ""
 "Info: includes messages that provide a record of the normal operation of the"
 " system."
-msgstr ""
+msgstr "Info: include informazioni che forniscono il dettaglio della normale operatività del sistema."
 
 #: admin~admin.form.admin_services.logLevel.label
 msgctxt "admin~admin.form.admin_services.logLevel.label"
 msgid "Log level"
-msgstr ""
+msgstr "Livello di log"
 
 #: admin~admin.form.admin_services.logLevel.notice.label
 msgctxt "admin~admin.form.admin_services.logLevel.notice.label"
 msgid ""
 "Notice: applies to normal but significant conditions that may require "
 "monitoring."
-msgstr ""
+msgstr "Avviso: si applica a condizioni normali ma significative che potrebbero richiedere un monitoraggio."
 
 #: admin~admin.form.admin_services.logLevel.warning.label
 msgctxt "admin~admin.form.admin_services.logLevel.warning.label"
 msgid ""
 "Warning: signifies potential issues that may lead to errors or unexpected "
 "behavior in the future if not addressed."
-msgstr ""
+msgstr "Avviso: indica dei potenziali problemi che potrebbero portare ad errori o comportamenti non desiderati in futuro, se non risolti."
 
 #: admin~admin.form.admin_services.message.cacheExpiration.wrong
 msgctxt "admin~admin.form.admin_services.message.cacheExpiration.wrong"
@@ -1268,7 +1268,7 @@ msgstr "Gestione mappe"
 #: admin~admin.menu.lizmap.search.label
 msgctxt "admin~admin.menu.lizmap.search.label"
 msgid "Lizmap search"
-msgstr ""
+msgstr "Ricerca Lizmap"
 
 #: admin~admin.menu.lizmap.theme.label
 msgctxt "admin~admin.menu.lizmap.theme.label"
@@ -2086,34 +2086,34 @@ msgstr "Mostra tutti i dati dei layer filtrati (filtri spaziali o sugli attribut
 #: admin~lizmap_search.button.profile.create
 msgctxt "admin~lizmap_search.button.profile.create"
 msgid "Create lizmap_search connection profile"
-msgstr ""
+msgstr "Crea il profilo di connessione per lizmap_search"
 
 #: admin~lizmap_search.button.profile.edit
 msgctxt "admin~lizmap_search.button.profile.edit"
 msgid "Modify lizmap_search connection profile"
-msgstr ""
+msgstr "Modifica il profilo di connessione per lizmap_search"
 
 #: admin~lizmap_search.content.all_ok
 msgctxt "admin~lizmap_search.content.all_ok"
 msgid "The <code>lizmap_search</code> table/view exists"
-msgstr ""
+msgstr "La tabella/vista <code>lizmap_search</code> esiste"
 
 #: admin~lizmap_search.content.profile.dedicated
 msgctxt "admin~lizmap_search.content.profile.dedicated"
 msgid "and uses the dedicated profile."
-msgstr ""
+msgstr "e usa il profilo dedicato."
 
 #: admin~lizmap_search.content.profile.dedicated.fail
 msgctxt "admin~lizmap_search.content.profile.dedicated.fail"
 msgid ""
 "The <code>lizmap_search</code> table/view is not queryable (see logs), edit "
 "the connection profile."
-msgstr ""
+msgstr "La tabella/vista <code>lizmap_search</code> non è interrogabile (vedi i log), modifica il profilo di connessione."
 
 #: admin~lizmap_search.content.profile.default
 msgctxt "admin~lizmap_search.content.profile.default"
 msgid "and uses the default profile."
-msgstr ""
+msgstr "e utilizza il profilo predefinito."
 
 #: admin~lizmap_search.content.profile.default.fail
 msgctxt "admin~lizmap_search.content.profile.default.fail"
@@ -2121,32 +2121,32 @@ msgid ""
 "The <code>lizmap_search</code> table/view does not exist or is not queryable"
 " with the default connection profile (see logs), you can create a dedicated "
 "connection profile."
-msgstr ""
+msgstr "La tabella/vista <code>lizmap_search</code> non esiste o non è interrogabile con il profilo di connessione predefinito (vedi i log), puoi creare un profilo di connessione dedicato."
 
 #: admin~lizmap_search.form.confirm_invalid
 msgctxt "admin~lizmap_search.form.confirm_invalid"
 msgid "Confirm save"
-msgstr ""
+msgstr "Conferma il salvataggio"
 
 #: admin~lizmap_search.form.database
 msgctxt "admin~lizmap_search.form.database"
 msgid "Database"
-msgstr ""
+msgstr "Database"
 
 #: admin~lizmap_search.form.error.connection_error
 msgctxt "admin~lizmap_search.form.error.connection_error"
 msgid "Could not connect to table with provided parameters, confirm values ?"
-msgstr ""
+msgstr "Impossibile collegarsi alla tabella utilizzando i parametri forniti, confermare i valori?"
 
 #: admin~lizmap_search.form.error_message
 msgctxt "admin~lizmap_search.form.error_message"
 msgid "Error message"
-msgstr ""
+msgstr "Messaggio di errore"
 
 #: admin~lizmap_search.form.host
 msgctxt "admin~lizmap_search.form.host"
 msgid "Hostname"
-msgstr ""
+msgstr "Hostname"
 
 #: admin~lizmap_search.form.password
 msgctxt "admin~lizmap_search.form.password"
@@ -2156,7 +2156,7 @@ msgstr "Password"
 #: admin~lizmap_search.form.search_path
 msgctxt "admin~lizmap_search.form.search_path"
 msgid "Search path"
-msgstr ""
+msgstr "Search path"
 
 #: admin~lizmap_search.form.user
 msgctxt "admin~lizmap_search.form.user"
@@ -2166,12 +2166,12 @@ msgstr "Utente"
 #: admin~lizmap_search.page.edit.title
 msgctxt "admin~lizmap_search.page.edit.title"
 msgid "Edit Lizmap search connection"
-msgstr ""
+msgstr "Modifica i parametri di connessione per la ricerca Lizmap"
 
 #: admin~lizmap_search.page.show.title
 msgctxt "admin~lizmap_search.page.show.title"
 msgid "Lizmap search configuration"
-msgstr ""
+msgstr "Configurazione della ricerca Lizmap"
 
 #: admin~user.acl.form.add
 msgctxt "admin~user.acl.form.add"

@@ -1,14 +1,13 @@
-# 
 # Translators:
-# Кадастр Муниципальный, 2023
+# Кадастр Муниципальный, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.11 action\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 11:58++0200\n"
+"POT-Creation-Date: 2026-04-20 12:21++0200\n"
 "PO-Revision-Date: 2020-03-01 15:01+0000\n"
-"Last-Translator: Кадастр Муниципальный, 2023\n"
+"Last-Translator: Кадастр Муниципальный, 2026\n"
 "Language-Team: Ukrainian (Ukraine) (https://app.transifex.com/3liz-1/teams/62012/uk_UA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +18,7 @@ msgstr ""
 #: action~action.dock.action.choose
 msgctxt "action~action.dock.action.choose"
 msgid "Choose an action to run"
-msgstr ""
+msgstr "Оберіть дію для запуску"
 
 #: action~action.dock.close
 msgctxt "action~action.dock.close"
@@ -29,7 +28,7 @@ msgstr "Закрити"
 #: action~action.dock.form.button.deactivate.help
 msgctxt "action~action.dock.form.button.deactivate.help"
 msgid "Deactivate the active action"
-msgstr ""
+msgstr "Деактивувати активну дію"
 
 #: action~action.dock.form.button.deactivate.label
 msgctxt "action~action.dock.form.button.deactivate.label"
@@ -39,27 +38,28 @@ msgstr "Деактивувати"
 #: action~action.dock.form.button.run.help
 msgctxt "action~action.dock.form.button.run.help"
 msgid "Run the selected action"
-msgstr ""
+msgstr "Запустити обрані дії"
 
 #: action~action.dock.form.button.run.label
 msgctxt "action~action.dock.form.button.run.label"
 msgid "Run"
-msgstr ""
+msgstr "Запустити"
 
 #: action~action.dock.form.select.emptyItem.label
 msgctxt "action~action.dock.form.select.emptyItem.label"
 msgid "Choose an action"
-msgstr ""
+msgstr "Обрати дію"
 
 #: action~action.dock.form.select.help
 msgctxt "action~action.dock.form.select.help"
 msgid "To run an action, select one in the list and click the Run button"
 msgstr ""
+"Щоб запустити дію, оберіть один із списку та натисніть кнопку Запуска."
 
 #: action~action.dock.form.select.warning
 msgctxt "action~action.dock.form.select.warning"
 msgid "You must first select an action in the list"
-msgstr ""
+msgstr "Ви маєте спершу обрати дію зі списка"
 
 #: action~action.dock.title
 msgctxt "action~action.dock.title"
@@ -74,3 +74,7 @@ msgid ""
 "the documentation</a> and convert it in the new format, since the old format"
 " will not work in the future versions."
 msgstr ""
+"Шановний адміністраторе, файл конфігурації JSON для модуля<b>action "
+"module</b>записано у старому форматі. Будь ласка, <a target=\"_blank\" "
+"href=\"%s\">ознайомтеся з документацією</a> та конвертуйте його в новий "
+"формат, оскільки старий формат не працюватиме в майбутніх версіях."

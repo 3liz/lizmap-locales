@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-11 08:40++0100\n"
+"POT-Creation-Date: 2026-04-20 12:21++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2024-2026\n"
 "Language-Team: Czech (http://app.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
@@ -349,10 +349,23 @@ msgctxt "view~dictionnary.attributeLayers.toolbar.btn.filterByExtent.title"
 msgid "Filter the table with the features in the current map extent"
 msgstr "Filtrovat tabulku podle prvků v aktuálním rozsahu mapy"
 
+#: view~dictionnary.attributeLayers.toolbar.btn.fit.filtered.extent.title
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.fit.filtered.extent.title"
+msgid "Zoom to filtered features extent"
+msgstr ""
+
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
 msgid "Select searched line"
 msgstr "Vybrat vyhledané"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn"
+msgid ""
+"You are about to select more than a 1000 features. This may take a few "
+"seconds to process. Are you sure you want to proceed?"
+msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
@@ -1315,6 +1328,11 @@ msgctxt "view~dictionnary.print.toolbar.scale"
 msgid "Scale"
 msgstr "Měřítko"
 
+#: view~dictionnary.print.toolbar.scale.toggle
+msgctxt "view~dictionnary.print.toolbar.scale.toggle"
+msgid "Toggle between preset scales and custom value"
+msgstr ""
+
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
@@ -1341,6 +1359,11 @@ msgid ""
 "The project has been recently updated in QGIS Desktop, but with an outdated "
 "version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
 msgstr "Projekt byl nedávno aktualizován v QGIS Desktop, ale se zastaralou verzí pluginu Lizmap. Musíte upgradovat svůj plugin v QGIS Desktop."
+
+#: view~dictionnary.selectiontool.message.start
+msgctxt "view~dictionnary.selectiontool.message.start"
+msgid "Selection tool activated. Draw a shape on the map to select features."
+msgstr ""
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1478,6 +1501,11 @@ msgstr "Přichytit"
 msgctxt "view~dictionnary.snapping.list.toggle"
 msgid "Toggle snapping for this layer"
 msgstr "Přepněte u této vrstvy přichycení"
+
+#: view~dictionnary.snapping.message.activated
+msgctxt "view~dictionnary.snapping.message.activated"
+msgid "Snapping has been automatically activated."
+msgstr ""
 
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
@@ -1674,6 +1702,11 @@ msgstr "Uložit"
 msgctxt "view~edition.geolocate.toolbar.title"
 msgid "Edition:"
 msgstr "Editace:"
+
+#: view~edition.geomtool.copypastegeom.title
+msgctxt "view~edition.geomtool.copypastegeom.title"
+msgid "Copy and paste an existing geometry"
+msgstr ""
 
 #: view~edition.geomtool.drag.title
 msgctxt "view~edition.geomtool.drag.title"
@@ -2515,6 +2548,56 @@ msgctxt "view~map.popup.table.th.value"
 msgid "Value"
 msgstr "Hodnota"
 
+#: view~map.portfolio.button.deactivate.help
+msgctxt "view~map.portfolio.button.deactivate.help"
+msgid "Deactivate the portfolio"
+msgstr ""
+
+#: view~map.portfolio.button.deactivate.label
+msgctxt "view~map.portfolio.button.deactivate.label"
+msgid "Deactivate"
+msgstr "Deaktivace"
+
+#: view~map.portfolio.button.run.help
+msgctxt "view~map.portfolio.button.run.help"
+msgid "Run the portfolio"
+msgstr ""
+
+#: view~map.portfolio.button.run.label
+msgctxt "view~map.portfolio.button.run.label"
+msgid "Run"
+msgstr "Spustit"
+
+#: view~map.portfolio.select.choose
+msgctxt "view~map.portfolio.select.choose"
+msgid "Choose a portfolio"
+msgstr ""
+
+#: view~map.portfolio.select.emptyItem.label
+msgctxt "view~map.portfolio.select.emptyItem.label"
+msgid "No portfolio"
+msgstr ""
+
+#: view~map.portfolio.select.help
+msgctxt "view~map.portfolio.select.help"
+msgid "Select a portfolio"
+msgstr ""
+
+#: view~map.portfolio.select.warning
+msgctxt "view~map.portfolio.select.warning"
+msgid "No portfolio selected"
+msgstr ""
+
+#: view~map.portfolios.navbar.title
+msgctxt "view~map.portfolios.navbar.title"
+msgid "Portfolios"
+msgstr ""
+
+#: view~map.portfolios.toolbar.title
+msgctxt "view~map.portfolios.toolbar.title"
+msgid "Portfolios"
+msgstr ""
+
 #: view~map.print.navbar.title
 msgctxt "view~map.print.navbar.title"
 msgid "Print"
@@ -2544,6 +2627,11 @@ msgstr "Šablona"
 msgctxt "view~map.print.toolbar.title"
 msgid "Print"
 msgstr "Tisk"
+
+#: view~map.search.clear
+msgctxt "view~map.search.clear"
+msgid "Clear search"
+msgstr ""
 
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"

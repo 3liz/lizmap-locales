@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-11 08:40++0100\n"
+"POT-Creation-Date: 2026-04-20 12:21++0200\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Кадастр Муниципальный, 2022\n"
 "Language-Team: Ukrainian (Ukraine) (http://app.transifex.com/3liz-1/lizmap-locales/language/uk_UA/)\n"
@@ -147,7 +147,7 @@ msgstr ""
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
 msgid "Choose an action to run"
-msgstr ""
+msgstr "Оберіть дію для запуску"
 
 #: view~dictionnary.action.close
 msgctxt "view~dictionnary.action.close"
@@ -157,7 +157,7 @@ msgstr "Закрити"
 #: view~dictionnary.action.form.button.deactivate.help
 msgctxt "view~dictionnary.action.form.button.deactivate.help"
 msgid "Deactivate the active action"
-msgstr ""
+msgstr "Деактивувати активну дію"
 
 #: view~dictionnary.action.form.button.deactivate.label
 msgctxt "view~dictionnary.action.form.button.deactivate.label"
@@ -167,27 +167,27 @@ msgstr "Деактивувати"
 #: view~dictionnary.action.form.button.run.help
 msgctxt "view~dictionnary.action.form.button.run.help"
 msgid "Run the selected action"
-msgstr ""
+msgstr "Запустити обрані дії"
 
 #: view~dictionnary.action.form.button.run.label
 msgctxt "view~dictionnary.action.form.button.run.label"
 msgid "Run"
-msgstr ""
+msgstr "Запустити"
 
 #: view~dictionnary.action.form.select.emptyItem.label
 msgctxt "view~dictionnary.action.form.select.emptyItem.label"
 msgid "Choose an action"
-msgstr ""
+msgstr "Обрати дію"
 
 #: view~dictionnary.action.form.select.help
 msgctxt "view~dictionnary.action.form.select.help"
 msgid "To run an action, select one in the list and click the Run button"
-msgstr ""
+msgstr "Щоб запустити дію, оберіть один із списку та натисніть кнопку Запуска."
 
 #: view~dictionnary.action.form.select.warning
 msgctxt "view~dictionnary.action.form.select.warning"
 msgid "You must first select an action in the list"
-msgstr ""
+msgstr "Ви маєте спершу обрати дію зі списка"
 
 #: view~dictionnary.action.title
 msgctxt "view~dictionnary.action.title"
@@ -345,10 +345,23 @@ msgctxt "view~dictionnary.attributeLayers.toolbar.btn.filterByExtent.title"
 msgid "Filter the table with the features in the current map extent"
 msgstr ""
 
+#: view~dictionnary.attributeLayers.toolbar.btn.fit.filtered.extent.title
+msgctxt ""
+"view~dictionnary.attributeLayers.toolbar.btn.fit.filtered.extent.title"
+msgid "Zoom to filtered features extent"
+msgstr ""
+
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
 msgid "Select searched line"
 msgstr "Виберіть шуканий рядок"
+
+#: view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn
+msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn"
+msgid ""
+"You are about to select more than a 1000 features. This may take a few "
+"seconds to process. Are you sure you want to proceed?"
+msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
@@ -1311,6 +1324,11 @@ msgctxt "view~dictionnary.print.toolbar.scale"
 msgid "Scale"
 msgstr "Масштаб"
 
+#: view~dictionnary.print.toolbar.scale.toggle
+msgctxt "view~dictionnary.print.toolbar.scale.toggle"
+msgid "Toggle between preset scales and custom value"
+msgstr ""
+
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
@@ -1336,6 +1354,11 @@ msgctxt "view~dictionnary.project.plugin.outdated.warning"
 msgid ""
 "The project has been recently updated in QGIS Desktop, but with an outdated "
 "version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
+msgstr ""
+
+#: view~dictionnary.selectiontool.message.start
+msgctxt "view~dictionnary.selectiontool.message.start"
+msgid "Selection tool activated. Draw a shape on the map to select features."
 msgstr ""
 
 #: view~dictionnary.selectiontool.results.more
@@ -1473,6 +1496,11 @@ msgstr "Прив'язка увімкнена"
 #: view~dictionnary.snapping.list.toggle
 msgctxt "view~dictionnary.snapping.list.toggle"
 msgid "Toggle snapping for this layer"
+msgstr ""
+
+#: view~dictionnary.snapping.message.activated
+msgctxt "view~dictionnary.snapping.message.activated"
+msgid "Snapping has been automatically activated."
 msgstr ""
 
 #: view~dictionnary.snapping.title
@@ -1670,6 +1698,11 @@ msgstr "Зберегти"
 msgctxt "view~edition.geolocate.toolbar.title"
 msgid "Edition:"
 msgstr "Весрія:"
+
+#: view~edition.geomtool.copypastegeom.title
+msgctxt "view~edition.geomtool.copypastegeom.title"
+msgid "Copy and paste an existing geometry"
+msgstr ""
 
 #: view~edition.geomtool.drag.title
 msgctxt "view~edition.geomtool.drag.title"
@@ -2511,6 +2544,56 @@ msgctxt "view~map.popup.table.th.value"
 msgid "Value"
 msgstr "Цінність"
 
+#: view~map.portfolio.button.deactivate.help
+msgctxt "view~map.portfolio.button.deactivate.help"
+msgid "Deactivate the portfolio"
+msgstr ""
+
+#: view~map.portfolio.button.deactivate.label
+msgctxt "view~map.portfolio.button.deactivate.label"
+msgid "Deactivate"
+msgstr "Деактивувати"
+
+#: view~map.portfolio.button.run.help
+msgctxt "view~map.portfolio.button.run.help"
+msgid "Run the portfolio"
+msgstr ""
+
+#: view~map.portfolio.button.run.label
+msgctxt "view~map.portfolio.button.run.label"
+msgid "Run"
+msgstr "Запустити"
+
+#: view~map.portfolio.select.choose
+msgctxt "view~map.portfolio.select.choose"
+msgid "Choose a portfolio"
+msgstr ""
+
+#: view~map.portfolio.select.emptyItem.label
+msgctxt "view~map.portfolio.select.emptyItem.label"
+msgid "No portfolio"
+msgstr ""
+
+#: view~map.portfolio.select.help
+msgctxt "view~map.portfolio.select.help"
+msgid "Select a portfolio"
+msgstr ""
+
+#: view~map.portfolio.select.warning
+msgctxt "view~map.portfolio.select.warning"
+msgid "No portfolio selected"
+msgstr ""
+
+#: view~map.portfolios.navbar.title
+msgctxt "view~map.portfolios.navbar.title"
+msgid "Portfolios"
+msgstr ""
+
+#: view~map.portfolios.toolbar.title
+msgctxt "view~map.portfolios.toolbar.title"
+msgid "Portfolios"
+msgstr ""
+
 #: view~map.print.navbar.title
 msgctxt "view~map.print.navbar.title"
 msgid "Print"
@@ -2540,6 +2623,11 @@ msgstr "Шаблон"
 msgctxt "view~map.print.toolbar.title"
 msgid "Print"
 msgstr "Друк"
+
+#: view~map.search.clear
+msgctxt "view~map.search.clear"
+msgid "Clear search"
+msgstr ""
 
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"
