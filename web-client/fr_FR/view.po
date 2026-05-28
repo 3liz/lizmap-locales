@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 12:30++0200\n"
+"POT-Creation-Date: 2026-05-28 15:13++0200\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>, 2026\n"
 "Language-Team: French (https://app.transifex.com/3liz-1/teams/62012/fr/)\n"
@@ -856,6 +856,33 @@ msgstr ""
 "Vous pouvez cacher ce formulaire avec le bouton de fermeture chaque fois que"
 " vous devez dessiner la géométrie"
 
+#: view~dictionnary.edition.geom.copyPaste
+msgctxt "view~dictionnary.edition.geom.copyPaste"
+msgid "Copy and paste an existing geometry"
+msgstr "Copier et coller une géométrie existante"
+
+#: view~dictionnary.edition.geom.copyPaste.copied
+msgctxt "view~dictionnary.edition.geom.copyPaste.copied"
+msgid "Geometry copied successfully"
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures
+msgctxt "view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures"
+msgid "No compatible features found at this location"
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.noCopyableLayers
+msgctxt "view~dictionnary.edition.geom.copyPaste.noCopyableLayers"
+msgid ""
+"No copyable layers found. Layers must be visible, popup-enabled and "
+"published as WFS to copy their geometries."
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.queryError
+msgctxt "view~dictionnary.edition.geom.copyPaste.queryError"
+msgid "Error querying features"
+msgstr ""
+
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
 msgid "Paste the geometry"
@@ -1136,6 +1163,26 @@ msgctxt "view~dictionnary.geolocation.survey.title"
 msgid "Survey"
 msgstr "Sondage"
 
+#: view~dictionnary.groupPopupByLayer.nav.back
+msgctxt "view~dictionnary.groupPopupByLayer.nav.back"
+msgid "Return to layers list"
+msgstr "Retourner à la liste des couches"
+
+#: view~dictionnary.groupPopupByLayer.nav.next
+msgctxt "view~dictionnary.groupPopupByLayer.nav.next"
+msgid "Go to the next feature"
+msgstr "Passer à l'entité suivante"
+
+#: view~dictionnary.groupPopupByLayer.nav.prev
+msgctxt "view~dictionnary.groupPopupByLayer.nav.prev"
+msgid "Go to the previous feature"
+msgstr "Aller à l'entité précédente"
+
+#: view~dictionnary.groupPopupByLayer.title
+msgctxt "view~dictionnary.groupPopupByLayer.title"
+msgid "Features by layer"
+msgstr "Entités par couche"
+
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
@@ -1320,6 +1367,86 @@ msgstr "Dézoomer"
 msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
 msgid "Display/Hide overview"
 msgstr "Afficher/masquer la carte miniature"
+
+#: view~dictionnary.permalink.back
+msgctxt "view~dictionnary.permalink.back"
+msgid "Back"
+msgstr "Retour"
+
+#: view~dictionnary.permalink.clipboard
+msgctxt "view~dictionnary.permalink.clipboard"
+msgid "Permalink copied to clipboard"
+msgstr "Permalien copié dans le presse-papier"
+
+#: view~dictionnary.permalink.error.add
+msgctxt "view~dictionnary.permalink.error.add"
+msgid "Failed to insert the permalink record"
+msgstr "Échec de l'enregistrement du permalien"
+
+#: view~dictionnary.permalink.error.get.not.found
+msgctxt "view~dictionnary.permalink.error.get.not.found"
+msgid "The permalink does not exists"
+msgstr "Le permalien n'existe pas"
+
+#: view~dictionnary.permalink.error.parameters
+msgctxt "view~dictionnary.permalink.error.parameters"
+msgid "Wrong parameters given"
+msgstr "Paramètres érronés"
+
+#: view~dictionnary.permalink.error.parameters.bbox
+msgctxt "view~dictionnary.permalink.error.parameters.bbox"
+msgid "Invalid bounding box"
+msgstr "Emprise invalide"
+
+#: view~dictionnary.permalink.get.error
+msgctxt "view~dictionnary.permalink.get.error"
+msgid "Cannot retreive permalink"
+msgstr "Impossible de récupérer le permalien"
+
+#: view~dictionnary.permalink.history.clipboard
+msgctxt "view~dictionnary.permalink.history.clipboard"
+msgid "Copy to clipboard"
+msgstr "Copier dans le presse-papiers"
+
+#: view~dictionnary.permalink.history.delete.all
+msgctxt "view~dictionnary.permalink.history.delete.all"
+msgid "Remove all permalink from cache?"
+msgstr "Supprimer tous les permaliens du cache ?"
+
+#: view~dictionnary.permalink.history.delete.all.title
+msgctxt "view~dictionnary.permalink.history.delete.all.title"
+msgid "Clear history"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.single
+msgctxt "view~dictionnary.permalink.history.delete.single"
+msgid "Remove selected permalink from cache?"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.single.title
+msgctxt "view~dictionnary.permalink.history.delete.single.title"
+msgid "Remove permalink from cache"
+msgstr ""
+
+#: view~dictionnary.permalink.history.share
+msgctxt "view~dictionnary.permalink.history.share"
+msgid "Share"
+msgstr "Partager"
+
+#: view~dictionnary.permalink.history.title
+msgctxt "view~dictionnary.permalink.history.title"
+msgid "Recent permalinks"
+msgstr ""
+
+#: view~dictionnary.permalink.history.visit
+msgctxt "view~dictionnary.permalink.history.visit"
+msgid "Visit permalink"
+msgstr ""
+
+#: view~dictionnary.permalink.new
+msgctxt "view~dictionnary.permalink.new"
+msgid "Create new permalink"
+msgstr ""
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
@@ -1810,11 +1937,6 @@ msgstr "Enregistrer"
 msgctxt "view~edition.geolocate.toolbar.title"
 msgid "Edition:"
 msgstr "Édition :"
-
-#: view~edition.geomtool.copypastegeom.title
-msgctxt "view~edition.geomtool.copypastegeom.title"
-msgid "Copy and paste an existing geometry"
-msgstr "Copier et coller une géométrie existante"
 
 #: view~edition.geomtool.drag.title
 msgctxt "view~edition.geomtool.drag.title"

@@ -5,16 +5,16 @@
 # Laurent Jouanneau <dev@ljouanneau.com>, 2025
 # Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2025
 # Hidde Wieringa <hidde@hiddewieringa.nl>, 2025
-# Nico Veenstra <nvbgm@gmx.net>, 2026
 # Jean-Louis Stanus <rammstan@msn.com>, 2026
+# Nico Veenstra <nvbgm@gmx.net>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 12:30++0200\n"
+"POT-Creation-Date: 2026-05-28 15:13++0200\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
-"Last-Translator: Jean-Louis Stanus <rammstan@msn.com>, 2026\n"
+"Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2026\n"
 "Language-Team: Dutch (https://app.transifex.com/3liz-1/teams/62012/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -831,6 +831,33 @@ msgstr ""
 "U kunt dit formulier verbergen met de knop Sluiten wanneer u de geometrie "
 "moet tekenen."
 
+#: view~dictionnary.edition.geom.copyPaste
+msgctxt "view~dictionnary.edition.geom.copyPaste"
+msgid "Copy and paste an existing geometry"
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.copied
+msgctxt "view~dictionnary.edition.geom.copyPaste.copied"
+msgid "Geometry copied successfully"
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures
+msgctxt "view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures"
+msgid "No compatible features found at this location"
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.noCopyableLayers
+msgctxt "view~dictionnary.edition.geom.copyPaste.noCopyableLayers"
+msgid ""
+"No copyable layers found. Layers must be visible, popup-enabled and "
+"published as WFS to copy their geometries."
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.queryError
+msgctxt "view~dictionnary.edition.geom.copyPaste.queryError"
+msgid "Error querying features"
+msgstr ""
+
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
 msgid "Paste the geometry"
@@ -1106,6 +1133,26 @@ msgctxt "view~dictionnary.geolocation.survey.title"
 msgid "Survey"
 msgstr "Onderzoek"
 
+#: view~dictionnary.groupPopupByLayer.nav.back
+msgctxt "view~dictionnary.groupPopupByLayer.nav.back"
+msgid "Return to layers list"
+msgstr ""
+
+#: view~dictionnary.groupPopupByLayer.nav.next
+msgctxt "view~dictionnary.groupPopupByLayer.nav.next"
+msgid "Go to the next feature"
+msgstr ""
+
+#: view~dictionnary.groupPopupByLayer.nav.prev
+msgctxt "view~dictionnary.groupPopupByLayer.nav.prev"
+msgid "Go to the previous feature"
+msgstr ""
+
+#: view~dictionnary.groupPopupByLayer.title
+msgctxt "view~dictionnary.groupPopupByLayer.title"
+msgid "Features by layer"
+msgstr ""
+
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
@@ -1292,6 +1339,86 @@ msgstr "Verkleinen van de kaart"
 msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
 msgid "Display/Hide overview"
 msgstr "Toon/Verberg overzicht"
+
+#: view~dictionnary.permalink.back
+msgctxt "view~dictionnary.permalink.back"
+msgid "Back"
+msgstr "Terug"
+
+#: view~dictionnary.permalink.clipboard
+msgctxt "view~dictionnary.permalink.clipboard"
+msgid "Permalink copied to clipboard"
+msgstr ""
+
+#: view~dictionnary.permalink.error.add
+msgctxt "view~dictionnary.permalink.error.add"
+msgid "Failed to insert the permalink record"
+msgstr ""
+
+#: view~dictionnary.permalink.error.get.not.found
+msgctxt "view~dictionnary.permalink.error.get.not.found"
+msgid "The permalink does not exists"
+msgstr ""
+
+#: view~dictionnary.permalink.error.parameters
+msgctxt "view~dictionnary.permalink.error.parameters"
+msgid "Wrong parameters given"
+msgstr ""
+
+#: view~dictionnary.permalink.error.parameters.bbox
+msgctxt "view~dictionnary.permalink.error.parameters.bbox"
+msgid "Invalid bounding box"
+msgstr ""
+
+#: view~dictionnary.permalink.get.error
+msgctxt "view~dictionnary.permalink.get.error"
+msgid "Cannot retreive permalink"
+msgstr ""
+
+#: view~dictionnary.permalink.history.clipboard
+msgctxt "view~dictionnary.permalink.history.clipboard"
+msgid "Copy to clipboard"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.all
+msgctxt "view~dictionnary.permalink.history.delete.all"
+msgid "Remove all permalink from cache?"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.all.title
+msgctxt "view~dictionnary.permalink.history.delete.all.title"
+msgid "Clear history"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.single
+msgctxt "view~dictionnary.permalink.history.delete.single"
+msgid "Remove selected permalink from cache?"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.single.title
+msgctxt "view~dictionnary.permalink.history.delete.single.title"
+msgid "Remove permalink from cache"
+msgstr ""
+
+#: view~dictionnary.permalink.history.share
+msgctxt "view~dictionnary.permalink.history.share"
+msgid "Share"
+msgstr "Delen"
+
+#: view~dictionnary.permalink.history.title
+msgctxt "view~dictionnary.permalink.history.title"
+msgid "Recent permalinks"
+msgstr ""
+
+#: view~dictionnary.permalink.history.visit
+msgctxt "view~dictionnary.permalink.history.visit"
+msgid "Visit permalink"
+msgstr ""
+
+#: view~dictionnary.permalink.new
+msgctxt "view~dictionnary.permalink.new"
+msgid "Create new permalink"
+msgstr ""
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
@@ -1764,11 +1891,6 @@ msgstr "Opslaan"
 msgctxt "view~edition.geolocate.toolbar.title"
 msgid "Edition:"
 msgstr "Editie:"
-
-#: view~edition.geomtool.copypastegeom.title
-msgctxt "view~edition.geomtool.copypastegeom.title"
-msgid "Copy and paste an existing geometry"
-msgstr ""
 
 #: view~edition.geomtool.drag.title
 msgctxt "view~edition.geomtool.drag.title"

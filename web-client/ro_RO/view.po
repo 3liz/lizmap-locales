@@ -1,12 +1,12 @@
 # Translators:
-# Tudor Bărăscu <tudorbarascu@yahoo.com>, 2025
+# Tudor Bărăscu <tudorbarascu@yahoo.com>, 2026
 # Igor Sorocean <sorocean.igor@gmail.com>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 12:30++0200\n"
+"POT-Creation-Date: 2026-05-28 15:13++0200\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2026\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -371,6 +371,8 @@ msgid ""
 "You are about to select more than a 1000 features. This may take a few "
 "seconds to process. Are you sure you want to proceed?"
 msgstr ""
+"Ești pe cale să selectezi mai mult de 1000 de elemente. Procesul poate dura "
+"câteva secunde. Ești sigur că dorești să continui?"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
@@ -830,6 +832,33 @@ msgstr ""
 "Poți ascunde acest formular cu butonul de închidere ori de câte ori trebuie "
 "să desenezi geometria."
 
+#: view~dictionnary.edition.geom.copyPaste
+msgctxt "view~dictionnary.edition.geom.copyPaste"
+msgid "Copy and paste an existing geometry"
+msgstr "Copiază și lipește o geometrie existentă"
+
+#: view~dictionnary.edition.geom.copyPaste.copied
+msgctxt "view~dictionnary.edition.geom.copyPaste.copied"
+msgid "Geometry copied successfully"
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures
+msgctxt "view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures"
+msgid "No compatible features found at this location"
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.noCopyableLayers
+msgctxt "view~dictionnary.edition.geom.copyPaste.noCopyableLayers"
+msgid ""
+"No copyable layers found. Layers must be visible, popup-enabled and "
+"published as WFS to copy their geometries."
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.queryError
+msgctxt "view~dictionnary.edition.geom.copyPaste.queryError"
+msgid "Error querying features"
+msgstr ""
+
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
 msgid "Paste the geometry"
@@ -1105,6 +1134,26 @@ msgctxt "view~dictionnary.geolocation.survey.title"
 msgid "Survey"
 msgstr "Studiu"
 
+#: view~dictionnary.groupPopupByLayer.nav.back
+msgctxt "view~dictionnary.groupPopupByLayer.nav.back"
+msgid "Return to layers list"
+msgstr ""
+
+#: view~dictionnary.groupPopupByLayer.nav.next
+msgctxt "view~dictionnary.groupPopupByLayer.nav.next"
+msgid "Go to the next feature"
+msgstr "Următorul element"
+
+#: view~dictionnary.groupPopupByLayer.nav.prev
+msgctxt "view~dictionnary.groupPopupByLayer.nav.prev"
+msgid "Go to the previous feature"
+msgstr "Elementul anterior"
+
+#: view~dictionnary.groupPopupByLayer.title
+msgctxt "view~dictionnary.groupPopupByLayer.title"
+msgid "Features by layer"
+msgstr ""
+
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
@@ -1290,10 +1339,90 @@ msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
 msgid "Display/Hide overview"
 msgstr "Afișare/Ascundere prezentare generală"
 
+#: view~dictionnary.permalink.back
+msgctxt "view~dictionnary.permalink.back"
+msgid "Back"
+msgstr "Înapoi"
+
+#: view~dictionnary.permalink.clipboard
+msgctxt "view~dictionnary.permalink.clipboard"
+msgid "Permalink copied to clipboard"
+msgstr ""
+
+#: view~dictionnary.permalink.error.add
+msgctxt "view~dictionnary.permalink.error.add"
+msgid "Failed to insert the permalink record"
+msgstr ""
+
+#: view~dictionnary.permalink.error.get.not.found
+msgctxt "view~dictionnary.permalink.error.get.not.found"
+msgid "The permalink does not exists"
+msgstr ""
+
+#: view~dictionnary.permalink.error.parameters
+msgctxt "view~dictionnary.permalink.error.parameters"
+msgid "Wrong parameters given"
+msgstr ""
+
+#: view~dictionnary.permalink.error.parameters.bbox
+msgctxt "view~dictionnary.permalink.error.parameters.bbox"
+msgid "Invalid bounding box"
+msgstr ""
+
+#: view~dictionnary.permalink.get.error
+msgctxt "view~dictionnary.permalink.get.error"
+msgid "Cannot retreive permalink"
+msgstr ""
+
+#: view~dictionnary.permalink.history.clipboard
+msgctxt "view~dictionnary.permalink.history.clipboard"
+msgid "Copy to clipboard"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.all
+msgctxt "view~dictionnary.permalink.history.delete.all"
+msgid "Remove all permalink from cache?"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.all.title
+msgctxt "view~dictionnary.permalink.history.delete.all.title"
+msgid "Clear history"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.single
+msgctxt "view~dictionnary.permalink.history.delete.single"
+msgid "Remove selected permalink from cache?"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.single.title
+msgctxt "view~dictionnary.permalink.history.delete.single.title"
+msgid "Remove permalink from cache"
+msgstr ""
+
+#: view~dictionnary.permalink.history.share
+msgctxt "view~dictionnary.permalink.history.share"
+msgid "Share"
+msgstr "Partajare"
+
+#: view~dictionnary.permalink.history.title
+msgctxt "view~dictionnary.permalink.history.title"
+msgid "Recent permalinks"
+msgstr ""
+
+#: view~dictionnary.permalink.history.visit
+msgctxt "view~dictionnary.permalink.history.visit"
+msgid "Visit permalink"
+msgstr ""
+
+#: view~dictionnary.permalink.new
+msgctxt "view~dictionnary.permalink.new"
+msgid "Create new permalink"
+msgstr ""
+
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
 msgid "No object has been found at this location."
-msgstr "Nu a fost găsit niciun obiect în această locație."
+msgstr "Nu a fost găsit niciun element în această locație."
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
@@ -1381,7 +1510,7 @@ msgstr "Scară"
 #: view~dictionnary.print.toolbar.scale.toggle
 msgctxt "view~dictionnary.print.toolbar.scale.toggle"
 msgid "Toggle between preset scales and custom value"
-msgstr ""
+msgstr "Comută între scalele prestabilite și valoarea personalizată"
 
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
@@ -1776,11 +1905,6 @@ msgstr "Salvează"
 msgctxt "view~edition.geolocate.toolbar.title"
 msgid "Edition:"
 msgstr "Editare:"
-
-#: view~edition.geomtool.copypastegeom.title
-msgctxt "view~edition.geomtool.copypastegeom.title"
-msgid "Copy and paste an existing geometry"
-msgstr "Copiază și lipește o geometrie existentă"
 
 #: view~edition.geomtool.drag.title
 msgctxt "view~edition.geomtool.drag.title"
@@ -2637,7 +2761,7 @@ msgstr "Valoare"
 #: view~map.portfolio.button.deactivate.help
 msgctxt "view~map.portfolio.button.deactivate.help"
 msgid "Deactivate the portfolio"
-msgstr ""
+msgstr "Dezactivează portofoliul"
 
 #: view~map.portfolio.button.deactivate.label
 msgctxt "view~map.portfolio.button.deactivate.label"
@@ -2647,7 +2771,7 @@ msgstr "Dezactivare"
 #: view~map.portfolio.button.run.help
 msgctxt "view~map.portfolio.button.run.help"
 msgid "Run the portfolio"
-msgstr ""
+msgstr "Rulează portofoliul"
 
 #: view~map.portfolio.button.run.label
 msgctxt "view~map.portfolio.button.run.label"
@@ -2657,32 +2781,32 @@ msgstr "Rulează"
 #: view~map.portfolio.select.choose
 msgctxt "view~map.portfolio.select.choose"
 msgid "Choose a portfolio"
-msgstr ""
+msgstr "Alege un portofoliu"
 
 #: view~map.portfolio.select.emptyItem.label
 msgctxt "view~map.portfolio.select.emptyItem.label"
 msgid "No portfolio"
-msgstr ""
+msgstr "Niciun portofoliu"
 
 #: view~map.portfolio.select.help
 msgctxt "view~map.portfolio.select.help"
 msgid "Select a portfolio"
-msgstr ""
+msgstr "Selectează un portofoliu"
 
 #: view~map.portfolio.select.warning
 msgctxt "view~map.portfolio.select.warning"
 msgid "No portfolio selected"
-msgstr ""
+msgstr "Niciun portofoliu selectat"
 
 #: view~map.portfolios.navbar.title
 msgctxt "view~map.portfolios.navbar.title"
 msgid "Portfolios"
-msgstr ""
+msgstr "Portfolii"
 
 #: view~map.portfolios.toolbar.title
 msgctxt "view~map.portfolios.toolbar.title"
 msgid "Portfolios"
-msgstr ""
+msgstr "Portfolii"
 
 #: view~map.print.navbar.title
 msgctxt "view~map.print.navbar.title"
@@ -2717,7 +2841,7 @@ msgstr "Imprimare"
 #: view~map.search.clear
 msgctxt "view~map.search.clear"
 msgid "Clear search"
-msgstr ""
+msgstr "Șterge căutarea"
 
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"

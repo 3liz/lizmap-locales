@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 12:30++0200\n"
+"POT-Creation-Date: 2026-05-28 15:13++0200\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Last-Translator: kasza jozsef <kasza.nkataszri@gmail.com>, 2026\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/3liz-1/teams/62012/hu_HU/)\n"
@@ -1266,6 +1266,11 @@ msgctxt "admin~admin.menu.lizmap.logs.view.label"
 msgid "View logs"
 msgstr "Log-ok megtekintése"
 
+#: admin~admin.menu.lizmap.permalink.label
+msgctxt "admin~admin.menu.lizmap.permalink.label"
+msgid "Permalinks"
+msgstr ""
+
 #: admin~admin.menu.lizmap.project.list.label
 msgctxt "admin~admin.menu.lizmap.project.list.label"
 msgid "QGIS projects"
@@ -1294,6 +1299,151 @@ msgstr ""
 #: admin~admin.menu.server.label
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
+msgstr ""
+
+#: admin~admin.permalink.manager.counter.delete.title
+msgctxt "admin~admin.permalink.manager.counter.delete.title"
+msgid "Delete permalink records"
+msgstr ""
+
+#: admin~admin.permalink.manager.counter.sentence
+msgctxt "admin~admin.permalink.manager.counter.sentence"
+msgid "permalinks stored"
+msgstr ""
+
+#: admin~admin.permalink.manager.counter.title
+msgctxt "admin~admin.permalink.manager.counter.title"
+msgid "Counter"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.button
+msgctxt "admin~admin.permalink.manager.detail.button"
+msgid "View detail"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.creation
+msgctxt "admin~admin.permalink.manager.detail.creation"
+msgid "Creation date"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.first_page
+msgctxt "admin~admin.permalink.manager.detail.first_page"
+msgid "First"
+msgstr "Első"
+
+#: admin~admin.permalink.manager.detail.hash
+msgctxt "admin~admin.permalink.manager.detail.hash"
+msgid "Permalink"
+msgstr "Permalink"
+
+#: admin~admin.permalink.manager.detail.lastusage
+msgctxt "admin~admin.permalink.manager.detail.lastusage"
+msgid "Last usage date"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.next_page
+msgctxt "admin~admin.permalink.manager.detail.next_page"
+msgid "Next"
+msgstr "Következő"
+
+#: admin~admin.permalink.manager.detail.params
+msgctxt "admin~admin.permalink.manager.detail.params"
+msgid "Parameters"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.previous_page
+msgctxt "admin~admin.permalink.manager.detail.previous_page"
+msgid "Previous"
+msgstr "Előző"
+
+#: admin~admin.permalink.manager.detail.project
+msgctxt "admin~admin.permalink.manager.detail.project"
+msgid "Project"
+msgstr "Projekt"
+
+#: admin~admin.permalink.manager.detail.repository
+msgctxt "admin~admin.permalink.manager.detail.repository"
+msgid "Repository"
+msgstr "Gyűjtemény"
+
+#: admin~admin.permalink.manager.detail.title
+msgctxt "admin~admin.permalink.manager.detail.title"
+msgid "Permalinks detail"
+msgstr ""
+
+#: admin~admin.permalink.manager.empty.button
+msgctxt "admin~admin.permalink.manager.empty.button"
+msgid "Delete all records"
+msgstr ""
+
+#: admin~admin.permalink.manager.empty.confirm
+msgctxt "admin~admin.permalink.manager.empty.confirm"
+msgid "Are you sure to want to empty the permalink table?"
+msgstr ""
+
+#: admin~admin.permalink.manager.empty.error
+msgctxt "admin~admin.permalink.manager.empty.error"
+msgid "Error while emptying the permalink table"
+msgstr ""
+
+#: admin~admin.permalink.manager.empty.ok
+msgctxt "admin~admin.permalink.manager.empty.ok"
+msgid "The permalink table has been successfully emptied"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.confirm
+msgctxt "admin~admin.permalink.manager.lastusage.confirm"
+msgid "Are you sure to want to delete records?"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.error
+msgctxt "admin~admin.permalink.manager.lastusage.error"
+msgid "Error while removing permalink records"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.error.invaliddays
+msgctxt "admin~admin.permalink.manager.lastusage.error.invaliddays"
+msgid "Invalid number of days provided. Insert a number grater than 0"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.label
+msgctxt "admin~admin.permalink.manager.lastusage.label"
+msgid "Older than"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.norecords
+msgctxt "admin~admin.permalink.manager.lastusage.norecords"
+msgid "No records deleted"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.ok
+msgctxt "admin~admin.permalink.manager.lastusage.ok"
+msgid "Deleted %s records from permalink table"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.placeholder
+msgctxt "admin~admin.permalink.manager.lastusage.placeholder"
+msgid "Number of days"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.submit
+msgctxt "admin~admin.permalink.manager.lastusage.submit"
+msgid "Delete"
+msgstr "Töröl"
+
+#: admin~admin.permalink.manager.lastusage.title
+msgctxt "admin~admin.permalink.manager.lastusage.title"
+msgid "Delete permalinks last used before the specified number of days"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.unit
+msgctxt "admin~admin.permalink.manager.lastusage.unit"
+msgid "days"
+msgstr "nap"
+
+#: admin~admin.permalink.manager.title
+msgctxt "admin~admin.permalink.manager.title"
+msgid "Permalinks management"
 msgstr ""
 
 #: admin~admin.project.error.some.projects.not.displayed
@@ -2012,6 +2162,11 @@ msgstr ""
 #: admin~jacl2.lizmap.admin.lizmap.log.view
 msgctxt "admin~jacl2.lizmap.admin.lizmap.log.view"
 msgid "View the lizmap logs"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.permalink.manage
+msgctxt "admin~jacl2.lizmap.admin.permalink.manage"
+msgid "Manage server side permalinks"
 msgstr ""
 
 #: admin~jacl2.lizmap.admin.project.list.view
