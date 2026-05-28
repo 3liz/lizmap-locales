@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-05-21 17:36++0200\n"
-"PO-Revision-Date: 2026-05-21 17:36++0200\n"
+"POT-Creation-Date: 2026-05-28 15:13++0200\n"
+"PO-Revision-Date: 2026-05-28 15:13++0200\n"
 "Language: \n"
 
 #: view~default.header.connect
@@ -749,6 +749,31 @@ msgstr ""
 #: view~dictionnary.edition.draw.activate.mobile
 msgctxt "view~dictionnary.edition.draw.activate.mobile"
 msgid "You can hide this form with the close button whenever you need to draw the geometry."
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste
+msgctxt "view~dictionnary.edition.geom.copyPaste"
+msgid "Copy and paste an existing geometry"
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.copied
+msgctxt "view~dictionnary.edition.geom.copyPaste.copied"
+msgid "Geometry copied successfully"
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures
+msgctxt "view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures"
+msgid "No compatible features found at this location"
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.noCopyableLayers
+msgctxt "view~dictionnary.edition.geom.copyPaste.noCopyableLayers"
+msgid "No copyable layers found. Layers must be visible, popup-enabled and published as WFS to copy their geometries."
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.queryError
+msgctxt "view~dictionnary.edition.geom.copyPaste.queryError"
+msgid "Error querying features"
 msgstr ""
 
 #: view~dictionnary.edition.geom.paste
@@ -1732,11 +1757,6 @@ msgstr ""
 #: view~edition.geolocate.toolbar.title
 msgctxt "view~edition.geolocate.toolbar.title"
 msgid "Edition:"
-msgstr ""
-
-#: view~edition.geomtool.copypastegeom.title
-msgctxt "view~edition.geomtool.copypastegeom.title"
-msgid "Copy and paste an existing geometry"
 msgstr ""
 
 #: view~edition.geomtool.drag.title
