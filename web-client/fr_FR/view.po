@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-28 15:13++0200\n"
+"POT-Creation-Date: 2026-07-09 16:54++0200\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>, 2026\n"
 "Language-Team: French (https://app.transifex.com/3liz-1/teams/62012/fr/)\n"
@@ -864,12 +864,12 @@ msgstr "Copier et coller une géométrie existante"
 #: view~dictionnary.edition.geom.copyPaste.copied
 msgctxt "view~dictionnary.edition.geom.copyPaste.copied"
 msgid "Geometry copied successfully"
-msgstr ""
+msgstr "La géométrie a été copiée avec succès"
 
 #: view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures
 msgctxt "view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures"
 msgid "No compatible features found at this location"
-msgstr ""
+msgstr "Aucun objet compatible n'a été trouvée à cet emplacement"
 
 #: view~dictionnary.edition.geom.copyPaste.noCopyableLayers
 msgctxt "view~dictionnary.edition.geom.copyPaste.noCopyableLayers"
@@ -877,11 +877,14 @@ msgid ""
 "No copyable layers found. Layers must be visible, popup-enabled and "
 "published as WFS to copy their geometries."
 msgstr ""
+"Aucune couche copiable n'a été trouvée. Pour pouvoir copier leurs "
+"géométries, les couches doivent être visibles, avoir les popups activées et "
+"être publiés au format WFS."
 
 #: view~dictionnary.edition.geom.copyPaste.queryError
 msgctxt "view~dictionnary.edition.geom.copyPaste.queryError"
 msgid "Error querying features"
-msgstr ""
+msgstr "Erreur lors de la requête des objets"
 
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
@@ -1368,6 +1371,76 @@ msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
 msgid "Display/Hide overview"
 msgstr "Afficher/masquer la carte miniature"
 
+#: view~dictionnary.panoramax.filter.account
+msgctxt "view~dictionnary.panoramax.filter.account"
+msgid "Account"
+msgstr "Compte"
+
+#: view~dictionnary.panoramax.filter.account.placeholder
+msgctxt "view~dictionnary.panoramax.filter.account.placeholder"
+msgid "Search a username…"
+msgstr "Rechercher un nom d'utilisateur…"
+
+#: view~dictionnary.panoramax.filter.date.end
+msgctxt "view~dictionnary.panoramax.filter.date.end"
+msgid "End date"
+msgstr "Date de fin"
+
+#: view~dictionnary.panoramax.filter.date.start
+msgctxt "view~dictionnary.panoramax.filter.date.start"
+msgid "Start date"
+msgstr "Date de début"
+
+#: view~dictionnary.panoramax.filter.type
+msgctxt "view~dictionnary.panoramax.filter.type"
+msgid "Picture type"
+msgstr "Type d'image"
+
+#: view~dictionnary.panoramax.filter.type.flat
+msgctxt "view~dictionnary.panoramax.filter.type.flat"
+msgid "Classic"
+msgstr "Classique"
+
+#: view~dictionnary.panoramax.layer.style
+msgctxt "view~dictionnary.panoramax.layer.style"
+msgid "Layer style"
+msgstr "Style de la couche"
+
+#: view~dictionnary.panoramax.layer.style.age.1
+msgctxt "view~dictionnary.panoramax.layer.style.age.1"
+msgid "> 2 years"
+msgstr "> 2 ans"
+
+#: view~dictionnary.panoramax.layer.style.age.2
+msgctxt "view~dictionnary.panoramax.layer.style.age.2"
+msgid "< 2 years"
+msgstr "< 2 ans"
+
+#: view~dictionnary.panoramax.layer.style.age.3
+msgctxt "view~dictionnary.panoramax.layer.style.age.3"
+msgid "< 1 year"
+msgstr "< 1 an"
+
+#: view~dictionnary.panoramax.layer.style.age.4
+msgctxt "view~dictionnary.panoramax.layer.style.age.4"
+msgid "< 1 month"
+msgstr "< 1 mois"
+
+#: view~dictionnary.panoramax.layer.style.classic
+msgctxt "view~dictionnary.panoramax.layer.style.classic"
+msgid "Classic"
+msgstr "Classique"
+
+#: view~dictionnary.panoramax.layer.style.date
+msgctxt "view~dictionnary.panoramax.layer.style.date"
+msgid "Capture date"
+msgstr "Date de capture"
+
+#: view~dictionnary.panoramax.open.external
+msgctxt "view~dictionnary.panoramax.open.external"
+msgid "Open in Panoramax ↗"
+msgstr "Ouvrir dans Panoramax ↗"
+
 #: view~dictionnary.permalink.back
 msgctxt "view~dictionnary.permalink.back"
 msgid "Back"
@@ -1416,17 +1489,17 @@ msgstr "Supprimer tous les permaliens du cache ?"
 #: view~dictionnary.permalink.history.delete.all.title
 msgctxt "view~dictionnary.permalink.history.delete.all.title"
 msgid "Clear history"
-msgstr ""
+msgstr "Effacer l'historique"
 
 #: view~dictionnary.permalink.history.delete.single
 msgctxt "view~dictionnary.permalink.history.delete.single"
 msgid "Remove selected permalink from cache?"
-msgstr ""
+msgstr "Supprimer le permalien sélectionné du cache ?"
 
 #: view~dictionnary.permalink.history.delete.single.title
 msgctxt "view~dictionnary.permalink.history.delete.single.title"
 msgid "Remove permalink from cache"
-msgstr ""
+msgstr "Supprimer le permalien du cache"
 
 #: view~dictionnary.permalink.history.share
 msgctxt "view~dictionnary.permalink.history.share"
@@ -1436,17 +1509,17 @@ msgstr "Partager"
 #: view~dictionnary.permalink.history.title
 msgctxt "view~dictionnary.permalink.history.title"
 msgid "Recent permalinks"
-msgstr ""
+msgstr "Permaliens récents"
 
 #: view~dictionnary.permalink.history.visit
 msgctxt "view~dictionnary.permalink.history.visit"
 msgid "Visit permalink"
-msgstr ""
+msgstr "Accéder au permalien"
 
 #: view~dictionnary.permalink.new
 msgctxt "view~dictionnary.permalink.new"
 msgid "Create new permalink"
-msgstr ""
+msgstr "Créer un nouveau permalien"
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"

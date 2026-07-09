@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-28 15:13++0200\n"
+"POT-Creation-Date: 2026-07-09 16:54++0200\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>, 2026\n"
 "Language-Team: French (https://app.transifex.com/3liz-1/teams/62012/fr/)\n"
@@ -1439,7 +1439,7 @@ msgstr "Suivant"
 #: admin~admin.permalink.manager.detail.params
 msgctxt "admin~admin.permalink.manager.detail.params"
 msgid "Parameters"
-msgstr ""
+msgstr "Paramètres"
 
 #: admin~admin.permalink.manager.detail.previous_page
 msgctxt "admin~admin.permalink.manager.detail.previous_page"
@@ -1459,62 +1459,64 @@ msgstr "Répertoires"
 #: admin~admin.permalink.manager.detail.title
 msgctxt "admin~admin.permalink.manager.detail.title"
 msgid "Permalinks detail"
-msgstr ""
+msgstr "Détail des permaliens"
 
 #: admin~admin.permalink.manager.empty.button
 msgctxt "admin~admin.permalink.manager.empty.button"
 msgid "Delete all records"
-msgstr ""
+msgstr "Supprimer tous les enregistrements"
 
 #: admin~admin.permalink.manager.empty.confirm
 msgctxt "admin~admin.permalink.manager.empty.confirm"
 msgid "Are you sure to want to empty the permalink table?"
-msgstr ""
+msgstr "Êtes-vous certain de vouloir vider la table des permaliens ?"
 
 #: admin~admin.permalink.manager.empty.error
 msgctxt "admin~admin.permalink.manager.empty.error"
 msgid "Error while emptying the permalink table"
-msgstr ""
+msgstr "Erreur lors de la suppression du contenu de la table des permaliens"
 
 #: admin~admin.permalink.manager.empty.ok
 msgctxt "admin~admin.permalink.manager.empty.ok"
 msgid "The permalink table has been successfully emptied"
-msgstr ""
+msgstr "La table des permaliens a été vidée avec succès"
 
 #: admin~admin.permalink.manager.lastusage.confirm
 msgctxt "admin~admin.permalink.manager.lastusage.confirm"
 msgid "Are you sure to want to delete records?"
-msgstr ""
+msgstr "Voulez-vous vraiment effacer des enregistrements ?"
 
 #: admin~admin.permalink.manager.lastusage.error
 msgctxt "admin~admin.permalink.manager.lastusage.error"
 msgid "Error while removing permalink records"
-msgstr ""
+msgstr "Erreur lors de la suppression des enregistrements de permaliens"
 
 #: admin~admin.permalink.manager.lastusage.error.invaliddays
 msgctxt "admin~admin.permalink.manager.lastusage.error.invaliddays"
 msgid "Invalid number of days provided. Insert a number grater than 0"
 msgstr ""
+"Le nombre de jours indiqué n'est pas valide. Veuillez saisir un nombre "
+"supérieur à 0."
 
 #: admin~admin.permalink.manager.lastusage.label
 msgctxt "admin~admin.permalink.manager.lastusage.label"
 msgid "Older than"
-msgstr ""
+msgstr "Plus ancien que"
 
 #: admin~admin.permalink.manager.lastusage.norecords
 msgctxt "admin~admin.permalink.manager.lastusage.norecords"
 msgid "No records deleted"
-msgstr ""
+msgstr "Aucun enregistrement n'a été supprimé"
 
 #: admin~admin.permalink.manager.lastusage.ok
 msgctxt "admin~admin.permalink.manager.lastusage.ok"
 msgid "Deleted %s records from permalink table"
-msgstr ""
+msgstr "Suppression de %s enregistrements de la table des permaliens"
 
 #: admin~admin.permalink.manager.lastusage.placeholder
 msgctxt "admin~admin.permalink.manager.lastusage.placeholder"
 msgid "Number of days"
-msgstr ""
+msgstr "Nombre de jours"
 
 #: admin~admin.permalink.manager.lastusage.submit
 msgctxt "admin~admin.permalink.manager.lastusage.submit"
@@ -1525,6 +1527,8 @@ msgstr "Supprimer l'objet"
 msgctxt "admin~admin.permalink.manager.lastusage.title"
 msgid "Delete permalinks last used before the specified number of days"
 msgstr ""
+"Supprimer les permaliens utilisés pour la dernière fois avant le nombre de "
+"jours indiqué"
 
 #: admin~admin.permalink.manager.lastusage.unit
 msgctxt "admin~admin.permalink.manager.lastusage.unit"
@@ -1534,7 +1538,7 @@ msgstr "jours"
 #: admin~admin.permalink.manager.title
 msgctxt "admin~admin.permalink.manager.title"
 msgid "Permalinks management"
-msgstr ""
+msgstr "Gestion des permaliens"
 
 #: admin~admin.project.error.some.projects.not.displayed
 msgctxt "admin~admin.project.error.some.projects.not.displayed"
@@ -2361,7 +2365,7 @@ msgstr "Voir les logs Lizmap"
 #: admin~jacl2.lizmap.admin.permalink.manage
 msgctxt "admin~jacl2.lizmap.admin.permalink.manage"
 msgid "Manage server side permalinks"
-msgstr ""
+msgstr "Gérer les permaliens côté serveur"
 
 #: admin~jacl2.lizmap.admin.project.list.view
 msgctxt "admin~jacl2.lizmap.admin.project.list.view"
@@ -2524,7 +2528,7 @@ msgstr "Mot de passe"
 #: admin~lizmap_search.form.search_path
 msgctxt "admin~lizmap_search.form.search_path"
 msgid "Search path"
-msgstr ""
+msgstr "Chemin de recherche"
 
 #: admin~lizmap_search.form.user
 msgctxt "admin~lizmap_search.form.user"

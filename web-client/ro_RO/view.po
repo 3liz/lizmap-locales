@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-28 15:13++0200\n"
+"POT-Creation-Date: 2026-07-09 16:54++0200\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2026\n"
 "Language-Team: Romanian (https://app.transifex.com/3liz-1/teams/62012/ro/)\n"
@@ -229,7 +229,7 @@ msgstr "Înapoi"
 #: view~dictionnary.atlas.toolbar.stop
 msgctxt "view~dictionnary.atlas.toolbar.stop"
 msgid "Stop"
-msgstr "Închide"
+msgstr "Oprește"
 
 #: view~dictionnary.atlas.toolbar.title
 msgctxt "view~dictionnary.atlas.toolbar.title"
@@ -840,12 +840,12 @@ msgstr "Copiază și lipește o geometrie existentă"
 #: view~dictionnary.edition.geom.copyPaste.copied
 msgctxt "view~dictionnary.edition.geom.copyPaste.copied"
 msgid "Geometry copied successfully"
-msgstr ""
+msgstr "Geometria a fost copiată cu succes"
 
 #: view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures
 msgctxt "view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures"
 msgid "No compatible features found at this location"
-msgstr ""
+msgstr "Nu s-au găsit elemente compatibile în această locație"
 
 #: view~dictionnary.edition.geom.copyPaste.noCopyableLayers
 msgctxt "view~dictionnary.edition.geom.copyPaste.noCopyableLayers"
@@ -853,11 +853,13 @@ msgid ""
 "No copyable layers found. Layers must be visible, popup-enabled and "
 "published as WFS to copy their geometries."
 msgstr ""
+"Nu s-au găsit straturi de copiat. Straturile trebuie să fie vizibile, să fie"
+" activat pop-up și publicate ca WFS pentru a-i copia geometriile."
 
 #: view~dictionnary.edition.geom.copyPaste.queryError
 msgctxt "view~dictionnary.edition.geom.copyPaste.queryError"
 msgid "Error querying features"
-msgstr ""
+msgstr "Eroare la interogarea elementelor"
 
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
@@ -1137,7 +1139,7 @@ msgstr "Studiu"
 #: view~dictionnary.groupPopupByLayer.nav.back
 msgctxt "view~dictionnary.groupPopupByLayer.nav.back"
 msgid "Return to layers list"
-msgstr ""
+msgstr "Revenire la lista straturilor"
 
 #: view~dictionnary.groupPopupByLayer.nav.next
 msgctxt "view~dictionnary.groupPopupByLayer.nav.next"
@@ -1152,7 +1154,7 @@ msgstr "Elementul anterior"
 #: view~dictionnary.groupPopupByLayer.title
 msgctxt "view~dictionnary.groupPopupByLayer.title"
 msgid "Features by layer"
-msgstr ""
+msgstr "Elemente după strat"
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
@@ -1339,6 +1341,76 @@ msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
 msgid "Display/Hide overview"
 msgstr "Afișare/Ascundere prezentare generală"
 
+#: view~dictionnary.panoramax.filter.account
+msgctxt "view~dictionnary.panoramax.filter.account"
+msgid "Account"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.account.placeholder
+msgctxt "view~dictionnary.panoramax.filter.account.placeholder"
+msgid "Search a username…"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.date.end
+msgctxt "view~dictionnary.panoramax.filter.date.end"
+msgid "End date"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.date.start
+msgctxt "view~dictionnary.panoramax.filter.date.start"
+msgid "Start date"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.type
+msgctxt "view~dictionnary.panoramax.filter.type"
+msgid "Picture type"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.type.flat
+msgctxt "view~dictionnary.panoramax.filter.type.flat"
+msgid "Classic"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style
+msgctxt "view~dictionnary.panoramax.layer.style"
+msgid "Layer style"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.age.1
+msgctxt "view~dictionnary.panoramax.layer.style.age.1"
+msgid "> 2 years"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.age.2
+msgctxt "view~dictionnary.panoramax.layer.style.age.2"
+msgid "< 2 years"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.age.3
+msgctxt "view~dictionnary.panoramax.layer.style.age.3"
+msgid "< 1 year"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.age.4
+msgctxt "view~dictionnary.panoramax.layer.style.age.4"
+msgid "< 1 month"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.classic
+msgctxt "view~dictionnary.panoramax.layer.style.classic"
+msgid "Classic"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.date
+msgctxt "view~dictionnary.panoramax.layer.style.date"
+msgid "Capture date"
+msgstr ""
+
+#: view~dictionnary.panoramax.open.external
+msgctxt "view~dictionnary.panoramax.open.external"
+msgid "Open in Panoramax ↗"
+msgstr ""
+
 #: view~dictionnary.permalink.back
 msgctxt "view~dictionnary.permalink.back"
 msgid "Back"
@@ -1347,57 +1419,57 @@ msgstr "Înapoi"
 #: view~dictionnary.permalink.clipboard
 msgctxt "view~dictionnary.permalink.clipboard"
 msgid "Permalink copied to clipboard"
-msgstr ""
+msgstr "Link permanent a fost copiat în clipboard"
 
 #: view~dictionnary.permalink.error.add
 msgctxt "view~dictionnary.permalink.error.add"
 msgid "Failed to insert the permalink record"
-msgstr ""
+msgstr "Nu s-a putut introduce înregistrarea link-ului permanent"
 
 #: view~dictionnary.permalink.error.get.not.found
 msgctxt "view~dictionnary.permalink.error.get.not.found"
 msgid "The permalink does not exists"
-msgstr ""
+msgstr "Link-ul permanent nu există"
 
 #: view~dictionnary.permalink.error.parameters
 msgctxt "view~dictionnary.permalink.error.parameters"
 msgid "Wrong parameters given"
-msgstr ""
+msgstr "Parametri furnizați greșit"
 
 #: view~dictionnary.permalink.error.parameters.bbox
 msgctxt "view~dictionnary.permalink.error.parameters.bbox"
 msgid "Invalid bounding box"
-msgstr ""
+msgstr "Casetă de delimitare nevalidă"
 
 #: view~dictionnary.permalink.get.error
 msgctxt "view~dictionnary.permalink.get.error"
 msgid "Cannot retreive permalink"
-msgstr ""
+msgstr "Nu se poate recupera link-ul permanent"
 
 #: view~dictionnary.permalink.history.clipboard
 msgctxt "view~dictionnary.permalink.history.clipboard"
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Copiază în clipboard"
 
 #: view~dictionnary.permalink.history.delete.all
 msgctxt "view~dictionnary.permalink.history.delete.all"
 msgid "Remove all permalink from cache?"
-msgstr ""
+msgstr "Elimini toate link-urile permanente din cache?"
 
 #: view~dictionnary.permalink.history.delete.all.title
 msgctxt "view~dictionnary.permalink.history.delete.all.title"
 msgid "Clear history"
-msgstr ""
+msgstr "Șterge istoricul"
 
 #: view~dictionnary.permalink.history.delete.single
 msgctxt "view~dictionnary.permalink.history.delete.single"
 msgid "Remove selected permalink from cache?"
-msgstr ""
+msgstr "Elimini link-ul permanent din cache?"
 
 #: view~dictionnary.permalink.history.delete.single.title
 msgctxt "view~dictionnary.permalink.history.delete.single.title"
 msgid "Remove permalink from cache"
-msgstr ""
+msgstr "Elimină link-ul permanent din cache"
 
 #: view~dictionnary.permalink.history.share
 msgctxt "view~dictionnary.permalink.history.share"
@@ -1407,17 +1479,17 @@ msgstr "Partajare"
 #: view~dictionnary.permalink.history.title
 msgctxt "view~dictionnary.permalink.history.title"
 msgid "Recent permalinks"
-msgstr ""
+msgstr "Link-uri permanente recente"
 
 #: view~dictionnary.permalink.history.visit
 msgctxt "view~dictionnary.permalink.history.visit"
 msgid "Visit permalink"
-msgstr ""
+msgstr "Vizitează link-ul permanent"
 
 #: view~dictionnary.permalink.new
 msgctxt "view~dictionnary.permalink.new"
 msgid "Create new permalink"
-msgstr ""
+msgstr "Creează un nou link permanent nou"
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
