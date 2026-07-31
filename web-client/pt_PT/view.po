@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-09 16:54++0200\n"
+"POT-Creation-Date: 2026-07-24 13:50++0000\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2026\n"
 "Language-Team: Portuguese (https://app.transifex.com/3liz-1/teams/62012/pt/)\n"
@@ -856,12 +856,12 @@ msgstr "Copiar e colar uma geometria existente"
 #: view~dictionnary.edition.geom.copyPaste.copied
 msgctxt "view~dictionnary.edition.geom.copyPaste.copied"
 msgid "Geometry copied successfully"
-msgstr ""
+msgstr "Geometria copiada com sucesso"
 
 #: view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures
 msgctxt "view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures"
 msgid "No compatible features found at this location"
-msgstr ""
+msgstr "Não foram encontrados elementos compatíveis neste local"
 
 #: view~dictionnary.edition.geom.copyPaste.noCopyableLayers
 msgctxt "view~dictionnary.edition.geom.copyPaste.noCopyableLayers"
@@ -869,11 +869,14 @@ msgid ""
 "No copyable layers found. Layers must be visible, popup-enabled and "
 "published as WFS to copy their geometries."
 msgstr ""
+"Não foram encontradas camadas que possam ser copiadas. As camadas devem "
+"estar visíveis, ter pop-up ativa e estar publicadas como WFS para copiar as "
+"suas geometrias."
 
 #: view~dictionnary.edition.geom.copyPaste.queryError
 msgctxt "view~dictionnary.edition.geom.copyPaste.queryError"
 msgid "Error querying features"
-msgstr ""
+msgstr "Erro ao consultar elementos"
 
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
@@ -1152,7 +1155,7 @@ msgstr "Utilizar geolocalização"
 #: view~dictionnary.groupPopupByLayer.nav.back
 msgctxt "view~dictionnary.groupPopupByLayer.nav.back"
 msgid "Return to layers list"
-msgstr ""
+msgstr "Voltar à lista de camadas"
 
 #: view~dictionnary.groupPopupByLayer.nav.next
 msgctxt "view~dictionnary.groupPopupByLayer.nav.next"
@@ -1167,7 +1170,7 @@ msgstr "Ir para o elemento anterior"
 #: view~dictionnary.groupPopupByLayer.title
 msgctxt "view~dictionnary.groupPopupByLayer.title"
 msgid "Features by layer"
-msgstr ""
+msgstr "Elementos por camada"
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
@@ -1357,72 +1360,72 @@ msgstr "Mostrar/Ocultar enquadramento"
 #: view~dictionnary.panoramax.filter.account
 msgctxt "view~dictionnary.panoramax.filter.account"
 msgid "Account"
-msgstr ""
+msgstr "Utilizador"
 
 #: view~dictionnary.panoramax.filter.account.placeholder
 msgctxt "view~dictionnary.panoramax.filter.account.placeholder"
 msgid "Search a username…"
-msgstr ""
+msgstr "Pesquisar um nome de utilizador…"
 
 #: view~dictionnary.panoramax.filter.date.end
 msgctxt "view~dictionnary.panoramax.filter.date.end"
 msgid "End date"
-msgstr ""
+msgstr "Data de fim"
 
 #: view~dictionnary.panoramax.filter.date.start
 msgctxt "view~dictionnary.panoramax.filter.date.start"
 msgid "Start date"
-msgstr ""
+msgstr "Data de início"
 
 #: view~dictionnary.panoramax.filter.type
 msgctxt "view~dictionnary.panoramax.filter.type"
 msgid "Picture type"
-msgstr ""
+msgstr "Tipo de imagem"
 
 #: view~dictionnary.panoramax.filter.type.flat
 msgctxt "view~dictionnary.panoramax.filter.type.flat"
 msgid "Classic"
-msgstr ""
+msgstr "Clássico"
 
 #: view~dictionnary.panoramax.layer.style
 msgctxt "view~dictionnary.panoramax.layer.style"
 msgid "Layer style"
-msgstr ""
+msgstr "Estilo da camada"
 
 #: view~dictionnary.panoramax.layer.style.age.1
 msgctxt "view~dictionnary.panoramax.layer.style.age.1"
 msgid "> 2 years"
-msgstr ""
+msgstr "> 2 anos"
 
 #: view~dictionnary.panoramax.layer.style.age.2
 msgctxt "view~dictionnary.panoramax.layer.style.age.2"
 msgid "< 2 years"
-msgstr ""
+msgstr "< 2 anos"
 
 #: view~dictionnary.panoramax.layer.style.age.3
 msgctxt "view~dictionnary.panoramax.layer.style.age.3"
 msgid "< 1 year"
-msgstr ""
+msgstr "< 1 ano"
 
 #: view~dictionnary.panoramax.layer.style.age.4
 msgctxt "view~dictionnary.panoramax.layer.style.age.4"
 msgid "< 1 month"
-msgstr ""
+msgstr "< 1 mês"
 
 #: view~dictionnary.panoramax.layer.style.classic
 msgctxt "view~dictionnary.panoramax.layer.style.classic"
 msgid "Classic"
-msgstr ""
+msgstr "Clássico"
 
 #: view~dictionnary.panoramax.layer.style.date
 msgctxt "view~dictionnary.panoramax.layer.style.date"
 msgid "Capture date"
-msgstr ""
+msgstr "Data de captura"
 
 #: view~dictionnary.panoramax.open.external
 msgctxt "view~dictionnary.panoramax.open.external"
 msgid "Open in Panoramax ↗"
-msgstr ""
+msgstr "Abrir no Panoramax ↗"
 
 #: view~dictionnary.permalink.back
 msgctxt "view~dictionnary.permalink.back"
@@ -1432,57 +1435,57 @@ msgstr "Voltar"
 #: view~dictionnary.permalink.clipboard
 msgctxt "view~dictionnary.permalink.clipboard"
 msgid "Permalink copied to clipboard"
-msgstr ""
+msgstr "Permalink copiado para a área de transferência"
 
 #: view~dictionnary.permalink.error.add
 msgctxt "view~dictionnary.permalink.error.add"
 msgid "Failed to insert the permalink record"
-msgstr ""
+msgstr "Falha ao inserir o registo de permalink"
 
 #: view~dictionnary.permalink.error.get.not.found
 msgctxt "view~dictionnary.permalink.error.get.not.found"
 msgid "The permalink does not exists"
-msgstr ""
+msgstr "O permalink não existe"
 
 #: view~dictionnary.permalink.error.parameters
 msgctxt "view~dictionnary.permalink.error.parameters"
 msgid "Wrong parameters given"
-msgstr ""
+msgstr "Parâmetros fornecidos incorretos"
 
 #: view~dictionnary.permalink.error.parameters.bbox
 msgctxt "view~dictionnary.permalink.error.parameters.bbox"
 msgid "Invalid bounding box"
-msgstr ""
+msgstr "Limites da área inválidos"
 
 #: view~dictionnary.permalink.get.error
 msgctxt "view~dictionnary.permalink.get.error"
 msgid "Cannot retreive permalink"
-msgstr ""
+msgstr "Não foi possível obter o permalink"
 
 #: view~dictionnary.permalink.history.clipboard
 msgctxt "view~dictionnary.permalink.history.clipboard"
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Copiar para a área de transferência"
 
 #: view~dictionnary.permalink.history.delete.all
 msgctxt "view~dictionnary.permalink.history.delete.all"
 msgid "Remove all permalink from cache?"
-msgstr ""
+msgstr "Remover todos os permalinks da cache?"
 
 #: view~dictionnary.permalink.history.delete.all.title
 msgctxt "view~dictionnary.permalink.history.delete.all.title"
 msgid "Clear history"
-msgstr ""
+msgstr "Limpar histórico"
 
 #: view~dictionnary.permalink.history.delete.single
 msgctxt "view~dictionnary.permalink.history.delete.single"
 msgid "Remove selected permalink from cache?"
-msgstr ""
+msgstr "Eliminar o permalink selecionado da cache?"
 
 #: view~dictionnary.permalink.history.delete.single.title
 msgctxt "view~dictionnary.permalink.history.delete.single.title"
 msgid "Remove permalink from cache"
-msgstr ""
+msgstr "Eliminar permalink da cache"
 
 #: view~dictionnary.permalink.history.share
 msgctxt "view~dictionnary.permalink.history.share"
@@ -1492,17 +1495,17 @@ msgstr "Partilhar"
 #: view~dictionnary.permalink.history.title
 msgctxt "view~dictionnary.permalink.history.title"
 msgid "Recent permalinks"
-msgstr ""
+msgstr "Permalinks recentes"
 
 #: view~dictionnary.permalink.history.visit
 msgctxt "view~dictionnary.permalink.history.visit"
 msgid "Visit permalink"
-msgstr ""
+msgstr "Visitar permalink"
 
 #: view~dictionnary.permalink.new
 msgctxt "view~dictionnary.permalink.new"
 msgid "Create new permalink"
-msgstr ""
+msgstr "Criar novo permalink"
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
