@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 12:21++0200\n"
+"POT-Creation-Date: 2026-07-24 13:47++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Кадастр Муниципальный, 2021-2022\n"
 "Language-Team: Ukrainian (Ukraine) (http://app.transifex.com/3liz-1/lizmap-locales/language/uk_UA/)\n"
@@ -1249,6 +1249,11 @@ msgctxt "admin~admin.menu.lizmap.logs.view.label"
 msgid "View logs"
 msgstr "Перегляд журналів"
 
+#: admin~admin.menu.lizmap.permalink.label
+msgctxt "admin~admin.menu.lizmap.permalink.label"
+msgid "Permalinks"
+msgstr ""
+
 #: admin~admin.menu.lizmap.project.list.label
 msgctxt "admin~admin.menu.lizmap.project.list.label"
 msgid "QGIS projects"
@@ -1278,6 +1283,151 @@ msgstr "Інформація про сервер"
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
 msgstr "Сервер"
+
+#: admin~admin.permalink.manager.counter.delete.title
+msgctxt "admin~admin.permalink.manager.counter.delete.title"
+msgid "Delete permalink records"
+msgstr ""
+
+#: admin~admin.permalink.manager.counter.sentence
+msgctxt "admin~admin.permalink.manager.counter.sentence"
+msgid "permalinks stored"
+msgstr ""
+
+#: admin~admin.permalink.manager.counter.title
+msgctxt "admin~admin.permalink.manager.counter.title"
+msgid "Counter"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.button
+msgctxt "admin~admin.permalink.manager.detail.button"
+msgid "View detail"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.creation
+msgctxt "admin~admin.permalink.manager.detail.creation"
+msgid "Creation date"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.first_page
+msgctxt "admin~admin.permalink.manager.detail.first_page"
+msgid "First"
+msgstr "Перший"
+
+#: admin~admin.permalink.manager.detail.hash
+msgctxt "admin~admin.permalink.manager.detail.hash"
+msgid "Permalink"
+msgstr "Постійне посилання"
+
+#: admin~admin.permalink.manager.detail.lastusage
+msgctxt "admin~admin.permalink.manager.detail.lastusage"
+msgid "Last usage date"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.next_page
+msgctxt "admin~admin.permalink.manager.detail.next_page"
+msgid "Next"
+msgstr "Наступний"
+
+#: admin~admin.permalink.manager.detail.params
+msgctxt "admin~admin.permalink.manager.detail.params"
+msgid "Parameters"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.previous_page
+msgctxt "admin~admin.permalink.manager.detail.previous_page"
+msgid "Previous"
+msgstr "Попередній"
+
+#: admin~admin.permalink.manager.detail.project
+msgctxt "admin~admin.permalink.manager.detail.project"
+msgid "Project"
+msgstr "Проєкт"
+
+#: admin~admin.permalink.manager.detail.repository
+msgctxt "admin~admin.permalink.manager.detail.repository"
+msgid "Repository"
+msgstr "Репозиторій"
+
+#: admin~admin.permalink.manager.detail.title
+msgctxt "admin~admin.permalink.manager.detail.title"
+msgid "Permalinks detail"
+msgstr ""
+
+#: admin~admin.permalink.manager.empty.button
+msgctxt "admin~admin.permalink.manager.empty.button"
+msgid "Delete all records"
+msgstr ""
+
+#: admin~admin.permalink.manager.empty.confirm
+msgctxt "admin~admin.permalink.manager.empty.confirm"
+msgid "Are you sure to want to empty the permalink table?"
+msgstr ""
+
+#: admin~admin.permalink.manager.empty.error
+msgctxt "admin~admin.permalink.manager.empty.error"
+msgid "Error while emptying the permalink table"
+msgstr ""
+
+#: admin~admin.permalink.manager.empty.ok
+msgctxt "admin~admin.permalink.manager.empty.ok"
+msgid "The permalink table has been successfully emptied"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.confirm
+msgctxt "admin~admin.permalink.manager.lastusage.confirm"
+msgid "Are you sure to want to delete records?"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.error
+msgctxt "admin~admin.permalink.manager.lastusage.error"
+msgid "Error while removing permalink records"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.error.invaliddays
+msgctxt "admin~admin.permalink.manager.lastusage.error.invaliddays"
+msgid "Invalid number of days provided. Insert a number grater than 0"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.label
+msgctxt "admin~admin.permalink.manager.lastusage.label"
+msgid "Older than"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.norecords
+msgctxt "admin~admin.permalink.manager.lastusage.norecords"
+msgid "No records deleted"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.ok
+msgctxt "admin~admin.permalink.manager.lastusage.ok"
+msgid "Deleted %s records from permalink table"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.placeholder
+msgctxt "admin~admin.permalink.manager.lastusage.placeholder"
+msgid "Number of days"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.submit
+msgctxt "admin~admin.permalink.manager.lastusage.submit"
+msgid "Delete"
+msgstr "Видалити"
+
+#: admin~admin.permalink.manager.lastusage.title
+msgctxt "admin~admin.permalink.manager.lastusage.title"
+msgid "Delete permalinks last used before the specified number of days"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.unit
+msgctxt "admin~admin.permalink.manager.lastusage.unit"
+msgid "days"
+msgstr "дні"
+
+#: admin~admin.permalink.manager.title
+msgctxt "admin~admin.permalink.manager.title"
+msgid "Permalinks management"
+msgstr ""
 
 #: admin~admin.project.error.some.projects.not.displayed
 msgctxt "admin~admin.project.error.some.projects.not.displayed"
@@ -1545,6 +1695,11 @@ msgstr "Закрити"
 #: admin~admin.project.modal.title
 msgctxt "admin~admin.project.modal.title"
 msgid "Table legend"
+msgstr ""
+
+#: admin~admin.project.page.title
+msgctxt "admin~admin.project.page.title"
+msgid "QGIS Projects"
 msgstr ""
 
 #: admin~admin.project.rules.list.blocking.description
@@ -1995,6 +2150,11 @@ msgstr ""
 #: admin~jacl2.lizmap.admin.lizmap.log.view
 msgctxt "admin~jacl2.lizmap.admin.lizmap.log.view"
 msgid "View the lizmap logs"
+msgstr ""
+
+#: admin~jacl2.lizmap.admin.permalink.manage
+msgctxt "admin~jacl2.lizmap.admin.permalink.manage"
+msgid "Manage server side permalinks"
 msgstr ""
 
 #: admin~jacl2.lizmap.admin.project.list.view

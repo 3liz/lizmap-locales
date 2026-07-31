@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 12:21++0200\n"
+"POT-Creation-Date: 2026-07-24 13:47++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
 "Last-Translator: Igor Sorocean <sorocean.igor@gmail.com>, 2020-2026\n"
 "Language-Team: Romanian (http://app.transifex.com/3liz-1/lizmap-locales/language/ro/)\n"
@@ -1250,6 +1250,11 @@ msgctxt "admin~admin.menu.lizmap.logs.view.label"
 msgid "View logs"
 msgstr "Vizualizare jurnale"
 
+#: admin~admin.menu.lizmap.permalink.label
+msgctxt "admin~admin.menu.lizmap.permalink.label"
+msgid "Permalinks"
+msgstr "Link-uri permanente"
+
 #: admin~admin.menu.lizmap.project.list.label
 msgctxt "admin~admin.menu.lizmap.project.list.label"
 msgid "QGIS projects"
@@ -1279,6 +1284,151 @@ msgstr "Informații server"
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
 msgstr "Server"
+
+#: admin~admin.permalink.manager.counter.delete.title
+msgctxt "admin~admin.permalink.manager.counter.delete.title"
+msgid "Delete permalink records"
+msgstr "Ștergeți înregistrările link-urilor permanente"
+
+#: admin~admin.permalink.manager.counter.sentence
+msgctxt "admin~admin.permalink.manager.counter.sentence"
+msgid "permalinks stored"
+msgstr "Link-uri permanente stocate"
+
+#: admin~admin.permalink.manager.counter.title
+msgctxt "admin~admin.permalink.manager.counter.title"
+msgid "Counter"
+msgstr "Cantitate"
+
+#: admin~admin.permalink.manager.detail.button
+msgctxt "admin~admin.permalink.manager.detail.button"
+msgid "View detail"
+msgstr "Vezi detalii"
+
+#: admin~admin.permalink.manager.detail.creation
+msgctxt "admin~admin.permalink.manager.detail.creation"
+msgid "Creation date"
+msgstr "Data creării"
+
+#: admin~admin.permalink.manager.detail.first_page
+msgctxt "admin~admin.permalink.manager.detail.first_page"
+msgid "First"
+msgstr "Prima"
+
+#: admin~admin.permalink.manager.detail.hash
+msgctxt "admin~admin.permalink.manager.detail.hash"
+msgid "Permalink"
+msgstr "Distribuire"
+
+#: admin~admin.permalink.manager.detail.lastusage
+msgctxt "admin~admin.permalink.manager.detail.lastusage"
+msgid "Last usage date"
+msgstr "Data ultimei utilizări"
+
+#: admin~admin.permalink.manager.detail.next_page
+msgctxt "admin~admin.permalink.manager.detail.next_page"
+msgid "Next"
+msgstr "Următorul"
+
+#: admin~admin.permalink.manager.detail.params
+msgctxt "admin~admin.permalink.manager.detail.params"
+msgid "Parameters"
+msgstr "Parametri"
+
+#: admin~admin.permalink.manager.detail.previous_page
+msgctxt "admin~admin.permalink.manager.detail.previous_page"
+msgid "Previous"
+msgstr "Înapoi"
+
+#: admin~admin.permalink.manager.detail.project
+msgctxt "admin~admin.permalink.manager.detail.project"
+msgid "Project"
+msgstr "Proiect"
+
+#: admin~admin.permalink.manager.detail.repository
+msgctxt "admin~admin.permalink.manager.detail.repository"
+msgid "Repository"
+msgstr "Depozit de date"
+
+#: admin~admin.permalink.manager.detail.title
+msgctxt "admin~admin.permalink.manager.detail.title"
+msgid "Permalinks detail"
+msgstr "Detalii link-uri permanente"
+
+#: admin~admin.permalink.manager.empty.button
+msgctxt "admin~admin.permalink.manager.empty.button"
+msgid "Delete all records"
+msgstr "Șterge toate înregistrările"
+
+#: admin~admin.permalink.manager.empty.confirm
+msgctxt "admin~admin.permalink.manager.empty.confirm"
+msgid "Are you sure to want to empty the permalink table?"
+msgstr "Sigur dorești să golești tabelul link-urilor permanente?"
+
+#: admin~admin.permalink.manager.empty.error
+msgctxt "admin~admin.permalink.manager.empty.error"
+msgid "Error while emptying the permalink table"
+msgstr "Eroare la golirea tabelului cu link-urilor permanente"
+
+#: admin~admin.permalink.manager.empty.ok
+msgctxt "admin~admin.permalink.manager.empty.ok"
+msgid "The permalink table has been successfully emptied"
+msgstr "Tabelul link-urilor permanente a fost golit cu succes"
+
+#: admin~admin.permalink.manager.lastusage.confirm
+msgctxt "admin~admin.permalink.manager.lastusage.confirm"
+msgid "Are you sure to want to delete records?"
+msgstr "Sigur dorești să ștergi înregistrările?"
+
+#: admin~admin.permalink.manager.lastusage.error
+msgctxt "admin~admin.permalink.manager.lastusage.error"
+msgid "Error while removing permalink records"
+msgstr "Eroare la eliminarea înregistrărilor link-urilor permanente"
+
+#: admin~admin.permalink.manager.lastusage.error.invaliddays
+msgctxt "admin~admin.permalink.manager.lastusage.error.invaliddays"
+msgid "Invalid number of days provided. Insert a number grater than 0"
+msgstr "Număr de zile greșit. Introdu un număr mai mare decât 0"
+
+#: admin~admin.permalink.manager.lastusage.label
+msgctxt "admin~admin.permalink.manager.lastusage.label"
+msgid "Older than"
+msgstr "Mai vechi decât"
+
+#: admin~admin.permalink.manager.lastusage.norecords
+msgctxt "admin~admin.permalink.manager.lastusage.norecords"
+msgid "No records deleted"
+msgstr "Nicio înregistrare ștearsă"
+
+#: admin~admin.permalink.manager.lastusage.ok
+msgctxt "admin~admin.permalink.manager.lastusage.ok"
+msgid "Deleted %s records from permalink table"
+msgstr "S-au șters%s înregistrări din tabelul link-urilor permanente"
+
+#: admin~admin.permalink.manager.lastusage.placeholder
+msgctxt "admin~admin.permalink.manager.lastusage.placeholder"
+msgid "Number of days"
+msgstr "Numărul de zile"
+
+#: admin~admin.permalink.manager.lastusage.submit
+msgctxt "admin~admin.permalink.manager.lastusage.submit"
+msgid "Delete"
+msgstr "Șterge"
+
+#: admin~admin.permalink.manager.lastusage.title
+msgctxt "admin~admin.permalink.manager.lastusage.title"
+msgid "Delete permalinks last used before the specified number of days"
+msgstr "Șterge link-urile permanente utilizate ultima dată înainte de numărul specificat de zile"
+
+#: admin~admin.permalink.manager.lastusage.unit
+msgctxt "admin~admin.permalink.manager.lastusage.unit"
+msgid "days"
+msgstr "zile"
+
+#: admin~admin.permalink.manager.title
+msgctxt "admin~admin.permalink.manager.title"
+msgid "Permalinks management"
+msgstr "Gestionare link-uri permanente"
 
 #: admin~admin.project.error.some.projects.not.displayed
 msgctxt "admin~admin.project.error.some.projects.not.displayed"
@@ -1547,6 +1697,11 @@ msgstr "Închide"
 msgctxt "admin~admin.project.modal.title"
 msgid "Table legend"
 msgstr "Legenda tabelului"
+
+#: admin~admin.project.page.title
+msgctxt "admin~admin.project.page.title"
+msgid "QGIS Projects"
+msgstr ""
 
 #: admin~admin.project.rules.list.blocking.description
 msgctxt "admin~admin.project.rules.list.blocking.description"
@@ -1997,6 +2152,11 @@ msgstr "Ștergere jurnale lizmap"
 msgctxt "admin~jacl2.lizmap.admin.lizmap.log.view"
 msgid "View the lizmap logs"
 msgstr "Vizualizare jurnale lizmap"
+
+#: admin~jacl2.lizmap.admin.permalink.manage
+msgctxt "admin~jacl2.lizmap.admin.permalink.manage"
+msgid "Manage server side permalinks"
+msgstr "Gestionează link-urile permanente de pe server"
 
 #: admin~jacl2.lizmap.admin.project.list.view
 msgctxt "admin~jacl2.lizmap.admin.project.list.view"

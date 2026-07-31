@@ -5,14 +5,14 @@
 # Felix Kuehne <felixdemern@googlemail.com>, 2016
 # tbnobody, 2023
 # rldhont <rldhont@gmail.com>, 2016
-# meyerlor <sn1ks@utok-gaming.de>, 2025
+# meyerlor <sn1ks@utok-gaming.de>, 2025-2026
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 12:21++0200\n"
+"POT-Creation-Date: 2026-07-24 13:47++0000\n"
 "PO-Revision-Date: 2016-04-05 14:51+0000\n"
-"Last-Translator: meyerlor <sn1ks@utok-gaming.de>, 2025\n"
+"Last-Translator: meyerlor <sn1ks@utok-gaming.de>, 2025-2026\n"
 "Language-Team: German (http://app.transifex.com/3liz-1/lizmap-locales/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -415,7 +415,7 @@ msgctxt "admin~admin.form.admin_services.adminSenderEmail.help"
 msgid ""
 "E-mail address used to send e-mails. If empty, no emails will be sent by "
 "Lizmap. Be sure your server is allowed to send email with this address."
-msgstr "E-Mail-Adresse die zur Versendung von E-Mails genutzt wird. Wenn leer werden keine E-Mails von Lizmap versendet. Bitte vergewissern Sie sich, dass Ihr Server das Versenden von E-Mails von dieser Adresse erlaubt. "
+msgstr "E-Mail-Adresse die zur Versendung von E-Mails genutzt wird. Wenn das Feld leer gelassen wird, werden keine E-Mails von Lizmap versendet. Bitte vergewissern Sie sich, dass Ihr Server das Versenden von E-Mails von dieser Adresse erlaubt. "
 
 #: admin~admin.form.admin_services.adminSenderEmail.label
 msgctxt "admin~admin.form.admin_services.adminSenderEmail.label"
@@ -579,7 +579,7 @@ msgid ""
 "No sender address is configured in Lizmap. Some features like password "
 "recovery or email notifications cannot work. Contact the application "
 "administrator if you want to enable all email features."
-msgstr "Es wurde keine Absendeadresse für Lizmap konfiguriert. Einige Optionen wie das Zurücksetzen eines Passworts oder Benachrichtigungen via Mail werden dahe rnicht funktionieren. Kontaktieren den Administrator, falls du alle Möglichkeiten freischalten möchtest"
+msgstr "Es wurde keine Absendeadresse für Lizmap konfiguriert. Einige Optionen wie das Zurücksetzen eines Passworts oder Benachrichtigungen via Mail werden dahe rnicht funktionieren. Kontaktiere den Administrator, falls du alle Möglichkeiten freischalten möchtest"
 
 #: admin~admin.form.admin_services.emails.server.help
 msgctxt "admin~admin.form.admin_services.emails.server.help"
@@ -1254,6 +1254,11 @@ msgctxt "admin~admin.menu.lizmap.logs.view.label"
 msgid "View logs"
 msgstr "Logs anzeigen"
 
+#: admin~admin.menu.lizmap.permalink.label
+msgctxt "admin~admin.menu.lizmap.permalink.label"
+msgid "Permalinks"
+msgstr ""
+
 #: admin~admin.menu.lizmap.project.list.label
 msgctxt "admin~admin.menu.lizmap.project.list.label"
 msgid "QGIS projects"
@@ -1283,6 +1288,151 @@ msgstr "Serverinformationen"
 msgctxt "admin~admin.menu.server.label"
 msgid "Server"
 msgstr "Server"
+
+#: admin~admin.permalink.manager.counter.delete.title
+msgctxt "admin~admin.permalink.manager.counter.delete.title"
+msgid "Delete permalink records"
+msgstr ""
+
+#: admin~admin.permalink.manager.counter.sentence
+msgctxt "admin~admin.permalink.manager.counter.sentence"
+msgid "permalinks stored"
+msgstr ""
+
+#: admin~admin.permalink.manager.counter.title
+msgctxt "admin~admin.permalink.manager.counter.title"
+msgid "Counter"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.button
+msgctxt "admin~admin.permalink.manager.detail.button"
+msgid "View detail"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.creation
+msgctxt "admin~admin.permalink.manager.detail.creation"
+msgid "Creation date"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.first_page
+msgctxt "admin~admin.permalink.manager.detail.first_page"
+msgid "First"
+msgstr "Erste(r)"
+
+#: admin~admin.permalink.manager.detail.hash
+msgctxt "admin~admin.permalink.manager.detail.hash"
+msgid "Permalink"
+msgstr "Permalink"
+
+#: admin~admin.permalink.manager.detail.lastusage
+msgctxt "admin~admin.permalink.manager.detail.lastusage"
+msgid "Last usage date"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.next_page
+msgctxt "admin~admin.permalink.manager.detail.next_page"
+msgid "Next"
+msgstr "Nächste(r)"
+
+#: admin~admin.permalink.manager.detail.params
+msgctxt "admin~admin.permalink.manager.detail.params"
+msgid "Parameters"
+msgstr ""
+
+#: admin~admin.permalink.manager.detail.previous_page
+msgctxt "admin~admin.permalink.manager.detail.previous_page"
+msgid "Previous"
+msgstr "Vorherige(r)"
+
+#: admin~admin.permalink.manager.detail.project
+msgctxt "admin~admin.permalink.manager.detail.project"
+msgid "Project"
+msgstr "Projekt"
+
+#: admin~admin.permalink.manager.detail.repository
+msgctxt "admin~admin.permalink.manager.detail.repository"
+msgid "Repository"
+msgstr "Verzeichnis"
+
+#: admin~admin.permalink.manager.detail.title
+msgctxt "admin~admin.permalink.manager.detail.title"
+msgid "Permalinks detail"
+msgstr ""
+
+#: admin~admin.permalink.manager.empty.button
+msgctxt "admin~admin.permalink.manager.empty.button"
+msgid "Delete all records"
+msgstr ""
+
+#: admin~admin.permalink.manager.empty.confirm
+msgctxt "admin~admin.permalink.manager.empty.confirm"
+msgid "Are you sure to want to empty the permalink table?"
+msgstr ""
+
+#: admin~admin.permalink.manager.empty.error
+msgctxt "admin~admin.permalink.manager.empty.error"
+msgid "Error while emptying the permalink table"
+msgstr ""
+
+#: admin~admin.permalink.manager.empty.ok
+msgctxt "admin~admin.permalink.manager.empty.ok"
+msgid "The permalink table has been successfully emptied"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.confirm
+msgctxt "admin~admin.permalink.manager.lastusage.confirm"
+msgid "Are you sure to want to delete records?"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.error
+msgctxt "admin~admin.permalink.manager.lastusage.error"
+msgid "Error while removing permalink records"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.error.invaliddays
+msgctxt "admin~admin.permalink.manager.lastusage.error.invaliddays"
+msgid "Invalid number of days provided. Insert a number grater than 0"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.label
+msgctxt "admin~admin.permalink.manager.lastusage.label"
+msgid "Older than"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.norecords
+msgctxt "admin~admin.permalink.manager.lastusage.norecords"
+msgid "No records deleted"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.ok
+msgctxt "admin~admin.permalink.manager.lastusage.ok"
+msgid "Deleted %s records from permalink table"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.placeholder
+msgctxt "admin~admin.permalink.manager.lastusage.placeholder"
+msgid "Number of days"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.submit
+msgctxt "admin~admin.permalink.manager.lastusage.submit"
+msgid "Delete"
+msgstr "Löschen"
+
+#: admin~admin.permalink.manager.lastusage.title
+msgctxt "admin~admin.permalink.manager.lastusage.title"
+msgid "Delete permalinks last used before the specified number of days"
+msgstr ""
+
+#: admin~admin.permalink.manager.lastusage.unit
+msgctxt "admin~admin.permalink.manager.lastusage.unit"
+msgid "days"
+msgstr "Tage"
+
+#: admin~admin.permalink.manager.title
+msgctxt "admin~admin.permalink.manager.title"
+msgid "Permalinks management"
+msgstr ""
 
 #: admin~admin.project.error.some.projects.not.displayed
 msgctxt "admin~admin.project.error.some.projects.not.displayed"
@@ -1550,6 +1700,11 @@ msgstr "Schliessen"
 #: admin~admin.project.modal.title
 msgctxt "admin~admin.project.modal.title"
 msgid "Table legend"
+msgstr ""
+
+#: admin~admin.project.page.title
+msgctxt "admin~admin.project.page.title"
+msgid "QGIS Projects"
 msgstr ""
 
 #: admin~admin.project.rules.list.blocking.description
@@ -2002,6 +2157,11 @@ msgctxt "admin~jacl2.lizmap.admin.lizmap.log.view"
 msgid "View the lizmap logs"
 msgstr "Zeige die Lizmap Logs"
 
+#: admin~jacl2.lizmap.admin.permalink.manage
+msgctxt "admin~jacl2.lizmap.admin.permalink.manage"
+msgid "Manage server side permalinks"
+msgstr ""
+
 #: admin~jacl2.lizmap.admin.project.list.view
 msgctxt "admin~jacl2.lizmap.admin.project.list.view"
 msgid "View the list of QGIS projects"
@@ -2195,7 +2355,7 @@ msgstr "Gruppen zu denen der Benutzer gehört"
 #: admin~user.acl.no.group
 msgctxt "admin~user.acl.no.group"
 msgid "The user is not in any group"
-msgstr "Der Benutzer ist in keiner Gruppe"
+msgstr "Der Benutzer ist nicht Mitglied in einer Berechtigungsgruppe"
 
 #: admin~user.email.admin.body
 msgctxt "admin~user.email.admin.body"

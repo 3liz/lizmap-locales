@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 12:21++0200\n"
+"POT-Creation-Date: 2026-07-24 13:47++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2023-2026\n"
 "Language-Team: Italian (http://app.transifex.com/3liz-1/lizmap-locales/language/it/)\n"
@@ -368,7 +368,7 @@ msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn"
 msgid ""
 "You are about to select more than a 1000 features. This may take a few "
 "seconds to process. Are you sure you want to proceed?"
-msgstr ""
+msgstr "Stai per selezionare più di 1000 elementi. Questo potrebbe richiedere alcuni secondi. Sei sicuro di voler continuare con l'operazione?"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
@@ -795,6 +795,33 @@ msgid ""
 "geometry."
 msgstr "Puoi nascondere questo modulo con il pulsante di chiusura ogni volta che necessiti di disegnare la geometria."
 
+#: view~dictionnary.edition.geom.copyPaste
+msgctxt "view~dictionnary.edition.geom.copyPaste"
+msgid "Copy and paste an existing geometry"
+msgstr "Copia e incolla una geometria esistente"
+
+#: view~dictionnary.edition.geom.copyPaste.copied
+msgctxt "view~dictionnary.edition.geom.copyPaste.copied"
+msgid "Geometry copied successfully"
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures
+msgctxt "view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures"
+msgid "No compatible features found at this location"
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.noCopyableLayers
+msgctxt "view~dictionnary.edition.geom.copyPaste.noCopyableLayers"
+msgid ""
+"No copyable layers found. Layers must be visible, popup-enabled and "
+"published as WFS to copy their geometries."
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.queryError
+msgctxt "view~dictionnary.edition.geom.copyPaste.queryError"
+msgid "Error querying features"
+msgstr ""
+
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
 msgid "Paste the geometry"
@@ -1059,6 +1086,26 @@ msgctxt "view~dictionnary.geolocation.survey.title"
 msgid "Survey"
 msgstr "Indagine"
 
+#: view~dictionnary.groupPopupByLayer.nav.back
+msgctxt "view~dictionnary.groupPopupByLayer.nav.back"
+msgid "Return to layers list"
+msgstr ""
+
+#: view~dictionnary.groupPopupByLayer.nav.next
+msgctxt "view~dictionnary.groupPopupByLayer.nav.next"
+msgid "Go to the next feature"
+msgstr "Passa al prossimo elemento"
+
+#: view~dictionnary.groupPopupByLayer.nav.prev
+msgctxt "view~dictionnary.groupPopupByLayer.nav.prev"
+msgid "Go to the previous feature"
+msgstr "Passa all'elemento precedente"
+
+#: view~dictionnary.groupPopupByLayer.title
+msgctxt "view~dictionnary.groupPopupByLayer.title"
+msgid "Features by layer"
+msgstr ""
+
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
@@ -1244,6 +1291,156 @@ msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
 msgid "Display/Hide overview"
 msgstr "Mostra/Nascondi panoramica"
 
+#: view~dictionnary.panoramax.filter.account
+msgctxt "view~dictionnary.panoramax.filter.account"
+msgid "Account"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.account.placeholder
+msgctxt "view~dictionnary.panoramax.filter.account.placeholder"
+msgid "Search a username…"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.date.end
+msgctxt "view~dictionnary.panoramax.filter.date.end"
+msgid "End date"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.date.start
+msgctxt "view~dictionnary.panoramax.filter.date.start"
+msgid "Start date"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.type
+msgctxt "view~dictionnary.panoramax.filter.type"
+msgid "Picture type"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.type.flat
+msgctxt "view~dictionnary.panoramax.filter.type.flat"
+msgid "Classic"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style
+msgctxt "view~dictionnary.panoramax.layer.style"
+msgid "Layer style"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.age.1
+msgctxt "view~dictionnary.panoramax.layer.style.age.1"
+msgid "> 2 years"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.age.2
+msgctxt "view~dictionnary.panoramax.layer.style.age.2"
+msgid "< 2 years"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.age.3
+msgctxt "view~dictionnary.panoramax.layer.style.age.3"
+msgid "< 1 year"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.age.4
+msgctxt "view~dictionnary.panoramax.layer.style.age.4"
+msgid "< 1 month"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.classic
+msgctxt "view~dictionnary.panoramax.layer.style.classic"
+msgid "Classic"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.date
+msgctxt "view~dictionnary.panoramax.layer.style.date"
+msgid "Capture date"
+msgstr ""
+
+#: view~dictionnary.panoramax.open.external
+msgctxt "view~dictionnary.panoramax.open.external"
+msgid "Open in Panoramax ↗"
+msgstr ""
+
+#: view~dictionnary.permalink.back
+msgctxt "view~dictionnary.permalink.back"
+msgid "Back"
+msgstr "Indietro"
+
+#: view~dictionnary.permalink.clipboard
+msgctxt "view~dictionnary.permalink.clipboard"
+msgid "Permalink copied to clipboard"
+msgstr ""
+
+#: view~dictionnary.permalink.error.add
+msgctxt "view~dictionnary.permalink.error.add"
+msgid "Failed to insert the permalink record"
+msgstr ""
+
+#: view~dictionnary.permalink.error.get.not.found
+msgctxt "view~dictionnary.permalink.error.get.not.found"
+msgid "The permalink does not exists"
+msgstr ""
+
+#: view~dictionnary.permalink.error.parameters
+msgctxt "view~dictionnary.permalink.error.parameters"
+msgid "Wrong parameters given"
+msgstr ""
+
+#: view~dictionnary.permalink.error.parameters.bbox
+msgctxt "view~dictionnary.permalink.error.parameters.bbox"
+msgid "Invalid bounding box"
+msgstr ""
+
+#: view~dictionnary.permalink.get.error
+msgctxt "view~dictionnary.permalink.get.error"
+msgid "Cannot retreive permalink"
+msgstr ""
+
+#: view~dictionnary.permalink.history.clipboard
+msgctxt "view~dictionnary.permalink.history.clipboard"
+msgid "Copy to clipboard"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.all
+msgctxt "view~dictionnary.permalink.history.delete.all"
+msgid "Remove all permalink from cache?"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.all.title
+msgctxt "view~dictionnary.permalink.history.delete.all.title"
+msgid "Clear history"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.single
+msgctxt "view~dictionnary.permalink.history.delete.single"
+msgid "Remove selected permalink from cache?"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.single.title
+msgctxt "view~dictionnary.permalink.history.delete.single.title"
+msgid "Remove permalink from cache"
+msgstr ""
+
+#: view~dictionnary.permalink.history.share
+msgctxt "view~dictionnary.permalink.history.share"
+msgid "Share"
+msgstr "Condividi"
+
+#: view~dictionnary.permalink.history.title
+msgctxt "view~dictionnary.permalink.history.title"
+msgid "Recent permalinks"
+msgstr ""
+
+#: view~dictionnary.permalink.history.visit
+msgctxt "view~dictionnary.permalink.history.visit"
+msgid "Visit permalink"
+msgstr ""
+
+#: view~dictionnary.permalink.new
+msgctxt "view~dictionnary.permalink.new"
+msgid "Create new permalink"
+msgstr ""
+
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
 msgid "No object has been found at this location."
@@ -1334,7 +1531,7 @@ msgstr "Scala"
 #: view~dictionnary.print.toolbar.scale.toggle
 msgctxt "view~dictionnary.print.toolbar.scale.toggle"
 msgid "Toggle between preset scales and custom value"
-msgstr ""
+msgstr "Alterna tra scale preimpostate e valore personalizzato"
 
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
@@ -1705,11 +1902,6 @@ msgstr "Salva"
 msgctxt "view~edition.geolocate.toolbar.title"
 msgid "Edition:"
 msgstr "Modifica:"
-
-#: view~edition.geomtool.copypastegeom.title
-msgctxt "view~edition.geomtool.copypastegeom.title"
-msgid "Copy and paste an existing geometry"
-msgstr "Copia e incolla una geometria esistente"
 
 #: view~edition.geomtool.drag.title
 msgctxt "view~edition.geomtool.drag.title"
@@ -2554,7 +2746,7 @@ msgstr "Attributo"
 #: view~map.portfolio.button.deactivate.help
 msgctxt "view~map.portfolio.button.deactivate.help"
 msgid "Deactivate the portfolio"
-msgstr ""
+msgstr "Disattiva il portfolio"
 
 #: view~map.portfolio.button.deactivate.label
 msgctxt "view~map.portfolio.button.deactivate.label"
@@ -2564,7 +2756,7 @@ msgstr "Disattiva"
 #: view~map.portfolio.button.run.help
 msgctxt "view~map.portfolio.button.run.help"
 msgid "Run the portfolio"
-msgstr ""
+msgstr "Esegui il portfolio"
 
 #: view~map.portfolio.button.run.label
 msgctxt "view~map.portfolio.button.run.label"
@@ -2574,32 +2766,32 @@ msgstr "Esegui"
 #: view~map.portfolio.select.choose
 msgctxt "view~map.portfolio.select.choose"
 msgid "Choose a portfolio"
-msgstr ""
+msgstr "Scegli un portfolio"
 
 #: view~map.portfolio.select.emptyItem.label
 msgctxt "view~map.portfolio.select.emptyItem.label"
 msgid "No portfolio"
-msgstr ""
+msgstr "Nessun portfolio"
 
 #: view~map.portfolio.select.help
 msgctxt "view~map.portfolio.select.help"
 msgid "Select a portfolio"
-msgstr ""
+msgstr "Seleziona un portfolio"
 
 #: view~map.portfolio.select.warning
 msgctxt "view~map.portfolio.select.warning"
 msgid "No portfolio selected"
-msgstr ""
+msgstr "Nessun portfolio selezionato"
 
 #: view~map.portfolios.navbar.title
 msgctxt "view~map.portfolios.navbar.title"
 msgid "Portfolios"
-msgstr ""
+msgstr "Portfolio"
 
 #: view~map.portfolios.toolbar.title
 msgctxt "view~map.portfolios.toolbar.title"
 msgid "Portfolios"
-msgstr ""
+msgstr "Portfolio"
 
 #: view~map.print.navbar.title
 msgctxt "view~map.print.navbar.title"
@@ -2634,7 +2826,7 @@ msgstr "Stampa"
 #: view~map.search.clear
 msgctxt "view~map.search.clear"
 msgid "Clear search"
-msgstr ""
+msgstr "Pulisci ricerca"
 
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 12:21++0200\n"
+"POT-Creation-Date: 2026-07-24 13:47++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: José Macau <jose.macau@gmail.com>, 2016-2018,2020,2022-2024,2026\n"
 "Language-Team: Portuguese (http://app.transifex.com/3liz-1/lizmap-locales/language/pt/)\n"
@@ -794,6 +794,33 @@ msgid ""
 "geometry."
 msgstr "É possível ocultar este formulário com o botão fechar, sempre que seja necessário desenhar a geometria."
 
+#: view~dictionnary.edition.geom.copyPaste
+msgctxt "view~dictionnary.edition.geom.copyPaste"
+msgid "Copy and paste an existing geometry"
+msgstr "Copiar e colar uma geometria existente"
+
+#: view~dictionnary.edition.geom.copyPaste.copied
+msgctxt "view~dictionnary.edition.geom.copyPaste.copied"
+msgid "Geometry copied successfully"
+msgstr "Geometria copiada com sucesso"
+
+#: view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures
+msgctxt "view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures"
+msgid "No compatible features found at this location"
+msgstr "Não foram encontrados elementos compatíveis neste local"
+
+#: view~dictionnary.edition.geom.copyPaste.noCopyableLayers
+msgctxt "view~dictionnary.edition.geom.copyPaste.noCopyableLayers"
+msgid ""
+"No copyable layers found. Layers must be visible, popup-enabled and "
+"published as WFS to copy their geometries."
+msgstr "Não foram encontradas camadas que possam ser copiadas. As camadas devem estar visíveis, ter pop-up ativa e estar publicadas como WFS para copiar as suas geometrias."
+
+#: view~dictionnary.edition.geom.copyPaste.queryError
+msgctxt "view~dictionnary.edition.geom.copyPaste.queryError"
+msgid "Error querying features"
+msgstr "Erro ao consultar elementos"
+
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
 msgid "Paste the geometry"
@@ -1058,6 +1085,26 @@ msgctxt "view~dictionnary.geolocation.survey.title"
 msgid "Survey"
 msgstr "Utilizar geolocalização"
 
+#: view~dictionnary.groupPopupByLayer.nav.back
+msgctxt "view~dictionnary.groupPopupByLayer.nav.back"
+msgid "Return to layers list"
+msgstr "Voltar à lista de camadas"
+
+#: view~dictionnary.groupPopupByLayer.nav.next
+msgctxt "view~dictionnary.groupPopupByLayer.nav.next"
+msgid "Go to the next feature"
+msgstr "Ir para o próximo elemento"
+
+#: view~dictionnary.groupPopupByLayer.nav.prev
+msgctxt "view~dictionnary.groupPopupByLayer.nav.prev"
+msgid "Go to the previous feature"
+msgstr "Ir para o elemento anterior"
+
+#: view~dictionnary.groupPopupByLayer.title
+msgctxt "view~dictionnary.groupPopupByLayer.title"
+msgid "Features by layer"
+msgstr "Elementos por camada"
+
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
@@ -1242,6 +1289,156 @@ msgstr "Afastar"
 msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
 msgid "Display/Hide overview"
 msgstr "Mostrar/Ocultar enquadramento"
+
+#: view~dictionnary.panoramax.filter.account
+msgctxt "view~dictionnary.panoramax.filter.account"
+msgid "Account"
+msgstr "Utilizador"
+
+#: view~dictionnary.panoramax.filter.account.placeholder
+msgctxt "view~dictionnary.panoramax.filter.account.placeholder"
+msgid "Search a username…"
+msgstr "Pesquisar um nome de utilizador…"
+
+#: view~dictionnary.panoramax.filter.date.end
+msgctxt "view~dictionnary.panoramax.filter.date.end"
+msgid "End date"
+msgstr "Data de fim"
+
+#: view~dictionnary.panoramax.filter.date.start
+msgctxt "view~dictionnary.panoramax.filter.date.start"
+msgid "Start date"
+msgstr "Data de início"
+
+#: view~dictionnary.panoramax.filter.type
+msgctxt "view~dictionnary.panoramax.filter.type"
+msgid "Picture type"
+msgstr "Tipo de imagem"
+
+#: view~dictionnary.panoramax.filter.type.flat
+msgctxt "view~dictionnary.panoramax.filter.type.flat"
+msgid "Classic"
+msgstr "Clássico"
+
+#: view~dictionnary.panoramax.layer.style
+msgctxt "view~dictionnary.panoramax.layer.style"
+msgid "Layer style"
+msgstr "Estilo da camada"
+
+#: view~dictionnary.panoramax.layer.style.age.1
+msgctxt "view~dictionnary.panoramax.layer.style.age.1"
+msgid "> 2 years"
+msgstr "> 2 anos"
+
+#: view~dictionnary.panoramax.layer.style.age.2
+msgctxt "view~dictionnary.panoramax.layer.style.age.2"
+msgid "< 2 years"
+msgstr "< 2 anos"
+
+#: view~dictionnary.panoramax.layer.style.age.3
+msgctxt "view~dictionnary.panoramax.layer.style.age.3"
+msgid "< 1 year"
+msgstr "< 1 ano"
+
+#: view~dictionnary.panoramax.layer.style.age.4
+msgctxt "view~dictionnary.panoramax.layer.style.age.4"
+msgid "< 1 month"
+msgstr "< 1 mês"
+
+#: view~dictionnary.panoramax.layer.style.classic
+msgctxt "view~dictionnary.panoramax.layer.style.classic"
+msgid "Classic"
+msgstr "Clássico"
+
+#: view~dictionnary.panoramax.layer.style.date
+msgctxt "view~dictionnary.panoramax.layer.style.date"
+msgid "Capture date"
+msgstr "Data de captura"
+
+#: view~dictionnary.panoramax.open.external
+msgctxt "view~dictionnary.panoramax.open.external"
+msgid "Open in Panoramax ↗"
+msgstr "Abrir no Panoramax ↗"
+
+#: view~dictionnary.permalink.back
+msgctxt "view~dictionnary.permalink.back"
+msgid "Back"
+msgstr "Voltar"
+
+#: view~dictionnary.permalink.clipboard
+msgctxt "view~dictionnary.permalink.clipboard"
+msgid "Permalink copied to clipboard"
+msgstr "Permalink copiado para a área de transferência"
+
+#: view~dictionnary.permalink.error.add
+msgctxt "view~dictionnary.permalink.error.add"
+msgid "Failed to insert the permalink record"
+msgstr "Falha ao inserir o registo de permalink"
+
+#: view~dictionnary.permalink.error.get.not.found
+msgctxt "view~dictionnary.permalink.error.get.not.found"
+msgid "The permalink does not exists"
+msgstr "O permalink não existe"
+
+#: view~dictionnary.permalink.error.parameters
+msgctxt "view~dictionnary.permalink.error.parameters"
+msgid "Wrong parameters given"
+msgstr "Parâmetros fornecidos incorretos"
+
+#: view~dictionnary.permalink.error.parameters.bbox
+msgctxt "view~dictionnary.permalink.error.parameters.bbox"
+msgid "Invalid bounding box"
+msgstr "Limites da área inválidos"
+
+#: view~dictionnary.permalink.get.error
+msgctxt "view~dictionnary.permalink.get.error"
+msgid "Cannot retreive permalink"
+msgstr "Não foi possível obter o permalink"
+
+#: view~dictionnary.permalink.history.clipboard
+msgctxt "view~dictionnary.permalink.history.clipboard"
+msgid "Copy to clipboard"
+msgstr "Copiar para a área de transferência"
+
+#: view~dictionnary.permalink.history.delete.all
+msgctxt "view~dictionnary.permalink.history.delete.all"
+msgid "Remove all permalink from cache?"
+msgstr "Remover todos os permalinks da cache?"
+
+#: view~dictionnary.permalink.history.delete.all.title
+msgctxt "view~dictionnary.permalink.history.delete.all.title"
+msgid "Clear history"
+msgstr "Limpar histórico"
+
+#: view~dictionnary.permalink.history.delete.single
+msgctxt "view~dictionnary.permalink.history.delete.single"
+msgid "Remove selected permalink from cache?"
+msgstr "Eliminar o permalink selecionado da cache?"
+
+#: view~dictionnary.permalink.history.delete.single.title
+msgctxt "view~dictionnary.permalink.history.delete.single.title"
+msgid "Remove permalink from cache"
+msgstr "Eliminar permalink da cache"
+
+#: view~dictionnary.permalink.history.share
+msgctxt "view~dictionnary.permalink.history.share"
+msgid "Share"
+msgstr "Partilhar"
+
+#: view~dictionnary.permalink.history.title
+msgctxt "view~dictionnary.permalink.history.title"
+msgid "Recent permalinks"
+msgstr "Permalinks recentes"
+
+#: view~dictionnary.permalink.history.visit
+msgctxt "view~dictionnary.permalink.history.visit"
+msgid "Visit permalink"
+msgstr "Visitar permalink"
+
+#: view~dictionnary.permalink.new
+msgctxt "view~dictionnary.permalink.new"
+msgid "Create new permalink"
+msgstr "Criar novo permalink"
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
@@ -1704,11 +1901,6 @@ msgstr "Guardar"
 msgctxt "view~edition.geolocate.toolbar.title"
 msgid "Edition:"
 msgstr "Edição:"
-
-#: view~edition.geomtool.copypastegeom.title
-msgctxt "view~edition.geomtool.copypastegeom.title"
-msgid "Copy and paste an existing geometry"
-msgstr "Copiar e colar uma geometria existente"
 
 #: view~edition.geomtool.drag.title
 msgctxt "view~edition.geomtool.drag.title"

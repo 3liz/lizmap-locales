@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 12:21++0200\n"
+"POT-Creation-Date: 2026-07-24 13:47++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
 "Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2024-2026\n"
 "Language-Team: Czech (http://app.transifex.com/3liz-1/lizmap-locales/language/cs/)\n"
@@ -353,7 +353,7 @@ msgstr "Filtrovat tabulku podle prvků v aktuálním rozsahu mapy"
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.fit.filtered.extent.title"
 msgid "Zoom to filtered features extent"
-msgstr ""
+msgstr "Přiblížit na rozsah filtrovaných prvků"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
@@ -365,7 +365,7 @@ msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn"
 msgid ""
 "You are about to select more than a 1000 features. This may take a few "
 "seconds to process. Are you sure you want to proceed?"
-msgstr ""
+msgstr "Chystáte se vybrat více než 1000 prvků. Zpracování může trvat několik sekund. Jste si jisti, že chcete pokračovat?"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
@@ -655,34 +655,34 @@ msgstr "vrstvy budou exportovány"
 #: view~dictionnary.dxfexport.mode
 msgctxt "view~dictionnary.dxfexport.mode"
 msgid "Export mode"
-msgstr ""
+msgstr "Režim exportu"
 
 #: view~dictionnary.dxfexport.mode.feature
 msgctxt "view~dictionnary.dxfexport.mode.feature"
 msgid "Feature symbology"
-msgstr ""
+msgstr "Symbolika prvků"
 
 #: view~dictionnary.dxfexport.mode.none
 msgctxt "view~dictionnary.dxfexport.mode.none"
 msgid "No symbology"
-msgstr ""
+msgstr "Žádná symbolika"
 
 #: view~dictionnary.dxfexport.mode.symbollayer
 msgctxt "view~dictionnary.dxfexport.mode.symbollayer"
 msgid "Symbol layer symbology"
-msgstr ""
+msgstr "Symbolika vrstvy symbolů"
 
 #: view~dictionnary.dxfexport.no_visible_layers
 msgctxt "view~dictionnary.dxfexport.no_visible_layers"
 msgid "No visible layers to export. Please enable at least one layer."
-msgstr ""
+msgstr "Žádné viditelné vrstvy k exportu. Povolte alespoň jednu vrstvu."
 
 #: view~dictionnary.dxfexport.no_wfs_layers
 msgctxt "view~dictionnary.dxfexport.no_wfs_layers"
 msgid ""
 "No WFS-enabled layers available for export. Only layers published as WFS can"
 " be exported to DXF."
-msgstr ""
+msgstr "Pro export nejsou k dispozici žádné vrstvy s podporou WFS. Do formátu DXF lze exportovat pouze vrstvy publikované jako WFS."
 
 #: view~dictionnary.dxfexport.scale
 msgctxt "view~dictionnary.dxfexport.scale"
@@ -692,7 +692,7 @@ msgstr "Měřítko"
 #: view~dictionnary.dxfexport.scale.current
 msgctxt "view~dictionnary.dxfexport.scale.current"
 msgid "Current"
-msgstr ""
+msgstr "Stávající"
 
 #: view~dictionnary.dxfexport.started
 msgctxt "view~dictionnary.dxfexport.started"
@@ -707,17 +707,17 @@ msgstr "Export DXF byl úspěšně dokončen."
 #: view~dictionnary.dxfexport.use_mtext
 msgctxt "view~dictionnary.dxfexport.use_mtext"
 msgid "Use MTEXT for labels"
-msgstr ""
+msgstr "Použít MTEXT pro popisky"
 
 #: view~dictionnary.dxfexport.use_title_as_layername
 msgctxt "view~dictionnary.dxfexport.use_title_as_layername"
 msgid "Use layer titles as DXF layer names"
-msgstr ""
+msgstr "Použít názvy vrstev jako názvy vrstev DXF"
 
 #: view~dictionnary.dxfexport.wfs_requirement
 msgctxt "view~dictionnary.dxfexport.wfs_requirement"
 msgid "Note: Only layers published as WFS can be exported to DXF."
-msgstr ""
+msgstr "Poznámka: Do formátu DXF lze exportovat pouze vrstvy publikované jako WFS."
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
@@ -791,6 +791,33 @@ msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
 msgstr "Tento formulář můžete skrýt tlačítkem zavřít, kdykoli potřebujete nakreslit geometrii."
+
+#: view~dictionnary.edition.geom.copyPaste
+msgctxt "view~dictionnary.edition.geom.copyPaste"
+msgid "Copy and paste an existing geometry"
+msgstr "Zkopírujte a vložte existující geometrii"
+
+#: view~dictionnary.edition.geom.copyPaste.copied
+msgctxt "view~dictionnary.edition.geom.copyPaste.copied"
+msgid "Geometry copied successfully"
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures
+msgctxt "view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures"
+msgid "No compatible features found at this location"
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.noCopyableLayers
+msgctxt "view~dictionnary.edition.geom.copyPaste.noCopyableLayers"
+msgid ""
+"No copyable layers found. Layers must be visible, popup-enabled and "
+"published as WFS to copy their geometries."
+msgstr ""
+
+#: view~dictionnary.edition.geom.copyPaste.queryError
+msgctxt "view~dictionnary.edition.geom.copyPaste.queryError"
+msgid "Error querying features"
+msgstr ""
 
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
@@ -1056,6 +1083,26 @@ msgctxt "view~dictionnary.geolocation.survey.title"
 msgid "Survey"
 msgstr "Průzkum"
 
+#: view~dictionnary.groupPopupByLayer.nav.back
+msgctxt "view~dictionnary.groupPopupByLayer.nav.back"
+msgid "Return to layers list"
+msgstr ""
+
+#: view~dictionnary.groupPopupByLayer.nav.next
+msgctxt "view~dictionnary.groupPopupByLayer.nav.next"
+msgid "Go to the next feature"
+msgstr "Přejděte na další funkci"
+
+#: view~dictionnary.groupPopupByLayer.nav.prev
+msgctxt "view~dictionnary.groupPopupByLayer.nav.prev"
+msgid "Go to the previous feature"
+msgstr "Přejděte na předchozí funkci"
+
+#: view~dictionnary.groupPopupByLayer.title
+msgctxt "view~dictionnary.groupPopupByLayer.title"
+msgid "Features by layer"
+msgstr ""
+
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
@@ -1241,6 +1288,156 @@ msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
 msgid "Display/Hide overview"
 msgstr "Zobrazit/Skrýt přehled"
 
+#: view~dictionnary.panoramax.filter.account
+msgctxt "view~dictionnary.panoramax.filter.account"
+msgid "Account"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.account.placeholder
+msgctxt "view~dictionnary.panoramax.filter.account.placeholder"
+msgid "Search a username…"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.date.end
+msgctxt "view~dictionnary.panoramax.filter.date.end"
+msgid "End date"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.date.start
+msgctxt "view~dictionnary.panoramax.filter.date.start"
+msgid "Start date"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.type
+msgctxt "view~dictionnary.panoramax.filter.type"
+msgid "Picture type"
+msgstr ""
+
+#: view~dictionnary.panoramax.filter.type.flat
+msgctxt "view~dictionnary.panoramax.filter.type.flat"
+msgid "Classic"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style
+msgctxt "view~dictionnary.panoramax.layer.style"
+msgid "Layer style"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.age.1
+msgctxt "view~dictionnary.panoramax.layer.style.age.1"
+msgid "> 2 years"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.age.2
+msgctxt "view~dictionnary.panoramax.layer.style.age.2"
+msgid "< 2 years"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.age.3
+msgctxt "view~dictionnary.panoramax.layer.style.age.3"
+msgid "< 1 year"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.age.4
+msgctxt "view~dictionnary.panoramax.layer.style.age.4"
+msgid "< 1 month"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.classic
+msgctxt "view~dictionnary.panoramax.layer.style.classic"
+msgid "Classic"
+msgstr ""
+
+#: view~dictionnary.panoramax.layer.style.date
+msgctxt "view~dictionnary.panoramax.layer.style.date"
+msgid "Capture date"
+msgstr ""
+
+#: view~dictionnary.panoramax.open.external
+msgctxt "view~dictionnary.panoramax.open.external"
+msgid "Open in Panoramax ↗"
+msgstr ""
+
+#: view~dictionnary.permalink.back
+msgctxt "view~dictionnary.permalink.back"
+msgid "Back"
+msgstr "Zpět"
+
+#: view~dictionnary.permalink.clipboard
+msgctxt "view~dictionnary.permalink.clipboard"
+msgid "Permalink copied to clipboard"
+msgstr ""
+
+#: view~dictionnary.permalink.error.add
+msgctxt "view~dictionnary.permalink.error.add"
+msgid "Failed to insert the permalink record"
+msgstr ""
+
+#: view~dictionnary.permalink.error.get.not.found
+msgctxt "view~dictionnary.permalink.error.get.not.found"
+msgid "The permalink does not exists"
+msgstr ""
+
+#: view~dictionnary.permalink.error.parameters
+msgctxt "view~dictionnary.permalink.error.parameters"
+msgid "Wrong parameters given"
+msgstr ""
+
+#: view~dictionnary.permalink.error.parameters.bbox
+msgctxt "view~dictionnary.permalink.error.parameters.bbox"
+msgid "Invalid bounding box"
+msgstr ""
+
+#: view~dictionnary.permalink.get.error
+msgctxt "view~dictionnary.permalink.get.error"
+msgid "Cannot retreive permalink"
+msgstr ""
+
+#: view~dictionnary.permalink.history.clipboard
+msgctxt "view~dictionnary.permalink.history.clipboard"
+msgid "Copy to clipboard"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.all
+msgctxt "view~dictionnary.permalink.history.delete.all"
+msgid "Remove all permalink from cache?"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.all.title
+msgctxt "view~dictionnary.permalink.history.delete.all.title"
+msgid "Clear history"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.single
+msgctxt "view~dictionnary.permalink.history.delete.single"
+msgid "Remove selected permalink from cache?"
+msgstr ""
+
+#: view~dictionnary.permalink.history.delete.single.title
+msgctxt "view~dictionnary.permalink.history.delete.single.title"
+msgid "Remove permalink from cache"
+msgstr ""
+
+#: view~dictionnary.permalink.history.share
+msgctxt "view~dictionnary.permalink.history.share"
+msgid "Share"
+msgstr "Sdílení"
+
+#: view~dictionnary.permalink.history.title
+msgctxt "view~dictionnary.permalink.history.title"
+msgid "Recent permalinks"
+msgstr ""
+
+#: view~dictionnary.permalink.history.visit
+msgctxt "view~dictionnary.permalink.history.visit"
+msgid "Visit permalink"
+msgstr ""
+
+#: view~dictionnary.permalink.new
+msgctxt "view~dictionnary.permalink.new"
+msgid "Create new permalink"
+msgstr ""
+
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
 msgid "No object has been found at this location."
@@ -1331,7 +1528,7 @@ msgstr "Měřítko"
 #: view~dictionnary.print.toolbar.scale.toggle
 msgctxt "view~dictionnary.print.toolbar.scale.toggle"
 msgid "Toggle between preset scales and custom value"
-msgstr ""
+msgstr "Přepínání mezi přednastavenými stupnicemi a vlastní hodnotou"
 
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
@@ -1363,7 +1560,7 @@ msgstr "Projekt byl nedávno aktualizován v QGIS Desktop, ale se zastaralou ver
 #: view~dictionnary.selectiontool.message.start
 msgctxt "view~dictionnary.selectiontool.message.start"
 msgid "Selection tool activated. Draw a shape on the map to select features."
-msgstr ""
+msgstr "Nástroj pro výběr aktivován. Nakreslete na mapu tvar pro výběr objektů."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1505,7 +1702,7 @@ msgstr "Přepněte u této vrstvy přichycení"
 #: view~dictionnary.snapping.message.activated
 msgctxt "view~dictionnary.snapping.message.activated"
 msgid "Snapping has been automatically activated."
-msgstr ""
+msgstr "Přichytávání bylo automaticky aktivováno."
 
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
@@ -1702,11 +1899,6 @@ msgstr "Uložit"
 msgctxt "view~edition.geolocate.toolbar.title"
 msgid "Edition:"
 msgstr "Editace:"
-
-#: view~edition.geomtool.copypastegeom.title
-msgctxt "view~edition.geomtool.copypastegeom.title"
-msgid "Copy and paste an existing geometry"
-msgstr ""
 
 #: view~edition.geomtool.drag.title
 msgctxt "view~edition.geomtool.drag.title"
@@ -2551,7 +2743,7 @@ msgstr "Hodnota"
 #: view~map.portfolio.button.deactivate.help
 msgctxt "view~map.portfolio.button.deactivate.help"
 msgid "Deactivate the portfolio"
-msgstr ""
+msgstr "Deaktivovat portfolio"
 
 #: view~map.portfolio.button.deactivate.label
 msgctxt "view~map.portfolio.button.deactivate.label"
@@ -2561,7 +2753,7 @@ msgstr "Deaktivace"
 #: view~map.portfolio.button.run.help
 msgctxt "view~map.portfolio.button.run.help"
 msgid "Run the portfolio"
-msgstr ""
+msgstr "Spravujte portfolio"
 
 #: view~map.portfolio.button.run.label
 msgctxt "view~map.portfolio.button.run.label"
@@ -2571,22 +2763,22 @@ msgstr "Spustit"
 #: view~map.portfolio.select.choose
 msgctxt "view~map.portfolio.select.choose"
 msgid "Choose a portfolio"
-msgstr ""
+msgstr "Vyberte portfolio"
 
 #: view~map.portfolio.select.emptyItem.label
 msgctxt "view~map.portfolio.select.emptyItem.label"
 msgid "No portfolio"
-msgstr ""
+msgstr "Žádné portfolio"
 
 #: view~map.portfolio.select.help
 msgctxt "view~map.portfolio.select.help"
 msgid "Select a portfolio"
-msgstr ""
+msgstr "Vybrat portfolio"
 
 #: view~map.portfolio.select.warning
 msgctxt "view~map.portfolio.select.warning"
 msgid "No portfolio selected"
-msgstr ""
+msgstr "Není vybráno žádné portfolio"
 
 #: view~map.portfolios.navbar.title
 msgctxt "view~map.portfolios.navbar.title"
@@ -2631,7 +2823,7 @@ msgstr "Tisk"
 #: view~map.search.clear
 msgctxt "view~map.search.clear"
 msgid "Clear search"
-msgstr ""
+msgstr "Vymazat vyhledávání"
 
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"
