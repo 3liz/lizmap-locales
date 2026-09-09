@@ -1,18 +1,18 @@
 # Translators:
-# Mats Elfström <mats.elfstrom@giskraft.se>, 2025
+# Jonatan Nyberg, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 dataviz\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 13:50++0000\n"
+"POT-Creation-Date: 2026-09-06 18:41++0000\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
-"Last-Translator: Mats Elfström <mats.elfstrom@giskraft.se>, 2025\n"
-"Language-Team: Swedish (Sweden) (https://app.transifex.com/3liz-1/teams/62012/sv_SE/)\n"
+"Last-Translator: Jonatan Nyberg, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/3liz-1/teams/62012/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv_SE\n"
+"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: dataviz~dataviz.dock.subtitle
@@ -30,69 +30,72 @@ msgctxt "dataviz~dataviz.log.access_denied.detail"
 msgid ""
 "You have no right to access this ressource. Have you used the right login ?"
 msgstr ""
+"Du har inte behörighet att komma åt denna resurs. Har du använt rätt "
+"användarnamn?"
 
 #: dataviz~dataviz.log.access_denied.title
 msgctxt "dataviz~dataviz.log.access_denied.title"
 msgid "Access denied"
-msgstr ""
+msgstr "Åtkomst nekad"
 
 #: dataviz~dataviz.log.invalid_plot_type.detail
 msgctxt "dataviz~dataviz.log.invalid_plot_type.detail"
 msgid "The given plot type \"%s\" is invalid."
-msgstr ""
+msgstr "Den angivna diagramtypen ”%s” är ogiltig."
 
 #: dataviz~dataviz.log.invalid_plot_type.title
 msgctxt "dataviz~dataviz.log.invalid_plot_type.title"
 msgid "Invalid plot type"
-msgstr ""
+msgstr "Ogiltig diagramtyp"
 
 #: dataviz~dataviz.log.layer_not_found.detail
 msgctxt "dataviz~dataviz.log.layer_not_found.detail"
 msgid ""
 "The layer with the given ID \"%s\" cannot be found in the published QGIS "
 "project."
-msgstr ""
+msgstr "Lagret med ID ”%s” kan inte hittas i det publicerade QGIS-projektet."
 
 #: dataviz~dataviz.log.layer_not_found.title
 msgctxt "dataviz~dataviz.log.layer_not_found.title"
 msgid "Layer not found"
-msgstr ""
+msgstr "Lagret hittades inte"
 
 #: dataviz~dataviz.log.no_configuration.title
 msgctxt "dataviz~dataviz.log.no_configuration.title"
 msgid "There is no dataviz configuration for this project yet."
-msgstr ""
+msgstr "Det finns ännu ingen Dataviz-konfiguration för detta projekt."
 
 #: dataviz~dataviz.log.no_data.detail
 msgctxt "dataviz~dataviz.log.no_data.detail"
 msgid "The plot source data cannot be fetched from the vector layer \"%s\"."
-msgstr ""
+msgstr "Diagrammets källdata kan inte hämtas från vektorlagret ”%s”."
 
 #: dataviz~dataviz.log.no_data.title
 msgctxt "dataviz~dataviz.log.no_data.title"
 msgid "Plot data not available"
-msgstr ""
+msgstr "Diagramdata är inte tillgängliga"
 
 #: dataviz~dataviz.log.no_layers.detail
 msgctxt "dataviz~dataviz.log.no_layers.detail"
 msgid "The table of layers inside the dataviz configuration is empty."
-msgstr ""
+msgstr "Lagertabellen i Dataviz-konfigurationen är tom."
 
 #: dataviz~dataviz.log.no_layers.title
 msgctxt "dataviz~dataviz.log.no_layers.title"
 msgid "Dataviz layers is empty"
-msgstr ""
+msgstr "Inga Dataviz-lager har angetts"
 
 #: dataviz~dataviz.log.plot_configuration_not_found.detail
 msgctxt "dataviz~dataviz.log.plot_configuration_not_found.detail"
 msgid ""
 "The plot configuration cannot be found or parsed by Lizmap dataviz API."
 msgstr ""
+"Diagramkonfigurationen kan inte hittas eller tolkas av Lizmap Dataviz API."
 
 #: dataviz~dataviz.log.plot_configuration_not_found.title
 msgctxt "dataviz~dataviz.log.plot_configuration_not_found.title"
 msgid "Plot configuration not found"
-msgstr ""
+msgstr "Diagramkonfigurationen hittades inte"
 
 #: dataviz~dataviz.log.project_not_found.detail
 msgctxt "dataviz~dataviz.log.project_not_found.detail"
@@ -100,38 +103,42 @@ msgid ""
 "The QGIS project \"%s.qgs\" does not exist or is not available in the "
 "repository \"%s\"."
 msgstr ""
+"QGIS-projektet ”%s.qgs” finns inte eller är inte tillgängligt i "
+"datakatalogen ”%s”."
 
 #: dataviz~dataviz.log.project_not_found.title
 msgctxt "dataviz~dataviz.log.project_not_found.title"
 msgid "Lizmap project not found"
-msgstr ""
+msgstr "Lizmap-projektet hittades inte"
 
 #: dataviz~dataviz.log.repository_not_found.detail
 msgctxt "dataviz~dataviz.log.repository_not_found.detail"
 msgid "The Lizmap repository \"%s\" does not exist or is not available."
-msgstr ""
+msgstr "Lizmap-datakatalogen ”%s” finns inte eller är inte tillgänglig."
 
 #: dataviz~dataviz.log.repository_not_found.title
 msgctxt "dataviz~dataviz.log.repository_not_found.title"
 msgid "Lizmap repository not found"
-msgstr ""
+msgstr "Lizmap-datakatalogen hittades inte"
 
 #: dataviz~dataviz.log.request_not_supported.detail
 msgctxt "dataviz~dataviz.log.request_not_supported.detail"
 msgid "The given request \"%s\" is not supported by Lizmap dataviz API."
-msgstr ""
+msgstr "Begäran ”%s” stöds inte av Lizmap Dataviz API."
 
 #: dataviz~dataviz.log.request_not_supported.title
 msgctxt "dataviz~dataviz.log.request_not_supported.title"
 msgid "Request is not supported"
-msgstr ""
+msgstr "Begäran stöds inte"
 
 #: dataviz~dataviz.log.wrong_credentials.detail
 msgctxt "dataviz~dataviz.log.wrong_credentials.detail"
 msgid "The given login and password are incorrect. Cannot authenticate."
 msgstr ""
+"Det angivna användarnamnet eller lösenordet är felaktigt. Autentisering "
+"misslyckades."
 
 #: dataviz~dataviz.log.wrong_credentials.title
 msgctxt "dataviz~dataviz.log.wrong_credentials.title"
 msgid "Wrong credentials"
-msgstr ""
+msgstr "Felaktiga inloggningsuppgifter"
