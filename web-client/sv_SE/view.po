@@ -1,19 +1,17 @@
 # 
 # Translators:
-# Mats Elfström <mats.elfstrom@giskraft.se>, 2021
-# Rasmus Johansson <rasmus@demosgis.net>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap locales\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 13:47++0000\n"
+"POT-Creation-Date: 2026-09-06 18:39++0000\n"
 "PO-Revision-Date: 2016-04-05 14:52+0000\n"
-"Last-Translator: Mats Elfström <mats.elfstrom@giskraft.se>, 2021\n"
-"Language-Team: Swedish (Sweden) (http://app.transifex.com/3liz-1/lizmap-locales/language/sv_SE/)\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish (http://app.transifex.com/3liz-1/lizmap-locales/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv_SE\n"
+"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: view~default.header.connect
@@ -29,7 +27,7 @@ msgstr "Registrera"
 #: view~default.header.disconnect
 msgctxt "view~default.header.disconnect"
 msgid "Disconnect"
-msgstr "Avsluta"
+msgstr "Koppla från"
 
 #: view~default.header.menuitem.admin.label
 msgctxt "view~default.header.menuitem.admin.label"
@@ -39,12 +37,12 @@ msgstr "Administration"
 #: view~default.header.search.input.title
 msgctxt "view~default.header.search.input.title"
 msgid "Type to filter your maps."
-msgstr "Ange ett filter för dina kartor"
+msgstr "Skriv för att filtrera dina kartor."
 
 #: view~default.header.search.toggleKeywordsTitle.title
 msgctxt "view~default.header.search.toggleKeywordsTitle.title"
 msgid "Toggle keywords/title search."
-msgstr "Växla mellan nyckelord/namn-sökning"
+msgstr "Växla mellan sökning på nyckelord och titel."
 
 #: view~default.home.menu
 msgctxt "view~default.home.menu"
@@ -54,7 +52,7 @@ msgstr "Hem"
 #: view~default.home.title
 msgctxt "view~default.home.title"
 msgid "Home page"
-msgstr ""
+msgstr "Startsida"
 
 #: view~default.project.abstract.label
 msgctxt "view~default.project.abstract.label"
@@ -64,7 +62,7 @@ msgstr "Sammanfattning"
 #: view~default.project.access.denied
 msgctxt "view~default.project.access.denied"
 msgid "Access denied for this project."
-msgstr "Åtkomst nekad för detta projekt"
+msgstr "Åtkomst till detta projekt nekades."
 
 #: view~default.project.close.map.metadata
 msgctxt "view~default.project.close.map.metadata"
@@ -74,14 +72,14 @@ msgstr "Stäng"
 #: view~default.project.keywordList.label
 msgctxt "view~default.project.keywordList.label"
 msgid "Keyword list"
-msgstr "Lista på nyckelord"
+msgstr "Lista över nyckelord"
 
 #: view~default.project.needs.update
 msgctxt "view~default.project.needs.update"
 msgid ""
 "The project needs an update from the GIS administrator. Please contact the "
 "GIS administrator to check the QGIS projects panel."
-msgstr ""
+msgstr "Projektet behöver uppdateras av GIS-administratören. Kontakta GIS-administratören och be denne kontrollera panelen QGIS-projekt."
 
 #: view~default.project.open.map
 msgctxt "view~default.project.open.map"
@@ -91,7 +89,7 @@ msgstr "Ladda kartan"
 #: view~default.project.open.map.metadata
 msgctxt "view~default.project.open.map.metadata"
 msgid "View metadata"
-msgstr "Se metadata"
+msgstr "Visa metadata"
 
 #: view~default.project.title.label
 msgctxt "view~default.project.title.label"
@@ -101,54 +99,54 @@ msgstr "Titel"
 #: view~default.repository.access.denied
 msgctxt "view~default.repository.access.denied"
 msgid "You cannot access this repository."
-msgstr "Du kan inte komma åt denna repository."
+msgstr "Du har inte åtkomst till denna datakatalog."
 
 #: view~default.repository.list.title
 msgctxt "view~default.repository.list.title"
 msgid "Repository page"
-msgstr ""
+msgstr "Datakatalogsida"
 
 #: view~default.server.information.error
 msgctxt "view~default.server.information.error"
 msgid ""
 "This map cannot be displayed. Please contact the server administrator to "
 "check the server information panel."
-msgstr ""
+msgstr "Kartan kan inte visas. Kontakta serveradministratören och be denne kontrollera panelen Serverinformation."
 
 #: view~default.server.information.error.admin
 msgctxt "view~default.server.information.error.admin"
 msgid "Maps cannot be displayed. Please check the server information panel."
-msgstr ""
+msgstr "Kartor kan inte visas. Kontrollera panelen Serverinformation."
 
 #: view~default.service.access.denied
 msgctxt "view~default.service.access.denied"
 msgid "Access denied to the service."
-msgstr ""
+msgstr "Åtkomst till tjänsten nekades."
 
 #: view~default.service.access.forbidden
 msgctxt "view~default.service.access.forbidden"
 msgid "Access forbidden to the service."
-msgstr ""
+msgstr "Åtkomst till tjänsten är förbjuden."
 
 #: view~default.service.access.unauthorized
 msgctxt "view~default.service.access.unauthorized"
 msgid "Access needs a valid authentication credentials"
-msgstr ""
+msgstr "Åtkomst kräver giltiga inloggningsuppgifter"
 
 #: view~default.service.access.wrong_credentials.detail
 msgctxt "view~default.service.access.wrong_credentials.detail"
 msgid "The given login and password are incorrect. Cannot authenticate."
-msgstr ""
+msgstr "Det angivna användarnamnet eller lösenordet är felaktigt. Autentisering misslyckades."
 
 #: view~default.service.access.wrong_credentials.title
 msgctxt "view~default.service.access.wrong_credentials.title"
 msgid "Wrong credentials"
-msgstr ""
+msgstr "Felaktiga inloggningsuppgifter"
 
 #: view~dictionnary.action.choose
 msgctxt "view~dictionnary.action.choose"
 msgid "Choose an action to run"
-msgstr ""
+msgstr "Välj en åtgärd att köra"
 
 #: view~dictionnary.action.close
 msgctxt "view~dictionnary.action.close"
@@ -158,7 +156,7 @@ msgstr "Stäng"
 #: view~dictionnary.action.form.button.deactivate.help
 msgctxt "view~dictionnary.action.form.button.deactivate.help"
 msgid "Deactivate the active action"
-msgstr ""
+msgstr "Inaktivera den aktiva åtgärden"
 
 #: view~dictionnary.action.form.button.deactivate.label
 msgctxt "view~dictionnary.action.form.button.deactivate.label"
@@ -168,27 +166,27 @@ msgstr "Inaktivera"
 #: view~dictionnary.action.form.button.run.help
 msgctxt "view~dictionnary.action.form.button.run.help"
 msgid "Run the selected action"
-msgstr ""
+msgstr "Kör den valda åtgärden"
 
 #: view~dictionnary.action.form.button.run.label
 msgctxt "view~dictionnary.action.form.button.run.label"
 msgid "Run"
-msgstr ""
+msgstr "Kör"
 
 #: view~dictionnary.action.form.select.emptyItem.label
 msgctxt "view~dictionnary.action.form.select.emptyItem.label"
 msgid "Choose an action"
-msgstr ""
+msgstr "Välj en åtgärd"
 
 #: view~dictionnary.action.form.select.help
 msgctxt "view~dictionnary.action.form.select.help"
 msgid "To run an action, select one in the list and click the Run button"
-msgstr ""
+msgstr "För att köra en åtgärd väljer du den i listan och klickar på knappen Kör"
 
 #: view~dictionnary.action.form.select.warning
 msgctxt "view~dictionnary.action.form.select.warning"
 msgid "You must first select an action in the list"
-msgstr ""
+msgstr "Du måste först välja en åtgärd i listan"
 
 #: view~dictionnary.action.title
 msgctxt "view~dictionnary.action.title"
@@ -198,7 +196,7 @@ msgstr "Åtgärder"
 #: view~dictionnary.atlas.navbar.title
 msgctxt "view~dictionnary.atlas.navbar.title"
 msgid "Atlas"
-msgstr "Kartbok"
+msgstr "Atlas"
 
 #: view~dictionnary.atlas.toolbar.next
 msgctxt "view~dictionnary.atlas.toolbar.next"
@@ -223,12 +221,12 @@ msgstr "Föregående"
 #: view~dictionnary.atlas.toolbar.stop
 msgctxt "view~dictionnary.atlas.toolbar.stop"
 msgid "Stop"
-msgstr "Stopp"
+msgstr "Stoppa"
 
 #: view~dictionnary.atlas.toolbar.title
 msgctxt "view~dictionnary.atlas.toolbar.title"
 msgid "Atlas"
-msgstr "Kartbok"
+msgstr "Atlas"
 
 #: view~dictionnary.attributeLayers.btn.center.title
 msgctxt "view~dictionnary.attributeLayers.btn.center.title"
@@ -253,7 +251,7 @@ msgstr "Info"
 #: view~dictionnary.attributeLayers.btn.remove.link.title
 msgctxt "view~dictionnary.attributeLayers.btn.remove.link.title"
 msgid "Unlink child"
-msgstr "Olänkad undergrupp"
+msgstr "Ta bort länk till underordnat objekt"
 
 #: view~dictionnary.attributeLayers.btn.select.title
 msgctxt "view~dictionnary.attributeLayers.btn.select.title"
@@ -263,7 +261,7 @@ msgstr "Välj"
 #: view~dictionnary.attributeLayers.btn.unselect.title
 msgctxt "view~dictionnary.attributeLayers.btn.unselect.title"
 msgid "Unselect"
-msgstr "Avselektera"
+msgstr "Avmarkera"
 
 #: view~dictionnary.attributeLayers.btn.zoom.title
 msgctxt "view~dictionnary.attributeLayers.btn.zoom.title"
@@ -275,25 +273,25 @@ msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
 "The layer is not visible. Please zoom at a scale in which the features are "
 "visible."
-msgstr "Lagret är inte synligt. Vänligen zooma till en skala där objekten blir synliga."
+msgstr "Lagret är inte synligt. Zooma till en skala där objekten är synliga."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived"
 msgid "Activated line needed."
-msgstr "Aktiverad rad behövs"
+msgstr "En aktiv rad krävs."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title"
 msgid "Create a child"
-msgstr "Skapa undergrupp"
+msgstr "Skapa underordnat objekt"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createFeature.title"
 msgid "Create feature"
-msgstr "Skapa feature"
+msgstr "Skapa objekt"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.export.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.export.title"
@@ -308,23 +306,23 @@ msgstr "Filter"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.hide.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.hide.title"
 msgid "Hide"
-msgstr "Göm"
+msgstr "Dölj"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.linkFeatures.title"
 msgid "Link selected features"
-msgstr "Länka valda features"
+msgstr "Länka valda objekt"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.moveselectedtotop.title"
 msgid "Display selection only"
-msgstr ""
+msgstr "Visa endast urvalet"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.refresh.title"
 msgid "Get data"
-msgstr "Ta emot data"
+msgstr "Hämta data"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.show.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.show.title"
@@ -334,40 +332,40 @@ msgstr "Visa"
 #: view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.data.unselect.title"
 msgid "Unselect all"
-msgstr "Avselektera alla"
+msgstr "Avmarkera alla"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.detail
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.detail"
 msgid "Detail"
-msgstr "Detalj"
+msgstr "Detaljer"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.filterByExtent.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.filterByExtent.title"
 msgid "Filter the table with the features in the current map extent"
-msgstr ""
+msgstr "Filtrera tabellen efter objekt inom kartans aktuella utbredning"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.fit.filtered.extent.title
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.fit.filtered.extent.title"
 msgid "Zoom to filtered features extent"
-msgstr ""
+msgstr "Zooma till de filtrerade objektens utbredning"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.title"
 msgid "Select searched line"
-msgstr "Välj sökt linje"
+msgstr "Välj sökträff"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn"
 msgid ""
 "You are about to select more than a 1000 features. This may take a few "
 "seconds to process. Are you sure you want to proceed?"
-msgstr ""
+msgstr "Du är på väg att välja fler än 1 000 objekt. Bearbetningen kan ta några sekunder. Vill du fortsätta?"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
 msgid "Toggle children tables"
-msgstr "Välj undergrupperade tabeller"
+msgstr "Visa/dölj underordnade tabeller"
 
 #: view~dictionnary.attributeLayers.toolbar.cb.data.detail.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.cb.data.detail.title"
@@ -382,17 +380,17 @@ msgstr "Sök"
 #: view~dictionnary.attributeLayers.toolbar.msg.data.extent
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.extent"
 msgid "in the current extent"
-msgstr "i nuvarande utbredning"
+msgstr "i aktuell utbredning"
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.lines
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.lines"
 msgid "lines returned"
-msgstr "returnerade rader"
+msgstr "rader returnerade"
 
 #: view~dictionnary.attributeLayers.toolbar.msg.data.nodata
 msgctxt "view~dictionnary.attributeLayers.toolbar.msg.data.nodata"
 msgid "No result for this layer"
-msgstr "Inget resultat på detta lagret"
+msgstr "Inga resultat för detta lager"
 
 #: view~dictionnary.baselayer.empty.title
 msgctxt "view~dictionnary.baselayer.empty.title"
@@ -402,12 +400,12 @@ msgstr "Ingen bakgrundskarta"
 #: view~dictionnary.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.activate.title"
 msgid "Pin"
-msgstr "Pin"
+msgstr "Fäst"
 
 #: view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.deactivate.title"
 msgid "Unpin"
-msgstr "Avpinna"
+msgstr "Lossa"
 
 #: view~dictionnary.bottomdock.toolbar.btn.glue.glued.title
 msgctxt "view~dictionnary.bottomdock.toolbar.btn.glue.glued.title"
@@ -427,7 +425,7 @@ msgstr "Minimera"
 #: view~dictionnary.digitizing.confirm.erase
 msgctxt "view~dictionnary.digitizing.confirm.erase"
 msgid "Are you sure you want to delete this feature?"
-msgstr ""
+msgstr "Är du säker på att du vill ta bort detta objekt?"
 
 #: view~dictionnary.digitizing.confirm.erase.all
 msgctxt "view~dictionnary.digitizing.confirm.erase.all"
@@ -445,7 +443,7 @@ msgid ""
 "You can constrain digitizing by setting values for the distance of the "
 "current segment and the angle between the last segment and the current "
 "segment."
-msgstr ""
+msgstr "Du kan begränsa digitaliseringen genom att ange avståndet för det aktuella segmentet och vinkeln mellan föregående och aktuellt segment."
 
 #: view~dictionnary.digitizing.constraint.distance
 msgctxt "view~dictionnary.digitizing.constraint.distance"
@@ -455,24 +453,24 @@ msgstr "Avstånd"
 #: view~dictionnary.digitizing.constraint.title
 msgctxt "view~dictionnary.digitizing.constraint.title"
 msgid "Constraints"
-msgstr ""
+msgstr "Begränsningar"
 
 #: view~dictionnary.digitizing.import.fetch.error
 msgctxt "view~dictionnary.digitizing.import.fetch.error"
 msgid "Error while fetching projection definition from epsg.io"
-msgstr ""
+msgstr "Fel när projektionsdefinitionen hämtades från epsg.io"
 
 #: view~dictionnary.digitizing.import.metadata.error
 msgctxt "view~dictionnary.digitizing.import.metadata.error"
 msgid ""
 "No metadata found. Make sure the projection of the fgb file is the same as "
 "the current project"
-msgstr ""
+msgstr "Inga metadata hittades. Kontrollera att projektionen för FGB-filen är samma som för det aktuella projektet"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
 msgid "Box"
-msgstr "Fyrkant"
+msgstr "Lådagram"
 
 #: view~dictionnary.digitizing.toolbar.circle
 msgctxt "view~dictionnary.digitizing.toolbar.circle"
@@ -499,17 +497,17 @@ msgctxt "view~dictionnary.digitizing.toolbar.edit"
 msgid ""
 "Edit (hold \"Shift\" to select multiple features, hold \"Alt\" and click to "
 "delete a vertex)"
-msgstr ""
+msgstr "Redigera (håll ned ”Skift” för att välja flera objekt, håll ned ”Alt” och klicka för att ta bort en vertex)"
 
 #: view~dictionnary.digitizing.toolbar.erase
 msgctxt "view~dictionnary.digitizing.toolbar.erase"
 msgid "Delete some features"
-msgstr ""
+msgstr "Ta bort vissa objekt"
 
 #: view~dictionnary.digitizing.toolbar.erase.all
 msgctxt "view~dictionnary.digitizing.toolbar.erase.all"
 msgid "Delete all features"
-msgstr "Radera alla objekt"
+msgstr "Ta bort alla objekt"
 
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
@@ -519,7 +517,7 @@ msgstr "Frihand"
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
 msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
-msgstr ""
+msgstr "Importera GeoJSON, GPX, KML, ZIP-komprimerad Shapefile eller FlatGeobuf"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -534,7 +532,7 @@ msgstr "Mätningar"
 #: view~dictionnary.digitizing.toolbar.newText
 msgctxt "view~dictionnary.digitizing.toolbar.newText"
 msgid "New text"
-msgstr ""
+msgstr "Ny text"
 
 #: view~dictionnary.digitizing.toolbar.point
 msgctxt "view~dictionnary.digitizing.toolbar.point"
@@ -549,137 +547,137 @@ msgstr "Polygon"
 #: view~dictionnary.digitizing.toolbar.rotate
 msgctxt "view~dictionnary.digitizing.toolbar.rotate"
 msgid "Rotate the selected geometry"
-msgstr ""
+msgstr "Rotera den valda geometrin"
 
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
 msgid "Save draw in the browser"
-msgstr "Spara ritningen i webbläsaren"
+msgstr "Spara ritning i webbläsaren"
 
 #: view~dictionnary.digitizing.toolbar.save.remove
 msgctxt "view~dictionnary.digitizing.toolbar.save.remove"
 msgid "Remove draw from the browser"
-msgstr ""
+msgstr "Ta bort ritningen från webbläsaren"
 
 #: view~dictionnary.digitizing.toolbar.save.state
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
 msgid "The drawing changes will be saved in the browser"
-msgstr ""
+msgstr "Ändringarna i ritningen sparas i webbläsaren"
 
 #: view~dictionnary.digitizing.toolbar.scaling
 msgctxt "view~dictionnary.digitizing.toolbar.scaling"
 msgid "Scale the selected geometry (hold \"Shift\" to lock proportions)"
-msgstr ""
+msgstr "Skala den valda geometrin (håll ned ”Skift” för att låsa proportionerna)"
 
 #: view~dictionnary.digitizing.toolbar.split
 msgctxt "view~dictionnary.digitizing.toolbar.split"
 msgid "Split the geometry intersecting the drawing line"
-msgstr ""
+msgstr "Dela geometrin som skär ritlinjen"
 
 #: view~dictionnary.digitizing.toolbar.text
 msgctxt "view~dictionnary.digitizing.toolbar.text"
 msgid "Object labelling"
-msgstr ""
+msgstr "Objektetiketter"
 
 #: view~dictionnary.digitizing.toolbar.text.hint
 msgctxt "view~dictionnary.digitizing.toolbar.text.hint"
 msgid ""
 "You can change the label text content, size and rotation for the selected "
 "objects."
-msgstr ""
+msgstr "Du kan ändra etikettens text, storlek och rotation för de valda objekten."
 
 #: view~dictionnary.digitizing.toolbar.textLabel
 msgctxt "view~dictionnary.digitizing.toolbar.textLabel"
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
 #: view~dictionnary.digitizing.toolbar.textRotation
 msgctxt "view~dictionnary.digitizing.toolbar.textRotation"
 msgid "Rotation"
-msgstr ""
+msgstr "Rotation"
 
 #: view~dictionnary.digitizing.toolbar.textScale
 msgctxt "view~dictionnary.digitizing.toolbar.textScale"
 msgid "Size"
-msgstr ""
+msgstr "Storlek"
 
 #: view~dictionnary.dxfexport.description
 msgctxt "view~dictionnary.dxfexport.description"
 msgid "Export the current map view as a DXF file."
-msgstr ""
+msgstr "Exportera den aktuella kartvyn som en DXF-fil."
 
 #: view~dictionnary.dxfexport.error
 msgctxt "view~dictionnary.dxfexport.error"
 msgid "Error during DXF export. Please contact the system administrator."
-msgstr ""
+msgstr "Fel vid DXF-export. Kontakta systemadministratören."
 
 #: view~dictionnary.dxfexport.error.notfound
 msgctxt "view~dictionnary.dxfexport.error.notfound"
 msgid "Export service not found. Please contact the system administrator."
-msgstr ""
+msgstr "Exporttjänsten hittades inte. Kontakta systemadministratören."
 
 #: view~dictionnary.dxfexport.error.server
 msgctxt "view~dictionnary.dxfexport.error.server"
 msgid ""
 "Server error during export. Please try again or contact the administrator."
-msgstr ""
+msgstr "Serverfel under exporten. Försök igen eller kontakta administratören."
 
 #: view~dictionnary.dxfexport.error.unavailable
 msgctxt "view~dictionnary.dxfexport.error.unavailable"
 msgid "Export service temporarily unavailable. Please try again later."
-msgstr ""
+msgstr "Exporttjänsten är tillfälligt otillgänglig. Försök igen senare."
 
 #: view~dictionnary.dxfexport.force2d
 msgctxt "view~dictionnary.dxfexport.force2d"
 msgid "Force 2D (enables line widths)"
-msgstr ""
+msgstr "Tvinga 2D (aktiverar linjebredder)"
 
 #: view~dictionnary.dxfexport.launch
 msgctxt "view~dictionnary.dxfexport.launch"
 msgid "Export to DXF"
-msgstr ""
+msgstr "Exportera till DXF"
 
 #: view~dictionnary.dxfexport.layers_count
 msgctxt "view~dictionnary.dxfexport.layers_count"
 msgid "layers will be exported"
-msgstr ""
+msgstr "lager kommer att exporteras"
 
 #: view~dictionnary.dxfexport.layers_to_export
 msgctxt "view~dictionnary.dxfexport.layers_to_export"
 msgid "layers will be exported"
-msgstr ""
+msgstr "lager kommer att exporteras"
 
 #: view~dictionnary.dxfexport.mode
 msgctxt "view~dictionnary.dxfexport.mode"
 msgid "Export mode"
-msgstr ""
+msgstr "Exportläge"
 
 #: view~dictionnary.dxfexport.mode.feature
 msgctxt "view~dictionnary.dxfexport.mode.feature"
 msgid "Feature symbology"
-msgstr ""
+msgstr "Objektsymbolik"
 
 #: view~dictionnary.dxfexport.mode.none
 msgctxt "view~dictionnary.dxfexport.mode.none"
 msgid "No symbology"
-msgstr ""
+msgstr "Ingen symbolik"
 
 #: view~dictionnary.dxfexport.mode.symbollayer
 msgctxt "view~dictionnary.dxfexport.mode.symbollayer"
 msgid "Symbol layer symbology"
-msgstr ""
+msgstr "Symbollagersymbolik"
 
 #: view~dictionnary.dxfexport.no_visible_layers
 msgctxt "view~dictionnary.dxfexport.no_visible_layers"
 msgid "No visible layers to export. Please enable at least one layer."
-msgstr ""
+msgstr "Det finns inga synliga lager att exportera. Aktivera minst ett lager."
 
 #: view~dictionnary.dxfexport.no_wfs_layers
 msgctxt "view~dictionnary.dxfexport.no_wfs_layers"
 msgid ""
 "No WFS-enabled layers available for export. Only layers published as WFS can"
 " be exported to DXF."
-msgstr ""
+msgstr "Inga WFS-aktiverade lager är tillgängliga för export. Endast lager publicerade som WFS kan exporteras till DXF."
 
 #: view~dictionnary.dxfexport.scale
 msgctxt "view~dictionnary.dxfexport.scale"
@@ -689,39 +687,39 @@ msgstr "Skala"
 #: view~dictionnary.dxfexport.scale.current
 msgctxt "view~dictionnary.dxfexport.scale.current"
 msgid "Current"
-msgstr ""
+msgstr "Aktuell"
 
 #: view~dictionnary.dxfexport.started
 msgctxt "view~dictionnary.dxfexport.started"
 msgid "DXF export started, please wait…"
-msgstr ""
+msgstr "DXF-exporten har startat, vänta…"
 
 #: view~dictionnary.dxfexport.success
 msgctxt "view~dictionnary.dxfexport.success"
 msgid "DXF export completed successfully."
-msgstr ""
+msgstr "DXF-exporten slutfördes."
 
 #: view~dictionnary.dxfexport.use_mtext
 msgctxt "view~dictionnary.dxfexport.use_mtext"
 msgid "Use MTEXT for labels"
-msgstr ""
+msgstr "Använd MTEXT för etiketter"
 
 #: view~dictionnary.dxfexport.use_title_as_layername
 msgctxt "view~dictionnary.dxfexport.use_title_as_layername"
 msgid "Use layer titles as DXF layer names"
-msgstr ""
+msgstr "Använd lagertitlar som DXF-lagernamn"
 
 #: view~dictionnary.dxfexport.wfs_requirement
 msgctxt "view~dictionnary.dxfexport.wfs_requirement"
 msgid "Note: Only layers published as WFS can be exported to DXF."
-msgstr ""
+msgstr "Obs! Endast lager som publiceras som WFS kan exporteras till DXF."
 
 #: view~dictionnary.edition.confirm.cancel
 msgctxt "view~dictionnary.edition.confirm.cancel"
 msgid ""
 "Are you sure you want to cancel the edition? You will lose any modifications"
 " made on the currently edited object."
-msgstr ""
+msgstr "Är du säker på att du vill avbryta redigeringen? Alla ändringar av det objekt som redigeras går förlorade."
 
 #: view~dictionnary.edition.confirm.delete
 msgctxt "view~dictionnary.edition.confirm.delete"
@@ -735,14 +733,14 @@ msgid ""
 "Please check before that you have already saved your changes.\n"
 "\n"
 "Do you wish to continue?"
-msgstr ""
+msgstr "Du är på väg att skapa ett nytt underordnat objekt för objektet som redigeras.\nKontrollera först att du redan har sparat dina ändringar.\n\nVill du fortsätta?"
 
 #: view~dictionnary.edition.confirm.paste
 msgctxt "view~dictionnary.edition.confirm.paste"
 msgid ""
 "Are you sure you want to replace the existing geometry with the one in the "
 "clipboard?"
-msgstr ""
+msgstr "Är du säker på att du vill ersätta den befintliga geometrin med geometrin i urklipp?"
 
 #: view~dictionnary.edition.confirm.pivot.delete
 msgctxt "view~dictionnary.edition.confirm.pivot.delete"
@@ -753,19 +751,19 @@ msgid ""
 " %s \n"
 "\n"
 "will be also deleted"
-msgstr ""
+msgstr "Är du säker på att du vill ta bort det valda objektet?\n\nRelaterade länkar till följande lager:\n %s \n\nkommer också att tas bort"
 
 #: view~dictionnary.edition.confirm.pivot.unlink
 msgctxt "view~dictionnary.edition.confirm.pivot.unlink"
 msgid "Are you sure you want to unlink the selected feature from \"%l\" layer?"
-msgstr ""
+msgstr "Är du säker på att du vill ta bort länken mellan det valda objektet och lagret ”%l”?"
 
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
 msgid ""
 "Are you sure you want to delete the existing geometry and redraw it from "
 "scratch?"
-msgstr ""
+msgstr "Är du säker på att du vill ta bort den befintliga geometrin och rita om den från början?"
 
 #: view~dictionnary.edition.datepicker.open
 msgctxt "view~dictionnary.edition.datepicker.open"
@@ -775,7 +773,7 @@ msgstr "Öppna kalendern"
 #: view~dictionnary.edition.datepicker.reset
 msgctxt "view~dictionnary.edition.datepicker.reset"
 msgid "Reset the date"
-msgstr "Återställ datum"
+msgstr "Återställ datumet"
 
 #: view~dictionnary.edition.draw.activate
 msgctxt "view~dictionnary.edition.draw.activate"
@@ -787,65 +785,65 @@ msgctxt "view~dictionnary.edition.draw.activate.mobile"
 msgid ""
 "You can hide this form with the close button whenever you need to draw the "
 "geometry."
-msgstr "Du kan dölja det här formuläret med stängningsknappen när du ska rita geometrin."
+msgstr "Du kan dölja formuläret med stängningsknappen när du behöver rita geometrin."
 
 #: view~dictionnary.edition.geom.copyPaste
 msgctxt "view~dictionnary.edition.geom.copyPaste"
 msgid "Copy and paste an existing geometry"
-msgstr ""
+msgstr "Kopiera och klistra in en befintlig geometri"
 
 #: view~dictionnary.edition.geom.copyPaste.copied
 msgctxt "view~dictionnary.edition.geom.copyPaste.copied"
 msgid "Geometry copied successfully"
-msgstr ""
+msgstr "Geometrin kopierades"
 
 #: view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures
 msgctxt "view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures"
 msgid "No compatible features found at this location"
-msgstr ""
+msgstr "Inga kompatibla objekt hittades på denna plats"
 
 #: view~dictionnary.edition.geom.copyPaste.noCopyableLayers
 msgctxt "view~dictionnary.edition.geom.copyPaste.noCopyableLayers"
 msgid ""
 "No copyable layers found. Layers must be visible, popup-enabled and "
 "published as WFS to copy their geometries."
-msgstr ""
+msgstr "Inga kopierbara lager hittades. Lager måste vara synliga, ha popup aktiverad och vara publicerade som WFS för att deras geometrier ska kunna kopieras."
 
 #: view~dictionnary.edition.geom.copyPaste.queryError
 msgctxt "view~dictionnary.edition.geom.copyPaste.queryError"
 msgid "Error querying features"
-msgstr ""
+msgstr "Fel vid hämtning av objekt"
 
 #: view~dictionnary.edition.geom.paste
 msgctxt "view~dictionnary.edition.geom.paste"
 msgid "Paste the geometry"
-msgstr ""
+msgstr "Klistra in geometrin"
 
 #: view~dictionnary.edition.link.pivot.add
 msgctxt "view~dictionnary.edition.link.pivot.add"
 msgid "The new record will be linked to the feature ID \"%f\" of \"%l\" layer"
-msgstr ""
+msgstr "Den nya posten länkas till objekt-ID ”%f” i lagret ”%l”"
 
 #: view~dictionnary.edition.message.error.fetch.form
 msgctxt "view~dictionnary.edition.message.error.fetch.form"
 msgid ""
 "Error while fetching the editing form for that layer. Please contact the "
 "system administrator."
-msgstr ""
+msgstr "Fel när redigeringsformuläret för lagret hämtades. Kontakta systemadministratören."
 
 #: view~dictionnary.edition.message.error.no.geometry
 msgctxt "view~dictionnary.edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
-msgstr "Du kan inte spara detta objekt utan en geometri. Vänligen rita geometrin på kartan."
+msgstr "Du kan inte spara objektet utan en geometri. Rita geometrin på kartan."
 
 #: view~dictionnary.edition.message.error.send.feature
 msgctxt "view~dictionnary.edition.message.error.send.feature"
 msgid ""
 "Error while saving the edited feature. Please contact the system "
 "administrator."
-msgstr ""
+msgstr "Fel när det redigerade objektet sparades. Kontakta systemadministratören."
 
 #: view~dictionnary.edition.point.coord.crs.layer
 msgctxt "view~dictionnary.edition.point.coord.crs.layer"
@@ -860,29 +858,29 @@ msgstr "Karta"
 #: view~dictionnary.edition.revertgeom.success
 msgctxt "view~dictionnary.edition.revertgeom.success"
 msgid "Geometry has been reversed. You can now save the form."
-msgstr "Geometrin är reverserad. Du kan nu spara formuläret."
+msgstr "Geometrin har vänts. Du kan nu spara formuläret."
 
 #: view~dictionnary.edition.select.activate
 msgctxt "view~dictionnary.edition.select.activate"
 msgid "Click on one of the layer's features to select it."
-msgstr "Klicka på lagrets feature för att selektera det."
+msgstr "Klicka på ett av lagrets objekt för att välja det."
 
 #: view~dictionnary.edition.select.modify.activate
 msgctxt "view~dictionnary.edition.select.modify.activate"
 msgid "You can modify the feature you have selected, then submit."
-msgstr "Du kan modifiera objektet som valts, skicka sedan."
+msgstr "Du kan ändra det valda objektet och sedan skicka in ändringarna."
 
 #: view~dictionnary.edition.splitfeat.form.error
 msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
 "You should fill correctly the form, in order to create a new feature after "
 "splitting the geometry"
-msgstr "Du måste fylla i formuläret korrekt för att skapa ett nytt objekt efter att ha delat geometrin"
+msgstr "Fyll i formuläret korrekt för att skapa ett nytt objekt efter att geometrin har delats"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
 msgid "A technical error occurs. Split cannot be done."
-msgstr "Ett fel uppstod. Delningen kan inte utföras."
+msgstr "Ett tekniskt fel uppstod. Delningen kan inte utföras."
 
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
@@ -892,12 +890,12 @@ msgstr "Redigering"
 #: view~dictionnary.embed.open.map
 msgctxt "view~dictionnary.embed.open.map"
 msgid "Open the map in full screen"
-msgstr "Öppna kartan i fullskärm"
+msgstr "Öppna kartan i helskärm"
 
 #: view~dictionnary.externalsearch.ignlimit
 msgctxt "view~dictionnary.externalsearch.ignlimit"
 msgid "IGN search must contain between 3 and 200 characters"
-msgstr ""
+msgstr "IGN-sökningen måste innehålla mellan 3 och 200 tecken"
 
 #: view~dictionnary.externalsearch.mapdata
 msgctxt "view~dictionnary.externalsearch.mapdata"
@@ -907,12 +905,12 @@ msgstr "Kartdata"
 #: view~dictionnary.externalsearch.noquery
 msgctxt "view~dictionnary.externalsearch.noquery"
 msgid "Search query is empty"
-msgstr ""
+msgstr "Sökfrågan är tom"
 
 #: view~dictionnary.externalsearch.notfound
 msgctxt "view~dictionnary.externalsearch.notfound"
 msgid "No results"
-msgstr "Inget resultat"
+msgstr "Inga resultat"
 
 #: view~dictionnary.externalsearch.search
 msgctxt "view~dictionnary.externalsearch.search"
@@ -922,43 +920,43 @@ msgstr "Söker"
 #: view~dictionnary.featuresTable.empty.message
 msgctxt "view~dictionnary.featuresTable.empty.message"
 msgid "This table is empty. There are no items to display."
-msgstr ""
+msgstr "Tabellen är tom. Det finns inga poster att visa."
 
 #: view~dictionnary.featuresTable.item.active.hover
 msgctxt "view~dictionnary.featuresTable.item.active.hover"
 msgid ""
 "Click to close the feature information and go back to the list of features"
-msgstr ""
+msgstr "Klicka för att stänga objektinformationen och gå tillbaka till objektlistan"
 
 #: view~dictionnary.featuresTable.item.draggable.dropped
 msgctxt "view~dictionnary.featuresTable.item.draggable.dropped"
 msgid "You have successfully moved this feature"
-msgstr ""
+msgstr "Objektet har flyttats"
 
 #: view~dictionnary.featuresTable.item.draggable.hover
 msgctxt "view~dictionnary.featuresTable.item.draggable.hover"
 msgid "You can drag and drop the feature to move it above or below"
-msgstr ""
+msgstr "Du kan dra och släppa objektet för att flytta det uppåt eller nedåt"
 
 #: view~dictionnary.featuresTable.item.hover
 msgctxt "view~dictionnary.featuresTable.item.hover"
 msgid "Click on the feature to display its detailed information"
-msgstr ""
+msgstr "Klicka på objektet för att visa detaljerad information"
 
 #: view~dictionnary.featuresTable.toolbar.close
 msgctxt "view~dictionnary.featuresTable.toolbar.close"
 msgid "Go back to the list of features"
-msgstr ""
+msgstr "Gå tillbaka till objektlistan"
 
 #: view~dictionnary.featuresTable.toolbar.next
 msgctxt "view~dictionnary.featuresTable.toolbar.next"
 msgid "Go to the next feature"
-msgstr ""
+msgstr "Gå till nästa objekt"
 
 #: view~dictionnary.featuresTable.toolbar.previous
 msgctxt "view~dictionnary.featuresTable.toolbar.previous"
 msgid "Go to the previous feature"
-msgstr ""
+msgstr "Gå till föregående objekt"
 
 #: view~dictionnary.filter.btn.export.label
 msgctxt "view~dictionnary.filter.btn.export.label"
@@ -993,12 +991,12 @@ msgstr "Zooma till filtrerade objekt"
 #: view~dictionnary.filter.input.text.placeholder
 msgctxt "view~dictionnary.filter.input.text.placeholder"
 msgid "Search inside this field"
-msgstr "Sök i det här fältet"
+msgstr "Sök i detta fält"
 
 #: view~dictionnary.filter.input.text.title
 msgctxt "view~dictionnary.filter.input.text.title"
 msgid "Type some text to search inside this field"
-msgstr "Skriv något för att söka i det här fältet"
+msgstr "Skriv text för att söka i detta fält"
 
 #: view~dictionnary.filter.label.features
 msgctxt "view~dictionnary.filter.label.features"
@@ -1018,7 +1016,7 @@ msgstr "Är du säker på att du vill ta bort detta bokmärke?"
 #: view~dictionnary.geobookmark.name.required
 msgctxt "view~dictionnary.geobookmark.name.required"
 msgid "A name is required to create a bookmark."
-msgstr "Ett namn behövs för att skapa ett bokmärke."
+msgstr "Ett namn krävs för att skapa ett bokmärke."
 
 #: view~dictionnary.geolocate.infos.accuracy
 msgctxt "view~dictionnary.geolocate.infos.accuracy"
@@ -1028,17 +1026,27 @@ msgstr "Noggrannhet (m)"
 #: view~dictionnary.geolocate.toolbar.bind
 msgctxt "view~dictionnary.geolocate.toolbar.bind"
 msgid "Stay centered"
-msgstr "Förbli centrerad"
+msgstr "Behåll centrering"
 
 #: view~dictionnary.geolocate.toolbar.center
 msgctxt "view~dictionnary.geolocate.toolbar.center"
 msgid "Center"
 msgstr "Centrera"
 
+#: view~dictionnary.geolocate.toolbar.interval
+msgctxt "view~dictionnary.geolocate.toolbar.interval"
+msgid "Update interval"
+msgstr ""
+
+#: view~dictionnary.geolocate.toolbar.rotate
+msgctxt "view~dictionnary.geolocate.toolbar.rotate"
+msgid "Rotate map"
+msgstr ""
+
 #: view~dictionnary.geolocate.toolbar.start
 msgctxt "view~dictionnary.geolocate.toolbar.start"
 msgid "Start"
-msgstr "Starta"
+msgstr "Start"
 
 #: view~dictionnary.geolocate.toolbar.stop
 msgctxt "view~dictionnary.geolocate.toolbar.stop"
@@ -1053,7 +1061,7 @@ msgstr "Väntar"
 #: view~dictionnary.geolocation.failed
 msgctxt "view~dictionnary.geolocation.failed"
 msgid "Location detection failed"
-msgstr "Spåra plats misslyckades"
+msgstr "Platsidentifieringen misslyckades"
 
 #: view~dictionnary.geolocation.survey.accuracy
 msgctxt "view~dictionnary.geolocation.survey.accuracy"
@@ -1078,42 +1086,42 @@ msgstr "Tid"
 #: view~dictionnary.geolocation.survey.title
 msgctxt "view~dictionnary.geolocation.survey.title"
 msgid "Survey"
-msgstr "Mätning"
+msgstr "Enkät"
 
 #: view~dictionnary.groupPopupByLayer.nav.back
 msgctxt "view~dictionnary.groupPopupByLayer.nav.back"
 msgid "Return to layers list"
-msgstr ""
+msgstr "Tillbaka till lagerlistan"
 
 #: view~dictionnary.groupPopupByLayer.nav.next
 msgctxt "view~dictionnary.groupPopupByLayer.nav.next"
 msgid "Go to the next feature"
-msgstr ""
+msgstr "Gå till nästa objekt"
 
 #: view~dictionnary.groupPopupByLayer.nav.prev
 msgctxt "view~dictionnary.groupPopupByLayer.nav.prev"
 msgid "Go to the previous feature"
-msgstr ""
+msgstr "Gå till föregående objekt"
 
 #: view~dictionnary.groupPopupByLayer.title
 msgctxt "view~dictionnary.groupPopupByLayer.title"
 msgid "Features by layer"
-msgstr ""
+msgstr "Objekt per lager"
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
 msgid "Right is required to export layer."
-msgstr "Man måste ha rättigheter för att exportera lager."
+msgstr "Behörighet krävs för att exportera lagret."
 
 #: view~dictionnary.layer.export.started
 msgctxt "view~dictionnary.layer.export.started"
 msgid "Export started, please wait…"
-msgstr ""
+msgstr "Exporten har startat, vänta…"
 
 #: view~dictionnary.layer.export.unknown.export.error
 msgctxt "view~dictionnary.layer.export.unknown.export.error"
 msgid "The server reported an error 400 during the export of the layer."
-msgstr ""
+msgstr "Servern rapporterade fel 400 under exporten av lagret."
 
 #: view~dictionnary.layer.metadata.export.title
 msgctxt "view~dictionnary.layer.metadata.export.title"
@@ -1143,7 +1151,7 @@ msgstr "Namn"
 #: view~dictionnary.layer.metadata.layer.type
 msgctxt "view~dictionnary.layer.metadata.layer.type"
 msgid "Type"
-msgstr "Skriv"
+msgstr "Typ"
 
 #: view~dictionnary.layer.metadata.layer.type.group
 msgctxt "view~dictionnary.layer.metadata.layer.type.group"
@@ -1158,7 +1166,7 @@ msgstr "Lager"
 #: view~dictionnary.layer.metadata.opacity.title
 msgctxt "view~dictionnary.layer.metadata.opacity.title"
 msgid "Opacity"
-msgstr "Genomsynlighet"
+msgstr "Opacitet"
 
 #: view~dictionnary.layer.metadata.style.title
 msgctxt "view~dictionnary.layer.metadata.style.title"
@@ -1173,7 +1181,7 @@ msgstr "Information"
 #: view~dictionnary.layer.metadata.zoomToExtent.title
 msgctxt "view~dictionnary.layer.metadata.zoomToExtent.title"
 msgid "Zoom to the layer extent"
-msgstr ""
+msgstr "Zooma till lagrets utbredning"
 
 #: view~dictionnary.measure.activate.angle
 msgctxt "view~dictionnary.measure.activate.angle"
@@ -1183,17 +1191,17 @@ msgstr "Klicka på kartan för att börja mäta en vinkel."
 #: view~dictionnary.measure.activate.area
 msgctxt "view~dictionnary.measure.activate.area"
 msgid "Click on the map to start measuring an area."
-msgstr "Klicka på kartan och börja mäta en area."
+msgstr "Klicka på kartan för att börja mäta en yta."
 
 #: view~dictionnary.measure.activate.length
 msgctxt "view~dictionnary.measure.activate.length"
 msgid "Click on the map to start measuring a length."
-msgstr "Klicka på kartan och börja mäta längd."
+msgstr "Klicka på kartan för att börja mäta en längd."
 
 #: view~dictionnary.measure.activate.perimeter
 msgctxt "view~dictionnary.measure.activate.perimeter"
 msgid "Click on the map to start measuring a perimeter."
-msgstr "Klicka på kartan och börja mäta omkrets."
+msgstr "Klicka på kartan för att börja mäta en omkrets."
 
 #: view~dictionnary.measure.handle
 msgctxt "view~dictionnary.measure.handle"
@@ -1223,12 +1231,12 @@ msgstr "Grader"
 #: view~dictionnary.mouseposition.units.dm
 msgctxt "view~dictionnary.mouseposition.units.dm"
 msgid "Deg. Min."
-msgstr "Grader. Min."
+msgstr "Grader, minuter"
 
 #: view~dictionnary.mouseposition.units.dms
 msgctxt "view~dictionnary.mouseposition.units.dms"
 msgid "D. M. S."
-msgstr "D. M. S."
+msgstr "Grader, minuter, sekunder"
 
 #: view~dictionnary.mouseposition.units.f
 msgctxt "view~dictionnary.mouseposition.units.f"
@@ -1248,7 +1256,7 @@ msgstr "Nästa"
 #: view~dictionnary.navbar.pan.hover
 msgctxt "view~dictionnary.navbar.pan.hover"
 msgid "Pan map"
-msgstr "Panorera karta"
+msgstr "Panorera kartan"
 
 #: view~dictionnary.navbar.previous.hover
 msgctxt "view~dictionnary.navbar.previous.hover"
@@ -1258,7 +1266,7 @@ msgstr "Föregående"
 #: view~dictionnary.navbar.slider.hover
 msgctxt "view~dictionnary.navbar.slider.hover"
 msgid "Slide to zoom in or out"
-msgstr "Slida för att zooma in eller ut"
+msgstr "Dra för att zooma in eller ut"
 
 #: view~dictionnary.navbar.zoom.hover
 msgctxt "view~dictionnary.navbar.zoom.hover"
@@ -1283,77 +1291,77 @@ msgstr "Zooma ut"
 #: view~dictionnary.overviewbar.displayoverview.hover
 msgctxt "view~dictionnary.overviewbar.displayoverview.hover"
 msgid "Display/Hide overview"
-msgstr ""
+msgstr "Visa/dölj översiktskarta"
 
 #: view~dictionnary.panoramax.filter.account
 msgctxt "view~dictionnary.panoramax.filter.account"
 msgid "Account"
-msgstr ""
+msgstr "Konto"
 
 #: view~dictionnary.panoramax.filter.account.placeholder
 msgctxt "view~dictionnary.panoramax.filter.account.placeholder"
 msgid "Search a username…"
-msgstr ""
+msgstr "Sök efter användarnamn…"
 
 #: view~dictionnary.panoramax.filter.date.end
 msgctxt "view~dictionnary.panoramax.filter.date.end"
 msgid "End date"
-msgstr ""
+msgstr "Slutdatum"
 
 #: view~dictionnary.panoramax.filter.date.start
 msgctxt "view~dictionnary.panoramax.filter.date.start"
 msgid "Start date"
-msgstr ""
+msgstr "Startdatum"
 
 #: view~dictionnary.panoramax.filter.type
 msgctxt "view~dictionnary.panoramax.filter.type"
 msgid "Picture type"
-msgstr ""
+msgstr "Bildtyp"
 
 #: view~dictionnary.panoramax.filter.type.flat
 msgctxt "view~dictionnary.panoramax.filter.type.flat"
 msgid "Classic"
-msgstr ""
+msgstr "Klassisk"
 
 #: view~dictionnary.panoramax.layer.style
 msgctxt "view~dictionnary.panoramax.layer.style"
 msgid "Layer style"
-msgstr ""
+msgstr "Lagerstil"
 
 #: view~dictionnary.panoramax.layer.style.age.1
 msgctxt "view~dictionnary.panoramax.layer.style.age.1"
 msgid "> 2 years"
-msgstr ""
+msgstr "> 2 år"
 
 #: view~dictionnary.panoramax.layer.style.age.2
 msgctxt "view~dictionnary.panoramax.layer.style.age.2"
 msgid "< 2 years"
-msgstr ""
+msgstr "< 2 år"
 
 #: view~dictionnary.panoramax.layer.style.age.3
 msgctxt "view~dictionnary.panoramax.layer.style.age.3"
 msgid "< 1 year"
-msgstr ""
+msgstr "< 1 år"
 
 #: view~dictionnary.panoramax.layer.style.age.4
 msgctxt "view~dictionnary.panoramax.layer.style.age.4"
 msgid "< 1 month"
-msgstr ""
+msgstr "< 1 månad"
 
 #: view~dictionnary.panoramax.layer.style.classic
 msgctxt "view~dictionnary.panoramax.layer.style.classic"
 msgid "Classic"
-msgstr ""
+msgstr "Klassisk"
 
 #: view~dictionnary.panoramax.layer.style.date
 msgctxt "view~dictionnary.panoramax.layer.style.date"
 msgid "Capture date"
-msgstr ""
+msgstr "Bildtagningsdatum"
 
 #: view~dictionnary.panoramax.open.external
 msgctxt "view~dictionnary.panoramax.open.external"
 msgid "Open in Panoramax ↗"
-msgstr ""
+msgstr "Öppna i Panoramax ↗"
 
 #: view~dictionnary.permalink.back
 msgctxt "view~dictionnary.permalink.back"
@@ -1363,57 +1371,57 @@ msgstr "Tillbaka"
 #: view~dictionnary.permalink.clipboard
 msgctxt "view~dictionnary.permalink.clipboard"
 msgid "Permalink copied to clipboard"
-msgstr ""
+msgstr "Permalänken kopierades till urklipp"
 
 #: view~dictionnary.permalink.error.add
 msgctxt "view~dictionnary.permalink.error.add"
 msgid "Failed to insert the permalink record"
-msgstr ""
+msgstr "Det gick inte att lägga till permalänksposten"
 
 #: view~dictionnary.permalink.error.get.not.found
 msgctxt "view~dictionnary.permalink.error.get.not.found"
 msgid "The permalink does not exists"
-msgstr ""
+msgstr "Permalänken finns inte"
 
 #: view~dictionnary.permalink.error.parameters
 msgctxt "view~dictionnary.permalink.error.parameters"
 msgid "Wrong parameters given"
-msgstr ""
+msgstr "Felaktiga parametrar angavs"
 
 #: view~dictionnary.permalink.error.parameters.bbox
 msgctxt "view~dictionnary.permalink.error.parameters.bbox"
 msgid "Invalid bounding box"
-msgstr ""
+msgstr "Ogiltig avgränsningsruta"
 
 #: view~dictionnary.permalink.get.error
 msgctxt "view~dictionnary.permalink.get.error"
 msgid "Cannot retreive permalink"
-msgstr ""
+msgstr "Det går inte att hämta permalänken"
 
 #: view~dictionnary.permalink.history.clipboard
 msgctxt "view~dictionnary.permalink.history.clipboard"
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Kopiera till urklipp"
 
 #: view~dictionnary.permalink.history.delete.all
 msgctxt "view~dictionnary.permalink.history.delete.all"
 msgid "Remove all permalink from cache?"
-msgstr ""
+msgstr "Ta bort alla permalänkar från cachen?"
 
 #: view~dictionnary.permalink.history.delete.all.title
 msgctxt "view~dictionnary.permalink.history.delete.all.title"
 msgid "Clear history"
-msgstr ""
+msgstr "Rensa historik"
 
 #: view~dictionnary.permalink.history.delete.single
 msgctxt "view~dictionnary.permalink.history.delete.single"
 msgid "Remove selected permalink from cache?"
-msgstr ""
+msgstr "Ta bort den valda permalänken från cachen?"
 
 #: view~dictionnary.permalink.history.delete.single.title
 msgctxt "view~dictionnary.permalink.history.delete.single.title"
 msgid "Remove permalink from cache"
-msgstr ""
+msgstr "Ta bort permalänken från cachen"
 
 #: view~dictionnary.permalink.history.share
 msgctxt "view~dictionnary.permalink.history.share"
@@ -1423,69 +1431,69 @@ msgstr "Dela"
 #: view~dictionnary.permalink.history.title
 msgctxt "view~dictionnary.permalink.history.title"
 msgid "Recent permalinks"
-msgstr ""
+msgstr "Senaste permalänkar"
 
 #: view~dictionnary.permalink.history.visit
 msgctxt "view~dictionnary.permalink.history.visit"
 msgid "Visit permalink"
-msgstr ""
+msgstr "Öppna permalänk"
 
 #: view~dictionnary.permalink.new
 msgctxt "view~dictionnary.permalink.new"
 msgid "Create new permalink"
-msgstr ""
+msgstr "Skapa ny permalänk"
 
 #: view~dictionnary.popup.msg.no.result
 msgctxt "view~dictionnary.popup.msg.no.result"
 msgid "No object has been found at this location."
-msgstr "Inget objekt hittades på denna plats"
+msgstr "Inget objekt hittades på denna plats."
 
 #: view~dictionnary.popup.msg.start
 msgctxt "view~dictionnary.popup.msg.start"
 msgid "Click on the map to get information."
-msgstr ""
+msgstr "Klicka på kartan för att hämta information."
 
 #: view~dictionnary.popup.table.compact
 msgctxt "view~dictionnary.popup.table.compact"
 msgid "Compact tables"
-msgstr "Komprimera tabeller"
+msgstr "Kompakta tabeller"
 
 #: view~dictionnary.popup.table.explode
 msgctxt "view~dictionnary.popup.table.explode"
 msgid "Explode tables"
-msgstr "Fäll ut tabeller"
+msgstr "Expandera tabeller"
 
 #: view~dictionnary.print.activate
 msgctxt "view~dictionnary.print.activate"
 msgid "Place the rectangle for printing"
-msgstr "Placera rektangeln för området som skall skrivas ut"
+msgstr "Placera rektangeln för utskrift"
 
 #: view~dictionnary.print.advanced
 msgctxt "view~dictionnary.print.advanced"
 msgid "Advanced"
-msgstr ""
+msgstr "Avancerat"
 
 #: view~dictionnary.print.customLabels.tooltip
 msgctxt "view~dictionnary.print.customLabels.tooltip"
 msgid "Set custom labels for print"
-msgstr "Ställ in anpassade etiketter för utskrift"
+msgstr "Ange anpassade etiketter för utskrift"
 
 #: view~dictionnary.print.error
 msgctxt "view~dictionnary.print.error"
 msgid ""
 "The output is currently not available. Please contact the system "
 "administrator."
-msgstr ""
+msgstr "Utdata är inte tillgängliga just nu. Kontakta systemadministratören."
 
 #: view~dictionnary.print.gridIntervals
 msgctxt "view~dictionnary.print.gridIntervals"
 msgid "Grid intervals"
-msgstr ""
+msgstr "Rutnätsintervall"
 
 #: view~dictionnary.print.labels
 msgctxt "view~dictionnary.print.labels"
 msgid "Labels"
-msgstr ""
+msgstr "Etiketter"
 
 #: view~dictionnary.print.launch
 msgctxt "view~dictionnary.print.launch"
@@ -1495,17 +1503,17 @@ msgstr "Skriv ut"
 #: view~dictionnary.print.rotation
 msgctxt "view~dictionnary.print.rotation"
 msgid "Rotation"
-msgstr ""
+msgstr "Rotation"
 
 #: view~dictionnary.print.started
 msgctxt "view~dictionnary.print.started"
 msgid "Print started, please wait…"
-msgstr ""
+msgstr "Utskriften har startat, vänta…"
 
 #: view~dictionnary.print.toolbar.dpi
 msgctxt "view~dictionnary.print.toolbar.dpi"
 msgid "DPI"
-msgstr "Dpi"
+msgstr "DPI"
 
 #: view~dictionnary.print.toolbar.format
 msgctxt "view~dictionnary.print.toolbar.format"
@@ -1515,7 +1523,7 @@ msgstr "Format"
 #: view~dictionnary.print.toolbar.layout
 msgctxt "view~dictionnary.print.toolbar.layout"
 msgid "Layout"
-msgstr ""
+msgstr "Layout"
 
 #: view~dictionnary.print.toolbar.scale
 msgctxt "view~dictionnary.print.toolbar.scale"
@@ -1525,12 +1533,12 @@ msgstr "Skala"
 #: view~dictionnary.print.toolbar.scale.toggle
 msgctxt "view~dictionnary.print.toolbar.scale.toggle"
 msgid "Toggle between preset scales and custom value"
-msgstr ""
+msgstr "Växla mellan förinställda skalor och ett anpassat värde"
 
 #: view~dictionnary.project.admin.panel.info
 msgctxt "view~dictionnary.project.admin.panel.info"
 msgid "Only administrators or publishers can see this message."
-msgstr ""
+msgstr "Endast administratörer eller publicerare kan se detta meddelande."
 
 #: view~dictionnary.project.has.not.found.layers
 msgctxt "view~dictionnary.project.has.not.found.layers"
@@ -1538,26 +1546,26 @@ msgid ""
 "Some layers are in the WMS capabilities (*.qgs file) but are not found in "
 "the Lizmap configuration file (*.qgs.cfg). Is the Lizmap configuration file "
 "up to date ?"
-msgstr ""
+msgstr "Vissa lager finns i WMS-funktionerna (*.qgs-filen) men saknas i Lizmap-konfigurationsfilen (*.qgs.cfg). Är Lizmap-konfigurationsfilen uppdaterad?"
 
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
 msgid ""
 "The project has some warnings in the QGIS desktop Lizmap plugin which must "
 "be fixed."
-msgstr ""
+msgstr "Projektet har varningar i Lizmap-tillägget för QGIS Desktop som måste åtgärdas."
 
 #: view~dictionnary.project.plugin.outdated.warning
 msgctxt "view~dictionnary.project.plugin.outdated.warning"
 msgid ""
 "The project has been recently updated in QGIS Desktop, but with an outdated "
 "version of the Lizmap plugin. You must upgrade your plugin in QGIS Desktop."
-msgstr ""
+msgstr "Projektet har nyligen uppdaterats i QGIS Desktop med en föråldrad version av Lizmap-tillägget. Du måste uppdatera tillägget i QGIS Desktop."
 
 #: view~dictionnary.selectiontool.message.start
 msgctxt "view~dictionnary.selectiontool.message.start"
 msgid "Selection tool activated. Draw a shape on the map to select features."
-msgstr ""
+msgstr "Urvalsverktyget är aktiverat. Rita en form på kartan för att välja objekt."
 
 #: view~dictionnary.selectiontool.results.more
 msgctxt "view~dictionnary.selectiontool.results.more"
@@ -1567,7 +1575,7 @@ msgstr "%s valda objekt"
 #: view~dictionnary.selectiontool.results.none
 msgctxt "view~dictionnary.selectiontool.results.none"
 msgid "No object selected"
-msgstr "Inga valda objekt"
+msgstr "Inget objekt valt"
 
 #: view~dictionnary.selectiontool.results.one
 msgctxt "view~dictionnary.selectiontool.results.one"
@@ -1592,7 +1600,7 @@ msgstr "Ta bort från urval"
 #: view~dictionnary.selectiontool.toolbar.action.type.plus
 msgctxt "view~dictionnary.selectiontool.toolbar.action.type.plus"
 msgid "Add to selection"
-msgstr "Lägg till urval"
+msgstr "Lägg till i urval"
 
 #: view~dictionnary.selectiontool.toolbar.action.type.refresh
 msgctxt "view~dictionnary.selectiontool.toolbar.action.type.refresh"
@@ -1602,12 +1610,12 @@ msgstr "Nytt urval"
 #: view~dictionnary.selectiontool.toolbar.action.unselect
 msgctxt "view~dictionnary.selectiontool.toolbar.action.unselect"
 msgid "Unselect all"
-msgstr "Välj bort alla"
+msgstr "Avmarkera alla"
 
 #: view~dictionnary.selectiontool.toolbar.buffer
 msgctxt "view~dictionnary.selectiontool.toolbar.buffer"
 msgid "Buffer"
-msgstr "Buffer"
+msgstr "Buffert"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator"
@@ -1627,7 +1635,7 @@ msgstr "Korsar"
 #: view~dictionnary.selectiontool.toolbar.geomOperator.disjoint
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.disjoint"
 msgid "Disjoint"
-msgstr "Åtskilda"
+msgstr "Skild från"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.intersects
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.intersects"
@@ -1642,7 +1650,7 @@ msgstr "Överlappar"
 #: view~dictionnary.selectiontool.toolbar.geomOperator.touches
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.touches"
 msgid "Touches"
-msgstr "Vidrör"
+msgstr "Berör"
 
 #: view~dictionnary.selectiontool.toolbar.geomOperator.within
 msgctxt "view~dictionnary.selectiontool.toolbar.geomOperator.within"
@@ -1652,12 +1660,12 @@ msgstr "Inom"
 #: view~dictionnary.selectiontool.toolbar.layer
 msgctxt "view~dictionnary.selectiontool.toolbar.layer"
 msgid "Selection layer"
-msgstr "Lager för urval"
+msgstr "Urvalslager"
 
 #: view~dictionnary.selectiontool.toolbar.layers.multiple
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.multiple"
 msgid "Multiple layers"
-msgstr "Multipla lager"
+msgstr "Flera lager"
 
 #: view~dictionnary.selectiontool.toolbar.layers.selectable
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.selectable"
@@ -1672,7 +1680,7 @@ msgstr "Valbara och synliga lager"
 #: view~dictionnary.selectiontool.toolbar.layers.single
 msgctxt "view~dictionnary.selectiontool.toolbar.layers.single"
 msgid "Single layers"
-msgstr "Enkla lager"
+msgstr "Enskilda lager"
 
 #: view~dictionnary.selectiontool.toolbar.title
 msgctxt "view~dictionnary.selectiontool.toolbar.title"
@@ -1684,41 +1692,41 @@ msgctxt "view~dictionnary.snapping.list.disabled"
 msgid ""
 "This layer is hidden. Turn on the layer on the layer panel to toggle "
 "snapping on it"
-msgstr ""
+msgstr "Lagret är dolt. Aktivera det i lagerpanelen för att kunna slå på eller av snappning mot det"
 
 #: view~dictionnary.snapping.list.title
 msgctxt "view~dictionnary.snapping.list.title"
 msgid "Snap on"
-msgstr ""
+msgstr "Snappa mot"
 
 #: view~dictionnary.snapping.list.toggle
 msgctxt "view~dictionnary.snapping.list.toggle"
 msgid "Toggle snapping for this layer"
-msgstr ""
+msgstr "Aktivera/inaktivera snappning för detta lager"
 
 #: view~dictionnary.snapping.message.activated
 msgctxt "view~dictionnary.snapping.message.activated"
 msgid "Snapping has been automatically activated."
-msgstr ""
+msgstr "Snappning har aktiverats automatiskt."
 
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
 msgid "Snapping"
-msgstr "Snappa"
+msgstr "Snappning"
 
 #: view~dictionnary.startup.error
 msgctxt "view~dictionnary.startup.error"
 msgid ""
 "An error occurred while loading this map. Some necessary resources may "
 "temporarily be unavailable. Please try again later."
-msgstr ""
+msgstr "Ett fel uppstod när kartan lästes in. Vissa nödvändiga resurser kan vara tillfälligt otillgängliga. Försök igen senare."
 
 #: view~dictionnary.startup.error.administrator
 msgctxt "view~dictionnary.startup.error.administrator"
 msgid ""
 "Please notify the administrator of this map to <strong>connect</strong> and "
 "<strong>visit</strong> this map."
-msgstr ""
+msgstr "Meddela kartans administratör att <strong>logga in</strong> och <strong>öppna</strong> kartan."
 
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
@@ -1726,24 +1734,24 @@ msgid ""
 "Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
 "\n"
 "Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
-msgstr ""
+msgstr "Du kan kanske hitta en ledtråd genom att öppna ”Utvecklarverktyg” i webbläsaren, vanligtvis med <kbd>F12</kbd>. Kontrollera ”Konsol” och ”Nätverk”.\n\nÖppna administrationspanelen och kontrollera på loggsidan om någon HTTP-begäran avslutades med ett fel som rör detta projekt."
 
 #: view~dictionnary.startup.features.empty
 msgctxt "view~dictionnary.startup.features.empty"
 msgid "No features to display"
-msgstr ""
+msgstr "Inga objekt att visa"
 
 #: view~dictionnary.startup.features.error
 msgctxt "view~dictionnary.startup.features.error"
 msgid ""
 "Zooming to the feature given in the URL parameter is not possible: an error "
 "occurred while fetching the feature data."
-msgstr ""
+msgstr "Det går inte att zooma till objektet som anges i URL-parametern: ett fel uppstod när objektdata hämtades."
 
 #: view~dictionnary.startup.features.loading
 msgctxt "view~dictionnary.startup.features.loading"
 msgid "Loading features, please wait..."
-msgstr ""
+msgstr "Läser in objekt, vänta…"
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
@@ -1753,19 +1761,19 @@ msgstr "Hem"
 #: view~dictionnary.startup.goToRepositoryAdmin
 msgctxt "view~dictionnary.startup.goToRepositoryAdmin"
 msgid "Maps management page"
-msgstr ""
+msgstr "Karthanteringssida"
 
 #: view~dictionnary.startup.projectWithoutJSLink
 msgctxt "view~dictionnary.startup.projectWithoutJSLink"
 msgid "This map without additional JavaScript"
-msgstr ""
+msgstr "Denna karta utan ytterligare JavaScript"
 
 #: view~dictionnary.startup.user_defined_js
 msgctxt "view~dictionnary.startup.user_defined_js"
 msgid ""
 "This map contains some users additional JavaScript scripts. This can be the "
 "cause of this message, try disabling them."
-msgstr ""
+msgstr "Kartan innehåller ytterligare JavaScript-skript från användare. De kan orsaka detta meddelande; försök inaktivera dem."
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -1800,12 +1808,12 @@ msgstr "Stoppa"
 #: view~dictionnary.tooltip.loading.error
 msgctxt "view~dictionnary.tooltip.loading.error"
 msgid "An error prevented to load the tooltip data"
-msgstr ""
+msgstr "Ett fel förhindrade inläsning av verktygstipsdata"
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
 msgid "Display/Hide"
-msgstr "Visa/göm"
+msgstr "Visa/dölj"
 
 #: view~dictionnary.tree.button.collapse
 msgctxt "view~dictionnary.tree.button.collapse"
@@ -1815,7 +1823,7 @@ msgstr "Fäll ihop"
 #: view~dictionnary.tree.button.expand
 msgctxt "view~dictionnary.tree.button.expand"
 msgid "Expand"
-msgstr "Fäll upp"
+msgstr "Expandera"
 
 #: view~dictionnary.tree.button.link
 msgctxt "view~dictionnary.tree.button.link"
@@ -1825,27 +1833,27 @@ msgstr "Öppna dokumentation"
 #: view~dictionnary.tree.button.removeCache
 msgctxt "view~dictionnary.tree.button.removeCache"
 msgid "Remove server's cache for this layer"
-msgstr ""
+msgstr "Töm servercachen för detta lager"
 
 #: view~dictionnary.tree.button.removeCache.confirmation
 msgctxt "view~dictionnary.tree.button.removeCache.confirmation"
 msgid "Remove server's cache for this layer?"
-msgstr ""
+msgstr "Töm servercachen för detta lager?"
 
 #: view~dictionnary.visit.admin.panel.project.page
 msgctxt "view~dictionnary.visit.admin.panel.project.page"
 msgid "Visit the QGIS project page in the administration panel."
-msgstr ""
+msgstr "Öppna QGIS-projektsidan i administrationspanelen."
 
 #: view~edition.access.denied
 msgctxt "view~edition.access.denied"
 msgid "You have not the right to use the edition tools."
-msgstr "Du får inte använda redigeringsvertyget."
+msgstr "Du har inte behörighet att använda redigeringsverktygen."
 
 #: view~edition.form.action.future.close
 msgctxt "view~edition.form.action.future.close"
 msgid "Close form"
-msgstr "Stäng formuläret"
+msgstr "Stäng formulär"
 
 #: view~edition.form.action.future.create
 msgctxt "view~edition.form.action.future.create"
@@ -1860,7 +1868,7 @@ msgstr "Öppna formuläret igen"
 #: view~edition.form.action.future.label
 msgctxt "view~edition.form.action.future.label"
 msgid "After saved"
-msgstr "Efter sparat"
+msgstr "Efter sparning"
 
 #: view~edition.form.btn.clear.title
 msgctxt "view~edition.form.btn.clear.title"
@@ -1870,12 +1878,12 @@ msgstr "Stäng"
 #: view~edition.form.cancel.confirm.message
 msgctxt "view~edition.form.cancel.confirm.message"
 msgid "Cancel edition?"
-msgstr "Ångra redigering?"
+msgstr "Avbryta redigeringen?"
 
 #: view~edition.form.cancel.label
 msgctxt "view~edition.form.cancel.label"
 msgid "Cancel"
-msgstr "Annullera"
+msgstr "Avbryt"
 
 #: view~edition.form.data.saved
 msgctxt "view~edition.form.data.saved"
@@ -1910,7 +1918,7 @@ msgstr "Nodverktyg"
 #: view~edition.geomtool.pastegeom.title
 msgctxt "view~edition.geomtool.pastegeom.title"
 msgid "Paste the geometry"
-msgstr ""
+msgstr "Klistra in geometrin"
 
 #: view~edition.geomtool.reshape.title
 msgctxt "view~edition.geomtool.reshape.title"
@@ -1920,12 +1928,12 @@ msgstr "Omforma"
 #: view~edition.geomtool.restartdrawing.title
 msgctxt "view~edition.geomtool.restartdrawing.title"
 msgid "Redraw the geometry"
-msgstr ""
+msgstr "Rita om geometrin"
 
 #: view~edition.geomtool.reversegeom.title
 msgctxt "view~edition.geomtool.reversegeom.title"
 msgid "Reverse the geometry"
-msgstr ""
+msgstr "Vänd geometrin"
 
 #: view~edition.geomtool.rotate.title
 msgctxt "view~edition.geomtool.rotate.title"
@@ -1935,96 +1943,96 @@ msgstr "Rotera"
 #: view~edition.geomtool.splitfeatures.title
 msgctxt "view~edition.geomtool.splitfeatures.title"
 msgid "Split"
-msgstr "Dela upp"
+msgstr "Dela"
 
 #: view~edition.link.error.missing.id
 msgctxt "view~edition.link.error.missing.id"
 msgid ""
 "There must be at least one object selected for each layer to create the "
 "link."
-msgstr "Det måste finnas minst ett objekt valt för varje lager för att skapa länken."
+msgstr "Minst ett objekt måste vara valt i varje lager för att skapa länken."
 
 #: view~edition.link.error.missing.parameter
 msgctxt "view~edition.link.error.missing.parameter"
 msgid "The pivot, features1 and features2 parameters are mandatory."
-msgstr "Pivot, features1- och features2-parametrarna är obligatoriska."
+msgstr "Parametrarna pivot, features1 och features2 är obligatoriska."
 
 #: view~edition.link.error.multiple.ids
 msgctxt "view~edition.link.error.multiple.ids"
 msgid ""
 "You cannot link multiple objects for both layers. Please select only one "
 "object for one of the layers and retry."
-msgstr "Du kan inte länka flera objekt till båda lagren. Prova igen och välj endast ett objekt för ett lager."
+msgstr "Du kan inte länka flera objekt i båda lagren. Välj endast ett objekt i ett av lagren och försök igen."
 
 #: view~edition.link.error.no.create.feature
 msgctxt "view~edition.link.error.no.create.feature"
 msgid "Create feature for the layer \"%s\" is not available."
-msgstr "Det går inte att skapa objekt i lagret %s."
+msgstr "Det går inte att skapa objekt i lagret ”%s”."
 
 #: view~edition.link.error.no.given.fields
 msgctxt "view~edition.link.error.no.given.fields"
 msgid "Given fields do not exist."
-msgstr ""
+msgstr "De angivna fälten finns inte."
 
 #: view~edition.link.error.no.modify.attributes
 msgctxt "view~edition.link.error.no.modify.attributes"
 msgid "Modify attributes for the layer \"%s\" is not available."
-msgstr "Det går inte att ändra attribut i lagret %s."
+msgstr "Det går inte att ändra attribut för lagret ”%s”."
 
 #: view~edition.link.error.not.attribute.layer
 msgctxt "view~edition.link.error.not.attribute.layer"
 msgid "The layers have not been configured to have an attribute table."
-msgstr ""
+msgstr "Lagren har inte konfigurerats för att ha en attributtabell."
 
 #: view~edition.link.error.sql
 msgctxt "view~edition.link.error.sql"
 msgid "An error occurred while adding linked data."
-msgstr ""
+msgstr "Ett fel uppstod när länkade data lades till."
 
 #: view~edition.link.error.wrong.layer
 msgctxt "view~edition.link.error.wrong.layer"
 msgid "The layer does not exist."
-msgstr ""
+msgstr "Lagret finns inte."
 
 #: view~edition.link.success
 msgctxt "view~edition.link.success"
 msgid "Selected features have been correctly linked."
-msgstr "Valda objekt är korrekt länkade."
+msgstr "De valda objekten har länkats."
 
 #: view~edition.linkaddedfeature.error.linkfeature.association
 msgctxt "view~edition.linkaddedfeature.error.linkfeature.association"
 msgid "The association of the new \"%s\" feature to the \"%s\" layer has failed"
-msgstr ""
+msgstr "Det gick inte att koppla det nya objektet ”%s” till lagret ”%s”"
 
 #: view~edition.linkaddedfeature.error.linkfeature.invalid.parameters
 msgctxt "view~edition.linkaddedfeature.error.linkfeature.invalid.parameters"
 msgid "Required parameter for link the new feature are invalid"
-msgstr ""
+msgstr "Obligatoriska parametrar för att länka det nya objektet är ogiltiga"
 
 #: view~edition.linkaddedfeature.success.linkfeature
 msgctxt "view~edition.linkaddedfeature.success.linkfeature"
 msgid "The new feature of layer \"%s\" was successfully linked to the layer \"%s\""
-msgstr ""
+msgstr "Det nya objektet i lagret ”%s” länkades till lagret ”%s”"
 
 #: view~edition.message.error.bbox
 msgctxt "view~edition.message.error.bbox"
 msgid "The bbox has to be 4 floats separated by ','."
-msgstr "Begränsningsrutan måste definieras med 4 kommaseparerade decimaltal."
+msgstr "bbox måste bestå av 4 decimaltal separerade med ”,”."
 
 #: view~edition.message.error.constraint
 msgctxt "view~edition.message.error.constraint"
 msgid "%s: check failed"
-msgstr "%s: check misslyckades"
+msgstr "%s: kontrollen misslyckades"
 
 #: view~edition.message.error.create
 msgctxt "view~edition.message.error.create"
 msgid "An error occurred while creating the object."
-msgstr ""
+msgstr "Ett fel uppstod när objektet skapades."
 
 #: view~edition.message.error.crs
 msgctxt "view~edition.message.error.crs"
 msgid "crs is mandatory and has to be an integer or EPSG:*."
-msgstr "CRS måste anges som ett heltal eller som EPSG:*."
+msgstr "crs är obligatoriskt och måste vara ett heltal eller EPSG:*."
 
 #: view~edition.message.error.delete
 msgctxt "view~edition.message.error.delete"
@@ -2034,88 +2042,88 @@ msgstr "Borttagningen misslyckades."
 #: view~edition.message.error.feature.editable
 msgctxt "view~edition.message.error.feature.editable"
 msgid "The feature is not editable."
-msgstr "Objektet är inte redigerbart"
+msgstr "Objektet är inte redigerbart."
 
 #: view~edition.message.error.feature.get
 msgctxt "view~edition.message.error.feature.get"
 msgid "Lizmap cannot get the feature data with WFS"
-msgstr "Lizmap kan inte hämta objektsdata med WFS"
+msgstr "Lizmap kan inte hämta objektdata via WFS"
 
 #: view~edition.message.error.form.get
 msgctxt "view~edition.message.error.form.get"
 msgid "An error has been raised when getting the form"
-msgstr "Ett uppstod när formuläret skulle hämtas"
+msgstr "Ett fel uppstod när formuläret hämtades"
 
 #: view~edition.message.error.geometry.outside.polygons
 msgctxt "view~edition.message.error.geometry.outside.polygons"
 msgid "The given geometry is outside the authorized polygon."
-msgstr "Den angivna geometrin ligger utanför den auktoriserade polygonen."
+msgstr "Den angivna geometrin ligger utanför den tillåtna polygonen."
 
 #: view~edition.message.error.layer.editable
 msgctxt "view~edition.message.error.layer.editable"
 msgid "The layer is not editable."
-msgstr "Lagret är inte redigerbart"
+msgstr "Lagret är inte redigerbart."
 
 #: view~edition.message.error.layer.editable.create
 msgctxt "view~edition.message.error.layer.editable.create"
 msgid "Create feature for the layer is not available."
-msgstr "Det går inte att att skapa objekt i lagret."
+msgstr "Det går inte att skapa objekt i lagret."
 
 #: view~edition.message.error.layer.editable.delete
 msgctxt "view~edition.message.error.layer.editable.delete"
 msgid "Delete feature for the layer is not available."
-msgstr "Det går inte att ta bor objekt i lagret."
+msgstr "Det går inte att ta bort objekt i lagret."
 
 #: view~edition.message.error.no.geometry
 msgctxt "view~edition.message.error.no.geometry"
 msgid ""
 "You cannot save this object without a geometry. Please draw the geometry on "
 "the map."
-msgstr "Du kan inte spara detta objekt utan en geometri. Vänligen rita geometrin på kartan."
+msgstr "Du kan inte spara objektet utan en geometri. Rita geometrin på kartan."
 
 #: view~edition.message.error.parameter.featureId
 msgctxt "view~edition.message.error.parameter.featureId"
 msgid "The 'featureId' parameter is mandatory."
-msgstr "Parametern 'featureId' är obligatorisk."
+msgstr "Parametern ”featureId” är obligatorisk."
 
 #: view~edition.message.error.parameter.project
 msgctxt "view~edition.message.error.parameter.project"
 msgid "The 'project' parameter is mandatory."
-msgstr "Parametern 'projekt' är obligatorisk."
+msgstr "Parametern ”project” är obligatorisk."
 
 #: view~edition.message.error.primary.keys
 msgctxt "view~edition.message.error.primary.keys"
 msgid ""
 "Lizmap cannot find the \"%s\" layer's primary keys. The edition tool needs a"
 " defined primary key on the table."
-msgstr "Lizmap kan inte hitta \"%s\"-lagrets primärnycklar. Redigeringsverktyget kräver en definierad primärnyckel i tabellen."
+msgstr "Lizmap hittar inte primärnyckeln för lagret ”%s”. Redigeringsverktyget kräver en definierad primärnyckel i tabellen."
 
 #: view~edition.message.error.save
 msgctxt "view~edition.message.error.save"
 msgid "An error has been raised when saving the form."
-msgstr "Ett fel uppstod när formuläret skulle sparas."
+msgstr "Ett fel uppstod när formuläret sparades."
 
 #: view~edition.message.error.save.fields
 msgctxt "view~edition.message.error.save.fields"
 msgid "No fields available for saving the form."
-msgstr "Inga fält tillgängliga för att spara formuläret."
+msgstr "Inga fält är tillgängliga för att spara formuläret."
 
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
 msgid "The layer \"%s\" directory for uploading media is not writable."
-msgstr "Lagret \"%s\"-katalogen för uppladdning av media är inte skrivbar."
+msgstr "Katalogen för medieuppladdning för lagret ”%s” är inte skrivbar."
 
 #: view~edition.message.error.upload.layer.field
 msgctxt "view~edition.message.error.upload.layer.field"
 msgid ""
 "The field \"%s\" directory of the layer \"%s\" for uploading media is not "
 "writable."
-msgstr "Fältet \"%s\"-katalogen i lagret \"%s\" för uppladdning av media är inte skrivbart."
+msgstr "Mediekatalogen för fältet ”%s” i lagret ”%s” är inte skrivbar."
 
 #: view~edition.message.hint.constraint
 msgctxt "view~edition.message.hint.constraint"
 msgid "Constraint: %s"
-msgstr "Begränsning:%s"
+msgstr "Begränsning: %s"
 
 #: view~edition.message.success.create
 msgctxt "view~edition.message.success.create"
@@ -2130,7 +2138,7 @@ msgstr "Objektet har tagits bort."
 #: view~edition.modal.message.no.feature.found
 msgctxt "view~edition.modal.message.no.feature.found"
 msgid "No feature has been found here."
-msgstr "Inga features har hittats."
+msgstr "Inget objekt hittades här."
 
 #: view~edition.modal.title.default
 msgctxt "view~edition.modal.title.default"
@@ -2160,27 +2168,27 @@ msgstr "CRS:"
 #: view~edition.point.coord.finalize.label
 msgctxt "view~edition.point.coord.finalize.label"
 msgid "Finalize"
-msgstr "Avsluta"
+msgstr "Slutför"
 
 #: view~edition.point.coord.geolocation.label
 msgctxt "view~edition.point.coord.geolocation.label"
 msgid "linked to geolocation"
-msgstr "länkad till geoposition"
+msgstr "kopplad till geolokalisering"
 
 #: view~edition.point.coord.title
 msgctxt "view~edition.point.coord.title"
 msgid "Manage point/vertex coordinates"
-msgstr "Hantera punkt- och nodkoordinater"
+msgstr "Hantera punkt-/vertexkoordinater"
 
 #: view~edition.point.coord.x.label
 msgctxt "view~edition.point.coord.x.label"
 msgid "X:"
-msgstr "x:"
+msgstr "X:"
 
 #: view~edition.point.coord.y.label
 msgctxt "view~edition.point.coord.y.label"
 msgid "Y:"
-msgstr "y:"
+msgstr "Y:"
 
 #: view~edition.segment.angle.label
 msgctxt "view~edition.segment.angle.label"
@@ -2195,7 +2203,7 @@ msgstr "Längd (m):"
 #: view~edition.tab.digitization.title
 msgctxt "view~edition.tab.digitization.title"
 msgid "Digitization"
-msgstr "Digitisering"
+msgstr "Digitalisering"
 
 #: view~edition.tab.form.title
 msgctxt "view~edition.tab.form.title"
@@ -2205,12 +2213,12 @@ msgstr "Formulär"
 #: view~edition.toolbar.cancel.title
 msgctxt "view~edition.toolbar.cancel.title"
 msgid "Cancel"
-msgstr "Annullera"
+msgstr "Avbryt"
 
 #: view~edition.toolbar.cancel.tooltip
 msgctxt "view~edition.toolbar.cancel.tooltip"
 msgid "Cancel current edition."
-msgstr "Ångra nuvarande redigering."
+msgstr "Avbryt aktuell redigering."
 
 #: view~edition.toolbar.delete.title
 msgctxt "view~edition.toolbar.delete.title"
@@ -2220,12 +2228,12 @@ msgstr "Ta bort"
 #: view~edition.toolbar.draw.clear.title
 msgctxt "view~edition.toolbar.draw.clear.title"
 msgid "Clear"
-msgstr "Radera"
+msgstr "Rensa"
 
 #: view~edition.toolbar.draw.clear.tooltip
 msgctxt "view~edition.toolbar.draw.clear.tooltip"
 msgid "Cancel the current drawing."
-msgstr "Ångra nuvarande redigering."
+msgstr "Avbryt den aktuella ritningen."
 
 #: view~edition.toolbar.draw.save.title
 msgctxt "view~edition.toolbar.draw.save.title"
@@ -2235,7 +2243,7 @@ msgstr "Spara"
 #: view~edition.toolbar.draw.save.tooltip
 msgctxt "view~edition.toolbar.draw.save.tooltip"
 msgid "Finalize the current drawing."
-msgstr "Färdigställ nuvarande redigering."
+msgstr "Slutför den aktuella ritningen."
 
 #: view~edition.toolbar.draw.title
 msgctxt "view~edition.toolbar.draw.title"
@@ -2245,7 +2253,7 @@ msgstr "Lägg till"
 #: view~edition.toolbar.draw.tooltip
 msgctxt "view~edition.toolbar.draw.tooltip"
 msgid "Activate the tool for creating new objects."
-msgstr "Aktivera verktyget för att skapa ett nytt objekt."
+msgstr "Aktivera verktyget för att skapa nya objekt."
 
 #: view~edition.toolbar.select.attr.title
 msgctxt "view~edition.toolbar.select.attr.title"
@@ -2265,7 +2273,7 @@ msgstr "Ta bort"
 #: view~edition.toolbar.select.delete.tooltip
 msgctxt "view~edition.toolbar.select.delete.tooltip"
 msgid "Delete the selected object."
-msgstr "Ta bort valt objekt."
+msgstr "Ta bort det valda objektet."
 
 #: view~edition.toolbar.select.title
 msgctxt "view~edition.toolbar.select.title"
@@ -2275,7 +2283,7 @@ msgstr "Välj"
 #: view~edition.toolbar.select.tooltip
 msgctxt "view~edition.toolbar.select.tooltip"
 msgid "Activate the selection tool."
-msgstr "Aktivera selekteringsverktyget."
+msgstr "Aktivera urvalsverktyget."
 
 #: view~edition.toolbar.select.undo.title
 msgctxt "view~edition.toolbar.select.undo.title"
@@ -2285,17 +2293,17 @@ msgstr "Ångra"
 #: view~edition.toolbar.select.undo.tooltip
 msgctxt "view~edition.toolbar.select.undo.tooltip"
 msgid "Revert into initial geometry state."
-msgstr "Återgå till hur geometrin såg ut tidigare."
+msgstr "Återställ geometrin till ursprungligt läge."
 
 #: view~edition.toolbar.select.unselect.title
 msgctxt "view~edition.toolbar.select.unselect.title"
 msgid "Unsel."
-msgstr "Avselektera"
+msgstr "Avmark."
 
 #: view~edition.toolbar.select.unselect.tooltip
 msgctxt "view~edition.toolbar.select.unselect.tooltip"
 msgid "Unselect the selected object."
-msgstr "Avselektera det valda objektet."
+msgstr "Avmarkera det valda objektet."
 
 #: view~edition.toolbar.title
 msgctxt "view~edition.toolbar.title"
@@ -2305,12 +2313,12 @@ msgstr "Redigering"
 #: view~edition.unlink.error.sql
 msgctxt "view~edition.unlink.error.sql"
 msgid "An error occurred while removing link."
-msgstr ""
+msgstr "Ett fel uppstod när länken togs bort."
 
 #: view~edition.unlink.success
 msgctxt "view~edition.unlink.success"
 msgid "The child feature has correctly been unlinked."
-msgstr "Sub-objektet blev korrekt avlänkat."
+msgstr "Länken till det underordnade objektet har tagits bort."
 
 #: view~edition.upload.choice.delete
 msgctxt "view~edition.upload.choice.delete"
@@ -2325,7 +2333,7 @@ msgstr "Behåll"
 #: view~edition.upload.choice.update
 msgctxt "view~edition.upload.choice.update"
 msgid "Add/Update"
-msgstr "Lägg till/Uppdatera"
+msgstr "Lägg till/uppdatera"
 
 #: view~map.attributeLayers.navbar.title
 msgctxt "view~map.attributeLayers.navbar.title"
@@ -2335,7 +2343,7 @@ msgstr "Data"
 #: view~map.attributeLayers.options.input.cascade.label
 msgctxt "view~map.attributeLayers.options.input.cascade.label"
 msgid "Cascade filter to children"
-msgstr "Aktiver filter i undertabell"
+msgstr "Tillämpa filtret även på underordnade objekt"
 
 #: view~map.attributeLayers.options.title
 msgctxt "view~map.attributeLayers.options.title"
@@ -2350,12 +2358,12 @@ msgstr "Data"
 #: view~map.baselayer.select.hover
 msgctxt "view~map.baselayer.select.hover"
 msgid "Select baselayer"
-msgstr "Välj bakgrundslager"
+msgstr "Välj bakgrundskarta"
 
 #: view~map.baselayermenu.title
 msgctxt "view~map.baselayermenu.title"
 msgid "Base Layer"
-msgstr "Bakgrundslager"
+msgstr "Bakgrundskarta"
 
 #: view~map.bottomdock.toolbar.btn.clear.title
 msgctxt "view~map.bottomdock.toolbar.btn.clear.title"
@@ -2365,12 +2373,12 @@ msgstr "Stäng"
 #: view~map.bottomdock.toolbar.btn.glue.activate.title
 msgctxt "view~map.bottomdock.toolbar.btn.glue.activate.title"
 msgid "Pin"
-msgstr "Pin"
+msgstr "Fäst"
 
 #: view~map.bottomdock.toolbar.btn.glue.deactivate.title
 msgctxt "view~map.bottomdock.toolbar.btn.glue.deactivate.title"
 msgid "Unpin"
-msgstr "Avpinna"
+msgstr "Lossa"
 
 #: view~map.bottomdock.toolbar.btn.size.maximize.title
 msgctxt "view~map.bottomdock.toolbar.btn.size.maximize.title"
@@ -2390,22 +2398,22 @@ msgstr "Rita"
 #: view~map.dxfexport.navbar.title
 msgctxt "view~map.dxfexport.navbar.title"
 msgid "DXF Export"
-msgstr ""
+msgstr "DXF-export"
 
 #: view~map.dxfexport.toolbar.title
 msgctxt "view~map.dxfexport.toolbar.title"
 msgid "DXF Export"
-msgstr ""
+msgstr "DXF-export"
 
 #: view~map.geolocate.navbar.title
 msgctxt "view~map.geolocate.navbar.title"
 msgid "Geolocation"
-msgstr "Geografisk lokalisering"
+msgstr "Geolokalisering"
 
 #: view~map.geolocate.toolbar.title
 msgctxt "view~map.geolocate.toolbar.title"
 msgid "Geolocation"
-msgstr "Lokalisering"
+msgstr "Geolokalisering"
 
 #: view~map.layers
 msgctxt "view~map.layers"
@@ -2420,7 +2428,7 @@ msgstr "Teckenförklaring"
 #: view~map.legend.map
 msgctxt "view~map.legend.map"
 msgid "Legend/Map"
-msgstr "Teckenförklaring/Karta"
+msgstr "Teckenförklaring/karta"
 
 #: view~map.legendmenu.title
 msgctxt "view~map.legendmenu.title"
@@ -2430,12 +2438,12 @@ msgstr "Teckenförklaring"
 #: view~map.loading.title
 msgctxt "view~map.loading.title"
 msgid "Loading map data"
-msgstr "Laddar kartdata"
+msgstr "Läser in kartdata"
 
 #: view~map.locatemenu.title
 msgctxt "view~map.locatemenu.title"
 msgid "Locating"
-msgstr "Lokalisera"
+msgstr "Lokalisering"
 
 #: view~map.map
 msgctxt "view~map.map"
@@ -2460,7 +2468,7 @@ msgstr "Vinkel"
 #: view~map.measure.toolbar.area
 msgctxt "view~map.measure.toolbar.area"
 msgid "Area"
-msgstr "Area"
+msgstr "Yta"
 
 #: view~map.measure.toolbar.length
 msgctxt "view~map.measure.toolbar.length"
@@ -2480,7 +2488,7 @@ msgstr "Mätningar"
 #: view~map.menu.close.hover
 msgctxt "view~map.menu.close.hover"
 msgid "Hide the menu"
-msgstr "Göm menyn"
+msgstr "Dölj menyn"
 
 #: view~map.menu.show.hover
 msgctxt "view~map.menu.show.hover"
@@ -2490,7 +2498,7 @@ msgstr "Visa menyn"
 #: view~map.message.zoominmax
 msgctxt "view~map.message.zoominmax"
 msgid "No deeper zoom available for this base layer"
-msgstr "Du kan inte zooma in längre i denna bakgrundskarta"
+msgstr "Ingen ytterligare inzoomning är tillgänglig för denna bakgrundskarta"
 
 #: view~map.metadata.contact.email
 msgctxt "view~map.metadata.contact.email"
@@ -2550,7 +2558,7 @@ msgstr "Resurser"
 #: view~map.metadata.hide
 msgctxt "view~map.metadata.hide"
 msgid "Hide information"
-msgstr "Göm information"
+msgstr "Dölj information"
 
 #: view~map.metadata.link.label
 msgctxt "view~map.metadata.link.label"
@@ -2575,7 +2583,7 @@ msgstr "Web Map Service"
 #: view~map.metadata.resources.website
 msgctxt "view~map.metadata.resources.website"
 msgid "Website"
-msgstr "Webbsida"
+msgstr "Webbplats"
 
 #: view~map.navbar.next.hover
 msgctxt "view~map.navbar.next.hover"
@@ -2585,7 +2593,7 @@ msgstr "Nästa"
 #: view~map.navbar.pan.hover
 msgctxt "view~map.navbar.pan.hover"
 msgid "Pan map"
-msgstr "Panorera karta"
+msgstr "Panorera kartan"
 
 #: view~map.navbar.previous.hover
 msgctxt "view~map.navbar.previous.hover"
@@ -2595,7 +2603,7 @@ msgstr "Föregående"
 #: view~map.navbar.slider.hover
 msgctxt "view~map.navbar.slider.hover"
 msgid "Slide to zoom in or out"
-msgstr "Slida för att zooma in eller ut"
+msgstr "Dra för att zooma in eller ut"
 
 #: view~map.navbar.zoom.hover
 msgctxt "view~map.navbar.zoom.hover"
@@ -2645,12 +2653,12 @@ msgstr "Stor"
 #: view~map.permalink.embed.size.medium
 msgctxt "view~map.permalink.embed.size.medium"
 msgid "Medium"
-msgstr "Medium"
+msgstr "Medelstor"
 
 #: view~map.permalink.embed.size.personalized
 msgctxt "view~map.permalink.embed.size.personalized"
 msgid "Personalized"
-msgstr "Personlig"
+msgstr "Anpassad"
 
 #: view~map.permalink.embed.size.small
 msgctxt "view~map.permalink.embed.size.small"
@@ -2665,12 +2673,12 @@ msgstr "Bädda in"
 #: view~map.permalink.embed.tab.title
 msgctxt "view~map.permalink.embed.tab.title"
 msgid "Embed the current map"
-msgstr "Bädda in den aktuella kartan"
+msgstr "Bädda in aktuell karta"
 
 #: view~map.permalink.geobookmark.button.add
 msgctxt "view~map.permalink.geobookmark.button.add"
 msgid "Add a bookmark"
-msgstr "Lägg till ett bokmärke"
+msgstr "Lägg till bokmärke"
 
 #: view~map.permalink.geobookmark.button.del
 msgctxt "view~map.permalink.geobookmark.button.del"
@@ -2685,12 +2693,12 @@ msgstr "Använd detta bokmärke"
 #: view~map.permalink.geobookmark.name.placeholder
 msgctxt "view~map.permalink.geobookmark.name.placeholder"
 msgid "Bookmark name"
-msgstr "Namn på bokmärke"
+msgstr "Bokmärkesnamn"
 
 #: view~map.permalink.geobookmark.none
 msgctxt "view~map.permalink.geobookmark.none"
 msgid "No bookmark yet."
-msgstr "Inget bokmärke än."
+msgstr "Inga bokmärken ännu."
 
 #: view~map.permalink.geobookmark.title
 msgctxt "view~map.permalink.geobookmark.title"
@@ -2705,7 +2713,7 @@ msgstr "Permalänk"
 #: view~map.permalink.share.link
 msgctxt "view~map.permalink.share.link"
 msgid "Link to current map"
-msgstr "Länka till den aktuella kartan"
+msgstr "Länk till aktuell karta"
 
 #: view~map.permalink.share.tab
 msgctxt "view~map.permalink.share.tab"
@@ -2715,7 +2723,7 @@ msgstr "Dela"
 #: view~map.permalink.share.tab.title
 msgctxt "view~map.permalink.share.tab.title"
 msgid "Share the link to current map"
-msgstr "Dela en länk till den aktuella kartan"
+msgstr "Dela länken till aktuell karta"
 
 #: view~map.permalink.toolbar.title
 msgctxt "view~map.permalink.toolbar.title"
@@ -2740,7 +2748,7 @@ msgstr "Värde"
 #: view~map.portfolio.button.deactivate.help
 msgctxt "view~map.portfolio.button.deactivate.help"
 msgid "Deactivate the portfolio"
-msgstr ""
+msgstr "Inaktivera portföljen"
 
 #: view~map.portfolio.button.deactivate.label
 msgctxt "view~map.portfolio.button.deactivate.label"
@@ -2750,42 +2758,42 @@ msgstr "Inaktivera"
 #: view~map.portfolio.button.run.help
 msgctxt "view~map.portfolio.button.run.help"
 msgid "Run the portfolio"
-msgstr ""
+msgstr "Kör portföljen"
 
 #: view~map.portfolio.button.run.label
 msgctxt "view~map.portfolio.button.run.label"
 msgid "Run"
-msgstr ""
+msgstr "Kör"
 
 #: view~map.portfolio.select.choose
 msgctxt "view~map.portfolio.select.choose"
 msgid "Choose a portfolio"
-msgstr ""
+msgstr "Välj en portfölj"
 
 #: view~map.portfolio.select.emptyItem.label
 msgctxt "view~map.portfolio.select.emptyItem.label"
 msgid "No portfolio"
-msgstr ""
+msgstr "Ingen portfölj"
 
 #: view~map.portfolio.select.help
 msgctxt "view~map.portfolio.select.help"
 msgid "Select a portfolio"
-msgstr ""
+msgstr "Välj en portfölj"
 
 #: view~map.portfolio.select.warning
 msgctxt "view~map.portfolio.select.warning"
 msgid "No portfolio selected"
-msgstr ""
+msgstr "Ingen portfölj vald"
 
 #: view~map.portfolios.navbar.title
 msgctxt "view~map.portfolios.navbar.title"
 msgid "Portfolios"
-msgstr ""
+msgstr "Portföljer"
 
 #: view~map.portfolios.toolbar.title
 msgctxt "view~map.portfolios.toolbar.title"
 msgid "Portfolios"
-msgstr ""
+msgstr "Portföljer"
 
 #: view~map.print.navbar.title
 msgctxt "view~map.print.navbar.title"
@@ -2795,7 +2803,7 @@ msgstr "Skriv ut"
 #: view~map.print.toolbar.dpi
 msgctxt "view~map.print.toolbar.dpi"
 msgid "DPI"
-msgstr "Dpi"
+msgstr "DPI"
 
 #: view~map.print.toolbar.format
 msgctxt "view~map.print.toolbar.format"
@@ -2820,7 +2828,7 @@ msgstr "Skriv ut"
 #: view~map.search.clear
 msgctxt "view~map.search.clear"
 msgid "Clear search"
-msgstr ""
+msgstr "Rensa sökning"
 
 #: view~map.search.nominatim.button
 msgctxt "view~map.search.nominatim.button"
@@ -2860,7 +2868,7 @@ msgstr "Ändra lagerstil"
 #: view~map.switcher.layer.unfilter.title
 msgctxt "view~map.switcher.layer.unfilter.title"
 msgid "Deactivate current filter"
-msgstr "Avaktivera nuvarande filter"
+msgstr "Inaktivera aktuellt filter"
 
 #: view~map.switcher.layer.zoomToExtent.title
 msgctxt "view~map.switcher.layer.zoomToExtent.title"
@@ -2875,7 +2883,7 @@ msgstr "Fäll ihop alla"
 #: view~map.switcher.layers.expand.title
 msgctxt "view~map.switcher.layers.expand.title"
 msgid "Expand all"
-msgstr "Fäll ut alla"
+msgstr "Expandera alla"
 
 #: view~map.switchermenu.title
 msgctxt "view~map.switchermenu.title"
@@ -2885,7 +2893,7 @@ msgstr "Lager"
 #: view~map.timemanager.navbar.title
 msgctxt "view~map.timemanager.navbar.title"
 msgid "Time Manager"
-msgstr "Time Manager"
+msgstr "Tidshanterare"
 
 #: view~map.timemanager.toolbar.next
 msgctxt "view~map.timemanager.toolbar.next"
@@ -2910,42 +2918,42 @@ msgstr "Föregående"
 #: view~map.timemanager.toolbar.title
 msgctxt "view~map.timemanager.toolbar.title"
 msgid "Time Manager"
-msgstr "Time Manager"
+msgstr "Tidshanterare"
 
 #: view~map.title.h1
 msgctxt "view~map.title.h1"
 msgid "Lizmap Web Client"
-msgstr "Lizmap webbklient"
+msgstr "Lizmap Web Client"
 
 #: view~map.title.h2
 msgctxt "view~map.title.h2"
 msgid "Qgis Server Demo"
-msgstr "Qgis Serverdemo"
+msgstr "QGIS Server-demo"
 
 #: view~map.toolbar.content.stop
 msgctxt "view~map.toolbar.content.stop"
 msgid "Stop"
-msgstr "Stop"
+msgstr "Stoppa"
 
 #: view~map.toolbar.content.underway
 msgctxt "view~map.toolbar.content.underway"
 msgid "Underway…"
-msgstr ""
+msgstr "Pågår…"
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"
 msgid "Tooltip"
-msgstr "Tooltip"
+msgstr "Verktygstips"
 
 #: view~map.tooltip.toolbar.layer
 msgctxt "view~map.tooltip.toolbar.layer"
 msgid "Highlight layer"
-msgstr "Betona lagret"
+msgstr "Markera lager"
 
 #: view~map.tooltip.toolbar.title
 msgctxt "view~map.tooltip.toolbar.title"
 msgid "Tooltip"
-msgstr "Tooltip"
+msgstr "Verktygstips"
 
 #: view~user.form.city.label
 msgctxt "view~user.form.city.label"
@@ -2957,12 +2965,12 @@ msgctxt "view~user.form.comment.help"
 msgid ""
 "Please write a small text to explain why you would like to have access to "
 "the maps."
-msgstr ""
+msgstr "Skriv en kort text som förklarar varför du vill få åtkomst till kartorna."
 
 #: view~user.form.comment.label
 msgctxt "view~user.form.comment.label"
 msgid "Why do you request an account?"
-msgstr "Varför gör du en kontoförfrågan?"
+msgstr "Varför begär du ett konto?"
 
 #: view~user.form.country.label
 msgctxt "view~user.form.country.label"
@@ -2997,4 +3005,4 @@ msgstr "Postnummer"
 #: view~user.form.street.label
 msgctxt "view~user.form.street.label"
 msgid "Street"
-msgstr "Gata/väg"
+msgstr "Gata"

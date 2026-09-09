@@ -1,25 +1,24 @@
 # Translators:
-# Mats Elfström <mats.elfstrom@giskraft.se>, 2023
-# Rasmus Johansson <rasmus@demosgis.net>, 2023
+# Jonatan Nyberg, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.11 action\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 13:47++0000\n"
+"POT-Creation-Date: 2026-09-06 18:39++0000\n"
 "PO-Revision-Date: 2020-03-01 15:01+0000\n"
-"Last-Translator: Rasmus Johansson <rasmus@demosgis.net>, 2023\n"
-"Language-Team: Swedish (Sweden) (https://app.transifex.com/3liz-1/teams/62012/sv_SE/)\n"
+"Last-Translator: Jonatan Nyberg, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/3liz-1/teams/62012/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv_SE\n"
+"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: action~action.dock.action.choose
 msgctxt "action~action.dock.action.choose"
 msgid "Choose an action to run"
-msgstr ""
+msgstr "Välj en åtgärd att köra"
 
 #: action~action.dock.close
 msgctxt "action~action.dock.close"
@@ -29,7 +28,7 @@ msgstr "Stäng"
 #: action~action.dock.form.button.deactivate.help
 msgctxt "action~action.dock.form.button.deactivate.help"
 msgid "Deactivate the active action"
-msgstr ""
+msgstr "Inaktivera den aktiva åtgärden"
 
 #: action~action.dock.form.button.deactivate.label
 msgctxt "action~action.dock.form.button.deactivate.label"
@@ -39,27 +38,28 @@ msgstr "Inaktivera"
 #: action~action.dock.form.button.run.help
 msgctxt "action~action.dock.form.button.run.help"
 msgid "Run the selected action"
-msgstr ""
+msgstr "Kör den valda åtgärden"
 
 #: action~action.dock.form.button.run.label
 msgctxt "action~action.dock.form.button.run.label"
 msgid "Run"
-msgstr ""
+msgstr "Kör"
 
 #: action~action.dock.form.select.emptyItem.label
 msgctxt "action~action.dock.form.select.emptyItem.label"
 msgid "Choose an action"
-msgstr ""
+msgstr "Välj en åtgärd"
 
 #: action~action.dock.form.select.help
 msgctxt "action~action.dock.form.select.help"
 msgid "To run an action, select one in the list and click the Run button"
 msgstr ""
+"För att köra en åtgärd väljer du den i listan och klickar på knappen Kör"
 
 #: action~action.dock.form.select.warning
 msgctxt "action~action.dock.form.select.warning"
 msgid "You must first select an action in the list"
-msgstr ""
+msgstr "Du måste först välja en åtgärd i listan"
 
 #: action~action.dock.title
 msgctxt "action~action.dock.title"
@@ -74,3 +74,7 @@ msgid ""
 "the documentation</a> and convert it in the new format, since the old format"
 " will not work in the future versions."
 msgstr ""
+"Administratör: JSON-konfigurationsfilen för <b>åtgärdsmodulen</b> använder "
+"det gamla formatet. <a target=\"_blank\" href=\"%s\">Läs dokumentationen</a>"
+" och konvertera den till det nya formatet, eftersom det gamla formatet inte "
+"kommer att fungera i framtida versioner."
