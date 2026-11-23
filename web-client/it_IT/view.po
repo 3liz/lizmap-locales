@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 13:52++0000\n"
+"POT-Creation-Date: 2026-11-20 10:44++0000\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
 "Last-Translator: Ulisse Cavallini <github@cavallini.anonaddy.com>, 2026\n"
 "Language-Team: Italian (https://app.transifex.com/3liz-1/teams/62012/it/)\n"
@@ -289,17 +289,15 @@ msgstr "Zoom"
 #: view~dictionnary.attributeLayers.msg.layer.not.visible
 msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
-"The layer is not visible. Please zoom at a scale in which the features are "
+"The layer is not visible. Please zoom to a scale in which the features are "
 "visible."
 msgstr ""
-"Il layer non è visibile. Zomma ad una scala a cui gli elementi sono "
-"visibili."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived"
-msgid "Activated line needed."
-msgstr "È necessaria una linea attivata."
+msgid "An activated line is needed."
+msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
 msgctxt ""
@@ -486,11 +484,9 @@ msgstr ""
 #: view~dictionnary.digitizing.import.metadata.error
 msgctxt "view~dictionnary.digitizing.import.metadata.error"
 msgid ""
-"No metadata found. Make sure the projection of the fgb file is the same as "
-"the current project"
+"No metadata found. Make sure the projection of the FlatGeobuf file is the "
+"same as the current project"
 msgstr ""
-"Nessun metadato trovato. Assicurati che la proiezione del file fgb sia la "
-"stessa del progetto corrente"
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -504,8 +500,8 @@ msgstr "Cerchio"
 
 #: view~dictionnary.digitizing.toolbar.color
 msgctxt "view~dictionnary.digitizing.toolbar.color"
-msgid "Pick draw color"
-msgstr "Scegli il colore del disegno"
+msgid "Pick drawing color"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.deactivate
 msgctxt "view~dictionnary.digitizing.toolbar.deactivate"
@@ -538,13 +534,13 @@ msgstr "Elimina tutti gli elementi"
 
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
-msgid "Free hand"
-msgstr "A mano libera"
+msgid "Freehand"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
-msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
-msgstr "Importa file GeoJSON, GPX, KML, Shapefile zippato o FlatGeobuf"
+msgid "Import GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -578,13 +574,13 @@ msgstr "Ruota la geometria selezionata"
 
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
-msgid "Save draw in the browser"
-msgstr "Salva il disegno nel browser"
+msgid "Save drawing in the browser"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.save.remove
 msgctxt "view~dictionnary.digitizing.toolbar.save.remove"
-msgid "Remove draw from the browser"
-msgstr "Rimuovi il disegno dal browser"
+msgid "Remove drawing from the browser"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.save.state
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
@@ -650,14 +646,10 @@ msgstr "Sei sicuro di voler eliminare l'elemento selezionato?"
 msgctxt "view~dictionnary.edition.confirm.launch.child.creation"
 msgid ""
 "You are about to create a new child object for the currently edited object. \n"
-"Please check before that you have already saved your changes.\n"
+"Please make sure you have already saved your changes.\n"
 "\n"
 "Do you wish to continue?"
 msgstr ""
-"Stai per creare un nuovo oggetto figlio per l'oggetto attualmente in modifica. \n"
-"Controlla di aver salvato le tue modifiche all'oggetto attuale prima di procedere.\n"
-"\n"
-"Vuoi continuare?"
 
 #: view~dictionnary.edition.confirm.paste
 msgctxt "view~dictionnary.edition.confirm.paste"
@@ -676,19 +668,14 @@ msgid ""
 "The related links with the following layers:\n"
 " %s \n"
 "\n"
-"will be also deleted"
+"will also be deleted"
 msgstr ""
-"Sei sicuro di voler eliminare l'elemento selezionato?\n"
-"\n"
-"I collegamenti correlati con i seguenti layer:\n"
-"%s\n"
-"\n"
-"saranno anche loro eliminati."
 
 #: view~dictionnary.edition.confirm.pivot.unlink
 msgctxt "view~dictionnary.edition.confirm.pivot.unlink"
-msgid "Are you sure you want to unlink the selected feature from \"%l\" layer?"
-msgstr "Sei sicuro di voler scollegare l'elemento selezionato dal layer \"%l\"?"
+msgid ""
+"Are you sure you want to unlink the selected feature from the \"%l\" layer?"
+msgstr ""
 
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
@@ -730,8 +717,8 @@ msgstr "Incolla la geometria"
 
 #: view~dictionnary.edition.link.pivot.add
 msgctxt "view~dictionnary.edition.link.pivot.add"
-msgid "The new record will be linked to the feature ID \"%f\" of \"%l\" layer"
-msgstr "Il nuovo record sarà collegato all'ID dell'elemento \"%f\" del livello \"%l\""
+msgid "The new record will be linked to the feature ID \"%f\" of the \"%l\" layer"
+msgstr ""
 
 #: view~dictionnary.edition.message.error.fetch.form
 msgctxt "view~dictionnary.edition.message.error.fetch.form"
@@ -789,16 +776,14 @@ msgstr ""
 #: view~dictionnary.edition.splitfeat.form.error
 msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
-"You should fill correctly the form, in order to create a new feature after "
-"splitting the geometry"
+"You should fill in the form correctly in order to create a new feature after"
+" splitting the geometry."
 msgstr ""
-"Devi compilare correttamente il modulo per creare un nuovo elemento dopo "
-"aver diviso la geometria"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
-msgid "A technical error occurs. Split cannot be done."
-msgstr "Errore tecnico. La divisione non può essere eseguita."
+msgid "A technical error occurred. The split cannot be done."
+msgstr ""
 
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
@@ -1000,8 +985,8 @@ msgstr "Indagine"
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
-msgid "Right is required to export layer."
-msgstr "Sono richiesti privilegi per esportare il layer."
+msgid "The right to export this layer is required."
+msgstr ""
 
 #: view~dictionnary.layer.export.started
 msgctxt "view~dictionnary.layer.export.started"
@@ -1284,11 +1269,8 @@ msgctxt "view~dictionnary.project.has.not.found.layers"
 msgid ""
 "Some layers are in the WMS capabilities (*.qgs file) but are not found in "
 "the Lizmap configuration file (*.qgs.cfg). Is the Lizmap configuration file "
-"up to date ?"
+"up to date?"
 msgstr ""
-"Alcuni livelli sono presenti nelle capabilities WMS (file *.qgs) ma non sono"
-" presenti nel file di configurazione di Lizmap (*.qgs.cfg). Il file di "
-"configurazione di Lizmap è aggiornato?"
 
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
@@ -1439,11 +1421,9 @@ msgstr "Selezione"
 #: view~dictionnary.snapping.list.disabled
 msgctxt "view~dictionnary.snapping.list.disabled"
 msgid ""
-"This layer is hidden. Turn on the layer on the layer panel to toggle "
+"This layer is hidden. Turn the layer on in the layer panel to toggle "
 "snapping on it"
 msgstr ""
-"Questo layer è nascosto. Accendilo nel pannello della legenda per consentire"
-" l'attivazione dell'aggancio su questo layer."
 
 #: view~dictionnary.snapping.list.title
 msgctxt "view~dictionnary.snapping.list.title"
@@ -1481,13 +1461,10 @@ msgstr ""
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"Maybe you will have a clue by opening the \"Developer tools\" in your web browser. It's usually <kbd>F12</kbd>. Check the \"Console\" and \"Network\" tabs.\n"
 "\n"
 "Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
-"Potresti avere maggiori dettagli aprendo gli \"Strumenti per sviluppatori\" del tuo browser. Vengono solitamente aperti con il tasto <kbd>F12</kbd>. Controlla le schede \"Console\" e \"Networks\".\n"
-"\n"
-"Visita il pannello di amministrazione e verifica se nei log è presente una richiesta HTTP in errore per questo progetto."
 
 #: view~dictionnary.startup.features.empty
 msgctxt "view~dictionnary.startup.features.empty"
@@ -1526,11 +1503,9 @@ msgstr "Questa mappa senza JavaScript aggiuntivi"
 #: view~dictionnary.startup.user_defined_js
 msgctxt "view~dictionnary.startup.user_defined_js"
 msgid ""
-"This map contains some users additional JavaScript scripts. This can be the "
+"This map contains some additional user JavaScript scripts. This can be the "
 "cause of this message, try disabling them."
 msgstr ""
-"Sono presenti alcuni script JavaScript personalizzati, che potrebbero "
-"causare questo messaggio, prova a disabilitarli."
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
@@ -1564,8 +1539,8 @@ msgstr "Stop"
 
 #: view~dictionnary.tooltip.loading.error
 msgctxt "view~dictionnary.tooltip.loading.error"
-msgid "An error prevented to load the tooltip data"
-msgstr "Un errore ha impedito il caricamento dei suggerimenti mappa"
+msgid "An error prevented the tooltip data from loading"
+msgstr ""
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -1646,6 +1621,17 @@ msgstr "Annulla"
 msgctxt "view~edition.form.data.saved"
 msgid "Data has been saved."
 msgstr "I dati sono stati salvati."
+
+#: view~edition.form.error.text.widget
+msgctxt "view~edition.form.error.text.widget"
+msgid ""
+"The value of \"%s\" could not be computed. Please contact the administrator."
+msgstr ""
+
+#: view~edition.form.error.text.widget.details
+msgctxt "view~edition.form.error.text.widget.details"
+msgid "The value of \"%s\" could not be computed: %s"
+msgstr ""
 
 #: view~edition.form.reset.label
 msgctxt "view~edition.form.reset.label"
@@ -1878,6 +1864,11 @@ msgstr "Si è verificato un errore nel salvataggio del modulo."
 msgctxt "view~edition.message.error.save.fields"
 msgid "No fields available for saving the form."
 msgstr "Non c'è nessun campo disponibile per salvare il modulo."
+
+#: view~edition.message.error.upload.file
+msgctxt "view~edition.message.error.upload.file"
+msgid "Failed to upload file"
+msgstr ""
 
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
@@ -2653,6 +2644,18 @@ msgstr "Stop"
 msgctxt "view~map.toolbar.content.underway"
 msgid "Underway…"
 msgstr "In corso..."
+
+#: view~map.tooltip.error
+msgctxt "view~map.tooltip.error"
+msgid ""
+"The tooltips of the layer \"%s\" could not be computed. Please contact the "
+"administrator."
+msgstr ""
+
+#: view~map.tooltip.error.details
+msgctxt "view~map.tooltip.error.details"
+msgid "The tooltips of the layer \"%s\" could not be computed: %s"
+msgstr ""
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"
