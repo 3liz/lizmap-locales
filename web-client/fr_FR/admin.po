@@ -4,15 +4,15 @@
 # Michael Douchin <kimaidou@gmail.com>, 2025
 # Laurent Jouanneau <dev@ljouanneau.com>, 2025
 # etrimaille <gustrimaille@yahoo.fr>, 2025
-# rldhont <rldhont@gmail.com>, 2025
+# rldhont <rldhont@gmail.com>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.9 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 13:52++0000\n"
+"POT-Creation-Date: 2026-11-26 18:58++0000\n"
 "PO-Revision-Date: 2025-01-24 10:32+0000\n"
-"Last-Translator: rldhont <rldhont@gmail.com>, 2025\n"
+"Last-Translator: rldhont <rldhont@gmail.com>, 2026\n"
 "Language-Team: French (https://app.transifex.com/3liz-1/teams/62012/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1965,6 +1965,16 @@ msgstr ""
 "QGIS Serveur n'est pas installé correctement, ou l'URL des requêtes OGC "
 "donnée dans la configuration de Lizmap n'est pas correcte."
 
+#: admin~admin.server.information.qgis.test.http.error
+msgctxt "admin~admin.server.information.qgis.test.http.error"
+msgid ""
+"QGIS server is currently unreachable. Check that it is running correctly. "
+"This may also be caused by a network configuration issue."
+msgstr ""
+"QGIS serveur est actuellement inaccessible. Vérifiez qu'il fonctionne "
+"correctement. Ce problème peut également être dû à un problème de "
+"configuration réseau."
+
 #: admin~admin.server.information.qgis.test.ok
 msgctxt "admin~admin.server.information.qgis.test.ok"
 msgid ""
@@ -2234,6 +2244,20 @@ msgid ""
 msgstr ""
 "Une personne a souhaité avoir un accès aux cartes Lizmap avec le login %s et"
 " le courriel %s."
+
+#: admin~user.email.admin.newsamlaccount.body
+msgctxt "admin~user.email.admin.newsamlaccount.body"
+msgid ""
+"A new user has been authenticated with SAML and his account has been "
+"created, with the login %s and the e-mail %s."
+msgstr ""
+"Un nouvel utilisateur s'est authentifié avec le SAML et son compte a été "
+"créé, avec le login %s et l'e-mail %s."
+
+#: admin~user.email.admin.newsamlaccount.subject
+msgctxt "admin~user.email.admin.newsamlaccount.subject"
+msgid "Lizmap - A new account has been created automatically"
+msgstr "Lizmap - Un nouveau compte a été créé automatiquement"
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"
