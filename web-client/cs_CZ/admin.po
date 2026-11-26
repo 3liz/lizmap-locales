@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-06 18:41++0000\n"
+"POT-Creation-Date: 2026-11-26 18:53++0000\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2026\n"
 "Language-Team: Czech (https://app.transifex.com/3liz-1/teams/62012/cs/)\n"
@@ -1385,12 +1385,12 @@ msgstr ""
 #: admin~admin.permalink.manager.detail.button
 msgctxt "admin~admin.permalink.manager.detail.button"
 msgid "View detail"
-msgstr ""
+msgstr "Zobrazit podrobnosti"
 
 #: admin~admin.permalink.manager.detail.creation
 msgctxt "admin~admin.permalink.manager.detail.creation"
 msgid "Creation date"
-msgstr ""
+msgstr "Datum vytvoření"
 
 #: admin~admin.permalink.manager.detail.first_page
 msgctxt "admin~admin.permalink.manager.detail.first_page"
@@ -1415,7 +1415,7 @@ msgstr "Následující"
 #: admin~admin.permalink.manager.detail.params
 msgctxt "admin~admin.permalink.manager.detail.params"
 msgid "Parameters"
-msgstr ""
+msgstr "Parametry"
 
 #: admin~admin.permalink.manager.detail.previous_page
 msgctxt "admin~admin.permalink.manager.detail.previous_page"
@@ -2162,6 +2162,13 @@ msgstr ""
 "QGIS Server není na vašem serveru správně nainstalován nebo adresa URL pro "
 "požadavky OGC uvedená v konfiguraci Lizmap není správná."
 
+#: admin~admin.server.information.qgis.test.http.error
+msgctxt "admin~admin.server.information.qgis.test.http.error"
+msgid ""
+"QGIS server is currently unreachable. Check that it is running correctly. "
+"This may also be caused by a network configuration issue."
+msgstr ""
+
 #: admin~admin.server.information.qgis.test.ok
 msgctxt "admin~admin.server.information.qgis.test.ok"
 msgid ""
@@ -2530,6 +2537,18 @@ msgid ""
 msgstr ""
 "Someone has requested a Lizmap account to be able to access the maps, with "
 "the login  and the e-mail %s."
+
+#: admin~user.email.admin.newsamlaccount.body
+msgctxt "admin~user.email.admin.newsamlaccount.body"
+msgid ""
+"A new user has been authenticated with SAML and his account has been "
+"created, with the login %s and the e-mail %s."
+msgstr ""
+
+#: admin~user.email.admin.newsamlaccount.subject
+msgctxt "admin~user.email.admin.newsamlaccount.subject"
+msgid "Lizmap - A new account has been created automatically"
+msgstr ""
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-06 18:41++0000\n"
+"POT-Creation-Date: 2026-11-26 18:53++0000\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Last-Translator: rldhont <rldhont@gmail.com>, 2026\n"
 "Language-Team: Polish (Poland) (https://app.transifex.com/3liz-1/teams/62012/pl_PL/)\n"
@@ -2169,6 +2169,13 @@ msgstr ""
 "QGIS Server nie jest poprawnie zainstalowany na Twoim serwerze lub URL dla "
 "żądań OGC podany w konfiguracji Lizmap nie jest poprawny."
 
+#: admin~admin.server.information.qgis.test.http.error
+msgctxt "admin~admin.server.information.qgis.test.http.error"
+msgid ""
+"QGIS server is currently unreachable. Check that it is running correctly. "
+"This may also be caused by a network configuration issue."
+msgstr ""
+
 #: admin~admin.server.information.qgis.test.ok
 msgctxt "admin~admin.server.information.qgis.test.ok"
 msgid ""
@@ -2528,6 +2535,18 @@ msgid ""
 msgstr ""
 "Ktoś wypełnił formularz rejestracyjny, by mieć dostęp do map, jego login to "
 "%s, a e-mail to %s."
+
+#: admin~user.email.admin.newsamlaccount.body
+msgctxt "admin~user.email.admin.newsamlaccount.body"
+msgid ""
+"A new user has been authenticated with SAML and his account has been "
+"created, with the login %s and the e-mail %s."
+msgstr ""
+
+#: admin~user.email.admin.newsamlaccount.subject
+msgctxt "admin~user.email.admin.newsamlaccount.subject"
+msgid "Lizmap - A new account has been created automatically"
+msgstr ""
 
 #: admin~user.email.admin.subject
 msgctxt "admin~user.email.admin.subject"

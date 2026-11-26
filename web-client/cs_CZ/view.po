@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-06 18:41++0000\n"
+"POT-Creation-Date: 2026-11-26 18:53++0000\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
 "Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2026\n"
 "Language-Team: Czech (https://app.transifex.com/3liz-1/teams/62012/cs/)\n"
@@ -280,17 +280,15 @@ msgstr "Přiblížit"
 #: view~dictionnary.attributeLayers.msg.layer.not.visible
 msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
-"The layer is not visible. Please zoom at a scale in which the features are "
+"The layer is not visible. Please zoom to a scale in which the features are "
 "visible."
 msgstr ""
-"Vrstva není viditelná. Zvětšete prosím do měřítka, ve kterém jsou funkce "
-"viditelné."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived"
-msgid "Activated line needed."
-msgstr "Vyžaduje aktivovanou linii."
+msgid "An activated line is needed."
+msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
 msgctxt ""
@@ -369,11 +367,9 @@ msgstr "Vybrat vyhledané"
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn"
 msgid ""
-"You are about to select more than a 1000 features. This may take a few "
-"seconds to process. Are you sure you want to proceed?"
+"You are about to select more than 1000 features. This may take a few seconds"
+" to process. Are you sure you want to proceed?"
 msgstr ""
-"Chystáte se vybrat více než 1000 prvků. Zpracování může trvat několik "
-"sekund. Jste si jisti, že chcete pokračovat?"
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title"
@@ -384,6 +380,25 @@ msgstr "Přepnout podřízené tabulky"
 msgctxt "view~dictionnary.attributeLayers.toolbar.cb.data.detail.title"
 msgid "Display info"
 msgstr "Zobrazit info"
+
+#: view~dictionnary.attributeLayers.toolbar.input.search.disabled.help
+msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.disabled.help"
+msgid ""
+"The search in all the columns is not available for this layer, which has too"
+" many features. Use the search builder instead."
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.input.search.help
+msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.help"
+msgid "Search in all the columns"
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.input.search.skipped.help
+msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.skipped.help"
+msgid ""
+"Too many values match the search, type more characters to search in these "
+"columns:"
+msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.input.search.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.title"
@@ -478,11 +493,9 @@ msgstr "Chyba při načítání definice projekce z epsg.io"
 #: view~dictionnary.digitizing.import.metadata.error
 msgctxt "view~dictionnary.digitizing.import.metadata.error"
 msgid ""
-"No metadata found. Make sure the projection of the fgb file is the same as "
-"the current project"
+"No metadata found. Make sure the projection of the FlatGeobuf file is the "
+"same as the current project"
 msgstr ""
-"Nebyla nalezena žádná metadata. Ujistěte se, že projekce souboru fgb je "
-"stejná jako u aktuálního projektu."
 
 #: view~dictionnary.digitizing.toolbar.box
 msgctxt "view~dictionnary.digitizing.toolbar.box"
@@ -496,8 +509,8 @@ msgstr "Kruh"
 
 #: view~dictionnary.digitizing.toolbar.color
 msgctxt "view~dictionnary.digitizing.toolbar.color"
-msgid "Pick draw color"
-msgstr "Vyberte barvu kreslení"
+msgid "Pick drawing color"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.deactivate
 msgctxt "view~dictionnary.digitizing.toolbar.deactivate"
@@ -530,14 +543,13 @@ msgstr "Smazat všechny funkce"
 
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
-msgid "Free hand"
-msgstr "Od ruky"
+msgid "Freehand"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
-msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
+msgid "Import GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
 msgstr ""
-"Import ve formátu GeoJSON, GPX, KML, zazipovaný Shapefile nebo FlatGeobuf"
 
 #: view~dictionnary.digitizing.toolbar.line
 msgctxt "view~dictionnary.digitizing.toolbar.line"
@@ -571,13 +583,13 @@ msgstr "Otočit vybranou geometrii"
 
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
-msgid "Save draw in the browser"
-msgstr "Uložit kresbu v prohlížeči"
+msgid "Save drawing in the browser"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.save.remove
 msgctxt "view~dictionnary.digitizing.toolbar.save.remove"
-msgid "Remove draw from the browser"
-msgstr "Odebrat zákres z prohlížeče"
+msgid "Remove drawing from the browser"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.save.state
 msgctxt "view~dictionnary.digitizing.toolbar.save.state"
@@ -760,14 +772,10 @@ msgstr "Opravdu chcete smazat vybranou funkci?"
 msgctxt "view~dictionnary.edition.confirm.launch.child.creation"
 msgid ""
 "You are about to create a new child object for the currently edited object. \n"
-"Please check before that you have already saved your changes.\n"
+"Please make sure you have already saved your changes.\n"
 "\n"
 "Do you wish to continue?"
 msgstr ""
-"Chystáte se vytvořit nový podřízený objekt pro aktuálně upravovaný objekt. \n"
-"Prosím zkontrolujte předtím, že jste již uložili své změny.\n"
-"\n"
-"Přejete si pokračovat?"
 
 #: view~dictionnary.edition.confirm.paste
 msgctxt "view~dictionnary.edition.confirm.paste"
@@ -784,19 +792,14 @@ msgid ""
 "The related links with the following layers:\n"
 " %s \n"
 "\n"
-"will be also deleted"
+"will also be deleted"
 msgstr ""
-"Opravdu chcete smazat vybranou funkci?\n"
-"\n"
-"Související odkazy s následujícími vrstvami:\n"
-"%s\n"
-"\n"
-"bude také smazána"
 
 #: view~dictionnary.edition.confirm.pivot.unlink
 msgctxt "view~dictionnary.edition.confirm.pivot.unlink"
-msgid "Are you sure you want to unlink the selected feature from \"%l\" layer?"
-msgstr "Opravdu chcete zrušit propojení vybraného prvku s vrstvou \"%l\"?"
+msgid ""
+"Are you sure you want to unlink the selected feature from the \"%l\" layer?"
+msgstr ""
 
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
@@ -840,6 +843,11 @@ msgctxt "view~dictionnary.edition.geom.copyPaste.copied"
 msgid "Geometry copied successfully"
 msgstr ""
 
+#: view~dictionnary.edition.geom.copyPaste.digitizinLayerName
+msgctxt "view~dictionnary.edition.geom.copyPaste.digitizinLayerName"
+msgid "Drawings"
+msgstr ""
+
 #: view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures
 msgctxt "view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures"
 msgid "No compatible features found at this location"
@@ -848,8 +856,8 @@ msgstr ""
 #: view~dictionnary.edition.geom.copyPaste.noCopyableLayers
 msgctxt "view~dictionnary.edition.geom.copyPaste.noCopyableLayers"
 msgid ""
-"No copyable layers found. Layers must be visible, popup-enabled and "
-"published as WFS to copy their geometries."
+"No copyable digitizing features or map layers found. Map layers must be "
+"visible, popup-enabled and published as WFS to copy their geometries."
 msgstr ""
 
 #: view~dictionnary.edition.geom.copyPaste.queryError
@@ -864,8 +872,8 @@ msgstr "Vložte geometrii"
 
 #: view~dictionnary.edition.link.pivot.add
 msgctxt "view~dictionnary.edition.link.pivot.add"
-msgid "The new record will be linked to the feature ID \"%f\" of \"%l\" layer"
-msgstr "Nový záznam bude propojen s ID prvku \"%f\" vrstvy \"%l\"."
+msgid "The new record will be linked to the feature ID \"%f\" of the \"%l\" layer"
+msgstr ""
 
 #: view~dictionnary.edition.message.error.fetch.form
 msgctxt "view~dictionnary.edition.message.error.fetch.form"
@@ -920,16 +928,14 @@ msgstr "Můžete změnit funkci, kterou jste vybrali, a poté odeslat."
 #: view~dictionnary.edition.splitfeat.form.error
 msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
-"You should fill correctly the form, in order to create a new feature after "
-"splitting the geometry"
+"You should fill in the form correctly in order to create a new feature after"
+" splitting the geometry."
 msgstr ""
-"Formulář byste měli vyplnit správně, abyste po rozdělení geometrie vytvořili"
-" nový prvek"
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
-msgid "A technical error occurs. Split cannot be done."
-msgstr "Došlo k technické chybě. Rozdělení nelze provést."
+msgid "A technical error occurred. The split cannot be done."
+msgstr ""
 
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
@@ -965,6 +971,28 @@ msgstr "Bez výsledku"
 msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
 msgstr "Vyhledávání"
+
+#: view~dictionnary.featureButton.create.label
+msgctxt "view~dictionnary.featureButton.create.label"
+msgid "Create"
+msgstr "Vytvořit"
+
+#: view~dictionnary.featureButton.edit.label
+msgctxt "view~dictionnary.featureButton.edit.label"
+msgid "Edit"
+msgstr "Editace"
+
+#: view~dictionnary.featureButton.error
+msgctxt "view~dictionnary.featureButton.error"
+msgid ""
+"An error occurred while fetching the feature data. Please contact the system"
+" administrator."
+msgstr ""
+
+#: view~dictionnary.featureButton.popup.label
+msgctxt "view~dictionnary.featureButton.popup.label"
+msgid "Details"
+msgstr ""
 
 #: view~dictionnary.featuresTable.empty.message
 msgctxt "view~dictionnary.featuresTable.empty.message"
@@ -1160,8 +1188,8 @@ msgstr ""
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
-msgid "Right is required to export layer."
-msgstr "Pro export vrstvy je požadováno povolující právo."
+msgid "The right to export this layer is required."
+msgstr ""
 
 #: view~dictionnary.layer.export.started
 msgctxt "view~dictionnary.layer.export.started"
@@ -1430,7 +1458,7 @@ msgstr ""
 
 #: view~dictionnary.permalink.error.get.not.found
 msgctxt "view~dictionnary.permalink.error.get.not.found"
-msgid "The permalink does not exists"
+msgid "The permalink does not exist"
 msgstr ""
 
 #: view~dictionnary.permalink.error.parameters
@@ -1445,7 +1473,7 @@ msgstr ""
 
 #: view~dictionnary.permalink.get.error
 msgctxt "view~dictionnary.permalink.get.error"
-msgid "Cannot retreive permalink"
+msgid "Cannot retrieve permalink"
 msgstr ""
 
 #: view~dictionnary.permalink.history.clipboard
@@ -1455,7 +1483,7 @@ msgstr ""
 
 #: view~dictionnary.permalink.history.delete.all
 msgctxt "view~dictionnary.permalink.history.delete.all"
-msgid "Remove all permalink from cache?"
+msgid "Remove all permalinks from cache?"
 msgstr ""
 
 #: view~dictionnary.permalink.history.delete.all.title
@@ -1596,11 +1624,8 @@ msgctxt "view~dictionnary.project.has.not.found.layers"
 msgid ""
 "Some layers are in the WMS capabilities (*.qgs file) but are not found in "
 "the Lizmap configuration file (*.qgs.cfg). Is the Lizmap configuration file "
-"up to date ?"
+"up to date?"
 msgstr ""
-"Některé vrstvy jsou v možnostech WMS (soubor *.qgs), ale nenacházejí se v "
-"konfiguračním souboru Lizmap (*.qgs.cfg). Je konfigurační soubor Lizmap "
-"aktuální ?"
 
 #: view~dictionnary.project.has.warnings
 msgctxt "view~dictionnary.project.has.warnings"
@@ -1746,14 +1771,22 @@ msgctxt "view~dictionnary.selectiontool.toolbar.title"
 msgid "Selection"
 msgstr "Výběr"
 
+#: view~dictionnary.snapping.digitizing.label
+msgctxt "view~dictionnary.snapping.digitizing.label"
+msgid "Activate snap on drawings/imported features"
+msgstr ""
+
+#: view~dictionnary.snapping.digitizing.title
+msgctxt "view~dictionnary.snapping.digitizing.title"
+msgid "Snap on drawings"
+msgstr ""
+
 #: view~dictionnary.snapping.list.disabled
 msgctxt "view~dictionnary.snapping.list.disabled"
 msgid ""
-"This layer is hidden. Turn on the layer on the layer panel to toggle "
+"This layer is hidden. Turn the layer on in the layer panel to toggle "
 "snapping on it"
 msgstr ""
-"Tato vrstva je skrytá. Zapnutím vrstvy na panelu vrstvy přepnete přichycení "
-"k ní"
 
 #: view~dictionnary.snapping.list.title
 msgctxt "view~dictionnary.snapping.list.title"
@@ -1769,6 +1802,16 @@ msgstr "Přepněte u této vrstvy přichycení"
 msgctxt "view~dictionnary.snapping.message.activated"
 msgid "Snapping has been automatically activated."
 msgstr "Přichytávání bylo automaticky aktivováno."
+
+#: view~dictionnary.snapping.selector.intersections.label
+msgctxt "view~dictionnary.snapping.selector.intersections.label"
+msgid "Snap on intersection"
+msgstr ""
+
+#: view~dictionnary.snapping.selector.vertex.label
+msgctxt "view~dictionnary.snapping.selector.vertex.label"
+msgid "Snap on vertex e lines"
+msgstr ""
 
 #: view~dictionnary.snapping.title
 msgctxt "view~dictionnary.snapping.title"
@@ -1796,13 +1839,10 @@ msgstr ""
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"Maybe you will have a clue by opening the \"Developer tools\" in your web browser. It's usually <kbd>F12</kbd>. Check the \"Console\" and \"Network\" tabs.\n"
 "\n"
 "Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
-"Možná vám napoví otevření \"Nástrojů pro vývojáře\" ve webovém prohlížeči. Obvykle je to klávesa <kbd>F12</kbd>. Zkontrolujte \"Console\" a \"Networks\".\n"
-"\n"
-"Navštivte panel správy a na stránce protokolu zkontrolujte, zda požadavek HTTP neskončil chybou související s tímto projektem."
 
 #: view~dictionnary.startup.features.empty
 msgctxt "view~dictionnary.startup.features.empty"
@@ -1820,8 +1860,8 @@ msgstr ""
 
 #: view~dictionnary.startup.features.loading
 msgctxt "view~dictionnary.startup.features.loading"
-msgid "Loading features, please wait..."
-msgstr "Načítání prvků, prosím vyčkejte..."
+msgid "Loading features, please wait…"
+msgstr ""
 
 #: view~dictionnary.startup.goToProject
 msgctxt "view~dictionnary.startup.goToProject"
@@ -1841,19 +1881,27 @@ msgstr "Tato mapa bez dalšího JavaScriptu"
 #: view~dictionnary.startup.user_defined_js
 msgctxt "view~dictionnary.startup.user_defined_js"
 msgid ""
-"This map contains some users additional JavaScript scripts. This can be the "
+"This map contains some additional user JavaScript scripts. This can be the "
 "cause of this message, try disabling them."
 msgstr ""
-"Tato mapa obsahuje některé uživatelské skripty JavaScriptu navíc. To může "
-"být příčinou této zprávy, zkuste je vypnout."
 
 #: view~dictionnary.switcher.layer.export.title
 msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
 msgstr "Export"
 
-#: view~dictionnary.switcher.layer.export.warn
-msgctxt "view~dictionnary.switcher.layer.export.warn"
+#: view~dictionnary.switcher.layer.export.warn.less.features
+msgctxt "view~dictionnary.switcher.layer.export.warn.less.features"
+msgid "Select less features to export"
+msgstr ""
+
+#: view~dictionnary.switcher.layer.export.warn.no.features
+msgctxt "view~dictionnary.switcher.layer.export.warn.no.features"
+msgid "Select at least one feature to export"
+msgstr ""
+
+#: view~dictionnary.switcher.layer.export.warn.single.layer
+msgctxt "view~dictionnary.switcher.layer.export.warn.single.layer"
 msgid "Please select a single layer to export"
 msgstr "Vyberte jednu vrstvu, kterou chcete exportovat"
 
@@ -1879,8 +1927,8 @@ msgstr "Stop"
 
 #: view~dictionnary.tooltip.loading.error
 msgctxt "view~dictionnary.tooltip.loading.error"
-msgid "An error prevented to load the tooltip data"
-msgstr "Při načítání dat popisku nedošlo k chybě"
+msgid "An error prevented the tooltip data from loading"
+msgstr ""
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -1961,6 +2009,17 @@ msgstr "Storno"
 msgctxt "view~edition.form.data.saved"
 msgid "Data has been saved."
 msgstr "Data byla uložena"
+
+#: view~edition.form.error.text.widget
+msgctxt "view~edition.form.error.text.widget"
+msgid ""
+"The value of \"%s\" could not be computed. Please contact the administrator."
+msgstr ""
+
+#: view~edition.form.error.text.widget.details
+msgctxt "view~edition.form.error.text.widget.details"
+msgid "The value of \"%s\" could not be computed: %s"
+msgstr ""
 
 #: view~edition.form.reset.label
 msgctxt "view~edition.form.reset.label"
@@ -2185,6 +2244,11 @@ msgstr "Při ukládání formuláře došlo k chybě."
 msgctxt "view~edition.message.error.save.fields"
 msgid "No fields available for saving the form."
 msgstr "Pro uložení formuláře nejsou k dispozici žádná pole."
+
+#: view~edition.message.error.upload.file
+msgctxt "view~edition.message.error.upload.file"
+msgid "Failed to upload file"
+msgstr ""
 
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
@@ -3017,6 +3081,18 @@ msgstr "Stop"
 msgctxt "view~map.toolbar.content.underway"
 msgid "Underway…"
 msgstr "Probíhá..."
+
+#: view~map.tooltip.error
+msgctxt "view~map.tooltip.error"
+msgid ""
+"The tooltips of the layer \"%s\" could not be computed. Please contact the "
+"administrator."
+msgstr ""
+
+#: view~map.tooltip.error.details
+msgctxt "view~map.tooltip.error.details"
+msgid "The tooltips of the layer \"%s\" could not be computed: %s"
+msgstr ""
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"

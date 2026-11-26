@@ -4,17 +4,17 @@
 # rldhont <rldhont@gmail.com>, 2025
 # Laurent Jouanneau <dev@ljouanneau.com>, 2025
 # Patrick Hoornaert <patrick.hoornaert@gate-16.com>, 2025
-# Hidde Wieringa <hidde@hiddewieringa.nl>, 2025
-# Jean-Louis Stanus <rammstan@msn.com>, 2026
 # Nico Veenstra <nvbgm@gmx.net>, 2026
+# Hidde Wieringa <hidde@hiddewieringa.nl>, 2026
+# Jean-Louis Stanus <rammstan@msn.com>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Lizmap Web Client 3.10 view\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-06 18:41++0000\n"
+"POT-Creation-Date: 2026-11-26 18:53++0000\n"
 "PO-Revision-Date: 2025-06-25 09:34+0000\n"
-"Last-Translator: Nico Veenstra <nvbgm@gmx.net>, 2026\n"
+"Last-Translator: Jean-Louis Stanus <rammstan@msn.com>, 2026\n"
 "Language-Team: Dutch (https://app.transifex.com/3liz-1/teams/62012/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -288,17 +288,15 @@ msgstr "Zoom"
 #: view~dictionnary.attributeLayers.msg.layer.not.visible
 msgctxt "view~dictionnary.attributeLayers.msg.layer.not.visible"
 msgid ""
-"The layer is not visible. Please zoom at a scale in which the features are "
+"The layer is not visible. Please zoom to a scale in which the features are "
 "visible."
 msgstr ""
-"De laag is niet zichtbaar. Zoom in op een schaal waarin de features "
-"zichtbaar worden."
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived
 msgctxt ""
 "view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.no.actived"
-msgid "Activated line needed."
-msgstr "Geactiveerde lijn nodig."
+msgid "An activated line is needed."
+msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.data.createChildFeature.title
 msgctxt ""
@@ -377,8 +375,8 @@ msgstr "Selecteer gevonden lijn"
 #: view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn
 msgctxt "view~dictionnary.attributeLayers.toolbar.btn.select.searched.warn"
 msgid ""
-"You are about to select more than a 1000 features. This may take a few "
-"seconds to process. Are you sure you want to proceed?"
+"You are about to select more than 1000 features. This may take a few seconds"
+" to process. Are you sure you want to proceed?"
 msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.btn.toggle.children.title
@@ -390,6 +388,25 @@ msgstr "Omwisselen tabellen onderliggende objecten"
 msgctxt "view~dictionnary.attributeLayers.toolbar.cb.data.detail.title"
 msgid "Display info"
 msgstr "Informatie weergeven"
+
+#: view~dictionnary.attributeLayers.toolbar.input.search.disabled.help
+msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.disabled.help"
+msgid ""
+"The search in all the columns is not available for this layer, which has too"
+" many features. Use the search builder instead."
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.input.search.help
+msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.help"
+msgid "Search in all the columns"
+msgstr ""
+
+#: view~dictionnary.attributeLayers.toolbar.input.search.skipped.help
+msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.skipped.help"
+msgid ""
+"Too many values match the search, type more characters to search in these "
+"columns:"
+msgstr ""
 
 #: view~dictionnary.attributeLayers.toolbar.input.search.title
 msgctxt "view~dictionnary.attributeLayers.toolbar.input.search.title"
@@ -485,8 +502,8 @@ msgstr ""
 #: view~dictionnary.digitizing.import.metadata.error
 msgctxt "view~dictionnary.digitizing.import.metadata.error"
 msgid ""
-"No metadata found. Make sure the projection of the fgb file is the same as "
-"the current project"
+"No metadata found. Make sure the projection of the FlatGeobuf file is the "
+"same as the current project"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.box
@@ -501,8 +518,8 @@ msgstr "Cirkel"
 
 #: view~dictionnary.digitizing.toolbar.color
 msgctxt "view~dictionnary.digitizing.toolbar.color"
-msgid "Pick draw color"
-msgstr "Kies kleur"
+msgid "Pick drawing color"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.deactivate
 msgctxt "view~dictionnary.digitizing.toolbar.deactivate"
@@ -533,12 +550,12 @@ msgstr "Verwijder alle features"
 
 #: view~dictionnary.digitizing.toolbar.freehand
 msgctxt "view~dictionnary.digitizing.toolbar.freehand"
-msgid "Free hand"
-msgstr "Losse hand"
+msgid "Freehand"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.import
 msgctxt "view~dictionnary.digitizing.toolbar.import"
-msgid "Import in GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
+msgid "Import GeoJSON, GPX, KML, zipped Shapefile or FlatGeobuf"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.line
@@ -573,12 +590,12 @@ msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.save
 msgctxt "view~dictionnary.digitizing.toolbar.save"
-msgid "Save draw in the browser"
-msgstr "Sla tekening op in de browser"
+msgid "Save drawing in the browser"
+msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.save.remove
 msgctxt "view~dictionnary.digitizing.toolbar.save.remove"
-msgid "Remove draw from the browser"
+msgid "Remove drawing from the browser"
 msgstr ""
 
 #: view~dictionnary.digitizing.toolbar.save.state
@@ -756,14 +773,10 @@ msgstr "Bent u zeker dat u de geselecteerde feature wenst te schrappen?"
 msgctxt "view~dictionnary.edition.confirm.launch.child.creation"
 msgid ""
 "You are about to create a new child object for the currently edited object. \n"
-"Please check before that you have already saved your changes.\n"
+"Please make sure you have already saved your changes.\n"
 "\n"
 "Do you wish to continue?"
 msgstr ""
-"U staat op het punt een nieuw onderliggend object te maken voor het momenteel bewerkte object. \n"
-"Controleer eerst of u uw wijzigingen al heeft opgeslagen.\n"
-"\n"
-"Wilt u doorgaan?"
 
 #: view~dictionnary.edition.confirm.paste
 msgctxt "view~dictionnary.edition.confirm.paste"
@@ -782,21 +795,14 @@ msgid ""
 "The related links with the following layers:\n"
 " %s \n"
 "\n"
-"will be also deleted"
+"will also be deleted"
 msgstr ""
-"Weet u zeker dat u het geselecteerde element wilt verwijderen?\n"
-"\n"
-" De gerelateerde links met de volgende lagen: \n"
-"%s\n"
-"\n"
-" worden ook verwijderd"
 
 #: view~dictionnary.edition.confirm.pivot.unlink
 msgctxt "view~dictionnary.edition.confirm.pivot.unlink"
-msgid "Are you sure you want to unlink the selected feature from \"%l\" layer?"
+msgid ""
+"Are you sure you want to unlink the selected feature from the \"%l\" layer?"
 msgstr ""
-"Weet u zeker dat u het geselecteerde object wilt ontkoppelen van de laag "
-"\"%l\"?"
 
 #: view~dictionnary.edition.confirm.restart-drawing
 msgctxt "view~dictionnary.edition.confirm.restart-drawing"
@@ -841,6 +847,11 @@ msgctxt "view~dictionnary.edition.geom.copyPaste.copied"
 msgid "Geometry copied successfully"
 msgstr ""
 
+#: view~dictionnary.edition.geom.copyPaste.digitizinLayerName
+msgctxt "view~dictionnary.edition.geom.copyPaste.digitizinLayerName"
+msgid "Drawings"
+msgstr ""
+
 #: view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures
 msgctxt "view~dictionnary.edition.geom.copyPaste.noCompatibleFeatures"
 msgid "No compatible features found at this location"
@@ -849,8 +860,8 @@ msgstr ""
 #: view~dictionnary.edition.geom.copyPaste.noCopyableLayers
 msgctxt "view~dictionnary.edition.geom.copyPaste.noCopyableLayers"
 msgid ""
-"No copyable layers found. Layers must be visible, popup-enabled and "
-"published as WFS to copy their geometries."
+"No copyable digitizing features or map layers found. Map layers must be "
+"visible, popup-enabled and published as WFS to copy their geometries."
 msgstr ""
 
 #: view~dictionnary.edition.geom.copyPaste.queryError
@@ -865,10 +876,8 @@ msgstr "Plak de geometrie"
 
 #: view~dictionnary.edition.link.pivot.add
 msgctxt "view~dictionnary.edition.link.pivot.add"
-msgid "The new record will be linked to the feature ID \"%f\" of \"%l\" layer"
+msgid "The new record will be linked to the feature ID \"%f\" of the \"%l\" layer"
 msgstr ""
-"Het nieuwe record zal worden gekoppeld aan de object-ID \"%f\" van laag "
-"\"%l\"."
 
 #: view~dictionnary.edition.message.error.fetch.form
 msgctxt "view~dictionnary.edition.message.error.fetch.form"
@@ -926,16 +935,14 @@ msgstr ""
 #: view~dictionnary.edition.splitfeat.form.error
 msgctxt "view~dictionnary.edition.splitfeat.form.error"
 msgid ""
-"You should fill correctly the form, in order to create a new feature after "
-"splitting the geometry"
+"You should fill in the form correctly in order to create a new feature after"
+" splitting the geometry."
 msgstr ""
-"Na het splitsen van de geometrie moet u het formulier correct invullen om "
-"een nieuwe feature te creëren."
 
 #: view~dictionnary.edition.splitfeat.tech.error
 msgctxt "view~dictionnary.edition.splitfeat.tech.error"
-msgid "A technical error occurs. Split cannot be done."
-msgstr "Er is een technische fout. De split kan niet worden uitgevoerd."
+msgid "A technical error occurred. The split cannot be done."
+msgstr ""
 
 #: view~dictionnary.edition.title
 msgctxt "view~dictionnary.edition.title"
@@ -971,6 +978,28 @@ msgstr "Geen resultaten"
 msgctxt "view~dictionnary.externalsearch.search"
 msgid "Searching"
 msgstr "Zoeken"
+
+#: view~dictionnary.featureButton.create.label
+msgctxt "view~dictionnary.featureButton.create.label"
+msgid "Create"
+msgstr "Creëren"
+
+#: view~dictionnary.featureButton.edit.label
+msgctxt "view~dictionnary.featureButton.edit.label"
+msgid "Edit"
+msgstr "Bewerken"
+
+#: view~dictionnary.featureButton.error
+msgctxt "view~dictionnary.featureButton.error"
+msgid ""
+"An error occurred while fetching the feature data. Please contact the system"
+" administrator."
+msgstr ""
+
+#: view~dictionnary.featureButton.popup.label
+msgctxt "view~dictionnary.featureButton.popup.label"
+msgid "Details"
+msgstr ""
 
 #: view~dictionnary.featuresTable.empty.message
 msgctxt "view~dictionnary.featuresTable.empty.message"
@@ -1165,8 +1194,8 @@ msgstr ""
 
 #: view~dictionnary.layer.export.right.required
 msgctxt "view~dictionnary.layer.export.right.required"
-msgid "Right is required to export layer."
-msgstr "Rechts is nodig om laag te exporteren."
+msgid "The right to export this layer is required."
+msgstr ""
 
 #: view~dictionnary.layer.export.started
 msgctxt "view~dictionnary.layer.export.started"
@@ -1437,7 +1466,7 @@ msgstr ""
 
 #: view~dictionnary.permalink.error.get.not.found
 msgctxt "view~dictionnary.permalink.error.get.not.found"
-msgid "The permalink does not exists"
+msgid "The permalink does not exist"
 msgstr ""
 
 #: view~dictionnary.permalink.error.parameters
@@ -1452,7 +1481,7 @@ msgstr ""
 
 #: view~dictionnary.permalink.get.error
 msgctxt "view~dictionnary.permalink.get.error"
-msgid "Cannot retreive permalink"
+msgid "Cannot retrieve permalink"
 msgstr ""
 
 #: view~dictionnary.permalink.history.clipboard
@@ -1462,7 +1491,7 @@ msgstr ""
 
 #: view~dictionnary.permalink.history.delete.all
 msgctxt "view~dictionnary.permalink.history.delete.all"
-msgid "Remove all permalink from cache?"
+msgid "Remove all permalinks from cache?"
 msgstr ""
 
 #: view~dictionnary.permalink.history.delete.all.title
@@ -1604,7 +1633,7 @@ msgctxt "view~dictionnary.project.has.not.found.layers"
 msgid ""
 "Some layers are in the WMS capabilities (*.qgs file) but are not found in "
 "the Lizmap configuration file (*.qgs.cfg). Is the Lizmap configuration file "
-"up to date ?"
+"up to date?"
 msgstr ""
 
 #: view~dictionnary.project.has.warnings
@@ -1750,14 +1779,22 @@ msgctxt "view~dictionnary.selectiontool.toolbar.title"
 msgid "Selection"
 msgstr "Selectie"
 
+#: view~dictionnary.snapping.digitizing.label
+msgctxt "view~dictionnary.snapping.digitizing.label"
+msgid "Activate snap on drawings/imported features"
+msgstr ""
+
+#: view~dictionnary.snapping.digitizing.title
+msgctxt "view~dictionnary.snapping.digitizing.title"
+msgid "Snap on drawings"
+msgstr ""
+
 #: view~dictionnary.snapping.list.disabled
 msgctxt "view~dictionnary.snapping.list.disabled"
 msgid ""
-"This layer is hidden. Turn on the layer on the layer panel to toggle "
+"This layer is hidden. Turn the layer on in the layer panel to toggle "
 "snapping on it"
 msgstr ""
-"Deze laag is verborgen. Schakel de laag in het lagenpaneel in om het klikken"
-" erop in of uit te schakelen"
 
 #: view~dictionnary.snapping.list.title
 msgctxt "view~dictionnary.snapping.list.title"
@@ -1772,6 +1809,16 @@ msgstr "Schakel het snappen voor deze laag in of uit"
 #: view~dictionnary.snapping.message.activated
 msgctxt "view~dictionnary.snapping.message.activated"
 msgid "Snapping has been automatically activated."
+msgstr ""
+
+#: view~dictionnary.snapping.selector.intersections.label
+msgctxt "view~dictionnary.snapping.selector.intersections.label"
+msgid "Snap on intersection"
+msgstr ""
+
+#: view~dictionnary.snapping.selector.vertex.label
+msgctxt "view~dictionnary.snapping.selector.vertex.label"
+msgid "Snap on vertex e lines"
 msgstr ""
 
 #: view~dictionnary.snapping.title
@@ -1798,7 +1845,7 @@ msgstr ""
 #: view~dictionnary.startup.error.developer.tools
 msgctxt "view~dictionnary.startup.error.developer.tools"
 msgid ""
-"Maybe you will have a clue by opening your \"Developer tools\" in your web-browser. It's usually <kbd>F12</kbd>. Check \"Console\" and \"Networks\".\n"
+"Maybe you will have a clue by opening the \"Developer tools\" in your web browser. It's usually <kbd>F12</kbd>. Check the \"Console\" and \"Network\" tabs.\n"
 "\n"
 "Visit the administration panel and check in the log page if an HTTP request ended with an error related to this project."
 msgstr ""
@@ -1817,7 +1864,7 @@ msgstr ""
 
 #: view~dictionnary.startup.features.loading
 msgctxt "view~dictionnary.startup.features.loading"
-msgid "Loading features, please wait..."
+msgid "Loading features, please wait…"
 msgstr ""
 
 #: view~dictionnary.startup.goToProject
@@ -1838,7 +1885,7 @@ msgstr ""
 #: view~dictionnary.startup.user_defined_js
 msgctxt "view~dictionnary.startup.user_defined_js"
 msgid ""
-"This map contains some users additional JavaScript scripts. This can be the "
+"This map contains some additional user JavaScript scripts. This can be the "
 "cause of this message, try disabling them."
 msgstr ""
 
@@ -1847,8 +1894,18 @@ msgctxt "view~dictionnary.switcher.layer.export.title"
 msgid "Export"
 msgstr "Exporteren"
 
-#: view~dictionnary.switcher.layer.export.warn
-msgctxt "view~dictionnary.switcher.layer.export.warn"
+#: view~dictionnary.switcher.layer.export.warn.less.features
+msgctxt "view~dictionnary.switcher.layer.export.warn.less.features"
+msgid "Select less features to export"
+msgstr ""
+
+#: view~dictionnary.switcher.layer.export.warn.no.features
+msgctxt "view~dictionnary.switcher.layer.export.warn.no.features"
+msgid "Select at least one feature to export"
+msgstr ""
+
+#: view~dictionnary.switcher.layer.export.warn.single.layer
+msgctxt "view~dictionnary.switcher.layer.export.warn.single.layer"
 msgid "Please select a single layer to export"
 msgstr "Selecteer een enkele laag om te exporteren."
 
@@ -1874,8 +1931,8 @@ msgstr "Stop"
 
 #: view~dictionnary.tooltip.loading.error
 msgctxt "view~dictionnary.tooltip.loading.error"
-msgid "An error prevented to load the tooltip data"
-msgstr "Een fout verhinderde het laden van de tooltipgegevens"
+msgid "An error prevented the tooltip data from loading"
+msgstr ""
 
 #: view~dictionnary.tree.button.checkbox
 msgctxt "view~dictionnary.tree.button.checkbox"
@@ -1956,6 +2013,17 @@ msgstr "Annuleer"
 msgctxt "view~edition.form.data.saved"
 msgid "Data has been saved."
 msgstr "Gegevens zijn opgeslagen."
+
+#: view~edition.form.error.text.widget
+msgctxt "view~edition.form.error.text.widget"
+msgid ""
+"The value of \"%s\" could not be computed. Please contact the administrator."
+msgstr ""
+
+#: view~edition.form.error.text.widget.details
+msgctxt "view~edition.form.error.text.widget.details"
+msgid "The value of \"%s\" could not be computed: %s"
+msgstr ""
 
 #: view~edition.form.reset.label
 msgctxt "view~edition.form.reset.label"
@@ -2186,6 +2254,11 @@ msgstr "Er is een fout opgetreden bij het opslaan van het formulier."
 msgctxt "view~edition.message.error.save.fields"
 msgid "No fields available for saving the form."
 msgstr "Geen velden beschikbaar om het formulier op te slaan."
+
+#: view~edition.message.error.upload.file
+msgctxt "view~edition.message.error.upload.file"
+msgid "Failed to upload file"
+msgstr ""
 
 #: view~edition.message.error.upload.layer
 msgctxt "view~edition.message.error.upload.layer"
@@ -3022,6 +3095,18 @@ msgstr "Stop"
 msgctxt "view~map.toolbar.content.underway"
 msgid "Underway…"
 msgstr "Aan de gang..."
+
+#: view~map.tooltip.error
+msgctxt "view~map.tooltip.error"
+msgid ""
+"The tooltips of the layer \"%s\" could not be computed. Please contact the "
+"administrator."
+msgstr ""
+
+#: view~map.tooltip.error.details
+msgctxt "view~map.tooltip.error.details"
+msgid "The tooltips of the layer \"%s\" could not be computed: %s"
+msgstr ""
 
 #: view~map.tooltip.navbar.title
 msgctxt "view~map.tooltip.navbar.title"
