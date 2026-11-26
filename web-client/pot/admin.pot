@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2026-11-20 10:44++0000\n"
-"POT-Creation-Date: 2026-11-20 10:44++0000\n"
+"PO-Revision-Date: 2026-11-26 18:58++0000\n"
+"POT-Creation-Date: 2026-11-26 18:58++0000\n"
 "Project-Id-Version: Lizmap Web Client 3.9 admin\n"
 "Report-Msgid-Bugs-To: \n"
 
@@ -1880,6 +1880,16 @@ msgstr ""
 #: admin~user.email.admin.body
 msgctxt "admin~user.email.admin.body"
 msgid "Someone has requested a Lizmap account to be able to access the maps, with the login %s and the e-mail %s."
+msgstr ""
+
+#: admin~user.email.admin.newsamlaccount.body
+msgctxt "admin~user.email.admin.newsamlaccount.body"
+msgid "A new user has been authenticated with SAML and his account has been created, with the login %s and the e-mail %s."
+msgstr ""
+
+#: admin~user.email.admin.newsamlaccount.subject
+msgctxt "admin~user.email.admin.newsamlaccount.subject"
+msgid "Lizmap - A new account has been created automatically"
 msgstr ""
 
 #: admin~user.email.admin.subject
